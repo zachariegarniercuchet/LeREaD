@@ -6,83 +6,122 @@ Batch folder: output_coref\1-final\gemma4_pip
 Split: extended_test
 File suffix: _resolution.html
 ======================================================================
-Found 24 evaluation pair(s)
+Found 37 evaluation pair(s)
 
 
-Level-3 (uri) batch evaluation — 24 file pair(s)
+Level-3 (uri) batch evaluation — 37 file pair(s)
 ======================================================================
 
-[1/24] 1983CanLII2967L.html
+[1/37] 1983CanLII2967L.html
   tp:   14  |  P: 63.6%  R: 73.7%  F1: 68.3%
 
-[2/24] 1993CanLII1889PESCTSD.html
+[2/37] 1993CanLII1889PESCTSD.html
   tp:   56  |  P: 70.0%  R: 62.9%  F1: 66.3%
 
-[3/24] 1993CanLII3004FCA.html
+[3/37] 1993CanLII3004FCA.html
   tp:  183  |  P: 62.0%  R: 50.1%  F1: 55.5%
 
-[4/24] 1993NSSC71.html
+[4/37] 1993NSSC71.html
   tp:   19  |  P: 52.8%  R: 51.4%  F1: 52.1%
 
-[5/24] 1997CanLII11497.html
+[5/37] 1997CanLII11497.html
   tp:   67  |  P: 75.3%  R: 69.1%  F1: 72.0%
 
-[6/24] 1999CanLII7320(ONCA).html
+[6/37] 1999CanLII7320(ONCA).html
   tp:   85  |  P: 70.8%  R: 47.8%  F1: 57.0%
 
-[7/24] 2001BCSC1342.html
+[7/37] 2001BCSC1342.html
   tp:   19  |  P: 46.3%  R: 67.9%  F1: 55.1%
 
-[8/24] 2001CanLII21117.html
+[8/37] 2001CanLII21117.html
   tp:  182  |  P: 63.2%  R: 64.3%  F1: 63.7%
 
-[9/24] 2002SCC33.html
+[9/37] 2002SCC33.html
   tp:  153  |  P: 78.9%  R: 52.9%  F1: 63.4%
 
-[10/24] 2003MBCA71.html
+[10/37] 2003MBCA71.html
   tp:   19  |  P: 45.2%  R: 63.3%  F1: 52.8%
 
-[11/24] 2005NLTD57.html
+[11/37] 2005NLTD57.html
   tp:   24  |  P: 48.0%  R: 52.2%  F1: 50.0%
 
-[12/24] 2005QCCA437.html
+[12/37] 2005QCCA437.html
   tp:   28  |  P: 27.2%  R: 28.0%  F1: 27.6%
 
-[13/24] 2009BCHRT256.html
+[13/37] 2009BCHRT256.html
   tp:   54  |  P: 41.9%  R: 43.5%  F1: 42.7%
 
-[14/24] 2009NUCA3.html
+[14/37] 2009NUCA3.html
   tp:   11  |  P: 45.8%  R: 73.3%  F1: 56.4%
 
-[15/24] 2009PECA12.html
+[15/37] 2009PECA12.html
   tp:   49  |  P: 73.1%  R: 56.3%  F1: 63.6%
 
-[16/24] 2010SKQB255.html
+[16/37] 2010SKQB255.html
   tp:   66  |  P: 77.6%  R: 73.3%  F1: 75.4%
 
-[17/24] 2012SKCA24.html
+[17/37] 2012SKCA24.html
   tp:   40  |  P: 88.9%  R: 90.9%  F1: 89.9%
 
-[18/24] 2013ONAFRAAT18.html
+[18/37] 2013ONAFRAAT18.html
   tp:    7  |  P: 25.9%  R: 22.6%  F1: 24.1%
 
-[19/24] 2014CanLII36807PELRB.html
+[19/37] 2014CanLII36807PELRB.html
   tp:   51  |  P: 26.3%  R: 25.9%  F1: 26.1%
 
-[20/24] 2015NSSC25.html
+[20/37] 2015NSSC25.html
   tp:  153  |  P: 67.1%  R: 72.2%  F1: 69.5%
 
-[21/24] 2016QCCS1184.html
+[21/37] 2016QCCS1184.html
   tp:   36  |  P: 51.4%  R: 51.4%  F1: 51.4%
 
-[22/24] 2017ABCA157.html
+[22/37] 2017ABCA157.html
   tp:  130  |  P: 37.8%  R: 48.1%  F1: 42.3%
 
-[23/24] 2018NSOIPC2.html
+[23/37] 2018NSOIPC2.html
   tp:   33  |  P: 14.0%  R: 12.3%  F1: 13.1%
 
-[24/24] 2024NBKB203.html
+[24/37] 2020ABPLAB11.html
+  tp:   40  |  P: 74.1%  R: 69.0%  F1: 71.4%
+
+[25/37] 2020BCHPRB101.html
+  tp:   76  |  P: 70.4%  R: 73.1%  F1: 71.7%
+
+[26/37] 2020FCA63.html
+  tp:  104  |  P: 78.8%  R: 64.6%  F1: 71.0%
+
+[27/37] 2022BCSC135.html
+  tp:  602  |  P: 70.0%  R: 61.2%  F1: 65.3%
+
+[28/37] 2022ONCMT32.html
+  tp:   73  |  P: 73.7%  R: 48.0%  F1: 58.2%
+
+[29/37] 2024ABOHSAB19.html
+  tp:   28  |  P: 77.8%  R: 68.3%  F1: 72.7%
+
+[30/37] 2024BCSC764.html
+  tp:  185  |  P: 80.1%  R: 84.9%  F1: 82.4%
+
+[31/37] 2024NBKB203.html
   tp:  191  |  P: 85.7%  R: 83.4%  F1: 84.5%
+
+[32/37] 2024NUCA9.html
+  tp:   70  |  P: 81.4%  R: 60.9%  F1: 69.7%
+
+[33/37] 2025ABAER7.html
+  tp:  120  |  P: 81.6%  R: 84.5%  F1: 83.0%
+
+[34/37] 2025ABKB246.html
+  tp:   52  |  P: 91.2%  R: 91.2%  F1: 91.2%
+
+[35/37] 2025MBKB136.html
+  tp:   30  |  P: 68.2%  R: 68.2%  F1: 68.2%
+
+[36/37] 2025NBEUB1.html
+  tp:   16  |  P: 84.2%  R: 76.2%  F1: 80.0%
+
+[37/37] 2026ABCA2L.html
+  tp:   32  |  P: 69.6%  R: 74.4%  F1: 71.9%
 
 ======================================================================
 
@@ -99,19 +138,19 @@ Level-3 (uri) batch evaluation — 24 file pair(s)
   OVERALL
 ──────────────────────────────────────────────────────────────────────────────
 
-  TP                          :   1670
-  FN - wrong uri (matched)    :    651
+  TP                          :   3098
+  FN - wrong uri (matched)    :    772
   FN - no uri produced        :      3
-  FN - mention never extracted:    875
-  FP - spurious span w/ uri   :    710
-  Skipped (gold uri=none)     :   6003
+  FN - mention never extracted:   1466
+  FP - spurious span w/ uri   :   1080
+  Skipped (gold uri=none)     :   9235
 
-  PRECISION                   :     55.10%
-  RECALL                      :     52.20%
-  F1                          :     53.61%
+  PRECISION                   :     62.59%
+  RECALL                      :     58.03%
+  F1                          :     60.22%
 
   (diagnostic) resolver-only accuracy, i.e. Level-1-matched spans only
-  ACCURACY | extraction OK    :     71.86%  (2324 instances)
+  ACCURACY | extraction OK    :     79.99%  (3873 instances)
 
 ──────────────────────────────────────────────────────────────────────────────
   PER-LABEL BREAKDOWN
@@ -119,9 +158,9 @@ Level-3 (uri) batch evaluation — 24 file pair(s)
 
   Key                                 TP    FN    FP    Prec     Rec      F1
   ──────────────────────────────────────────────────────────────────────────
-  decision                           970   826   496   66.2%   54.0%   59.5%
-  legislation                        678   688   777   46.6%   49.6%   48.1%
-  secondary sources                   22    15    88   20.0%   59.5%   29.9%
+  decision                          1510  1333   758   66.6%   53.1%   59.1%
+  legislation                       1559   886   968   61.7%   63.8%   62.7%
+  secondary sources                   29    22   126   18.7%   56.9%   28.2%
 
 ──────────────────────────────────────────────────────────────────────────────
   PER-CATEGORY BREAKDOWN
@@ -129,12 +168,12 @@ Level-3 (uri) batch evaluation — 24 file pair(s)
 
   Key                                 TP    FN    FP    Prec     Rec      F1
   ──────────────────────────────────────────────────────────────────────────
-  decision                           970   826   496   66.2%   54.0%   59.5%
-  legislation                        678   688   777   46.6%   49.6%   48.1%
-  secondary sources                   22    15    88   20.0%   59.5%   29.9%
+  decision                          1510  1333   758   66.6%   53.1%   59.1%
+  legislation                       1559   886   968   61.7%   63.8%   62.7%
+  secondary sources                   29    22   126   18.7%   56.9%   28.2%
 
 ══════════════════════════════════════════════════════════════════════════════
 
-  Macro F1 (mean per-document F1): 55.12%
-  Documents evaluated: 24/24
+  Macro F1 (mean per-document F1): 61.61%
+  Documents evaluated: 37/37
 

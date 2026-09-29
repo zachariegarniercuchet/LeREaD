@@ -2,26 +2,26 @@
 ======================================================================
 BATCH COREF EVALUATION
 ======================================================================
-Batch folder: output_coref\AA_final\gemma4_pip
+Batch folder: output_coref\1-final\gemma4_pip
 Split: extended_test
 Match mode: span (unmatched=singleton)
 ======================================================================
-Found 24 evaluation pair(s)
+Found 37 evaluation pair(s)
 
-Mention alignment (total over 24 document(s))
-  gold mentions: 4165 | system mentions: 3610 | matched: 2872
-  gold-only (missed): 1293 | system-only (spurious): 738
-  mention-level  P=0.796  R=0.690  F1=0.739
+Mention alignment (total over 37 document(s))
+  gold mentions: 6582 | system mentions: 5678 | matched: 4541
+  gold-only (missed): 2041 | system-only (spurious): 1137
+  mention-level  P=0.800  R=0.690  F1=0.741
 
 
-=== Aggregate over 24 document(s) ===
+=== Aggregate over 37 document(s) ===
 ┌──────────┬────────────┬────────────┬────────────┐
 │ Metric   │ Precision  │ Recall     │ F1         │
 ├──────────┼────────────┼────────────┼────────────┤
-│ MUC      │ 0.7210     │ 0.5999     │ 0.6549     │
-│ B3       │ 0.7843     │ 0.6632     │ 0.7187     │
-│ CEAF_e   │ 0.4025     │ 0.5239     │ 0.4553     │
-│ LEA      │ 0.4540     │ 0.4329     │ 0.4432     │
+│ MUC      │ 0.7398     │ 0.6188     │ 0.6739     │
+│ B3       │ 0.7831     │ 0.6623     │ 0.7177     │
+│ CEAF_e   │ 0.3754     │ 0.5010     │ 0.4292     │
+│ LEA      │ 0.4675     │ 0.4506     │ 0.4589     │
 └──────────┴────────────┴────────────┴────────────┘
-CoNLL average F1 (MUC/B3/CEAF_e): 0.6096
+CoNLL average F1 (MUC/B3/CEAF_e): 0.6069
 
