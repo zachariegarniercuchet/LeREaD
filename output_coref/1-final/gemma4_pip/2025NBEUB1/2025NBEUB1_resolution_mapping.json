@@ -1,0 +1,74 @@
+{
+  "Mining Act SNB": {
+    "uri": "https://canlii.ca/t/56f38",
+    "score": 0.7594194412231445,
+    "candidate_id": "l23667!23667-current-1",
+    "candidate_title": "Mining Act",
+    "query_text": "legislation | MINING ACT | Mining Act | Act | S.N.B., c. M-14.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56f38",
+        "score": 0.7594194412231445,
+        "candidate_title": "Mining Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-m-12/latest/rsnl-1990-c-m-12.html",
+        "score": 0.6827484965324402,
+        "candidate_title": "Mineral Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-m-17/latest/rsa-2000-c-m-17.html",
+        "score": 0.6631165146827698,
+        "candidate_title": "Mines and Minerals Act"
+      }
+    ]
+  },
+  "Cadillac Ventures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder": {
+    "uri": "https://www.canlii.org/en/ca/fca/doc/2023/2023fca24/2023fca24.html",
+    "score": 0.4842260777950287,
+    "candidate_id": "2023fca24",
+    "candidate_title": "Manitoba Métis Federation Inc. v. Canada (Energy Regulator)",
+    "query_text": "decision | Cadillac\nVentures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder | Cadillac | MN-001-2023",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2023/2023fca24/2023fca24.html",
+        "score": 0.4842260777950287,
+        "candidate_title": "Manitoba Métis Federation Inc. v. Canada (Energy Regulator)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2023/2023fca94/2023fca94.html",
+        "score": 0.4815275967121124,
+        "candidate_title": "Mand v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1999/1999canlii14840/1999canlii14840.html",
+        "score": 0.46145427227020264,
+        "candidate_title": "Royal Oak Mines Inc., Re"
+      }
+    ]
+  },
+  "Stewart v. New Brunswick (Mining Commissioner)": {
+    "uri": "https://canlii.ca/t/1mchs",
+    "score": 0.8683292865753174,
+    "candidate_id": "1995nbqb10026",
+    "candidate_title": "Stewart v. New Brunswick (Mining Commissioner)",
+    "query_text": "decision | Stewart v. New Brunswick (Mining Commissioner) | (1995), N.B.R. (2d) 353 (Q.B.) | [1995] N.B.J. No. 191",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mchs",
+        "score": 0.8683292865753174,
+        "candidate_title": "Stewart v. New Brunswick (Mining Commissioner)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2015/2015abca225/2015abca225.html",
+        "score": 0.6336246728897095,
+        "candidate_title": "Stewart v Elk Valley Coal Corporation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2006/2006nbca95/2006nbca95.html",
+        "score": 0.5712313055992126,
+        "candidate_title": "Page v. Workplace Health, Safety and Compensation Commission of New Brunswick"
+      }
+    ]
+  }
+}

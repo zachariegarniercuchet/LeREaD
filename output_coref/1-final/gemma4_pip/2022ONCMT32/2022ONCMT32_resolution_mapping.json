@@ -1,0 +1,578 @@
+{
+  "Securities Act": {
+    "uri": "https://canlii.ca/t/56l4v",
+    "score": 0.7223416566848755,
+    "candidate_id": "l484!484-current-1",
+    "candidate_title": "Securities Act",
+    "query_text": "legislation | Securities Act | Act | Ontario securities law | The Act | RSO 1990, c S.5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56l4v",
+        "score": 0.7223416566848755,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-s-13/latest/rsnl-1990-c-s-13.html",
+        "score": 0.699782133102417,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 0.6236892938613892,
+        "candidate_title": "Securities Act"
+      }
+    ]
+  },
+  "Statutory Powers Procedure Act": {
+    "uri": "https://canlii.ca/t/56jsg",
+    "score": 0.7891262769699097,
+    "candidate_id": "l474!474-current-1",
+    "candidate_title": "Statutory Powers Procedure Act",
+    "query_text": "legislation | Statutory Powers Procedure Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jsg",
+        "score": 0.7891262769699097,
+        "candidate_title": "Statutory Powers Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.554726243019104,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/astat/sbc-2018-c-49/latest/sbc-2018-c-49.html",
+        "score": 0.4979211390018463,
+        "candidate_title": "Attorney General Statutes Amendment Act, 2018"
+      }
+    ]
+  },
+  "Capital Markets Tribunal Rules of Procedures and Forms": {
+    "uri": "https://www.canlii.org/en/ca/laws/regu/sor-91-499/latest/sor-91-499.html",
+    "score": 0.5570789575576782,
+    "candidate_id": "l16095!16095-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Rules",
+    "query_text": "legislation | Capital Markets Tribunal <i>Rules of Procedures and Forms</i>",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-91-499/latest/sor-91-499.html",
+        "score": 0.5570789575576782,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/55j57",
+        "score": 0.5064822435379028,
+        "candidate_title": "Tribunal Small Claims Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-90-688a/latest/sor-90-688a.html",
+        "score": 0.4956916570663452,
+        "candidate_title": "Tax Court of Canada Rules (General Procedure)"
+      }
+    ]
+  },
+  "Ontario Court of Appeal": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5745387673377991,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5745387673377991,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5721585750579834,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5626303553581238,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "VRK Forex & Investments Inc (Re)": {
+    "uri": "https://canlii.ca/t/jm03t",
+    "score": 0.7771248817443848,
+    "candidate_id": "2022oncmt1",
+    "candidate_title": "VRK Forex & Investments Inc (Re)",
+    "query_text": "decision | VRK Forex &amp; Investments Inc (Re) | <i>VRK</i> decision | VRK",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jm03t",
+        "score": 0.7771248817443848,
+        "candidate_title": "VRK Forex & Investments Inc (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2016/2016onsc2564/2016onsc2564.html",
+        "score": 0.5356056094169617,
+        "candidate_title": "Pariak-Lukic v Investment Industry Regulatory Organization of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/jh1bn",
+        "score": 0.5340926051139832,
+        "candidate_title": "Vantage Global Prime Pty Ltd (Re)"
+      }
+    ]
+  },
+  "Tribunal decisions": {
+    "uri": "https://www.canlii.org/en/ca/sst/doc/2020/2020sst22/2020sst22.html",
+    "score": 0.5867329835891724,
+    "candidate_id": "2020sst-tss22",
+    "candidate_title": "MB v Minister of Employment and Social Development",
+    "query_text": "decision | Tribunal decisions",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/sst/doc/2020/2020sst22/2020sst22.html",
+        "score": 0.5867329835891724,
+        "candidate_title": "MB v Minister of Employment and Social Development"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/sst/doc/2020/2020sst550/2020sst550.html",
+        "score": 0.5833345651626587,
+        "candidate_title": "HZ v Minister of Employment and Social Development"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onhrt/doc/1989/1989canlii9081/1989canlii9081.html",
+        "score": 0.5742146968841553,
+        "candidate_title": "Chamberlin v. 599273 Ontario Ltd."
+      }
+    ]
+  },
+  "Pacific Coast Coin Corp. v. British Columbia (Securities Commission)": {
+    "uri": "https://canlii.ca/t/1tx4j",
+    "score": 0.6809879541397095,
+    "candidate_id": "1977csc-scc10029",
+    "candidate_title": "Pacific Coast Coin Exchange v. Ontario Securities Commission",
+    "query_text": "decision | Pacific Coast Coin",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tx4j",
+        "score": 0.6809879541397095,
+        "candidate_title": "Pacific Coast Coin Exchange v. Ontario Securities Commission"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1991/1991canlii5708/1991canlii5708.html",
+        "score": 0.5261074304580688,
+        "candidate_title": "Quintette Coal Ltd. v. Nippon Steel Corporation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2001/2001bcsc1721/2001bcsc1721.html",
+        "score": 0.5250716209411621,
+        "candidate_title": "Pacific Coastal Airlines Ltd. v. Air Canada"
+      }
+    ]
+  },
+  "Limelight Sanctions": {
+    "uri": "https://canlii.ca/t/h4t51",
+    "score": 0.5844491124153137,
+    "candidate_id": "2008oncmt4",
+    "candidate_title": "Limelight Entertainment Inc. et al.",
+    "query_text": "decision | Limelight Sanctions",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h4t51",
+        "score": 0.5844491124153137,
+        "candidate_title": "Limelight Entertainment Inc. et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/h4t52",
+        "score": 0.5775139331817627,
+        "candidate_title": "Limelight Entertainment Inc. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/qcca/doc/1997/1997canlii10717/1997canlii10717.html",
+        "score": 0.4946534037590027,
+        "candidate_title": "Canada (Attorney General) v. Lumen inc."
+      }
+    ]
+  },
+  "Mek Global": {
+    "uri": "https://canlii.ca/t/jq01z",
+    "score": 0.6581325531005859,
+    "candidate_id": "2022oncmt15",
+    "candidate_title": "Mek Global Limited (Re)",
+    "query_text": "decision | Mek Global",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jq01z",
+        "score": 0.6581325531005859,
+        "candidate_title": "Mek Global Limited (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5141/2019onsc5141.html",
+        "score": 0.492053359746933,
+        "candidate_title": "M.E. et al. v. Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsv3",
+        "score": 0.4853767454624176,
+        "candidate_title": "National Trust Co. v. Mead"
+      }
+    ]
+  },
+  "Vantage": {
+    "uri": "https://canlii.ca/t/jh1bn",
+    "score": 0.5990579128265381,
+    "candidate_id": "2021oncmt18",
+    "candidate_title": "Vantage Global Prime Pty Ltd (Re)",
+    "query_text": "decision | Vantage",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jh1bn",
+        "score": 0.5990579128265381,
+        "candidate_title": "Vantage Global Prime Pty Ltd (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2016/2016onsc5015/2016onsc5015.html",
+        "score": 0.5185694694519043,
+        "candidate_title": "Vaeth v North American Palladium Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/ggxn8",
+        "score": 0.5072563886642456,
+        "candidate_title": "In re Vancini"
+      }
+    ]
+  },
+  "IC Markets": {
+    "uri": "https://canlii.ca/t/j1pkn",
+    "score": 0.7742967009544373,
+    "candidate_id": "2019oncmt28",
+    "candidate_title": "International Capital Markets Pty. Ltd. (Re)",
+    "query_text": "decision | IC Markets | International Capital Markets Pty Ltd (Re) | 2019 ONSEC 28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j1pkn",
+        "score": 0.7742967009544373,
+        "candidate_title": "International Capital Markets Pty. Ltd. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j1pkm",
+        "score": 0.6240108609199524,
+        "candidate_title": "Ava Trade Ltd. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jh1bn",
+        "score": 0.6177621483802795,
+        "candidate_title": "Vantage Global Prime Pty Ltd (Re)"
+      }
+    ]
+  },
+  "Money Gate Mortgage Investment Corporation (Re)": {
+    "uri": "https://canlii.ca/t/jf45q",
+    "score": 0.7792215347290039,
+    "candidate_id": "2021oncmt10",
+    "candidate_title": "Money Gate Mortgage Investment Corporation (Re)",
+    "query_text": "decision | Money Gate Mortgage Investment Corporation (Re) | Money Gate Sanctions | 2021 ONSEC 10",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jf45q",
+        "score": 0.7792215347290039,
+        "candidate_title": "Money Gate Mortgage Investment Corporation (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j480t",
+        "score": 0.7576698064804077,
+        "candidate_title": "Money Gate Mortgage Investment Corporation (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jh1bn",
+        "score": 0.5662183165550232,
+        "candidate_title": "Vantage Global Prime Pty Ltd (Re)"
+      }
+    ]
+  },
+  "Pro-Financial Asset Management (Re)": {
+    "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc470/2023fc470.html",
+    "score": 0.5169721841812134,
+    "candidate_id": "2023fct470",
+    "candidate_title": "Pham v. Canada (Citizenship and Immigration)",
+    "query_text": "decision | PFAM",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc470/2023fc470.html",
+        "score": 0.5169721841812134,
+        "candidate_title": "Pham v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc737/2023fc737.html",
+        "score": 0.5089844465255737,
+        "candidate_title": "Paja v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2022/2022fca163/2022fca163.html",
+        "score": 0.5026907324790955,
+        "candidate_title": "Peach v. Canada"
+      }
+    ]
+  },
+  "Miner Edge Inc (Re)": {
+    "uri": "https://canlii.ca/t/jljqn",
+    "score": 0.771814227104187,
+    "candidate_id": "2021oncmt31",
+    "candidate_title": "Miner Edge Inc (Re)",
+    "query_text": "decision | Miner Edge Inc (Re) | Miner Edge | 2021 ONSEC 31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jljqn",
+        "score": 0.771814227104187,
+        "candidate_title": "Miner Edge Inc (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1999/1999canlii14840/1999canlii14840.html",
+        "score": 0.5575760006904602,
+        "candidate_title": "Royal Oak Mines Inc., Re"
+      },
+      {
+        "uri": "https://canlii.ca/t/jc6xj",
+        "score": 0.5516809821128845,
+        "candidate_title": "MOAG Copper Gold Resources Inc (Re)"
+      }
+    ]
+  },
+  "Ava Trade Ltd (Re)": {
+    "uri": "https://canlii.ca/t/j1pkm",
+    "score": 0.8097060918807983,
+    "candidate_id": "2019oncmt27",
+    "candidate_title": "Ava Trade Ltd. (Re)",
+    "query_text": "decision | Ava Trade Ltd (Re) | 2019 ONSEC 27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j1pkm",
+        "score": 0.8097060918807983,
+        "candidate_title": "Ava Trade Ltd. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jh1bn",
+        "score": 0.5913845896720886,
+        "candidate_title": "Vantage Global Prime Pty Ltd (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2018/2018onca565/2018onca565.html",
+        "score": 0.5800727009773254,
+        "candidate_title": "Ontario (Finance) v. Traders General Insurance (Aviva Traders)"
+      }
+    ]
+  },
+  "eToro (Europe) Limited (Re)": {
+    "uri": "https://canlii.ca/t/hvjq3",
+    "score": 0.8134199380874634,
+    "candidate_id": "2018oncmt49",
+    "candidate_title": "eToro (Europe) Limited",
+    "query_text": "decision | eToro (Europe) Limited (Re) | 2018 ONSEC 49",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvjq3",
+        "score": 0.8134199380874634,
+        "candidate_title": "eToro (Europe) Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/j1pkm",
+        "score": 0.6051043272018433,
+        "candidate_title": "Ava Trade Ltd. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j905w",
+        "score": 0.5937366485595703,
+        "candidate_title": "Coinsquare Ltd. (Re)"
+      }
+    ]
+  },
+  "Coinsquare": {
+    "uri": "https://canlii.ca/t/j905w",
+    "score": 0.7450586557388306,
+    "candidate_id": "2020oncmt19",
+    "candidate_title": "Coinsquare Ltd. (Re)",
+    "query_text": "decision | Coinsquare",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j905w",
+        "score": 0.7450586557388306,
+        "candidate_title": "Coinsquare Ltd. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tx4j",
+        "score": 0.5793668031692505,
+        "candidate_title": "Pacific Coast Coin Exchange v. Ontario Securities Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/jsqbx",
+        "score": 0.5534870028495789,
+        "candidate_title": "Polo Digital Assets, Ltd (Re)"
+      }
+    ]
+  },
+  "Rowan (Re)": {
+    "uri": "https://canlii.ca/t/h4srx",
+    "score": 0.6134268045425415,
+    "candidate_id": "2009oncmt46",
+    "candidate_title": "Roger D. Rowan et al.",
+    "query_text": "decision | Rowan (Re) | 2009 ONSEC 46",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h4srx",
+        "score": 0.6134268045425415,
+        "candidate_title": "Roger D. Rowan et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1npn6",
+        "score": 0.5036439895629883,
+        "candidate_title": "R. v. Rowbotham"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2019/2019onca682/2019onca682.html",
+        "score": 0.5034580826759338,
+        "candidate_title": "Hearn v. McLeod Estate"
+      }
+    ]
+  },
+  "Borealis International Inc (Re)": {
+    "uri": "https://canlii.ca/t/h4t10",
+    "score": 0.7558523416519165,
+    "candidate_id": "2011oncmt11",
+    "candidate_title": "Borealis International Inc. et al.",
+    "query_text": "decision | Borealis International Inc (Re) | 2011 ONSEC 11",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h4t10",
+        "score": 0.7558523416519165,
+        "candidate_title": "Borealis International Inc. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+        "score": 0.5423775911331177,
+        "candidate_title": "8640025 Canada Inc. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2009/2009canlii2319/2009canlii2319.html",
+        "score": 0.5222744941711426,
+        "candidate_title": "Bank of Nova Scotia v. Huronia Precision Plastics Inc."
+      }
+    ]
+  },
+  "Erikson v Ontario (Securities Commission)": {
+    "uri": "https://www.canlii.org/en/on/onca/doc/2018/2018onca61/2018onca61.html",
+    "score": 0.6044193506240845,
+    "candidate_id": "2018onca61",
+    "candidate_title": "Finkelstein v. Ontario Securities Commission",
+    "query_text": "decision | Erikson v Ontario (Securities Commission) | (2003), 26 OSCB 1622",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2018/2018onca61/2018onca61.html",
+        "score": 0.6044193506240845,
+        "candidate_title": "Finkelstein v. Ontario Securities Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/j5wqf",
+        "score": 0.5892349481582642,
+        "candidate_title": "Ontario Securities Commission v. Tiffin"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4sxv",
+        "score": 0.5782333612442017,
+        "candidate_title": "Edward Furtak et al."
+      }
+    ]
+  },
+  "MOAG Copper Gold Resources Inc (Re)": {
+    "uri": "https://canlii.ca/t/jc6xj",
+    "score": 0.7972206473350525,
+    "candidate_id": "2020oncmt29",
+    "candidate_title": "MOAG Copper Gold Resources Inc (Re)",
+    "query_text": "decision | MOAG Copper Gold Resources Inc (Re) | 2020 ONSEC 29",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jc6xj",
+        "score": 0.7972206473350525,
+        "candidate_title": "MOAG Copper Gold Resources Inc (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jmdl6",
+        "score": 0.5814734101295471,
+        "candidate_title": "Harte Gold Corp. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1f9fd",
+        "score": 0.569479763507843,
+        "candidate_title": "Glimmer Resources Inc. v. Exall Resources Limited"
+      }
+    ]
+  },
+  "Blue Gold Holdings (Re)": {
+    "uri": "https://canlii.ca/t/h4svg",
+    "score": 0.7376434206962585,
+    "candidate_id": "2016oncmt37",
+    "candidate_title": "Blue Gold Holdings Ltd.",
+    "query_text": "decision | Blue Gold Holdings (Re) | 2016 ONSEC 37",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h4svg",
+        "score": 0.7376434206962585,
+        "candidate_title": "Blue Gold Holdings Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/h4svf",
+        "score": 0.5683289766311646,
+        "candidate_title": "Bluestream Capital Corporation et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii11271/2004canlii11271.html",
+        "score": 0.5624527335166931,
+        "candidate_title": "Dagarsho Holdings Ltd. v. Bluestone"
+      }
+    ]
+  },
+  "Hutchinson (Re)": {
+    "uri": "https://canlii.ca/t/j4dfd",
+    "score": 0.7105523943901062,
+    "candidate_id": "2020oncmt1",
+    "candidate_title": "Hutchinson (Re)",
+    "query_text": "decision | Hutchinson (Re) | 2020 ONSEC 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j4dfd",
+        "score": 0.7105523943901062,
+        "candidate_title": "Hutchinson (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j315k",
+        "score": 0.6950562000274658,
+        "candidate_title": "Hutchinson (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc19/2014scc19.html",
+        "score": 0.5861122012138367,
+        "candidate_title": "R. v. Hutchinson"
+      }
+    ]
+  },
+  "Companion Policy 31-103CP": {
+    "uri": "https://www.canlii.org/en/qc/laws/regu/cqlr-c-v-1.1-r-21/latest/cqlr-c-v-1.1-r-21.html",
+    "score": 0.5338526964187622,
+    "candidate_id": "l33541!33541-current-1",
+    "candidate_title": "Regulation 45-106 respecting prospectus and registration exemptions",
+    "query_text": "secondary sources | Companion Policy 31-103CP | Registration Requirements, Exemptions and Ongoing Registrant Obligations",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/regu/cqlr-c-v-1.1-r-21/latest/cqlr-c-v-1.1-r-21.html",
+        "score": 0.5338526964187622,
+        "candidate_title": "Regulation 45-106 respecting prospectus and registration exemptions"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/regu/o-reg-865-93/latest/o-reg-865-93.html",
+        "score": 0.454860657453537,
+        "candidate_title": "Registration"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g1j",
+        "score": 0.45465829968452454,
+        "candidate_title": "Patented Medicines (Notice of Compliance) Regulations"
+      }
+    ]
+  }
+}

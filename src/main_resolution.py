@@ -542,7 +542,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--split",
-        choices=["train", "test", "dev", "incoming"],
+        choices=["train", "test", "dev", "incoming", "extended_test"],
         default=None,
         help="Gold split to use with --gold.",
     )
