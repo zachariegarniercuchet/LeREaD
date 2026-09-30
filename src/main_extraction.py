@@ -123,7 +123,7 @@ def load_fewshot_examples(
 
     print("fewshot examples from :", fewshot_filename)
 
-    # Previussly, 27/08/2026
+    # Former, 27/08/2026
     #fewshot_examples = [
     #        (example["example"]["input"], example["example"]["output"])
     #        for example in fewshot_file_content["examples"]
@@ -285,8 +285,11 @@ def process_aio_dec0(
     
     processed_chunks = []
     fallback_count = 0
+
+    print(">>> ENTERED process_aio_dec0 v2 <<<", flush=True)
     
     for chunk_tokens in tqdm(token_chunks, desc="Processing chunks"):
+        print("This is the main loop", flush=True)
         user_input = decode(chunk_tokens)
         messages = get_messages(
             system_prompt=system_prompt,
@@ -296,6 +299,7 @@ def process_aio_dec0(
         )
         
         generated = assistant.generate(messages=messages)
+        print(f"  [chunk] primary generate returned ({len(generated)} chars)", flush=True)
         corrected_generated_tokens, status = process_output(
             generated=generated,
             token_chunk=chunk_tokens,
@@ -303,6 +307,7 @@ def process_aio_dec0(
             assistant=assistant,
             with_fallback=not disable_fallback,
         )
+        print(f"  [chunk] process_output returned (passed={status.passed})", flush=True)
         
         processed_chunks.append(corrected_generated_tokens)
         
