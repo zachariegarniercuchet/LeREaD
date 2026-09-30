@@ -4,7 +4,7 @@ from ..tokenizer_utils import tokenize, decode
 from ..html_utils import is_auto_label_tag, is_tag_token
 
 from .token_operations import merge_tokens_general, flatten_token_chunks
-from .validation import compare_html_allow_auto_labels
+from .validation import compare_html_allow_auto_labels, verify_end_to_end_preservation
 from .bracket_fixing import correct_tokens_brackets, check_tokens_brackets
 from .html_operations import add_attributes_to_auto_labels, clean_html_formatting, fix_labels
 
@@ -22,6 +22,9 @@ def tokens_to_html(processed_tokens, html_content):
     6. Validates bracket coherence
     7. Cleans up HTML formatting
     8. Adds label scheme attributes to auto_labels
+    9. Verifies end-to-end preservation: final output must be the original
+       HTML plus only the authorized auto_label insertions (exact text
+       identity + tag-structure identity), failing loudly otherwise
     
     Args:
         processed_chunks: List of lists of tokens from the model output
@@ -95,7 +98,18 @@ def tokens_to_html(processed_tokens, html_content):
     # Step 9: Add label scheme attributes
     # =====================================================================
     processed_html_content = add_attributes_to_auto_labels(processed_html_cleaned)
-    
+
+    # =====================================================================
+    # Step 10: End-to-end preservation safeguard
+    # =====================================================================
+    # The checks above run BEFORE fix_labels/cleanup/attribute injection and
+    # therefore cannot catch corruption introduced by those stages (e.g. the
+    # former fix_labels oscillation that unwrapped nested sublabels). Verify
+    # the FINAL output against the original input: identical text, tags
+    # identical modulo the authorized auto_label insertions. Raises on any
+    # violation so corruption can never flow downstream silently.
+    verify_end_to_end_preservation(processed_html_content, html_content)
+
     # =====================================================================
     # Final result
     # =====================================================================
