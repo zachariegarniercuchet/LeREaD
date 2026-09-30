@@ -383,6 +383,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-dir", type=Path, default=Path("./output_coref"))
     parser.add_argument("--with-timestamp", action="store_true")
 
+    parser.add_argument("--start", type=int, default=None,
+                        help="1-based index of the first document to process (inclusive).")
+    parser.add_argument("--end", type=int, default=None,
+                        help="1-based index of the last document to process (inclusive).")
+
     return parser
 
 
@@ -418,6 +423,22 @@ def main():
     output_root = run.output_root()
     filenames = run.get_filenames()
 
+    # ── Optional document range selection (1-based, inclusive) ──────────────
+    # Same semantics as main_extraction.py: --start/--end slice the sorted
+    # file list so a whole folder can be split across parallel jobs.
+    total_files = len(filenames)
+    start = args.start if args.start is not None else 1
+    end = args.end if args.end is not None else total_files
+
+    if start < 1 or end < start:
+        parser.error(f"Invalid range: --start {start} --end {end}")
+    if start > total_files:
+        parser.error(f"--start {start} is greater than the number of documents ({total_files})")
+
+    end = min(end, total_files)
+    filenames = filenames[start - 1:end]
+    print(f"[Setup] Selected documents {start} to {end} out of {total_files}")
+
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
     if run.model == "gpt-5.2":
@@ -432,9 +453,9 @@ def main():
     print(f"[Setup] Mode: {run.mode.upper()} | Source: {run.input_source} | "
           f"Files: {len(filenames)} | Output: {output_root}\n")
 
-    for filename in filenames:
+    for i, filename in enumerate(filenames, start=start):
         print(f"\n{'='*80}")
-        print(f"Processing: {filename}  ({filenames.index(filename)+1}/{len(filenames)})")
+        print(f"Processing: {filename}  (#{i}/{total_files})")
         print(f"{'='*80}")
 
         if run.mode == "split":
