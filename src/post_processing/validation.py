@@ -62,7 +62,7 @@ def compare_html_allow_auto_labels(merged_html: str, original_html: str) -> bool
     
     return False
 
-
+# NOT USED FUNCION
 def verify_end_to_end_preservation(final_html: str, original_html: str) -> bool:
     """Strict input -> output preservation guarantee for post-processing.
 
