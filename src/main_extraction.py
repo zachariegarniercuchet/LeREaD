@@ -117,7 +117,11 @@ def load_fewshot_examples(
         new_labels = []
     if parents is None:
         parents = ["decision", "legislation", "secondary sources"]
-    fewshot_filename = f"examples_{fewshot_method}_surf-{get_method_config(method)['surface_pattern']}_struct-{get_method_config(method)['structural_pattern']}"
+    
+    if fewshot_method =="greedy":
+        fewshot_filename = f"examples_greedy_surf-{get_method_config(method)['surface_pattern']}_struct-{get_method_config(method)['structural_pattern']}"
+    elif fewshot_method == "random":
+        fewshot_filename = f"examples_random"
     with open(FEWSHOT_CACHE_DIR / f"{fewshot_filename}.json", "r", encoding="utf-8") as f:
         fewshot_file_content = json.load(f)
 
