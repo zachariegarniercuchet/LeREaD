@@ -285,15 +285,13 @@ def process_aio_dec0(
     disable_fallback: bool = False,
 ) -> List:
     """Process document using AIO or DEC0 method (chunk-based)."""
-    print(f"  Processing {len(token_chunks)} chunks...\n")
     
     processed_chunks = []
     fallback_count = 0
 
-    print(">>> ENTERED process_aio_dec0 v2 <<<", flush=True)
+
     
     for chunk_tokens in tqdm(token_chunks, desc="Processing chunks"):
-        print("This is the main loop", flush=True)
         user_input = decode(chunk_tokens)
         messages = get_messages(
             system_prompt=system_prompt,
@@ -303,16 +301,13 @@ def process_aio_dec0(
         )
         
         generated = assistant.generate(messages=messages)
-        print(f"  [chunk] primary generate returned ({len(generated)} chars)", flush=True)
         corrected_generated_tokens, status = process_output(
             generated=generated,
             token_chunk=chunk_tokens,
             allowed_labels=allowed_labels,
             assistant=assistant,
             with_fallback=not disable_fallback,
-        )
-        print(f"  [chunk] process_output returned (passed={status.passed})", flush=True)
-        
+        )        
         processed_chunks.append(corrected_generated_tokens)
         
         if not status.passed:
