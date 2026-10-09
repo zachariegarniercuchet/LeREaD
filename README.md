@@ -66,6 +66,7 @@ LeREaD/
 │   ├── evaluation/         # Stage-wise and end-to-end evaluation
 │   └── prompts/            # Prompt templates and annotation guidelines pointer
 ├── Guide_annotation_V2_avril2026_Anonymized_for_review.pdf  # Annotation guidelines
+├── LABELIZER.md               # Annotation tool description + full tool evaluation
 └── README.md
 ```
 
@@ -95,7 +96,7 @@ Model short names map to local checkpoints or the OpenAI API in `configs/constan
 
 ## Annotation
 
-The gold documents were annotated by two legal experts with `LeREaDLabelizer`, a web-based hierarchical span annotation tool, in two phases: 11 fully manual documents, then 34 documents pre-annotated by the extraction module and verified/corrected by the annotators (final pilot agreement: span micro-F1 0.91; verification raised throughput by 29% at equal quality). The annotation guidelines are released in this repo (`Guide_annotation_V2_avril2026_Anonymized_for_review.pdf`).
+The gold documents were annotated by two legal experts with `LeREaDLabelizer`, a web-based hierarchical span annotation tool, in two phases: 11 fully manual documents, then 34 documents pre-annotated by the extraction module and verified/corrected by the annotators (final pilot agreement: span micro-F1 0.91; verification raised throughput by 29% at equal quality). The annotation guidelines are released in this repo (`Guide_annotation_V2_avril2026_Anonymized_for_review.pdf`). See `LABELIZER.md` for a description of the annotation tool and its full evaluation against other annotation tools.
 
 ## Acknowledgments
 

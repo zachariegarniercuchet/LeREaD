@@ -32,6 +32,7 @@ ALLOW = [
     "scripts",
     "src",
     "README.md",
+    "LABELIZER.md",
     "Guide_annotation_V2_avril2026_Anonymized_for_review.pdf",
     ".gitignore",
 ]
