@@ -112,7 +112,7 @@ The same inline representation supports pre-annotation import (external suggesti
 
 ## 7. Evaluation
 
-The tool was assessed with the evaluation framework for HTML annotation tools that scores publication (P), technical (T), data-format (D), and functional (F) criteria, each criterion contributing 0.0, 0.5, or 1.0.
+The tool was assessed with the evaluation framework of Neves and Ševa (2021) for manual annotation tools, which scores publication (P), technical (T), data-format (D), and functional (F) criteria, each criterion contributing 0.0, 0.5, or 1.0 (see References).
 
 ### 7.1 Detailed scoring
 
@@ -156,7 +156,7 @@ Notes on the low / partial scores:
 
 ### 7.2 Comparison with surveyed tools
 
-Scores below reuse the published survey results for four representative tools under the same framework. `P`, `T`, `D`, `F` are category subtotals.
+Scores below reuse the published survey results of Neves and Ševa (2021) for four representative tools under the same framework. `P`, `T`, `D`, `F` are category subtotals.
 
 | Tool | P | T | D | F | Total | Score |
 |---|---|---|---|---|---|---|
@@ -172,3 +172,7 @@ The LeREaD Labelizer achieves the **second-highest overall score** (19.0 / 0.79)
 ## 8. Scope and limitations
 
 The tool is intentionally narrow: it optimises for precise span-level legal citation annotation with hierarchical labels, co-reference clustering, and provenance separation in a no-install, privacy-preserving setting. It does not aim to provide collaborative project management, ontology services, document classification, or biomedical integrations. For teams needing those, a general platform remains the better choice; for the LeREaD scheme, those features were traded for schema configurability, full-length HTML fidelity, and accessibility for legal annotators.
+
+## References
+
+- Neves, Mariana and Ševa, Jurica (2021). An extensive review of tools for manual annotation of documents. *Briefings in Bioinformatics*, 22(1), 146–163. Oxford University Press.
