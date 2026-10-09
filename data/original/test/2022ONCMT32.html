@@ -1,0 +1,1748 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria",serif;
+	font-style:italic;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Cambria",serif;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	font-size:13.0pt;
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:2.5in;
+	text-indent:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Cambria",serif;
+	color:#243F60;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:3.0in;
+	margin-bottom:.0001pt;
+	text-indent:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Cambria",serif;
+	color:#404040;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:3.5in;
+	margin-bottom:.0001pt;
+	text-indent:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Cambria",serif;
+	color:#404040;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Titre 9 Car";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:4.0in;
+	margin-bottom:.0001pt;
+	text-indent:0in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Cambria",serif;
+	color:#404040;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	text-transform:uppercase;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:2.0in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:2.5in;
+	text-indent:-.5in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:7.1pt;
+	text-indent:-7.1pt;
+	font-size:9.0pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+span.MsoFootnoteReference
+	{}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:0in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumberCxSpFirst, li.MsoListNumberCxSpFirst, div.MsoListNumberCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumberCxSpMiddle, li.MsoListNumberCxSpMiddle, div.MsoListNumberCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumberCxSpLast, li.MsoListNumberCxSpLast, div.MsoListNumberCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList2, li.MsoList2, div.MsoList2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList3, li.MsoList3, div.MsoList3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList3CxSpFirst, li.MsoList3CxSpFirst, div.MsoList3CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList3CxSpMiddle, li.MsoList3CxSpMiddle, div.MsoList3CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList3CxSpLast, li.MsoList3CxSpLast, div.MsoList3CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList5, li.MsoList5, div.MsoList5
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:71.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.2in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList5CxSpFirst, li.MsoList5CxSpFirst, div.MsoList5CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:71.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.2in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList5CxSpMiddle, li.MsoList5CxSpMiddle, div.MsoList5CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:71.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.2in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoList5CxSpLast, li.MsoList5CxSpLast, div.MsoList5CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:71.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.2in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber2CxSpFirst, li.MsoListNumber2CxSpFirst, div.MsoListNumber2CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber2CxSpMiddle, li.MsoListNumber2CxSpMiddle, div.MsoListNumber2CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber2CxSpLast, li.MsoListNumber2CxSpLast, div.MsoListNumber2CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber3, li.MsoListNumber3, div.MsoListNumber3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber3CxSpFirst, li.MsoListNumber3CxSpFirst, div.MsoListNumber3CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber3CxSpMiddle, li.MsoListNumber3CxSpMiddle, div.MsoListNumber3CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber3CxSpLast, li.MsoListNumber3CxSpLast, div.MsoListNumber3CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber4, li.MsoListNumber4, div.MsoListNumber4
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber4CxSpFirst, li.MsoListNumber4CxSpFirst, div.MsoListNumber4CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber4CxSpMiddle, li.MsoListNumber4CxSpMiddle, div.MsoListNumber4CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListNumber4CxSpLast, li.MsoListNumber4CxSpLast, div.MsoListNumber4CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListContinue2, li.MsoListContinue2, div.MsoListContinue2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:28.3pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListContinue2CxSpFirst, li.MsoListContinue2CxSpFirst, div.MsoListContinue2CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListContinue2CxSpMiddle, li.MsoListContinue2CxSpMiddle, div.MsoListContinue2CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListContinue2CxSpLast, li.MsoListContinue2CxSpLast, div.MsoListContinue2CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:28.3pt;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Objet du commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Verdana",sans-serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:6.0pt;
+	margin-right:1.0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	line-height:115%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	color:black;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria",serif;
+	color:#365F91;
+	font-weight:bold;}
+p.NormalReasons, li.NormalReasons, div.NormalReasons
+	{mso-style-name:"Normal Reasons";
+	mso-style-link:"Normal Reasons Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.25in;
+	text-align:justify;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+span.NormalReasonsChar
+	{mso-style-name:"Normal Reasons Char";
+	mso-style-link:"Normal Reasons";}
+p.Numbered, li.Numbered, div.Numbered
+	{mso-style-name:"Numbered\,Arial\,Left\:  0\.25\0022\,Hanging\:  0\.25\0022";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-indent:-.25in;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.Titles, li.Titles, div.Titles
+	{mso-style-name:Titles;
+	margin-right:0in;
+	margin-left:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Verdana",sans-serif;
+	font-weight:bold;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Cambria",serif;
+	font-weight:bold;
+	font-style:italic;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Cambria",serif;
+	font-weight:bold;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.Heading1, li.Heading1, div.Heading1
+	{mso-style-name:Heading1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.NumberedParagraph, li.NumberedParagraph, div.NumberedParagraph
+	{mso-style-name:"Numbered Paragraph";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+p.Heading3, li.Heading3, div.Heading3
+	{mso-style-name:Heading3;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	font-weight:bold;}
+p.Heading4, li.Heading4, div.Heading4
+	{mso-style-name:Heading4;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	font-weight:bold;}
+p.Heading2, li.Heading2, div.Heading2
+	{mso-style-name:Heading2;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:150%;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	font-weight:bold;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Cambria",serif;
+	color:#243F60;
+	font-style:italic;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Cambria",serif;
+	color:#404040;
+	font-style:italic;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Cambria",serif;
+	color:#404040;}
+span.Titre9Car
+	{mso-style-name:"Titre 9 Car";
+	mso-style-link:"Titre 9";
+	font-family:"Cambria",serif;
+	color:#404040;
+	font-style:italic;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma",sans-serif;}
+p.Heading5, li.Heading5, div.Heading5
+	{mso-style-name:Heading5;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	font-weight:bold;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	color:black;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";}
+p.SOC, li.SOC, div.SOC
+	{mso-style-name:SOC;
+	mso-style-link:"SOC Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:150%;
+	font-size:10.5pt;
+	font-family:"Verdana",sans-serif;
+	font-weight:bold;}
+p.Letterhead, li.Letterhead, div.Letterhead
+	{mso-style-name:Letterhead;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Verdana",sans-serif;}
+span.SOCChar
+	{mso-style-name:"SOC Char";
+	mso-style-link:SOC;
+	font-weight:bold;}
+p.StyleArial11ptLinespacingsingle, li.StyleArial11ptLinespacingsingle, div.StyleArial11ptLinespacingsingle
+	{mso-style-name:"Style Arial 11 pt Line spacing\:  single";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;}
+p.CMTLetterhead, li.CMTLetterhead, div.CMTLetterhead
+	{mso-style-name:"CMT Letterhead";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Verdana",sans-serif;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;}
+span.ObjetducommentaireCar
+	{mso-style-name:"Objet du commentaire Car";
+	mso-style-link:"Objet du commentaire";
+	font-weight:bold;}
+span.UnresolvedMention
+	{mso-style-name:"Unresolved Mention";
+	color:#605E5C;
+	background:#E1DFDD;}
+.MsoChpDefault
+	{font-size:10.5pt;
+	font-family:"Verdana",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:56.75pt 1.0in 1.0in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+</head>
+<body link="blue" vlink="purple">
+<div class="WordSection1">
+<table border="1" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="width:102.88%;border-collapse:collapse;border:none" width="102%">
+<tbody>
+<tr style="height:51.0pt">
+<td style="width:14.72%;border:none;border-bottom:
+  solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:51.0pt" valign="top" width="14%"> <p class="MsoNormal"><img alt="Coat of arms of Ontario" height="67" id="Picture 2" src="CanLII_32_Polo_Digital_Assets_-_Final_Reasons_-_Oct_27__2022_fichiers/image001.gif" width="66"/> </p> <p class="MsoNormal" style="line-height:normal"><span style="font-size:9.0pt"> </span></p> </td>
+<td style="width:17.2%;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:51.0pt" valign="top" width="17%"> <p class="Letterhead">Capital</p> <p class="Letterhead">Markets</p> <p class="Letterhead">Tribunal</p> </td>
+<td style="width:17.4%;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:51.0pt" valign="top" width="17%"> <p class="Letterhead">Tribunal</p> <p class="Letterhead">des marchés</p> <p class="Letterhead">financiers</p> <p class="Letterhead"> </p> </td>
+<td style="width:25.76%;border:none;border-bottom:
+  solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:51.0pt" valign="top" width="25%"> <p class="Letterhead">22nd Floor</p> <p class="Letterhead">20 Queen Street West</p> <p class="Letterhead">Toronto ON M5H 3S8</p> </td>
+<td style="width:24.92%;border:none;border-bottom:
+  solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:51.0pt" valign="top" width="24%"> <p class="Letterhead">22e étage</p> <p class="Letterhead">20, rue Queen ouest</p> <p class="Letterhead">Toronto ON M5H 3S8</p> </td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style="line-height:normal">Citation: <i>Polo Digital Assets, Ltd (Re)</i>, 2022 ONCMT 32</p>
+<p class="MsoNormal" style="line-height:normal">Date: 2022-10-27</p>
+<p class="MsoNormal" style="line-height:normal">File No. 2021-17</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="SOC" style="line-height:normal">IN THE MATTER OF</p>
+<p class="SOC" style="line-height:normal">POLO DIGITAL ASSETS, LTD.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="SOC">REASONS AND DECISION</p>
+<p class="SOC">(Subsection 127(1) and section 127.1 of the <i>Securities Act</i>, RSO 1990, c S.5)</p>
+<p class="SOC"> </p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse;border:none">
+<tbody>
+<tr style="height:38.45pt">
+<td style="width:91.5pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:38.45pt" valign="top" width="122"> <p class="MsoNormal" style="line-height:normal"><b>Adjudicators</b>:</p> </td>
+<td colspan="2" style="width:376.5pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:38.45pt" valign="top" width="502"> <p class="MsoNormal" style="line-height:normal">M. Cecilia Williams (chair of the panel)</p> <p class="MsoNormal" style="line-height:normal">Geoffrey D. Creighton</p> <p class="MsoNormal" style="line-height:normal">William J. Furlong</p> </td>
+</tr>
+<tr style="height:1.0pt">
+<td style="width:91.5pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:1.0pt" valign="top" width="122"> <p class="MsoNormal" style="line-height:normal"><b>Hearing</b>:</p> </td>
+<td colspan="2" style="width:376.5pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:1.0pt" valign="top" width="502"> <p class="MsoNormal" style="line-height:normal">In writing; final written submissions received August 19, 2022</p> </td>
+</tr>
+<tr style="height:1.0pt">
+<td style="width:91.5pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:1.0pt" valign="top" width="122"> <p class="MsoNormal" style="line-height:normal"><b>Appearances</b>:</p> </td>
+<td style="width:152.65pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:1.0pt" valign="top" width="204"> <p class="MsoNormal" style="line-height:normal">Aaron Dantowitz</p> <p class="MsoNormal" style="line-height:normal">Vincent Amartey</p> </td>
+<td style="width:223.85pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:1.0pt" valign="top" width="298"> <p class="MsoNormal" style="line-height:normal">For Staff of the Ontario Securities Commission</p> </td>
+</tr>
+<tr style="height:1.0pt">
+<td style="width:91.5pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:1.0pt" valign="top" width="122"> <p class="MsoNormal" style="line-height:normal"> </p> </td>
+<td colspan="2" style="width:376.5pt;padding:2.9pt 5.4pt 2.9pt 5.4pt;
+  height:1.0pt" valign="top" width="502"> <p class="MsoNormal" style="line-height:normal">No submissions made on behalf of Polo Digital Assets, Ltd.</p> </td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"> </p>
+</div>
+<span style='font-size:10.5pt;line-height:150%;font-family:"Verdana",sans-serif'><br clear="all" style="page-break-before:always"/> </span>
+<div class="WordSection2">
+<p class="Titles">TABLE OF CONTENTS</p>
+<p class="MsoToc1"><a href="#_Toc117763451">1.<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-transform:none;text-decoration:none'>........ </span>DECISION AND OVERVIEW<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">1</span></a></p>
+<p class="MsoToc1"><a href="#_Toc117763452">2.<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-transform:none;text-decoration:none'>........ </span>BACKGROUND FACTS<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">2</span></a></p>
+<p class="MsoToc1"><a href="#_Toc117763453">3.<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-transform:none;text-decoration:none'>........ </span>ANALYSIS OF THE MERITS<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">3</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763454">3.1<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Introduction<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">3</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763455">3.2<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Preliminary Matters<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">4</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763456">3.2.1<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Should we proceed without the respondent?<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">4</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763457">3.2.2<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Should we draw adverse inferences against the respondent?<span style="color:windowtext;display:none;
+text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">5</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763458">3.2.3<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Is certain of the financial evidence properly before the Panel?<span style="color:windowtext;display:none;
+text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">5</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763459">3.3<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Are the crypto asset products offered on the platform “securities”?<span style="color:windowtext;
+display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">8</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763460">3.3.1  Are Crypto Contracts “securities”?<span style="color:windowtext;display:none;text-decoration:
+none">. </span><span style="color:windowtext;display:none;text-decoration:none">8</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763461">3.3.2<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Are Crypto Futures Contracts “securities”?<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">13</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763462">3.4<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Did the respondent engage in the business of trading in securities without being registered and without an available exemption?<span style="color:windowtext;display:none;text-decoration:
+none">. </span><span style="color:windowtext;display:none;text-decoration:none">16</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763463">3.5<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Did the respondent engage in the distribution of securities without a prospectus and without an available exemption?<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">19</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763464">3.6<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Conclusion on the Merits<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">21</span></a></p>
+<p class="MsoToc1"><a href="#_Toc117763465">4.<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-transform:none;text-decoration:none'>........ </span>SANCTIONS<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">21</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763466">4.1<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Overview<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">21</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763467">4.2<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Legal Framework for Sanctions<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">22</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763468">4.3<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Sanctioning Factors<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">22</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763469">4.3.1<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Specific and general deterrence<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">22</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763470">4.3.2<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Seriousness of the conduct<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">24</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763471">4.3.3<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Level of Polo Digital’s activity in the marketplace<span style="color:windowtext;display:none;
+text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">24</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763472">4.3.4<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Frequency of the violations<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">25</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763473">4.3.5<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Mitigating Factors<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">26</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763474">4.4<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Financial Sanctions<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">28</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763475">4.4.1<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Disgorgement<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">28</span></a></p>
+<p class="MsoToc3"><a href="#_Toc117763476">4.4.2<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>    </span>Administrative Penalty<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">30</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763477">4.5<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Market Participation Bans<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">33</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763478">4.6<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Reprimand<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">34</span></a></p>
+<p class="MsoToc2"><a href="#_Toc117763479">4.7<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-decoration:none'>        </span>Conclusion on Sanctions<span style="color:windowtext;display:none;text-decoration:none"> </span><span style="color:windowtext;display:none;text-decoration:none">34</span></a></p>
+<p class="MsoToc1"><a href="#_Toc117763480">5.<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-transform:none;text-decoration:none'>........ </span>COSTS<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">34</span></a></p>
+<p class="MsoToc1"><a href="#_Toc117763481">6.<span style='font-size:11.0pt;line-height:150%;font-family:"Calibri",sans-serif;
+color:windowtext;text-transform:none;text-decoration:none'>........ </span>conclusion AND ORDER<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">36</span></a></p>
+<p class="MsoNormal"> </p>
+</div>
+<span style='font-size:10.5pt;line-height:150%;font-family:"Verdana",sans-serif'><br clear="all" style="page-break-before:always"/> </span>
+<div class="WordSection3">
+<p class="Titles">REASONS AND DECISION</p>
+<p class="Heading1"><a name="_Toc117763451">1.<span style='font:7.0pt "Times New Roman"'>           </span>DECISION AND OVERVIEW</a></p>
+<p class="NumberedParagraph">[1]<span style='font:7.0pt "Times New Roman"'>         </span>Staff of the Ontario Securities Commission alleges that Polo Digital Assets, Ltd. (<b>Polo Digital</b>) sold crypto assets to Ontario residents without complying with the registration and prospectus requirements under Ontario securities law. </p>
+<p class="NumberedParagraph">[2]<span style='font:7.0pt "Times New Roman"'>         </span>Staff alleges that Polo Digital owns and operates a crypto asset trading platform, through the website poloniex.com. Staff alleges that the platform, which is also accessible through an app, was made available to Ontario residents, who were able to trade Crypto Contracts and Crypto Futures Contracts that are securities under Ontario securities law, without the registration and prospectus protections of that law.</p>
+<p class="NumberedParagraph">[3]<span style='font:7.0pt "Times New Roman"'>         </span>This enforcement proceeding combines the merits and sanctions and costs hearings against Polo Digital and is being conducted in writing, pursuant to an order dated May 3, 2022.<a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[1]</span></span></span></a></p>
+<p class="NumberedParagraph">[4]<span style='font:7.0pt "Times New Roman"'>         </span>Staff filed two affidavits in this proceeding. The first was from Jocelyn Wang, a Forensic Accountant with the Commission’s Enforcement Branch.<a href="#_ftn2" name="_ftnref2" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[2]</span></span></span></a> The second affidavit was from Yolanda Leung, a Law Clerk within the same branch.<a href="#_ftn3" name="_ftnref3" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[3]</span></span></span></a></p>
+<p class="NumberedParagraph">[5]<span style='font:7.0pt "Times New Roman"'>         </span>Polo Digital was originally represented in this matter by counsel who, at their request, were removed as Polo Digital’s counsel of record. Polo Digital has not participated in this hearing and did not file any materials. As noted below in paragraph [24], we are satisfied that we can proceed with the merits and sanctions and costs hearing without Polo Digital’s participation.</p>
+<p class="NumberedParagraph">[6]<span style='font:7.0pt "Times New Roman"'>         </span>For the reasons set out below, we find that Polo Digital engaged in unregistered trading of securities without an available exemption, contrary to s. 25(1) of the <i>Securities Act</i><a href="#_ftn4" name="_ftnref4" title=""><span class="MsoFootnoteReference"><i><span style="font-size:9.0pt;line-height:150%"><b><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[4]</span></b></span></i></span></a> (the <b>Act</b>) and distributed securities without a prospectus and without an available exemption, contrary to s. 53(1) of the Act. These serious offences warrant permanent market participation bans, an administrative penalty of $1.5 million, disgorgement of USD 1,825,417.89 and costs of $138,371.50.</p>
+<p class="Heading1"><a name="_Toc117763452">2.<span style='font:7.0pt "Times New Roman"'>           </span>BACKGROUND FACTS</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par7">7</a>]<span style='font:7.0pt "Times New Roman"'>         </span>Polo Digital is a corporation incorporated in the Republic of Seychelles. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par8">8</a>]<span style='font:7.0pt "Times New Roman"'>         </span>The platform was established in 2014. Polo Digital acquired the platform on October 16, 2019. Correspondence from Polo Digital’s then counsel in April 2022 continued to identify Polo Digital as the owner and operator of the platform.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par9">9</a>]<span style='font:7.0pt "Times New Roman"'>         </span>Information on the poloniex website identifies the platform as “Your one-stop shop for crypto trading”,<a href="#_ftn5" name="_ftnref5" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[5]</span></span></span></a> and offers the ability to trade over 200 crypto assets.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par10">10</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Polo Digital appears to be a significant presence in the crypto trading platform<b> </b>sector. Staff provided information about the scope of the platform’s operations from a source that apparently tracks and reports data about crypto trading platforms. We have no evidence about this source or the accuracy of its data. In the absence of any additional evidence about the source or any contradictory evidence about the platform’s size, we accept the evidence provided by Staff. Staff advises that, based on this source, on May 4, 2021, the platform was listed as the 13<sup>th</sup> largest global crypto trading platform for “spot” transactions and 30<sup>th</sup> for derivatives, with a reported 24-hour trading volume of more than USD 529 million and USD 36 million, respectively. Further, using this same source, Staff advises that on March 16, 2022, the platform was ranked as 22<sup>nd</sup> for “spot” platforms and 36<sup>th</sup> for derivatives, with reported 24-hour trading volumes of USD 22 million and USD 7 million, respectively.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par11">11</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Investors accessing the platform can use fiat currency to buy crypto assets on the platform, deposit their own crypto assets, engage in spot trading, and engage in margin trading using assets borrowed from other users on the platform to facilitate buy and sell orders, and trade perpetual futures contracts whose value is derived from crypto assets.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par12">12</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Polo Digital charges fees for trades on the platform and for the withdrawal of crypto assets.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par13">13</a>]<span style='font:7.0pt "Times New Roman"'>      </span>It is clear that the platform was accessible to Ontario investors and that Ontarians had active accounts on the platform.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par14">14</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff was able to open an account on the platform and was able to deposit crypto assets and engage in trading various crypto asset products on the platform using an Ontario based IP address.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par15">15</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In addition, in a letter dated April 13, 2022, Crawley MacKewn Brush LLP<b>,</b> Polo Digital’s counsel at the time, confirmed that Polo Digital had approximately 9,300 Ontario accounts (the <b>Ontario Accounts</b>)<b> </b>on the platform as of July 24, 2021.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par16">16</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The website indicated that investors could use Canadian fiat currency to buy crypto assets on the platform, and that Canada was a supported country within the third-party payment processing company Polo Digital had partnered with to facilitate the purchase of crypto assets with fiat currency.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par17">17</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Prior to changes Polo Digital advised were made to the platform’s User Agreement on July 24, 2021, neither Ontario nor Canada was listed as a “Restricted Territory”. In addition, neither Ontario nor Canada was listed in the “Futures FAQ” as a jurisdiction where crypto futures trading on the platform was unavailable. </p>
+<p class="Heading1"><a name="_Toc117763453">3.<span style='font:7.0pt "Times New Roman"'>           </span>ANALYSIS OF THE MERITS</a></p>
+<p class="Heading2"><a name="_Toc117763454">3.1<span style='font:7.0pt "Times New Roman"'>        </span>Introduction</a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par18">18</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff asks that we:</p>
+<p class="MsoList" style="text-indent:0in">a.<span style='font:7.0pt "Times New Roman"'>            </span>proceed with this hearing without Polo Digital’s participation;</p>
+<p class="MsoList" style="text-indent:0in">b.<span style='font:7.0pt "Times New Roman"'>            </span>draw adverse inferences in the absence of evidence from Polo Digital;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>determine that certain crypto asset products offered on the platform are securities;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>determine that Polo Digital has engaged in the business of trading in securities without being registered and without an available exemption, contrary to s. 25(1) of the Act;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">e.<span style='font:7.0pt "Times New Roman"'>            </span>determine that Polo Digital has engaged in a distribution of securities without a prospectus and without an available exemption, contrary to s. 53(1) of the Act; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">f.<span style='font:7.0pt "Times New Roman"'>             </span>if we determine that Polo Digital has breached Ontario securities law, make a sanctions and costs order against Polo Digital.</p>
+<p class="Heading2"><a name="_Toc117763455">3.2<span style='font:7.0pt "Times New Roman"'>        </span>Preliminary Matters</a></p>
+<p class="Heading3"><a name="_Toc117763456"><span style="color:black">3.2.1<span style='font:7.0pt "Times New Roman"'>   </span></span>Should we proceed without the respondent?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par19">19</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Section 7(2) of the <i>Statutory Powers Procedure Act</i><a href="#_ftn6" name="_ftnref6" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[6]</span></span></span></a> provides that, where notice of a written hearing has been given to a party to a proceeding, a tribunal may proceed without the party’s participation.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par20">20</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Polo Digital initially participated in this matter through its counsel. Polo Digital’s counsel advised the Tribunal that the company had, on April 18, 2022, terminated the relationship. Polo Digital’s counsel’s subsequent request to be removed as Polo Digital’s counsel of record was granted by an order of the Tribunal on April 25, 2022.<a href="#_ftn7" name="_ftnref7" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[7]</span></span></span></a> Staff communicated with Polo Digital’s counsel as the company’s representative in this proceeding until the date their counsel no longer represented Polo Digital.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par21">21</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Subsequent to Polo Digital’s counsel’s departure as counsel of record, Staff communicated with Polo Digital’s agent of record with the Seychelles Financial Services Authority, Sterling Trust &amp; Fiduciary Limited. The agent of record has acknowledged receipt of Staff’s communications. However, Staff has received no substantive communications from Polo Digital. Staff states that it has received no indication that Polo Digital intends to participate in this hearing.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par22">22</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Rule 21(3) of the Capital Markets Tribunal <i>Rules of Procedures and Forms </i>also provides that if a Notice of Hearing is served on a party and the party does not attend a hearing, the proceeding may continue in the party’s absence.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par23">23</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The Registrar has provided notice to Polo Digital through its agent of record of all the attendances in this proceeding and a copy of all orders issued, including the Tribunal’s May 3 Order stating that Polo Digital is not entitled to any further notice in this proceeding and that this panel could proceed with this hearing in its absence.</p>
+<p class="NumberedParagraph"><a name="_Ref117676971">[24]<span style='font:7.0pt "Times New Roman"'>      </span>Given the May 3 Order, and that Polo Digital has been notified and has chosen not to participate in this hearing, we conclude that it is appropriate to proceed in its absence.</a></p>
+<p class="Heading3"><a name="_Toc117763457"><span style="color:black">3.2.2<span style='font:7.0pt "Times New Roman"'>   </span></span>Should we draw adverse inferences against the respondent?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par25">25</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits that because Polo Digital has failed to adduce any evidence in this proceeding, we should draw an adverse inference against it whenever necessary.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par26">26</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The Tribunal has previously held that where Staff establishes evidence that appears to be credible and reliable and that is sufficiently strong for a respondent to be called on to answer it regarding a particular factual conclusion, it would be appropriate to draw an adverse inference against a party for their failure to testify, in respect of that conclusion.<a href="#_ftn8" name="_ftnref8" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[8]</span></span></span></a> Staff submits that Polo Digital’s failure to call evidence amounts to an implied admission that its evidence would not have been helpful to its case.<a href="#_ftn9" name="_ftnref9" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[9]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par27">27</a>]<span style='font:7.0pt "Times New Roman"'>      </span><span style="line-height:150%">In an oral hearing, a party seeking the drawing of an adverse inference can raise each such instance as the point arises. In a written hearing such as this one, the parties do not have that opportunity. In this written hearing, Staff makes a blanket request that we draw an adverse inference whenever we are not otherwise convinced that Staff has met its evidentiary burden on a particular point.</span></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par28">28</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In our analysis, where we conclude that Staff has provided cogent and reliable evidence on a factual point, that is sufficiently strong that Polo Digital should be called on to respond with evidence of its own, and it has not, we will draw an adverse inference against Polo Digital.</p>
+<p class="Heading3"><a name="_Toc117763458"><span style="color:black">3.2.3<span style='font:7.0pt "Times New Roman"'>   </span></span>Is certain of the financial evidence properly before the Panel?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par29">29</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Prior to this written hearing, Polo Digital took the position with Staff, through communications between Staff and Polo Digital, that certain financial evidence that was included in Staff’s hearing brief should not be part of Staff’s case, because the evidence is subject to settlement privilege and was provided to Staff on a “without prejudice” basis. Staff has provided us with the financial evidence, claiming that it is properly before the Panel. We agree with Staff, for the following reasons.</p>
+<p class="NumberedParagraph"><a name="_Ref117510000">[30]<span style='font:7.0pt "Times New Roman"'>      </span>Polo Digital asserted, in an email exchange between its then counsel and Staff on April 12, 2022, that Staff’s hearing brief for this proceeding included “email correspondence and notes from a phone call between Commission Staff and counsel for Polo in respect of the potential resolution of the proceeding, which were exchanged on a without prejudice and [<i>sic</i>] basis and are subject to settlement privilege”.</a><a href="#_ftn10" name="_ftnref10" title=""><span class="MsoFootnoteReference"><span style="font-size:
+9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[10]</span></span></span></a> Staff did not agree and subsequently included this communication in its hearing brief for this hearing. Staff points to an earlier email exchange in July and August 2021 with Polo Digital’s counsel where Staff advised that they “are not in a position to accept this information on a without prejudice basis”.<a href="#_ftn11" name="_ftnref11" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[11]</span></span></span></a> Staff takes the position that the information was not provided on a “without prejudice” basis and in any event it cannot be properly considered to be the subject of settlement privilege as it was not sent in an attempt to effect a settlement. Rather, it contained factual information that was relevant to the matters in issue in this proceeding. This, coupled with the fact that Polo Digital has not asserted a claim of privilege before the Tribunal, means, in Staff’s submission, that the evidence is properly before the Panel.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par31">31</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The information in question concerns the amount of revenue generated on the platform from Ontario users since the inception of the platform in 2014. This information is relevant to our analysis of the extent of Polo Digital’s operations in Ontario and to Staff’s request for a disgorgement order.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par32">32</a>]<span style='font:7.0pt "Times New Roman"'>      </span>As indicated above, Polo Digital initially provided certain information to Staff (redacted in the copy provided to the Panel) on July 21, 2021, on a “without prejudice” basis. However, on July 22, 2021, Staff advised Polo Digital that Staff would not accept the information on that basis. On August 12, 2021, Polo Digital provided information about the number of Ontario Accounts and revenue details from certain dates, including from the platform’s inception, and requested “confidential treatment” as the information is “highly commercially sensitive”.<a href="#_ftn12" name="_ftnref12" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[12]</span></span></span></a> There was no mention by Polo Digital’s then counsel of this information being related to settlement discussions or being provided on a without prejudice basis. We did not receive a request from Polo Digital to have this information marked as confidential for the purposes of this hearing. We did ask Staff for clarity about the handling of this information. In the circumstances, we determined there was no basis for us to use our discretion to mark the information confidential.  </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par33">33</a>]<span style='font:7.0pt "Times New Roman"'>      </span>On April 13, 2022, the day following the email exchange between Staff and Polo Digital’s then counsel, in a letter to Staff marked “WITH PREJUDICE”, Polo Digital stated it was writing “to provide the following updated information, all of which has been previously disclosed to Staff, for inclusion in the record”.<a href="#_ftn13" name="_ftnref13" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[13]</span></span></span></a> The information in this latter communication included the approximate number of Ontario investors on the platform and information about the revenue generated from those investors from Polo Digital’s acquisition of the platform on October 16, 2019, but not from the inception of the platform.</p>
+<p class="NumberedParagraph"><a name="_Ref115703449">[34]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that the information in Polo Digital’s August 12, 2021 letter, specifically revenue from the Ontario Accounts from the inception of the platform, is properly before the Panel and not subject to settlement privilege, for the reasons articulated by Staff. When Polo Digital provided that information Polo Digital was on notice, from Staff’s July 22, 2021, email, that Staff would not accept the information they had requested from Polo Digital on a “without prejudice” basis. A request for “confidential treatment” of commercially sensitive information is not equivalent to an understanding that information may not be used to the potential detriment of a party in an adversarial context. We consider it irrelevant that Polo Digital provided certain information on a “with prejudice” basis on April 13, 2022, excluding the revenue from the platform’s inception. It had provided the revenue from inception information to Staff on August 12, 2021, with full knowledge of Staff’s position that it would not be accepted on a “without prejudice” basis.</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par35">35</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Having determined that the revenue from Ontario Accounts from the date of the platform’s inception, as disclosed in Polo Digital’s communication to Staff of August 12, 2021, is properly before us, we consider whether that amount is the appropriate subject of a disgorgement order beginning at paragraph [113] below. </p>
+<p class="Heading2"><a name="_Toc117763459">3.3<span style='font:7.0pt "Times New Roman"'>        </span>Are the crypto asset products offered on the platform “securities”?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par36">36</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Before turning to whether Polo Digital breached the Act we must determine whether the crypto asset products offered by Polo Digital on the platform constitute securities, as that term is defined in the Act.</p>
+<p class="NumberedParagraph"><a name="_Ref115265584">[37]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits that at least two categories of crypto asset products offered on the platform constitute securities. First, an investor’s contractual right to the assets they deposit, purchase and sell on the platform (the <b>Crypto Contracts</b>), is a security. Second, Polo Digital offers the ability to purchase and sell perpetual futures contracts whose value is derived from underlying crypto assets. Staff submits these perpetual futures contracts (<b>Crypto Futures Contracts</b>) are also securities.</a></p>
+<p class="Heading3" style="margin-left:0in;text-indent:0in"><a name="_Toc117763460">3.3.1  Are Crypto Contracts “securities”?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par38">38</a>]<span style='font:7.0pt "Times New Roman"'>      </span>“Security” is defined at subsection 1(1) of the Act. The definition consists of a non-exhaustive list of 16 clauses expressed in general terms, “evidencing an intention for breadth”.<a href="#_ftn14" name="_ftnref14" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[14]</span></span></span></a> The Ontario Court of Appeal, in a recent case, stated that the Act’s definition of “key terms” capture “a great many instruments and activities within its regulatory scope and then provides many exemptions from the Act’s requirements…to tailor this regulatory scope to its purposes.”<a href="#_ftn15" name="_ftnref15" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[15]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par39">39</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In <i>VRK Forex &amp; Investments Inc (Re)</i>, the Tribunal emphasized that a purposive approach should be adopted when determining the meaning of “security”.<a href="#_ftn16" name="_ftnref16" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[16]</span></span></span></a> When analyzing whether an instrument is a “security” within the meaning of the Act, it is necessary to consider the purposes of the Act, including “investor protection”. Staff submits that investor protection is at the heart of this proceeding and, consistent with the approach of the panel in the <i>VRK</i> decision, investor protection is the “overarching lens” through which an instrument is assessed.<a href="#_ftn17" name="_ftnref17" title=""><span class="MsoFootnoteReference"><span style="font-size:
+9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[17]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par40">40</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We agree that determining whether an instrument is a security should not involve a “formulaic approach based on… static elements”.<a href="#_ftn18" name="_ftnref18" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[18]</span></span></span></a> Using investor protection as an overarching lens will ensure that the assessment of products is flexible and adaptable to address the broad range of investment schemes that are developed in the capital markets.<a href="#_ftn19" name="_ftnref19" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[19]</span></span></span></a> As innovation continues in the capital markets, the language in the Act and the tests developed in Tribunal decisions applying that language, must be interpreted through the lens of the purposes of the Act to ensure that innovative products and services that engage those purposes are managed appropriately within the regulatory framework of Ontario’s securities law. In this instance, the evolving nature of the crypto industry, the complexity of the products, the opacity of their valuation, the rapid growth of the market and the significant size of the market, because they invoke investor protection issues, all factor into our assessment of whether the Crypto Contracts are securities.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par41">41</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits that Crypto Contracts are either “evidence of indebtedness”, “evidence of title or interest” or constitute “investment contracts”, as defined in s. 1(1) of the Act. For the reasons set out below, we find Crypto Contracts are “investment contracts”. As Staff need only demonstrate that Crypto Contracts fall within one category of “security”, it is not necessary to consider whether Crypto Contracts constitute “evidence of indebtedness” or “evidence of title or interest”.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par42">42</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The Tribunal has consistently applied the Supreme Court of Canada’s determination in <i>Pacific Coast Coin</i> that the elements of an “investment contract” are:</p>
+<p class="MsoList" style="text-indent:0in">a.<span style='font:7.0pt "Times New Roman"'>            </span>an investment of money,</p>
+<p class="MsoList" style="text-indent:0in">b.<span style='font:7.0pt "Times New Roman"'>            </span>with an intention or an expectation of profit,</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>in a common enterprise in which the fortunes of the investor are interwoven with and dependent upon the efforts and success of those seeking the investment or of third parties, and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>where the efforts made by those other than the investor are undeniably significant and essential managerial efforts which affect the failure or success of the enterprise.<a href="#_ftn20" name="_ftnref20" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[20]</span></span></span></a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par43">43</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We consider each element of the test for an “investment contract”, in the context of the overall circumstances, as they apply to the Crypto Contracts in turn below.</p>
+<p class="Heading4" style="margin-left:0in;text-indent:0in">3.3.1.a        Investment of money</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par44">44</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Recent Tribunal decisions have adopted a plain reading of the first element of the <i>Pacific Coast Coin</i> test, rephrasing the question to: Was there a payment?<a href="#_ftn21" name="_ftnref21" title=""><span class="MsoFootnoteReference"><span style="font-size:
+9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[21]</span></span></span></a> In one case, the investors paid money for software licenses.<a href="#_ftn22" name="_ftnref22" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[22]</span></span></span></a> In another case, similar to the circumstances before us, investors on a crypto trading platform deposited either fiat currency or crypto currency to support their trading in crypto asset products available on the platform. As with the case before us, those products included a crypto contract that provided the investor with the contractual right to the crypto assets they deposited, purchased and sold on the platform.<a href="#_ftn23" name="_ftnref23" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[23]</span></span></span></a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par45">45</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In the case before us, the website indicates that a deposit of crypto assets or fiat currency is required for an investor to acquire crypto assets. Staff’s investigator opened an account on the platform and deposited crypto assets. Based on the investigator’s evidence about that experience and in the absence of any evidence from Polo Digital about how other investors on the platform proceeded, we draw an adverse inference and conclude there was, therefore, a payment and that the first element of the “investment contract” test is met.</p>
+<p class="Heading4">3.3.1.b<span style='font:7.0pt "Times New Roman"'>              </span>Intention or expectation of profit</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par46">46</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits that investors using the platform intend or expect to profit from their activities on the platform. We agree.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par47">47</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The language in the platform’s User Agreement and on the website support our conclusion. The User Agreement, in the limitation of liability language, acknowledges the possibility of earning profits: “<i>Polo [….] will not be liable for any […] damages for loss of profits…”.</i><a href="#_ftn24" name="_ftnref24" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[24]</span></span></span></a> The website states that “<i>Margin trading is essentially trading with borrowed funds instead of your own to maximize potential gains” </i>and “<i>The use of leverage and collateral to trade cryptocurrencies is complex and risky. You may realize substantial gains or losses and should be well prepared before you begin trading.”</i><a href="#_ftn25" name="_ftnref25" title=""><span class="MsoFootnoteReference"><i><span style="font-size:9.0pt;
+line-height:150%"><b><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[25]</span></b></span></i></span></a> The website, on its homepage, also highlights the ability to engage in leveraged-based trading for up to 100x.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par48">48</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that a reasonable investor trading Crypto Contracts on the platform would intend or expect to earn a profit from their trading. Therefore, the second element of the “investment contract” test is met.</p>
+<p class="Heading4" style="margin-left:1.0in;text-indent:-1.0in">3.3.1.c<span style='font:7.0pt "Times New Roman"'>               </span>Common enterprise and reliance on Polo Digital’s significant efforts</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par49">49</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The questions of whether there is a common enterprise and whether there is reliance on the effort of others are so interwoven that they are commonly dealt with together.<a href="#_ftn26" name="_ftnref26" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[26]</span></span></span></a> Staff submits, and we agree, that investors on the platform are dependent on the actions, custody arrangements and solvency of Polo Digital for the success of their investments.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par50">50</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The platform provides investors with exposure to crypto asset markets. However, every deposit and trade by an investor is dependent on Polo Digital to accept, execute transactions, safeguard and deliver crypto assets to investors. Crypto assets deposited on the platform are held in digital wallets controlled by Polo Digital. Investors do not have their own, investor-controlled digital wallets. The User Agreement stipulates that there is no deposit insurance protection for any crypto asset deposits and that Polo Digital will not be held liable for any losses or theft of investors’ crypto assets.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par51">51</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Investors are completely reliant on Polo Digital for the return of their assets. The User Agreement provides that Polo Digital has the right to restrict or refuse to honour requests to withdraw assets from the platform in certain circumstances. Staff submits, and we agree, that once an investor has entered the platform’s ecosystem, the success or failure of the client’s investment (including the return of their initial investment) is inextricably tied to, reliant upon and within the control of, Polo Digital.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par52">52</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Based on Staff’s evidence, we conclude that investors in Crypto Contracts were engaged in a common enterprise with Polo Digital and were dependent on Polo Digital’s significant efforts for the failure or success of their investment. Our conclusion is undisturbed by any evidence to the contrary. Therefore, the third and fourth elements of the “investment contract” test are met.</p>
+<p class="Heading4">3.3.1.d<span style='font:7.0pt "Times New Roman"'>              </span>Conclusion regarding Crypto Contracts</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par53">53</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that all the elements of the test of whether a Crypto Contract is an investment contract have been met. The investors paid fiat currency or crypto assets into the platform, intended or expected to profit from their trading activities on the platform and were dependent on Polo Digital for the failure or success of their investment.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par54">54</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We are aided in our conclusion by considering the platform through a purposive approach, engaging an overarching lens of investor protection. The platform is available to retail investors. Within the platform’s ecosystem, investors have no deposit insurance protection, no control over their assets and no absolute right to withdraw their assets. They are also encouraged to engage in high-risk trading, including trading on margin. The website encourages investors to take risks by promoting various trading campaigns and competitions to earn rewards.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par55">55</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Trading in crypto assets is an emerging and rapidly growing industry. It is global in nature, with trading platforms, such as Polo Digital’s platform, frequently located in offshore locations that have little if any local regulation or oversight. The products themselves are unique and complex, extremely difficult to objectively value and subject to significant volatility. Few retail investors would have much, if any, experience with these complex and risky products, heightening the need for the registration and prospectus protections of Ontario securities law.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par56">56</a>]<span style='font:7.0pt "Times New Roman"'>      </span>For all of these reasons we conclude the Crypto Contracts are “investment contracts” and, therefore, securities within the meaning of the Act.</p>
+<p class="Heading3"><a name="_Toc117763461"><span style="color:black">3.3.2<span style='font:7.0pt "Times New Roman"'>   </span></span>Are Crypto Futures Contracts “securities”?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par57">57</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Our conclusion about Crypto Contracts applies equally to Crypto Futures Contracts, for similar reasons. An investment in a Crypto Futures Contract allows an investor to speculate on the future price of a wide variety of underlying crypto assets, with flexible, substantial leverage. The Crypto Futures Contracts have no expiration dates and are designed to closely track the underlying “spot” market.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par58">58</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits and we agree that the Crypto Futures Contracts offered on the platform meet the definition of “investment contract” and are, therefore, securities under the Act. We again apply each of the elements of the test for an “investment contract”, in the context of the overall circumstances, to the Crypto Futures Contracts in turn below.</p>
+<p class="Heading4" style="margin-left:0in;text-indent:0in">3.3.2.a        Investment of money</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par59">59</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Similar to Crypto Contracts, in order to trade Crypto Futures Contracts on the platform, clients must first deposit their fiat currency or crypto assets into an account on the platform. Based on the investigator’s experience on the platform and in the absence of any evidence from Polo Digital about how other investors on the platform proceeded, we draw an adverse inference and conclude there was a payment and that therefore, the first element of the “investment contract” test is met regarding the Crypto Futures Contracts.</p>
+<p class="Heading4">3.3.2.b<span style='font:7.0pt "Times New Roman"'>              </span>Intention or expectation of profit</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par60">60</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The Crypto Futures Contract is structured such that investors do not expect the delivery of the underlying crypto asset. Rather, investors are speculating on the future price of the underlying crypto asset, intending or expecting to earn a profit with the possibility of increasing the profit potential by leveraging their initial investment.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par61">61</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The website highlights the prospect of enhanced profits through leverage as a feature of the Crypto Futures Contract. The disclaimer on the future trading site on the platform states: “The use of leverage and collateral to trade cryptocurrencies is complex and risky. You may realize substantial gains or losses and should be well prepared before you begin trading”.<a href="#_ftn27" name="_ftnref27" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[27]</span></span></span></a> Up to 100x leverage was available for crypto futures trading on the platform.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par62">62</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that a reasonable investor trading Crypto Futures Contracts on the platform intended or expected to earn a profit from their trading. Therefore, the second element of the “investment contract” test is met.</p>
+<p class="Heading4">3.3.2.c<span style='font:7.0pt "Times New Roman"'>               </span>Common enterprise and reliance on Polo Digital’s efforts</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par63">63</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In <i>VRK</i>, the panel identified the following attributes of an online platform to determine that investors were in a common enterprise with the platform and that they relied on the platform operator’s efforts:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>the respondent provided access to, and operated, an online proprietary platform for trading contracts for differences, which gave clients exposure to underlying assets that might not otherwise be directly available;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>the respondent allowed clients to leverage their investment using margin;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>the respondent was required to hedge risk, including credit risk, performance risk and misappropriation risk so that they could satisfy payment and performance obligations of the contracts for differences; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>the contracts for differences were not transferable off the platform, they could only be closed on the platform.<a href="#_ftn28" name="_ftnref28" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[28]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par64">64</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits that the platform shares and indeed amplifies many of these same attributes, namely Polo Digital:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>owns and operates a platform that allows clients to purchase Crypto Futures Contracts, which provide exposure to a variety of underlying crypto assets, without need for clients to purchase or hold such crypto assets directly (and manage the associated risks);</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>clients can leverage their purchases of Crypto Futures Contracts;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>is necessarily required to hedge risk, including credit risk, performance risk and misappropriation risk so that Polo Digital can satisfy payment and performance obligations of the Crypto Futures Contracts; and </p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>does not provide a mechanism to transfer Crypto Futures Contracts off the platform – they must be closed on the platform.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par65">65</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We agree that these elements exist regarding the platform. Every trade by an investor in a Crypto Futures Contract is dependent on Polo Digital to accept, execute transactions, safeguard and deliver the crypto assets to the investor. Staff also submits, and we agree, that the value of the Crypto Futures Contracts is directly dependent on Polo Digital’s efforts to design the contracts such that their value closely replicates the underlying crypto “spot” market. As a result, the value of the Crypto Futures Contract is completely reliant upon Polo Digital’s expertise and efforts.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par66">66</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that investors in Crypto Futures Contracts were engaged in a common enterprise with Polo Digital and were dependent on Polo Digital’s significant efforts for the failure or success of their investment. Our conclusion is undisturbed by any evidence to the contrary. The third and fourth elements of the test for an “investment contract” are therefore met.</p>
+<p class="Heading4">3.3.2.d<span style='font:7.0pt "Times New Roman"'>              </span>Conclusion regarding Crypto Futures Contracts</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par67">67</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that all the elements of the “investment contract” test have been met regarding Crypto Futures Contracts. Investors paid money into the enterprise, intended or expected a profit from their investment and were dependent on Polo Digital for the success or failure of their investment.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par68">68</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In coming to this conclusion, we have taken a purposive approach that considers the overarching investor protection concerns presented by this product. Crypto Futures Contracts are novel and complex products that are inherently risky. The risk is heightened by the use of leverage and the potential volatility of the underlying assets. Underlying each Crypto Futures Contract is a deposit that is itself a Crypto Contract and investors were completely dependent on Polo Digital for the redemption of their initial investment. The emerging nature of the industry and the size of the market add to the risk of this product for retail investors.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par69">69</a>]<span style='font:7.0pt "Times New Roman"'>      </span>For these reasons, we conclude that the Crypto Futures Contracts are an “investment contract” and, therefore a security with the meaning of the Act. </p>
+<p class="Heading2"><a name="_Toc117763462">3.4<span style='font:7.0pt "Times New Roman"'>        </span>Did the respondent engage in the business of trading in securities without being registered and without an available exemption?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par70">70</a>]<span style='font:7.0pt "Times New Roman"'>      </span><span style="line-height:150%">Having determined that the products in this case were securities, we now turn to consider whether Polo Digital engaged in the business of trading those securities without being registered and without an available exemption.</span><span style="font-size:10.0pt;line-height:150%"> We conclude that they did. </span></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par71">71</a>]<span style='font:7.0pt "Times New Roman"'>      </span>A person must be registered under Ontario securities law to engage in the business of trading in securities unless an exemption applies.<a href="#_ftn29" name="_ftnref29" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[29]</span></span></span></a> The registration requirement is a cornerstone of Ontario’s securities regulatory regime, designed to ensure that those who engage in trading in securities are proficient and solvent, and that they act with integrity.<a href="#_ftn30" name="_ftnref30" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[30]</span></span></span></a> Unregistered trading defeats these necessary legal protections and undermines investor protection and the integrity of the capital markets.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par72">72</a>]<span style='font:7.0pt "Times New Roman"'>      </span>To determine whether Polo Digital engaged in the business of trading in securities, we must decide whether Polo Digital’s conduct constituted “trading”, and if so, whether that conduct was carried out for a business purpose.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par73">73</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The Act defines “trade” or “trading” to include:</p>
+<p class="MsoList" style="margin-left:1.25in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>         </span>any sale or disposition of a security for valuable consideration, whether the terms of payment be on margin, instalment or otherwise, and</p>
+<p class="MsoList" style="margin-left:1.25in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>         </span>any act, advertisement, solicitation, conduct or negotiation directly or indirectly in furtherance of any of the foregoing.<a href="#_ftn31" name="_ftnref31" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[31]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par74">74</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Solicitation or direct contact with investors is not required for an act to constitute an act in furtherance of a trade, for the purposes of the second element above.<a href="#_ftn32" name="_ftnref32" title=""><span class="MsoFootnoteReference"><span style="font-size:
+9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[32]</span></span></span></a> The Tribunal has found that a wide variety of activities constitute acts in furtherance of trades, including those most relevant to our analysis below: distributing promotional materials concerning potential investments, preparing and disseminating materials describing investment programs, accepting and depositing investor cheques in a bank account for the purchase of securities, and setting up a website that offers securities to investors.<a href="#_ftn33" name="_ftnref33" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[33]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par75">75</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In determining whether Polo Digital engaged in acts in furtherance of a trade, we must analyze events as a whole, in the circumstances in which they took place, while also assessing the impact the acts had on those they were directed towards.<a href="#_ftn34" name="_ftnref34" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[34]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par76">76</a>]<span style='font:7.0pt "Times New Roman"'>      </span>In order to determine whether the registration requirement applies, we must determine if Polo Digital was, or held themselves out to be, in the business of trading in securities. This is often referred to as the “business trigger” test. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par77">77</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Criteria for determining whether the business trigger threshold has been met are set out in Companion Policy 31-103CP <i>Registration Requirements, Exemptions and Ongoing Registrant Obligations</i>. Previous panels have adopted these factors and applied them in assessing possible contraventions of s. 25(1) of the Act.<a href="#_ftn35" name="_ftnref35" title=""><span class="MsoFootnoteReference"><span style="font-size:
+9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[35]</span></span></span></a> As with the analysis of acts in furtherance of a trade, it is important to consider these criteria in the broader context of whether the evidence viewed as a whole indicates that Polo Digital engaged in the business of trading.<a href="#_ftn36" name="_ftnref36" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[36]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par78">78</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The criteria for determining whether the business trigger threshold has been met include:</p>
+<p class="MsoList" style="text-indent:0in">a.<span style='font:7.0pt "Times New Roman"'>            </span>trading with repetition, regularity or continuity;</p>
+<p class="MsoList" style="text-indent:0in">b.<span style='font:7.0pt "Times New Roman"'>            </span>directly or indirectly soliciting securities transactions;</p>
+<p class="MsoList" style="text-indent:0in">c.<span style='font:7.0pt "Times New Roman"'>            </span>receiving, or expecting to receive, compensation for trading; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>engaging in activities similar to those of a registrant, such as by setting up a company to sell securities or by promoting the sale of securities.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par79">79</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits, and we agree, that Polo Digital was in the business of trading securities and engaged in direct trading as well as acts in furtherance of trading. Polo Digital owns the platform and therefore owns and operates the securities trading business conducted on the platform. Polo Digital directly engages in securities trading with the investing public. When an investor deposits crypto assets on the platform or trades crypto assets for other crypto assets, this is a sale of a Crypto Contract by Polo Digital to the investor, constituting a “sale or disposition of a security for valuable consideration”. When an investor opens or closes a position in a Crypto Futures Contract on the platform, that also constitutes a “sale or distribution of a security for valuable consideration” by Polo Digital.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par80">80</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We also conclude that Polo Digital engaged in the following acts in furtherance of trading: </p>
+<p class="MsoList" style="text-indent:0in">a.<span style='font:7.0pt "Times New Roman"'>            </span>creating and maintaining a securities trading market on the platform; </p>
+<p class="MsoList" style="text-indent:0in">b.<span style='font:7.0pt "Times New Roman"'>            </span>carrying out trade matching functions; </p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>creating and maintaining means for investors to create and fund accounts on the platform; </p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>providing information to investors to assist them in accessing and trading on the platform; </p>
+<p class="MsoList" style="text-indent:0in">e.<span style='font:7.0pt "Times New Roman"'>            </span>promoting the platform; and </p>
+<p class="MsoList" style="text-indent:0in">f.<span style='font:7.0pt "Times New Roman"'>             </span>offering the app through which investors trade on the platform.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par81">81</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Considering the evidence and the overall circumstances of this case, we conclude that Polo Digital was in the business of trading, because:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>Polo Digital owns and operates the platform, a global crypto asset trading platform conducting millions of dollars of trading in Crypto Contracts and Crypto Futures Contracts. In its letter dated April 13, 2022, Polo Digital confirmed that it had approximately 9,300 Ontario investors as of July 24, 2021. We conclude, therefore, Polo Digital trades with repetition, regularity and continuity.</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>Polo Digital solicits investors by making the platform available to the investing public through the website and the app and runs campaigns on the website to promote trading.</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>Polo Digital receives compensation for its trading services. The transaction fee schedule on the website indicates that investors benefit from reduced fees as their 30-day trading volume increases. Investors also incur withdrawal fees to cover the cost of broadcasting a transaction on the network. Polo Digital confirmed that, as of January 31, 2022, the total revenue generated by Polo Digital from Ontario-based users of the platform, from the date of the platform’s inception was USD 1,825,417.89.</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>By promoting and facilitating the trading in securities on the platform it acquired and maintains Polo Digital is engaging in conduct similar to that of a registrant.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par82">82</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Polo Digital has never been registered in any capacity with the Commission. Polo Digital bears the burden of establishing any possible entitlement to available exemptions from the registration requirement. Polo Digital has neither claimed an exemption nor filed any evidence that would support such a claim.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par83">83</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that Polo Digital was engaged in the business of trading in securities within the meaning of the Act without being registered to do so and without an available exemption. As a result, Polo Digital contravened s. 25(1) of the Act.</p>
+<p class="Heading2"><a name="_Toc117763463">3.5<span style='font:7.0pt "Times New Roman"'>        </span>Did the respondent engage in the distribution of securities without a prospectus and without an available exemption?</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par84">84</a>]<span style='font:7.0pt "Times New Roman"'>      </span>A person or company must not distribute a security without a prospectus,<a href="#_ftn37" name="_ftnref37" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[37]</span></span></span></a> unless an exemption applies. The definition of “distribution” includes “a trade in securities of an issuer that have not been previously issued”.<a href="#_ftn38" name="_ftnref38" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[38]</span></span></span></a> The prospectus requirement is another cornerstone of Ontario’s securities regulatory regime. A prospectus is fundamental to protecting investors because it ensures that they have full, true and plain disclosure of information to properly assess the risks of an investment and make an informed decision.<a href="#_ftn39" name="_ftnref39" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[39]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par85">85</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits, and we agree, that Polo Digital distributed securities without a prospectus, because:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>when an investor deposits crypto assets into their account on the platform, Polo Digital creates and sells a Crypto Contract to the investor. The Crypto Contract is a security that has not been previously issued; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>similarly, when an investor opens a Crypto Futures Contract on the platform, Polo Digital creates and sells to the investor a security that has not been previously issued.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par86">86</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Many of these distributions were made directly to Ontario investors, including Staff’s investigator. In its letter dated April 13, 2022, Polo Digital confirmed that it had approximately 9,300 Ontario investors as of July 24, 2021, and that it earned revenue from transactions on the platform from these investors.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par87">87</a>]<span style='font:7.0pt "Times New Roman"'>      </span>No prospectus or preliminary prospectus was ever filed or receipted in connection with the distribution of securities by Polo Digital. No discretionary relief was granted in respect of the prospectus requirement. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par88">88</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Polo Digital bears the burden of establishing any possible entitlement to an exemption from the prospectus requirement. Polo Digital has neither claimed an exemption nor filed any evidence that would support such a claim.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par89">89</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We find that Polo Digital engaged in the distribution of securities without filing a preliminary prospectus or prospectus, and without an available exemption from the prospectus requirement. As a result, Polo Digital contravened s. 53(1) of the Act. </p>
+<p class="Heading2"><a name="_Toc117763464">3.6<span style='font:7.0pt "Times New Roman"'>        </span>Conclusion on the Merits</a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par90">90</a>]<span style='font:7.0pt "Times New Roman"'>      </span>We conclude that Polo Digital has breached ss. 25(1) and 53(1) of the Act. Given this conclusion, it is not necessary for us to consider Staff’s alternate argument that <span style="line-height:150%">even if there were no breach of Ontario securities law, an order under s.127(1) would be warranted because</span> Polo Digital’s conduct engaged an animating principle of the Act. We treat this allegation as having been abandoned and now turn to consider the appropriate sanctions and costs in this matter.</p>
+<p class="Heading1"><a name="_Toc117763465">4.<span style='font:7.0pt "Times New Roman"'>           </span>SANCTIONS</a></p>
+<p class="Heading2"><a name="_Toc117763466">4.1<span style='font:7.0pt "Times New Roman"'>        </span>Overview</a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par91">91</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff seeks the following orders against Polo Digital for its breaches of Ontario securities law:</p>
+<p class="MsoList" style="text-indent:0in">a.<span style='font:7.0pt "Times New Roman"'>            </span>trading in any securities or derivatives by Polo Digital cease permanently;</p>
+<p class="MsoList" style="text-indent:0in">b.<span style='font:7.0pt "Times New Roman"'>            </span>the acquisition of any securities by Polo Digital cease permanently;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>any exemptions contained in Ontario securities law do not apply to Polo Digital permanently;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>a reprimand;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">e.<span style='font:7.0pt "Times New Roman"'>            </span>Polo Digital be permanently prohibited from becoming or acting as a registrant or as a promoter;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">f.<span style='font:7.0pt "Times New Roman"'>             </span>an administrative penalty of $1.5 to $2 million; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">g.<span style='font:7.0pt "Times New Roman"'>            </span>disgorgement of an amount equal to either USD 1,825,417.89 or <br/> USD 176,334.48.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par92">92</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits that significant sanctions are warranted and in the public interest given Polo Digital’s disregard for cornerstone provisions of the Act. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par93">93</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Polo Digital operates a global crypto asset trading platform accessible to Ontario investors. Staff submits that entities like Polo Digital put investors at risk, undermine efforts to bring the sector into compliance and contribute to an uneven playing field among platforms and registered firms. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par94">94</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff further submits that significant sanctions are necessary to send an appropriate deterrence message to other unregistered or non-compliant crypto trading platforms that ignoring Ontario securities law will not be tolerated.</p>
+<p class="Heading2"><a name="_Toc117763467">4.2<span style='font:7.0pt "Times New Roman"'>        </span>Legal Framework for Sanctions</a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par95">95</a>]<span style='font:7.0pt "Times New Roman"'>      </span>The Tribunal may impose sanctions under s. 127(1) of the Act where it finds it is in the public interest to do so. The Tribunal’s role is to impose sanctions that will protect investors and the capital markets from similar conduct in the future.<a href="#_ftn40" name="_ftnref40" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[40]</span></span></span></a> The Tribunal’s mandate is protective and preventive, as opposed to remedial and punitive.<a href="#_ftn41" name="_ftnref41" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[41]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par96">96</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Sanctions are to be proportionate to the respondent’s behaviour in the particular circumstances.<a href="#_ftn42" name="_ftnref42" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[42]</span></span></span></a> Previous panels have identified a non-exhaustive list of factors to be considered with respect to sanctions generally, including the seriousness of the conduct, the respondent’s experience and level of activity in the marketplace, whether the respondent recognizes the seriousness of its misconduct, the need for deterrence, whether the conduct was isolated or recurrent, the size of any profit obtained or loss avoided, and any mitigating factors.<a href="#_ftn43" name="_ftnref43" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[43]</span></span></span></a> We consider the sanctioning factors applicable in the circumstances of this matter in turn below.</p>
+<p class="Heading2"><a name="_Toc117763468">4.3<span style='font:7.0pt "Times New Roman"'>        </span>Sanctioning Factors</a></p>
+<p class="Heading3"><a name="_Toc117763469"><span style="color:black">4.3.1<span style='font:7.0pt "Times New Roman"'>   </span></span>Specific and general deterrence</a></p>
+<p class="NumberedParagraph"><a name="_Ref117507278">[97]<span style='font:7.0pt "Times New Roman"'>      </span>When imposing sanctions it is important for the Tribunal to consider both general and specific deterrence. The purpose of general deterrence is to dissuade other, like-minded persons from engaging in similar conduct by demonstrating that such conduct is unacceptable and will not be tolerated.</a><a href="#_ftn44" name="_ftnref44" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[44]</span></span></span></a> Specific deterrence aims to discourage a particular respondent from repeating their bad acts and engaging in further misconduct in the future.<a href="#_ftn45" name="_ftnref45" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[45]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par98">98</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff submits that their proposed sanctions would send a strong deterrent message to the crypto asset trading sector, and non-crypto firms generally, that disregarding Ontario securities law will not be tolerated. The Tribunal has previously noted that foreign trading platforms need a strong regulatory message that they must comply with Ontario securities law.<a href="#_ftn46" name="_ftnref46" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[46]</span></span></span></a> In our view, the need for specific and general deterrence is heightened by the inherent risks of the crypto trading sector, which we have highlighted elsewhere in these reasons.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par99">99</a>]<span style='font:7.0pt "Times New Roman"'>      </span>Staff also submits that allowing Polo Digital to escape without significant penalty would create an uneven playing field within Ontario’s capital markets and could incentivize others, specifically in the crypto asset trading sector, to engage in similar misconduct. Many other crypto asset trading firms have taken steps to bring their operations into compliance with Ontario securities law. Staff submits that it is important to underscore the fact that accepting appropriate restrictions and regulatory supervision will not put compliant participants in this sector at a competitive disadvantage and is the only route that is acceptable to the Tribunal and the investing public.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par100">100</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We agree. Polo Digital needs to understand that its conduct is not acceptable and that any such further misconduct will not be tolerated. A fundamental purpose of the Act is investor protection.<a href="#_ftn47" name="_ftnref47" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[47]</span></span></span></a> Polo Digital needs to understand that it is unacceptable to expose Ontario investors to complex, risky products in an evolving, fast-growing industry without the applicable protections of Ontario securities law. Another purpose of the Act is to “foster fair, efficient and competitive capital markets and confidence in the capital markets”.<a href="#_ftn48" name="_ftnref48" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[48]</span></span></span></a> A failure to impose significant sanctions on Polo Digital would undermine the confidence in Ontario capital markets. It would also send a message to those in the crypto asset trading sector who have worked to come into compliance with Ontario securities law that despite those efforts they remain open to unfair competition from other industry players who operate in this market without appropriate registration and supervision.</p>
+<p class="Heading3"><a name="_Toc117763470"><span style="color:black">4.3.2<span style='font:7.0pt "Times New Roman"'>   </span></span>Seriousness of the conduct</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par101">101</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff submits, and we agree, that Polo Digital’s misconduct is serious. The registration and prospectus requirements are cornerstones of Ontario’s securities regulatory framework and are essential to the protection of investors, a foundational purpose of the Act.<a href="#_ftn49" name="_ftnref49" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[49]</span></span></span></a> Registration ensures that those who engage in the business of trading securities meet the applicable proficiency, integrity and financial solvency requirements of the Act.<a href="#_ftn50" name="_ftnref50" title=""><span class="MsoFootnoteReference"><span style="font-size:
+9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[50]</span></span></span></a> This is particularly the case with new markets and products, such as the quickly evolving crypto asset trading sector, where there are large volumes of non-compliant trading in a wide variety of investment products with inherently high volatility, complexity and financial risk.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par102">102</a>]<span style='font:7.0pt "Times New Roman"'>   </span>The prospectus requirement is intended to ensure that prospective investors have the requisite information to make informed investment decisions.<a href="#_ftn51" name="_ftnref51" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[51]</span></span></span></a> Staff submits, and we agree, that the protections offered by the prospectus regime are necessary for any investor, and particularly retail investors, to understand and accept the risks inherent in crypto trading platforms and products. Without the benefit of a prospectus, the Ontario investors trading on the platform lacked the information necessary to understand the risks associated with trading novel and complex crypto securities, on a foreign-based trading platform, on which they were entirely dependent for order execution, custody and delivery of their crypto assets.</p>
+<p class="Heading3"><a name="_Toc117763471"><span style="color:black">4.3.3<span style='font:7.0pt "Times New Roman"'>   </span></span>Level of Polo Digital’s activity in the marketplace</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par103">103</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We conclude that Polo Digital’s activity in the marketplace is high based on the evidence that:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>Polo Digital promoted themselves as a one-stop crypto asset trading shop with over 200 crypto assets available for trading on the platform;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>the platform had been operating since 2014 and, in the context of an emerging market, Polo Digital therefore could be considered an experienced player;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>on May 24, 2021, as advised by Staff, a source ranked Polo Digital as the 13<sup>th</sup> largest crypto trading platform for “spot” platforms and 30<sup>th</sup> for derivatives platforms with a reported 24-hour trading volume of more than USD 529 million and USD 36 million, respectively;<a href="#_ftn52" name="_ftnref52" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[52]</span></span></span></a></p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>as of July 24, 2021, Polo Digital operated approximately 9,300 Ontario Accounts and had earned USD 1,825,417.89 in fees from trading in those accounts since the platform’s inception; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">e.<span style='font:7.0pt "Times New Roman"'>            </span>Polo Digital’s operations continue and, as advised by Staff, on May 16, 2022, a source ranked Polo Digital 22<sup>nd</sup> for “spot” platforms and 36<sup>th</sup> for derivatives platforms with a reported 24-hour trading volume of approximately USD 36 million and USD 7 million, respectively.<a href="#_ftn53" name="_ftnref53" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[53]</span></span></span></a></p>
+<p class="Heading3"><a name="_Toc117763472"><span style="color:black">4.3.4<span style='font:7.0pt "Times New Roman"'>   </span></span>Frequency of the violations</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par104">104</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff submits, and we agree, that Polo Digital’s violations of the Act were recurrent. This is not a case of isolated incidents of misconduct. The evidence before us supports the conclusion that the platform has been operating in Ontario since 2014 with no regard for the prospectus and registration requirements of the Act. As the owner and operator of the platform, Polo Digital is accountable for the breaches of Ontario’s securities laws.  </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par105">105</a>]<span style='font:7.0pt "Times New Roman"'>   </span>In addition, the risk of harm to Ontario investors continues. Despite the fact that Polo Digital advised it had taken steps to restrict access to Ontario investors (which we discuss in detail below under “Mitigating Factors”), Staff’s investigator was able, in February 2022 after the service of the Statement of Allegations, to access the platform through the temporary use of a virtual private network, and also to conduct trades using an Ontario IP address.</p>
+<p class="Heading3"><a name="_Toc117763473"><span style="color:black">4.3.5<span style='font:7.0pt "Times New Roman"'>   </span></span>Mitigating Factors</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par106">106</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Polo Digital has indicated some recognition of the seriousness of its misconduct by taking steps to restrict access to the platform by Ontario investors. Staff submits that we should give minimum weight to these steps as they appear to not have been wholly effective and Polo Digital has not expressly acknowledged its breaches and their seriousness.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par107">107</a>]<span style='font:7.0pt "Times New Roman"'>   </span>In its letter dated April 13, 2022,<a href="#_ftn54" name="_ftnref54" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[54]</span></span></span></a> Polo Digital advised that as of July 24, 2021, it “voluntarily implemented measures to prevent Ontario residents from accessing” the platform and “has voluntarily taken steps to close existing Ontario accounts”. The letter goes on to say that “Since becoming aware of the OSC’s concerns, it has always been Polo’s intention to eliminate business in Ontario and Polo has made every effort to put Ontario platform users on reasonable notice of that fact and to cooperate with Staff in the implementation of an appropriate and acceptable process for doing so”.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par108">108</a>]<span style='font:7.0pt "Times New Roman"'>   </span>The steps Polo Digital advised it had taken with respect to the Ontario Accounts<b> </b>were:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>On July 24, 2021, Polo Digital blocked Ontario IP addresses from accessing the platform, amended the User Agreement to add Ontario as a “restricted jurisdiction”, and publicly announced that Ontario had become a restricted jurisdiction.</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>In January 2022, Polo Digital sent emails to the holders of the Ontario Accounts to advise that Ontario had been added as a restricted jurisdiction and that account holders had until January 31, 2022, to access the Ontario Accounts.</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>As of February 1, 2022, no new deposits or other transactions were permitted in the Ontario Accounts and users were blocked from accessing the Ontario Accounts.</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>Polo developed procedures to allow holders of Ontario Accounts to access and withdraw funds for the purpose of closing the Ontario Accounts. Polo Digital had closed more than 50% of all identified Ontario Accounts and intends to implement enhanced application review processes to ensure that no new Ontario accounts are opened and that all remaining Ontario Accounts are closed.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par109">109</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Despite Polo Digital’s claim that, as of February 1, 2022, users of the Ontario Accounts were blocked from accessing their accounts and no new deposits or transactions would be permitted, Staff’s investigator was able to access Staff’s account and trade. The investigator used a virtual private network with a non-Ontario IP address to access the platform. The investigator then disconnected from the non-Ontario virtual private network and reverted to an Ontario IP address. The investigator then deposited Bitcoin in Staff’s account on the platform and engaged in “spot” trading.<a href="#_ftn55" name="_ftnref55" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[55]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par110">110</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff submits that Polo Digital’s efforts to eliminate business in Ontario have been insufficient and ineffective. Polo Digital chose to stop participating in this hearing and has not explicitly recognized the seriousness of its misconduct. Therefore, Staff submits, the panel should not give as much weight to Polo Digital’s steps as a mitigating factor as we would to a direct acknowledgement of the breaches and participation in this process.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par111">111</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We acknowledge Polo Digital’s claim that it had taken steps to close existing Ontario Accounts and block future access. However, Staff’s ability to access and trade in their account on the platform after the date the block was implemented suggests that those steps were not completely effective. Polo Digital is, therefore, still enabling trading in securities in Ontario in breach of Ontario securities law. We also do not know if, after Polo Digital ceased participating in this proceeding, it continued to close the remaining Ontario Accounts. Therefore, in our overall view of the appropriate sanctions against Polo Digital, we give diminished weight to Polo Digital’s remedial steps as a mitigating factor.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par112">112</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Having concluded that, as an established, significant player in the crypto asset trading sector, Polo Digital’s misconduct was serious and recurrent, we turn to determine the appropriate sanctions against them.</p>
+<p class="Heading2"><a name="_Toc117763474">4.4<span style='font:7.0pt "Times New Roman"'>        </span>Financial Sanctions</a></p>
+<p class="Heading3"><a name="_Toc117763475"><span style="color:black">4.4.1<span style='font:7.0pt "Times New Roman"'>   </span></span>Disgorgement</a> </p>
+<p class="NumberedParagraph"><a name="_Ref115703351">[113]<span style='font:7.0pt "Times New Roman"'>   </span>Staff seeks an order for disgorgement of the revenue Polo Digital generated from Ontario Accounts for either the period since the platform’s inception (2014 – USD 1,825,417.89) or since Polo Digital’s acquisition of the platform (2019 – USD 176,334.48). As indicated above, in paragraph </a>[34], we conclude that the evidence about the amount of revenue from Ontario Accounts from the inception of the platform is properly before us and factors into our analysis below.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par114">114</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Paragraph 10 of s. 127(1) of the Act authorizes the Tribunal to make an order requiring a person or company who has not complied with Ontario securities law “to disgorge to the Commission any amounts obtained as a result of the non-compliance”. The purpose of a disgorgement order is to ensure that respondents do not benefit from their breaches of the Act, and to deter them and others from similar misconduct.<a href="#_ftn56" name="_ftnref56" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[56]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par115">115</a>]<span style='font:7.0pt "Times New Roman"'>   </span>The Tribunal has previously set out various factors that it will consider in determining whether a disgorgement order is appropriate and, if so, in what amount:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>whether an amount was obtained by a respondent as a result of the non-compliance with Ontario securities law;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>the seriousness of the misconduct and whether the misconduct caused serious harm, whether directly to individual investors or otherwise;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>whether the amount obtained is reasonably ascertainable;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>whether those who suffered losses are likely to be able to obtain redress; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">e.<span style='font:7.0pt "Times New Roman"'>            </span>the deterrent effect of the disgorgement order on the respondents and other market participants.<a href="#_ftn57" name="_ftnref57" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[57]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par116">116</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We addressed the second and fifth factors above in our analysis of the sanctioning factors generally (starting at paragraph [97]). The serious nature of the misconduct and the need for specific and general deterrence support a disgorgement order. Polo Digital charged fees to Ontario investors for trading in and withdrawing securities from the platform. This revenue was obtained by Polo Digital as a result of Polo Digital’s non-compliance with Ontario securities law.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par117">117</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Polo Digital advised that the revenue generated from Ontario Accounts from the date of the platform’s inception in 2014 to July 31, 2021, was USD 1,825,417.89. With respect to the fourth factor above, we have no evidence before us about what, if any losses, have been incurred by Ontario investors who traded on the platform. The onus for establishing that investors who have suffered losses may be able to obtain redress lies with the respondent.<a href="#_ftn58" name="_ftnref58" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[58]</span></span></span></a> In the absence of any evidence of investors losses and/or the likelihood of investors being able to recover their losses, we conclude there is no basis for reducing the full amount of disgorgement sought.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par118">118</a>]<span style='font:7.0pt "Times New Roman"'>   </span>In <i>Limelight Sanctions </i>the Tribunal established that:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>the onus is on Staff to prove on a balance of probabilities the amounts obtained by a respondent as a result of their non-compliance with the Act;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>any risk of uncertainty in calculating disgorgement falls on the respondent whose breach of the Act is the basis of that uncertainty; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>once a disgorgement figure has been established, the onus is on the respondent to disprove the reasonableness of that number.<a href="#_ftn59" name="_ftnref59" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[59]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par119">119</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff has established that there are two possible amounts that could be used for disgorgement, revenue from Ontario accountholders from the date of the platform’s inception (USD 1,825,417.89) or from the date Polo Digital acquired the platform (USD 176,334.48). As established in <i>Limelight Sanctions, </i>Polo Digital bears the risk of the uncertainty of the calculation and bears the onus of disproving the reasonableness of the number. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par120">120</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Polo Digital chose not to participate in this hearing. We, therefore, have no evidence that might rebut the reasonableness of considering the revenue since the platform’s inception for disgorgement. Such information might have included details of whether Polo Digital acquired all the assets and liabilities of the vendor or if there were indemnities to protect Polo Digital against adverse claims against the business, or indeed whether the acquisition was at arm’s length. All of this information might have provided a basis for not ordering disgorgement of the revenue since the platform’s inception. We have no such evidence. Polo Digital has not, therefore, discharged its onus of disproving the reasonableness of Staff’s request that the platform’s revenue since inception be disgorged.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par121">121</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Considering all of the above factors, we conclude that an order requiring Polo Digital to disgorge USD 1,825,417.89 to the Commission is appropriate. </p>
+<p class="Heading3"><a name="_Toc117763476"><span style="color:black">4.4.2<span style='font:7.0pt "Times New Roman"'>   </span></span>Administrative Penalty</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par122">122</a>]<span style='font:7.0pt "Times New Roman"'>   </span>The Act states that if a person or company has not complied with Ontario securities law, an administrative penalty of not more than $1 million for each failure to comply may be ordered.<a href="#_ftn60" name="_ftnref60" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:
+150%;font-family:"Verdana",sans-serif'>[60]</span></span></span></a> Staff submits that an administrative penalty of $1.5 to 2 million is appropriate given the seriousness of the conduct, the high amount of risk to Ontario investors, the disregard for Ontario’s securities laws and the strong need for general deterrence in the crypto asset sector.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par123">123</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff has provided us with a number of precedents to assist with our determination of the appropriate administrative penalty, which we refer to below. A previous panel recently noted, “[t]here is no formulaic approach to determining the quantum of an administrative penalty. Prior decisions provide some context to the consideration of proportionality, however, the sanctions in each proceeding must be determined based on the specific factual context and circumstances”.<a href="#_ftn61" name="_ftnref61" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[61]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par124">124</a>]<span style='font:7.0pt "Times New Roman"'>   </span>One group of cases Staff cited involved settlements with entities operating online trading platforms offering contracts for differences to Ontarians without being registered and engaging in illegal distributions to Ontarians.<a href="#_ftn62" name="_ftnref62" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[62]</span></span></span></a> In each of these cases, similar to Polo Digital, the respondents took some steps to restrict their business operations in Ontario. The administrative penalties ordered in these cases ranged from $550,000 to $600,000. However, unlike the matter before us, the respondents in these cases acknowledged their misconduct, cooperated fully with the Commission and provided enforceable undertakings in relation to their Ontario operations going forward.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par125">125</a>]<span style='font:7.0pt "Times New Roman"'>   </span>In a recent no-contest settlement, where the respondent did not acknowledge any wrongdoing, an administrative penalty of $650,000 was ordered (in addition to disgorgement of USD 4 million) with respect to an Australian-based over-the-counter issuer of derivatives and securities.<a href="#_ftn63" name="_ftnref63" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[63]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par126">126</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff also cited a recent settlement involving market manipulation and whistleblower reprisal by the operators of a crypto asset trading platform, where administrative penalties of $1 million and $900,000 were ordered with respect to the Chief Executive Officer and the President and Chief Trading Officer, respectively.<a href="#_ftn64" name="_ftnref64" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[64]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par127">127</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Lastly, Staff cited the recent decision in <i>Mek Global </i>where an administrative penalty of $2 million was ordered against the owner-operators of a foreign-based crypto asset trading platform. The respondent in that instance chose not to participate at all in the proceeding. The information about the number of Ontarians affected and the amount of money raised by the respondents was not ascertainable in that case, therefore, there was no disgorgement order against the owner-operators.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par128">128</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff submits that the appropriate administrative penalty in this instance should be in excess of that ordered in the contract for differences settlement cases but potentially less than what was ordered in <i>Mek Global</i>. In the contract for differences cases there were acknowledgements of responsibility, cooperation with Staff and enforceable undertakings to ensure that efforts to restrict business operations in Ontario occurred. Unlike in <i>Mek Global</i>, Polo Digital did take some steps to restrict its operations in Ontario and provided some information about the number of Ontarians impacted by its operations and the revenue generated from those operations.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par129">129</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We conclude that an administrative penalty of $1.5 million dollars is appropriate in these circumstances. We agree the administrative penalty needs to be greater than in the contract for differences settlements because Polo Digital has not expressly acknowledged its misconduct, ceased participating with Staff just prior to this hearing and there are no tools available to the Commission to confirm that the steps Polo Digital has purported to take to restrict its business in Ontario are effective and will be sustained. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par130">130</a>]<span style='font:7.0pt "Times New Roman"'>   </span>While the amount raised in the other cases cited by Staff exceeds that raised by Polo Digital, in each instance (with the exception of <i>Mek Global</i> where the number of Ontario investors could not be determined), Polo Digital’s misconduct affected a significantly larger group of Ontarians.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par131">131</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Unlike in <i>Mek Global</i>, as discussed above, the evidence here also supports an order for disgorgement in the amount of USD 1,825,417.89. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par132">132</a>]<span style='font:7.0pt "Times New Roman"'>   </span>The Tribunal has previously observed that the administrative penalty should properly reflect the prevailing economic incentives: “there is a need for regulatory sanctions to create economic incentives to foster compliance or alternatively, remove economic incentives for non-compliance”.<a href="#_ftn65" name="_ftnref65" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[65]</span></span></span></a>  </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par133">133</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff submits that, given the substantial size of estimated aggregate 24-hour trading volume on the platform and the fees that Polo Digital must earn from that volume, an administrative penalty in the range of $1.5 to $2 million is necessary to achieve the necessary economic incentive to specifically deter Polo Digital.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par134">134</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Taking all of these factors into consideration we conclude that an administrative penalty of $1.5 million is appropriate. It reflects the seriousness of the misconduct, the number of Ontarians impacted by the misconduct and the potential continuing risk of harm to Ontarians (despite Polo Digital’s stated efforts, to which we give some recognition). In the absence of evidence to the contrary from Polo Digital, we accept Staff’s evidence about the platform’s trading volume and the fees that Polo Digital likely earns on that volume. We therefore conclude that this $1.5 million administrative penalty will both create the necessary economic incentive to Polo Digital and provide general deterrence to others operating in the crypto asset trading sector.</p>
+<p class="Heading2"><a name="_Toc117763477">4.5<span style='font:7.0pt "Times New Roman"'>        </span>Market Participation Bans</a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par135">135</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Participation in the capital markets is a privilege, not a right.<a href="#_ftn66" name="_ftnref66" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[66]</span></span></span></a> Staff submits that Polo Digital has lost the privilege of participating in Ontario’s capital markets because of its misconduct and that permanent market bans will protect Ontario investors from Polo Digital and deliver the necessary deterrent message to other members of the crypto asset sector.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par136">136</a>]<span style='font:7.0pt "Times New Roman"'>   </span>The Tribunal has found permanent market participation bans to be appropriate in other instances involving breaches of the registration and prospectus requirements of the Act.<a href="#_ftn67" name="_ftnref67" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:150%"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[67]</span></span></span></a> We take particular note of several of those decisions. In <i>Mek Global</i> the owners and operators of a similar crypto trading platform were found to have breached ss. 25(1) and 53(1), having operated its platform for two years longer than Polo Digital but in circumstances where the number of investors affected and the amount of revenue raised were not ascertainable. In <i>Vantage</i>, USD 3 million was raised from 2,700 Ontario accounts over a 6-year period in breach of the registration and prospectus requirements. In <i>IC Markets,</i> the respondents failed to comply with ss. 25(1) and 53(1) while raising USD 4 million from 1,665 Ontario accounts over a 5-year period.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par137">137</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We conclude that permanent market participation bans are appropriate given the seriousness of the breaches, the length of time that Polo Digital has been in breach of the Act, the recurrent and ongoing nature of the risk, the number of Ontario investors impacted, and amount of revenue generated from the illegal activity in Ontario. </p>
+<p class="Heading2"><a name="_Toc117763478">4.6<span style='font:7.0pt "Times New Roman"'>        </span>Reprimand</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par138">138</a>]<span style='font:7.0pt "Times New Roman"'>   </span>With respect to the requested reprimand, Staff submits that a reprimand would further the goals of both general and specific deterrence. Staff submits that a reprimand presents an opportunity for the Tribunal to speak directly to the respondent, drive home how unacceptable its conduct is to the Tribunal and Ontario’s investing public, and warn it against further breaches of Ontario securities law.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par139">139</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Previous panels have taken the view that a reprimand is generally unnecessary, duplicative and not in the public interest when, as is the case here, there are explicit findings of breaches of Ontario securities law and the reasons for the Tribunal’s decision include a clear denunciation of that conduct.<a href="#_ftn68" name="_ftnref68" title=""><span class="MsoFootnoteReference"><span style="font-size:9.0pt;line-height:
+150%"><span style='font-size:9.0pt;
+line-height:150%;font-family:"Verdana",sans-serif'>[68]</span></span></span></a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par140">140</a>]<span style='font:7.0pt "Times New Roman"'>   </span>In our view, a reprimand is a powerful sanctioning tool in appropriate circumstances. In this instance, we conclude that a reprimand would be duplicative and unnecessary as we have made explicit findings of breaches of the Act and we have clearly denounced the misconduct. We, therefore, decline to make such an order.</p>
+<p class="Heading2"><a name="_Toc117763479">4.7<span style='font:7.0pt "Times New Roman"'>        </span>Conclusion on Sanctions</a> </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par141">141</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We conclude that permanent market bans, an administrative penalty of $1,500,000 and disgorgement of USD 1,825,417.89 are appropriate sanctions in these circumstances.</p>
+<p class="Heading1"><a name="_Toc117763480">5.<span style='font:7.0pt "Times New Roman"'>           </span>COSTS</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par142">142</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We will now consider Staff’s request that Polo Digital pay some of the costs associated with its investigation and the hearing. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par143">143</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Section 127.1 of the Act gives the Tribunal discretion to order a person or company to pay the costs of an investigation or a hearing, if the Tribunal is satisfied that the person or company has not complied with Ontario securities law or has not acted in the public interest.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par144">144</a>]<span style='font:7.0pt "Times New Roman"'>   </span>A costs order is not a sanction but rather a means to recover the costs of an investigation or hearing resulting from the unlawful activities of a person or company. In this case, Staff seeks an order that Polo Digital pay costs in the amount of $138,371.50, comprised of $138,005.00 for fees and $366.50 for disbursements.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par145">145</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff has calculated costs as reflected in the Leung Affidavit and the Bill of Costs attached thereto. The Bill of Costs includes a table of Costs Incurred and a table of Costs Claimed. The amount of Staff time is based on hourly rates previously approved by the Commission.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par146">146</a>]<span style='font:7.0pt "Times New Roman"'>   </span>The Costs Incurred include the time of various individuals during the investigation and litigation phases of this matter, including a Senior Forensic Accountant, Forensic Accountant, Senior Litigation Counsel, Senior Investigation Counsel, Litigation Counsel and Law Clerk. The Costs Incurred does not include time for those team members who incurred less than 35 hours on this matter. Staff has also discounted the time of the Senior Forensic Accountant and the Forensic Accountant to reflect some inevitable overlap between them when principal investigator responsibilities passed between the two towards the end of the litigation phase of this matter.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par147">147</a>]<span style='font:7.0pt "Times New Roman"'>   </span>In appropriate circumstances, Staff will often further discount the Costs Incurred before arriving at the amount of Costs Claimed. Staff has not done so in this instance. Staff submits that the amount of Costs Incurred is already reasonable to claim for a matter of this nature and already reflects reasonable discounts from the actual time incurred.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par148">148</a>]<span style='font:7.0pt "Times New Roman"'>   </span>Staff submits that Polo Digital’s decision to stop participating in this proceeding resulted in limited opportunities to narrow the issues or reach agreements to streamline the proceeding, and thereby reduce costs. Also, Staff submits that while Polo Digital did make certain admissions of fact in its April 13, 2022 “with prejudice” letter, it did not admit any breaches of Ontario securities law. Staff, therefore, still had to incur time and resources to prove the elements of its case. </p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par149">149</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We conclude that Staff’s cost request is appropriate and reasonable in the circumstances. The request does not reflect all of Staff’s Costs Incurred (appropriate discounts have been made regarding Staff whose time is included and to address the transition between investigators) and Polo Digital’s decision to withdraw its participation removed the opportunity to narrow the issues before the Tribunal.</p>
+<p class="Heading1"><a name="_Toc117763481">6.<span style='font:7.0pt "Times New Roman"'>           </span>conclusion AND ORDER</a></p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par150">150</a>]<span style='font:7.0pt "Times New Roman"'>   </span>For the reasons set out above, we conclude that Polo Digital engaged in:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>the business of trading in securities without the necessary registration or available exemption from the registration requirement, contrary to <br/> s. 25(1) of the Act; and</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>the distribution of securities without a prospectus or an available exemption from the prospectus requirement, contrary to s. 53(1) of the Act.</p>
+<p class="NumberedParagraph">[<a class="paragAnchor" name="par151">151</a>]<span style='font:7.0pt "Times New Roman"'>   </span>We will therefore issue an order that Polo Digital:</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">a.<span style='font:7.0pt "Times New Roman"'>            </span>cease trading in any securities or derivatives permanently, pursuant to paragraph 2 of s. 127(1) of the Act;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">b.<span style='font:7.0pt "Times New Roman"'>            </span>is prohibited from acquiring any securities permanently, pursuant to paragraph 2.1 of s. 127(1) of the Act;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">c.<span style='font:7.0pt "Times New Roman"'>            </span>is prohibited from utilizing any exemptions contained in Ontario securities law permanently, pursuant to paragraph 3 of s. 127(1) of the Act;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">d.<span style='font:7.0pt "Times New Roman"'>            </span>is prohibited from becoming or acting as a registrant or as a promoter permanently, pursuant to paragraph 8.5 of s. 127(1) of the Act;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">e.<span style='font:7.0pt "Times New Roman"'>            </span>pay an administrative penalty of $1,500,000, pursuant to paragraph 9 of s. 127(1) of the Act;</p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">f.<span style='font:7.0pt "Times New Roman"'>             </span>disgorge USD 1,825,417.89 to the Commission, pursuant to paragraph 10 of subsection 127(1) of the Act; and </p>
+<p class="MsoList" style="margin-left:1.0in"> </p>
+<p class="MsoList" style="margin-left:1.0in"> </p>
+<p class="MsoList" style="margin-left:1.0in;text-indent:-.5in">g.<span style='font:7.0pt "Times New Roman"'>            </span>pay costs of the Commission’s investigation and hearing in the amount of $138,371.50, pursuant to s. 127.1 of the Act.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal">Dated at Toronto this 27<sup>th</sup> day of October, 2022</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<table border="0" cellpadding="0" cellspacing="0" class="TableGrid1" style="border-collapse:
+ collapse;border:none">
+<tbody>
+<tr style="height:9.35pt">
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt;
+  height:9.35pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td colspan="2" style="width:108.4pt;padding:0in 5.4pt 0in 5.4pt;
+  height:9.35pt" valign="top" width="145"> <p class="MsoNormal"> </p> </td>
+<td colspan="3" style="width:169.7pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:9.35pt" valign="top" width="226"> <p align="center" class="MsoNormal" style="text-align:center"><i>“M. Cecilia Williams”</i></p> </td>
+<td style="width:107.8pt;padding:0in 5.4pt 0in 5.4pt;
+  height:9.35pt" valign="top" width="144"> <p class="MsoNormal"> </p> </td>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt;
+  height:9.35pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+</tr>
+<tr>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td colspan="2" style="width:108.4pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="145"> <p class="MsoNormal"> </p> </td>
+<td colspan="3" style="width:169.7pt;border:none;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="226"> <p align="center" class="MsoNormal" style="text-align:center">M. Cecilia Williams</p> </td>
+<td style="width:107.8pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="144"> <p class="MsoNormal"> </p> </td>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+</tr>
+<tr>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td colspan="6" style="border:none;padding:0in 0in 0in 0in" width="515"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td colspan="3" style="width:172.35pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="230"> <p align="center" class="MsoNormal" style="text-align:center"><i>“Geoffrey D. Creighton”</i></p> </td>
+<td style="width:41.2pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td colspan="2" style="width:172.35pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="230"> <p align="center" class="MsoNormal" style="text-align:center"><i>“William J. Furlong”</i></p> </td>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+</tr>
+<tr style="height:11.15pt">
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt;
+  height:11.15pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td colspan="3" style="width:172.35pt;border:none;
+  padding:0in 5.4pt 0in 5.4pt;height:11.15pt" valign="top" width="230"> <p align="center" class="MsoNormal" style="text-align:center">Geoffrey D. Creighton</p> </td>
+<td style="width:41.2pt;padding:0in 5.4pt 0in 5.4pt;
+  height:11.15pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+<td colspan="2" style="width:172.35pt;padding:0in 5.4pt 0in 5.4pt;
+  height:11.15pt" valign="top" width="230"> <p align="center" class="MsoNormal" style="text-align:center">William J. Furlong</p> </td>
+<td style="width:41.05pt;padding:0in 5.4pt 0in 5.4pt;
+  height:11.15pt" valign="top" width="55"> <p class="MsoNormal"> </p> </td>
+</tr>
+<tr height="0">
+<td style="border:none" width="55"></td>
+<td style="border:none" width="55"></td>
+<td style="border:none" width="90"></td>
+<td style="border:none" width="85"></td>
+<td style="border:none" width="55"></td>
+<td style="border:none" width="86"></td>
+<td style="border:none" width="144"></td>
+<td style="border:none" width="55"></td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"> </p>
+</div>
+<div>
+<br clear="all"/>
+<hr align="left" size="1" width="33%"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[1]</span></span></a> (2022), 45 OSCB 4683 (<b>May 3 Order</b>)</p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText"><a href="#_ftnref2" name="_ftn2" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[2]</span></span></a> Exhibit 1, Affidavit of Jocelyn Wang dated June 10, 2022 (<b>Wang Affidavit</b>)</p>
+</div>
+<div id="ftn3">
+<p class="MsoFootnoteText"><a href="#_ftnref3" name="_ftn3" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[3]</span></span></a> Exhibit 2, Affidavit of Yolanda Leung dated June 10, 2022 (<b>Leung Affidavit</b>)</p>
+</div>
+<div id="ftn4">
+<p class="MsoFootnoteText"><a href="#_ftnref4" name="_ftn4" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[4]</span></span></a> RSO 1990, c S.5</p>
+</div>
+<div id="ftn5">
+<p class="MsoFootnoteText"><a href="#_ftnref5" name="_ftn5" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[5]</span></span></a> Wang Affidavit at para 38</p>
+</div>
+<div id="ftn6">
+<p class="MsoFootnoteText"><a href="#_ftnref6" name="_ftn6" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[6]</span></span></a> RSO 1990, c S.22</p>
+</div>
+<div id="ftn7">
+<p class="MsoFootnoteText"><a href="#_ftnref7" name="_ftn7" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[7]</span></span></a> (2022) 45 OSCB 4492</p>
+</div>
+<div id="ftn8">
+<p class="MsoFootnoteText"><a href="#_ftnref8" name="_ftn8" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[8]</span></span></a> <i>Money Gate Mortgage investment Corporation (Re)</i>, 2019 ONSEC 40 (<b><i>Money Gate</i></b>) at para 71; <i>Hutchinson (Re)</i>, 2019 ONSEC 36 (<b><i>Hutchinson</i></b>) at para 76</p>
+</div>
+<div id="ftn9">
+<p class="MsoFootnoteText"><a href="#_ftnref9" name="_ftn9" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[9]</span></span></a> <i>Sextant Capital Management Inc (Re)</i>, 2011 ONSEC 15 at paras 245-246; <i>Hutchinson</i> at paras 64-65, 215, 268 and 388; <i>Money Gate</i> at paras 71 and 77; <i>Mega-C Power Corporation (Re)</i>, 2010 ONSEC 19 at paras 275-276</p>
+</div>
+<div id="ftn10">
+<p class="MsoFootnoteText"><a href="#_ftnref10" name="_ftn10" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[10]</span></span></a> Wang Affidavit at para 139 </p>
+</div>
+<div id="ftn11">
+<p class="MsoFootnoteText"><a href="#_ftnref11" name="_ftn11" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[11]</span></span></a> Wang Affidavit at para 140</p>
+</div>
+<div id="ftn12">
+<p class="MsoFootnoteText"><a href="#_ftnref12" name="_ftn12" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[12]</span></span></a> Wang Affidavit at para 135</p>
+</div>
+<div id="ftn13">
+<p class="MsoFootnoteText"><a href="#_ftnref13" name="_ftn13" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[13]</span></span></a> Wang Affidavit at para 142</p>
+</div>
+<div id="ftn14">
+<p class="MsoFootnoteText"><a href="#_ftnref14" name="_ftn14" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[14]</span></span></a> <i>Ontario Securities Commission v Tiffin,</i> 2020 ONCA 217 (<b><i>Tiffin</i></b>) at para 29</p>
+</div>
+<div id="ftn15">
+<p class="MsoFootnoteText"><a href="#_ftnref15" name="_ftn15" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[15]</span></span></a> <i>Tiffin</i> at para 28</p>
+</div>
+<div id="ftn16">
+<p class="MsoFootnoteText"><a href="#_ftnref16" name="_ftn16" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[16]</span></span></a> 2022 ONSEC 1 (<b><i>VRK</i></b>) at para 22</p>
+</div>
+<div id="ftn17">
+<p class="MsoFootnoteText"><a href="#_ftnref17" name="_ftn17" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[17]</span></span></a> <i>VRK</i> at para 24</p>
+</div>
+<div id="ftn18">
+<p class="MsoFootnoteText"><a href="#_ftnref18" name="_ftn18" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[18]</span></span></a> <i>VRK </i>at para 24</p>
+</div>
+<div id="ftn19">
+<p class="MsoFootnoteText"><a href="#_ftnref19" name="_ftn19" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[19]</span></span></a> <i>Pacific Coast Coin Exchange v Ontario Securities Commission </i>[1978] 2 SCR 112 (<b><i>Pacific Coast Coin</i></b>)<b> </b>at 127-132</p>
+</div>
+<div id="ftn20">
+<p class="MsoFootnoteText"><a href="#_ftnref20" name="_ftn20" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[20]</span></span></a> <i>Furtak (Re), </i>2016 ONSEC 35 (<b><i>Furtak</i></b>) at para 66, citing <i>Pacific Coast Coin</i></p>
+</div>
+<div id="ftn21">
+<p class="MsoFootnoteText"><a href="#_ftnref21" name="_ftn21" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[21]</span></span></a> <i>Furtak </i>at para 66; <i>Mek Global Limited (Re)</i>, 2022 ONCMT 15 (<b><i>Mek Global</i></b>) at para 43</p>
+</div>
+<div id="ftn22">
+<p class="MsoFootnoteText"><a href="#_ftnref22" name="_ftn22" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[22]</span></span></a> See <i>Furtak</i> </p>
+</div>
+<div id="ftn23">
+<p class="MsoFootnoteText"><a href="#_ftnref23" name="_ftn23" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[23]</span></span></a> See <i>Mek Global</i></p>
+</div>
+<div id="ftn24">
+<p class="MsoFootnoteText"><a href="#_ftnref24" name="_ftn24" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[24]</span></span></a> Wang Affidavit at para 40</p>
+</div>
+<div id="ftn25">
+<p class="MsoFootnoteText"><a href="#_ftnref25" name="_ftn25" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[25]</span></span></a> Wang Affidavit at paras 99 and 109</p>
+</div>
+<div id="ftn26">
+<p class="MsoFootnoteText"><a href="#_ftnref26" name="_ftn26" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[26]</span></span></a> <i>Pacific Coast</i> <i>Coin</i> at 129</p>
+</div>
+<div id="ftn27">
+<p class="MsoFootnoteText"><a href="#_ftnref27" name="_ftn27" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[27]</span></span></a> Wang Affidavit at para 99</p>
+</div>
+<div id="ftn28">
+<p class="MsoFootnoteText"><a href="#_ftnref28" name="_ftn28" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[28]</span></span></a> <i>VRK</i> at paras 31-32</p>
+</div>
+<div id="ftn29">
+<p class="MsoFootnoteText"><a href="#_ftnref29" name="_ftn29" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[29]</span></span></a> Act, s. 25(1)</p>
+</div>
+<div id="ftn30">
+<p class="MsoFootnoteText"><a href="#_ftnref30" name="_ftn30" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[30]</span></span></a> <i>Limelight Entertainment Inc (Re)</i>, 2008 ONSEC 4 (<b><i>Limelight Merits</i></b>)<b><i> </i></b>at paras 135-136</p>
+</div>
+<div id="ftn31">
+<p class="MsoFootnoteText"><a href="#_ftnref31" name="_ftn31" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[31]</span></span></a> Act, s. 1(1) “trade”</p>
+</div>
+<div id="ftn32">
+<p class="MsoFootnoteText"><a href="#_ftnref32" name="_ftn32" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[32]</span></span></a> <i>Rezwealth Financial Services Inc (Re)</i>, 2013 ONSEC 28 at para 215; <i>Bluestream Capital Corporation (Re)</i>, 2015 ONSEC 6 at para 37</p>
+</div>
+<div id="ftn33">
+<p class="MsoFootnoteText"><a href="#_ftnref33" name="_ftn33" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[33]</span></span></a> <i>Winick (Re)</i>, 2013 ONSEC 31 (<b><i>Winick</i></b>) at para 99</p>
+</div>
+<div id="ftn34">
+<p class="MsoFootnoteText"><a href="#_ftnref34" name="_ftn34" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[34]</span></span></a> <i>Winick</i> at para 98</p>
+</div>
+<div id="ftn35">
+<p class="MsoFootnoteText"><a href="#_ftnref35" name="_ftn35" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[35]</span></span></a> See, for example, <i>Mek Global</i> at para 79; <i>Meharchand (Re)</i>, 2018 ONSEC 51 at para 111; <i>Money Gate</i> at para 145 and <i>Paramount Equity Financial Corporation (Re)</i>, 2022 ONSEC 7 at para 32</p>
+</div>
+<div id="ftn36">
+<p class="MsoFootnoteText"><a href="#_ftnref36" name="_ftn36" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[36]</span></span></a> <i>Future Solar Developments Inc (Re)</i>, 2016 ONSEC 17 at para 45</p>
+</div>
+<div id="ftn37">
+<p class="MsoFootnoteText"><a href="#_ftnref37" name="_ftn37" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[37]</span></span></a> Act, s. 53(1)</p>
+</div>
+<div id="ftn38">
+<p class="MsoFootnoteText"><a href="#_ftnref38" name="_ftn38" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[38]</span></span></a> Act, s. 1(1) “distribution”</p>
+</div>
+<div id="ftn39">
+<p class="MsoFootnoteText"><a href="#_ftnref39" name="_ftn39" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[39]</span></span></a> <i>Limelight Merits</i> at para 139</p>
+</div>
+<div id="ftn40">
+<p class="MsoFootnoteText"><a href="#_ftnref40" name="_ftn40" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[40]</span></span></a> <i>Bradon Technologies Ltd (Re)</i>, 2016 ONSEC 19 at para 26 (<b><i>Bradon</i></b>), citing <i>Mithras Management Ltd (Re)</i> (1990), 13 OSCB 1600 at 1610-1611</p>
+</div>
+<div id="ftn41">
+<p class="MsoFootnoteText"><a href="#_ftnref41" name="_ftn41" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[41]</span></span></a> <i>Bradon</i> at para 27, citing <i>Committee for the Equal Treatment of Asbestos Minority Shareholders v Ontario (Securities Commission)</i>, 2001 SCC 37 at paras 42-43</p>
+</div>
+<div id="ftn42">
+<p class="MsoFootnoteText"><a href="#_ftnref42" name="_ftn42" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[42]</span></span></a> <i>York Rio Resources Inc (Re)</i>, 2014 ONSEC 9 at para 36, citing <i>MCJC Holdings Inc (Re)</i> (2002), 25 OSCB 1133 at 1134</p>
+</div>
+<div id="ftn43">
+<p class="MsoFootnoteText"><a href="#_ftnref43" name="_ftn43" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[43]</span></span></a> <i>Norshield Asset Management (Canada) Ltd (Re)</i>, 2010 ONSEC 16 at paras 92-93</p>
+</div>
+<div id="ftn44">
+<p class="MsoFootnoteText"><a href="#_ftnref44" name="_ftn44" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[44]</span></span></a> <i>Bradon</i> at para 46</p>
+</div>
+<div id="ftn45">
+<p class="MsoFootnoteText"><a href="#_ftnref45" name="_ftn45" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[45]</span></span></a> <i>Bradon</i> at para 46</p>
+</div>
+<div id="ftn46">
+<p class="MsoFootnoteText"><a href="#_ftnref46" name="_ftn46" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[46]</span></span></a> <i>Vantage Global Prime Pty Ltd (Re)</i>, 2021 ONSEC 18 (<b><i>Vantage</i></b>)</p>
+</div>
+<div id="ftn47">
+<p class="MsoFootnoteText"><a href="#_ftnref47" name="_ftn47" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[47]</span></span></a> Act, s. 1.1(a)</p>
+</div>
+<div id="ftn48">
+<p class="MsoFootnoteText"><a href="#_ftnref48" name="_ftn48" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[48]</span></span></a> Act, s. 1.1(b)</p>
+</div>
+<div id="ftn49">
+<p class="MsoFootnoteText"><a href="#_ftnref49" name="_ftn49" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[49]</span></span></a> Act, s. 1.1(a)</p>
+</div>
+<div id="ftn50">
+<p class="MsoFootnoteText"><a href="#_ftnref50" name="_ftn50" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[50]</span></span></a> Act, subclause 27(2)(a)(i); <i>Pro-Financial Asset Management (Re), </i>2018 ONSEC 18 (<b><i>PFAM</i></b>) at para 100; <i>MP Global Financial Ltd (Re)</i>, 2011 ONSEC 22 <i>(<b>MP Global</b></i>)<i> </i>at para 45</p>
+</div>
+<div id="ftn51">
+<p class="MsoFootnoteText"><a href="#_ftnref51" name="_ftn51" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[51]</span></span></a> <i>MP Global</i> at para 117</p>
+</div>
+<div id="ftn52">
+<p class="MsoFootnoteText"><a href="#_ftnref52" name="_ftn52" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[52]</span></span></a> Wang Affidavit at para 38</p>
+</div>
+<div id="ftn53">
+<p class="MsoFootnoteText"><a href="#_ftnref53" name="_ftn53" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[53]</span></span></a> Wang Affidavit at para 38</p>
+</div>
+<div id="ftn54">
+<p class="MsoFootnoteText"><a href="#_ftnref54" name="_ftn54" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[54]</span></span></a> Wang Affidavit at para 144</p>
+</div>
+<div id="ftn55">
+<p class="MsoFootnoteText"><a href="#_ftnref55" name="_ftn55" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[55]</span></span></a> Wang Affidavit at paras 154-155</p>
+</div>
+<div id="ftn56">
+<p class="MsoFootnoteText"><a href="#_ftnref56" name="_ftn56" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[56]</span></span></a> 2008 ONSEC 28 (<b><i>Limelight Sanctions</i></b>) at paras 47-54.</p>
+</div>
+<div id="ftn57">
+<p class="MsoFootnoteText"><a href="#_ftnref57" name="_ftn57" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[57]</span></span></a> <i>Money Gate Mortgage Investment Corporation (Re)</i>, 2021 ONSEC 10 (<b><i>Money Gate Sanctions</i></b>) at para 45; <i>PFAM</i> at para 56</p>
+</div>
+<div id="ftn58">
+<p class="MsoFootnoteText"><a href="#_ftnref58" name="_ftn58" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[58]</span></span></a> <i>PFAM</i> at para 71</p>
+</div>
+<div id="ftn59">
+<p class="MsoFootnoteText"><a href="#_ftnref59" name="_ftn59" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[59]</span></span></a> <i>Limelight Sanctions</i> at paras 48(b) and (c) and 53</p>
+</div>
+<div id="ftn60">
+<p class="MsoFootnoteText"><a href="#_ftnref60" name="_ftn60" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[60]</span></span></a> Act, s. 127(1)9</p>
+</div>
+<div id="ftn61">
+<p class="MsoFootnoteText"><a href="#_ftnref61" name="_ftn61" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[61]</span></span></a> <i>Miner Edge Inc (Re)</i>, 2021 ONSEC 31 (<b><i>Miner Edge</i></b>)<b><i> </i></b>at para 89</p>
+</div>
+<div id="ftn62">
+<p class="MsoFootnoteText"><a href="#_ftnref62" name="_ftn62" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[62]</span></span></a> See <i>International Capital Markets Pty Ltd (Re), </i>2019 ONSEC 28 (<b><i>IC Markets</i></b>); <i>Vantage; Ava Trade Ltd (Re)</i>, 2019 ONSEC 27; <i>eToro (Europe) Limited (Re)</i>, 2018 ONSEC 49 and <i>Coinsquare</i></p>
+</div>
+<div id="ftn63">
+<p class="MsoFootnoteText"><a href="#_ftnref63" name="_ftn63" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[63]</span></span></a> <i>IC Markets</i></p>
+</div>
+<div id="ftn64">
+<p class="MsoFootnoteText"><a href="#_ftnref64" name="_ftn64" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[64]</span></span></a> <i>Coinsquare</i></p>
+</div>
+<div id="ftn65">
+<p class="MsoFootnoteText"><a href="#_ftnref65" name="_ftn65" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[65]</span></span></a> <i>Rowan (Re)</i>, 2009 ONSEC 46 at para 74</p>
+</div>
+<div id="ftn66">
+<p class="MsoFootnoteText"><a href="#_ftnref66" name="_ftn66" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[66]</span></span></a> <i>Mek Global</i> at para 110; <i>Borealis International Inc (Re)</i>, 2011 ONSEC 11 at para 51, citing <i>Erikson v Ontario (Securities Commission)</i> (2003), 26 OSCB 1622 at para 56; <i>MOAG Copper Gold Resources Inc (Re)</i>, 2020 ONSEC 29 at para 36</p>
+</div>
+<div id="ftn67">
+<p class="MsoFootnoteText"><a href="#_ftnref67" name="_ftn67" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[67]</span></span></a> <i>Limelight Sanctions </i>at paras 12(a)-(c), 41 and 42; <i>Blue Gold Holdings (Re)</i>, 2016 ONSEC 37 at paras 2(a) and (b), 6, 63-68, 79(a) and 87-89; <i>Miner Edge</i> at paras 78 and 110(a) and (b); <i>Mek Global</i> at paras 110-111</p>
+</div>
+<div id="ftn68">
+<p class="MsoFootnoteText"><a href="#_ftnref68" name="_ftn68" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;line-height:150%;font-family:"Verdana",sans-serif'>[68]</span></span></a> <i>Mek Global</i> at para 113; <i>Money Gate Sanctions</i> at para 39; <i>Hutchinson (Re), </i>2020 ONSEC 1 at para 49</p>
+</div>
+</div>
+</body>
+</html>

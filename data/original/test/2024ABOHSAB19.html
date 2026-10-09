@@ -1,0 +1,743 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;
+	font-style:italic;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.MsoFootnoteReference
+	{}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Corps de texte Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:12.0pt;
+	margin-right:.5in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";}
+p.ALRB1, li.ALRB1, div.ALRB1
+	{mso-style-name:ALRB_1;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:0in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.ALRB2, li.ALRB2, div.ALRB2
+	{mso-style-name:ALRB_2;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:0in;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Times New Roman",serif;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.UnresolvedMention
+	{mso-style-name:"Unresolved Mention";
+	color:#605E5C;
+	background:#E1DFDD;}
+span.sssh
+	{mso-style-name:ss_sh;}
+span.ssbf
+	{mso-style-name:ss_bf;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";}
+p.Subclause, li.Subclause, div.Subclause
+	{mso-style-name:^Subclause;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:113.4pt;
+	text-indent:-113.4pt;
+	line-height:11.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Segoe UI",sans-serif;}
+span.ssit
+	{mso-style-name:ss_it;}
+span.CorpsdetexteCar
+	{mso-style-name:"Corps de texte Car";
+	mso-style-link:"Corps de texte";
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="blue" vlink="purple">
+<div class="WordSection1">
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoHeader"><span style="z-index:251671552"><span style="left:446px;top:-16px;width:195px;height:175px"><a href="mailto:alrb.edm@gov.ab.ca"><img alt="640, 10155 – 102 Street NW
+Edmonton, AB  T5J 4G8
+Tel: 780-422-5926
+alrb.edm@gov.ab.ca
+
+308, 1212 – 31 Avenue NE
+Calgary AB T2E 7S8
+Tel:  403-297-4334
+alrb.cal@gov.ab.ca
+
+ALRB Fax: 780-422-0970
+General Email: alrb.info@gov.ab.ca  Website: www.alrb.gov.ab.ca
+
+" border="0" height="175" src="Sherlock_Enviromental_Services_Ltd_v_Occurpational_Health_and_Safety_-_OHS-00117_-_SEMAINE_-_Final_fichiers/image001.png" width="195"/></a></span></span><span style="z-index:251670528"><span style="
+left:-11px;top:-16px;width:187px;height:139px"><img alt="OUR VISION: The fair and equitable application of Alberta’s collective bargaining laws.
+OUR MISSION: To administer, interpret and enforce Alberta’s collective bargaining laws in an impartial, knowledgeable, efficient, timely and consistent way.
+
+
+" height="139" src="Sherlock_Enviromental_Services_Ltd_v_Occurpational_Health_and_Safety_-_OHS-00117_-_SEMAINE_-_Final_fichiers/image002.png" width="187"/></span></span><span style='font-family:"Arial",sans-serif'>                                                            </span><span style='font-family:"Arial",sans-serif'><img height="99" id="Picture 519844530" src="Sherlock_Enviromental_Services_Ltd_v_Occurpational_Health_and_Safety_-_OHS-00117_-_SEMAINE_-_Final_fichiers/image003.png" width="145"/></span><span style='font-family:"Arial",sans-serif'>                     </span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif'> </span></b></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif'> </span></b></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif'> </span></b></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif'> </span></b></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif'>CITATION:
+</span></b><b><i><span style='font-family:"Arial",sans-serif'>Sherlock
+Environmental Services Ltd. v Occupational Health and Safety</span></i></b><b><span style='font-family:"Arial",sans-serif'>, </span></b><b><span style='font-family:"Arial",sans-serif'>2024 </span></b><b><span style='font-family:"Arial",sans-serif'>ABOHSAB 19</span></b></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif;
+background:yellow'> </span></b></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'>November
+7, 2024</span></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif'> </span></b></p>
+<p class="MsoNormal"><b><span style='font-family:"Arial",sans-serif'>Directed
+to:</span></b><span style='font-family:"Arial",sans-serif'>    Sherlock
+Environmental Services Ltd. - Megan Aldous; Emery Jamieson LLP - Natalie D.<b> </b>Tymchuk
+/ Nura Awwad; Minister of Jobs, Economy and Trade c/o Occupational Health and
+Safety; Occupational Health and Safety - Erin Lane</span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<div style="border:none;border-bottom:solid windowtext 1.0pt;padding:0in 0in 1.0pt 0in">
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in;border:none;
+padding:0in"><b><span style='font-family:"Arial",sans-serif'>RE:      An
+Appeal of an Order brought by Sherlock Environmental Services Ltd. affecting
+Occupational Health and Safety – Board File No. OHS-00117</span></b></p>
+</div>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[1]<span style='font:7.0pt "Times New Roman"'>          
+</span>On September 24, 2024, Sherlock Environmental Services Ltd. (the
+“Appellant”) commenced an appeal (the “Appeal”), under section 45(2)(a) of the <i>Occupational
+Health and Safety Act</i>, SA 2020, c O-2.2 (the “<i>Act</i>”) to vary a
+compliance order issued by Occupational Health and Safety of Alberta (“OHS” or
+the “Respondent”) on August 2, 2024. </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[2]<span style='font:7.0pt "Times New Roman"'>          
+</span>The compliance order was issued under section 38 of the <i>Act</i>
+and related to compliance with section 20 of the <i>Occupational Health and
+Safety Code, </i>Alta Reg 191/2021 (the “OHS Code”), respecting airborne
+concentration methods<i> </i>to be used for harmful substances (the “Order”).</p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[3]<span style='font:7.0pt "Times New Roman"'>          
+</span>In it, the Appellant was ordered to:</p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"> </p>
+<p class="MsoNormalCxSpMiddle" style="margin-left:.75in;text-indent:-.25in"><span style='font-family:"Arial",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>   
+</span></span><span style='font-family:"Arial",sans-serif'>Submit at
+least two field blanks or 10% of the total samples, whichever is greater; and </span></p>
+<p class="MsoNormalCxSpMiddle" style="margin-left:.75in"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormalCxSpMiddle" style="margin-left:.75in;text-indent:-.25in"><span style='font-family:"Arial",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>   
+</span></span><span style='font-family:"Arial",sans-serif'>As air
+sampling volumes used had been lower than what the NIOSH (the National
+Institute for Occupational Safety and Health) 7400 procedure sets for clean
+environments (of 3,000 to 10,000 litres), proof of utilizing this proper
+methodology was to be provided. </span></p>
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.25in"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[4]<span style='font:7.0pt "Times New Roman"'>          
+</span>The compliance date for the Order was set as August 16, 2024. </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[5]<span style='font:7.0pt "Times New Roman"'>          
+</span>During this process, the Appellant requested feedback from OHS in
+August 2024 in regards to the requests under the Order. OHS did not respond to
+this request until September 11, 2024, at which time it confirmed the Order’s
+contents and extended the compliance date to September 25, 2024.</p>
+<p class="MsoNormal"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[6]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Labour Relations Board (the “Board”) is the appeal body (the
+"Appeal Body") designated in section 45(1) of the <i>Act. </i>Pursuant
+to Rule 22 of the Board’s <i>Rules of Procedure for OHS Appeals </i>(the “OHS
+Rules”), a Vice-Chair (Semaine) was appointed, sitting alone, to address the
+OHS application to have the Appeal rejected summarily under section 45(5)(g) of
+the <i>Act</i> and Rule 31 of OHS Rules.<i> </i>Namely, OHS has requested that
+the Appeal Body reject the Appeal based on the Appeal not having been served on
+the Appeal Body within the set 30-day time period stipulated in section 45(3)
+of the <i>Act</i>. This is a decision on that preliminary matter.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[7]<span style='font:7.0pt "Times New Roman"'>          
+</span>After reviewing the Notice of Appeal, and the submissions of the
+Appellant and OHS on the timeliness issue, the Appeal Body concludes that the
+Appeal is not timely and summarily dismisses the Appeal on that basis. The
+Appeal Body's reasons follow.</p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"><b>Parties’ Positions </b></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"><b> </b></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[8]<span style='font:7.0pt "Times New Roman"'>          
+</span>OHS submits that under section 45(3) of the <i>Act </i>an appeal
+must be commenced by serving on the appeal body a notice of appeal within 30
+days of being issued the compliance order. It also notes that under Rule 31 of
+the OHS Rules, the appeal body may reject an appeal summarily, where it is
+without merit, frivolous, trivial, vexatious, filled with improper motives or
+otherwise an abuse of process. Examples of this are given under that rule,
+including under sub-part (a), which references the situation where an appeal
+was not served on the appeal body within the 30-day period referenced in
+section 45(3) of the <i>Act</i>. OHS submits that a statutory time limit cannot
+be extended. </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[9]<span style='font:7.0pt "Times New Roman"'>          
+</span>In relation to above, OHS outlined that it issued its Order on
+August 2, 2024, and that the Notice of Appeal was served on September 24, 2024,
+more than 30 days later. OHS acknowledges that the deadline to comply with the
+Order was extended on September 11, 2024, but it submits this further Contact
+Report extending timelines did not contain a new order. Further, OHS argues
+that the extension portion is not being appealed; rather, it is the compliance
+requirements set out in the Order issued in August.</p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[10]<span style='font:7.0pt "Times New Roman"'>       
+</span>Meanwhile, the Appellant submits that it requested feedback on
+documents it provided in August, but OHS did not respond until September 11,
+2024, which was past the 30-day time limit (based on the initial Order date).
+The Appellant submits it was prejudiced by attempting to work with OHS in good
+faith and in awaiting their feedback.</p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[11]<span style='font:7.0pt "Times New Roman"'>       
+</span><span style="color:black">In response to OHS’s submissions, the
+Appellant further responds by arguing that the Appeal Body does have the
+authority to extend timelines and relies on the following in support of that
+argument:</span></p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"><span style="color:black"> </span></p>
+<ul style="margin-top:0in" type="disc">
+<li class="MsoNormalCxSpMiddle" style="color:black;text-align:justify;
+     text-autospace:none"><span style='font-family:"Arial",sans-serif'>Rule
+     63 of the OHS Rules, which allows the Appeal Body to relive against a
+     non-compliance with the OHS Rules, in order to avoid a miscarriage of
+     justice; </span></li>
+</ul>
+<p class="MsoNormalCxSpMiddle" style="margin-left:.5in;text-align:justify;
+text-autospace:none"><span style='font-family:"Arial",sans-serif;
+color:black'> </span></p>
+<ul style="margin-top:0in" type="disc">
+<li class="MsoNormalCxSpMiddle" style="color:black;text-align:justify;
+     text-autospace:none"><span style='font-family:"Arial",sans-serif;
+     color:windowtext'>Section 46(9) of the <i>Act</i></span><span style='font-family:"Arial",sans-serif'>, where the Appeal Body is granted
+     the authority to establish rules of procedure respecting the hearing of
+     appeals;</span></li>
+</ul>
+<p class="MsoNormalCxSpMiddle" style="margin-left:.5in"><span style='font-family:"Arial",sans-serif;color:black'> </span></p>
+<ul style="margin-top:0in" type="disc">
+<li class="MsoNormalCxSpMiddle" style="color:black;text-align:justify;
+     text-autospace:none"><span style='font-family:"Arial",sans-serif;
+     color:windowtext'>Section 46(11) of the <i>Act</i>,<i> </i></span><span style='font-family:"Arial",sans-serif'>where the Appeal Body is
+     granted exclusive jurisdiction to exercise powers conferred on to it by
+     the </span><i><span style='font-family:"Arial",sans-serif;
+     color:windowtext'>Act;</span></i><span style='font-family:"Arial",sans-serif;
+     color:windowtext'> and</span></li>
+</ul>
+<p class="MsoNormal" style="text-align:justify;text-autospace:none"><span style='font-family:"Arial",sans-serif;color:black'> </span></p>
+<ul style="margin-top:0in" type="disc">
+<li class="MsoNormalCxSpMiddle" style="color:black;text-align:justify;
+     text-autospace:none"><span style='font-family:"Arial",sans-serif;
+     color:windowtext'>As section 12(1) of the <i>Labour Relations Code</i>,
+     RSA 2000, c L-1 states that the Board shall perform its powers and duties
+     in a manner consistent with the jurisdiction conferred upon it, the Board has
+     been granted the exclusive jurisdiction to hear OHS appeals and develop
+     and apply its own rules of procedure.</span></li>
+</ul>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif;
+color:black'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif;
+color:black'> </span></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style='font-family:"Arial",sans-serif;color:black'>Decision</span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style='font-family:"Arial",sans-serif;color:black'> </span></b></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[12]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Appeal Body rejects the Appellant’s Appeal summarily for
+failure to serve the Notice of Appeal within the 30-day period referenced in
+section 45(3) of the <i>Act.</i> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[13]<span style='font:7.0pt "Times New Roman"'>       
+</span>Section 45 of the Act governs the OHS appeal process and its
+relevant portions read: </p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'>45(1)  The Labour Relations
+Board under the </span></i><a href="https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-l-1/latest/rsa-2000-c-l-1.html"><i><span style='font-family:"Arial",sans-serif;color:windowtext;text-decoration:none'>Labour
+Relations Code</span></i></a><i><span style='font-family:
+"Arial",sans-serif'> is the appeal body for the purpose of this Act.</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt"><a name="sec45subsec2"></a><i><span style='font-family:"Arial",sans-serif'>(2)  A person</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:71.1pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'>(a)    to whom an order
+is issued under </span></i><a href="https://www.canlii.org/en/ab/laws/stat/sa-2020-c-o-2.2/latest/sa-2020-c-o-2.2.html?resultIndex=2&amp;resultId=e83ac6b78a204297bb6b46e300bddf0c&amp;searchId=2024-04-10T15:24:54:798/bb8190db75404eb3a58a5375b42f0c76#sec38_smooth"><i><span style='font-family:"Arial",sans-serif;color:windowtext;text-decoration:none'>section
+38</span></i></a><i><span style='font-family:"Arial",sans-serif'>, </span></i><a href="https://www.canlii.org/en/ab/laws/stat/sa-2020-c-o-2.2/latest/sa-2020-c-o-2.2.html?resultIndex=2&amp;resultId=e83ac6b78a204297bb6b46e300bddf0c&amp;searchId=2024-04-10T15:24:54:798/bb8190db75404eb3a58a5375b42f0c76#sec39_smooth"><i><span style='font-family:"Arial",sans-serif;color:windowtext;text-decoration:none'>39</span></i></a><i><span style='font-family:"Arial",sans-serif'> or </span></i><a href="https://www.canlii.org/en/ab/laws/stat/sa-2020-c-o-2.2/latest/sa-2020-c-o-2.2.html?resultIndex=2&amp;resultId=e83ac6b78a204297bb6b46e300bddf0c&amp;searchId=2024-04-10T15:24:54:798/bb8190db75404eb3a58a5375b42f0c76#sec40_smooth"><i><span style='font-family:"Arial",sans-serif;color:windowtext;text-decoration:none'>40</span></i></a><i><span style='font-family:"Arial",sans-serif'> or in relation to whom
+an order is varied by a Director under </span></i><a href="https://www.canlii.org/en/ab/laws/stat/sa-2020-c-o-2.2/latest/sa-2020-c-o-2.2.html?resultIndex=2&amp;resultId=e83ac6b78a204297bb6b46e300bddf0c&amp;searchId=2024-04-10T15:24:54:798/bb8190db75404eb3a58a5375b42f0c76#sec41_smooth"><i><span style='font-family:"Arial",sans-serif;color:windowtext;text-decoration:none'>section
+41</span></i></a><i><span style='font-family:"Arial",sans-serif'>,</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:71.1pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:.5in"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:71.1pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:.5in"><i><span style='font-family:"Arial",sans-serif'>…</span></i></p>
+<p align="center" class="MsoNormal" style="margin-top:0in;margin-right:71.1pt;
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-align:center;
+text-indent:.5in"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:71.1pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'>may appeal the order, administrative
+penalty, cancellation or suspension, the findings in the record referred to in
+clause (d), the findings in the report referred to in clause (e) or the order
+referred to in clause (f) to the appeal body.</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:71.1pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt"><a name="sec45subsec3"></a><i><span style='font-family:"Arial",sans-serif'>(3)   An appeal under
+subsection (2) must be commenced by serving a notice of the appeal on the
+appeal body within 30 days of being served or given notice of the order,
+administrative penalty, cancellation or suspension, record or report.</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:.5in"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:.5in"><i><span style='font-family:"Arial",sans-serif'>…</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:.5in"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-right:42.75pt;text-indent:.5in"><i><span style='font-family:"Arial",sans-serif'>(5)  After considering the
+matter being appealed, the appeal body may by order</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'>…</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:71.1pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt"><i><span style='font-family:"Arial",sans-serif'>(g)    reject the matter summarily where
+the appeal body is of the opinion that the matter is without merit, or is
+frivolous, trivial, vexatious, commenced with improper motives or otherwise an
+abuse of process.</span></i></p>
+<p class="MsoNormal" style="margin-right:42.75pt"><span style='font-family:"Arial",sans-serif'>                        </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:.5in"><span style='font-family:"Arial",sans-serif'>…</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:.5in"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[14]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Appeal Body notes the Order was issued on August 2, 2024,
+thus, to meet the 30-day deadline under section 45(3), the Appellant needed to
+serve the Notice of the Appeal on the Appeal Body by September 2, 2024 and the
+Appellant did not take this step until September 24, 2024, well past this
+deadline. </p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"><a name="crsw_paragraph_num_16_1"></a> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[15]<span style='font:7.0pt "Times New Roman"'>       
+</span>As was recognised in <a name="_Hlk179982223"><i>Kehewin</i></a><i> Cree Nation v Mulvey</i>, 2013 ABCA
+294 (at para 11), it is a longstanding principal that a time limit in a statute
+cannot be amended, either by shortening or extending, unless that governing
+statute expressly gives a body that power. The Appeal Body has not been granted
+this power. Indeed, as the Appeal Body recently held in <i>Thorkelson v Shell
+Canada Limited, </i>2024 ABOHSAB 17, there is no authority in the <i>Act</i> to
+ignore or expand this 30-day period. Rather, the jurisdiction of this Appeal
+Body is confined to consider only appeals that have been properly commenced
+within that period (at para 9).</p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[16]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Appeal Body recognizes that following the issuance of the
+Order, there were ongoing communications between the Appellant and OHS, and the
+deadline to comply with the Order was extended. Based on this, the Appellant
+argues, it follows that the timeline governing the appeal period is displaced
+by this compliance deadline extension.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[17]<span style='font:7.0pt "Times New Roman"'>       
+</span>However, section 45(3) of the <i>Act</i> is not so permissive. It
+states that an appeal must be commenced <u>within 30 days of being served or
+given notice of the order</u>, and it cannot be said that the Appellant did not
+have notice of the Order when it was issued on August 2<sup>nd</sup> from the
+site visit then and where it was served electronically that day. Further, when
+the timelines for compliance were extended, OHS did not reissue a new
+compliance order, and the underlying contents of the Order remained the same. Finally,
+on the Order itself, there is a warning at the end that the initiation of an
+appeal does not suspend the order unless a stay is granted and that requests
+for an appeal <u>must </u>be initiated within 30 days of the <u>initial date of
+service</u> (emphasis added). In all, the extension of the compliance date does
+not change when the Appellant was served or given notice of the Order. </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[18]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Appeal Body has considered the Appellant’s other arguments
+outlined above and does not accept them for the following reasons. </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[19]<span style='font:7.0pt "Times New Roman"'>       
+</span>While Rule 63 of the OHS Rules allows the Appeal Body to relieve
+against non-compliance with the OHS Rules in order to avoid a miscarriage of
+justice, the Appellant is not just asking for relief from the OHS Rules, but rather
+from a time limit set in the statute itself, in section 45(3) of the <i>Act</i>.
+The Appellant also seeks to rely on section 46(9) of the <i>Act</i>, but this
+provision enables the Appeal Body to establish rules of procedure, which are
+embodied in the OHS Rules, and which are only procedural rules to give effect
+to the statutory authority given under the <i>Act: </i>they cannot override or
+otherwise conflict with the <i>Act</i>, and if they did, Rule 3 clearly
+provides the <i>Act</i> shall prevail. Section 46(11) of the <i>Act</i> is also
+argued, but this provision grants the Appeal Body exclusive jurisdiction “to
+exercise the powers conferred on it by or under this Act”, thus again tying the
+Appeal Body to powers it is granted under the <i>Act</i>. Finally, the
+Appellant cites section 12(1) of the <i>Labour Relations Code</i>, which
+reaffirms that the Board/Appeal Body shall perform its powers and duties in a
+manner <u>consistent with the jurisdiction</u> (emphasis added) conferred upon
+it by the <i>Labour Relations Code</i> or any other enactment (such as the <i>Act</i>)
+conferring jurisdiction on the Board.  In <i>Ishdorj v Health Watch Medical
+Clinic Ltd., </i>2024 ABOSHAB 4, the Appeal Body rejected an argument that it
+had authority to order costs under section 12 of the <i>Labour Relations Code,</i>
+on the basis that its statutory authority must be located in the <i>Act</i>
+itself, which is the legislation that designates it as the Appeal Body (at para
+32).  </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[20]<span style='font:7.0pt "Times New Roman"'>       
+</span>For the reasons above, the Appeal Body finds the within Appeal
+was not commenced within the 30-day period stipulated in section 45(3) of the <i>Act,
+</i>and accordingly, under section 45(5)(g) of the <i>Act</i> and Rule 31(a) of
+the OHS Rules the Appellant’s Appeal is rejected summarily. </p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[21]<span style='font:7.0pt "Times New Roman"'>       
+</span>Finally, the Appeal Body notes the Appellant’s request in the
+underlying Appeal that identifying information about its clients, including
+site addresses and client names, not be published, including in the air
+monitoring reporting. While OHS does not oppose this request, the Appeal Body
+need not address this issue as a result of its preliminary ruling to dismiss
+the Appeal of the Order, and otherwise notes it was not necessary to reference
+that information in this decision. </p>
+<p class="MsoNormal" style="margin-left:.75in;text-indent:-.25in"><span style="z-index:-1895811072;left:0px;
+width:385px;height:130px"><img alt="A blue line in the air
+
+Description automatically generated" height="130" src="Sherlock_Enviromental_Services_Ltd_v_Occurpational_Health_and_Safety_-_OHS-00117_-_SEMAINE_-_Final_fichiers/image004.png" width="385"/></span></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'>Wassila
+Semaine</span></p>
+<p class="MsoNormal"><span style='font-family:"Arial",sans-serif'>Vice-Chair</span></p>
+</div>
+</body></html>
