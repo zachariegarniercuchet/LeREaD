@@ -1,0 +1,78 @@
+{
+  "profiles": [
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "MegumaGold",
+      "alternative_titles": {
+        "Citation: MegumaGold Corp. (Re)": "0"
+      },
+      "citations": {
+        "2025 NBEUB 1": "0"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "0"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "Mining Act",
+      "alternative_titles": {
+        "MINING ACT": "3",
+        "Mining Act": "6",
+        "Act": "6",
+        "the Act": "55"
+      },
+      "citations": {
+        "S.N.B., c. M-14.1": "3"
+      },
+      "fragments_mentioned": {
+        "paragraph 13(1)(e)": "6",
+        "section 56": "10",
+        "subsection 113(1)": "14",
+        "subsection 113(6)": "16",
+        "section 56.": "18",
+        "subparagraph\n56(1)(a)(ii)": "20",
+        "subsection 55(1)": "22",
+        "subsection 55": "24",
+        "section 13": "28",
+        "subsection 13(6)": "30",
+        "Section 13": "32",
+        "subsection 60(4)": "47"
+      },
+      "authors": {},
+      "first_seen_id": "3"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Cadillac",
+      "alternative_titles": {
+        "Cadillac\nVentures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder": "36",
+        "Cadillac": "43"
+      },
+      "citations": {
+        "MN-001-2023": "36"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "36"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Stewart",
+      "alternative_titles": {
+        "Stewart v. New Brunswick (Mining Commissioner)": "39"
+      },
+      "citations": {
+        "(1995), N.B.R. (2d) 353 (Q.B.)": "39",
+        "[1995] N.B.J. No. 191": "39"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "39"
+    }
+  ]
+}
