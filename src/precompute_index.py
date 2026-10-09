@@ -112,7 +112,7 @@ def load_candidates(csv_path: Path) -> Tuple[List[dict], List[str]]:
 
     df = pd.read_csv(csv_path)
 
-    required_columns = {"original_url", "metadata"}
+    required_columns = {"uri", "metadata"}
     missing = required_columns - set(df.columns)
     if missing:
         raise ValueError(f"Missing required columns in {csv_path}: {sorted(missing)}")
@@ -121,7 +121,7 @@ def load_candidates(csv_path: Path) -> Tuple[List[dict], List[str]]:
     texts: List[str] = []
 
     for row_idx, row in df.iterrows():
-        original_url = row["original_url"]
+        uri = row["uri"]
         metadata_raw = row["metadata"]
 
         try:
@@ -145,7 +145,7 @@ def load_candidates(csv_path: Path) -> Tuple[List[dict], List[str]]:
 
             candidates.append(
                 {
-                    "original_url": original_url,
+                    "uri": uri,
                     "id": candidate.get("id"),
                     "docType": candidate.get("docType"),
                     "docTitle": candidate.get("docTitle"),

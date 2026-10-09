@@ -3,16 +3,16 @@ Combine a "cited_metadata.csv" (true positives — the real reference
 repository for the cited document) and an "extra_metadata.csv" (false
 positives) into a single, shuffled "candidate_pool.csv".
 
-Both input files are expected to already be in the "original_url,metadata"
+Both input files are expected to already be in the "uri,metadata"
 format (the format produced by scripts/change_format_csv.py):
 
-    original_url,metadata
+    uri,metadata
 
 The output file has the same two columns plus a `label` column marking
 where each row came from, so downstream consumers can still tell true
 positives from false positives after shuffling:
 
-    original_url,metadata,label
+    uri,metadata,label
 
 `label` is "true_positive" for rows from the cited-metadata file and
 "false_positive" for rows from the extra-metadata file.
@@ -69,12 +69,12 @@ def parse_args():
 
 
 def read_rows(path):
-    """Read an original_url,metadata CSV and tag each row with a label."""
+    """Read an uri,metadata CSV and tag each row with a label."""
     csv.field_size_limit(sys.maxsize)
     rows = []
     with open(path, "r", encoding="utf-8", newline="") as infile:
         reader = csv.DictReader(infile)
-        missing = {"original_url", "metadata"} - set(reader.fieldnames or [])
+        missing = {"uri", "metadata"} - set(reader.fieldnames or [])
         if missing:
             raise ValueError(
                 f"{path} is missing expected column(s): {sorted(missing)}. "
@@ -83,7 +83,7 @@ def read_rows(path):
         for row in reader:
             rows.append(
                 {
-                    "original_url": row["original_url"],
+                    "uri": row["uri"],
                     "metadata": row["metadata"],
                 }
             )
@@ -105,7 +105,7 @@ def combine(cited_path, extra_path, output_path, seed=None):
 
     with open(output_path, "w", encoding="utf-8", newline="") as outfile:
         writer = csv.DictWriter(
-            outfile, fieldnames=["original_url", "metadata"]
+            outfile, fieldnames=["uri", "metadata"]
         )
         writer.writeheader()
         writer.writerows(combined)

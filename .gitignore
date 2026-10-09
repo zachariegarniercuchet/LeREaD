@@ -11,6 +11,8 @@ jobs/
 src/models/registry.py
 
 cache/candidate_pool_index
-cache/candidate_pool_index_qwen3-8b_v1
+cache/candidate_pool_index_qwen3-8b_v1/embeddings.npy
+cache/candidate_pool_index_splade_v1/embeddings.npy
 
+uri_request
 

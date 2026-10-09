@@ -1,0 +1,25 @@
+{
+  "version": "v1",
+  "retriever": {
+    "name": "splade",
+    "score_kind": "similarity",
+    "size": 6519,
+    "similarity": "dot",
+    "encoder": "splade",
+    "embedding_shape": [
+      6519,
+      30522
+    ]
+  },
+  "input_file": "data\\candidate_pool.csv",
+  "num_candidates": 6519,
+  "representation": {
+    "fields": [
+      "docType",
+      "docTitle",
+      "autoCompletions.text"
+    ],
+    "autoCompletions": "Only the text field of each autoCompletion is encoded; the completion type is discarded.",
+    "format": "fields concatenated with ' | '"
+  }
+}
