@@ -1,0 +1,21 @@
+mention,pattern_grouped,fp_spurious
+decision,(unaligned),111
+legislation,(unaligned),64
+legislation,(no child),12
+decision,title -> citation,9
+decision,title,6
+decision,title -> fragment,6
+decision,(no child),4
+decision,title -> citation -> fragment,4
+legislation,title,4
+legislation,title -> citation,3
+legislation,title -> citation -> fragment,3
+decision,title -> citation -> fragment -> citation -> fragment,2
+legislation,citation,2
+decision,title -> fragment -> title -> fragment,1
+legislation,citation -> fragment,1
+legislation,fragment -> title,1
+legislation,legislation -> title,1
+legislation,legislation -> title -> fragment -> title -> fragment -> title -> fragment,1
+secondary sources,(no child),1
+secondary sources,(unaligned),1

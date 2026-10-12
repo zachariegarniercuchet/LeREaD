@@ -1,0 +1,406 @@
+{
+  "Excise Tax Act 1970": {
+    "uri": "https://synthetic.leread.ca/gold/G0203",
+    "score": 3.5,
+    "candidate_id": "gold-G0203",
+    "candidate_title": "Excise Tax Act",
+    "query_text": "legislation | Excise Tax Act | <i>Excise Tax Act</i> | Excise\nTax Act | <i>Excise Tax\nAct</i> | the Act | Act | R.S.C. 1970, c. E-13",
+    "method": "citation_exact",
+    "matched_key": "rsc1970ce13",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0203",
+        "score": 3.5,
+        "candidate_title": "Excise Tax Act"
+      }
+    ]
+  },
+  "Canadian International Trade Tribunal Act": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 2.0,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | Canadian\nInternational Trade Tribunal Act | Canadian International Trade Tribunal Act | S.C. 1988, c. 56",
+    "method": "title_exact",
+    "matched_key": "canadian international trade tribunal act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 2.0,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      }
+    ]
+  },
+  "City of Chicago": {
+    "uri": "https://synthetic.leread.ca/gold/G0140",
+    "score": 3.7,
+    "candidate_id": "gold-G0140",
+    "candidate_title": "City of Chicago v. Pittsburgh",
+    "query_text": "decision | City\nof Chicago v. Pittsburgh | <i>City of Chicago v.\nPittsburgh, Ft. W. &amp; C. R. Co.</i>, (1910) | Ft. W. &amp; C. R. Co. (1910) | 93 N.E. 307",
+    "method": "citation_exact",
+    "matched_key": "93ne307",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0140",
+        "score": 3.7,
+        "candidate_title": "City of Chicago v. Pittsburgh"
+      }
+    ]
+  },
+  "Hunt Foods Export Corp. of Canada Ltd": {
+    "uri": "https://canlii.ca/t/jqr4g",
+    "score": 3.0,
+    "candidate_id": "1970exchc-cech1000016",
+    "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise",
+    "query_text": "decision | Hunt\nFoods Export Corp. of Canada Ltd et al. v. The Deputy Minister of National\nRevenue for Customs and Excise (1970) | Hunt Foods Export Corp. of Canada Ltd et al. v. The Deputy\nMinister of National Revenue for Customs and Excise | Ex. C.R. 828 | [1970] Ex. C.R. 828",
+    "method": "citation_exact",
+    "matched_key": "1970excr828",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqr4g",
+        "score": 3.0,
+        "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
+      }
+    ]
+  },
+  "Olympia Floor and Wall Tile Company": {
+    "uri": "https://synthetic.leread.ca/gold/G0359",
+    "score": 3.5,
+    "candidate_id": "gold-G0359",
+    "candidate_title": "Olympia Floor and Wall Tile Company v. The Deputy Minister of National Revenue for Customs and Excise",
+    "query_text": "decision | Olympia Floor and Wall\nTile Company v. The Deputy Minister of National Revenue for Customs and Excise | Olympia Floor and Wall Tile Company v. The Deputy Minister of\nNational Revenue for Customs and Excise | The\nOlympia Floor and Wall Tile Company case | 5 C.E.R. 562 | 5 C.E.R. 562",
+    "method": "citation_exact",
+    "matched_key": "5cer562",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0359",
+        "score": 3.5,
+        "candidate_title": "Olympia Floor and Wall Tile Company v. The Deputy Minister of National Revenue for Customs and Excise"
+      }
+    ]
+  },
+  "Pfizer": {
+    "uri": "https://canlii.ca/t/1z6fk",
+    "score": 3.0,
+    "candidate_id": "1975csc-scc10177",
+    "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue",
+    "query_text": "decision | Pfizer Company Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise (1977) | Pfizer Company Limited v. The Deputy\nMinister of National Revenue for Customs and Excise | Pfizer case | Pfizer\ncase | 1 S.C.R. 456 | [1977] 1 S.C.R. 456",
+    "method": "citation_exact",
+    "matched_key": "19771scr456",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z6fk",
+        "score": 3.0,
+        "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue"
+      }
+    ]
+  },
+  "Proprietors of Passaic & Hackensack River Bridges": {
+    "uri": "https://synthetic.leread.ca/gold/G0397",
+    "score": 3.7,
+    "candidate_id": "gold-G0397",
+    "candidate_title": "Proprietors of Passaic & Hackensack River Bridges v. Hoboken Land Imp. Co. (1860)",
+    "query_text": "decision | Proprietors\nof Passaic &amp; Hackensack River Bridges v. Hoboken Land Imp. Co. (1860) | <i>Proprietors of Passaic &amp;\nHackensack River Bridges v. Hoboken Land Imp. Co.</i> | 13 N.J.Eq. (2 Beasl.) 503 | (1860) 13 N.J.Eq.\n(2 Beasl.) 503",
+    "method": "citation_exact",
+    "matched_key": "13njeq2beasl503",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0397",
+        "score": 3.7,
+        "candidate_title": "Proprietors of Passaic & Hackensack River Bridges v. Hoboken Land Imp. Co. (1860)"
+      }
+    ]
+  },
+  "Westeel Products Limited": {
+    "uri": "https://synthetic.leread.ca/gold/G0522",
+    "score": 3.5,
+    "candidate_id": "gold-G0522",
+    "candidate_title": "Westeel Products Limited v. The Deputy Minister of National Revenue for Customs and Excise",
+    "query_text": "decision | Westeel Products Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise | Westeel Products Limited v. The Deputy Minister of National\nRevenue for Customs and Excise | 2 T.B.R. 106",
+    "method": "citation_exact",
+    "matched_key": "2tbr106",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0522",
+        "score": 3.5,
+        "candidate_title": "Westeel Products Limited v. The Deputy Minister of National Revenue for Customs and Excise"
+      }
+    ]
+  },
+  "Wilson": {
+    "uri": "https://synthetic.leread.ca/gold/G0529",
+    "score": 3.5,
+    "candidate_id": "gold-G0529",
+    "candidate_title": "Wilson v. Town of Barnstead (1906)",
+    "query_text": "decision | Wilson v. Town of\nBarnstead (1906) | <i>Wilson v. Town of Barnstead</i>\n(1906) | 74 N.H. 78 | 74 N.H. 78",
+    "method": "citation_exact",
+    "matched_key": "74nh78",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0529",
+        "score": 3.5,
+        "candidate_title": "Wilson v. Town of Barnstead (1906)"
+      }
+    ]
+  },
+  "New Standard Dictionary English Language": {
+    "uri": "https://synthetic.leread.ca/gold/G0218",
+    "score": 2.0,
+    "candidate_id": "gold-G0218",
+    "candidate_title": "Funk & Wagnalls Standard College Dictionary",
+    "query_text": "secondary sources | Funk\n&amp; Wagnalls New Standard Dictionary of the English Language",
+    "method": "title_exact",
+    "matched_key": "funk wagnalls new standard dictionary of the english language",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0218",
+        "score": 2.0,
+        "candidate_title": "Funk & Wagnalls Standard College Dictionary"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0347",
+        "score": 2.0,
+        "candidate_title": "Funk & Wagnalls New Standard Dictionary of the English Language"
+      }
+    ]
+  },
+  "The Oxford English Dictionary": {
+    "uri": "https://synthetic.leread.ca/gold/G0483",
+    "score": 2.0,
+    "candidate_id": "gold-G0483",
+    "candidate_title": "The Oxford English Dictionary",
+    "query_text": "secondary sources | <u>The Oxford\nEnglish Dictionary</u> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">The Oxford English Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
+    "method": "title_exact",
+    "matched_key": "the oxford english dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0483",
+        "score": 2.0,
+        "candidate_title": "The Oxford English Dictionary"
+      }
+    ]
+  },
+  "Black": {
+    "uri": "https://synthetic.leread.ca/gold/G0094",
+    "score": 2.0,
+    "candidate_id": "gold-G0094",
+    "candidate_title": "Black's Law Dictionary",
+    "query_text": "secondary sources | <u>Black's Law Dictionary</u> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Black's Law Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
+    "method": "title_exact",
+    "matched_key": "black s law dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0094",
+        "score": 2.0,
+        "candidate_title": "Black's Law Dictionary"
+      }
+    ]
+  },
+  "The Houghton Mifflin Canadian Dictionary": {
+    "uri": "https://synthetic.leread.ca/gold/G0469",
+    "score": 2.0,
+    "candidate_id": "gold-G0469",
+    "candidate_title": "The Houghton Mifflin Canadian Dictionary of the English Language",
+    "query_text": "secondary sources | The Houghton Mifflin Canadian Dictionary of the English\nLanguage | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">T</span></i></b><b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">he Houghton Mifflin Canadian Dictionary of\nthe English Language</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\"></span></b>",
+    "method": "title_exact",
+    "matched_key": "the houghton mifflin canadian dictionary of the english language",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0469",
+        "score": 2.0,
+        "candidate_title": "The Houghton Mifflin Canadian Dictionary of the English Language"
+      }
+    ]
+  },
+  "Webster": {
+    "uri": "https://synthetic.leread.ca/gold/G0519",
+    "score": 2.0,
+    "candidate_id": "gold-G0519",
+    "candidate_title": "Webster's Third New International Dictionary of the English Language Unabridged",
+    "query_text": "secondary sources | Webster's Third New International Dictionary of the English Language\nUnabridged | <i><span lang=\"EN-GB\" style=\"font-size:\n12.0pt;letter-spacing:-.4pt\"><u>Webster's New World Dictionary</u></span></i> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Webster's Third New International Dictionary\nof the English Language Unabridged</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b> | Webster's Third New International Dictionary\nof the English Language Unabridged | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Webster's New World Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
+    "method": "title_exact",
+    "matched_key": "webster s third new international dictionary of the english language unabridged",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0519",
+        "score": 2.0,
+        "candidate_title": "Webster's Third New International Dictionary of the English Language Unabridged"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0518",
+        "score": 2.0,
+        "candidate_title": "Webster's New World Dictionary"
+      }
+    ]
+  },
+  "Funk Wagnalls Standard College Dictionary": {
+    "uri": "https://synthetic.leread.ca/gold/G0218",
+    "score": 2.0,
+    "candidate_id": "gold-G0218",
+    "candidate_title": "Funk & Wagnalls Standard College Dictionary",
+    "query_text": "secondary sources | Funk\n&amp; Wagnalls Standard College Dictionary | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Funk &amp; Wagnalls New Standard Dictionary\nof the English Language</span></i></b> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Funk &amp; Wagnalls Standard College\nDictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\"></span></b>",
+    "method": "title_exact",
+    "matched_key": "funk wagnalls new standard dictionary of the english language",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0218",
+        "score": 2.0,
+        "candidate_title": "Funk & Wagnalls Standard College Dictionary"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0347",
+        "score": 2.0,
+        "candidate_title": "Funk & Wagnalls New Standard Dictionary of the English Language"
+      }
+    ]
+  },
+  "Construction of Statutes": {
+    "uri": "https://synthetic.leread.ca/gold/G0161",
+    "score": 2.0,
+    "candidate_id": "gold-G0161",
+    "candidate_title": "Construction of Statutes",
+    "query_text": "secondary sources | <u>Construction of Statutes</u> | Construction of Statutes | <u>Construction\nof Statutes</u> | Driedger,\nE.A. | Driedger | Driedger, E. A.",
+    "method": "title_exact",
+    "matched_key": "construction of statutes",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0161",
+        "score": 2.0,
+        "candidate_title": "Construction of Statutes"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0162",
+        "score": 2.0,
+        "candidate_title": "Construction of Statutes"
+      }
+    ]
+  },
+  "structural support code": {
+    "uri": "https://synthetic.leread.ca/gold/G0461",
+    "score": 2.0,
+    "candidate_id": "gold-G0461",
+    "candidate_title": "Standard Specifications for Structural Supports for Highway Signs, Luminaires and Traffic Signals",
+    "query_text": "secondary sources | Standard Specifications for Structural Supports for Highway Signs,\nLuminaires and Traffic Signals | structural support code | American Association of State Highway and Transportation\nOfficials (AASHTO) | AASHTO",
+    "method": "title_exact",
+    "matched_key": "standard specifications for structural supports for highway signs luminaires and traffic signals",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0461",
+        "score": 2.0,
+        "candidate_title": "Standard Specifications for Structural Supports for Highway Signs, Luminaires and Traffic Signals"
+      }
+    ]
+  },
+  "the highway code": {
+    "uri": "https://synthetic.leread.ca/gold/G0468",
+    "score": 2.0,
+    "candidate_id": "gold-G0468",
+    "candidate_title": "Standard Specifications for Highway Bridges",
+    "query_text": "secondary sources | Standard Specifications for Highway Bridges | the highway\ncode | AASHTO",
+    "method": "title_exact",
+    "matched_key": "standard specifications for highway bridges",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0468",
+        "score": 2.0,
+        "candidate_title": "Standard Specifications for Highway Bridges"
+      }
+    ]
+  },
+  "Ontario Highway Bridge Design Code": {
+    "uri": "https://synthetic.leread.ca/gold/G0360",
+    "score": 2.0,
+    "candidate_id": "gold-G0360",
+    "candidate_title": "Ontario Highway Bridge Design Code",
+    "query_text": "secondary sources | Ontario Highway Bridge Design Code | Ontario code | Ontario\nMinistry of Transportation and Communications",
+    "method": "title_exact",
+    "matched_key": "ontario code",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0360",
+        "score": 2.0,
+        "candidate_title": "Ontario Highway Bridge Design Code"
+      }
+    ]
+  },
+  "McGraw-Hill Encyclopedia of Science": {
+    "uri": "https://synthetic.leread.ca/gold/G0331",
+    "score": 2.0,
+    "candidate_id": "gold-G0331",
+    "candidate_title": "McGraw-Hill Encyclopedia of Science and Technology",
+    "query_text": "secondary sources | McGraw-Hill Encyclopedia of Science and\nTechnology",
+    "method": "title_exact",
+    "matched_key": "mcgraw hill encyclopedia of science and technology",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0331",
+        "score": 2.0,
+        "candidate_title": "McGraw-Hill Encyclopedia of Science and Technology"
+      }
+    ]
+  },
+  "The New Encyclopaedia Britannica": {
+    "uri": "https://synthetic.leread.ca/gold/G0480",
+    "score": 2.0,
+    "candidate_id": "gold-G0480",
+    "candidate_title": "The New Encyclopaedia Britannica",
+    "query_text": "secondary sources | The New Encyclopaedia Britannica",
+    "method": "title_exact",
+    "matched_key": "the new encyclopaedia britannica",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0480",
+        "score": 2.0,
+        "candidate_title": "The New Encyclopaedia Britannica"
+      }
+    ]
+  },
+  "Words and Phrases": {
+    "uri": "https://synthetic.leread.ca/gold/G0533",
+    "score": 2.0,
+    "candidate_id": "gold-G0533",
+    "candidate_title": "Words and Phrases. Permanent Edition",
+    "query_text": "secondary sources | Words and Phrases. Permanent\nEdition",
+    "method": "title_exact",
+    "matched_key": "words and phrases permanent edition",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0533",
+        "score": 2.0,
+        "candidate_title": "Words and Phrases. Permanent Edition"
+      }
+    ]
+  },
+  "Customs Tariff": {
+    "uri": "https://canlii.ca/t/56g20",
+    "score": 2.0,
+    "candidate_id": "l13183!13183-current-1",
+    "candidate_title": "Customs Tariff",
+    "query_text": "legislation | Customs\nTariff | Customs Tariff",
+    "method": "title_exact",
+    "matched_key": "customs tariff",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g20",
+        "score": 2.0,
+        "candidate_title": "Customs Tariff"
+      }
+    ]
+  },
+  "Excise Tax Act 1985": {
+    "uri": "https://canlii.ca/t/56jgr",
+    "score": 3.0,
+    "candidate_id": "l12810!12810-current-1",
+    "candidate_title": "Excise Tax Act",
+    "query_text": "legislation | R.S.C. 1985, c. E-15",
+    "method": "citation_exact",
+    "matched_key": "rsc1985ce15",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jgr",
+        "score": 3.0,
+        "candidate_title": "Excise Tax Act"
+      }
+    ]
+  }
+}

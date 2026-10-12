@@ -1,0 +1,247 @@
+{
+  "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing, 2017 ABCA 157": {
+    "uri": "https://canlii.ca/t/gr6cd",
+    "score": 2.0,
+    "candidate_id": "2016csc-scc19",
+    "candidate_title": "Heritage Capital Corp. v. Equitable Trust Co.",
+    "query_text": "decision | IFP Technologies\n(Canada) Inc. | IFP Technologies (Canada) v Encana Midstream and Marketing | Heritage Capital Corp. v Equitable Trust Co. | Heritage",
+    "method": "title_exact",
+    "matched_key": "heritage capital corp v equitable trust co",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gr6cd",
+        "score": 2.0,
+        "candidate_title": "Heritage Capital Corp. v. Equitable Trust Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/g8r0n",
+        "score": 2.0,
+        "candidate_title": "IFP Technologies (Canada) v Encana Midstream and Marketing"
+      }
+    ]
+  },
+  "Sattva": {
+    "uri": "https://canlii.ca/t/g88q1",
+    "score": 3.7,
+    "candidate_id": "2014csc-scc53",
+    "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp.",
+    "query_text": "decision | <b><i>Sattva Capital Corp. v Creston Moly Corp.</i></b> | <b><i>Sattva</i></b> | <i>Sattva</i> | <b><i>Sattva</i></b>,\n<i>supra </i>at para 51 | Sattva | 2014 SCC 53 | [2014] 2 SCR 633 | at <auto_label fragmentid=\"\" id=\"266\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">para 47</auto_label>",
+    "method": "citation_exact",
+    "matched_key": "20142scr633",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g88q1",
+        "score": 3.7,
+        "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp."
+      }
+    ]
+  },
+  "Bhasin": {
+    "uri": "https://canlii.ca/t/gf84s",
+    "score": 3.7,
+    "candidate_id": "2014csc-scc71",
+    "candidate_title": "Bhasin v. Hrynew",
+    "query_text": "decision | <b><i>Bhasin v Hrynew</i></b> | 2014 SCC 71 | [2014] 3 SCR 494",
+    "method": "citation_exact",
+    "matched_key": "20143scr494",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gf84s",
+        "score": 3.7,
+        "candidate_title": "Bhasin v. Hrynew"
+      }
+    ]
+  },
+  "BC Minister of Technology Innovation and Citizens": {
+    "uri": "https://canlii.ca/t/gs8m4",
+    "score": 3.7,
+    "candidate_id": "2016bcca283",
+    "candidate_title": "British Columbia (Minister of Technology Innovation and Citizens’ Services) v. Columbus Real Estate Inc.",
+    "query_text": "decision | <b><i>British\nColumbia (Minister of Technology Innovation and Citizens’ Services) v Columbus\nReal Estate Inc.</i></b> | 2016 BCCA 283 | 402 DLR (4th) 117",
+    "method": "citation_exact",
+    "matched_key": "2016bcca283",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gs8m4",
+        "score": 3.7,
+        "candidate_title": "British Columbia (Minister of Technology Innovation and Citizens’ Services) v. Columbus Real Estate Inc."
+      }
+    ]
+  },
+  "Starrcoll Inc. v 2281927 Ontario Ltd.": {
+    "uri": "https://canlii.ca/t/gpknc",
+    "score": 3.7,
+    "candidate_id": "2016onca275",
+    "candidate_title": "Starrcoll Inc. v. 2281927 Ontario Ltd.",
+    "query_text": "decision | <b><i>Starrcoll\nInc. v 2281927 Ontario Ltd.</i></b> | 2016 ONCA 275 | 68 RPR\n(5th) 173",
+    "method": "citation_exact",
+    "matched_key": "2016onca275",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gpknc",
+        "score": 3.7,
+        "candidate_title": "Starrcoll Inc. v. 2281927 Ontario Ltd."
+      }
+    ]
+  },
+  "Bighorn": {
+    "uri": "https://canlii.ca/t/gh170",
+    "score": 3.7,
+    "candidate_id": "2015abca127",
+    "candidate_title": "Bighorn (Municipal District No. 8) v Bow Valley Waste Management Commission",
+    "query_text": "decision | <b><i>Bighorn (Municipal District No. 8) v Bow Valley Waste Management\nCommission</i></b> | 2015 ABCA 127 | 599 AR 395",
+    "method": "citation_exact",
+    "matched_key": "2015abca127",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gh170",
+        "score": 3.7,
+        "candidate_title": "Bighorn (Municipal District No. 8) v Bow Valley Waste Management Commission"
+      }
+    ]
+  },
+  "Ledcor": {
+    "uri": "https://canlii.ca/t/gtpvn",
+    "score": 3.7,
+    "candidate_id": "2016csc-scc37",
+    "candidate_title": "Ledcor Construction Ltd. v. Northbridge Indemnity Insurance Co.",
+    "query_text": "decision | <b><i>Ledcor Construction Ltd. v\nNorthbridge Indemnity Insurance Co.</i></b> | Ledcor | 2016 SCC 37 | [2016] 2 SCR 23",
+    "method": "citation_exact",
+    "matched_key": "20162scr23",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gtpvn",
+        "score": 3.7,
+        "candidate_title": "Ledcor Construction Ltd. v. Northbridge Indemnity Insurance Co."
+      }
+    ]
+  },
+  "Deslaurier Custom Cabinets Inc. v 1728106 Ontario Inc.": {
+    "uri": "https://canlii.ca/t/h35kt",
+    "score": 3.5,
+    "candidate_id": "2017onca293",
+    "candidate_title": "Deslaurier Custom Cabinets Inc. v. 1728106 Ontario Inc.",
+    "query_text": "decision | <b><i>Deslaurier\nCustom Cabinets Inc. v 1728106 Ontario Inc.</i></b> | 2017 ONCA 293",
+    "method": "citation_exact",
+    "matched_key": "2017onca293",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h35kt",
+        "score": 3.5,
+        "candidate_title": "Deslaurier Custom Cabinets Inc. v. 1728106 Ontario Inc."
+      }
+    ]
+  },
+  "McLean v British Columbia (Securities Commission)": {
+    "uri": "https://canlii.ca/t/g25sg",
+    "score": 3.7,
+    "candidate_id": "2013csc-scc67",
+    "candidate_title": "McLean v. British Columbia (Securities Commission)",
+    "query_text": "decision | <b><i>McLean v British Columbia\n(Securities Commission)</i></b> | 2013 SCC 67 | [2013] 3 SCR 895",
+    "method": "citation_exact",
+    "matched_key": "20133scr895",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g25sg",
+        "score": 3.7,
+        "candidate_title": "McLean v. British Columbia (Securities Commission)"
+      }
+    ]
+  },
+  "Attila Dogan Construction and Installation Co. Inc. v AMEC Americas Limited": {
+    "uri": "https://canlii.ca/t/gmnjq",
+    "score": 3.7,
+    "candidate_id": "2015abca406",
+    "candidate_title": "Attila Dogan Construction and Installation Co. Inc. v AMEC Americas Limited",
+    "query_text": "decision | <b><i>Attila Dogan Construction and\nInstallation Co. Inc. v AMEC Americas Limited</i></b> | 2015 ABCA 406 | 609 AR 313",
+    "method": "citation_exact",
+    "matched_key": "2015abca406",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gmnjq",
+        "score": 3.7,
+        "candidate_title": "Attila Dogan Construction and Installation Co. Inc. v AMEC Americas Limited"
+      }
+    ]
+  },
+  "1216808 Alberta Ltd. (Prairie Bailiff Services) v Devtex Ltd.": {
+    "uri": "https://canlii.ca/t/gfd17",
+    "score": 2.0,
+    "candidate_id": "2014abca386",
+    "candidate_title": "1216808 Alberta Ltd. (Prairie Bailiff Services) v Devtex Ltd.",
+    "query_text": "decision | 1216808 Alberta Ltd. (Prairie Bailiff Services) v Devtex Ltd.",
+    "method": "title_exact",
+    "matched_key": "1216808 alberta ltd prairie bailiff services v devtex ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gfd17",
+        "score": 2.0,
+        "candidate_title": "1216808 Alberta Ltd. (Prairie Bailiff Services) v Devtex Ltd."
+      }
+    ]
+  },
+  "FL Receivables Trust 2002-A v Cobrand Foods Ltd.": {
+    "uri": "https://canlii.ca/t/1rrrw",
+    "score": 3.7,
+    "candidate_id": "2007onca425",
+    "candidate_title": "FL Receivables Trust 2002-A v. Cobrand Foods Ltd.",
+    "query_text": "decision | FL Receivables Trust 2002‑A\nv Cobrand Foods Ltd. | <b><i>FL\nReceivables Trust 2002-A v Cobrand Foods Ltd</i></b> | 2007 ONCA 425 | 85 OR (3d) 561",
+    "method": "citation_exact",
+    "matched_key": "2007onca425",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rrrw",
+        "score": 3.7,
+        "candidate_title": "FL Receivables Trust 2002-A v. Cobrand Foods Ltd."
+      }
+    ]
+  },
+  "Shewchuk v Blackmont Capital Inc.": {
+    "uri": "https://canlii.ca/t/gvvmz",
+    "score": 3.7,
+    "candidate_id": "2016onca912",
+    "candidate_title": "Shewchuk v. Blackmont Capital Inc.",
+    "query_text": "decision | <b><i>Shewchuk\nv Blackmont Capital Inc.</i></b> | 2016 ONCA 912 | 404 DLR (4th)\n512",
+    "method": "citation_exact",
+    "matched_key": "2016onca912",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gvvmz",
+        "score": 3.7,
+        "candidate_title": "Shewchuk v. Blackmont Capital Inc."
+      }
+    ]
+  },
+  "Ron Ghitter Property Consultants Ltd v Beaver Lumber Co": {
+    "uri": "https://canlii.ca/t/1kwrr",
+    "score": 3.7,
+    "candidate_id": "2003abca221",
+    "candidate_title": "Ron Ghitter Property Consultants Ltd. v. Beaver Lumber Company Limited",
+    "query_text": "decision | <b><i>Ron Ghitter Property\nConsultants Ltd v Beaver Lumber Co</i></b> | 2003 ABCA 221 | 17 Alta LR\n4<sup>th</sup> 243",
+    "method": "citation_exact",
+    "matched_key": "17altalr4th243",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1kwrr",
+        "score": 3.7,
+        "candidate_title": "Ron Ghitter Property Consultants Ltd. v. Beaver Lumber Company Limited"
+      }
+    ]
+  },
+  "Churchill Falls (Labrador) Corporation Limited v Hydro-Quebec": {
+    "uri": "https://canlii.ca/t/h3899",
+    "score": 2.0,
+    "candidate_id": "2017csc-scc-al147540",
+    "candidate_title": "Churchill Falls (Labrador) Corporation Limited v. Hydro-Québec",
+    "query_text": "decision | Churchill Falls (Labrador) Corporation Limited v\nHydro-Québec",
+    "method": "title_exact",
+    "matched_key": "churchill falls labrador corporation limited v hydro quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h3899",
+        "score": 2.0,
+        "candidate_title": "Churchill Falls (Labrador) Corporation Limited v. Hydro-Québec"
+      }
+    ]
+  }
+}

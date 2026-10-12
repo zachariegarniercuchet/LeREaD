@@ -37,6 +37,9 @@ class EvaluationConfig:
     
     # Context characters for span matching
     context_chars: int = 200
+
+    # Overlap matching as an extra comparison (exact match stays the main metric)
+    overlap: bool = True
     
     def get_ground_truth_dir(self) -> Path:
         """Get the ground truth directory for the configured split."""

@@ -1,0 +1,18 @@
+{
+  "McLaughlin v Halifax-Dartmouth Bridge Commission": {
+    "uri": "https://canlii.ca/t/1mqwz",
+    "score": 3.5,
+    "candidate_id": "1993nsca10024",
+    "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission",
+    "query_text": "decision | <i>McLaughlin v.\nHalifax‑Dartmouth Bridge Commission </i> | 125 N.S.R. (2d) 288",
+    "method": "citation_exact",
+    "matched_key": "125nsr2d288",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mqwz",
+        "score": 3.5,
+        "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission"
+      }
+    ]
+  }
+}

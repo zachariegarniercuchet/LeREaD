@@ -1,0 +1,185 @@
+
+======================================================================
+BATCH EVALUATION
+======================================================================
+Batch folder: output\incoming_gemma4_DEC_fs6_greedy_sentence_long
+Split: test
+======================================================================
+Found 34 evaluation pair(s)
+
+
+Batch evaluation — 34 file pair(s)
+============================================================
+
+[1/34] 1983CanLII2967L.html
+  TP=123 | Gold=159 | System=160 | F1=77.1%
+
+[2/34] 1993CanLII1889PESCTSD.html
+  TP=285 | Gold=418 | System=332 | F1=76.0%
+
+[3/34] 1993CanLII3004FCA.html
+  TP=953 | Gold=1536 | System=1131 | F1=71.5%
+
+[4/34] 1993NSSC71.html
+  TP=116 | Gold=195 | System=176 | F1=62.5%
+
+[5/34] 1997CanLII11497.html
+  TP=185 | Gold=241 | System=219 | F1=80.4%
+
+[6/34] 1999CanLII7320(ONCA).html
+  TP=562 | Gold=1128 | System=636 | F1=63.7%
+
+[7/34] 2001BCSC1342.html
+  TP=182 | Gold=254 | System=243 | F1=73.2%
+
+[8/34] 2003MBCA71.html
+  TP=84 | Gold=134 | System=145 | F1=60.2%
+
+[9/34] 2005NLTD57.html
+  TP=123 | Gold=215 | System=184 | F1=61.7%
+
+[10/34] 2009BCHRT256.html
+  TP=373 | Gold=421 | System=416 | F1=89.1%
+
+[11/34] 2009NUCA3.html
+  TP=110 | Gold=142 | System=131 | F1=80.6%
+
+[12/34] 2009PECA12.html
+  TP=166 | Gold=256 | System=181 | F1=76.0%
+
+[13/34] 2010SKQB255.html
+  TP=201 | Gold=278 | System=262 | F1=74.4%
+
+[14/34] 2012SKCA24.html
+  TP=113 | Gold=129 | System=143 | F1=83.1%
+
+[15/34] 2013ONAFRAAT18.html
+  TP=64 | Gold=96 | System=83 | F1=71.5%
+
+[16/34] 2014CanLII36807PELRB.html
+  TP=501 | Gold=651 | System=613 | F1=79.3%
+
+[17/34] 2015NSSC25.html
+  TP=537 | Gold=712 | System=628 | F1=80.1%
+
+[18/34] 2016QCCS1184.html
+  TP=191 | Gold=251 | System=267 | F1=73.7%
+
+[19/34] 2017ABCA157.html
+  TP=773 | Gold=1021 | System=1085 | F1=73.4%
+
+[20/34] 2018NSOIPC2.html
+  TP=546 | Gold=724 | System=605 | F1=82.2%
+
+[21/34] 2019QCCA1492.html
+  TP=3958 | Gold=4429 | System=4399 | F1=89.7%
+
+[22/34] 2020ABPLAB11.html
+  TP=163 | Gold=203 | System=188 | F1=83.4%
+
+[23/34] 2020BCHPRB101.html
+  TP=299 | Gold=388 | System=346 | F1=81.5%
+
+[24/34] 2020FCA63.html
+  TP=377 | Gold=536 | System=431 | F1=78.0%
+
+[25/34] 2022BCSC135.html
+  TP=2106 | Gold=2791 | System=2387 | F1=81.3%
+
+[26/34] 2022ONCMT32.html
+  TP=233 | Gold=491 | System=273 | F1=61.0%
+
+[27/34] 2024ABOHSAB19.html
+  TP=112 | Gold=144 | System=126 | F1=83.0%
+
+[28/34] 2024BCSC764.html
+  TP=523 | Gold=597 | System=619 | F1=86.0%
+
+[29/34] 2024NUCA9.html
+  TP=234 | Gold=311 | System=246 | F1=84.0%
+
+[30/34] 2025ABAER7.html
+  TP=330 | Gold=352 | System=351 | F1=93.9%
+
+[31/34] 2025ABKB246.html
+  TP=139 | Gold=148 | System=144 | F1=95.2%
+
+[32/34] 2025MBKB136.html
+  TP=85 | Gold=123 | System=114 | F1=71.7%
+
+[33/34] 2025NBEUB1.html
+  TP=47 | Gold=57 | System=51 | F1=87.0%
+
+[34/34] 2026ABCA2L.html
+  TP=133 | Gold=148 | System=153 | F1=88.4%
+
+============================================================
+RESULTS — PER DOCUMENT
+============================================================
+1983CanLII2967L                          TP= 123 | Gold= 159 | System= 160 | F1= 77.1%
+1993CanLII1889PESCTSD                    TP= 285 | Gold= 418 | System= 332 | F1= 76.0%
+1993CanLII3004FCA                        TP= 953 | Gold=1536 | System=1131 | F1= 71.5%
+1993NSSC71                               TP= 116 | Gold= 195 | System= 176 | F1= 62.5%
+1997CanLII11497                          TP= 185 | Gold= 241 | System= 219 | F1= 80.4%
+1999CanLII7320(ONCA)                     TP= 562 | Gold=1128 | System= 636 | F1= 63.7%
+2001BCSC1342                             TP= 182 | Gold= 254 | System= 243 | F1= 73.2%
+2003MBCA71                               TP=  84 | Gold= 134 | System= 145 | F1= 60.2%
+2005NLTD57                               TP= 123 | Gold= 215 | System= 184 | F1= 61.7%
+2009BCHRT256                             TP= 373 | Gold= 421 | System= 416 | F1= 89.1%
+2009NUCA3                                TP= 110 | Gold= 142 | System= 131 | F1= 80.6%
+2009PECA12                               TP= 166 | Gold= 256 | System= 181 | F1= 76.0%
+2010SKQB255                              TP= 201 | Gold= 278 | System= 262 | F1= 74.4%
+2012SKCA24                               TP= 113 | Gold= 129 | System= 143 | F1= 83.1%
+2013ONAFRAAT18                           TP=  64 | Gold=  96 | System=  83 | F1= 71.5%
+2014CanLII36807PELRB                     TP= 501 | Gold= 651 | System= 613 | F1= 79.3%
+2015NSSC25                               TP= 537 | Gold= 712 | System= 628 | F1= 80.1%
+2016QCCS1184                             TP= 191 | Gold= 251 | System= 267 | F1= 73.7%
+2017ABCA157                              TP= 773 | Gold=1021 | System=1085 | F1= 73.4%
+2018NSOIPC2                              TP= 546 | Gold= 724 | System= 605 | F1= 82.2%
+2019QCCA1492                             TP=3958 | Gold=4429 | System=4399 | F1= 89.7%
+2020ABPLAB11                             TP= 163 | Gold= 203 | System= 188 | F1= 83.4%
+2020BCHPRB101                            TP= 299 | Gold= 388 | System= 346 | F1= 81.5%
+2020FCA63                                TP= 377 | Gold= 536 | System= 431 | F1= 78.0%
+2022BCSC135                              TP=2106 | Gold=2791 | System=2387 | F1= 81.3%
+2022ONCMT32                              TP= 233 | Gold= 491 | System= 273 | F1= 61.0%
+2024ABOHSAB19                            TP= 112 | Gold= 144 | System= 126 | F1= 83.0%
+2024BCSC764                              TP= 523 | Gold= 597 | System= 619 | F1= 86.0%
+2024NUCA9                                TP= 234 | Gold= 311 | System= 246 | F1= 84.0%
+2025ABAER7                               TP= 330 | Gold= 352 | System= 351 | F1= 93.9%
+2025ABKB246                              TP= 139 | Gold= 148 | System= 144 | F1= 95.2%
+2025MBKB136                              TP=  85 | Gold= 123 | System= 114 | F1= 71.7%
+2025NBEUB1                               TP=  47 | Gold=  57 | System=  51 | F1= 87.0%
+2026ABCA2L                               TP= 133 | Gold= 148 | System= 153 | F1= 88.4%
+
+============================================================
+RESULTS — TOTAL
+============================================================
+TP=14927 | Gold=19679 | System=17468 | P=85.5% | R=75.9% | F1=80.4%
+
+============================================================
+
+  RESULTS — MICRO-AVERAGED PER LABEL
+  ──────────────────────────────────────────────────────────────────────────────────
+  Label                                Gold    Sys     TP        P        R       F1
+  ──────────────────────────────────────────────────────────────────────────────────
+  authors                               292    258    219    84.9%    75.0%    79.6%
+  citation                             2677   2044   1751    85.7%    65.4%    74.2%
+  decision                             3401   2717   2246    82.7%    66.0%    73.4%
+  fragment                             3900   3590   3276    91.3%    84.0%    87.5%
+  legislation                          3119   3051   2522    82.7%    80.9%    81.8%
+  secondary sources                     387    399    257    64.4%    66.4%    65.4%
+  source                                232    232    174    75.0%    75.0%    75.0%
+  title                                5584   5177   4482    86.6%    80.3%    83.3%
+  unable to classify                     87      0      0     0.0%     0.0%     0.0%
+  ──────────────────────────────────────────────────────────────────────────────────
+  MICRO (all labels)                  19679  17468  14927    85.5%    75.9%    80.4%
+  MACRO F1 (mean per-doc F1)                                          78.1%  (over 34 documents)
+
+============================================================
+RESULTS — PARENT vs CHILDREN vs TOTAL
+============================================================
+                       Gold    Sys     TP        P        R       F1
+Parent spans           6907   6167   5025    81.5%    72.8%    76.9%
+Children spans        12772  11301   9902    87.6%    77.5%    82.3%
+Total                 19679  17468  14927    85.5%    75.9%    80.4%
+

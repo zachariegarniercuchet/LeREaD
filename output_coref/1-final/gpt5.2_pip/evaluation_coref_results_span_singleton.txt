@@ -2,8 +2,8 @@
 ======================================================================
 BATCH COREF EVALUATION
 ======================================================================
-Batch folder: output_coref\AA_final\gpt5.2_pip
-Split: extended_test
+Batch folder: output_coref\1-final\gpt5.2_pip
+Split: test
 Match mode: span (unmatched=singleton)
 ======================================================================
 Found 24 evaluation pair(s)

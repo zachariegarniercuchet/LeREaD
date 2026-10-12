@@ -32,10 +32,10 @@ The 45 gold documents are split into train (4), dev (3), and test (38). The test
 
 The 11,056 gold mentions resolve to 1,437 unique cited documents, released as two candidate pools for the linking stage:
 
-- `data/gold_candidate_pool.csv` (6,437 entries): the 1,437 cited documents plus 5,000 never-cited distractors. Used for all reported results.
-- `data/full_candidate_pool.csv` (7,731 entries): additionally includes the 1,294 synthetic silver sources, for training/validation with silver data.
+- `data/gold_candidate_pool.csv` (6,976 entries): the 1,437 cited documents plus 5,000 never-cited distractors, plus 539 synthetic gold sources covering the gold `uri="none"` mentions. Used for all reported results.
+- `data/full_candidate_pool.csv` (8,270 entries): additionally includes the 1,294 synthetic silver sources, for training/validation with silver data.
 
-(`data/cited_metadata.csv`, `data/extra_metadata.csv`, and `data/synthetic_metadata.csv` hold the underlying per-source metadata.)
+(`data/cited_metadata.csv`, `data/extra_metadata.csv`, `data/synthetic_metadata.csv`, and `data/synthetic_metadata_from_gold.csv` hold the underlying per-source metadata.)
 
 ## Repository Structure
 

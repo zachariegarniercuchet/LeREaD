@@ -1,0 +1,54 @@
+mention,pattern_grouped,fp_spurious
+legislation,title,223
+decision,title,219
+legislation,fragment,123
+decision,fragment,105
+legislation,fragment -> title,69
+decision,title -> citation,58
+secondary sources,title,45
+decision,title -> fragment,31
+legislation,title -> citation,24
+secondary sources,fragment,20
+secondary sources,authors,18
+decision,title -> citation -> fragment,17
+decision,citation,14
+legislation,fragment -> title -> citation,13
+decision,(unaligned),10
+decision,(no child),8
+secondary sources,authors -> title -> source -> fragment,8
+secondary sources,title -> source,8
+secondary sources,authors -> title -> source,6
+decision,title -> citation -> fragment -> citation,5
+legislation,title -> fragment,5
+secondary sources,title -> source -> fragment,4
+legislation,fragment -> title -> citation -> fragment,3
+legislation,fragment -> title -> fragment -> title,3
+legislation,title -> citation -> fragment -> citation -> fragment,3
+decision,citation -> fragment,2
+decision,title -> citation -> fragment -> citation -> fragment,2
+decision,title -> fragment -> citation -> fragment,2
+legislation,citation,2
+legislation,citation -> title,2
+legislation,fragment -> citation -> title,2
+legislation,title -> citation -> fragment,2
+legislation,title -> citation -> fragment -> citation -> fragment -> citation -> fragment,2
+secondary sources,fragment -> title,2
+secondary sources,title -> fragment,2
+decision,fragment -> citation,1
+decision,fragment -> citation -> fragment -> citation -> fragment -> citation,1
+decision,title -> citation -> fragment -> citation -> title,1
+decision,title -> citation -> title,1
+decision,title -> fragment -> citation -> fragment -> citation,1
+legislation,citation -> fragment -> title -> citation,1
+legislation,fragment -> citation -> fragment,1
+legislation,fragment -> citation -> fragment -> citation -> fragment,1
+legislation,fragment -> title -> fragment,1
+legislation,title -> citation -> title -> citation -> title -> citation -> fragment,1
+legislation,title -> fragment -> title,1
+secondary sources,authors -> fragment,1
+secondary sources,authors -> fragment -> title -> source,1
+secondary sources,authors -> title,1
+secondary sources,fragment -> authors -> title -> source -> fragment,1
+secondary sources,source -> authors -> title,1
+secondary sources,source -> fragment,1
+secondary sources,source -> title,1

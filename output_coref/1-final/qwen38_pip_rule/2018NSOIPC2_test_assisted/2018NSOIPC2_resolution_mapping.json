@@ -1,0 +1,289 @@
+{
+  "Freedom of Information and Protection of Privacy Act": {
+    "uri": "https://canlii.ca/t/56pvb",
+    "score": 2.0,
+    "candidate_id": "l169!169-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | Freedom\nof Information and Protection of Privacy Act | FOIPOP | <i>FOIPOP</i>",
+    "method": "title_exact",
+    "matched_key": "freedom of information and protection of privacy act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 2.0,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 2.0,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 2.0,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "John Doe v. Ontario (Finance)": {
+    "uri": "https://canlii.ca/t/g6sg3",
+    "score": 3.9,
+    "candidate_id": "2014csc-scc36",
+    "candidate_title": "John Doe v. Ontario (Finance)",
+    "query_text": "decision | <i>John Doe v. Ontario (Finance), </i><auto_label id=\"34\" labelname=\"citation\" parent=\"title\" style=\"background-color: rgb(255, 87, 51); color: black;\" verified=\"false\">2014 SCC 36</auto_label> <i>(John Doe</i>) | John Doe | <i>John Doe v. Ontario (Finance)</i> | John\nDoe | <i>John Doe</i> | [2014] 2 SCR 3 | 2014 SCC 36\n(CanLII)",
+    "method": "citation_exact",
+    "matched_key": "20142scr3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g6sg3",
+        "score": 3.9,
+        "candidate_title": "John Doe v. Ontario (Finance)"
+      }
+    ]
+  },
+  "Osborne v. Canada (Treasury Board)": {
+    "uri": "https://canlii.ca/t/1fslg",
+    "score": 3.5,
+    "candidate_id": "1991csc-scc51",
+    "candidate_title": "Osborne v. Canada (Treasury Board)",
+    "query_text": "decision | <i>Osborne\nv. Canada (Treasury Board)</i> | [1991] 2 S.C.R. 69",
+    "method": "citation_exact",
+    "matched_key": "19912scr69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fslg",
+        "score": 3.5,
+        "candidate_title": "Osborne v. Canada (Treasury Board)"
+      }
+    ]
+  },
+  "OPSEU v. Ontario (Attorney General)": {
+    "uri": "https://canlii.ca/t/1ftn6",
+    "score": 3.0,
+    "candidate_id": "1987csc-scc43",
+    "candidate_title": "Ontario (Attorney General) v. OPSEU",
+    "query_text": "decision | <i>OPSEU v.\nOntario (Attorney General)</i> | [1987] 2 S.C.R. 2",
+    "method": "citation_exact",
+    "matched_key": "19872scr2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftn6",
+        "score": 3.0,
+        "candidate_title": "Ontario (Attorney General) v. OPSEU"
+      }
+    ]
+  },
+  "NS Review Report 16-10": {
+    "uri": "https://canlii.ca/t/gvjlb",
+    "score": 3.2,
+    "candidate_id": "2016nsfoipop10",
+    "candidate_title": "Department of Business (Re)",
+    "query_text": "decision | NS Review Report 16-10 | NS Review Report\n16-10 | 2016 NSOIPC 10\n(CanLII)",
+    "method": "citation_exact",
+    "matched_key": "2016nsoipc10",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gvjlb",
+        "score": 3.2,
+        "candidate_title": "Department of Business (Re)"
+      }
+    ]
+  },
+  "Order F13-17": {
+    "uri": "https://canlii.ca/t/g0hd8",
+    "score": 3.2,
+    "candidate_id": "2013bcipc22",
+    "candidate_title": "Victoria (City) (Re)",
+    "query_text": "decision | 2013 BCIPC 22 (CanLII)",
+    "method": "citation_exact",
+    "matched_key": "2013bcipc22",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0hd8",
+        "score": 3.2,
+        "candidate_title": "Victoria (City) (Re)"
+      }
+    ]
+  },
+  "Donham v. Nova Scotia (Attorney General)": {
+    "uri": "https://canlii.ca/t/1ql98",
+    "score": 3.5,
+    "candidate_id": "1993nssc10129",
+    "candidate_title": "Donham v. Nova Scotia (Attorney General)",
+    "query_text": "decision | Donham v. Nova Scotia\n(Attorney General) | 1993 CanLII 4541 (NS\nSC)",
+    "method": "citation_exact",
+    "matched_key": "1993canlii4541nssc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ql98",
+        "score": 3.5,
+        "candidate_title": "Donham v. Nova Scotia (Attorney General)"
+      }
+    ]
+  },
+  "O’Connor v. Nova Scotia (Minister of the Priorities and Planning Secretariat)": {
+    "uri": "https://canlii.ca/t/4tzw",
+    "score": 3.2,
+    "candidate_id": "2001nssc6",
+    "candidate_title": "O'Connor v. Nova Scotia (Priorities and Planning Secretariat)",
+    "query_text": "decision | <i>O’Connor</i> v. <i>Nova Scotia (Minister of\nthe Priorities and Planning Secretariat) </i> | O’Connor v. Nova Scotia, (“O’Connor”) | 2001\nNSCA 132 (CanLII) | 2001 NSSC 6 (CanLII) | 2001 NSCA 132 (CanLII) | [2001] S.C.C.A. No. 582)",
+    "method": "citation_exact",
+    "matched_key": "2001nssc6",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4tzw",
+        "score": 3.2,
+        "candidate_title": "O'Connor v. Nova Scotia (Priorities and Planning Secretariat)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1f8qz",
+        "score": 3.2,
+        "candidate_title": "O'Connor v. Nova Scotia"
+      }
+    ]
+  },
+  "R. v. Fuller": {
+    "uri": "https://canlii.ca/t/5cd6",
+    "score": 3.5,
+    "candidate_id": "2003nssc58",
+    "candidate_title": "R. v. Fuller",
+    "query_text": "decision | <i>R. v. Fuller</i> | 2003\nNSSC 58 | 2003 NSSC 58",
+    "method": "citation_exact",
+    "matched_key": "2003nssc58",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5cd6",
+        "score": 3.5,
+        "candidate_title": "R. v. Fuller"
+      }
+    ]
+  },
+  "Fuller v. R. et al. v. Sobeys": {
+    "uri": "https://canlii.ca/t/1h38q",
+    "score": 3.5,
+    "candidate_id": "2004nssc86",
+    "candidate_title": "Fuller v. R. et al. v. Sobeys",
+    "query_text": "decision | <i>Fuller v. R. et al. v. Sobeys<b>,</b></i> | 2004\nNSSC 86",
+    "method": "citation_exact",
+    "matched_key": "2004nssc86",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1h38q",
+        "score": 3.5,
+        "candidate_title": "Fuller v. R. et al. v. Sobeys"
+      }
+    ]
+  },
+  "Gaetz v. Nova Scotia (Attorney General)": {
+    "uri": "https://canlii.ca/t/1ljd3",
+    "score": 3.7,
+    "candidate_id": "2005nssc215",
+    "candidate_title": "Gaetz v. Nova Scotia (Attorney General)",
+    "query_text": "decision | Gaetz\nv. Nova Scotia (Attorney General) | Gaetz | 2005 NSSC 215 (CanLII)",
+    "method": "citation_exact",
+    "matched_key": "2005nssc215",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ljd3",
+        "score": 3.7,
+        "candidate_title": "Gaetz v. Nova Scotia (Attorney General)"
+      }
+    ]
+  },
+  "NS Review Report 16-12": {
+    "uri": "https://canlii.ca/t/gvjld",
+    "score": 3.2,
+    "candidate_id": "2016nsfoipop12",
+    "candidate_title": "South Shore Regional School Board (Re)",
+    "query_text": "decision | NS Review\nReport 16-12 | 2016 NSOIPC 12\n(CanLII)",
+    "method": "citation_exact",
+    "matched_key": "2016nsoipc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gvjld",
+        "score": 3.2,
+        "candidate_title": "South Shore Regional School Board (Re)"
+      }
+    ]
+  },
+  "NS Review Report 17-01": {
+    "uri": "https://canlii.ca/t/gx00h",
+    "score": 3.2,
+    "candidate_id": "2017nsfoipop1",
+    "candidate_title": "Nova Scotia (Justice) (Re)",
+    "query_text": "decision | NS Review Report\n17-01 | 2017 NSOIPC 1 (CanLII)",
+    "method": "citation_exact",
+    "matched_key": "2017nsoipc1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gx00h",
+        "score": 3.2,
+        "candidate_title": "Nova Scotia (Justice) (Re)"
+      }
+    ]
+  },
+  "Ontario (Public Safety and Security) v. Criminal Lawyers’ Association": {
+    "uri": "https://canlii.ca/t/2b5ss",
+    "score": 3.9,
+    "candidate_id": "2010csc-scc23",
+    "candidate_title": "Ontario (Public Safety and Security) v. Criminal Lawyers' Association",
+    "query_text": "decision | <i>Ontario (Public Safety and Security) v. Criminal\nLawyers’ Association</i> | [2010] 1 SCR 815 | 2010 SCC 23\n(CanLII)",
+    "method": "citation_exact",
+    "matched_key": "20101scr815",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2b5ss",
+        "score": 3.9,
+        "candidate_title": "Ontario (Public Safety and Security) v. Criminal Lawyers' Association"
+      }
+    ]
+  },
+  "NS Review Report 17-08": {
+    "uri": "https://canlii.ca/t/h6ppd",
+    "score": 3.0,
+    "candidate_id": "2017nsfoipop8",
+    "candidate_title": "Nova Scotia (Health and Wellness) (Re)",
+    "query_text": "decision | NS Review Report\n17-08 | 2017 NSOIPC 8",
+    "method": "citation_exact",
+    "matched_key": "2017nsoipc8",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h6ppd",
+        "score": 3.0,
+        "candidate_title": "Nova Scotia (Health and Wellness) (Re)"
+      }
+    ]
+  },
+  "BC Order 15-23": {
+    "uri": "https://canlii.ca/t/gjvjk",
+    "score": 3.2,
+    "candidate_id": "2015bcipc25",
+    "candidate_title": "Vancouver Island Health Authority (Re)",
+    "query_text": "decision | BC Order 15-23 | 2015 BCIPC 25 (CanLII)",
+    "method": "citation_exact",
+    "matched_key": "2015bcipc25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gjvjk",
+        "score": 3.2,
+        "candidate_title": "Vancouver Island Health Authority (Re)"
+      }
+    ]
+  },
+  "PEI Order FI-16-003": {
+    "uri": "https://canlii.ca/t/gsr8t",
+    "score": 3.0,
+    "candidate_id": "2016peipc1000004",
+    "candidate_title": "English Language School Board (Re)",
+    "query_text": "decision | PEI Order FI-16-003 | 2016 CanLII 48834 (PE IPC)",
+    "method": "citation_exact",
+    "matched_key": "2016canlii48834peipc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gsr8t",
+        "score": 3.0,
+        "candidate_title": "English Language School Board (Re)"
+      }
+    ]
+  }
+}

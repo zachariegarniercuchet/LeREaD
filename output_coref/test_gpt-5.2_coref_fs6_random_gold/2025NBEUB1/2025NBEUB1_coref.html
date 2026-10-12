@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+      "color": "#76CEDE",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "decision": {
+      "color": "#6aa3ff",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "secondary sources": {
+      "color": "#278FE3",
+      "sublabels": {
+        "authors": {
+          "color": "#ffb84d",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "source": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "unable to classify": {
+      "color": "#ffc107",
+      "sublabels": {},
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    }
+  },
+  "meta": {
+    "time": 1900888,
+    "project title": "CLIQAI",
+    "annotation guidelines": "V2",
+    "labels Tree": "V2",
+    "Initial label assignement": "LLM",
+    "model": "GPT 5.2",
+    "prompt": "V2",
+    "Initial label assignement date": "2026-05-18",
+    "human annotation completion": "Geneviève Léger",
+    "Human annotation completion date": "2026-05-29",
+    "reviewer": "Rym Laoufi",
+    "review date": "2026-06-23"
+  }
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	text-indent:-.3in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	margin-bottom:.0001pt;
+	text-indent:-.6in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.7in;
+	margin-bottom:.0001pt;
+	text-indent:-.7in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.9in;
+	margin-bottom:.0001pt;
+	text-indent:-.9in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-indent:-1.0in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Titre 9 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.1in;
+	margin-bottom:.0001pt;
+	text-indent:-1.1in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:16.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-name:"Titre\,Sub 3";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-name:"Titre\,Sub 3CxSpFirst";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-name:"Titre\,Sub 3CxSpMiddle";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-name:"Titre\,Sub 3CxSpLast";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Sous-titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#5A5A5A;
+	letter-spacing:.75pt;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Texte brut Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:Consolas;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Objet du commentaire Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-indent:-.5in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-style:italic;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;}
+span.Titre9Car
+	{mso-style-name:"Titre 9 Car";
+	mso-style-link:"Titre 9";
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;
+	font-style:italic;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;
+	font-family:"Times New Roman",serif;}
+p.Sub4, li.Sub4, div.Sub4
+	{mso-style-name:"Sub 4";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:85.05pt;
+	margin-bottom:.0001pt;
+	line-height:18.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.TitreCar
+	{mso-style-name:"Titre Car\,Sub 3 Car";
+	mso-style-link:"Titre\,Sub 3";
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+span.TextebrutCar
+	{mso-style-name:"Texte brut Car";
+	mso-style-link:"Texte brut";
+	font-family:Consolas;}
+span.Sous-titreCar
+	{mso-style-name:"Sous-titre Car";
+	mso-style-link:Sous-titre;
+	font-family:"Times New Roman",serif;
+	color:#5A5A5A;
+	letter-spacing:.75pt;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";}
+span.ObjetducommentaireCar
+	{mso-style-name:"Objet du commentaire Car";
+	mso-style-link:"Objet du commentaire";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Headnig1, li.Headnig1, div.Headnig1
+	{mso-style-name:"Headnig 1";
+	mso-style-link:"Headnig 1 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Headnig1Char
+	{mso-style-name:"Headnig 1 Char";
+	mso-style-link:"Headnig 1";
+	font-family:"Calibri",sans-serif;}
+span.Style2
+	{mso-style-name:Style2;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="#0563C1" vlink="#954F72">
+<p class="MsoNormal"> </p>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="TableGrid1" style="border-collapse:collapse;border:none;margin-left:6.75pt;margin-right:
+ 6.75pt">
+<tbody><tr style="height:103.4pt">
+<td colspan="4" style="border:none;border-bottom:solid #A5A5A5 2.25pt;
+  padding:0in 5.4pt 0in 5.4pt;height:103.4pt">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><auto_label docid="MegumaGold Corp. (Re)" id="0" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><auto_label id="1" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Citation: MegumaGold Corp. (Re)</auto_label>, <auto_label id="2" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">2025 NBEUB 1</auto_label></auto_label></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal">Date: 2025-03-11</p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"> </p>
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><img alt="A close-up of a sign
+
+Description automatically generated" height="105" id="Picture 2" src="2025_03_11_-_Decision_-_Matter_MN-001-2025_MegumaGold__CanLII__fichiers/image001.png"/></p>
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"> </p>
+</td>
+</tr>
+<tr style="height:39.35pt">
+<td colspan="4" style="border:none;padding:0in 5.4pt 0in 5.4pt;
+  height:39.35pt">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><i> </i></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" style="padding:0in 5.4pt 0in 5.4pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">PROVINCE OF NEW BRUNSWICK</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">NEW BRUNSWICK ENERGY AND UTILITIES
+  BOARD</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">IN THE MATTER OF THE </span><auto_label docid="Mining Act NB" id="3" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label id="4" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><span style="font-size:12.0pt">MINING ACT</span></auto_label><span style="font-size:12.0pt">,
+  </span><auto_label id="5" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true"><span style="font-size:12.0pt">S.N.B., c. M-14.1</span></auto_label></auto_label></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td colspan="4" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:27.4pt">
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:27.4pt" valign="top">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:27.4pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Matter: MN-001-2025 </span></p>
+</td>
+</tr>
+<tr style="height:26.95pt">
+<td colspan="4" style="padding:0in 5.4pt 0in 5.4pt;
+  height:26.95pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">BETWEEN:</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:26.95pt">
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:26.95pt" valign="top">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:26.95pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt">MegumaGold Corp.,</span></b></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td colspan="4" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p align="right" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:12.0pt">Appellant,</span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">-and-</span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td colspan="4" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:26.5pt">
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:26.5pt" valign="top">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:26.5pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt">The Recorder </span></b></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td colspan="4" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p align="right" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:12.0pt">Respondent.</span></p>
+</td>
+</tr>
+<tr style="height:22.9pt">
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:22.9pt" valign="top">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:22.9pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt">DECISION AND ORDER</span></b></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="2" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt"> </span></b></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">PANEL: </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Christopher Stewart </span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">DATE OF HEARING: </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">February 28, 2025</span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">WRITTEN REASONS: </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">March 11, 2025</span></p>
+</td>
+</tr>
+<tr style="height:.25in">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">APPEARANCES: </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:.25in" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Mike Taylor for the Appellant </span></p>
+</td>
+</tr>
+<tr style="height:31.5pt">
+<td style="padding:0in 5.4pt 0in 5.4pt;
+  height:31.5pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td colspan="3" style="padding:0in 5.4pt 0in 5.4pt;
+  height:31.5pt" valign="top">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Christopher Whibbs for the Respondent</span></p>
+</td>
+</tr>
+<tr height="0">
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+</tr>
+</tbody></table>
+<b><span style='font-size:12.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span></b>
+<b><span style='font-size:12.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span></b>
+<div class="WordSection2">
+<p class="MsoTocHeading" style="margin-bottom:12.0pt">Table of Contents</p>
+<p class="MsoToc1"><a href="#_Toc192232068">1<span style="font-size:12.0pt;line-height:107%;
+color:windowtext;text-decoration:none">      </span>Introduction and Summary
+Conclusion<span style="color:windowtext;display:none;text-decoration:none">. 1</span></a></p>
+<p class="MsoToc1"><a href="#_Toc192232069">2<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Background<span style="color:windowtext;display:none;text-decoration:none">. 1</span></a></p>
+<p class="MsoToc1"><a href="#_Toc192232070">3<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Issues<span style="color:windowtext;display:none;text-decoration:none">. 2</span></a></p>
+<p class="MsoToc1"><a href="#_Toc192232071">4<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Should the
+Board reinstate claims 3848 and 7923?<span style="color:windowtext;display:
+none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">2</span></a></p>
+<p class="MsoToc1"><a href="#_Toc192232072">5<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Conclusion<span style="color:windowtext;display:none;text-decoration:none">. 5</span></a></p>
+<p class="MsoNormal"> </p>
+<span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;
+margin-left:0in;text-indent:-.5in;line-height:18.0pt"> </p>
+</div>
+<b><span style='font-size:16.0pt;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span></b>
+<div class="WordSection3">
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc134023637"></a><a name="_Toc134023712"></a><a name="_Toc134023725"></a><a name="_Toc192232068">1<span style='font:7.0pt "Times New Roman"'>        
+</span>Introduction and Summary Conclusion</a></h1>
+<p class="MsoListParagraph">[1]<span style='font:7.0pt "Times New Roman"'>              
+</span>This matter involves an application<span style="font-size:11.0pt;
+line-height:115%"> </span>pursuant to <auto_label docid="Mining Act NB" id="6" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 13(1)(e)" id="7" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph 13(1)(e)</auto_label> of the <auto_label id="8" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Mining Act</i></auto_label>
+(the “<i><manual_label id="9" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i>”)</auto_label> to reinstate mineral claims 3848 and 7923.  These claims
+expired at midnight on December 18, 2024, because the holder of the claims
+failed to pay the required fees, one of the prerequisites for renewal set out
+in <auto_label docid="Mining Act NB" id="10" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 56" id="11" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 56</auto_label></auto_label>.</p>
+<p class="MsoListParagraph">[2]<span style='font:7.0pt "Times New Roman"'>              
+</span>Unless otherwise noted, all statutory references in this decision are
+references to portions of the <auto_label docid="Mining Act NB" id="12" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label id="13" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><i>Act</i></auto_label></auto_label>.</p>
+<p class="MsoListParagraph">[3]<span style='font:7.0pt "Times New Roman"'>              
+</span>By correspondence dated January 23, 2025, and in accordance with
+<auto_label docid="Mining Act NB" id="14" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 113(1)" id="15" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 113(1)</auto_label></auto_label>, the Appellant appealed to the Board with respect to the
+expiry of claims 3848 and 7923.  The Board summarily heard the parties in
+accordance with <auto_label docid="Mining Act NB" id="16" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 113(6)" id="17" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 113(6)</auto_label></auto_label> by videoconference on February 28, 2025.</p>
+<p class="MsoListParagraph"><span style="line-height:115%">[4]<span style='font:7.0pt "Times New Roman"'>              
+</span>The Board reinstates mineral claims
+</span>3848 and 7923<span style="line-height:115%"> until <b>midnight, March
+26, 2025</b>, providing an opportunity for the Appellant to meet the conditions
+precedent for the ongoing renewal of a mineral claim set out in </span><auto_label docid="Mining Act NB" id="18" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 56" id="19" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true"><span style="line-height:115%">section 56.</span></auto_label></auto_label></p>
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc192232069">2<span style='font:7.0pt "Times New Roman"'>        
+</span>Background</a></h1>
+<p class="MsoListParagraph">[5]<span style='font:7.0pt "Times New Roman"'>              
+</span>The Appellant, MegumaGold Corp. is the holder of certain mineral claims located
+northwest of Bathurst, New Brunswick, known as the Elmtree Claims and
+identified in the Recorder’s records as claims 3848 and 7923.</p>
+<p class="MsoListParagraph" style="margin-top:.2in">[6]<span style='font:7.0pt "Times New Roman"'>              
+</span>The fee required to be submitted to the Recorder by <auto_label docid="Mining Act NB" id="20" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 56(1)(a)(ii)" id="21" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subparagraph
+56(1)(a)(ii)</auto_label></auto_label> before the expiration of a mineral claim is a precondition for the
+holder of a claim to have an automatic statutory right to renew that claim
+under <auto_label docid="Mining Act NB" id="22" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 55(1)" id="23" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 55(1)</auto_label></auto_label>.  </p>
+<p class="MsoListParagraph">[7]<span style='font:7.0pt "Times New Roman"'>              
+</span>Claims 3848 and 7923 expired pursuant to <auto_label docid="Mining Act NB" id="24" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 55 " id="25" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 55</auto_label></auto_label> after the Appellant
+failed to submit <span style="line-height:115%">the required $100 fee</span> for
+each claim <span style="line-height:115%">on or before midnight on December 18,
+2024</span>.   </p>
+<p class="MsoListParagraph">[8]<span style='font:7.0pt "Times New Roman"'>              
+</span>The Appellant seeks reinstatement of claims 3848 and 7923.  The Appellant
+asserted a demonstrable ongoing intention to maintain the claims, that its failure
+to pay the prescribed fees was inadvertent, and that the Recorder’s failure to
+immediately process a filed Report of Work on claim 3848 contributed to its
+failure to pay the prescribed fees.  The Appellant submits it would be unfair
+to lose the claims after several years and considerable investment in
+maintaining them because of a single administrative oversight.  </p>
+<p class="MsoListParagraph">[9]<span style='font:7.0pt "Times New Roman"'>              
+</span>In response, the Recorder disputed the Appellant’s allegation that the
+Recorder contributed to the Appellant’s failure to pay the required fees but took
+no position on the request for reinstatement of claims 3848 and 7923.  </p>
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc192232070">3<span style='font:7.0pt "Times New Roman"'>        
+</span></a>Issues</h1>
+<p class="MsoListParagraph" style="margin-left:63.35pt;text-indent:-27.35pt">a.<span style='font:7.0pt "Times New Roman"'>           
+</span>Is it fair and equitable in the circumstances for the Board to reinstate
+claims 3848 and 7923? </p>
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc192232071">4<span style='font:7.0pt "Times New Roman"'>        
+</span>Should the Board reinstate claims 3848 and 7923?</a></h1>
+<p class="MsoListParagraph" style="margin-top:.2in">[10]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Board’s jurisdiction with respect to matters relating to the <i><manual_label docid="Mining Act NB" id="26" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label id="27" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>
+is largely set out in <auto_label docid="Mining Act NB" id="28" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 13 " id="29" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 13</auto_label></auto_label>.  The Board has the authority to order the
+reinstatement of an expired mineral claim pursuant to <auto_label docid="Mining Act NB" id="30" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 13(6)" id="31" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 13(6)</auto_label></auto_label>, which
+expressly provides that, “I<i>n determining any question, disagreement, matter
+or claim under this section </i>… <i>the Board may order the … reinstatement of
+a mineral claim</i> ….”.   <auto_label docid="Mining Act NB" id="32" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 13 " id="33" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Section 13</auto_label></auto_label> includes matters, “…<i>respecting the …
+extension or renewal of mineral claims….</i>” as referenced in <auto_label docid="Mining Act NB" id="34" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 13(1)(e)" id="35" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph 13(1)(e)</auto_label></auto_label>. 
+</p>
+<p class="MsoListParagraph" style="margin-top:.2in">[11]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Board applies a test of what is fair and equitable in the
+circumstances to determine if the relief of reinstatement should be granted (<auto_label docid="Cadillac Ventures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder (MN-001-2023)" id="36" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><auto_label id="37" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><b><i>Cadillac
+Ventures Inc. and Ring of Fire Metals PYT Ltd.</i></b> <b><i>v. The Recorder</i></b></auto_label>
+<auto_label id="38" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">MN-001-2023</auto_label></auto_label>, <auto_label docid="Stewart v. New Brunswick (Mining Commissioner)" id="39" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><auto_label id="40" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><b><i>Stewart v. New Brunswick (Mining Commissioner)</i></b></auto_label>
+<auto_label id="41" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">(1995), N.B.R. (2d) 353 (Q.B.)</auto_label>; <auto_label id="42" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1995] N.B.J. No. 191</auto_label></auto_label>).  </p>
+<p class="MsoListParagraph">[12]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Board’s review of the evidentiary record leads to the following
+findings of fact:</p>
+<p class="MsoListParagraph" style="margin-left:63.35pt;text-indent:-27.35pt">1)<span style='font:7.0pt "Times New Roman"'>           
+</span>The Appellant moved quickly to seek relief once the expiry of claims 3848
+and 7923 was discovered.  Michael Taylor is a director of the Appellant.  He
+testified that he sought reinstatement on December 22, 2024, immediately after
+discovering the claims had expired 4 days earlier.  Page 19 of Exhibit A-1 is a
+copy of Mr. Talyor’s email to the Recorder and to Joe MacIntosh, Resource
+Information Systems Administrator with Resource Development Branch, asking the
+Recorder to reinstate claims 3848 and 7923 and confirming the Appellant’s
+intention to continue with the claims in 2025.  Mr. MacIntosh responded the
+next day, offering to prevent the claims from coming open for acquisition until
+Mr. Taylor had the opportunity to obtain a determination from the Recorder
+after the holiday season [Exhibit A-1, pg. 22].  The Recorder responded on
+January 3, 2025, saying that the expired claims were not able to be reinstated
+because it is “not something that has historically been done” and noting that
+the Recorder’s Office had sent renewal reminders [Exhibit A-1, pg. 25].  Mr.
+Taylor testified that the Appellant continued to exchange emails with the
+Recorder’s Office for the purpose of learning how to seek reinstatement from
+the Mining Commissioner, which led to this appeal.        </p>
+<p class="MsoListParagraph" style="margin-left:63.35pt;text-indent:-27.35pt">2)<span style='font:7.0pt "Times New Roman"'>           
+</span>The Appellant did not intend claims 3848 and 7923 to expire.  Mr. Taylor
+confirmed that the Appellant had intended to renew the claims.  The Recorder
+did not challenge this position or submit any contradictory evidence.  The
+record demonstrates that the Appellant has made significant investment in the
+claims and intends to continue exploration activities in the future.  The Appellant’s
+Management Discussion and Analysis for the periods ended December 31, 2024 and
+2023 indicates that the Appellant’s primary focus will be to advance the Elmtree
+project and it, along with a related company, invested $224,719 in the claims since
+2018, including a $82,974 drilling expenditure in 2022 [Exhibit A-1, pg. 12].  The
+Appellant reported to the Recorder approximately $83,000 in work on claim 7923 in
+2022 [Exhibit A-1, pg. 16] and work valued at $2,825 on claim 3848 in 2024 [Exhibit
+A-1, pg. 17].  </p>
+<p class="MsoListParagraph" style="margin-left:63.35pt;text-indent:-27.35pt">3)<span style='font:7.0pt "Times New Roman"'>           
+</span>The Appellant’s failure to pay the fees was inadvertent and a result of Mr.
+Taylor’s oversight. On November 22, 2024, Mr. Taylor filed a Report of Work for
+claim 3848 valued at $2,825 [Exhibit A-1, pg. 17] to resolve an outstanding
+2024 work requirement of $1,039.99 and to satisfy the requirement to declare
+$1,200 of work to allow renewal of the claim.  Claim 7923 was in good standing
+on November 22, 2024, as the Appellant’s 2022 drilling expenditure generated
+sufficient credits to allow renewal of that claim without declaring further
+work.  Mr. Taylor testified that he attempted to renew both claims immediately
+after filing the Report of Work on November 22 and again on November 25 after he
+received a renewal reminder from the Recorder’s office for claim 3848, but the
+electronic filing system did not allow him to do so.  Even though Mr. Taylor
+admitted to having been active on the Recorder’s electronic filing system over
+the subsequent weeks, the Board accepts his testimony that he forgot about the
+renewals until he discovered on December 22 that the claims had expired.</p>
+<p class="MsoListParagraph" style="margin-left:63.35pt;text-indent:-27.35pt">4)<span style='font:7.0pt "Times New Roman"'>           
+</span>The Appellant was aware of its obligations to submit the required fees
+and of the consequences for failing to do so.  The evidence of Mr. Taylor
+demonstrates that the Appellant is sophisticated and was aware of its
+obligations to maintain mineral claims and the potential consequences of
+failing to do so.  Despite the importance of submitting the fees, the Appellant’s
+only internal reminder system was a spreadsheet Mr. Taylor maintains for his
+personal use.  He admitted that he became too busy in December 2024 to follow
+his typical practice of consulting the spreadsheet to ensure he is aware of any
+upcoming changes in the status of claims.  </p>
+<p class="MsoListParagraph" style="margin-left:63.35pt;text-indent:-27.35pt">5)<span style='font:7.0pt "Times New Roman"'>           
+</span>The Recorder did not contribute to the Appellant’s failure to successfully
+renew the claims. The November 25 reminder informed Mr. Taylor of a $1,039.99
+“negative excess” in respect of claim 3848 and warned that “the Report of Work
+previously submitted has yet to be approved or processed” [Exhibit A-1, pg. 20]. 
+The reminder also invited Mr. Taylor to contact the Recorder’s Office for
+further information.  While the atypical renewal process for claim 3848 may
+have contributed to Mr. Taylor’s oversight, the Board finds that the Recorder
+bears no responsibility.  The Recorder instead facilitated the timely renewal
+of claim 3848 by sending the November 25 reminder.  </p>
+<p class="MsoListParagraph">[13]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Recorder did not lead evidence in this matter or take a position on
+whether the Appellant should be granted reinstatement.  Counsel for the
+Recorder urged the Board to establish a clear evidentiary basis for the
+circumstances in which reinstatement is fair and equitable. </p>
+<p class="MsoListParagraph">[14]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Board stated in <auto_label docid="Cadillac Ventures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder (MN-001-2023)" id="43" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><auto_label id="44" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><b><i>Cadillac</i></b></auto_label></auto_label> that while the process for
+acquiring and maintaining mineral claim rights under the <auto_label docid="Mining Act NB" id="45" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label id="46" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><i>Act</i></auto_label></auto_label> is
+deliberately demanding and maintaining the integrity of that statutory regime
+is important, the seven-day holding period following expiry created by
+<auto_label docid="Mining Act NB" id="47" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 60(4)" id="48" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 60(4)</auto_label></auto_label> and the avenues by which a tardy claim holder can seek redress
+from the Minister or the Board indicate the possibility of correction is
+envisioned in the statutory regime.  The Board determined in <auto_label docid="Cadillac Ventures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder (MN-001-2023)" id="49" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><auto_label id="50" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><b><i>Cadillac</i></b></auto_label></auto_label>
+that allowing a claim holder relief from the “<i>cruelty of the clock</i>” in
+limited and appropriate circumstances after a hearing process is consistent
+with the purpose and intent of the <auto_label docid="Mining Act NB" id="51" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label id="52" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><i>Act</i></auto_label></auto_label>, concluding such circumstances
+exist where the claim expired due to a single internal error, significant investment
+has been made in the claim, demonstrable evidence exists of an intention to
+maintain the claim, and the claimant immediately and consistently took steps to
+pursue reinstatement of the claim.  </p>
+<p class="MsoListParagraph" style="margin-bottom:16.0pt">[15]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Board concludes that it would be unfair and inequitable for the Appellant
+to lose its rights as holder of claims 3848 and 7923 because of Mr. Taylor’s oversight. 
+As in <auto_label docid="Cadillac Ventures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder (MN-001-2023)" id="53" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><auto_label id="54" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><b><i>Cadillac</i></b></auto_label></auto_label>, the evidence demonstrates the Appellant’s claims
+expired due to a single internal error, significant investment has been made in
+the claims, demonstrable evidence exists of an intention to maintain the
+claims, and the Appellant immediately and consistently took steps to pursue
+reinstatement of the claims.</p>
+<p class="MsoListParagraph" style="margin-bottom:16.0pt">[16]<span style='font:7.0pt "Times New Roman"'>          
+</span>Despite evidence that the Appellant had been non-compliant with respect
+to claim 3848 by failing to file the outstanding Report on Work until November
+22, 2024, there is no evidence that the Appellant has failed to heed previous
+warnings from the Recorder or been relieved from similar oversights in the
+past.  Mr. Taylor reacted immediately to the November 25 reminder by attempting
+to renew the claims in accordance with his typical practice.  He admitted on
+cross-examination that he chose not to contact the Recorder as instructed in
+the November 25 reminder.  Instead, relying on his familiarity with the operation
+of the electronic filing system, he expected to soon be able to renew claim
+3848 electronically and intended to renew both claims at that time.  The Board
+concludes that, while Mr. Taylor could have contacted the Recorder or adapted
+his personal reminder system upon being unable to complete the renewals on
+November 25, his failure to take these steps does not make an otherwise simple
+oversight unreasonable.       </p>
+<h1>5<span style='font:7.0pt "Times New Roman"'>        
+</span> <a name="_Toc192232072"></a>Conclusion</h1>
+<p class="MsoListParagraph">[17]<span style='font:7.0pt "Times New Roman"'>          
+</span>Accordingly, the Board orders claims 3848 and 7923 to be reinstated as of
+the date of this decision until <b>midnight, March 26, 2025</b>. This time
+frame will allow the Appellant to submit the required fees and take such other
+actions as may be necessary to renew claims 3848 and 7923.  The onus is on the Appellant
+to move diligently and ensure all matters are addressed so claims 3848 and 7923
+will renew in the normal course before the Board-ordered reinstatement expires. 
+If the Appellant fails to do so, the reinstatement of claims 3848 and 7923 will
+expire on that date.</p>
+<p class="MsoListParagraph">[18]<span style='font:7.0pt "Times New Roman"'>          
+</span>For greater certainty, the Board’s reinstatement order in this decision
+does not affect the claims’ existing anniversary date of December 18.  If the Appellant
+successfully renews claims 3848 and 7923 by paying the required fees, whatever
+obligations the Appellant would have under <auto_label docid="Mining Act NB" id="55" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label id="56" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">the <i>Act</i></auto_label></auto_label> to exercise another
+renewal on or before December 18, 2025, including submitting a full annual fee,
+are unchanged by the Board’s order.</p>
+<p class="MsoListParagraph" style="text-indent:0in"> </p>
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%">Dated at
+Saint John, New Brunswick, this 11<sup>th</sup> day of March, 2025.</span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%"> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:3.0in;margin-bottom:.0001pt;line-height:normal"><u><span style="font-size:12.0pt"><span style="text-decoration:none"> </span></span></u></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><u><span style="font-size:12.0pt">Original Signed By:</span></u></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt">Christopher J. Stewart</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt">Acting Chairperson </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:3.0in;margin-bottom:.0001pt;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:3.0in;margin-bottom:.0001pt;line-height:normal"><u><span style="font-size:12.0pt"><span style="text-decoration:none"> </span></span></u></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:3.0in;margin-bottom:.0001pt;line-height:normal"><u><span style="font-size:12.0pt"><span style="text-decoration:none"> </span></span></u></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:3.0in;margin-bottom:.0001pt;line-height:normal"><u><span style="font-size:12.0pt"><span style="text-decoration:none"> </span></span></u></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:3.0in;margin-bottom:.0001pt;line-height:normal"><u><span style="font-size:12.0pt"><span style="text-decoration:none"> </span></span></u></p>
+<p class="MsoNormal" style="margin-left:2.5in;text-indent:.5in"><span style="line-height:107%"> </span></p>
+</div>
+</body></html>

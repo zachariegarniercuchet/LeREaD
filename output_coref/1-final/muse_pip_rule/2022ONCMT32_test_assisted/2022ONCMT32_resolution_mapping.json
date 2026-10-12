@@ -1,0 +1,82 @@
+{
+  "Polo Digital Assets, Ltd (Re)": {
+    "uri": "https://canlii.ca/t/jsqbx",
+    "score": 3.5,
+    "candidate_id": "2022oncmt32",
+    "candidate_title": "Polo Digital Assets, Ltd (Re)",
+    "query_text": "decision | <i>Polo Digital Assets, Ltd (Re)</i> | Tribunal’s May 3 Order | Polo Digital | 2022 ONCMT 32",
+    "method": "citation_exact",
+    "matched_key": "2022oncmt32",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jsqbx",
+        "score": 3.5,
+        "candidate_title": "Polo Digital Assets, Ltd (Re)"
+      }
+    ]
+  },
+  "Securities Act": {
+    "uri": "https://canlii.ca/t/56l4v",
+    "score": 3.5,
+    "candidate_id": "l484!484-current-1",
+    "candidate_title": "Securities Act",
+    "query_text": "legislation | <i>Securities Act</i> | Securities Act | Act | RSO 1990, c S.5",
+    "method": "citation_exact",
+    "matched_key": "rso1990cs5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56l4v",
+        "score": 3.5,
+        "candidate_title": "Securities Act"
+      }
+    ]
+  },
+  "Statutory Powers Procedure Act": {
+    "uri": "https://canlii.ca/t/56jsg",
+    "score": 2.0,
+    "candidate_id": "l474!474-current-1",
+    "candidate_title": "Statutory Powers Procedure Act",
+    "query_text": "legislation | Statutory Powers Procedure Act",
+    "method": "title_exact",
+    "matched_key": "statutory powers procedure act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jsg",
+        "score": 2.0,
+        "candidate_title": "Statutory Powers Procedure Act"
+      }
+    ]
+  },
+  "VRK Forex & Investments Inc (Re)": {
+    "uri": "https://canlii.ca/t/jm03t",
+    "score": 2.0,
+    "candidate_id": "2022oncmt1",
+    "candidate_title": "VRK Forex & Investments Inc (Re)",
+    "query_text": "decision | VRK Forex &amp; Investments Inc (Re) | VRK",
+    "method": "title_exact",
+    "matched_key": "vrk forex investments inc re",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jm03t",
+        "score": 2.0,
+        "candidate_title": "VRK Forex & Investments Inc (Re)"
+      }
+    ]
+  },
+  "Money Gate Mortgage Investment Corporation (Re)": {
+    "uri": "https://canlii.ca/t/jf45q",
+    "score": 3.5,
+    "candidate_id": "2021oncmt10",
+    "candidate_title": "Money Gate Mortgage Investment Corporation (Re)",
+    "query_text": "decision | <i>Money Gate Mortgage Investment Corporation (Re)</i> | 2021 ONSEC 10",
+    "method": "citation_exact",
+    "matched_key": "2021onsec10",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jf45q",
+        "score": 3.5,
+        "candidate_title": "Money Gate Mortgage Investment Corporation (Re)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+mention,pattern_grouped,n_gold,TP_gold,n_sys,TP_sys,recall,precision,F1
+decision,title,1103,40,97,36,0.0363,0.3711,0.0661
+legislation,title,886,1,14,0,0.0011,0.0000,0.0000
+legislation,fragment,869,0,1,0,0.0000,0.0000,0.0000
+legislation,fragment -> title,861,1,7,1,0.0012,0.1429,0.0023
+decision,title -> citation,718,17,104,45,0.0237,0.4327,0.0449
+decision,title -> citation -> fragment,518,15,72,38,0.0290,0.5278,0.0549
+decision,fragment,432,0,1,0,0.0000,0.0000,0.0000
+decision,title -> fragment,308,4,52,16,0.0130,0.3077,0.0249
+decision,citation,147,0,3,0,0.0000,0.0000,0.0000
+legislation,title -> citation,116,0,8,1,0.0000,0.1250,0.0000
+legislation,title -> citation -> fragment,100,0,12,0,0.0000,0.0000,0.0000
+legislation,fragment -> title -> citation,89,0,0,0,0.0000,0.0000,0.0000
+decision,title -> citation -> fragment -> citation,70,3,11,6,0.0429,0.5455,0.0795
+legislation,title -> fragment,63,0,11,1,0.0000,0.0909,0.0000
+decision,title -> citation -> title,35,1,0,0,0.0286,0.0000,0.0000
+decision,citation -> fragment,32,0,0,0,0.0000,0.0000,0.0000
+secondary sources,authors -> title -> source -> fragment,28,0,1,0,0.0000,0.0000,0.0000
+decision,title -> citation -> title -> fragment,19,0,0,0,0.0000,0.0000,0.0000
+legislation,citation,19,0,3,0,0.0000,0.0000,0.0000
+decision,fragment -> title,16,0,0,0,0.0000,0.0000,0.0000
+legislation,title -> citation -> title,16,0,0,0,0.0000,0.0000,0.0000
+legislation,fragment -> title -> citation -> title,13,0,0,0,0.0000,0.0000,0.0000
+decision,title -> citation -> fragment -> citation -> fragment,11,0,8,5,0.0000,0.6250,0.0000
+secondary sources,authors,10,0,0,0,0.0000,0.0000,0.0000
+secondary sources,authors -> title -> source,9,0,0,0,0.0000,0.0000,0.0000
+decision,title -> citation -> fragment -> citation -> title,7,0,0,0,0.0000,0.0000,0.0000
+decision,title -> fragment -> citation -> fragment -> citation,7,0,0,0,0.0000,0.0000,0.0000
+legislation,fragment -> title -> fragment,7,0,0,0,0.0000,0.0000,0.0000
+secondary sources,authors -> fragment,7,0,1,0,0.0000,0.0000,0.0000
+decision,(no child),6,0,21,0,0.0000,0.0000,0.0000
+decision,title -> citation -> fragment -> title,5,0,0,0,0.0000,0.0000,0.0000
+legislation,citation -> fragment,4,0,4,0,0.0000,0.0000,0.0000
+secondary sources,fragment,4,0,0,0,0.0000,0.0000,0.0000
+decision,citation -> title,3,0,0,0,0.0000,0.0000,0.0000
+decision,title -> fragment -> title,3,0,0,0,0.0000,0.0000,0.0000
+secondary sources,authors -> title -> fragment,3,0,2,1,0.0000,0.5000,0.0000
+decision,citation -> title -> fragment,2,0,0,0,0.0000,0.0000,0.0000
+decision,fragment -> citation -> fragment -> citation,2,0,0,0,0.0000,0.0000,0.0000
+decision,title -> fragment -> title -> citation,2,0,0,0,0.0000,0.0000,0.0000
+secondary sources,title -> source -> fragment,2,0,0,0,0.0000,0.0000,0.0000
+decision,citation -> title -> citation,1,0,0,0,0.0000,0.0000,0.0000
+decision,fragment -> citation,1,0,0,0,0.0000,0.0000,0.0000
+decision,title -> citation -> fragment -> citation -> fragment -> citation,1,0,0,0,0.0000,0.0000,0.0000
+legislation,citation -> title,1,0,0,0,0.0000,0.0000,0.0000
+legislation,citation -> title -> citation -> fragment,1,0,0,0,0.0000,0.0000,0.0000
+legislation,title -> citation -> title -> fragment,1,0,0,0,0.0000,0.0000,0.0000
+legislation,title -> fragment -> title,1,0,0,0,0.0000,0.0000,0.0000
+secondary sources,authors -> title,1,0,1,0,0.0000,0.0000,0.0000
+secondary sources,authors -> title -> source -> authors -> fragment,1,0,0,0,0.0000,0.0000,0.0000
+secondary sources,fragment -> authors,1,0,0,0,0.0000,0.0000,0.0000
+secondary sources,title -> source,1,0,0,0,0.0000,0.0000,0.0000
+decision,title -> fragment -> title -> fragment,0,0,1,0,0.0000,0.0000,0.0000
+legislation,(no child),0,0,38,0,0.0000,0.0000,0.0000
+legislation,citation -> fragment -> title,0,0,1,1,0.0000,1.0000,0.0000
+legislation,fragment -> legislation -> title -> fragment,0,0,1,0,0.0000,0.0000,0.0000
+legislation,legislation -> title,0,0,1,0,0.0000,0.0000,0.0000
+legislation,legislation -> title -> fragment,0,0,1,0,0.0000,0.0000,0.0000
+legislation,legislation -> title -> fragment -> title -> fragment -> title -> fragment,0,0,1,0,0.0000,0.0000,0.0000
+legislation,title -> legislation,0,0,1,0,0.0000,0.0000,0.0000
+secondary sources,(no child),0,0,1,0,0.0000,0.0000,0.0000
+secondary sources,title,0,0,1,0,0.0000,0.0000,0.0000

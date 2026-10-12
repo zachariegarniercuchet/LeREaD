@@ -1,0 +1,2064 @@
+<!DOCTYPE html>
+
+<html><head>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+      "color": "#76CEDE",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "decision": {
+      "color": "#6aa3ff",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "secondary sources": {
+      "color": "#278FE3",
+      "sublabels": {
+        "authors": {
+          "color": "#ffb84d",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "source": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "unable to classify": {
+      "color": "#ffc107",
+      "sublabels": {},
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    }
+  },
+  "meta": {
+    "time": 16993663,
+    "project title": "CLIQAI",
+    "annotation guidelines": "V2",
+    "labels Tree": "V2",
+    "model": "mgpt-5.2",
+    "prompt": "V2",
+    "Initial Label assignement": "LLM",
+    "LLM Label Assignement Date": "2026-03-13",
+    "Human Annotation Completion": "A2",
+    "Human Annotation Completion Date": "2026-03-25",
+    "Reviewer": "RL",
+    "Review Date": "2026-03-27 and 2026-04-15"
+  }
+}
+-->
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 10 (filtered)" name="Generator"/>
+<title>_</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:Arial;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:Arial;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+p.zSoquijlblCour, li.zSoquijlblCour, div.zSoquijlblCour
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	font-size:18.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.zSoquijdatDivision, li.zSoquijdatDivision, div.zSoquijdatDivision
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:Arial;}
+p.zSoquijlblPays, li.zSoquijlblPays, div.zSoquijlblPays
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblProvince, li.zSoquijlblProvince, div.zSoquijlblProvince
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblGreffe, li.zSoquijlblGreffe, div.zSoquijlblGreffe
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.5pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatGreffe, li.zSoquijdatGreffe, div.zSoquijdatGreffe
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.45pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblLocalite, li.zSoquijlblLocalite, div.zSoquijlblLocalite
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.5pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatLocalite, li.zSoquijdatLocalite, div.zSoquijdatLocalite
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.45pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblNomChambre, li.zSoquijlblNomChambre, div.zSoquijlblNomChambre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblNoDossier, li.zSoquijlblNoDossier, div.zSoquijlblNoDossier
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatNoDossier, li.zSoquijdatNoDossier, div.zSoquijdatNoDossier
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatNoDossierAnt, li.zSoquijdatNoDossierAnt, div.zSoquijdatNoDossierAnt
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblDateJugement, li.zSoquijlblDateJugement, div.zSoquijlblDateJugement
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatDateJugement, li.zSoquijdatDateJugement, div.zSoquijdatDateJugement
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblJuge, li.zSoquijlblJuge, div.zSoquijlblJuge
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.5pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.zSoquijdatQteJuge, li.zSoquijdatQteJuge, div.zSoquijdatQteJuge
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.45pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.zSoquijdatJuge, li.zSoquijdatJuge, div.zSoquijdatJuge
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:2.6pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.zSoquijlblAssesseurs, li.zSoquijlblAssesseurs, div.zSoquijlblAssesseurs
+	{margin-top:0cm;
+	margin-right:-3.35pt;
+	margin-bottom:0cm;
+	margin-left:.7pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatAssesseurs, li.zSoquijdatAssesseurs, div.zSoquijdatAssesseurs
+	{margin-top:0cm;
+	margin-right:-3.35pt;
+	margin-bottom:0cm;
+	margin-left:.7pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblTitrePartie, li.zSoquijlblTitrePartie, div.zSoquijlblTitrePartie
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatNomPartieDem, li.zSoquijdatNomPartieDem, div.zSoquijdatNomPartieDem
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.zSoquijdatQtePartieDem, li.zSoquijdatQtePartieDem, div.zSoquijdatQtePartieDem
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblLienParties, li.zSoquijlblLienParties, div.zSoquijlblLienParties
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatNomPartieDef, li.zSoquijdatNomPartieDef, div.zSoquijdatNomPartieDef
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.zSoquijdatQtePartieDef, li.zSoquijdatQtePartieDef, div.zSoquijdatQtePartieDef
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblTypeDocument, li.zSoquijlblTypeDocument, div.zSoquijlblTypeDocument
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.Paragraphe, li.Paragraphe, div.Paragraphe
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:0cm;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatSignature3Juge, li.zSoquijdatSignature3Juge, div.zSoquijdatSignature3Juge
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatNomProcureurDem, li.zSoquijdatNomProcureurDem, div.zSoquijdatNomProcureurDem
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblProcureurDem, li.zSoquijlblProcureurDem, div.zSoquijlblProcureurDem
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatCabinetProcureurDem, li.zSoquijdatCabinetProcureurDem, div.zSoquijdatCabinetProcureurDem
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatNomProcureurDef, li.zSoquijdatNomProcureurDef, div.zSoquijdatNomProcureurDef
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblProcureurDef, li.zSoquijlblProcureurDef, div.zSoquijlblProcureurDef
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatCabinetProcureurDef, li.zSoquijdatCabinetProcureurDef, div.zSoquijdatCabinetProcureurDef
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblDateAudience, li.zSoquijlblDateAudience, div.zSoquijlblDateAudience
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatDateAudience, li.zSoquijdatDateAudience, div.zSoquijdatDateAudience
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijlblOpinionJuge, li.zSoquijlblOpinionJuge, div.zSoquijlblOpinionJuge
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.Citationenretrait, li.Citationenretrait, div.Citationenretrait
+	{margin-top:6.0pt;
+	margin-right:36.0pt;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:0cm;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:Arial;}
+span.Citationintgre
+	{font-family:Arial;
+	font-style:italic;}
+p.zSoquijdatSignatureJuge1, li.zSoquijdatSignatureJuge1, div.zSoquijdatSignatureJuge1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.zSoquijdatRepertorie, li.zSoquijdatRepertorie, div.zSoquijdatRepertorie
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.zSoquijdatRefNeutre, li.zSoquijdatRefNeutre, div.zSoquijdatRefNeutre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+ /* Page Definitions */
+ @page Section1
+	{size:612.1pt 792.1pt;
+	margin:72.0pt 50.4pt 72.0pt 93.6pt;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 50.4pt 72.0pt 93.6pt;}
+div.Section2
+	{page:Section2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+<body lang="EN-US">
+<div class="Section1">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr style="height:12.4pt">
+<td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top">
+<p class="zSoquijdatRepertorie" style="line-height:14.0pt"><span lang="FR-CA"></span></p></td><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRepertorie" style="line-height:14.0pt"><span lang="FR-CA"></span></p></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse"><tbody><tr style="height:12.4pt"><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRepertorie" style="line-height:14.0pt"><span lang="FR-CA"></span></p></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse"><tbody><tr style="height:12.4pt"><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRepertorie" style="line-height:14.0pt"><span lang="FR-CA"></span></p></td></tr></tbody></table><manual_label docid="Pharmascience inc. c. Option Consommateurs" id="0" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse"><tbody><tr style="height:12.4pt"><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRepertorie" style="line-height:14.0pt"><span lang="FR-CA"><manual_label id="1" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Pharmascience
+  inc. c. Option Consommateurs</manual_label></span></p>
+</td>
+<td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top">
+<p class="zSoquijdatRefNeutre" style="line-height:14.0pt"></p></td><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRefNeutre" style="line-height:14.0pt"><span lang="FR-CA"> </span></p></td></tr></tbody></table><manual_label id="2" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true"><table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse"><tbody><tr style="height:12.4pt"><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRefNeutre" style="line-height:14.0pt"><span lang="FR-CA">2005
+  QCCA 437</span></p></td></tr></tbody></table></manual_label><table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse"><tbody><tr style="height:12.4pt"><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRefNeutre" style="line-height:14.0pt"><span lang="FR-CA"></span></p></td></tr></tbody></table></manual_label><table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse"><tbody><tr style="height:12.4pt"><td style="padding:0cm 0cm 0cm 0cm;
+  height:12.4pt" valign="top"><p class="zSoquijdatRefNeutre" style="line-height:14.0pt"><span lang="FR-CA"></span></p></td></tr></tbody></table></div>
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr style="height:27.0pt">
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt;
+  height:27.0pt" valign="top">
+<p class="zSoquijlblCour" style="margin-top:6.0pt"><span lang="EN-CA">COURT OF
+  APPEAL</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblPays"><span lang="EN-CA">CANADA</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProvince"><span lang="EN-CA">PROVINCE
+  OF QUEBEC</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="4" style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="zSoquijlblGreffe"><span lang="EN-CA">MONTRÉAL REGISTRY</span></p>
+</td>
+<td colspan="2" style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="zSoquijdatGreffe"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr style="height:27.0pt">
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt;
+  height:27.0pt" valign="top">
+<p class="zSoquijlblNomChambre"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblNoDossier"><span lang="EN-CA">No:</span></p>
+</td>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNoDossier"><span lang="EN-CA">500-09-014659-049</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="zSoquijlblGreffe"><span lang="EN-CA"> </span></p>
+</td>
+<td colspan="3" style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="zSoquijdatNoDossierAnt"><span lang="EN-CA">(500-06-000192-035)</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid;height:11.75pt">
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt;
+  height:11.75pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblDateJugement"><span lang="EN-CA">DATE:</span></p>
+</td>
+<td colspan="5" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatDateJugement"><span lang="EN-CA">April 29, 2005</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-3.35pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">______________________________________________________________________</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="zSoquijlblJuge"><span lang="EN-CA">CORAM:</span></p>
+</td>
+<td colspan="3" style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="zSoquijdatQteJuge"><span lang="EN-CA">THE HONOURABLE</span></p>
+</td>
+<td style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="zSoquijdatJuge"><span lang="EN-CA">J.J. MICHEL ROBERT C.J.Q.</span></p>
+<p class="zSoquijdatJuge"><span lang="FR-CA">PAUL-ARTHUR GENDREAU J.A.</span></p>
+<p class="zSoquijdatJuge"><span lang="FR">ANDRÉ ROCHON J.A.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-3.35pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="FR-CA" style="font-family:Arial">______________________________________________________________________</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblTitrePartie"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDem"><span lang="FR">PHARMASCIENCE INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatQtePartieDem"><span lang="FR">APPELLANT – </span><span lang="EN-CA">respondent</span><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblLienParties"><span lang="FR">v.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="FR">OPTION CONSOMMATEURS </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">GIUSEPPINA PIRO</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatQtePartieDef"><span lang="EN-CA">RESPONDENTS – petitioners</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">And</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">JEAN-FRANÇOIS GENDRON</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatQtePartieDef"><span lang="EN-CA">RESPONDENT – designated
+  representative</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">and</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">NOVOPHARM LIMITED</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">RATIOPHARM INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">and</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">LABORATOIRE RIVA INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">and</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">RHOXALPHARMA INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">and </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">PRO-DOC LTÉE</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">and</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">LINSON PHARMA INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">           MIS EN CAUSE – respondents</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">and</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">GENPHARM INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">APOTEX INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">          MIS EN CAUSE – respondents </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">and</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">ATTORNEY GENERAL OF QUEBEC </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">         MIS EN CAUSE – intervener </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-4.75pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p align="center" class="MsoNormal" style="text-align:center"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblTypeDocument"><span lang="EN-CA">JUDGMENT</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-3.5pt;margin-bottom:
+  0cm;margin-left:.7pt;margin-bottom:.0001pt"><span lang="EN-CA" style="font-family:Arial">______________________________________________________________________</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr height="0">
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+</tr>
+</tbody></table>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[1]<span style='font:7.0pt "Times New Roman"'>               
+</span></span><b><span lang="EN-CA">THE COURT</span></b><span lang="EN-CA">, ruling
+on the appeal from an interlocutory judgment rendered on June 18, 2004 (reasons
+recorded June 21, 2004) by the Superior Court, district of Montréal (the
+Honourable Claudine Roy), which ruled on incidental proceedings arising in the
+context of a class action;</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[2]<span style='font:7.0pt "Times New Roman"'>               
+</span>After studying the file, hearing the parties and
+deliberating;</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm;line-height:17.0pt"><span lang="EN-CA">[3]<span style='font:7.0pt "Times New Roman"'>               
+</span>For the reasons of Justice Paul-Arthur Gendreau,
+with which Chief Justice Michel Robert and Justice André Rochon agree;</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[4]<span style='font:7.0pt "Times New Roman"'>               
+</span></span><b><span lang="EN-CA">DISMISSES</span></b><span lang="EN-CA"> the
+appeal, with costs;</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[5]<span style='font:7.0pt "Times New Roman"'>               
+</span></span><b><span lang="EN-CA">DECLARES</span></b><span lang="EN-CA"> valid
+</span><auto_label docid="Code of Civil Procedure (Quebec)" id="3" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><manual_label fragmentid="sec 1002" id="4" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">articles 1002</manual_label> and <auto_label fragmentid="sec 1003" id="5" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">1003</auto_label> <auto_label id="6" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA">;</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[6]<span style='font:7.0pt "Times New Roman"'>               
+</span></span><b><span lang="EN-CA">DISMISSES</span></b><span lang="EN-CA"> the
+appellant’s two motions of April 19, 2004, brought before the Superior Court.</span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr style="height:28.8pt">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt;
+  height:28.8pt" valign="top">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="2" style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+<td style="padding:0cm 0cm 0cm 0cm" valign="top">
+<div style="border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm">
+<p class="zSoquijdatSignature3Juge" style="border:none;padding:0cm"><span lang="FR">________________________________</span><span lang="FR-CA">__</span></p>
+</div>
+<p class="zSoquijdatSignature3Juge"><span lang="FR-CA">J.J. MICHEL ROBERT C.J.Q.</span></p>
+<p class="zSoquijdatSignature3Juge"><span lang="FR"> </span></p>
+<div style="border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm">
+<p class="zSoquijdatSignature3Juge" style="border:none;padding:0cm"><span lang="FR">________________________________</span><span lang="FR-CA">__</span></p>
+</div>
+<p class="zSoquijdatSignature3Juge"><span lang="FR-CA">PAUL-ARTHUR GENDREAU J.A.</span></p>
+<p class="zSoquijdatSignature3Juge"><span lang="FR"> </span></p>
+<div style="border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm">
+<p class="zSoquijdatSignature3Juge" style="border:none;padding:0cm"><span lang="FR">__________________________________</span></p>
+</div>
+<p class="zSoquijdatSignature3Juge"><span lang="FR">ANDRÉ ROCHON J.A.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomProcureurDem"><span lang="FR-CA">Mtre Guy Dupont, Mtre
+  Nicholas Rodrigo,</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatCabinetProcureurDem"><span lang="FR-CA">Mtre Mathieu Bouchard
+  and Mtre David Stolow</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatCabinetProcureurDem"><span lang="EN-CA">Davies, Ward,
+  Phillips and Vineberg</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatCabinetProcureurDem"><span lang="DE">Mtre Irwin I. Liebman </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatCabinetProcureurDem"><span lang="EN-CA">Liebman &amp;
+  associés</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDem"><span lang="EN-CA">Attorneys for Appellant</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatNomProcureurDef"><span lang="EN-CA">Mtre Gordon Kugler, Mtre
+  Stuart Kugler</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatCabinetProcureurDef"><span lang="EN-CA">and Mtre Robert
+  Kugler</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatCabinetProcureurDef"><span lang="EN-CA">Kugler, Kandestin</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Attorneys for Respondents</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Mtre Gary D.D. Morrison</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Heenan, Blaikie</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Attorney for Mis en cause
+  Novopharm Limited</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">and Ratiopharm Inc.</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Mtre Robert J. Torralbo and
+  Mtre Claude Baril</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Blake, Cassels &amp; Graydon</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Attorneys for Mis en cause
+  Laboratoire Riva Inc.</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Mtre Chantal Châtelain</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA">Langlois, Kronström,
+  Desjardins</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA">Attorney for Mis en cause
+  Roxalpharma Inc.</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA">Mtre Luc Lachance</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA">Sébastien, Venne, Lachance</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Attorney for Mis en cause
+  Pro-Doc Ltée</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA">Mtre Diane Quenneville</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA">Fraser, Milner, Casgrain</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA">Attorney for Mis en cause
+  Linson Pharma Inc.</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblProcureurDef"><span lang="FR-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial">Mtre Irwin I.
+  Liebman </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial">Liebman &amp;
+  Associates</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial">Attorney for
+  Mis en cause Genpharm Inc. and Apotex Inc.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial">Mtre Benoît
+  Belleau and Mtre Pierre Arguin</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial">Bernard, Roy &amp; associés</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial">Attorneys for
+  Mis en cause Attorney General of Quebec</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblDateAudience"><span lang="EN-CA">Date of hearing:</span></p>
+</td>
+<td colspan="2" style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijdatDateAudience"><span lang="EN-CA">March 14, 15 and 16, 2005</span></p>
+</td>
+</tr>
+<tr height="0">
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+</tr>
+</tbody></table>
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial"> </span></p>
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial"> </span></p>
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial"> </span></p>
+<span lang="FR-CA" style="font-size:12.0pt;font-family:Arial"><br clear="all" style="page-break-before:always"/>
+</span>
+<div class="Section2">
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr>
+<td style="border:none;border-bottom:
+  solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial">______________________________________________________________________</span></p>
+</td>
+</tr>
+<tr>
+<td style="border:none;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p align="center" class="MsoNormal" style="text-align:center"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="zSoquijlblOpinionJuge"><span lang="EN-CA">REASONS OF JUSTICE GENDREAU</span></p>
+</td>
+</tr>
+<tr>
+<td style="border:none;border-bottom:
+  solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial">______________________________________________________________________</span></p>
+</td>
+</tr>
+</tbody></table>
+<p class="Paragraphe"><b><u><span lang="EN-CA">The Facts and the Judgment on Appeal</span></u></b></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[7]<span style='font:7.0pt "Times New Roman"'>    </span>On February 27, 2003,<span class="MsoFootnoteReference"> </span>a news report was published denouncing the
+policy of certain generic drug manufacturers that were providing pharmacists
+with premiums, discounts, rebates and other benefits.<a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[1]</span></span></span></a> Believing that the practice was unlawful
+and that it had the effect of raising the price of drugs sold to the Régie de
+l’assurance-maladie while simultaneously increasing the obligatory financial
+contribution of the users of the prescription drug insurance plan, the
+respondents (Option Consommateurs) named the appellants Pharmascience Inc.<a href="#_ftn2" name="_ftnref2" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[2]</span></span></span></a> as defendants in a class action. On behalf
+of all purchasers of these manufacturers’ products since January 1, 1995, they
+claimed damages equal to the value of the reduction in premiums, deductibles
+and co-insurance they would have enjoyed if the drug prices had excluded the
+allegedly unlawful benefits received by the pharmacists.</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[8]<span style='font:7.0pt "Times New Roman"'>              
+</span>In response to the motion brought by Option
+Consommateurs, Pharmascience and the other defendant pharmaceutical
+corporations raised a number of preliminary exceptions, including one seeking a
+declaration of the constitutional invalidity of </span><manual_label docid="Code of Civil Procedure (Quebec)" id="7" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="8" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> </span><manual_label id="9" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span></manual_label><span lang="EN-CA"></span></manual_label><span lang="EN-CA"></span><span lang="EN-CA"></span><span lang="EN-CA"> They
+claimed that a recent amendment to this provision deprived them of their right
+to a full defence at the authorization stage of the action. </span><span lang="EN-CA">Justice Carole
+Julien of the Superior Court</span><span lang="EN-CA"> dismissed these arguments and affirmed that the
+defendants were not deprived of any fundamental rights at this stage. She
+expressed herself in the following terms: </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[<span style="text-transform:uppercase">translation</span>]</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[49] The respondents’ main argument
+is based on the premise that they have been deprived of their right to a full
+and complete defence in the discussion of the applicable criteria at the
+authorization stage. </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[50] This premise is, however,
+erroneous. They are not deprived of any fundamental right at the preliminary
+stage, since they retain the freedom to offer a defence and to present evidence
+relevant to the hearing on the motion for authorization as set out in the
+present judgment. </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">…</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[53] There is no fundamental right
+to a preliminary ruling on the grounds put forward.</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[54] Moreover, the defendants
+retain all of their grounds, including those relating to the constitutional
+challenge in the context of the hearing on the motion for authorization.<a href="#_ftn3" name="_ftnref3" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:11.0pt;font-family:
+Arial">[3]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[9]<span style='font:7.0pt "Times New Roman"'>    </span>The judge nevertheless reserved the right of the drug manufacturers
+a) to submit their constitutional arguments again during the hearing on the
+motion for permission to institute the action and b) to seek permission to
+adduce evidence to counter the motion of Option Consommateurs.<a href="#_ftn4" name="_ftnref4" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[4]</span></span></span></a> </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[10]<span style='font:7.0pt "Times New Roman"'>          
+</span>The judgment was not appealed. Two months after
+it was handed down, Pharmascience and the other defendant pharmaceutical
+companies resumed their constitutional challenge of </span><span lang="EN-CA"></span><manual_label docid="Code of Civil Procedure (Quebec)" id="10" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><manual_label fragmentid="sec 1002" id="11" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</manual_label> <manual_label id="12" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</manual_label></span><span lang="EN-CA"></span></manual_label><span lang="EN-CA"> They
+also launched a separate attack in a  second motion, arguing that the Superior
+Court lacked the jurisdiction <i>ratione materiae</i> to rule on the class
+action, since the action Option Consommateurs had in mind would require the
+judge to set the price of the prescription drugs and the cost of the premiums,
+co-insurance and deductibles, matters properly falling to the Minister of
+Health or the National Assembly. The defendants maintained that the judge
+should rule on their claims at the outset. In addition, all of the
+manufacturers involved, with the exception of Pharmascience, sought permission
+to adduce evidence. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[11]<span style='font:7.0pt "Times New Roman"'>          
+</span>The judge refused to rule immediately on the
+constitutional issue. In her opinion, the debate on the validity of </span><manual_label docid="Code of Civil Procedure (Quebec)" id="13" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 1002" id="14" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true"><span lang="EN-CA">article
+1002</span></auto_label> <manual_label id="15" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</manual_label><span lang="EN-CA"></span><span lang="EN-CA"></span><span lang="EN-CA"></span></manual_label><span lang="EN-CA"> did not put the jurisdiction <i>ratione materiae</i> of the
+Superior Court in issue. In addition, she concluded that even in the event of a
+declaration of invalidity, the class action procedure as a whole would not be
+struck out from Quebec law, but
+that only certain elements or aspects of the procedure would be eliminated. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[12]<span style='font:7.0pt "Times New Roman"'>          
+</span>Furthermore, with respect to the second motion
+impugning the jurisdiction of the Superior Court, she questioned the
+appellant’s characterization of the motion brought by Option Consommateurs. She
+perceived no risk that the Court seized of the merits would appropriate the
+role of the Minister. In her view, the procedure was nothing more than an
+action in damages. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[13]<span style='font:7.0pt "Times New Roman"'>          
+</span>Finally, she granted leave to the manufacturers
+who had sought permission to examine the applicants Gendron and Piro. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[14]<span style='font:7.0pt "Times New Roman"'>          
+</span>Dissatisfied, Pharmascience sought and obtained
+leave to appeal from the ruling on the two motions. </span></p>
+<p class="Paragraphe"><b><u><span lang="EN-CA">Grounds of Appeal</span></u></b></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[15]<span style='font:7.0pt "Times New Roman"'>          
+</span>First, the appellant Pharmascience once again
+raises the arguments regarding the constitutional validity of the amendment to
+</span><manual_label docid="Code of Civil Procedure (Quebec)" id="16" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="17" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> </span><manual_label id="18" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span></manual_label><span lang="EN-CA"></span><span lang="EN-CA"> </span></manual_label><span lang="EN-CA">Second, it maintains that the class action violates the
+principle of the separation of powers by seeking to confer on the Superior
+Court a role and jurisdiction in matters that properly fall to the executive or
+legislative branch. The respondents and the enjoined Attorney General, for
+their part, argue that the appellant’s two grounds in no way put in issue the
+jurisdiction <i>ratione materiae</i> of the Superior Court. </span></p>
+<p class="MsoNormal"><span lang="FR-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:36.0pt;text-indent:-36.0pt"><b><span lang="EN-CA">1&gt;<span style='font:7.0pt "Times New Roman"'>              
+</span></span><u><span lang="EN-CA">Does the legislative amendment to
+</span></u></b><auto_label docid="Code of Civil Procedure (Quebec)" id="19" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><b><u><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="20" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> <auto_label id="21" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P</auto_label></span></u></b></auto_label><b><u><span lang="EN-CA"> violate </span></u></b><auto_label docid="Charter of human rights and freedoms" id="22" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><b><u><span lang="EN-CA"><auto_label fragmentid="sec 23" id="23" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 23</auto_label> of the <auto_label id="24" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Charter of human rights and
+freedoms</i></auto_label></span></u></b></auto_label><b><u><span lang="EN-CA">?</span></u></b></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[16]<span style='font:7.0pt "Times New Roman"'>          
+</span>The appellant’s position is based on the
+following syllogism. Instituting a class action requires the applicant to
+obtain judicial authorization, which requires a judicial decision whereby a
+judge recognizes that the motion meets the mandatory conditions set out in
+</span><manual_label docid="Code of Civil Procedure (Quebec)" id="25" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003" id="26" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1003</auto_label> </span><manual_label id="27" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span></manual_label><span lang="EN-CA"></span><span lang="EN-CA"> </span></manual_label><span lang="EN-CA">Furthermore, the fundamental right to a hearing before an
+independent and impartial tribunal, set out in </span><auto_label docid="Charter of human rights and freedoms" id="28" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="29" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 23</auto_label> of the <auto_label id="30" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Charter of
+human rights and freedoms</i></auto_label></span></auto_label><span lang="EN-CA"><i><a href="#_ftn5" name="_ftnref5" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><b><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[5]</span></b></span></span></a></i>
+(hereinafter the </span><auto_label docid="Charter of human rights and freedoms" id="31" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label id="32" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">Charter</span></auto_label></auto_label><span lang="EN-CA">), includes an obligation on the part of all applicants
+to establish the facts underlying the exercise of a private or civil recourse
+against a third party and, inversely, the fundamental right to demand evidence
+supporting such facts from the third party before a defence is produced. These
+are the two major premises presented by Pharmascience. The minor premise can be
+stated as follows: the amendment to </span><manual_label docid="Code of Civil Procedure (Quebec)" id="33" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="34" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> </span><manual_label id="35" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span><span lang="EN-CA"> </span></manual_label><span lang="EN-CA"></span></manual_label><span lang="EN-CA">absolved the applicant
+from the obligation to prove the facts supporting its legal claims by removing
+the requirement of supporting the motion with an affidavit. The appellant therefore
+concludes that the amendment to </span><manual_label docid="Code of Civil Procedure (Quebec)" id="36" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="37" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> </span><manual_label id="38" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span><span lang="EN-CA"> </span></manual_label><span lang="EN-CA"></span></manual_label><span lang="EN-CA">violates </span><auto_label docid="Charter of human rights and freedoms" id="39" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="40" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 23</auto_label> of the
+<auto_label id="41" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Charter</auto_label></span></auto_label><span lang="EN-CA">. It adds that the proviso authorizing the court to admit relevant
+evidence cannot save the provision. This reasoning leads Pharmascience to
+arrive at the following conclusions: </span></p>
+<p class="Paragraphe" style="margin-left:72.0pt;text-indent:-18.0pt"><span lang="EN-CA">a)<span style='font:7.0pt "Times New Roman"'>    
+</span></span><manual_label docid="Code of Civil Procedure (Quebec)" id="42" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="43" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label></span><manual_label id="44" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA"> C.C.P</span><span lang="EN-CA">.</span></manual_label><span lang="EN-CA"></span><span lang="EN-CA"></span></manual_label><span lang="EN-CA"> must be declared invalid.
+This would in turn render </span><auto_label docid="Code of Civil Procedure (Quebec)" id="45" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><manual_label fragmentid="sec 1003" id="46" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1003</manual_label></span></auto_label><span lang="EN-CA"> inapplicable and the Quebec class action regime inoperable;</span></p>
+<p class="Paragraphe" style="margin-left:72.0pt;text-indent:-18.0pt"><span lang="EN-CA">b)<span style='font:7.0pt "Times New Roman"'>    
+</span>the action of the applicants, respondents on
+appeal, must be dismissed.</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[17]<span style='font:7.0pt "Times New Roman"'>          
+</span>In my view, this reasoning is erroneous. For
+one, it confuses the nature and purpose of the motion for authorization of the
+institution of the class action and the consequent ruling with the action
+proper and the judgment on its merits. In addition, it misapprehends the scope
+of both </span><auto_label docid="Charter of human rights and freedoms" id="47" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="48" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 23</auto_label> of the <auto_label id="49" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Charter</auto_label></span></auto_label><span lang="EN-CA"> and the amendment to </span><auto_label docid="Code of Civil Procedure (Quebec)" id="50" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="51" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> <auto_label id="52" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[18]<span style='font:7.0pt "Times New Roman"'>          
+</span>There is an age-old rule whereby “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">a person cannot
+use the name of another to plead, except the Crown through its recognized
+officers</span></span><span lang="EN-CA">.”<a href="#_ftn6" name="_ftnref6" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[6]</span></span></span></a>
+The legislator, however, has gradually relaxed this principle. First, it was
+recognized that an association without “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">collective civil personality</span></span><span lang="EN-CA">” could be collectively summoned<a href="#_ftn7" name="_ftnref7" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[7]</span></span></span></a>
+and that a legally recognized union could plead before the courts.<a href="#_ftn8" name="_ftnref8" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[8]</span></span></span></a> Later, with the enactment of the current </span><auto_label docid="Code of Civil Procedure (Quebec)" id="53" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="54" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Code
+of Civil Procedure</auto_label></i></span></auto_label><span lang="EN-CA">, several persons with common interests were authorized
+to mandate one of their members to act as plaintiff on behalf of all of them.<a href="#_ftn9" name="_ftnref9" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[9]</span></span></span></a> </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[19]<span style='font:7.0pt "Times New Roman"'>          
+</span>The introduction of the class action in 1978
+marked another stage in the progressive easing of restrictions. The </span><auto_label docid="Code of Civil Procedure (Quebec)" id="55" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="56" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Code of
+Civil Procedure</auto_label></i></span></auto_label><span lang="EN-CA"> defines it as follows: </span></p>
+<p class="Citationenretrait"><u><span lang="EN-CA">[T]he procedure which enables
+one member to sue without a mandate on behalf of all the members.</span></u><a href="#_ftn10" name="_ftnref10" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+11.0pt;font-family:Arial">[10]</span></span></span></span></a></p>
+<p class="Citationenretrait"><span lang="EN-CA">[Emphasis added]</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[20]<span style='font:7.0pt "Times New Roman"'>          
+</span>This is not an exceptional scheme. It embodies a
+social policy that encourages access to justice by enabling fair and comparable
+compensation for all members while avoiding a multiplicity of similar actions,
+in a manner that ensures an equal distribution of power between the parties.<a href="#_ftn11" name="_ftnref11" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[11]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[21]<span style='font:7.0pt "Times New Roman"'>          
+</span>From this standpoint, the objective of the </span><manual_label docid="Code of Civil Procedure (Quebec)" id="57" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><manual_label id="58" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Code</manual_label></span></manual_label><span lang="EN-CA">
+is</span><span lang="EN-CA"></span><span lang="EN-CA"> to define the role of the representative at the outset and protect the
+rights of those who are absent. To this purpose, the applicant is required to
+obtain prior authorization to initiate the action from the Superior Court, the
+only competent jurisdiction in this matter.<a href="#_ftn12" name="_ftnref12" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[12]</span></span></span></a>
+To do so, the applicant must meet the criteria set out in </span><manual_label docid="Code of Civil Procedure (Quebec)" id="59" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003" id="60" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1003</auto_label> </span><manual_label id="61" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span></manual_label><span lang="EN-CA"></span></manual_label><span lang="EN-CA"></span><span lang="EN-CA">,
+which reads as follows: </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">Art. 1003.
+ The court authorizes the bringing of the class action and ascribes the
+status of representative to the member it designates if of opinion that:</span></p>
+<p class="Citationenretrait"><span lang="EN-CA"> <i>(a)</i> the recourses
+of the members raise identical, similar or related questions of law or fact;</span></p>
+<p class="Citationenretrait"><span lang="EN-CA"> <i>(b)</i> the facts
+alleged seem to justify the conclusions sought;</span></p>
+<p class="Citationenretrait"><span lang="EN-CA"> <i>(c)</i> the
+composition of the group makes the application of </span><auto_label docid="Code of Civil Procedure (Quebec)" id="62" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 59" id="63" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 59</auto_label></span></auto_label><span lang="EN-CA"> or </span><auto_label docid="Code of Civil Procedure (Quebec)" id="64" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label fragmentid="sec 67" id="65" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true"><span lang="EN-CA">67</span></auto_label></auto_label><span lang="EN-CA"> difficult or
+impracticable; and</span></p>
+<p class="Citationenretrait"><span lang="EN-CA"> <i>(d)</i> the member to
+whom the court intends to ascribe the status of representative is in a position
+to represent the members adequately.</span></p>
+<p class="Citationenretrait"><span lang="EN-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[22]<span style='font:7.0pt "Times New Roman"'>          
+</span>Herein lies the debate before the Court.
+Pharmascience argues that the amendment to </span><auto_label docid="Code of Civil Procedure (Quebec)" id="66" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="67" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> <auto_label id="68" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P</auto_label></span></auto_label><span lang="EN-CA"> gravely weakens
+the role of the Superior Court and violates the principle whereby the claimant
+is required to prove the facts supporting its legal claims. The two versions of
+the provision follow: </span></p>
+<p class="Paragraphe"><span lang="EN-CA"> </span></p>
+<table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse;border:none">
+<tbody><tr>
+<td style="border:solid windowtext 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p align="center" class="Paragraphe" style="text-align:center"><span lang="EN-CA"> </span><span lang="EN-CA" style="font-size:10.0pt">Former provision</span></p>
+</td>
+<td style="border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p align="center" class="Paragraphe" style="text-align:center"><span lang="EN-CA" style="font-size:10.0pt">Amended provision</span></p>
+</td>
+</tr>
+<tr>
+<td style="border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">A
+  member cannot institute a class action except with the prior authorization of
+  the court, obtained on a motion. </span></p>
+<p class="MsoNormal"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial"> </span></p>
+<p class="MsoNormal"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">The
+  motion states the facts giving rise thereto, indicates the nature of the
+  recourses for which authorization is applied for, and describes the group on
+  behalf of which the member intends to act<b>; the allegations of the motion
+  are supported by an affidavit</b>. It is accompanied with a notice of at
+  least 10 days of the date of presentation and is served on the person against
+  whom the applicant intends to exercise the class action.</span></p>
+<p class="Paragraphe"><span lang="EN-CA" style="font-size:10.0pt"> </span></p>
+</td>
+<td style="border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">A
+  member cannot institute a class action except with the prior authorization of
+  the court, obtained on a motion.</span></p>
+<p class="MsoNormal"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial"> </span></p>
+<p class="MsoNormal"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">The
+  motion states the facts giving rise thereto, indicates the nature of the
+  recourses for which authorization is applied for, and describes the group on
+  behalf of which the member intends to act. It is accompanied with a notice of
+  at least 10 days of the date of presentation and is served on the person
+  against whom the applicant intends to exercise the class action; <b>the
+  motion may only be contested orally and the judge may allow relevant evidence
+  to be submitted.</b></span></p>
+<p class="Paragraphe"><span lang="EN-CA" style="font-size:10.0pt"> </span></p>
+</td>
+</tr>
+</tbody></table>
+<p class="Paragraphe"><span lang="EN-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[23]<span style='font:7.0pt "Times New Roman"'>          
+</span>First, it is apposite to recall the nature and
+scope of the motion for authorization and the judgment ruling on such motion. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[24]<span style='font:7.0pt "Times New Roman"'>          
+</span>In </span><auto_label docid="Thompson v. Masson" id="69" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="70" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Thompson v. Masson</auto_label></i></span></auto_label><span lang="EN-CA"><i>,<a href="#_ftn13" name="_ftnref13" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><b><span lang="EN-CA" style="font-size:12.0pt;
+font-family:Arial">[13]</span></b></span></span></a></i> Justice LeBel (then of
+our Court) defined the motion for permission to initiate a class action as [<span style="text-transform:uppercase">translation</span>] “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">a filtering and
+verification mechanism</span></span><span lang="EN-CA">”<a href="#_ftn14" name="_ftnref14" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[14]</span></span></span></a> and described the judicial decision ruling
+on such a motion as one of [<span style="text-transform:uppercase">translation</span>]
+“</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">verification
+and control</span></span><span lang="EN-CA">”,<a href="#_ftn15" name="_ftnref15" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[15]</span></span></span></a>
+which, if favourable, [<span style="text-transform:uppercase">translation</span>]
+“</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">permits
+the <u>bringing and exercise of the action</u>” </span></span><span lang="EN-CA">according
+to the usual rules (</span><auto_label docid="Code of Civil Procedure (Quebec)" id="71" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1011" id="72" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">art. 1011</auto_label><manual_label id="73" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"> C.C.P.</manual_label></span></auto_label><span lang="EN-CA">). Justice LeBel continued: [<span style="text-transform:uppercase">translation] </span>“</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">Before the
+judgment is rendered</span></span><span lang="EN-CA">, </span><span class="Citationintgre"><u><span lang="EN-CA" style="font-size:11.0pt">the action
+does not exist, at least not on a collective basis</span></u><span lang="EN-CA" style="font-size:11.0pt">.</span></span><span lang="EN-CA">”<a href="#_ftn16" name="_ftnref16" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[16]</span></span></span></a> These
+conclusions have been reiterated on a number of occasions.<a href="#_ftn17" name="_ftnref17" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[17]</span></span></span></a> They have served, <i>inter alia</i>, as
+the basis for a judgment that concluded that all preliminary or incidental
+measures or demands must be pleaded and ruled on during the hearing on the
+motion for authorization, save in exceptional circumstances or if the
+jurisdiction <i>ratione materiae</i> of the Superior Court is challenged.<a href="#_ftn18" name="_ftnref18" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[18]</span></span></span></a> Similarly, this Court relied on </span><auto_label docid="Thompson v. Masson" id="74" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="75" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Thomson</auto_label></i></span></auto_label><span lang="EN-CA">
+when it ruled that the absence of right of appeal extended to <i>interlocutory</i>
+judgments rendered before the judgment authorizing institution of the action,<a href="#_ftn19" name="_ftnref19" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[19]</span></span></span></a> save, once again, in exceptional
+circumstances.<a href="#_ftn20" name="_ftnref20" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[20]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[25]<span style='font:7.0pt "Times New Roman"'>          
+</span>The proceedings brought once the action is
+authorized should therefore not be confused with the proceedings seeking this
+authorization. The two have opposing objects and purposes. In the first, the
+court must rule on the actual merits of the case, and therefore all legally
+prescribed rules of procedure and evidence must be applied.  In the second, the
+judge merely verifies whether the conditions stipulated in </span><auto_label docid="Code of Civil Procedure (Quebec)" id="76" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003" id="77" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1003</auto_label> <auto_label id="78" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P</auto_label></span></auto_label><span lang="EN-CA">
+are met, that is, the capacity of the representative, the similarity or nexus
+between the questions of fact or law, and the legal relationship between the
+allegations and the conclusion sought. The second type of proceeding imposes a
+burden of demonstration, not proof. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[26]<span style='font:7.0pt "Times New Roman"'>          
+</span>Before the amendment to </span><auto_label docid="Code of Civil Procedure (Quebec)" id="79" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="80" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> <auto_label id="81" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA">, the
+applicant was required to support the motion with an affidavit, which opened
+the door to the examination of the deponent, pursuant to </span><manual_label docid="Code of Civil Procedure (Quebec)" id="82" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 93" id="83" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 93</auto_label> </span><manual_label id="84" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span></manual_label><span lang="EN-CA"></span></manual_label><span lang="EN-CA"></span><span lang="EN-CA">
+According to Pharmascience, eliminating the obligation to provide a sworn
+statement constitutes a violation of the principle requiring  proof of the
+facts supporting the demand.</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[27]<span style='font:7.0pt "Times New Roman"'>          
+</span>We should first recall that the goal of this
+legislative amendment was to correct a certain tendency that had developed in
+authorization proceedings. The <manual_label docid="Civil Procedure Review Committee" id="85" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" verified="true"><manual_label id="86" labelname="authors" parent="secondary sources" style="background-color: rgb(255, 184, 77); color: black;" verified="true">Civil Procedure Review Committee</manual_label> </manual_label>described it
+thus: </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[<span style="text-transform:uppercase">translation</span>]</span></p>
+<p class="Citationenretrait"><u><span lang="EN-CA">Contrary to the initial
+objective, the parties too often argue the merits at this stage, and this is
+not without consequence on costs and wait times. In a way. current practice has
+transformed the original concept of authorization proceedings as developed in
+1978 into a post-contestation certification procedure, like that which prevails
+in the legislative schemes of Ontario, British Columbia and the United States</span></u><span lang="EN-CA">.<a href="#_ftn21" name="_ftnref21" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:11.0pt;font-family:
+Arial">[21]</span></span></span></a> </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[Emphasis added]</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[28]<span style='font:7.0pt "Times New Roman"'>          
+</span>Contrary to what has been argued, therefore, the
+Review Committee’s recommendation to the Minister of Justice—and ultimately, to
+the legislator—was not to divest the judge of the role of verifier and to
+release the applicant from the obligation of meeting the criteria in </span><manual_label docid="Code of Civil Procedure (Quebec)" id="87" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003" id="88" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">1003</auto_label>
+</span><manual_label id="89" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">C.C.P</span><span lang="EN-CA">.</span><span lang="EN-CA"></span><span lang="EN-CA"></span><span lang="EN-CA"> </span></manual_label><span lang="EN-CA"></span></manual_label><span lang="EN-CA">Rather, the Committee recommended returning to a practice that complied
+more fully with the provision, which requires the judge to verify whether “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">the facts
+alleged <u>seem to justify</u> the conclusions sought</span></span><span lang="EN-CA">”, or in French, “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">les faits allégués <u>paraissent justifier</u>
+les conclusions recherchées</span></span><span lang="EN-CA">.” In effect, since
+the introduction of the class action, the case law of the Supreme Court of
+Canada has affirmed that the judge need only ensure that there was a good
+colour of right in light of the facts alleged, without making a determination
+on the merits of the action.<a href="#_ftn22" name="_ftnref22" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[22]</span></span></span></a> In </span><auto_label docid="Comité de l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan ltée" id="90" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="91" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Comité
+de l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan
+ltée</auto_label></i></span></auto_label><span lang="EN-CA">,<a href="#_ftn23" name="_ftnref23" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[23]</span></span></span></a> where
+over 2000 citizens sued a corporation in damages for alleged industrial air
+pollution, Justice Rothman wrote the following: </span></p>
+<p class="Citationenretrait"><u><span lang="EN-CA">Vague as appellant's allegations
+may be</span></u><span lang="EN-CA">, however, they do assert that the damage has
+been caused to the residents in question by air pollution emanating from
+respondent's port operations and they do allege respondent's fault and
+negligence. At this stage of the proceedings, <u>I believe this is sufficient
+to satisfy the requirement of </u></span><auto_label docid="Code of Civil Procedure (Quebec)" id="92" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><u><auto_label fragmentid="sec 1003(b)" id="93" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Article 1003(b)</auto_label></u></span></auto_label><span lang="EN-CA"><u> that the facts alleged seem to
+justify the authorization of a class action</u>.<a href="#_ftn24" name="_ftnref24" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:11.0pt;font-family:
+Arial">[24]</span></span></span></a></span></p>
+<p class="Citationenretrait"><u><span lang="EN-CA">[</span></u><span lang="EN-CA">Emphasis
+added]</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[29]<span style='font:7.0pt "Times New Roman"'>          
+</span>In summary, at this stage the judge should
+analyze the legal argument in light of the alleged facts, accepting the facts
+as though proven.  This is in fact why the Supreme Court of Canada rejected any
+connection between </span><auto_label docid="Code of Civil Procedure (Quebec)" id="94" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003(b)" id="95" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1003(b)</auto_label> <auto_label id="96" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA"> and </span><auto_label docid="Code of Civil Procedure (Quebec)" id="97" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 867" id="98" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 867</auto_label> <manual_label id="99" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</manual_label></span></auto_label><span lang="EN-CA"> (now repealed<a href="#_ftn25" name="_ftnref25" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[25]</span></span></span></a>), which required authorization for a writ
+of evocation, because of a basic difference between the provisions.<a href="#_ftn26" name="_ftnref26" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[26]</span></span></span></a> The only requirement that the case law has
+recognized as analogous to </span><auto_label docid="Code of Civil Procedure (Quebec)" id="100" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003(b)" id="101" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1003 (b)</auto_label> <manual_label id="102" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</manual_label></span></auto_label><span lang="EN-CA"> is colour of right as a
+criterion for an interlocutory injunction.<a href="#_ftn27" name="_ftnref27" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[27]</span></span></span></a>
+We should specify that, contrary to what has been argued, this comparison does
+not establish a link between a ruling authorizing a class action and an order
+for interlocutory injunction, but merely highlights the similarity of the
+condition known as <i>colour of right</i> in both cases.</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[30]<span style='font:7.0pt "Times New Roman"'>          
+</span>The judge, whose task it is to filter and
+verify, must therefore allow the motion and authorize the action if the
+allegations of fact seem to justify the claim. In all cases, there is no need
+for evidence. Consequently, the claim that the applicant must submit to a type
+of preliminary investigation on the merits does not comply with the
+requirements of the </span><auto_label docid="Code of Civil Procedure (Quebec)" id="103" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="104" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Code of Civil Procedure</auto_label></i></span></auto_label><span lang="EN-CA"> as interpreted in the case
+law. Consequently, removing the obligation to produce an affidavit and limiting
+examinations to those that have received judicial authorization results in a
+speedier and more flexible procedure without fundamentally modifying the Quebec class action regime. There is also
+no weakening in the role of the judge; not only must he still be satisfied that
+there is a good colour of right in addition to the other conditions in </span><auto_label docid="Code of Civil Procedure (Quebec)" id="105" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003" id="106" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article
+1003</auto_label> <manual_label id="107" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</manual_label></span></auto_label><span lang="EN-CA">, the law also confers on him the discretion to admit relevant and
+appropriate evidence in the context of the class action authorization
+proceedings. Finally, the amendment to </span><auto_label docid="Code of Civil Procedure (Quebec)" id="108" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="109" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> <manual_label id="110" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</manual_label></span></auto_label><span lang="EN-CA"> fits perfectly
+within the new legislative regime created by the reform of the </span><auto_label docid="Code of Civil Procedure (Quebec)" id="111" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="112" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Code of Civil
+Procedure</auto_label></i></span></auto_label><span lang="EN-CA">, which has increased the courts’ powers of intervention in case
+management in order to guide the dispute toward the essential stages of inquiry
+and the hearing on the merits.<a href="#_ftn28" name="_ftnref28" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[28]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[31]<span style='font:7.0pt "Times New Roman"'>          
+</span>That being said, in the authorization of the
+class action, the substantive rights of the defendant are neither alienated nor
+withdrawn; any legal means are available to counter the claims of the party
+applying for authorization. Admittedly, as the appellant has argued, citing the
+opinion of a Florida court,
+being sued can cause financial difficulties, particularly if the claim is
+substantial. However, this has no relevance in Quebec law. The legislator has imposed criteria in order to prevent
+frivolous actions, not to enable a ruling on the appropriateness of the action.<a href="#_ftn29" name="_ftnref29" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[29]</span></span></span></a> In this way, the authorization procedure
+provides additional protection to the party against whom the action is intended
+since, contrary to the usual rule, he cannot be sued without prior judicial
+authorization. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[32]<span style='font:7.0pt "Times New Roman"'>          
+</span>In </span><auto_label docid="New York Life v. Vaughan" id="113" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="114" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">New York Life v. Vaughan</auto_label></i></span></auto_label><span lang="EN-CA">,<a href="#_ftn30" name="_ftnref30" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[30]</span></span></span></a> this Court cited these rules when
+dismissing a constitutional challenge of </span><auto_label docid="Code of Civil Procedure (Quebec)" id="115" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1010" id="116" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1010</auto_label> <auto_label id="117" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA">, which limits the
+right of appeal to cases where the motion for authorization of the class action
+is dismissed. The Court stated the following: </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[<span style="text-transform:uppercase">translation</span>]</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS the judgment authorizing
+the class action is merely an interim judgment and in no way a decision on the
+merits of the dispute to be heard or on the rights of the parties;</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS this judgment is merely
+procedural and is in no way a judgment on the defences the respondents may
+invoke; </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS the mere fact of having
+been named as a defendant in a class action suit cannot constitute any
+prejudice whatsoever in and of itself;</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS in law, there is no right
+of appeal in the absence of a specific legislative provision and the conferral
+of this right is a function of Parliamentary supremacy;  </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS in certain cases and for
+the public interest, Parliament limits this right to only one of the parties;</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS in civil matters, this is
+so, for example, in a judgment that upholds an objection to evidence, where
+only this ruling is subject to appeal;</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS in criminal matters, this
+is so, for example, where in certain cases the Crown may appeal only questions
+of law; </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS in the present case, the
+submission calling on foreign law as a comparison cannot be supported, as the
+legislator has deliberately limited the right of appeal in order to avoid a multiplicity
+of proceedings, a slowing of the decision-making process, and a basis in law
+for the costs of justice;</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">WHEREAS this was a decision of
+internal public order.<a href="#_ftn31" name="_ftnref31" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:11.0pt;font-family:Arial">[31]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[33]<span style='font:7.0pt "Times New Roman"'>          
+</span>Pharmascience pleads that the amendment of
+</span><auto_label docid="Code of Civil Procedure (Quebec)" id="118" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="119" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> <auto_label id="120" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA"> violated </span><auto_label docid="Charter of human rights and freedoms" id="121" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="122" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 23</auto_label> of the <auto_label id="123" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Charter</auto_label></span></auto_label><span lang="EN-CA">. This provision and the
+one following are found in the title on judicial guarantees. They read as
+follows: </span></p>
+<p class="Citationenretrait"><b><span lang="EN-CA">23.</span></b><span lang="EN-CA"> </span><b><span lang="EN-CA">Impartial hearing before independent tribunal</span></b><span lang="EN-CA">. Every person has a right to a full and
+equal, public and fair hearing by an independent and impartial tribunal, for
+the determination of his rights and obligations or of the merits of any charge
+brought against him.</span></p>
+<p class="Citationenretrait"><b><span lang="EN-CA">Sittings in camera</span></b><span lang="EN-CA">. The tribunal may decide to sit <i>in
+camera</i>, however, in the interests of morality or public order.</span></p>
+<p class="Citationenretrait"><b><span lang="EN-CA">24</span></b><span lang="EN-CA">. <b>Grounds
+for deprivation of liberty.</b> </span><span lang="EN-CA" style="color:black">No
+one may be deprived of his liberty or of his rights except on grounds provided
+by law and in accordance with prescribed procedure.</span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[34]<span style='font:7.0pt "Times New Roman"'>          
+</span>The impartial hearing in </span><auto_label docid="Charter of human rights and freedoms" id="124" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="125" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 23</auto_label> of the
+<auto_label id="126" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Charter</auto_label></span></auto_label><span lang="EN-CA"> is concerned with procedural guarantees, commonly referred to as rules
+of natural justice.<a href="#_ftn32" name="_ftnref32" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[32]</span></span></span></a> As
+stated by Justice La Forest in </span><auto_label docid="R. v. Lyons" id="127" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="128" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">R. v. Lyons</auto_label></i></span></auto_label><span lang="EN-CA">, however, “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">the</span></span><span lang="EN-CA"> </span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">requirements of fundamental justice…vary according to
+the context in which they are invoked</span></span><span lang="EN-CA">.”<a href="#_ftn33" name="_ftnref33" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[33]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[35]<span style='font:7.0pt "Times New Roman"'>          
+</span>In the present case, the hearing is not concerned
+with determining the rights and obligations of Pharmascience, since the action
+is not yet brought. Rather, its purpose is to confer on a person a mandate to
+represent a group and to ensure that the legal claims logically flow from the
+facts alleged in the motion. This control, exercised in a public hearing, takes
+place after contestation, which, although oral, is real, vigorous and
+unconstrained. In this respect, nothing prohibits either party, and
+particularly the respondent, from seeking permission to adduce evidence by
+attempting to convince the judge that it is appropriate. In civil matters the
+rules regarding burden of proof are statutorily defined, in contrast to
+criminal matters, where some of these rules, such as the right to silence and
+the right to be proved guilty beyond a reasonable doubt, are constitutionally
+entrenched. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[36]<span style='font:7.0pt "Times New Roman"'>          
+</span>In </span><auto_label docid="Crane Canada Inc. v. Sécurité nationale, compagnie d’assurances and Attorney General of Quebec" id="129" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i></i></span><manual_label id="130" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><span lang="EN-CA"><i>Crane Canada Inc. v. Sécurité nationale,
+compagnie d’assurances and Attorney General of </i></span><i><span lang="EN-CA">Quebec</span></i></manual_label><i><span lang="EN-CA"></span></i></auto_label><span lang="EN-CA">,<a href="#_ftn34" name="_ftnref34" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[34]</span></span></span></a> this
+Court recognized the validity of an amendment to the </span><auto_label docid="Code of Civil Procedure (Quebec)" id="131" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="132" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Code of Civil Procedure</auto_label></i></span></auto_label><span lang="EN-CA">
+eliminating examination on discovery in matters involving less than $25,000.
+Madam Justice Rousseau-Houle, writing for the Court, stated the following: </span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[<span style="text-transform:uppercase">translation</span>]</span></p>
+<p class="Citationenretrait"><span lang="EN-CA"><manual_label docid="Code of Civil Procedure (Quebec)" id="133" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label fragmentid="sec 13" id="134" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Article 13</manual_label> of the<manual_label id="135" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"> <i>Code of Civil
+Procedure</i></manual_label><i></i></manual_label><i></i></span></p><span lang="EN-CA"> establishes the principle of the public nature of hearings.
+</span><auto_label docid="Charter of human rights and freedoms" id="136" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="137" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Article 23</auto_label> of the <auto_label id="138" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Quebec Charter</auto_label></span></auto_label><span lang="EN-CA"> constitutionalizes, in both penal and civil
+matters, the right to natural justice, the constituents of which are: 1) the
+right to a decision rendered by an independent tribunal and 2) the right to be heard.
+<u>This article provides certain procedural guarantees, but it does not create
+a substantive right to a particular recourse.</u> In principle, as </span><auto_label docid="Brun and Tremblay" id="139" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" verified="true"><auto_label id="140" labelname="authors" parent="secondary sources" style="background-color: rgb(255, 184, 77); color: black;" verified="true"><span lang="EN-CA">Professors
+Brun and Tremblay</span></auto_label></auto_label><span lang="EN-CA"> have noted, </span><auto_label docid="Charter of human rights and freedoms" id="141" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="142" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 23</auto_label></span></auto_label><span lang="EN-CA"> adds nothing to judicial and
+administrative law besides the possibility of contesting explicit legislative
+standards. </span>
+<p class="Citationenretrait"><span lang="EN-CA"><manual_label docid="Code of Civil Procedure (Quebec)" id="143" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label fragmentid="sec 396.1" id="144" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Article 396.1</manual_label> <manual_label id="145" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</manual_label></manual_label></span></p><span lang="EN-CA">, which limits
+examination on discovery to litigations involving $25,000 and more, does not
+infringe </span><auto_label docid="Charter of human rights and freedoms" id="146" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="147" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 23</auto_label> of the <auto_label id="148" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Charter</auto_label></span></auto_label><span lang="EN-CA">. </span>
+<p class="Citationenretrait"><span lang="EN-CA">In effect, only the right to be
+heard is at issue here. As the examination on discovery is part of neither the
+judicial record nor the trial, the appellant cannot allege that </span><auto_label docid="Code of Civil Procedure (Quebec)" id="149" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 396.1" id="150" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 396.1</auto_label>
+<auto_label id="151" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA"> deprives him of a public hearing of his case. </span></p>
+<p class="Citationenretrait"><u><span lang="EN-CA">When his case is heard, the
+appellant will have the right to examine his own witnesses</span></u><span lang="EN-CA"> (</span><auto_label docid="Code of Civil Procedure (Quebec)" id="152" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 294" id="153" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">art. 294</auto_label> <auto_label id="154" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P</auto_label></span></auto_label><span lang="EN-CA">) <u>and to cross-examine the plaintiff’s witnesses</u>
+(</span><auto_label docid="Code of Civil Procedure (Quebec)" id="155" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 314" id="156" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">art. 314</auto_label> <auto_label id="157" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA">), <u>pursuant
+to his right to be heard</u>. The court of first instance will determine its
+rights and obligations within the meaning of the </span><auto_label docid="Charter of human rights and freedoms" id="158" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><auto_label id="159" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><span lang="EN-CA">Charter</span></auto_label></auto_label><span lang="EN-CA"> following the debate
+on the merits.<a href="#_ftn35" name="_ftnref35" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:11.0pt;font-family:Arial">[35]</span></span></span></a></span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[Emphasis added]</span></p>
+<p class="Citationenretrait"><span lang="EN-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[37]<span style='font:7.0pt "Times New Roman"'>          
+</span>These statements are fully applicable in the
+presence case since the motion for authorization is neither the trial itself
+nor a part of the trial; it is nothing more than a prerequisite to the bringing
+of the action. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[38]<span style='font:7.0pt "Times New Roman"'>          
+</span>In conclusion, the motion for authorization of
+the class action is a procedural mechanism that gives rise to a judgment confirming,
+if appropriate, that the position of the representative applicant is adequate
+to permit the bringing of the class action, which is then instituted, heard and
+ruled upon in the usual manner. Although applicants are not required to support
+their proceedings with an affidavit, they must nevertheless show that the
+criteria set out in </span><auto_label docid="Code of Civil Procedure (Quebec)" id="160" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1003" id="161" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1003</auto_label> <auto_label id="162" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA"> have been satisfied. To this purpose,
+the judge hearing the motion may, at the request of a party, order that
+relevant evidence be adduced. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[39]<span style='font:7.0pt "Times New Roman"'>          
+</span>Contrary to the rule in other jurisdictions,
+therefore, the superintending function of the judge is exercised before the
+action is instituted and is carried out in order to authorize the action. This
+is done by verifying whether the facts alleged, taken as proved, seem to
+justify the right claimed. The recent amendments to </span><auto_label docid="Code of Civil Procedure (Quebec)" id="163" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="164" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label> <auto_label id="165" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA"> change
+nothing with respect to the judge’s task as defined in the case law. Rather,
+they express a new approach to civil procedure, which confers on the judge a
+more significant role in the management of the case as it moves toward the
+trial, the stage at which the parties are required to prove facts and establish
+legal claims. This new approach has been described as a <i>new judicial culture</i>.
+In addition, the amendments do not violate </span><auto_label docid="Charter of human rights and freedoms" id="166" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 23" id="167" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 23</auto_label> of the <auto_label id="168" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Quebec Charter</auto_label></span></auto_label><span lang="EN-CA">: on
+the one hand, they allow defendants to contest at the preliminary authorization
+stage while simultaneously preventing them from raising a defence on the
+merits; on the other, they leave unchanged and applicable all the rules of
+civil procedure after the bringing of the action and until the final ruling. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[40]<span style='font:7.0pt "Times New Roman"'>          
+</span>The appellant’s first motion should therefore be
+dismissed. </span></p>
+<p class="MsoNormal"><span lang="FR-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:36.0pt;text-indent:-36.0pt"><b><span lang="EN-CA">2&gt;<span style='font:7.0pt "Times New Roman"'>              
+</span></span><u><span lang="EN-CA">Does the Superior Court have
+jurisdicition <i>ratione materiae</i> to hear the action of Option
+Consommateurs?</span></u></b></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[41]<span style='font:7.0pt "Times New Roman"'>          
+</span>To better understand the action of Option
+Consommateurs and the objection raised by Pharmascience, a brief explanation of
+the legislative framework is required. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[42]<span style='font:7.0pt "Times New Roman"'>          
+</span>Quebec benefits from a
+general prescription drug insurance plan. For some, such as the elderly and the
+economically disadvantaged, the cost of the system is borne entirely by the
+State. Others are required to join the public plan unless they are already
+covered under a provincial or federal law or under a private plan. Such
+coverage must be at least equal to that offered by the public plan. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[43]<span style='font:7.0pt "Times New Roman"'>          
+</span>There are three ways in which beneficiaries
+contribute to the plan: an annual premium, a deductible, and co-insurance. The
+first two are fixed in </span><span lang="EN-CA">the act</span><span lang="EN-CA"> and divided into monthly contributions, while the
+latter represents 27.4% of the cost of services required and obtained. In all
+cases, the law sets a cap on the beneficiary’s annual contribution and the
+State pays the surplus, if applicable. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[44]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Minister of Health, on the recommendation of
+the Conseil du médicament [Medication Council], creates the list of
+prescription drugs whose costs are covered by the general plan. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[45]<span style='font:7.0pt "Times New Roman"'>          
+</span>To be included on the list, a prescription drug
+must be manufactured or sold by a manufacturer or wholesaler recognized by the Minister,
+unless the drug is unique and essential. To be recognized, the manufacturer or
+wholesaler must undertake to respect certain conditions established by
+</span><span lang="EN-CA"><manual_label docid="regulation" id="169" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label id="170" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">regulation</manual_label></manual_label></span><span lang="EN-CA">.<a href="#_ftn36" name="_ftnref36" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[36]</span></span></span></a> It
+sets the price of its drugs in accordance with the terms of its commitment, which
+include the explicit requirement to exclude from the price “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">any reduction
+awarded…in the form of a rebate, discount or premium, or any other property
+granted to a buyer by the manufacturer without consideration</span></span><span lang="EN-CA">”.<a href="#_ftn37" name="_ftnref37" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[37]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[46]<span style='font:7.0pt "Times New Roman"'>          
+</span>The selling price of a drug on the list is the
+price paid by the pharmacist. This is the price paid by the Régie de
+l’assurance-maladie, and it is the basis on which the financial contribution of
+the insured is calculated.<a href="#_ftn38" name="_ftnref38" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:Arial">[38]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[47]<span style='font:7.0pt "Times New Roman"'>          
+</span>The rule is different for certain generic
+products manufactured by at least two different manufacturers and included on
+the list for more than 15 years. The price paid by the Régie is the lowest
+price of those submitted by the manufacturers for equivalent products. If the
+price of the drug required by the insured exceeds the “lowest price”, the Régie
+pays the amount requested by the manufacturer only if the prescription
+prohibits substitution with an equivalent generic drug. If the insured refuses
+the substitution, he or she must pay the difference between the price of the
+drug prescribed and the price of the most inexpensive generic drug available.<a href="#_ftn39" name="_ftnref39" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[39]</span></span></span></a></span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[48]<span style='font:7.0pt "Times New Roman"'>          
+</span>In summary, the plan provides the following:</span></p>
+<p class="Paragraphe" style="margin-left:25.5pt;text-indent:-8.5pt"><span lang="EN-CA" style="font-family:Symbol">·<span style='font:7.0pt "Times New Roman"'> 
+</span></span><span lang="EN-CA">a basic contributory plan for most
+beneficiaries, save for certain groups of beneficiaries;</span></p>
+<p class="Paragraphe" style="margin-left:1.0cm;text-indent:-11.35pt"><span lang="EN-CA" style="font-family:Symbol">·<span style='font:7.0pt "Times New Roman"'>   
+</span></span><span lang="EN-CA">a list of approved prescription drugs and their
+prices. The prices are established by the manufacturers and wholesalers and
+must exclude “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">any reduction awarded…in the form of a rebate,
+discount or premium, or any other property granted…without consideration</span></span><span lang="EN-CA">”. The price is submitted to the Minister, who approves it after
+consultation with the Conseil du médicament;</span></p>
+<p class="Paragraphe" style="margin-left:25.5pt;text-indent:-8.5pt"><span lang="EN-CA" style="font-family:Symbol">·<span style='font:7.0pt "Times New Roman"'> 
+</span></span><span lang="EN-CA">the price is the amount paid by the pharmacist,
+who in turn requests it from the beneficiary, who is ultimately reimbursed by
+the Régie or the private insurer. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[49]<span style='font:7.0pt "Times New Roman"'>          
+</span>Option Consommateurs raises the following
+argument: the corporations have violated the </span><span lang="EN-CA"><manual_label docid="regulation" id="171" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label id="172" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">regulation</manual_label></manual_label></span><span lang="EN-CA"> by including all manner
+of rebate in their suggested prices without revealing this fact. This unlawful
+practice increased the cost of the prescription drugs. The additional cost to
+the Régie had two consequences: first, the beneficiaries paid a higher premium
+and deductible and second, they paid a 24.7% co-insurance on the part of the
+price that reimbursed the unlawful benefits. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[50]<span style='font:7.0pt "Times New Roman"'>          
+</span>For its part, Pharmascience pleads that the
+Superior Court lacks the jurisdiction <i>ratione materiae</i> to hear this
+action on the ground that the resolution of such a dispute would require the
+court to determine the fair price of the medications, a matter entrusted by law
+to the discretion of the </span><span lang="EN-CA">Minister of Health</span><span lang="EN-CA">. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[51]<span style='font:7.0pt "Times New Roman"'>          
+</span>This argument is unsound, at least as the record
+now stands. According to the allegations in the motion, the manufacturers
+included prohibited costs in their prices. Determining the value of these costs
+does not require arbitration on the basis of political considerations nor put
+in issue the appropriateness of a ministerial or governmental discretionary
+decision. On the contrary, it involves qualifying and evaluating the benefits
+granted to pharmacists in light of the specific wording of the </span><span lang="EN-CA"><manual_label docid="regulation" id="173" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label id="174" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Regulation</manual_label></manual_label></span><span lang="EN-CA">,
+defining the resulting prejudice to the beneficiaries, and determining the
+causal link. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[52]<span style='font:7.0pt "Times New Roman"'>          
+</span>Although the legal argument described in the
+proceedings is easily stated, there is still a marked want of proof behind the
+allegations in the motion for authorization. At this stage, however, the
+apparent complexity of the case is irrelevant under </span><span lang="EN-CA">Quebec’s </span><manual_label docid="Act respecting class action" id="175" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label id="176" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Act respecting the class action</i></auto_label></span></manual_label><span lang="EN-CA">.<a href="#_ftn40" name="_ftnref40" title=""><span class="MsoFootnoteReference"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:12.0pt;font-family:
+Arial">[40]</span></span></span></a> It does not fall to the judge hearing the
+motion for authorization to assess the risks and pitfalls faced by the
+applicant. Indeed, even if the judge did find that some of the claims were
+without merit, she would not be authorized to immediately exclude them from the
+debate because the motion for partial dismissal has been struck out of the </span><auto_label docid="Code of Civil Procedure (Quebec)" id="177" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="178" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Code
+of Civil Procedure</auto_label></i></span></auto_label><span lang="EN-CA">. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[53]<span style='font:7.0pt "Times New Roman"'>          
+</span>In short, the facts alleged in the motion “</span><span class="Citationintgre"><span lang="EN-CA" style="font-size:11.0pt">seem to justify</span></span><span lang="EN-CA">” the damages sought. The Superior Court is not called on to set the
+guaranteed prices of the prescription drugs offered; rather, its task is to determine
+whether the evidence shows that this price includes the value of elements
+prohibited by law. This exercise will not change the price set by the Minister,
+but merely define one of the factors by which to assess the damage. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[54]<span style='font:7.0pt "Times New Roman"'>          
+</span>I  would therefore dismiss the second motion of
+Pharmascience. </span></p>
+<p class="MsoNormal"><span lang="FR-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:36.0pt;text-indent:-36.0pt"><b><span lang="EN-CA">3&gt;<span style='font:7.0pt "Times New Roman"'>              
+</span></span><u><span lang="EN-CA">Remarks on certain aspects of the
+respondents’ pleadings </span></u></b></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[55]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Attorney General and Option Consommateurs
+have argued that, despite the granting of leave to appeal, this Court should
+not have heard the dispute. They claim that the grounds raised by Pharmascience
+do not put the jurisdiction <i>ratione materiae</i> of the Superior Court in
+issue. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[56]<span style='font:7.0pt "Times New Roman"'>          
+</span>Ultimately, a judicial declaration of the
+constitutional invalidity of </span><auto_label docid="Code of Civil Procedure (Quebec)" id="179" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="180" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article 1002</auto_label><manual_label id="181" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"> C.C.P.</manual_label></span></auto_label><span lang="EN-CA"> could have caused a complete
+paralysis of class actions. It could also have resulted in an absence of
+jurisdiction, in the broad sense, of the Superior Court to rule on such
+questions. But there is more. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[57]<span style='font:7.0pt "Times New Roman"'>          
+</span>In the present case, this Court has been placed in
+an exceptional position. Whether or not it recognizes the validity of </span><auto_label docid="Code of Civil Procedure (Quebec)" id="182" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="183" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">article
+1002</auto_label> <auto_label id="184" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA">, the judgment will influence the conduct of hearings on motions for
+authorization. The Court must therefore dispose of the question without delay.
+The urgency is further compounded by the fact that a large number of class
+actions are presently suspended pending this Court’s ruling, with the number of
+cases increasing as each new motion is filed. In such a situation, public
+interest demands that the Court rule on the appeal at once, and the Attorney
+General and Option Consommateurs agree, despite their reservations. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[58]<span style='font:7.0pt "Times New Roman"'>          
+</span>It could be argued that the claim regarding the
+Superior Court’s <i>jurisdiction ratione materiae</i> to hear the dispute,
+based on the ground that the action would confer on the courts a role that
+properly falls within the discretion of the Minister or the National Assembly,
+fails to meet the same criteria as the constitutional challenge. I do not
+disagree. Nevertheless, given the present situation, it would be unjust to send
+the case back to the Superior Court. Here again, the Attorney General and
+Option Consommateurs agree that there must be a ruling on all the issues. </span></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[59]<span style='font:7.0pt "Times New Roman"'>          
+</span>In short, the situation in the present case is
+unique and should remain so. It does not constitute a precedent. </span></p>
+<p class="MsoNormal"><span lang="FR-CA"> </span></p>
+<p class="Paragraphe"><b><u><span lang="EN-CA">Conclusion</span></u></b></p>
+<p class="Paragraphe" style="margin-left:0cm;text-indent:0cm"><span lang="EN-CA">[60]</span></p><span lang="EN-CA"><span style='font:7.0pt "Times New Roman"'>          
+</span>I would declare valid </span><auto_label docid="Code of Civil Procedure (Quebec)" id="185" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1002" id="186" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">articles 1002</auto_label> and <auto_label fragmentid="sec 1003" id="187" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">1003</auto_label>
+<auto_label id="188" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label><span lang="EN-CA"> and therefore dismiss the appeal with costs.</span>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:-3.1pt;border-collapse:collapse">
+<tbody><tr style="page-break-inside:avoid;height:25.65pt">
+<td colspan="2" style="padding:0cm 0cm 0cm 0cm;
+  height:25.65pt" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="padding:0cm 0cm 0cm 0cm" valign="top">
+<p class="MsoNormal"><span lang="EN-CA" style="font-family:Arial"> </span></p>
+</td>
+<td style="padding:0cm 0cm 0cm 0cm" valign="top">
+<div style="border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm">
+<p class="zSoquijdatSignature3Juge" style="border:none;padding:0cm"><span lang="FR">________________________________</span><span lang="FR-CA">__</span></p>
+</div>
+<p class="zSoquijdatSignature3Juge"><span lang="FR-CA">PAUL-ARTHUR GENDREAU J.A.</span></p>
+<p class="zSoquijdatSignatureJuge1"><span lang="FR-CA"> </span></p>
+</td>
+</tr>
+</tbody></table>
+<p class="MsoNormal"><span lang="FR-CA" style="font-family:Arial"> </span></p>
+</div>
+<div><br clear="all"/>
+<hr align="left" size="1"/>
+<div id="ftn1">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[1]</span></span></span></span></a><span lang="FR-CA">
+</span><span lang="FR-CA"></span><manual_label docid="André Noël, Des millions en primes illégales verses aux pharmaciens, La Presse (February 22, 2003)" id="189" labelname="unable to classify" parent="" style="background-color: rgb(255, 193, 7); color: black;" verified="true"><span lang="FR-CA">André Noël, “Des millions en primes illégales verses aux pharmaciens,” <i>La
+Presse</i> (February 22, 2003)</span></manual_label><span lang="FR-CA"></span><span lang="FR-CA">.</span><span lang="FR-CA"></span></p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText"><a href="#_ftnref2" name="_ftn2" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[2]</span></span></span></span></a><span lang="EN-CA"> and other pharmaceutical corporations.</span></p>
+</div>
+<div id="ftn3">
+<p class="MsoFootnoteText"><a href="#_ftnref3" name="_ftn3" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[3]</span></span></span></span></a><span lang="EN-CA"></span><span lang="EN-CA"></span><span lang="EN-CA"></span><span lang="EN-CA"> </span><span lang="EN-CA"></span><span lang="EN-CA"></span><span lang="EN-CA">Factum of A.G.Q</span><span lang="EN-CA">.</span><span lang="EN-CA"> , at 42-58; (10 February 2004), Montréal,
+500-05-000192-035, (Sup. Ct.)
+at para. 54</span><span lang="EN-CA"></span><span lang="EN-CA">.</span><span lang="EN-CA"></span><span lang="EN-CA"></span><span lang="EN-CA"> </span></p>
+</div>
+<div id="ftn4">
+<p class="MsoFootnoteText"><a href="#_ftnref4" name="_ftn4" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[4]</span></span></span></span></a><span lang="EN-CA"> </span><span lang="EN-CA"><i></i></span><span lang="EN-CA"><i>Ibid</i>. at</span><span lang="EN-CA"> paras. </span><span lang="FR-CA">56 – 57</span><span lang="FR-CA"></span><span lang="FR-CA"></span><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn5">
+<p class="MsoFootnoteText"><a href="#_ftnref5" name="_ftn5" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[5]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Charter of human rights and freedoms" id="190" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label id="191" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">R.S.Q., c. C-12</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn6">
+<p class="MsoFootnoteText"><a href="#_ftnref6" name="_ftn6" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[6]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Code of Civil Procedure of Lower Canada" id="192" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 80" id="193" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Art. 80</auto_label>, <auto_label id="194" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Code of Civil Procedure of Lower Canada</i></auto_label>, <manual_label id="195" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">1866</manual_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn7">
+<p class="MsoFootnoteText"><a href="#_ftnref7" name="_ftn7" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[7]</span></span></span></span></a><span lang="EN-CA"> </span><manual_label docid="Code of Civil Procedure of Lower Canada" id="196" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 81a" id="197" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Art. 81a</auto_label>, <i></i></span><manual_label id="198" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><span lang="EN-CA"><i>Code of Civil Procedure of </i></span><i><span lang="EN-CA">Lower Canada</span></i></manual_label><i><span lang="EN-CA"></span></i><span lang="EN-CA"></span></manual_label><span lang="EN-CA">, as am. by <manual_label docid="Quebec Statutes 1959-60 c.99" id="199" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label id="200" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">1959-60, 8-9
+Elizabeth II c.99</manual_label>, <manual_label fragmentid="sec 6" id="201" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">a.6</manual_label></manual_label></span><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn8">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref8" name="_ftn8" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[8]</span></span></span></span></a><span lang="EN-CA">
+</span><span lang="EN-CA"><manual_label docid="Code of Civil Procedure of Lower Canada" id="202" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label fragmentid="sec 81b" id="203" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Art. 81b</manual_label>, <i><manual_label id="204" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Code of Civil Procedure of Lower Canada</manual_label></i></manual_label><i></i>, as am. by <manual_label docid="Quebec Statutes 1959-60 c.99" id="205" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><manual_label id="206" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">1959-60,
+8-9 Elizabeth II c.99</manual_label>, <manual_label fragmentid="sec 6" id="207" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">a.6</manual_label></manual_label></span><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn9">
+<p class="MsoFootnoteText"><a href="#_ftnref9" name="_ftn9" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[9]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Code of Civil Procedure (Quebec)" id="208" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 59" id="209" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Art 59</auto_label>, <auto_label id="210" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label></p>
+</div>
+<div id="ftn10">
+<p class="MsoFootnoteText"><a href="#_ftnref10" name="_ftn10" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[10]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Code of Civil Procedure (Quebec)" id="211" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 999" id="212" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Art. 999</auto_label> <auto_label id="213" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label></p>
+</div>
+<div id="ftn11">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref11" name="_ftn11" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[11]</span></span></span></span></a><span lang="FR-CA">
+See the reasons of Justice Monet in </span><auto_label docid="Comité de citoyens et d’action municipale de St-Césaire v. St-Césaire" id="214" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><i><auto_label id="215" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Comité de citoyens et d’action
+municipale de St-Césaire v. St-Césaire</auto_label></i>, <auto_label id="216" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1986] R.J.Q. 101 (C.A.)</auto_label></span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn12">
+<p class="MsoFootnoteText"><a href="#_ftnref12" name="_ftn12" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[12]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Code of Civil Procedure (Quebec)" id="217" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 1000" id="218" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Art. 1000</auto_label> <auto_label id="219" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P.</auto_label></span></auto_label></p>
+</div>
+<div id="ftn13">
+<p class="MsoFootnoteText"><a href="#_ftnref13" name="_ftn13" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[13]</span></span></span></span></a><span lang="FR-CA"> </span><auto_label docid="1993 R.J.Q. 69" id="220" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><auto_label id="221" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1993] R.J.Q. 69</auto_label></span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn14">
+<p class="MsoFootnoteText"><a href="#_ftnref14" name="_ftn14" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[14]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Pharmascience inc. c. Option Consommateurs" id="222" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i>Ibid</i>. at <auto_label fragmentid="p 72" id="223" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="true">72</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn15">
+<p class="MsoFootnoteText"><a href="#_ftnref15" name="_ftn15" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[15]</span></span></span></span></a><span lang="EN-CA"> </span><manual_label docid="1993 R.J.Q. 69" id="224" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i>Ibid</i></span></manual_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn16">
+<p class="MsoFootnoteText"><a href="#_ftnref16" name="_ftn16" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[16]</span></span></span></span></a><span lang="EN-CA"> </span><manual_label docid="1993 R.J.Q. 69" id="225" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i>Ibid</i></span></manual_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn17">
+<p class="MsoFootnoteText"><a href="#_ftnref17" name="_ftn17" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[17]</span></span></span></span></a><span lang="EN-CA"> This quickly becomes clear after a quick glance at the databases.</span></p>
+</div>
+<div id="ftn18">
+<p class="MsoFootnoteText"><a href="#_ftnref18" name="_ftn18" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[18]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Société Asbestos Limitée v. Lacroix" id="226" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><i><span lang="FR-CA"><auto_label id="227" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Société Asbestos Limitée v. Lacroix</auto_label></span></i><span lang="FR-CA">, <auto_label id="228" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2004] J.Q. no. 9410 (C.A.)</auto_label></span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn19">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref19" name="_ftn19" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[19]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label docid="Dumas v. Mutuelle des fonctionnaires du Québec (MFQ-Vie) et la Capitale" id="229" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><i><span lang="FR-CA"><auto_label id="230" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Dumas v. Mutuelle des fonctionnaires du Québec
+(MFQ-Vie) et la Capitale</auto_label></span></i><span lang="FR-CA">, <auto_label id="231" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2002] J.Q. 692 (C.A.)</auto_label></span></auto_label><span lang="FR-CA">;
+see also </span><auto_label docid="Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault" id="232" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><i><auto_label id="233" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault</auto_label></i>, <auto_label id="234" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">(18
+October 1993), Montréal, 500-09-001756-931, (Que. C.A.)</auto_label></span></auto_label><span lang="FR-CA">, </span><auto_label docid="Ville de Sainte-Anne-de-Beaupré v. Hamel" id="235" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><i><auto_label id="236" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Ville de
+Sainte-Anne-de-Beaupré v. Hamel</auto_label></i>, <auto_label id="237" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2003] J.Q. 11308</auto_label></span></auto_label><span lang="FR-CA"> and </span><auto_label docid="Toyota Canada Inc. v. Harmegnie" id="238" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><i><auto_label id="239" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Toyota Canada
+Inc. v. Harmegnie</auto_label></i>, <auto_label id="240" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2004] J.Q. 2901</auto_label></span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn20">
+<p class="MsoFootnoteText" style="margin-left:11.35pt;text-indent:-11.35pt"><a href="#_ftnref20" name="_ftn20" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[20]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label docid="Hotte v. Servier Canada Inc" id="241" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i></i><manual_label id="242" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Hotte v. Servier Canada Inc</i>.</manual_label>, <auto_label id="243" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1999] R.J.Q. 2598</auto_label></span></auto_label><span lang="EN-CA">. In this case, several persons
+launched concomitant claims in the same dispute.</span></p>
+</div>
+<div id="ftn21">
+<p class="MsoFootnoteText" style="margin-left:11.35pt;text-indent:-11.35pt"><a href="#_ftnref21" name="_ftn21" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[21]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label docid="Civil Procedure Review Committee" id="244" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" verified="true"><span lang="EN-CA"><manual_label id="245" labelname="authors" parent="secondary sources" style="background-color: rgb(255, 184, 77); color: black;" verified="true">Civil Procedure Review Committee</manual_label>, <i><manual_label id="246" labelname="title" parent="secondary sources" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">A New Judicial Culture</manual_label></i><i></i>, <manual_label id="247" labelname="source" parent="secondary sources" style="background-color: rgb(255, 87, 51); color: black;" verified="true">July 2001,
+Government of Quebec, Ministère de la Justice</manual_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn22">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref22" name="_ftn22" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[22]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label docid="Comité Régional des Usagers des transports en commun de Québec v. Commission des transports de la Communauté urbaine de Québec" id="248" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><i><span lang="FR-CA"><auto_label id="249" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Comité Régional des Usagers des transports en commun
+de Québec v. Commission des transports de la Communauté urbaine de Québec</auto_label></span></i><span lang="FR-CA">, <auto_label id="250" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1981] 1 S.C.R. 424</auto_label></span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn23">
+<p class="MsoFootnoteText"><a href="#_ftnref23" name="_ftn23" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[23]</span></span></span></span></a><span lang="FR-CA"> </span><auto_label docid="[1990] R.J.Q. 655 (C.A.)" id="251" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><auto_label id="252" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1990] R.J.Q. 655 (C.A.)</auto_label></span></auto_label></p>
+</div>
+<div id="ftn24">
+<p class="MsoFootnoteText"><a href="#_ftnref24" name="_ftn24" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[24]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="[1990] R.J.Q. 655 (C.A.)" id="253" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i>Ibid.</i> at <auto_label fragmentid="p 660 - p 661" id="254" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="true">660 - 661</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn25">
+<p class="MsoFootnoteText"><a href="#_ftnref25" name="_ftn25" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[25]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="S.Q. 1983 c. 28" id="255" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label id="256" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">S.Q., 1983 c. 28</auto_label> <auto_label fragmentid="sec 34" id="257" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">a.34</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn26">
+<p class="MsoFootnoteText"><a href="#_ftnref26" name="_ftn26" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[26]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Comité Régional des Usagers des transports en commun de Québec v. Commission des transports de la Communauté urbaine de Québec" id="258" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><i><span lang="FR-CA">Supra</span></i><span lang="FR-CA"> note
+22</span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn27">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref27" name="_ftn27" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[27]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label docid="Comité Régional des Usagers des transports en commun de Québec v. Commission des transports de la Communauté urbaine de Québec" id="259" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><i><span lang="FR-CA"><auto_label id="260" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Comité régional des usagers des transports en commun
+de Québec v. Commission des transports de la Communauté urbaine de Québec</auto_label></span></i><span lang="FR-CA">, <i>supra</i> note 22</span></auto_label><span lang="FR-CA">; </span><auto_label docid="Guimond v. Quebec (Attorney General)" id="261" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><i><auto_label id="262" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Guimond v. Québec (Attorney General)</auto_label>,</i>
+<auto_label id="263" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1996] 3 S.C.R. 347</auto_label></span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn28">
+<p class="MsoFootnoteText"><a href="#_ftnref28" name="_ftn28" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[28]</span></span></span></span></a><span lang="EN-CA"> </span><manual_label docid="Code of Civil Procedure (Quebec)" id="264" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label fragmentid="sec 4.1" id="265" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Art. 4.1</auto_label>, <auto_label fragmentid="sec 4.2" id="266" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">4.2</auto_label> and<manual_label fragmentid="sec 151.1" id="267" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true"> 151.1</manual_label><manual_label id="268" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">C.C.P. </manual_label><i></i><manual_label fragmentid="sec 151.1 and following" id="269" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true"><i>et seq</i></manual_label><i></i></span></manual_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn29">
+<p class="MsoFootnoteText"><a href="#_ftnref29" name="_ftn29" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[29]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Guimond v. Quebec (Attorney General)" id="270" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i></i><manual_label id="271" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Guimond v. Québec (Attorney General</i>)</manual_label>, <i>supra</i> note 26</span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn30">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref30" name="_ftn30" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[30]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label docid="[2003] J.Q. 89 (C.A.)" id="272" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><auto_label id="273" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2003] J.Q. 89 (C.A.)</auto_label></span></auto_label><span lang="EN-CA">, motion
+for authorization at the Supreme Court of Canada dismissed, </span><auto_label docid="[2002] C.S.C.R. no. 470" id="274" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><auto_label id="275" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2002] C.S.C.R. no.
+470</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn31">
+<p class="MsoFootnoteText"><a href="#_ftnref31" name="_ftn31" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[31]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="[1990] R.J.Q. 655 (C.A.)" id="276" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i>Ibid</i>. <auto_label fragmentid="para 4 - para 12" id="277" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="true">para. 4-12</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn32">
+<p class="MsoFootnoteText"><a href="#_ftnref32" name="_ftn32" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[32]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Brun and Tremblay" id="278" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" verified="true"><span lang="EN-CA"><auto_label id="279" labelname="authors" parent="secondary sources" style="background-color: rgb(255, 184, 77); color: black;" verified="true">Henri Brun &amp; Guy Tremblay</auto_label>, <auto_label id="280" labelname="title" parent="secondary sources" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Droit Constitutionnel,</i></auto_label> <auto_label id="281" labelname="source" parent="secondary sources" style="background-color: rgb(255, 87, 51); color: black;" verified="true">4th
+ed.</auto_label>, at <auto_label fragmentid="p 1080 - p 1081" id="282" labelname="fragment" non_standard="false" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="true">1080-1081</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn33">
+<p class="MsoFootnoteText" style="margin-left:8.5pt;text-indent:-8.5pt"><a href="#_ftnref33" name="_ftn33" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[33]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label id="283" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><auto_label id="284" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1987] 2 S.C.R. 309</auto_label></span></auto_label><span lang="EN-CA">; this statement has been repeated in </span><auto_label docid="Charelli v. Canada (Minister of Employment and Immigration)" id="285" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i></i></span><manual_label id="286" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><span lang="EN-CA"><i>Charelli v. </i></span><i><span lang="EN-CA">Canada (Minister of Employment and
+Immigration)</span></i></manual_label><i><span lang="EN-CA"></span></i><span lang="EN-CA">, <auto_label id="287" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1992] 1 S.C.R. 711</auto_label></span></auto_label><span lang="EN-CA">, as well as in </span><auto_label docid="Ruby v. Canada (Attorney General)" id="288" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i></i></span><manual_label id="289" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><span lang="EN-CA"><i>Ruby
+v. </i></span><i><span lang="EN-CA">Canada
+(Attorney General</span></i></manual_label><i><span lang="EN-CA"></span></i><span lang="EN-CA">), <auto_label id="290" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2002] 4 S.C.R. 3</auto_label></span></auto_label><span lang="EN-CA"> and in </span><auto_label docid="United States of America v. Dynar" id="291" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="292" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">United
+States of America v. Dynar</auto_label></i>, <auto_label id="293" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1997] 2 S.C.R. 462</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn34">
+<p class="MsoFootnoteText"><a href="#_ftnref34" name="_ftn34" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[34]</span></span></span></span></a><span lang="FR-CA"> </span><auto_label docid="[2004] J.Q. 13746 (Que. C.A.)" id="294" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="FR-CA"><auto_label id="295" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2004] J.Q. 13746 (Que. C.A.)</auto_label></span></auto_label><span lang="FR-CA">.</span></p>
+</div>
+<div id="ftn35">
+<p class="MsoFootnoteText"><a href="#_ftnref35" name="_ftn35" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[35]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="[2003] J.Q. 89 (C.A.)" id="296" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="true"><span lang="EN-CA"><i>Ibid</i>. at <auto_label fragmentid="para 16 - para 19" id="297" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="true">para. 16-19</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn36">
+<p class="MsoFootnoteText" style="margin-left:9.65pt;text-indent:-9.65pt"><a href="#_ftnref36" name="_ftn36" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[36]</span></span></span></span></a><span lang="EN-CA">
+</span><auto_label docid="Regulation respecting the conditions on which manufacturers and wholesalers of medications shall be recognized" id="298" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i><auto_label id="299" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Regulation respecting the conditions on which manufacturers and wholesalers
+of medications shall be recognized,</auto_label></i> <auto_label id="300" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">c. A-29.01, r.1.1</auto_label>, <auto_label fragmentid="schedule I" id="301" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Schedules I</auto_label> and <auto_label fragmentid="schedule II" id="302" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">II</auto_label></span></auto_label><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn37">
+<p class="MsoFootnoteText"><a href="#_ftnref37" name="_ftn37" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[37]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Regulation respecting the conditions on which manufacturers and wholesalers of medications shall be recognized" id="303" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><i>Ibid</i>., <manual_label fragmentid="Schedule I, sec 1(4)( 2)" id="304" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Schedule I, s.1(4), para.2</manual_label></span></auto_label><span lang="EN-CA">. </span></p>
+</div>
+<div id="ftn38">
+<p class="MsoFootnoteText" style="margin-left:9.65pt;text-indent:-9.65pt"><a href="#_ftnref38" name="_ftn38" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:
+10.0pt;font-family:Arial">[38]</span></span></span></span></a><span lang="EN-CA">
+</span><span lang="EN-CA"><i></i><manual_label docid="List of medications covered by the basic prescription drug insurance plan" id="305" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><i><manual_label id="306" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">List of medications covered by the basic prescription drug insurance plan</manual_label></i>,
+<manual_label id="307" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">D-2003-007, 1 June 2003, G.O.Q.
+2003.II.1699A</manual_label></manual_label></span><span lang="EN-CA">.</span></p>
+</div>
+<div id="ftn39">
+<p class="MsoFootnoteText"><a href="#_ftnref39" name="_ftn39" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[39]</span></span></span></span></a><span lang="EN-CA"></span><manual_label docid="List of medications covered by the basic prescription drug insurance plan" id="308" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"> </span><span lang="EN-CA"><i>Ibid</i>., <auto_label fragmentid="p 1704A" id="309" labelname="fragment" non_standard="true" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="true">1704A</auto_label></span><span lang="EN-CA"></span></manual_label><span lang="EN-CA">.</span><span lang="EN-CA"></span></p>
+</div>
+<div id="ftn40">
+<p class="MsoFootnoteText"><a href="#_ftnref40" name="_ftn40" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style="font-size:10.0pt;font-family:Arial">[40]</span></span></span></span></a><span lang="EN-CA"> </span><auto_label docid="Act respecting the Régie de l" id="310" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="true"><span lang="EN-CA"><auto_label id="311" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">R.S.Q., c. R-2.1</auto_label></span></auto_label><span lang="EN-CA">. </span></p>
+</div>
+</div>
+</body></html>

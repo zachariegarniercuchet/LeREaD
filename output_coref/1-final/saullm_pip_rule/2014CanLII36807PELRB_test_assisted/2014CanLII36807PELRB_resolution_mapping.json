@@ -1,0 +1,34 @@
+{
+  "LRB 1622C": {
+    "uri": "https://canlii.ca/t/j69w3",
+    "score": 0.8854166666666666,
+    "candidate_id": "1995nslrb1000000",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited",
+    "query_text": "decision | LRB 1622C United Brotherhood of Carpenters and\nJoiners of America, Local 83 and Quinpool Properties Ltd",
+    "method": "fuzzy",
+    "matched_key": "lrb 1622c united brotherhood of carpenters and joiners of america local 83 and quinpool properties ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.8854166666666666,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      }
+    ]
+  },
+  "Sheet Metal Workers’ International Association, Local 562 v. Ridsdale Steel Fabricators Inc.": {
+    "uri": "https://canlii.ca/t/281xt",
+    "score": 2.0,
+    "candidate_id": "1987onlrb1000202",
+    "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc.",
+    "query_text": "decision | <i>Sheet Metal Workers’ International\nAssociation, Local 562 v. Ridsdale Steel Fabricators Inc.</i> | [1987] OLRB Rep.\nApril 601 at 604",
+    "method": "title_exact",
+    "matched_key": "sheet metal workers international association local 562 v ridsdale steel fabricators inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/281xt",
+        "score": 2.0,
+        "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc."
+      }
+    ]
+  }
+}

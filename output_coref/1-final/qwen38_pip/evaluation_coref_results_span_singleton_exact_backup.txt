@@ -1,0 +1,27 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\AA_final\qwen38_pip
+Split: extended_test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 38 evaluation pair(s)
+
+Mention alignment (total over 38 document(s))
+  gold mentions: 8006 | system mentions: 6079 | matched: 4887
+  gold-only (missed): 3119 | system-only (spurious): 1192
+  mention-level  P=0.804  R=0.610  F1=0.694
+
+
+=== Aggregate over 38 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.7525     │ 0.5556     │ 0.6392     │
+│ B3       │ 0.8086     │ 0.5914     │ 0.6831     │
+│ CEAF_e   │ 0.3361     │ 0.5305     │ 0.4115     │
+│ LEA      │ 0.4409     │ 0.3934     │ 0.4158     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.5780
+

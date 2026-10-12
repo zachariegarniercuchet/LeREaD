@@ -1,0 +1,391 @@
+{
+  "Caraquet": {
+    "uri": "https://canlii.ca/t/jzp9r",
+    "score": 3.5,
+    "candidate_id": "2016nbomb12",
+    "candidate_title": "Caraquet (Town) (Re)",
+    "query_text": "decision | Caraquet (Town) (Re) | 2016 NBOMB 12",
+    "method": "citation_exact",
+    "matched_key": "2016nbomb12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jzp9r",
+        "score": 3.5,
+        "candidate_title": "Caraquet (Town) (Re)"
+      }
+    ]
+  },
+  "Right to Information Act": {
+    "uri": "https://canlii.ca/t/566ls",
+    "score": 2.0,
+    "candidate_id": "l30442!30442-current-1",
+    "candidate_title": "Right to Information and Protection of Privacy Act",
+    "query_text": "legislation | Right to Information and Protection of Privacy Act | Act | Right to Information and Protection of\nPrivacy Act | Right to Information and\nProtection of Privacy Act | New\nBrunswick’s legislation | New Brunswick statute | Right\nto Information and Protection of Privacy Act | ACT | Right to Information and Protection\nof Privacy Act | <i>Act</i>",
+    "method": "title_exact",
+    "matched_key": "right to information and protection of privacy act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/566ls",
+        "score": 2.0,
+        "candidate_title": "Right to Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "New Brunswick Companies Act": {
+    "uri": "https://canlii.ca/t/87zm",
+    "score": 2.0,
+    "candidate_id": "l23189!23189-current-1",
+    "candidate_title": "Companies Act",
+    "query_text": "legislation | <i><span style=\"font-size:12.0pt;line-height:115%\">New Brunswick </span></i><i><span style=\"font-size:12.0pt;line-height:115%\">Companies</span></i><span style=\"font-size:12.0pt;line-height:115%\"> <i>Act</i></span> | Companies Act",
+    "method": "title_exact",
+    "matched_key": "companies act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/87zm",
+        "score": 2.0,
+        "candidate_title": "Companies Act"
+      }
+    ]
+  },
+  "Access to Information Act": {
+    "uri": "https://canlii.ca/t/56jgm",
+    "score": 2.0,
+    "candidate_id": "l12747!12747-current-1",
+    "candidate_title": "Access to Information Act",
+    "query_text": "legislation | Act | Access to Information Act",
+    "method": "title_exact",
+    "matched_key": "access to information act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jgm",
+        "score": 2.0,
+        "candidate_title": "Access to Information Act"
+      }
+    ]
+  },
+  "Municipal Freedom of Information Act": {
+    "uri": "https://canlii.ca/t/568d0",
+    "score": 2.0,
+    "candidate_id": "l311!311-current-1",
+    "candidate_title": "Municipal Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | <span style=\"font-size:12.0pt;line-height:115%\"><i>Municipal Freedom o</i></span><i><span style=\"font-size:12.0pt;line-height:115%;color:#222222\">f\nInformation and Protection of Privacy Act</span></i> | Ontario statute | Act | Municipal F<span style=\"color:#222222\">reedom of Information\nand Protection of Privacy Act</span> | Ontario\nstatute | Municipal\nFreedom of Information and Protection of Privacy Act | Ontario access-to-information legislation",
+    "method": "title_exact",
+    "matched_key": "municipal freedom of information and protection of privacy act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/568d0",
+        "score": 2.0,
+        "candidate_title": "Municipal Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Municipal Act, 2001": {
+    "uri": "https://canlii.ca/t/56mt0",
+    "score": 2.0,
+    "candidate_id": "l731!731-current-1",
+    "candidate_title": "Municipal Act, 2001",
+    "query_text": "legislation | <a href=\"http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html\"><i><span style=\"font-size:12.0pt;line-height:115%;color:black;text-decoration:none\">Municipal\nAct, 2001</span></i></a><a href=\"http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html\"><i><span style=\"font-size:12.0pt;line-height:115%;color:black;text-decoration:none\"></span></i></a><a href=\"http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html\"><i><span style=\"font-size:12.0pt;line-height:115%;color:black;text-decoration:none\"></span></i></a><span style=\"font-size:12.0pt;line-height:115%;\ncolor:black\"> </span>",
+    "method": "title_exact",
+    "matched_key": "municipal act 2001",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56mt0",
+        "score": 2.0,
+        "candidate_title": "Municipal Act, 2001"
+      }
+    ]
+  },
+  "City of Toronto Act, 2006": {
+    "uri": "https://canlii.ca/t/56mpx",
+    "score": 2.0,
+    "candidate_id": "l808!808-current-1",
+    "candidate_title": "City of Toronto Act, 2006",
+    "query_text": "legislation | <span style=\"font-size:12.0pt;line-height:115%;\ncolor:black\"> </span><a href=\"http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html\"><i><span style=\"font-size:12.0pt;line-height:115%;color:black;text-decoration:none\">City\nof Toronto Act, 2006</span></i></a>",
+    "method": "title_exact",
+    "matched_key": "city of toronto act 2006",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56mpx",
+        "score": 2.0,
+        "candidate_title": "City of Toronto Act, 2006"
+      }
+    ]
+  },
+  "Freedom of Information Act": {
+    "uri": "https://canlii.ca/t/56lrp",
+    "score": 3.5,
+    "candidate_id": "l29310!29310-current-1",
+    "candidate_title": "The Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | Freedom of Information and Protection of Privacy Act | Act | The Freedom of Information and Protection of Privacy Act | CCSM c F175",
+    "method": "citation_exact",
+    "matched_key": "ccsmcf175",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lrp",
+        "score": 3.5,
+        "candidate_title": "The Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "TEDCO ONCA 2008": {
+    "uri": "https://canlii.ca/t/1wvjc",
+    "score": 2.0,
+    "candidate_id": "2008onca366",
+    "candidate_title": "City of Toronto Economic Development Corporation v. Information and Privacy Commissioner/Ontario",
+    "query_text": "decision | City of Toronto Economic Development Company v.\nOntario (Information and Privacy Commissioner) | TEDCO | City of Toronto Economic Development Corp. v. Ontario (Information and\nPrivacy Commissioner) | [2008] OJ 1799",
+    "method": "title_exact",
+    "matched_key": "city of toronto economic development corp v ontario information and privacy commissioner",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1wvjc",
+        "score": 2.0,
+        "candidate_title": "City of Toronto Economic Development Corporation v. Information and Privacy Commissioner/Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/1q1h8",
+        "score": 2.0,
+        "candidate_title": "Toronto Economic Development Corporation v. Ontario (Information and Privacy Commissioner)"
+      }
+    ]
+  },
+  "Durham (Regional Municipality) (Re)": {
+    "uri": "https://canlii.ca/t/22m7x",
+    "score": 2.0,
+    "candidate_id": "2009onipc1000021",
+    "candidate_title": "Durham (Regional Municipality) (Re)",
+    "query_text": "decision | MO-2393 | Durham (Regional Municipality) (Re) | 2009 ON IPC 7937",
+    "method": "title_exact",
+    "matched_key": "durham regional municipality re",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22m7x",
+        "score": 2.0,
+        "candidate_title": "Durham (Regional Municipality) (Re)"
+      }
+    ]
+  },
+  "London District Catholic School Board (Re)": {
+    "uri": "https://canlii.ca/t/gfx4z",
+    "score": 2.0,
+    "candidate_id": "2014onipc1000310",
+    "candidate_title": "London District Catholic School Board (Re)",
+    "query_text": "decision | MO-3146 | London District Catholic School Board (Re) | 2014 ON IPC 79892",
+    "method": "title_exact",
+    "matched_key": "london district catholic school board re",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gfx4z",
+        "score": 2.0,
+        "candidate_title": "London District Catholic School Board (Re)"
+      }
+    ]
+  },
+  "Municipalities Act": {
+    "uri": "https://canlii.ca/t/52xx6",
+    "score": 3.5,
+    "candidate_id": "l23815!23815-current-1",
+    "candidate_title": "Municipalities Act",
+    "query_text": "legislation | Municipalities Act | Municipalities\nAct | Act | RSNB 1973, c M-22",
+    "method": "citation_exact",
+    "matched_key": "rsnb1973cm22",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/52xx6",
+        "score": 3.5,
+        "candidate_title": "Municipalities Act"
+      }
+    ]
+  },
+  "Le Petit Robert": {
+    "uri": "https://synthetic.leread.ca/gold/G0302",
+    "score": 2.0,
+    "candidate_id": "gold-G0302",
+    "candidate_title": "Le petit Robert 1, Dictionnaire alphabétique et analogique de la langue française",
+    "query_text": "secondary sources | <i>Le Petit Robert</i> dictionary | Le petit Robert 1, Dictionnaire\nalphabétique et analogique de la langue française",
+    "method": "title_exact",
+    "matched_key": "le petit robert 1 dictionnaire alphabetique et analogique de la langue francaise",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0302",
+        "score": 2.0,
+        "candidate_title": "Le petit Robert 1, Dictionnaire alphabétique et analogique de la langue française"
+      }
+    ]
+  },
+  "Webster’s Canadian Dictionary and Thesaurus": {
+    "uri": "https://synthetic.leread.ca/gold/G0520",
+    "score": 2.0,
+    "candidate_id": "gold-G0520",
+    "candidate_title": "Webster’s Canadian Dictionary and Thesaurus",
+    "query_text": "secondary sources | Webster’s\nCanadian Dictionary and Thesaurus | Webster’s Canadian Dictionary and Thesaurus",
+    "method": "title_exact",
+    "matched_key": "webster s canadian dictionary and thesaurus",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0520",
+        "score": 2.0,
+        "candidate_title": "Webster’s Canadian Dictionary and Thesaurus"
+      }
+    ]
+  },
+  "The Northern Affairs Act": {
+    "uri": "https://canlii.ca/t/5626h",
+    "score": 2.0,
+    "candidate_id": "l29040!29040-current-1",
+    "candidate_title": "The Northern Affairs Act",
+    "query_text": "legislation | The<span class=\"apple-converted-space\"> </span>Northern Affairs Act",
+    "method": "title_exact",
+    "matched_key": "the northern affairs act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5626h",
+        "score": 2.0,
+        "candidate_title": "The Northern Affairs Act"
+      }
+    ]
+  },
+  "The Planning Act": {
+    "uri": "https://canlii.ca/t/56jxm",
+    "score": 2.0,
+    "candidate_id": "l29342!29342-current-1",
+    "candidate_title": "The Planning Act",
+    "query_text": "legislation | <i>The</i><span class=\"apple-converted-space\"> </span><i>Planning\nAct</i>",
+    "method": "title_exact",
+    "matched_key": "the planning act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jxm",
+        "score": 2.0,
+        "candidate_title": "The Planning Act"
+      }
+    ]
+  },
+  "The Conservation Districts Act": {
+    "uri": "https://canlii.ca/t/528n3",
+    "score": 2.0,
+    "candidate_id": "l29109!29109-current-1",
+    "candidate_title": "The Conservation Districts Act",
+    "query_text": "legislation | The<span class=\"apple-converted-space\"> </span>Conservation Districts Act",
+    "method": "title_exact",
+    "matched_key": "the conservation districts act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/528n3",
+        "score": 2.0,
+        "candidate_title": "The Conservation Districts Act"
+      }
+    ]
+  },
+  "Access and Privacy Regulation": {
+    "uri": "https://synthetic.leread.ca/gold/G0355",
+    "score": 2.0,
+    "candidate_id": "gold-G0355",
+    "candidate_title": "regulation",
+    "query_text": "legislation | Regulation\n64/98 | Regulation",
+    "method": "title_exact",
+    "matched_key": "regulation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0355",
+        "score": 2.0,
+        "candidate_title": "regulation"
+      }
+    ]
+  },
+  "Income Tax Act": {
+    "uri": "https://canlii.ca/t/56p8v",
+    "score": 2.0,
+    "candidate_id": "l12707!12707-current-1",
+    "candidate_title": "Income Tax Act",
+    "query_text": "legislation | Income\nTax Act",
+    "method": "title_exact",
+    "matched_key": "income tax act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56p8v",
+        "score": 2.0,
+        "candidate_title": "Income Tax Act"
+      }
+    ]
+  },
+  "Land Titles Act": {
+    "uri": "https://canlii.ca/t/564nf",
+    "score": 2.0,
+    "candidate_id": "l23689!23689-current-1",
+    "candidate_title": "Land Titles Act",
+    "query_text": "legislation | Land\nTitles Act",
+    "method": "title_exact",
+    "matched_key": "land titles act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/564nf",
+        "score": 2.0,
+        "candidate_title": "Land Titles Act"
+      }
+    ]
+  },
+  "Aluminum Company of Canada": {
+    "uri": "https://canlii.ca/t/1ttsd",
+    "score": 3.5,
+    "candidate_id": "1944csc-scc10005",
+    "candidate_title": "Aluminum Company of Canada Ltd. v. City of Toronto",
+    "query_text": "decision | Aluminium Company of Canada Ltd. v. The Corporation of the\nCity of Toronto | judgment | Aluminium\nCompany | Aluminium Company | Aluminum Company of Canada Ltd. v. City of Toronto | [1944]\nS.C.R. 267",
+    "method": "citation_exact",
+    "matched_key": "1944scr267",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ttsd",
+        "score": 3.5,
+        "candidate_title": "Aluminum Company of Canada Ltd. v. City of Toronto"
+      }
+    ]
+  },
+  "86296 Canada": {
+    "uri": "https://canlii.ca/t/gjh0l",
+    "score": 0.9736842105263158,
+    "candidate_id": "2015qccs2571",
+    "candidate_title": "86296 Canada Ltd. c. Shoppers Realty Inc.",
+    "query_text": "decision | 86296 Canada Ltd. v. Shoppers Realty\nInc. | 86296 Canada Ltd. v. Shoppers Realty Inc | 2015 QCCS 2751",
+    "method": "fuzzy",
+    "matched_key": "86296 canada ltd v shoppers realty inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gjh0l",
+        "score": 0.9736842105263158,
+        "candidate_title": "86296 Canada Ltd. c. Shoppers Realty Inc."
+      }
+    ]
+  },
+  "Canada (Information Commissioner)": {
+    "uri": "https://canlii.ca/t/fld60",
+    "score": 3.5,
+    "candidate_id": "2011csc-scc25",
+    "candidate_title": "Canada (Information Commissioner) v. Canada (Minister of National Defence)",
+    "query_text": "decision | <i>Canada (Information Commissioner) v.\nCanada</i> <i>(Minister of National Defence</i><i>)</i> | 2011 SCC 25",
+    "method": "citation_exact",
+    "matched_key": "2011scc25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fld60",
+        "score": 3.5,
+        "candidate_title": "Canada (Information Commissioner) v. Canada (Minister of National Defence)"
+      }
+    ]
+  },
+  "TEDCO ONSCDC 2006": {
+    "uri": "https://canlii.ca/t/1q1h8",
+    "score": 3.0,
+    "candidate_id": "2006onscdc14420",
+    "candidate_title": "Toronto Economic Development Corporation v. Ontario (Information and Privacy Commissioner)",
+    "query_text": "decision | [2006] OJ 4615 | 278 D.L.R.\n(4th) 356",
+    "method": "citation_exact",
+    "matched_key": "278dlr4th356",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1q1h8",
+        "score": 3.0,
+        "candidate_title": "Toronto Economic Development Corporation v. Ontario (Information and Privacy Commissioner)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "method": "rule_baseline",
+  "split": "dev_train",
+  "candidate_pool": "data\\gold_candidate_pool.csv",
+  "num_candidates": 7058,
+  "filter_by_doctype": true,
+  "fuzzy_threshold": 0.85,
+  "no_fuzzy": false,
+  "include_fragments": false
+}

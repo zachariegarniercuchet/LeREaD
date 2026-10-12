@@ -1,0 +1,119 @@
+{
+  "Diavik Diamond Mines Inc. v. Tahera Diamond Corp.": {
+    "uri": "https://canlii.ca/t/25s29",
+    "score": 2.0,
+    "candidate_id": "2009nuca3",
+    "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp",
+    "query_text": "decision | Diavik Diamond Mines Inc. v. Tahera Diamond\nCorp. | 2009 NUCA 03",
+    "method": "title_exact",
+    "matched_key": "diavik diamond mines inc v tahera diamond corp",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/25s29",
+        "score": 2.0,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp"
+      },
+      {
+        "uri": "https://canlii.ca/t/22k6q",
+        "score": 2.0,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corporation"
+      }
+    ]
+  },
+  "Companies": {
+    "uri": "https://canlii.ca/t/56fc5",
+    "score": 3.5,
+    "candidate_id": "l12787!12787-current-1",
+    "candidate_title": "Companies' Creditors Arrangement Act",
+    "query_text": "legislation | Companies’ Creditors Arrangement Act | R.S.C. 1985, c. C-36",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cc36",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fc5",
+        "score": 3.5,
+        "candidate_title": "Companies' Creditors Arrangement Act"
+      }
+    ]
+  },
+  "Mechanics Lien Act": {
+    "uri": "https://canlii.ca/t/56gvj",
+    "score": 3.5,
+    "candidate_id": "l30243!30243-current-1",
+    "candidate_title": "Mechanics Lien Act",
+    "query_text": "legislation | Mechanics Lien\nAct | North West\nTerritories Mechanics Lien Act | Act | R.S.N.W.T. 1988, c. M-7",
+    "method": "citation_exact",
+    "matched_key": "rsnwt1988cm7",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gvj",
+        "score": 3.5,
+        "candidate_title": "Mechanics Lien Act"
+      }
+    ]
+  },
+  "Wyo-Ben, Inc. v. Wilson Mud Canada Ltd.": {
+    "uri": "https://canlii.ca/t/2djw8",
+    "score": 2.0,
+    "candidate_id": "1985abca310",
+    "candidate_title": "Wyo-Ben Inc. v. Wilson Mud Canada Ltd.",
+    "query_text": "decision | Wyo-Ben, Inc. v. Wilson Mud Canada Ltd. | [1985] A.J. No. 1114 | 23 D.L.R. (4th)\n760 (Alta. C.A.)",
+    "method": "title_exact",
+    "matched_key": "wyo ben inc v wilson mud canada ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2djw8",
+        "score": 2.0,
+        "candidate_title": "Wyo-Ben Inc. v. Wilson Mud Canada Ltd."
+      }
+    ]
+  },
+  "Town-N-Country Plumbing & Heating (1985) Ltd. v. Schmidt": {
+    "uri": "https://canlii.ca/t/gb2t5",
+    "score": 3.0,
+    "candidate_id": "1991skca1000067",
+    "candidate_title": "Tow-N-Country Plumbing & Heating (1985) Ltd. v. Schmidt",
+    "query_text": "decision | Town-N-Country Plumbing &amp; Heating (1985) Ltd. v. Schmidt\n(1991) | 86 D.L.R. (4th) 716 | 93 Sask. R. 278 (C.A.)",
+    "method": "citation_exact",
+    "matched_key": "86dlr4th716",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gb2t5",
+        "score": 3.0,
+        "candidate_title": "Tow-N-Country Plumbing & Heating (1985) Ltd. v. Schmidt"
+      }
+    ]
+  },
+  "Byer’s Transport Ltd. v. Terra Mining & Exploration Ltd.": {
+    "uri": "https://canlii.ca/t/g9348",
+    "score": 3.0,
+    "candidate_id": "1972nttc1000003",
+    "candidate_title": "Byer's Transport Limited v. Terra Mining and Exploration Limited",
+    "query_text": "decision | Byer’s Transport Ltd. v. Terra Mining\n&amp; Exploration Ltd. | [1972] 2 W.W.R. 719 | 24 D.L.R. (3d) 447 (NWT TC)",
+    "method": "citation_exact",
+    "matched_key": "19722wwr719",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9348",
+        "score": 3.0,
+        "candidate_title": "Byer's Transport Limited v. Terra Mining and Exploration Limited"
+      }
+    ]
+  },
+  "Polson v. Thomson (1916)": {
+    "uri": "https://canlii.ca/t/gbt7m",
+    "score": 3.2,
+    "candidate_id": "1916mbca1000001",
+    "candidate_title": "Polson v. Thomson",
+    "query_text": "decision | Polson v. Thomson (1916) | 26 Man. R. 410 | 29 D.L.R. 395",
+    "method": "citation_exact",
+    "matched_key": "26manr410",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbt7m",
+        "score": 3.2,
+        "candidate_title": "Polson v. Thomson"
+      }
+    ]
+  }
+}

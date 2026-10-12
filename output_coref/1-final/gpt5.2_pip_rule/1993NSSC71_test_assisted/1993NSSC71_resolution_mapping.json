@@ -1,0 +1,289 @@
+{
+  "Planning Act NS 1989": {
+    "uri": "https://canlii.ca/t/jpvq",
+    "score": 3.5,
+    "candidate_id": "l23079!23079-51702-0",
+    "candidate_title": "Planning Act",
+    "query_text": "legislation | Planning Act | <b>Planning Act</b> | R.S.N.S. 1989, c.346 | R.S.N.S. 1989, c. 346 | R.S.N.S.\n1989, c. 346",
+    "method": "citation_exact",
+    "matched_key": "rsns1989c346",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jpvq",
+        "score": 3.5,
+        "candidate_title": "Planning Act"
+      }
+    ]
+  },
+  "Environmental Protection Act NS": {
+    "uri": "https://canlii.ca/t/8d2l",
+    "score": 2.0,
+    "candidate_id": "l26878!26878-current-1",
+    "candidate_title": "Environmental Protection Act",
+    "query_text": "legislation | Environmental Protection Act | Environmental\nProtection Act",
+    "method": "title_exact",
+    "matched_key": "environmental protection act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/8d2l",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection Act"
+      }
+    ]
+  },
+  "Nova Scotia Civil Procedure Rules": {
+    "uri": "https://canlii.ca/t/56nxx",
+    "score": 2.0,
+    "candidate_id": "l36995!36995-current-1",
+    "candidate_title": "Nova Scotia Civil Procedure Rules",
+    "query_text": "legislation | Civil Procedure Rule | Civil Procedure\nRules | Civil Procedure Rules | Rule 327",
+    "method": "title_exact",
+    "matched_key": "civil procedure rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 2.0,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      }
+    ]
+  },
+  "Trainor v. Trainor (1990)": {
+    "uri": "https://canlii.ca/t/gbtwt",
+    "score": 2.0,
+    "candidate_id": "1990pesctd19871000019",
+    "candidate_title": "Trainor v. Trainor",
+    "query_text": "decision | Trainor v Trainor | (1990), 87 Nfld. &amp;\nP.E.I.R. 37",
+    "method": "title_exact",
+    "matched_key": "trainor v trainor",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbtwt",
+        "score": 2.0,
+        "candidate_title": "Trainor v. Trainor"
+      }
+    ]
+  },
+  "Nova Scotia Rules of Court (old)": {
+    "uri": "https://canlii.ca/t/56ndw",
+    "score": 2.0,
+    "candidate_id": "l23977!23977-current-1",
+    "candidate_title": "Rules of Court",
+    "query_text": "legislation | <b>Rules of Court</b>",
+    "method": "title_exact",
+    "matched_key": "rules of court",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56ndw",
+        "score": 2.0,
+        "candidate_title": "Rules of Court"
+      }
+    ]
+  },
+  "Stevenson and Cote, Civil Procedure Guide (1989)": {
+    "uri": "https://canlii.ca/t/56nxx",
+    "score": 0.8571428571428571,
+    "candidate_id": "l36995!36995-current-1",
+    "candidate_title": "Nova Scotia Civil Procedure Rules",
+    "query_text": "secondary sources | Civil Procedure Guide | Stevenson and Cote",
+    "method": "fuzzy",
+    "matched_key": "civil procedure guide",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.8571428571428571,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      }
+    ]
+  },
+  "Weldon v. Kavanagh and Formac Publishing Co. (1989)": {
+    "uri": "https://canlii.ca/t/g9g3w",
+    "score": 2.0,
+    "candidate_id": "1989nsscad1000169",
+    "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co.",
+    "query_text": "decision | Weldon v Kavanagh and Formac\nPublishing Co. | (1989), 94 N.S.R. (2d) 181 (N.S.C.A.)",
+    "method": "title_exact",
+    "matched_key": "weldon v kavanagh and formac publishing co",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9g3w",
+        "score": 2.0,
+        "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co."
+      }
+    ]
+  },
+  "Inducon Construction (Eastern) Ltd. v. Vaupere": {
+    "uri": "https://canlii.ca/t/g1f23",
+    "score": 3.0,
+    "candidate_id": "1966onhcj1000032",
+    "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere",
+    "query_text": "decision | <b>Inducon Coast. (Eastern) Ltd. v. Vaupere</b> | [1967] 1 O.R. 245",
+    "method": "citation_exact",
+    "matched_key": "19671or245",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1f23",
+        "score": 3.0,
+        "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere"
+      }
+    ]
+  },
+  "Air Canada et al. v. Maley et al. (1976)": {
+    "uri": "https://canlii.ca/t/gwh22",
+    "score": 0.9333333333333333,
+    "candidate_id": "1976fcttd1000011",
+    "candidate_title": "Air Canada et al. v. Maley et al.",
+    "query_text": "decision | Air Canada at al. v Maley at al. | (1976), 69\nD.L.R. (3d) 180",
+    "method": "fuzzy",
+    "matched_key": "air canada at al v maley at al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwh22",
+        "score": 0.9333333333333333,
+        "candidate_title": "Air Canada et al. v. Maley et al."
+      }
+    ]
+  },
+  "Guptill v. Guptill (1987)": {
+    "uri": "https://canlii.ca/t/gccjw",
+    "score": 2.0,
+    "candidate_id": "1987nsscad1000023",
+    "candidate_title": "Guptill v. Guptill",
+    "query_text": "decision | Guptill\nv Guptill | (1987), 82 N.S.R. (2d) 390",
+    "method": "title_exact",
+    "matched_key": "guptill v guptill",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gccjw",
+        "score": 2.0,
+        "candidate_title": "Guptill v. Guptill"
+      }
+    ]
+  },
+  "Interpretation Act NS 1967": {
+    "uri": "https://canlii.ca/t/xhz",
+    "score": 2.0,
+    "candidate_id": "l5679!5679-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | R.S.N.S. 1967, c. 151",
+    "method": "title_exact",
+    "matched_key": "interpretation act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/xhz",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Crombie v The King (1922)": {
+    "uri": "https://canlii.ca/t/gw7w0",
+    "score": 2.0,
+    "candidate_id": "1922onscad1000025",
+    "candidate_title": "Crombie v. The King",
+    "query_text": "decision | Crombie\nv The King | (1922), 52 O.L.R. 72",
+    "method": "title_exact",
+    "matched_key": "crombie v the king",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw7w0",
+        "score": 2.0,
+        "candidate_title": "Crombie v. The King"
+      }
+    ]
+  },
+  "Tobin v. The Queen (1863)": {
+    "uri": "https://canlii.ca/t/1tvtw",
+    "score": 0.8823529411764706,
+    "candidate_id": "1967csc-scc10014",
+    "candidate_title": "Binus v. The Queen",
+    "query_text": "decision | Tobin v. The Queen | 32 L.J.C.P. 216 | 14 C.B.N.S. 505",
+    "method": "fuzzy",
+    "matched_key": "tobin v the queen",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tvtw",
+        "score": 0.8823529411764706,
+        "candidate_title": "Binus v. The Queen"
+      }
+    ]
+  },
+  "Regina v. Bank of Nova Scotia (1885)": {
+    "uri": "https://canlii.ca/t/g9j1m",
+    "score": 0.9019607843137255,
+    "candidate_id": "1983skca1000125",
+    "candidate_title": "Re Bank of Nova Scotia and The Queen",
+    "query_text": "decision | Regina v. Bank of Nova Scotia | 11 Can. S.C.R. 1",
+    "method": "fuzzy",
+    "matched_key": "regina v bank of nova scotia",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9j1m",
+        "score": 0.9019607843137255,
+        "candidate_title": "Re Bank of Nova Scotia and The Queen"
+      }
+    ]
+  },
+  "Longo v The Queen (1959)": {
+    "uri": "https://canlii.ca/t/1ftlw",
+    "score": 0.8823529411764706,
+    "candidate_id": "1987csc-scc56",
+    "candidate_title": "R. v. Lyons",
+    "query_text": "decision | Longo v The Queen | [1959] O.W.N. 19 (Ont., C.A.)",
+    "method": "fuzzy",
+    "matched_key": "longo v the queen",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftlw",
+        "score": 0.8823529411764706,
+        "candidate_title": "R. v. Lyons"
+      },
+      {
+        "uri": "https://canlii.ca/t/ftxmr",
+        "score": 0.8648648648648649,
+        "candidate_title": "Palangio v. The Queen"
+      }
+    ]
+  },
+  "Re Associated Investors of Canada Ltd. (1988)": {
+    "uri": "https://canlii.ca/t/2dm6j",
+    "score": 3.0,
+    "candidate_id": "1988abca36",
+    "candidate_title": "Canada Deposit Insurance Corporation v. Code",
+    "query_text": "decision | Re Associated Investors of Canada Ltd. | 57 Alta. L.R. (2d) 289",
+    "method": "citation_exact",
+    "matched_key": "57altalr2d289",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dm6j",
+        "score": 3.0,
+        "candidate_title": "Canada Deposit Insurance Corporation v. Code"
+      }
+    ]
+  },
+  "Smallwood v. Sparling": {
+    "uri": "https://canlii.ca/t/1z1dd",
+    "score": 3.5,
+    "candidate_id": "1982csc-scc10189",
+    "candidate_title": "Smallwood v. Sparling",
+    "query_text": "decision | Smallwood v Sparling | (1982] 2 S.C.R.\n686",
+    "method": "citation_exact",
+    "matched_key": "19822scr686",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z1dd",
+        "score": 3.5,
+        "candidate_title": "Smallwood v. Sparling"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Gordon v. Goertz": {
+    "uri": "https://canlii.ca/t/1fr99",
+    "score": 2.0,
+    "candidate_id": "1996csc-scc47",
+    "candidate_title": "Gordon v. Goertz",
+    "query_text": "decision | Gordon v. Goertz | , supra",
+    "method": "title_exact",
+    "matched_key": "gordon v goertz",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr99",
+        "score": 2.0,
+        "candidate_title": "Gordon v. Goertz"
+      }
+    ]
+  },
+  "Nunweiler v. Nunweiler": {
+    "uri": "https://canlii.ca/t/53cf",
+    "score": 2.0,
+    "candidate_id": "2000bcca300",
+    "candidate_title": "Nunweiler v. Nunweiler",
+    "query_text": "decision | Nunweiler v. Nunweiler",
+    "method": "title_exact",
+    "matched_key": "nunweiler v nunweiler",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53cf",
+        "score": 2.0,
+        "candidate_title": "Nunweiler v. Nunweiler"
+      }
+    ]
+  },
+  "D.P. v. R.B.": {
+    "uri": "https://canlii.ca/t/1zvwz",
+    "score": 3.7,
+    "candidate_id": "2007pesctd198725",
+    "candidate_title": "D.P. v. R.B.",
+    "query_text": "decision | <span class=\"Citation\">D.P. v. R.B.</span> | 2007 PESCTD 25 | 269 Nfld. &amp; P.E.I.R. 1 | 269 Nfld. &amp;\nP.E.I.R. 1.",
+    "method": "citation_exact",
+    "matched_key": "2007pesctd25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1zvwz",
+        "score": 3.7,
+        "candidate_title": "D.P. v. R.B."
+      }
+    ]
+  },
+  "Hickey v. Hickey": {
+    "uri": "https://canlii.ca/t/1fqlr",
+    "score": 2.0,
+    "candidate_id": "1999csc-scc33",
+    "candidate_title": "Hickey v. Hickey",
+    "query_text": "decision | Hickey v.\nHickey",
+    "method": "title_exact",
+    "matched_key": "hickey v hickey",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqlr",
+        "score": 2.0,
+        "candidate_title": "Hickey v. Hickey"
+      }
+    ]
+  }
+}

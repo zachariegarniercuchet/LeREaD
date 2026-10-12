@@ -1,0 +1,150 @@
+{
+  "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch": {
+    "uri": "https://canlii.ca/t/kfpl2",
+    "score": 2.0,
+    "candidate_id": "2025abaer7",
+    "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch",
+    "query_text": "decision | Canadian Natural Resources\nLimited v. AER Regulatory Compliance Branch | Decision 2025 ABAER 007: Canadian Natural Resources\nLimited, Regulatory Appeal of Administrative Penalty | 2025 ABAER 007",
+    "method": "title_exact",
+    "matched_key": "canadian natural resources limited v aer regulatory compliance branch",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kfpl2",
+        "score": 2.0,
+        "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch"
+      }
+    ]
+  },
+  "Environmental Protection and Enhancement Act": {
+    "uri": "https://canlii.ca/t/56vzq",
+    "score": 2.0,
+    "candidate_id": "l17678!17678-current-1",
+    "candidate_title": "Environmental Protection and Enhancement Act",
+    "query_text": "legislation | EPEA | Environmental Protection and Enhancement Act",
+    "method": "title_exact",
+    "matched_key": "environmental protection and enhancement act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      }
+    ]
+  },
+  "Administrative Penalty Regulation": {
+    "uri": "https://canlii.ca/t/56w7m",
+    "score": 2.0,
+    "candidate_id": "l18667!18667-current-1",
+    "candidate_title": "Administrative Penalty Regulation",
+    "query_text": "legislation | Administrative Penalty Regulation | Administrative\nPenalty Regulation | regulation | Administrative Penalty\nRegulation | <i>Administrative Penalty Regulation</i>",
+    "method": "title_exact",
+    "matched_key": "administrative penalty regulation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w7m",
+        "score": 2.0,
+        "candidate_title": "Administrative Penalty Regulation"
+      }
+    ]
+  },
+  "Responsible Energy Development Act": {
+    "uri": "https://canlii.ca/t/56k8d",
+    "score": 2.0,
+    "candidate_id": "l36872!36872-current-1",
+    "candidate_title": "Responsible Energy Development Act",
+    "query_text": "legislation | Responsible\nEnergy Development Act | REDA",
+    "method": "title_exact",
+    "matched_key": "responsible energy development act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56k8d",
+        "score": 2.0,
+        "candidate_title": "Responsible Energy Development Act"
+      }
+    ]
+  },
+  "Alberta Energy Regulator Rules of Practice": {
+    "uri": "https://canlii.ca/t/56pvt",
+    "score": 2.0,
+    "candidate_id": "l37442!37442-current-1",
+    "candidate_title": "Alberta Energy Regulator Rules of Practice",
+    "query_text": "legislation | Alberta Energy Regulator Rules of Practice",
+    "method": "title_exact",
+    "matched_key": "alberta energy regulator rules of practice",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 2.0,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      }
+    ]
+  },
+  "R v Syncrude Canada Ltd": {
+    "uri": "https://canlii.ca/t/2bb02",
+    "score": 3.0,
+    "candidate_id": "2010abpc229",
+    "candidate_title": "R. v. Syncrude Canada Ltd.",
+    "query_text": "decision | R v Syncrude | Syncrude judgement | Syncrude\nnon-suit ruling | Syncrude non-suit ruling | Syncrude decisions | 2010 ABPC 229 | 2010 ABPC 154",
+    "method": "citation_exact",
+    "matched_key": "2010abpc229",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2bb02",
+        "score": 3.0,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/29wsb",
+        "score": 3.0,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      }
+    ]
+  },
+  "R v ASL Paving Ltd.": {
+    "uri": "https://canlii.ca/t/2dcdb",
+    "score": 2.0,
+    "candidate_id": "1995abca118",
+    "candidate_title": "Alberta v. ASL Paving Ltd.",
+    "query_text": "decision | R v ASL Paving Ltd. | [1995] AWLD 430\n(ABCA)",
+    "method": "title_exact",
+    "matched_key": "r v asl paving ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dcdb",
+        "score": 2.0,
+        "candidate_title": "Alberta v. ASL Paving Ltd."
+      }
+    ]
+  },
+  "Interpretation Act": {
+    "uri": "https://canlii.ca/t/xhz",
+    "score": 2.0,
+    "candidate_id": "l5679!5679-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation\nAct",
+    "method": "title_exact",
+    "matched_key": "interpretation act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/xhz",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  }
+}

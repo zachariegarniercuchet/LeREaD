@@ -1,0 +1,119 @@
+{
+  "Delgamuukw": {
+    "uri": "https://canlii.ca/t/1fqz8",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc105",
+    "candidate_title": "Delgamuukw v. British Columbia",
+    "query_text": "decision | <i>Delgamuukw v. British Columbia</i> | [1997] 3 S.C.R. 1010",
+    "method": "citation_exact",
+    "matched_key": "19973scr1010",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqz8",
+        "score": 3.5,
+        "candidate_title": "Delgamuukw v. British Columbia"
+      }
+    ]
+  },
+  "Haida Nation v. British Columbia": {
+    "uri": "https://canlii.ca/t/1j4tq",
+    "score": 3.0,
+    "candidate_id": "2004csc-scc73",
+    "candidate_title": "Haida Nation v. British Columbia (Minister of Forests)",
+    "query_text": "decision | <i>Haida Nation v. British Columbia</i> | <i>Haida</i> | 2004 SCC 73",
+    "method": "citation_exact",
+    "matched_key": "2004scc73",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1j4tq",
+        "score": 3.0,
+        "candidate_title": "Haida Nation v. British Columbia (Minister of Forests)"
+      }
+    ]
+  },
+  "Tsilhqot": {
+    "uri": "https://canlii.ca/t/g7mtb",
+    "score": 3.0,
+    "candidate_id": "2014csc-scc44",
+    "candidate_title": "Nation Tsilhqot’in c. Colombie‑Britannique",
+    "query_text": "decision | <i>Tsilhqot’in\nv. British Columbia</i> | <i>Tsilhqot’in</i> | Tsilhqot’in | 2014 SCC 44 | at <auto_label fragmentid=\"\" id=\"163\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">para.\n17</auto_label>",
+    "method": "citation_exact",
+    "matched_key": "2014scc44",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7mtb",
+        "score": 3.0,
+        "candidate_title": "Nation Tsilhqot’in c. Colombie‑Britannique"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7mt9",
+        "score": 3.0,
+        "candidate_title": "Tsilhqot’in Nation v. British Columbia"
+      }
+    ]
+  },
+  "Ewert": {
+    "uri": "https://canlii.ca/t/hshjz",
+    "score": 3.5,
+    "candidate_id": "2018csc-scc30",
+    "candidate_title": "Ewert v. Canada",
+    "query_text": "decision | <i>Ewert v. Canada</i> | 2018 SCC 30",
+    "method": "citation_exact",
+    "matched_key": "2018scc30",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hshjz",
+        "score": 3.5,
+        "candidate_title": "Ewert v. Canada"
+      }
+    ]
+  },
+  "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)": {
+    "uri": "https://canlii.ca/t/1m1zn",
+    "score": 2.0,
+    "candidate_id": "2005csc-scc69",
+    "candidate_title": "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)",
+    "query_text": "decision | Mikisew Cree\nFirst Nation v. Canada (Minister of Canadian Heritage)",
+    "method": "title_exact",
+    "matched_key": "mikisew cree first nation v canada minister of canadian heritage",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m1zn",
+        "score": 2.0,
+        "candidate_title": "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)"
+      }
+    ]
+  },
+  "AnnapolisGroupIncVHalifaxRegionalMunicipality": {
+    "uri": "https://canlii.ca/t/jshfv",
+    "score": 3.5,
+    "candidate_id": "2022csc-scc36",
+    "candidate_title": "Annapolis Group Inc. v. Halifax Regional Municipality",
+    "query_text": "decision | <i>Annapolis Group Inc. v. Halifax Regional Municipality</i> | 2022 SCC 36",
+    "method": "citation_exact",
+    "matched_key": "2022scc36",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jshfv",
+        "score": 3.5,
+        "candidate_title": "Annapolis Group Inc. v. Halifax Regional Municipality"
+      }
+    ]
+  },
+  "Southwind v. Canada": {
+    "uri": "https://canlii.ca/t/jh0pr",
+    "score": 3.5,
+    "candidate_id": "2021csc-scc28",
+    "candidate_title": "Southwind v. Canada",
+    "query_text": "decision | <i>Southwind v. Canada</i> | 2021 SCC 28",
+    "method": "citation_exact",
+    "matched_key": "2021scc28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jh0pr",
+        "score": 3.5,
+        "candidate_title": "Southwind v. Canada"
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "G.J. Davies, The Legal Characterization of Overriding Royalty Interests in Oil and Gas": {
+    "uri": "https://canlii.ca/t/td6h",
+    "score": 2.0,
+    "candidate_id": "d85995!d85995",
+    "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas",
+    "query_text": "secondary sources | The Legal Characterization of Overriding Royalty Interests in Oil and Gas | G.J. Davies",
+    "method": "title_exact",
+    "matched_key": "the legal characterization of overriding royalty interests in oil and gas",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 2.0,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      }
+    ]
+  },
+  "Bank of Montreal v. Dynex Petroleum Ltd": {
+    "uri": "https://canlii.ca/t/51tw",
+    "score": 3.5,
+    "candidate_id": "2002csc-scc7",
+    "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd.",
+    "query_text": "decision | Bank of Montreal v Dynex Petroleum Ltd | Dynex SCC | 2002 SCC 7",
+    "method": "citation_exact",
+    "matched_key": "2002scc7",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tw",
+        "score": 3.5,
+        "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd."
+      }
+    ]
+  },
+  "PrairieSky Royalty Ltd v Yangarra Resources Ltd": {
+    "uri": "https://canlii.ca/t/jtstb",
+    "score": 3.5,
+    "candidate_id": "2023abkb11",
+    "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd",
+    "query_text": "decision | <b><i>PrairieSky Royalty Ltd v Yangarra Resources Ltd</i></b> | 2023 ABKB 11",
+    "method": "citation_exact",
+    "matched_key": "2023abkb11",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 3.5,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      }
+    ]
+  },
+  "Vandergrift v Coseka Resources Ltd": {
+    "uri": "https://canlii.ca/t/28n7r",
+    "score": 2.0,
+    "candidate_id": "1989abqb1000047",
+    "candidate_title": "Vandergrift v. Coseka Resources Ltd.",
+    "query_text": "decision | Vandergrift v Coseka Resources Ltd | Vandergrift | (1989) 67 Alta LR (2d) 17",
+    "method": "title_exact",
+    "matched_key": "vandergrift v coseka resources ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28n7r",
+        "score": 2.0,
+        "candidate_title": "Vandergrift v. Coseka Resources Ltd."
+      }
+    ]
+  },
+  "Bank of Montreal v Enchant Resources Ltd": {
+    "uri": "https://canlii.ca/t/5s19",
+    "score": 3.5,
+    "candidate_id": "1999abca363",
+    "candidate_title": "Bank of Montreal v. Enchant Resources Ltd.",
+    "query_text": "decision | <b><i>Bank of Montreal v Enchant Resources Ltd</i></b> | Dynex CA | <b><i>Dynex CA</i></b> | 1999 ABCA 363",
+    "method": "citation_exact",
+    "matched_key": "1999abca363",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5s19",
+        "score": 3.5,
+        "candidate_title": "Bank of Montreal v. Enchant Resources Ltd."
+      }
+    ]
+  },
+  "Stewart and Henderson, A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land": {
+    "uri": "https://canlii.ca/t/t1wq",
+    "score": 2.0,
+    "candidate_id": "d76732!d76732",
+    "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land",
+    "query_text": "secondary sources | A Tale of Two Interests: Reframing <i>Dynex </i>to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land | Elisa Stewart and Joel Henderson",
+    "method": "title_exact",
+    "matched_key": "a tale of two interests reframing dynex to account for surrounding circumstances in determining whether a gross overriding royalty is an interest in land",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/t1wq",
+        "score": 2.0,
+        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+      }
+    ]
+  },
+  "Quesnel, Modernizing the Property Laws that Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry": {
+    "uri": "https://canlii.ca/t/2d9f",
+    "score": 2.0,
+    "candidate_id": "d5083!d5083",
+    "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry",
+    "query_text": "secondary sources | Modernizing the Property Laws that Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry | Alicia K. Quesnel",
+    "method": "title_exact",
+    "matched_key": "modernizing the property laws that bind us challenging traditional property law concepts unsuited to the realities of the oil and gas industry",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2d9f",
+        "score": 2.0,
+        "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry"
+      }
+    ]
+  }
+}

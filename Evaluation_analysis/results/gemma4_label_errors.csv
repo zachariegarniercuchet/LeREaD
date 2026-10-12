@@ -1,0 +1,10 @@
+label,level,gold,system,TP,FN,FP,miss_rate_FN_over_gold,false_discovery_FP_over_sys,precision,recall,F1
+authors,child(component),187,155,132,55,23,0.2941,0.1484,0.8516,0.7059,0.7719
+citation,child(component),2074,1439,1190,884,249,0.4262,0.1730,0.8270,0.5738,0.6775
+decision,parent(mention),2790,2133,1697,1093,436,0.3918,0.2044,0.7956,0.6082,0.6894
+fragment,child(component),2909,2587,2374,535,213,0.1839,0.0823,0.9177,0.8161,0.8639
+legislation,parent(mention),2437,2378,1946,491,432,0.2015,0.1817,0.8183,0.7985,0.8083
+secondary sources,parent(mention),257,274,172,85,102,0.3307,0.3723,0.6277,0.6693,0.6478
+source,child(component),147,143,107,40,36,0.2721,0.2517,0.7483,0.7279,0.7379
+title,child(component),4363,3960,3349,1014,611,0.2324,0.1543,0.8457,0.7676,0.8048
+unable to classify,child(component),87,0,0,87,0,1.0000,0.0000,0.0000,0.0000,0.0000

@@ -1,0 +1,140 @@
+mention,pattern,gold,matched,missed,miss_rate
+decision,title,924,66,858,0.9286
+legislation,title,924,2,922,0.9978
+legislation,fragment,585,6,579,0.9897
+legislation,fragment -> title,568,6,562,0.9894
+decision,title -> citation,434,27,407,0.9378
+decision,fragment,312,0,312,1.0000
+decision,title -> fragment,223,16,207,0.9283
+decision,title -> citation -> fragment,178,18,160,0.8989
+decision,title -> citation -> citation,157,14,143,0.9108
+decision,citation,90,2,88,0.9778
+decision,title -> citation -> fragment -> citation,67,9,58,0.8657
+secondary sources,authors -> title -> source -> fragment,60,1,59,0.9833
+legislation,title -> fragment,59,1,58,0.9831
+decision,citation -> citation,47,1,46,0.9787
+legislation,title -> citation,45,0,45,1.0000
+legislation,fragment -> fragment -> title,41,0,41,1.0000
+legislation,fragment -> fragment,39,0,39,1.0000
+decision,title -> citation -> citation -> citation,33,1,32,0.9697
+decision,fragment -> fragment,32,0,32,1.0000
+legislation,fragment -> title -> citation,31,0,31,1.0000
+secondary sources,authors -> title -> source,28,1,27,0.9643
+decision,title -> citation -> title,27,1,26,0.9630
+decision,title -> citation -> citation -> fragment,26,4,22,0.8462
+decision,citation -> citation -> fragment,23,0,23,1.0000
+legislation,title -> citation -> fragment,23,0,23,1.0000
+secondary sources,authors,23,0,23,1.0000
+secondary sources,fragment,23,0,23,1.0000
+secondary sources,authors -> fragment,22,0,22,1.0000
+decision,title -> fragment -> fragment,21,2,19,0.9048
+decision,title -> citation -> citation -> citation -> citation,19,1,18,0.9474
+decision,title -> citation -> title -> fragment,19,0,19,1.0000
+decision,fragment -> title,17,0,17,1.0000
+legislation,title -> citation -> title,16,0,16,1.0000
+legislation,title -> title,14,0,14,1.0000
+secondary sources,title,13,1,12,0.9231
+legislation,fragment -> title -> citation -> title,12,0,12,1.0000
+decision,title -> citation -> citation -> citation -> citation -> citation,11,0,11,1.0000
+legislation,citation -> fragment,11,0,11,1.0000
+secondary sources,title -> source,11,0,11,1.0000
+decision,title -> citation -> fragment -> citation -> fragment,10,5,5,0.5000
+legislation,fragment -> fragment -> fragment,10,0,10,1.0000
+secondary sources,authors -> title -> fragment,10,1,9,0.9000
+decision,title -> citation -> fragment -> fragment,9,0,9,1.0000
+legislation,citation,9,0,9,1.0000
+legislation,fragment -> title -> title,9,0,9,1.0000
+secondary sources,title -> source -> fragment,9,0,9,1.0000
+decision,title -> citation -> citation -> citation -> citation -> citation -> citation,8,0,8,1.0000
+decision,title -> citation -> fragment -> fragment -> citation,8,2,6,0.7500
+decision,title -> fragment -> citation -> fragment -> citation,8,3,5,0.6250
+secondary sources,title -> fragment,8,0,8,1.0000
+decision,title -> citation -> citation -> title,7,1,6,0.8571
+decision,citation -> citation -> citation,6,0,6,1.0000
+decision,citation -> fragment,6,0,6,1.0000
+decision,title -> citation -> fragment -> citation -> title,6,0,6,1.0000
+decision,title -> fragment -> fragment -> fragment,6,0,6,1.0000
+decision,(no child),5,0,5,1.0000
+legislation,fragment -> fragment -> fragment -> title,5,0,5,1.0000
+legislation,fragment -> title -> fragment,5,0,5,1.0000
+legislation,title -> fragment -> fragment,5,0,5,1.0000
+secondary sources,authors -> fragment -> fragment,5,0,5,1.0000
+legislation,title -> citation -> fragment -> fragment -> fragment,4,0,4,1.0000
+secondary sources,authors -> title,4,0,4,1.0000
+decision,citation -> title,3,1,2,0.6667
+decision,title -> citation -> citation -> citation -> citation -> citation -> citation -> citation,3,0,3,1.0000
+decision,title -> citation -> fragment -> title,3,0,3,1.0000
+decision,title -> fragment -> title,3,0,3,1.0000
+decision,title -> title,3,1,2,0.6667
+legislation,title -> citation -> fragment -> fragment,3,0,3,1.0000
+secondary sources,authors -> title -> source -> fragment -> authors,3,0,3,1.0000
+secondary sources,authors -> title -> source -> fragment -> fragment,3,1,2,0.6667
+decision,citation -> title -> fragment,2,0,2,1.0000
+decision,fragment -> citation -> fragment -> citation,2,0,2,1.0000
+decision,fragment -> fragment -> fragment,2,0,2,1.0000
+decision,title -> citation -> citation -> citation -> citation -> citation -> citation -> citation -> citation,2,0,2,1.0000
+decision,title -> citation -> citation -> fragment -> fragment,2,0,2,1.0000
+decision,title -> citation -> title -> title,2,0,2,1.0000
+decision,title -> fragment -> title -> citation,2,0,2,1.0000
+decision,title -> title -> citation,2,0,2,1.0000
+legislation,fragment -> fragment -> fragment -> title -> citation,2,0,2,1.0000
+legislation,fragment -> fragment -> title -> citation,2,0,2,1.0000
+legislation,title -> citation -> fragment -> fragment -> fragment -> fragment -> fragment,2,0,2,1.0000
+legislation,title -> title -> citation,2,0,2,1.0000
+secondary sources,authors -> source -> title,2,0,2,1.0000
+secondary sources,authors -> source -> title -> fragment -> source,2,0,2,1.0000
+secondary sources,title -> authors,2,0,2,1.0000
+secondary sources,title -> authors -> source,2,1,1,0.5000
+secondary sources,title -> authors -> source -> fragment,2,0,2,1.0000
+secondary sources,title -> fragment -> fragment,2,1,1,0.5000
+secondary sources,title -> source -> authors,2,0,2,1.0000
+secondary sources,title -> source -> authors -> fragment,2,0,2,1.0000
+secondary sources,title -> source -> fragment -> fragment,2,0,2,1.0000
+decision,citation -> citation -> citation -> citation,1,0,1,1.0000
+decision,citation -> citation -> citation -> citation -> citation -> citation -> citation,1,0,1,1.0000
+decision,citation -> citation -> fragment -> fragment,1,0,1,1.0000
+decision,fragment -> citation,1,0,1,1.0000
+decision,title -> citation -> citation -> citation -> citation -> citation -> citation -> citation -> citation -> citation,1,0,1,1.0000
+decision,title -> citation -> citation -> citation -> citation -> citation -> citation -> citation -> title,1,0,1,1.0000
+decision,title -> citation -> citation -> citation -> citation -> citation -> citation -> title,1,0,1,1.0000
+decision,title -> citation -> citation -> citation -> citation -> citation -> citation -> title -> title,1,0,1,1.0000
+decision,title -> citation -> citation -> citation -> fragment -> citation,1,0,1,1.0000
+decision,title -> citation -> citation -> fragment -> title,1,0,1,1.0000
+decision,title -> citation -> citation -> title -> fragment,1,0,1,1.0000
+decision,title -> citation -> citation -> title -> title,1,0,1,1.0000
+decision,title -> citation -> fragment -> citation -> citation -> citation,1,1,0,0.0000
+decision,title -> citation -> fragment -> citation -> citation -> fragment,1,0,1,1.0000
+decision,title -> citation -> fragment -> citation -> fragment -> citation,1,0,1,1.0000
+decision,title -> citation -> fragment -> fragment -> citation -> title,1,0,1,1.0000
+decision,title -> citation -> fragment -> fragment -> fragment -> fragment -> citation -> title,1,1,0,0.0000
+decision,title -> citation -> fragment -> fragment -> fragment -> fragment -> fragment -> fragment,1,0,1,1.0000
+decision,title -> fragment -> fragment -> fragment -> fragment,1,0,1,1.0000
+decision,title -> fragment -> fragment -> fragment -> fragment -> fragment,1,0,1,1.0000
+legislation,citation -> fragment -> fragment,1,0,1,1.0000
+legislation,citation -> title,1,0,1,1.0000
+legislation,fragment -> fragment -> fragment -> fragment -> fragment,1,0,1,1.0000
+legislation,fragment -> fragment -> fragment -> fragment -> fragment -> title,1,0,1,1.0000
+legislation,fragment -> fragment -> title -> citation -> title,1,0,1,1.0000
+legislation,fragment -> fragment -> title -> fragment,1,0,1,1.0000
+legislation,fragment -> title -> citation -> citation,1,0,1,1.0000
+legislation,title -> citation -> citation -> title,1,0,1,1.0000
+legislation,title -> citation -> fragment -> fragment -> fragment -> fragment -> fragment -> fragment -> fragment -> fragment -> fragment,1,0,1,1.0000
+legislation,title -> citation -> title -> fragment,1,0,1,1.0000
+legislation,title -> fragment -> title,1,0,1,1.0000
+secondary sources,authors -> fragment -> fragment -> fragment -> fragment,1,0,1,1.0000
+secondary sources,authors -> fragment -> source,1,0,1,1.0000
+secondary sources,authors -> source,1,0,1,1.0000
+secondary sources,authors -> title -> source -> authors -> fragment,1,1,0,0.0000
+secondary sources,authors -> title -> source -> fragment -> fragment -> fragment,1,0,1,1.0000
+secondary sources,authors -> title -> source -> fragment -> fragment -> fragment -> fragment -> fragment,1,0,1,1.0000
+secondary sources,authors -> title -> source -> fragment -> title -> fragment,1,0,1,1.0000
+secondary sources,authors -> title -> source -> source,1,0,1,1.0000
+secondary sources,fragment -> fragment,1,0,1,1.0000
+secondary sources,source,1,0,1,1.0000
+secondary sources,source -> authors,1,0,1,1.0000
+secondary sources,source -> fragment,1,0,1,1.0000
+secondary sources,source -> title,1,0,1,1.0000
+secondary sources,source -> title -> fragment -> fragment,1,0,1,1.0000
+secondary sources,source -> title -> source -> fragment,1,0,1,1.0000
+secondary sources,title -> authors -> source -> fragment -> fragment -> fragment,1,0,1,1.0000
+secondary sources,title -> source -> fragment -> fragment -> authors,1,0,1,1.0000

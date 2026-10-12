@@ -1,0 +1,23 @@
+{
+  "Criminal Records Act": {
+    "uri": "https://canlii.ca/t/56lsj",
+    "score": 2.0,
+    "candidate_id": "l12793!12793-current-1",
+    "candidate_title": "Criminal Records Act",
+    "query_text": "legislation | <i>Criminal Records Act</i> | Criminal\nRecords Act",
+    "method": "title_exact",
+    "matched_key": "criminal records act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsj",
+        "score": 2.0,
+        "candidate_title": "Criminal Records Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fmwv",
+        "score": 2.0,
+        "candidate_title": "Loi sur le casier judiciaire"
+      }
+    ]
+  }
+}

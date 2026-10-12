@@ -1,0 +1,49 @@
+mention,pattern_grouped,fp_spurious
+decision,title,211
+legislation,title,191
+decision,(unaligned),146
+legislation,fragment,135
+legislation,fragment -> title,66
+decision,title -> citation,49
+decision,fragment,42
+legislation,(unaligned),37
+decision,title -> fragment,26
+secondary sources,(unaligned),22
+legislation,title -> citation,19
+secondary sources,title -> fragment,18
+legislation,title -> fragment,15
+decision,title -> citation -> fragment,14
+secondary sources,authors,12
+secondary sources,title,12
+legislation,fragment -> title -> citation,10
+secondary sources,(no child),10
+secondary sources,authors -> title -> source -> fragment,10
+decision,(no child),9
+secondary sources,title -> source -> fragment,7
+legislation,(no child),6
+decision,title -> citation -> fragment -> citation,5
+secondary sources,authors -> title -> source,5
+secondary sources,fragment,5
+secondary sources,title -> source,5
+decision,citation,4
+decision,fragment -> citation,4
+legislation,fragment -> title -> fragment -> title,4
+legislation,title -> citation -> fragment,4
+secondary sources,authors -> fragment,4
+legislation,citation,3
+legislation,title -> citation -> title,3
+secondary sources,source -> fragment,3
+decision,title -> citation -> title,2
+legislation,fragment -> citation,2
+legislation,fragment -> title -> citation -> title,2
+decision,title -> citation -> fragment -> citation -> title,1
+decision,title -> citation -> title -> citation -> title -> citation -> title,1
+decision,title -> citation -> title -> citation -> title -> citation -> title -> citation -> title -> citation,1
+legislation,citation -> title -> citation,1
+legislation,fragment -> title -> fragment,1
+legislation,title -> citation -> title -> citation,1
+legislation,title -> citation -> title -> citation -> fragment,1
+secondary sources,authors -> fragment -> title -> source,1
+secondary sources,authors -> title,1
+secondary sources,authors -> title -> source -> authors -> title -> source,1
+secondary sources,title -> authors -> source -> fragment,1

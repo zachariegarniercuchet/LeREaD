@@ -120,6 +120,7 @@ class CorefEvaluationConfig:
     verbose_per_file: bool = False
     match_mode: str = "id"        # "id" (gold setting) | "span" (pipeline setting)
     unmatched: str = "singleton"  # span mode only: "singleton" | "drop"
+    overlap: bool = True          # extra overlap-alignment comparison (exact stays main)
 
     def get_ground_truth_dir(self) -> Path:
         return Path(self.data_dir) / "annotated" / self.split
@@ -129,6 +130,12 @@ class CorefEvaluationConfig:
         if self.match_mode == "id":
             return "evaluation_coref_results.txt"
         return f"evaluation_coref_results_span_{self.unmatched}.txt"
+
+    def overlap_results_filename(self) -> str:
+        # overlap comparison always goes to a separate file — exact logs untouched
+        if self.match_mode == "id":
+            return "evaluation_coref_results_overlap.txt"
+        return f"evaluation_coref_results_span_{self.unmatched}_overlap.txt"
 
     def validate(self) -> None:
         if self.match_mode not in ("id", "span"):
@@ -336,6 +343,90 @@ def align_and_build_clusters(
     return gold_clusters, system_clusters, stats
 
 
+# =============================================================================
+# Overlap alignment (COMPARISON ONLY — exact alignment above is untouched)
+# =============================================================================
+
+def _mention_overlap_len(a: Mention, b: Mention) -> int:
+    """Character length of the offset intersection, or 0 (labels must agree)."""
+    if a.label != b.label:
+        return 0
+    return max(0, min(a.end, b.end) - max(a.start, b.start))
+
+
+def align_and_build_clusters_overlap(
+    gold_mentions: List[Mention],
+    system_mentions: List[Mention],
+    unmatched: str = "singleton",
+) -> Tuple[List[List[str]], List[List[str]], Dict[str, int]]:
+    """Re-express gold and system clusters over a shared mention space, where
+    a system mention aligns to a gold mention on OVERLAP (same labelname +
+    intersecting character offsets) instead of exact (label, start, end).
+
+    Greedy best-overlap matching: each gold mention takes the unused system
+    mention with the largest intersection (ties broken by order); each span
+    is used at most once. The shared key of a matched pair is the gold key.
+    Twinless-mention handling (`unmatched`) mirrors align_and_build_clusters.
+
+    Comparison only — the exact-match align_and_build_clusters() above is
+    untouched and remains the main metric.
+    """
+    used = [False] * len(system_mentions)
+    sys_to_shared: Dict[int, str] = {}
+    matched_gold_keys = set()
+    n_pairs = 0
+
+    for g in gold_mentions:
+        best_j = -1
+        best_ov = 0
+        for j, s in enumerate(system_mentions):
+            if used[j]:
+                continue
+            ov = _mention_overlap_len(g, s)
+            if ov > best_ov:
+                best_ov = ov
+                best_j = j
+        if best_j != -1:
+            used[best_j] = True
+            sys_to_shared[best_j] = g.key
+            matched_gold_keys.add(g.key)
+            n_pairs += 1
+
+    sys_remapped = [
+        Mention(
+            key=sys_to_shared.get(j, s.key),
+            docid=s.docid,
+            label=s.label,
+            start=s.start,
+            end=s.end,
+            text=s.text,
+        )
+        for j, s in enumerate(system_mentions)
+    ]
+
+    gold_keys = {m.key for m in gold_mentions}
+    sys_keys = {m.key for m in system_mentions}
+    gold_only = {k for k in gold_keys if k not in matched_gold_keys}
+    sys_only = {s.key for j, s in enumerate(system_mentions) if not used[j]}
+
+    stats = {
+        "gold": len(gold_keys),
+        "system": len(sys_keys),
+        "matched": n_pairs,
+        "gold_only": len(gold_only),
+        "system_only": len(sys_only),
+    }
+
+    if unmatched == "drop":
+        gold_clusters = _group_by_docid([m for m in gold_mentions if m.key in matched_gold_keys])
+        system_clusters = _group_by_docid([m for m in sys_remapped if m.key in matched_gold_keys])
+    else:
+        gold_clusters = _group_by_docid(gold_mentions) + [[k] for k in sorted(sys_only)]
+        system_clusters = _group_by_docid(sys_remapped) + [[k] for k in sorted(gold_only)]
+
+    return gold_clusters, system_clusters, stats
+
+
 def format_alignment_stats(stats: Dict[str, int], title: str = "Mention alignment") -> str:
     m, g, s = stats["matched"], stats["gold"], stats["system"]
     p = m / s if s else 0.0
@@ -366,6 +457,24 @@ def load_cluster_pair(
     gold_mentions = extract_mentions_with_offsets(_read(gold_path))
     system_mentions = extract_mentions_with_offsets(_read(system_path))
     return align_and_build_clusters(gold_mentions, system_mentions, config.unmatched)
+
+
+def load_cluster_pair_overlap(
+    gold_path: Path, system_path: Path, config: CorefEvaluationConfig
+) -> Tuple[List[List[str]], List[List[str]], Optional[Dict[str, int]]]:
+    """Overlap-alignment variant of load_cluster_pair (comparison only).
+
+    id mode has no spans to overlap, so overlap is only defined for span
+    mode; in id mode this falls back to the exact pairing.
+    """
+    if config.match_mode == "id":
+        return load_clusters(gold_path), load_clusters(system_path), None
+
+    if system_path.suffix != ".html":
+        raise ValueError(f"span mode needs a system *_coref.html file, got: {system_path}")
+    gold_mentions = extract_mentions_with_offsets(_read(gold_path))
+    system_mentions = extract_mentions_with_offsets(_read(system_path))
+    return align_and_build_clusters_overlap(gold_mentions, system_mentions, config.unmatched)
 
 
 # =============================================================================
@@ -439,6 +548,32 @@ def run_single_file_evaluation(config: CorefEvaluationConfig):
 
     full_log = header + captured
     save_evaluation_log(system_path.parent, full_log, config.results_filename())
+
+    # ---- Overlap alignment (comparison only; exact output above untouched) ----
+    if getattr(config, "overlap", True):
+        ov_buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(ov_buffer):
+                print("\n" + "=" * 70)
+                print("OVERLAP ALIGNMENT (comparison — main metric remains EXACT above)")
+                print("Mentions align on same label + overlapping character offsets.")
+                print("=" * 70)
+                ov_gold, ov_system, ov_stats = load_cluster_pair_overlap(gold_path, system_path, config)
+                if ov_stats is not None:
+                    print(format_alignment_stats(ov_stats, title="Mention alignment [OVERLAP]"))
+                ov_raw = evaluate_coref_raw(ov_gold, ov_system)
+                ov_scores = finalize_raw(ov_raw)
+                print_evaluation_table(ov_scores, title=f"Coreference Evaluation [OVERLAP] — {doc_stem}")
+        except Exception as e:
+            print(f"\n⚠ Overlap evaluation failed (exact results above unaffected): {e}")
+            ov_buffer.write(f"\n⚠ Overlap evaluation failed: {e}\n")
+        ov_captured = ov_buffer.getvalue()
+        print(ov_captured)
+        full_log += ov_captured
+        save_evaluation_log(system_path.parent, full_log, config.overlap_results_filename())
+        return scores, ov_scores
+
+    return scores
 
 
 # =============================================================================
@@ -582,6 +717,43 @@ def run_batch_evaluation(config: CorefEvaluationConfig):
     full_log = header + f"Found {len(pairs)} evaluation pair(s)\n\n" + captured
     save_evaluation_log(batch_folder, full_log, config.results_filename())
 
+    # ---- Overlap alignment (comparison only; exact output above untouched) ----
+    overlap_scores = None
+    if getattr(config, "overlap", True):
+        ov_buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(ov_buffer):
+                print("\n" + "=" * 70)
+                print("OVERLAP ALIGNMENT (comparison — main metric remains EXACT above)")
+                print("Mentions align on same label + overlapping character offsets.")
+                print("=" * 70)
+                ov_per_file_raws = []
+                ov_total_stats: Dict[str, int] = defaultdict(int)
+                for gold_path, system_path in pairs:
+                    ov_gold, ov_system, ov_stats = load_cluster_pair_overlap(gold_path, system_path, config)
+                    ov_raw = evaluate_coref_raw(ov_gold, ov_system)
+                    ov_per_file_raws.append(ov_raw)
+                    if ov_stats is not None:
+                        for k, v in ov_stats.items():
+                            ov_total_stats[k] += v
+                    if config.verbose_per_file:
+                        if ov_stats is not None:
+                            print(format_alignment_stats(ov_stats, title=f"Mention alignment [OVERLAP] — {gold_path.stem}"))
+                        print_evaluation_table(finalize_raw(ov_raw), title=f"{gold_path.stem} [OVERLAP]")
+
+                ov_aggregated = finalize_raw(aggregate_raw(ov_per_file_raws))
+                if config.match_mode == "span":
+                    print(format_alignment_stats(dict(ov_total_stats), title=f"Mention alignment [OVERLAP] (total over {len(pairs)} document(s))"))
+                print_evaluation_table(ov_aggregated, title=f"Aggregate over {len(pairs)} document(s) [OVERLAP]")
+                overlap_scores = ov_aggregated
+        except Exception as e:
+            print(f"\n⚠ Overlap evaluation failed (exact results above unaffected): {e}")
+            ov_buffer.write(f"\n⚠ Overlap evaluation failed: {e}\n")
+        ov_captured = ov_buffer.getvalue()
+        print(ov_captured)
+        full_log += ov_captured
+        save_evaluation_log(batch_folder, full_log, config.overlap_results_filename())
+
     return aggregated_scores
 
 
@@ -596,6 +768,8 @@ def _add_match_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--unmatched", choices=["singleton", "drop"], default="singleton",
                    help="span mode only. singleton: unmatched mentions become singletons on the other side "
                         "(end-to-end, default). drop: score only mentions present on both sides")
+    p.add_argument("--no-overlap", action="store_true",
+                   help="Skip the extra overlap-alignment comparison (exact match is always shown)")
 
 
 def main():
@@ -642,6 +816,7 @@ def main():
             verbose_per_file=args.verbose,
             match_mode=args.match_mode,
             unmatched=args.unmatched,
+            overlap=not args.no_overlap,
         )
         config.validate()
         run_single_file_evaluation(config)
@@ -655,6 +830,7 @@ def main():
             verbose_per_file=args.verbose,
             match_mode=args.match_mode,
             unmatched=args.unmatched,
+            overlap=not args.no_overlap,
         )
         config.validate()
         run_batch_evaluation(config)

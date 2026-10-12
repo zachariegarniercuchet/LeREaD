@@ -1,0 +1,171 @@
+{
+  "Manitoba v. Manitoba Human Rights Commission": {
+    "uri": "https://canlii.ca/t/g9tvb",
+    "score": 2.0,
+    "candidate_id": "1983mbca1000024",
+    "candidate_title": "Manitoba v. Manitoba Human Rights Commission",
+    "query_text": "decision | Manitoba v. Manitoba Human Rights Commission",
+    "method": "title_exact",
+    "matched_key": "manitoba v manitoba human rights commission",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9tvb",
+        "score": 2.0,
+        "candidate_title": "Manitoba v. Manitoba Human Rights Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9jb5",
+        "score": 2.0,
+        "candidate_title": "Manitoba v. Manitoba Human Rights Commission"
+      }
+    ]
+  },
+  "Human Rights Act (Manitoba)": {
+    "uri": "https://canlii.ca/t/53j7p",
+    "score": 2.0,
+    "candidate_id": "l22604!22604-current-1",
+    "candidate_title": "Human Rights Act",
+    "query_text": "legislation | Human Rights\nAct | Act | 1974 (Man.), c. 65 (C.C.S.M., H175)",
+    "method": "title_exact",
+    "matched_key": "human rights act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53j7p",
+        "score": 2.0,
+        "candidate_title": "Human Rights Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtj5",
+        "score": 2.0,
+        "candidate_title": "Human Rights Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8j8z",
+        "score": 2.0,
+        "candidate_title": "Human Rights Act"
+      }
+    ]
+  },
+  "Re Newport and Government of Manitoba": {
+    "uri": "https://canlii.ca/t/gb9bv",
+    "score": 3.4,
+    "candidate_id": "1982mbca1000019",
+    "candidate_title": "Newport v. Manitoba",
+    "query_text": "decision | <i>Re\nNewport and Government of Manitoba</i> (1982) | Newport | 131 D L.R. (3d) 564 | [1982] 2\nW.W.R. 254 | 13 Man. R. (2d) 292",
+    "method": "citation_exact",
+    "matched_key": "131dlr3d564",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gb9bv",
+        "score": 3.4,
+        "candidate_title": "Newport v. Manitoba"
+      }
+    ]
+  },
+  "Re Manitoba Human Rights Com": {
+    "uri": "https://canlii.ca/t/gc4l3",
+    "score": 3.2,
+    "candidate_id": "1982mbqb1000027",
+    "candidate_title": "Manitoba Human Rights Commission v. Winnipeg (City)",
+    "query_text": "decision | <i>Re Manitoba Human Rights Com'n et\nal. and City of Winnipeg et al.</i> (1982) | Re Manitoba Human Rights Com'n et al. and\nCity of Winnipeg et al. | 135 D.L.R. 641 | 16 Man.\nR. (2d) 94 | [1982] 4 W.W.R. 715",
+    "method": "citation_exact",
+    "matched_key": "16manr2d94",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gc4l3",
+        "score": 3.2,
+        "candidate_title": "Manitoba Human Rights Commission v. Winnipeg (City)"
+      }
+    ]
+  },
+  "Dressier v. Tollman Gravel & Sand Supply Ltd.": {
+    "uri": "https://canlii.ca/t/gdlsg",
+    "score": 3.2,
+    "candidate_id": "1962mbca1000010",
+    "candidate_title": "Dressler v. Tallman Gravel & Sand Supply Ltd.",
+    "query_text": "decision | <i>Dressier v. Tollman Gravel &amp; Sand Supply Ltd.</i>\n(1962) | 36 D.L.R. (2d) 398 | [1963] 2 C.C.C. 25 | 40 W.W.R. 449",
+    "method": "citation_exact",
+    "matched_key": "19632ccc25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gdlsg",
+        "score": 3.2,
+        "candidate_title": "Dressler v. Tallman Gravel & Sand Supply Ltd."
+      }
+    ]
+  },
+  "R. v. Metropolitan Toronto Board of Com": {
+    "uri": "https://canlii.ca/t/g17zd",
+    "score": 3.0,
+    "candidate_id": "1971onca1000091",
+    "candidate_title": "Regina v. Metropolitan Toronto Board of Commissioners of Police, Ex parte Prosser",
+    "query_text": "decision | <i>R. v. Metropolitan Toronto Board of Com'rs of\nPolice, Ex p. Prosser</i> (1971) | 20 D.L.R. (3d) 403 | [1971] 3 O.R. 353 (Ont. C.A.)",
+    "method": "citation_exact",
+    "matched_key": "20dlr3d403",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g17zd",
+        "score": 3.0,
+        "candidate_title": "Regina v. Metropolitan Toronto Board of Commissioners of Police, Ex parte Prosser"
+      }
+    ]
+  },
+  "Re Int": {
+    "uri": "https://canlii.ca/t/g1f6t",
+    "score": 3.0,
+    "candidate_id": "1973onhcjdc1000106",
+    "candidate_title": "Re International Beverage Dispensers' & Bartenders' Union Local 280 and Man of Aran Ltd.",
+    "query_text": "decision | <i>Re Int'l Beverage Dispensers' &amp; Bartenders' Union Local 280 and Man\nof Aran Ltd.</i> (1973) | <i>Man of Aran Ltd.</i> | 41 D.L.R. (3d) 699 | 2 O.R. (2d) 54 (Ont. Div. Ct.)",
+    "method": "citation_exact",
+    "matched_key": "41dlr3d699",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1f6t",
+        "score": 3.0,
+        "candidate_title": "Re International Beverage Dispensers' & Bartenders' Union Local 280 and Man of Aran Ltd."
+      }
+    ]
+  },
+  "Re City of Winnipeg and Torchinsky": {
+    "uri": "https://canlii.ca/t/gbkgp",
+    "score": 3.2,
+    "candidate_id": "1981mbqb1000010",
+    "candidate_title": "Winnipeg (City) v. Torchinsky",
+    "query_text": "decision | <i>Re City of Winnipeg and Torchinsky</i> (1981) | 129 D.L.R. (3d) 170 | 13 Man. R. (2d) 369",
+    "method": "citation_exact",
+    "matched_key": "129dlr3d170",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbkgp",
+        "score": 3.2,
+        "candidate_title": "Winnipeg (City) v. Torchinsky"
+      }
+    ]
+  },
+  "City of Winnipeg Act": {
+    "uri": "https://canlii.ca/t/8llp",
+    "score": 0.9090909090909091,
+    "candidate_id": "l32761!32761-current-1",
+    "candidate_title": "The City of Winnipeg Act",
+    "query_text": "legislation | City of Winnipeg Act",
+    "method": "fuzzy",
+    "matched_key": "city of winnipeg act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/8llp",
+        "score": 0.9090909090909091,
+        "candidate_title": "The City of Winnipeg Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8llp",
+        "score": 0.9090909090909091,
+        "candidate_title": "The City of Winnipeg Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8llp",
+        "score": 0.9090909090909091,
+        "candidate_title": "The City of Winnipeg Act"
+      }
+    ]
+  }
+}

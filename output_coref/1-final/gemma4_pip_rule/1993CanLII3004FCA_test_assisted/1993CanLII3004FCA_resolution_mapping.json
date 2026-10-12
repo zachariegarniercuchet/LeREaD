@@ -1,0 +1,999 @@
+{
+  "Food and Drugs Act": {
+    "uri": "https://canlii.ca/t/56h1l",
+    "score": 3.5,
+    "candidate_id": "l12835!12835-current-1",
+    "candidate_title": "Food and Drugs Act",
+    "query_text": "legislation | Food and Drugs Act | FDA | R.S.C., 1985, c. F-27",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cf27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56h1l",
+        "score": 3.5,
+        "candidate_title": "Food and Drugs Act"
+      }
+    ]
+  },
+  "Patented Medicines Regulations": {
+    "uri": "https://canlii.ca/t/56g1j",
+    "score": 3.5,
+    "candidate_id": "l16228!16228-current-1",
+    "candidate_title": "Patented Medicines (Notice of Compliance) Regulations",
+    "query_text": "legislation | Patented Medicines Regulations | Regulations | Patented Medicines (Notice of Compliance) Regulations | SOR/93-133",
+    "method": "citation_exact",
+    "matched_key": "sor93133",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g1j",
+        "score": 3.5,
+        "candidate_title": "Patented Medicines (Notice of Compliance) Regulations"
+      }
+    ]
+  },
+  "Federal Court Act": {
+    "uri": "https://canlii.ca/t/56bzl",
+    "score": 3.5,
+    "candidate_id": "l12841!12841-current-1",
+    "candidate_title": "Federal Courts Act",
+    "query_text": "legislation | Federal Court Act | R.S.C., 1985, c. F-7 | S.C. 1990, c. 8",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cf7",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56bzl",
+        "score": 3.5,
+        "candidate_title": "Federal Courts Act"
+      }
+    ]
+  },
+  "Patent Act": {
+    "uri": "https://canlii.ca/t/56g26",
+    "score": 3.5,
+    "candidate_id": "l12930!12930-current-1",
+    "candidate_title": "Patent Act",
+    "query_text": "legislation | Patent Act | The Patent Act | Act | former Act | S.C. 1923, c. 23 | R.S.C. 1952, c. 203 | S.C. 1968-69, c. 49 | R.S.C., 1985, c. P-4 | S.C. 1993, c. 2",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cp4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g26",
+        "score": 3.5,
+        "candidate_title": "Patent Act"
+      }
+    ]
+  },
+  "Food and Drug Regulations": {
+    "uri": "https://canlii.ca/t/56nf3",
+    "score": 3.5,
+    "candidate_id": "l13867!13867-current-1",
+    "candidate_title": "Food and Drug Regulations",
+    "query_text": "legislation | Food and Drug Regulations | FDA Regulations | FDR | C.R.C., c. 870 | SOR/85-143 | SOR/88-257 | C.08.002. | C.08.004. | <auto_label id=\"407\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">regulation C.08.004</auto_label>",
+    "method": "citation_exact",
+    "matched_key": "crcc870",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nf3",
+        "score": 3.5,
+        "candidate_title": "Food and Drug Regulations"
+      }
+    ]
+  },
+  "Clean Water Act": {
+    "uri": "https://canlii.ca/t/53q4n",
+    "score": 3.5,
+    "candidate_id": "l50684!50684-current-1",
+    "candidate_title": "Clean Water Act",
+    "query_text": "legislation | Clean Water Act | R.S.A. 1980, c. C-13",
+    "method": "citation_exact",
+    "matched_key": "rsa1980cc13",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53q4n",
+        "score": 3.5,
+        "candidate_title": "Clean Water Act"
+      }
+    ]
+  },
+  "Criminal Code": {
+    "uri": "https://canlii.ca/t/56lsh",
+    "score": 2.0,
+    "candidate_id": "l12792!12792-current-1",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Criminal Code | R.S.C. 1970, c. C-34",
+    "method": "title_exact",
+    "matched_key": "criminal code",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 2.0,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 2.0,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Interpretation Act": {
+    "uri": "https://canlii.ca/t/56fd8",
+    "score": 3.5,
+    "candidate_id": "l12864!12864-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | R.S.C. 1952, c. 158 | S.C. 1967-68, c. 7 | R.S.C., 1985, c. I-21",
+    "method": "citation_exact",
+    "matched_key": "rsc1985ci21",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 3.5,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Annual Survey of Canadian Law: Administrative Law": {
+    "uri": "https://canlii.ca/t/7n0vt",
+    "score": 2.0,
+    "candidate_id": "d210805!d210805",
+    "candidate_title": "Annual Survey of Canadian Law – Administrative Law",
+    "query_text": "secondary sources | Annual Survey of Canadian Law: Administrative Law | Macdonald, R. A. and M. Paskell-Mede | R. A. Macdonald and M. Paskell-Mede",
+    "method": "title_exact",
+    "matched_key": "annual survey of canadian law administrative law",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7n0vt",
+        "score": 2.0,
+        "candidate_title": "Annual Survey of Canadian Law – Administrative Law"
+      }
+    ]
+  },
+  "Pfizer Canada Inc. v. Minister of National Health & Welfare et al.": {
+    "uri": "https://canlii.ca/t/g9x04",
+    "score": 2.0,
+    "candidate_id": "1986fctad1000163",
+    "candidate_title": "Pfizer Canada Inc. v. Minister of National Health & Welfare et al.",
+    "query_text": "decision | Pfizer Canada Inc. v. Minister of National Health &amp; Welfare et al. | Pfizer | (1986), 12 C.P.R. (3d) 438 (F.C.A.) | (1987), 14 C.P.R. (3d) 447",
+    "method": "title_exact",
+    "matched_key": "pfizer canada inc v minister of national health welfare et al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9x04",
+        "score": 2.0,
+        "candidate_title": "Pfizer Canada Inc. v. Minister of National Health & Welfare et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/k97g0",
+        "score": 2.0,
+        "candidate_title": "Pfizer Canada Inc. v. Minister of National Health & Welfare et al."
+      }
+    ]
+  },
+  "Glaxo Canada Inc. v. Canada (Minister of National Health and Welfare)": {
+    "uri": "https://canlii.ca/t/gb9pr",
+    "score": 2.0,
+    "candidate_id": "1987fcttd1000037",
+    "candidate_title": "Glaxo Canada Inc. v. Canada (Minister of National Health and Welfare)",
+    "query_text": "decision | Glaxo Canada Inc. v. Canada (Minister of National Health and Welfare) | Glaxo Canada Inc. | Glaxo Canada | [1988] 1 F.C. 422 (T.D.) | (1988), 19 C.I.P.R. 120 (F.C.T.D.) | (1990), 68 D.L.R. (4th) 761 (F.C.A.)",
+    "method": "title_exact",
+    "matched_key": "glaxo canada inc v canada minister of national health and welfare",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gb9pr",
+        "score": 2.0,
+        "candidate_title": "Glaxo Canada Inc. v. Canada (Minister of National Health and Welfare)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gc3bt",
+        "score": 2.0,
+        "candidate_title": "Glaxo Canada Inc. v. Canada (Minister of National Health & Welfare)"
+      }
+    ]
+  },
+  "Apotex Inc. v. Attorney General of Canada et al.": {
+    "uri": "https://canlii.ca/t/jqt7b",
+    "score": 2.0,
+    "candidate_id": "1986fcttd1000039",
+    "candidate_title": "Apotex Inc. v. Canada (Attorney General)",
+    "query_text": "decision | Apotex Inc. v. Attorney General of Canada et al. | (1986), 11 C.P.R. (3d) 43 (F.C.T.D.) | (1986), 11 C.P.R. (3d) 62 | (1986), 12 C.P.R. (3d) 95 (F.C.A.)",
+    "method": "title_exact",
+    "matched_key": "apotex inc v attorney general of canada et al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqt7b",
+        "score": 2.0,
+        "candidate_title": "Apotex Inc. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gch95",
+        "score": 2.0,
+        "candidate_title": "Apotex Inc. v. Attorney-General of Canada et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/g9rnc",
+        "score": 2.0,
+        "candidate_title": "Apotex Inc. v. Attorney-General of Canada et al."
+      }
+    ]
+  },
+  "Apotex Inc. v. Canada (Attorney-General)": {
+    "uri": "https://canlii.ca/t/4nmr",
+    "score": 2.0,
+    "candidate_id": "1993fctad10041",
+    "candidate_title": "Apotex Inc. v. Canada (Attorney General) (C.A.)",
+    "query_text": "decision | Apotex Inc. v. Canada (Attorney-General | Apotex | (1993), 49 C.P.R. (3d) 161",
+    "method": "title_exact",
+    "matched_key": "apotex inc v canada attorney general",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4nmr",
+        "score": 2.0,
+        "candidate_title": "Apotex Inc. v. Canada (Attorney General) (C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqt7b",
+        "score": 2.0,
+        "candidate_title": "Apotex Inc. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g0ktr",
+        "score": 2.0,
+        "candidate_title": "Apotex Inc. v. Canada (Attorney General) (T.D.)"
+      }
+    ]
+  },
+  "Apotex Inc. v. Canada (Attorney General) et al.": {
+    "uri": "https://canlii.ca/t/g0ktr",
+    "score": 2.0,
+    "candidate_id": "1996fcttd105034",
+    "candidate_title": "Apotex Inc. v. Canada (Attorney General) (T.D.)",
+    "query_text": "decision | Apotex Inc. v. Canada (Attorney General) et al. | Apotex Inc. v. Canada (Attorney-General) et al. | (1993), 59 F.T.R. 85",
+    "method": "title_exact",
+    "matched_key": "apotex inc v canada attorney general et al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0ktr",
+        "score": 2.0,
+        "candidate_title": "Apotex Inc. v. Canada (Attorney General) (T.D.)"
+      }
+    ]
+  },
+  "C.E. Jamieson & Co. (Dominion) v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/gbnp5",
+    "score": 2.0,
+    "candidate_id": "1987fcttd1000039",
+    "candidate_title": "C.E. Jamieson & Co. (Dominion) v. Canada (Attorney General)",
+    "query_text": "decision | C.E. Jamieson &amp; Co. (Dominion) v. Canada (Attorney General) | C.E. Jamieson &amp; Co. (Dominion) v. Canada (Attorney-General) | [1988] 1 F.C. 590 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "c e jamieson co dominion v canada attorney general",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbnp5",
+        "score": 2.0,
+        "candidate_title": "C.E. Jamieson & Co. (Dominion) v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "City of Ottawa v. Boyd Builders Ltd.": {
+    "uri": "https://canlii.ca/t/1nlkr",
+    "score": 3.0,
+    "candidate_id": "1965csc-scc10000",
+    "candidate_title": "City of Ottawa et al. v. Boyd Builders Ltd.",
+    "query_text": "decision | Ottawa | City of v. Boyd Builders Ltd. | Ottawa, City of v. Boyd Builders Ltd. | Boyd Builders | <i>Boyd Builders</i> | [1965] S.C.R. 408",
+    "method": "citation_exact",
+    "matched_key": "1965scr408",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nlkr",
+        "score": 3.0,
+        "candidate_title": "City of Ottawa et al. v. Boyd Builders Ltd."
+      }
+    ]
+  },
+  "O’Grady v. Whyte": {
+    "uri": "https://canlii.ca/t/g93kv",
+    "score": 2.0,
+    "candidate_id": "1982fctad1000623",
+    "candidate_title": "O'Grady v. Whyte",
+    "query_text": "decision | O’Grady v. Whyte | O’Grady | [1983] 1 F.C. 719 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "o grady v whyte",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g93kv",
+        "score": 2.0,
+        "candidate_title": "O'Grady v. Whyte"
+      }
+    ]
+  },
+  "Karavos v. Toronto & Gillies": {
+    "uri": "https://canlii.ca/t/gwc4f",
+    "score": 0.9259259259259259,
+    "candidate_id": "1947onca1000061",
+    "candidate_title": "Karavos v. Toronto and Gillies",
+    "query_text": "decision | Karavos v. Toronto &amp; Gillies | Karavos | [1948] 3 D.L.R. 294 (Ont. C.A.)",
+    "method": "fuzzy",
+    "matched_key": "karavos v toronto gillies",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwc4f",
+        "score": 0.9259259259259259,
+        "candidate_title": "Karavos v. Toronto and Gillies"
+      }
+    ]
+  },
+  "Mensinger v. Canada (Minister of Employment and Immigration)": {
+    "uri": "https://canlii.ca/t/jqt5n",
+    "score": 2.0,
+    "candidate_id": "1986fcttd1000058",
+    "candidate_title": "Mensinger v. Canada (Minister of Employment and immigration)",
+    "query_text": "decision | Mensinger v. Canada (Minister of Employment and Immigration) | [1987] 1 F.C. 59 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "mensinger v canada minister of employment and immigration",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqt5n",
+        "score": 2.0,
+        "candidate_title": "Mensinger v. Canada (Minister of Employment and immigration)"
+      }
+    ]
+  },
+  "Jefford v. Canada": {
+    "uri": "https://canlii.ca/t/gcq9d",
+    "score": 2.0,
+    "candidate_id": "1988fctad1000102",
+    "candidate_title": "Jefford v. Canada",
+    "query_text": "decision | Jefford v. Canada | [1988] 2 F.C. 189 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "jefford v canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gcq9d",
+        "score": 2.0,
+        "candidate_title": "Jefford v. Canada"
+      }
+    ]
+  },
+  "Rossi v. The Queen": {
+    "uri": "https://canlii.ca/t/jqrkg",
+    "score": 2.0,
+    "candidate_id": "1974fcttd1000089",
+    "candidate_title": "Rossi v. The Queen",
+    "query_text": "decision | Rossi v. The Queen | [1974] 1 F.C. 531 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "rossi v the queen",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqrkg",
+        "score": 2.0,
+        "candidate_title": "Rossi v. The Queen"
+      }
+    ]
+  },
+  "Canadian Wildlife Federation Inc. v. Canada (Minister of the Environment)": {
+    "uri": "https://canlii.ca/t/g97q6",
+    "score": 0.971830985915493,
+    "candidate_id": "1989fcttd1000073",
+    "candidate_title": "Can. Wildlife Fed. Inc. V. Can. (Min. of the Environment)",
+    "query_text": "decision | Canadian Wildlife Federation Inc. v. Canada (Minister of the Environment) | [1989] 3 F.C. 309 (T.D.) | [1990] 2 W.W.R. 69 (F.C.A.)",
+    "method": "fuzzy",
+    "matched_key": "canadian wildlife federation inc v canada minister of the environment",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g97q6",
+        "score": 0.971830985915493,
+        "candidate_title": "Can. Wildlife Fed. Inc. V. Can. (Min. of the Environment)"
+      }
+    ]
+  },
+  "Bedard v. Correctional Service of Canada": {
+    "uri": "https://canlii.ca/t/jqvcq",
+    "score": 2.0,
+    "candidate_id": "1983fcttd1000034",
+    "candidate_title": "Bedard v. Correctional Service of Canada",
+    "query_text": "decision | Bedard v. Correctional Service of Canada | [1984] 1 F.C. 193 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "bedard v correctional service of canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqvcq",
+        "score": 2.0,
+        "candidate_title": "Bedard v. Correctional Service of Canada"
+      }
+    ]
+  },
+  "Carota v. Jamieson": {
+    "uri": "https://canlii.ca/t/jqvtz",
+    "score": 2.0,
+    "candidate_id": "1978fcttd1000040",
+    "candidate_title": "Carota v. Jamieson",
+    "query_text": "decision | Carota v. Jamieson | [1979] 1 F.C. 735 (T.D.) | [1980] 1 F.C. 790 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "carota v jamieson",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqvtz",
+        "score": 2.0,
+        "candidate_title": "Carota v. Jamieson"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqwf6",
+        "score": 2.0,
+        "candidate_title": "Carota v. Jamieson"
+      }
+    ]
+  },
+  "Nguyen v. Canada (Minister of Employment and Immigration)": {
+    "uri": "https://canlii.ca/t/4np2",
+    "score": 0.9642857142857143,
+    "candidate_id": "1993fctad10032",
+    "candidate_title": "Nguyen v. Canada (Minister of Employment and Immigration) (C.A.)",
+    "query_text": "decision | Nguyen v. Canada (Minister of Employment and Immigration) | [1994] 1 F.C. 232 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "nguyen v canada minister of employment and immigration",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4np2",
+        "score": 0.9642857142857143,
+        "candidate_title": "Nguyen v. Canada (Minister of Employment and Immigration) (C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqt5n",
+        "score": 0.918918918918919,
+        "candidate_title": "Mensinger v. Canada (Minister of Employment and immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9wnq",
+        "score": 0.8928571428571429,
+        "candidate_title": "Bendahmane v. Canada (Minister of Employment and Immigration) (C.A.)"
+      }
+    ]
+  },
+  "Distribution Canada Inc. v. M.N.R.": {
+    "uri": "https://canlii.ca/t/4nqz",
+    "score": 2.0,
+    "candidate_id": "1993fctad10003",
+    "candidate_title": "Distribution Canada Inc. v. M.N.R. (C.A.)",
+    "query_text": "decision | Distribution Canada Inc. v. M.N.R. | Distribution Canada | Distribution Canada v. M.N.R. | [1991] 1 F.C. 716 (T.D.) | [1993] 2 F.C. 26 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "distribution canada inc v m n r",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4nqz",
+        "score": 2.0,
+        "candidate_title": "Distribution Canada Inc. v. M.N.R. (C.A.)"
+      }
+    ]
+  },
+  "Szoboszloi v. Chief Returning Officer of Canada": {
+    "uri": "https://canlii.ca/t/jqnf0",
+    "score": 2.0,
+    "candidate_id": "1972fcttd1000054",
+    "candidate_title": "Szoboszloi v. Chief Returning Officer of Canada",
+    "query_text": "decision | Szoboszloi v. Chief Returning Officer of Canada | [1972] F.C. 1020 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "szoboszloi v chief returning officer of canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqnf0",
+        "score": 2.0,
+        "candidate_title": "Szoboszloi v. Chief Returning Officer of Canada"
+      }
+    ]
+  },
+  "Hutchins v. Canada (National Parole Board)": {
+    "uri": "https://canlii.ca/t/4np6",
+    "score": 2.0,
+    "candidate_id": "1993fctad10034",
+    "candidate_title": "Hutchins v. Canada (National Parole Board) (C.A.)",
+    "query_text": "decision | Hutchins v. Canada (National Parole Board) | [1993] 3 F.C. 505 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "hutchins v canada national parole board",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4np6",
+        "score": 2.0,
+        "candidate_title": "Hutchins v. Canada (National Parole Board) (C.A.)"
+      }
+    ]
+  },
+  "Bhatnager v. Minister of Employment and Immigration": {
+    "uri": "https://canlii.ca/t/4gm4",
+    "score": 0.9263157894736842,
+    "candidate_id": "1994fcttd10003",
+    "candidate_title": "Chan v. Canada (Minister of Employment and Immigration) (T.D.)",
+    "query_text": "decision | Bhatnager v. Minister of Employment and Immigration | [1985] 2 F.C. 315 (T.D.)",
+    "method": "fuzzy",
+    "matched_key": "bhatnager v minister of employment and immigration",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4gm4",
+        "score": 0.9263157894736842,
+        "candidate_title": "Chan v. Canada (Minister of Employment and Immigration) (T.D.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9wnq",
+        "score": 0.9108910891089109,
+        "candidate_title": "Bendahmane v. Canada (Minister of Employment and Immigration) (C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/4ngq",
+        "score": 0.9072164948453608,
+        "candidate_title": "Jafari v. Canada (Minister of Employment and Immigration) (C.A.)"
+      }
+    ]
+  },
+  "Maple Lodge Farms Ltd. v. Government of Canada": {
+    "uri": "https://canlii.ca/t/1lpcb",
+    "score": 3.0,
+    "candidate_id": "1982csc-scc10013",
+    "candidate_title": "Maple Lodge Farms v. Government of Canada",
+    "query_text": "decision | Maple Lodge Farms Ltd. v. Government of Canada | [1980] 2 F.C. 458 (T.D.) | [1981] 1 F.C. 500 (C.A.) | [1982] 2 S.C.R. 2",
+    "method": "citation_exact",
+    "matched_key": "19822scr2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpcb",
+        "score": 3.0,
+        "candidate_title": "Maple Lodge Farms v. Government of Canada"
+      }
+    ]
+  },
+  "Merck & Co. Inc. v. Sherman & Ulster Ltd.": {
+    "uri": "https://canlii.ca/t/k97fc",
+    "score": 2.0,
+    "candidate_id": "1972csc-scc1000022",
+    "candidate_title": "Merck & Co. Inc. v. Sherman & Ulster Ltd.; Attorney-General of Canada, Intervenant",
+    "query_text": "decision | Merck &amp; Co. Inc. v. Sherman &amp; Ulster Ltd., Attorney-General of Canada, Intervenant | Merck &amp; Co. Inc. v. Sherman&amp; Ulster Ltd. | Merck &amp; Co. Inc. v. Sherman &amp; Ulster Ltd. | Merck’s | Merck&amp; Co. Inc. v. Sherman &amp; Ulster Ltd. | (1971), 65 C.P.R. 1 (Ex. Ct.) | [1972] S.C.R.",
+    "method": "title_exact",
+    "matched_key": "merck co inc v sherman ulster ltd attorney general of canada intervenant",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k97fc",
+        "score": 2.0,
+        "candidate_title": "Merck & Co. Inc. v. Sherman & Ulster Ltd.; Attorney-General of Canada, Intervenant"
+      }
+    ]
+  },
+  "Kahlon v. Canada (Minister of Employment and Immigration)": {
+    "uri": "https://canlii.ca/t/jqt05",
+    "score": 0.9473684210526315,
+    "candidate_id": "1986fctad1000056",
+    "candidate_title": "Kahlon v. Canada (Minister of Employment and Immigration) (F.C.A.)",
+    "query_text": "decision | Kahlon v. Canada (Minister of Employment and Immigration) | [1986] 3 F.C. 386 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "kahlon v canada minister of employment and immigration",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqt05",
+        "score": 0.9473684210526315,
+        "candidate_title": "Kahlon v. Canada (Minister of Employment and Immigration) (F.C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9wnq",
+        "score": 0.9107142857142857,
+        "candidate_title": "Bendahmane v. Canada (Minister of Employment and Immigration) (C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gt5t3",
+        "score": 0.9090909090909091,
+        "candidate_title": "Szczecka v. Canada (Minister of Employment and Immigration)"
+      }
+    ]
+  },
+  "Harelkin v. University of Regina": {
+    "uri": "https://canlii.ca/t/1mkv4",
+    "score": 3.5,
+    "candidate_id": "1979csc-scc10016",
+    "candidate_title": "Harelkin v. University of Regina",
+    "query_text": "decision | Harelkin v. University of Regina | [1979] 2 S.C.R. 561",
+    "method": "citation_exact",
+    "matched_key": "19792scr561",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mkv4",
+        "score": 3.5,
+        "candidate_title": "Harelkin v. University of Regina"
+      }
+    ]
+  },
+  "Canada (Auditor General) v. Canada (Minister of Energy, Mines and Resources)": {
+    "uri": "https://canlii.ca/t/1ft4w",
+    "score": 3.5,
+    "candidate_id": "1989csc-scc79",
+    "candidate_title": "Canada (Auditor General) v. Canada (Minister of Energy, Mines and Resources)",
+    "query_text": "decision | Canada (Auditor General) v. Canada (Minister of Energy, Mines and Resources) | [1987] 1 F.C. 406 (C.A.) | [1989] 2 S.C.R. 49",
+    "method": "citation_exact",
+    "matched_key": "19892scr49",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft4w",
+        "score": 3.5,
+        "candidate_title": "Canada (Auditor General) v. Canada (Minister of Energy, Mines and Resources)"
+      }
+    ]
+  },
+  "Friends of the Oldman River Society v. Canada (Minister of Transport)": {
+    "uri": "https://canlii.ca/t/1bqn8",
+    "score": 3.5,
+    "candidate_id": "1992csc-scc1",
+    "candidate_title": "Friends of the Oldman River Society v. Canada (Minister of Transport)",
+    "query_text": "decision | Friends of the Oldman River Society v. Canada (Minister of Transport) | [1990] 2 F.C. 18 (C.A.) | [1992] 1 S.C.R. 3",
+    "method": "citation_exact",
+    "matched_key": "19921scr3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1bqn8",
+        "score": 3.5,
+        "candidate_title": "Friends of the Oldman River Society v. Canada (Minister of Transport)"
+      }
+    ]
+  },
+  "Landreville v. The Queen": {
+    "uri": "https://canlii.ca/t/gwghj",
+    "score": 2.0,
+    "candidate_id": "1973fcttd1000043",
+    "candidate_title": "Landreville v. The Queen",
+    "query_text": "decision | Landreville v. The Queen | [1973] F.C. 1223 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "landreville v the queen",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwghj",
+        "score": 2.0,
+        "candidate_title": "Landreville v. The Queen"
+      }
+    ]
+  },
+  "Penner v. Electoral Boundaries Commission (Ont.)": {
+    "uri": "https://canlii.ca/t/jqt0b",
+    "score": 2.0,
+    "candidate_id": "1976fcttd1000122",
+    "candidate_title": "Penner v. Electoral Boundaries Commission (Ont.)",
+    "query_text": "decision | Penner v. Electoral Boundaries Commission (Ont.) | [1976] 2 F.C. 614 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "penner v electoral boundaries commission ont",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqt0b",
+        "score": 2.0,
+        "candidate_title": "Penner v. Electoral Boundaries Commission (Ont.)"
+      }
+    ]
+  },
+  "Constitution Act, 1867": {
+    "uri": "https://canlii.ca/t/6fhd6",
+    "score": 0.9130434782608695,
+    "candidate_id": "l36027!36027-current-1",
+    "candidate_title": "Loi constitutionnelle de 1867",
+    "query_text": "legislation | Constitution | Constitution Act 1867",
+    "method": "fuzzy",
+    "matched_key": "constitution",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fhd6",
+        "score": 0.9130434782608695,
+        "candidate_title": "Loi constitutionnelle de 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.9130434782608695,
+        "candidate_title": "The Constitution Act, 1867"
+      }
+    ]
+  },
+  "Martinoff v. Gossen": {
+    "uri": "https://canlii.ca/t/jqvrs",
+    "score": 2.0,
+    "candidate_id": "1978fcttd1000064",
+    "candidate_title": "Martinoff v. Gossen",
+    "query_text": "decision | Martinoff v. Gossen | Martinoff | [1979] 1 F.C. 327 (T.D.)",
+    "method": "title_exact",
+    "matched_key": "martinoff v gossen",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqvrs",
+        "score": 2.0,
+        "candidate_title": "Martinoff v. Gossen"
+      }
+    ]
+  },
+  "Lemyre v. Trudel": {
+    "uri": "https://canlii.ca/t/jqw19",
+    "score": 2.0,
+    "candidate_id": "1979fctad1000094",
+    "candidate_title": "Lemyre v. Trudel",
+    "query_text": "decision | Lemyre v. Trudel | Lemyre | [1978] 2 F.C. 453 (T.D.) | [1979] 2 F.C. 362 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "lemyre v trudel",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqw19",
+        "score": 2.0,
+        "candidate_title": "Lemyre v. Trudel"
+      }
+    ]
+  },
+  "Re Central Canada Potash Co. Ltd. et al. and Minister of Mineral Resources for Saskatchewan": {
+    "uri": "https://canlii.ca/t/g7c28",
+    "score": 0.9659090909090909,
+    "candidate_id": "1972skqb1000074",
+    "candidate_title": "Central Canada Potash Co. v. Saskatchewan (Mineral Resources)",
+    "query_text": "decision | Re Central Canada Potash Co. Ltd. et al. and Minister of Mineral Resources for Saskatchewan | (1972), 30 D.L.R. (3d) 480 (Sask. Q.B.) | (1973), 32 D.L.R. (3d) 107 (Sask C.A.) | (1973), 38 D.L.R. (3d) 317",
+    "method": "fuzzy",
+    "matched_key": "re central canada potash co ltd et al and minister of mineral resources for saskatchewan",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7c28",
+        "score": 0.9659090909090909,
+        "candidate_title": "Central Canada Potash Co. v. Saskatchewan (Mineral Resources)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7cbw",
+        "score": 0.9485714285714286,
+        "candidate_title": "Central Canada Potash Co. v. Saskatchewan (Mineral Resources)"
+      }
+    ]
+  },
+  "Carrier-Sekani Tribal Council v. Canada (Minister of the Environment)": {
+    "uri": "https://canlii.ca/t/gb1x0",
+    "score": 0.9848484848484849,
+    "candidate_id": "1992fctad1000054",
+    "candidate_title": "Carrier-Sekani Tribal Council v. Canada (Minister of Environment) (C.A.)",
+    "query_text": "decision | Carrier-Sekani Tribal Council v. Canada (Minister of the Environment) | [1992] 3 F.C. 316 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "carrier sekani tribal council v canada minister of the environment",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gb1x0",
+        "score": 0.9848484848484849,
+        "candidate_title": "Carrier-Sekani Tribal Council v. Canada (Minister of Environment) (C.A.)"
+      }
+    ]
+  },
+  "Finlay": {
+    "uri": "https://canlii.ca/t/1ftpf",
+    "score": 3.5,
+    "candidate_id": "1986csc-scc69",
+    "candidate_title": "Finlay v. Canada (Minister of Finance)",
+    "query_text": "decision | Finlay | Finlay v. Canada (Minister of Finance) | [1986] 2 S.C.R. 607",
+    "method": "citation_exact",
+    "matched_key": "19862scr607",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftpf",
+        "score": 3.5,
+        "candidate_title": "Finlay v. Canada (Minister of Finance)"
+      }
+    ]
+  },
+  "Re Hall and City of Toronto et al.": {
+    "uri": "https://canlii.ca/t/g1bs9",
+    "score": 2.0,
+    "candidate_id": "1979onca1000046",
+    "candidate_title": "Re Hall and City of Toronto et al.",
+    "query_text": "decision | Re Hall and City of Toronto et al. | (1979), 23 O.R. (2d) 86 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "re hall and city of toronto et al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1bs9",
+        "score": 2.0,
+        "candidate_title": "Re Hall and City of Toronto et al."
+      }
+    ]
+  },
+  "Howard Smith Paper Mills Ltd. et al. v. The Queen": {
+    "uri": "https://canlii.ca/t/1tvn6",
+    "score": 3.5,
+    "candidate_id": "1957csc-scc10010",
+    "candidate_title": "Howard Smith Paper Mills Ltd. et al. v. The Queen",
+    "query_text": "decision | Howard Smith Paper Mills Ltd. et al. v. The Queen | [1957] S.C.R. 403",
+    "method": "citation_exact",
+    "matched_key": "1957scr403",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tvn6",
+        "score": 3.5,
+        "candidate_title": "Howard Smith Paper Mills Ltd. et al. v. The Queen"
+      }
+    ]
+  },
+  "DeRoussy v. Nesbitt": {
+    "uri": "https://canlii.ca/t/g9xdw",
+    "score": 2.0,
+    "candidate_id": "1920abscad1000020",
+    "candidate_title": "Filteau v. Nesbitt",
+    "query_text": "decision | DeRoussy v. Nesbitt | (1920), 53 D.L.R. 514 (Alta. C.A.)",
+    "method": "title_exact",
+    "matched_key": "deroussy v nesbitt",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9xdw",
+        "score": 2.0,
+        "candidate_title": "Filteau v. Nesbitt"
+      }
+    ]
+  },
+  "Angus v. Sun Alliance Insurance Co.": {
+    "uri": "https://canlii.ca/t/1ftbv",
+    "score": 3.5,
+    "candidate_id": "1988csc-scc79",
+    "candidate_title": "Angus v. Sun Alliance Insurance Co.",
+    "query_text": "decision | Angus v. Sun Alliance Insurance Co. | [1988] 2 S.C.R. 256",
+    "method": "citation_exact",
+    "matched_key": "19882scr256",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftbv",
+        "score": 3.5,
+        "candidate_title": "Angus v. Sun Alliance Insurance Co."
+      }
+    ]
+  },
+  "Gustavson Drilling (1964) Ltd. v. Minister of National Revenue": {
+    "uri": "https://canlii.ca/t/1mx4m",
+    "score": 3.5,
+    "candidate_id": "1975csc-scc10003",
+    "candidate_title": "Gustavson Drilling (1964) Ltd. v. Minister of National Revenue",
+    "query_text": "decision | Gustavson Drilling (1964) Ltd. v. Minister of National Revenue | Minister National Revenue v. Gustavson Drilling (1964) Ltd. | [1977] 1 S.C.R. 271 | [1972] F.C. 92 (T.D.)",
+    "method": "citation_exact",
+    "matched_key": "19771scr271",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mx4m",
+        "score": 3.5,
+        "candidate_title": "Gustavson Drilling (1964) Ltd. v. Minister of National Revenue"
+      }
+    ]
+  },
+  "Attorney General of Quebec v. Expropriation Tribunal et al.": {
+    "uri": "https://canlii.ca/t/1fttq",
+    "score": 3.0,
+    "candidate_id": "1986csc-scc33",
+    "candidate_title": "A.G. (Que.) v. Expropriation Tribunal",
+    "query_text": "decision | Attorney General of Quebec v. Expropriation Tribunal et al. | [1986] 1 S.C.R. 732",
+    "method": "citation_exact",
+    "matched_key": "19861scr732",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fttq",
+        "score": 3.0,
+        "candidate_title": "A.G. (Que.) v. Expropriation Tribunal"
+      }
+    ]
+  },
+  "Venne v. Quebec (Commission de protection du territoire agricole)": {
+    "uri": "https://canlii.ca/t/1ft68",
+    "score": 3.0,
+    "candidate_id": "1989csc-scc34",
+    "candidate_title": "Venne v. Quebec (Commission de la Protection du Territoire Agricole)",
+    "query_text": "decision | Venne v. Quebec (Commission de protection du territoire agricole) | [1989] 1 S.C.R. 880",
+    "method": "citation_exact",
+    "matched_key": "19891scr880",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft68",
+        "score": 3.0,
+        "candidate_title": "Venne v. Quebec (Commission de la Protection du Territoire Agricole)"
+      }
+    ]
+  },
+  "Lorac Transport Ltd. v. Atra (The)": {
+    "uri": "https://canlii.ca/t/g9p59",
+    "score": 2.0,
+    "candidate_id": "1986fctad1000080",
+    "candidate_title": "The Ship 'Atra' v. Lorac Transport",
+    "query_text": "decision | Lorac Transport Ltd. v. Atra (The) | [1987] 1 F.C. 108 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "lorac transport ltd v atra the",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9p59",
+        "score": 2.0,
+        "candidate_title": "The Ship 'Atra' v. Lorac Transport"
+      }
+    ]
+  },
+  "A.G. for British Columbia et al. v. Parklane Private Hospital Ltd.": {
+    "uri": "https://canlii.ca/t/1z18x",
+    "score": 3.5,
+    "candidate_id": "1974csc-scc10140",
+    "candidate_title": "A.G. for British Columbia et al. v. Parklane Private Hospital Ltd.",
+    "query_text": "decision | A.G. for British Columbia et al. v. Parklane Private Hospital Ltd. | [1975] 2 S.C.R. 47",
+    "method": "citation_exact",
+    "matched_key": "19752scr47",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z18x",
+        "score": 3.5,
+        "candidate_title": "A.G. for British Columbia et al. v. Parklane Private Hospital Ltd."
+      }
+    ]
+  },
+  "Thorson v. Attorney General of Canada et al.": {
+    "uri": "https://canlii.ca/t/1twxf",
+    "score": 3.0,
+    "candidate_id": "1974csc-scc10005",
+    "candidate_title": "Thorson v. Attorney General of Canada",
+    "query_text": "decision | Thorson v. Attorney General of Canada et al. | [1975] 1 S.C.R. 138",
+    "method": "citation_exact",
+    "matched_key": "19751scr138",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1twxf",
+        "score": 3.0,
+        "candidate_title": "Thorson v. Attorney General of Canada"
+      }
+    ]
+  },
+  "Nova Scotia Board of Censors v. McNeil": {
+    "uri": "https://canlii.ca/t/1mzjb",
+    "score": 3.5,
+    "candidate_id": "1975csc-scc10013",
+    "candidate_title": "Nova Scotia Board of Censors v. McNeil",
+    "query_text": "decision | Nova Scotia Board of Censors v. McNeil | [1976] 2 S.C.R. 265",
+    "method": "citation_exact",
+    "matched_key": "19762scr265",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mzjb",
+        "score": 3.5,
+        "candidate_title": "Nova Scotia Board of Censors v. McNeil"
+      }
+    ]
+  },
+  "Minister of Justice of Canada et al. v. Borowski": {
+    "uri": "https://canlii.ca/t/1mjm0",
+    "score": 3.0,
+    "candidate_id": "1981csc-scc10024",
+    "candidate_title": "Minister of Justice (Can.) v. Borowski",
+    "query_text": "decision | Minister of Justice of Canada et al. v. Borowski | [1981] 2 S.C.R. 575",
+    "method": "citation_exact",
+    "matched_key": "19812scr575",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjm0",
+        "score": 3.0,
+        "candidate_title": "Minister of Justice (Can.) v. Borowski"
+      }
+    ]
+  },
+  "Haines v. Attorney General of Canada": {
+    "uri": "https://canlii.ca/t/1mm2s",
+    "score": 0.8985507246376812,
+    "candidate_id": "1978csc-scc10024",
+    "candidate_title": "Bliss v. Attorney General of Canada",
+    "query_text": "decision | Haines v. Attorney General of Canada | (1979), 32 N.S.R. (2d) 271 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "haines v attorney general of canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mm2s",
+        "score": 0.8985507246376812,
+        "candidate_title": "Bliss v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1twxf",
+        "score": 0.8732394366197183,
+        "candidate_title": "Thorson v. Attorney General of Canada"
+      }
+    ]
+  },
+  "Zong v. Commissioner of Penitentiaries": {
+    "uri": "https://canlii.ca/t/jqsnc",
+    "score": 0.9487179487179487,
+    "candidate_id": "1975fctad1000087",
+    "candidate_title": "Zong v. The Commissioner of Penitentiaries",
+    "query_text": "decision | Zong v. Commissioner of Penitentiaries | [1976] 1 F.C. 657 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "zong v commissioner of penitentiaries",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqsnc",
+        "score": 0.9487179487179487,
+        "candidate_title": "Zong v. The Commissioner of Penitentiaries"
+      }
+    ]
+  }
+}

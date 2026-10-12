@@ -1,0 +1,18 @@
+{
+  "2001BCSC1342": {
+    "uri": "https://canlii.ca/t/5884",
+    "score": 0.9320388349514563,
+    "candidate_id": "2001bcsc1342",
+    "candidate_title": "John Campbell Law Corp. v. Owners, Strata Plan 1350",
+    "query_text": "decision | John Campbell Law Corporation v. Owners, Strata\n  Plan 1350",
+    "method": "fuzzy",
+    "matched_key": "john campbell law corporation v owners strata plan 1350",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5884",
+        "score": 0.9320388349514563,
+        "candidate_title": "John Campbell Law Corp. v. Owners, Strata Plan 1350"
+      }
+    ]
+  }
+}

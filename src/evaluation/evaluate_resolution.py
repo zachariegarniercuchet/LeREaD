@@ -128,6 +128,7 @@ class ResolutionConfig:
     context_chars: int = CONTEXT_CHARS
     file_suffix: str = RESOLUTION_SUFFIX
     verbose_per_file: bool = False
+    overlap: bool = True                      # extra overlap comparison (exact stays main)
 
     def get_ground_truth_dir(self) -> Path:
         if not self.split:
@@ -165,6 +166,43 @@ def _match_spans_l1(gold: List[Span], system: List[Span]) -> List[Tuple[Span, Sp
                 pairs.append((g, s))
                 used[j] = True
                 break
+
+    return pairs
+
+
+def _match_spans_l1_overlap(gold: List[Span], system: List[Span]) -> List[Tuple[Span, Span]]:
+    """Overlap variant of _match_spans_l1 (comparison only).
+
+    A pair matches when the spans share the label and their character
+    offsets intersect (Span.overlaps). Each span is used at most once;
+    each gold span takes the unused overlapping system span with the
+    largest intersection (ties broken by order). Mirrors the
+    match_spans_overlap() logic in evaluation_l1_util.
+    """
+    used = [False] * len(system)
+    pairs: List[Tuple[Span, Span]] = []
+
+    for g in gold:
+        best_j = -1
+        best_overlap = 0
+        for j, s in enumerate(system):
+            if used[j]:
+                continue
+            if not g.overlaps(s):
+                continue
+            ov = g.overlap_len(s)
+            if ov <= 0:
+                # Positional fallback (containment without measurable
+                # intersection): still a valid overlap hit.
+                if best_j == -1:
+                    best_j = j
+                continue
+            if ov > best_overlap:
+                best_overlap = ov
+                best_j = j
+        if best_j != -1:
+            pairs.append((g, system[best_j]))
+            used[best_j] = True
 
     return pairs
 
@@ -349,6 +387,113 @@ def compute_uri_metrics(gold: List[Span], system: List[Span]) -> Tuple[Dict, Dic
     return overall, per_label, per_category
 
 
+def compute_uri_metrics_overlap(gold: List[Span], system: List[Span]) -> Tuple[Dict, Dict[str, Dict], Dict[str, Dict]]:
+    """
+    Overlap variant of compute_uri_metrics (comparison only).
+
+    Identical TP/FN/FP semantics, except Level-1 pairs are formed with
+    _match_spans_l1_overlap() (same label + intersecting offsets) instead
+    of exact matching. The exact compute_uri_metrics() above is untouched
+    and remains the main metric.
+    """
+    matched_pairs = _match_spans_l1_overlap(gold, system)
+    matched_gold_ids = {id(g) for g, _ in matched_pairs}
+    matched_system_ids = {id(s) for _, s in matched_pairs}
+
+    unmatched_gold = [g for g in gold if id(g) not in matched_gold_ids]
+    unmatched_system = [s for s in system if id(s) not in matched_system_ids]
+
+    tp = 0
+    fn_wrong = 0
+    fn_missing_sys_uri = 0
+    fn_missed_extraction = 0
+    fp_spurious = 0
+    skipped_gold_none = 0
+
+    per_label_acc: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
+    per_cat_acc: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
+
+    for g, s in matched_pairs:
+        u_g = _get_uri(g)
+        if not _is_real_uri(u_g):
+            skipped_gold_none += 1
+            continue
+
+        label = g.labelname or "(none)"
+        cat = _category_of(g)
+        u_s = _get_uri(s)
+
+        if u_s is not None and _uri_agree(u_g, u_s):
+            tp += 1
+            per_label_acc[label]["tp"] += 1
+            per_cat_acc[cat]["tp"] += 1
+        elif u_s is not None:
+            fn_wrong += 1
+            per_label_acc[label]["fn"] += 1
+            per_label_acc[label]["fp"] += 1
+            per_cat_acc[cat]["fn"] += 1
+            per_cat_acc[cat]["fp"] += 1
+        else:
+            fn_missing_sys_uri += 1
+            per_label_acc[label]["fn"] += 1
+            per_cat_acc[cat]["fn"] += 1
+
+    for g in unmatched_gold:
+        u_g = _get_uri(g)
+        if not _is_real_uri(u_g):
+            continue
+        fn_missed_extraction += 1
+        label = g.labelname or "(none)"
+        cat = _category_of(g)
+        per_label_acc[label]["fn"] += 1
+        per_cat_acc[cat]["fn"] += 1
+
+    for s in unmatched_system:
+        u_s = _get_uri(s)
+        if not _is_real_uri(u_s):
+            continue
+        fp_spurious += 1
+        label = s.labelname or "(none)"
+        cat = _category_of(s)
+        per_label_acc[label]["fp"] += 1
+        per_cat_acc[cat]["fp"] += 1
+
+    fn_total = fn_wrong + fn_missing_sys_uri + fn_missed_extraction
+    fp_total = fn_wrong + fp_spurious
+    precision, recall, f1 = _prf1(tp, fn_total, fp_total)
+
+    matched_total = tp + fn_wrong + fn_missing_sys_uri
+    accuracy = tp / matched_total if matched_total else 0.0
+
+    overall = {
+        "matched_spans": len(matched_pairs),
+        "tp": tp,
+        "fn_wrong": fn_wrong,
+        "fn_missing_sys_uri": fn_missing_sys_uri,
+        "fn_missed_extraction": fn_missed_extraction,
+        "fp_spurious": fp_spurious,
+        "skipped_gold_none": skipped_gold_none,
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "accuracy": accuracy,
+        "matched_total": matched_total,
+    }
+
+    def _finalize(acc: Dict[str, dict]) -> Dict[str, dict]:
+        out = {}
+        for key, d in acc.items():
+            p, r, f = _prf1(d["tp"], d["fn"], d["fp"])
+            out[key] = {"tp": d["tp"], "fn": d["fn"], "fp": d["fp"],
+                        "precision": p, "recall": r, "f1": f}
+        return out
+
+    per_label = _finalize(per_label_acc)
+    per_category = _finalize(per_cat_acc)
+
+    return overall, per_label, per_category
+
+
 # ---------------------------------------------------------------------------
 # Display helpers
 # ---------------------------------------------------------------------------
@@ -363,6 +508,7 @@ def print_results(
     per_category: Dict[str, Dict],
     gold_name: str = "",
     system_name: str = "",
+    mention_match: str = "exact",
 ) -> None:
     """Print stage-3 uri resolution P/R/F1 results."""
     print("\n" + "╔" + "═" * 68 + "╗")
@@ -375,7 +521,11 @@ def print_results(
         print(f"  System: {system_name}")
 
     print("\n  Evaluated attribute : uri")
-    print("  Agreement criterion : exact match (case-insensitive, stripped)")
+    if mention_match == "overlap":
+        print("  Agreement criterion : exact match (case-insensitive, stripped)")
+        print("  Mention matching    : OVERLAP (same label + intersecting offsets, comparison)")
+    else:
+        print("  Agreement criterion : exact match (case-insensitive, stripped)")
     print("  Counted instances   : gold spans with a REAL uri value only")
     print("                        (uri=\"none\" and absent uri are always excluded)")
 
@@ -438,6 +588,34 @@ def evaluate_resolution(
             overall, per_label, per_category,
             gold_name=Path(gold_path).name,
             system_name=Path(system_path).name,
+        )
+
+    return overall, per_label, per_category
+
+
+def evaluate_resolution_overlap(
+    gold_path: str,
+    system_path: str,
+    context_chars: int = CONTEXT_CHARS,
+    verbose: bool = True,
+) -> Tuple[Dict, Dict[str, Dict], Dict[str, Dict]]:
+    """Overlap variant of evaluate_resolution (comparison only).
+
+    Mirrors evaluate_resolution() exactly, except mention pairs are formed
+    with overlap matching. The exact evaluate_resolution() above is
+    untouched and remains the main metric.
+    """
+    gold_spans = extract_spans(gold_path, context_chars)
+    system_spans = extract_spans(system_path, context_chars)
+
+    overall, per_label, per_category = compute_uri_metrics_overlap(gold_spans, system_spans)
+
+    if verbose:
+        print_results(
+            overall, per_label, per_category,
+            gold_name=Path(gold_path).name,
+            system_name=Path(system_path).name + "  [OVERLAP]",
+            mention_match="overlap",
         )
 
     return overall, per_label, per_category
@@ -544,6 +722,111 @@ def evaluate_resolution_batch(
 
     print("\n" + "=" * 70)
     print_results(final_overall, final_per_label, final_per_cat)
+
+    macro_f1 = sum(per_file_f1) / len(per_file_f1) if per_file_f1 else 0.0
+    print(f"  Macro F1 (mean per-document F1): {macro_f1*100:.2f}%")
+    print(f"  Documents evaluated: {n_processed}/{len(pairs)}\n")
+
+    return final_overall, final_per_label, final_per_cat
+
+
+def evaluate_resolution_batch_overlap(
+    pairs: List[Tuple[str, str]],
+    context_chars: int = CONTEXT_CHARS,
+    verbose_per_file: bool = False,
+) -> Tuple[Dict, Dict[str, Dict], Dict[str, Dict]]:
+    """Overlap variant of evaluate_resolution_batch (comparison only).
+
+    Micro-averaged uri P/R/F1 where mention pairs are formed with overlap
+    matching. The exact evaluate_resolution_batch() above is untouched and
+    remains the main metric.
+    """
+    acc_overall: Dict[str, int] = defaultdict(int)
+    acc_per_label: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
+    acc_per_cat: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
+
+    per_file_f1: List[float] = []
+    n_processed = 0
+
+    print(f"\nLevel-3 (uri) batch evaluation [OVERLAP — comparison] — {len(pairs)} file pair(s)")
+    print("=" * 70)
+
+    for i, (gold_path, system_path) in enumerate(pairs, 1):
+        print(f"\n[{i}/{len(pairs)}] {Path(gold_path).name}")
+
+        try:
+            gold_spans = extract_spans(gold_path, context_chars)
+            system_spans = extract_spans(system_path, context_chars)
+        except Exception as exc:
+            print(f"  ⚠ Skipped — {exc}")
+            continue
+
+        overall, per_label, per_category = compute_uri_metrics_overlap(gold_spans, system_spans)
+
+        if verbose_per_file:
+            print_results(
+                overall, per_label, per_category,
+                gold_name=Path(gold_path).name,
+                system_name=Path(system_path).name + "  [OVERLAP]",
+                mention_match="overlap",
+            )
+        else:
+            print(f"  tp: {overall['tp']:>4}  |  "
+                  f"P: {overall['precision']*100:.1f}%  "
+                  f"R: {overall['recall']*100:.1f}%  "
+                  f"F1: {overall['f1']*100:.1f}%")
+
+        for key in _OVERALL_SUM_KEYS:
+            acc_overall[key] += overall[key]
+
+        for label, m in per_label.items():
+            acc_per_label[label]["tp"] += m["tp"]
+            acc_per_label[label]["fn"] += m["fn"]
+            acc_per_label[label]["fp"] += m["fp"]
+
+        for cat, m in per_category.items():
+            acc_per_cat[cat]["tp"] += m["tp"]
+            acc_per_cat[cat]["fn"] += m["fn"]
+            acc_per_cat[cat]["fp"] += m["fp"]
+
+        per_file_f1.append(overall["f1"])
+        n_processed += 1
+
+    if n_processed == 0:
+        print("\n  No files could be processed.")
+        empty = {k: 0 for k in _OVERALL_SUM_KEYS}
+        empty.update({"precision": 0.0, "recall": 0.0, "f1": 0.0,
+                      "accuracy": 0.0, "matched_total": 0})
+        return empty, {}, {}
+
+    fn_total = acc_overall["fn_wrong"] + acc_overall["fn_missing_sys_uri"] + acc_overall["fn_missed_extraction"]
+    fp_total = acc_overall["fn_wrong"] + acc_overall["fp_spurious"]
+    precision, recall, f1 = _prf1(acc_overall["tp"], fn_total, fp_total)
+    matched_total = acc_overall["tp"] + acc_overall["fn_wrong"] + acc_overall["fn_missing_sys_uri"]
+    accuracy = acc_overall["tp"] / matched_total if matched_total else 0.0
+
+    final_overall = {
+        **{k: acc_overall[k] for k in _OVERALL_SUM_KEYS},
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "accuracy": accuracy,
+        "matched_total": matched_total,
+    }
+
+    def _finalize(acc: Dict[str, dict]) -> Dict[str, dict]:
+        out = {}
+        for key, d in acc.items():
+            p, r, f = _prf1(d["tp"], d["fn"], d["fp"])
+            out[key] = {"tp": d["tp"], "fn": d["fn"], "fp": d["fp"],
+                        "precision": p, "recall": r, "f1": f}
+        return out
+
+    final_per_label = _finalize(acc_per_label)
+    final_per_cat = _finalize(acc_per_cat)
+
+    print("\n" + "=" * 70)
+    print_results(final_overall, final_per_label, final_per_cat, mention_match="overlap")
 
     macro_f1 = sum(per_file_f1) / len(per_file_f1) if per_file_f1 else 0.0
     print(f"  Macro F1 (mean per-document F1): {macro_f1*100:.2f}%")
@@ -713,7 +996,31 @@ def run_single_file_evaluation(config: ResolutionConfig):
     captured = buffer.getvalue()
     print(captured)
 
-    save_evaluation_log(system_path.parent, header + captured)
+    full_log = header + captured
+    save_evaluation_log(system_path.parent, full_log)
+
+    # ---- Overlap matching (comparison only; exact output above untouched) ----
+    if getattr(config, "overlap", True):
+        ov_buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(ov_buffer):
+                print("\n" + "=" * 70)
+                print("OVERLAP MATCHING (comparison — main metric remains EXACT above)")
+                print("A hit = same label + overlapping character offsets.")
+                print("=" * 70)
+                evaluate_resolution_overlap(
+                    str(gold_path), str(system_path),
+                    context_chars=config.context_chars,
+                    verbose=True,
+                )
+        except Exception as e:
+            print(f"\n⚠ Overlap evaluation failed (exact results above unaffected): {e}")
+            ov_buffer.write(f"\n⚠ Overlap evaluation failed: {e}\n")
+        ov_captured = ov_buffer.getvalue()
+        print(ov_captured)
+        full_log += ov_captured
+        save_evaluation_log(system_path.parent, full_log,
+                            filename="evaluation_resolution_results_overlap.txt")
 
     return overall, per_label, per_category
 
@@ -770,6 +1077,25 @@ def run_batch_evaluation(config: ResolutionConfig):
     full_log = header + f"Found {len(pairs)} evaluation pair(s)\n\n" + captured
     save_evaluation_log(batch_folder, full_log)
 
+    # ---- Overlap matching (comparison only; exact output above untouched) ----
+    if getattr(config, "overlap", True):
+        ov_buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(ov_buffer):
+                evaluate_resolution_batch_overlap(
+                    pairs,
+                    context_chars=config.context_chars,
+                    verbose_per_file=config.verbose_per_file,
+                )
+        except Exception as e:
+            print(f"\n⚠ Overlap evaluation failed (exact results above unaffected): {e}")
+            ov_buffer.write(f"\n⚠ Overlap evaluation failed: {e}\n")
+        ov_captured = ov_buffer.getvalue()
+        print(ov_captured)
+        full_log += ov_captured
+        save_evaluation_log(batch_folder, full_log,
+                            filename="evaluation_resolution_results_overlap.txt")
+
     return results
 
 
@@ -799,6 +1125,8 @@ def main():
     single_parser.add_argument("--file-suffix", default=RESOLUTION_SUFFIX,
                                help=f"Stage-3 file suffix (default: {RESOLUTION_SUFFIX})")
     single_parser.add_argument("--verbose", action="store_true", help="Verbose output")
+    single_parser.add_argument("--no-overlap", action="store_true",
+                               help="Skip the extra overlap-matching comparison (exact match is always shown)")
 
     # ========== BATCH ==========
     batch_parser = subparsers.add_parser("batch", help="Evaluate a whole stage-3 output folder")
@@ -813,6 +1141,8 @@ def main():
     batch_parser.add_argument("--file-suffix", default=RESOLUTION_SUFFIX,
                               help=f"Stage-3 file suffix (default: {RESOLUTION_SUFFIX})")
     batch_parser.add_argument("--verbose", action="store_true", help="Verbose output per file")
+    batch_parser.add_argument("--no-overlap", action="store_true",
+                              help="Skip the extra overlap-matching comparison (exact match is always shown)")
 
     args = parser.parse_args()
 
@@ -829,6 +1159,7 @@ def main():
             context_chars=args.context_chars,
             file_suffix=args.file_suffix,
             verbose_per_file=args.verbose,
+            overlap=not args.no_overlap,
         )
         config.validate()
         run_single_file_evaluation(config)
@@ -842,6 +1173,7 @@ def main():
             context_chars=args.context_chars,
             file_suffix=args.file_suffix,
             verbose_per_file=args.verbose,
+            overlap=not args.no_overlap,
         )
         config.validate()
         run_batch_evaluation(config)

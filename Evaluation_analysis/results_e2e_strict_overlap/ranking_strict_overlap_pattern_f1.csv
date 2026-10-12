@@ -1,0 +1,14 @@
+rank,mention,pattern_grouped,n_gold_agg,TP_gold_agg,n_sys_agg,TP_sys_agg,recall,precision,F1
+1,decision,citation -> fragment,124,4,35,8,0.0323,0.2286,0.0565
+2,decision,citation,508,49,334,44,0.0965,0.1317,0.1114
+3,decision,fragment,888,126,393,129,0.1419,0.3282,0.1981
+4,legislation,fragment,1836,796,1959,777,0.4336,0.3966,0.4143
+5,legislation,fragment -> title,1460,666,1488,705,0.4562,0.4738,0.4648
+6,legislation,title,1700,896,1958,947,0.5271,0.4837,0.5044
+7,decision,title,1728,931,2331,1113,0.5388,0.4775,0.5063
+8,legislation,title -> citation,108,69,175,83,0.6389,0.4743,0.5444
+9,decision,title -> citation,2100,1119,1827,1243,0.5329,0.6804,0.5976
+10,decision,title -> citation -> fragment,604,332,661,475,0.5497,0.7186,0.6229
+11,decision,title -> fragment,704,410,681,493,0.5824,0.7239,0.6455
+12,legislation,fragment -> title -> citation,100,71,111,69,0.7100,0.6216,0.6629
+13,decision,title -> citation -> fragment -> citation,224,140,250,193,0.6250,0.7720,0.6908

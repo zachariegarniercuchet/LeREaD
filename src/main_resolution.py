@@ -65,6 +65,12 @@ def load_candidate_pool(
     with candidates_path.open("r", encoding="utf-8") as f:
         candidates = json.load(f)
 
+    # Backward compatibility: pools indexed before the column rename use
+    # "original_url" as the resolution target instead of "uri".
+    for candidate in candidates:
+        if "uri" not in candidate and "original_url" in candidate:
+            candidate["uri"] = candidate["original_url"]
+
     retriever = create_retriever(retriever_name, **retriever_kwargs)
     retriever.load(cache_dir)
 
@@ -300,14 +306,14 @@ def process_document_resolution(
             best_candidate = candidates[int(row_idx[0])]
 
             mapping[normalize_docid(profile.docid)] = {
-                "uri": best_candidate["original_url"],
+                "uri": best_candidate["uri"],
                 "score": best_score,
                 "candidate_id": best_candidate.get("id"),
                 "candidate_title": best_candidate.get("docTitle"),
                 "query_text": text,
                 "topk": [
                     {
-                        "uri": candidates[int(i)]["original_url"],
+                        "uri": candidates[int(i)]["uri"],
                         "score": float(s),
                         "candidate_title": candidates[int(i)].get("docTitle"),
                     }

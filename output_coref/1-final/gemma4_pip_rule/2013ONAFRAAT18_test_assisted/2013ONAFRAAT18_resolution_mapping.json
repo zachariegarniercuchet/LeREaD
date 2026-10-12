@@ -1,0 +1,66 @@
+{
+  "Ministry of Agriculture, Food and Rural Affairs Act": {
+    "uri": "https://canlii.ca/t/55z3s",
+    "score": 2.0,
+    "candidate_id": "l267!267-current-1",
+    "candidate_title": "Ministry of Agriculture, Food and Rural Affairs Act",
+    "query_text": "legislation | Ministry\n  of Agriculture, Food and Rural Affairs Act | MINISTRY OF\nAGRICULTURE, | FOOD\nAND RURAL AFFAIRS ACT, | Ministry of Agriculture,\nFood and Rural Affairs Act | Act | The Act | R.S.O. 1990, CHAPTER M.16",
+    "method": "title_exact",
+    "matched_key": "ministry of agriculture food and rural affairs act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55z3s",
+        "score": 2.0,
+        "candidate_title": "Ministry of Agriculture, Food and Rural Affairs Act"
+      }
+    ]
+  },
+  "Statutory Powers and Procedure Act": {
+    "uri": "https://canlii.ca/t/56jsg",
+    "score": 0.9375,
+    "candidate_id": "l474!474-current-1",
+    "candidate_title": "Statutory Powers Procedure Act",
+    "query_text": "legislation | Statutory\nPowers and Procedure Act",
+    "method": "fuzzy",
+    "matched_key": "statutory powers and procedure act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jsg",
+        "score": 0.9375,
+        "candidate_title": "Statutory Powers Procedure Act"
+      }
+    ]
+  },
+  "Tribunal’s Rules of Procedure": {
+    "uri": "https://canlii.ca/t/56nkn",
+    "score": 2.0,
+    "candidate_id": "l2759!2759-current-1",
+    "candidate_title": "Rules of Civil Procedure",
+    "query_text": "legislation | Tribunal’s Rules of Procedure | Rules | Rules of Civil Procedure | Rule\n13.01(1) | Rule 13.01(1) | Rule",
+    "method": "title_exact",
+    "matched_key": "rules of civil procedure",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 2.0,
+        "candidate_title": "Rules of Civil Procedure"
+      }
+    ]
+  },
+  "M. v. H.": {
+    "uri": "https://canlii.ca/t/1vtm7",
+    "score": 2.0,
+    "candidate_id": "1994onctgd10174",
+    "candidate_title": "M. v. H.",
+    "query_text": "decision | M. v. H. | 1994 CanLII 7324\n(ON SC) | (1994), 20 O.R. (3d) 70",
+    "method": "title_exact",
+    "matched_key": "m v h",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vtm7",
+        "score": 2.0,
+        "candidate_title": "M. v. H."
+      }
+    ]
+  }
+}

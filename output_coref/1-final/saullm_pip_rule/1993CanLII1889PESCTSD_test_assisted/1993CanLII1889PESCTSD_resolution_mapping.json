@@ -1,0 +1,114 @@
+{
+  "Globe Heating & Plumbing Ltd. v. Northern Construction Co.": {
+    "uri": "https://canlii.ca/t/2dk33",
+    "score": 0.9090909090909091,
+    "candidate_id": "1986abca3",
+    "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd.",
+    "query_text": "decision | Globe Heating &amp; Plumbing Ltd. v. Northern Construction Co. | [1986] 2 W.W.R.\n649 (Alta. C.A.)",
+    "method": "fuzzy",
+    "matched_key": "globe heating plumbing ltd v northern construction co",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dk33",
+        "score": 0.9090909090909091,
+        "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd."
+      }
+    ]
+  },
+  "Slave Lake (Town) v. Appleton Construction Ltd. et al.": {
+    "uri": "https://canlii.ca/t/28lgz",
+    "score": 0.98989898989899,
+    "candidate_id": "1987abqb1000166",
+    "candidate_title": "Slave Lake (Town) v. Appleton Construction Ltd.",
+    "query_text": "decision | Slave Lake (Town) v. Appleton Con- struction Ltd. et\nal. | 80 A.R. 276 (Alta. Q.B.)",
+    "method": "fuzzy",
+    "matched_key": "slave lake town v appleton con struction ltd et al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28lgz",
+        "score": 0.98989898989899,
+        "candidate_title": "Slave Lake (Town) v. Appleton Construction Ltd."
+      }
+    ]
+  },
+  "Chinook Aggregates Ltd. v. Abbotsford Municipal District": {
+    "uri": "https://canlii.ca/t/1p6r2",
+    "score": 0.8979591836734694,
+    "candidate_id": "1989bcca10012",
+    "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)",
+    "query_text": "decision | Chinook\nAggregates Ltd. v. Abbotsford Municipal District | (1989), 40 B.C.L.R. (2d) 345\n(B.C.C.A.),",
+    "method": "fuzzy",
+    "matched_key": "chinook aggregates ltd v abbotsford municipal district",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p6r2",
+        "score": 0.8979591836734694,
+        "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)"
+      }
+    ]
+  },
+  "Best Cleaners & Contractors Ltd. v. Canada": {
+    "uri": "https://canlii.ca/t/jqtg0",
+    "score": 3.0,
+    "candidate_id": "1985fctad1000042",
+    "candidate_title": "Best Cleaners and Contractors Ltd. v. The Queen",
+    "query_text": "decision | Best Cleaners &amp; Contractors Ltd. v. Canada | 58 N.R. 295",
+    "method": "citation_exact",
+    "matched_key": "58nr295",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqtg0",
+        "score": 3.0,
+        "candidate_title": "Best Cleaners and Contractors Ltd. v. The Queen"
+      }
+    ]
+  },
+  "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.": {
+    "uri": "https://canlii.ca/t/1p8z3",
+    "score": 2.0,
+    "candidate_id": "1991pescad198710005",
+    "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.",
+    "query_text": "decision | Hawes v. Sherwood-Parkdale Metro Junior Hockey Club\nInc. | (1991), 96 Nfld. &amp; P.E.I.R. 169 (P.E.I.S.C.T.D.)",
+    "method": "title_exact",
+    "matched_key": "hawes v sherwood parkdale metro junior hockey club inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p8z3",
+        "score": 2.0,
+        "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc."
+      }
+    ]
+  },
+  "Georgia Construction Co. v. Pacific Great Eastern Railway": {
+    "uri": "https://canlii.ca/t/21v1l",
+    "score": 3.0,
+    "candidate_id": "1929csc-scc1000004",
+    "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co.",
+    "query_text": "decision | Georgia\nConstruction Co. v. Pacific Great Eastern Railway | [1929] S.C.R. 630",
+    "method": "citation_exact",
+    "matched_key": "1929scr630",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21v1l",
+        "score": 3.0,
+        "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co."
+      }
+    ]
+  },
+  "M.J. Peddlesden Ltd. v. Liddle Construction, Ltd.": {
+    "uri": "https://canlii.ca/t/23pbl",
+    "score": 0.9662921348314607,
+    "candidate_id": "1981bcsc1000170",
+    "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd.",
+    "query_text": "decision | M.J. Peddlesden Ltd. v. Liddle Construction, Ltd. | (1981), 128 D.L.R. (3d) 360",
+    "method": "fuzzy",
+    "matched_key": "m j peddlesden ltd v liddle construction ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23pbl",
+        "score": 0.9662921348314607,
+        "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd."
+      }
+    ]
+  }
+}

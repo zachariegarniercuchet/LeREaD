@@ -1,0 +1,23 @@
+{
+  "Diavik Diamond Mines Inc. v. Tahera Diamond Corp.": {
+    "uri": "https://canlii.ca/t/25s29",
+    "score": 2.0,
+    "candidate_id": "2009nuca3",
+    "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp",
+    "query_text": "decision | Diavik Diamond Mines Inc. v. Tahera Diamond\nCorp. | 2009 NUCA 03",
+    "method": "title_exact",
+    "matched_key": "diavik diamond mines inc v tahera diamond corp",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/25s29",
+        "score": 2.0,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp"
+      },
+      {
+        "uri": "https://canlii.ca/t/22k6q",
+        "score": 2.0,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corporation"
+      }
+    ]
+  }
+}
