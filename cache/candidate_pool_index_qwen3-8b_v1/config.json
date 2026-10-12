@@ -11,7 +11,7 @@
       4096
     ]
   },
-  "input_file": "data/candidate_pool.csv",
+  "input_file": "data/gold_candidate_pool.csv",
   "num_candidates": 6519,
   "representation": {
     "fields": [

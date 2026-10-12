@@ -300,14 +300,14 @@ def process_document_resolution(
             best_candidate = candidates[int(row_idx[0])]
 
             mapping[normalize_docid(profile.docid)] = {
-                "uri": best_candidate["original_url"],
+                "uri": best_candidate["uri"],
                 "score": best_score,
                 "candidate_id": best_candidate.get("id"),
                 "candidate_title": best_candidate.get("docTitle"),
                 "query_text": text,
                 "topk": [
                     {
-                        "uri": candidates[int(i)]["original_url"],
+                        "uri": candidates[int(i)]["uri"],
                         "score": float(s),
                         "candidate_title": candidates[int(i)].get("docTitle"),
                     }
@@ -542,7 +542,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--split",
-        choices=["train", "test", "dev", "incoming", "extended_test"],
+        choices=["train", "test", "dev", "incoming", "extended_test", "dev_train"],
         default=None,
         help="Gold split to use with --gold.",
     )
