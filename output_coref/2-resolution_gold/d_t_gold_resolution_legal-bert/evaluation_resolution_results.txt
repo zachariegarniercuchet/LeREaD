@@ -13,25 +13,25 @@ Level-3 (uri) batch evaluation — 7 file pair(s)
 ======================================================================
 
 [1/7] 1989CanLII1415ONCA.html
-  tp:    5  |  P: 29.4%  R: 29.4%  F1: 29.4%
+  tp:   69  |  P: 78.4%  R: 72.6%  F1: 75.4%
 
 [2/7] 1994CanLII4528NLCA.html
-  tp:    0  |  P: 0.0%  R: 0.0%  F1: 0.0%
+  tp:    1  |  P: 0.6%  R: 0.6%  F1: 0.6%
 
 [3/7] 1997CanLII16226ONCA.html
-  tp:   86  |  P: 15.7%  R: 15.6%  F1: 15.7%
+  tp:   96  |  P: 15.7%  R: 15.5%  F1: 15.6%
 
 [4/7] 2008CSC9.html
-  tp:  112  |  P: 27.1%  R: 26.9%  F1: 27.0%
+  tp:  147  |  P: 30.7%  R: 30.4%  F1: 30.5%
 
 [5/7] 2016NBOMB12.html
-  tp:   16  |  P: 12.4%  R: 12.4%  F1: 12.4%
+  tp:   21  |  P: 15.7%  R: 15.7%  F1: 15.7%
 
 [6/7] 2019SCC65.html
-  tp:  170  |  P: 14.7%  R: 14.4%  F1: 14.6%
+  tp:  407  |  P: 28.8%  R: 28.2%  F1: 28.5%
 
 [7/7] 2021QCCA1675.html
-  tp:   42  |  P: 44.2%  R: 43.8%  F1: 44.0%
+  tp:   45  |  P: 45.9%  R: 45.5%  F1: 45.7%
 
 ======================================================================
 
@@ -48,19 +48,19 @@ Level-3 (uri) batch evaluation — 7 file pair(s)
   OVERALL
 ──────────────────────────────────────────────────────────────────────────────
 
-  TP                          :    431
-  FN - wrong uri (matched)    :   2089
-  FN - no uri produced        :     35
+  TP                          :    786
+  FN - wrong uri (matched)    :   2202
+  FN - no uri produced        :     50
   FN - mention never extracted:      0
   FP - spurious span w/ uri   :      0
-  Skipped (gold uri=none)     :   6655
+  Skipped (gold uri=none)     :   6172
 
-  PRECISION                   :     17.10%
-  RECALL                      :     16.87%
-  F1                          :     16.99%
+  PRECISION                   :     26.31%
+  RECALL                      :     25.87%
+  F1                          :     26.09%
 
   (diagnostic) resolver-only accuracy, i.e. Level-1-matched spans only
-  ACCURACY | extraction OK    :     16.87%  (2555 instances)
+  ACCURACY | extraction OK    :     25.87%  (3038 instances)
 
 ──────────────────────────────────────────────────────────────────────────────
   PER-LABEL BREAKDOWN
@@ -68,9 +68,9 @@ Level-3 (uri) batch evaluation — 7 file pair(s)
 
   Key                                 TP    FN    FP    Prec     Rec      F1
   ──────────────────────────────────────────────────────────────────────────
-  decision                           314  1212  1177   21.1%   20.6%   20.8%
-  legislation                         97   898   898    9.7%    9.7%    9.7%
-  secondary sources                   20    14    14   58.8%   58.8%   58.8%
+  decision                           441  1230  1195   27.0%   26.4%   26.7%
+  legislation                        105   985   982    9.7%    9.6%    9.6%
+  secondary sources                  240    37    25   90.6%   86.6%   88.6%
 
 ──────────────────────────────────────────────────────────────────────────────
   PER-CATEGORY BREAKDOWN
@@ -78,12 +78,12 @@ Level-3 (uri) batch evaluation — 7 file pair(s)
 
   Key                                 TP    FN    FP    Prec     Rec      F1
   ──────────────────────────────────────────────────────────────────────────
-  decision                           314  1212  1177   21.1%   20.6%   20.8%
-  legislation                         97   898   898    9.7%    9.7%    9.7%
-  secondary sources                   20    14    14   58.8%   58.8%   58.8%
+  decision                           441  1230  1195   27.0%   26.4%   26.7%
+  legislation                        105   985   982    9.7%    9.6%    9.6%
+  secondary sources                  240    37    25   90.6%   86.6%   88.6%
 
 ══════════════════════════════════════════════════════════════════════════════
 
-  Macro F1 (mean per-document F1): 20.43%
+  Macro F1 (mean per-document F1): 30.29%
   Documents evaluated: 7/7
 

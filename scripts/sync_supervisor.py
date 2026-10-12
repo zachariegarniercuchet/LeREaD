@@ -25,11 +25,9 @@ from pathlib import Path
 
 # Top-level paths (relative to repo root) taken from the source commit.
 ALLOW = [
-    "cache",
     "configs",
     "data",
     "img",
-    "scripts",
     "src",
     "README.md",
     "LABELIZER.md",
@@ -40,7 +38,7 @@ ALLOW = [
 # Subtrees that must NOT go to the review repo even though they live
 # under an allowed top-level path.
 DENY = [
-    "cache/chunks/annotated/paragraph",
+    #"cache/chunks/annotated/paragraph",
     "data/annotated/dev_train",
     "data/raw",
     "data/supplementary",
@@ -48,7 +46,7 @@ DENY = [
 
 # Extra .gitignore lines enforced on the review tree so excluded
 # content cannot be re-added by accident.
-REVIEW_GITIGNORE_EXTRA = ["output/", "output_coref/", "notebooks/"]
+REVIEW_GITIGNORE_EXTRA = ["output/", "output_coref/", "notebooks/", "scripts/", "cache/"]
 
 # Filename substrings that must never appear in the review index.
 FORBIDDEN_SUBSTRINGS = [
