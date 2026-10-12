@@ -65,12 +65,6 @@ def load_candidate_pool(
     with candidates_path.open("r", encoding="utf-8") as f:
         candidates = json.load(f)
 
-    # Backward compatibility: pools indexed before the column rename use
-    # "original_url" as the resolution target instead of "uri".
-    for candidate in candidates:
-        if "uri" not in candidate and "original_url" in candidate:
-            candidate["uri"] = candidate["original_url"]
-
     retriever = create_retriever(retriever_name, **retriever_kwargs)
     retriever.load(cache_dir)
 
@@ -548,7 +542,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--split",
-        choices=["train", "test", "dev", "incoming", "extended_test"],
+        choices=["train", "test", "dev", "incoming", "extended_test", "dev_train"],
         default=None,
         help="Gold split to use with --gold.",
     )

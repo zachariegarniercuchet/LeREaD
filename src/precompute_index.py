@@ -182,7 +182,7 @@ def main():
     parser.add_argument(
         "--input",
         type=Path,
-        default=Path("data/candidate_pool.csv"),
+        default=Path("data/gold_candidate_pool.csv"),
         help="Input candidate metadata CSV.",
     )
     parser.add_argument(
