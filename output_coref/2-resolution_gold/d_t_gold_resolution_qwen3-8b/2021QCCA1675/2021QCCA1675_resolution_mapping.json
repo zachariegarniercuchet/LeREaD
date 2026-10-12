@@ -18,21 +18,21 @@
       },
       {
         "uri": "https://canlii.ca/t/1mfdn",
-        "score": 0.6237249374389648,
+        "score": 0.6238349080085754,
         "candidate_title": "A.G. (Que.) v. Quebec Protestant School Boards"
       }
     ]
   },
   "Harper": {
     "uri": "https://canlii.ca/t/524l",
-    "score": 0.8025500774383545,
+    "score": 0.8020131587982178,
     "candidate_id": "2000csc-scc57",
     "candidate_title": "Harper v. Canada (Attorney General)",
     "query_text": "decision | Harper | Harper v. Canada (Attorney General) | [2000] 2 S.C.R. 764 | 2000 SCC 57",
     "topk": [
       {
         "uri": "https://canlii.ca/t/524l",
-        "score": 0.8025500774383545,
+        "score": 0.8020131587982178,
         "candidate_title": "Harper v. Canada (Attorney General)"
       },
       {
@@ -49,38 +49,38 @@
   },
   "Mosaic Potash": {
     "uri": "https://canlii.ca/t/fnk4z",
-    "score": 0.7078734040260315,
+    "score": 0.7080796360969543,
     "candidate_id": "2011skca120",
     "candidate_title": "Mosaic Potash Esterhazy Limited Partnership v Potash Corporation of Saskatchewan Inc",
     "query_text": "decision | Mosaic Potash",
     "topk": [
       {
         "uri": "https://canlii.ca/t/fnk4z",
-        "score": 0.7078734040260315,
+        "score": 0.7080796360969543,
         "candidate_title": "Mosaic Potash Esterhazy Limited Partnership v Potash Corporation of Saskatchewan Inc"
       },
       {
         "uri": "https://canlii.ca/t/fl1np",
-        "score": 0.6714973449707031,
+        "score": 0.6711775064468384,
         "candidate_title": "Potash Corporation of Saskatchewan Inc. v. Mosaic Potash Esterhazy Limited Partnership"
       },
       {
         "uri": "https://canlii.ca/t/gmn2w",
-        "score": 0.6354039311408997,
+        "score": 0.6342499256134033,
         "candidate_title": "Mosaic Potash Esterhazy Limited Partnership v Unifor Local 892"
       }
     ]
   },
   "Oshkosh Defense Canada": {
     "uri": "https://canlii.ca/t/hscjf",
-    "score": 0.8227213621139526,
+    "score": 0.8240230083465576,
     "candidate_id": "2018fca102",
     "candidate_title": "Canada (Attorney General) v. Oshkosh Defense Canada Inc.",
     "query_text": "decision | Canada (Attorney General) v Oshkosh\nDefense Canada Inc. | 2018 FCA 102",
     "topk": [
       {
         "uri": "https://canlii.ca/t/hscjf",
-        "score": 0.8227213621139526,
+        "score": 0.8240230083465576,
         "candidate_title": "Canada (Attorney General) v. Oshkosh Defense Canada Inc."
       },
       {
@@ -97,19 +97,19 @@
   },
   "Mahe": {
     "uri": "https://canlii.ca/t/1fsz4",
-    "score": 0.7872265577316284,
+    "score": 0.7897449135780334,
     "candidate_id": "1990csc-scc22",
     "candidate_title": "Mahe v. Alberta",
     "query_text": "decision | <i>Mahe</i> | Mahe v. Alberta | [1990] 1 S.C.R. 342",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1fsz4",
-        "score": 0.7872265577316284,
+        "score": 0.7897449135780334,
         "candidate_title": "Mahe v. Alberta"
       },
       {
         "uri": "https://canlii.ca/t/gc623",
-        "score": 0.5570964217185974,
+        "score": 0.5581408143043518,
         "candidate_title": "McAteer (Re)"
       },
       {
@@ -133,7 +133,7 @@
       },
       {
         "uri": "https://canlii.ca/t/ftp16",
-        "score": 0.6820098161697388,
+        "score": 0.6836791634559631,
         "candidate_title": "Moore v. British Columbia (Education)"
       },
       {
@@ -162,18 +162,23 @@
       },
       {
         "uri": "https://canlii.ca/t/1mkbw",
-        "score": 0.572037935256958,
+        "score": 0.5740340948104858,
         "candidate_title": "Thornton v. School Dist. No. 57 (Prince George) et al."
       }
     ]
   },
   "Brown": {
-    "uri": "https://canlii.ca/t/1frv5",
-    "score": 0.4982210099697113,
-    "candidate_id": "1994csc-scc19",
-    "candidate_title": "Brown v. British Columbia (Minister of Transportation and Highways)",
+    "uri": "https://synthetic.leread.ca/gold/G0102",
+    "score": 0.7609813809394836,
+    "candidate_id": "gold-G0102",
+    "candidate_title": "Brown v. Board of Education of Topeka",
     "query_text": "decision | Brown\nv. Board of Education of Topeka | 347 U.S. 483 (1954)",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0102",
+        "score": 0.7609813809394836,
+        "candidate_title": "Brown v. Board of Education of Topeka"
+      },
       {
         "uri": "https://canlii.ca/t/1frv5",
         "score": 0.4982210099697113,
@@ -181,13 +186,8 @@
       },
       {
         "uri": "https://canlii.ca/t/k4fq0",
-        "score": 0.48938074707984924,
+        "score": 0.48854872584342957,
         "candidate_title": "Brown v. Canada (Attorney General)"
-      },
-      {
-        "uri": "https://canlii.ca/t/1fs23",
-        "score": 0.4809499979019165,
-        "candidate_title": "R. v. Brown"
       }
     ]
   },
@@ -205,55 +205,55 @@
       },
       {
         "uri": "https://canlii.ca/t/j3xk2",
-        "score": 0.7319181561470032,
+        "score": 0.7312247157096863,
         "candidate_title": "Hak c. Procureure générale du Québec"
       },
       {
         "uri": "https://canlii.ca/t/20mt9",
-        "score": 0.5923588275909424,
+        "score": 0.5921051502227783,
         "candidate_title": "Québec (Procureur général) c. H.N."
       }
     ]
   },
   "CTI Capital": {
     "uri": "https://canlii.ca/t/j54ch",
-    "score": 0.8755242228507996,
+    "score": 0.8782894611358643,
     "candidate_id": "2020qcca197",
     "candidate_title": "CTI Capital valeurs mobilières inc. c. Nassif",
     "query_text": "decision | CTI Capital valeurs mobilières inc. c. Nassif | 2020\nQCCA 197",
     "topk": [
       {
         "uri": "https://canlii.ca/t/j54ch",
-        "score": 0.8755242228507996,
+        "score": 0.8782894611358643,
         "candidate_title": "CTI Capital valeurs mobilières inc. c. Nassif"
       },
       {
         "uri": "https://canlii.ca/t/fqbcd",
-        "score": 0.5774174928665161,
+        "score": 0.579219400882721,
         "candidate_title": "Nechi Investments Inc. c. Autorité des marchés financiers"
       },
       {
         "uri": "https://canlii.ca/t/fssg4",
-        "score": 0.5555288195610046,
+        "score": 0.5560628771781921,
         "candidate_title": "National Bank Financial Ltd. v. Nova Scotia (Securities Commission)"
       }
     ]
   },
   "Aliments Ultima": {
     "uri": "https://canlii.ca/t/jd5s9",
-    "score": 0.8557229042053223,
+    "score": 0.855880618095398,
     "candidate_id": "2021qcca239",
     "candidate_title": "Aliments Ultima inc. c. Vergers Leahy inc.",
     "query_text": "decision | Aliments\nUltima inc. c. Vergers Leahy inc. | 2021 QCCA 239",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jd5s9",
-        "score": 0.8557229042053223,
+        "score": 0.855880618095398,
         "candidate_title": "Aliments Ultima inc. c. Vergers Leahy inc."
       },
       {
         "uri": "https://canlii.ca/t/jg2jz",
-        "score": 0.5795231461524963,
+        "score": 0.5803692936897278,
         "candidate_title": "Droit de la famille — 21903"
       },
       {
@@ -277,79 +277,79 @@
       },
       {
         "uri": "https://canlii.ca/t/gnrhl",
-        "score": 0.5365912914276123,
+        "score": 0.537513256072998,
         "candidate_title": "Commission scolaire de Laval v. Syndicat de l’enseignement de la région de Laval"
       },
       {
         "uri": "https://canlii.ca/t/1mbrx",
-        "score": 0.5351773500442505,
+        "score": 0.5338464975357056,
         "candidate_title": "LeBlanc v. Boisvert"
       }
     ]
   },
   "Friedrich": {
     "uri": "https://canlii.ca/t/gw2bc",
-    "score": 0.8306726217269897,
+    "score": 0.829790472984314,
     "candidate_id": "2016qcca2011",
     "candidate_title": "Friedrich c. Friedrich",
     "query_text": "decision | Friedrich\nv. Friedrich | 2016 QCCA 2011",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gw2bc",
-        "score": 0.8306726217269897,
+        "score": 0.829790472984314,
         "candidate_title": "Friedrich c. Friedrich"
       },
       {
         "uri": "https://canlii.ca/t/gvgjd",
-        "score": 0.5816094875335693,
+        "score": 0.581225574016571,
         "candidate_title": "Froehlich-Fivey v. Fivey"
       },
       {
         "uri": "https://canlii.ca/t/jg2jz",
-        "score": 0.5512308478355408,
+        "score": 0.5515850186347961,
         "candidate_title": "Droit de la famille — 21903"
       }
     ]
   },
   "Droit de la famille - 172312": {
     "uri": "https://canlii.ca/t/h6k5p",
-    "score": 0.7729647159576416,
+    "score": 0.7720926403999329,
     "candidate_id": "2017qcca1554",
     "candidate_title": "Droit de la famille — 172312",
     "query_text": "decision | Droit de la famille — 172312 | 2017 QCCA 1554",
     "topk": [
       {
         "uri": "https://canlii.ca/t/h6k5p",
-        "score": 0.7729647159576416,
+        "score": 0.7720926403999329,
         "candidate_title": "Droit de la famille — 172312"
       },
       {
         "uri": "https://canlii.ca/t/jg2jz",
-        "score": 0.6914414167404175,
+        "score": 0.6918579936027527,
         "candidate_title": "Droit de la famille — 21903"
       },
       {
         "uri": "https://canlii.ca/t/jt9dg",
-        "score": 0.5956171751022339,
+        "score": 0.5942659378051758,
         "candidate_title": "K.C. c. R."
       }
     ]
   },
   "Droit de la famille — 21903": {
     "uri": "https://canlii.ca/t/jg2jz",
-    "score": 0.7877012491226196,
+    "score": 0.7871987223625183,
     "candidate_id": "2021qcca837",
     "candidate_title": "Droit de la famille — 21903",
     "query_text": "decision | Droit de la famille — 21903 | 2021 QCCA 837",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jg2jz",
-        "score": 0.7877012491226196,
+        "score": 0.7871987223625183,
         "candidate_title": "Droit de la famille — 21903"
       },
       {
         "uri": "https://canlii.ca/t/h6k5p",
-        "score": 0.6609812378883362,
+        "score": 0.6596063375473022,
         "candidate_title": "Droit de la famille — 172312"
       },
       {
@@ -373,12 +373,12 @@
       },
       {
         "uri": "https://canlii.ca/t/1jj0k",
-        "score": 0.5617437362670898,
+        "score": 0.5611168742179871,
         "candidate_title": "Crane Canada Inc. c. Sécurité nationale, cie d'assurance"
       },
       {
         "uri": "https://canlii.ca/t/g19q7",
-        "score": 0.5486880540847778,
+        "score": 0.5492367744445801,
         "candidate_title": "Bloom v. Creed and the Consumer's Gas Co. of Toronto"
       }
     ]
@@ -397,12 +397,12 @@
       },
       {
         "uri": "https://canlii.ca/t/276vz",
-        "score": 0.7461513876914978,
+        "score": 0.7455000877380371,
         "candidate_title": "Conseil québécois sur le tabac et la santé c. JTI-Macdonald Corp."
       },
       {
         "uri": "https://canlii.ca/t/gfwtm",
-        "score": 0.6633195877075195,
+        "score": 0.662574827671051,
         "candidate_title": "Philip Morris Products S.A. v. Imperial Tobacco Canada Limited"
       }
     ]
@@ -445,7 +445,7 @@
       },
       {
         "uri": "https://canlii.ca/t/1mjtq",
-        "score": 0.6126537322998047,
+        "score": 0.6115262508392334,
         "candidate_title": "Solosky v. The Queen"
       },
       {
@@ -457,19 +457,19 @@
   },
   "H.N.": {
     "uri": "https://canlii.ca/t/20mt9",
-    "score": 0.8174113631248474,
+    "score": 0.8163860440254211,
     "candidate_id": "2007qcca1136",
     "candidate_title": "Québec (Procureur général) c. H.N.",
     "query_text": "decision | Québec (Procureur général) c.\nH.N. | 2007 QCCA 1136",
     "topk": [
       {
         "uri": "https://canlii.ca/t/20mt9",
-        "score": 0.8174113631248474,
+        "score": 0.8163860440254211,
         "candidate_title": "Québec (Procureur général) c. H.N."
       },
       {
         "uri": "https://canlii.ca/t/j3xk2",
-        "score": 0.6304408311843872,
+        "score": 0.6311918497085571,
         "candidate_title": "Hak c. Procureure générale du Québec"
       },
       {
@@ -481,19 +481,19 @@
   },
   "Canadian Council for Refugees": {
     "uri": "https://canlii.ca/t/1vkdx",
-    "score": 0.7867541313171387,
+    "score": 0.7856113910675049,
     "candidate_id": "2008fca40",
     "candidate_title": "Canada v. Canadian Council for Refugees",
     "query_text": "decision | Canada\nv. Canadian Council for Refugees | 2008 FCA 40",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1vkdx",
-        "score": 0.7867541313171387,
+        "score": 0.7856113910675049,
         "candidate_title": "Canada v. Canadian Council for Refugees"
       },
       {
         "uri": "https://canlii.ca/t/j8rd7",
-        "score": 0.7133548259735107,
+        "score": 0.7146428227424622,
         "candidate_title": "Canadian Council for Refugees v. Canada (Immigration, Refugees and Citizenship)"
       },
       {
@@ -505,14 +505,14 @@
   },
   "Bedford": {
     "uri": "https://canlii.ca/t/2dp6k",
-    "score": 0.8261669874191284,
+    "score": 0.8258715271949768,
     "candidate_id": "2010onca814",
     "candidate_title": "Bedford v. Canada (Attorney General)",
     "query_text": "decision | Bedford\nv. Canada (Attorney General) | 2010 ONCA 814",
     "topk": [
       {
         "uri": "https://canlii.ca/t/2dp6k",
-        "score": 0.8261669874191284,
+        "score": 0.8258715271949768,
         "candidate_title": "Bedford v. Canada (Attorney General)"
       },
       {
@@ -522,21 +522,21 @@
       },
       {
         "uri": "https://canlii.ca/t/hsm3g",
-        "score": 0.6013919115066528,
+        "score": 0.6006321907043457,
         "candidate_title": "Brown v. Canada (Attorney General)"
       }
     ]
   },
   "Hak QCCA 2019": {
     "uri": "https://canlii.ca/t/j3xk2",
-    "score": 0.8560504913330078,
+    "score": 0.8550471067428589,
     "candidate_id": "2019qcca2145",
     "candidate_title": "Hak c. Procureure générale du Québec",
     "query_text": "decision | Hak c. Procureure générale du Québec | 2019 QCCA 2145",
     "topk": [
       {
         "uri": "https://canlii.ca/t/j3xk2",
-        "score": 0.8560504913330078,
+        "score": 0.8550471067428589,
         "candidate_title": "Hak c. Procureure générale du Québec"
       },
       {
@@ -546,21 +546,21 @@
       },
       {
         "uri": "https://canlii.ca/t/20mt9",
-        "score": 0.634564995765686,
+        "score": 0.6347877979278564,
         "candidate_title": "Québec (Procureur général) c. H.N."
       }
     ]
   },
   "Fédération des coopératives funéraires du Québec": {
     "uri": "https://canlii.ca/t/273mr",
-    "score": 0.9233319163322449,
+    "score": 0.9233425259590149,
     "candidate_id": "2009qcca2445",
     "candidate_title": "Fédération des coopératives funéraires du Québec c. Bureau de normalisation du Québec",
     "query_text": "decision | Fédération des coopératives funéraires du Québec c. Bureau de\nnormalisation du Québec | J.E. 2010-153 (C.A.) | 2009 QCCA 2445",
     "topk": [
       {
         "uri": "https://canlii.ca/t/273mr",
-        "score": 0.9233319163322449,
+        "score": 0.9233425259590149,
         "candidate_title": "Fédération des coopératives funéraires du Québec c. Bureau de normalisation du Québec"
       },
       {
@@ -570,7 +570,7 @@
       },
       {
         "uri": "https://canlii.ca/t/j3xk2",
-        "score": 0.5388267040252686,
+        "score": 0.540278434753418,
         "candidate_title": "Hak c. Procureure générale du Québec"
       }
     ]
@@ -589,7 +589,7 @@
       },
       {
         "uri": "https://canlii.ca/t/gwqns",
-        "score": 0.6915463805198669,
+        "score": 0.6907578110694885,
         "candidate_title": "Procureure générale du Québec c. Ville de Montréal"
       },
       {
@@ -601,19 +601,19 @@
   },
   "British Columbia": {
     "uri": "https://canlii.ca/t/j2kgx",
-    "score": 0.8366797566413879,
+    "score": 0.8380994200706482,
     "candidate_id": "2019fct1195",
     "candidate_title": "British Columbia (Attorney General) v. Alberta (Attorney General)",
     "query_text": "decision | British Columbia (Attorney General) v. Alberta (Attorney\nGeneral) | 2019 FC 1195",
     "topk": [
       {
         "uri": "https://canlii.ca/t/j2kgx",
-        "score": 0.8366797566413879,
+        "score": 0.8380994200706482,
         "candidate_title": "British Columbia (Attorney General) v. Alberta (Attorney General)"
       },
       {
         "uri": "https://canlii.ca/t/jfknm",
-        "score": 0.7293825745582581,
+        "score": 0.7265830039978027,
         "candidate_title": "Alberta (Attorney General) v. British Columbia (Attorney General)"
       },
       {
@@ -625,19 +625,19 @@
   },
   "Alberta": {
     "uri": "https://canlii.ca/t/jfknm",
-    "score": 0.5379570126533508,
+    "score": 0.540948212146759,
     "candidate_id": "2021fca84",
     "candidate_title": "Alberta (Attorney General) v. British Columbia (Attorney General)",
     "query_text": "decision | 2021\nFCA 84",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jfknm",
-        "score": 0.5379570126533508,
+        "score": 0.540948212146759,
         "candidate_title": "Alberta (Attorney General) v. British Columbia (Attorney General)"
       },
       {
         "uri": "https://canlii.ca/t/jj76l",
-        "score": 0.5330883860588074,
+        "score": 0.5339782238006592,
         "candidate_title": "Pooran v. Canada (Attorney General)"
       },
       {
@@ -649,14 +649,14 @@
   },
   "Syndicat Northcrest": {
     "uri": "https://canlii.ca/t/1hddh",
-    "score": 0.8247291445732117,
+    "score": 0.824769139289856,
     "candidate_id": "2004csc-scc47",
     "candidate_title": "Syndicat Northcrest v. Amselem",
     "query_text": "decision | Syndicat Northcrest v. Amselem | [2004] 2 S.C.R. 551 | 2004 SCC 47",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1hddh",
-        "score": 0.8247291445732117,
+        "score": 0.824769139289856,
         "candidate_title": "Syndicat Northcrest v. Amselem"
       },
       {
@@ -666,104 +666,104 @@
       },
       {
         "uri": "https://canlii.ca/t/jshfv",
-        "score": 0.5588281750679016,
+        "score": 0.557834267616272,
         "candidate_title": "Annapolis Group Inc. v. Halifax Regional Municipality"
       }
     ]
   },
   "Code of Civil Procedure": {
     "uri": "https://canlii.ca/t/56lxl",
-    "score": 0.725955069065094,
+    "score": 0.7245362997055054,
     "candidate_id": "l38186!38186-current-1",
     "candidate_title": "Code of Civil Procedure",
     "query_text": "legislation | <i>C.C.P.</i> | C.C.P. | <i>C.C.P</i><i>.</i> | Code of Civil Procedure",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56lxl",
-        "score": 0.725955069065094,
+        "score": 0.7245362997055054,
         "candidate_title": "Code of Civil Procedure"
       },
       {
         "uri": "https://canlii.ca/t/56pg2",
-        "score": 0.7243227362632751,
+        "score": 0.7237104177474976,
         "candidate_title": "Code of Civil Procedure"
       },
       {
-        "uri": "https://canlii.ca/t/6fqkd",
-        "score": 0.7132719159126282,
+        "uri": "https://canlii.ca/t/69m2c",
+        "score": 0.7135241031646729,
         "candidate_title": "Code de procédure civile"
       }
     ]
   },
   "Laicity Act": {
     "uri": "https://canlii.ca/t/56lzp",
-    "score": 0.7935301065444946,
+    "score": 0.7921801209449768,
     "candidate_id": "l48068!48068-current-1",
     "candidate_title": "Act respecting the laicity of the State",
     "query_text": "legislation | <i>Act respecting the\nlaicity of the State</i> | Laicity Act | Act | Laicity\nAct | CQLR c L-0.3",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56lzp",
-        "score": 0.7935301065444946,
+        "score": 0.7921801209449768,
         "candidate_title": "Act respecting the laicity of the State"
       },
       {
-        "uri": "https://canlii.ca/t/56w3t",
-        "score": 0.5013844966888428,
-        "candidate_title": "Act respecting administrative justice"
+        "uri": "https://synthetic.leread.ca/gold/G0317",
+        "score": 0.5440256595611572,
+        "candidate_title": "Lord's Day Act"
       },
       {
-        "uri": "https://canlii.ca/t/7vz7",
-        "score": 0.49584442377090454,
-        "candidate_title": "Public Service Employment Act"
+        "uri": "https://synthetic.leread.ca/gold/G0406",
+        "score": 0.5163360238075256,
+        "candidate_title": "Quebec Charter of Values"
       }
     ]
   },
   "Canadian Charter": {
     "uri": "https://canlii.ca/t/ldsx",
-    "score": 0.6960778832435608,
+    "score": 0.6966226100921631,
     "candidate_id": "l36028!36028-current-1",
     "candidate_title": "The Constitution Act, 1982",
     "query_text": "legislation | Canadian Charter of Rights and Freedoms | Charter",
     "topk": [
       {
         "uri": "https://canlii.ca/t/ldsx",
-        "score": 0.6960778832435608,
+        "score": 0.6966226100921631,
         "candidate_title": "The Constitution Act, 1982"
       },
       {
         "uri": "https://canlii.ca/t/56kkc",
-        "score": 0.6411086320877075,
+        "score": 0.639851450920105,
         "candidate_title": "Charter of Human Rights and Freedoms"
       },
       {
-        "uri": "https://canlii.ca/t/7vnh",
-        "score": 0.5975521802902222,
-        "candidate_title": "Canadian Bill of Rights"
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6144775152206421,
+        "candidate_title": "Canada Act 1982"
       }
     ]
   },
   "Recourse Against Civil Judgments": {
-    "uri": "https://canlii.ca/t/wsf",
-    "score": 0.4826071858406067,
-    "candidate_id": "l5033!5033-current-1",
-    "candidate_title": "The Enforcement of Foreign Judgments Act",
+    "uri": "https://synthetic.leread.ca/gold/G0415",
+    "score": 0.8079570531845093,
+    "candidate_id": "gold-G0415",
+    "candidate_title": "Introduction — Recourse Against Civil Judgments in the European Union: A Comparative Survey",
     "query_text": "secondary sources | Introduction — Recourse Against\nCivil Judgments in the European Union: A Comparative Survey | John Anthony Jolowicz",
     "topk": [
       {
+        "uri": "https://synthetic.leread.ca/gold/G0415",
+        "score": 0.8079570531845093,
+        "candidate_title": "Introduction — Recourse Against Civil Judgments in the European Union: A Comparative Survey"
+      },
+      {
         "uri": "https://canlii.ca/t/wsf",
-        "score": 0.4826071858406067,
+        "score": 0.4813644289970398,
         "candidate_title": "The Enforcement of Foreign Judgments Act"
       },
       {
         "uri": "https://canlii.ca/t/8b47",
-        "score": 0.434243381023407,
+        "score": 0.43419691920280457,
         "candidate_title": "Judgment Enforcement Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/94gp",
-        "score": 0.4314019978046417,
-        "candidate_title": "An Act Respecting the Enforcement of Money Judgments Act"
       }
     ]
   }

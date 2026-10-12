@@ -1,0 +1,650 @@
+{
+  "Environmental Protection and Enhancement Act": {
+    "uri": "https://canlii.ca/t/56wh2",
+    "score": 0.8272850513458252,
+    "candidate_id": "l17678!17678-current-1",
+    "candidate_title": "Environmental Protection and Enhancement Act",
+    "query_text": "legislation | <i>Environmental Protection and Enhancement Act</i> | Act | RSA 2000, c E-12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 0.8272850513458252,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 0.8243177533149719,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8d2l",
+        "score": 0.6308543682098389,
+        "candidate_title": "Environmental Protection Act"
+      }
+    ]
+  },
+  "Alberta Rules of Court": {
+    "uri": "https://canlii.ca/t/56v6x",
+    "score": 0.7625376582145691,
+    "candidate_id": "l34474!34474-current-1",
+    "candidate_title": "Alberta Rules of Court",
+    "query_text": "legislation | Alberta Rules of Court",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 0.7625376582145691,
+        "candidate_title": "Alberta Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 0.6413352489471436,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://canlii.ca/t/kcvt",
+        "score": 0.6181624531745911,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      }
+    ]
+  },
+  "Constitution Act, 1867": {
+    "uri": "https://synthetic.leread.ca/gold/G0116",
+    "score": 0.6834264993667603,
+    "candidate_id": "gold-G0116",
+    "candidate_title": "Canada Act 1982",
+    "query_text": "legislation | Constitution Act",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6834264993667603,
+        "candidate_title": "Canada Act 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.6749634742736816,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.6427727937698364,
+        "candidate_title": "The Constitution Act, 1982"
+      }
+    ]
+  },
+  "Supreme Court Civil Rules": {
+    "uri": "https://canlii.ca/t/56v79",
+    "score": 0.8023846745491028,
+    "candidate_id": "l32752!32752-current-1",
+    "candidate_title": "Supreme Court Civil Rules",
+    "query_text": "legislation | Supreme Court Civil Rules | BC Reg 168/2009",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.8023846745491028,
+        "candidate_title": "Supreme Court Civil Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.600845217704773,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.600845217704773,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      }
+    ]
+  },
+  "Federal Courts Rules": {
+    "uri": "https://canlii.ca/t/56nfx",
+    "score": 0.7704672813415527,
+    "candidate_id": "l16654!16654-current-1",
+    "candidate_title": "Federal Courts Rules",
+    "query_text": "legislation | <i>Federal Courts Rules</i> | SOR/98-106",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nfx",
+        "score": 0.7704672813415527,
+        "candidate_title": "Federal Courts Rules"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0206",
+        "score": 0.7008363604545593,
+        "candidate_title": "Federal Courts Act Amendment"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bzl",
+        "score": 0.6623494029045105,
+        "candidate_title": "Federal Courts Act"
+      }
+    ]
+  },
+  "Court of King": {
+    "uri": "https://canlii.ca/t/5666v",
+    "score": 0.7863189578056335,
+    "candidate_id": "l28366!28366-current-1",
+    "candidate_title": "Court of King's Bench Rules",
+    "query_text": "legislation | <i>Court of King’s Bench Rules</i> | Man Reg 553/88",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5666v",
+        "score": 0.7863189578056335,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wgf",
+        "score": 0.7854504585266113,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w0m",
+        "score": 0.6505821943283081,
+        "candidate_title": "The Court of King's Bench Act"
+      }
+    ]
+  },
+  "Rules of Civil Procedure": {
+    "uri": "https://canlii.ca/t/56nkn",
+    "score": 0.7721239328384399,
+    "candidate_id": "l2759!2759-current-1",
+    "candidate_title": "Rules of Civil Procedure",
+    "query_text": "legislation | <i>Rules of Civil Procedure</i> | RRO 1990, Reg 194",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 0.7721239328384399,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.6453840136528015,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.6259812712669373,
+        "candidate_title": "Supreme Court Civil Rules"
+      }
+    ]
+  },
+  "Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)": {
+    "uri": "https://canlii.ca/t/kb9vq",
+    "score": 0.8320279121398926,
+    "candidate_id": "2025abkb158",
+    "candidate_title": "Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)",
+    "query_text": "decision | <b><i>Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)</i></b> | 2025 ABKB 463",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kb9vq",
+        "score": 0.8320279121398926,
+        "candidate_title": "Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)"
+      },
+      {
+        "uri": "https://canlii.ca/t/kdq9p",
+        "score": 0.8317888975143433,
+        "candidate_title": "Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)"
+      },
+      {
+        "uri": "https://canlii.ca/t/khffk",
+        "score": 0.7751091122627258,
+        "candidate_title": "Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)"
+      }
+    ]
+  },
+  "Poole v City Wide Towing and Recovery Service Ltd": {
+    "uri": "https://canlii.ca/t/j5rkp",
+    "score": 0.8186677098274231,
+    "candidate_id": "2020abca102",
+    "candidate_title": "Poole v City Wide Towing and Recovery Service Ltd",
+    "query_text": "decision | Poole v City Wide Towing and Recovery Service Ltd | <b><i>Poole</i></b> | 2020 ABCA 102 | 62 CCEL (4th) 184",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j5rkp",
+        "score": 0.8186677098274231,
+        "candidate_title": "Poole v City Wide Towing and Recovery Service Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/j9cl3",
+        "score": 0.7536109089851379,
+        "candidate_title": "City Wide Towing and Recovery Service Ltd v Poole"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrj8j",
+        "score": 0.5394413471221924,
+        "candidate_title": "Carroll v ATCO Electric Ltd"
+      }
+    ]
+  },
+  "Milot Law v Sittler": {
+    "uri": "https://canlii.ca/t/k3xt9",
+    "score": 0.8103637099266052,
+    "candidate_id": "2024abca116",
+    "candidate_title": "Milot Law v Sittler",
+    "query_text": "decision | <b><i>Milot Law v Sittler</i></b> | 2024 ABCA 116",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k3xt9",
+        "score": 0.8103637099266052,
+        "candidate_title": "Milot Law v Sittler"
+      },
+      {
+        "uri": "https://canlii.ca/t/jfwm9",
+        "score": 0.5696070194244385,
+        "candidate_title": "Saito v Lester Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/k7lml",
+        "score": 0.5648757219314575,
+        "candidate_title": "Schneider v Homenick"
+      }
+    ]
+  },
+  "PricewaterhouseCoopers Inc v Perpetual Energy Inc": {
+    "uri": "https://canlii.ca/t/j4xq3",
+    "score": 0.8475085496902466,
+    "candidate_id": "2020abca36",
+    "candidate_title": "PricewaterhouseCoopers Inc v Perpetual Energy Inc",
+    "query_text": "decision | PricewaterhouseCoopers Inc v Perpetual Energy Inc | 2020 ABCA 36 | 75 CBR (6th) 179",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j4xq3",
+        "score": 0.8475085496902466,
+        "candidate_title": "PricewaterhouseCoopers Inc v Perpetual Energy Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8f9f",
+        "score": 0.835172712802887,
+        "candidate_title": "PricewaterhouseCoopers Inc v Perpetual Energy Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/ghg1p",
+        "score": 0.6456528902053833,
+        "candidate_title": "Nexen Energy ULC v Pricewaterhousecoopers Inc"
+      }
+    ]
+  },
+  "2020 ABCA 254": {
+    "uri": "https://canlii.ca/t/kcv21",
+    "score": 0.6246611475944519,
+    "candidate_id": "2025abca231",
+    "candidate_title": "Banovich v Banovic",
+    "query_text": "decision | 2020 ABCA 254",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kcv21",
+        "score": 0.6246611475944519,
+        "candidate_title": "Banovich v Banovic"
+      },
+      {
+        "uri": "https://canlii.ca/t/k5fvl",
+        "score": 0.6199554204940796,
+        "candidate_title": "Kotyk (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/k8m2w",
+        "score": 0.6147528290748596,
+        "candidate_title": "Spiess v Spiess"
+      }
+    ]
+  },
+  "Henderson (Re)": {
+    "uri": "https://canlii.ca/t/jm53g",
+    "score": 0.7951871156692505,
+    "candidate_id": "2022abca43",
+    "candidate_title": "Henderson (Re)",
+    "query_text": "decision | <b><i>Henderson (Re)</i></b> | 2022 ABCA 43",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jm53g",
+        "score": 0.7951871156692505,
+        "candidate_title": "Henderson (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jb6dp",
+        "score": 0.5668780207633972,
+        "candidate_title": "Henderson v. Quinn"
+      },
+      {
+        "uri": "https://canlii.ca/t/gcx7l",
+        "score": 0.5344154238700867,
+        "candidate_title": "Hughes v. Henderson"
+      }
+    ]
+  },
+  "Skolney v Nisha": {
+    "uri": "https://canlii.ca/t/hqrs7",
+    "score": 0.7792755961418152,
+    "candidate_id": "2018abca78",
+    "candidate_title": "Skolney v Nisha",
+    "query_text": "decision | <b><i>Skolney v Nisha</i></b> | Skolney | 2018 ABCA 78 | 10 RFL (8th) 34",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hqrs7",
+        "score": 0.7792755961418152,
+        "candidate_title": "Skolney v Nisha"
+      },
+      {
+        "uri": "https://canlii.ca/t/hq72n",
+        "score": 0.5533665418624878,
+        "candidate_title": "J.E.S. v J.G.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/gwqck",
+        "score": 0.5382534861564636,
+        "candidate_title": "J.P. v J.P."
+      }
+    ]
+  },
+  "Parker v Parker": {
+    "uri": "https://canlii.ca/t/hzbr6",
+    "score": 0.8317016363143921,
+    "candidate_id": "2019abca114",
+    "candidate_title": "Parker v. Parker",
+    "query_text": "decision | Parker v Parker | 2019 ABCA 114 | 89 Alta LR (6th) 104",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hzbr6",
+        "score": 0.8317016363143921,
+        "candidate_title": "Parker v. Parker"
+      },
+      {
+        "uri": "https://canlii.ca/t/gp1c4",
+        "score": 0.6037899255752563,
+        "candidate_title": "Benc v. Parker"
+      },
+      {
+        "uri": "https://canlii.ca/t/1n8bb",
+        "score": 0.6008817553520203,
+        "candidate_title": "Sparrow v. Sparrow"
+      }
+    ]
+  },
+  "Spiess v Spiess": {
+    "uri": "https://canlii.ca/t/k8m2w",
+    "score": 0.8403316736221313,
+    "candidate_id": "2025abca3",
+    "candidate_title": "Spiess v Spiess",
+    "query_text": "decision | Spiess v Spiess | 2025 ABCA 3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k8m2w",
+        "score": 0.8403316736221313,
+        "candidate_title": "Spiess v Spiess"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l8fh",
+        "score": 0.6473238468170166,
+        "candidate_title": "Spencer v. Spencer"
+      },
+      {
+        "uri": "https://canlii.ca/t/kc3qd",
+        "score": 0.6304382681846619,
+        "candidate_title": "Walsh v Walsh"
+      }
+    ]
+  },
+  "Banovich v Banovic": {
+    "uri": "https://canlii.ca/t/kcv21",
+    "score": 0.8175510168075562,
+    "candidate_id": "2025abca231",
+    "candidate_title": "Banovich v Banovic",
+    "query_text": "decision | <b><i>Banovich v Banovic</i></b> | 2025 ABCA 231",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kcv21",
+        "score": 0.8175510168075562,
+        "candidate_title": "Banovich v Banovic"
+      },
+      {
+        "uri": "https://canlii.ca/t/kc3qd",
+        "score": 0.607612669467926,
+        "candidate_title": "Walsh v Walsh"
+      },
+      {
+        "uri": "https://canlii.ca/t/k8m2w",
+        "score": 0.6072707772254944,
+        "candidate_title": "Spiess v Spiess"
+      }
+    ]
+  },
+  "Beaumont Energy Inc v Amik Oilfield Equipment and Rentals Ltd": {
+    "uri": "https://canlii.ca/t/h6lnr",
+    "score": 0.8638967871665955,
+    "candidate_id": "2017abca327",
+    "candidate_title": "Beaumont Energy Inc v Amik Oilfield Equipment & Rentals Ltd",
+    "query_text": "decision | <b><i>Beaumont Energy Inc v Amik Oilfield Equipment and Rentals Ltd</i></b> | 2017 ABCA 327",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h6lnr",
+        "score": 0.8638967871665955,
+        "candidate_title": "Beaumont Energy Inc v Amik Oilfield Equipment & Rentals Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/h438n",
+        "score": 0.588180661201477,
+        "candidate_title": "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing"
+      },
+      {
+        "uri": "https://canlii.ca/t/1r4pd",
+        "score": 0.5700863599777222,
+        "candidate_title": "Imperial Oil Resources Ltd. v. 826167 Alberta Inc."
+      }
+    ]
+  },
+  "1992 Order of the Natural Resources Conservation Board": {
+    "uri": "https://canlii.ca/t/1bqn8",
+    "score": 0.5867098569869995,
+    "candidate_id": "1992csc-scc1",
+    "candidate_title": "Friends of the Oldman River Society v. Canada (Minister of Transport)",
+    "query_text": "decision | 1992 Order of the Natural Resources Conservation Board",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1bqn8",
+        "score": 0.5867098569869995,
+        "candidate_title": "Friends of the Oldman River Society v. Canada (Minister of Transport)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9rdj",
+        "score": 0.5645536184310913,
+        "candidate_title": "Saskatchewan Action Foundation for the Environment Inc. v. Saskatchewan (Minister of the Environment and Public Safety"
+      },
+      {
+        "uri": "https://canlii.ca/t/gv2rg",
+        "score": 0.55846107006073,
+        "candidate_title": "Wildlands League v. Ontario (Natural Resources and Forestry)"
+      }
+    ]
+  },
+  "Three Sisters": {
+    "uri": "https://canlii.ca/t/2ddf4",
+    "score": 0.6033862829208374,
+    "candidate_id": "1997abca137",
+    "candidate_title": "Three Sisters Golf Resorts Inc. v. Canmore (Town)",
+    "query_text": "decision | Three Sisters",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2ddf4",
+        "score": 0.6033862829208374,
+        "candidate_title": "Three Sisters Golf Resorts Inc. v. Canmore (Town)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jxnw4",
+        "score": 0.4872240424156189,
+        "candidate_title": "Six Nations of the Grand River Band of Indians v The Attorney General of Canada and His Majesty the King in Right of Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/k1ghw",
+        "score": 0.46529319882392883,
+        "candidate_title": "Loraas v Loraas Disposal North Ltd."
+      }
+    ]
+  },
+  "Thunderstone": {
+    "uri": "https://canlii.ca/t/g0csp",
+    "score": 0.5072793364524841,
+    "candidate_id": "2013mbca78",
+    "candidate_title": "Thunderbird Holdings Ltd. v. Manitoba et al.",
+    "query_text": "decision | Thunderstone",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0csp",
+        "score": 0.5072793364524841,
+        "candidate_title": "Thunderbird Holdings Ltd. v. Manitoba et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/jskv4",
+        "score": 0.494101881980896,
+        "candidate_title": "Thornhill v. Dartmouth Broadcasting Limited and Patterson"
+      },
+      {
+        "uri": "https://canlii.ca/t/kgr89",
+        "score": 0.4935000240802765,
+        "candidate_title": "Thompson v. Mohawk Council of Kahnawà:ke"
+      }
+    ]
+  },
+  "Castle – Crown Wilderness Coalition v Alberta (Director of Regulatory Assurance Decision, Alberta Environment)": {
+    "uri": "https://canlii.ca/t/1lkj5",
+    "score": 0.8544596433639526,
+    "candidate_id": "2005abca283",
+    "candidate_title": "Castle-Crown Wilderness Coalition v. Alberta (Director of Regulatory Assurance Division, Alberta Environnment)",
+    "query_text": "decision | Castle – Crown Wilderness Coalition v Alberta (Director of Regulatory Assurance Decision, Alberta Environment) | 2005 ABCA 283 | 52 Alta LR (4th) 17",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lkj5",
+        "score": 0.8544596433639526,
+        "candidate_title": "Castle-Crown Wilderness Coalition v. Alberta (Director of Regulatory Assurance Division, Alberta Environnment)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8x7w",
+        "score": 0.6743252277374268,
+        "candidate_title": "Colette Benson and CRC Open Camp and Catering Ltd. v. Director, Regional Compliance, Lower Athabasca Region, Alberta Environment and Parks"
+      },
+      {
+        "uri": "https://canlii.ca/t/k9dm7",
+        "score": 0.6428197622299194,
+        "candidate_title": "Pearce et al. v. Director, Regulatory Assurance Division South, Alberta Environment and Protected Areas, re: Mountain Ash Limited Partnership 23-056-057-D"
+      }
+    ]
+  },
+  "Alexis v Alberta (Environment and Parks)": {
+    "uri": "https://canlii.ca/t/j6xd3",
+    "score": 0.8124149441719055,
+    "candidate_id": "2020abca188",
+    "candidate_title": "Alexis v Alberta (Environment and Parks)",
+    "query_text": "decision | <b><i>Alexis v Alberta (Environment and Parks)</i></b> | 2020 ABCA 188 | 8 Alta LR (6th) 7",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j6xd3",
+        "score": 0.8124149441719055,
+        "candidate_title": "Alexis v Alberta (Environment and Parks)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lkj5",
+        "score": 0.6362996697425842,
+        "candidate_title": "Castle-Crown Wilderness Coalition v. Alberta (Director of Regulatory Assurance Division, Alberta Environnment)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h2r5f",
+        "score": 0.6293790936470032,
+        "candidate_title": "Court v. Alberta Environmental Appeal Board"
+      }
+    ]
+  },
+  "Aheer Transportation Ltd v Office of the British Columbia Container Trucking Commissioner": {
+    "uri": "https://canlii.ca/t/grsdd",
+    "score": 0.8600823283195496,
+    "candidate_id": "2016bcsc898",
+    "candidate_title": "Aheer Transportation Ltd. v. Office of the British Columbia Container Trucking Commissioner",
+    "query_text": "decision | <b><i>Aheer Transportation Ltd v Office of the British Columbia Container Trucking Commissioner</i></b> | 2016 BCSC 898",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/grsdd",
+        "score": 0.8600823283195496,
+        "candidate_title": "Aheer Transportation Ltd. v. Office of the British Columbia Container Trucking Commissioner"
+      },
+      {
+        "uri": "https://canlii.ca/t/jrq8k",
+        "score": 0.5404232144355774,
+        "candidate_title": "A.E.E. v M.T.E"
+      },
+      {
+        "uri": "https://canlii.ca/t/22wzl",
+        "score": 0.5231167078018188,
+        "candidate_title": "Coast Mountain Bus v. CAW-Canada"
+      }
+    ]
+  },
+  "Forest Ethics Advocacy Association v Canada (National Energy Board)": {
+    "uri": "https://canlii.ca/t/g0tq9",
+    "score": 0.8420684337615967,
+    "candidate_id": "2013fca236",
+    "candidate_title": "Forest Ethics Advocacy Association v. Canada (National Energy Board)",
+    "query_text": "decision | Forest Ethics Advocacy Association v Canada (National Energy Board) | 2013 FCA 236",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0tq9",
+        "score": 0.8420684337615967,
+        "candidate_title": "Forest Ethics Advocacy Association v. Canada (National Energy Board)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6ggw",
+        "score": 0.8264307379722595,
+        "candidate_title": "Forest Ethics Advocacy Association v. National Energy Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/gf4vc",
+        "score": 0.7982883453369141,
+        "candidate_title": "Forest Ethics Advocacy Association v. Canada (National Energy Board)"
+      }
+    ]
+  },
+  "Amex Electrical Ltd v 726934 Alberta Ltd": {
+    "uri": "https://canlii.ca/t/g2xln",
+    "score": 0.8237204551696777,
+    "candidate_id": "2014abqb66",
+    "candidate_title": "Amex Electrical Ltd. v. 726934 Alberta Ltd.",
+    "query_text": "decision | <b><i>Amex Electrical Ltd v 726934 Alberta Ltd</i></b> | 2014 ABQB 66 | [2014] 8 WWR 581",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g2xln",
+        "score": 0.8237204551696777,
+        "candidate_title": "Amex Electrical Ltd. v. 726934 Alberta Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/j0pzg",
+        "score": 0.6041489839553833,
+        "candidate_title": "698828 Alberta Ltd v Elite Homes (1998) Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/27wxq",
+        "score": 0.5720531940460205,
+        "candidate_title": "1198952 Alberta Ltd. v. 1356472 Alberta Ltd."
+      }
+    ]
+  },
+  "Aski Construction Ltd v Markos": {
+    "uri": "https://canlii.ca/t/h6p1d",
+    "score": 0.8304116725921631,
+    "candidate_id": "2017abca341",
+    "candidate_title": "Aski Construction Ltd v Markos",
+    "query_text": "decision | Aski Construction Ltd v Markos | 2017 ABCA 341",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h6p1d",
+        "score": 0.8304116725921631,
+        "candidate_title": "Aski Construction Ltd v Markos"
+      },
+      {
+        "uri": "https://canlii.ca/t/j503l",
+        "score": 0.5795475840568542,
+        "candidate_title": "Nova Pole International Inc. v Permasteel Construction Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/gmnjq",
+        "score": 0.5552680492401123,
+        "candidate_title": "Attila Dogan Construction and Installation Co. Inc. v AMEC Americas Limited"
+      }
+    ]
+  }
+}

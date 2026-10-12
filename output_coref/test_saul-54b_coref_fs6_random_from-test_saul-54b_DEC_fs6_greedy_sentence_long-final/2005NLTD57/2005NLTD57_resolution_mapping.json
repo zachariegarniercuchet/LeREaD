@@ -1,0 +1,26 @@
+{
+  "Brown and Beatty": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425278663635,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.562005341053009,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  }
+}

@@ -192,12 +192,17 @@
     ]
   },
   "TEDCO ONSCDC 2006": {
-    "uri": "https://canlii.ca/t/fx4jk",
-    "score": 0.9086135625839233,
-    "candidate_id": "2013oncj206",
-    "candidate_title": "R. v. Fenn",
+    "uri": "https://synthetic.leread.ca/gold/G0426",
+    "score": 0.910765528678894,
+    "candidate_id": "gold-G0426",
+    "candidate_title": "Rose SCC 1997",
     "query_text": "decision | [2006] OJ 4615 | 278 D.L.R.\n(4th) 356",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0426",
+        "score": 0.910765528678894,
+        "candidate_title": "Rose SCC 1997"
+      },
       {
         "uri": "https://canlii.ca/t/fx4jk",
         "score": 0.9086135625839233,
@@ -207,11 +212,6 @@
         "uri": "https://canlii.ca/t/232ff",
         "score": 0.9075202941894531,
         "candidate_title": "R. v. Clarke"
-      },
-      {
-        "uri": "https://canlii.ca/t/1f7n7",
-        "score": 0.9071509838104248,
-        "candidate_title": "R. v. Varga"
       }
     ]
   },
@@ -264,26 +264,26 @@
     ]
   },
   "Access to Information Act": {
-    "uri": "https://canlii.ca/t/56c1p",
-    "score": 0.8564115762710571,
-    "candidate_id": "l20180!20180-current-1",
-    "candidate_title": "Environmental Management Act",
+    "uri": "https://synthetic.leread.ca/gold/G0335",
+    "score": 0.8934872150421143,
+    "candidate_id": "gold-G0335",
+    "candidate_title": "Act",
     "query_text": "legislation | Act | Access to Information Act",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56c1p",
-        "score": 0.8564115762710571,
-        "candidate_title": "Environmental Management Act"
+        "uri": "https://synthetic.leread.ca/gold/G0335",
+        "score": 0.8934872150421143,
+        "candidate_title": "Act"
       },
       {
-        "uri": "https://canlii.ca/t/566gg",
-        "score": 0.8557751774787903,
-        "candidate_title": "Securities Act"
+        "uri": "https://synthetic.leread.ca/gold/G0184",
+        "score": 0.8934872150421143,
+        "candidate_title": "Act"
       },
       {
-        "uri": "https://canlii.ca/t/56q11",
-        "score": 0.8557393550872803,
-        "candidate_title": "Environmental Assessment Act"
+        "uri": "https://synthetic.leread.ca/gold/G0019",
+        "score": 0.8934872150421143,
+        "candidate_title": "Act"
       }
     ]
   },
@@ -504,84 +504,89 @@
     ]
   },
   "Access and Privacy Regulation": {
-    "uri": "https://canlii.ca/t/850w",
-    "score": 0.9038535356521606,
-    "candidate_id": "l20527!20527-current-1",
-    "candidate_title": "Securities Regulation",
+    "uri": "https://synthetic.leread.ca/gold/G0355",
+    "score": 0.9248402714729309,
+    "candidate_id": "gold-G0355",
+    "candidate_title": "regulation",
     "query_text": "legislation | Regulation\n64/98 | Regulation",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0355",
+        "score": 0.9248402714729309,
+        "candidate_title": "regulation"
+      },
       {
         "uri": "https://canlii.ca/t/850w",
         "score": 0.9038535356521606,
         "candidate_title": "Securities Regulation"
       },
       {
-        "uri": "https://canlii.ca/t/8602",
-        "score": 0.8992084264755249,
-        "candidate_title": "Drug Schedules Regulation"
-      },
-      {
-        "uri": "https://canlii.ca/t/56w7m",
-        "score": 0.897992730140686,
-        "candidate_title": "Administrative Penalty Regulation"
+        "uri": "https://synthetic.leread.ca/gold/G0416",
+        "score": 0.9018463492393494,
+        "candidate_title": "Regulation 1A"
       }
     ]
   },
   "Income Tax Act": {
-    "uri": "https://canlii.ca/t/566gg",
-    "score": 0.7964111566543579,
-    "candidate_id": "l19940!19940-current-1",
-    "candidate_title": "Securities Act",
+    "uri": "https://synthetic.leread.ca/gold/G0420",
+    "score": 0.8897215127944946,
+    "candidate_id": "gold-G0420",
+    "candidate_title": "Act",
     "query_text": "legislation | Income\nTax Act",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/566gg",
-        "score": 0.7964111566543579,
-        "candidate_title": "Securities Act"
+        "uri": "https://synthetic.leread.ca/gold/G0420",
+        "score": 0.8897215127944946,
+        "candidate_title": "Act"
       },
       {
-        "uri": "https://canlii.ca/t/56cd8",
-        "score": 0.7863708734512329,
-        "candidate_title": "Strata Property Act"
+        "uri": "https://synthetic.leread.ca/gold/G0335",
+        "score": 0.8897215127944946,
+        "candidate_title": "Act"
       },
       {
-        "uri": "https://canlii.ca/t/56p19",
-        "score": 0.7857098579406738,
-        "candidate_title": "Election Act"
+        "uri": "https://synthetic.leread.ca/gold/G0019",
+        "score": 0.8897215127944946,
+        "candidate_title": "Act"
       }
     ]
   },
   "Land Titles Act": {
-    "uri": "https://canlii.ca/t/56fdf",
-    "score": 0.8555090427398682,
-    "candidate_id": "l17935!17935-current-1",
-    "candidate_title": "Public Lands Act",
+    "uri": "https://synthetic.leread.ca/gold/G0185",
+    "score": 0.8672610521316528,
+    "candidate_id": "gold-G0185",
+    "candidate_title": "Dominion Act",
     "query_text": "legislation | Land\nTitles Act",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0185",
+        "score": 0.8672610521316528,
+        "candidate_title": "Dominion Act"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0336",
+        "score": 0.8615249395370483,
+        "candidate_title": "Mechanics’ Lien Act"
+      },
       {
         "uri": "https://canlii.ca/t/56fdf",
         "score": 0.8555090427398682,
         "candidate_title": "Public Lands Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/848s",
-        "score": 0.8538588285446167,
-        "candidate_title": "Patients Property Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/566gg",
-        "score": 0.8523209691047668,
-        "candidate_title": "Securities Act"
       }
     ]
   },
   "Le Petit Robert": {
-    "uri": "https://canlii.ca/t/1krj2",
-    "score": 0.8978040218353271,
-    "candidate_id": "1999qccs11110",
-    "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre",
+    "uri": "https://synthetic.leread.ca/gold/G0302",
+    "score": 0.9406201243400574,
+    "candidate_id": "gold-G0302",
+    "candidate_title": "Le petit Robert 1, Dictionnaire alphabétique et analogique de la langue française",
     "query_text": "secondary sources | <i>Le Petit Robert</i> dictionary | Le petit Robert 1, Dictionnaire\nalphabétique et analogique de la langue française",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0302",
+        "score": 0.9406201243400574,
+        "candidate_title": "Le petit Robert 1, Dictionnaire alphabétique et analogique de la langue française"
+      },
       {
         "uri": "https://canlii.ca/t/1krj2",
         "score": 0.8978040218353271,
@@ -591,35 +596,30 @@
         "uri": "https://canlii.ca/t/8wjk6",
         "score": 0.8958907127380371,
         "candidate_title": "L'indépendance judiciaire et la Cour suprême: reconstruction historique douteuse et théorie constitutionnelle de complaisance"
-      },
-      {
-        "uri": "https://canlii.ca/t/5450m",
-        "score": 0.8940805196762085,
-        "candidate_title": "Small Claims Court Jurisdiction"
       }
     ]
   },
   "Webster’s Canadian Dictionary and Thesaurus": {
-    "uri": "https://canlii.ca/t/sx35",
-    "score": 0.8595016002655029,
-    "candidate_id": "d73295!d73295",
-    "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency.",
+    "uri": "https://synthetic.leread.ca/gold/G0520",
+    "score": 0.98960280418396,
+    "candidate_id": "gold-G0520",
+    "candidate_title": "Webster’s Canadian Dictionary and Thesaurus",
     "query_text": "secondary sources | Webster’s\nCanadian Dictionary and Thesaurus | Webster’s Canadian Dictionary and Thesaurus",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/sx35",
-        "score": 0.8595016002655029,
-        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+        "uri": "https://synthetic.leread.ca/gold/G0520",
+        "score": 0.98960280418396,
+        "candidate_title": "Webster’s Canadian Dictionary and Thesaurus"
       },
       {
-        "uri": "https://www.canlii.org/en/commentary/doc/2013CanLIIDocs122",
-        "score": 0.8575241565704346,
-        "candidate_title": "From en ventre sa mere to Thawing an Heir: Posthumously Conceived Children and the Implications for Succession Law in Canada"
+        "uri": "https://synthetic.leread.ca/gold/G0518",
+        "score": 0.9107440710067749,
+        "candidate_title": "Webster's New World Dictionary"
       },
       {
-        "uri": "https://canlii.ca/t/g1h8z",
-        "score": 0.8554954528808594,
-        "candidate_title": "Re Bernstein and College of Physicians and Surgeons of Ontario"
+        "uri": "https://synthetic.leread.ca/gold/G0519",
+        "score": 0.9022783041000366,
+        "candidate_title": "Webster's Third New International Dictionary of the English Language Unabridged"
       }
     ]
   }

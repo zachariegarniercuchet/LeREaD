@@ -1,25 +1,25 @@
 {
   "Simpson": {
-    "uri": "https://canlii.ca/t/gh74v",
-    "score": 0.8518943190574646,
-    "candidate_id": "2015oncj197",
-    "candidate_title": "R. v. Andrianov",
+    "uri": "https://synthetic.leread.ca/gold/G0496",
+    "score": 0.8640587329864502,
+    "candidate_id": "gold-G0496",
+    "candidate_title": "Toms v. Duma",
     "query_text": "decision | R. v. Simpson",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/gh74v",
-        "score": 0.8518943190574646,
-        "candidate_title": "R. v. Andrianov"
+        "uri": "https://synthetic.leread.ca/gold/G0496",
+        "score": 0.8640587329864502,
+        "candidate_title": "Toms v. Duma"
       },
       {
-        "uri": "https://canlii.ca/t/gch81",
-        "score": 0.8504670262336731,
-        "candidate_title": "R. v. Kotapski"
+        "uri": "https://synthetic.leread.ca/gold/G0282",
+        "score": 0.8589885830879211,
+        "candidate_title": "Kinaschuk v. Day"
       },
       {
-        "uri": "https://canlii.ca/t/jbbmz",
-        "score": 0.8484782576560974,
-        "candidate_title": "R. v. Carmola-Chambers"
+        "uri": "https://synthetic.leread.ca/gold/G0249",
+        "score": 0.8545602560043335,
+        "candidate_title": "Hole v. Chard Union"
       }
     ]
   },
@@ -240,26 +240,26 @@
     ]
   },
   "The Canadian Charter of Rights": {
-    "uri": "https://www.canlii.org/en/commentary/doc/1976CanLIIDocs22#Discovery__Production_of_Documents__Claim_of_Privilege_to_Prevent_Disclosure_",
-    "score": 0.9169941544532776,
-    "candidate_id": "d66145!d66145",
-    "candidate_title": "Comments",
+    "uri": "https://synthetic.leread.ca/gold/G0464",
+    "score": 0.9833691120147705,
+    "candidate_id": "gold-G0464",
+    "candidate_title": "The Canadian Charter of Rights",
     "query_text": "secondary sources | The Canadian\nCharter of Rights | The Prosecution and Defence of\nCriminal and other Statutory Offences | McLeod, Takach, Morton and\nSegal",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0464",
+        "score": 0.9833691120147705,
+        "candidate_title": "The Canadian Charter of Rights"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0121",
+        "score": 0.9242053627967834,
+        "candidate_title": "Canadian Construction Labour and Employment Law"
+      },
       {
         "uri": "https://www.canlii.org/en/commentary/doc/1976CanLIIDocs22#Discovery__Production_of_Documents__Claim_of_Privilege_to_Prevent_Disclosure_",
         "score": 0.9169941544532776,
         "candidate_title": "Comments"
-      },
-      {
-        "uri": "https://canlii.ca/t/gn376",
-        "score": 0.916893482208252,
-        "candidate_title": "Ardiles and Toronto Police Service"
-      },
-      {
-        "uri": "https://canlii.ca/t/sx3t",
-        "score": 0.9166016578674316,
-        "candidate_title": "Citizenship Revocation, the Privilege to Have Rights and the Production of the Alien"
       }
     ]
   }

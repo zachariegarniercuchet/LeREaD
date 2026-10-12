@@ -1,0 +1,434 @@
+{
+  "Rule 20A": {
+    "uri": "https://canlii.ca/t/56v6x",
+    "score": 0.5447748899459839,
+    "candidate_id": "l34474!34474-current-1",
+    "candidate_title": "Alberta Rules of Court",
+    "query_text": "legislation | Rule\n20A | Rule 20A",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 0.5447748899459839,
+        "candidate_title": "Alberta Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/kcvt",
+        "score": 0.5164940357208252,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.5143313407897949,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      }
+    ]
+  },
+  "King’s Bench Rules": {
+    "uri": "https://canlii.ca/t/56wgf",
+    "score": 0.7754767537117004,
+    "candidate_id": "l28366!28366-current-1",
+    "candidate_title": "Court of King's Bench Rules",
+    "query_text": "legislation | King’s Bench Rule | Queen’s\nBench Rule | Court of King’s Bench Rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56wgf",
+        "score": 0.7754767537117004,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/5666v",
+        "score": 0.7741732597351074,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w0m",
+        "score": 0.700650691986084,
+        "candidate_title": "The Court of King's Bench Act"
+      }
+    ]
+  },
+  "Practice Direction of the Court of King’s Bench (June 21, 2024)": {
+    "uri": "https://synthetic.leread.ca/gold/G0387",
+    "score": 0.5524672269821167,
+    "candidate_id": "gold-G0387",
+    "candidate_title": "Practice Direction 56",
+    "query_text": "legislation | Practice Direction of the Court of King’s Bench | June 21, 2024",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0387",
+        "score": 0.5524672269821167,
+        "candidate_title": "Practice Direction 56"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jg3",
+        "score": 0.48319363594055176,
+        "candidate_title": "The Court of King's Bench Small Claims Practices Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w0m",
+        "score": 0.48164528608322144,
+        "candidate_title": "The Court of King's Bench Act"
+      }
+    ]
+  },
+  "Court of King": {
+    "uri": "https://canlii.ca/t/56w0m",
+    "score": 0.7829327583312988,
+    "candidate_id": "l29375!29375-current-1",
+    "candidate_title": "The Court of King's Bench Act",
+    "query_text": "legislation | The Court of King’s Act | The Court of King's Bench Act | C.C.S.M. c. C280",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w0m",
+        "score": 0.7829327583312988,
+        "candidate_title": "The Court of King's Bench Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wgf",
+        "score": 0.631275475025177,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/5666v",
+        "score": 0.6311305165290833,
+        "candidate_title": "Court of King's Bench Rules"
+      }
+    ]
+  },
+  "Thermo Applicators Inc. v. CIR Mechanical Installations Ltd. et al": {
+    "uri": "https://canlii.ca/t/gv0c5",
+    "score": 0.8274575471878052,
+    "candidate_id": "2016mbca94",
+    "candidate_title": "Thermo Applicators Inc v CIR Mechanical Installations Ltd et al",
+    "query_text": "decision | Thermo Applicators\nInc. v. CIR Mechanical Installations Ltd. et al | Thermo Applicators\nInc. | 2016 MBCA 94",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gv0c5",
+        "score": 0.8274575471878052,
+        "candidate_title": "Thermo Applicators Inc v CIR Mechanical Installations Ltd et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6n0m",
+        "score": 0.5453065037727356,
+        "candidate_title": "Sunnyday Heating and Air Conditioning Ltd. v. 6125328 Manitoba Ltd. et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/2f0vz",
+        "score": 0.5244250297546387,
+        "candidate_title": "Northwestern Mechanical Installations Ltd. v. Yukon Construction Co. Ltd."
+      }
+    ]
+  },
+  "GFK Capital Base Corp. v. Fernando": {
+    "uri": "https://canlii.ca/t/gbg0x",
+    "score": 0.7587296366691589,
+    "candidate_id": "1993mbca1000035",
+    "candidate_title": "GFK Capital Base Corp. v. Fernando",
+    "query_text": "decision | GFK Capital Base Corp. v. Fernando | GFK | 1993 CarswellMan 150 (MBCA)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbg0x",
+        "score": 0.7587296366691589,
+        "candidate_title": "GFK Capital Base Corp. v. Fernando"
+      },
+      {
+        "uri": "https://canlii.ca/t/hpljj",
+        "score": 0.519446611404419,
+        "candidate_title": "Wolfe et al v Taylor et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/hpsk4",
+        "score": 0.5133537650108337,
+        "candidate_title": "G (JD) v G (SL)"
+      }
+    ]
+  },
+  "De Rzonca v. Kummerfield": {
+    "uri": "https://canlii.ca/t/gdbtn",
+    "score": 0.7960807681083679,
+    "candidate_id": "1956mbca1000010",
+    "candidate_title": "De Rzonca v. Kummerfield",
+    "query_text": "decision | De Rzonca v.\nKummerfield | De Rzonca v.\nKummerfield et ux. | (1956), 19 W.W.R. 577 | (Man. C.A.) | (1956),\n64 Man.R. 215 | (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gdbtn",
+        "score": 0.7960807681083679,
+        "candidate_title": "De Rzonca v. Kummerfield"
+      },
+      {
+        "uri": "https://canlii.ca/t/fslgv",
+        "score": 0.5471898317337036,
+        "candidate_title": "Kuchma v. Rural Municipality of Tache"
+      },
+      {
+        "uri": "https://canlii.ca/t/gbt7m",
+        "score": 0.5311234593391418,
+        "candidate_title": "Polson v. Thomson"
+      }
+    ]
+  },
+  "Sunnyday Heating and Airconditioning Ltd. v. 6125328 Manitoba Ltd. et al": {
+    "uri": "https://canlii.ca/t/g6n0m",
+    "score": 0.8754109144210815,
+    "candidate_id": "2014mbqb80",
+    "candidate_title": "Sunnyday Heating and Air Conditioning Ltd. v. 6125328 Manitoba Ltd. et al",
+    "query_text": "decision | Sunnyday Heating and\nAirconditioning Ltd. v. 6125328 Manitoba Ltd. et al | 2014 MBQB 80",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g6n0m",
+        "score": 0.8754109144210815,
+        "candidate_title": "Sunnyday Heating and Air Conditioning Ltd. v. 6125328 Manitoba Ltd. et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/gv0c5",
+        "score": 0.6513267159461975,
+        "candidate_title": "Thermo Applicators Inc v CIR Mechanical Installations Ltd et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/27rnn",
+        "score": 0.5912758111953735,
+        "candidate_title": "Esquire Heating & Air Conditioning Ltd. v. Hoffman"
+      }
+    ]
+  },
+  "Beardy v. Sass": {
+    "uri": "https://canlii.ca/t/gc97g",
+    "score": 0.7412291765213013,
+    "candidate_id": "1997mbca1000070",
+    "candidate_title": "Beardy v. Sass et al.",
+    "query_text": "decision | Beardy v.\nSass | Beardy | [1997] M.J. No. 332 (CA) (QL)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gc97g",
+        "score": 0.7412291765213013,
+        "candidate_title": "Beardy v. Sass et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/gwvgp",
+        "score": 0.5256750583648682,
+        "candidate_title": "Assembly of Manitoba Chiefs v Canada (Attorney General) et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/fwfft",
+        "score": 0.5166004300117493,
+        "candidate_title": "Manitoba Metis Federation Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Metropolitan Toronto Condominium Corporation No. 706 v. Bardmore Developments Ltd.": {
+    "uri": "https://canlii.ca/t/g1gs6",
+    "score": 0.8295131325721741,
+    "candidate_id": "1991onca1000023",
+    "candidate_title": "Metropolitan Toronto Condominium Corporation No. 706 v. Bardmore Developments Ltd. (C.A.)",
+    "query_text": "decision | Metropolitan\nToronto Condominium Coloration No. 706 v. Bardmore Developments Ltd. | (1991),\n3 O.R. (3d) 278",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1gs6",
+        "score": 0.8295131325721741,
+        "candidate_title": "Metropolitan Toronto Condominium Corporation No. 706 v. Bardmore Developments Ltd. (C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jhb2z",
+        "score": 0.5465623140335083,
+        "candidate_title": "Mawji v. York Condominium Corporation No. 415"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l84s",
+        "score": 0.5449813008308411,
+        "candidate_title": "Peel Condominium Corporation No. 33 v. Johnson"
+      }
+    ]
+  },
+  "Schaworski v. Unrau": {
+    "uri": "https://canlii.ca/t/k7b5d",
+    "score": 0.7073163986206055,
+    "candidate_id": "2024mbkb150",
+    "candidate_title": "Schaworski v. Unrau",
+    "query_text": "decision | Schaworski v. Unrau | Schaworski",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k7b5d",
+        "score": 0.7073163986206055,
+        "candidate_title": "Schaworski v. Unrau"
+      },
+      {
+        "uri": "https://canlii.ca/t/gnd6x",
+        "score": 0.5409254431724548,
+        "candidate_title": "Shaw v. Arndt"
+      },
+      {
+        "uri": "https://canlii.ca/t/gmnw3",
+        "score": 0.5309095978736877,
+        "candidate_title": "Shahrawan v First Canada ULC"
+      }
+    ]
+  },
+  "MPIC v. Landry": {
+    "uri": "https://canlii.ca/t/1l6zx",
+    "score": 0.7676781415939331,
+    "candidate_id": "2005mbqb141",
+    "candidate_title": "MPIC v. Landry",
+    "query_text": "decision | MPIC v. Landry | Landry | 2005 MBQB 141",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6zx",
+        "score": 0.7676781415939331,
+        "candidate_title": "MPIC v. Landry"
+      },
+      {
+        "uri": "https://canlii.ca/t/2bw6q",
+        "score": 0.5560891628265381,
+        "candidate_title": "Landry v. McCormick Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/jpbqq",
+        "score": 0.5077669620513916,
+        "candidate_title": "Ostrowski v. Dubois"
+      }
+    ]
+  },
+  "Ross Southward Tire v. Pyrotech Products": {
+    "uri": "https://canlii.ca/t/1tx0w",
+    "score": 0.8119986653327942,
+    "candidate_id": "1975csc-scc10025",
+    "candidate_title": "Ross Southward Tire v. Pyrotech Products",
+    "query_text": "decision | Ross Southward\nTire v. Pyrotech Products | [1976] 2 SCR 35",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tx0w",
+        "score": 0.8119986653327942,
+        "candidate_title": "Ross Southward Tire v. Pyrotech Products"
+      },
+      {
+        "uri": "https://canlii.ca/t/22wpd",
+        "score": 0.513718843460083,
+        "candidate_title": "Cotter v. General Petroleums Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjv0",
+        "score": 0.5137172937393188,
+        "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al."
+      }
+    ]
+  },
+  "Mystar Holdings Ltd. v. 247037 Alberta Ltd.": {
+    "uri": "https://canlii.ca/t/255ld",
+    "score": 0.8358883261680603,
+    "candidate_id": "2009abqb480",
+    "candidate_title": "Mystar Holdings Ltd. v. 247037 Alberta Ltd",
+    "query_text": "decision | Mystar Holdings Ltd. v. 247037 Alberta Ltd., | 2009 ABQB 480",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/255ld",
+        "score": 0.8358883261680603,
+        "candidate_title": "Mystar Holdings Ltd. v. 247037 Alberta Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/hx004",
+        "score": 0.6461337804794312,
+        "candidate_title": "Stikeman Elliott LLP v 2083878 Alberta Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/j9jdb",
+        "score": 0.6190004348754883,
+        "candidate_title": "1242311 Alberta Ltd v Tricon Developments Inc"
+      }
+    ]
+  },
+  "Ultracuts v. Magicuts": {
+    "uri": "https://canlii.ca/t/k4sqf",
+    "score": 0.7874640822410583,
+    "candidate_id": "2024mbca45",
+    "candidate_title": "Ultracuts v Magicuts",
+    "query_text": "decision | Ultracuts v. Magicuts | 2024 MBCA 45",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k4sqf",
+        "score": 0.7874640822410583,
+        "candidate_title": "Ultracuts v Magicuts"
+      },
+      {
+        "uri": "https://canlii.ca/t/k0487",
+        "score": 0.7305272221565247,
+        "candidate_title": "Ultracuts v Magicuts"
+      },
+      {
+        "uri": "https://canlii.ca/t/hpljj",
+        "score": 0.45792365074157715,
+        "candidate_title": "Wolfe et al v Taylor et al"
+      }
+    ]
+  },
+  "Limneos v. Knispel": {
+    "uri": "https://canlii.ca/t/1h2zx",
+    "score": 0.8078162670135498,
+    "candidate_id": "2004mbqb118",
+    "candidate_title": "Limneos v. Knispel et al",
+    "query_text": "decision | Limneos v. Knispel | 2004 MBQB 118",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1h2zx",
+        "score": 0.8078162670135498,
+        "candidate_title": "Limneos v. Knispel et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/jpbqq",
+        "score": 0.48437944054603577,
+        "candidate_title": "Ostrowski v. Dubois"
+      },
+      {
+        "uri": "https://canlii.ca/t/1gv1c",
+        "score": 0.47654908895492554,
+        "candidate_title": "Saulnier v. Leblanc"
+      }
+    ]
+  },
+  "Peltier v. Campanella": {
+    "uri": "https://canlii.ca/t/jz28f",
+    "score": 0.8105054497718811,
+    "candidate_id": "2023mbkb106",
+    "candidate_title": "Peltier v. Campanella",
+    "query_text": "decision | Peltier v.\nCampanella | 2023 MBKB 106",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jz28f",
+        "score": 0.8105054497718811,
+        "candidate_title": "Peltier v. Campanella"
+      },
+      {
+        "uri": "https://canlii.ca/t/k1kzl",
+        "score": 0.5436941981315613,
+        "candidate_title": "Culligan v. Norman et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/gd2k3",
+        "score": 0.537650465965271,
+        "candidate_title": "R. v. Pelletier"
+      }
+    ]
+  },
+  "Bullen and Leake": {
+    "uri": "https://synthetic.leread.ca/gold/G0388",
+    "score": 0.5205541253089905,
+    "candidate_id": "gold-G0388",
+    "candidate_title": "Precedents of Pleadings",
+    "query_text": "secondary sources | Bullen and Leake",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0388",
+        "score": 0.5205541253089905,
+        "candidate_title": "Precedents of Pleadings"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftm9",
+        "score": 0.45692360401153564,
+        "candidate_title": "R. v. Bulmer"
+      },
+      {
+        "uri": "https://canlii.ca/t/k2fmh",
+        "score": 0.43316206336021423,
+        "candidate_title": "R. v. Brunelle"
+      }
+    ]
+  }
+}

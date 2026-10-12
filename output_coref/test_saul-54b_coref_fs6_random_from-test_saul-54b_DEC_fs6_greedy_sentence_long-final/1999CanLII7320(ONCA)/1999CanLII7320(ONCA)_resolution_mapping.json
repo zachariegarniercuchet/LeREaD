@@ -1,0 +1,650 @@
+{
+  "Blackstone": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Blackstone v. Mutual Life Insurance Co. of New York": {
+    "uri": "https://canlii.ca/t/g1d4s",
+    "score": 0.810378909111023,
+    "candidate_id": "1944onca1000010",
+    "candidate_title": "Blackstone v. The Mutual Life Insurance Company of New York",
+    "query_text": "decision | Blackstone v. Mutual Life Insurance Co. of New York | [1944] \nO.R. 328 | [1944] 3 D.L.R. 147",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1d4s",
+        "score": 0.810378909111023,
+        "candidate_title": "Blackstone v. The Mutual Life Insurance Company of New York"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1j43",
+        "score": 0.5529106855392456,
+        "candidate_title": "Demeter v. Occidental Life Insurance Company of California and two other actions"
+      },
+      {
+        "uri": "https://canlii.ca/t/kbq46",
+        "score": 0.5486313700675964,
+        "candidate_title": "Williams v. Mutual Life Assurance Co. of Canada"
+      }
+    ]
+  },
+  "Hodgkinson": {
+    "uri": "https://canlii.ca/t/jdff8",
+    "score": 0.6317757368087769,
+    "candidate_id": "2021onsc1357",
+    "candidate_title": "Hodgson v. Hodgson",
+    "query_text": "decision | Hodgkinson",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jdff8",
+        "score": 0.6317757368087769,
+        "candidate_title": "Hodgson v. Hodgson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1p6qc",
+        "score": 0.6202278733253479,
+        "candidate_title": "Hodgkinson v. Simms"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frpl",
+        "score": 0.6135743260383606,
+        "candidate_title": "Hodgkinson v. Simms"
+      }
+    ]
+  },
+  "Baker v. Campbell": {
+    "uri": "https://synthetic.leread.ca/gold/G0084",
+    "score": 0.7570546269416809,
+    "candidate_id": "gold-G0084",
+    "candidate_title": "Baker v. Campbell",
+    "query_text": "decision | Baker v. Campbell | 153 C.L.R. 52 | supra",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0084",
+        "score": 0.7570546269416809,
+        "candidate_title": "Baker v. Campbell"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0085",
+        "score": 0.7322048544883728,
+        "candidate_title": "Baker v. Campbell"
+      },
+      {
+        "uri": "https://canlii.ca/t/hqtpk",
+        "score": 0.573616087436676,
+        "candidate_title": "Baker v Harmina"
+      }
+    ]
+  },
+  "Gruenke": {
+    "uri": "https://canlii.ca/t/1fsjh",
+    "score": 0.7106055617332458,
+    "candidate_id": "1991csc-scc86",
+    "candidate_title": "R. v. Gruenke",
+    "query_text": "decision | Gruenke | R. v. \nGruenke",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsjh",
+        "score": 0.7106055617332458,
+        "candidate_title": "R. v. Gruenke"
+      },
+      {
+        "uri": "https://canlii.ca/t/j17ng",
+        "score": 0.5941238403320312,
+        "candidate_title": "R v Groening"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fswm",
+        "score": 0.584239661693573,
+        "candidate_title": "R. v. Greffe"
+      }
+    ]
+  },
+  "Descteaux v. Mierzwinski": {
+    "uri": "https://canlii.ca/t/1lpc6",
+    "score": 0.7500029802322388,
+    "candidate_id": "1982csc-scc10011",
+    "candidate_title": "Descôteaux et al. v. Mierzwinski",
+    "query_text": "decision | Descteaux v. Mierzwinski | [1982] 1 \nS.C.R. 860 | 70 C.C.C. (2d) 385 | supra",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpc6",
+        "score": 0.7500029802322388,
+        "candidate_title": "Descôteaux et al. v. Mierzwinski"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mx4h",
+        "score": 0.5877606868743896,
+        "candidate_title": "Métivier v. Cadorette"
+      },
+      {
+        "uri": "https://canlii.ca/t/1xcvn",
+        "score": 0.5790933966636658,
+        "candidate_title": "McCormick v. Marcotte"
+      }
+    ]
+  },
+  "R. v. Shirose": {
+    "uri": "https://canlii.ca/t/1fqp4",
+    "score": 0.7075333595275879,
+    "candidate_id": "1999csc-scc18",
+    "candidate_title": "R. v. Campbell",
+    "query_text": "decision | R. v. Shirose | [1999] 1 S.C.R. 565 | 133 C.C.C. (3d) 257",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqp4",
+        "score": 0.7075333595275879,
+        "candidate_title": "R. v. Campbell"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frgh",
+        "score": 0.6351391673088074,
+        "candidate_title": "R. v. Shropshire"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fslt",
+        "score": 0.6262617707252502,
+        "candidate_title": "R. v. Sherratt"
+      }
+    ]
+  },
+  "Goodman Estate v. Geffen": {
+    "uri": "https://canlii.ca/t/1fsjz",
+    "score": 0.8102295994758606,
+    "candidate_id": "1991csc-scc61",
+    "candidate_title": "Geffen v. Goodman Estate",
+    "query_text": "decision | Goodman Estate v. Geffen | [1991] 2 \nS.C.R. 353 | 81 D.L.R. (4th) 211",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsjz",
+        "score": 0.8102295994758606,
+        "candidate_title": "Geffen v. Goodman Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggtvh",
+        "score": 0.5331454873085022,
+        "candidate_title": "Westerhof v. Gee Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/g19lj",
+        "score": 0.51494300365448,
+        "candidate_title": "Re Goodman and Carr et al. and Minister of National Revenue"
+      }
+    ]
+  },
+  "Solosky v. R.": {
+    "uri": "https://canlii.ca/t/1mjtq",
+    "score": 0.7222200632095337,
+    "candidate_id": "1979csc-scc10007",
+    "candidate_title": "Solosky v. The Queen",
+    "query_text": "decision | Solosky v. R. | [1980] 1 S.C.R. 821 | 50 \nC.C.C. (2d) 495",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjtq",
+        "score": 0.7222200632095337,
+        "candidate_title": "Solosky v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/21h61",
+        "score": 0.5977953672409058,
+        "candidate_title": "R. v. Solowan"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpfg",
+        "score": 0.556050181388855,
+        "candidate_title": "Skogman v. The Queen"
+      }
+    ]
+  },
+  "A. (L.L.) v . B. (A.)": {
+    "uri": "https://canlii.ca/t/1frdk",
+    "score": 0.6973057985305786,
+    "candidate_id": "1995csc-scc104",
+    "candidate_title": "A. (L.L.) v. B. (A.)",
+    "query_text": "decision | A. (L.L.) v . B. (A.) | [1995] 4 S.C.R. 536 | 103 C.C.C. (3d) 92",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frdk",
+        "score": 0.6973057985305786,
+        "candidate_title": "A. (L.L.) v. B. (A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fvsc0",
+        "score": 0.5828871726989746,
+        "candidate_title": "Quebec (Attorney General) v. A"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fnkk",
+        "score": 0.579439103603363,
+        "candidate_title": "A.L. & J.L. v. D.K. & M.W."
+      }
+    ]
+  },
+  "Shirose": {
+    "uri": "https://canlii.ca/t/1ftcd",
+    "score": 0.5885659456253052,
+    "candidate_id": "1988csc-scc87",
+    "candidate_title": "R. v. Jacoy",
+    "query_text": "decision | supra, at p. 601 S.C.R., p. 288 C.C.C.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftcd",
+        "score": 0.5885659456253052,
+        "candidate_title": "R. v. Jacoy"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqtx",
+        "score": 0.5849111080169678,
+        "candidate_title": "Schreiber v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/228wc",
+        "score": 0.5764191746711731,
+        "candidate_title": "R. v. Mercure"
+      }
+    ]
+  },
+  "Shaughnessy Golf & Country Club v. Drake International Inc. (1986)": {
+    "uri": "https://canlii.ca/t/1q5br",
+    "score": 0.8511030077934265,
+    "candidate_id": "1986bcca10007",
+    "candidate_title": "Shaughnessy Golf & Country Club v. Drake International Inc.",
+    "query_text": "decision | Shaughnessy Golf &amp; Country Club \nv. Drake International Inc. (1986) | 26 D.L.R. (4th) 298 | 1 B.C.L.R. (2d) 309 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1q5br",
+        "score": 0.8511030077934265,
+        "candidate_title": "Shaughnessy Golf & Country Club v. Drake International Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/gnd6x",
+        "score": 0.5444080829620361,
+        "candidate_title": "Shaw v. Arndt"
+      },
+      {
+        "uri": "https://canlii.ca/t/23pbl",
+        "score": 0.5350590348243713,
+        "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd."
+      }
+    ]
+  },
+  "Canadian Indemnity Co. v. Canadian Johns-Manville Co.": {
+    "uri": "https://canlii.ca/t/1fss8",
+    "score": 0.8467538952827454,
+    "candidate_id": "1990csc-scc80",
+    "candidate_title": "Canadian Indemnity Co. v. Canadian Johns-Manville Co.",
+    "query_text": "decision | Canadian \nIndemnity Co. v. Canadian Johns-Manville Co. | [1990] 2 S.C.R. \n549 | 72 D.L.R. (4th) 478",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fss8",
+        "score": 0.8467538952827454,
+        "candidate_title": "Canadian Indemnity Co. v. Canadian Johns-Manville Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsqh",
+        "score": 0.5855969786643982,
+        "candidate_title": "Fletcher v. Manitoba Public Insurance Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/gc2pz",
+        "score": 0.5793052911758423,
+        "candidate_title": "International Minerals & Chemical Corp. et al. v. Commonwealth Insurance Co. et al."
+      }
+    ]
+  },
+  "Coronation Insurance Co. v. Taku Air Transport Ltd.": {
+    "uri": "https://canlii.ca/t/1fshd",
+    "score": 0.8313321471214294,
+    "candidate_id": "1991csc-scc102",
+    "candidate_title": "Coronation Insurance Co. v. Taku Air Transport Ltd.",
+    "query_text": "decision | Coronation Insurance \nCo. v. Taku Air Transport Ltd. | [1991] 3 S.C.R. 622 | 85 D.L.R. (4th) 609",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fshd",
+        "score": 0.8313321471214294,
+        "candidate_title": "Coronation Insurance Co. v. Taku Air Transport Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/gcr4q",
+        "score": 0.5364497303962708,
+        "candidate_title": "Trans Canada Credit Corp. Ltd. v. Royal Insurance Co. of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mfmv",
+        "score": 0.5244912505149841,
+        "candidate_title": "A.G. (Can.) v. Can. Nat. Transportation, Ltd."
+      }
+    ]
+  },
+  "Susan Hosiery Ltd. v. M.N.R.": {
+    "uri": "https://canlii.ca/t/jqqx3",
+    "score": 0.8183541893959045,
+    "candidate_id": "1969exchc-cech1000046",
+    "candidate_title": "Susan Hosiery Ltd. v. Minister of National Revenue",
+    "query_text": "decision | Susan Hosiery \nLtd. v. M.N.R.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqqx3",
+        "score": 0.8183541893959045,
+        "candidate_title": "Susan Hosiery Ltd. v. Minister of National Revenue"
+      },
+      {
+        "uri": "https://canlii.ca/t/jwqgx",
+        "score": 0.5827293395996094,
+        "candidate_title": "L. J. Harris v. M.N.R."
+      },
+      {
+        "uri": "https://canlii.ca/t/1c7sn",
+        "score": 0.5729612708091736,
+        "candidate_title": "Frontier Business Centre Ltd. v. M.N.R."
+      }
+    ]
+  },
+  "Smith v. Jones": {
+    "uri": "https://canlii.ca/t/1fqp9",
+    "score": 0.7471041679382324,
+    "candidate_id": "1999csc-scc16",
+    "candidate_title": "Smith v. Jones",
+    "query_text": "decision | Smith \nv. Jones | Smith v. Jones | Smith v. \nJones | , supra | [1999] 1 S.C.R. 455 | 132 \nC.C.C. (3d) 225 | at <auto_label fragmentid=\"\" id=\"198\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">p. 477 \nS.C.R.</auto_label>, <auto_label fragmentid=\"\" id=\"199\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">p. 242 C.C.C</auto_label> | at <auto_label fragmentid=\"\" id=\"213\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">pp. 474-75 S.C.R.</auto_label>, <auto_label fragmentid=\"\" id=\"214\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">p. 240 C.C.C</auto_label>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.7471041679382324,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr0v",
+        "score": 0.613210141658783,
+        "candidate_title": "Arndt v. Smith"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fnqv",
+        "score": 0.6122577786445618,
+        "candidate_title": "Smith v. Alliance Pipeline Ltd."
+      }
+    ]
+  },
+  "Commissioner Australian Federal Police v. Propend Finance Pty Ltd.": {
+    "uri": "https://synthetic.leread.ca/gold/G0395",
+    "score": 0.8962199091911316,
+    "candidate_id": "gold-G0395",
+    "candidate_title": "Commissioner Australian Federal Police v. Propend Finance Pty Ltd.",
+    "query_text": "decision | Commissioner Australian Federal \nPolice v. Propend Finance Pty Ltd. | (1997), 141 A.L.R. 545 \n(H.C.)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0395",
+        "score": 0.8962199091911316,
+        "candidate_title": "Commissioner Australian Federal Police v. Propend Finance Pty Ltd."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0305",
+        "score": 0.46665048599243164,
+        "candidate_title": "Lee v. New South Wales Crime Commission (2013)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hmtf1",
+        "score": 0.45605170726776123,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      }
+    ]
+  },
+  "Slavutych v. Baker": {
+    "uri": "https://canlii.ca/t/1mzhn",
+    "score": 0.7789260149002075,
+    "candidate_id": "1975csc-scc10004",
+    "candidate_title": "Slavutych v. Baker et al.",
+    "query_text": "decision | Slavutych v. \nBaker | [1976] 1 S.C.R. 254 | 55 D.L.R. (3d) 224",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mzhn",
+        "score": 0.7789260149002075,
+        "candidate_title": "Slavutych v. Baker et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqlk",
+        "score": 0.5792604684829712,
+        "candidate_title": "Baker v. Canada (Minister of Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqlj",
+        "score": 0.5761194229125977,
+        "candidate_title": "Baker c. Canada (Ministre de la Citoyenneté et de l'Immigration)"
+      }
+    ]
+  },
+  "R. v. Seaboyer; R. v. Gayme": {
+    "uri": "https://canlii.ca/t/1fskf",
+    "score": 0.8260221481323242,
+    "candidate_id": "1991csc-scc68",
+    "candidate_title": "R. v. Seaboyer;  R. v. Gayme",
+    "query_text": "decision | R. v. Seaboyer; \nR. v. Gayme | [1991] 2 S.C.R. 577 | 66 C.C.C. (3d) 321",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fskf",
+        "score": 0.8260221481323242,
+        "candidate_title": "R. v. Seaboyer;  R. v. Gayme"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l5zg",
+        "score": 0.6276283860206604,
+        "candidate_title": "R. v. Marshall; R. v. Bernard"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsks",
+        "score": 0.623735785484314,
+        "candidate_title": "R. v. Swain"
+      }
+    ]
+  },
+  "R. v. Stinchcombe": {
+    "uri": "https://canlii.ca/t/1fsgp",
+    "score": 0.7827776670455933,
+    "candidate_id": "1991csc-scc91",
+    "candidate_title": "R. v. Stinchcombe",
+    "query_text": "decision | R. v. \nStinchcombe | [1991] 3 S.C.R. 326 | 68 C.C.C. (3d) 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsgp",
+        "score": 0.7827776670455933,
+        "candidate_title": "R. v. Stinchcombe"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fshw",
+        "score": 0.5872893929481506,
+        "candidate_title": "R. v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsks",
+        "score": 0.5851563811302185,
+        "candidate_title": "R. v. Swain"
+      }
+    ]
+  },
+  "Metropolitan Life Insurance Co. v. Frenette": {
+    "uri": "https://canlii.ca/t/1fsf2",
+    "score": 0.7832823991775513,
+    "candidate_id": "1992csc-scc23",
+    "candidate_title": "Frenette v. Metropolitan Life Insurance Co.",
+    "query_text": "decision | Metropolitan Life Insurance Co. v. Frenette, | [1992] 1 S.C.R. 647 | 89 D.L.R. (4th) 653",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsf2",
+        "score": 0.7832823991775513,
+        "candidate_title": "Frenette v. Metropolitan Life Insurance Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1tvw0",
+        "score": 0.6169201731681824,
+        "candidate_title": "Metropolitan Life Insurance Co. v. International Union of Operating Engineers"
+      },
+      {
+        "uri": "https://canlii.ca/t/226fm",
+        "score": 0.5830343961715698,
+        "candidate_title": "Shafron v. KRG Insurance Brokers (Western) Inc."
+      }
+    ]
+  },
+  "R. v. O": {
+    "uri": "https://canlii.ca/t/1frdh",
+    "score": 0.7704436182975769,
+    "candidate_id": "1995csc-scc103",
+    "candidate_title": "R. v. O'Connor",
+    "query_text": "decision | R. v. O'Connor | [1995] 4 S.C.R. 411 | 103 C.C.C. (3d) 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frdh",
+        "score": 0.7704436182975769,
+        "candidate_title": "R. v. O'Connor"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0357",
+        "score": 0.6452734470367432,
+        "candidate_title": "O'Connor SCC 2001"
+      },
+      {
+        "uri": "https://canlii.ca/t/2b2ds",
+        "score": 0.6386069655418396,
+        "candidate_title": "R. v. Conway"
+      }
+    ]
+  },
+  "Butterfield v. Dickson": {
+    "uri": "https://canlii.ca/t/jfxfd",
+    "score": 0.7955308556556702,
+    "candidate_id": "1994ntsc1000006",
+    "candidate_title": "Butterfield v. Dickson",
+    "query_text": "decision | Butterfield v. Dickson | 28 C.P.C. \n(3d) 242 | [1994] N.W.T.R. 228 (S.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jfxfd",
+        "score": 0.7955308556556702,
+        "candidate_title": "Butterfield v. Dickson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fmzr",
+        "score": 0.5535334348678589,
+        "candidate_title": "Butterfield v. The Owners, Strata Plan NW 3214"
+      },
+      {
+        "uri": "https://canlii.ca/t/k3qd5",
+        "score": 0.5471760034561157,
+        "candidate_title": "Dickson v. Vuntut Gwitchin First Nation"
+      }
+    ]
+  },
+  "Hickman v. Taylor": {
+    "uri": "https://synthetic.leread.ca/gold/G0242",
+    "score": 0.8057807683944702,
+    "candidate_id": "gold-G0242",
+    "candidate_title": "Hickman v. Taylor",
+    "query_text": "decision | Hickman v. Taylor | 329 U.S. 495 (1947)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0242",
+        "score": 0.8057807683944702,
+        "candidate_title": "Hickman v. Taylor"
+      },
+      {
+        "uri": "https://canlii.ca/t/gwbjh",
+        "score": 0.4710909128189087,
+        "candidate_title": "Rex Ex Rel. Taylor v. Kemp"
+      },
+      {
+        "uri": "https://canlii.ca/t/1trxk",
+        "score": 0.4692080616950989,
+        "candidate_title": "Taylor v. Wallbridge"
+      }
+    ]
+  },
+  "Nickmar Pty Ltd. v. Preservatrice Skandia Insurance Ltd.": {
+    "uri": "https://synthetic.leread.ca/gold/G0351",
+    "score": 0.8537003397941589,
+    "candidate_id": "gold-G0351",
+    "candidate_title": "Nickmar Pty Ltd. v. Preservatrice Skandia Insurance Ltd. (1985)",
+    "query_text": "decision | Nickmar Pty Ltd. v. Preservatrice Skandia \nInsurance Ltd. | 1985), 3 N.S.W.L.R. 44 (S.C.)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0351",
+        "score": 0.8537003397941589,
+        "candidate_title": "Nickmar Pty Ltd. v. Preservatrice Skandia Insurance Ltd. (1985)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gddz8",
+        "score": 0.5389508008956909,
+        "candidate_title": "Foundation Company of Canada Ltd. v. Canadian Indemnity Co. and Simcoe & Erie General Insurance Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/fsxrv",
+        "score": 0.5303271412849426,
+        "candidate_title": "Greening v Commercial Union Assurance Co"
+      }
+    ]
+  },
+  "Williams": {
+    "uri": "https://canlii.ca/t/smmg",
+    "score": 0.6358081698417664,
+    "candidate_id": "d65684!d65684",
+    "candidate_title": "Discovery of Civil Litigation Trial Preparation in Canada",
+    "query_text": "secondary sources | Civil Litigation Trial \nPreparation in Canada | N. Williams",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/smmg",
+        "score": 0.6358081698417664,
+        "candidate_title": "Discovery of Civil Litigation Trial Preparation in Canada"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0119",
+        "score": 0.5024195909500122,
+        "candidate_title": "Canadian Civil Procedure Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dh4",
+        "score": 0.49723002314567566,
+        "candidate_title": "Solicitor-Client Privilege and Litigation Privilege in Civil Litigation"
+      }
+    ]
+  },
+  "ManesSilver": {
+    "uri": "https://synthetic.leread.ca/gold/G0447",
+    "score": 0.8275222778320312,
+    "candidate_id": "gold-G0447",
+    "candidate_title": "Solicitor-Client Privilege in Canadian Law",
+    "query_text": "secondary sources | Solicitor-Client Privilege in Canadian Law | Manes and Silver",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0447",
+        "score": 0.8275222778320312,
+        "candidate_title": "Solicitor-Client Privilege in Canadian Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dh4",
+        "score": 0.6183151006698608,
+        "candidate_title": "Solicitor-Client Privilege and Litigation Privilege in Civil Litigation"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0079",
+        "score": 0.5399568676948547,
+        "candidate_title": "Attorney-Client Privilege"
+      }
+    ]
+  }
+}

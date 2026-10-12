@@ -1,19 +1,19 @@
 {
   "Simpson": {
     "uri": "https://canlii.ca/t/1nplw",
-    "score": 0.6717613935470581,
+    "score": 0.6715242862701416,
     "candidate_id": "1994nlscad197510003",
     "candidate_title": "R. v. Simpson",
     "query_text": "decision | R. v. Simpson",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1nplw",
-        "score": 0.6717613935470581,
+        "score": 0.6715242862701416,
         "candidate_title": "R. v. Simpson"
       },
       {
         "uri": "https://canlii.ca/t/1fv04",
-        "score": 0.5909277200698853,
+        "score": 0.5904145240783691,
         "candidate_title": "Simon v. The Queen"
       },
       {
@@ -25,19 +25,19 @@
   },
   "Mills": {
     "uri": "https://canlii.ca/t/1cxmx",
-    "score": 0.7980813980102539,
+    "score": 0.7972080707550049,
     "candidate_id": "1986csc-scc38",
     "candidate_title": "Mills v. The Queen",
     "query_text": "decision | R. <i>v. Mills</i><i></i><i> </i>(1986) | <i>Mills</i> | Mills | 26 C.C.C.\n(3d) 481 | 29 D.L.R. (4th) 161 | [1986] 1 S.C.R. 863 (S.C.C.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1cxmx",
-        "score": 0.7980813980102539,
+        "score": 0.7972080707550049,
         "candidate_title": "Mills v. The Queen"
       },
       {
         "uri": "https://canlii.ca/t/1ftx9",
-        "score": 0.6591614484786987,
+        "score": 0.659504771232605,
         "candidate_title": "R. v. Miller"
       },
       {
@@ -49,14 +49,14 @@
   },
   "Rahey": {
     "uri": "https://canlii.ca/t/1ftp7",
-    "score": 0.8147656321525574,
+    "score": 0.8198477029800415,
     "candidate_id": "1987csc-scc24",
     "candidate_title": "R. v. Rahey",
     "query_text": "decision | <i>R. v. Rahey </i>(1987) | <i>33 </i>C.C.C. (3d) <i>289</i> | <i>\n39 </i>D.L.R. (4th) 481 | [1987] 1 S.C.R. <i>588 (S.C.C.)</i>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1ftp7",
-        "score": 0.8147656321525574,
+        "score": 0.8198477029800415,
         "candidate_title": "R. v. Rahey"
       },
       {
@@ -73,14 +73,14 @@
   },
   "Erickson": {
     "uri": "https://canlii.ca/t/24ccr",
-    "score": 0.8308542966842651,
+    "score": 0.8283168077468872,
     "candidate_id": "1984bcca1000244",
     "candidate_title": "R. v. Erickson",
     "query_text": "decision | <i>R. v. Erickson</i><i></i><i> </i>(1984) | 13 C.C.C.\n(3d) 269 | 12 C.R.R. 193 | [1984] 5 W.W.R. 577 (B.C.C.A.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/24ccr",
-        "score": 0.8308542966842651,
+        "score": 0.8283168077468872,
         "candidate_title": "R. v. Erickson"
       },
       {
@@ -90,21 +90,21 @@
       },
       {
         "uri": "https://canlii.ca/t/g9bpj",
-        "score": 0.5939270257949829,
+        "score": 0.5921996831893921,
         "candidate_title": "R. v. Richards"
       }
     ]
   },
   "Sullivan": {
     "uri": "https://canlii.ca/t/fsxn2",
-    "score": 0.8017354011535645,
+    "score": 0.8015549182891846,
     "candidate_id": "1991nlscad19751000007",
     "candidate_title": "R v Sullivan",
     "query_text": "decision | R. <i>v. Sullivan</i> | <i>R. v. Sullivan</i><i> </i>(1991) | Sullivan | 1991,\nNfld. C.A. | 96 Nfld. &amp; P.E.I.R. 7 | 13 W.C.B.\n(2d) 547 | <i>96 </i>Nfld. &amp; P.E.I.R. 7 | 13 W.C.B. (2d) 547",
     "topk": [
       {
         "uri": "https://canlii.ca/t/fsxn2",
-        "score": 0.8017354011535645,
+        "score": 0.8015549182891846,
         "candidate_title": "R v Sullivan"
       },
       {
@@ -114,7 +114,7 @@
       },
       {
         "uri": "https://canlii.ca/t/1nplw",
-        "score": 0.6069833040237427,
+        "score": 0.6058946251869202,
         "candidate_title": "R. v. Simpson"
       }
     ]
@@ -137,9 +137,9 @@
         "candidate_title": "R. v. L.R."
       },
       {
-        "uri": "https://canlii.ca/t/jw9s1",
-        "score": 0.5997413992881775,
-        "candidate_title": "R. v. P.M."
+        "uri": "https://canlii.ca/t/1fsnh",
+        "score": 0.5991313457489014,
+        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
       }
     ]
   },
@@ -169,14 +169,14 @@
   },
   "Keyowski": {
     "uri": "https://canlii.ca/t/1ftg7",
-    "score": 0.8352603912353516,
+    "score": 0.8375301361083984,
     "candidate_id": "1988csc-scc31",
     "candidate_title": "R. v. Keyowski",
     "query_text": "decision | <i>R. v. Keyowski</i><i> </i>(1988) | 40 C.C.C. (3d) 481 | [1988] 1 S.C.R. 657 | 62 C.R. (3d) 349 (S.C.C.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1ftg7",
-        "score": 0.8352603912353516,
+        "score": 0.8375301361083984,
         "candidate_title": "R. v. Keyowski"
       },
       {
@@ -192,60 +192,65 @@
     ]
   },
   "Criminal Code": {
-    "uri": "https://canlii.ca/t/56lsh",
+    "uri": "https://canlii.ca/t/56v2k",
     "score": 0.7541687488555908,
     "candidate_id": "l12792!12792-current-1",
     "candidate_title": "Criminal Code",
     "query_text": "legislation | <i>Criminal Code</i> | Criminal Code of\nCanada | <span lang=\"EN-CA\"> </span><span lang=\"EN-CA\">Criminal Code of Canada</span> | Criminal Code of Canada | Criminal Code | Code | Act | Criminal\nCode | <i>Criminal\nCode</i>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56lsh",
-        "score": 0.7541687488555908,
-        "candidate_title": "Criminal Code"
-      },
-      {
         "uri": "https://canlii.ca/t/56v2k",
         "score": 0.7541687488555908,
         "candidate_title": "Criminal Code"
       },
       {
-        "uri": "https://canlii.ca/t/99ss",
-        "score": 0.6488813161849976,
-        "candidate_title": "An Act to amend the Criminal Code, the Youth Criminal Justice Act and other Acts and to make consequential amendments to other Acts"
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.7541687488555908,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 0.7121453285217285,
+        "candidate_title": "Criminal Code"
       }
     ]
   },
   "Charter": {
     "uri": "https://canlii.ca/t/ldsx",
-    "score": 0.707021951675415,
+    "score": 0.7069901823997498,
     "candidate_id": "l36028!36028-current-1",
     "candidate_title": "The Constitution Act, 1982",
     "query_text": "legislation | <i>Canadian Charter of\nRights and Freedoms</i> | Charter right | Charter | Charter rights | Canadian Charter\nof Rights and Freedoms | Canadian Charter of\nRights and Freedoms | Canadian Charter of Rights and Freedoms | Canadian\nCharter of Rights and Freedoms",
     "topk": [
       {
         "uri": "https://canlii.ca/t/ldsx",
-        "score": 0.707021951675415,
+        "score": 0.7069901823997498,
         "candidate_title": "The Constitution Act, 1982"
       },
       {
         "uri": "https://canlii.ca/t/56kkc",
-        "score": 0.6519848704338074,
+        "score": 0.6509132385253906,
         "candidate_title": "Charter of Human Rights and Freedoms"
       },
       {
         "uri": "https://canlii.ca/t/7vnh",
-        "score": 0.6432512402534485,
+        "score": 0.6433786153793335,
         "candidate_title": "Canadian Bill of Rights"
       }
     ]
   },
   "The Canadian Charter of Rights": {
-    "uri": "https://canlii.ca/t/1z48m",
-    "score": 0.5419491529464722,
-    "candidate_id": "1980csc-scc10176",
-    "candidate_title": "R. v. McLaughlin",
+    "uri": "https://synthetic.leread.ca/gold/G0464",
+    "score": 0.7827837467193604,
+    "candidate_id": "gold-G0464",
+    "candidate_title": "The Canadian Charter of Rights",
     "query_text": "secondary sources | The Canadian\nCharter of Rights | The Prosecution and Defence of\nCriminal and other Statutory Offences | McLeod, Takach, Morton and\nSegal",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0464",
+        "score": 0.7827837467193604,
+        "candidate_title": "The Canadian Charter of Rights"
+      },
       {
         "uri": "https://canlii.ca/t/1z48m",
         "score": 0.5419491529464722,
@@ -253,13 +258,8 @@
       },
       {
         "uri": "https://canlii.ca/t/fzw43",
-        "score": 0.527518093585968,
+        "score": 0.5292303562164307,
         "candidate_title": "Ontario v. Criminal Lawyers’ Association of Ontario"
-      },
-      {
-        "uri": "https://canlii.ca/t/1pfnc",
-        "score": 0.5250300168991089,
-        "candidate_title": "Reference re French Language Rights of Accused in Saskatchewan Criminal Proceedings"
       }
     ]
   }

@@ -1,0 +1,98 @@
+{
+  "Cities Act Saskatchewan": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6773582696914673,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6773582696914673,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6441945433616638,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6390483379364014,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Cities Act": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6773582696914673,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6773582696914673,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6441945433616638,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6390483379364014,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Property Assessment and Appeals in Saskatchewan": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6773582696914673,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6773582696914673,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.644194483757019,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6390484571456909,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Estevan Coal Corp. v Estevan (Rural Municipality No. 5)": {
+    "uri": "https://canlii.ca/t/1l6w0",
+    "score": 0.8789493441581726,
+    "candidate_id": "2000skca82",
+    "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)",
+    "query_text": "decision | <i>Estevan Coal Corp.</i> v. <i>Estevan (Rural Municipality No. 5),</i> | 2000 SKCA 82 | 199 Sask. R. 57",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6w0",
+        "score": 0.8789493441581726,
+        "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtsjp",
+        "score": 0.594887375831604,
+        "candidate_title": "Brandt Properties Ltd. v Sherwood (Rural Municipality)"
+      },
+      {
+        "uri": "https://canlii.ca/t/kgtf0",
+        "score": 0.5912958979606628,
+        "candidate_title": "Britannia (Rural Municipality) v Cenovus Energy Inc."
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Bloorview Children’s Hospital Foundation v. Bloorview MacMillan Centre": {
+    "uri": "https://synthetic.leread.ca/gold/G0097",
+    "score": 0.8036704659461975,
+    "candidate_id": "gold-G0097",
+    "candidate_title": "Bloorview Children’s Hospital Foundation v. Bloorview MacMillan Centre",
+    "query_text": "decision | <i>Bloorview\nChildren’s Hospital Foundation v. Bloorview MacMillan Centre</i> | [2001] O.J.\nNo.1700",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0097",
+        "score": 0.8036704659461975,
+        "candidate_title": "Bloorview Children’s Hospital Foundation v. Bloorview MacMillan Centre"
+      },
+      {
+        "uri": "https://canlii.ca/t/1rrsv",
+        "score": 0.49119699001312256,
+        "candidate_title": "City Front Developments Inc. v. Toronto District School Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1gs6",
+        "score": 0.4878308176994324,
+        "candidate_title": "Metropolitan Toronto Condominium Corporation No. 706 v. Bardmore Developments Ltd. (C.A.)"
+      }
+    ]
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "type": "vector",
-  "encoder": "qwen3-8b",
-  "similarity": "cosine",
-  "shape": [
-    6519,
-    4096
-  ]
-}

@@ -1,48 +1,48 @@
 {
   "Excise Tax Act 1970": {
-    "uri": "https://canlii.ca/t/56jgr",
-    "score": 0.7051675915718079,
-    "candidate_id": "l12810!12810-current-1",
+    "uri": "https://synthetic.leread.ca/gold/G0203",
+    "score": 0.8337201476097107,
+    "candidate_id": "gold-G0203",
     "candidate_title": "Excise Tax Act",
     "query_text": "legislation | Excise Tax Act | <i>Excise Tax Act</i> | Excise\nTax Act | <i>Excise Tax\nAct</i> | the Act | Act | R.S.C. 1970, c. E-13",
     "topk": [
       {
+        "uri": "https://synthetic.leread.ca/gold/G0203",
+        "score": 0.8337201476097107,
+        "candidate_title": "Excise Tax Act"
+      },
+      {
         "uri": "https://canlii.ca/t/56jgr",
-        "score": 0.7051675915718079,
+        "score": 0.7046762704849243,
         "candidate_title": "Excise Tax Act"
       },
       {
         "uri": "https://canlii.ca/t/8dg5",
         "score": 0.5727602243423462,
         "candidate_title": "Revenue Tax Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/56p8v",
-        "score": 0.5151152610778809,
-        "candidate_title": "Income Tax Act"
       }
     ]
   },
   "Canadian International Trade Tribunal Act": {
     "uri": "https://canlii.ca/t/56c77",
-    "score": 0.7322231531143188,
+    "score": 0.7347903251647949,
     "candidate_id": "l12741!12741-current-1",
     "candidate_title": "Canadian International Trade Tribunal Act",
     "query_text": "legislation | Canadian\nInternational Trade Tribunal Act | Canadian International Trade Tribunal Act | S.C. 1988, c. 56",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56c77",
-        "score": 0.7322231531143188,
+        "score": 0.7347903251647949,
         "candidate_title": "Canadian International Trade Tribunal Act"
       },
       {
         "uri": "https://canlii.ca/t/8035",
-        "score": 0.6748459935188293,
+        "score": 0.6754045486450195,
         "candidate_title": "Canadian International Trade Tribunal Rules"
       },
       {
         "uri": "https://canlii.ca/t/561jt",
-        "score": 0.5480712652206421,
+        "score": 0.5492892861366272,
         "candidate_title": "Administrative Tribunals Act"
       }
     ]
@@ -61,517 +61,517 @@
       },
       {
         "uri": "https://canlii.ca/t/7vb5",
-        "score": 0.6616893410682678,
+        "score": 0.6625156998634338,
         "candidate_title": "Customs Act"
       },
       {
         "uri": "https://canlii.ca/t/56c77",
-        "score": 0.5895470380783081,
+        "score": 0.5917920470237732,
         "candidate_title": "Canadian International Trade Tribunal Act"
       }
     ]
   },
   "Excise Tax Act 1985": {
     "uri": "https://canlii.ca/t/7vc6",
-    "score": 0.6125040054321289,
+    "score": 0.6119391322135925,
     "candidate_id": "l12736!12736-current-1",
     "candidate_title": "Revised Statutes of Canada, 1985 Act",
     "query_text": "legislation | R.S.C. 1985, c. E-15",
     "topk": [
       {
         "uri": "https://canlii.ca/t/7vc6",
-        "score": 0.6125040054321289,
+        "score": 0.6119391322135925,
         "candidate_title": "Revised Statutes of Canada, 1985 Act"
       },
       {
         "uri": "https://canlii.ca/t/563zb",
-        "score": 0.5877450704574585,
+        "score": 0.5861594080924988,
         "candidate_title": "Law and Equity Act"
       },
       {
         "uri": "https://canlii.ca/t/53m25",
-        "score": 0.5812281966209412,
+        "score": 0.5838938355445862,
         "candidate_title": "Statutes Amendment Act, 2015"
       }
     ]
   },
   "City of Chicago": {
-    "uri": "https://canlii.ca/t/1zgd8",
-    "score": 0.507046103477478,
-    "candidate_id": "1906csc-scc10017",
-    "candidate_title": "City of Toronto v. Grand Trunk Ry. Co.",
+    "uri": "https://synthetic.leread.ca/gold/G0140",
+    "score": 0.8536825776100159,
+    "candidate_id": "gold-G0140",
+    "candidate_title": "City of Chicago v. Pittsburgh",
     "query_text": "decision | City\nof Chicago v. Pittsburgh | <i>City of Chicago v.\nPittsburgh, Ft. W. &amp; C. R. Co.</i>, (1910) | Ft. W. &amp; C. R. Co. (1910) | 93 N.E. 307",
     "topk": [
       {
+        "uri": "https://synthetic.leread.ca/gold/G0140",
+        "score": 0.8536825776100159,
+        "candidate_title": "City of Chicago v. Pittsburgh"
+      },
+      {
         "uri": "https://canlii.ca/t/1zgd8",
-        "score": 0.507046103477478,
+        "score": 0.5081680417060852,
         "candidate_title": "City of Toronto v. Grand Trunk Ry. Co."
       },
       {
         "uri": "https://canlii.ca/t/21v1l",
-        "score": 0.4770503640174866,
+        "score": 0.4750121533870697,
         "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co."
-      },
-      {
-        "uri": "https://canlii.ca/t/1tsnx",
-        "score": 0.46203890442848206,
-        "candidate_title": "Toronto Ry. Co. v. Paget"
       }
     ]
   },
   "Hunt Foods Export Corp. of Canada Ltd": {
     "uri": "https://canlii.ca/t/jqr4g",
-    "score": 0.8984560370445251,
+    "score": 0.8988681435585022,
     "candidate_id": "1970exchc-cech1000016",
     "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise",
     "query_text": "decision | Hunt\nFoods Export Corp. of Canada Ltd et al. v. The Deputy Minister of National\nRevenue for Customs and Excise (1970) | Hunt Foods Export Corp. of Canada Ltd et al. v. The Deputy\nMinister of National Revenue for Customs and Excise | Ex. C.R. 828 | [1970] Ex. C.R. 828",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jqr4g",
-        "score": 0.8984560370445251,
+        "score": 0.8988681435585022,
         "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
       },
       {
-        "uri": "https://canlii.ca/t/jqqx3",
-        "score": 0.5853025913238525,
-        "candidate_title": "Susan Hosiery Ltd. v. Minister of National Revenue"
+        "uri": "https://synthetic.leread.ca/gold/G0522",
+        "score": 0.5887546539306641,
+        "candidate_title": "Westeel Products Limited v. The Deputy Minister of National Revenue for Customs and Excise"
       },
       {
-        "uri": "https://canlii.ca/t/g92df",
-        "score": 0.5791962742805481,
-        "candidate_title": "Canada Packers Inc. v. Canada (Minister of Agriculture)"
+        "uri": "https://canlii.ca/t/jqqx3",
+        "score": 0.5863807201385498,
+        "candidate_title": "Susan Hosiery Ltd. v. Minister of National Revenue"
       }
     ]
   },
   "Olympia Floor and Wall Tile Company": {
-    "uri": "https://canlii.ca/t/jqr4g",
-    "score": 0.5708526372909546,
-    "candidate_id": "1970exchc-cech1000016",
-    "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise",
+    "uri": "https://synthetic.leread.ca/gold/G0359",
+    "score": 0.9144057035446167,
+    "candidate_id": "gold-G0359",
+    "candidate_title": "Olympia Floor and Wall Tile Company v. The Deputy Minister of National Revenue for Customs and Excise",
     "query_text": "decision | Olympia Floor and Wall\nTile Company v. The Deputy Minister of National Revenue for Customs and Excise | Olympia Floor and Wall Tile Company v. The Deputy Minister of\nNational Revenue for Customs and Excise | The\nOlympia Floor and Wall Tile Company case | 5 C.E.R. 562 | 5 C.E.R. 562",
     "topk": [
       {
+        "uri": "https://synthetic.leread.ca/gold/G0359",
+        "score": 0.9144057035446167,
+        "candidate_title": "Olympia Floor and Wall Tile Company v. The Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0522",
+        "score": 0.6392004489898682,
+        "candidate_title": "Westeel Products Limited v. The Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
         "uri": "https://canlii.ca/t/jqr4g",
-        "score": 0.5708526372909546,
+        "score": 0.5708993077278137,
         "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
-      },
-      {
-        "uri": "https://canlii.ca/t/j7qgv",
-        "score": 0.5565620064735413,
-        "candidate_title": "Roofmart Ontario Inc. v. Canada (National Revenue)"
-      },
-      {
-        "uri": "https://canlii.ca/t/1z6fk",
-        "score": 0.5513453483581543,
-        "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue"
       }
     ]
   },
   "Pfizer": {
     "uri": "https://canlii.ca/t/1z6fk",
-    "score": 0.8473113775253296,
+    "score": 0.8486387729644775,
     "candidate_id": "1975csc-scc10177",
     "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue",
     "query_text": "decision | Pfizer Company Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise (1977) | Pfizer Company Limited v. The Deputy\nMinister of National Revenue for Customs and Excise | Pfizer case | Pfizer\ncase | 1 S.C.R. 456 | [1977] 1 S.C.R. 456",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1z6fk",
-        "score": 0.8473113775253296,
+        "score": 0.8486387729644775,
         "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue"
       },
       {
         "uri": "https://canlii.ca/t/g9x04",
-        "score": 0.668502688407898,
+        "score": 0.6686619520187378,
         "candidate_title": "Pfizer Canada Inc. v. Minister of National Health & Welfare et al."
       },
       {
         "uri": "https://canlii.ca/t/k97g0",
-        "score": 0.6612519025802612,
+        "score": 0.6620434522628784,
         "candidate_title": "Pfizer Canada Inc. v. Minister of National Health & Welfare et al."
       }
     ]
   },
   "Proprietors of Passaic & Hackensack River Bridges": {
-    "uri": "https://canlii.ca/t/1zgd8",
-    "score": 0.44502341747283936,
-    "candidate_id": "1906csc-scc10017",
-    "candidate_title": "City of Toronto v. Grand Trunk Ry. Co.",
+    "uri": "https://synthetic.leread.ca/gold/G0397",
+    "score": 0.8754144906997681,
+    "candidate_id": "gold-G0397",
+    "candidate_title": "Proprietors of Passaic & Hackensack River Bridges v. Hoboken Land Imp. Co. (1860)",
     "query_text": "decision | Proprietors\nof Passaic &amp; Hackensack River Bridges v. Hoboken Land Imp. Co. (1860) | <i>Proprietors of Passaic &amp;\nHackensack River Bridges v. Hoboken Land Imp. Co.</i> | 13 N.J.Eq. (2 Beasl.) 503 | (1860) 13 N.J.Eq.\n(2 Beasl.) 503",
     "topk": [
       {
+        "uri": "https://synthetic.leread.ca/gold/G0397",
+        "score": 0.8754144906997681,
+        "candidate_title": "Proprietors of Passaic & Hackensack River Bridges v. Hoboken Land Imp. Co. (1860)"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0192",
+        "score": 0.4522640109062195,
+        "candidate_title": "Dundee Harbour Trustees v. Dougall (1852)"
+      },
+      {
         "uri": "https://canlii.ca/t/1zgd8",
-        "score": 0.44502341747283936,
+        "score": 0.4460929334163666,
         "candidate_title": "City of Toronto v. Grand Trunk Ry. Co."
-      },
-      {
-        "uri": "https://canlii.ca/t/k9pl2",
-        "score": 0.43916547298431396,
-        "candidate_title": "Re Prime Locations Ltd. and Prime Real Estate Ltd. et al."
-      },
-      {
-        "uri": "https://canlii.ca/t/21v1l",
-        "score": 0.42590564489364624,
-        "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co."
       }
     ]
   },
   "Westeel Products Limited": {
-    "uri": "https://canlii.ca/t/jqr4g",
-    "score": 0.5818436145782471,
-    "candidate_id": "1970exchc-cech1000016",
-    "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise",
+    "uri": "https://synthetic.leread.ca/gold/G0522",
+    "score": 0.842731237411499,
+    "candidate_id": "gold-G0522",
+    "candidate_title": "Westeel Products Limited v. The Deputy Minister of National Revenue for Customs and Excise",
     "query_text": "decision | Westeel Products Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise | Westeel Products Limited v. The Deputy Minister of National\nRevenue for Customs and Excise | 2 T.B.R. 106",
     "topk": [
       {
+        "uri": "https://synthetic.leread.ca/gold/G0522",
+        "score": 0.842731237411499,
+        "candidate_title": "Westeel Products Limited v. The Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0359",
+        "score": 0.5932348966598511,
+        "candidate_title": "Olympia Floor and Wall Tile Company v. The Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
         "uri": "https://canlii.ca/t/jqr4g",
-        "score": 0.5818436145782471,
+        "score": 0.5822339653968811,
         "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
-      },
-      {
-        "uri": "https://canlii.ca/t/521l",
-        "score": 0.5669153928756714,
-        "candidate_title": "Canada (Deputy Minister of National Revenue) v. Mattel Canada Inc."
-      },
-      {
-        "uri": "https://canlii.ca/t/1z6fk",
-        "score": 0.5641233921051025,
-        "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue"
       }
     ]
   },
   "Wilson": {
-    "uri": "https://canlii.ca/t/fstk3",
-    "score": 0.467154324054718,
-    "candidate_id": "2012onsc5370",
-    "candidate_title": "Stephenson v. Corporation of the Town of Gravenhurst",
+    "uri": "https://synthetic.leread.ca/gold/G0529",
+    "score": 0.8369374871253967,
+    "candidate_id": "gold-G0529",
+    "candidate_title": "Wilson v. Town of Barnstead (1906)",
     "query_text": "decision | Wilson v. Town of\nBarnstead (1906) | <i>Wilson v. Town of Barnstead</i>\n(1906) | 74 N.H. 78 | 74 N.H. 78",
     "topk": [
       {
+        "uri": "https://synthetic.leread.ca/gold/G0529",
+        "score": 0.8369374871253967,
+        "candidate_title": "Wilson v. Town of Barnstead (1906)"
+      },
+      {
         "uri": "https://canlii.ca/t/fstk3",
-        "score": 0.467154324054718,
+        "score": 0.4648124575614929,
         "candidate_title": "Stephenson v. Corporation of the Town of Gravenhurst"
       },
       {
         "uri": "https://canlii.ca/t/fstk2",
-        "score": 0.4636348783969879,
+        "score": 0.462785005569458,
         "candidate_title": "Stephenson v. Corporation of the Town of Gravenhurst"
-      },
-      {
-        "uri": "https://canlii.ca/t/g74k0",
-        "score": 0.45717620849609375,
-        "candidate_title": "Williams v. Town of North Battleford"
       }
     ]
   },
   "New Standard Dictionary English Language": {
-    "uri": "https://canlii.ca/t/1xtwb",
-    "score": 0.36177635192871094,
-    "candidate_id": "1972csc-scc10130",
-    "candidate_title": "Woodward Estate v. Minister of Finance",
+    "uri": "https://synthetic.leread.ca/gold/G0347",
+    "score": 0.6937234401702881,
+    "candidate_id": "gold-G0347",
+    "candidate_title": "Funk & Wagnalls New Standard Dictionary of the English Language",
     "query_text": "secondary sources | Funk\n&amp; Wagnalls New Standard Dictionary of the English Language",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1xtwb",
-        "score": 0.36177635192871094,
-        "candidate_title": "Woodward Estate v. Minister of Finance"
+        "uri": "https://synthetic.leread.ca/gold/G0347",
+        "score": 0.6937234401702881,
+        "candidate_title": "Funk & Wagnalls New Standard Dictionary of the English Language"
       },
       {
-        "uri": "https://canlii.ca/t/g9g3w",
-        "score": 0.36070287227630615,
-        "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co."
+        "uri": "https://synthetic.leread.ca/gold/G0218",
+        "score": 0.6595775485038757,
+        "candidate_title": "Funk & Wagnalls Standard College Dictionary"
       },
       {
-        "uri": "https://canlii.ca/t/g1g71",
-        "score": 0.36064329743385315,
-        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+        "uri": "https://synthetic.leread.ca/gold/G0518",
+        "score": 0.5020213723182678,
+        "candidate_title": "Webster's New World Dictionary"
       }
     ]
   },
   "The Oxford English Dictionary": {
-    "uri": "https://canlii.ca/t/9l",
-    "score": 0.41461628675460815,
-    "candidate_id": "l88!88-current-1",
-    "candidate_title": "County of Oxford Act",
+    "uri": "https://synthetic.leread.ca/gold/G0483",
+    "score": 0.6200680732727051,
+    "candidate_id": "gold-G0483",
+    "candidate_title": "The Oxford English Dictionary",
     "query_text": "secondary sources | <u>The Oxford\nEnglish Dictionary</u> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">The Oxford English Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/9l",
-        "score": 0.41461628675460815,
-        "candidate_title": "County of Oxford Act"
+        "uri": "https://synthetic.leread.ca/gold/G0483",
+        "score": 0.6200680732727051,
+        "candidate_title": "The Oxford English Dictionary"
       },
       {
-        "uri": "https://canlii.ca/t/j8rq2",
-        "score": 0.38652825355529785,
-        "candidate_title": "Oxford v. Newfoundland and Labrador (Municipal Affairs and Environment)"
+        "uri": "https://synthetic.leread.ca/gold/G0346",
+        "score": 0.5938088893890381,
+        "candidate_title": "New Oxford Dictionary of English"
       },
       {
-        "uri": "https://canlii.ca/t/g1g71",
-        "score": 0.3803396224975586,
-        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+        "uri": "https://synthetic.leread.ca/gold/G0374",
+        "score": 0.5664221048355103,
+        "candidate_title": "Oxford English Dictionary"
       }
     ]
   },
   "Black": {
-    "uri": "https://canlii.ca/t/gcxcz",
-    "score": 0.4422498345375061,
-    "candidate_id": "1970bcca1000057",
-    "candidate_title": "R. v. Black",
+    "uri": "https://synthetic.leread.ca/gold/G0094",
+    "score": 0.633354663848877,
+    "candidate_id": "gold-G0094",
+    "candidate_title": "Black's Law Dictionary",
     "query_text": "secondary sources | <u>Black's Law Dictionary</u> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Black's Law Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/gcxcz",
-        "score": 0.4422498345375061,
-        "candidate_title": "R. v. Black"
+        "uri": "https://synthetic.leread.ca/gold/G0094",
+        "score": 0.633354663848877,
+        "candidate_title": "Black's Law Dictionary"
       },
       {
-        "uri": "https://canlii.ca/t/23rzr",
-        "score": 0.40543243288993835,
-        "candidate_title": "Black Gavin & Co. Ltd. v. Cheung"
+        "uri": "https://synthetic.leread.ca/gold/G0152",
+        "score": 0.4693750739097595,
+        "candidate_title": "Commentaries on the Laws of England"
       },
       {
-        "uri": "https://canlii.ca/t/1glp0",
-        "score": 0.4027450680732727,
-        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+        "uri": "https://synthetic.leread.ca/gold/G0533",
+        "score": 0.46412861347198486,
+        "candidate_title": "Words and Phrases. Permanent Edition"
       }
     ]
   },
   "The Houghton Mifflin Canadian Dictionary": {
-    "uri": "https://canlii.ca/t/1ftz1",
-    "score": 0.45680394768714905,
-    "candidate_id": "1985csc-scc32",
-    "candidate_title": "Re Manitoba Language Rights",
+    "uri": "https://synthetic.leread.ca/gold/G0469",
+    "score": 0.6933432817459106,
+    "candidate_id": "gold-G0469",
+    "candidate_title": "The Houghton Mifflin Canadian Dictionary of the English Language",
     "query_text": "secondary sources | The Houghton Mifflin Canadian Dictionary of the English\nLanguage | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">T</span></i></b><b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">he Houghton Mifflin Canadian Dictionary of\nthe English Language</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\"></span></b>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1ftz1",
-        "score": 0.45680394768714905,
-        "candidate_title": "Re Manitoba Language Rights"
+        "uri": "https://synthetic.leread.ca/gold/G0469",
+        "score": 0.6933432817459106,
+        "candidate_title": "The Houghton Mifflin Canadian Dictionary of the English Language"
       },
       {
-        "uri": "https://canlii.ca/t/g13s0",
-        "score": 0.43595293164253235,
-        "candidate_title": "Canada Metal Co. Ltd. et al. v. Canadian Broadcasting Corp. et al. (No. 2)"
+        "uri": "https://synthetic.leread.ca/gold/G0520",
+        "score": 0.5636144280433655,
+        "candidate_title": "Webster’s Canadian Dictionary and Thesaurus"
       },
       {
-        "uri": "https://canlii.ca/t/g1g71",
-        "score": 0.43228286504745483,
-        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+        "uri": "https://synthetic.leread.ca/gold/G0408",
+        "score": 0.5426097512245178,
+        "candidate_title": "Random House Dictionary of the English Language"
       }
     ]
   },
   "Webster": {
-    "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
-    "score": 0.3206459879875183,
-    "candidate_id": "d96665!d96665",
-    "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation",
+    "uri": "https://synthetic.leread.ca/gold/G0519",
+    "score": 0.6622018218040466,
+    "candidate_id": "gold-G0519",
+    "candidate_title": "Webster's Third New International Dictionary of the English Language Unabridged",
     "query_text": "secondary sources | Webster's Third New International Dictionary of the English Language\nUnabridged | <i><span lang=\"EN-GB\" style=\"font-size:\n12.0pt;letter-spacing:-.4pt\"><u>Webster's New World Dictionary</u></span></i> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Webster's Third New International Dictionary\nof the English Language Unabridged</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b> | Webster's Third New International Dictionary\nof the English Language Unabridged | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Webster's New World Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
     "topk": [
       {
-        "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
-        "score": 0.3206459879875183,
-        "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation"
+        "uri": "https://synthetic.leread.ca/gold/G0519",
+        "score": 0.6622018218040466,
+        "candidate_title": "Webster's Third New International Dictionary of the English Language Unabridged"
       },
       {
-        "uri": "https://canlii.ca/t/hsjpr",
-        "score": 0.3099958300590515,
-        "candidate_title": "Law Society of British Columbia v. Trinity Western University"
+        "uri": "https://synthetic.leread.ca/gold/G0518",
+        "score": 0.5993345379829407,
+        "candidate_title": "Webster's New World Dictionary"
       },
       {
-        "uri": "https://canlii.ca/t/8035",
-        "score": 0.3080081343650818,
-        "candidate_title": "Canadian International Trade Tribunal Rules"
+        "uri": "https://synthetic.leread.ca/gold/G0347",
+        "score": 0.5644233226776123,
+        "candidate_title": "Funk & Wagnalls New Standard Dictionary of the English Language"
       }
     ]
   },
   "Funk Wagnalls Standard College Dictionary": {
-    "uri": "https://canlii.ca/t/k9p2p",
-    "score": 0.3523242771625519,
-    "candidate_id": "1971fcttd1000054",
-    "candidate_title": "Standard Coil Products (Canada) Ltd. v. Standard Radio Corp. and Registrar of Trade Marks",
+    "uri": "https://synthetic.leread.ca/gold/G0218",
+    "score": 0.7084090709686279,
+    "candidate_id": "gold-G0218",
+    "candidate_title": "Funk & Wagnalls Standard College Dictionary",
     "query_text": "secondary sources | Funk\n&amp; Wagnalls Standard College Dictionary | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Funk &amp; Wagnalls New Standard Dictionary\nof the English Language</span></i></b> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Funk &amp; Wagnalls Standard College\nDictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\"></span></b>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/k9p2p",
-        "score": 0.3523242771625519,
-        "candidate_title": "Standard Coil Products (Canada) Ltd. v. Standard Radio Corp. and Registrar of Trade Marks"
+        "uri": "https://synthetic.leread.ca/gold/G0218",
+        "score": 0.7084090709686279,
+        "candidate_title": "Funk & Wagnalls Standard College Dictionary"
       },
       {
-        "uri": "https://canlii.ca/t/g1g71",
-        "score": 0.34876078367233276,
-        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+        "uri": "https://synthetic.leread.ca/gold/G0347",
+        "score": 0.7033284902572632,
+        "candidate_title": "Funk & Wagnalls New Standard Dictionary of the English Language"
       },
       {
-        "uri": "https://canlii.ca/t/g9g3w",
-        "score": 0.34151482582092285,
-        "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co."
+        "uri": "https://synthetic.leread.ca/gold/G0408",
+        "score": 0.5159221291542053,
+        "candidate_title": "Random House Dictionary of the English Language"
       }
     ]
   },
   "Construction of Statutes": {
-    "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
-    "score": 0.5149975419044495,
-    "candidate_id": "d96665!d96665",
-    "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation",
+    "uri": "https://synthetic.leread.ca/gold/G0161",
+    "score": 0.7719240188598633,
+    "candidate_id": "gold-G0161",
+    "candidate_title": "Construction of Statutes",
     "query_text": "secondary sources | <u>Construction of Statutes</u> | Construction of Statutes | <u>Construction\nof Statutes</u> | Driedger,\nE.A. | Driedger | Driedger, E. A.",
     "topk": [
       {
-        "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
-        "score": 0.5149975419044495,
-        "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation"
+        "uri": "https://synthetic.leread.ca/gold/G0161",
+        "score": 0.7719240188598633,
+        "candidate_title": "Construction of Statutes"
       },
       {
-        "uri": "https://canlii.ca/t/1gncz",
-        "score": 0.4884331226348877,
-        "candidate_title": "Driedger and Self v. Peters et al."
+        "uri": "https://synthetic.leread.ca/gold/G0188",
+        "score": 0.7652900218963623,
+        "candidate_title": "Driedger’s Construction of Statutes"
       },
       {
-        "uri": "https://canlii.ca/t/56kzw",
-        "score": 0.4719984829425812,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://synthetic.leread.ca/gold/G0162",
+        "score": 0.7635128498077393,
+        "candidate_title": "Construction of Statutes"
       }
     ]
   },
   "structural support code": {
-    "uri": "https://canlii.ca/t/8h20",
-    "score": 0.36648690700531006,
-    "candidate_id": "l29560!29560-current-1",
-    "candidate_title": "Vehicle Equipment Regulation",
+    "uri": "https://synthetic.leread.ca/gold/G0461",
+    "score": 0.7982293367385864,
+    "candidate_id": "gold-G0461",
+    "candidate_title": "Standard Specifications for Structural Supports for Highway Signs, Luminaires and Traffic Signals",
     "query_text": "secondary sources | Standard Specifications for Structural Supports for Highway Signs,\nLuminaires and Traffic Signals | structural support code | American Association of State Highway and Transportation\nOfficials (AASHTO) | AASHTO",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/8h20",
-        "score": 0.36648690700531006,
-        "candidate_title": "Vehicle Equipment Regulation"
+        "uri": "https://synthetic.leread.ca/gold/G0461",
+        "score": 0.7982293367385864,
+        "candidate_title": "Standard Specifications for Structural Supports for Highway Signs, Luminaires and Traffic Signals"
       },
       {
-        "uri": "https://canlii.ca/t/h7p5",
-        "score": 0.3610229790210724,
-        "candidate_title": "The Highway Traffic Act"
+        "uri": "https://synthetic.leread.ca/gold/G0468",
+        "score": 0.6224291324615479,
+        "candidate_title": "Standard Specifications for Highway Bridges"
       },
       {
-        "uri": "https://canlii.ca/t/8gkm",
-        "score": 0.3424365520477295,
-        "candidate_title": "The Employment Standards Code"
+        "uri": "https://synthetic.leread.ca/gold/G0360",
+        "score": 0.4677448272705078,
+        "candidate_title": "Ontario Highway Bridge Design Code"
       }
     ]
   },
   "the highway code": {
-    "uri": "https://canlii.ca/t/h7p5",
-    "score": 0.3990214169025421,
-    "candidate_id": "l5334!5334-current-1",
-    "candidate_title": "The Highway Traffic Act",
+    "uri": "https://synthetic.leread.ca/gold/G0468",
+    "score": 0.7571182250976562,
+    "candidate_id": "gold-G0468",
+    "candidate_title": "Standard Specifications for Highway Bridges",
     "query_text": "secondary sources | Standard Specifications for Highway Bridges | the highway\ncode | AASHTO",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/h7p5",
-        "score": 0.3990214169025421,
-        "candidate_title": "The Highway Traffic Act"
+        "uri": "https://synthetic.leread.ca/gold/G0468",
+        "score": 0.7571182250976562,
+        "candidate_title": "Standard Specifications for Highway Bridges"
       },
       {
-        "uri": "https://canlii.ca/t/27zz2",
-        "score": 0.37075257301330566,
-        "candidate_title": "Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)"
+        "uri": "https://synthetic.leread.ca/gold/G0461",
+        "score": 0.6587488651275635,
+        "candidate_title": "Standard Specifications for Structural Supports for Highway Signs, Luminaires and Traffic Signals"
       },
       {
-        "uri": "https://canlii.ca/t/jrp0h",
-        "score": 0.3686891794204712,
-        "candidate_title": "Page (Re)"
+        "uri": "https://synthetic.leread.ca/gold/G0360",
+        "score": 0.5551158785820007,
+        "candidate_title": "Ontario Highway Bridge Design Code"
       }
     ]
   },
   "Ontario Highway Bridge Design Code": {
-    "uri": "https://canlii.ca/t/1vvmf",
-    "score": 0.4783819019794464,
-    "candidate_id": "1999onctgd10041",
-    "candidate_title": "Greenaway v. Ontario (Minister of Transportation)",
+    "uri": "https://synthetic.leread.ca/gold/G0360",
+    "score": 0.7697315216064453,
+    "candidate_id": "gold-G0360",
+    "candidate_title": "Ontario Highway Bridge Design Code",
     "query_text": "secondary sources | Ontario Highway Bridge Design Code | Ontario code | Ontario\nMinistry of Transportation and Communications",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1vvmf",
-        "score": 0.4783819019794464,
-        "candidate_title": "Greenaway v. Ontario (Minister of Transportation)"
+        "uri": "https://synthetic.leread.ca/gold/G0360",
+        "score": 0.7697315216064453,
+        "candidate_title": "Ontario Highway Bridge Design Code"
       },
       {
-        "uri": "https://canlii.ca/t/1k875",
-        "score": 0.4706927537918091,
-        "candidate_title": "407 ETR Concession Co. v. Ontario (Minister of Transportation)"
+        "uri": "https://synthetic.leread.ca/gold/G0468",
+        "score": 0.6204458475112915,
+        "candidate_title": "Standard Specifications for Highway Bridges"
       },
       {
-        "uri": "https://canlii.ca/t/8pcc",
-        "score": 0.46757423877716064,
-        "candidate_title": "Ontario Infrastructure and Lands Corporation Act, 2011"
+        "uri": "https://synthetic.leread.ca/gold/G0461",
+        "score": 0.5459939241409302,
+        "candidate_title": "Standard Specifications for Structural Supports for Highway Signs, Luminaires and Traffic Signals"
       }
     ]
   },
   "McGraw-Hill Encyclopedia of Science": {
-    "uri": "https://canlii.ca/t/1glp0",
-    "score": 0.3729000687599182,
-    "candidate_id": "2004csc-scc13",
-    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "uri": "https://synthetic.leread.ca/gold/G0331",
+    "score": 0.5849807262420654,
+    "candidate_id": "gold-G0331",
+    "candidate_title": "McGraw-Hill Encyclopedia of Science and Technology",
     "query_text": "secondary sources | McGraw-Hill Encyclopedia of Science and\nTechnology",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1glp0",
-        "score": 0.3729000687599182,
-        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+        "uri": "https://synthetic.leread.ca/gold/G0331",
+        "score": 0.5849807262420654,
+        "candidate_title": "McGraw-Hill Encyclopedia of Science and Technology"
       },
       {
-        "uri": "https://canlii.ca/t/g1g71",
-        "score": 0.3720013499259949,
-        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+        "uri": "https://synthetic.leread.ca/gold/G0469",
+        "score": 0.39805519580841064,
+        "candidate_title": "The Houghton Mifflin Canadian Dictionary of the English Language"
       },
       {
-        "uri": "https://canlii.ca/t/1fr3m",
-        "score": 0.36438077688217163,
-        "candidate_title": "Hill v. Nova Scotia (Attorney General)"
+        "uri": "https://synthetic.leread.ca/gold/G0480",
+        "score": 0.39434897899627686,
+        "candidate_title": "The New Encyclopaedia Britannica"
       }
     ]
   },
   "The New Encyclopaedia Britannica": {
-    "uri": "https://canlii.ca/t/1frjc",
-    "score": 0.41489046812057495,
-    "candidate_id": "1995csc-scc60",
-    "candidate_title": "New Brunswick v. O'Leary",
+    "uri": "https://synthetic.leread.ca/gold/G0480",
+    "score": 0.5669596195220947,
+    "candidate_id": "gold-G0480",
+    "candidate_title": "The New Encyclopaedia Britannica",
     "query_text": "secondary sources | The New Encyclopaedia Britannica",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1frjc",
-        "score": 0.41489046812057495,
-        "candidate_title": "New Brunswick v. O'Leary"
+        "uri": "https://synthetic.leread.ca/gold/G0480",
+        "score": 0.5669596195220947,
+        "candidate_title": "The New Encyclopaedia Britannica"
       },
       {
-        "uri": "https://canlii.ca/t/1cff2",
-        "score": 0.41122502088546753,
-        "candidate_title": "Just v. British Columbia"
+        "uri": "https://synthetic.leread.ca/gold/G0101",
+        "score": 0.491324245929718,
+        "candidate_title": "British North America Acts and Selected Statutes"
       },
       {
-        "uri": "https://canlii.ca/t/gbvs4",
-        "score": 0.41114792227745056,
-        "candidate_title": "Edwards v. Canada (Attorney General)"
+        "uri": "https://synthetic.leread.ca/gold/G0469",
+        "score": 0.4384225606918335,
+        "candidate_title": "The Houghton Mifflin Canadian Dictionary of the English Language"
       }
     ]
   },
   "Words and Phrases": {
-    "uri": "https://canlii.ca/t/1glp0",
-    "score": 0.3903084397315979,
-    "candidate_id": "2004csc-scc13",
-    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "uri": "https://synthetic.leread.ca/gold/G0533",
+    "score": 0.6410795450210571,
+    "candidate_id": "gold-G0533",
+    "candidate_title": "Words and Phrases. Permanent Edition",
     "query_text": "secondary sources | Words and Phrases. Permanent\nEdition",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1glp0",
-        "score": 0.3903084397315979,
-        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+        "uri": "https://synthetic.leread.ca/gold/G0533",
+        "score": 0.6410795450210571,
+        "candidate_title": "Words and Phrases. Permanent Edition"
       },
       {
-        "uri": "https://canlii.ca/t/1xtwb",
-        "score": 0.3843083381652832,
-        "candidate_title": "Woodward Estate v. Minister of Finance"
+        "uri": "https://synthetic.leread.ca/gold/G0520",
+        "score": 0.45848262310028076,
+        "candidate_title": "Webster’s Canadian Dictionary and Thesaurus"
       },
       {
-        "uri": "https://canlii.ca/t/51z8",
-        "score": 0.3789229393005371,
-        "candidate_title": "Van de Perre v. Edwards"
+        "uri": "https://synthetic.leread.ca/gold/G0347",
+        "score": 0.4541639983654022,
+        "candidate_title": "Funk & Wagnalls New Standard Dictionary of the English Language"
       }
     ]
   }

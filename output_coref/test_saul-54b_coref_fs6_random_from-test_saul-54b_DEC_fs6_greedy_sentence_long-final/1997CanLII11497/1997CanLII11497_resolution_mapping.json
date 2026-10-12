@@ -1,0 +1,50 @@
+{
+  "McLaughlin v Halifax-Dartmouth Bridge Commission": {
+    "uri": "https://canlii.ca/t/1mqwz",
+    "score": 0.7781597971916199,
+    "candidate_id": "1993nsca10024",
+    "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission",
+    "query_text": "decision | <i>McLaughlin v.\nHalifax‑Dartmouth Bridge Commission </i> | 125 N.S.R. (2d) 288",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mqwz",
+        "score": 0.7781597971916199,
+        "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/29t2c",
+        "score": 0.5300506353378296,
+        "candidate_title": "Mawdsley v. McCarthy's Towing and Recovery Ltd."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0333",
+        "score": 0.5282979607582092,
+        "candidate_title": "McLaughlin v. Fletcher Challenge Canada Ltd"
+      }
+    ]
+  },
+  "Freedom of Information and Protection of Privacy Act NS": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6778138279914856,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6778138279914856,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6439381241798401,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6395518183708191,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "Occupational Health and Safety Act": {
+    "uri": "https://canlii.ca/t/56jxc",
+    "score": 0.7916758060455322,
+    "candidate_id": "l74891!74891-current-1",
+    "candidate_title": "Occupational Health and Safety Act",
+    "query_text": "legislation | Occupational\nHealth and Safety Act | Act | SA 2020, c O-2.2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jxc",
+        "score": 0.7916758060455322,
+        "candidate_title": "Occupational Health and Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/x4t",
+        "score": 0.7091739773750305,
+        "candidate_title": "Occupational Health and Safety Act, 1993"
+      },
+      {
+        "uri": "https://canlii.ca/t/82q7",
+        "score": 0.6249245405197144,
+        "candidate_title": "Occupational Health and Safety Code Order"
+      }
+    ]
+  },
+  "Occupational Health and Safety Code": {
+    "uri": "https://canlii.ca/t/56gs3",
+    "score": 0.7488663196563721,
+    "candidate_id": "l79202!79202-current-1",
+    "candidate_title": "Occupational Health and Safety Code",
+    "query_text": "legislation | Occupational Health and\nSafety Code | Alta Reg 191/2021",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gs3",
+        "score": 0.7488663196563721,
+        "candidate_title": "Occupational Health and Safety Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/82q7",
+        "score": 0.7269205451011658,
+        "candidate_title": "Occupational Health and Safety Code Order"
+      },
+      {
+        "uri": "https://canlii.ca/t/83jr",
+        "score": 0.6620733141899109,
+        "candidate_title": "Occupational Health and Safety Regulation"
+      }
+    ]
+  },
+  "Rules of Procedure for OHS Appeals": {
+    "uri": "https://synthetic.leread.ca/gold/G0358",
+    "score": 0.7556217908859253,
+    "candidate_id": "gold-G0358",
+    "candidate_title": "OHS Rules",
+    "query_text": "legislation | Rules of Procedure for OHS Appeals | OHS Rules | that rule",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0358",
+        "score": 0.7556217908859253,
+        "candidate_title": "OHS Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/x4t",
+        "score": 0.5600451827049255,
+        "candidate_title": "Occupational Health and Safety Act, 1993"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jxc",
+        "score": 0.5501373410224915,
+        "candidate_title": "Occupational Health and Safety Act"
+      }
+    ]
+  },
+  "Labour Relations Code": {
+    "uri": "https://canlii.ca/t/56nbs",
+    "score": 0.797006368637085,
+    "candidate_id": "l17790!17790-current-1",
+    "candidate_title": "Labour Relations Code",
+    "query_text": "legislation | Labour Relations Code | Labour\nRelations Code | Act | RSA 2000, c L-1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nbs",
+        "score": 0.797006368637085,
+        "candidate_title": "Labour Relations Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 0.7141141891479492,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/2gr",
+        "score": 0.6896959543228149,
+        "candidate_title": "Labour Relations Act"
+      }
+    ]
+  },
+  "NIOSH 7400 procedure": {
+    "uri": "https://canlii.ca/t/x4t",
+    "score": 0.5489744544029236,
+    "candidate_id": "l5345!5345-current-1",
+    "candidate_title": "Occupational Health and Safety Act, 1993",
+    "query_text": "secondary sources | NIOSH (the National\nInstitute for Occupational Safety and Health) 7400 procedure",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/x4t",
+        "score": 0.5489744544029236,
+        "candidate_title": "Occupational Health and Safety Act, 1993"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jxc",
+        "score": 0.5413777828216553,
+        "candidate_title": "Occupational Health and Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/82q7",
+        "score": 0.5173348188400269,
+        "candidate_title": "Occupational Health and Safety Code Order"
+      }
+    ]
+  },
+  "Kehewin": {
+    "uri": "https://canlii.ca/t/g0bkf",
+    "score": 0.6742298603057861,
+    "candidate_id": "2013abca294",
+    "candidate_title": "Kehewin Cree Nation v Mulvey",
+    "query_text": "decision | Kehewin",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0bkf",
+        "score": 0.6742298603057861,
+        "candidate_title": "Kehewin Cree Nation v Mulvey"
+      },
+      {
+        "uri": "https://canlii.ca/t/jlmxw",
+        "score": 0.5169577598571777,
+        "candidate_title": "Kahkewistahaw Band #72 v. Her Majesty the Queen in Right of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/jxd9n",
+        "score": 0.5145460367202759,
+        "candidate_title": "Mikisew Cree First Nation v Rath"
+      }
+    ]
+  },
+  "Thorkelson v Shell Canada Limited": {
+    "uri": "https://canlii.ca/t/k7bzn",
+    "score": 0.8307206630706787,
+    "candidate_id": "2024abohsab17",
+    "candidate_title": "Thorkelson v Shell Canada Limited",
+    "query_text": "decision | Thorkelson v Shell\nCanada Limited | 2024 ABOHSAB 17",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k7bzn",
+        "score": 0.8307206630706787,
+        "candidate_title": "Thorkelson v Shell Canada Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/k7qlt",
+        "score": 0.6538355350494385,
+        "candidate_title": "Sherlock Environmental Services Ltd. v Occupational Health and Safety"
+      },
+      {
+        "uri": "https://canlii.ca/t/k3p9x",
+        "score": 0.5524819493293762,
+        "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd."
+      }
+    ]
+  },
+  "Ishdorj v Health Watch Medical Clinic Ltd.": {
+    "uri": "https://canlii.ca/t/k3p9x",
+    "score": 0.7837469577789307,
+    "candidate_id": "2024abohsab4",
+    "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd.",
+    "query_text": "decision | Ishdorj v Health Watch Medical\nClinic Ltd. | 2024 ABOSHAB 4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k3p9x",
+        "score": 0.7837469577789307,
+        "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/gx4zm",
+        "score": 0.5372031927108765,
+        "candidate_title": "Al-Ghamdi v. Peace Country Health Region"
+      },
+      {
+        "uri": "https://canlii.ca/t/j471k",
+        "score": 0.5356773138046265,
+        "candidate_title": "Panther Sports Medicine and Rehabilitation Centres Inc v Adrian G Anderton Professional Corporation"
+      }
+    ]
+  }
+}

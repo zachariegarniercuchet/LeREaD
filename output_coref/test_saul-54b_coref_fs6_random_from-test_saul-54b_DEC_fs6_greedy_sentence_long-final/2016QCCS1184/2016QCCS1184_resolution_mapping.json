@@ -1,0 +1,26 @@
+{
+  "Civil Code of Quebec": {
+    "uri": "https://canlii.ca/t/55nzg",
+    "score": 0.5301185250282288,
+    "candidate_id": "l5938!5938-current-1",
+    "candidate_title": "Act respecting the Fonds d'aide aux actions collectives",
+    "query_text": "secondary sources | funds | Québec is",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 0.5301185250282288,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      },
+      {
+        "uri": "https://canlii.ca/t/j2csc",
+        "score": 0.4880988299846649,
+        "candidate_title": "In the matter: Reference to the Court of Appeal of Quebec pertaining to the constitutional validity of the provisions of article 35 of the Code of Civil Procedure which set at less than $85,000 the exclusive monetary jurisdiction of the Court of Québec and to the appellate jurisdiction assigned to the Court of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/gxhrr",
+        "score": 0.4818859398365021,
+        "candidate_title": "Procureure générale du Québec (Ministère des Affaires municipales, des Régions et de l’Occupation du territoire («MAMROT»)) c. Fondation internationale Azzahra inc."
+      }
+    ]
+  }
+}

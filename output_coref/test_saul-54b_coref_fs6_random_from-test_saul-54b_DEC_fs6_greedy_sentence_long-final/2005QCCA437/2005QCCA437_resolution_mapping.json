@@ -1,0 +1,122 @@
+{
+  "Code of Civil Procedure": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6780533790588379,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6780533790588379,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6433408260345459,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.639501690864563,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Charter": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 0.6797972917556763,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Charter",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.6797972917556763,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 0.6453335881233215,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6300680041313171,
+        "candidate_title": "Canada Act 1982"
+      }
+    ]
+  },
+  "Code of Civil Procedure QC": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6780533790588379,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6780533790588379,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6433408260345459,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.639501690864563,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "D-2003-007": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6780533790588379,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6780533790588379,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6433408260345459,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.639501690864563,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Crane Canada Inc. v. Securite nationale": {
+    "uri": "https://canlii.ca/t/1glp0",
+    "score": 0.4659455120563507,
+    "candidate_id": "2004csc-scc13",
+    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "query_text": "secondary sources",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1glp0",
+        "score": 0.4659455120563507,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.44336050748825073,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/g2s18",
+        "score": 0.4361734986305237,
+        "candidate_title": "Hryniak v. Mauldin"
+      }
+    ]
+  }
+}

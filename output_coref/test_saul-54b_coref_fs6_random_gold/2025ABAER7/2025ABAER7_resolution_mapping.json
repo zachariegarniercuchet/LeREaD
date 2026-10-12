@@ -1,0 +1,194 @@
+{
+  "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch": {
+    "uri": "https://canlii.ca/t/kfpl2",
+    "score": 0.7489765286445618,
+    "candidate_id": "2025abaer7",
+    "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch",
+    "query_text": "decision | Canadian Natural Resources\nLimited v. AER Regulatory Compliance Branch | R v Syncrude | Rizzo Shoes | <i>Dekker v C.E.P.</i> | <i>R v ASL Paving Ltd.</i> | Syncrude\nnon-suit ruling | Syncrude judgement | Syncrude non-suit ruling | 2025 ABAER 007 | [2011] Alta. L.R.B.R. LD-011 (Alberta Labour Relations Board) | [1995] AWLD 430\n(ABCA) | 2010 ABPC 154",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kfpl2",
+        "score": 0.7489765286445618,
+        "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch"
+      },
+      {
+        "uri": "https://canlii.ca/t/2bb02",
+        "score": 0.6922644376754761,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/29wsb",
+        "score": 0.6823896765708923,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      }
+    ]
+  },
+  "Syncrude non-suit ruling": {
+    "uri": "https://canlii.ca/t/2bb02",
+    "score": 0.6437832713127136,
+    "candidate_id": "2010abpc229",
+    "candidate_title": "R. v. Syncrude Canada Ltd.",
+    "query_text": "decision | Syncrude\nnon-suit ruling",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2bb02",
+        "score": 0.6437832713127136,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/29wsb",
+        "score": 0.6432477831840515,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/grwc3",
+        "score": 0.6409250497817993,
+        "candidate_title": "Syncrude Canada Ltd. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Environmental Protection and Enhancement Act": {
+    "uri": "https://canlii.ca/t/56k8d",
+    "score": 0.5947510004043579,
+    "candidate_id": "l36872!36872-current-1",
+    "candidate_title": "Responsible Energy Development Act",
+    "query_text": "legislation | EPEA | Environmental Protection and Enhancement Act | Responsible\nEnergy Development Act | REDA | Interpretation Act | Interpretation\nAct",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56k8d",
+        "score": 0.5947510004043579,
+        "candidate_title": "Responsible Energy Development Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 0.5869892239570618,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 0.5838594436645508,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      }
+    ]
+  },
+  "Administrative Penalty Regulation": {
+    "uri": "https://canlii.ca/t/56w7m",
+    "score": 0.7200213670730591,
+    "candidate_id": "l18667!18667-current-1",
+    "candidate_title": "Administrative Penalty Regulation",
+    "query_text": "legislation | <i>Administrative\nPenalty Regulation</i> | Administrative Penalty Regulation | Administrative\nPenalty Regulation | <i>Administrative Penalty Regulation</i> | <i>Administrative Penalty\nRegulation</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w7m",
+        "score": 0.7200213670730591,
+        "candidate_title": "Administrative Penalty Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.7012020349502563,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w3t",
+        "score": 0.5371879935264587,
+        "candidate_title": "Act respecting administrative justice"
+      }
+    ]
+  },
+  "EPEA": {
+    "uri": "https://canlii.ca/t/8d2l",
+    "score": 0.5870842337608337,
+    "candidate_id": "l26878!26878-current-1",
+    "candidate_title": "Environmental Protection Act",
+    "query_text": "legislation | EPEA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/8d2l",
+        "score": 0.5870842337608337,
+        "candidate_title": "Environmental Protection Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/54vv7",
+        "score": 0.5179197788238525,
+        "candidate_title": "Labour Act Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/9qfz",
+        "score": 0.5121997594833374,
+        "candidate_title": "Environmental Protection Statutes Amendment Act, 2020"
+      }
+    ]
+  },
+  "REDA": {
+    "uri": "https://canlii.ca/t/bgdf",
+    "score": 0.5822597742080688,
+    "candidate_id": "l82973!82973-current-1",
+    "candidate_title": "Red Tape Reduction Statutes Amendment Act, 2022",
+    "query_text": "legislation | REDA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/bgdf",
+        "score": 0.5822597742080688,
+        "candidate_title": "Red Tape Reduction Statutes Amendment Act, 2022"
+      },
+      {
+        "uri": "https://canlii.ca/t/b5hq",
+        "score": 0.5487046241760254,
+        "candidate_title": "Red Tape Reduction Implementation Act, 2020 (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.5234965085983276,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      }
+    ]
+  },
+  "Section 110 of the Environmental Protection and Enhancement Act": {
+    "uri": "https://canlii.ca/t/8d2l",
+    "score": 0.5868558883666992,
+    "candidate_id": "l26878!26878-current-1",
+    "candidate_title": "Environmental Protection Act",
+    "query_text": "legislation | EPEA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/8d2l",
+        "score": 0.5868558883666992,
+        "candidate_title": "Environmental Protection Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/54vv7",
+        "score": 0.5174685120582581,
+        "candidate_title": "Labour Act Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/9qfz",
+        "score": 0.5113370418548584,
+        "candidate_title": "Environmental Protection Statutes Amendment Act, 2020"
+      }
+    ]
+  },
+  "Interpretation Act CA 1985": {
+    "uri": "https://synthetic.leread.ca/gold/G0261",
+    "score": 0.7666267156600952,
+    "candidate_id": "gold-G0261",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0261",
+        "score": 0.7666267156600952,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0262",
+        "score": 0.7476965188980103,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 0.7321009635925293,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  }
+}

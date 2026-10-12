@@ -1,0 +1,146 @@
+{
+  "Criminal Code": {
+    "uri": "https://canlii.ca/t/840k",
+    "score": 0.5397627949714661,
+    "candidate_id": "l19617!19617-current-1",
+    "candidate_title": "Expropriation Act",
+    "query_text": "legislation | take",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/840k",
+        "score": 0.5397627949714661,
+        "candidate_title": "Expropriation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8b3p",
+        "score": 0.5196340084075928,
+        "candidate_title": "Expropriation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/85t9",
+        "score": 0.5187578797340393,
+        "candidate_title": "Mineral Tenure Act Regulation"
+      }
+    ]
+  },
+  "Criminal Records Act": {
+    "uri": "https://canlii.ca/t/56lsj",
+    "score": 0.7667574286460876,
+    "candidate_id": "l12793!12793-current-1",
+    "candidate_title": "Criminal Records Act",
+    "query_text": "legislation | <i>Criminal Records Act</i> | Criminal\nRecords Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsj",
+        "score": 0.7667574286460876,
+        "candidate_title": "Criminal Records Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fmwv",
+        "score": 0.7010575532913208,
+        "candidate_title": "Loi sur le casier judiciaire"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 0.59825199842453,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Charter": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 0.6982064247131348,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Charter.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.6982064247131348,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 0.6691328287124634,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6449768543243408,
+        "candidate_title": "Canada Act 1982"
+      }
+    ]
+  },
+  "placeholder": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739699602127075,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739699602127075,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5716028809547424,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5625860095024109,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Hollinrake J.": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739699602127075,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739699602127075,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5716028809547424,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5625860095024109,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "...": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739700794219971,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739700794219971,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5716028213500977,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5625859498977661,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  }
+}

@@ -168,26 +168,26 @@
     ]
   },
   "Brown": {
-    "uri": "https://canlii.ca/t/22vv9",
-    "score": 0.8407150506973267,
-    "candidate_id": "1962csc-scc1000016",
-    "candidate_title": "Meyer v. General Exchange Insurance Corporation et al.",
+    "uri": "https://synthetic.leread.ca/gold/G0102",
+    "score": 0.9580897092819214,
+    "candidate_id": "gold-G0102",
+    "candidate_title": "Brown v. Board of Education of Topeka",
     "query_text": "decision | Brown\nv. Board of Education of Topeka | 347 U.S. 483 (1954)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/22vv9",
-        "score": 0.8407150506973267,
-        "candidate_title": "Meyer v. General Exchange Insurance Corporation et al."
+        "uri": "https://synthetic.leread.ca/gold/G0102",
+        "score": 0.9580897092819214,
+        "candidate_title": "Brown v. Board of Education of Topeka"
       },
       {
-        "uri": "https://canlii.ca/t/1tvt5",
-        "score": 0.8396784663200378,
-        "candidate_title": "Clarkson Co. Ltd. v. Canadian Bank of Commerce et al."
+        "uri": "https://synthetic.leread.ca/gold/G0242",
+        "score": 0.8804308772087097,
+        "candidate_title": "Hickman v. Taylor"
       },
       {
-        "uri": "https://canlii.ca/t/1ttv1",
-        "score": 0.8382562398910522,
-        "candidate_title": "Northern Broadcasting Co. v. District of Mountjoy"
+        "uri": "https://synthetic.leread.ca/gold/G0379",
+        "score": 0.8801451325416565,
+        "candidate_title": "Payne v. Tennessee"
       }
     ]
   },
@@ -624,36 +624,41 @@
     ]
   },
   "Alberta": {
-    "uri": "https://canlii.ca/t/1r70m",
-    "score": 0.7827973961830139,
-    "candidate_id": "2005onccb10312",
-    "candidate_title": "E.B. (Re)",
+    "uri": "https://synthetic.leread.ca/gold/G0219",
+    "score": 0.8184468150138855,
+    "candidate_id": "gold-G0219",
+    "candidate_title": "GAF Corp.",
     "query_text": "decision | 2021\nFCA 84",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1r70m",
-        "score": 0.7827973961830139,
-        "candidate_title": "E.B. (Re)"
+        "uri": "https://synthetic.leread.ca/gold/G0219",
+        "score": 0.8184468150138855,
+        "candidate_title": "GAF Corp."
       },
       {
-        "uri": "https://canlii.ca/t/j2j6r",
-        "score": 0.7790507078170776,
-        "candidate_title": "Davies (Re)"
+        "uri": "https://synthetic.leread.ca/gold/G0321",
+        "score": 0.8134126663208008,
+        "candidate_title": "Maksteel SCC 2001"
       },
       {
-        "uri": "https://canlii.ca/t/k7mff",
-        "score": 0.7781322002410889,
-        "candidate_title": "R v Clarke"
+        "uri": "https://synthetic.leread.ca/gold/G0075",
+        "score": 0.8132919073104858,
+        "candidate_title": "Arbitral Award 2003"
       }
     ]
   },
   "Syndicat Northcrest": {
-    "uri": "https://canlii.ca/t/1jgr1",
-    "score": 0.9300508499145508,
-    "candidate_id": "2004onsc12990",
-    "candidate_title": "Savoie v. Richard",
+    "uri": "https://synthetic.leread.ca/gold/G0512",
+    "score": 0.9415494799613953,
+    "candidate_id": "gold-G0512",
+    "candidate_title": "Van Mol SCC 2000",
     "query_text": "decision | Syndicat Northcrest v. Amselem | [2004] 2 S.C.R. 551 | 2004 SCC 47",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0512",
+        "score": 0.9415494799613953,
+        "candidate_title": "Van Mol SCC 2000"
+      },
       {
         "uri": "https://canlii.ca/t/1jgr1",
         "score": 0.9300508499145508,
@@ -663,11 +668,6 @@
         "uri": "https://canlii.ca/t/22vrr",
         "score": 0.9298055768013,
         "candidate_title": "Boudreau v. The King"
-      },
-      {
-        "uri": "https://canlii.ca/t/1tvtv",
-        "score": 0.929045557975769,
-        "candidate_title": "Tupper v. R."
       }
     ]
   },
@@ -684,12 +684,12 @@
         "candidate_title": "Code de procédure civile"
       },
       {
-        "uri": "https://canlii.ca/t/56lxl",
+        "uri": "https://canlii.ca/t/56pg2",
         "score": 0.9099205732345581,
         "candidate_title": "Code of Civil Procedure"
       },
       {
-        "uri": "https://canlii.ca/t/56pg2",
+        "uri": "https://canlii.ca/t/56lxl",
         "score": 0.9099205732345581,
         "candidate_title": "Code of Civil Procedure"
       }
@@ -713,57 +713,57 @@
         "candidate_title": "Police Act"
       },
       {
-        "uri": "https://canlii.ca/t/56k1n",
-        "score": 0.9295400381088257,
-        "candidate_title": "Labour Relations Act"
+        "uri": "https://synthetic.leread.ca/gold/G0203",
+        "score": 0.929747998714447,
+        "candidate_title": "Excise Tax Act"
       }
     ]
   },
   "Canadian Charter": {
-    "uri": "https://canlii.ca/t/563gb",
-    "score": 0.8606414794921875,
-    "candidate_id": "l19712!19712-current-1",
-    "candidate_title": "Human Rights Code",
+    "uri": "https://synthetic.leread.ca/gold/G0406",
+    "score": 0.8689659237861633,
+    "candidate_id": "gold-G0406",
+    "candidate_title": "Quebec Charter of Values",
     "query_text": "legislation | Canadian Charter of Rights and Freedoms | Charter",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0406",
+        "score": 0.8689659237861633,
+        "candidate_title": "Quebec Charter of Values"
+      },
       {
         "uri": "https://canlii.ca/t/563gb",
         "score": 0.8606414794921875,
         "candidate_title": "Human Rights Code"
       },
       {
-        "uri": "https://canlii.ca/t/56v6x",
-        "score": 0.8572342991828918,
-        "candidate_title": "Alberta Rules of Court"
-      },
-      {
-        "uri": "https://canlii.ca/t/89xc",
-        "score": 0.8522237539291382,
-        "candidate_title": "Human Rights Code"
+        "uri": "https://synthetic.leread.ca/gold/G0506",
+        "score": 0.8574870228767395,
+        "candidate_title": "United States Constitution"
       }
     ]
   },
   "Recourse Against Civil Judgments": {
-    "uri": "https://canlii.ca/t/7n524",
-    "score": 0.8762401938438416,
-    "candidate_id": "d214564!d214564",
-    "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law",
+    "uri": "https://synthetic.leread.ca/gold/G0415",
+    "score": 0.9669838547706604,
+    "candidate_id": "gold-G0415",
+    "candidate_title": "Introduction — Recourse Against Civil Judgments in the European Union: A Comparative Survey",
     "query_text": "secondary sources | Introduction — Recourse Against\nCivil Judgments in the European Union: A Comparative Survey | John Anthony Jolowicz",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/7n524",
-        "score": 0.8762401938438416,
-        "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
+        "uri": "https://synthetic.leread.ca/gold/G0415",
+        "score": 0.9669838547706604,
+        "candidate_title": "Introduction — Recourse Against Civil Judgments in the European Union: A Comparative Survey"
       },
       {
-        "uri": "https://canlii.ca/t/j3z3v",
-        "score": 0.8759264945983887,
-        "candidate_title": "C.M. v York Regional Police"
+        "uri": "https://synthetic.leread.ca/gold/G0455",
+        "score": 0.8963360786437988,
+        "candidate_title": "Statelessness in Canadian Context: A Discussion Paper"
       },
       {
-        "uri": "https://canlii.ca/t/hxm0z",
-        "score": 0.8753530383110046,
-        "candidate_title": "R. v. Ferose"
+        "uri": "https://synthetic.leread.ca/gold/G0001",
+        "score": 0.8779988884925842,
+        "candidate_title": "Judicial Deference to Administrative Tribunals: A Guide to 60 Years of Supreme Court Jurisprudence"
       }
     ]
   }

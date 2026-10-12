@@ -1,25 +1,25 @@
 {
   "Church of Scientology ONCA 1997": {
-    "uri": "https://canlii.ca/t/g9xd1",
-    "score": 0.9176419973373413,
-    "candidate_id": "1992onctgd1000292",
-    "candidate_title": "R. v. Church of Scientology of Toronto",
+    "uri": "https://synthetic.leread.ca/gold/G0137",
+    "score": 0.9351633191108704,
+    "candidate_id": "gold-G0137",
+    "candidate_title": "R. v. Church of Scientology (1992)",
     "query_text": "decision | R. v. Church of Scientology | 33 O.R. (3d) 65 | [1997] O.J. No. 1548",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9351633191108704,
+        "candidate_title": "R. v. Church of Scientology (1992)"
+      },
       {
         "uri": "https://canlii.ca/t/g9xd1",
         "score": 0.9176419973373413,
         "candidate_title": "R. v. Church of Scientology of Toronto"
       },
       {
-        "uri": "https://canlii.ca/t/1w6kz",
-        "score": 0.9132000207901001,
-        "candidate_title": "R. v. Tresham"
-      },
-      {
-        "uri": "https://canlii.ca/t/6hxx",
-        "score": 0.9126625657081604,
-        "candidate_title": "R. v. Church of Scientology of Toronto"
+        "uri": "https://synthetic.leread.ca/gold/G0345",
+        "score": 0.9171902537345886,
+        "candidate_title": "City of Port Alberni v. Moyer, (1999)"
       }
     ]
   },
@@ -48,12 +48,17 @@
     ]
   },
   "McNamara": {
-    "uri": "https://canlii.ca/t/1nlkh",
-    "score": 0.9287950992584229,
-    "candidate_id": "1958csc-scc10000",
-    "candidate_title": "Murphy v. C.P.R.",
+    "uri": "https://synthetic.leread.ca/gold/G0014",
+    "score": 0.9321578741073608,
+    "candidate_id": "gold-G0014",
+    "candidate_title": "Acme Building ONDISCT 1990",
     "query_text": "decision | (1981), 56 C.C.C.\n(2d) 193 (Ont. C.A.)",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0014",
+        "score": 0.9321578741073608,
+        "candidate_title": "Acme Building ONDISCT 1990"
+      },
       {
         "uri": "https://canlii.ca/t/1nlkh",
         "score": 0.9287950992584229,
@@ -63,21 +68,21 @@
         "uri": "https://canlii.ca/t/g1338",
         "score": 0.9274199604988098,
         "candidate_title": "R. v. Miller (Ont. C.A.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/jw9s1",
-        "score": 0.9234541654586792,
-        "candidate_title": "R. v. P.M."
       }
     ]
   },
   "Collins": {
-    "uri": "https://canlii.ca/t/231v6",
-    "score": 0.953391432762146,
-    "candidate_id": "1995onca1000014",
-    "candidate_title": "R. v. L.R.",
+    "uri": "https://synthetic.leread.ca/gold/G0111",
+    "score": 0.9568572044372559,
+    "candidate_id": "gold-G0111",
+    "candidate_title": "Calcraft v. Guest",
     "query_text": "decision | R. v. Collins | Collins | [1987] 1 S.C.R. 265 | 28 C.R.R. 122 | 13\nB.C.L.R. (2d) 1 | 33 C.C.C. (3d) 1 | 56 C.R. (3d) 193 | 38 D.L.R. (4th) 508 | 74\nN.R. 276 | [1987] 3 W.W.R. 699",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9568572044372559,
+        "candidate_title": "Calcraft v. Guest"
+      },
       {
         "uri": "https://canlii.ca/t/231v6",
         "score": 0.953391432762146,
@@ -87,11 +92,6 @@
         "uri": "https://canlii.ca/t/231v2",
         "score": 0.952814519405365,
         "candidate_title": "R. v. C.M."
-      },
-      {
-        "uri": "https://canlii.ca/t/1pflk",
-        "score": 0.9520730972290039,
-        "candidate_title": "Regina v. D.C.B."
       }
     ]
   },
@@ -120,50 +120,50 @@
     ]
   },
   "Andrews": {
-    "uri": "https://canlii.ca/t/1lpcn",
-    "score": 0.9519844651222229,
-    "candidate_id": "1982csc-scc10018",
-    "candidate_title": "A.G. Can. v. Law Society of B.C.",
+    "uri": "https://synthetic.leread.ca/gold/G0304",
+    "score": 0.9571307897567749,
+    "candidate_id": "gold-G0304",
+    "candidate_title": "Learoyd v. Halifax Joint Stock Banking Co.",
     "query_text": "decision | Andrews\nv. Law Society of British Columbia | Andrews v. Law Society\nof British Columbia | Andrews | Andrews v. Law Society of British Columbia | Andrews v. Law Society of British\nColumbia | [1989] 1 S.C.R. 143 | 36 C.R.R. 193 | 34\nB.C.L.R. (2d) 273 | 25 C.C.E.L. 255 | 10 C.H.R.R. D/5719 | 56 D.L.R. (4th) 1 | 91\nN.R. 255 | [1989] 2 W.W.R. 289",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0304",
+        "score": 0.9571307897567749,
+        "candidate_title": "Learoyd v. Halifax Joint Stock Banking Co."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0066",
+        "score": 0.9535354375839233,
+        "candidate_title": "Anderson v. Bessemer City"
+      },
       {
         "uri": "https://canlii.ca/t/1lpcn",
         "score": 0.9519844651222229,
         "candidate_title": "A.G. Can. v. Law Society of B.C."
-      },
-      {
-        "uri": "https://canlii.ca/t/216ph",
-        "score": 0.9515339136123657,
-        "candidate_title": "Testa v. W.C.B. (B.C.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/1ft6t",
-        "score": 0.9513604640960693,
-        "candidate_title": "Vorvis v. Insurance Corporation of British Columbia"
       }
     ]
   },
   "Irwin Toy": {
-    "uri": "https://canlii.ca/t/jqn8m",
-    "score": 0.9497894048690796,
-    "candidate_id": "1990fcttd1000095",
-    "candidate_title": "Distribution Canada Inc. v. M.N.R. (T.D.)",
+    "uri": "https://synthetic.leread.ca/gold/G0066",
+    "score": 0.9535597562789917,
+    "candidate_id": "gold-G0066",
+    "candidate_title": "Anderson v. Bessemer City",
     "query_text": "decision | Irwin Toy Ltd. v. Quebec (Attorney General) | Irwin Toy Ltd. v. Quebec\n(Attorney General) | Irwin Toy | [1989]\n1 S.C.R. 927 | 39 C.R.R. 193 | 25 C.P.R. (3d) 417 | 58 D.L.R. (4th) 577 | 94 N.R.\n167 | 24 Q.A.C. 2 | [1989] 1 S.C.R. 927",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/jqn8m",
-        "score": 0.9497894048690796,
-        "candidate_title": "Distribution Canada Inc. v. M.N.R. (T.D.)"
+        "uri": "https://synthetic.leread.ca/gold/G0066",
+        "score": 0.9535597562789917,
+        "candidate_title": "Anderson v. Bessemer City"
       },
       {
-        "uri": "https://canlii.ca/t/gbtbq",
-        "score": 0.9491904973983765,
-        "candidate_title": "Thiessen v. M.P.I.C."
+        "uri": "https://synthetic.leread.ca/gold/G0304",
+        "score": 0.9511187672615051,
+        "candidate_title": "Learoyd v. Halifax Joint Stock Banking Co."
       },
       {
-        "uri": "https://canlii.ca/t/jwqgx",
-        "score": 0.948651909828186,
-        "candidate_title": "L. J. Harris v. M.N.R."
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9509865045547485,
+        "candidate_title": "Calcraft v. Guest"
       }
     ]
   },
@@ -185,9 +185,9 @@
         "candidate_title": "R. v. Miller (Ont. C.A.)"
       },
       {
-        "uri": "https://canlii.ca/t/g191g",
-        "score": 0.9494084715843201,
-        "candidate_title": "R. v. George (C.A.)"
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9503142833709717,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       }
     ]
   },
@@ -204,110 +204,110 @@
         "candidate_title": "R. v. Big M Drug Mart Ltd."
       },
       {
+        "uri": "https://synthetic.leread.ca/gold/G0315",
+        "score": 0.954514741897583,
+        "candidate_title": "London Drugs Ltd. v. Truscan Realty Ltd. et al. (1988)"
+      },
+      {
         "uri": "https://canlii.ca/t/1mkb3",
         "score": 0.9518734216690063,
         "candidate_title": "Capital Cities Comm. v. C.R.T.C."
-      },
-      {
-        "uri": "https://canlii.ca/t/1frdk",
-        "score": 0.9508031010627747,
-        "candidate_title": "A. (L.L.) v. B. (A.)"
       }
     ]
   },
   "Church of Scientology ONSC-1 1992": {
-    "uri": "https://canlii.ca/t/g9xd1",
-    "score": 0.9241495132446289,
-    "candidate_id": "1992onctgd1000292",
-    "candidate_title": "R. v. Church of Scientology of Toronto",
+    "uri": "https://synthetic.leread.ca/gold/G0137",
+    "score": 0.9870377779006958,
+    "candidate_id": "gold-G0137",
+    "candidate_title": "R. v. Church of Scientology (1992)",
     "query_text": "decision | R. v. Church of Scientology (1992) | 9 C.R.R. (2d)\n196 (Ont. Gen. Div.) | (1992), 9 C.R.R. (2d) 196",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/g9xd1",
-        "score": 0.9241495132446289,
-        "candidate_title": "R. v. Church of Scientology of Toronto"
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9870377779006958,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/gczln",
-        "score": 0.9175382256507874,
-        "candidate_title": "R. v. Church of Scientology of Toronto"
+        "uri": "https://synthetic.leread.ca/gold/G0012",
+        "score": 0.9342892169952393,
+        "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9175220727920532,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
+        "uri": "https://synthetic.leread.ca/gold/G0013",
+        "score": 0.9315631985664368,
+        "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)"
       }
     ]
   },
   "Church of Scientology ONSC-2 1992": {
-    "uri": "https://canlii.ca/t/g9xd1",
-    "score": 0.9203041791915894,
-    "candidate_id": "1992onctgd1000292",
-    "candidate_title": "R. v. Church of Scientology of Toronto",
+    "uri": "https://synthetic.leread.ca/gold/G0137",
+    "score": 0.9814388751983643,
+    "candidate_id": "gold-G0137",
+    "candidate_title": "R. v. Church of Scientology (1992)",
     "query_text": "decision | R. v. Church of Scientology (1992) | 9 C.R.R. (2d) 220\n(Ont. Gen. Div.) | (1992), 9 C.R.R. (2d) 220)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/g9xd1",
-        "score": 0.9203041791915894,
-        "candidate_title": "R. v. Church of Scientology of Toronto"
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9814388751983643,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/gczln",
-        "score": 0.9146660566329956,
-        "candidate_title": "R. v. Church of Scientology of Toronto"
+        "uri": "https://synthetic.leread.ca/gold/G0012",
+        "score": 0.9305391311645508,
+        "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9113050103187561,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
+        "uri": "https://synthetic.leread.ca/gold/G0229",
+        "score": 0.9295949339866638,
+        "candidate_title": "Grant v. Downs"
       }
     ]
   },
   "Church of Scientology ONSC-3 1992": {
-    "uri": "https://canlii.ca/t/g9xd1",
-    "score": 0.9201638102531433,
-    "candidate_id": "1992onctgd1000292",
-    "candidate_title": "R. v. Church of Scientology of Toronto",
+    "uri": "https://synthetic.leread.ca/gold/G0137",
+    "score": 0.9831685423851013,
+    "candidate_id": "gold-G0137",
+    "candidate_title": "R. v. Church of Scientology (1992)",
     "query_text": "decision | R. v. Church of Scientology (1992) | 9 C.R.R. (2d) 232 (Ont.\nGen. Div.) | (1992), 9 C.R.R.\n(2d) 232",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/g9xd1",
-        "score": 0.9201638102531433,
-        "candidate_title": "R. v. Church of Scientology of Toronto"
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9831685423851013,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/gczln",
-        "score": 0.9131879210472107,
-        "candidate_title": "R. v. Church of Scientology of Toronto"
+        "uri": "https://synthetic.leread.ca/gold/G0012",
+        "score": 0.9297479391098022,
+        "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9101067185401917,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
+        "uri": "https://synthetic.leread.ca/gold/G0013",
+        "score": 0.9260540008544922,
+        "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)"
       }
     ]
   },
   "Zaharia ONCA 1987": {
-    "uri": "https://canlii.ca/t/1npn2",
-    "score": 0.9279462695121765,
-    "candidate_id": "1987onca10001",
-    "candidate_title": "Church of Scientology and The Queen (No. 6), Re",
+    "uri": "https://synthetic.leread.ca/gold/G0137",
+    "score": 0.9456372261047363,
+    "candidate_id": "gold-G0137",
+    "candidate_title": "R. v. Church of Scientology (1992)",
     "query_text": "decision | R. v. Church of Scientology; R. v. Zaharia (1987) | R. v. Church\nof Scientology; R. v. Zaharia (1987) | R. v. Church of Scientology;\nR. v. Zaharia | R. v. Church of Scientology; R. v. Zaharia | 30 C.R.R. 238 | 31 C.C.C. (3d) 449 | 18 O.A.C. 321 (C.A.)",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9456372261047363,
+        "candidate_title": "R. v. Church of Scientology (1992)"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0066",
+        "score": 0.9328931570053101,
+        "candidate_title": "Anderson v. Bessemer City"
+      },
       {
         "uri": "https://canlii.ca/t/1npn2",
         "score": 0.9279462695121765,
         "candidate_title": "Church of Scientology and The Queen (No. 6), Re"
-      },
-      {
-        "uri": "https://canlii.ca/t/g9zmb",
-        "score": 0.9231607913970947,
-        "candidate_title": "R. v. Goldstein"
-      },
-      {
-        "uri": "https://canlii.ca/t/1fskf",
-        "score": 0.9196484684944153,
-        "candidate_title": "R. v. Seaboyer;  R. v. Gayme"
       }
     ]
   },
@@ -420,14 +420,14 @@
         "candidate_title": "Regina v. D.C.B."
       },
       {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.9592188000679016,
+        "candidate_title": "Spencer v. Harding"
+      },
+      {
         "uri": "https://canlii.ca/t/1ms8s",
         "score": 0.9568172097206116,
         "candidate_title": "R. v. Bourque"
-      },
-      {
-        "uri": "https://canlii.ca/t/231v2",
-        "score": 0.9563839435577393,
-        "candidate_title": "R. v. C.M."
       }
     ]
   },
@@ -444,14 +444,14 @@
         "candidate_title": "Rhône (The) v. Peter A.B. Widener (The)"
       },
       {
+        "uri": "https://synthetic.leread.ca/gold/G0315",
+        "score": 0.9453895092010498,
+        "candidate_title": "London Drugs Ltd. v. Truscan Realty Ltd. et al. (1988)"
+      },
+      {
         "uri": "https://canlii.ca/t/1ms50",
         "score": 0.9422888159751892,
         "candidate_title": "R. v. Nickerson"
-      },
-      {
-        "uri": "https://canlii.ca/t/231v6",
-        "score": 0.9402800798416138,
-        "candidate_title": "R. v. L.R."
       }
     ]
   },
@@ -473,33 +473,33 @@
         "candidate_title": "R. v. L.R."
       },
       {
-        "uri": "https://canlii.ca/t/1pflk",
-        "score": 0.9577329754829407,
-        "candidate_title": "Regina v. D.C.B."
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9582669138908386,
+        "candidate_title": "Calcraft v. Guest"
       }
     ]
   },
   "Benner": {
-    "uri": "https://canlii.ca/t/gbvg8",
-    "score": 0.9373171329498291,
-    "candidate_id": "1988fcttd1000240",
-    "candidate_title": "Glaxo Canada Inc. v. Canada (Minister of National Health & Welfare)",
+    "uri": "https://synthetic.leread.ca/gold/G0407",
+    "score": 0.9452149868011475,
+    "candidate_id": "gold-G0407",
+    "candidate_title": "Queensland v. Commonwealth (1977)",
     "query_text": "decision | Benner v. Canada\n(Secretary of State) (1997) | Benner v. Canada (Secretary of State) | 42 C.R.R. (2d) 1 (S.C.C.) | 42 C.R.R. (2d) 1",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/gbvg8",
-        "score": 0.9373171329498291,
-        "candidate_title": "Glaxo Canada Inc. v. Canada (Minister of National Health & Welfare)"
+        "uri": "https://synthetic.leread.ca/gold/G0407",
+        "score": 0.9452149868011475,
+        "candidate_title": "Queensland v. Commonwealth (1977)"
       },
       {
-        "uri": "https://canlii.ca/t/gc5w8",
-        "score": 0.9356645345687866,
-        "candidate_title": "Canada (Secretary of State) v. Luitjens"
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.941444456577301,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/h393g",
-        "score": 0.9352691173553467,
-        "candidate_title": "Hutchinson v. B.C. (Min. of Health)"
+        "uri": "https://synthetic.leread.ca/gold/G0089",
+        "score": 0.9403383731842041,
+        "candidate_title": "Beauchemin v. Employment and Immigration Commission of Canada"
       }
     ]
   },
@@ -528,98 +528,98 @@
     ]
   },
   "Duren": {
-    "uri": "https://canlii.ca/t/1tvt7",
-    "score": 0.8471631407737732,
-    "candidate_id": "1966csc-scc10010",
-    "candidate_title": "The Queen v. Jennings et al.",
+    "uri": "https://synthetic.leread.ca/gold/G0193",
+    "score": 1.0000003576278687,
+    "candidate_id": "gold-G0193",
+    "candidate_title": "Duren v. Missouri",
     "query_text": "decision | Duren v.\nMissouri | Duren v. Missouri | 99 S.Ct. 664 (1979) | 99 S.Ct. 664 | (1979)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1tvt7",
-        "score": 0.8471631407737732,
-        "candidate_title": "The Queen v. Jennings et al."
+        "uri": "https://synthetic.leread.ca/gold/G0193",
+        "score": 1.0000003576278687,
+        "candidate_title": "Duren v. Missouri"
       },
       {
-        "uri": "https://canlii.ca/t/1mpvn",
-        "score": 0.8434677720069885,
-        "candidate_title": "Dillon v. Kelly"
+        "uri": "https://synthetic.leread.ca/gold/G0463",
+        "score": 0.9081801772117615,
+        "candidate_title": "Taylor v. Louisiana"
       },
       {
-        "uri": "https://canlii.ca/t/22vvb",
-        "score": 0.8385419845581055,
-        "candidate_title": "McBride and Hogaboam v. Johnson"
+        "uri": "https://synthetic.leread.ca/gold/G0379",
+        "score": 0.9068660140037537,
+        "candidate_title": "Payne v. Tennessee"
       }
     ]
   },
   "Eaton": {
-    "uri": "https://canlii.ca/t/1ms50",
-    "score": 0.9484139680862427,
-    "candidate_id": "1991nsscad10078",
-    "candidate_title": "R. v. Nickerson",
+    "uri": "https://synthetic.leread.ca/gold/G0517",
+    "score": 0.9533124566078186,
+    "candidate_id": "gold-G0517",
+    "candidate_title": "Waugh v. British Railways Board",
     "query_text": "decision | Eaton v. Brant County Board of Education | Eaton v. Brant County Board of Education (1997) | [1997]\n1 S.C.R. 241 | 41 C.R.R. (2d) 240 | 142 D.L.R. (4th) 385 | 207 N.R. 171 (S.C.C.) | 142\nD.L.R. (4th) 385 (S.C.C.)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1ms50",
-        "score": 0.9484139680862427,
-        "candidate_title": "R. v. Nickerson"
+        "uri": "https://synthetic.leread.ca/gold/G0517",
+        "score": 0.9533124566078186,
+        "candidate_title": "Waugh v. British Railways Board"
       },
       {
-        "uri": "https://canlii.ca/t/1pflk",
-        "score": 0.9474319219589233,
-        "candidate_title": "Regina v. D.C.B."
+        "uri": "https://synthetic.leread.ca/gold/G0166",
+        "score": 0.9490349888801575,
+        "candidate_title": "Cooper v. Wandsworth Board of Works (1863)"
       },
       {
-        "uri": "https://canlii.ca/t/216ph",
-        "score": 0.9472651481628418,
-        "candidate_title": "Testa v. W.C.B. (B.C.)"
+        "uri": "https://synthetic.leread.ca/gold/G0407",
+        "score": 0.9489856362342834,
+        "candidate_title": "Queensland v. Commonwealth (1977)"
       }
     ]
   },
   "Egan": {
-    "uri": "https://canlii.ca/t/231v6",
-    "score": 0.9518439769744873,
-    "candidate_id": "1995onca1000014",
-    "candidate_title": "R. v. L.R.",
+    "uri": "https://synthetic.leread.ca/gold/G0111",
+    "score": 0.9532860517501831,
+    "candidate_id": "gold-G0111",
+    "candidate_title": "Calcraft v. Guest",
     "query_text": "decision | Egan v. Canada | [1995] 2 S.C.R. 513 | 29 C.R.R. (2d) 79 | 95 C.L.L.C. 210-025 | 124 D.L.R. (4th) 609 | 182 N.R. 161 | 12 R.F.L. (4th) 201 | [1995] 2\nS.C.R. 513",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9532860517501831,
+        "candidate_title": "Calcraft v. Guest"
+      },
       {
         "uri": "https://canlii.ca/t/231v6",
         "score": 0.9518439769744873,
         "candidate_title": "R. v. L.R."
       },
       {
-        "uri": "https://canlii.ca/t/231v2",
-        "score": 0.9482303857803345,
-        "candidate_title": "R. v. C.M."
-      },
-      {
-        "uri": "https://canlii.ca/t/g9cjm",
-        "score": 0.9437925815582275,
-        "candidate_title": "R. v. S.(R.)"
+        "uri": "https://synthetic.leread.ca/gold/G0517",
+        "score": 0.9493534564971924,
+        "candidate_title": "Waugh v. British Railways Board"
       }
     ]
   },
   "Lockhart": {
-    "uri": "https://canlii.ca/t/jqvrs",
-    "score": 0.824978768825531,
-    "candidate_id": "1978fcttd1000064",
-    "candidate_title": "Martinoff v. Gossen",
+    "uri": "https://synthetic.leread.ca/gold/G0313",
+    "score": 0.9608802199363708,
+    "candidate_id": "gold-G0313",
+    "candidate_title": "Lockhart v. McCree",
     "query_text": "decision | Lockhart v. McCree | 106 S.Ct. 1758 (1986)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/jqvrs",
-        "score": 0.824978768825531,
-        "candidate_title": "Martinoff v. Gossen"
+        "uri": "https://synthetic.leread.ca/gold/G0313",
+        "score": 0.9608802199363708,
+        "candidate_title": "Lockhart v. McCree"
       },
       {
-        "uri": "https://canlii.ca/t/21n2c",
-        "score": 0.8220655918121338,
-        "candidate_title": "Williams v. Stephenson"
+        "uri": "https://synthetic.leread.ca/gold/G0379",
+        "score": 0.8895828723907471,
+        "candidate_title": "Payne v. Tennessee"
       },
       {
-        "uri": "https://canlii.ca/t/1xcvn",
-        "score": 0.8209511637687683,
-        "candidate_title": "McCormick v. Marcotte"
+        "uri": "https://synthetic.leread.ca/gold/G0193",
+        "score": 0.8691610097885132,
+        "candidate_title": "Duren v. Missouri"
       }
     ]
   },
@@ -641,9 +641,9 @@
         "candidate_title": "R. v. C.M."
       },
       {
-        "uri": "https://canlii.ca/t/1frdk",
-        "score": 0.9521135091781616,
-        "candidate_title": "A. (L.L.) v. B. (A.)"
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9541709423065186,
+        "candidate_title": "Calcraft v. Guest"
       }
     ]
   },
@@ -660,14 +660,14 @@
         "candidate_title": "R. v. L.R."
       },
       {
+        "uri": "https://synthetic.leread.ca/gold/G0315",
+        "score": 0.9556052684783936,
+        "candidate_title": "London Drugs Ltd. v. Truscan Realty Ltd. et al. (1988)"
+      },
+      {
         "uri": "https://canlii.ca/t/1fr71",
         "score": 0.9555570483207703,
         "candidate_title": "Ontario Home Builders' Association v. York Region Board of Education"
-      },
-      {
-        "uri": "https://canlii.ca/t/g1k6k",
-        "score": 0.9517120122909546,
-        "candidate_title": "Agnew v. Ontario Assn. of Architects (Div. Ct.)"
       }
     ]
   },
@@ -744,74 +744,74 @@
     ]
   },
   "Bureau": {
-    "uri": "https://canlii.ca/t/gggng",
-    "score": 0.9135980010032654,
-    "candidate_id": "2015oncj94",
-    "candidate_title": "F.D.M. v. K.O.W.",
+    "uri": "https://synthetic.leread.ca/gold/G0105",
+    "score": 1.0000001192092896,
+    "candidate_id": "gold-G0105",
+    "candidate_title": "R. v. Bureau (1931)",
     "query_text": "decision | R. v.\nBureau (1931) | R. v. Bureau (1931) | 51 Que. K.B. 207",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/gggng",
-        "score": 0.9135980010032654,
-        "candidate_title": "F.D.M. v. K.O.W."
+        "uri": "https://synthetic.leread.ca/gold/G0105",
+        "score": 1.0000001192092896,
+        "candidate_title": "R. v. Bureau (1931)"
       },
       {
-        "uri": "https://canlii.ca/t/1cjqb",
-        "score": 0.9130582213401794,
-        "candidate_title": "R. v. Montpellier"
+        "uri": "https://synthetic.leread.ca/gold/G0427",
+        "score": 0.9220911860466003,
+        "candidate_title": "Ross v. Fedden and Another (1972)"
       },
       {
-        "uri": "https://canlii.ca/t/1gscc",
-        "score": 0.9112071990966797,
-        "candidate_title": "Grefford v. Fielding"
+        "uri": "https://synthetic.leread.ca/gold/G0256",
+        "score": 0.9161562323570251,
+        "candidate_title": "Re Indust. Accept. Corpn. and Commissioner of Excise"
       }
     ]
   },
   "Burnett": {
-    "uri": "https://canlii.ca/t/gbhtw",
-    "score": 0.9259306192398071,
-    "candidate_id": "1989cci-tcc1000271",
-    "candidate_title": "D.R. Bailey v. M.N.R.",
+    "uri": "https://synthetic.leread.ca/gold/G0106",
+    "score": 0.9844292402267456,
+    "candidate_id": "gold-G0106",
+    "candidate_title": "R. v. Burnett",
     "query_text": "decision | R. v. Burnett | [1985] 2 C.T.C. 227 (Ont.\nH.C.J.) | [1985] 2 C.T.C. 227",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/gbhtw",
-        "score": 0.9259306192398071,
-        "candidate_title": "D.R. Bailey v. M.N.R."
+        "uri": "https://synthetic.leread.ca/gold/G0106",
+        "score": 0.9844292402267456,
+        "candidate_title": "R. v. Burnett"
       },
       {
-        "uri": "https://canlii.ca/t/jqx3f",
-        "score": 0.9256151914596558,
-        "candidate_title": "R.T.P.C. v. Director of Investigation"
+        "uri": "https://synthetic.leread.ca/gold/G0229",
+        "score": 0.9398510456085205,
+        "candidate_title": "Grant v. Downs"
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9231021404266357,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
+        "uri": "https://synthetic.leread.ca/gold/G0110",
+        "score": 0.9320875406265259,
+        "candidate_title": "C-C Bottlers Ltd. v. Lion Nathan Ltd."
       }
     ]
   },
   "CIP": {
-    "uri": "https://canlii.ca/t/231v2",
-    "score": 0.9494079351425171,
-    "candidate_id": "1995onca1000010",
-    "candidate_title": "R. v. C.M.",
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 0.9501380920410156,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
     "query_text": "decision | R. v. CIP Inc. | [1992] 1 S.C.R. 843 | 9 C.R.R. (2d) 62 | 71 C.C.C. (3d)\n129 | 12 C.R. (4th) 237 | 135 N.R. 90",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.9501380920410156,
+        "candidate_title": "Spencer v. Harding"
+      },
       {
         "uri": "https://canlii.ca/t/231v2",
         "score": 0.9494079351425171,
         "candidate_title": "R. v. C.M."
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9475655555725098,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/g9cjm",
-        "score": 0.946083664894104,
-        "candidate_title": "R. v. S.(R.)"
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.948737621307373,
+        "candidate_title": "Calcraft v. Guest"
       }
     ]
   },
@@ -864,98 +864,98 @@
     ]
   },
   "Généreux": {
-    "uri": "https://canlii.ca/t/231v2",
-    "score": 0.9546935558319092,
-    "candidate_id": "1995onca1000010",
-    "candidate_title": "R. v. C.M.",
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 0.9572126865386963,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
     "query_text": "decision | R. v. Généreux | [1992] 1\nS.C.R. 259 | 8 C.R.R. (2d) 89 | 70 C.C.C. (3d) 1 | 88 D.L.R. (4th) 110 | 133 N.R.\n241",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.9572126865386963,
+        "candidate_title": "Spencer v. Harding"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9563514590263367,
+        "candidate_title": "Calcraft v. Guest"
+      },
       {
         "uri": "https://canlii.ca/t/231v2",
         "score": 0.9546935558319092,
         "candidate_title": "R. v. C.M."
-      },
-      {
-        "uri": "https://canlii.ca/t/231v6",
-        "score": 0.9543482065200806,
-        "candidate_title": "R. v. L.R."
-      },
-      {
-        "uri": "https://canlii.ca/t/g9cjm",
-        "score": 0.9531927704811096,
-        "candidate_title": "R. v. S.(R.)"
       }
     ]
   },
   "Goncalves": {
-    "uri": "https://canlii.ca/t/1nlkh",
-    "score": 0.9435937404632568,
-    "candidate_id": "1958csc-scc10000",
-    "candidate_title": "Murphy v. C.P.R.",
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 0.9475899934768677,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
     "query_text": "decision | R. v. Goncalves | [1993] 2 S.C.R. 3 | 81 C.C.C. (3d) 240 | 150 N.R. 384",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.9475899934768677,
+        "candidate_title": "Spencer v. Harding"
+      },
       {
         "uri": "https://canlii.ca/t/1nlkh",
         "score": 0.9435937404632568,
         "candidate_title": "Murphy v. C.P.R."
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9420568943023682,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/jw9s1",
-        "score": 0.9418485760688782,
-        "candidate_title": "R. v. P.M."
+        "uri": "https://synthetic.leread.ca/gold/G0106",
+        "score": 0.942265510559082,
+        "candidate_title": "R. v. Burnett"
       }
     ]
   },
   "Grant": {
-    "uri": "https://canlii.ca/t/1pflk",
-    "score": 0.9500592947006226,
-    "candidate_id": "1994mbca10014",
-    "candidate_title": "Regina v. D.C.B.",
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 0.9535304307937622,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
     "query_text": "decision | R.\nv. Grant | R. v. Grant | [1993] 3 S.C.R. 223 | 17 C.R.R. (2d) 269 | 84 C.C.C. (3d) 173 | 24 C.R.\n(4th) 1 | 159 N.R. 161 | [1993] 8 W.W.R. 257",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1pflk",
-        "score": 0.9500592947006226,
-        "candidate_title": "Regina v. D.C.B."
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.9535304307937622,
+        "candidate_title": "Spencer v. Harding"
       },
       {
-        "uri": "https://canlii.ca/t/231v2",
-        "score": 0.9500301480293274,
-        "candidate_title": "R. v. C.M."
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9526175260543823,
+        "candidate_title": "Calcraft v. Guest"
       },
       {
-        "uri": "https://canlii.ca/t/231v6",
-        "score": 0.9488949179649353,
-        "candidate_title": "R. v. L.R."
+        "uri": "https://synthetic.leread.ca/gold/G0517",
+        "score": 0.9506906867027283,
+        "candidate_title": "Waugh v. British Railways Board"
       }
     ]
   },
   "Greffe": {
-    "uri": "https://canlii.ca/t/231v2",
-    "score": 0.955403745174408,
-    "candidate_id": "1995onca1000010",
-    "candidate_title": "R. v. C.M.",
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 0.957830548286438,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
     "query_text": "decision | R. v. Greffe | [1990] 1 S.C.R. 755 | 46 C.R.R. 1 | 73 Alta. L.R. (2d) 97 | 55 C.C.C. (3d) 161 | 75 C.R. (3d) 257 | 107\nN.R. 1 | [1990] 3 W.W.R. 577",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.957830548286438,
+        "candidate_title": "Spencer v. Harding"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.957406222820282,
+        "candidate_title": "Calcraft v. Guest"
+      },
       {
         "uri": "https://canlii.ca/t/231v2",
         "score": 0.955403745174408,
         "candidate_title": "R. v. C.M."
-      },
-      {
-        "uri": "https://canlii.ca/t/g9cjm",
-        "score": 0.9522767066955566,
-        "candidate_title": "R. v. S.(R.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9518746733665466,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
       }
     ]
   },
@@ -984,12 +984,17 @@
     ]
   },
   "Plant": {
-    "uri": "https://canlii.ca/t/231v2",
-    "score": 0.9550121426582336,
-    "candidate_id": "1995onca1000010",
-    "candidate_title": "R. v. C.M.",
+    "uri": "https://synthetic.leread.ca/gold/G0111",
+    "score": 0.9569007754325867,
+    "candidate_id": "gold-G0111",
+    "candidate_title": "Calcraft v. Guest",
     "query_text": "decision | R. v. Plant | R. v.\nPlant | [1993] 3 S.C.R. 281 | 17 C.R.R. (2d) 297 | 12 Alta. L.R. (3d) 305 | 84 C.C.C. (3d) 203 | 24 C.R. (4th) 47 | 157 N.R. 321 | [1993] 8 W.W.R. 287",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9569007754325867,
+        "candidate_title": "Calcraft v. Guest"
+      },
       {
         "uri": "https://canlii.ca/t/231v2",
         "score": 0.9550121426582336,
@@ -999,11 +1004,6 @@
         "uri": "https://canlii.ca/t/231v6",
         "score": 0.954558253288269,
         "candidate_title": "R. v. L.R."
-      },
-      {
-        "uri": "https://canlii.ca/t/231tk",
-        "score": 0.9541205167770386,
-        "candidate_title": "R. v. Rollocks"
       }
     ]
   },
@@ -1032,26 +1032,26 @@
     ]
   },
   "Rose SCC 1997": {
-    "uri": "https://canlii.ca/t/g18w8",
-    "score": 0.877036452293396,
-    "candidate_id": "1993onca1000046",
-    "candidate_title": "R. v. François",
+    "uri": "https://synthetic.leread.ca/gold/G0426",
+    "score": 0.9487350583076477,
+    "candidate_id": "gold-G0426",
+    "candidate_title": "Rose SCC 1997",
     "query_text": "decision | (1997), 40 C.R.R. (2d) 376n",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/g18w8",
-        "score": 0.877036452293396,
-        "candidate_title": "R. v. François"
+        "uri": "https://synthetic.leread.ca/gold/G0426",
+        "score": 0.9487350583076477,
+        "candidate_title": "Rose SCC 1997"
       },
       {
-        "uri": "https://canlii.ca/t/1w6kz",
-        "score": 0.8769773244857788,
-        "candidate_title": "R. v. Tresham"
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.907745361328125,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       },
       {
-        "uri": "https://canlii.ca/t/jw9s1",
-        "score": 0.8769378662109375,
-        "candidate_title": "R. v. P.M."
+        "uri": "https://synthetic.leread.ca/gold/G0014",
+        "score": 0.8933382034301758,
+        "candidate_title": "Acme Building ONDISCT 1990"
       }
     ]
   },
@@ -1104,50 +1104,50 @@
     ]
   },
   "Stillman": {
-    "uri": "https://canlii.ca/t/1ms50",
-    "score": 0.9408003091812134,
-    "candidate_id": "1991nsscad10078",
-    "candidate_title": "R. v. Nickerson",
+    "uri": "https://synthetic.leread.ca/gold/G0085",
+    "score": 0.9513246417045593,
+    "candidate_id": "gold-G0085",
+    "candidate_title": "Baker v. Campbell",
     "query_text": "decision | R. v. Stillman\n(1997) | R. v.\nStillman | 42 C.R.R. (2d) 189 (S.C.C.) | 42 C.R.R. (2d) 189",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1ms50",
-        "score": 0.9408003091812134,
-        "candidate_title": "R. v. Nickerson"
+        "uri": "https://synthetic.leread.ca/gold/G0085",
+        "score": 0.9513246417045593,
+        "candidate_title": "Baker v. Campbell"
       },
       {
-        "uri": "https://canlii.ca/t/1pflk",
-        "score": 0.9383080005645752,
-        "candidate_title": "Regina v. D.C.B."
+        "uri": "https://synthetic.leread.ca/gold/G0407",
+        "score": 0.9488929510116577,
+        "candidate_title": "Queensland v. Commonwealth (1977)"
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9382832050323486,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9480472803115845,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       }
     ]
   },
   "Strachan": {
-    "uri": "https://canlii.ca/t/1pflk",
-    "score": 0.9533100724220276,
-    "candidate_id": "1994mbca10014",
-    "candidate_title": "Regina v. D.C.B.",
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 0.9564102292060852,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
     "query_text": "decision | R. v. Strachan | R. v.\nStrachan | [1988] 2 S.C.R. 980 | 37\nC.R.R. 335 | 46 C.C.C. (3d) 479 | 67 C.R. (3d) 87 | 56 D.L.R. (4th) 673 | 90 N.R.\n273 | [1989] 1 W.W.R. 385 | 37 C.R.R. 335",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.9564102292060852,
+        "candidate_title": "Spencer v. Harding"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9552963376045227,
+        "candidate_title": "Calcraft v. Guest"
+      },
       {
         "uri": "https://canlii.ca/t/1pflk",
         "score": 0.9533100724220276,
         "candidate_title": "Regina v. D.C.B."
-      },
-      {
-        "uri": "https://canlii.ca/t/231v2",
-        "score": 0.9513050317764282,
-        "candidate_title": "R. v. C.M."
-      },
-      {
-        "uri": "https://canlii.ca/t/g9cjm",
-        "score": 0.9511426687240601,
-        "candidate_title": "R. v. S.(R.)"
       }
     ]
   },
@@ -1188,14 +1188,14 @@
         "candidate_title": "R. v. C.M."
       },
       {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9515160322189331,
+        "candidate_title": "Calcraft v. Guest"
+      },
+      {
         "uri": "https://canlii.ca/t/g9cjm",
         "score": 0.948265790939331,
         "candidate_title": "R. v. S.(R.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/231v6",
-        "score": 0.9481105208396912,
-        "candidate_title": "R. v. L.R."
       }
     ]
   },
@@ -1224,12 +1224,17 @@
     ]
   },
   "Vetrovec": {
-    "uri": "https://canlii.ca/t/231v2",
-    "score": 0.9554696083068848,
-    "candidate_id": "1995onca1000010",
-    "candidate_title": "R. v. C.M.",
+    "uri": "https://synthetic.leread.ca/gold/G0111",
+    "score": 0.9584246873855591,
+    "candidate_id": "gold-G0111",
+    "candidate_title": "Calcraft v. Guest",
     "query_text": "decision | R. v. Vetrovec | R. v. Vetrovec, R. v. Gaja | Vetrovec | [1982] 1\nS.C.R. 811 | 67 C.C.C. (2d) 1 | 27 C.R. (3d)\n304 | 136 D.L.R. (3d) 89 | 41 N.R. 606 | [1983] 1 W.W.R. 193 | [1982] 1 S.C.R. 811",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0111",
+        "score": 0.9584246873855591,
+        "candidate_title": "Calcraft v. Guest"
+      },
       {
         "uri": "https://canlii.ca/t/231v2",
         "score": 0.9554696083068848,
@@ -1239,11 +1244,6 @@
         "uri": "https://canlii.ca/t/g9cjm",
         "score": 0.954924464225769,
         "candidate_title": "R. v. S.(R.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/1pflk",
-        "score": 0.9547445774078369,
-        "candidate_title": "Regina v. D.C.B."
       }
     ]
   },
@@ -1272,122 +1272,122 @@
     ]
   },
   "Silagy": {
-    "uri": "https://canlii.ca/t/gwh22",
-    "score": 0.875066876411438,
-    "candidate_id": "1976fcttd1000011",
-    "candidate_title": "Air Canada et al. v. Maley et al.",
+    "uri": "https://synthetic.leread.ca/gold/G0444",
+    "score": 0.9777008295059204,
+    "candidate_id": "gold-G0444",
+    "candidate_title": "Silagy v. Peters",
     "query_text": "decision | Silagy v. Peters | 905 F.2d 986 (7th Cir. 1990) | 905 F.2d 986 | (7th Cir. 1990)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/gwh22",
-        "score": 0.875066876411438,
-        "candidate_title": "Air Canada et al. v. Maley et al."
+        "uri": "https://synthetic.leread.ca/gold/G0444",
+        "score": 0.9777008295059204,
+        "candidate_title": "Silagy v. Peters"
       },
       {
-        "uri": "https://canlii.ca/t/jqvrs",
-        "score": 0.874374508857727,
-        "candidate_title": "Martinoff v. Gossen"
+        "uri": "https://synthetic.leread.ca/gold/G0534",
+        "score": 0.9005560278892517,
+        "candidate_title": "Wright v. State of Tennessee et al. (1980)"
       },
       {
-        "uri": "https://canlii.ca/t/k9p7b",
-        "score": 0.8741836547851562,
-        "candidate_title": "John Labatt Ltd. v. The Cotton Club Bottling Co."
+        "uri": "https://synthetic.leread.ca/gold/G0086",
+        "score": 0.885440468788147,
+        "candidate_title": "United States v. Ballard"
       }
     ]
   },
   "Taylor": {
-    "uri": "https://canlii.ca/t/jm3mt",
-    "score": 0.8318542242050171,
-    "candidate_id": "2022pesctd4",
-    "candidate_title": "Miller v. White",
+    "uri": "https://synthetic.leread.ca/gold/G0193",
+    "score": 0.927590548992157,
+    "candidate_id": "gold-G0193",
+    "candidate_title": "Duren v. Missouri",
     "query_text": "decision | Taylor\nv. Louisiana | Taylor v. Louisiana | 95 S.Ct. 692 (1975)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/jm3mt",
-        "score": 0.8318542242050171,
-        "candidate_title": "Miller v. White"
+        "uri": "https://synthetic.leread.ca/gold/G0193",
+        "score": 0.927590548992157,
+        "candidate_title": "Duren v. Missouri"
       },
       {
-        "uri": "https://canlii.ca/t/21n2c",
-        "score": 0.8294345736503601,
-        "candidate_title": "Williams v. Stephenson"
+        "uri": "https://synthetic.leread.ca/gold/G0379",
+        "score": 0.9213303327560425,
+        "candidate_title": "Payne v. Tennessee"
       },
       {
-        "uri": "https://canlii.ca/t/1trxk",
-        "score": 0.827970564365387,
-        "candidate_title": "Taylor v. Wallbridge"
+        "uri": "https://synthetic.leread.ca/gold/G0463",
+        "score": 0.9157161116600037,
+        "candidate_title": "Taylor v. Louisiana"
       }
     ]
   },
   "Stinchcombe": {
-    "uri": "https://canlii.ca/t/g1338",
-    "score": 0.9448500871658325,
-    "candidate_id": "1987onca1000060",
-    "candidate_title": "R. v. Miller (Ont. C.A.)",
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 0.9487261772155762,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
     "query_text": "decision | R. v.] Stinchcombe | (1991), 18 C.R.R. (2d) 210 | [1991] 3 S.C.R. 326",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 0.9487261772155762,
+        "candidate_title": "Spencer v. Harding"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0129",
+        "score": 0.9458842277526855,
+        "candidate_title": "Carlill v. Carbolic Smoke Ball Co."
+      },
       {
         "uri": "https://canlii.ca/t/g1338",
         "score": 0.9448500871658325,
         "candidate_title": "R. v. Miller (Ont. C.A.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/1ffww",
-        "score": 0.9444457292556763,
-        "candidate_title": "R. v. Nichols"
-      },
-      {
-        "uri": "https://canlii.ca/t/jw9s1",
-        "score": 0.9442400932312012,
-        "candidate_title": "R. v. P.M."
       }
     ]
   },
   "Egger": {
-    "uri": "https://canlii.ca/t/jw9s1",
-    "score": 0.9380733966827393,
-    "candidate_id": "1983onca1000363",
-    "candidate_title": "R. v. P.M.",
+    "uri": "https://synthetic.leread.ca/gold/G0106",
+    "score": 0.9404823780059814,
+    "candidate_id": "gold-G0106",
+    "candidate_title": "R. v. Burnett",
     "query_text": "decision | R.\nv.] Egger | (1993), 15 C.R.R. (2d) 193 | [1993] 2 S.C.R. 451",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0106",
+        "score": 0.9404823780059814,
+        "candidate_title": "R. v. Burnett"
+      },
       {
         "uri": "https://canlii.ca/t/jw9s1",
         "score": 0.9380733966827393,
         "candidate_title": "R. v. P.M."
       },
       {
-        "uri": "https://canlii.ca/t/g1338",
-        "score": 0.9367191195487976,
-        "candidate_title": "R. v. Miller (Ont. C.A.)"
-      },
-      {
-        "uri": "https://canlii.ca/t/1nlkh",
-        "score": 0.9351685047149658,
-        "candidate_title": "Murphy v. C.P.R."
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9368355870246887,
+        "candidate_title": "R. v. Church of Scientology (1992)"
       }
     ]
   },
   "Laws": {
-    "uri": "https://canlii.ca/t/1tvv0",
-    "score": 0.9255511164665222,
-    "candidate_id": "1967csc-scc10017",
-    "candidate_title": "Horsburgh v. R.",
+    "uri": "https://synthetic.leread.ca/gold/G0231",
+    "score": 0.9374891519546509,
+    "candidate_id": "gold-G0231",
+    "candidate_title": "R. v. Greening (1992)",
     "query_text": "decision | R. v. Laws (1994) | Laws | 19 C.R.R. (2d) 269 (Ont. Gen. Div.)",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0231",
+        "score": 0.9374891519546509,
+        "candidate_title": "R. v. Greening (1992)"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0137",
+        "score": 0.9312281608581543,
+        "candidate_title": "R. v. Church of Scientology (1992)"
+      },
       {
         "uri": "https://canlii.ca/t/1tvv0",
         "score": 0.9255511164665222,
         "candidate_title": "Horsburgh v. R."
-      },
-      {
-        "uri": "https://canlii.ca/t/1tvtv",
-        "score": 0.9241966009140015,
-        "candidate_title": "Tupper v. R."
-      },
-      {
-        "uri": "https://canlii.ca/t/1nlkh",
-        "score": 0.9230913519859314,
-        "candidate_title": "Murphy v. C.P.R."
       }
     ]
   },
@@ -1416,74 +1416,74 @@
     ]
   },
   "Jones": {
-    "uri": "https://canlii.ca/t/1ffww",
-    "score": 0.9082902073860168,
-    "candidate_id": "2001onca375",
-    "candidate_title": "R. v. Nichols",
+    "uri": "https://synthetic.leread.ca/gold/G0423",
+    "score": 0.9353910088539124,
+    "candidate_id": "gold-G0423",
+    "candidate_title": "Ridge v. Baldwin",
     "query_text": "decision | Jones v. R. | [1986] 2 S.C.R. 284",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1ffww",
-        "score": 0.9082902073860168,
-        "candidate_title": "R. v. Nichols"
+        "uri": "https://synthetic.leread.ca/gold/G0423",
+        "score": 0.9353910088539124,
+        "candidate_title": "Ridge v. Baldwin"
       },
       {
-        "uri": "https://canlii.ca/t/1tvtv",
-        "score": 0.9067460894584656,
-        "candidate_title": "Tupper v. R."
+        "uri": "https://synthetic.leread.ca/gold/G0389",
+        "score": 0.9332942366600037,
+        "candidate_title": "Prenn v. Simmonds"
       },
       {
-        "uri": "https://canlii.ca/t/1nlkh",
-        "score": 0.9056497812271118,
-        "candidate_title": "Murphy v. C.P.R."
+        "uri": "https://synthetic.leread.ca/gold/G0316",
+        "score": 0.9308388233184814,
+        "candidate_title": "Longo v The Queen"
       }
     ]
   },
   "Ballard": {
-    "uri": "https://canlii.ca/t/jqvrs",
-    "score": 0.8665034770965576,
-    "candidate_id": "1978fcttd1000064",
-    "candidate_title": "Martinoff v. Gossen",
+    "uri": "https://synthetic.leread.ca/gold/G0086",
+    "score": 0.937763512134552,
+    "candidate_id": "gold-G0086",
+    "candidate_title": "United States v. Ballard",
     "query_text": "decision | United States v.\nBallard | (1944), 322 U.S. 78",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/jqvrs",
-        "score": 0.8665034770965576,
-        "candidate_title": "Martinoff v. Gossen"
+        "uri": "https://synthetic.leread.ca/gold/G0086",
+        "score": 0.937763512134552,
+        "candidate_title": "United States v. Ballard"
       },
       {
-        "uri": "https://canlii.ca/t/27p0z",
-        "score": 0.8603761196136475,
-        "candidate_title": "Stephenson v. McLean"
+        "uri": "https://synthetic.leread.ca/gold/G0242",
+        "score": 0.9007457494735718,
+        "candidate_title": "Hickman v. Taylor"
       },
       {
-        "uri": "https://canlii.ca/t/1xd62",
-        "score": 0.86017906665802,
-        "candidate_title": "Kolnberger v. The Queen"
+        "uri": "https://synthetic.leread.ca/gold/G0379",
+        "score": 0.8911060094833374,
+        "candidate_title": "Payne v. Tennessee"
       }
     ]
   },
   "Davis": {
-    "uri": "https://canlii.ca/t/fsn3f",
-    "score": 0.8864678740501404,
-    "candidate_id": "1924csc-scc1000056",
-    "candidate_title": "Smith v. Nevins",
+    "uri": "https://synthetic.leread.ca/gold/G0175",
+    "score": 0.9630639553070068,
+    "candidate_id": "gold-G0175",
+    "candidate_title": "Davis v. Beason",
     "query_text": "decision | Davis v. Beason | 133 U.S. 333 (1890)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/fsn3f",
-        "score": 0.8864678740501404,
-        "candidate_title": "Smith v. Nevins"
+        "uri": "https://synthetic.leread.ca/gold/G0175",
+        "score": 0.9630639553070068,
+        "candidate_title": "Davis v. Beason"
       },
       {
-        "uri": "https://canlii.ca/t/27p0z",
-        "score": 0.8831813931465149,
-        "candidate_title": "Stephenson v. McLean"
+        "uri": "https://synthetic.leread.ca/gold/G0086",
+        "score": 0.9303662776947021,
+        "candidate_title": "United States v. Ballard"
       },
       {
-        "uri": "https://canlii.ca/t/g7z6t",
-        "score": 0.8786094784736633,
-        "candidate_title": "Morin v. The Queen"
+        "uri": "https://synthetic.leread.ca/gold/G0220",
+        "score": 0.9176076650619507,
+        "candidate_title": "Gardner v. Lucas"
       }
     ]
   },
@@ -1505,43 +1505,48 @@
         "candidate_title": "Canadian Bill of Rights"
       },
       {
-        "uri": "https://canlii.ca/t/7x21",
-        "score": 0.8420429825782776,
-        "candidate_title": "Canadian Passport Order"
+        "uri": "https://synthetic.leread.ca/gold/G0406",
+        "score": 0.8496341109275818,
+        "candidate_title": "Quebec Charter of Values"
       }
     ]
   },
   "Juries Act": {
-    "uri": "https://canlii.ca/t/56dxf",
-    "score": 0.9119542837142944,
-    "candidate_id": "l230!230-current-1",
-    "candidate_title": "Juries Act",
+    "uri": "https://synthetic.leread.ca/gold/G0171",
+    "score": 0.9340741038322449,
+    "candidate_id": "gold-G0171",
+    "candidate_title": "Criminal Code",
     "query_text": "legislation | Juries Act | Juries\nAct | Act | R.S.O.\n1990, c. J.3 | R.S.O. 1990, c. J.3",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56dxf",
-        "score": 0.9119542837142944,
-        "candidate_title": "Juries Act"
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 0.9340741038322449,
+        "candidate_title": "Criminal Code"
       },
       {
-        "uri": "https://canlii.ca/t/56p4b",
-        "score": 0.900212287902832,
-        "candidate_title": "Judicature Act"
+        "uri": "https://synthetic.leread.ca/gold/G0118",
+        "score": 0.933548092842102,
+        "candidate_title": "Canadian Citizenship Act"
       },
       {
-        "uri": "https://canlii.ca/t/8b47",
-        "score": 0.8961414098739624,
-        "candidate_title": "Judgment Enforcement Act"
+        "uri": "https://synthetic.leread.ca/gold/G0254",
+        "score": 0.9333585500717163,
+        "candidate_title": "Immigration Act"
       }
     ]
   },
   "Constitution Act 1982": {
-    "uri": "https://canlii.ca/t/840k",
-    "score": 0.8897897005081177,
-    "candidate_id": "l19617!19617-current-1",
-    "candidate_title": "Expropriation Act",
+    "uri": "https://synthetic.leread.ca/gold/G0273",
+    "score": 0.8918989896774292,
+    "candidate_id": "gold-G0273",
+    "candidate_title": "Judicature Act",
     "query_text": "legislation | Constitution Act, 1982",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0273",
+        "score": 0.8918989896774292,
+        "candidate_title": "Judicature Act"
+      },
       {
         "uri": "https://canlii.ca/t/840k",
         "score": 0.8897897005081177,
@@ -1551,59 +1556,54 @@
         "uri": "https://canlii.ca/t/84l1",
         "score": 0.8884575963020325,
         "candidate_title": "Degree Authorization Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/jpvq",
-        "score": 0.8860212564468384,
-        "candidate_title": "Planning Act"
       }
     ]
   },
   "Corporations Act 1960": {
-    "uri": "https://canlii.ca/t/8b0x",
-    "score": 0.924736499786377,
-    "candidate_id": "l25028!25028-current-1",
-    "candidate_title": "Arbitration Act",
+    "uri": "https://synthetic.leread.ca/gold/G0168",
+    "score": 0.9901551604270935,
+    "candidate_id": "gold-G0168",
+    "candidate_title": "Corporations Act",
     "query_text": "legislation | Corporations Act | Act | R.S.O. 1960, c. 71",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/8b0x",
-        "score": 0.924736499786377,
-        "candidate_title": "Arbitration Act"
+        "uri": "https://synthetic.leread.ca/gold/G0168",
+        "score": 0.9901551604270935,
+        "candidate_title": "Corporations Act"
       },
       {
-        "uri": "https://canlii.ca/t/87zm",
-        "score": 0.9241499900817871,
-        "candidate_title": "Companies Act"
+        "uri": "https://synthetic.leread.ca/gold/G0244",
+        "score": 0.968958854675293,
+        "candidate_title": "Highway Improvement Act"
       },
       {
-        "uri": "https://canlii.ca/t/jpvq",
-        "score": 0.9225034117698669,
-        "candidate_title": "Planning Act"
+        "uri": "https://synthetic.leread.ca/gold/G0326",
+        "score": 0.9647829532623291,
+        "candidate_title": "Marriage Act"
       }
     ]
   },
   "Criminal Code 1970": {
-    "uri": "https://canlii.ca/t/562x3",
-    "score": 0.9400454759597778,
-    "candidate_id": "l27056!27056-current-1",
-    "candidate_title": "Provincial Court Act",
+    "uri": "https://synthetic.leread.ca/gold/G0203",
+    "score": 0.9622041583061218,
+    "candidate_id": "gold-G0203",
+    "candidate_title": "Excise Tax Act",
     "query_text": "legislation | Criminal Code | Code | Criminal\nCode | R.S.C. 1970, c. C-34",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/562x3",
-        "score": 0.9400454759597778,
-        "candidate_title": "Provincial Court Act"
+        "uri": "https://synthetic.leread.ca/gold/G0203",
+        "score": 0.9622041583061218,
+        "candidate_title": "Excise Tax Act"
       },
       {
-        "uri": "https://canlii.ca/t/848d",
-        "score": 0.937244176864624,
-        "candidate_title": "Offence Act"
+        "uri": "https://synthetic.leread.ca/gold/G0254",
+        "score": 0.9553049802780151,
+        "candidate_title": "Immigration Act"
       },
       {
-        "uri": "https://canlii.ca/t/89xc",
-        "score": 0.937164306640625,
-        "candidate_title": "Human Rights Code"
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 0.953658938407898,
+        "candidate_title": "Criminal Code"
       }
     ]
   },
@@ -1632,266 +1632,266 @@
     ]
   },
   "Extradition Act": {
-    "uri": "https://canlii.ca/t/5652h",
-    "score": 0.8915125131607056,
-    "candidate_id": "l83!83-current-1",
-    "candidate_title": "Corporations Act",
+    "uri": "https://synthetic.leread.ca/gold/G0204",
+    "score": 0.9728790521621704,
+    "candidate_id": "gold-G0204",
+    "candidate_title": "Extradition Act",
     "query_text": "legislation | Extradition Act | R.S.C. 1985, c.\nE-21 | R.S.C.\n1985, c. E-21",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/5652h",
-        "score": 0.8915125131607056,
-        "candidate_title": "Corporations Act"
+        "uri": "https://synthetic.leread.ca/gold/G0204",
+        "score": 0.9728790521621704,
+        "candidate_title": "Extradition Act"
       },
       {
-        "uri": "https://canlii.ca/t/9l",
-        "score": 0.8861819505691528,
-        "candidate_title": "County of Oxford Act"
+        "uri": "https://synthetic.leread.ca/gold/G0118",
+        "score": 0.9526025652885437,
+        "candidate_title": "Canadian Citizenship Act"
       },
       {
-        "uri": "https://canlii.ca/t/562x3",
-        "score": 0.8841933012008667,
-        "candidate_title": "Provincial Court Act"
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 0.9521029591560364,
+        "candidate_title": "Criminal Code"
       }
     ]
   },
   "Fugitive Offenders Act": {
-    "uri": "https://canlii.ca/t/56bn8",
-    "score": 0.8880609273910522,
-    "candidate_id": "l5146!5146-current-1",
-    "candidate_title": "Pension Benefits Act, 1992",
+    "uri": "https://synthetic.leread.ca/gold/G0171",
+    "score": 0.9556885957717896,
+    "candidate_id": "gold-G0171",
+    "candidate_title": "Criminal Code",
     "query_text": "legislation | Fugitive Offenders Act | R.S.C. 1985, c. F-32 | R.S.C. 1985,\nc. F-32",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56bn8",
-        "score": 0.8880609273910522,
-        "candidate_title": "Pension Benefits Act, 1992"
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 0.9556885957717896,
+        "candidate_title": "Criminal Code"
       },
       {
-        "uri": "https://canlii.ca/t/wxt",
-        "score": 0.88466477394104,
-        "candidate_title": "Public Officers' Protection Act"
+        "uri": "https://synthetic.leread.ca/gold/G0204",
+        "score": 0.9551174640655518,
+        "candidate_title": "Extradition Act"
       },
       {
-        "uri": "https://canlii.ca/t/5652h",
-        "score": 0.8845837116241455,
-        "candidate_title": "Corporations Act"
+        "uri": "https://synthetic.leread.ca/gold/G0216",
+        "score": 0.9540426731109619,
+        "candidate_title": "Fugitive Offenders Act"
       }
     ]
   },
   "Immigration Act": {
-    "uri": "https://canlii.ca/t/5652h",
-    "score": 0.9098589420318604,
-    "candidate_id": "l83!83-current-1",
-    "candidate_title": "Corporations Act",
+    "uri": "https://synthetic.leread.ca/gold/G0254",
+    "score": 0.9826838970184326,
+    "candidate_id": "gold-G0254",
+    "candidate_title": "Immigration Act",
     "query_text": "legislation | Immigration Act | R.S.C. 1985,\nc. I-2 | R.S.C. 1985, c.\nI-2 | R.S.C. 1952, c. 145",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/5652h",
-        "score": 0.9098589420318604,
-        "candidate_title": "Corporations Act"
+        "uri": "https://synthetic.leread.ca/gold/G0254",
+        "score": 0.9826838970184326,
+        "candidate_title": "Immigration Act"
       },
       {
-        "uri": "https://canlii.ca/t/2mp",
-        "score": 0.9055647850036621,
-        "candidate_title": "Professional Engineers Act"
+        "uri": "https://synthetic.leread.ca/gold/G0118",
+        "score": 0.9572046995162964,
+        "candidate_title": "Canadian Citizenship Act"
       },
       {
-        "uri": "https://canlii.ca/t/566hk",
-        "score": 0.904723584651947,
-        "candidate_title": "Divorce Act"
+        "uri": "https://synthetic.leread.ca/gold/G0204",
+        "score": 0.9547006487846375,
+        "candidate_title": "Extradition Act"
       }
     ]
   },
   "Lord": {
-    "uri": "https://canlii.ca/t/56mjl",
-    "score": 0.8993273973464966,
-    "candidate_id": "l282!282-current-1",
-    "candidate_title": "Marriage Act",
+    "uri": "https://synthetic.leread.ca/gold/G0171",
+    "score": 0.9598864912986755,
+    "candidate_id": "gold-G0171",
+    "candidate_title": "Criminal Code",
     "query_text": "legislation | Lord's Day Act | Act | R.S.C. 1970,\nc. L-13 | R.S.C. 1970, c. L-13",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56mjl",
-        "score": 0.8993273973464966,
-        "candidate_title": "Marriage Act"
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 0.9598864912986755,
+        "candidate_title": "Criminal Code"
       },
       {
-        "uri": "https://canlii.ca/t/9l",
-        "score": 0.8971563577651978,
-        "candidate_title": "County of Oxford Act"
+        "uri": "https://synthetic.leread.ca/gold/G0317",
+        "score": 0.9504978060722351,
+        "candidate_title": "Lord's Day Act"
       },
       {
-        "uri": "https://canlii.ca/t/879x",
-        "score": 0.8963780403137207,
-        "candidate_title": "Wills Act"
+        "uri": "https://synthetic.leread.ca/gold/G0118",
+        "score": 0.950011134147644,
+        "candidate_title": "Canadian Citizenship Act"
       }
     ]
   },
   "Marriage Act 1970": {
-    "uri": "https://canlii.ca/t/8b0x",
-    "score": 0.9143161773681641,
-    "candidate_id": "l25028!25028-current-1",
-    "candidate_title": "Arbitration Act",
+    "uri": "https://synthetic.leread.ca/gold/G0326",
+    "score": 0.9848750829696655,
+    "candidate_id": "gold-G0326",
+    "candidate_title": "Marriage Act",
     "query_text": "legislation | Marriage Act | R.S.O. 1970, c. 261",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/8b0x",
-        "score": 0.9143161773681641,
-        "candidate_title": "Arbitration Act"
+        "uri": "https://synthetic.leread.ca/gold/G0326",
+        "score": 0.9848750829696655,
+        "candidate_title": "Marriage Act"
       },
       {
-        "uri": "https://canlii.ca/t/8b2b",
-        "score": 0.905669629573822,
-        "candidate_title": "Securities Act"
+        "uri": "https://synthetic.leread.ca/gold/G0261",
+        "score": 0.9625680446624756,
+        "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/whs",
-        "score": 0.9039251208305359,
-        "candidate_title": "Parks Act"
+        "uri": "https://synthetic.leread.ca/gold/G0376",
+        "score": 0.9595564007759094,
+        "candidate_title": "Patent Act"
       }
     ]
   },
   "Statute Law Amendment Act": {
-    "uri": "https://canlii.ca/t/563zb",
-    "score": 0.9157354235649109,
-    "candidate_id": "l19759!19759-current-1",
-    "candidate_title": "Law and Equity Act",
+    "uri": "https://synthetic.leread.ca/gold/G0456",
+    "score": 0.9938283562660217,
+    "candidate_id": "gold-G0456",
+    "candidate_title": "Statute Law Amendment Act (Government Management and Services), 1994",
     "query_text": "legislation | Statute Law Amendment Act (Government\nManagement and Services), 1994 | Statute Law Amendment Act (Government Management and Services) | S.O. 1994, c. 27 | 1994, S.O.\n1994, c. 27",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/563zb",
-        "score": 0.9157354235649109,
-        "candidate_title": "Law and Equity Act"
+        "uri": "https://synthetic.leread.ca/gold/G0456",
+        "score": 0.9938283562660217,
+        "candidate_title": "Statute Law Amendment Act (Government Management and Services), 1994"
       },
       {
-        "uri": "https://canlii.ca/t/bk08",
-        "score": 0.915366530418396,
-        "candidate_title": "Building Code Act (amended)"
+        "uri": "https://synthetic.leread.ca/gold/G0378",
+        "score": 0.9242030382156372,
+        "candidate_title": "Patent Act Amendment Act, 1992"
       },
       {
-        "uri": "https://canlii.ca/t/wg7",
-        "score": 0.9131232500076294,
-        "candidate_title": "The Planning and Development Act, 2007"
+        "uri": "https://synthetic.leread.ca/gold/G0039",
+        "score": 0.9211018085479736,
+        "candidate_title": "An Act to amend the Code of Civil Procedure and the Act respecting municipal courts"
       }
     ]
   },
   "Corporations Act 1990": {
-    "uri": "https://canlii.ca/t/81wn",
-    "score": 0.8806008100509644,
-    "candidate_id": "l17730!17730-current-1",
-    "candidate_title": "Insurance Act",
+    "uri": "https://synthetic.leread.ca/gold/G0261",
+    "score": 0.8818370699882507,
+    "candidate_id": "gold-G0261",
+    "candidate_title": "Interpretation Act",
     "query_text": "legislation | Corporations Act | R.S.O. 1990, c. C.38",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/81wn",
-        "score": 0.8806008100509644,
-        "candidate_title": "Insurance Act"
+        "uri": "https://synthetic.leread.ca/gold/G0261",
+        "score": 0.8818370699882507,
+        "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/8dg5",
-        "score": 0.8752864599227905,
-        "candidate_title": "Revenue Tax Act"
+        "uri": "https://synthetic.leread.ca/gold/G0326",
+        "score": 0.881629467010498,
+        "candidate_title": "Marriage Act"
       },
       {
-        "uri": "https://canlii.ca/t/56hq0",
-        "score": 0.8697232007980347,
-        "candidate_title": "Land Act"
+        "uri": "https://synthetic.leread.ca/gold/G0260",
+        "score": 0.8814775943756104,
+        "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Marriage Act 1990": {
-    "uri": "https://canlii.ca/t/whs",
-    "score": 0.8771295547485352,
-    "candidate_id": "l4774!4774-current-1",
-    "candidate_title": "Parks Act",
+    "uri": "https://synthetic.leread.ca/gold/G0260",
+    "score": 0.9176121950149536,
+    "candidate_id": "gold-G0260",
+    "candidate_title": "Interpretation Act",
     "query_text": "legislation | R.S.O. 1990, c. M.3",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/whs",
-        "score": 0.8771295547485352,
-        "candidate_title": "Parks Act"
+        "uri": "https://synthetic.leread.ca/gold/G0260",
+        "score": 0.9176121950149536,
+        "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/8b0x",
-        "score": 0.875159502029419,
-        "candidate_title": "Arbitration Act"
+        "uri": "https://synthetic.leread.ca/gold/G0254",
+        "score": 0.9084345698356628,
+        "candidate_title": "Immigration Act"
       },
       {
-        "uri": "https://canlii.ca/t/8b2b",
-        "score": 0.8728182911872864,
-        "candidate_title": "Securities Act"
+        "uri": "https://synthetic.leread.ca/gold/G0326",
+        "score": 0.9071818590164185,
+        "candidate_title": "Marriage Act"
       }
     ]
   },
   "United States Constitution": {
-    "uri": "https://canlii.ca/t/ktx3",
-    "score": 0.8246183395385742,
-    "candidate_id": "l26317!26317-current-1",
-    "candidate_title": "Small Claims Regulations",
+    "uri": "https://synthetic.leread.ca/gold/G0506",
+    "score": 0.9330141544342041,
+    "candidate_id": "gold-G0506",
+    "candidate_title": "United States Constitution",
     "query_text": "legislation | United States Constitution",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/ktx3",
-        "score": 0.8246183395385742,
-        "candidate_title": "Small Claims Regulations"
+        "uri": "https://synthetic.leread.ca/gold/G0506",
+        "score": 0.9330141544342041,
+        "candidate_title": "United States Constitution"
       },
       {
-        "uri": "https://canlii.ca/t/840k",
-        "score": 0.8237990736961365,
-        "candidate_title": "Expropriation Act"
+        "uri": "https://synthetic.leread.ca/gold/G0057",
+        "score": 0.8933870792388916,
+        "candidate_title": "American Constitution"
       },
       {
-        "uri": "https://canlii.ca/t/56f73",
-        "score": 0.8233492374420166,
-        "candidate_title": "The Cities Act"
+        "uri": "https://synthetic.leread.ca/gold/G0081",
+        "score": 0.8715155720710754,
+        "candidate_title": "Constitution"
       }
     ]
   },
   "Study of the Constitution": {
-    "uri": "https://www.canlii.org/en/commentary/doc/2016CanLIIDocs275",
-    "score": 0.8885761499404907,
-    "candidate_id": "d1423!d1423",
-    "candidate_title": "The Signal and the Noise in Administrative Law",
+    "uri": "https://synthetic.leread.ca/gold/G0462",
+    "score": 0.9665167927742004,
+    "candidate_id": "gold-G0462",
+    "candidate_title": "Introduction to the Study of the Law of the Constitution",
     "query_text": "secondary sources | Introduction to the Study of the Law of the Constitution | Dicey",
     "topk": [
       {
-        "uri": "https://www.canlii.org/en/commentary/doc/2016CanLIIDocs275",
-        "score": 0.8885761499404907,
-        "candidate_title": "The Signal and the Noise in Administrative Law"
+        "uri": "https://synthetic.leread.ca/gold/G0462",
+        "score": 0.9665167927742004,
+        "candidate_title": "Introduction to the Study of the Law of the Constitution"
       },
       {
-        "uri": "https://canlii.ca/t/t5tt",
-        "score": 0.8844557404518127,
-        "candidate_title": "The Independence of the Judiciary"
+        "uri": "https://synthetic.leread.ca/gold/G0298",
+        "score": 0.9309470653533936,
+        "candidate_title": "Introduction to the Study of the Law of the Constitution"
       },
       {
-        "uri": "https://canlii.ca/t/ss80",
-        "score": 0.8837856650352478,
-        "candidate_title": "The Constitutional Dimensions of Aboriginal Title"
+        "uri": "https://synthetic.leread.ca/gold/G0475",
+        "score": 0.9005959630012512,
+        "candidate_title": "The Law of Declaratory Judgments"
       }
     ]
   },
   "The Stranger in our Midst": {
-    "uri": "https://www.canlii.org/en/commentary/doc/2013CanLIIDocs122",
-    "score": 0.9132378697395325,
-    "candidate_id": "d1141!d1141",
-    "candidate_title": "From en ventre sa mere to Thawing an Heir: Posthumously Conceived Children and the Implications for Succession Law in Canada",
+    "uri": "https://synthetic.leread.ca/gold/G0490",
+    "score": 0.9908057451248169,
+    "candidate_id": "gold-G0490",
+    "candidate_title": "The Stranger in our Midst: A Sketch of the Legal Status of the Alien in Canada",
     "query_text": "secondary sources | The Stranger in our Midst: A Sketch of the Legal\nStatus of the Alien in Canada | The Stranger in our Midst: A Sketch of the Legal Status of the Alien in\nCanada | Head, I. | Ivan Head",
     "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0490",
+        "score": 0.9908057451248169,
+        "candidate_title": "The Stranger in our Midst: A Sketch of the Legal Status of the Alien in Canada"
+      },
       {
         "uri": "https://www.canlii.org/en/commentary/doc/2013CanLIIDocs122",
         "score": 0.9132378697395325,
         "candidate_title": "From en ventre sa mere to Thawing an Heir: Posthumously Conceived Children and the Implications for Succession Law in Canada"
       },
       {
-        "uri": "https://canlii.ca/t/hx5fh",
-        "score": 0.9068224430084229,
-        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
-      },
-      {
-        "uri": "https://canlii.ca/t/jgpzk",
-        "score": 0.9051231741905212,
-        "candidate_title": "Saif v. Canada (Citizenship and Immigration)"
+        "uri": "https://synthetic.leread.ca/gold/G0298",
+        "score": 0.9096890687942505,
+        "candidate_title": "Introduction to the Study of the Law of the Constitution"
       }
     ]
   },
@@ -1908,14 +1908,14 @@
         "candidate_title": "Institutionalized Racism: The Need for Reform of the Criminal Jury Selection Process"
       },
       {
-        "uri": "https://canlii.ca/t/7n524",
-        "score": 0.8970317840576172,
-        "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
+        "uri": "https://synthetic.leread.ca/gold/G0455",
+        "score": 0.9145268797874451,
+        "candidate_title": "Statelessness in Canadian Context: A Discussion Paper"
       },
       {
-        "uri": "https://canlii.ca/t/sx35",
-        "score": 0.8961979746818542,
-        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+        "uri": "https://synthetic.leread.ca/gold/G0467",
+        "score": 0.908671498298645,
+        "candidate_title": "The Evolving Law of Nonprofit Organizations: Do Current Trends Make Good Policy?"
       }
     ]
   },
@@ -1932,86 +1932,86 @@
         "candidate_title": "Paedophilia: The Criminal Responsibility of Canada's Churches"
       },
       {
-        "uri": "https://canlii.ca/t/ssc3",
-        "score": 0.8950480222702026,
-        "candidate_title": "The Duty to Negotiate and the Ethos of Reconciliation"
+        "uri": "https://synthetic.leread.ca/gold/G0215",
+        "score": 0.906341552734375,
+        "candidate_title": "Freedom of Religion and the Rule of Law: A Canadian Perspective"
       },
       {
-        "uri": "https://canlii.ca/t/2blz",
-        "score": 0.8943867683410645,
-        "candidate_title": "Institutionalized Racism: The Need for Reform of the Criminal Jury Selection Process"
+        "uri": "https://synthetic.leread.ca/gold/G0455",
+        "score": 0.8959555625915527,
+        "candidate_title": "Statelessness in Canadian Context: A Discussion Paper"
       }
     ]
   },
   "Jury Selection": {
-    "uri": "https://canlii.ca/t/563gb",
-    "score": 0.8287369012832642,
-    "candidate_id": "l19712!19712-current-1",
-    "candidate_title": "Human Rights Code",
+    "uri": "https://synthetic.leread.ca/gold/G0278",
+    "score": 0.9426361918449402,
+    "candidate_id": "gold-G0278",
+    "candidate_title": "Jury Selection",
     "query_text": "secondary sources | Jury Selection | Schulman and\nMeyers",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/563gb",
-        "score": 0.8287369012832642,
-        "candidate_title": "Human Rights Code"
+        "uri": "https://synthetic.leread.ca/gold/G0278",
+        "score": 0.9426361918449402,
+        "candidate_title": "Jury Selection"
       },
       {
-        "uri": "https://canlii.ca/t/89xc",
-        "score": 0.8285965919494629,
-        "candidate_title": "Human Rights Code"
+        "uri": "https://synthetic.leread.ca/gold/G0466",
+        "score": 0.8601288795471191,
+        "candidate_title": "The English Legal System"
       },
       {
-        "uri": "https://canlii.ca/t/fslkt",
-        "score": 0.8283262848854065,
-        "candidate_title": "Raymond v. The King"
+        "uri": "https://synthetic.leread.ca/gold/G0226",
+        "score": 0.8536190986633301,
+        "candidate_title": "Government Information: Access and Privacy"
       }
     ]
   },
   "Shorter Oxford English Dictionary": {
-    "uri": "https://canlii.ca/t/j2j6r",
-    "score": 0.8625834584236145,
-    "candidate_id": "2019onca738",
-    "candidate_title": "Davies (Re)",
+    "uri": "https://synthetic.leread.ca/gold/G0443",
+    "score": 0.9475686550140381,
+    "candidate_id": "gold-G0443",
+    "candidate_title": "Shorter Oxford English Dictionary (1959)",
     "query_text": "secondary sources | Shorter Oxford\nEnglish Dictionary (1959)",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/j2j6r",
-        "score": 0.8625834584236145,
-        "candidate_title": "Davies (Re)"
+        "uri": "https://synthetic.leread.ca/gold/G0443",
+        "score": 0.9475686550140381,
+        "candidate_title": "Shorter Oxford English Dictionary (1959)"
       },
       {
-        "uri": "https://canlii.ca/t/1wb9z",
-        "score": 0.8601815104484558,
-        "candidate_title": "Francisco, Re"
+        "uri": "https://synthetic.leread.ca/gold/G0374",
+        "score": 0.9127367734909058,
+        "candidate_title": "Oxford English Dictionary"
       },
       {
-        "uri": "https://canlii.ca/t/fw61k",
-        "score": 0.8601498603820801,
-        "candidate_title": "Oakdale Village Homes Inc."
+        "uri": "https://synthetic.leread.ca/gold/G0346",
+        "score": 0.903967559337616,
+        "candidate_title": "New Oxford Dictionary of English"
       }
     ]
   },
   "The Evolving Law": {
-    "uri": "https://canlii.ca/t/7n524",
-    "score": 0.8865996599197388,
-    "candidate_id": "d214564!d214564",
-    "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law",
+    "uri": "https://synthetic.leread.ca/gold/G0467",
+    "score": 0.9604923725128174,
+    "candidate_id": "gold-G0467",
+    "candidate_title": "The Evolving Law of Nonprofit Organizations: Do Current Trends Make Good Policy?",
     "query_text": "secondary sources | The\nEvolving Law of Nonprofit Organizations: Do Current Trends Make Good\nPolicy? | Henry Hansmann",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/7n524",
-        "score": 0.8865996599197388,
-        "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
+        "uri": "https://synthetic.leread.ca/gold/G0467",
+        "score": 0.9604923725128174,
+        "candidate_title": "The Evolving Law of Nonprofit Organizations: Do Current Trends Make Good Policy?"
       },
       {
-        "uri": "https://www.canlii.org/en/commentary/doc/2016CanLIIDocs275",
-        "score": 0.8859517574310303,
-        "candidate_title": "The Signal and the Noise in Administrative Law"
+        "uri": "https://synthetic.leread.ca/gold/G0485",
+        "score": 0.8868407011032104,
+        "candidate_title": "The Power of Precedent"
       },
       {
-        "uri": "https://canlii.ca/t/j2j6r",
-        "score": 0.8769158124923706,
-        "candidate_title": "Davies (Re)"
+        "uri": "https://synthetic.leread.ca/gold/G0409",
+        "score": 0.8866313695907593,
+        "candidate_title": "Some Reflections on the Reading of Statutes"
       }
     ]
   }
