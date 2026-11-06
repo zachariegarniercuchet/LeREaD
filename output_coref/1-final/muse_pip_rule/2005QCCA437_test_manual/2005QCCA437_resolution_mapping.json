@@ -1,0 +1,172 @@
+{
+  "Code of Civil Procedure (Quebec)": {
+    "uri": "https://canlii.ca/t/6fqkd",
+    "score": 2.0,
+    "candidate_id": "l38186!38186-current-1",
+    "candidate_title": "Code de procédure civile",
+    "query_text": "legislation | C.C.P. | C.C.P | Code\nof Civil Procedure | Code of\nCivil Procedure | Code of Civil Procedure | Code of Civil\nProcedure",
+    "method": "title_exact",
+    "matched_key": "code of civil procedure",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fqkd",
+        "score": 2.0,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 2.0,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 2.0,
+        "candidate_title": "Code of Civil Procedure"
+      }
+    ]
+  },
+  "Charter of Human Rights and Freedoms": {
+    "uri": "https://canlii.ca/t/55nzg",
+    "score": 3.0,
+    "candidate_id": "l5938!5938-current-1",
+    "candidate_title": "Act respecting the Fonds d'aide aux actions collectives",
+    "query_text": "legislation | Charter of human rights and\nfreedoms | Charter of\nhuman rights and freedoms | Charter | Quebec Charter | R.S.Q., c. R-2.1",
+    "method": "citation_exact",
+    "matched_key": "rsqcr21",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 3.0,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      }
+    ]
+  },
+  "Comité de l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan ltée": {
+    "uri": "https://canlii.ca/t/1pj93",
+    "score": 0.9710982658959537,
+    "candidate_id": "1990qcca12989",
+    "candidate_title": "Comité d'environnement de la Baie inc. c. Société d'électrolyse et de chimie Alcan ltée",
+    "query_text": "decision | Comité\nde l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan\nltée",
+    "method": "fuzzy",
+    "matched_key": "comite de l environnement de la baie inc v societe d electrolyse et de chimie alcan ltee",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pj93",
+        "score": 0.9710982658959537,
+        "candidate_title": "Comité d'environnement de la Baie inc. c. Société d'électrolyse et de chimie Alcan ltée"
+      }
+    ]
+  },
+  "Act respecting class actions": {
+    "uri": "https://canlii.ca/t/55nzg",
+    "score": 0.9538461538461539,
+    "candidate_id": "l5938!5938-current-1",
+    "candidate_title": "Act respecting the Fonds d'aide aux actions collectives",
+    "query_text": "legislation | Act respecting the class action",
+    "method": "fuzzy",
+    "matched_key": "act respecting the class action",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 0.9538461538461539,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      }
+    ]
+  },
+  "[1993] R.J.Q. 69": {
+    "uri": "https://canlii.ca/t/1pf2l",
+    "score": 3.0,
+    "candidate_id": "1992qcca12623",
+    "candidate_title": "Thompson c. Masson",
+    "query_text": "decision | [1993] R.J.Q. 69",
+    "method": "citation_exact",
+    "matched_key": "1993rjq69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pf2l",
+        "score": 3.0,
+        "candidate_title": "Thompson c. Masson"
+      }
+    ]
+  },
+  "Société Asbestos Limitée v. Lacroix": {
+    "uri": "https://canlii.ca/t/gnv0d",
+    "score": 0.9705882352941176,
+    "candidate_id": "2004qcca1000654",
+    "candidate_title": "Société Asbestos limitée c. Lacroix",
+    "query_text": "decision | Société Asbestos Limitée v. Lacroix | [2004] J.Q. no. 9410 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "societe asbestos limitee v lacroix",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gnv0d",
+        "score": 0.9705882352941176,
+        "candidate_title": "Société Asbestos limitée c. Lacroix"
+      }
+    ]
+  },
+  "Guimond v. Québec (Attorney General)": {
+    "uri": "https://canlii.ca/t/1fr7q",
+    "score": 3.5,
+    "candidate_id": "1996csc-scc89",
+    "candidate_title": "Guimond v. Quebec (Attorney General)",
+    "query_text": "decision | Guimond v. Québec (Attorney General) | <i>Guimond v. Québec (Attorney General</i> | [1996] 3 S.C.R. 347",
+    "method": "citation_exact",
+    "matched_key": "19963scr347",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr7q",
+        "score": 3.5,
+        "candidate_title": "Guimond v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "Charelli v. Canada (Minister of Employment and Immigration)": {
+    "uri": "https://canlii.ca/t/1fsf6",
+    "score": 3.0,
+    "candidate_id": "1992csc-scc25",
+    "candidate_title": "Canada (Minister of Employment and Immigration) v. Chiarelli",
+    "query_text": "decision | <i>Charelli v. Canada (Minister of Employment and\nImmigration)</i> | [1992] 1 S.C.R. 711",
+    "method": "citation_exact",
+    "matched_key": "19921scr711",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsf6",
+        "score": 3.0,
+        "candidate_title": "Canada (Minister of Employment and Immigration) v. Chiarelli"
+      }
+    ]
+  },
+  "Ruby v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/1k7",
+    "score": 3.0,
+    "candidate_id": "2002csc-scc75",
+    "candidate_title": "Ruby v. Canada (Solicitor General)",
+    "query_text": "decision | Ruby\nv. Canada\n(Attorney General | [2002] 4 S.C.R. 3",
+    "method": "citation_exact",
+    "matched_key": "20024scr3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k7",
+        "score": 3.0,
+        "candidate_title": "Ruby v. Canada (Solicitor General)"
+      }
+    ]
+  },
+  "United States of America v. Dynar": {
+    "uri": "https://canlii.ca/t/1fqdm",
+    "score": 3.0,
+    "candidate_id": "1997csc-scc64",
+    "candidate_title": "États-Unis d'Amérique c. Dynar",
+    "query_text": "decision | [1997] 2 S.C.R. 462",
+    "method": "citation_exact",
+    "matched_key": "19972scr462",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqdm",
+        "score": 3.0,
+        "candidate_title": "États-Unis d'Amérique c. Dynar"
+      }
+    ]
+  }
+}

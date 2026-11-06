@@ -1,0 +1,172 @@
+{
+  "Labour Act PEI": {
+    "uri": "https://canlii.ca/t/56vvz",
+    "score": 2.0,
+    "candidate_id": "l27079!27079-current-1",
+    "candidate_title": "Labour Act",
+    "query_text": "legislation | Labour Act | Act | <i>Regulations</i> | <i>Act</i> | Regulation | Regulation 3 | Regulations | R.S.P.E.I. 1988, Cap.\nL-1 | R.S.P.E.I. 1974, Cap. L-1",
+    "method": "title_exact",
+    "matched_key": "labour act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vvz",
+        "score": 2.0,
+        "candidate_title": "Labour Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56tln",
+        "score": 2.0,
+        "candidate_title": "Labour Act"
+      }
+    ]
+  },
+  "Canadian Union of Public Employees, Local 5003 and Eastern School District": {
+    "uri": "https://canlii.ca/t/fqn5m",
+    "score": 3.0,
+    "candidate_id": "2012pelrb1000000",
+    "candidate_title": "Canadian Union of Public Employees, Local 5003 v Eastern School District",
+    "query_text": "decision | <i>Canadian Union of Public Employees, Local 5003\nand Eastern School District</i> | Eastern School\nDistrict | Eastern\nSchool District | Eastern School District | Eastern\nSchool Board | 2012 CanLII13522 (P.E.L.R.B.)",
+    "method": "citation_exact",
+    "matched_key": "2012canlii13522pelrb",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqn5m",
+        "score": 3.0,
+        "candidate_title": "Canadian Union of Public Employees, Local 5003 v Eastern School District"
+      }
+    ]
+  },
+  "APM Construction Inc. v. Construction and Labourers Union, Local 1077": {
+    "uri": "https://canlii.ca/t/1cvp1",
+    "score": 0.9041095890410958,
+    "candidate_id": "1998pesctd198710011",
+    "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union",
+    "query_text": "decision | <i>APM Construction Inc.</i> v. <i>Construction and Labourers\nUnion, Local 1077,</i> | APM\nConstruction Inc. | <i>APM Construction</i> | [1998] PEIJ45",
+    "method": "fuzzy",
+    "matched_key": "apm construction inc v construction and labourers union local 1077",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cvp1",
+        "score": 0.9041095890410958,
+        "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union"
+      }
+    ]
+  },
+  "Bickerton v. Bickerton": {
+    "uri": "https://canlii.ca/t/g1k41",
+    "score": 0.8936170212765957,
+    "candidate_id": "1975onhcj1000014",
+    "candidate_title": "Bickerton v. Bickerton",
+    "query_text": "decision | <i>Bickerton\nv. Bickerton </i>(1975) | Bickerton | 9 O.R. (2d) 333 (Ont. S.C.)",
+    "method": "fuzzy",
+    "matched_key": "bickerton v bickerton 1975",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1k41",
+        "score": 0.8936170212765957,
+        "candidate_title": "Bickerton v. Bickerton"
+      }
+    ]
+  },
+  "Greenvilla Homes Universal Workers Union, Laborers International Union of North America Local 183 v. Greenvilla Homes et al": {
+    "uri": "https://canlii.ca/t/1k175",
+    "score": 0.8909090909090909,
+    "candidate_id": "2005onlrb11556",
+    "candidate_title": "Universal Workers Union, Labourers' International Union of North America Local 183 v. Greenvilla Homes",
+    "query_text": "decision | <i>Greenvilla\nHomes Universal Workers Union, Laborers International Union of North America\nLocal 183 v. Greenvilla Homes et al</i> | (OLRB) 2679-04-R",
+    "method": "fuzzy",
+    "matched_key": "greenvilla homes universal workers union laborers international union of north america local 183 v greenvilla homes et al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k175",
+        "score": 0.8909090909090909,
+        "candidate_title": "Universal Workers Union, Labourers' International Union of North America Local 183 v. Greenvilla Homes"
+      }
+    ]
+  },
+  "Public Service Alliance of Canada v. Canadian Corps of Commissionaires": {
+    "uri": "https://canlii.ca/t/1z1cn",
+    "score": 0.868421052631579,
+    "candidate_id": "1982csc-scc10169",
+    "candidate_title": "Public Service Alliance of Canada v. Francis et al.",
+    "query_text": "decision | <i>Public Service Alliance of Canada v. Canadian\nCorps of Commissionaires</i> PEI LRB 01-012 (2002) | Public\nService Alliance of Canada v. Canadian Corps of Commissionaires | <i>Public Service Alliance of Canada</i>",
+    "method": "fuzzy",
+    "matched_key": "public service alliance of canada v canadian corps of commissionaires pei lrb 01 012 2002",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z1cn",
+        "score": 0.868421052631579,
+        "candidate_title": "Public Service Alliance of Canada v. Francis et al."
+      }
+    ]
+  },
+  "International Union of Operating Engineers, Local 721 v. Nova Scotia Power Corporation": {
+    "uri": "https://canlii.ca/t/j7dth",
+    "score": 0.9710982658959537,
+    "candidate_id": "1978nslrb1000086",
+    "candidate_title": "International Union of Operating Engineers, Local 721 v Nova Scotia Power Corporation",
+    "query_text": "decision | <i>International Union\nof Operating Engineers, Local 721 v. Nova Scotia Power Corporation</i> (1977) | N.S.L.R.B. Decision # 467C",
+    "method": "fuzzy",
+    "matched_key": "international union of operating engineers local 721 v nova scotia power corporation 1977",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j7dth",
+        "score": 0.9710982658959537,
+        "candidate_title": "International Union of Operating Engineers, Local 721 v Nova Scotia Power Corporation"
+      }
+    ]
+  },
+  "LRB 1622C United Brotherhood of Carpenters and Joiners of America, Local 83 and Quinpool Properties Ltd.": {
+    "uri": "https://canlii.ca/t/j69w3",
+    "score": 0.8854166666666666,
+    "candidate_id": "1995nslrb1000000",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited",
+    "query_text": "decision | LRB 1622C United Brotherhood of Carpenters and\nJoiners of America, Local 83 and Quinpool Properties Ltd.",
+    "method": "fuzzy",
+    "matched_key": "lrb 1622c united brotherhood of carpenters and joiners of america local 83 and quinpool properties ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.8854166666666666,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      }
+    ]
+  },
+  "Labour Relations Act": {
+    "uri": "https://canlii.ca/t/2gr",
+    "score": 2.0,
+    "candidate_id": "l243!243-current-1",
+    "candidate_title": "Labour Relations Act",
+    "query_text": "legislation | Labour Relations Act",
+    "method": "title_exact",
+    "matched_key": "labour relations act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2gr",
+        "score": 2.0,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 2.0,
+        "candidate_title": "Labour Relations Act"
+      }
+    ]
+  },
+  "Sheet Metal Workers’ International Association, Local 562 v. Ridsdale Steel Fabricators Inc.": {
+    "uri": "https://canlii.ca/t/281xt",
+    "score": 2.0,
+    "candidate_id": "1987onlrb1000202",
+    "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc.",
+    "query_text": "decision | Sheet Metal Workers’ International\nAssociation, Local 562 v. Ridsdale Steel Fabricators Inc. | [1987] OLRB Rep.\nApril 601",
+    "method": "title_exact",
+    "matched_key": "sheet metal workers international association local 562 v ridsdale steel fabricators inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/281xt",
+        "score": 2.0,
+        "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc."
+      }
+    ]
+  }
+}

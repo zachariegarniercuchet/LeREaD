@@ -1,0 +1,1542 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:200%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	text-decoration:underline;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:13.8pt;
+	margin-right:0in;
+	margin-bottom:13.8pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:13.8pt;
+	margin-right:0in;
+	margin-bottom:13.8pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:13.8pt;
+	margin-right:0in;
+	margin-bottom:13.8pt;
+	margin-left:1.5in;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:13.8pt;
+	margin-right:0in;
+	margin-bottom:13.8pt;
+	margin-left:2.0in;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:15.0pt;
+	margin-left:0in;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria",serif;
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Titre Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria",serif;
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Titre Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria",serif;
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:15.0pt;
+	margin-left:0in;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria",serif;
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Sous-titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{font-family:"Arial",sans-serif;
+	color:#3300CC;
+	text-decoration:none none;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Objet du commentaire Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:0in;
+	margin-right:21.25pt;
+	margin-bottom:12.0pt;
+	margin-left:21.25pt;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-link:"Citation intense Car";
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StatMarginalNote, li.StatMarginalNote, div.StatMarginalNote
+	{mso-style-name:StatMarginalNote;
+	margin-top:0in;
+	margin-right:21.25pt;
+	margin-bottom:12.0pt;
+	margin-left:21.25pt;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	font-weight:bold;}
+p.QuoteL1, li.QuoteL1, div.QuoteL1
+	{mso-style-name:"Quote – L1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.Judgment, li.Judgment, div.Judgment
+	{mso-style-name:Judgment;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Arial",sans-serif;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	text-decoration:underline;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:italic;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Times New Roman",serif;}
+p.AppealsNoted, li.AppealsNoted, div.AppealsNoted
+	{mso-style-name:"Appeals Noted";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.AppearancesList, li.AppearancesList, div.AppearancesList
+	{mso-style-name:"Appearances List";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:18.15pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.Application, li.Application, div.Application
+	{mso-style-name:Application;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:9.05pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.Case, li.Case, div.Case
+	{mso-style-name:Case;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;}
+p.CasesCitedList, li.CasesCitedList, div.CasesCitedList
+	{mso-style-name:"Cases Cited List";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:15.6pt;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.CasesCitedSubtitle, li.CasesCitedSubtitle, div.CasesCitedSubtitle
+	{mso-style-name:"Cases Cited Subtitle";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:15.6pt;
+	text-align:justify;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:8.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	text-transform:uppercase;}
+p.CasesCitedTitle, li.CasesCitedTitle, div.CasesCitedTitle
+	{mso-style-name:"Cases Cited Title";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:9.05pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:9.5pt;
+	font-family:"Arial (W1)",sans-serif;
+	color:black;
+	text-transform:uppercase;}
+p.Court, li.Court, div.Court
+	{mso-style-name:Court;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.Endnote, li.Endnote, div.Endnote
+	{mso-style-name:Endnote;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	}
+p.Firsttitle, li.Firsttitle, div.Firsttitle
+	{mso-style-name:"First title";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	text-transform:uppercase;
+	font-weight:bold;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Times New Roman",serif;}
+p.FourthTitle, li.FourthTitle, div.FourthTitle
+	{mso-style-name:"Fourth Title";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Times New Roman",serif;}
+p.Headnote, li.Headnote, div.Headnote
+	{mso-style-name:Headnote;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:9.05pt;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.OfficialCitation, li.OfficialCitation, div.OfficialCitation
+	{mso-style-name:"Official Citation";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:right;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.ParagNum, li.ParagNum, div.ParagNum
+	{mso-style-name:ParagNum;
+	margin-top:27.6pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Parties, li.Parties, div.Parties
+	{mso-style-name:Parties;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.Reference, li.Reference, div.Reference
+	{mso-style-name:Reference;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:15.9pt;
+	text-align:justify;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.SecondTitle, li.SecondTitle, div.SecondTitle
+	{mso-style-name:"Second Title";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-variant:small-caps;
+	color:black;}
+p.Text, li.Text, div.Text
+	{mso-style-name:Text;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:9.65pt;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.ThirdTitle, li.ThirdTitle, div.ThirdTitle
+	{mso-style-name:"Third Title";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	font-style:italic;}
+span.TitreCar
+	{mso-style-name:"Titre Car";
+	mso-style-link:Titre;
+	font-family:"Cambria",serif;
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.StatsandRegsList, li.StatsandRegsList, div.StatsandRegsList
+	{mso-style-name:"Stats and Regs List";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:22.7pt;
+	text-indent:-7.1pt;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.StatsandRegsTitle, li.StatsandRegsTitle, div.StatsandRegsTitle
+	{mso-style-name:"Stats and Regs Title";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:9.05pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:9.5pt;
+	font-family:"Arial",sans-serif;
+	font-variant:small-caps;
+	color:black;}
+span.Sous-titreCar
+	{mso-style-name:"Sous-titre Car";
+	mso-style-link:Sous-titre;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.StyleBoldLinespacingDouble, li.StyleBoldLinespacingDouble, div.StyleBoldLinespacingDouble
+	{mso-style-name:"Style Bold Line spacing\:  Double";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	text-decoration:underline;}
+span.CitationintenseCar
+	{mso-style-name:"Citation intense Car";
+	mso-style-link:"Citation intense";
+	font-family:"Times New Roman",serif;}
+p.UpperCase, li.UpperCase, div.UpperCase
+	{mso-style-name:UpperCase;
+	mso-style-link:"UpperCase Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;}
+span.UpperCaseChar
+	{mso-style-name:"UpperCase Char";
+	mso-style-link:UpperCase;
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;}
+p.UPPERCASEBold, li.UPPERCASEBold, div.UPPERCASEBold
+	{mso-style-name:"UPPERCASE Bold";
+	mso-style-link:"UPPERCASE Bold Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:2.5in;
+	margin-bottom:.0001pt;
+	text-indent:-2.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+span.UPPERCASEBoldChar
+	{mso-style-name:"UPPERCASE Bold Char";
+	mso-style-link:"UPPERCASE Bold";
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.StyleRightLinespacingDouble, li.StyleRightLinespacingDouble, div.StyleRightLinespacingDouble
+	{mso-style-name:"Style Right Line spacing\:  Double";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.StyleRightBold, li.StyleRightBold, div.StyleRightBold
+	{mso-style-name:"Style Right Bold";
+	mso-style-link:"Style Right Bold Char Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.StyleUnderline, li.StyleUnderline, div.StyleUnderline
+	{mso-style-name:StyleUnderline;
+	mso-style-link:"StyleUnderline Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	text-decoration:underline;}
+p.StyleTimesNewRomanLinespacingDouble, li.StyleTimesNewRomanLinespacingDouble, div.StyleTimesNewRomanLinespacingDouble
+	{mso-style-name:"Style Times New Roman Line spacing\:  Double";
+	mso-style-link:"Style Times New Roman Line spacing\:  Double Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.StyleUnderlineChar
+	{mso-style-name:"StyleUnderline Char";
+	mso-style-link:StyleUnderline;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	text-decoration:underline;}
+span.StyleTimesNewRomanLinespacingDoubleChar
+	{mso-style-name:"Style Times New Roman Line spacing\:  Double Char";
+	mso-style-link:"Style Times New Roman Line spacing\:  Double";
+	font-family:"Times New Roman",serif;}
+p.StyleCenteredLeft1016cmTopSinglesolidlineAuto0, li.StyleCenteredLeft1016cmTopSinglesolidlineAuto0, div.StyleCenteredLeft1016cmTopSinglesolidlineAuto0
+	{mso-style-name:"Style Centered Left\:  10\.16 cm Top\: \(Single solid line Auto  0\.\.\.\.";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:4.0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:200%;
+	border:none;
+	padding:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.StyleRightBoldCharChar
+	{mso-style-name:"Style Right Bold Char Char";
+	mso-style-link:"Style Right Bold";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Stylerightboldsingle, li.Stylerightboldsingle, div.Stylerightboldsingle
+	{mso-style-name:"Style right bold single";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.CENTEREDBOLD, li.CENTEREDBOLD, div.CENTEREDBOLD
+	{mso-style-name:"CENTERED BOLD";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.LEFTBOLD, li.LEFTBOLD, div.LEFTBOLD
+	{mso-style-name:"LEFT BOLD";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.RIGHTBOLD, li.RIGHTBOLD, div.RIGHTBOLD
+	{mso-style-name:"RIGHT BOLD";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.StyleUpperCaseLeft0Hanging25, li.StyleUpperCaseLeft0Hanging25, div.StyleUpperCaseLeft0Hanging25
+	{mso-style-name:"Style UpperCase + Left\:  0\0022 Hanging\:  2\.5\0022";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:4.0in;
+	margin-bottom:.0001pt;
+	text-indent:-4.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;}
+p.StyleUpperCaseLeft-001, li.StyleUpperCaseLeft-001, div.StyleUpperCaseLeft-001
+	{mso-style-name:"Style UpperCase + Left\:  -0\.01\0022";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;}
+p.StyleLeft-001, li.StyleLeft-001, div.StyleLeft-001
+	{mso-style-name:"Style Left\:  -0\.01\0022";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Segoe UI",sans-serif;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;}
+span.ObjetducommentaireCar
+	{mso-style-name:"Objet du commentaire Car";
+	mso-style-link:"Objet du commentaire";
+	font-weight:bold;}
+p.QuoteWithinaQuote, li.QuoteWithinaQuote, div.QuoteWithinaQuote
+	{mso-style-name:"Quote Within a Quote";
+	mso-style-link:"Quote Within a Quote Char";
+	margin-top:0in;
+	margin-right:42.55pt;
+	margin-bottom:12.0pt;
+	margin-left:42.55pt;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.QuoteWithinaQuoteChar
+	{mso-style-name:"Quote Within a Quote Char";
+	mso-style-link:"Quote Within a Quote";
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.timesnewroman, li.timesnewroman, div.timesnewroman
+	{mso-style-name:"times new roman";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:200%;
+	font-size:14.0pt;
+	font-family:"Shruti",serif;
+	font-style:italic;}
+span.italic1
+	{mso-style-name:italic1;}
+span.solexhl
+	{mso-style-name:solexhl;}
+p.statsandregslist0, li.statsandregslist0, div.statsandregslist0
+	{mso-style-name:statsandregslist;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="#3300CC" vlink="#954F72">
+<div class="WordSection1">
+<p class="OfficialCitation">A-417-18</p>
+<p class="OfficialCitation"> 2020 FCA 63</p>
+<p align="right" class="MsoNormal" style="text-align:right;line-height:200%"><span style='font-size:12.0pt;line-height:200%;font-family:"Times New Roman",serif;
+color:black'> </span></p>
+<p class="Parties"><b>Attorney General of Canada </b>(<i>Appellant</i>)</p>
+<p class="Parties"><i>v.</i></p>
+<p class="Parties"><b>Northern Inter-Tribal Health Authority
+Inc. </b>and<b> Peter Ballantyne Cree Nation Health
+Services Incorporated</b> (<i>Respondents</i>)</p>
+<p class="Judgment"><b><i><span style="font-variant:small-caps">Indexed
+as: Canada (Attorney General) v. Northern Inter-Tribal Health Authority Inc.</span></i></b></p>
+<p class="Judgment">Federal Court of Appeal, Stratas, de
+Montigny and Laskin JJ.A.—Saskatoon, March 9; Ottawa, March 17, 2020. </p>
+<p class="Headnote"><i>Constitutional Law –– Distribution of Powers –– A</i><i>ppeal
+from Federal Court decision allowing application for judicial review of decision
+of federal Superintendent of Financial Institutions who decided that
+respondents’ pension plans provincially regulated, refused to regulate them any
+further –– Respondents challenging Superintendent’s decisions through joint
+judicial review application in Federal Court –– Federal Court quashing
+decisions of Superintendent who based decisions on Supreme Court’s controlling
+authority of NIL/TU,O Child and Family Services Society v. B.C. Government and
+Service Employees’ Union; holding that Superintendent erring; that pension
+plans federally regulated –– Treaties Nos. 6, 8 and 10 key to Federal Court’s
+decision –– Superintendent acting under federal Pension Benefits Standards Act,
+1985, s. 4(4) –– Under s. 4(4), having to assess whether respondents’ undertakings
+within Parliament of Canada’s legislative authority –– While parties agreeing
+health care provincial matter, respondents submitting that Crown obligated by
+Treaties to ensure health care provided to Indigenous peoples, which
+transformed situation, rendering respondents’ undertakings federal –– Whether
+Superintendent properly interpreting, applying constitutional case law
+concerning legislative authority of Parliament of Canada; more particularly,
+whether Treaties at issue affecting constitutional analysis –– Superintendent
+right to reject respondents’ submission –– Superintendent failing to find
+substantial Indigenous component in respondents’ functions –– <span style="background:white">Superintendent focussed on question of </span></i><span class="CitationCar"><i><span style='font-family:"Times New Roman",serif'>“legislative
+authority”</span></i></span><i><span style="background:white"> under </span></i><i>Pension
+Benefits Standards Act</i><i>, 1985, s. <span style="background:white">4(4),
+identified NIL/TU,O as controlling authority, applied authority, concluded that
+respondents’ undertakings functionally health care undertakings </span>––<span style="background:white"> Superintendent correct in concluding that
+respondents’ undertakings thus under legislative authority of province </span>––<span style="background:white"> Legislative authority to regulate health care
+undertakings lying with province — Labour relations of employees in provincial
+undertakings, including pensions thereof, also presumptively subject to
+provincial regulation </span>––<span style="background:white"> Respondents’
+undertakings thus under provincial legislative authority </span>––<span style="background:white"> Federal Court going astray in analysis </span>––<span style="background:white"> Concentrated on terms of Treaties, Constitution Act,
+1982, s. 35 </span>––<span style="background:white"> Diverting itself from task
+NIL/TU,O required it to do, committed error of law </span>––<span style="background:white"> Treaties, rights therein, not changing question
+Superintendent having to ask himself under </span>Pension Benefits Standards
+Act, 1985, s. 4(4) as to who having </i><span class="CitationCar"><i><span style='font-family:"Times New Roman",serif'>“legislative authority”</span></i></span><i>
+to regulate respondents’ undertakings ––<span style="background:white"> Answer
+to question </span>found only in assignment, distribution of exclusive
+legislative authority in Constitution Act, 1867, ss. 91–95 –– Federal Court
+should not have quashed Superintendent’s decisions –– Appeal allowed.</i></p>
+<p class="Headnote"><i>Constitutional Law — Aboriginal and Treaty Rights —
+Superintendent of Financial Institutions deciding that respondents’ pension
+plans provincially regulated, refusing to regulate them any further –– Federal
+Court quashing decisions of Superintendent –– Treaties Nos. 6, 8 and 10 key to
+Federal Court’s decision –– Superintendent acting under federal Pension
+Benefits Standards Act, 1985, s. 4(4) –– Under s. 4(4), having to assess
+whether respondents’ undertakings within Parliament of Canada’s legislative
+authority — While parties agreeing health care provincial matter, respondents
+submitting that Crown obligated by Treaties to ensure health care provided to
+Indigenous peoples, which transformed situation, rendering respondents’
+undertakings federal –– Whether Treaties at issue affecting constitutional
+analysis –– <span style="background:white">Superintendent correct in concluding
+that respondents’ undertakings under legislative authority of province </span>––
+<span style="background:white">Federal Court going astray in analysis </span>––<span style="background:white"> Concentrated on terms of Treaties, Constitution Act,
+1982, s. 35 </span>–– <span style="background:white">Treaties, rights therein,
+not changing question Superintendent having to ask himself under </span>Pension
+Benefits Standards Act, 1985, s. 4(4) as to who having </i><span class="CitationCar"><i><span style='font-family:"Times New Roman",serif'>“legislative
+authority”</span></i></span><i> to regulate respondents’ undertakings ––<span style="background:white"> Answer to question </span>found only in assignment,
+distribution of exclusive legislative authority in Constitution Act, 1867, ss.
+91–95.</i></p>
+<p class="Headnote"><i>Aboriginal Peoples — Superintendent of Financial
+Institutions deciding that respondents’ pension plans provincially regulated,
+refusing to regulate them any further –– Federal Court quashing decisions of
+Superintendent –– Treaties Nos. 6, 8 and 10 key to Federal Court’s decision –– Superintendent
+acting under federal Pension Benefits Standards Act, 1985, s. 4(4) –– Under s.
+4(4), having to assess whether respondents’ undertakings within Parliament of
+Canada’s legislative authority — While parties agreeing health care provincial
+matter, respondents submitting that Crown obligated by Treaties to ensure
+health care provided to Indigenous peoples, which transformed situation,
+rendering respondents’ undertakings federal –– Superintendent failing to find
+substantial Indigenous component in respondents’ functions,<span style="background:white"> correct in concluding that respondents’ undertakings
+under legislative authority of province </span>–– <span style="background:white">Federal
+Court going astray in analysis </span>––<span style="background:white">
+Concentrated on terms of Treaties, Constitution Act, 1982, s. 35 </span>–– <span style="background:white">Treaties, rights therein, not changing question
+Superintendent having to ask himself under </span>Pension Benefits Standards
+Act, 1985, s. 4(4) as to who having </i><span class="CitationCar"><i><span style='font-family:"Times New Roman",serif'>“legislative authority”</span></i></span><i>
+to regulate respondents’ undertakings ––<span style="background:white"> Answer
+to question </span>found only in assignment, distribution of exclusive
+legislative authority in Constitution Act, 1867, ss. 91–95.</i></p>
+<p class="Headnote"><i>Pensions — Superintendent of Financial Institutions,
+acting under federal Pension Benefits Standards Act, 1985, s. 4(4), deciding
+that respondents’ pension plans provincially regulated, refusing to regulate
+them any further –– Under s. 4(4), Superintendent having to assess whether
+respondents’ undertakings within Parliament of Canada’s legislative authority —
+While parties agreeing health care provincial matter, respondents submitting
+that Crown obligated by Treaties to ensure health care provided to Indigenous
+peoples, which transformed situation, rendering respondents’ undertakings
+federal –– Superintendent failing to find substantial Indigenous component in
+respondents’ functions,<span style="background:white"> correct in concluding
+that respondents’ undertakings under legislative authority of province </span>––
+Q<span style="background:white">uestion Superintendent having to ask himself
+under </span>Pension Benefits Standards Act, 1985, s. 4(4): who had </i><span class="CitationCar"><i><span style='font-family:"Times New Roman",serif'>“legislative
+authority”</span></i></span><i> to regulate respondents’ undertakings ––<span style="background:white"> Answer to question </span>found only in assignment,
+distribution of exclusive legislative authority in Constitution Act, 1867, ss.
+91–95.</i></p>
+<p class="Headnote">This was an appeal from a Federal Court decision allowing an
+application for judicial review of a decision of the federal Superintendent of
+Financial Institutions who decided that the respondents’ pension plans were
+provincially regulated and refused to regulate them any further. The
+respondents challenged the Superintendent’s decisions by way of a joint
+application for judicial review in the Federal Court. The Federal Court quashed
+the decisions of the Superintendent who based these decisions on the Supreme
+Court’s controlling authority of <i>NIL/TU,O Child and Family Services Society
+v. B.C. Government and Service Employees’ Union</i>. The Federal Court held
+that the Superintendent erred and that the pension plans were federally
+regulated. Key to the Federal Court’s decision were Treaties Nos. 6, 8 and 10,
+all of which contain promises made by the Crown regarding health care for
+Indigenous peoples.</p>
+<p class="Headnote">  In this case, the Superintendent was acting under
+subsection 4(4) of the federal <i>Pension Benefits Standards Act, 1985</i>. The
+real dispute here was how the Superintendent went about applying the
+subsection. In applying the subsection, the Superintendent had to assess
+whether the respondents’ undertakings were within the legislative authority of
+the Parliament of Canada. In this particular case, the assessment involved
+three separate steps. The first step involved interpreting the constitutional
+case law concerning the legislative authority of the Parliament of Canada. </p>
+<p class="Headnote">  The parties agreed that the
+provision of health care is a provincial matter. But the respondents submitted
+that the Crown is obligated by the Treaties to ensure health care is provided
+to Indigenous peoples. This, they claimed, transformed the situation, rendering
+the respondents’ undertakings federal because they fall within the federal
+legislative authority concerning Indigenous peoples and First Nations pursuant
+to the <i>Constitution Act, 1867</i>, subsection 91(24). The appellant
+disagreed citing the Supreme Court’s decision in <i>NIL/TU, O</i>.</p>
+<p class="Headnote">  The main issue was whether the Superintendent properly
+interpreted and applied the constitutional case law concerning the legislative
+authority of the Parliament of Canada and, more particularly, whether the
+Treaties at issue affected the constitutional analysis.</p>
+<p class="Headnote"><i>Held</i>, the appeal should be allowed.</p>
+<p class="Headnote">  The respondents’ submission was basically the same as that
+advanced by the unsuccessful parties in <i>NIL/TU, O</i>. The Supreme Court
+rejected this submission and, in this case, the Superintendent was right to
+reject it too. The Superintendent correctly identified <i>NIL/TU, O</i> as the
+controlling authority. In the case at bar, the respondents submitted that their
+functions have a distinct and substantial Indigenous component that affected
+the analysis under the first branch. This was the very submission rejected in <i>NIL/TU,
+O</i>. Even if the respondents’ view of the law was correct, their submission
+failed for another reason: the Superintendent failed to find a substantial
+Indigenous component in the respondents’ functions, a factual assessment that
+was deferred to. Here<span style="background:white">, the Superintendent
+focused on the question of </span><span class="CitationCar"><span style='font-family:"Times New Roman",serif'>“legislative authority”</span></span><span style="background:white"> under subsection 4(4) of the </span>federal <i>Pension
+Benefits Standards Act</i><i>, 1985</i>, <span style="background:white">identified
+<i>NIL/TU, O</i> as the controlling authority, applied that authority, and
+concluded that the respondents’ undertakings were functionally health care
+undertakings. The Superintendent based this conclusion on facts that were
+undisputed and explained it to the respondents in two decision letters. From
+there, the Superintendent’s analysis was purely legal and led to the conclusion
+that the respondents’ undertakings were under the legislative authority of the
+province. The Superintendent was correct. The legislative authority to regulate
+health care undertakings lies with the province. And the labour relations of
+employees in provincial undertakings, including their pensions, are
+presumptively subject to provincial regulation. On the undisputed facts, the
+respondents’ undertakings are under the legislative authority of the province.</span></p>
+<p class="Headnote"><span style="background:white">  In its analysis, the Federal
+Court went astray. Rather than focusing on which level of government has the
+legislative authority to regulate the respondents’ undertakings and rather than
+strictly following the controlling authority of<i> NIL/TU,O, </i>the Federal
+Court concentrated on the terms of the Treaties, the importance and solemnity
+of the Treaties, and section 35 of the<i> Constitution Act, 1982</i>,<i> </i>which
+recognizes and affirms treaty rights. By doing that, the Federal Court diverted
+itself from the task<i> NIL/TU, O </i>required it to do and this was an error
+of law. </span>The Treaties and the rights in them did not change the question
+that the Superintendent had to answer under subsection 4(4) of the <i>Pension
+Benefits Standards Act, 1985</i>: who has the <span class="CitationCar"><span style='font-family:"Times New Roman",serif'>“legislative authority”</span></span>
+to regulate these undertakings? The answer to that question is found only in
+the assignment and distribution of exclusive legislative authority in sections
+91 to 95 of the <i>Constitution Act, 1867</i>, as interpreted in this context
+by the Supreme Court in <i><span style="background:white">NIL/TU, O</span></i>.
+</p>
+<p class="Headnote">  The Treaties obligate the federal government to ensure that
+health care is provided to the relevant Indigenous peoples. The parties agreed
+for the purposes of this case that this obligation could be discharged by the
+federal government providing funding. But an obligation to provide funding to
+an undertaking has nothing to do with its function, which is the primary focus
+of the first branch of the test in <i>NIL/TU, O</i>. In this case, the
+undertakings’ functions remained the provision of health care, which is
+provincially regulated, as are the respondents’ pension plans. Since the first
+branch of the <i>NIL/TU, O</i> test was determinative of the question here,
+there was no need to consider the second branch of that test. It followed that
+the Superintendent was correct in deciding that the respondents’ pension plans
+were provincially regulated. The Federal Court should not have quashed the Superintendent’s
+decisions.</p>
+<p class="StatsandRegsTitle">STATUTES AND REGULATIONS CITED</p>
+<p class="StatsandRegsList"><i>Constitution Act, 1867</i>, 30 &amp; 31 Vict., c.
+3 (U.K.) (as am. by <i>Canada Act 1982</i>, 1982, c. 11 (U.K.), Schedule
+to the <i>Constitution Act, 1982</i>, Item 1) [R.S.C., 1985, Appendix II,
+No. 5], ss. 91–95.</p>
+<p class="StatsandRegsList"><span class="solexhl"><i><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>Constitution</span></i></span><span class="italic1"><i><span style='font-size:12.0pt;font-family:"Times New Roman",serif'> </span></i></span><span class="solexhl"><i><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>Act</span></i></span><span class="italic1"><i><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>, </span></i></span><span class="solexhl"><i><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>1982</span></i></span>,
+Schedule B, <span class="italic1"><i><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>Canada </span></i></span><span class="solexhl"><i><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>Act</span></i></span><span class="italic1"><i><span style='font-size:12.0pt;font-family:"Times New Roman",serif'> </span></i></span><span class="solexhl"><i><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>1982</span></i></span>, <span class="solexhl"><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>1982</span></span>,
+c. 11 (U.K.) [R.S.C., 1985, Appendix II, No. 44], s. 35.</p>
+<p class="StatsandRegsList"><i>Federal Courts Rules</i>, SOR/98-106, rr. 72, 303.</p>
+<p class="StatsandRegsList"><i>Pension Benefits Standards Act, 1985</i>, R.S.C.,
+1985 (2nd Supp.), c. 32, s. 4(4).</p>
+<p class="StatsandRegsList"><i>The Pension Benefits Act, 1992</i>, S.S. 1992, c.
+P-6.001.</p>
+<p class="StatsandRegsTitle">TREATIES AND OTHER INSTRUMENTS CITED</p>
+<p class="StatsandRegsList">Treaty No. 6 (1876).</p>
+<p class="StatsandRegsList">Treaty No. 8 (1899).</p>
+<p class="StatsandRegsList">Treaty No. 10 (1906).</p>
+<p class="StatsandRegsTitle">CASES CITED</p>
+<p class="CasesCitedSubtitle">FOLLOWED:</p>
+<p class="CasesCitedList"><i>NIL/TU,O Child and Family Services
+Society v. B.C. Government and Service Employees’ Union</i>, 2010 SCC 45, [2010] 2 S.C.R. 696.</p>
+<p class="CasesCitedSubtitle">APPLIED:</p>
+<p class="CasesCitedList"><i><span style="background:white">Nishnawbe-Aski
+Police Service Board v. Public Service Alliance of Canada</span></i><span style="background:white">, 2015 FCA 211, </span><span class="MsoHyperlink"><u><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif;color:black;background:white'><a href="https://reports.fja-cmf.gc.ca/fja-cmf/j/en/item/332713/index.do">[2016] 2
+F.C.R. 351</a></span></u></span><span class="MsoHyperlink"><span style='font-size:12.0pt;font-family:"Times New Roman",serif;color:black;
+background:white'>; </span></span><i><span style="background:white">Canada
+(Minister of Citizenship and Immigration) v. Vavilov</span></i><span style="background:white">, 2019 SCC 65, 59 Admin. </span><span style="background:white">L.R. (6th) 1.</span></p>
+<p class="CasesCitedSubtitle"><span style="background:white">CONSIDERED:</span></p>
+<p class="CasesCitedList"><i><span style="background:white">Northern
+Telecom v. Communications Workers</span></i><span style="background:
+white">, [1980] 1 S.C.R. 115, (1979), 98 D.L.R. (3d) 1.</span></p>
+<p class="CasesCitedSubtitle">REFERRED TO:</p>
+<p class="CasesCitedList"><i>Delios v. Canada (Attorney General)</i>, 2015 FCA 117, 472 N.R. 171; <i>Canada (Attorney General) v.
+Boogaard</i>, 2015 FCA 150, 474 N.R. 121; <i>Canada (Citizenship and
+Immigration) v. Singh</i>, 2016 FCA 300, <span class="MsoHyperlink"><u><span style='font-size:12.0pt;font-family:"Times New Roman",serif;color:black'><a href="https://reports.fja-cmf.gc.ca/fja-cmf/j/en/item/330853/index.do">[2017] 3
+F.C.R. 263</a></span></u></span>; <i><span style="background:white">Agraira
+v. Canada (Public Safety and Emergency Preparedness)</span></i><span style="background:white">, 2013 SCC 36, [2013] 2 S.C.R. 559; </span><i><span style="background:white">Syndicat des agents de sécurité Garda, Section CPI-CSN
+v. Garda Canada Security Corporation</span></i><span style="background:white">, 2011
+FCA 302, 430 N.R. 84; </span><i>Telecon Inc. v.
+International Brotherhood of Electrical Workers, Local Union No. 213</i>, 2019 FCA 244, 439 D.L.R. (4th) 558; <i><span style="background:
+white">Innu Matimekush-Lac John Nation Council v. Association of Employees of
+Northern Quebec (CSQ)</span></i><span style="background:white">, 2017 FCA 212; <i>Construction
+Montcalm Inc. v. Min. Wage Com.</i>, [1979] 1 S.C.R. 754, (1978), 93 D.L.R.
+(3d) 641; <i>Association of Universities and Colleges of Canada v. Canadian
+Copyright Licensing Agency (Access Copyright)</i>, 2012 FCA 22, 428 N.R. 297; <i>Bernard
+v. Canada (Revenue Agency)</i>, 2015 FCA 263, 479 N.R. 189;<i> Butterfield v.
+Canada (Attorney General)</i>, 2005 FC 396, 280 F.T.R. 101; <i>Canada (Attorney
+General) v. PHS Community Services Society</i>, 2011 SCC 44,<i> </i>[2011] 3
+S.C.R. 134; <i>Eldridge v. British Columbia (Attorney General)</i>, [1997] 3
+S.C.R. 624, (1997), 151 D.L.R. (4th) 577; <i>Chaoulli v. Quebec (Attorney
+General)</i>, 2005 SCC 35, [2005] 1 S.C.R. 791; </span><i><span style="background:white">Tessier Ltée v. Quebec (Commission de la santé et de
+la sécurité du travail)</span></i><span style="background:white">, 2012 SCC
+23, [2012] 2 S.C.R. 3; </span><i><span style="background:white">Consolidated
+Fastfrate Inc. v. Western Canada Council of Teamsters</span></i><span style="background:white">, 2009 SCC 53, [2009] 3 S.C.R.
+407; <i>Reference Re Canada Assistance Plan (B.C.)</i>, [1991] 2 S.C.R. 525,
+(1991), 83 D.L.R. (4th) 297; <i>R. v. Sparrow</i>, [1990] 1 S.C.R. 1075,
+(1990), 70 D.L.R. (4th) 385; <i>Tsilhqot’in Nation v. British Columbia</i>,
+2014 SCC 44, [2014] 2 S.C.R. 257; <i>Siksika Health Services v. Health Sciences
+Association of Alberta</i>, 2019 ABCA 494, 99 Alta. L.R. (6th) 73; <i>Paul v.
+British Columbia (Forest Appeals Commission)</i>, 2003 SCC 55, [2003] 2 S.C.R.
+585; <i>Adler v. Ontario</i>, [1996] 3 S.C.R. 609, (1996), 140 D.L.R.
+(4th) 385; <i>Gosselin (Tutor of) v. Quebec (Attorney General)</i>, 2005
+SCC 15, [2005] 1 S.C.R. 238.</span></p>
+<p class="Application">  APPEAL from a Federal Court decision (2018
+FC 1180, <a href="https://reports.fja-cmf.gc.ca/fja-cmf/j/en/item/424150/index.do">[2019] 2
+F.C.R. 174</a>) granting an application for judicial review of a decision of
+the federal Superintendent of Financial Institutions who decided that the
+respondents’ pension plans were provincially regulated and refused to regulate
+them any further. Appeal allowed.</p>
+<p class="StatsandRegsTitle">APPEARANCES</p>
+<p class="AppearancesList"><i>Marlon Miller </i>and<i> Cailen Brust </i>for
+appellant.</p>
+<p class="AppearancesList"><i>Carl M. Nahachewsky </i>for respondents.</p>
+<p class="StatsandRegsTitle">SOLICITORS OF RECORD</p>
+<p class="AppearancesList"><i>Deputy Attorney General of Canada</i> for
+appellant.</p>
+<p class="AppearancesList"><i>Nahachewsky Law Office</i>, Prince Albert,
+Saskatchewan, for respondents.</p>
+<p class="Judgment">            <i>The following are the reasons
+for judgment rendered in English by</i></p>
+<p class="Judgment" style="line-height:150%">[1]        <span style="font-variant:small-caps">Stratas J.A.: </span>The federal Superintendent
+of Financial Institutions decided that the respondents’ pension plans were
+provincially regulated. Thus, he refused to regulate them any further. The
+Superintendent based these decisions on the Supreme Court’s controlling
+authority of <i>NIL/TU,O Child and Family Services Society v. B.C. Government
+and Service Employees’ Union</i>, 2010 SCC 45, [2010] 2 S.C.R. 696 (<i>NIL/TU,
+O</i>). </p>
+<p class="Judgment" style="line-height:150%">[2]        The
+respondents challenged the Superintendent’s decisions by way of a joint
+application for judicial review in the Federal Court. </p>
+<p class="Judgment" style="line-height:150%">[3]        The
+Federal Court (<i>per</i> Mandamin J.) held that the Superintendent erred. In
+the Federal Court’s view, the pension plans were federally regulated. Key to
+the Federal Court’s decision were Treaties Nos. 6, 8 and 10, all of which
+contain promises made by the Crown regarding health care for Indigenous
+peoples. Thus, the Federal Court granted the application for judicial review
+and quashed the Superintendent’s decisions: 2018 FC 1180, <a href="https://reports.fja-cmf.gc.ca/fja-cmf/j/en/item/424150/index.do">[2019] 2
+F.C.R. 174</a>, 47 Admin. L.R. (6th) 165. The Attorney General now appeals.</p>
+<p class="Judgment" style="line-height:150%">[4]        I would
+allow the appeal. The function of the works or undertakings must be the focus
+of analysis: <i>NIL/TU,O</i>, at paragraphs 3, and 13–18. Here, the function of
+the respondents’ undertakings is to provide health care, a provincially
+regulated matter. It follows that the pension rights and obligations concerning
+those undertakings are also provincially regulated: <i>NIL/TU,O</i>, at paragraph
+11. While the Treaties obligate the Crown to provide health care, they have no
+bearing on the function of the health care undertakings themselves, which
+remain provincially regulated. </p>
+<p class="Judgment" style="line-height:150%"><u>The legislative
+framework</u></p>
+<p class="Judgment" style="line-height:150%">[5]        Before
+the <i>NIL/TU,O</i> decision and before the Superintendent’s decisions, the
+federal <i>Pension Benefits Standards Act</i><i>, 1985</i>, R.S.C., 1985 (2nd
+Supp.), c. 32  regulated the respondents’ pension plans. <i>The Pension
+Benefits Act, 1992</i>, S.S. 1992, c. P-6.001, a provincial statute, did not
+apply. </p>
+<p class="Judgment" style="line-height:150%">[6]        The
+federal <i>Pension Benefits Standards Act, 1985</i> applies to the pension
+plans of employees in <span class="CitationCar"><span style="line-height:150%;color:black">“included employment”</span></span>. <span class="CitationCar"><span style="line-height:
+150%;color:black">“Included employment”</span></span> is <span class="CitationCar"><span style="line-height:150%;color:black">“employment
+… on or in connection with the operation of any work, undertaking or business
+that is within the legislative authority of the Parliament of Canada”</span></span>: <i>Pension Benefits Standards Act, 1985</i>, subsection 4(4). The <span class="CitationCar"><span style="line-height:150%;color:black">“legislative
+authority of the Parliament of Canada”</span></span> is
+determined by examining sections 91–95 of the <i>Constitution Act, 1867</i> (in
+Part VI, <span class="CitationCar"><span style="line-height:
+150%;color:black">“Distribution of Legislative Powers”</span></span>) and any controlling authorities interpreting those sections. If
+the undertaking in which the employees work is within the legislative authority
+of the Parliament of Canada, the federal <i>Pension Benefits Standards Act,
+1985</i> applies. </p>
+<p class="Judgment" style="line-height:150%"><u>The nature of
+the Superintendent’s decision</u></p>
+<p class="Judgment" style="line-height:150%">[7]        When
+determining an application for judicial review in complicated cases, a
+reviewing court should identify with precision the true nature of the administrative
+decision being reviewed: <i><span style="background:white">Delios v. Canada
+(Attorney General)</span></i><span style="background:white">, 2015 FCA
+117, 472 N.R. 171, at paragraphs 18 and 26–28; <i>Canada
+(Attorney General) v. Boogaard</i>, 2015 FCA 150, 474 N.R. 121, at
+paragraph 36; <i>Canada (Citizenship and Immigration) v. Singh</i>, 2016 FCA
+300, </span><span style="line-height:150%"><a href="https://reports.fja-cmf.gc.ca/fja-cmf/j/en/item/330853/index.do">[2017] 3
+F.C.R. 263</a>,</span><span style="background:white">  at paragraph
+8.</span> </p>
+<p class="Judgment" style="line-height:150%">[8]        Here,
+the Superintendent was acting under subsection 4(4) of the federal <i>Pension
+Benefits Standards Act, 1985</i>. But the Superintendent did not have to
+interpret that subsection: it is perfectly clear. And no one has alleged that
+the Superintendent misinterpreted it. The real dispute in the Federal Court and
+this Court is how the Superintendent went about applying the subsection.</p>
+<p class="Judgment" style="line-height:150%">[9]        In
+applying the subsection, the Superintendent had to assess whether the
+respondents’ undertakings were within the legislative authority of the
+Parliament of Canada. In this particular case, the assessment involved three
+separate steps: (1) interpreting the constitutional jurisprudence concerning
+the legislative authority of the Parliament of Canada, (2) making findings of
+fact about the nature of the respondents’ undertakings, and (3) applying the
+constitutional jurisprudence to the findings of fact.</p>
+<p class="Judgment" style="line-height:150%">[10]      The
+respondents do not take issue with the Superintendent’s findings of fact. The
+real issue they raise is whether the Superintendent properly interpreted and
+applied the constitutional jurisprudence concerning the legislative authority
+of the Parliament of Canada. Within that broad issue lies a more particular
+issue: do the Treaties affect the constitutional analysis?</p>
+<p class="Judgment" style="line-height:150%"><u>The standard of
+review</u></p>
+<p class="Judgment" style="line-height:150%">[11]      We are to
+assess whether the Federal Court adopted the proper standard of review—in other
+words, conduct the analysis ourselves—and then assess whether the Federal Court
+applied the proper standard of review correctly: <i><span style="background:
+white">Agraira v. Canada (Public Safety and Emergency Preparedness)</span></i><span style="background:white">, 2013 SCC 36, [2013] 2 S.C.R. 559, at paragraphs 45–47.</span>
+</p>
+<p class="Judgment" style="line-height:150%">[12]      This Court
+has regularly conducted correctness review of administrative decisions
+regarding whether labour relations and closely associated matters are regulated
+federally or provincially under the <i>Constitution Act, 1867</i>: <i><span style="background:white">Syndicat des agents de sécurité Garda, Section CPI-CSN
+v. Garda Canada Security Corporation</span></i><span style="background:white">, 2011
+FCA 302, 430 N.R. 84, at paragraph 29; <i>Nishnawbe-Aski
+Police Service Board v. Public Service Alliance of Canada</i>, 2015 FCA
+211, <a href="https://reports.fja-cmf.gc.ca/fja-cmf/j/en/item/332713/index.do">[2016] 2
+F.C.R. 351</a>, at paragraph 6; </span><i>Telecon Inc. v.
+International Brotherhood of Electrical Workers, Local Union No. 213</i>, 2019
+FCA 244, 439 D.L.R. (4th) 558, <span style="background:white">at paragraph 16. </span>This
+past jurisprudence suggests that the standard of review for the issues on which
+this case turns (identified in paragraph 10, above) is correctness.</p>
+<p class="Judgment" style="line-height:150%">[13]      But now
+we are to start with <i><span style="background:white">Canada (Minister of
+Citizenship and Immigration) v. Vavilov</span></i><span style="background:white">,
+2019 SCC 65, 59 Admin. L.R. (6th) 1, not our earlier jurisprudence: see <i>Vavilov</i>,
+at paragraphs 129–132.</span> <i>Vavilov</i> tells us that <span class="CitationCar"><span style="line-height:150%;color:black">“constitutional
+questions”</span></span> or <span class="CitationCar"><span style="line-height:150%;color:black">“constitutional matters”</span></span> are reviewable on a standard of correctness: <i><span style="background:white">Vavilov</span></i><span style="background:white">, </span>at
+paragraphs 53 and 55. The issues on which this case turns fall into the
+category of <span class="CitationCar"><span style="line-height:
+150%;color:black">“constitutional questions”</span></span>.
+Thus, the standard of review is correctness.</p>
+<p class="Judgment" style="line-height:150%"><u>The parties’
+positions</u></p>
+<p class="Judgment" style="line-height:150%">[14]      For the
+purposes of this case, the Attorney General accepts that the federal Crown is
+obligated under the Treaties to provide health care to the relevant Indigenous
+peoples. </p>
+<p class="Judgment" style="line-height:150%">[15]      For the
+purposes of this case, the parties also accept that the federal Crown is
+discharging its responsibility by funding the respondents in accordance with
+certain agreements.</p>
+<p class="Judgment" style="line-height:150%">[16]      In this
+case, the parties agree that the provision of health care is a provincial
+matter. But the respondents point to the fact that the Crown is obligated by
+the Treaties to ensure health care is provided to Indigenous peoples. In their
+view, this transforms the situation, rendering the respondents’ undertakings federal
+because they fall within the federal legislative authority concerning
+Indigenous peoples and First Nations: <i>Constitution Act, 1867</i>, subsection
+91(24). The Attorney General disagrees, citing the Supreme Court’s decision in <i>NIL/TU,O</i>.</p>
+<p class="Judgment" style="line-height:150%"><u>Analysis</u></p>
+<p class="Judgment" style="line-height:150%">[17]      The respondents’
+submission is basically the same as that advanced by the unsuccessful parties
+in the Supreme Court’s decision in <i>NIL/TU,O</i>. The Supreme Court rejected
+this submission. In this case, the Superintendent was right to reject it too.</p>
+<p class="Judgment" style="line-height:150%">[18]      The
+Superintendent correctly identified <i>NIL/TU,O</i> as the controlling
+authority. This Court has applied <i>NIL/TU,O</i> in three cases: <i>Telecon</i>,
+<i>Nishnawbe-Aski</i> and <i><span style="background:white">Innu Matimekush-Lac
+John Nation Council v. Association of Employees of Northern Quebec (CSQ)</span></i><span style="background:white">, 2017 FCA 212</span>. As will be discussed below, the
+reasoning in these cases suggests that the pension plans of the respondents are
+provincially regulated. The respondents have not submitted that these cases are
+manifestly wrong or should not be followed. Nor do they disagree with the
+reasoning in them. </p>
+<p class="Judgment" style="line-height:150%">[19]      In <i>NIL/TU,O</i>,
+the Supreme Court considered whether the labour relations of an agency
+providing child welfare services to the children and families of seven First
+Nations were federally regulated or provincially regulated. The Supreme Court
+concluded that they were provincially regulated. </p>
+<p class="Judgment" style="line-height:150%">[20]      It
+reached that conclusion by applying a double-barrelled legal test:</p>
+<p class="MsoQuote"><span style="background:white">… in determining
+whether an entity’s labour relations will be federally regulated, thereby
+displacing the operative presumption of provincial jurisdiction, … a
+court [must] first apply the functional test, that is, examine the nature,
+operations and habitual activities of the entity to see if it is a federal
+undertaking. If so, its labour relations will be federally regulated. Only if
+this inquiry is inconclusive should a court proceed to an examination of
+whether provincial regulation of the entity’s <i>labour relations </i>would
+impair the core of the federal head of power at issue.</span></p>
+<p class="Judgment" style="margin-left:21.25pt;line-height:150%">(<i>NIL/TU,O</i>, at paragraph 18; see also <i><span style="background:white">Northern Telecom v. Communications Workers</span></i><span style="background:white">, [1980] 1 S.C.R. 115, 98 D.L.R. (3d) 1.)</span></p>
+<p class="Judgment" style="line-height:150%">[21]      Under the
+first branch of the <i>NIL/TU,O</i> test, the functional <span style="background:white">examination of </span><span class="CitationCar"><span style="line-height:150%;color:black">“the nature of the operation”</span></span><span style="background:white"> requires us to look at </span><span class="CitationCar"><span style="line-height:150%;color:black">“the
+normal or habitual activities of the business”</span></span><span style="background:white"> as </span><span class="CitationCar"><span style="line-height:150%;color:black">“a going concern”</span></span><span style="background:white"> and </span><span class="CitationCar"><span style="line-height:150%;color:black">“without regard for exceptional
+or casual factors”</span></span><span style="background:white">: <i>Northern
+Telecom</i>, at page 132, cited in <i>NIL/TU,O</i>, at paragraph 14; see also <i>Construction
+Montcalm Inc. v. Min. Wage Com.</i>, [1979] 1 S.C.R. 754. at page 769, 93
+D.L.R. (3d) 641. </span></p>
+<p class="Judgment" style="line-height:150%">[22]      In <i>NIL/TU,O</i>
+the Supreme Court did not proceed beyond the first branch of the legal test. It
+found that the function of the agency was to provide welfare services to
+children and families, a provincially regulated activity. The Supreme Court
+acknowledged that the agency provided its welfare services to Indigenous
+peoples, sensitively tailoring its programs to them. But that counted for
+naught. The Supreme Court did not need to consider the second branch of the <i>NIL/TU,O</i>
+test.</p>
+<p class="Judgment" style="line-height:150%">[23]      In the
+case at bar, the respondents submit that their functions have a distinct and
+substantial Indigenous component that affects the analysis under the first
+branch. This was the very submission rejected in <i>NIL/TU,O</i>. There, <i>NIL/TU,O</i>
+argued, based on the record filed with the Court, that the <span class="CitationCar"><span style="line-height:150%;color:black">“distinctly
+Aboriginal component of its service delivery methodology alters the nature of
+its operations and activities such that it is a federal undertaking”</span></span> for labour relations purposes: <i>NIL/TU,O</i>,<i> </i>at paragraph
+37. The Supreme Court accepted that the record established <span class="CitationCar"><span style="line-height:150%;color:black">“the
+cultural identity of NIL/TU,O’s clients and employees”</span></span> and <span class="CitationCar"><span style="line-height:150%;color:black">“its mandate to provide culturally-appropriate
+services to Aboriginal clients”</span></span> but <span class="CitationCar"><span style="line-height:150%;color:black">“[n]either…displaces
+the operating presumption that labour relations are provincially regulated”</span></span>: <i>NIL/TU,O</i>, at paragraph 39.</p>
+<p class="Judgment" style="line-height:150%">[24]      This
+Court’s decision in <i><span style="background:white">Nishnawbe-Aski</span></i><span style="background:white">,<i> </i>like<i> NIL/TU,O</i>, </span>is strong
+authority for the proposition that an undertaking, usually provincially
+regulated, does not become federally regulated just because it is tailored
+sensitively to serve the needs of a local Indigenous population. The
+undertaking in <i><span style="background:white">Nishnawbe-Aski</span></i><span style="background:white">,<i> </i>a police services board, was very much
+comprised of Indigenous people, took some direction from the local Indigenous
+community and played a very significant role in it, yet functionally it
+remained a police services undertaking regulated by the province.</span></p>
+<p class="Judgment" style="line-height:150%">[25]      Even if
+the respondents’ view of the law were correct, their submission fails for
+another reason: the Superintendent failed to find a substantial Indigenous
+component in the respondents’ functions. We must defer to this factual
+assessment. Perhaps recognizing the inadequacy of the evidentiary record on
+this point, counsel for the respondents attempted to offer us new evidence in
+the course of his oral submissions. But, of course, this is not normally
+permitted: see, e.g., <i><span style="background:white">Association of
+Universities and Colleges of Canada v. Canadian Copyright Licensing Agency
+(Access Copyright)</span></i><span style="background:white">, 2012 FCA 22, 428
+N.R. 297 and <i>Bernard v. Canada (Revenue Agency)</i>, 2015 FCA 263, 479 N.R.
+189 (fresh evidence adduced in the reviewing court); see also <i>Butterfield v.
+Canada (Attorney General)</i>, 2005 FC 396, 280 F.T.R. 101 (counsel giving
+evidence). </span></p>
+<p class="Judgment" style="line-height:150%">[26]      <span style="background:white">In this case, the Superintendent focused on the
+question of </span><span class="CitationCar"><span style="line-height:150%;color:black">“legislative authority”</span></span><span style="background:white"> under subsection 4(4) of the </span>federal <i>Pension Benefits Standards Act</i><i>, 1985</i>, <span style="background:white">identified <i>NIL/TU,O</i> as the controlling
+authority, applied that authority, and concluded that the respondents’
+undertakings were functionally health care undertakings. The Superintendent
+based this conclusion on facts that are undisputed and explained it to the
+respondents in two decision letters: see appeal book, at pages 470 and 2221.
+From there, the Superintendent’s analysis was purely legal and led to the
+conclusion that the respondents’ undertakings were under the legislative
+authority of the province. </span></p>
+<p class="Judgment" style="line-height:150%">[27]      <span style="background:white">The Superintendent was correct. The legislative
+authority to regulate health care undertakings lies with the province: <i>Canada
+(Attorney General) v. PHS Community Services Society</i>, 2011 SCC 44,<i> </i>[2011]
+3 S.C.R. 134, at paragraphs 66–68;<i> Eldridge v. British Columbia (Attorney
+General)</i>, [1997] 3 S.C.R. 624, (1997), 151 D.L.R. (4th) 577, at paragraph
+24; <i>Chaoulli v. Quebec (Attorney General)</i>, 2005 SCC 35, [2005] 1 S.C.R.
+791, at paragraphs 18 and 23<i>. </i>And the labour relations of employees in
+provincial undertakings, including their pensions, are presumptively subject to
+provincial regulation: <i>Tessier Ltée v. Quebec (Commission de la santé
+et de la sécurité du travail)</i>, 2012 SCC 23, [2012] 2 S.C.R. 3, at paragraph
+11; <i>Consolidated Fastfrate Inc. v. Western Canada Council of Teamsters</i>, 2009
+SCC 53, [2009] 3 S.C.R. 407, at paragraphs 27–30; <i>NIL/TU,O</i>, at
+paragraph 11. On the undisputed facts, the respondents’ undertakings are
+under the legislative authority of the province.</span></p>
+<p class="Judgment" style="line-height:150%">[28]      <span style="background:white">In its analysis, the Federal Court went astray. Rather
+than focusing on which level of government has the legislative authority to
+regulate the respondents’ undertakings and rather than strictly following the
+controlling authority of<i> NIL/TU,O</i>,<i> </i>the Federal Court concentrated
+on the terms of the Treaties, the importance and solemnity of the Treaties, and
+section 35 of the<i> Constitution Act, 1982</i>,<i> </i>which recognizes and
+affirms treaty rights. By doing that, the Federal Court diverted itself from
+the task<i> NIL/TU,O </i>required it to do<i>—</i></span>to engage in a
+functional <span style="background:white">examination of the nature, operations
+and habitual activities of the respondents’ undertakings as going concerns
+without regard for exceptional or casual factors. This was an error of law.</span></p>
+<p class="Judgment" style="line-height:150%">[29]      <span style="background:white">The content of the Treaties and section 35 of the <i>Constitution
+Act, 1982 </i>are not controversial in this case<i>.</i> </span>All parties
+accept for the purposes of this case that the federal government can discharge
+its obligation under the Treaties by providing funding for Indigenous health
+care. However, the provision of federal funding by itself does not convert an
+otherwise provincial undertaking into a federal one: <i><span style="background:
+white">Reference Re Canada Assistance Plan (B.C.)</span></i><span style="background:white">, [1991] 2 S.C.R. 525, at page 567, (1991), 83 D.L.R.
+(4th) 297; <i>Chaoulli</i>, at paragraph 16</span>. The Treaties simply do not
+have the legal relevance or materiality that the Federal Court attached to them
+in this case.</p>
+<p class="Judgment" style="line-height:150%">[30]      The
+Treaties and the rights in them did not change the question that the
+Superintendent had to answer under subsection 4(4) of the <i>Pension Benefits
+Standards Act, 1985</i>: who has the <span class="CitationCar"><span style="line-height:150%;color:black">“legislative authority”</span></span> to regulate these undertakings? The answer to that question is
+found only in the assignment and distribution of exclusive legislative
+authority in sections 91 to 95 of the <i>Constitution Act, 1867</i>, as
+interpreted in this context by the Supreme Court in <i><span style="background:
+white">NIL/TU,O</span></i>. </p>
+<p class="Judgment" style="line-height:150%">[31]      Without
+doubt, section 35 of the <i>Constitution Act, 1982</i> recognizes and affirms
+treaty rights and, thus, is an important part of the Constitution of Canada,
+the supreme law within the territory of Canada. So treaty rights are important.
+Also without doubt, section 35 can limit the legislative power of the federal
+Parliament and the provincial Legislatures: <i><span style="background:white">R.
+v. Sparrow</span></i><span style="background:white">, [1990] 1 S.C.R. 1075, (1990),
+70 D.L.R. (4th) 385</span>. But, as the Supreme Court has unanimously held,
+section 35 of the <i>Constitution Act, 1982</i> does not somehow displace or
+amend the grant and distribution of exclusive legislative power between the
+federal Parliament and the provincial Legislatures under sections 91 to 95 of
+the <i>Constitution Act, 1867</i>: <i><span style="background:white">Tsilhqot’in
+Nation v. British Columbia</span></i><span style="background:white">, 2014 SCC
+44, [2014] 2 S.C.R. 257, at paragraphs 135–142; see also <i>Siksika Health
+Services v. Health Sciences Association of Alberta</i>, 2019 ABCA 494, 99 Alta.
+L.R. (6th) 73, at paragraph 30. This is just one facet of a more fundamental,
+bedrock principle in our Constitution: one part of the Constitution cannot
+displace or amend another part of the Constitution: <i>Paul v. British Columbia
+(Forest Appeals Commission)</i>, 2003 SCC 55, [2003] 2 S.C.R. 585, at paragraph
+24; <i>Adler v. Ontario</i>, [1996] 3 S.C.R. 609, (1996), 140 D.L.R. (4th)
+385; <i>Gosselin (Tutor of) v. Quebec (Attorney General)</i>, 2005 SCC 15,
+[2005] 1 S.C.R. 238, at paragraph 14; and many others. When the task is to
+decide who has legislative authority over a subject-matter, we must look to
+sections 91 to 95 of the <i>Constitution Act, 1867</i> and any controlling
+authorities concerning them— here, the Supreme Court’s decision in <i>NIL/TU,O</i>.</span></p>
+<p class="Judgment" style="line-height:150%">[32]      At a more
+granular level, the Treaties obligate the federal government to ensure that
+health care is provided to the relevant Indigenous peoples. The parties agree
+for the purposes of this case that this obligation can be discharged by the
+federal government providing funding. But an obligation to provide funding to
+an undertaking has nothing to do with its function, which is the primary focus
+of the first branch of the test in <i>NIL/TU,O</i>. In this case, the
+undertakings’ functions remain the provision of health care, which is
+provincially regulated, as are the respondents’ pension plans.</p>
+<p class="Judgment" style="line-height:150%">[33]      As the
+first branch of the <i>NIL/TU,O</i> test is determinative of the question
+before us, there is no need to consider the second branch of that test. </p>
+<p class="Judgment" style="line-height:150%">[34]      It
+follows that the Superintendent was correct in deciding that the respondents’
+pension plans were provincially regulated. The Federal Court should not have
+quashed the Superintendent’s decisions. </p>
+<p class="Judgment" style="line-height:150%">[35]      For good
+measure, the Superintendent’s reasons for the decisions are a model of clear,
+brief and economical expression and offer more than enough justification.</p>
+<p class="Judgment" style="line-height:150%"><u>Postscript </u></p>
+<p class="Judgment" style="line-height:150%">[36]      The
+original appellants in this appeal were the Attorney General and the Minister
+of Finance. This was because they were the unsuccessful respondents to the
+application for judicial review in the Federal Court. </p>
+<p class="Judgment" style="line-height:150%">[37]      In a
+direction issued before the hearing of this appeal, the Court raised the
+question whether this was proper. At the hearing, the parties agreed that it
+was not. They are correct. Under rule 303 of the <i>Federal Courts Rules</i>,
+SOR/98-106 the Attorney General was the only proper respondent in the Federal
+Court. Thus, the Attorney General is the only proper appellant in this Court. </p>
+<p class="Judgment" style="line-height:150%">[38]      While the
+incorrect inclusion of the Minister of Finance in this case caused no problem,
+sometimes it can. A party, once named, might start to participate when, in
+fact, the party has no right to do so. Whenever a party is incorrectly named,
+parties should register an objection or the Registry should act under rule 72
+at an early stage in the proceedings.</p>
+<p class="Judgment" style="line-height:150%"><u>Proposed
+disposition</u></p>
+<p class="Judgment" style="line-height:150%">[39]      I would
+amend the style of cause, removing the Minister of Finance as an appellant. I
+would make both the style of cause on this document and the judgment reflect
+the amendment.</p>
+<p class="Judgment" style="line-height:150%">[40]      I would
+allow the appeal, set aside the judgment dated November 28, 2018 of the Federal
+Court in file T-1315-17, and dismiss the respondents’ application for judicial
+review. The parties agree that all should bear their own costs. Thus, I would
+make no order as to costs.</p>
+<p class="Judgment" style="line-height:150%"> </p>
+<p class="Judgment" style="text-indent:.5in;line-height:150%"><span style="font-variant:small-caps">de Montigny J.A.: </span>I
+agree.</p>
+<p class="Judgment" style="line-height:150%"><span style="font-variant:
+small-caps">            Laskin J.A.</span>: I agree.</p>
+</div>
+</body></html>

@@ -1,9 +1,53 @@
 """
 LeREaD Stage-3 (Resolution) Evaluation Script
 
-Evaluates ONLY the accuracy of the `uri` attribute on spans that match at
-Level 1 (exact match on label + normalised text + normalised context), for
-both <manual_label> and <auto_label> (no distinction is made).
+Evaluates the `uri` attribute end-to-end, for both <manual_label> and
+<auto_label> (no distinction is made), as Precision / Recall / F1 over the
+mentions that actually need a uri.
+
+Definitions
+-----------
+A gold span's uri falls into one of three states:
+
+  1. uri="none"      -> gold says "not resolvable"  -> EXCLUDED from P/R/F1
+  2. uri absent       -> label type has no uri concept -> EXCLUDED from P/R/F1
+  3. uri="<value>"    -> a genuine instance that must be resolved -> COUNTED
+
+Only category 3 ("real-uri") gold spans are used to build the metric.
+
+  TP   = matched (Level-1) pair, gold has a real uri, system predicted the
+         same value.
+  FN   = a real-uri gold mention the pipeline failed to resolve correctly,
+         whether because:
+           (a) extraction never found the span at all (fn_missed_extraction),
+           (b) extraction found the span but disambiguation produced no uri
+               at all (fn_missing_sys_uri),
+           (c) extraction found the span but disambiguation produced the
+               WRONG uri (fn_wrong).
+  FP   = a uri the system asserted that is wrong:
+           (a) fn_wrong above (wrong value on a matched real-uri gold span)
+               counts as FP too - "a wrong uri counts once against each",
+           (b) fp_spurious: a system span with no gold counterpart at all
+               (an extraction hallucination) that nonetheless carries a uri.
+
+  Recall    = TP / (TP + fn_wrong + fn_missing_sys_uri + fn_missed_extraction)
+            = TP / (all real-uri gold mentions, matched or not)
+  Precision = TP / (TP + fn_wrong + fp_spurious)
+            = TP / (all system uri assertions that map onto a real-uri
+              gold instance, plus spurious ones that don't)
+  F1        = harmonic mean of the two
+
+Sanity check (oracle mode): if you feed the resolver the gold mention exactly
+(no extraction step - see your own oracle setup, hiding only the uri), then
+there are no missed extractions and no spurious spans, so
+fn_missed_extraction = fp_spurious = 0 and precision = recall = accuracy,
+i.e. this reduces to your old "conditional accuracy" number.
+
+We ALSO keep that old conditional "accuracy" as a diagnostic
+(TP / (TP + fn_wrong + fn_missing_sys_uri), i.e. computed only over spans
+that matched at Level 1) since it isolates disambiguation quality alone,
+decoupled from extraction misses - useful to see where the pipeline's
+errors are coming from when it disagrees with recall.
 
 Expected stage-3 output layout::
 
@@ -40,11 +84,8 @@ import io
 import sys
 from collections import defaultdict
 from dataclasses import dataclass, field
-from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-
-from flask import config
 
 # ---------------------------------------------------------------------------
 # Imports (same pattern as evaluate.py: load modules directly by path so that
@@ -72,7 +113,7 @@ CONTEXT_CHARS = getattr(evaluation_l1_util, "CONTEXT_CHARS", 200)
 
 URI_ATTR = "uri"
 RESOLUTION_SUFFIX = "_resolution.html"
-VALID_SPLITS = ("train", "test", "dev", "incoming")
+VALID_SPLITS = ("train", "test", "dev", "incoming", "extended_test", "dev_train")
 
 
 @dataclass
@@ -140,6 +181,7 @@ def _is_no_answer(value: Optional[str]) -> bool:
     """True if the (already stripped) uri value is the 'no answer' placeholder."""
     return value is not None and value.strip().lower() in NO_ANSWER_VALUES
 
+
 def _get_uri(span: Span) -> Optional[str]:
     """Return the raw uri attribute of a span, or None if absent/empty."""
     value = span.attributes.get(URI_ATTR)
@@ -147,6 +189,12 @@ def _get_uri(span: Span) -> Optional[str]:
         return None
     value = value.strip()
     return value if value else None
+
+
+def _is_real_uri(value: Optional[str]) -> bool:
+    """True iff this uri value is a genuine instance that must be resolved
+    (i.e. not absent, and not the explicit 'none' no-answer placeholder)."""
+    return value is not None and not _is_no_answer(value)
 
 
 def _uri_agree(v1: Optional[str], v2: Optional[str]) -> bool:
@@ -166,98 +214,137 @@ def _category_of(span: Span) -> str:
     return top if top in {"legislation", "decision", "secondary sources"} else "other"
 
 
+def _prf1(tp: int, fn: int, fp: int) -> Tuple[float, float, float]:
+    """Precision / recall / F1 from raw counts. 0.0 on empty denominators."""
+    recall = tp / (tp + fn) if (tp + fn) else 0.0
+    precision = tp / (tp + fp) if (tp + fp) else 0.0
+    f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) else 0.0
+    return precision, recall, f1
+
+
 # ---------------------------------------------------------------------------
 # Core computation
 # ---------------------------------------------------------------------------
 
 def compute_uri_metrics(gold: List[Span], system: List[Span]) -> Tuple[Dict, Dict[str, Dict], Dict[str, Dict]]:
     """
-    Compute uri agreement over Level-1 matched spans.
+    Compute end-to-end uri Precision / Recall / F1.
 
-    An instance is counted whenever the uri attribute is present on the gold
-    span, on the system span, or on both (same convention as the Level-2
-    attribute evaluation).  It is *matching* only when both sides carry the
-    same value (case-insensitive, stripped).
+    Only gold spans whose uri is a "real" value (not absent, not the
+    explicit "none" no-answer placeholder) are counted as instances that
+    need resolving. See module docstring for the exact TP/FN/FP breakdown.
 
     Returns
     -------
     overall : dict
-        matched_spans, total, matching, accuracy, missing_in_system,
-        missing_in_gold, mismatched.
+        tp, fn_wrong, fn_missing_sys_uri, fn_missed_extraction, fp_spurious,
+        skipped_gold_none, matched_spans, precision, recall, f1, accuracy
+        (the old Level-1-conditional accuracy, kept as a diagnostic).
     per_label : dict
-        {labelname -> {total, matching, accuracy}}
+        {labelname -> {tp, fn, fp, precision, recall, f1}}
     per_category : dict
-        {category -> {total, matching, accuracy}}
+        {category -> {tp, fn, fp, precision, recall, f1}}
     """
     matched_pairs = _match_spans_l1(gold, system)
+    matched_gold_ids = {id(g) for g, _ in matched_pairs}
+    matched_system_ids = {id(s) for _, s in matched_pairs}
 
-    total = matching = 0
-    missing_in_system = missing_in_gold = mismatched = 0
-    skipped_gold_none = 0 
+    unmatched_gold = [g for g in gold if id(g) not in matched_gold_ids]
+    unmatched_system = [s for s in system if id(s) not in matched_system_ids]
 
-    per_label_acc: Dict[str, dict] = defaultdict(lambda: {"total": 0, "matching": 0})
-    per_cat_acc: Dict[str, dict] = defaultdict(lambda: {"total": 0, "matching": 0})
+    tp = 0
+    fn_wrong = 0             # matched pair, gold real uri, system uri present but WRONG
+    fn_missing_sys_uri = 0   # matched pair, gold real uri, system asserted NO uri at all
+    fn_missed_extraction = 0  # gold real-uri span never found by extraction
+    fp_spurious = 0          # system span with no gold counterpart at all, but carries a uri
+    skipped_gold_none = 0
+
+    per_label_acc: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
+    per_cat_acc: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
 
     for g, s in matched_pairs:
         u_g = _get_uri(g)
-        u_s = _get_uri(s)
-
-        # Gold says "no answer": whatever the system predicted, don't score it
-        if _is_no_answer(u_g):
+        if not _is_real_uri(u_g):
             skipped_gold_none += 1
             continue
 
-        if u_g is None and u_s is None:
-            continue  # uri simply not applicable to this span
-
-        agree = int(_uri_agree(u_g, u_s))
-        total += 1
-        matching += agree
-
-        if not agree:
-            if u_g is not None and u_s is None:
-                missing_in_system += 1
-            elif u_g is None and u_s is not None:
-                missing_in_gold += 1
-            else:
-                mismatched += 1
-
         label = g.labelname or "(none)"
-        per_label_acc[label]["total"] += 1
-        per_label_acc[label]["matching"] += agree
-
         cat = _category_of(g)
-        per_cat_acc[cat]["total"] += 1
-        per_cat_acc[cat]["matching"] += agree
+        u_s = _get_uri(s)
+
+        if u_s is not None and _uri_agree(u_g, u_s):
+            tp += 1
+            per_label_acc[label]["tp"] += 1
+            per_cat_acc[cat]["tp"] += 1
+        elif u_s is not None:
+            # system attempted a resolution, but it's the wrong one:
+            # counts against BOTH recall (FN) and precision (FP)
+            fn_wrong += 1
+            per_label_acc[label]["fn"] += 1
+            per_label_acc[label]["fp"] += 1
+            per_cat_acc[cat]["fn"] += 1
+            per_cat_acc[cat]["fp"] += 1
+        else:
+            # span matched, but disambiguation produced nothing at all:
+            # recall hit only (system made no assertion, so no FP)
+            fn_missing_sys_uri += 1
+            per_label_acc[label]["fn"] += 1
+            per_cat_acc[cat]["fn"] += 1
+
+    for g in unmatched_gold:
+        u_g = _get_uri(g)
+        if not _is_real_uri(u_g):
+            continue  # extraction missed a mention that didn't need a uri anyway
+        fn_missed_extraction += 1
+        label = g.labelname or "(none)"
+        cat = _category_of(g)
+        per_label_acc[label]["fn"] += 1
+        per_cat_acc[cat]["fn"] += 1
+
+    for s in unmatched_system:
+        u_s = _get_uri(s)
+        if not _is_real_uri(u_s):
+            continue  # extraction hallucinated a span, but it carries no uri anyway
+        fp_spurious += 1
+        label = s.labelname or "(none)"
+        cat = _category_of(s)
+        per_label_acc[label]["fp"] += 1
+        per_cat_acc[cat]["fp"] += 1
+
+    fn_total = fn_wrong + fn_missing_sys_uri + fn_missed_extraction
+    fp_total = fn_wrong + fp_spurious
+    precision, recall, f1 = _prf1(tp, fn_total, fp_total)
+
+    # Old Level-1-conditional accuracy, kept as a diagnostic: disambiguation
+    # quality alone, over spans extraction actually found.
+    matched_total = tp + fn_wrong + fn_missing_sys_uri
+    accuracy = tp / matched_total if matched_total else 0.0
 
     overall = {
         "matched_spans": len(matched_pairs),
-        "total": total,
-        "matching": matching,
-        "accuracy": matching / total if total else 0.0,
-        "missing_in_system": missing_in_system,
-        "missing_in_gold": missing_in_gold,
-        "mismatched": mismatched,
+        "tp": tp,
+        "fn_wrong": fn_wrong,
+        "fn_missing_sys_uri": fn_missing_sys_uri,
+        "fn_missed_extraction": fn_missed_extraction,
+        "fp_spurious": fp_spurious,
         "skipped_gold_none": skipped_gold_none,
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "accuracy": accuracy,
+        "matched_total": matched_total,
     }
 
-    per_label = {
-        lbl: {
-            "total": d["total"],
-            "matching": d["matching"],
-            "accuracy": d["matching"] / d["total"] if d["total"] else 0.0,
-        }
-        for lbl, d in per_label_acc.items()
-    }
+    def _finalize(acc: Dict[str, dict]) -> Dict[str, dict]:
+        out = {}
+        for key, d in acc.items():
+            p, r, f = _prf1(d["tp"], d["fn"], d["fp"])
+            out[key] = {"tp": d["tp"], "fn": d["fn"], "fp": d["fp"],
+                        "precision": p, "recall": r, "f1": f}
+        return out
 
-    per_category = {
-        cat: {
-            "total": d["total"],
-            "matching": d["matching"],
-            "accuracy": d["matching"] / d["total"] if d["total"] else 0.0,
-        }
-        for cat, d in per_cat_acc.items()
-    }
+    per_label = _finalize(per_label_acc)
+    per_category = _finalize(per_cat_acc)
 
     return overall, per_label, per_category
 
@@ -277,9 +364,9 @@ def print_results(
     gold_name: str = "",
     system_name: str = "",
 ) -> None:
-    """Print stage-3 uri accuracy results."""
+    """Print stage-3 uri resolution P/R/F1 results."""
     print("\n" + "╔" + "═" * 68 + "╗")
-    print("║" + " LEVEL 3 – URI RESOLUTION ACCURACY".center(68) + "║")
+    print("║" + " LEVEL 3 – URI RESOLUTION (PRECISION / RECALL / F1)".center(68) + "║")
     print("╚" + "═" * 68 + "╝")
 
     if gold_name:
@@ -289,44 +376,43 @@ def print_results(
 
     print("\n  Evaluated attribute : uri")
     print("  Agreement criterion : exact match (case-insensitive, stripped)")
-    print("  Counted instances   : spans matched at Level 1 where uri is present "
-          "on either side, excluding gold uri=\"None\" (no answer)")
+    print("  Counted instances   : gold spans with a REAL uri value only")
+    print("                        (uri=\"none\" and absent uri are always excluded)")
 
     print(f"\n{_SEP}")
     print("  OVERALL")
     print(_SEP)
-    print(f"\n  Matched spans (Level 1)   : {overall['matched_spans']:>6}")
-    print(f"  URI instances compared    : {overall['total']:>6}")
-    print(f"  Skipped (gold uri=None)   : {overall['skipped_gold_none']:>6}")
-    print(f"  Matching URI values       : {overall['matching']:>6}")
-    print(f"  URI ACCURACY              : {overall['accuracy']*100:>9.2f}%")
-    print(f"\n  Errors — missing in system: {overall['missing_in_system']:>6}")
-    print(f"         — missing in gold  : {overall['missing_in_gold']:>6}")
-    print(f"         — different value  : {overall['mismatched']:>6}")
+    print(f"\n  TP                          : {overall['tp']:>6}")
+    print(f"  FN - wrong uri (matched)    : {overall['fn_wrong']:>6}")
+    print(f"  FN - no uri produced        : {overall['fn_missing_sys_uri']:>6}")
+    print(f"  FN - mention never extracted: {overall['fn_missed_extraction']:>6}")
+    print(f"  FP - spurious span w/ uri   : {overall['fp_spurious']:>6}")
+    print(f"  Skipped (gold uri=none)     : {overall['skipped_gold_none']:>6}")
+    print()
+    print(f"  PRECISION                   : {overall['precision']*100:>9.2f}%")
+    print(f"  RECALL                      : {overall['recall']*100:>9.2f}%")
+    print(f"  F1                          : {overall['f1']*100:>9.2f}%")
+    print(f"\n  (diagnostic) resolver-only accuracy, i.e. Level-1-matched spans only")
+    print(f"  ACCURACY | extraction OK    : {overall['accuracy']*100:>9.2f}%  "
+          f"({overall['matched_total']} instances)")
 
-    if per_label:
+    def _print_breakdown(title: str, table: Dict[str, Dict]) -> None:
+        if not table:
+            return
         print(f"\n{_SEP}")
-        print("  PER-LABEL BREAKDOWN")
+        print(f"  {title}")
         print(_SEP)
-        W = 36
-        print(f"\n  {'Label':<{W}} {'Total':>6} {'Match':>6} {'Accuracy':>10}")
-        print("  " + "─" * (W + 24))
-        for label in sorted(per_label):
-            m = per_label[label]
-            print(f"  {label:<{W}} {m['total']:>6} {m['matching']:>6} "
-                  f"{m['accuracy']*100:>9.1f}%")
+        W = 32
+        print(f"\n  {'Key':<{W}} {'TP':>5} {'FN':>5} {'FP':>5} "
+              f"{'Prec':>7} {'Rec':>7} {'F1':>7}")
+        print("  " + "─" * (W + 42))
+        for key in sorted(table):
+            m = table[key]
+            print(f"  {key:<{W}} {m['tp']:>5} {m['fn']:>5} {m['fp']:>5} "
+                  f"{m['precision']*100:>6.1f}% {m['recall']*100:>6.1f}% {m['f1']*100:>6.1f}%")
 
-    if per_category:
-        print(f"\n{_SEP}")
-        print("  PER-CATEGORY BREAKDOWN")
-        print(_SEP)
-        W = 36
-        print(f"\n  {'Category':<{W}} {'Total':>6} {'Match':>6} {'Accuracy':>10}")
-        print("  " + "─" * (W + 24))
-        for cat in sorted(per_category):
-            m = per_category[cat]
-            print(f"  {cat:<{W}} {m['total']:>6} {m['matching']:>6} "
-                  f"{m['accuracy']*100:>9.1f}%")
+    _print_breakdown("PER-LABEL BREAKDOWN", per_label)
+    _print_breakdown("PER-CATEGORY BREAKDOWN", per_category)
 
     print(f"\n{_SEP_D}\n")
 
@@ -361,17 +447,23 @@ def evaluate_resolution(
 # Batch evaluation (micro-averaged)
 # ---------------------------------------------------------------------------
 
+_OVERALL_SUM_KEYS = (
+    "matched_spans", "tp", "fn_wrong", "fn_missing_sys_uri",
+    "fn_missed_extraction", "fp_spurious", "skipped_gold_none",
+)
+
+
 def evaluate_resolution_batch(
     pairs: List[Tuple[str, str]],
     context_chars: int = CONTEXT_CHARS,
     verbose_per_file: bool = False,
 ) -> Tuple[Dict, Dict[str, Dict], Dict[str, Dict]]:
-    """Stage-3 uri evaluation across a list of (gold, system) file pairs."""
+    """Stage-3 uri evaluation across a list of (gold, system) file pairs (micro-averaged)."""
     acc_overall: Dict[str, int] = defaultdict(int)
-    acc_per_label: Dict[str, dict] = defaultdict(lambda: {"total": 0, "matching": 0})
-    acc_per_cat: Dict[str, dict] = defaultdict(lambda: {"total": 0, "matching": 0})
+    acc_per_label: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
+    acc_per_cat: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
 
-    per_file_accuracy: List[float] = []
+    per_file_f1: List[float] = []
     n_processed = 0
 
     print(f"\nLevel-3 (uri) batch evaluation — {len(pairs)} file pair(s)")
@@ -396,75 +488,65 @@ def evaluate_resolution_batch(
                 system_name=Path(system_path).name,
             )
         else:
-            print(f"  matched spans: {overall['matched_spans']:>4}  |  "
-                  f"uri instances: {overall['total']:>5}  |  "
-                  f"accuracy: {overall['accuracy']*100:.1f}%")
+            print(f"  tp: {overall['tp']:>4}  |  "
+                  f"P: {overall['precision']*100:.1f}%  "
+                  f"R: {overall['recall']*100:.1f}%  "
+                  f"F1: {overall['f1']*100:.1f}%")
 
-        acc_overall["matched_spans"] += overall["matched_spans"]
-        acc_overall["total"] += overall["total"]
-        acc_overall["matching"] += overall["matching"]
-        acc_overall["missing_in_system"] += overall["missing_in_system"]
-        acc_overall["missing_in_gold"] += overall["missing_in_gold"]
-        acc_overall["mismatched"] += overall["mismatched"]
-        acc_overall["skipped_gold_none"] += overall["skipped_gold_none"]
+        for key in _OVERALL_SUM_KEYS:
+            acc_overall[key] += overall[key]
 
         for label, m in per_label.items():
-            acc_per_label[label]["total"] += m["total"]
-            acc_per_label[label]["matching"] += m["matching"]
+            acc_per_label[label]["tp"] += m["tp"]
+            acc_per_label[label]["fn"] += m["fn"]
+            acc_per_label[label]["fp"] += m["fp"]
 
         for cat, m in per_category.items():
-            acc_per_cat[cat]["total"] += m["total"]
-            acc_per_cat[cat]["matching"] += m["matching"]
+            acc_per_cat[cat]["tp"] += m["tp"]
+            acc_per_cat[cat]["fn"] += m["fn"]
+            acc_per_cat[cat]["fp"] += m["fp"]
 
-        if overall["total"] > 0:
-            per_file_accuracy.append(overall["accuracy"])
-
+        per_file_f1.append(overall["f1"])
         n_processed += 1
 
     if n_processed == 0:
         print("\n  No files could be processed.")
-        return (
-            {"matched_spans": 0, "total": 0, "matching": 0, "accuracy": 0.0,
-             "missing_in_system": 0, "missing_in_gold": 0, "mismatched": 0, "skipped_gold_none": 0},
-            {}, {},
-        )
+        empty = {k: 0 for k in _OVERALL_SUM_KEYS}
+        empty.update({"precision": 0.0, "recall": 0.0, "f1": 0.0,
+                      "accuracy": 0.0, "matched_total": 0})
+        return empty, {}, {}
 
-    tot = acc_overall["total"]
+    fn_total = acc_overall["fn_wrong"] + acc_overall["fn_missing_sys_uri"] + acc_overall["fn_missed_extraction"]
+    fp_total = acc_overall["fn_wrong"] + acc_overall["fp_spurious"]
+    precision, recall, f1 = _prf1(acc_overall["tp"], fn_total, fp_total)
+    matched_total = acc_overall["tp"] + acc_overall["fn_wrong"] + acc_overall["fn_missing_sys_uri"]
+    accuracy = acc_overall["tp"] / matched_total if matched_total else 0.0
+
     final_overall = {
-        "matched_spans": acc_overall["matched_spans"],
-        "total": tot,
-        "matching": acc_overall["matching"],
-        "accuracy": acc_overall["matching"] / tot if tot else 0.0,
-        "missing_in_system": acc_overall["missing_in_system"],
-        "missing_in_gold": acc_overall["missing_in_gold"],
-        "mismatched": acc_overall["mismatched"],
-        "skipped_gold_none": acc_overall["skipped_gold_none"],
+        **{k: acc_overall[k] for k in _OVERALL_SUM_KEYS},
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "accuracy": accuracy,
+        "matched_total": matched_total,
     }
 
-    final_per_label = {
-        lbl: {
-            "total": d["total"],
-            "matching": d["matching"],
-            "accuracy": d["matching"] / d["total"] if d["total"] else 0.0,
-        }
-        for lbl, d in acc_per_label.items()
-    }
+    def _finalize(acc: Dict[str, dict]) -> Dict[str, dict]:
+        out = {}
+        for key, d in acc.items():
+            p, r, f = _prf1(d["tp"], d["fn"], d["fp"])
+            out[key] = {"tp": d["tp"], "fn": d["fn"], "fp": d["fp"],
+                        "precision": p, "recall": r, "f1": f}
+        return out
 
-    final_per_cat = {
-        cat: {
-            "total": d["total"],
-            "matching": d["matching"],
-            "accuracy": d["matching"] / d["total"] if d["total"] else 0.0,
-        }
-        for cat, d in acc_per_cat.items()
-    }
+    final_per_label = _finalize(acc_per_label)
+    final_per_cat = _finalize(acc_per_cat)
 
     print("\n" + "=" * 70)
     print_results(final_overall, final_per_label, final_per_cat)
 
-    macro_acc = (sum(per_file_accuracy) / len(per_file_accuracy)
-                 if per_file_accuracy else 0.0)
-    print(f"  Macro accuracy (mean per-document uri accuracy): {macro_acc*100:.2f}%")
+    macro_f1 = sum(per_file_f1) / len(per_file_f1) if per_file_f1 else 0.0
+    print(f"  Macro F1 (mean per-document F1): {macro_f1*100:.2f}%")
     print(f"  Documents evaluated: {n_processed}/{len(pairs)}\n")
 
     return final_overall, final_per_label, final_per_cat
@@ -590,7 +672,6 @@ def save_evaluation_log(folder_path: Path, log_content: str,
     print(f"✓ Saved evaluation results to: {log_file}")
 
 
-
 # ---------------------------------------------------------------------------
 # Runners
 # ---------------------------------------------------------------------------
@@ -633,7 +714,6 @@ def run_single_file_evaluation(config: ResolutionConfig):
     print(captured)
 
     save_evaluation_log(system_path.parent, header + captured)
-
 
     return overall, per_label, per_category
 
@@ -699,7 +779,7 @@ def run_batch_evaluation(config: ResolutionConfig):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="LeREaD Stage-3 Resolution Evaluation (uri accuracy)",
+        description="LeREaD Stage-3 Resolution Evaluation (uri Precision/Recall/F1)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )

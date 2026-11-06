@@ -1,0 +1,74 @@
+{
+  "Trainor v Trainor": {
+    "uri": "https://canlii.ca/t/gbtwt",
+    "score": 0.8034934401512146,
+    "candidate_id": "1990pesctd19871000019",
+    "candidate_title": "Trainor v. Trainor",
+    "query_text": "decision | Trainor v Trainor | (1990), 87 Nfld. &amp;\nP.E.I.R. 37",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbtwt",
+        "score": 0.8034934401512146,
+        "candidate_title": "Trainor v. Trainor"
+      },
+      {
+        "uri": "https://canlii.ca/t/g08hc",
+        "score": 0.5806083679199219,
+        "candidate_title": "Brushett v. Brushett"
+      },
+      {
+        "uri": "https://canlii.ca/t/g93q2",
+        "score": 0.5496842861175537,
+        "candidate_title": "Andrews v. Andrews"
+      }
+    ]
+  },
+  "Crombie v The King (1922)": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5749941468238831,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5749941468238831,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5734767913818359,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.563728392124176,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "WillistonRolls1": {
+    "uri": "https://synthetic.leread.ca/gold/G0473",
+    "score": 0.6719040274620056,
+    "candidate_id": "gold-G0473",
+    "candidate_title": "The Law of Civil Procedure",
+    "query_text": "secondary sources | The Law of Civil Procedure, Volume 1 | Williston and Rolls",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0473",
+        "score": 0.6719040274620056,
+        "candidate_title": "The Law of Civil Procedure"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0119",
+        "score": 0.5598989129066467,
+        "candidate_title": "Canadian Civil Procedure Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0142",
+        "score": 0.5554912686347961,
+        "candidate_title": "Civil Procedure Guide"
+      }
+    ]
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "Trinity Western University v. Nova Scotia Barristers’ Society": {
+    "uri": "https://canlii.ca/t/gg386",
+    "score": 3.5,
+    "candidate_id": "2015nssc25",
+    "candidate_title": "Trinity Western University v. Nova Scotia Barristers’ Society",
+    "query_text": "decision | Trinity\nWestern University v. Nova Scotia Barristers’ Society | NSBS | Trinity\nWestern University | 2015 NSSC 25 | 2014 NSCA 33",
+    "method": "citation_exact",
+    "matched_key": "2015nssc25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gg386",
+        "score": 3.5,
+        "candidate_title": "Trinity Western University v. Nova Scotia Barristers’ Society"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6dfz",
+        "score": 3.0,
+        "candidate_title": "Egg Films Inc. v. Nova Scotia (Labour Board)"
+      }
+    ]
+  },
+  "Legal Profession Act": {
+    "uri": "https://canlii.ca/t/56pxc",
+    "score": 3.5,
+    "candidate_id": "l22613!22613-current-1",
+    "candidate_title": "Legal Profession Act",
+    "query_text": "legislation | <i>Legal\nProfession Act</i> | Nova Scotia law | Legal Profession Act | Legal\nProfession Act | Act | <auto_label id=\"347\" labelname=\"citation\" parent=\"title\" style=\"background-color: rgb(255, 87, 51); color: black;\" verified=\"false\">SNS 2004, c. 28</auto_label> | S.N.S. 2004, c. 28 | R.S.N.S. 1989, c. 214 | R.S.N.S. 1989, c.30",
+    "method": "citation_exact",
+    "matched_key": "sns2004c28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pxc",
+        "score": 3.5,
+        "candidate_title": "Legal Profession Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53j7p",
+        "score": 3.0,
+        "candidate_title": "Human Rights Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jpr6",
+        "score": 3.0,
+        "candidate_title": "Barristers and Solicitors Act"
+      }
+    ]
+  },
+  "Canadian Charter of Rights and Freedoms": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 0.9090909090909091,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | constitutional freedoms | Charter | Charter of Rights and freedoms | Charter of Rights and\nFreedoms | <i>Charter</i>",
+    "method": "fuzzy",
+    "matched_key": "constitutional freedoms",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 0.9090909090909091,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.8695652173913043,
+        "candidate_title": "The Constitution Act, 1982"
+      }
+    ]
+  },
+  "Trinity Western University v. British Columbia College of Teachers": {
+    "uri": "https://canlii.ca/t/dmd",
+    "score": 2.0,
+    "candidate_id": "2001csc-scc31",
+    "candidate_title": "Trinity Western University v. British Columbia College of Teachers",
+    "query_text": "decision | Trinity Western University v. British Columbia College of\nTeachers | <i>Trinity Western University v. British Columbia College of\nTeachers </i><a href=\"#_ftn56\" name=\"_ftnref56\" title=\"\"><span class=\"MsoFootnoteReference\"><span class=\"MsoFootnoteReference\"><span lang=\"EN-CA\" style='font-size:14.0pt;font-family:\"Times New Roman\",\"serif\"'>[56]</span></span></span></a><i>(“\nTWU v</i>. <i>BCCT</i>”) | TWU v. BCCT | TWU\nv. BCCT | British Columbia College of Teachers v.\nTrinity Western University | British Columbia College of Teachers v. Trinity Western\nUniversity<a href=\"#_ftn80\" name=\"_ftnref80\" title=\"\"><span class=\"MsoFootnoteReference\"><span class=\"MsoFootnoteReference\"><b><span lang=\"EN-CA\" style='font-size:14.0pt;font-family:\"Times New Roman\",\"serif\"'>[80]</span></b></span></span></a>\n(TWU v. BCCT) | TWU | BCCT | TWU v.BCCT | Trinity Western University v. British Columbia College\nof Teacher,s | <i>TWU v. BCCT</i> | <i>TWU\nv. BCCT</i>",
+    "method": "title_exact",
+    "matched_key": "trinity western university v british columbia college of teachers",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/dmd",
+        "score": 2.0,
+        "candidate_title": "Trinity Western University v. British Columbia College of Teachers"
+      }
+    ]
+  },
+  "Nova Scotia Human Rights Act": {
+    "uri": "https://canlii.ca/t/53j7p",
+    "score": 0.9142857142857143,
+    "candidate_id": "l22604!22604-current-1",
+    "candidate_title": "Human Rights Act",
+    "query_text": "legislation | Human Rights Act<a href=\"#_ftn22\" name=\"_ftnref22\" title=\"\"><span class=\"MsoFootnoteReference\"><span class=\"MsoFootnoteReference\"><b><span lang=\"EN-CA\" style='font-size:14.0pt;font-family:\"Times New Roman\",\"serif\"'>[22]</span></b></span></span></a> | Nova Scotia Human\nRights Act | Nova Scotia Human Rights Act",
+    "method": "fuzzy",
+    "matched_key": "human rights act 22",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53j7p",
+        "score": 0.9142857142857143,
+        "candidate_title": "Human Rights Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtj5",
+        "score": 0.9142857142857143,
+        "candidate_title": "Human Rights Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8j8z",
+        "score": 0.9142857142857143,
+        "candidate_title": "Human Rights Act"
+      }
+    ]
+  },
+  "Barristers and Solicitors Act": {
+    "uri": "https://canlii.ca/t/jpr6",
+    "score": 2.0,
+    "candidate_id": "l23009!23009-current-1",
+    "candidate_title": "Barristers and Solicitors Act",
+    "query_text": "legislation | Barristers and Solicitors Act",
+    "method": "title_exact",
+    "matched_key": "barristers and solicitors act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jpr6",
+        "score": 2.0,
+        "candidate_title": "Barristers and Solicitors Act"
+      }
+    ]
+  },
+  "Egg Films Inc. v. Nova Scotia (Labour Board)": {
+    "uri": "https://canlii.ca/t/g6dfz",
+    "score": 2.0,
+    "candidate_id": "2014nsca33",
+    "candidate_title": "Egg Films Inc. v. Nova Scotia (Labour Board)",
+    "query_text": "decision | Egg Films Inc. v. Nova Scotia\n(Labour Board) | <i>Egg Films</i>",
+    "method": "title_exact",
+    "matched_key": "egg films inc v nova scotia labour board",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g6dfz",
+        "score": 2.0,
+        "candidate_title": "Egg Films Inc. v. Nova Scotia (Labour Board)"
+      }
+    ]
+  },
+  "Dunsmuir v. New Brunswick": {
+    "uri": "https://canlii.ca/t/1vxsm",
+    "score": 2.0,
+    "candidate_id": "2008csc-scc9",
+    "candidate_title": "Dunsmuir v. New Brunswick",
+    "query_text": "decision | <i>Dunsmuir v. New Brunswick</i> | Dunsmuir",
+    "method": "title_exact",
+    "matched_key": "dunsmuir v new brunswick",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vxsm",
+        "score": 2.0,
+        "candidate_title": "Dunsmuir v. New Brunswick"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vxsn",
+        "score": 2.0,
+        "candidate_title": "Dunsmuir c. Nouveau-Brunswick"
+      }
+    ]
+  },
+  "Pearlman v. Manitoba Law Society Judicial Committee": {
+    "uri": "https://canlii.ca/t/1fshk",
+    "score": 2.0,
+    "candidate_id": "1991csc-scc72",
+    "candidate_title": "Pearlman v. Manitoba Law Society Judicial Committee",
+    "query_text": "decision | Pearlman v. Manitoba Law Society Judicial Committee",
+    "method": "title_exact",
+    "matched_key": "pearlman v manitoba law society judicial committee",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fshk",
+        "score": 2.0,
+        "candidate_title": "Pearlman v. Manitoba Law Society Judicial Committee"
+      }
+    ]
+  },
+  "Sobeys West Inc. v. College of Pharmacists of British Columbia": {
+    "uri": "https://canlii.ca/t/g8685",
+    "score": 2.0,
+    "candidate_id": "2014bcsc1414",
+    "candidate_title": "Sobeys West Inc. v. College of Pharmacists of British Columbia",
+    "query_text": "decision | Sobeys\nWest Inc. v. College of Pharmacists of British Columbia",
+    "method": "title_exact",
+    "matched_key": "sobeys west inc v college of pharmacists of british columbia",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8685",
+        "score": 2.0,
+        "candidate_title": "Sobeys West Inc. v. College of Pharmacists of British Columbia"
+      }
+    ]
+  },
+  "Constitution Act 1867": {
+    "uri": "https://canlii.ca/t/6fhd6",
+    "score": 0.9130434782608695,
+    "candidate_id": "l36027!36027-current-1",
+    "candidate_title": "Loi constitutionnelle de 1867",
+    "query_text": "legislation | Constitution Act, 1867",
+    "method": "fuzzy",
+    "matched_key": "constitution act 1867",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fhd6",
+        "score": 0.9130434782608695,
+        "candidate_title": "Loi constitutionnelle de 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.9130434782608695,
+        "candidate_title": "The Constitution Act, 1867"
+      }
+    ]
+  },
+  "Dore v. Barreau du Quebec": {
+    "uri": "https://canlii.ca/t/fqn88",
+    "score": 3.5,
+    "candidate_id": "2012csc-scc12",
+    "candidate_title": "Doré v. Barreau du Québec",
+    "query_text": "decision | <i>Dore v. Barreau du Quebec</i> | Dore v. Barreau du Quebec, | 2012\nSCC 12",
+    "method": "citation_exact",
+    "matched_key": "2012scc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqn88",
+        "score": 3.5,
+        "candidate_title": "Doré v. Barreau du Québec"
+      }
+    ]
+  },
+  "Civil Procedure Rules": {
+    "uri": "https://canlii.ca/t/56nxx",
+    "score": 2.0,
+    "candidate_id": "l36995!36995-current-1",
+    "candidate_title": "Nova Scotia Civil Procedure Rules",
+    "query_text": "legislation | Civil Procedure Rules",
+    "method": "title_exact",
+    "matched_key": "civil procedure rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 2.0,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      }
+    ]
+  },
+  "Syndicat Northcrest v. Anselem": {
+    "uri": "https://canlii.ca/t/1hddh",
+    "score": 3.5,
+    "candidate_id": "2004csc-scc47",
+    "candidate_title": "Syndicat Northcrest v. Amselem",
+    "query_text": "decision | Syndicat Northcrest v. Anselem | <i>Syndicat Northcrest v. Amselem</i> | <i>Syndicat Northcrest v. </i>Amselem | Syndicat Northcrest v. Amselem, | Amselem, | 2004 SCC 47",
+    "method": "citation_exact",
+    "matched_key": "2004scc47",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1hddh",
+        "score": 3.5,
+        "candidate_title": "Syndicat Northcrest v. Amselem"
+      }
+    ]
+  },
+  "Multani v. Commission scolaire Marguerite-Bourgeoys": {
+    "uri": "https://canlii.ca/t/1mnj2",
+    "score": 3.5,
+    "candidate_id": "2006csc-scc6",
+    "candidate_title": "Multani v. Commission scolaire Marguerite-Bourgeoys",
+    "query_text": "decision | Multani\nv. Commission scolaire Marguerite-Bourgeoys | <i>Multani v. Commission scolaire Marguerite- Bourgeoys</i> | 2006 SCC 6",
+    "method": "citation_exact",
+    "matched_key": "2006scc6",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mnj2",
+        "score": 3.5,
+        "candidate_title": "Multani v. Commission scolaire Marguerite-Bourgeoys"
+      }
+    ]
+  },
+  "S.L. v. Commission scolaire des Chenes": {
+    "uri": "https://canlii.ca/t/fq4b5",
+    "score": 2.0,
+    "candidate_id": "2012csc-scc7",
+    "candidate_title": "S.L. v. Commission scolaire des Chênes",
+    "query_text": "decision | S.L. v. Commission scolaire des Chenes | <i>S.L. v. Commission scolaire des Chenes, </i>",
+    "method": "title_exact",
+    "matched_key": "s l v commission scolaire des chenes",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fq4b5",
+        "score": 2.0,
+        "candidate_title": "S.L. v. Commission scolaire des Chênes"
+      }
+    ]
+  },
+  "R. v. N.S": {
+    "uri": "https://canlii.ca/t/fvbrr",
+    "score": 3.5,
+    "candidate_id": "2012csc-scc72",
+    "candidate_title": "R. v. N.S.",
+    "query_text": "decision | <i>R. v. N.S</i>. | <i>R. v. N.S.</i> | R. v.\nN.S. | <i><span lang=\"FR-CA\" style='font-size:12.0pt;line-height:115%;font-family:\n\"Times New Roman\",\"serif\"'>R. v. N.S</span></i><span lang=\"FR-CA\" style='font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",\"serif\"'>.</span> | 2012 SCC 72",
+    "method": "citation_exact",
+    "matched_key": "2012scc72",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fvbrr",
+        "score": 3.5,
+        "candidate_title": "R. v. N.S."
+      }
+    ]
+  },
+  "Saskatchewan (Human Rights Commission) v. Whatcott": {
+    "uri": "https://canlii.ca/t/fw8x4",
+    "score": 2.0,
+    "candidate_id": "2013csc-scc11",
+    "candidate_title": "Saskatchewan (Human Rights Commission) v. Whatcott",
+    "query_text": "decision | Saskatchewan (Human Rights Commission) v.\nWhatcott, | Whatcott | Saskatchewan\n(Human Rights Commission) v. Whatcott",
+    "method": "title_exact",
+    "matched_key": "saskatchewan human rights commission v whatcott",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fw8x4",
+        "score": 2.0,
+        "candidate_title": "Saskatchewan (Human Rights Commission) v. Whatcott"
+      }
+    ]
+  },
+  "Owens v. Human Rights Commission (Sask.)": {
+    "uri": "https://canlii.ca/t/1n62q",
+    "score": 0.9230769230769231,
+    "candidate_id": "2006skca41",
+    "candidate_title": "Owens v. Saskatchewan (Human Rights Commission)",
+    "query_text": "decision | Owens\nv. Human Rights Commission (Sask.)",
+    "method": "fuzzy",
+    "matched_key": "owens v human rights commission sask",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1n62q",
+        "score": 0.9230769230769231,
+        "candidate_title": "Owens v. Saskatchewan (Human Rights Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/5dtt",
+        "score": 0.9230769230769231,
+        "candidate_title": "Owens v. Saskatchewan (Human Rights Commission)"
+      }
+    ]
+  },
+  "Dagenais v. Canadian Broadcasting Corp.": {
+    "uri": "https://canlii.ca/t/1frnq",
+    "score": 2.0,
+    "candidate_id": "1994csc-scc102",
+    "candidate_title": "Dagenais v. Canadian Broadcasting Corp.",
+    "query_text": "decision | <i>Dagenais v. Canadian Broadcasting Corp</i>.",
+    "method": "title_exact",
+    "matched_key": "dagenais v canadian broadcasting corp",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frnq",
+        "score": 2.0,
+        "candidate_title": "Dagenais v. Canadian Broadcasting Corp."
+      }
+    ]
+  },
+  "R. v. Mentuck": {
+    "uri": "https://canlii.ca/t/51x5",
+    "score": 2.0,
+    "candidate_id": "2001csc-scc76",
+    "candidate_title": "R. v. Mentuck",
+    "query_text": "decision | <i>R. v. Mentuck</i>",
+    "method": "title_exact",
+    "matched_key": "r v mentuck",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51x5",
+        "score": 2.0,
+        "candidate_title": "R. v. Mentuck"
+      }
+    ]
+  },
+  "Alberta v. Hutterian Brethren of Wilson Colony": {
+    "uri": "https://canlii.ca/t/24rr4",
+    "score": 3.5,
+    "candidate_id": "2009csc-scc37",
+    "candidate_title": "Alberta v. Hutterian Brethren of Wilson Colony",
+    "query_text": "decision | Alberta v. Hutterian Brethren of\nWilson Colony | <i>Alberta v.Hutterian Brethren of Wilson Colony</i> | 2009 SCC 37",
+    "method": "citation_exact",
+    "matched_key": "2009scc37",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/24rr4",
+        "score": 3.5,
+        "candidate_title": "Alberta v. Hutterian Brethren of Wilson Colony"
+      }
+    ]
+  },
+  "R. v. Oakes": {
+    "uri": "https://canlii.ca/t/1ftv6",
+    "score": 3.5,
+    "candidate_id": "1986csc-scc7",
+    "candidate_title": "R. v. Oakes",
+    "query_text": "decision | R. v. Oakes | [1991] 2 S.C.R. 869. | [1986] 1 S.C.R. 103",
+    "method": "citation_exact",
+    "matched_key": "19861scr103",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftv6",
+        "score": 3.5,
+        "candidate_title": "R. v. Oakes"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fshk",
+        "score": 3.0,
+        "candidate_title": "Pearlman v. Manitoba Law Society Judicial Committee"
+      }
+    ]
+  },
+  "R. v. Big M Drug Mart Ltd.": {
+    "uri": "https://canlii.ca/t/1fv2b",
+    "score": 3.5,
+    "candidate_id": "1985csc-scc15",
+    "candidate_title": "R. v. Big M Drug Mart Ltd.",
+    "query_text": "decision | R. v. Big M Drug Mart Ltd. | R. v. Big M Drug Mart Ltd,. | <i>R. v. Big M Drug Mart Ltd</i>. | [1985] 1 S.C.R. 295",
+    "method": "citation_exact",
+    "matched_key": "19851scr295",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fv2b",
+        "score": 3.5,
+        "candidate_title": "R. v. Big M Drug Mart Ltd."
+      }
+    ]
+  },
+  "Minow, Martha, Putting Up and Putting Down: Tolerance Reconsidered": {
+    "uri": "https://canlii.ca/t/7njbq",
+    "score": 2.0,
+    "candidate_id": "d224722!d224722",
+    "candidate_title": "Putting up and Putting Down: Tolerance Reconsidered",
+    "query_text": "secondary sources | Putting Up\nand Putting Down: Tolerance Reconsidered | Minow, Martha",
+    "method": "title_exact",
+    "matched_key": "putting up and putting down tolerance reconsidered",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7njbq",
+        "score": 2.0,
+        "candidate_title": "Putting up and Putting Down: Tolerance Reconsidered"
+      }
+    ]
+  },
+  "Canada (Attorney General) v. Bedford": {
+    "uri": "https://canlii.ca/t/g2f56",
+    "score": 3.5,
+    "candidate_id": "2013csc-scc72",
+    "candidate_title": "Canada (Attorney General) v. Bedford",
+    "query_text": "decision | <i>Canada (Attorney General). v. Bedford,</i> | Canada (Attorney General) v.\nBedford | 2013 SCC 72 | 2013 SCC72",
+    "method": "citation_exact",
+    "matched_key": "2013scc72",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g2f56",
+        "score": 3.5,
+        "candidate_title": "Canada (Attorney General) v. Bedford"
+      }
+    ]
+  },
+  "Newfoundland and Labrador Nurses’ Union v. Newfoundland and Labrador (Treasury Board)": {
+    "uri": "https://canlii.ca/t/fpbh9",
+    "score": 3.5,
+    "candidate_id": "2011csc-scc62",
+    "candidate_title": "Newfoundland and Labrador Nurses' Union v. Newfoundland and Labrador (Treasury Board)",
+    "query_text": "decision | Newfoundland and Labrador Nurses’ Union v. Newfoundland and Labrador (Treasury\nBoard) | 2011 SCC 62",
+    "method": "citation_exact",
+    "matched_key": "2011scc62",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpbh9",
+        "score": 3.5,
+        "candidate_title": "Newfoundland and Labrador Nurses' Union v. Newfoundland and Labrador (Treasury Board)"
+      }
+    ]
+  },
+  "Alberta v. Alberta Teachers’ Association": {
+    "uri": "https://canlii.ca/t/fpb49",
+    "score": 3.0,
+    "candidate_id": "2011csc-scc61",
+    "candidate_title": "Alberta (Information and Privacy Commissioner) v. Alberta Teachers' Association",
+    "query_text": "decision | Alberta v. Alberta\nTeachers’ Association, | Alberta\nv. Alberta Teachers’ Association, | Alberta v. Alberta Teachers’\nFederation | 2011 S.C.C. 61 | 2011 SCC 61 | 2011 SCC. 61",
+    "method": "citation_exact",
+    "matched_key": "2011scc61",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpb49",
+        "score": 3.0,
+        "candidate_title": "Alberta (Information and Privacy Commissioner) v. Alberta Teachers' Association"
+      }
+    ]
+  },
+  "Cartaway Resources Corp. (Re)": {
+    "uri": "https://canlii.ca/t/1gzjp",
+    "score": 3.5,
+    "candidate_id": "2004csc-scc26",
+    "candidate_title": "Cartaway Resources Corp. (Re)",
+    "query_text": "decision | <i>Cartaway Resources Corp. (Re), </i> | [2004] 1 S.C.R. 672",
+    "method": "citation_exact",
+    "matched_key": "20041scr672",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1gzjp",
+        "score": 3.5,
+        "candidate_title": "Cartaway Resources Corp. (Re)"
+      }
+    ]
+  },
+  "Cooper v. Canada (Human Rights Commission)": {
+    "uri": "https://canlii.ca/t/1fr4w",
+    "score": 3.5,
+    "candidate_id": "1996csc-scc112",
+    "candidate_title": "Cooper v. Canada (Human Rights Commission)",
+    "query_text": "decision | <i>Cooper v. Canada (Human Rights Commission),</i> | [1996] 3 S.C.R. 854",
+    "method": "citation_exact",
+    "matched_key": "19963scr854",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr4w",
+        "score": 3.5,
+        "candidate_title": "Cooper v. Canada (Human Rights Commission)"
+      }
+    ]
+  },
+  "Canadian National Railway Co. v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/g6z0w",
+    "score": 3.5,
+    "candidate_id": "2014csc-scc40",
+    "candidate_title": "Canadian National Railway Co. v. Canada (Attorney General)",
+    "query_text": "decision | <i>Canadian National Railway Co. v. Canada (Attorney General,</i> | Canadian National Railway Co. v.\nCanada | 2014 SCC 40",
+    "method": "citation_exact",
+    "matched_key": "2014scc40",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g6z0w",
+        "score": 3.5,
+        "candidate_title": "Canadian National Railway Co. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/fnl47",
+    "score": 2.0,
+    "candidate_id": "2011csc-scc53",
+    "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)",
+    "query_text": "decision | Canada (Canadian Human Rights Commission) v. Canada (Attorney\nGeneral",
+    "method": "title_exact",
+    "matched_key": "canada canadian human rights commission v canada attorney general",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fnl47",
+        "score": 2.0,
+        "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hshvb",
+        "score": 2.0,
+        "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Thorne’s Hardware Ltd. v. The Queen": {
+    "uri": "https://canlii.ca/t/1lpd8",
+    "score": 3.5,
+    "candidate_id": "1983csc-scc10004",
+    "candidate_title": "Thorne's Hardware Ltd. v. The Queen",
+    "query_text": "decision | Thorne’s Hardware Ltd. v. The\nQueen | [1983] 1 S.C.R. 106",
+    "method": "citation_exact",
+    "matched_key": "19831scr106",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpd8",
+        "score": 3.5,
+        "candidate_title": "Thorne's Hardware Ltd. v. The Queen"
+      }
+    ]
+  },
+  "RJR-MacDonald Inc. v. Canada": {
+    "uri": "https://canlii.ca/t/1frgz",
+    "score": 3.0,
+    "candidate_id": "1995csc-scc72",
+    "candidate_title": "RJR-MacDonald Inc. v. Canada (Attorney General)",
+    "query_text": "decision | <i>RJR- MacDonald Inc. v. Canada</i> | [1995] 3 S.C.R. 199",
+    "method": "citation_exact",
+    "matched_key": "19953scr199",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frgz",
+        "score": 3.0,
+        "candidate_title": "RJR-MacDonald Inc. v. Canada (Attorney General)"
+      }
+    ]
+  }
+}

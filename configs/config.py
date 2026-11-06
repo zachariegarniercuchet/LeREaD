@@ -16,7 +16,7 @@ PROMPT_DIR = PROJECT_ROOT / "src" /"prompts"
 
 MIN_TOKENS         = 500
 CITATION_THRESHOLD = 25
-SPLITS             = ["train", "test", "dev", "incoming", "extended_test"]
+SPLITS             = ["train", "test", "dev", "incoming", "extended_test", "dev_train"]
 
 FEWSHOT_N          = 100
 FEWSHOT_METHOD     = "random"   # "greedy" | "random" 

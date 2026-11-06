@@ -1,0 +1,2214 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 10 (filtered)" name="Generator"/>
+<title>Date: 20020730</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"WP Phonetic";
+	panose-1:5 11 6 4 2 2 2 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.Level1, li.Level1, div.Level1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:0cm;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.Level3, li.Level3, div.Level3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+p.Level2, li.Level2, div.Level2
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+ /* Page Definitions */
+ @page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section2
+	{page:Section2;}
+@page Section3
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section3
+	{page:Section3;}
+@page Section4
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section4
+	{page:Section4;}
+@page Section5
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section5
+	{page:Section5;}
+@page Section6
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section6
+	{page:Section6;}
+@page Section7
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section7
+	{page:Section7;}
+@page Section8
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section8
+	{page:Section8;}
+@page Section9
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section9
+	{page:Section9;}
+@page Section10
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section10
+	{page:Section10;}
+@page Section11
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section11
+	{page:Section11;}
+@page Section12
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section12
+	{page:Section12;}
+@page Section13
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section13
+	{page:Section13;}
+@page Section14
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section14
+	{page:Section14;}
+@page Section15
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section15
+	{page:Section15;}
+@page Section16
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section16
+	{page:Section16;}
+@page Section17
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section17
+	{page:Section17;}
+@page Section18
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section18
+	{page:Section18;}
+@page Section19
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section19
+	{page:Section19;}
+@page Section20
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section20
+	{page:Section20;}
+@page Section21
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section21
+	{page:Section21;}
+@page Section22
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section22
+	{page:Section22;}
+@page Section23
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section23
+	{page:Section23;}
+@page Section24
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section24
+	{page:Section24;}
+@page Section25
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section25
+	{page:Section25;}
+@page Section26
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section26
+	{page:Section26;}
+@page Section27
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section27
+	{page:Section27;}
+@page Section28
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section28
+	{page:Section28;}
+@page Section29
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section29
+	{page:Section29;}
+@page Section30
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section30
+	{page:Section30;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+<body lang="EN-US" style="text-justify-trim:punctuation">
+<div class="Section1">
+<p class="MsoNormal"><a name="QuickMark"></a><span lang="EN-GB" style="font-size:
+14.0pt"> </span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span lang="EN-GB" style="font-size:14.0pt">Date: <a name="a1">20020730</a></span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span lang="EN-GB" style="font-size:14.0pt">Docket: <a name="a2">99/27</a></span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span lang="EN-GB" style="font-size:14.0pt">Decision No.: 2002 NFCA 43 </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span lang="EN-GB" style="font-size:14.0pt"> </span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span lang="EN-GB" style="font-size:14.0pt">IN THE SUPREME COURT OF NEWFOUNDLAND AND LABRADOR</span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span lang="EN-GB" style="font-size:14.0pt">COURT OF APPEAL</span></b></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:108.0pt;text-indent:-108.0pt"><u><span style="font-size:14.0pt">BETWEEN</span></u><span style="font-size:14.0pt">: </span></p>
+<p class="MsoNormal" style="margin-left:360.0pt;text-indent:-288.0pt"><span style="font-size:14.0pt">ARCHEAN RESOURCES LTD.                             APPELLANT</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><u><span style="font-size:14.0pt">AND</span></u><span style="font-size:14.0pt">:</span></p>
+<p class="MsoNormal" style="text-indent:72.0pt"><span style="font-size:14.0pt">HER
+MAJESTY THE QUEEN IN RIGHT</span></p>
+<p class="MsoNormal" style="text-indent:72.0pt"><span style="font-size:14.0pt">OF
+NEWFOUNDLAND, AS REPRESENTED</span></p>
+<p class="MsoNormal" style="text-indent:72.0pt"><span style="font-size:14.0pt">BY
+THE HONOURABLE THE MINISTER OF</span></p>
+<p class="MsoNormal" style="text-indent:72.0pt"><span style="font-size:14.0pt">FINANCE
+FOR THE PROVINCE OF</span></p>
+<p class="MsoNormal" style="margin-left:324.0pt;text-indent:-252.0pt"><span style="font-size:14.0pt">NEWFOUNDLAND                                     FIRST
+RESPONDENT</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:108.0pt;text-indent:-108.0pt"><u><span style="font-size:14.0pt">AND</span></u><span style="font-size:14.0pt">:           </span></p>
+<p class="MsoNormal" style="text-indent:72.0pt"><span style="font-size:14.0pt">HER
+MAJESTY’S ATTORNEY GENERAL FOR</span></p>
+<p class="MsoNormal" style="margin-left:324.0pt;text-indent:-252.0pt"><span style="font-size:14.0pt">NEWFOUNDLAND                                     SECOND
+RESPONDENT</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt">Coram: O’Neill,
+Marshall and Green, JJ.A.</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:144.0pt;text-indent:-144.0pt"><span lang="EN-GB" style="font-size:14.0pt">Court Appealed From:      Supreme Court of
+Newfoundland and Labrador </span></p>
+<p class="MsoNormal" style="margin-left:144.0pt"><span lang="EN-GB" style="font-size:14.0pt">Trial Division              1998 St. J. No. 3645</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:144.0pt;text-indent:-144.0pt"><span lang="EN-GB" style="font-size:14.0pt">Appeal Heard:                  September
+14, 2000</span></p>
+<p class="MsoNormal" style="margin-left:144.0pt;text-indent:-144.0pt"><span lang="EN-GB" style="font-size:14.0pt">Judgment Rendered:         July 30, 2002</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt">Reasons for
+judgment by Green, J.A.</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt">Concurred judgment
+by Marshall, J.A.</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt">Reasons for
+judgment by O’Neill, J.A.</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+</div>
+<span lang="EN-GB" style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section2">
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt">Counsel for the
+Appellant:   Colm Seviour</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt">Counsel for the
+First and Second Respondents:   Greig Crockett</span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><b><span lang="EN-GB" style="font-size:14.0pt">Green, J.A.:</span></b></p>
+<p class="Level1"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[1]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">The issue in this appeal involves
+a determination as to whether “the right to engage in mining operations” in s.
+9(1)(a) of the <b>Mining and Mineral Rights Tax Act</b>, R.S.N. 1990, c. M-16
+encompasses the rights of a licensee under a licence to explore for minerals
+issued under the <b>Mineral Act</b>, R.S.N. 1990, c. M-12.  On the answer to
+that question turns the ability of the province to impose an annual tax of 20%
+on royalties to be received by the appellant, Archean Resources Ltd,  from the
+operator of any mine developed with respect to the Voisey’s Bay mineral
+deposits in Labrador.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[2]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">Archean sought a declaration from
+the Trial Division that, on a proper interpretation of the applicable
+legislation, the net smelter royalty it had negotiated with Diamond Fields
+Resources Inc (DFRI) in consideration for the assignment by Archean to DFRI of
+Archean’s mineral exploration licence, at a time when the Voisey’s Bay deposits
+had not been discovered, was not subject to the province’s royalty tax.  The
+trial judge concluded, applying a “modern” purposive approach to
+interpretation, that the royalties were payable as a result of a grant to DFRI
+of “the right to engage in mining operations” and thus attracted tax under s.
+9(1)(a).  His decision is reported at (1999), 174 Nfld &amp; P.E.I.R. 183.  On
+appeal, Archean argues that the trial judge erred in his analysis and
+application of the proper principles of statutory interpretation to the
+applicable legislation.</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3"><b><u>BACKGROUND</u></b></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[3]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">Archean is a Newfoundland
+prospecting company engaged in the business of mineral exploration.  Its
+principals are Albert Chislett and Chris Verbiski, the co-discoverers of the
+nickel-copper-cobalt ore bodies at Voisey’s Bay, Labrador.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section3">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[4]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">In the early 1990's Archean
+acquired a number of exploration licences and began exploration in the Voisey’s
+Bay area.  Pursuant to s. 23 of the <b>Mineral Act</b>, those licences
+conferred on Archean “the exclusive right to explore for minerals” in the areas
+described in the licence for a period of 5 years.  They did not, however,
+confer any right to remove minerals except for the limited purposes of
+sampling, assaying and testing.  Section 24 of the <b>Act</b> recognized the
+assignability of the licences to other persons.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[5]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">In 1993, before the discovery of
+the Voisey’s Bay ore bodies, Archean granted an option to DFRI to purchase “an
+undivided 100 percent right, title and interest” in the lands covered by the
+exploration licences in return for consideration which included a 3 percent net
+smelter royalty on any subsequent mineral production from those lands.  The
+option was exercised in 1995 and thereafter, pursuant to the option agreement,
+DFRI acquired all the rights of the licensee under the exploration licences,
+with Archean retaining no interest in the lands covered by them.  Instead,
+Archean became entitled to the royalties provided for in the agreement.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[6]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">Because the Voisey’s Bay ore
+deposit is not yet developed, no royalty payments have  been made.  It is a
+matter of public knowledge that the current holder of the rights relating to
+the deposit is now in the process of securing a mining lease from the
+provincial government pursuant to s.31 of the <b>Mining Act</b>.  It was
+because Archean contemplated the sale to a third party of its contractual right
+to the royalty payments that, in order to remove any doubt as to its tax
+position, a declaration was sought from the Court that the royalty payments
+were not subject to s. 9(1)(a) of the <b>Mining and Mineral Rights Tax Act</b><i>.</i></span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[7]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">Under the scheme of the <b>Mining
+Act</b>, only the holder of an exploration licence may apply for a mining
+lease.  It is the lease which confers upon the lessee “the exclusive right to
+develop, extract, remove, deal with, sell, mortgage, or otherwise dispose of”
+all unalienated minerals in, on or under the land covered by the lease (s.
+31(5)(a)).  Before that point, no actual mining extraction activity can be undertaken. 
+To protect a licensee, however, subsections 31(2),(3) and (4) provide that a
+licensee who properly applies for a lease during the currency of the licence,
+and has complied with the conditions of the licence, properly surveys the area
+and completes all assessment work required for the first three years of the
+licence,  has “a right to the issuing of a mining lease” for a reasonable
+period not exceeding 25 years. </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section4">
+<p class="Level3"><b><u>THE TRIAL JUDGMENT</u></b></p>
+<p class="Level1"><b><span style="font-size:14.0pt"> </span></b></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[8]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">As noted, Archean applied to the
+Trial Division for a declaration that the royalty payments to which it was
+entitled once the Voisey’s Bay mine became producing were not subject to
+taxation under s. 9(1)(a) of the <b>Mining and Mineral Rights Tax Act</b>.  The
+applicable portion of the charging provision reads as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">9. (1)    A
+person who receives from</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(a)        an
+operator, contractor or other person during a financial year money by way of
+rental, royalty or similar payment for the grant ... of the right to engage in
+mining operations;</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">is liable for and shall pay to the minister [of Finance] ... an
+annual tax of 20% of the net revenue received in consideration of the grant of
+the right during that financial year.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[9]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">The key question, it will be seen,
+is whether the royalty to be received by Archean was in consideration of “the
+grant ... of the right to engage in mining operations”.  Archean argued that
+because it acquired the royalty for the transfer only of exploration licences,
+which in themselves did not allow for the extraction or removal of the minerals,
+it could not be said that the royalty was given in return for “the right to
+engage in mining operations”. It followed, it submitted, that the royalty was
+not subject to tax.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[10]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge rejected this
+interpretation.  He concluded that Archean’s situation was within the
+“mischief” to which the <b>Mining and Mineral Rights Tax Act</b> was directed<b>. 
+</b>In<b> </b>defining what the mischief that was being remedied by the
+legislation was, he placed considerable reliance on the <b>Report of the Royal
+Commission on Mineral Revenue</b> (1974), which is generally regarded as the
+impetus for the legislative reforms reflected in the <b>Act</b> enacted in the
+following year, as well as on statements by the minister who introduced the
+Bill in the House.  Applying a “remedial and liberal construction”, he
+reasoned:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section5">
+<p class="Level2">[44] ... [M]ining cannot occur at Voisey’s Bay or even be
+contemplated, unless an operator holds a mining lease.  Mining leases can only
+be granted on the basis of the exploration licences transferred from Archean
+and cannot otherwise be obtained.  I am satisfied therefore that in reality the
+right to engage in mining operations was in fact the benefit received by the
+optionee when the option was exercised and the transfers completed.  In no
+other way of which I am aware, could that most basic element of the right to
+mine, be obtained.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">[45]     The position is equally clear when viewed from the
+perspective of the buyer.  What did Diamond Fields ... really purchase with
+their payment of significant sums of money and their agreement to pay the
+royalty.  In my opinion at the heart of the transaction was the right to obtain
+a mining lease and thus ‘the right to engage in mining operations’.  Conditions
+will necessarily apply, but the right to engage in mining operations is now
+theirs and under the legislative scheme there was no other manner by which that
+right could have been obtained.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">[46]     For these reasons I must deny ... [Archean’s] claim
+for a declaration ...</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3"><b>ISSUES ON APPEAL</b></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[11]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Archean argues on appeal that the
+trial judge erred in applying an improper interpretative approach<b> </b>to the
+determination of the meaning and scope of               s. 9(1)(a).  In
+particular Archean argues  that the proper principle of interpretation is the
+“plain meaning” rule, i.e. that statutory language should be given its plain
+and ordinary grammatical meaning and that in the absence of ambiguity resort to
+other interpretive devices or principles, or to extrinsic aids, is unnecessary
+and inappropriate.  Applying that approach will yield an interpretation, it is
+argued,  that will recognize that an exploration licence, which does not carry
+with it the right to extract minerals, cannot on a plain reading of the
+language in the section encompass a right to engage in mining operations.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[12]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Alternatively, Archean argues
+that  resort to other interpretive devices and extrinsic aids, even if 
+appropriate, would, if properly employed, lead to the same result.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[13]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Finally, Archean argues that, at
+most, the scope of the provision is subject to reasonable uncertainty and
+factual ambiguity resulting from a lack of explicitness and that the principle
+that ambiguities are to be resolved in favour of the taxpayer dictates that the
+issue should be resolved in Archean’s favour.</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section6">
+<p class="Level3"><b><u>ANALYSIS</u></b></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[14]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The primary submission of the
+appellant is that, applying a plain meaning principle of construction, the
+words of s. 9(1), which impose a tax on consideration given for “the right to
+engage in mining operations”, do not encompass the rights held by an
+exploration licensee, which merely involve the right to apply for a lease if
+certain pre-conditions are satisfied.  The argument is that the words of s.
+9(1) plainly do not encompass the broader, more amorphous, rights under a mining
+licence ( namely, a contingent, conditional and future right to apply for the
+right to engage in mining operations) and that, accordingly, that should be the
+end of the matter.  Counsel for the appellant relied on, among other cases, the
+decision of the Supreme Court of Canada in <b>R. Multiform Manufacturing Co.</b>
+(1990), 79 C.R. (3d) 390 in support of this position.  There, Lamer C.J. said
+at p. 394:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">When the words used in a statute are clear and unambiguous, no
+further step is needed to identify the intention of Parliament.  There is no
+need for further construction when Parliament has clearly expressed its
+intention in the words it has used in the statute.  As Maxwell stated ...:</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt"> If there is nothing to modify,
+alter or qualify the language which the statute contains, it must be construed
+in the ordinary and natural meaning of the words and sentences.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[15]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Other decisions of the Supreme
+Court, decided both before and after the <b>Multiform</b> decision, stress what
+appears to be a more contextual and purposive approach to interpretation.  For
+example, in <b>Stubart Investments Limited v. The Queen</b> (1984), 10 D.L.R.
+(4d) 1, Estey J. adopted, at p. 32,  Dreidger’s formulation of the “modern
+rule”, taken from the second edition of his text, <i>The Construction of
+Statutes</i>, as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">Today there is only one principle or approach, namely, the
+words of an Act are to be read in their entire context and in their grammatical
+and ordinary sense harmoniously with the scheme of the Act, and the intention
+of Parliament.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[16]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">This formulation has also been
+adopted by the Court in cases decided subsequent to <b>Multiform</b>.  See, <b>Re
+Rizzo &amp; Rizzo Shoes Ltd. </b>[1998] 1 S.C.R. 27 and <b>R. v. Gladue</b>
+[1999] 1 S.C.R. 688.   </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[17]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In reality, however, there is no
+real inconsistency between these two approaches.  Even <b>Multiform</b> only
+suggests falling back on plain language where “there is nothing to modify,
+alter or qualify the language which the statutes contains”.  To determine, in
+any given case, whether there is anything that potentially could modify or
+qualify the plain words, it will be necessary to examine more than the actual
+language of the provision being construed.  <b>Multiform</b> itself, therefore,
+implicitly recognizes that interpretation involves more than a blinkered focus
+solely on the words used. Rarely will context have no role to play in giving
+meaning to the sterile words that are employed, given the general plasticity of
+language.  <b>Multiform </b>does not speak to the situation where, as is often
+the case, there are other indicators of meaning that, considered reasonably,
+might have the effect of modifying or qualifying one’s first impression from
+the initial reading of  the words alone. </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[18]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The argument of the appellant that
+the “proper principle” of interpretation is that “in cases of clear and
+unambiguous statutory language, the scheme, object and intention of Parliament
+as adverted to in <b>Stubart</b> are apparent and yield the proper meaning
+based on the plain and ordinary meaning of the statutory language” no longer
+(if it ever did) represents the proper approach to statutory interpretation. 
+The “scheme, object and intention of Parliament” must be gleaned, not only from
+the words used, whether ambiguous or not, but from a broad range of other
+additional sources of meaning.  All sources of meaning must be analyzed in an
+integrated fashion to determine what the scope of a particular legislative act
+is and how it should be fairly applied in a given case.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[19]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The starting point for
+interpretation of any statute enacted by the legislature of this province is
+the legislature’s own directive to the courts as found in s. 16 of the <b>Interpretation
+Act</b>:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">Every Act and every regulation and every provision of an Act or
+regulation shall be considered remedial and shall receive the liberal
+construction and interpretation that best ensures the attainment of the objects
+of the Act, regulation or provision according to its true meaning.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section7">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[20]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">What is noteworthy about this
+provision is that it applies to <i>all</i> legislative acts regardless of
+subject matter.  It draws no distinction between social reform legislation,
+taxation statutes,  legislation that deals with or affects property rights, or
+penal laws or statutes that affect personal or common law rights, to name a few
+types of statutes that from time to time have been said to attract special
+interpretative treatment. It eliminates special approaches, by way of
+presumptions of strict or other specialized construction, to the interpretation
+of certain types of statutes and not to others.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[21]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">It also contains no reference to
+that fictional notion of “intention of the legislature”, the ascertainment of
+which is often expressed to be the ultimate goal of statutory interpretation. 
+Of course, it is idle to speak in any realistic way of the intention of the
+legislature as a collectivity. It does not exist.  The reality is that a
+majority of legislators, perhaps for differing reasons and with differing
+motivations, and influenced by our parliamentary tradition of executive control
+of the legislature, coalesce to create a formal legislative act which is then
+consigned, once the formalities of its adoption are complied with, to the
+courts for application, in cases of doubt, to individual fact situations. 
+Legislation, by virtue of its nature, the manner in which it comes into being,
+and by virtue of the fact that it generally operates prospectively, must of
+necessity be expressed in generalized language.  Not every fact scenario that
+could be potentially engaged by the subject of the legislation can be
+anticipated.  Even the most detailed legislative provision cannot purport to
+address specifically all situations that might potentially be affected or
+caught by its reach.  One need only refer to litigation that arises out of the
+application of income tax legislation for verification of this observation</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section8">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[22]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Instead of mandating some
+fictionalized search for a collective “legislative intention”, s. 16 directs
+the court to consider every provision “remedial” and to interpret it so that it
+“best” ensures the attainment of its “objects” according to its “true”
+meaning.  This requires a consideration, as an integral part of the
+interpretive exercise, of the problem or “mischief” to which the legislature
+directed its legislative act as a remedy and then the drawing of an inference,
+based on the language of the whole enactment and the court’s general knowledge
+of the state of the pre-existing law and any information as to the broad social
+context in which the legislative act occurred, as to what, broadly speaking,
+the object or objects of the legislative act must have been.   The end result
+is to arrive at a “true” meaning.  That inevitably requires an examination of
+more than the bare words of the legislative enactment that is in issue, no
+matter how clear or unambiguous they may at first blush appear.  The
+surrounding text, the interrelation of other related statutes, the social and
+legislative context in which the provision was enacted, and other extrinsic
+aids are all sources to be consulted in this exercise. Obviously, if the bare
+words of the relevant provision appear to be straightforward and seem on their
+face to admit of only one meaning, they may end up controlling the result, but
+even in such a case, it is not sufficient to stop the interpretive exercise at
+this “plain” meaning; s. 16 requires that at the very least this plain meaning
+be given a “reality check” by being tested against other relevant sources of
+meaning to ensure that there is not some nuance or variation in the normal or
+apparent meaning that might indicate a different meaning in the particular
+context under consideration. “True” meaning is not plain meaning; it is a
+conclusion arrived at by reconciling all the appropriate indicators of meaning
+that the court is directed to consider.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[23]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In truth therefore, s. 16
+enunciates a principle of harmonization in which the courts are directed, in
+cases of dispute, to adopt and apply an interpretation that fairly reconciles
+the language used in the enactment with the broader objects of the legislation
+so as to achieve the general goal, or to rectify the mischief, to which  the
+legislative act appears to have been directed. That exercise determines the
+general ambit of impact of the legislative act and provides the basis for the
+court to conclude whether the particular fact situation before it should fall
+inside our outside that ambit.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[24]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">I do not propose to analyze all of
+the Supreme Court and other appellate decisions that have been cited.  It is
+sufficient to say that I agree with counsel for the respondent in this case that
+those decisions that are often cited as supporting an exclusively plain meaning
+approach to interpretation can generally be explained as involving situations
+where reliance on “plain meaning” is expressed as a conclusion as to meaning
+only after considering other interpretive sources such as legislative purpose,
+the mischief to be addressed, context and legislative and social history. 
+“Plain meaning” becomes a euphemism for “the only reasonable interpretation”
+after the first impressions flowing from the words used have been tested
+against other indicators of meaning. As McLachlin J. observed in <b>Opetchesaht
+Indian Band v. Canada</b> (1997), 147 D.L.R. (4<sup>th</sup>) 1 (SCC) at pp.
+22-23, “a court should only be satisfied with the plain meaning of a statute
+where that meaning is clear <i>and consistent with a purposive reading of the
+statute as a whole.</i>” [Emphasis added].</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section9">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[25]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In reality, the rhetoric of plain
+meaning and other formalistic approaches to interpretation often mask a broader
+hidden analysis.  Ruth Sullivan, in “Statutory Interpretation in the Supreme
+Court of Canada” (1998-99), 30 Ottawa L.R. 175 argues that the plain meaning
+(textualist) approach as well as an intentionalist approach (nominally
+involving a search, including sources beyond the bare words, for legislative
+intent) do not provide an adequate explanation for the role of the courts in
+statutory interpretation.  She argues that there should be a more explicit
+recognition of the role that judges play in adapting and applying legislative
+provisions to specific fact situations.  She suggests a “pragmatic” theory of
+interpretation that:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">...emphasizes the importance of the legislative text and the
+importance of legislative intent, but places final responsibility for the
+outcome on the shoulders of the interpreting judges.  On this theory, the
+judicial task in interpretation is properly characterized not as giving effect
+to the meaning of the text or the intention of the legislature, but as solving
+the interpretive problem in an appropriate and acceptable way. (p. 178)</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[26]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The process of interpretation then
+becomes an exercise in finding appropriate justifications for a fair and
+reasonable result in the circumstances of the particular case in a way that
+respects the important values of society within the context of the legislative
+directive that has been given.   It recognizes that, within those parameters,
+“the outcomes of interpretation disputes are appropriately determined by
+judges, not legislatures” (p. 185) and provides a more realistic explanation of
+the current practice of Canadian courts without resort to linguistic or legal
+fictions. It recognizes that resolving particular interpretative disputes
+involves assigning appropriate weight to various factors to arrive at a result
+that conforms to the legislative text and broad legislative purpose while at
+the same time producing an outcome that is just and reasonable. According to
+Professor Sullivan, “assigning appropriate weight to these factors and
+balancing them against one another is the essence of the judicial function in
+interpretation” (p. 184).</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[27]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">This description of the
+interpretative function is reflected in the third edition of <i>Driedger</i>,
+authored by Professor Sullivan, at p. 132:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">...the courts must consider and take into account all relevant
+and admissible indicators of legislative meaning.  After taking these into
+account, the court must then adopt an interpretation that is appropriate.  An
+appropriate interpretation is one that can be justified in terms of (a) its
+plausibility, that is, its compliance with the legislative text; (b) its
+efficacy, that is its promotion of the legislative purpose; and (c) its
+acceptability, that is, the outcome is reasonable and just.</p>
+</div>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section10">
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[28]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Such an approach, with which I
+agree, recognizes a limited role for the courts in law-making as they flesh out
+the skeleton of the legislation in the context of specific fact situations that
+may not have been anticipated or adverted to by the legislators when adopting
+generalized text for the purpose of furthering broad policy objectives.  The
+courts, whose <i>raison d’etre</i> is the resolution of specific disputes in a
+just and fair manner according to law, have necessarily been assigned the role,
+both constitutionally and by the legislature itself through its directive in  
+s. 16 of the <b>Interpretation Act</b>, of deciding interpretative disputes in
+a manner that is generally perceived as fair and reasonable.  In performing
+that function, they must of course have regard to the actual legislative text
+and the reasonable inferences which the court draws as to the overall
+objective, or parameters of operation, of the legislation.  In so doing, the
+court pays respect to the principle of deference to the legislative will. </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[29]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The greater the precision and
+circumstance-specific the text and the clearer the indicators of legislative
+objective, the more controlling will those factors be with respect to an
+outcome in a particular case.  In the end, however, the court must seek to
+reconcile the text and the legislative objectives with a result that is
+perceived to be fair and just in the particular circumstances of the individual
+case.  It is in this latter context that notions of general fairness, and
+common law, social and constitutional values are engaged and are sought to be
+harmonized with the other factors of text and legislative objective. </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section11">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[30]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">What have been often regarded as
+sub-rules of statutory construction or presumptions of legislative intent are
+in reality ways in which the courts attempt to achieve fairness in application
+of a legislative provision in a particular case.  For example, whether one
+talks of strict construction of taxing statutes against the taxing authority or
+a rule that resolves ambiguity in favour of a taxpayer, the reason for such
+“rules” is that in many cases it would be perceived as unfair to a taxpayer,
+who orders his or her financial affairs on what appears to be a clear or
+reasonable construction of a legislative provision, to impose, after the fact,
+an interpretation that could not clearly have been anticipated in advance. 
+Rather than talk in terms of presumptions or sub-rules, which in themselves
+have fictional qualities about them, it is better to consider directly whether
+a particular text-based construction offends these general notions of fairness
+in the factual circumstances of the particular case.  As Sullivan points out,
+conducting an analysis in terms of presumptions of legislative intent (such as,
+the presumptions that the legislature intends to comply with the <b>Charter</b>,
+or does not intend an absurdity, or that it does not intend to unduly interfere
+with property or other common law rights, to name a few), and thereby achieving
+a narrowing of generalized text, effectively “mutes judicial responsibility and
+makes it less likely that these presumptions will be critically examined” (p.
+225) and “tends to empty the notion of ‘legislative intent’ of real
+significance or force”.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[31]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">To those who would argue that this
+approach is inconsistent with legislative supremacy and the notion that judges
+are mere appliers, not makers, of law, Sullivan has the following, in my view
+persuasive, answer:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">          [The pragmatic approach to interpretation] ...
+requires judges to acknowledge and justify the other factors that influence
+their judgments ... [and] ... it requires judges to address the crucial problem
+of weight. ... Pragmatism is more persuasive because it asks judges to
+attribute only as much weight to the text as it can bear having regard to
+considerations like relative clarity, and only as much weight to legislative intention
+as it can bear having regard to the cogency of the inferences that can be drawn
+from reading the text in context and from extrinsic evidence. Pragmatism
+expects judges to also rely on other, judicially-noticed factors but only to
+the extent such reliance is warranted having regard to the relevance and
+importance of these other factors.  The clearer the text, the more compelling
+the evidence of specific legislative intent, the harder it will be to justify
+departure from those constraints and the more compelling the other factors will
+have to be. </p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">          Another virtue of pragmatism is that it offers a
+better way of characterizing the separation of powers between legislatures and
+courts. Under traditional versions of the separation doctrine, the legislature
+makes the law and the court’s job is to apply that law to particular facts. 
+Under the pragmatic approach, the legislature makes statutes and the court’s
+job is to resolve disputes in accordance with the law.  With this approach,
+statutes are the primary but not the sole source of law. ... In a common law
+jurisdiction, supplemental law consists of the rest of the statute book, the
+common law and the evolving legal tradition which draws on current social and
+political values as well as those of the past.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">          The final virtue of pragmatism is that it reconciles
+the reality of judicial choice with the imperatives of democracy. ... [E]ven if
+it were possible, it would be wrong for courts to apply the directives of the
+legislature mechanically and blindly to particular facts.  Courts must act as
+mediators to ensure that disputes are resolved in ways that respect <i>all</i>
+the values of constitutional democracy. ...</p>
+</div>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section12">
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">          The pragmatic account of statutory interpretation is
+often resisted because it is thought to give too much discretion to unelected
+judges, contrary to both democratic principle and the rule of law.  <u>But in
+truth, pragmatism does not “give” judges additional discretion; it merely
+acknowledges the discretion they have, and must have, to resolve interpretation
+disputes.  The only real question is whether we are content with formalism or
+would rather know the “real” reasons for a decision. </u>[Underlining added]</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[32]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In other words, while it is the
+legislature that initiates the law-making process, it must be recognized that
+law-making is not accomplished in a vacuum; it is designed to have practical
+application.  In cases of dispute as to application in a given case, the
+legislature consigns to the courts, as the constitutionally-accepted forum for
+the arbitration of disputes, the role of resolving particular disputes in a
+fair and reasonable way, taking into account what the legislature has attempted
+to accomplish by its legislative act.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[33]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">It is necessary now to consider
+how this approach to interpretation affects the result in this case.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[34]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge’s approach to
+interpretation in this case is summarized in the following paragraph from his
+judgment:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">[21]      I
+therefore propose to interpret section 9 and the Mining and Mineral Rights Tax
+Act as a whole, according to the contemporary or modern approach which is also
+in my opinion the approach mandated by the Interpretation Act.  To do so it is
+proper for me to consider materials touching on the objectives of the Act and
+the objectives of the Legislature in enacting its provisions.  To put it
+another way, was there a "mischief" which the Legislature was
+attempting to rectify.  For these purposes I am entitled to have recourse to
+the report of a Royal Commission on mineral revenues and to a lesser and very
+limited extent, to a statement as to the objects of the legislation as
+expressed by the Minister of Mines and Energy in 1975 during debate in the
+House of Assembly.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[35]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">He rejected a "plain
+meaning" approach to interpretation in the following words:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section13">
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">[39]      Can it
+then be said that in 1995 Archean transferred to Diamond Fields and its
+successors, "the right to engage in mining operations" in the context
+of the Act.  At first blush and on a narrow construction of the wording, one
+might conclude that because an exploration license is one entity and a mining
+lease is another, that the transfer was not the transfer of the right to engage
+in mining operations.  However, after review and reflection, I have concluded
+otherwise.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[36]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge quoted extensively
+from the <b>Report of the Royal Commission on Mineral Revenue</b> (1974)
+although he acknowledged that all of the recommendations of that Commission
+were not necessarily embodied in the ensuing legislation.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[37]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">He concluded:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">[40]      The
+historical background of mining concessions in this province as provided by the
+.... Royal Commission and a reading of the legislation which followed, makes it
+clear that the legislative provisions for exploratory licences, mining leases
+and the tax on royalties, were designed to avoid the undesirable practices of
+the past whereby concession holders received substantial royalty payments from
+mine operators, without tax liability.  These payments were described as
+unearned royalties, and it was such royalties at which the legislation was
+aimed.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">[41]      Archean
+was essentially a prospector.  It sold its exploration licences to Diamond
+Fields for cash, shares and the right to receive a royalty of 3.0% on net
+smelter returns.  It now proposes to sell its contractual right to receive the
+3.0% royalty, which is the only right which it now has, to a prospective
+purchaser.  Without the tax liability under section 9, it appears to me that
+Archean or its purchaser/successor would be in the same position as were the
+receivers of unearned royalties prior to 1975.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">. . . . . .</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">[43]      
+Clearly the objects of the legislation are that unearned royalties derived from
+mining operations within the province, shall be subject to a specific tax
+regime in addition to taxes of general application."</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section14">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[38]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge did not accede to
+the argument made on behalf of Archean that the focus of the comments in the
+Royal Commission Report on "unearned royalties" and on the scope of
+s. 9 was limited to taxation of existing concession holders who had bartered their
+rights in the past to other operators in return for royalties which had escaped
+taxation.  He apparently took the view, a view with which I agree, that focus
+on the ills of the past with respect to the non-taxation of specific concession
+holders was merely the motivation or justification for recommending a new
+taxation regime that would not allow for the repeat of situations where people
+could trade on the non-renewable mineral resources of the province without
+paying a fair return to the province for that privilege.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[39]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge concluded that the
+language employed in s. 9 broadly construed in accordance with s. 16 of the <b>Interpretation
+Act</b>, could, and should, encompass a situation where the rights of a licence
+holder, as opposed to holder of an actual mining lease, are granted or
+transferred in return for a royalty payment.  This conclusion was primarily
+influenced by the fact that under the legislative scheme the only way, short of
+an express grant by the legislature, in which a right to engage in mining
+operations could be obtained, was through the prior acquisition of an
+exploration licence and the fulfillment of the conditions associated with that
+licence.  He recognized the reality that an exploration licence which has
+resulted in the discovery of commercial ore has significant value precisely
+because the holder of it controls the mechanism by which a mining lease can be
+obtained.  While it is true that the "right" of the holder of a
+licence to the issuing of a mining lease pursuant to s. 31 of the <b>Mineral
+Act</b>, can only be exercised if he or she fulfills certain ancillary
+conditions, the fulfillment of those conditions  (such as completion of
+previous assessment work and the provision of surveys and markings) is within
+the control of the holder of the licence.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[40]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The licence holder therefore has
+it within his or her power to exercise the right to obtain a lease, which
+cannot be arbitrarily refused in the discretion of the Minister, and, in  the
+words of s. 31(5)(a) of the <b>Mineral Act</b>, acquire "the exclusive
+right to develop, extract, remove, deal with, sell, mortgage, or otherwise
+dispose of all the unalienated minerals, or those specified in the lease, in,
+on or under the land described in the lease".  While the licence itself
+confers no right to remove minerals except for very limited purposes (s. 23(2)
+of the <b>Mineral Act</b>) the licence in effect is the key that enables the
+benefits of a mining lease to be unlocked.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section15">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[41]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Counsel for Archean nevertheless
+argues that the words "grant of the right to engage in mining
+operations" in s. 9(j)(a) of the <b>Mining and Mineral Rights Tax Act</b>
+admit of only one reasonable interpretation, namely, that they are clearly
+referable to a <b>present </b>grant of an <b>existing</b> right that would have
+the benefit of conferring upon the recipient a <b>present</b> entitlement to
+carry on mineral extraction activities".  I do not agree.  The question in
+reality is whether a licencee’s "right to the issuing of a mining
+lease" within s. 31(2) of the <b>Mineral Act</b> is the equivalent of "the
+right to engage in mining operations" in s. 9(1)(a) of the <b>Mining and
+Mineral Rights Tax Act</b>.  As noted, the ability of a licencee to obtain a
+mining lease (and the right to "develop, extract, remove, deal with,
+mortgage, or otherwise dispose of" the minerals in s. 31(5)(a) of the <b>Mineral
+Act</b>) is dependent solely on matters within the control of the licencee; it
+does not depend on the discretionary decision of the government.  Provided the
+licencee has complied with the terms of the licence and submits a proper
+application with appropriate survey, there is a "right" to a lease
+and, by extension, a right to engage in mining operations.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[42]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Because the licencee has the legal
+means to compel the issuance of a lease, which carries with it the right to
+extract minerals, it can be said, without torturing or stretching the language,
+that he has a right to engage in mining operations, albeit at some time in the
+future.  While it is true that the right cannot be exercised at that moment,
+that is, at any time during the currency of the licence and before a lease is
+issued, it is nevertheless a present right in a similar way to rights in
+property and trust law that may be vested in interest but only enjoyable at a
+later time. </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[43]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In a sense, the "right to
+engage in mining operations" in s. 9(1)(a) of the <b>Mining and Mineral
+Rights Tax Act</b> can be said to be broader in its formulation than the
+"right to develop, extract, remove ... minerals" in s. 31(5)(a) of
+the <b>Mineral Act</b>.  I agree with counsel for the respondents that the
+notion of "engaging" in mining operations is a larger concept than
+that of extracting minerals.  The "right to engage" connotes possible
+commencement or arrangement of affairs in the future rather than the actual
+development or extraction.  The phrase "right to extract minerals" is
+specifically used in other parts of the legislation.  See, for example, the
+definition of "operator" in s. 2(j) of the <b>Mining and Mineral
+Rights Tax Act</b>, which defines an operator as a person who "(i) has the
+right to extract minerals, and (ii) carries out mining operations ..." 
+The use of the different phrase "right to engage in mining
+operations" in s. 9(1)(a) is some indication that a different and broader
+concept was contemplated, instead of a reference strictly to an existing mining
+lease and the present right to extract minerals, as was submitted by counsel
+for Archean.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[44]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Finally, as far as the textual
+analysis in the context of the legislation itself goes, it is not without
+significance that s. 8 of the <b>Mining and Mineral Rights Tax Act</b> appears
+to allow an operator to deduct from its net income derived from mining
+operations, for the purpose of paying a tax on the right to mine, the amount of
+royalties paid to a person "for the grant of the right to engage in mining
+operations".  Thus it appears that if a mining company employs a separate
+prospecting company to stake claims and then takes a transfer of the licence
+under which the claims were staked in return for a royalty payment to the
+prospector, it can deduct the royalty so paid as an expense, for the purposes
+of calculating the tax it would otherwise pay on the right to mine.  The amount
+of tax that would otherwise be payable by the mining company would therefore be
+reduced.  It would be odd if the province were to be thereby deprived of such
+tax revenue in the hands of the mining company and still not be able to recoup
+it in the hands of the person to whom the royalties were paid.  Otherwise the
+overall return to the province would not be maximized.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[45]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In light of the recommendation of
+the Royal Commission which led to the new legislation that "all persons
+who derive income from mining [should] become subject to tax" and in light
+of my conclusion that one of the objects of the legislation is to take account
+of the societal imperative of a fair return to the owner of the resource (the
+province) in s. 9's  provision for incremental shares of royalties payable by
+ultimate concession holders on the exploitation of the resource, it would be
+inconsistent with such broad objectives to interpret the words in s. 9(1)(a) in
+the narrow manner advocated by Archean.  I agree with counsel for the
+respondents that the effect of Archean’s argument would lead to an unreasonable
+and impractical result, namely that a person transferring a licence the day
+before it matured into a lease would not pay tax, while the same person
+transferring the licence a day after it had matured, by fulfillment of the
+conditions for the issuance of a lease, would pay tax.  This would easily lead
+to a formalistic manipulation of the documentation and its timing to avoid tax
+that might otherwise be payable.  It would frustrate the overall intent of the
+legislation.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section16">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[46]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">I conclude, therefore, that the
+reasoning of the trial judge that the right to engage in mining operations
+encompasses the right pursuant to a licence to obtain a mining lease is not
+inconsistent with the text of the legislation when read in its proper context. 
+It is also consistent with the broad objective sought to be achieved by the legislation
+as a remedy for the ills identified by the Royal Commission report that
+precipitated it.  The interpretation given by the trial judge can therefore be
+justified in terms of its plausibility (its compliance with the legislative
+text) and its efficacity (its promotion of the broad legislative purpose).  In
+my view, it is an interpretation that is also acceptable in the sense that the
+outcome is reasonable and just.  It ensures that people who trade on the
+non-renewable mineral resources of the province pay a fair return to the
+province.  Whilst in some cases it would be unfair to give to a taxation
+statute an interpretation at variance from that which might reasonably be
+relied upon by the taxpayer in ordering his or her affairs, this is not one of
+those cases.  It is highly unlikely that Archean would not have engaged in its
+search for minerals in this case if it knew in advance that the tax imposed
+under s. 9 might potentially apply to it.  Nor has it been suggested that
+Archean would only have contemplated the sale of its right to the royalties to
+a third person if they were not subject to any tax.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[47]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">This is not a case where the
+social and legal values of protection of vested property rights affect the
+fairness of the result arrived at by the trial judge.  The nature of this
+legislation is that it attempts to obtain for the province a fair return for
+non-renewable resources that are owned by the province.  </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3"><b><u>SUMMARY AND CONCLUSION</u></b></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[48]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The interpretation applied by the
+trial judge, and his decision resulting therefrom, can be justified in terms of
+its consistency and promotion of the broad  purpose of the legislation and is
+not inconsistent with the language of the legislative text, when read in proper
+context.  Furthermore, in the circumstances of this case the outcome is not
+unreasonable or unjust.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[49]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Therefore the appeal should be
+dismissed with costs to the respondents.</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="margin-left:252.0pt"><u>                                                 
+</u></p>
+<p class="Level3" style="margin-left:288.0pt">J. D. Green, J.A.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section17">
+<p class="Level3"><b>Marshall, J.A.</b></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[50]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">I concur fully with the reasons of
+Green J.A.  I feel compelled, however, on behalf of him and myself to add one
+further comment.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[51]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Since reception of the final draft
+reasons from our former colleague, and the provision of our reasons amounting
+to a response to it, we have been made aware of the insertion in it of the
+final four paragraphs.  Tempted as we are to respond in detail to this cursory
+explanation of the circumstances surrounding the timing of the filing of the
+judgments in this case, and the attribution of responsibility therefor, we have
+decided it is more appropriate to refrain from doing so.</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-indent:288.0pt"><u>                                                </u></p>
+<p class="Level3" style="text-indent:324.0pt">W.W. Marshall, J.A.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><b><span style="font-size:14.0pt">O’Neill, J.A.:</span></b></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[52]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">This is an appeal from a decision
+of the Trial Division ordering that a declaration be issued as requested by the
+respondents, the defendants at trial, that the “Net Smelter Royalty” payable to
+the appellant, the plaintiff at trial, is taxable under s. 9(1)(a) of the <b>Mining
+and Mineral Rights Tax Act</b>, R.S.N. 1990, c. M.-16 (the <b>Act)</b>.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[53]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The facts are not in dispute.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[54]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The Appellant, Archean Resources
+Ltd. (“Archean”) is and was a Newfoundland prospecting company, engaged in the
+business of mineral exploration. Archean’s principals, Albert Chislett and
+Chris Verbiski, are the co-discoverers of the Voisey’s Bay nickel-copper-cobalt
+ore bodies (the “Voisey’s Bay Property”).</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[55]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Archean holds a contractual
+royalty entitling it to receive 3% of net smelter returns respecting mineral
+production from the Voisey’s Bay Property (“the Net Smelter Royalty”). </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[56]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Archean acquired the Net Smelter
+Royalty pursuant to a mineral option agreement, (the Labrador Option
+Agreement), in consideration of the transfer of certain mineral exploration
+licences to Diamond Fields Resources Inc. (“DFRI”).  The Net Smelter Royalty
+entitlement under the Labrador Option Agreement was itself negotiated and
+concluded in 1993.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[57]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The mineral licences covering the
+Voisey’s Bay Property were acquired by DFRI upon exercise of the option
+conferred by the Labrador Option Agreement.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[58]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The position of the Respondents is
+that the Net Smelter Royalty is taxable under Section 9(1)(a) of the <b>Act</b>. 
+</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[59]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">It is Archean’s contention that
+because it acquired the Net Smelter Royalty for the transfer or “grant” of
+mineral exploration licences, and the transferred mineral licences did not
+carry with them “the right to engage in mining operations”, Archean is not
+subject to the Section 9(1)(a) royalty tax.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[60]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Archean has been and continues to
+be approached by parties interested in purchasing the Net Smelter Royalty.  It
+contends that the respondents’ position on its taxability has a negative impact
+on the Net Smelter Royalty’s valuation.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[61]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Archean sought a declaration in
+the Court below that the Net Smelter Royalty was not taxable under Section
+9(1)(a) of the <b>Act</b>.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[62]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The learned trial judge found that
+on a “remedial and liberal construction”, Archean’s sale or transfer of its
+mineral exploration licences to DFRI for cash, shares and the right to receive
+the 3% royalty constituted the grant of a right to engage in mining operations,
+within the meaning of Section 9(1)(a) of the <b>Act.  </b>The trial judge based
+his finding on: </span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">(i)         mining
+of the Voisey’s Bay Property can only occur under mining leases issued on the
+basis of exploration licences transferred from Archean;</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">(ii)        in
+reality it was the right to obtain a mining licence and thus the right to
+engage in mining operations which was received when the option was exercised
+and the exploration licence transfers completed; and</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">(iii)       DFRI’s
+payment of significant sums of money, the transfer of shares, and their
+agreement to pay the Net Smelter Royalty was, in substance, payment for the
+right to engage in mining operations which could only be obtained through
+mineral exploration licences.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[63]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The parties have agreed that the
+issue before the Court is whether the trial judge erred in his interpretation
+and findings which allowed the conclusion that Archean’s Net Smelter Royalty
+was taxable under s. 9(1)(a) of the <b>Act</b>.  This issue can be broken down
+as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">(a)        Applying
+appropriate statutory interpretation principles, can it be said that Archean’s
+transfer of mineral exploration licences to DFRI, in consideration of which it
+acquired the Net Smelter Royalty, constitutes the grant of a right to engage in
+mining operations within the meaning of s. 9(1)(a) of the Act so as to make the
+Net Smelter Royalty taxable?</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">(b)        Alternatively,
+in the event that the trial judge’s interpretative approach properly referenced
+extrinsic materials such as the 1974 Report of the Royal Commission on Mineral
+Revenue, was Archean within the mischief to which the Act was directed, and, in
+particular, is Archean properly classified as an earner of unearned income?</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-indent:-36.0pt">(c)        Alternatively,
+in the event that the trial judge’s interpretation is a sustainable one, is
+Archean entitled to avail of a presumption that, where a taxing statute is not
+explicit, reasonable uncertainty resulting from a lack of explicitness in the
+statute should be resolved in its favour because the interpretation contended
+for by Archean is a reasonable one.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3"><b><u>Was there a grant of “the right to engage in mining
+operations” within the meaning of s. 9(1)(a) of the Act</u>?</b></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[64]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Sections 2(g), 2(j), and 9(1)(a)
+of the <b>Act</b> are:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">(2)    In this Act</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section18">
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(g)        “mining
+operations” means the extraction or production within the province of minerals
+up to and including primary crushing and includes the transportation, handling,
+storing, distribution and sale of those minerals, but does not include
+processing;</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(j)         “operator”
+means a person who</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:144.0pt;text-indent:-36.0pt">(i)         has
+the right to extract minerals, and </p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:144.0pt;text-indent:-36.0pt">(ii)        carries
+out mining operations on or under lands within the province;</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">9(1) A person who receives from</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(a)        an
+operator, contractor or other person during a financial year money by way of
+rental, royalty or similar payment for the grant to the operator, contractor or
+other person of the right to engage in mining operations; or</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-indent:216.0pt">.....</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt">is liable for and shall pay to the
+minister in the manner and at the time set out in this Act an annual tax of 20%
+of the net revenue received in consideration of the grant of the right during
+that financial year.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[65]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In his analysis of the principles
+to be applied in the interpretation of statutes, and, in particular to the
+interpretation of the <b>Act</b>, a taxing statute, the trial judge referred to
+s. 16 of the <b>Interpretation Act</b>, c. 1-19 R.S.N., to Pierre-André Côté’s <b>The
+Interpretation of Legislation in Canada</b>, Second  Edition, and to <b>Driedger
+on</b> <b>The Construction of Statutes,</b> Third Edition, by Ruth Sullivan,
+two authoritative texts.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[66]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The <b>Interpretation Act,</b> and
+particularly s. 16 thereof, is the authority which must always be employed in
+the interpretation of the statutes of this Province.  Section 16 is as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">Every Act and every regulation and every provision of an Act or
+regulation shall be considered remedial and shall receive the liberal
+construction and interpretation that best ensures the attainment of the objects
+of the Act, regulation, or provision according to its true meaning.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[67]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In <b>Côté</b> at pp. 409-10, is
+the following:</span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section19">
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">Should taxation statutes be interpreted today in the same way
+as other legislation, or are they still subject to the special rules of strict
+or literal interpretation?  Several reasons suggest that the traditional method
+should be abandoned.  The exclusively literal approach to interpretation is on
+the wane; the real meaning of words can only be discovered by reading them in
+their context, and therefore in the light of the legislation’s objectives.  The
+traditional idea that tax statutes only serve for the collection of revenue is
+obsolete.  Taxation legislation is frequently a means of social and economic
+intervention.  In the context of the modern welfare state, the nature of
+taxation has changed ....</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">In order to reflect accurately recent taxation case law, it is
+necessary to distinguish between literal and strict interpretation.  As a rule,
+taxation statutes are no longer subject to a strictly literal construction. 
+They are interpreted in the same way as other types of legislation (according
+to the contextual, purposive or historical approach, etc.)  But if after a
+thorough effort there are still reasonable doubts as to the enactment’s
+meaning, the statute will generally be applied to limit its effect and favour
+the tax payer.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[68]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In <b>Driedger,</b> at p. 131, the
+modern rule of statutory interpretation is set out:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">There is only one rule in modern interpretation, namely, courts
+are obliged to determine the meaning of legislation in its total context,
+having regard to the purpose of the legislation, the consequences of proposed
+interpretations, the presumptions and special rules of interpretation, as well
+as admissible external aids.  In other words, the courts must consider and take
+into account all relevant and admissible indicators of legislative meaning. 
+After taking these into account, the court must then adopt an interpretation
+that is appropriate.  An appropriate interpretation is one that can be
+justified in terms of (a) its plausibility, that is, its compliance with the
+legislative text; (b) its efficacy, that is, its promotion of the legislative
+purpose; and (c) its acceptability, that is, the outcome is reasonable and
+just.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[69]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge concluded from his
+perusal of the authorities that the traditional strict and literal
+interpretation of taxing statutes has “yielded to the doctrine that taxing
+statutes are to be treated in the same manner as other legislation, with the
+proviso that in cases of reasonable doubt, the enactment is construed in favour
+of the subject”.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section20">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[70]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The appellant acknowledges in its
+argument that the literal approach to the interpretation of statutes no longer
+applies and that the “proper interpretative approach to taxing statutes” is
+that stated in <b>Stubart Investments Ltd. v. The Queen</b> (1984), 10 D.L.R. 1
+(S.C.C.), but that the approach mandated there is “nevertheless subject to the
+‘plain meaning’ rule that when statutory language is clear, it should be given
+its plain and ordinary meaning, and resort to interpretative devices or
+extrinsic aids is inappropriate”.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[71]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In <b>Stubart,</b> Estey J. for
+the majority of the Supreme Court of Canada said at p. 32:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">While not directing his observations exclusively to tax
+statutes, the learned author of <i>Construction of Statutes,</i> 2<sup>nd</sup>
+Ed. (1983), at p. 87, E.A. Dreidger, put the modern rule succinctly:</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt">Today there is only one principle or
+approach, namely, the words of an act are to be read in their entire context
+and in their grammatical and ordinary sense harmoniously with the scheme of the
+Act, the object of the Act, and the intention of Parliament.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[72]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In support of its position,
+however, the appellant refers to <b>R. v. Multiform Manufacturing Co. Ltd. </b> (1990),
+79 C.R. (3d) 390, a decision of the Supreme Court of Canada, decided some five
+years after <b>Stubart</b>.  There, Lamer C.J.C., for the Court said at p. 394:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">When the courts are called upon to interpret a statute, their
+task is to discover the intention of Parliament.  When the words used in a
+statute are clear and unambiguous, no further step is needed to identify the
+intention of Parliament.  There is no need for further construction when
+Parliament has clearly expressed its intention in the words it has used in the
+statute.  As Maxwell stated in The Interpretation of Statutes, 12th<sup> </sup>ed.
+(1969), at pp. 28-29:</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt">If there is nothing to modify, alter
+or qualify the language which the statute contains, it must be construed in the
+ordinary and natural meaning of the words and sentences.  “The safer and more
+correct course of dealing with a question of construction is to take the words
+themselves and arrive if possible at their meaning without, in the first
+instance, reference to cases.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section21">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[73]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The appellant also referred, in
+support of its position, inter alia, to <b>R. v. McCraw</b>, [1991] 3 S.C.R.
+72, <b>Sunnyside Nursing Home v. Builders Contract Management Ltd.</b>, [1990]
+5 W.W.R., 289 (Sask. C.A.) and <b>R. v. Wonderland Gifts Ltd.</b> (1996), 140
+Nfld. &amp; P.E.I.R. 219, a decision of this Court.   In <b>Wonderland Gifts</b>,
+Marshall J.A. of this Court said:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">... where a legislative provision is clear and plain, the
+meaning governs and the courts may not, under the guise of interpretation,
+second guess the wisdom of the legislature by adopting implausible constructions
+not in harmony with its intent and object or attempt to fill gaps in the
+legislative scheme.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3">Later, Marshall J.A., on p. 231, adopted the words of Denning
+L.J. in <b>Asher v. Seaford Court Estates</b>, [1949] 2 K.B. 481 (C.A.) on the
+obligation placed upon a trial judge in interpreting a statute where there is
+an ambiguity:</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">He must set to work on the constructive task of finding the
+intention of Parliament, and he must do so not only from the language of the
+statute, but also from a consideration of the social conditions which gave rise
+to it, and of the mischief which it was passed to remedy, and then he must
+supplement the written word so as to give “force and life” to the intention of
+the legislature.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[74]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The appellant’s position was that
+the language of s. 9(1)(a) is “clear and unambiguous” and does “not admit of
+the remedial and liberal construction imposed by” the trial judge.  Further, it
+argued that the statutory provisions applicable to the required analysis were
+themselves, “plain and unambiguous”.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[75]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">By way of summary, Archean’s
+submission was that “in cases of clear and unambiguous statutory language, the
+scheme, object and intention of Parliament as adverted to in <b>Stubart</b> are
+apparent and yield the proper meaning based on the plain and ordinary meaning
+of the statutory language”.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[76]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Although <b>Multiform</b> might
+appear to support the Archean argument, the passage quoted still directs the
+court “to discover the intention of Parliament”.  Further, the words must be
+“clear and unambiguous”, which is not here the case.  Even if they were, then
+that principle has not been followed by the Supreme Court in subsequent cases
+and the contemporary principle as set out in <b>Stubart</b> and followed in <b>Rizzo
+and Gladue</b> to which reference will be made later has certainly replaced it.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section22">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[77]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The appellant has also argued that
+the “remedial and liberal” interpretation approach ignores the presumption that
+the legislature does not intent to encroach upon the private property rights of
+subjects.  I cannot see any merit to this argument in the particular
+circumstances here.  The main purpose of the Act is stated clearly in its full
+title: An Act To Impose Taxes On Income From Mining Operations Within The
+Province And On Income Obtained Or Derived From Persons Holding Rights To
+Mine”.  That purpose is manifested in s. 9 of the Act where clearly, persons or
+institutions are to pay a tax.  Whether the person liable to pay the tax is the
+appellant is another question.  Certainly, there is a clear intention that
+taxes be paid and hence a clear intention to affect rights.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[78]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">For the respondent, it was argued
+that the “plain meaning” approach, isolated from the whole context of the
+legislation, no longer commands respect.  Counsel for the respondent relied on
+the principle set out in at p. 430 of <b>Driedger</b>:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">It is sometimes said that the courts should not look to
+extrinsic materials, even though the materials otherwise would be admissible,
+unless the legislation to be interpreted is ambiguous or unclear.  It is
+arguable that this constraint is pointless and misleading and should be
+abandoned.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">The constraint is pointless because, given the plasticity of
+language and the complexity of law, virtually all legislation is ambiguous in
+that it is susceptible of more than one reading.  There is little point in a
+test that virtually all legislation meets.  The constraint also is misleading
+in that it perpetuates the empty rhetoric of the plain meaning rule.  Under
+current judicial practice, to say that a provision is not ambiguous, that its
+meaning is clear or “plain”, is a conclusion reached at the end of
+interpretation, not a threshold test.  It is a judgment that can appropriately
+be made only in light of all the available evidence of legislative meaning.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[79]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The whole thrust of this argument
+is that the plain meaning of a word, words or expressions, however “plain” they
+may appear to be, can only be ascertained when looked at and examined in the
+light of the context in which they are used which must include the whole
+purpose and object of the statute in which they appear.  This argument finds
+further support in <b>R. v. Adams</b>, [1995] 4 S.C.R. 707.  There,  Sopinka
+J., for the Supreme Court of Canada, said at p. 719:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">In approaching the interpretation of any statutory provision,
+it is prudent to keep in mind the simple but fundamental instruction offered by
+the court in <i>Reigate Rural District Council v. Sutton District Water Co.</i>
+(1908), 99 L.T.R. 168 (K.B.), at p. 170, and affirmed by this Court in <i>Hirsch
+v. Protestant Board of School Commissioners</i>, [1926] S.C.R. 246:</p>
+</div>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section23">
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt">... it is always necessary in
+construing a statute, and in dealing with the words you find in it, to consider
+the object with which the statute was passed, because it enables one to
+understand the meaning of the words introduced into the enactment.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">This well settled rule of statutory interpretation has
+continued to be followed by this Court to the present time.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[80]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The respondents’ position is that
+the words at issue in s. 9 of the Act are general ordinary words which have not
+been given nor have they acquired any particular meaning in the context of the
+mineral rights regime in this jurisdiction and the court then must define and
+interpret that meaning in accordance with the modern or pragmatic methodology. 
+Counsel for the respondent also referred the Court to <b>Rizzo &amp; Rizzo
+Shoes Ltd. (Re), </b>[1998] 1 S.C.R. 27 where Iacobucci J. for the court said,
+at p. 41, with respect to the interpretation of statutes:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">... Elmer Driedger in <i>Construction of Statutes</i>, (2nd
+ed., 1983) best encapsulates the approach upon which I prefer to rely.  He
+recognizes that statutory interpretation cannot be founded on the wording of
+the legislation alone.  At p. 87 he states:</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt">... Today there is only one
+principle or approach, namely, the words of an Act are to be read in their
+entire context and in their grammatical and ordinary sense harmoniously with
+the scheme of the Act, the object of the Act, and the intention of Parliament.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[81]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In <b>R. v. Gladue</b>, [1999] 1
+S.C.R. 688, the Court was considering an amendment to the <b>Criminal Code</b>
+codifying, for the first time, the fundamental purpose and principles of
+sentencing and specifically dealing with s. 718.2(e), the effect of which the
+Court found was to alter the method of analysis to be used in determining a fit
+sentence for an aboriginal offender.  The decision of the Court was delivered
+by Cory and Iacobucci JJ.   The following is to be found at p. 704:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section24">
+<p class="Level2">As this Court has frequently stated, the proper construction of
+a statutory provision flows from reading the words of the provision in their
+grammatical and ordinary sense and in their entire context, harmoniously with
+the scheme of the statute as a whole, the purpose of the statute, and the
+intention of Parliament.  The purpose of the statute and the intention of
+Parliament, in particular, are to be determined on the basis of intrinsic and
+admissible extrinsic sources regarding the Act’s legislative history and the
+context of its enactment: <i>Rizzo</i> <i>&amp; Rizzo</i> <i>Shoes Ltd</i>. <i>(Re),
+</i>[1998] 1 S.C.R. 27, at paras. 20-23; <i>R. v. Chartrand</i>, [1994] 2
+S.C.R. 864 at p. 875; E.A. Driedger, <i>Construction of Statutes</i> (2<sup>nd</sup>
+Ed. 1983) at p. 87; <i>Driedger on the Construction of Statutes</i> (3<sup>rd</sup>
+Ed. 1994) by R. Sullivan, at p. 131.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3">In its decision the Court considered the wording of s. 718(2)
+and the general scheme of the part of the <b>Criminal Code</b> in which it
+appears, its legislative history, the social context surrounding its enactment,
+including the “overrepresentation” of aboriginal Canadians in penal
+institutions.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[82]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In my view, the law is clear that,
+faced with the task of interpreting words or expressions in a statute, the
+court or judge must, before coming to a conclusion as to what these specific
+words or expressions means, consider them in “their entire context, harmoniously
+with the scheme of the statute ... its purpose and the intention of the
+legislature”.  Further, the statute must be considered in the light of s. 16 of
+the <b>Interpretation Act</b> (assuming the court is dealing with a
+Newfoundland statute), which requires that the Act and every provision thereof
+be considered remedial and shall receive the liberal construction and
+interpretation that best assures the attainment of the objects of the Act and
+provisions, according to its true meaning. </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[83]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge, having set out
+the facts and referred to the various rules of interpretation already
+canvassed, continued:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">I therefore propose to interpret section 9 and the Mining and
+Mineral Rights Tax Act as a whole, according to the contemporary or modern
+approach which is also in my opinion the approach mandated by the
+Interpretation Act.  To do so it is proper for me to consider materials
+touching on the objectives of the Act and the objectives of the Legislature in
+enacting its provisions.  To put it another way, was there a “mischief” which
+the Legislature was attempting to rectify.  For these purposes I am entitled to
+have recourse to the report of a Royal Commission on mineral revenues and to a
+lesser and very limited extent, to a statement as to the objects of the
+legislation as expressed by the Minister of Mines and Energy in 1975 during
+debate in the House of Assembly.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[84]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Clearly, the trial judge rejected
+the argument of the appellant that the plain meaning rule should be applied in
+the interpretation of the Act. </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[85]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge reviewed the
+pre-1975 mineral concession regime in the Province and set out some of the
+observations of the report of the “Royal Commission on Mineral Revenue” which
+was presented in December 1974.  He concluded:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">It is clear from the Commission’s observations and
+recommendations, that one of the major ills of the pre-1975 concession system
+was that the concession holders who had the right to explore and mine, but did
+not usually do so, were in receipt of significant sums of “unearned” income
+which was not subject to mining taxes.  Though all of the recommendations of
+the Royal Commission were not embodied in the 1975 legislation, it is clear
+that the thrust of the recommendations gave rise to the taxing procedures
+provided for in the Mining and Mineral Rights Taxing Act and particularly in
+section 9.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[86]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge also referred to
+Hansard, the record of debates in the House of Assembly, and quoted from a
+statement of the Minister of Mines and Energy in the House of Assembly, made
+during the debates on the Bill which would later become the Act:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">... whereas the first part imposes a mining tax, the second
+part imposes what we would call a mineral rights tax.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">This is done, Mr. Speaker, in recognition of the fact as set
+out by the Royal Commission on Mineral Revenue that there was significant
+revenue being derived by certain companies who had originally held mining
+rights and who had transferred these to other companies, significant revenue
+being received by such companies that was not subject to the mining tax and
+where a government was not receiving a share of such revenue.  So, we have put
+forth, incorporated the principle in this bill that in addition to the normal
+mining tax that both operators, and we will call them landlords, both operators
+and people who receive rentals, royalties and like payment from operating
+companies, that both of these types of companies or individuals should pay a
+mineral rights tax, a tax on revenue that they derived from the right to mine,
+the right to mine that they have obtained from the people of this Province.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3">The trial judge concluded that Hansard makes clear the intent
+to tax companies, such as the appellant, which receive royalties from “the
+right to mine”.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section25">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[87]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Counsel for the appellant had also
+argued that since the Act is a taxing statute, the burden of proof that tax was
+exigible lay with the government and cited <b>CUQ v. Corp. Notre-Dame De
+Bon-Secours,</b> [1994] 3 S.C.R. 3 in support of this position. The principle
+is set out in the decision of Gonthier J. at p. 15 where he said:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">According to the general rule which provides that the burden of
+proof lies with the plaintiff, in any proceeding it is for the party claiming
+the benefit of a legislative provision to show that he is entitled to rely on
+it.  The burden of proof thus rests with the tax department in the case of a
+provision imposing a tax obligation and with the taxpayer in the case of a
+provision creating a tax exemption.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3">While I agree with the principle, I cannot see its application
+here in light of the very clear findings made by the trial judge.  Obviously,
+if at the end of his very thorough examination of the circumstances and the
+law, the trial judge was not able to decide whether Archean was liable for the
+tax, then since the burden of proof would be on the government, the tax on the
+royalty would not be applicable.  Clearly, that is not the case here.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[88]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The trial judge, having referred
+to the “historical background of mining concessions” in the province as
+provided by the 1973 Royal Commission, and a reading of the legislation which
+followed, concluded that the legislative provisions for exploratory licences,
+mining licences and the tax on royalties were designed to avoid the undesirable
+practices of the past whereby concession holders received substantial royalty
+payments (described as “unearned royalties”) from operators, without tax
+liability, and that it was these royalties at which the legislation was aimed. </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[89]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In his analysis, the trial judge
+stated, in my view correctly, that the interpretation of s. 9 of the Act was
+the real issue.  He said:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">Can it then be said that in 1995 Archean transferred to Diamond
+Fields and its successors, “the right to engage in mining operations”, in the
+context of the Act.  At first blush and on a narrow construction of the
+wording, one might conclude that because an exploration licence is one entity
+and a mining lease is another, that the transfer was not the transfer of the
+right to engage in mining operations.  However, after review and reflection, I
+have concluded otherwise.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section26">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[90]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Earlier in his judgment, the trial
+judge had referred to the several provisions of the <b>Mineral Act</b>, R.S.N.
+1990, c-M 12, and set out several of the relevant sections of that Act.  He
+noted that the <b>Mineral Act</b> provided for a system whereby persons, on
+complying with stipulated procedures, could be granted exploration licences
+authorizing the recipient to engage in mineral exploration on specified areas. 
+He noted that Archean obtained a significant number of exploration licences in
+areas of Labrador and had begun exploration.  He added:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-indent:36.0pt">It has been explained to me that
+exploration companies such as Archean rarely have the expertise and capital to
+develop promising fields and therefore they seek out or may be approached by,
+junior mining companies who may wish to purchase their interests.  Such
+companies in turn seek to involve what are referred to as senior mining
+companies, which have the technical and financial resources to develop mines.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-indent:36.0pt">The foregoing is what happened in
+the present case when it had been determined that “Voisey’s Bay” is one of the
+most significant nickel/copper/cobalt deposits in the world.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[91]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Exploration licences are issued
+under s. 22 of the <b>Mineral Act</b>; that section is not relevant here.  What
+is relevant however, is s. 23 of that act:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">23.(1)  Subject to the terms under which a licence is issued,
+the licensee has the exclusive right to explore for minerals, in, on or under
+the area of land described in the licence from the date of issuing for the
+period of</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(a)        in
+the case of a licence covering lands open to staking, 5 years; and</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(b)        in
+the case of a licence covering reserved lands, 4 years.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">     (2)  A licence confers no right to remove minerals except
+for the purpose of sampling, assaying and testing, and a licensee who removes
+or sells minerals in contravention of this section</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(a)        commits
+a material breach of the terms of the licence; and</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:108.0pt;text-indent:-36.0pt">(b)        is
+guilty of an offence under this Act.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[92]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">It is not necessary to set out the
+various steps in the <b>Mineral Act</b> whereby mineral exploration licence may
+be obtained.  Suffice it to say that, subject to the terms under which a
+licence is issued, the licencee has the exclusive right to explore for minerals
+in the area described in the licence but, as set out in s. 23(2), has no right
+to remove minerals except for “sampling, assaying and testing”. </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section27">
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[93]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Section 24 of the <b>Mineral Act</b>
+permits the transfer of an exploration licence and is as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2">24.  Nothing in this Act shall prevent the holder of a licence
+from transferring, assigning, mortgaging, pledging or conveying that licence to
+another person if section 6 is complied with, but a transfer, assignment,
+mortgage, pledge or conveyance of the minerals in, on or under part of the area
+covered by the licence is not valid unless the written approval of the minister
+is obtained and is filed with the document presented for registration under
+section 6.</p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3">Section 6 deals with the registration of, inter alia,
+transfers, assignments, mortgages and agreements relating to minerals and
+rights with respect thereto.  It is not relevant for our purposes.</p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[94]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">On what basis can it be said that
+Archean’s transfer of its mineral exploration licences to DFRI, as permitted by
+s. 24 of the <b>Mineral Act</b>, was a “grant ... of the right to engage in
+mining operations”, as contemplated by s. 9 of the Act, so as to attract tax on
+the royalty payable thereunder, which here would be when mining operations
+commence?  Obviously, at the time the transfer was made to DFRI, nobody,
+including Archean, had the right to engage in mining operations on the lands
+covered by the exploration licences and it follows that, there being no right to
+engage in mining operations, there could be no grant of mining operations.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[95]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Earlier in his decision, in
+considering the arguments of counsel, the trial judge had stated that although
+an exploration licence does not, in itself, entitle the holder of it to a
+mining lease, on compliance with s. 31 of the <b>Mineral Act</b>, which would
+include the licence holder having complied with all the terms of the licence
+during its currency, a mining lease would be granted.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[96]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">There is no suggestion that any of
+the requirements in s. 31 are not reasonably capable of completion by the
+holder of a licence.  Further, upon compliance with the <b>Mineral Act</b>, the
+holder of the licence has under s. 31, “a right to the issuing of a mining
+lease ...”.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section28">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[97]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Clearly, the option agreement
+anticipated that on completion of the transfer of the exploration licences,
+mining operations would be carried on since part of the payment for the
+transfer, the royalty, could only come into existence on the carrying out of mining
+operations producing “net smelter returns”.  In effect then, what was being
+transferred from Archean for good and valuable consideration was the right,
+albeit after compliance with certain statutory provisions under the <b>Mineral
+Act</b>, to obtain a mining lease and “the right to engage in mining
+operations”.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[98]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">With respect to the question posed
+by the appellant as to whether Archean was within the “mischief” to which the
+Act was directed and in particular, whether Archean can be properly classified
+as an earner of unearned income, it can fairly be said that that question has
+already been answered in the remedial and liberal interpretation given to s.
+9.  True, as argued by the appellant, s. 9(1) was enacted “in response to the
+recommendations of the Royal Commission” to which reference has already been
+made.  Archean argues, with some justification, that it is in a completely
+different position from that of the several companies and groups referred to
+earlier which had acquired mining rights from the Province and had granted or
+subleased them to mine operators in exchange for royalties and other
+consideration, which in effect, were “unearned”.  In that regard, Archean did
+not acquire a right to mine, it acquired prospecting or exploration rights and
+actually discovered a valuable mineral property.  It could have, had it wished,
+applied for and obtained a mining lease.  It chose to transfer its exploration
+licences to another group which would then enable that other group to apply for
+and obtain a mining lease.  It was this choice which set up the right in
+Archean to receive, when mining operations would begin, a royalty.  </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[99]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Whether Archean would be a
+recipient of “unearned royalties” is not important for our purposes.  The Act
+is cast broadly and imposes a tax on any person who receives “money by way of
+rental, royalty or similar payment” in consideration of a grant to another of
+“the right to engage in mining operations ...”.  The Act does not in any way
+limit the tax to those who had, in the past obtained mining concessions even
+though they had been identified by the commission as the principal reason why
+the Crown was not receiving appropriate revenues from mining operations in the
+Province.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section29">
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[100]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="font-size:14.0pt">Although there were several
+references as set out earlier to concession holders as landlords, that word, in
+my view, was used in an illustrative sense and should not be taken as an
+indication that some property rights must be maintained before the tax becomes
+applicable under s. 9(1)(a) of the Act.  The tax is payable on the royalty
+received even where that royalty is payable strictly on a contractual basis, as
+here.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[101]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="font-size:14.0pt">The third issue raised by the
+appellant in its factum can also be disposed of readily.  I have already
+concluded, as did the trial judge, that the transfer of the exploration licence
+was a transfer of the right to engage in mining operations so as to bring
+Archean within the purview of s. 9 of the Act.  Reference has already been made
+to the “first blush”, “narrow construction”, and “might conclude”,  statement
+by the trial judge.  Certainly, on a proper interpretation of the Act, it
+cannot be said that there was any reasonable uncertainty resulting from lack of
+explicitness in the statute so that this Court could conclude that Archean was
+not liable for the tax.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[102]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="font-size:14.0pt">It follows, in my view, that
+Archean is liable to pay the tax on the net smelter royalty to be received by
+it when mining operations begin.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[103]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="font-size:14.0pt">A draft of these reasons for
+judgment was circulated to my colleagues on the panel on April 18, 2001.  To
+this day, I have not received any comments on that draft.  The draft of the
+reasons for judgment of my colleague Green, J.A., (now Green C.J.), with which
+Marshall, J.A. concurs, was delivered to me on July 29, 2002.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[104]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="font-size:14.0pt">I retired from the Court effective
+February 1, 2002.  By virtue of s. 31, Judicature Act, R.S.N.L., 1990, c.J-4, I
+may give my reasons for judgment as if I had not retired, but only within six
+months of my retirement - July 31, 2002.</span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[105]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="font-size:14.0pt">Unfortunately, the time now
+remaining does not afford me sufficient opportunity to comment effectively on
+my colleague’s draft or to revise my reasons should, on further reflection, I
+felt it necessary so to do.  I note, with some satisfaction, that my
+colleague’s reasons for judgment, as does mine, would dismiss the appeal with
+costs to the respondents.</span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:always"/>
+</span>
+<div class="Section30">
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-indent:0cm"><span style="font-size:
+14.0pt">[106]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="font-size:14.0pt">I would dismiss the appeal.  The
+respondents are entitled to their costs.</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-indent:288.0pt"><u>                                                
+</u></p>
+<p class="Level3" style="text-indent:324.0pt">J.J. O’Neill, J.A.</p>
+</div>
+</body>
+</html>

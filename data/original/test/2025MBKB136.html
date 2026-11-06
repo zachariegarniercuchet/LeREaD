@@ -1,0 +1,1475 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+h1
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Tahoma",sans-serif;
+	font-weight:bold;
+	text-decoration:underline;}
+h2
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	font-weight:bold;
+	text-decoration:underline;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:#243F60;
+	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.25in;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoList2, li.MsoList2, div.MsoList2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.25in;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoList3, li.MsoList3, div.MsoList3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.75in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.25in;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:200%;
+	font-size:14.0pt;
+	font-family:"CG Times (W1)",serif;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:14.0pt;
+	font-family:"CG Times (W1)",serif;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.p4, li.p4, div.p4
+	{mso-style-name:p4;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.t6, li.t6, div.t6
+	{mso-style-name:t6;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.p7, li.p7, div.p7
+	{mso-style-name:p7;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:16.0pt;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.p9, li.p9, div.p9
+	{mso-style-name:p9;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:4.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.p10, li.p10, div.p10
+	{mso-style-name:p10;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.Number, li.Number, div.Number
+	{mso-style-name:Number;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:0in;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Cambria",serif;
+	color:#243F60;}
+span.secnum
+	{mso-style-name:secnum;}
+span.ssbf
+	{mso-style-name:ss_bf;}
+p.felsky1, li.felsky1, div.felsky1
+	{mso-style-name:felsky1;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Tahoma",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="blue" vlink="purple">
+<div class="WordSection1">
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:11.0pt">Date:  20251103</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:11.0pt">Docket:  CI 23-01-44400</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:11.0pt">(Winnipeg Centre)</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:11.0pt">Indexed as:  Norfield Enterprises Ltd. v. </span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:11.0pt">Comtech (Communication Technologies) Ltd.</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:11.0pt">Cited as:  2025 MBKB 136</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<h1>COURT OF KING’S BENCH OF MANITOBA</h1>
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal"><b>B E T W E E N:</b></p>
+<p class="MsoNormal"> </p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal"><span style="text-transform:uppercase">NORFIELD
+  ENTERPRISES LTD.,</span></p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"><u>Mouchir Ayoub</u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal">for the Plaintiff</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p align="right" class="MsoNormal" style="text-align:right">plaintiff,</p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal">- and -</p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal"><span style="text-transform:uppercase">COMTECH
+  (COMMUNICATION TECHNOLOGIES) LTD.,</span></p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"><u>Michael G. Finlayson</u></p>
+<p class="MsoNormal">for the Defendant</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p align="right" class="MsoNormal" style="text-align:right">defendant.</p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal">Judgment Delivered:</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:262.25pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="350">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:14.2pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="19">
+<p class="MsoNormal">)</p>
+</td>
+<td style="width:159.55pt;padding:0in 4.0pt 0in 4.0pt" valign="top" width="213">
+<p class="MsoNormal">November 3, 2025</p>
+</td>
+</tr>
+</tbody></table>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style="line-height:200%"><b><u><span style="font-size:16.0pt;line-height:200%;text-transform:uppercase">M</span></u></b><b><u><span style="font-size:16.0pt;line-height:200%">c<span style="text-transform:
+uppercase">KELVEY j.</span></span></u></b></p>
+<p class="Number" style="margin-left:35.45pt;text-indent:-.5in"><b>I.<span style='font:7.0pt "Times New Roman"'>           
+</span></b><b><u>INTRODUCTION</u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[1]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Three motions are to be determined in this Rule
+20A expedited action.  Those motions are:  </p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in">(i)<span style='font:7.0pt "Times New Roman"'>          
+</span>on May 21, 2025, the defendant (“Comtech”) filed
+a notice of appeal of an order granted by an Associate Judge on December 5,
+2024, as regards an award of solicitor-and-client costs in favour of the
+plaintiff (“Norfield”) (document no.  22);</p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in">(ii)<span style='font:7.0pt "Times New Roman"'>         
+</span>on May 27, 2025, Norfield filed a notice of
+appeal of the Associate Judge’s December 5, 2024 decision which had set
+aside default judgment entered against Comtech (document no.  23);</p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in">(iii)<span style='font:7.0pt "Times New Roman"'>        
+</span>Comtech, by virtue of a notice of motion filed
+June 9, 2025, sought to set aside the noting of default obtained against it by
+Norfield on May 28, 2025, and asked that leave be granted to file a statement
+of defence (document no.  26);</p>
+<p class="Number">Norfield had filed, on June 23, 2025, a notice
+of motion seeking leave of the Court to adduce further evidence at the appeal
+hearing, being a second affidavit sworn by Grant Stevenson (document no.  32). 
+This motion was resolved as Comtech consented to the use of the second Stevenson
+affidavit.</p>
+<p class="Number" style="margin-left:35.45pt;text-indent:-.5in"><b>II.<span style='font:7.0pt "Times New Roman"'>         
+</span></b><b><u>SUBJECT MATTER OF THE LITIGATION</u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[2]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>A.S.H. Management Group (“A.S.H.”), a third
+party agent of Norfield, entered into a lease agreement with Comtech on
+December 19, 2016, for the rental of premises in the City of Winnipeg. 
+Subsequently, and with the consent of Norfield, Avocado Motorsports Corporation
+(“Avocado”) entered into a sub-lease agreement for the use of the leased
+premises for the period of July 1, 2020 through to December 30, 2022.  There
+were lease conditions beyond payment of rent which included the performance of
+all terms, covenants and conditions, including insurance requirements.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[3]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>There were issues between Comtech and Avocado
+involving non‑payment or late rental payments during the course of the
+sub‑lease (see Grohn affidavit, document no. 7).  On or about May 19,
+2022, the leased premises experienced flood damage.  Comtech asserts that
+despite locks being changed on a number of occasions, Avocado continued to
+access the leased premises and to operate their business therefrom up to and
+including the date of the flood damage, after which they vacated (document no.
+37, para. 11).  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[4]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Comtech was notified by A.S.H.’s insurance
+adjuster that the flood damage had been caused by the intentional removal of a
+water valve located under a sink.  Comtech maintains that it incurred costs to
+clean the leased premises in the amount of $11,200, as well as losing its
+damage deposit and related fees which totalled a further $10,675.73. 
+Norfield’s statement of claim is similarly related to costs to remediate the
+flood damages occasioned to the leased premises.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[5]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Comtech’s insurer denied coverage under its
+policy on the basis that indemnity should be sought through Avocado’s insurance.
+Comtech submits that Avocado held a certificate of property damage and public
+liability insurance as required by the terms of the lease and sublease and was also
+listed as an insured on A.S.H.’s insurance certificate.  It is contended that
+the insurance policy named both A.S.H. and Avocado directly, with Comtech having
+no involvement, as it was not named in the policy.  That policy of insurance
+expired on July 16, 2021.  Comtech asserts it never received notice of the
+expiration of the policy from either A.S.H. or Avocado.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[6]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>On March 27, 2023, Comtech issued a statement of
+claim against Avocado and Boyang Zhu for unpaid rent and for damages it
+contends were incurred for remediating the flood damage. The claim initially sought
+$119,822.93, with $21,617.80 said to be related to the remediation of flood
+damages.  An amended statement of claim was filed on May 15, 2023, seeking
+judgment in the amount of $166,078.96, which reflected an increase in the
+remediation costs to $67,863.83 (Affidavit of Holly Kullman, filed November 25,
+2024, document no. 12, Exhibits B and C).  Default judgment was entered against
+Avocado on September 11, 2023, in the amount of $169,359.59 (Kullman affidavit,
+Exhibit D).  Comtech has undertaken steps to enforce the judgment.</p>
+<p class="Number" style="margin-left:35.45pt;text-indent:-.5in"><b>III.<span style='font:7.0pt "Times New Roman"'>      
+</span></b><b><u>BACKGROUND OF LITIGATION</u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[7]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Norfield filed a statement of claim against
+Comtech on December 20, 2023, with respect to expenses incurred related to
+emergency services and repairs to rectify flood damage. The flood damage was
+occasioned to the property that was leased to Comtech through A.S.H., in 2016. 
+A subtenant, being Avocado, entered into a sublease for the leased premises in
+2020, but was contended by Norfield to have vacated before the damage occurred. 
+Norfield claimed that Comtech breached the lease agreement and was negligent in
+the circumstances surrounding the flood damages.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[8]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>On January 4, 2024,  Norfield’s statement of
+claim was served on an employee of Comtech, in the City of Winnipeg.  Comtech
+conceded that there was “no good explanation” as to why the employee, a tower
+technician, did not pass the statement of claim up the “chain of command” to be
+dealt with in some manner (Affidavit of Aaron Grohn, document no.  7,
+para. 5). </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[9]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>On March 7, 2024, Norfield secured a $75,147.78
+default judgment against Comtech (document no.  4) with respect to emergency
+services and repairs said to be required to remediate the damages to the leased
+premises.  Norfield, on May 30, 2024, filed an application in the Saskatchewan
+Court of King’s Bench seeking an order to register the Manitoba judgment.  The
+application was served on Comtech’s Saskatchewan power of attorney.  It was at
+that time that Comtech became aware of the existence of the action and the Manitoba
+default judgment.  Comtech is extra‑provincially registered in both
+Manitoba and Saskatchewan and has designated‑appointed attorneys for
+service in each province (Grohn affidavit, document no. 7, Tab B, Corporate
+Profile Report).</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[10]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The Saskatchewan application was to be heard on
+June 4, 2024,  but was adjourned at Comtech’s request.  Further adjournments were
+requested, with two resulting in $1,000 costs awards against the company.  The Saskatchewan
+matter was ultimately adjourned <i>sine die</i> on July 30, 2024, pending the
+determination of Comtech’s Manitoba motion to set aside default judgment, which
+had been filed on July 29, 2024 (document no.  5).</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[11]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The notice of motion to set aside default
+judgment was heard by the Associate Judge on December 5, 2024.  The default
+judgment against Comtech was set aside with solicitor-client costs awarded in
+favour of Norfield to the date the motion was filed (Affidavit of Kala Fawcett,
+filed June 10, 2025, document no.  27, Exhibit A).  The order further
+stipulated that Comtech was to file a statement of defence within 20 days from when
+the order was signed.  Comtech was awarded costs on a tariff basis with respect
+to the motion setting aside the default judgment.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[12]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Subsequent to the Associate Judge’s decision,
+the parties entered into a dispute with respect to the scope of the solicitor-client
+costs awarded.  Comtech’s counsel sought clarification of the order by way of a
+letter to the Court dated January 31, 2025 (document no. 17).  Norfield
+provided its position through correspondence dated February 11, 2025 (Fawcett
+affidavit, Exhibits C and D).  The Court responded and confirmed Norfield’s position
+that costs were awarded to the date the motion to set aside default was filed
+(Fawcett affidavit, Exhibits E and F).  Norfield then endeavoured to secure Comtech’s
+consent to the order for filing and signing purposes.  It was not until May 5,
+2025, that consent as to form was received, which was the deadline set by the Sr. Associate
+Judge.  The order was filed and entered on May 7, 2025 (document no.  21). On
+May 21, 2025,  Comtech filed the notice of appeal of the solicitor‑client
+costs awarded, with Norfield filing a cross-appeal on May 27, 2025, as
+regards the setting aside of default judgment. The Bill of Costs submitted by Norfield
+totalled $19,938.89 and covered the period from the inception of the claim to
+the date the motion to set aside default judgment was filed.  The Bill of Costs
+included the Saskatchewan proceedings.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[13]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>On May 28, 2025, Norfield noted Comtech in
+default for failing to file a statement of defence within 20 days of the
+order’s signing, as was stipulated in the Associate Judge’s order (document no.
+ 24).  Comtech contends that it did not file a defence within the 20 day
+period through inadvertence and a failure by Norfield to advise that the order
+had been entered.  Accordingly, Comtech seeks an order setting aside the noting
+of default and granting leave to file a statement of defence.  It is the
+position of Norfield that Comtech’s motion to set aside the noting of default
+should be dismissed with solicitor‑client costs awarded.<b><br clear="all" style="page-break-before:always"/>
+</b></p>
+<p class="Number" style="margin-left:35.45pt;text-indent:-.5in;line-height:normal"><b>IV.<span style='font:7.0pt "Times New Roman"'>       
+</span></b><b>SHOULD THE DEFAULT JUDGMENT AND NOTING OF
+DEFAULT AGAINST <u>COMTECH BE SET ASIDE?                                                                         </u></b></p>
+<p class="Number" style="margin-left:35.45pt;line-height:normal"><b><u><span style="text-decoration:none"> </span></u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[14]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>It is necessary to evaluate both Norfield’s appeal
+of the Associate Judge’s order to set aside default judgment against Comtech,
+as well as the notice of motion brought by Comtech to set aside Norfield’s May
+28, 2025 noting of default.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[15]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>In cases such as this, the burden rests with Comtech
+to show why default judgment and the noting of default should be set aside. 
+These matters are to be heard on a <i>de novo </i>basis.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[16]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>King’s Bench Rule 19.03(1) permits a judge to
+set aside a noting of default on such terms as are just.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[17]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The court’s jurisdiction to set aside a default
+judgment is stipulated in Rule 19.08:</p>
+<h6 style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:42.55pt;
+margin-bottom:.0001pt;background:#FDFEFE"><b><span style='font-size:
+11.0pt;font-family:"Tahoma",sans-serif;color:black'>Under rule 19.04</span></b></h6>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:6.0pt;margin-bottom:
+6.0pt;margin-left:42.55pt;background:#FDFEFE"><b><span style="font-size:11.0pt;color:black">19.08(1)  </span></b><span style="font-size:11.0pt;color:black">A judgment against a defendant
+who has been noted in default that is signed by the registrar or granted by the
+court on motion under rule 19.04 may be set aside or varied by the court
+on such terms as are just.</span></p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:6.0pt;margin-bottom:
+6.0pt;margin-left:42.55pt;background:#FDFEFE"><span style="font-size:11.0pt;color:black"> </span></p>
+<p class="Number">As with the setting aside of the noting of
+default, the court has a broad discretion in the determination of whether a default
+judgment should be set aside.  The decision in <b><i>Thermo Applicators
+Inc. v. CIR Mechanical Installations Ltd. et al,</i></b> 2016 MBCA 94, states:</p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt">[<a name="par6">6</a>]   With regard to
+the second ground of appeal, as everyone is well aware, the standard of review
+of a discretionary judgment is highly deferential.  </span><a href="https://www.canlii.org/en/mb/laws/regu/man-reg-553-88/latest/man-reg-553-88.html#sec19.08subsec1_smooth"><span style="font-size:11.0pt;color:windowtext;text-decoration:none">Rule 19.08(1)</span></a><span style="font-size:11.0pt"> of the </span><a href="https://www.canlii.org/en/mb/laws/regu/man-reg-553-88/latest/man-reg-553-88.html"><i><span style="font-size:11.0pt;color:windowtext;text-decoration:none">Court of Queen’s
+Bench Rules</span></i></a><span style="font-size:11.0pt"> states
+that the Court may set aside or vary a default judgment on such terms as are
+just.  The judge’s discretion to do so is broad, and may consider a number
+of factors including, but not limited to, whether there is a meritorious
+defence, whether there was delay on the part of the defendant in bringing the
+motion and whether there will be irreparable harm to the plaintiff…</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number" style="margin-top:0in;margin-right:.2pt;margin-bottom:3.0pt;
+margin-left:0in;text-indent:0in"><span style="line-height:200%">[18]<span style='font:7.0pt "Times New Roman"'>      </span></span>The decision in <b><i>GFK Capital Base Corp. v.</i></b> <b><i>Fernando</i></b>,
+1993 CarswellMan 150 (MBCA) (WL) (“<b><i>GFK</i></b>”), discussed what
+constitutes a meritorious defence as follows:</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:35.45pt;margin-bottom:.0001pt;background:white"><span style="font-size:11.0pt"> </span><span style="font-size:
+11.0pt">13   In disclosing the nature of his or her defence, an
+applicant for relief will no doubt pay heed to the words of Beaubien J.A.
+in <i><span style="border:none windowtext 1.0pt;padding:0in">De Rzonca v.
+Kummerfield</span></i></span><a href="https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;pubNum=6407&amp;serNum=1956051163&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=fc9e0966f500456294ea6416ce0e0af3&amp;contextData=(sc.Default)"><span style="font-size:11.0pt;color:windowtext;border:none windowtext 1.0pt;
+padding:0in;text-decoration:none"> (1956), 19 W.W.R. 577</span></a><span style="font-size:11.0pt"> (Man. C.A.), at p. 579:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:35.45pt;margin-bottom:.0001pt;background:white"><span style="font-size:11.0pt;border:none windowtext 1.0pt;padding:0in"> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:49.8pt;margin-bottom:
+0in;margin-left:56.7pt;margin-bottom:.0001pt;background:white"><span style="font-size:11.0pt">It is not sufficient to merely state that
+the applicant has a good defence on the merits; the affidavit must show the
+nature of the defence and set forth facts which will enable the court or a
+judge to decide whether or not there is a matter which affords a defence to the
+action ...</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:35.45pt;margin-bottom:.0001pt;background:white"><span style="font-size:11.0pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:35.45pt;margin-bottom:.0001pt;background:white"><span style="font-size:11.0pt">14   It is not, of course,
+the function of a motions judge to decide whether the defence will succeed. His
+or her primary concern is whether there is any purpose to be served in revoking
+the expression of the court's coercive power and permitting the action to be
+heard on its merits. The judge should be satisfied that the proposed defence is
+arguable, in the sense that if the facts are proved it might well succeed, and
+that the wish to defend the action is genuine, in the sense that the defendant
+is not merely trying to further delay or to defeat a valid claim.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:35.45pt;margin-bottom:.0001pt;background:white"><span style="font-size:11.0pt"> </span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[19]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The case of <b><i>Sunnyday Heating and
+Airconditioning Ltd. v. 6125328 Manitoba Ltd. et al</i></b>, 2014 MBQB 80,
+discussed the necessary evidence required to substantiate the existence of a
+meritorious defence.  There must be evidence and sufficient facts before the
+court in order to enable a determination as to whether an arguable case/defence
+exists. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[20]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The Manitoba Court of Appeal in <b><i>Beardy v.
+Sass</i></b>, [1997] M.J. No. 332 (CA) (QL), discussed the difference between setting
+aside default judgment as opposed to setting aside the noting of default.  The
+test for setting aside default judgment is more onerous in nature:</p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><b><span style="font-size:11.0pt;color:#212121;background:white">1</span></b><span style="font-size:11.0pt;color:#212121;background:white">   …   emphasized
+that there is a clear difference between the noting of default </span><span style="font-size:11.0pt;background:white">and the entering of
+default judgment. Each is a separate but necessary step in the prescribed
+procedure. She concluded that the wording of the rule applying to each step
+need not and ought not to be interpreted as having the same meaning. The same
+conclusion was reached by the Court of Appeal of Ontario in Metropolitan
+Toronto Condominium Coloration No. 706 v. Bardmore Developments Ltd. </span><a href="https://advance.lexis.com/search/?pdmfid=1505209&amp;crid=e1dcb269-6be0-44bd-adfe-46c57ed5c297&amp;pdsearchterms=beardy+v.+sass%2C+%5B1997%5D+m.j.+no.+332&amp;pdicsfeatureid=1517129&amp;pdstartin=hlct%3A1%3A11&amp;pdcaseshlctselectedbyuser=false&amp;pdtypeofsearch=searchboxclick&amp;pdsearchtype=SearchBox&amp;pdqttype=or&amp;pdpsf=%3A%3A1&amp;pdquerytemplateid=&amp;ecomp=wzxt9kk&amp;earg=pdpsf&amp;prid=4dde3fdc-683e-495b-811e-b9f458025269" title="Ontario Reports"><span style="font-size:11.0pt;color:windowtext;
+border:none windowtext 1.0pt;padding:0in;background:white;text-decoration:none">(1991),
+3 O.R. (3d) 278</span></a><span style="font-size:11.0pt;
+background:white">. More specifically, Keyser J. determined that in order to
+set aside <span style="color:#212121">the noting of default in Manitoba, it is
+not necessary to show a meritorious defence…</span></span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt;color:#212121;background:white"> </span></p>
+<p align="center" class="Number" style="margin-top:0in;margin-right:28.55pt;
+margin-bottom:0in;margin-left:35.45pt;margin-bottom:.0001pt;text-align:center;
+line-height:normal"><span style="font-size:11.0pt;color:#212121;
+background:white">. . .</span></p>
+<p align="center" class="Number" style="margin-top:0in;margin-right:28.55pt;
+margin-bottom:0in;margin-left:35.45pt;margin-bottom:.0001pt;text-align:center;
+line-height:normal"><span style="font-size:11.0pt;color:#212121;
+background:white"> </span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span class="ssbf"><b><span style="font-size:11.0pt;color:#212121;border:none windowtext 1.0pt;
+padding:0in;background:white">9</span></b></span><span style="font-size:11.0pt;color:#212121;background:white">   Unlike
+the noting of default, the entry of default judgment is not an automatic
+administrative act. Even where the claim is for a debt or liquidated sum, the
+registrar must exercise his discretion and may decline to sign judgment if he
+is uncertain as to the classification of the claim or the amount or rate that
+is properly recoverable for prejudgment interest…</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt;color:#212121;background:white"> </span></p>
+<p align="center" class="Number" style="margin-top:0in;margin-right:28.55pt;
+margin-bottom:0in;margin-left:35.45pt;margin-bottom:.0001pt;text-align:center;
+line-height:normal"><span style="font-size:11.0pt;color:#212121;
+background:white">. . .</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt;color:#212121;background:white"> </span></p>
+<p align="left" class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;
+margin-bottom:0in;margin-left:35.45pt;margin-bottom:.0001pt;text-align:left;
+background:white;vertical-align:baseline"><b><span style="font-size:
+11.0pt;color:#212121;border:none windowtext 1.0pt;padding:0in">11</span></b><span style="font-size:11.0pt;color:#212121">   Rule
+19.08(1) stipulates that:</span></p>
+<p align="left" class="MsoNormal" style="margin-left:35.45pt;text-align:left;
+background:white;vertical-align:baseline"><span style="font-size:
+11.0pt;color:#212121;border:none windowtext 1.0pt;padding:0in"> </span></p>
+<p align="left" class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;
+margin-bottom:0in;margin-left:56.7pt;margin-bottom:.0001pt;text-align:left;
+background:white;vertical-align:baseline"><span style="font-size:
+11.0pt;color:#212121;border:none windowtext 1.0pt;padding:0in">A judgment
+against a defendant who has been noted in default that is signed by the
+registrar or granted by the court on motion under rule 19.04 may be set aside
+or varied by the court on such terms as are just.</span></p>
+<p align="left" class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;
+margin-bottom:0in;margin-left:49.65pt;margin-bottom:.0001pt;text-align:left;
+background:white;vertical-align:baseline"><span style="font-size:
+11.0pt;color:#212121;border:none windowtext 1.0pt;padding:0in"> </span></p>
+<p style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;margin-left:
+35.45pt;margin-bottom:.0001pt;text-align:justify;background:white;vertical-align:
+baseline"><span class="ssbf"><b><span style='font-size:11.0pt;
+font-family:"Tahoma",sans-serif;border:none windowtext 1.0pt;padding:0in'>12</span></b></span><span style='font-size:11.0pt;font-family:"Tahoma",sans-serif'>   This
+is not the Rule which is here at issue or under which the defendant has
+applied. Although the words are similar to those employed in Rule 19.03(1),
+there is no reason why they should evoke the use of the same criteria. The first
+applies to a preliminary mechanical requirement; the second relates to the
+discretionary setting aside of a final judgment already entered.</span></p>
+<p style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;margin-left:
+35.45pt;margin-bottom:.0001pt;text-align:justify;background:white;vertical-align:
+baseline"><span class="ssbf"><b><span style='font-size:11.0pt;
+font-family:"Tahoma",sans-serif;border:none windowtext 1.0pt;padding:0in'>13</span></b></span><span style='font-size:11.0pt;font-family:"Tahoma",sans-serif'>   The
+scheme which I have described above differs from the one that existed in
+Manitoba prior to March 1, 1989, and differs to some extent from the schemes in
+effect in other provinces, save Ontario and New Brunswick. Accordingly, much of
+the jurisprudence referred to, including such decisions as De Rzonca v.
+Kummerfield et ux. </span><a href="https://advance.lexis.com/search/?pdmfid=1505209&amp;crid=e1dcb269-6be0-44bd-adfe-46c57ed5c297&amp;pdsearchterms=beardy+v.+sass%2C+%5B1997%5D+m.j.+no.+332&amp;pdicsfeatureid=1517129&amp;pdstartin=hlct%3A1%3A11&amp;pdcaseshlctselectedbyuser=false&amp;pdtypeofsearch=searchboxclick&amp;pdsearchtype=SearchBox&amp;pdqttype=or&amp;pdpsf=%3A%3A1&amp;pdquerytemplateid=&amp;ecomp=wzxt9kk&amp;earg=pdpsf&amp;prid=4dde3fdc-683e-495b-811e-b9f458025269" title="Manitoba Reports"><span style='font-size:11.0pt;font-family:"Tahoma",sans-serif;
+color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:none'>(1956),
+64 Man.R. 215</span></a><span style='font-size:11.0pt;
+font-family:"Tahoma",sans-serif'> (C.A.), have little relevance to this
+case. Where default judgment has not yet been entered and it is only the noting
+of default that a defendant seeks to set aside, there is no burden upon a
+defendant to make out a valid defence on the merits before the notation of
+default will be set aside.</span></p>
+<p class="Number" style="margin:0in;margin-bottom:.0001pt;text-indent:0in"><span style="line-height:200%">[21]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>With respect to setting aside the noting of
+default, the decision in <a name="_Hlk209517201"><b><i>Schaworski v. Unrau</i></b></a>,
+2024 MBKB 150, held:</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:42.55pt;margin-bottom:.0001pt;line-height:24.0pt"><span style="font-size:11.0pt">[29]   … t</span><span style="font-size:11.0pt;color:black">he frequently referenced
+decision of the Honourable Justice Greenberg in<b><i> MPIC v. Landry</i></b>, </span><a href="https://www.canlii.org/en/mb/mbqb/doc/2005/2005mbqb141/2005mbqb141.html"><span style="font-size:11.0pt;color:windowtext;text-decoration:none">2005 MBQB 141</span></a><span style="font-size:11.0pt;color:black"> (“<b><i>Landry</i></b>”) contains
+a non‑exhaustive list of factors for the Court to assess when determining
+whether default should be aside (commencing at para. 11):</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:42.55pt;margin-bottom:.0001pt"><span style="font-size:11.0pt;color:black"> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt"><span style="font-size:11.0pt;color:black">[<a name="gjdgxs"></a>11]   Queen’s
+Bench Rule 19.03(1) provides that the noting of default may be set aside by the
+court on such terms as are just.  There are no criteria set out in the
+rule to guide the court’s discretion.  A review of the cases under this
+rule indicates that courts in Manitoba have looked at a variety of factors in
+determining whether or not to set aside default, including:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt"><span style="font-size:11.0pt;color:black"> </span></p>
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0in;margin-right:56.9pt;
+margin-bottom:0in;margin-left:106.35pt;margin-bottom:.0001pt;text-indent:-28.5pt"><span style="font-size:11.0pt;color:black">1)<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span style="font-size:11.0pt;color:black">whether the
+defendant had an ongoing intention to defend;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:56.9pt;
+margin-bottom:0in;margin-left:106.35pt;margin-bottom:.0001pt;text-indent:-28.5pt"><span style="font-size:11.0pt;color:black">2)<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span style="font-size:11.0pt;color:black">whether the
+defendant adequately explained why there was delay in filing a defence;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:56.9pt;
+margin-bottom:0in;margin-left:106.35pt;margin-bottom:.0001pt;text-indent:-28.5pt"><span style="font-size:11.0pt;color:black">3)<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span style="font-size:11.0pt;color:black">whether the
+delay in filing a defence was willful;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:56.9pt;
+margin-bottom:0in;margin-left:106.35pt;margin-bottom:.0001pt;text-indent:-28.5pt"><span style="font-size:11.0pt;color:black">4)<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span style="font-size:11.0pt;color:black">whether the
+motion to set aside the noting of default was brought with dispatch; and</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:56.9pt;
+margin-bottom:0in;margin-left:106.35pt;margin-bottom:.0001pt;text-indent:-28.5pt"><span style="font-size:11.0pt;color:black">5)<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span style="font-size:11.0pt;color:black">whether the
+delay in filing a defence caused prejudice to the plaintiff.</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-top:0in;margin-right:64.0pt;
+margin-bottom:0in;margin-left:127.75pt;margin-bottom:.0001pt"><span style="font-size:11.0pt;color:black"> </span></p>
+<p class="Number">There is no single factor that is
+determinative in arriving at a decision as to whether default should be set
+aside.</p>
+<p class="Number" style="margin-left:35.45pt;text-indent:-.5in"><b>V.<span style='font:7.0pt "Times New Roman"'>          
+</span></b><b><u>POSITIONS OF THE PARTIES</u></b></p>
+<p class="Number" style="margin-left:35.45pt"><u>Position of Comtech</u></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[22]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech maintains that it is has demonstrated an
+ongoing intention to defend  the action from the time it became aware that
+default judgment had been entered.  A draft statement of defence is attached to
+the Grohn affidavit (Tab A, filed August 28, 2024).  That defence is submitted
+to be meritorious in nature.  Further, Norfield has had notice of Comtech’s
+intention to defend and the basis of the defence for a significant period of
+time.  This intention was<b> </b>also submitted to have been demonstrated by
+the fact that the notice of appeal was filed to challenge the costs award.  <span style="background:white">The grounds for the defence include:</span></p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in"><span style="line-height:200%">(i)<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:200%;color:#1F1F1F;
+background:white">Comtech had no reason to believe that Avocado was not
+following the terms of the sub-lease during the time that Avocado occupied the
+property;</span></p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in"><span style="line-height:200%">(ii)<span style='font:7.0pt "Times New Roman"'>         
+</span></span><span style="line-height:200%;color:#1F1F1F;
+background:white">Comtech was never informed by A.S.H. or Avocado that
+Avocado’s insurance policy had expired and had not been renewed or reinstated;</span></p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in"><span style="line-height:200%">(iii)<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="line-height:200%;color:#1F1F1F;
+background:white">the fact that Avocado’s insurance policy had expired and had
+not been renewed or reinstated was almost certainly known to A.S.H.;</span></p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in"><span style="line-height:200%">(iv)<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span style="line-height:200%;color:#1F1F1F;
+background:white">Norfield, through A.S.H., ought to have known Avocado’s
+insurance policy had expired and had not been reinstated, but Norfield did not
+take steps to notify Comtech; and</span></p>
+<p class="Number" style="margin-left:78.0pt;text-indent:-.5in"><span style="line-height:200%">(v)<span style='font:7.0pt "Times New Roman"'>         
+</span></span><span style="line-height:200%;color:#1F1F1F;
+background:white">Avocado alone is responsible at law for the flood damage. </span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[23]<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="line-height:200%;color:#1F1F1F;
+background:white">The statement of defence, as proposed, also addresses Norfield’s
+allegations of Comtech’s negligence and whether the property was vacant, both
+of which are denied.  Comtech has also contended that additional defences could
+be put forth either by an amendment to the proposed statement of defence or by the
+filing of a reconstituted defence.  The additional defences could include
+estoppel, contributory negligence and reliance upon the lease terms as
+affording a complete defence (Supplemental Appeal Brief of Comtech, document no.
+41). Comtech further argues that it was required to pay a portion of the
+landlord’s insurance premiums to insure the building as “additional rent” under
+the lease.  Accordingly, it should benefit from what it paid for, as outlined within
+the lease terms.  This amounts to an allocation of risk:  <b><i>Ross Southward
+Tire v. Pyrotech Products</i></b>, [1976] 2 SCR 35.</span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[24]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech argues that pursuant to Rule
+19.04(1)(a), where a defendant has been noted in default, the registrar may
+only sign judgment in respect of a debt or liquidated demand in money.  In this
+case, it is submitted that the damages alleged  (para. 1(a) of the statement of
+claim) were not liquidated, as they were not in an amount reasonably
+ascertainable at the time of a possible contract breach, were not measurable by
+a fixed or established external standard or by a standard apparent from
+documents upon which Norfield based its claim.  Further, no amount was agreed
+upon by the parties through contractual terms or fixed by operation of law in
+circumstances where a breach of contract has occurred.  Accordingly, it is
+argued that a motion for judgment before a judge with appropriate affidavit evidence
+and service on Comtech should have been the course followed (Rules 19.05 and
+19.06).</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[25]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The Affidavit of Grant Stevenson filed November
+25, 2024 (document no. 13), sets out the incurred expenses related to the flood
+damages, along with repair and emergency services costs.  The documentation
+also illustrates the inclusion of flooring selections along with hydro bills which
+extended into the fall of 2022.  It is submitted that these types of claims are
+not supportable as liquidated damages and, at best, only default should have
+been noted by the registrar. The extent of the damages claimed is also contended
+to be in issue.  In such circumstances, the awarding of solicitor-client costs against
+Comtech is submitted to be inappropriate.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[26]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>As indicated, Comtech submits that there are
+insurance issues that arise with respect to this matter, including the fact
+that it was a contributor, through rental payments to the operating costs of Norfield,
+including insurance, as illustrated within the terms of the lease. 
+Accordingly, Comtech argues that it or Avocado should have received the benefit
+of Norfield’s insurance coverage in these circumstances.  There was also no
+evidence of any negligence on the part of Comtech for the flood damage. 
+Comtech relies on such matters in support of its contention of a meritorious
+defence, along with the fact that many items claimed by Norfield were not
+supported by proof or evidence.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[27]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>With respect to the noting of default in May
+2025, Comtech maintains that it was not served with the order filed on May 7,
+2025.  Accordingly, it had no notice that the time period for filing a defence
+had begun.  In the event Comtech had been informed that the order had been
+entered, it would have immediately filed a defence.  The delay in filing a
+statement of defence was not in any way wilful, but instead constituted inadvertence. 
+As soon as Comtech learned on June 2, 2025, that default had been noted, immediate
+steps were undertaken and a motion was filed within one week to set aside the
+noting of default (Fawcett affidavit, para. 11).  Further, a meritorious
+defence does not have to be shown in order to set aside the noting of default: 
+<b><i>Beardy</i></b>.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[28]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech further submits that no prejudice was
+experienced by Norfield who has always been aware of the intention to file a
+statement of defence and had a copy of the proposed defence at an early point
+in this litigation (August 2024).</p>
+<p class="Number"><span style="line-height:200%;color:#1F1F1F;
+background:white">          <u>Position of Norfield</u></span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[29]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Norfield submits that the key components of
+Comtech’s proposed statement of defence are simply irrelevant factual
+allegations which do not constitute legal defences.  Norfield’s position is
+that the components of the defence act as<b> </b>a setoff against amounts owed
+to Norfield, which can be pursued without setting aside default judgment.  In
+essence, that has already been accomplished by virtue of Comtech securing
+default judgment against Avocado for the same damages.  Norfield also contends
+that Comtech’s claim against Avocado for repair and remediation costs reflects
+an acknowledgment of its liability for the damages under the terms of the lease
+agreement.  Further, Comtech should not be permitted to profit by virtue of its
+claim against Avocado for remediation costs it did not incur.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[30]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Norfield submits that there is no affidavit
+evidence or facts relied upon by Comtech in support of the existence of a
+meritorious defence.  The assertions made in terms of the “key components” of
+the proposed statement of defence, as indicated, are argued to be irrelevant,
+speculative, and do not address the nature of the claim.  Additionally, there
+is no evidence before the court that Comtech paid any sums with respect to remediation
+of the flood damages. In essence, it has admitted responsibility by virtue of the
+claim brought against Avocado.  A party’s best case must be set forth from the
+outset of litigation - <b><i>Mystar Holdings Ltd. v. 247037 Alberta Ltd.,</i></b>
+2009 ABQB 480, held:</p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt">[<a name="par24">24</a>]   The Court
+commented on the nature of the proposed amendments, at para. 8:</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number" style="margin-top:0in;margin-right:56.9pt;margin-bottom:0in;
+margin-left:63.8pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt">...neither pleadings nor any other of the court
+process are a game to be played according to what appears to be a strategic
+advantage at the time. The court expects a party to take a position which is
+consistent with its evidence and to maintain that position in its dealings with
+the court. In other words, saying something to one judge and saying the
+opposite to another will not be countenanced.</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt">[<a name="par25">25</a>]   The Court
+continued, at para. 16 to state:</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number" style="margin-top:0in;margin-right:56.9pt;margin-bottom:0in;
+margin-left:63.8pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt">However, Bullen and Leake states at page 42 that a
+party must not in a subsequent pleading make any allegation of fact, raise any
+new ground, or claim inconsistent with the previous pleading of his.</span></p>
+<p class="Number" style="margin-top:0in;margin-right:57.0pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p align="center" class="Number" style="margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:35.45pt;margin-bottom:.0001pt;text-align:center">. . .</p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt;color:black">[<a name="par49">49</a>]   In
+general, I am persuaded that a party is not free to deliberately argue
+diametrically inconsistent facts in various actions, thus <u>knowingly</u> advancing
+irreconcilable  positions which are not articulated as alternative claims.
+Whether this pronouncement has any application to the facts of this case
+remains to be determined.</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt;color:black"> </span></p>
+<p align="right" class="Number" style="margin-top:0in;margin-right:28.55pt;
+margin-bottom:0in;margin-left:35.45pt;margin-bottom:.0001pt;text-align:right;
+line-height:normal"><span style="font-size:11.0pt;color:black">[emphasis
+in original]</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:28.35pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number">To allow Comtech to proceed with the proposed
+statement of defence and possible amendments would result in an undermining of
+the integrity of the court process.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[31]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Norfield asserts that Comtech’s actions
+throughout these proceedings have reflected wilful delay attempts and do not
+demonstrate an intention to defend.  This contention of delay includes the
+adjournments sought during the Saskatchewan proceedings, as well as the delay
+that resulted from the costs dispute subsequent to the Associate Judge’s December
+5, 2024 order.  Effectively, from December 5, 2024, until a consent order was
+secured on May 5, 2025, five months had passed as a consequence of Comtech’s extemporaneous<b>
+</b>actions.  Further, Comtech failed to file its statement of defence within
+the 20 days from the time the order was entered on May 5, 2025. There is no
+requirement in the Associate Judge’s order or in the Court of King’s Bench Rules
+that service of the filed order was required to be made on Comtech.  It was
+incumbent upon Comtech, once the order was finally consented to, to ensure it
+complied with the terms of the order.  It had clear notice that the order was
+in an appropriate state to be entered with the Court.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[32]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Norfield also contends that the notice of motion
+to set aside the noting of default was not timely and that it has suffered prejudice. 
+That prejudice includes increased legal costs and the taking of unnecessary
+procedural steps, along with delay in the ultimate resolution of this claim.</p>
+<b><u><span style='font-size:12.0pt;font-family:"Tahoma",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span></u></b>
+<p align="left" class="MsoNormal" style="text-align:left"><b><u><span style="text-decoration:none"> </span></u></b></p>
+<p class="Number" style="margin-left:35.45pt;text-indent:-.5in"><b>VI.<span style='font:7.0pt "Times New Roman"'>       
+</span></b><b><u>ANALYSIS</u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[33]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I have considered carefully what counsel have
+argued and submitted by way of voluminous affidavits and briefs.  Comtech has
+the burden of proof with respect to matters such as this; however, the
+threshold is low, particularly as regards the setting aside of the noting of
+default.  As was stated in <b><i>Schaworski</i></b>:</p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:3.0pt;
+margin-left:35.45pt;line-height:normal"><span style="font-size:11.0pt;
+color:black">[<a name="par31">31</a>]   While recognizing that the
+circumstances of every case must be carefully analysed, generally speaking, the
+onus or threshold to satisfy is considered to be low when it comes to setting
+aside default.</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:3.0pt;
+margin-left:35.45pt;line-height:normal"><span style="font-size:11.0pt;
+color:black"> </span></p>
+<p class="Number">There is no single determinative factor when
+considering matters of this nature. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[34]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I am in agreement with the Associate Judge’s
+order to set aside default judgment.  The explanation provided for Comtech’s
+failure to file a statement of defence was satisfactory based upon the existing
+set of circumstances.  Comtech’s Manitoba power of attorney for service had no
+notice of the statement of claim, nor did appropriate staff because of the
+failure of a line employee to bring it to their attention.  While there was “no
+good explanation” for the employee’s failure to undertake that process, the
+Associate Judge’s decision was an appropriate exercise of discretion in
+the circumstances.  This is particularly so when the documented attorney for
+service as shown in the corporate filings was not served.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[35]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>As was indicated in the <b><i>Thermo Applicators
+Inc.</i></b> decision (para. 6), a judge’s discretion to set aside default
+judgment is broad.  Certain of the factors to consider include whether there is
+a meritorious defence, whether there was delay on the part of the defendant in
+bringing the motion, and whether there was irreparable harm to the plaintiff.  Clearly,
+the Associate Judge determined that those factors had been satisfactorily addressed
+- a decision with which I agree.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[36]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech’s contention of a meritorious defence
+was supported through affidavits and briefs filed, and, particularly, the Grohn
+affidavit as regards the nature of the defence.  That affidavit and other filed
+materials have set forth facts which enable the Court to consider whether there
+may be a defence/defences to the action.  It is unnecessary to determine whether
+those defences will succeed, only that an arguable case has been demonstrated. 
+Comtech, in its proposed statement of defence, has put forth grounds why it
+does not accept liability for the flood damages suffered during Avocado’s
+occupancy of the premises, including a denial of the amounts claimed.  There
+are insurance issues raised as regards applicable policies and notice under the
+policies, as well as a denial of Norfield’s allegations of Comtech’s
+negligence.  Comtech also proposes to add further defences.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[37]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I acknowledge that Comtech has taken legal
+action against Avocado and secured a default judgment which could constitute an
+arguable contention by Norfield of an acceptance of liability.  That said, I am
+satisfied, as was the Associate Judge, that there is a meritorious defence and an
+intention demonstrated to defend the claim.  As soon as Comtech became aware of
+the statement of claim through service of the Saskatchewan application to
+register the default judgment, steps were undertaken to set it aside. I do not
+find that there was an intention to delay the process, despite the fact that
+there were a number of adjournments during the Saskatchewan proceedings which
+resulted in costs being awarded against Comtech.   </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[38]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech has argued that the registrar was not
+entitled to enter default judgment as the damages Norfield sought were not liquidated
+in nature as required by Rule 19.04(1)(a).  I am satisfied after a review
+of Grant Stevenson’s affidavit, filed November 25, 2024 (document no. 13, Tab A),
+that there are arguable aspects to that contention.  The damages in the amount
+of $56,337.10 were not agreed to pursuant to a contractual term in the event of
+a breach, fixed by operation of law or by virtue of any fixed or established
+external structure/standard.  The allegations in the statement of claim relate
+to expenses incurred related to emergency services and repairs to rectify the
+flooding damage.  These allegations as to the damages sought may not
+necessarily equate to a fixed or ascertained amount, even if taken to be true. 
+There were arguably aspects of the “loss” related to scope of work, overtime,
+replacement of carpet, selection of new carpet/flooring, betterment, hydro
+bills that extend into September 2022, and emergency services that may not be
+aspects of liquidated damages or a debt claim. Consequently, I accept that
+there are concerns that the claim may have been improperly categorized as a “liquidated
+amount”, which would negate the registrar’s ability to enter default judgment. 
+Accordingly, default should have been noted and the matter placed on the
+uncontested civil motions list with the requirement of affidavits and service
+on Comtech (see June 21, 2024 Practice Direction of the Court of King’s Bench).</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[39]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>There has been a degree of prejudice suffered by
+Norfield with respect to this matter in terms of lengthening the proceedings
+and increasing the legal costs associated with this litigation.  That said,
+there is no real prejudice that cannot be compensated by way of a costs award. 
+There has been no irreparable injury sustained by Norfield in this matter.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[40]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I am satisfied that Comtech has met the burden
+of proof and, accordingly, I uphold the Associate Judge’s order to set aside
+default judgment for the aforesaid reasons.  A party is not entitled to a
+judgment merely because facts are deemed to be admitted by virtue of a
+default.  The statement of facts and supporting documentation must entitle the
+plaintiff to the judgment being sought.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[41]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>With respect to setting aside the May 28, 2025 noting
+of default, the court is permitted to set aside a noting of default on such
+terms as may be just.  Further, it is unnecessary to show a meritorious defence
+when setting aside the noting of default.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[42]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The explanation for failing to file a statement
+of defence within 20 days of the signing of the Associate Judge’s order was argued
+to be inadvertence, as well as a failure on the part of Norfield to advise when
+the order was entered with the court. As soon as Comtech learned on June 2,
+2025, that default had been noted, it quickly took steps to file the motion to
+set aside default.  The <b><i>Landry</i></b> decision has outlined a number of
+the factors to be considered when evaluating whether or not to set aside the
+noting of default.  In taking those factors into consideration, I acknowledge
+that this expedited action involves a claim of approximately $75,000 and is not
+complex in nature.  Clearly, Comtech failed to meet a filing deadline. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[43]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>There is no requirement, beyond professional
+courtesy, to alert opposing counsel that an order has been filed and signed
+with the court.  Due diligence in these circumstances required that Comtech
+take appropriate steps to review the court registry in order to determine if the
+time to file a defence had begun.  That said, the threshold to set aside the
+noting of default is, as indicated, low.  I am prepared to set aside the noting
+of default because Comtech’s failure to file was not wilful.  Instead, it was
+inadvertent with any prejudice to Norfield compensated through a costs order.</p>
+<p class="Number" style="margin-left:35.45pt;text-indent:-.5in"><b>VII.<span style='font:7.0pt "Times New Roman"'>     
+</span></b><b><u>COSTS</u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[44]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Section 96(1) of <b><i>The Court of King’s Act</i></b>,
+C.C.S.M. c. C280, affords the court with authority and discretion with respect
+to the awarding of costs:</p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:3.0pt;
+margin-left:35.45pt;line-height:normal"><b><span style="font-size:
+11.0pt">Costs</span></b></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:3.0pt;
+margin-left:35.45pt;line-height:normal"><span class="secnum"><b><span style="font-size:11.0pt;color:black">96(1)  </span></b></span><span style="font-size:11.0pt">Subject to the provisions of an Act or the
+rules, the costs of or incidental to, a proceeding, or a step in a proceeding,
+are in the discretion of the court and the court shall determine liability for
+costs and the amount of the costs or the manner in which the costs shall be
+assessed.</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:3.0pt;
+margin-left:35.45pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number">The factors to be considered in a costs award
+are established pursuant to Rule 57.01, as follows:</p>
+<p align="left" class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;
+margin-bottom:0in;margin-left:35.45pt;margin-bottom:.0001pt;text-align:left;
+background:#FDFEFE"><b><span style="font-size:11.0pt;color:black">Factors
+in discretion</span></b></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:35.45pt;margin-bottom:.0001pt;background:#FDFEFE"><b><span style="font-size:11.0pt">57.01(1)   </span></b><span style="font-size:11.0pt">In exercising its discretion under
+section 96 of <i>The Court of King's Bench Act</i>, to award costs,
+the court may consider, in addition to the result in the <span style="color:black">proceeding and any offer to settle made in writing,</span></span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(a)    the
+amount claimed and the amount recovered in the proceeding;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(b)    the
+complexity of the proceeding;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(c)    the
+importance of the issues;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(d)    the
+conduct of any party which tended to shorten or lengthen unnecessarily the
+duration of the proceeding;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(d.1)  the
+conduct of any party which unnecessarily complicated the proceeding;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(d.2)  the
+failure of a party to meet a filing deadline;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(e)    whether
+any step in the proceeding was improper, vexatious or unnecessary;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(f)     a
+party's denial or refusal to admit anything which should have been admitted;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(f.1)  the
+relative success of a party on one or more issues in a proceeding in relation
+to all matters put in issue by that party;</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(g)    whether
+it is appropriate to award any costs or more than one set of costs where there
+are several parties with identical interests who are unnecessarily represented
+by more than one counsel; and</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black">(h)    any
+other matter relevant to the question of costs.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.65pt;margin-bottom:
+0in;margin-left:78.0pt;margin-bottom:.0001pt;text-indent:-30.0pt;background:
+#FDFEFE"><span style="font-size:11.0pt;color:black"> </span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[45]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Solicitor-client costs are generally only
+awarded in exceptional circumstances and where a party’s conduct is deemed to
+be scandalous, outrageous or reprehensible (see: <b><i>Schaworski</i></b> at
+para. 32 and <b><i>Ultracuts v. Magicuts</i></b>, 2024 MBCA 45, at para. 12).</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[46]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>In this matter, the Associate Judge’s order
+reflected an award in favour of Norfield for solicitor-client costs of the
+action to the date the motion to set aside was filed by Comtech.  The Bill of Costs
+presented by Norfield was in the amount of $19,938.89 and encompasses costs
+incurred for the entire proceedings in both Saskatchewan and Manitoba.  The Bill
+of Costs includes such matters as the preliminary review of file materials
+received from the client, legal research, drafting a demand letter, drafting
+and arranging service of the statement of claim and associated disbursements,
+as well as the engagement and time of Saskatchewan counsel to prepare and file documentation
+and appearances with respect to the application to register the default
+judgment in Saskatchewan.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[47]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech submits that all solicitor-client costs
+in this matter should be awarded in its favour.  This is based on the fact that
+Norfield secured a default judgment to which it was not entitled by virtue of
+the “service” issue and the registrar not being in a position to sign such a
+judgment given that damages were not liquidated in nature.  Comtech argues that any harm caused to Norfield related to the
+setting aside of the default judgment can be compensated by an award of “thrown
+away” costs.  The decision in <b><i>Limneos v. Knispel</i>, </b>2004 MBQB 118, is
+relied upon in holding that thrown away costs are appropriate in circumstances
+of this nature.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[48]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>As regards the noting of default, Comtech contends
+it was not apprised as to when the Associate Judge’s order was filed and
+signed.  The failure of Norfield to provide such notification is argued by
+Comtech to be contrary to civil practice where counsel so advises or provides a
+copy of the entered order to opposing counsel.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[49]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Norfield submits that where a plaintiff’s
+default judgment is set aside, an award of solicitor-client costs is generally
+warranted to facilitate full indemnity and to avoid irreparable harm.  As was
+stated in <b><i>GFK</i></b>:</p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span class="ssbf"><b><span style="font-size:11.0pt;color:#212121;border:none windowtext 1.0pt;
+padding:0in;background:white">17</span></b></span><span style="font-size:11.0pt;color:#212121;background:white">   The
+first concern of the motions judge must be the costs thrown away. A plaintiff
+whose regularly-obtained default judgment is set aside should not have to pay
+these costs. In Manitoba, where party and party costs normally fall short of a
+full indemnity, the usual order should be that the defendant pay an amount
+assessed on a solicitor and client basis. Otherwise, the plaintiff will have
+suffered irreparable harm.</span></p>
+<p class="Number" style="margin-top:0in;margin-right:28.55pt;margin-bottom:0in;
+margin-left:35.45pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><a name="_Hlk212182786"><span style="line-height:200%">[50]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Norfield also relies upon the <b><i>Peltier v.
+Campanella</i></b>, 2023 MBKB 106, decision where the plaintiff was awarded
+costs on a solicitor‑client basis up to the filing of the motion by the
+defendant to set aside default judgment, despite granting the setting aside of
+the default judgment.  </a></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[51]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>An award of costs must always be reasonable in
+nature.  In this case, I am satisfied that Comtech’s appeal as regards costs awarded
+by the Associate Judge must be granted, but for a different reason than was
+argued. All actions conducted pursuant to Rule 20A must reflect
+proportionality.  The solicitor-client costs awarded in these circumstances
+fails to embrace that proportionality concept.  In
+evaluating the factors in which discretion should be exercised, I am mindful
+that this is a Rule 20A proceeding.  In the circumstances, the sum of
+approximately $20,000 as awarded in terms of solicitor‑client costs
+reflects approximately 26 per cent of the default judgment secured.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[52]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The actions of Comtech as
+regards questioning the costs order do have the flavour of endeavouring to
+invoke delay of the proceedings. The conduct of Comtech
+with respect to disputing the costs award and not signing the form of order in
+a timely manner has unnecessarily lengthened the duration of this litigation.  That
+said, I am not prepared to hold that the disagreement raised by Comtech as to
+the costs awarded was improper, vexatious or unnecessary.  However, I am satisfied that:</p>
+<p class="Number" style="margin-left:70.9pt;text-indent:-28.35pt">•<span style='font:7.0pt "Times New Roman"'>               
+</span>the amount claimed in this matter is within the
+parameters of a Rule 20A action and proportionality must be considered;</p>
+<p class="Number" style="margin-left:70.9pt;text-indent:-28.35pt">•<span style='font:7.0pt "Times New Roman"'>               
+</span>the proceedings are not complex;</p>
+<p class="Number" style="margin-left:70.9pt;text-indent:-28.35pt">•<span style='font:7.0pt "Times New Roman"'>               
+</span>Comtech has unnecessarily prolonged the duration
+of the proceedings; and</p>
+<p class="Number" style="margin-left:70.9pt;text-indent:-28.35pt">•<span style='font:7.0pt "Times New Roman"'>               
+</span>Comtech failed to meet a prescribed filing
+deadline and disregarded procedural obligations as demonstrated by the delay in
+consenting to the form of order.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[53]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>While the Bill of Costs is too high after a
+proportionate weighing of all the circumstances, I am prepared to grant the
+all-inclusive amount of $10,000 as constituting reasonable solicitor-client
+costs and disbursements in favour of Norfield encompassing the period up to the
+date of filing by Comtech of its notice of motion to set aside default judgment
+(July 29, 2024). The reasoning followed in the <b><i>GFK</i></b> and <b><i>Peltier</i></b>
+decisions is appropriate in this matter.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[54]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech is awarded costs on a tariff basis for
+the filing of the notice of motion to set aside default judgment on July 29,
+2024, and proceedings related to the hearing before the Associate Judge.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[55]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I grant Norfield tariff costs with respect to the
+setting aside of the noting of default despite Comtech being successful in
+having the noting of default set aside.  As indicated, such costs may be
+awarded even in those circumstances where the defence is ultimately successful
+on its motion to set aside default judgment and the noting of default.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[56]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Comtech has fourteen days to file its statement
+of defence. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:200%">[57]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Counsel should immediately undertake resolution
+discussions as the economies of this litigation do not support protracting this
+matter into the future.</p>
+<p class="Number" style="margin-bottom:12.0pt;line-height:normal"> </p>
+<p class="Number" style="margin-bottom:12.0pt;line-height:normal"> </p>
+<p align="right" class="Number" style="text-align:right;line-height:normal">                                                                   <u>                                                </u>J.</p>
+</div>
+</body></html>

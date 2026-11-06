@@ -1,0 +1,122 @@
+{
+  "Civil Service Superannuation Act": {
+    "uri": "https://canlii.ca/t/7vc6",
+    "score": 0.6246664524078369,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation | 31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6246664524078369,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.5999320149421692,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.587704062461853,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Civil Service Superannuation Act 1981": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.5657277703285217,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation | , 1981",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.5657277703285217,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nf",
+        "score": 0.560987651348114,
+        "candidate_title": "Land Titles Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.5259982943534851,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      }
+    ]
+  },
+  "Re Manitoba Human Rights Com": {
+    "uri": "https://canlii.ca/t/1glp0",
+    "score": 0.4659455120563507,
+    "candidate_id": "2004csc-scc13",
+    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "query_text": "secondary sources",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1glp0",
+        "score": 0.4659455120563507,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.44336050748825073,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/g2s18",
+        "score": 0.4361734986305237,
+        "candidate_title": "Hryniak v. Mauldin"
+      }
+    ]
+  },
+  "Re Parking Authority of Toronto and C.U.P.E., Local 43 (1974), 5 L.A.C. (2d) 150": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Re United Glass & Ceramic Workers of North America (AFL-CIO-CLC), Local 246 and Dominion Glass Co. Ltd et al. (1973), 40 D.L.R. (3d) 496, 1 O.R. (2d) 408, 5 L.A.C. (2d) 224n (Ont. C.A.)": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  }
+}

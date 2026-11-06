@@ -1,0 +1,1289 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 10 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"WP Phonetic";
+	panose-1:5 11 6 4 2 2 2 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.Level1, li.Level1, div.Level1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:0cm;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.Level2, li.Level2, div.Level2
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.Level3, li.Level3, div.Level3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+ /* Page Definitions */
+ @page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section2
+	{page:Section2;}
+@page Section3
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section3
+	{page:Section3;}
+@page Section4
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section4
+	{page:Section4;}
+@page Section5
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section5
+	{page:Section5;}
+@page Section6
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section6
+	{page:Section6;}
+@page Section7
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section7
+	{page:Section7;}
+@page Section8
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section8
+	{page:Section8;}
+@page Section9
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section9
+	{page:Section9;}
+@page Section10
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section10
+	{page:Section10;}
+@page Section11
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section11
+	{page:Section11;}
+@page Section12
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section12
+	{page:Section12;}
+@page Section13
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section13
+	{page:Section13;}
+@page Section14
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section14
+	{page:Section14;}
+@page Section15
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section15
+	{page:Section15;}
+@page Section16
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section16
+	{page:Section16;}
+@page Section17
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section17
+	{page:Section17;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+<body lang="EN-US" style="text-justify-trim:punctuation">
+<div class="Section1">
+<p class="MsoNormal"><a name="QuickMark"></a><b><span lang="EN-GB" style="font-size:
+14.0pt"> </span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">      IN THE SUPREME COURT OF NEWFOUNDLAND AND
+LABRADOR</span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">                                                TRIAL
+DIVISION</span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-left:216.0pt;text-align:justify;text-indent:
+-72.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">   Citation:</span></b><i><span lang="EN-GB" style="font-size:14.0pt">  Abitibi Consolidated Co. of Canada v.
+Communications, Energy &amp; Paperworkers Union of Canada, Local 60N, </span></i><span lang="EN-GB" style="font-size:14.0pt">2005 NLTD 57  </span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt">                                                                                     <b>Filing
+Date:     </b>2005 03 23</span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt">                                                                                      <b>Docket:   
+</b>2004 01T 3608</span></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-left:108.0pt;text-align:justify;text-indent:
+-108.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">BETWEEN: ABITIBI
+CONSOLIDATED COMPANY</span></b></p>
+<p class="MsoNormal" style="text-align:justify;text-indent:108.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">OF CANADA                                                      APPLICANT</span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-left:108.0pt;text-align:justify;text-indent:
+-108.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">AND:          COMMUNICATIONS,
+ENERGY AND</span></b></p>
+<p class="MsoNormal" style="text-align:justify;text-indent:108.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">PAPERWORKERS UNION OF,</span></b></p>
+<p class="MsoNormal" style="text-align:justify;text-indent:108.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">CANADA, LOCAL 60N                              RESPONDENT</span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">                                                                                                                             </span></b></p>
+<p class="MsoNormal" style="text-align:justify;line-height:.95pt"><span style="position:absolute;z-index:-2;left:0px;margin-left:96px;margin-top:0px;
+width:624px;height:1px"><img height="1" src="converted38231_fichiers/image001.gif" width="624"/></span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt">                           <b>Before:  </b>The
+Honourable Mr. Justice Robert Hall</span></p>
+<p class="MsoNormal" style="text-align:justify"><b><u><span lang="EN-GB" style="font-size:14.0pt"><span style="text-decoration:none"> </span></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;line-height:.95pt"><span style="position:absolute;z-index:-1;left:0px;margin-left:96px;margin-top:0px;
+width:624px;height:1px"><img height="1" src="converted38231_fichiers/image001.gif" width="624"/></span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:144.0pt;text-align:justify;text-indent:
+-144.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">Place of Hearing:</span></b><span lang="EN-GB" style="font-size:14.0pt">            St. John’s, Newfoundland and
+Labrador</span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt">  </span></p>
+<p class="MsoNormal" style="margin-left:144.0pt;text-align:justify;text-indent:
+-144.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">Dates of Hearing:  </span></b><span lang="EN-GB" style="font-size:14.0pt">January 27, 31 and February 1, 2005</span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:144.0pt;text-align:justify;text-indent:
+-144.0pt"><b><span lang="EN-GB" style="font-size:14.0pt">Appearances:</span></b><span lang="EN-GB" style="font-size:14.0pt">                  Augustus G. Lilly, Q.C.,
+for the Applicant.</span></p>
+<p class="MsoNormal" style="text-align:justify;text-indent:144.0pt"><span lang="EN-GB" style="font-size:14.0pt">John J. Harris, Q.C., for the Respondent.                                                    </span></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">Authorities Cited:    </span></b></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">Cases Considered:</span></b><span lang="EN-GB" style="font-size:14.0pt">   <b>Flamborough (Township) v. Canada
+(National Energy Board),</b> [1984] F.C.J. No. 526; <b>Re City of Saint John v.
+The Canadian Union of Public Employees, Local 18</b> (1986), 24 L.A.C. (3d) 152
+(Collier); <b>MacDonalds Consolidated Ltd. v. Saskatchewan Joint Board, Retail,
+Wholesale and Department Store Union and Dickinson </b>(1988), 65 Sask. R. 224
+(Sask. Q.B.); <b>Szilard v. Szasz</b>, [1955] S.C.R. 3; <b>Newfoundland
+Association of Public Employees and Scaplan v. Medical Care Commission</b> <b>(Nfld.)</b>
+(1991), 90 Nfld. &amp; P.E.I.R. 17</span></p>
+</div>
+<span lang="EN-GB" style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section2">
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">Statute Considered:   Labour Relations Act</span></b><span lang="EN-GB" style="font-size:14.0pt">, RSNL 1990 c. L-1</span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">Texts Considered:   </span></b><span lang="EN-GB" style="font-size:14.0pt">Brown and Beatty, <b>Canadian Labour
+Arbitration</b>, 3<sup>rd</sup> edition;  Palmer, <b>Collective Agreement
+Arbitration in Canada,</b> 3<sup>rd</sup> edition; Jones and deVillars, <b>Principles
+of Administrative Law</b> (3d edition) Carswell 1999</span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-GB" style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">                                       <u>REASONS FOR
+JUDGMENT</u></span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span lang="EN-GB" style="font-size:14.0pt">Hall, J:</span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><u><span lang="EN-GB" style="font-size:14.0pt"><span style="text-decoration:none"> </span></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><u><span lang="EN-GB" style="font-size:14.0pt">Background</span></u></b></p>
+<p class="Level1" style="text-align:justify"><span lang="EN-GB" style="font-size:
+14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[1]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">The parties to this application
+are parties to a Collective Agreement (the “Collective Agreement”).  The
+present application arrises out of a grievance filed by the Respondent Union
+grieving that a non-union contractor was harvesting wood on the timber limits
+of the Applicant Company in violation of Article 3 and other Articles of the
+Collective Agreement.  The grievance was ultimately submitted to arbitration
+pursuant to the Collective Agreement.  Under the Collective Agreement
+grievances referred to arbitration are to heard by a three-person Board of
+Arbitration with the Employer and the Union each selecting one nominee and
+those two nominees selecting a third person who will act as chairman.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[2]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">Clause 13:07 of the Collective
+Agreement sets out the jurisdiction of the Board of Arbitration as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“It is understood that the function
+of the Arbitration Board shall be to interpret and apply this Agreement, and
+that it shall deal only with the specific questions as submitted and shall have
+no power to alter, add to, or amend this Agreement, except arbitrations under
+Article IV.”</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section3">
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[3]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">In April 2003 the Union appointed
+its nominee to the Arbitration Board and in June 2003 the Employer selected as
+its nominee Mr. Ronald D. McKelvie.  The Union made no objection to the
+Employer selection of its nominee and these two nominees agreed upon the
+appointment of the Chairperson of the Arbitration Board.  The Chairperson then
+entered into correspondence with the parties and a date for the hearing of the
+arbitration was set as December 5, 2003.  On November 28, 2003 the Union’s
+legal counsel wrote to the Employer’s legal counsel to advise that the Union
+would be raising a preliminary objection to the composition of the Board of
+Arbitration on the basis of a reasonable apprehension of bias with respect to
+the Employer’s nominee on the Board.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[4]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">The Arbitration Board convened on
+the agreed date, at which time the Union raised before the Arbitration Board
+its preliminary objection to the Employer’s nominee.  The Employer responded
+that the Board of Arbitration lacked jurisdiction to consider the preliminary
+objection as the Board was already constituted and that, in any event, there
+was no reasonable apprehension of bias.  The Board of Arbitration heard
+evidence and argument on the Union’s preliminary object and reserved its
+decision which it published on July 29, 2004.  In the decision the Employer
+nominee dissented.  The majority upheld the preliminary objection, concluding
+as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“The Board has jurisdiction to
+decide a question of bias.  The Union’s objection to the Employer nominee, Ron
+McKelvie, on the grounds of reasonable apprehension of bias, is allowed.  The
+Employer nominee is disqualified from continuing as a member of the Arbitration
+Board.  The Board is no longer properly constituted and lacks jurisdiction to
+hear the merits of the grievance.  To process the grievance to arbitration, the
+parties are required to appoint a new Arbitration Board.”</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[5]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">The Employer brought this present
+application to have the Award of the Arbitration Board set aside on two bases
+as follows:</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(1)     The Board of Arbitration lacked
+jurisdiction to rule on its own composition; and</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(2)     In the alternative, there was
+no reasonable apprehension of bias on the part of Ronald McKelvie, the
+Employer’s nominee.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[6]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">In its reply memorandum, the
+Respondent Union took the following positions.</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(1)     That there was jurisdiction in
+the Arbitration Board as constituted to decide whether there was a reasonable
+apprehension of bias on the part of the Employee nominee , Mr. Ronald McKelvie;
+and</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(2)     That the majority of the
+Arbitration Board was correct in its decision that there was a reasonable
+apprehension of bias on the part of Mr. McKelvie in the circumstances of the
+case.</span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section4">
+<p class="Level3" style="text-align:justify"><b><u>Arbitration Board’s Hearing of
+Preliminary Issue.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[7]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">At the hearing of the preliminary
+issue the Union called as witnesses Mr. Ron Smith, the National Representative
+for the Union, and Mr. Lindy Vincent, the Secretary/Treasurer of the Local. 
+The Employer called Kevin Dawe who was the Director of Industrial Relations for
+Newfoundland woodlands and William Furey, the present woodlands’ Manager.  At
+p. 21 of the Arbitration Award the majority of the Arbitration Board sets out
+its findings of fact with respect to the alleged apprehension of bias on the
+part of Mr. McKelvie.  It states:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“The Board has considered the facts
+in the present case as determined from the evidence presented.  Ron McKelvie is
+the former manager of the Woodlands Division for the Employer.  The employees
+in the bargaining unit work for the Woodlands Division.  Most of the current
+employees were also employees when Mr. McKelvie was the manager.  Mr McKelvie
+retired in about 1991 and has not been an employee of the Employer for about 13
+years.  Mr. McKelvie was active in the negotiation of several successive
+collective agreements.  He signed seven successive collective agreements on
+behalf of the Employer.  The last collective agreement signed by Mr. McKelvie
+was the 1989 to 1992 collective agreement.  In that collective agreement the
+language that is the subject of the current dispute was first introduced.  The
+1989 to 1992 collective agreement was also the first collective agreement
+entered into between the Employer and the current bargaining agent.  Mr.
+McKelvie participated in those negotiations and he signed the 1989 to 1992
+collective agreement.  Recently, Mr. McKelvie was appointed as one of two
+persons on a fact finding board.  Mr. McKelvie was appointed by Abitibi
+Consolidated Inc. and Corner Brook Pulp &amp; Paper Limited appointed one of its
+retired employees.  The board was asked to report on a dispute between the two
+companies concerning exchanges of timber cutting rights.  The work of the fact
+finding board was completed in November and December, 2003.  The work is now
+completed and Mr. McKelvie is no longer working int hat capacity.  The report
+was not accepted by Abitibi Consolidated Inc.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[8]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">Against this factual background
+the majority of the Arbitration Board at p. 22 concluded as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section5">
+<p class="Level2" style="text-align:justify">“The issue of bias concerns the
+perception of independence from the Employer.  The Board has considered whether
+a reasonably informed bystander would be satisfied with the independence of Mr.
+McKelvie to hear the case in these circumstances.  The Board notes that a former
+employee, or a current employee, does not necessarily lack independence. 
+However, lack of independence arises on the facts of this case by reason of the
+fact that Mr. McKelvie was one of the negotiators of the language in Article 3
+of the Collective Agreement that is the subject matter of the current dispute. 
+The lack of independence in these circumstances arises from the fact that an
+objective bystander would reasonably conclude that Mr. McKelvie would have
+personal knowledge as to the intention of the Employer when the language was
+negotiated.  Therefore, his decision might reasonably be influenced by his
+personal knowledge of the factual background of the case.  Further, Mr.
+McKelvie has recently served as a fact finding board member for the Employer
+and in that respect his situation is analogous to a solicitor who has provided
+services to an employer and is subsequently appointed as an arbitrator.  The
+fact that Mr. McKelvie served in the position of manager of the Woodlands
+Division does not by itself raise a reasonable apprehension of bias.  However,
+when that fact is considered together with his involvement with the negotiation
+of prior collective agreements, in particular the negotiation of the language
+that is the subject matter of the current dispute, and with his recent position
+as a fact finding board member for the Employer, there is a reasonable
+apprehension of bias.  There is a reasonable perception of lack of
+independence, on the basis of the perception of a reasonably informed person in
+the circumstances.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[9]<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="font-size:14.0pt">As can be seen from the portion of
+the Award set out in para. [8] hereof, the majority of the Arbitration Board
+essentially concluded that there was a reasonable apprehension of bias on the
+part of Mr. McKelvie not because of his having previously served in the
+position of Manager of the Woodlands Division of the Applicant but rather
+because of the following:</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(1)     His direct involvement with the
+negotiation of the prior collective agreements and in particular the
+negotiation of the language that is the subject matter of the present dispute;
+and</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(2)     His recent position as a
+fact-finding board member for the Employer. </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-align:justify"><b><u>Arbitration Board’s
+Consideration of Its Jurisdiction.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[10]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Commencing at p. 13 of the Award,
+the majority of the Arbitration Board expressed the following positions with
+respect to its jurisdiction to rule on the issue of a reasonable apprehension
+of bias on the part of Mr. McKelvie.  It stated:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section6">
+<p class="Level2" style="text-align:justify">“...  Arbitration Boards in the
+Province of Newfoundland and Labrador have jurisdiction to consider and apply
+principles of law, such as estoppel (see <i>U.F.C.W., Local 1252 v. Lewisporte
+Wholesalers </i>(1989) 79 Nfld. &amp; P.E.I.R. 237 (Nfld. S.C.T.D.)).  An issue
+of bias raises the application of a principle of law, which is distinct from a
+question of the interpretation or application of the Collective Agreement. 
+There is no authority in this Province that directly addresses the issue of the
+Board’s jurisdiction to decide an issue of bias.  The issue does not appear to
+have been addressed in several Supreme Court of Newfoundland and Labrador
+decisions that have reviewed the merits of decisions by an Arbitration Board or
+the Labour Relations Board on a question of bias.  The Court has either upheld
+or quashed the decision without addressing the issue of jurisdiction (see<i>
+NAPE v. Newfoundland Medical Care Commission</i> (1991) 90 Nfld. &amp; P.E.I.R.
+17 (Nfld S.C.T.D.) (the ‘<i>MCP</i>’ case), <i>Newfoundland (Treasury Board) v.
+NAPE</i> (1999) 184 Nfld. &amp; P.E.I.R. 231 (Nfld. S.C.T.D.) (the ‘<i>Treasury
+Board’</i> case) and <i>Transport and Allied Workers Union, Local 855 v.
+Newfoundland Construction Labour Relations Association</i> (2000) 187 Nfld.
+&amp; P.E.I.R. 118 (Nfld. S.C.T.D.) (the ‘<i>NCLR</i>’ case).  </p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">The requirement of arbitration board
+impartiality is addressed in Brown &amp; Beatty, <i>Canadian Labour Arbitration</i>,
+3<sup>rd</sup> edition, at paragraph 1:5210.  The authors suggest the procedure
+to follow is that an objection on the grounds of bias be raised at the outset
+of the hearing.  The authors state ‘and when such an objection is taken, the
+usual procedure is for the arbitrator or board to give a ruling, and if the
+challenge is upheld, to withdraw from the arbitration.’</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section7">
+<p class="Level2" style="text-align:justify">In Palmer, <i>Collective Agreement
+Arbitration in Canada</i>, the authors discuss a decision being made by an
+arbitration board on a question of its own bias, and state at paragraph 1.20
+that ‘it would seem that this is an improper procedure as it would appear
+inappropriate to rule on an accusation against oneself.’  One of the
+authorities quoted for this statement was discussed by the parties in their
+submissions, namely, <i>City of Saint John and Canadian Union of Public
+Employees</i>, Local 18 (1986) 24 L.A.C. (3d) 152, (Collier) the (‘<i>Saint
+John</i>’ case).  The <i>Saint John</i> case was a New Brunswick case which
+decided that a board of arbitration does not have jurisdiction to determine a
+challenge made to it on the grounds of reasonable apprehension of bias or
+pursuant to Section 74(1) of the <i>Industrial Relations Act</i>, R.S.N.B.
+1973, c. I-4.  The arbitration board suggested the appropriate procedure was to
+have the matter challenged in the Courts.  The arbitration board in the <i>Saint
+John</i> case relied on the principle that an arbitrator who has been removed
+by the Courts may be replaced by the Courts.  The arbitration board concluded
+that in New Brunswick there was no procedure available to replace an
+arbitration board other than by Court appointment following removal by the
+Court.  However, in this Province, in the event the Board finds there is a
+reasonable apprehension of bias, the Board is no longer validly constituted but
+there is a procedure available to replace the Board.  The parties may process
+the grievance to arbitration by following the procedure to appoint an arbitration
+board under the Collective Agreement.  The arbitration board in the<i> Saint
+John</i> case also relied upon the reason that the nominee was prohibited from
+determining an issue where the nominee had an interest in the outcome, and a
+nominee would have an interest in a decision on his or her own bias.  However,
+the decision in the <i>Saint John</i> case was based upon a specific
+legislative provision under the <i>Industrial Relations Act</i> of New
+Brunswick, a provision that is not applicable in this Province.  Therefore, the
+<i>Saint John </i>case is distinguishable from the present case.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">The Board has considered the finding
+in the <i>MCP</i> case that where there is reasonable apprehension of bias any
+decision made by the tribunal is void.  The Employer submitted that a decision
+by an arbitration board that a board member has a reasonable apprehension of
+bias, would itself be a void decision.  However, an arbitration board does have
+jurisdiction to decide a question of its own jurisdiction.  The Board finds
+that the reference in the <i>MCP</i> case to a void decision means a decision
+on the merits of the grievance.  The <i>MCP</i> case does not have the effect
+of removing the Board’s jurisdiction to decide an issue of bias.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">In Jones and de Villars, <i>Principles
+of Administrative Law</i>, the authors state at page 389 that ‘the practice of
+having an allegation of bias heard and decided by the member or panel in
+respect of whom the allegation is alleged is problematic’.  Various suggestions
+were made in the text regarding the most practical procedure to follow to
+decide a question of bias.  However, the text does not state that an
+arbitration board lacks jurisdiction to decide the issue.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">The Arbitration Board has considered
+the practical effect of its ruling on the issue of jurisdiction.  By having the
+issue of bias raised before the Arbitration Board, the factual basis for the
+allegation may be presented in the first instance to the Board.  Witnesses may
+be called to testify, as they were in the present case, with respect to the
+facts related to the allegation of bias. It is more convenient for the parties
+to present the factual background with respect to an allegation of bias at an
+arbitration hearing, rather than to defer presentation of evidence until such
+time as the matter is heard on judicial review before a Court.  It is also in
+the interest of fairness to the parties and to the Arbitration Board to have
+disclosure of the factual background related to the allegation at the earliest
+opportunity.  In addition, by presenting the evidence relevant to the allegation
+of bias and making submissions to the Arbitration Board, the Board members
+affected by the allegation of bias may give consideration to withdrawing from
+the case without the necessity for making a ruling on the allegation of bias. 
+Further, in the event that the allegation of bias was not raised in the first
+instance before the Arbitration Board and the bias objection was subsequently
+raised and upheld by the Court, then any award would likely be quashed and the
+matter remitted to a new arbitration board.  The parties would incur the
+unnecessary time and expense of an arbitration hearing which could possibly be
+avoided if the issue of reasonable apprehension of bias was raised before the
+Board and made the subject of a ruling by the Board.  For these reasons, it is
+appropriate that an allegation of bias be raised before the Arbitration Board,
+and that the Board have an opportunity to make a ruling on the objection.</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section8">
+<p class="Level3" style="text-align:justify"><b><u>Dissent of Employer Nominee.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[11]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">It is worthy of note that the
+majority concluded that the Employer nominee, Mr. McKelvie, would have a
+personal knowledge as to the intention of the Employer when the language in the
+Collective Agreement which was the subject matter of the dispute was originally
+negotiated.  The majority concluded therefore that his decision might be
+influenced by his personal knowledge of the factual background of the case. 
+However, quite naturally, the Board did not have before it any evidence from
+Mr. McKelvie himself offering any explanation or view with respect to his
+background and involvement, if any, in the negotiation of the disputed
+language.  It was not until he filed his dissent to the majority award that Mr.
+McKelvie’s view or understanding of the background of the negotiations of the
+disputed provisions of the Collective Agreement was made known.  </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[12]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Apparently at one time there was
+only a single union representing the Company’s workers in its Woodlands’
+operations.  When the Company acquired the second mill in Newfoundland situated
+at Stephenville, workers doing similar work but for the two different mills
+were represented by different unions.  Apparently it was against this
+background that the disputed language of the Collective Agreement was
+negotiated.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[13]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In his dissent Mr. McKelvie
+stated:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">   “Quite a bit of emphasis was
+placed on the fact the writer negotiated language that directly impacted on the
+grievance on hand.  In fact the language relative to the article in question
+was initiated by the Union (CEPU) because the new contract at the time had to cover
+their members only, those that were registered with seniority in the Grand
+Falls area of the woodlands operations.  Previously all woodlands employees
+were in the same union, and that union’s jurisdiction had been island wide,
+there now being two unions involved delivering wood to both mills each had to
+have their own area of jurisdiction.  This was necessary to provide for the
+separate listing for seniority for employees in the two different areas working
+for the same employer.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">...</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">   Given the above I feel that the
+objection by the union directed at the writer and the recognition clause was
+not reviewed sufficiently before the board.  Undo weight was given to the
+writer’s involvement as a signatory as part of his responsibilities as Manager
+of the woodlands at the time.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section9">
+<p class="Level3" style="text-align:justify"><b><u>Standard of Review.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[14]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Although expressed differently,
+the parties are in agreement with respect to the standard of review.  The
+Applicant states it as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“The case raises the issue of the
+jurisdiction of the Board of Arbitration to consider an objection to its
+composition as well as the issue of breach of the rules of natural justice.  If
+jurisdiction is found, the case raises the issue of the application of a
+general principle of law, namely, reasonable apprehension of bias.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[15]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The Respondent Union states the
+issue as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“The matter for determination by the
+arbitration board on the preliminary objection was an issue of natural justice,
+as to whether there was a reasonable apprehension of bias.  As such it raises a
+question of jurisdiction.  It is submitted that the proper standard of review
+of an arbitration board on a question of whether the facts give rise to a
+reasonable apprehension of bias is correctness. ...</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">As to the determination of the facts
+on which the determination is based it is submitted that the appropriate
+standard of review is patent unreasonableness.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[16]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Thus, both the Applicant and the
+Union seem to agree that where there is a question of jurisdiction the decision
+of the Arbitration Board is reviewable on a standard of correctness.  However,
+the Union’s submission appears to add a nuance, namely, that in determining the
+facts upon which the Arbitration Board then concludes that there has been a
+breach of natural justice and thus a loss of jurisdiction, the determination of
+the facts upon which the ultimate ruling is based is done on a standard of
+patent unreasonableness.  The Union makes no statement as to the application of
+the facts to the general principles of law as to what constitutes a reasonable
+apprehension of bias.  Presumably its position is subsumed in the general
+statement that this is an issue of jurisdiction and thus where it comes to
+applying the principles of law as to what constitutes a reasonable apprehension
+of bias, the standard of review is correctness.  The Applicant Employer asserts
+a correctness standard throughout.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section10">
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[17]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">I am satisfied that the standard
+of review applicable with respect to this matter is a standard of patent
+unreasonableness insofar as it applies to the determination of the facts to
+which the principles of law are to be applied.  Once the facts are determined
+however, it is necessary that the Board achieve a standard of correctness when
+applying the principles of law with respect to reasonable apprehension of bias
+to those facts.</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-align:justify"><b><u>Jurisdiction of Arbitration
+Board to Hear Allegation of Bias.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[18]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Obviously at the commencement of
+an Arbitration Board hearing it is convenient and practical for allegations of
+a reasonable apprehension of bias on the part of one or more of the Board
+members to be raised before the Arbitration Board.  A discussion between
+counsel and the Board as to the basis for the objection may well  result in the
+obvious benefit of either the challenged Board member recusing himself or
+herself, or the allegation of bias possibly being withdrawn.  In this regard,
+counsel for the Union stated that such a procedure is no different than the
+manner in which all labour Arbitration Boards in this Province deal with
+preliminary questions, including jurisdiction issues.  In that regard he points
+to the first two paragraphs of the Arbitration Award where there was discussion
+concerning:</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(1)     whether the grievance procedure
+was properly followed, or any requirements waived;</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(2)     whether the Board would remain
+seized of the matter following publication of the Award in the event there was
+a question of interpretation or compensation arising from the Award, and</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(3)     any applicable time limits for
+the filing of the Award.</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt">These
+issues however were all agreed to.  It was not necessary for the Board to make
+any decision with respect thereto.  Essentially these were procedural
+agreements or agreements on facts.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section11">
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[19]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The question of the acceptability
+of the Board was raised by the Chair in accordance with the Board’s standard
+procedure and objection was taken in accordance with the notice previously
+given to the other party through its solicitor.  The Employer submitted to the
+Arbitration Board that the issue of bias was not an arbitrable issue and the
+Board had no jurisdiction to hear the issue.  Nonetheless the Board proceeded
+to hear evidence and argument and rendered its decision finding that there was
+a reasonable apprehension of bias on the part of the Employer nominee, Mr.
+McKelvie.  In Brown and Beatty, <b>Canadian Labour Arbitration</b>, 3<sup>rd</sup>
+edition, section 1:5210, the authors state:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“A party seeking to challenge an
+arbitrator for bias or reasonable apprehension of bias ought to do so at the
+outset of the hearing as a preliminary matter; otherwise, failure to object
+with knowledge of the facts will likely be taken as acquiescence.  And when
+such an objection is taken, the usual procedure is for the arbitrator or board
+to give a ruling, and if the challenge is upheld, to withdraw from the
+arbitration.”                                                                                         
+          [Footnotes omitted.]</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[20]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">It is sometimes suggested that it
+would be an improper procedure for an Arbitration Board to rule on reasonable
+apprehension of bias on the part of one or more of its members because it would
+be inappropriate to rule on an accusation against oneself.  In that regard
+Palmer, <b>Collective Agreement Arbitration in Canada,</b> 3<sup>rd</sup>
+edition, at para. 1.20 states:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“A party seeking to disqualify an
+arbitrator on the grounds of bias must abduce sufficient evidence to meet the
+common law burden of proof.  One assumes that decisions as to bias are made by
+the courts or the individuals involved.  In recent cases, however, there has
+been a trend to have the decision made by the board itself.  It would seem that
+this is an improper procedure as it would appear inappropriate to rule on an
+accusation against one’s self.” [Footnotes omitted.]</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt">And
+at para. 122:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“Finally, it is clear that the issue
+of bias cannot be determined by a board of arbitration with respect to one of
+its members; a point sometimes not recognized in
+awards.”                                                                                                  
+[Footnotes omitted.]</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[21]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">As the Arbitration Board itself
+noted (see para. [10]), numerous Newfoundland cases have dealt with reasonable
+apprehension of bias on the part of Board members in arbitration settings but
+have not commented on the jurisdiction of the Arbitration Board to decide such
+an issue at first instance.  This lack of commentary however hardly qualifies
+as a considered approval by the Courts of this Province of such assumption of
+jurisdiction to determine issues of bias by Arbitration Boards themselves.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section12">
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[22]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">There are practical considerations
+militating against the suggestion that it is improper for a Board to rule on
+reasonable apprehension of bias on the part of one or more of its own members. 
+In <b>Flamborough (Township) v. Canada (National Energy Board)</b> [1984]
+F.C.J. No. 526 at pp. 16 – 17, Mahoney, J.A. in the Federal Court of Appeal,
+stated with respect to such a proposition:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“I should have added that the
+proposition that a member of a tribunal against whom an allegation of an
+apprehension of bias has been made cannot, himself, dispose of or participate
+in disposing of that allegation is utterly fatuous.  The practical effect, if
+that were the law, would be the paralysis of tribunals, and trial courts, at
+the whim of anyone willing to allege bias.  The availability of judicial review
+and appeal ensures that such charges will, ultimately, be dealt with by a
+disinterested judiciary.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-align:justify"><b><u>Other Applicable Case Law and
+Commentary.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[23]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Support for the proposition that
+an Arbitration Board is without jurisdiction to decide the question of bias may
+be found in<b> Re City of Saint John v. The Canadian Union of Public Employees,
+Local 18</b> (1986), 24 L.A.C. (3d) 152 (Collier).  This case involved
+consideration of s. 74(1) of the New Brunswick <b>Industrial Relations Act</b>
+which provided as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“74(1)   Any person is eligible to
+be appointed an arbitrator, or chairman or member of an arbitration board, in
+any arbitration proceeding under the provisions of s. 55, but no person shall
+serve who is directly affected by the matter in an arbitration or who has been
+involved in an attempt to negotiate or settle the matter.”</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[24]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In <b>Re City of Saint John</b>
+the award at pp. 154 – 155 states:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify"> “In my opinion, a board of
+arbitration does not have jurisdiction to determine a challenge made to it or
+to one of its members pursuant to s. 74(1) of the <i>Industrial Relations Act </i>or
+a challenge made on the grounds of bias or the reasonable apprehension of
+bias.  In addition it is my opinion that a board of arbitration cannot assume
+jurisdiction over these issues even with the concurrence of the parties who are
+responsible for the creation of the board.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">   The moment a challenge such as
+the one in this case is raised to the appointment of a member of an arbitration
+board the appropriate resolution of that dispute lies to the courts. ...</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section13">
+<p class="Level2" style="text-align:justify">  It could be argued very
+strenuously that a member of this board, and in particular Mr. Levine could
+raise a reasonable apprehension of bias on the part of the employer by his
+participation in the board’s decision on this issue.  But, it also goes one
+step further.  It could also be strenuously argued that, in participating in
+the board’s decision as he must, Mr. Levine is a person ‘who is directly
+affected by the matter in arbitration’ and therefore is in violation of s.
+74(1) of the <i>Industrial Relations Act</i>.</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">   It is because of this latter
+difficulty I do not feel a board of arbitration can assume jurisdiction over an
+issue such as this even with the concurrence of the parties who appointed it. 
+The Act places a clear prohibition upon the appointment of an arbitrator who is
+directly affected by the matter in arbitration.  This board was appointed for
+the purpose of determining an issue which arrises by way of a grievance.  This
+arbitration board, as it is currently composed, could not have been appointed
+for the purpose of determining this preliminary issue because the presence of
+Mr. Levine would constitute a violation of s. 74(1) of the <i>Industrial
+Relations Act</i>. ...”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[25]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Both counsel cite this case as
+support for their vastly divergent positions with respect to whether or not an
+arbitration board does have jurisdiction to rule on issues of its own bias. 
+Counsel for the Union also points out that pursuant to s. 88(1)(a) of the <b>Labour
+Relations Act</b>, RSNL 1990 c. L-1, an arbitration board has the power to
+determine its own procedure and in furtherance of this power can determine
+whether a matter is arbitrable pursuant to s. 88(1)(c).  Counsel for the Union
+points out that the decision of the Arbitration Board in<b> Re City of Saint
+John</b> that Mr. Levine could not participate in the decision relating to
+reasonable apprehension of bias on his part stems solely from the statutory
+section 74(1) of the <b>Industrial Relations Act</b>.  I am not satisfied he is
+correct in that interpretation of the decision.  However, nothing in this
+decision turns on that point as shall be seen later in these reasons.  </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[26]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In<b> MacDonalds Consolidated Ltd.
+v. Saskatchewan Joint Board, Retail, Wholesale and Department Store Union and
+Dickinson </b>(1988), 65 Sask. R. 224 (Sask. Q.B.), the employer contested the
+appointment of a union nominee to an Arbitration Board on the ground of bias
+because the union nominee had acted as the union’s solicitor.  Apparently the
+record of the arbitration clearly indicated that all parties agreed that the
+Arbitration Board should make the decision whether or not the union’s nominee
+should be disqualified.  That is, the Board was recognized as having the
+jurisdiction to decide whether, on the facts before it, there was a reasonable
+apprehension of bias.  Scheibel, J. on an application to set aside or quash the
+award of the Board stated at paras. 8 – 9 as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">  “The initial reaction is to
+quickly conclude that it was improper for (the union nominee) to sit as a
+member of the board which was to decide whether he has any bias or whether
+there was any reasonable apprehension of bias.</p>
+</div>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section14">
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">  Generally speaking, the issue of
+bias of one of the board members cannot be determined by that board.  However,
+where the parties agree that the board is to make the determination, the
+general rule does not apply.”</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[27]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Scheibel, J. then continued at
+paras. 12 – 13 with respect to the employer consenting to the arbitration Board
+making the decision on bias:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">  “The employer did not have to
+agree with this procedure.  It was open for it to apply to the court for
+prohibition, however, it chose to have the matter decided by the board.  </p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">   In agreeing to have the matter
+determined in that fashion the employer cannot now complain that this decision
+of the board is void or contravenes the principles of natural justice simply
+because the board dealt with the matter.  The employer, by consenting to the
+procedure, agreed to have the board make the decision.  In so doing, the board
+is not restricted to handing down an award which is favourable to the
+employer.  It is not open for the employer to say that it will accept an award
+which is in its favour while all others are void or contrary to natural
+justice.  The effect of that would be to take away the right of the board to
+make a decision.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[28]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Jones and deVillars in their work <b>Principles
+of Administrative Law</b> (3d edition) Carswell 1999, at p. 389, state:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">  “Normally, the allegation of bias
+is heard and decided by the very member or panel in respect of whom a bias or
+reasonable apprehension of bias is alleged.  This practice, though hallowed by
+time, is problematic.” [Footnote omitted.]</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[29]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The authors then proceed to
+discuss various methods for resolving the question of “who should decide” and
+ultimately conclude at pages 389  – 390:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section15">
+<p class="Level2" style="text-align:justify">“Perhaps the best choice is to leave
+all of the options open, including the possibility of having the allegation
+heard and decided by the member in respect of whom the allegation is made. The
+choice between them should be left in the discretion of the tribunal.  The
+decision might be based on a weighing of the availability, cost and delays
+inherent in each option, together with any statutory requirements about quorum
+and representation.  This calculation will change from tribunal to tribunal,
+and from time to time within the same tribunal.  This open-ended solution
+leaves the tribunal with the ability to respond to the justice of the
+situation, while retaining control over its process and discouraging frivolous
+allegations of bias.”</p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-align:justify"><b><u>Conclusion.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[30]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The issue of reasonable
+apprehension of bias is succinctly set out in the following principle
+enunciated by Rand, J. in <b>Szilard v. Szasz</b>, [1955] S.C.R. 3, where he
+stated:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“Each party to an arbitration,
+acting reasonably, is entitled to a sustained confidence in the independence of
+mind of those who sit in judgment of him and his affairs.”</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[31]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><b><span style="font-size:14.0pt">Szilard v. Szasz</span></b><span style="font-size:14.0pt"> was also quoted with approval by L.D. Barry, J. in <b>Newfoundland
+Association of Public Employees and Scaplan v. Medical Care Commission</b> <b>(Nfld.)</b>
+(1991), 90 Nfld. &amp; P.E.I.R. 17, as follows:</span></p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="text-align:justify">“[21]   Both counsel agreed that the
+law concerning bias from business or professional relationships, is properly
+set out in <b>Szilard v. Szasz,</b> [1955] 1 D.L.R. 370 (S.C.C.) at 351 where
+Rank, J. stated:</p>
+<p class="Level2" style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level2" style="margin-left:72.0pt;text-align:justify">‘From its
+inception arbitration has been held to be of the nature of judicial
+determination and to entail incidents appropriate to that fact.  The
+arbitrators are to exercise their function not as the advocates of the parties
+nominating them, and <u>a fortiori</u> of one party when they are agreed upon
+by all, but with as free, independent and impartial minds as the circumstances
+permit.  In particular they must be untrammelled by such influences as to a
+fair-minded person would raise a reasonable doubt of that impersonal attitude
+which each party is entitled to.”</p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[32]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">As a secondary issue, the parties
+have asked the Court, if it should find that the Arbitration Board did have
+jurisdiction to rule on bias or reasonable apprehension of bias on the part of
+Mr. McKelvie, to then go on and answer a second question.  The second question
+naturally is whether the Arbitration Board’s decision, reviewed according to
+the applicable standard of review, properly decided that there was in fact a
+reasonable apprehension of bias on the part of Mr. McKelvie.  </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[33]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">It is that second question that
+points out clearly the inappropriateness of the Board assuming jurisdiction
+over such a question.  The following issues arise from it so doing:</span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section16">
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(1)     How can the Arbitration Board
+decide the issue without hearing from the impugned member?  Does the impugned
+Board member give evidence?</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(2)     Is he/she to be sworn as a
+witness?</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(3)     Is he/she subject to
+cross-examination?</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(4)     What is the propriety of the
+remaining Board members ruling on the evidence of a fellow Board member,
+especially where there may be issues of credibility involved?</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(5)     Are only the remaining two
+Board members the ones entitled to rule on the bias question?  What if it is a
+single member arbitration panel?</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(6)     Who hears the bias challenge
+and rules upon it if two Board members are challenged for bias?</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:72.0pt;text-align:justify;text-indent:
+-36.0pt"><span style="font-size:14.0pt">(7)     If the Board assumes
+jurisdiction and rules against the bias objection and then proceeds to hear the
+substantive portion of the matter, what constitutes the “record” for a judicial
+review of the “bias” portion of the Award?</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[34]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">I have great sympathy for the
+argument expressed by Mahoney, J.A. in <b>Flamborough</b> cited at para. [22]
+hereof.  A major principle in the establishment of an extrajudicial procedure
+for resolution of labour disputes by arbitration was that the procedure would
+be both summary and expeditious.  The passage of time has layered upon these
+processes many of the trappings of a full judicial proceeding thereby
+militating against the cost efficient and expeditious process initially
+envisaged by submitting such matters to arbitration.  There is, as Mahoney,
+J.A. correctly points out, a risk of the paralysis of tribunals at the whim of
+anyone willing to allege bias.  This is perhaps a greater risk at the
+Arbitration Board level where the same mechanisms as exist at the Court level
+are not available to punish frivolous objectors by awards of costs.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+</div>
+<span style='font-size:14.0pt;font-family:"Times New Roman"'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section17">
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[35]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Similarly I am empathic to the
+notion expressed by Jones and de Villars that perhaps the choice of whether or
+not to proceed with a ruling of bias should be left to the Board and that the
+Board may make its decision based upon a weighing of the availability, costs
+and delays inherent in each option, together with any statutory requirements
+about quorum and representation.  </span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[36]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">However these realistic and
+practical considerations cannot, in my view, overcome the principles set out in
+<b>Szilard v. Szasz</b> as quoted in paras. [30] and [31] hereof.  The parties
+to an arbitration are entitled to have their dispute arbitrated by arbitrators
+with “as free, independent and impartial minds as the circumstances permit.” 
+If the question of a reasonable apprehension of bias exists with respect to an
+arbitrator deciding the substantive portion of an arbitration, <i>a fortiori</i>
+that apprehension of bias is even greater when it comes to the arbitrator
+ruling on or participating in a decision of the Arbitration Board to determine
+whether that apprehension is reasonable.  He or she becomes a judge in his or
+her own cause.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[37]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">This concern, combined with the
+practical considerations evidenced by the questions set out in para. [33]
+hereof caused me to conclude that it is in fact inappropriate for an
+Arbitration Board to rule upon a challenge to its jurisdiction based upon a
+reasonable apprehension of bias on the part of the Board or some member
+thereof.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[38]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Therefore the Award of the
+majority of the Arbitration Board on the question of a reasonable apprehension
+of bias with respect to Mr. Ronald McKelvie as a member of the Board is set
+aside.</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-align:justify"><b><u>How is the Bias Question to be
+Resolved?</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[39]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">Counsel have asked me to provide
+direction as to how the question of whether or not there is a reasonable
+apprehension of bias on the part of Mr. McKelvie is to be decided if I were to
+conclude, as I have, that the Arbitration Board had no jurisdiction to make
+such a ruling.  In my view the first issue to be determined is whether or not
+Mr. McKelvie is now prepared to recuse himself voluntarily from his appointment
+as a member of this Arbitration Board.  As indicated earlier, I have no record
+upon which to come to any conclusion that he should recuse himself.  The only
+“evidence” one has of Mr. McKelvie’s position is his own unsworn and
+unchallenged statement contained in his dissenting decision.  In light of the
+nature of such “evidence” and its manner of presentation, I feel it is not
+appropriate for this Court to comment on the issue.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[40]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The question of whether or not
+there is a reasonable apprehension of bias on the part of Mr. McKelvie ought to
+be determined by an <i>inter partes</i> application to have that question
+determined by this Court.  The matter should proceed with an application by
+counsel for Mr. McKelvie based upon affidavit evidence by Mr. McKelvie (if he
+should so wish) and by others setting out the factual background of his
+position.  The Union would have an opportunity to similarly file affidavit
+evidence in response thereto, with Mr. McKelvie having an opportunity to
+provide affidavits in reply.  The parties can, if they wish, seek to have the
+deponents examined on their affidavits in accordance with the Rules of Court
+and the parties may choose to (and should) file memoranda of argument in
+support of their respective positions.</span></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[41]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">In light of this decision it is
+unnecessary for me to consider the question as to whether or not there is in
+fact a reasonable apprehension of bias on the part of Mr. McKelvie and I
+decline to do so.</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level3" style="text-align:justify"><b><u>Costs.</u></b></p>
+<p class="Level1" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="Level1" style="margin-left:0cm;text-align:justify;text-indent:0cm"><span style="font-size:14.0pt">[42]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:14.0pt">The question of costs in this
+matter should be deferred until a resolution of the bias issue either by
+voluntarily recusal on the part of Mr. McKelvie or by a decision of this
+Court.  Therefore no award of costs is made at this time.</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;text-indent:216.0pt"><span style="font-size:14.0pt">  <u>                                                                  </u>   </span></p>
+<p class="MsoNormal" style="text-align:justify;text-indent:216.0pt"><span style="font-size:14.0pt">  Justice</span></p>
+</div>
+</body>
+</html>

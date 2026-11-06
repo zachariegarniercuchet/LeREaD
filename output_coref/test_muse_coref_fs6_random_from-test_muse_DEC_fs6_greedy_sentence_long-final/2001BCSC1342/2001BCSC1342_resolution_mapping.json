@@ -1,0 +1,698 @@
+{
+  "Supreme Court Civil Rules": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.677143931388855,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.677143931388855,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6424146294593811,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6383183002471924,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Condominium Act RSBC 1996 c.64": {
+    "uri": "https://canlii.ca/t/jjd9",
+    "score": 0.8123219609260559,
+    "candidate_id": "l20041!20041-current-1",
+    "candidate_title": "Condominium Act",
+    "query_text": "legislation | Condominium Act | Condominium\nAct | R.S.B.C. 1996, c.64",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jjd9",
+        "score": 0.8123219609260559,
+        "candidate_title": "Condominium Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/81ww",
+        "score": 0.7180403470993042,
+        "candidate_title": "Condominium Property Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56cd8",
+        "score": 0.659554123878479,
+        "candidate_title": "Strata Property Act"
+      }
+    ]
+  },
+  "Strata Property Act": {
+    "uri": "https://canlii.ca/t/56cd8",
+    "score": 0.8087772130966187,
+    "candidate_id": "l20103!20103-current-1",
+    "candidate_title": "Strata Property Act",
+    "query_text": "legislation | Strata\nProperty Act | S.B.C. 1998, c.43",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56cd8",
+        "score": 0.8087772130966187,
+        "candidate_title": "Strata Property Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jjd9",
+        "score": 0.670242428779602,
+        "candidate_title": "Condominium Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/81ww",
+        "score": 0.6082361340522766,
+        "candidate_title": "Condominium Property Act"
+      }
+    ]
+  },
+  "Rylands v. Fletcher": {
+    "uri": "https://synthetic.leread.ca/gold/G0437",
+    "score": 0.8122232556343079,
+    "candidate_id": "gold-G0437",
+    "candidate_title": "Rylands v. Fletcher",
+    "query_text": "decision | <b><i>Rylands v. Fletcher</i></b> | Rylands v.\nFletcher | Rylands\nv. Fletcher | <i>Rylands</i> v. <i>Fletcher</i> | Rylands v. Fletcher | Rylands v. Fletcher (1868) | (1866), L.R. 1 Ex.\n265 | L.R. 3 H.L.\n330 | (1866), L.R. 1 Ex 265",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0437",
+        "score": 0.8122232556343079,
+        "candidate_title": "Rylands v. Fletcher"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0436",
+        "score": 0.800820529460907,
+        "candidate_title": "Rylands v. Fletcher"
+      },
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 0.45650723576545715,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      }
+    ]
+  },
+  "Wright v. Strata Plan No. 205": {
+    "uri": "https://canlii.ca/t/1f1w4",
+    "score": 0.8490941524505615,
+    "candidate_id": "1996bcsc10248",
+    "candidate_title": "Wright v. The Owners, Strata Plan #205",
+    "query_text": "decision | Wright\nv. Strata Plan No. 205 | (1996), 20 B.C.L.R. (3d) 343 | [1996] B.C.J. No.\n381 | (1998), 43 B.C.L.R. (3d) 1 (B.C.C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1f1w4",
+        "score": 0.8490941524505615,
+        "candidate_title": "Wright v. The Owners, Strata Plan #205"
+      },
+      {
+        "uri": "https://canlii.ca/t/1dz60",
+        "score": 0.8415019512176514,
+        "candidate_title": "Wright v. Strata Plan #205 (Owners)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gm00b",
+        "score": 0.6494641900062561,
+        "candidate_title": "Hirji v. The Owners Strata Corporation Plan VR 44"
+      }
+    ]
+  },
+  "City of Port Alberni v. Moyer": {
+    "uri": "https://synthetic.leread.ca/gold/G0345",
+    "score": 0.8587439060211182,
+    "candidate_id": "gold-G0345",
+    "candidate_title": "City of Port Alberni v. Moyer, (1999)",
+    "query_text": "decision | <b><i>City of Port Alberni v. Moyer</i></b> | (1999), 65 B.C.L.R.\n(3d) 352 | [1999] B.C.J. No. 423",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0345",
+        "score": 0.8587439060211182,
+        "candidate_title": "City of Port Alberni v. Moyer, (1999)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2d4tk",
+        "score": 0.5726005434989929,
+        "candidate_title": "Moyer v. Mortensen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1p6r2",
+        "score": 0.5496366024017334,
+        "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)"
+      }
+    ]
+  },
+  "Cambridge Water Co Ltd v Eastern Counties Leather plc": {
+    "uri": "https://synthetic.leread.ca/gold/G0113",
+    "score": 0.821258544921875,
+    "candidate_id": "gold-G0113",
+    "candidate_title": "Cambridge Water Co. Ltd. v. Eastern Counties Leather plc",
+    "query_text": "decision | <b><i>Cambridge Water Co. Ltd. v.\nEastern Counties</i></b><i> <b>Leather plc</b></i> | [1994] 2 A.C. 264",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0113",
+        "score": 0.821258544921875,
+        "candidate_title": "Cambridge Water Co. Ltd. v. Eastern Counties Leather plc"
+      },
+      {
+        "uri": "https://canlii.ca/t/gwv79",
+        "score": 0.4865506589412689,
+        "candidate_title": "Crombie Property Holdings Limited v. McColl-Frontenac Inc. (Texaco Canada Limited)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1twsz",
+        "score": 0.48544418811798096,
+        "candidate_title": "Lambert v. Lastoplex Chemicals"
+      }
+    ]
+  },
+  "Burnie Port Authority v. General Jones Pty. Ltd.": {
+    "uri": "https://synthetic.leread.ca/gold/G0107",
+    "score": 0.8256605863571167,
+    "candidate_id": "gold-G0107",
+    "candidate_title": "Burnie Port Authority v. General Jones Pty. Ltd.",
+    "query_text": "decision | <b><i>Burnie Port Authority v.\nGeneral Jones Pty. Ltd.</i></b> | [1994] 120 A.L.R. 42",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0107",
+        "score": 0.8256605863571167,
+        "candidate_title": "Burnie Port Authority v. General Jones Pty. Ltd."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0264",
+        "score": 0.44577351212501526,
+        "candidate_title": "Jones v. Great Central Railway Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1nh1h",
+        "score": 0.4403315782546997,
+        "candidate_title": "Maritime Steel and Foundries Ltd. v. Whitman Benn & Associates"
+      }
+    ]
+  },
+  "Rickards v. Lothian": {
+    "uri": "https://synthetic.leread.ca/gold/G0422",
+    "score": 0.850225567817688,
+    "candidate_id": "gold-G0422",
+    "candidate_title": "Rickards v. Lothian",
+    "query_text": "decision | Rickards | Lothian | Rickards v. Lothian | [1913] A.C. 263 (C.A.) | [1913] A.C. 263",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0422",
+        "score": 0.850225567817688,
+        "candidate_title": "Rickards v. Lothian"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0421",
+        "score": 0.49754172563552856,
+        "candidate_title": "Richardson v. Silvester (1873)"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0423",
+        "score": 0.4930070638656616,
+        "candidate_title": "Ridge v. Baldwin"
+      }
+    ]
+  },
+  "Stachniak v. Thorhild (County No.7)": {
+    "uri": "https://canlii.ca/t/5qsn",
+    "score": 0.7334928512573242,
+    "candidate_id": "2001abpc65",
+    "candidate_title": "Stachniak v. Thorhild (County No. 7)",
+    "query_text": "decision | <b><i>Stachniak v. Thorhild</i></b><i> <b>(County\nNo.7)</b></i> | [2001] A.J. No.423",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5qsn",
+        "score": 0.7334928512573242,
+        "candidate_title": "Stachniak v. Thorhild (County No. 7)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g79mb",
+        "score": 0.4687887728214264,
+        "candidate_title": "Stadler v. Blyth"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z452",
+        "score": 0.4643695056438446,
+        "candidate_title": "Parkland (County of) v. Stetar et al."
+      }
+    ]
+  },
+  "Tock v. St. Mary": {
+    "uri": "https://canlii.ca/t/1ft1m",
+    "score": 0.8619365096092224,
+    "candidate_id": "1989csc-scc126",
+    "candidate_title": "Tock v. St. John's Metropolitan Area Board",
+    "query_text": "decision | Tock | <b><i>Tock v.\nSt.John's Metro Area Bd</i></b> | Tock v. St. John's Metropolitan Area Board | [1989] 2 S.C.R. 1181 | (1989),\n64 D.L.R. (4<sup>th</sup>) 620 | [1989] 2 S.C.R.\n1181",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft1m",
+        "score": 0.8619365096092224,
+        "candidate_title": "Tock v. St. John's Metropolitan Area Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8wpf",
+        "score": 0.6372808218002319,
+        "candidate_title": "St. John's Metropolotan Area Board v. Johnson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tx7m",
+        "score": 0.5685891509056091,
+        "candidate_title": "Mississauga (City) v. Peel (Municipality)"
+      }
+    ]
+  },
+  "Carstairs and Another v. Taylor": {
+    "uri": "https://synthetic.leread.ca/gold/G0130",
+    "score": 0.7898804545402527,
+    "candidate_id": "gold-G0130",
+    "candidate_title": "Carstairs and Another v. Taylor (1871)",
+    "query_text": "decision | <b><i>Carstairs\nand Another v. Taylor</i></b> | L.R. 6 Ex. 217",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0130",
+        "score": 0.7898804545402527,
+        "candidate_title": "Carstairs and Another v. Taylor (1871)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1trxk",
+        "score": 0.5362840890884399,
+        "candidate_title": "Taylor v. Wallbridge"
+      },
+      {
+        "uri": "https://canlii.ca/t/23ngc",
+        "score": 0.49908480048179626,
+        "candidate_title": "Taylor v. R."
+      }
+    ]
+  },
+  "Ross v. Fedden": {
+    "uri": "https://synthetic.leread.ca/gold/G0427",
+    "score": 0.7609784603118896,
+    "candidate_id": "gold-G0427",
+    "candidate_title": "Ross v. Fedden and Another (1972)",
+    "query_text": "decision | <b><i>Ross\nv. Fedden and Another</i></b> | L.R. 7 Q.B. 661",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0427",
+        "score": 0.7609784603118896,
+        "candidate_title": "Ross v. Fedden and Another (1972)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gj16c",
+        "score": 0.5595320463180542,
+        "candidate_title": "Ross v. Bacchus"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqrkg",
+        "score": 0.5580155849456787,
+        "candidate_title": "Rossi v. The Queen"
+      }
+    ]
+  },
+  "Ballard v. Tomlinson": {
+    "uri": "https://synthetic.leread.ca/gold/G0086",
+    "score": 0.6219981908798218,
+    "candidate_id": "gold-G0086",
+    "candidate_title": "United States v. Ballard",
+    "query_text": "decision | <b><i>Ballard\nv. Tomlinson</i></b> | Ballard | (1885), 29 Ch.D. 115 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0086",
+        "score": 0.6219981908798218,
+        "candidate_title": "United States v. Ballard"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0304",
+        "score": 0.4846973121166229,
+        "candidate_title": "Learoyd v. Halifax Joint Stock Banking Co."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0129",
+        "score": 0.4775928854942322,
+        "candidate_title": "Carlill v. Carbolic Smoke Ball Co."
+      }
+    ]
+  },
+  "Blake v. Woolf": {
+    "uri": "https://synthetic.leread.ca/gold/G0096",
+    "score": 0.8095940947532654,
+    "candidate_id": "gold-G0096",
+    "candidate_title": "Blake v. Woolf",
+    "query_text": "decision | Blake\nv. Woolf | [1898] 2 Q.B. 426",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0096",
+        "score": 0.8095940947532654,
+        "candidate_title": "Blake v. Woolf"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g2sl",
+        "score": 0.5388274192810059,
+        "candidate_title": "Woolf v. Harrop"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggxn6",
+        "score": 0.5236106514930725,
+        "candidate_title": "Wood v. LeBlanc"
+      }
+    ]
+  },
+  "Lyon v. Shelbourne": {
+    "uri": "https://canlii.ca/t/gcqsn",
+    "score": 0.7283451557159424,
+    "candidate_id": "1981onhcj1000274",
+    "candidate_title": "Lyon v. Shelburne (Village)",
+    "query_text": "decision | <b><i>Lyon v. Shelbourne</i></b> | (1981),\n130 D.L.R. (3d) 307 (Ont.Co.Ct.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gcqsn",
+        "score": 0.7283451557159424,
+        "candidate_title": "Lyon v. Shelburne (Village)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jcn01",
+        "score": 0.5110725164413452,
+        "candidate_title": "Taylor v. Schultz"
+      },
+      {
+        "uri": "https://canlii.ca/t/jcnpp",
+        "score": 0.5084192752838135,
+        "candidate_title": "Daehn v. Lalonde"
+      }
+    ]
+  },
+  "Smeaton v. Ilford Corp": {
+    "uri": "https://synthetic.leread.ca/gold/G0446",
+    "score": 0.7662884593009949,
+    "candidate_id": "gold-G0446",
+    "candidate_title": "Smeaton v. Ilford Corp.",
+    "query_text": "decision | <b><i>Smeaton v. Ilford Corp</i></b> | [1954] 1 All E.R. 923",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0446",
+        "score": 0.7662884593009949,
+        "candidate_title": "Smeaton v. Ilford Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/fsn3f",
+        "score": 0.4697979688644409,
+        "candidate_title": "Smith v. Nevins"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ttt9",
+        "score": 0.45908981561660767,
+        "candidate_title": "Smallman v. Moore"
+      }
+    ]
+  },
+  "McKellar v. Saint John (City)": {
+    "uri": "https://canlii.ca/t/2120f",
+    "score": 0.8058605790138245,
+    "candidate_id": "1997nbqb1000007",
+    "candidate_title": "McKellar v. Saint John (City)",
+    "query_text": "decision | <b><i>McKellar\nv. Saint John (City)</i> </b> | (1997), 189 N.B.R. (2d) 49 | (1997), 27 M.V.R. (3d)\n191",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2120f",
+        "score": 0.8058605790138245,
+        "candidate_title": "McKellar v. Saint John (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggxjg",
+        "score": 0.5692439675331116,
+        "candidate_title": "McCleave v. City of Moncton"
+      },
+      {
+        "uri": "https://canlii.ca/t/fsxmt",
+        "score": 0.5673529505729675,
+        "candidate_title": "Newterm Ltd v St John's (City)"
+      }
+    ]
+  },
+  "Pride of Derby and Derbyshire Angling Association Ltd v British Celanese Ltd": {
+    "uri": "https://synthetic.leread.ca/gold/G0390",
+    "score": 0.861434817314148,
+    "candidate_id": "gold-G0390",
+    "candidate_title": "Pride of Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat.",
+    "query_text": "decision | Pride of Derby and Derbyshire\nAngling Association Ld. v. British Celanese Ld. | [1953] Ch 149",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0390",
+        "score": 0.861434817314148,
+        "candidate_title": "Pride of Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0078",
+        "score": 0.46847206354141235,
+        "candidate_title": "Associated Provincial Picture Houses Ltd. v. Wednesbury Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/gwf25",
+        "score": 0.4531852602958679,
+        "candidate_title": "Sweezey v. Crystal Chemicals Ltd. and Clark"
+      }
+    ]
+  },
+  "Tock v. St. Mary and Rickards v. Lothian": {
+    "uri": "https://synthetic.leread.ca/gold/G0422",
+    "score": 0.5579996705055237,
+    "candidate_id": "gold-G0422",
+    "candidate_title": "Rickards v. Lothian",
+    "query_text": "decision | Tock and Rickards",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0422",
+        "score": 0.5579996705055237,
+        "candidate_title": "Rickards v. Lothian"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft1m",
+        "score": 0.5499835014343262,
+        "candidate_title": "Tock v. St. John's Metropolitan Area Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/22hw5",
+        "score": 0.512043833732605,
+        "candidate_title": "Rick v. Brandsema"
+      }
+    ]
+  },
+  "Toms v. Duma": {
+    "uri": "https://synthetic.leread.ca/gold/G0496",
+    "score": 0.854860782623291,
+    "candidate_id": "gold-G0496",
+    "candidate_title": "Toms v. Duma",
+    "query_text": "decision | <b><i>Toms\nv. Duma</i></b> | [1970] O.J. No. 150 (Ont. S.C.)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0496",
+        "score": 0.854860782623291,
+        "candidate_title": "Toms v. Duma"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z6dr",
+        "score": 0.5246798396110535,
+        "candidate_title": "Tomko v. Labour Relations Board (N.S.) et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/jlddn",
+        "score": 0.49801889061927795,
+        "candidate_title": "Tamming v. Paterson"
+      }
+    ]
+  },
+  "Theberge v. Zittlau": {
+    "uri": "https://canlii.ca/t/5l7d",
+    "score": 0.8135051727294922,
+    "candidate_id": "2000bcpc225",
+    "candidate_title": "Theberge v. Zittlau",
+    "query_text": "decision | <b><i>Theberge v. Zittlau</i></b> | [2000] B.C.J. No. 2198",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5l7d",
+        "score": 0.8135051727294922,
+        "candidate_title": "Theberge v. Zittlau"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0491",
+        "score": 0.5985292792320251,
+        "candidate_title": "Theberge v Laudry (1876)"
+      },
+      {
+        "uri": "https://canlii.ca/t/23nfn",
+        "score": 0.5583378672599792,
+        "candidate_title": "Bergwitz v. Fast"
+      }
+    ]
+  },
+  "Kinaschuk v. Day": {
+    "uri": "https://synthetic.leread.ca/gold/G0282",
+    "score": 0.8631187677383423,
+    "candidate_id": "gold-G0282",
+    "candidate_title": "Kinaschuk v. Day",
+    "query_text": "decision | <b><i>Kinaschuk v. Day</i></b> | Kinaschuk | [1986]\nB.C.J. No 959 (B.C.S.C.)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0282",
+        "score": 0.8631187677383423,
+        "candidate_title": "Kinaschuk v. Day"
+      },
+      {
+        "uri": "https://canlii.ca/t/grns6",
+        "score": 0.5613428354263306,
+        "candidate_title": "Kyle Estate v. Kyle"
+      },
+      {
+        "uri": "https://canlii.ca/t/gv625",
+        "score": 0.5537741184234619,
+        "candidate_title": "K.B. v. J.B."
+      }
+    ]
+  },
+  "Bloom v. Creed": {
+    "uri": "https://canlii.ca/t/g19q7",
+    "score": 0.6692123413085938,
+    "candidate_id": "1937onca1000025",
+    "candidate_title": "Bloom v. Creed and the Consumer's Gas Co. of Toronto",
+    "query_text": "decision | <b><i>Bloom\nv. Creed</i></b> | Bloom | [1937] O.R. 626 (Ont.C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g19q7",
+        "score": 0.6692123413085938,
+        "candidate_title": "Bloom v. Creed and the Consumer's Gas Co. of Toronto"
+      },
+      {
+        "uri": "https://canlii.ca/t/1cgl8",
+        "score": 0.5058630704879761,
+        "candidate_title": "Bjornson v. Creighton"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1fsv",
+        "score": 0.5013418197631836,
+        "candidate_title": "Bellamy v. Johnson"
+      }
+    ]
+  },
+  "Black": {
+    "uri": "https://synthetic.leread.ca/gold/G0094",
+    "score": 0.5982463359832764,
+    "candidate_id": "gold-G0094",
+    "candidate_title": "Black's Law Dictionary",
+    "query_text": "secondary sources | Black's Law Dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0094",
+        "score": 0.5982463359832764,
+        "candidate_title": "Black's Law Dictionary"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0152",
+        "score": 0.4544781744480133,
+        "candidate_title": "Commentaries on the Laws of England"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0533",
+        "score": 0.4454123377799988,
+        "candidate_title": "Words and Phrases. Permanent Edition"
+      }
+    ]
+  },
+  "Canadian Tort Law": {
+    "uri": "https://synthetic.leread.ca/gold/G0127",
+    "score": 0.623236894607544,
+    "candidate_id": "gold-G0127",
+    "candidate_title": "Canadian Tort Law",
+    "query_text": "secondary sources | Canadian Tort Law",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0127",
+        "score": 0.623236894607544,
+        "candidate_title": "Canadian Tort Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0477",
+        "score": 0.536773145198822,
+        "candidate_title": "The Law of Torts"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0194",
+        "score": 0.5155394673347473,
+        "candidate_title": "Torts"
+      }
+    ]
+  },
+  "Remedies in Tort": {
+    "uri": "https://synthetic.leread.ca/gold/G0418",
+    "score": 0.6500977277755737,
+    "candidate_id": "gold-G0418",
+    "candidate_title": "Remedies in Tort",
+    "query_text": "secondary sources | Remedies\nin Tort",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0418",
+        "score": 0.6500977277755737,
+        "candidate_title": "Remedies in Tort"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0127",
+        "score": 0.5496047139167786,
+        "candidate_title": "Canadian Tort Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0477",
+        "score": 0.535714328289032,
+        "candidate_title": "The Law of Torts"
+      }
+    ]
+  },
+  "The Law of Torts": {
+    "uri": "https://synthetic.leread.ca/gold/G0477",
+    "score": 0.5986189842224121,
+    "candidate_id": "gold-G0477",
+    "candidate_title": "The Law of Torts",
+    "query_text": "secondary sources | The Law of Torts",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0477",
+        "score": 0.5986189842224121,
+        "candidate_title": "The Law of Torts"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0127",
+        "score": 0.5925215482711792,
+        "candidate_title": "Canadian Tort Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0194",
+        "score": 0.547078013420105,
+        "candidate_title": "Torts"
+      }
+    ]
+  },
+  "Non-natural Use of Land": {
+    "uri": "https://synthetic.leread.ca/gold/G0352",
+    "score": 0.7156685590744019,
+    "candidate_id": "gold-G0352",
+    "candidate_title": "Non-natural Use of Land",
+    "query_text": "secondary sources | Non-natural Use of Land",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0352",
+        "score": 0.7156685590744019,
+        "candidate_title": "Non-natural Use of Land"
+      },
+      {
+        "uri": "https://canlii.ca/t/2d9f",
+        "score": 0.482353150844574,
+        "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry"
+      },
+      {
+        "uri": "https://canlii.ca/t/gv2rg",
+        "score": 0.48128119111061096,
+        "candidate_title": "Wildlands League v. Ontario (Natural Resources and Forestry)"
+      }
+    ]
+  }
+}

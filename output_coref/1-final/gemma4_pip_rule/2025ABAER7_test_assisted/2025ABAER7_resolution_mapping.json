@@ -1,0 +1,166 @@
+{
+  "Environmental Protection and Enhancement Act": {
+    "uri": "https://canlii.ca/t/56vzq",
+    "score": 2.0,
+    "candidate_id": "l17678!17678-current-1",
+    "candidate_title": "Environmental Protection and Enhancement Act",
+    "query_text": "legislation | Environmental Protection and Enhancement Act | EPEA",
+    "method": "title_exact",
+    "matched_key": "environmental protection and enhancement act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      }
+    ]
+  },
+  "Responsible Energy Development Act": {
+    "uri": "https://canlii.ca/t/56k8d",
+    "score": 2.0,
+    "candidate_id": "l36872!36872-current-1",
+    "candidate_title": "Responsible Energy Development Act",
+    "query_text": "legislation | Responsible\nEnergy Development Act | REDA",
+    "method": "title_exact",
+    "matched_key": "responsible energy development act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56k8d",
+        "score": 2.0,
+        "candidate_title": "Responsible Energy Development Act"
+      }
+    ]
+  },
+  "Administrative Penalty Regulation": {
+    "uri": "https://canlii.ca/t/56w7m",
+    "score": 2.0,
+    "candidate_id": "l18667!18667-current-1",
+    "candidate_title": "Administrative Penalty Regulation",
+    "query_text": "legislation | Administrative Penalty Regulation | Administrative\nPenalty Regulation | regulation | Regulation | Limitation Period | Administrative Penalty\nRegulation",
+    "method": "title_exact",
+    "matched_key": "administrative penalty regulation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w7m",
+        "score": 2.0,
+        "candidate_title": "Administrative Penalty Regulation"
+      }
+    ]
+  },
+  "Alberta Energy Regulator Rules of Practice": {
+    "uri": "https://canlii.ca/t/56pvt",
+    "score": 2.0,
+    "candidate_id": "l37442!37442-current-1",
+    "candidate_title": "Alberta Energy Regulator Rules of Practice",
+    "query_text": "legislation | Alberta Energy Regulator Rules of Practice",
+    "method": "title_exact",
+    "matched_key": "alberta energy regulator rules of practice",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 2.0,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      }
+    ]
+  },
+  "R v Syncrude": {
+    "uri": "https://canlii.ca/t/2bb02",
+    "score": 3.0,
+    "candidate_id": "2010abpc229",
+    "candidate_title": "R. v. Syncrude Canada Ltd.",
+    "query_text": "decision | R v Syncrude | Syncrude judgement | Syncrude non-suit ruling | Syncrude decisions | Syncrude\nnon-suit ruling | Syncrude\nprosecution | 2010 ABPC 229 | 2010 ABPC 154",
+    "method": "citation_exact",
+    "matched_key": "2010abpc229",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2bb02",
+        "score": 3.0,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/29wsb",
+        "score": 3.0,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      }
+    ]
+  },
+  "Interpretation Act": {
+    "uri": "https://canlii.ca/t/xhz",
+    "score": 2.0,
+    "candidate_id": "l5679!5679-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | Interpretation\nAct",
+    "method": "title_exact",
+    "matched_key": "interpretation act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/xhz",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Rizzo & Rizzo Shoes Ltd. (Re)": {
+    "uri": "https://canlii.ca/t/1fqwt",
+    "score": 3.5,
+    "candidate_id": "1998csc-scc5",
+    "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)",
+    "query_text": "decision | Rizzo\n&amp; Rizzo Shoes Ltd. (Re) | Rizzo Shoes | [1998] 1 SCR 27",
+    "method": "citation_exact",
+    "matched_key": "19981scr27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqwt",
+        "score": 3.5,
+        "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)"
+      }
+    ]
+  },
+  "Canada (Minister of Citizenship and Immigration) v Vavilov": {
+    "uri": "https://canlii.ca/t/j46kb",
+    "score": 3.5,
+    "candidate_id": "2019csc-scc65",
+    "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov",
+    "query_text": "decision | Canada\n(Minister of Citizenship and Immigration) v Vavilov | 2019 SCC 65",
+    "method": "citation_exact",
+    "matched_key": "2019scc65",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j46kb",
+        "score": 3.5,
+        "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov"
+      }
+    ]
+  },
+  "R v ASL Paving Ltd.": {
+    "uri": "https://canlii.ca/t/2dcdb",
+    "score": 2.0,
+    "candidate_id": "1995abca118",
+    "candidate_title": "Alberta v. ASL Paving Ltd.",
+    "query_text": "decision | R v ASL Paving Ltd. | [1995] AWLD 430\n(ABCA)",
+    "method": "title_exact",
+    "matched_key": "r v asl paving ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dcdb",
+        "score": 2.0,
+        "candidate_title": "Alberta v. ASL Paving Ltd."
+      }
+    ]
+  }
+}

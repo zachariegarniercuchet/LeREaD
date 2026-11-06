@@ -1,0 +1,1243 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 10 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoIndex2, li.MsoIndex2, div.MsoIndex2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:24.0pt;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+span.MsoEndnoteReference
+	{vertical-align:super;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+span.appeldenote
+	{vertical-align:super;}
+p.Titredetablederfrences, li.Titredetablederfrences, div.Titredetablederfrences
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+ /* Page Definitions */
+ @page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section2
+	{page:Section2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+<body lang="EN-US" style="text-justify-trim:punctuation">
+<div class="Section1">
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                                      CA015545</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                            Vancouver
+Registry</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><b><i><span lang="EN-GB" style='font-size:19.5pt;font-family:"Times New Roman";letter-spacing:-.2pt'>                Court
+of Appeal for British Columbia</span></i></b></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     IN THE MATTER OF BURLINGTON
+NORTHERN RAILROAD COMPANY</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                              AND</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">         BURLINGTON NORTHERN RAILROAD
+HOLDINGS, INC.,</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">       LANDLORDS AGAINST BASELINE
+INDUSTRIES LTD. TENANT</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">BETWEEN:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">           BURLINGTON NORTHERN
+RAILROAD COMPANY and</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">          BURLINGTON NORTHERN RAILROAD
+HOLDINGS, INC.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                                   PETITIONERS</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                                  (APPELLANTS)</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">AND:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                   BASELINE INDUSTRIES
+LTD.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                                    RESPONDENT</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                                  (RESPONDENT)</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                    CERESCORP
+INCORPORATED</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                                    RESPONDENT</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Before:   The Honourable Mr. Justice
+Cumming</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">          The Honourable Mr. Justice
+Goldie</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">          The Honourable Madam Justice
+Prowse</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Gregory N. Harney                   Counsel
+for the Appellants</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Arthur L. Edgson                    Counsel
+for the Respondent</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                           (Trustee in
+Bankruptcy of Baseline)</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">David F. McEwan                     Counsel
+for the Respondent</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                      (Cerescorp
+Incorporated)</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Place and Date of Hearing:         Vancouver,
+British Columbia</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                      September
+9 and 10, 1993</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Place and Date of Judgment:        Vancouver,
+British Columbia</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                            September
+22, 1993</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><u><span lang="EN-GB" style="letter-spacing:-.15pt">Written Reasons by:</span></u></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">The Honourable Mr. Justice Cumming</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><u><span lang="EN-GB" style="letter-spacing:-.15pt">Concurred in by:</span></u></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">The Honourable Mr. Justice Goldie</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">The Honourable Madam Justice Prowse</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+</div>
+<span lang="EN-GB" style="font-size:12.0pt;font-family:Courier;letter-spacing:
+-.15pt"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section2">
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                                      CA015545</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                                            Vancouver
+Registry</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><b><i><span lang="EN-GB" style='font-size:14.5pt;font-family:"Times New Roman";letter-spacing:-.15pt'>                                 Court
+of Appeal for British Columbia</span></i></b></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Burlington Railway et al</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">v.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Baseline Industries and Cerescorp
+Incorporated</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">REASONS FOR JUDGMENT OF THE HONOURABLE
+MR. JUSTICE CUMMING:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">1</span><span lang="EN-GB" style="letter-spacing:-.15pt">         This is an appeal from the judgment of
+Mr. Justice Leggatt pronounced March 12, 1992 in which he held that the Trustee
+in Bankruptcy of Baseline Industries Ltd. had the right to possession of the
+lands and premises in question notwithstanding the breach of the covenant to
+pay rent by Baseline and the proceedings taken by Burlington Northern Railway
+Company under the provisions of the <i>Commercial Tenancy Act</i>, R.S.B.C.
+1979, c.54.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><u><span lang="EN-GB" style="letter-spacing:-.15pt">FACTS:</span></u></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">2</span><span lang="EN-GB" style="letter-spacing:-.15pt">         Burlington leased to Baseline a dock in
+Vancouver.  The respondent Cerescorp Incorporated has operated the dock and
+terminal facilities on the premises pursuant to an exclusive licence granted by
+Baseline on April 14, 1988.  Cerescorp was added as a party to these
+proceedings by the Order of the Court of Appeal, on review.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">3</span><span lang="EN-GB" style="letter-spacing:-.15pt">         Under the lease, Baseline was to pay
+$600,000 to Burlington in the first five years of the lease.  This amount was
+payable in 60 monthly instalments of $10,000 commencing on March 1, 1988.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">4</span><span lang="EN-GB" style="letter-spacing:-.15pt">         In May 1989, Baseline was in arrears and
+on May 24, 1989 Burlington made a demand for payment of arrears which
+stipulated that Baseline had 30 business days to pay or "Burlington
+Northern shall re-enter the premises and declare the lease forfeited".</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">5</span><span lang="EN-GB" style="letter-spacing:-.15pt">         Baseline did not make payment of the
+arrears until sometime in August of 1989 but apparently Burlington took no
+steps to forfeit the lease.  Baseline ceased making lease payments on August
+31, 1989.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">6</span><span lang="EN-GB" style="letter-spacing:-.15pt">         Clause 14(a) of the lease reads as
+follows:</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">14.(a)    If
+and whenever the rent hereby reserved or any part thereof shall not be paid on
+the day specified for payment thereof, whether demanded or not or in case of
+breach, non-performance or non-observance by the Lessee of any of the
+covenants, agreements, or provisos on the part of the Lessee to be kept,
+performed or observed herein or in case the Premises shall be vacated or remain
+unoccupied for 15 days, then and in every case, it shall be lawful for the
+Lessor to give notice that the term hereof shall be forfeited and void and
+thereupon all of the right, title and interest of the Lessee hereunder shall
+expire and cease absolutely and the Lessee shall thereupon quit and surrender
+the Premises to the Lessor.</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">PROVIDED
+THAT:  The Lessor shall not re-enter and forfeit this lease by reason of the
+Lessee's default unless and until the Lessor shall have given to the Lessee at
+least 30 business days' notice of its intention to do so and setting forth the
+default complained of and the Lessee shall have failed to remedy such default
+within such 30 day period;</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">7</span><span lang="EN-GB" style="letter-spacing:-.15pt">         On August 15, 1991 Burlington made the
+following demand for payment of arrears.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">TAKE
+NOTICE pursuant to paragraph 14.(a) of the Lease that:</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">1.   You
+are in default  of your obligations under the Lease to pay rent in accordance
+with the terms thereof and that as of the date of this notice the amount owed
+for rent and additional rent under the Lease is as set forth in Schedule
+"A" hereto: and</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">2.   The
+Lease and the term thereof shall be forfeited and void and that the undersigned
+intend to re-enter and forfeit the Lease by reasons of the said default unless
+within 30 business days of the date of this notice, the said default has been
+remedied by payment of all rent and additional rent due to the date of payment.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">8</span><span lang="EN-GB" style="letter-spacing:-.15pt">         There was no response to the demand and
+on January 10, 1992 Burlington filed a petition under s.28 of the <i>Commercial
+Tenancy Act</i> requesting that a summons be issued calling on the tenant to
+show cause why an order should not be made for delivering up possession of the
+premises to the landlords.  The petition did not specify whether Burlington was
+relying upon s.28(1)(a) or s.28(1)(b) of the Act but simply referred to s.28. 
+I shall return to this aspect of the matter later.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">9</span><span lang="EN-GB" style="letter-spacing:-.15pt">         Section 28 of the <i>Commercial Tenancy
+Act</i> provides:</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-72.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">28.(1)    In
+case a tenant</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(a)fails
+to pay his rent within 7 days of the time agreed on; or</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:72.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(b)makes
+default in observing any covenant, term or condition of his tenancy, the
+default being of a character as to entitle the landlord to enter again or to
+determine the tenancy,</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">and
+wrongfully refuses or neglects, on demand made in writing, to pay the rent or
+to deliver the premises leased, which demand shall be served on the tenant or
+on some adult person on the land or, if vacant, be affixed to the dwelling or
+other building on the land, or on some portion of the fences, the landlord or
+his agent may apply to the registrar of the Supreme Court on affidavit</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(c)setting
+forth the terms of the lease or occu­pancy;</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(d)the
+amount of rent in arrears, and the time for which it is in arrears;</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(e)producing
+the demand made for the payment of rent or delivery of the possession, and stat­ing
+the refusal of the tenant to pay the rent or to deliver up possession and the
+answer of the tenant, if an answer was made; and</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(f)setting
+forth that the tenant has no right to set off or the reason for withholding pos­session,
+or setting forth the covenant, term or condition in performance of which
+default has been made, and the particulars of the forfeiture;</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">and
+on filing of the affidavit, the registrar shall issue a summons calling on the
+tenant, 3 days after service, to show cause why an order should not be made for
+delivering up possession of the premises to the landlord, and the summons shall
+be served in the same manner as the demand.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(2)  An
+application under subsection (1) shall be commenced at a registry of the
+Supreme Court located in the judicial district where the land is situated.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">10</span><span lang="EN-GB" style="letter-spacing:-.15pt">        On January 29, 1992 an <i>ex parte</i>
+order was issued requiring Baseline to show cause why such an order should not
+be issued.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">11</span><span lang="EN-GB" style="letter-spacing:-.15pt">        On February 13, 1992 Baseline made an
+assignment in bankruptcy which was filed with the British Columbia Division of
+the Official Receiver's office on February 14, 1992.  The Trustee in Bankruptcy
+has paid or tendered occupation rent in the amount of $11,000 per month.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">12</span><span lang="EN-GB" style="letter-spacing:-.15pt">        The Trustee in Bankruptcy for Baseline
+claims the right of possession of the lands and premises under the lease
+pursuant to s.30(1)(k) of the <i>Bankruptcy Act</i>, R.S.C. 1985, c.B-3:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">30.  (1)  The
+trustee may, with the permission of the inspectors, do all or any of the
+following things:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                             * * *</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-72.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(<i>k</i>)
+elect to retain for the whole part of its unexpired term, or to assign,
+surrender or disclaim any lease of, or other temporary interest in, any
+property of the bankrupt; and</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                             * * *</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Burlington contends that the lease was
+forfeited.  The critical issue is whether the lease was terminated prior to the
+appointment of the Trustee in Bankruptcy. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">13</span><span lang="EN-GB" style="letter-spacing:-.15pt">        In his reasons for judgment the learned
+judge below said, at p.154:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     In
+the present case, Baseline failed to pay its rent within 7 days of the time
+agreed upon under the lease and thus s.28(1)(a), rather than s.28(1(b), of the <u>Commercial
+Tenancy Act</u> was invoked. Therefore, as stated in <u>Pridham Estates</u>,
+"all the tenant need do to retain or remain in possession is 'to pay the
+rent' (and costs)." In fact, the demand issued by Burlington on August 15,
+1991 expressly provides that the default in lease payments could be
+"remedied by payment of all rent and additional rent due to the date of
+payment." The terms of that demand were consistent with the conduct of
+Burlington. At no time did Burlington unequivocally request Baseline to deliver
+up possession of the lands and premises at issue.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     Burlington
+relies on <u>Standard Trusts v. David Steele Ltd.</u> (1921), 2 C.B.R. 183
+(B.C.S.C.), [as affirmed by the Court of Appeal: (1922), 3 C.B.R. 141], to
+support the contention that a claim by a landlord for arrears under a lease
+may, in some circumstances, be deemed equivalent in law to re-entry. In that
+case, a landlord issued a writ of summons in an action claiming double the
+yearly value of certain land until possession of that land was given up by the
+tenant. Mr. Justice Murphy held that the lease was terminated and stated at
+pp.185-6:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-72.0pt;line-height:12.0pt"><u><span lang="EN-GB" style="letter-spacing:-.15pt">"Moore
+v. Ullcoats Mining Co.</span></u><span lang="EN-GB" style="letter-spacing:-.15pt">
+[1908] 1 Ch. 575, 77 L.J. Ch. 282, is authority for the proposition that a writ
+claiming possession simpliciter and any further relief which is <u>incidental
+to a claim</u> for possession is equivalent to re-entry. The claim for double
+yearly value can only be valid if the lease is at an end. The language of sec.
+14 [16?] of the <u>Landlord and Tenant Act</u>, R.S.B.C., 1911, ch. 126, is
+explicit on this point in my opinion. If so, the claim is one incident to a
+claim for possession."</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     In
+<u>Standard Trusts</u>, unlike in the case at bar, the claim for rent due was
+incidental to a claim for pos­session.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     In
+the present case, no covenant in the lease was breached nor was the lease
+automatically terminated upon the bankruptcy of Baseline. Moreover, the demand
+made by Burlington on August 15, 1991 could not be said to be equivalent in law
+to re-entry. The demand was made in apparent anticipation of Baseline making
+payment of arrears, as it had done before, and did not amount to an unequivocal
+election to treat the lease as terminated.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     As
+the lease was not forfeited prior to the appoint­ment of the Trustee in
+Bankruptcy, the Trustee has the right to possess the leased land and premises
+under s.30(1)(k) of the <u>Bankruptcy Act</u>, and s.32(2) of the <u>Commercial
+Tenancy Act</u>.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">14</span><span lang="EN-GB" style="letter-spacing:-.15pt">        In their factum the appellants submit
+that the learned judge below erred:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">A.   in finding that the lease was not
+forfeited and void prior to the appointment of the Trustee in Bankruptcy, and</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">B.   in finding that the appellants
+were applying under s.28(1)(a) of the <i>Commercial Tenancy Act</i> and that
+Baseline could have remained in possession by paying the rent in arrears (and
+costs). </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><u><span lang="EN-GB" style="letter-spacing:-.15pt">DISCUSSION:</span></u></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">15</span><span lang="EN-GB" style="letter-spacing:-.15pt">        With respect to ground A. the appellants
+submit that the chambers judge erred in finding that the lease was not
+forfeited and void prior to the appointment of the Trustee in Bankruptcy by the
+process of the breach of the covenant to pay rent by Baseline, the notice sent
+to Baseline by the appellants on August 15, 1991 and Baseline's subsequent
+inaction during the period of the notice.  They submitted, alternatively, that
+the lease came to an end when Burlington issued its petition pursuant to s.28
+of the <i>Commercial Tenancy Act</i> which, Mr. Harney argued, constituted in
+law a re-entry, with the result that the lease was forfeited.  Mr. Harney
+conceded that if he could not satisfy us that the lease had been effectively
+terminated in one or the other of these two ways this appeal must fail.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">16</span><span lang="EN-GB" style="letter-spacing:-.15pt">        I am not persuaded by the appellants'
+submissions with respect to ground A.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">17</span><span lang="EN-GB" style="letter-spacing:-.15pt">        The appellants contend firstly that the
+chambers judge did not give effect to the default clause in the lease agreement
+between Burlington and Baseline.  Mr. Harney argued that the lease was
+terminated on the giving of the notice of August 15, 1991 or, at the latest, 31
+business days thereafter, the arrears of rent not having been paid in the
+interval.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">18</span><span lang="EN-GB" style="letter-spacing:-.15pt">        The first part of Clause 14(a) appears to
+support the appellants' submission that the lease would be forfeited and void
+upon the giving of the notice.  However, the latter portion of clause 14(a)
+provides that if the lessor intends to re-enter and forfeit the lease by reason
+of the lessee's default, it must give the lessee at least 30 business days'
+notice of its intention to re-enter and forfeit the lease and set out the
+default complained of.  The lessee would then have 30 business days to remedy
+the default, after which time the lessor would be entitled to proceed to
+re-enter the premises and forfeit the lease.  Clause 14(a), read in its
+entirety, clearly indicates that the lessor must do something beyond merely
+giving the notice it gave in order to re-enter and forfeit the lease.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">19</span><span lang="EN-GB" style="letter-spacing:-.15pt">        If clause 14(a) of the lease ended before
+the term "PROVIDED THAT" and did not contain the words which follow,
+it might have been open to Burlington, Mr. Edgson argued, simply to give notice
+that the term shall be forfeited and thereupon the interest of the lessee would
+be at an end and it would be obliged to deliver up the premises.  But, he
+submitted, the saving provision, on its true construction, clearly contemplated
+and required a two step process calling for two notices.  The first would
+declare the term forfeit and the second, not to be acted upon by re-entering
+for 30 business days, would give notice "of its intention to do so",
+and during that period the lessee would have the right and opportunity to
+remedy the default.  No such second notice was given.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">20</span><span lang="EN-GB" style="letter-spacing:-.15pt">        With respect to the notice itself, Mr.
+Edgson submitted that, as the lease cannot be forfeited twice, that notice, without
+more, cannot operate to forfeit the lease.  It is in essence a demand for the
+arrears of rent and, in the event of non-compliance, notice that the lease
+shall, in the future, be forfeited and that Burlington then intends to
+re-enter.  However, it could not do so without giving the second notice
+required by clause 14(a).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">21</span><span lang="EN-GB" style="letter-spacing:-.15pt">        I think these submissions are sound.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">22</span><span lang="EN-GB" style="letter-spacing:-.15pt">        In May of 1989 Burlington gave notice to
+Baseline pursuant to paragraph 14(a) of the lease that Baseline was in default
+of the payment of rent.  The letter of May 24, 1989, after alleging the
+default, stated:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">You
+have thirty (30) business days to pay Burlington Northern $80,753.31 thereby
+curing the default or Burlington Northern <u>shall re-enter the premises and
+declare the Lease forfeited</u>. (emphasis added)</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">Notwithstanding the giving of this
+notice, Burlington took no steps to re-enter and forfeit the lease and in
+August of 1989 the arrears were paid.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">23</span><span lang="EN-GB" style="letter-spacing:-.15pt">        For convenience I will set out here again
+the critical wording of the notice Burlington gave Baseline on August 15, 1991,
+which, after stating Baseline was default for non-payment of rent, continued:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">The
+Lease and term thereof shall be forfeited and void and that the undersigned <u>intend
+to re-enter and forfeit the Lease by reason of the said default unless</u>
+within 30 business days of the date of this notice, the said default has been
+remedied by payment of all rent and additional rent due to the date of payment.
+(emphasis added)</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">24</span><span lang="EN-GB" style="letter-spacing:-.15pt">        The language of both notices is
+prospective.  In each Burlington referred to a future act or future intention
+which, in the event, did not come about.  In both cases the continued occupancy
+by Baseline during the 30 day period was contemplated by the notice.  As such,
+the notice of August 15, 1991 cannot amount to a forfeiture of the lease.  See</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'> Re
+Simpson and Young &amp; Biggins Ltd.</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt">, [1972] 1 O.R. 103 (C.A.);</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'>
+Foreshore Projects Ltd.</span></i></b><span lang="EN-GB" style="letter-spacing:
+-.15pt"> v.</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";
+letter-spacing:-.15pt'> Warner Shelter Corp.</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt"> (1983), 49 B.C.L.R. 26 (B.C. Co. Ct.).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">25</span><span lang="EN-GB" style="letter-spacing:-.15pt">        It is possible to terminate a tenancy
+upon the terms set out in the lease without resort to the provisions of the <i>Commercial
+Tenancy Act</i> but here the appellants did not do so.  The demand letter of
+August 15, 1991 was not sufficient to terminate the lease and the appellants
+took no further steps to do so until January 10, 1992 when they filed a
+petition, not under s.18 but under s.28 of the <i>Commercial Tenancy Act</i>.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">26</span><span lang="EN-GB" style="letter-spacing:-.15pt">        Section 18 provides:</span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><b><span lang="EN-GB" style="letter-spacing:-.15pt">     18.</span></b><span lang="EN-GB" style="letter-spacing:-.15pt">(1) In case a tenant, after his lease
+or right of occupation, whether created in writing or verbally, has expired, or
+been determined, either by the landlord or by the tenant, by a notice to quit
+or notice under the lease or agreement, or has been determined by any other act
+whereby a tenancy or right of occupancy may be determined or put an end to,
+wrongfully refuses, on written demand, to go out of possession of the land
+leased to him, or which he has been permitted to occupy, his landlord may apply
+to the Supreme Court</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(a)setting
+out in an affidavit the terms of the lease or right of occupation, if verbal;</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(b)annexing
+a copy of the instrument creating or containing the lease or right of
+occupation, if in writing;</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(c)if
+a copy cannot be annexed by reason of it being mislaid, lost or destroyed, or
+of being in possession of the tenant, or from any other cause, then annexing a
+statement setting forth the terms of the lease or occupation, and the reason
+why a copy cannot be annexed;</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(d)annexing
+a copy of the demand made for deli­vering possession, stating the refusal of
+the tenant to go out of possession, and the rea­sons given for his refusal, if
+any; and</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-108.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">(e)any
+explanation in regard to the refusal.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     (2)  This
+section extends and shall be construed to apply to tenancies from week to week,
+from month to month, from year to year, and tenancies at will, as well as to
+all other terms, tenancies, holdings or occupa­tions.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     (3)  An
+application under subsection (1) shall be commenced at a registry of the
+Supreme Court located in the judicial district where the land is situated.</span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">27</span><span lang="EN-GB" style="letter-spacing:-.15pt">        With reference to these two sections of
+the Act Wong C.C.J. (as he then was) said, in</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'> Foreshore Products
+Ltd.</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt"> v.</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'> Warner
+Shelter Corp.</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt">
+(1983), 49 B.C.L.R. 26 at 28-29:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     Summary
+dispositions of conflicting claims between landlord and tenant are provided by
+two separate pro­cedures outlined in ss.18 and 28 of the Commercial Tenancy
+Act. Both sections are to be construed strictly: see <i>Gulf Oil Can. Ltd. v.
+Persall</i> (1977), 75 D.L.R. (3d) 471 (B.C. Co. Ct.), and cases cited therein
+at p.473. In addition, forfeitures are regarded with disfavour by the courts
+and their upholding will be avoided even for trifling reasons: <i>Big Valley
+Collieries v. MacKinnon</i> (1915), 9 W.W.R. 4, 23 D.L.R. 62 (Alta. T.D.).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     If
+a landlord complains of a breach of covenant and seeks an order for possession,
+he must elect from the start whether he is going to proceed under s.18 or s.28.
+The crucial difference between the two sections is that s.18 requires a
+determination or end to the lease on the part of the landlord by notice, before
+he can move under s.18; but no such step to end the lease is required before
+the landlord can proceed under s.28: <i>Misarol Farms Ltd. v. Lemer (Prelutsky)</i>
+(1978), 6 B.C.L.R. 170 at 173, 5 R.P.R. 178 (Co. Ct.). </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     Since
+it is a condition precedent to the jurisdic­tion of this court under s.18 of
+the Commercial Tenancy Act that the lease must first be terminated and then
+followed with a demand for possession, do the letters of 8th and 29th March and
+20th April 1983 from the land­lord's solicitors to the tenant constitute
+determination?</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     It
+is clear that the letter of 8th March 1983 is merely an indicated intention on
+the part of the landlord to forfeit the lease if conformed use of the premises
+by the tenant is not forthcoming.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     In
+<i>Re Simpson and Young &amp; Biggin Ltd.</i> (1971), 22 D.L.R. (3d) 291 (Ont.
+C.A.), it was held that a notice by a landlord terminating a lease for
+non-payment of taxes and demanding possession on a fixed date about a month
+ahead was not sufficient to forfeit the lease since the notice itself contemplated
+continued occupancy by the tenant. Such also is the situation here with the
+letter of 29th March 1983 granting continued possession until 13th April 1983. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     The
+letter of 20th April 1983 is nothing more than a demand for possession.
+Although the demand for pos­session is also a condition precedent to the right
+to invoke s.18, it cannot be served until <i>after</i> the lease has been
+terminated: <i>Re Anderson</i> (1966), 56 W.W.R. 30, 57 D.L.R. (2d) 561 (B.C.
+Co. Ct.).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     Therefore,
+at law, I must conclude that the pur­ported determination is not valid and a
+necessary step to invoke s.18 has not been taken. Accordingly, on this
+application under s.18, the court is without jurisdic­tion.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">28</span><span lang="EN-GB" style="letter-spacing:-.15pt">        Mr. Harney stated in the course of his
+argument that Burlington elected to proceed under s.28 rather than s.18
+because, by doing so, it would not have the burden of proving that the lease
+had been terminated by the notice of August 15, 1991.  For the reasons which I
+have given, that notice did not terminate the lease, nor did it demand
+possession; it was nothing more than a demand for rent and a statement of
+intention to forfeit the lease and re-enter.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">29</span><span lang="EN-GB" style="letter-spacing:-.15pt">        It is incongruous for the appellants to
+suggest that the lease was terminated and then bring its action pursuant to
+s.28 of the <i>Commercial Tenancy Act</i>.  An application under s.28 of the <i>Commer­cial
+Tenancy Act</i> presupposes that the tenancy has not been determined.  In the
+result, until an order for possession is made, Baseline was still a tenant and,
+at the time of the application before the learned chambers judge, the Trustee
+in Bankruptcy had been appointed and s.32 of the <i>Commercial Tenancy Act</i>
+and s.30(1)(k) of the <i>Bankruptcy Act</i> applied.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">30</span><span lang="EN-GB" style="letter-spacing:-.15pt">        Mr. Harney then argued, in the
+alternative, that by institut­ing proceedings under s.28 the appellants had in
+law effected a re-entry and thereby brought the lease to an end.  He referred
+to</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";
+letter-spacing:-.15pt'> Robinson, Little &amp; Co. (Trustees of)</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt"> v.</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'> Marlowe Yeoman
+Ltd.</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt"> (1986), 5
+B.C.L.R. (2d) 67 (B.C.C.A.) where Craig J.A. said, at 71:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     Paragraph
+7(a) of the lease provides that the landlord may determine the lease by
+re-entry if the lessee breaches any of the conditions specified in the
+paragraph. Mr. Mass, the associate counsel for the appellant on the appeal and
+solicitor for the appellant, forwarded a notice to quit to the trustee on 20th
+June stating that because of the breach, the lease was "terminated
+immediately". The following day he forwarded a demand for possession. At
+first blush, one might reasonably think that this would be tantamount to
+re-entry, but English and Canadian text writers on the law of landlord and
+tenant, citing cases, state that a notice to quit and demand for possession is not
+tantamount to re-entry; <i>Moore v. Ullcoats Mining Co.</i>, [1908] 1 Ch. 575; <i>Prudential
+Ins. Co. of Amer. v. McLean,</i> [1943] O.R. 377, [1943] 3 D.L.R. 307 (C.A.); <i>Chernec
+v. Smith</i>, [1946] 3 D.L.R. 765, [1946] O.W.N. 513 (C.A.); <i>Winbaum v.
+Ginou</i>, [1947] O.R. 242, [1947] 2 D.L.R. 619. In <i>Prudential Ins. Co. v.
+McLean</i>, the Ontario Court of Appeal pointed out that if a lease provides
+for forfeiture by re-entry, the landlord's right to re-enter can be exercised
+"... only by an actual re-entry, or by the issue of a writ ..." <u>or
+by taking some proceeding under a statutory authority to recover possession.</u></span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">31</span><span lang="EN-GB" style="letter-spacing:-.15pt">        Mr. Harney relies on the words
+underlined.  In this case, however, the petition did not consitute re-entry
+because it was brought under s.28 of the Act which clearly contemplates the
+continuance of the lease.  Mr. Harney referred as well to</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'>
+Prudential Insurance Co.</span></i></b><span lang="EN-GB" style="letter-spacing:
+-.15pt"> v.</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";
+letter-spacing:-.15pt'> McLean</span></i></b><span lang="EN-GB" style="letter-spacing:
+-.15pt">, [1943] O.R. 377, [1943] 3 D.L.R. 307, a decision of the Ontario Court
+of Appeal, but in my view that case is distinguishable.  It turned upon the
+provi­sions of s.17 of the <i>Landlord and Tenant Act</i>, R.S.O. 1937, c.219
+which read: </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><b><span lang="EN-GB" style="letter-spacing:-.15pt">17.</span></b><span lang="EN-GB" style='font-family:"Courier New";letter-spacing:-.15pt'>─</span><span lang="EN-GB" style="letter-spacing:-.15pt">(1)   In every demise, whether by
+parol or in writing and whenever made, <u>unless it is otherwise agreed</u>,
+there shall be deemed to be included an agreement that if the rent reserved, or
+any part thereof, shall remain unpaid for fifteen days after any of the days on
+which the same ought to have been paid, although no formal demand thereof shall
+have been made, it shall be lawful for the landlord at any time thereafter,
+into and upon the demised premises, or any part thereof in the name of the
+whole, to re-enter and the same to have again, re-possess and enjoy as of his
+former estate. (emphasis added)</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">At p.382 Robertson C.J.O. said:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">The
+right that the landlord has under s.17 of The Landlord and Tenant Act is a
+right to re-enter. This right can be exercised only by an actual re-entry, or
+by the issue of a writ, or taking such a proceeding as the present to recover
+possession. Notice of his intention to re-enter for non-payment of rent need
+not be given by the landlord (s.18, subs.2), and where given it is not
+effective to put an end to the lease when a re-entry is prescribed: <i>Moore v.
+Ullcoats Mining Company, Limited</i>, [1908] 1 Ch. 575 at 588. When the
+landlord has in fact re-entered, or has done the equivalent by taking proceed­ings
+to eject the tenant, his determination to exercise his right of forfeiture so
+evidenced is irrevocable. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">There is no equivalent to s.17 in the <i>Commercial
+Tenancy Act</i>. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">32</span><span lang="EN-GB" style="letter-spacing:-.15pt">        Further, the</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'>
+Prudential</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt"> case
+is distinguishable because the lease there in question did not contain any
+provision equivalent to clause 14(a) of the lease before us.  Had it done so
+s.17 of the <i>Ontario Act</i> would not have applied.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">33</span><span lang="EN-GB" style="letter-spacing:-.15pt">        I am unable to accept Mr. Harney's
+alternative submission.  In</span><b><i><span lang="EN-GB" style='font-family:
+"Times New Roman";letter-spacing:-.15pt'> Moore</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt"> v.</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'> Ullcoats Mining
+Co.</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt">, supra,
+Warrington J. at 587 stated the applicable principle thus:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">. .
+. the writ, in order to be equivalent to re-entry under the proviso for
+re-entry, must be an unequivocal demand for possession and nothing else.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">34</span><span lang="EN-GB" style="letter-spacing:-.15pt">        Where a lease has not been effectively
+terminated, as is the case here, the institution of proceedings under s.28 is
+not an "unequivocal demand for possession" because, by reason of
+s.29(3), the tenant, where the default is non-payment of rent, has the right
+before enforcement of the order to pay up and have the proceedings stayed.  If
+Mr. Harney's position were correct, the tenant's rights under s.29(3) would be
+rendered nugatory.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">35</span><span lang="EN-GB" style="letter-spacing:-.15pt">        In</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'> Pridham Estates
+Ltd.</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt"> v.</span><b><i><span lang="EN-GB" style='font-family:"Times New Roman";letter-spacing:-.15pt'>
+Janowski</span></i></b><span lang="EN-GB" style="letter-spacing:-.15pt">, [1968]
+66 W.W.R. 695 (B.C. Co. Ct.), Washington C.C.J. said, at 697:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     It
+is clear from the wording of sec.29 [now s.28] that the landlord can proceed in
+two "cases" as set out in (<i>a</i>) and (<i>b</i>). But it is
+important to note that the section has, after the "case" in (<i>a</i>)
+and before the "case in (<i>b</i>) the word <i>"or."</i></span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     So,
+a careful reading of the section, I feel, discloses quite clearly that if the
+landlord proceeds under sec.29 (<i>a</i>) then his demand must be one "to
+pay the rent." If the landlord proceeds under sec. 29(<i>b</i>) then his
+demand <i>must</i> be one "to deliver up the demised premises."</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     Quite
+conceivably there could be no rent in arrears, or rent in arrears for a period
+of less than seven days; while at the same time the tenant has made default in
+observing a "covenant, term or condition of his tenancy * * * of such a
+character as to entitle the landlord to re-enter or to determine the
+tenancy." Obviously in such a "case" the landlord could <i>not</i>
+proceed under sec. 29 (<i>a</i>) but <i>could</i> proceed under sec. 29 (<i>b</i>).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">     Moreover,
+if the landlord proceeds under sec. 29 (<i>a</i>), all the tenant need do to
+retain or remain in possession is "to pay the rent" (and costs);
+while if the landlord proceeds under sec. 29 (<i>b</i>) and is successful, mere
+payment of any rent in arrears would not entitle the tenant to remain in
+possession. This, I think, is made abundantly clear in sec. 30(2) of the Act.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">36</span><span lang="EN-GB" style="letter-spacing:-.15pt">        Further, by refraining from specifying
+whether it was proceeding under s.28(1)(a) or s.28(1)(b) of the Act, and invoking
+s.28 generally, Burlington demonstrated the equivocal nature of its position.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">37</span><span lang="EN-GB" style="letter-spacing:-.15pt">        The second ground of appeal is a
+submission that the chambers judge erred in finding that the appellants were
+applying under s.28(1)(a) of the <i>Commercial Tenancy Act</i> and that
+Baseline could have remained in possession by paying the rent in arrears and
+costs. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">38</span><span lang="EN-GB" style="letter-spacing:-.15pt">        This submission is founded upon the
+proposition set out in the appellants' factum thus:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:36.0pt;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-36.0pt;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">14.  This
+finding ignores the fact that the term of the Lease was forfeit and void
+following the notice of August 15, 1991 and the passage of 30 business days
+after the notice. There was no lease in existence at the time of the assignment
+in bankruptcy. The Appellants petitioned for occupation of the Premises, not
+for payment of the rent in arrears.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">39</span><span lang="EN-GB" style="letter-spacing:-.15pt">        In view of the conclusion I have reached
+with respect to the effect of the notice of August 15, 1991, I must reject this
+ground of appeal.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">40</span><span lang="EN-GB" style="letter-spacing:-.15pt">        In any event, since the only alleged
+default was non-payment of rent, whether the appellants were proceeding under
+s.28(1)(a) or s.28(1)(b), Baseline always had the right before the enforcement
+of any order for possession to pay the arrears of rents and all costs and
+thereby be permitted to continue in its former tenancy.  Therefore, the
+proceeding by the appellants pursuant to s.28 of the <i>Commercial Tenancy Act</i>
+based upon an alleged breach of non-payment of rent cannot be said to be an
+unequivocal election by the appellants to treat the lease as terminated and an
+action for possession simpliciter.  As such, the lease would not be terminated
+by the commencement of the action. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">41</span><span lang="EN-GB" style="letter-spacing:-.15pt">        In my opinion the learned chambers judge
+did not err.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">42</span><span lang="EN-GB" style="letter-spacing:-.15pt">        I would dismiss the appeal.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:24.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt">                             "THE
+HONOURABLE MR. JUSTICE CUMMING"</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><b><span lang="EN-GB" style="letter-spacing:-.15pt">I AGREE:</span></b><span lang="EN-GB" style="letter-spacing:-.15pt">  "THE HONOURABLE MR. JUSTICE GOLDIE"</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><span lang="EN-GB" style="letter-spacing:-.15pt"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:12.0pt"><b><span lang="EN-GB" style="letter-spacing:-.15pt">I AGREE:</span></b><span lang="EN-GB" style="letter-spacing:-.15pt">  "THE HONOURABLE MADAM JUSTICE PROWSE"</span></p>
+</div>
+</body>
+</html>

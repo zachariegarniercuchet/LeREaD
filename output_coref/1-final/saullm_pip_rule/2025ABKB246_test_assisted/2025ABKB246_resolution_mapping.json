@@ -1,0 +1,18 @@
+{
+  "Dynex SCC": {
+    "uri": "https://canlii.ca/t/29qm5",
+    "score": 2.0,
+    "candidate_id": "2010bcca239",
+    "candidate_title": "Creston Moly Corp. v. Sattva Capital Corp.",
+    "query_text": "decision | Creston Moly Corp v Sattva Capital Corp",
+    "method": "title_exact",
+    "matched_key": "creston moly corp v sattva capital corp",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/29qm5",
+        "score": 2.0,
+        "candidate_title": "Creston Moly Corp. v. Sattva Capital Corp."
+      }
+    ]
+  }
+}

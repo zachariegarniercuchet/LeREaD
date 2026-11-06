@@ -1,0 +1,6 @@
+model,docs,gold_parents,boundary_matched,boundary_recall,correct_type,type_accuracy_on_matched,wrong_type
+gemma4,33,5484,3841,0.7004,3814,0.9930,27
+gpt-5.2,33,5484,4269,0.7784,4236,0.9923,33
+muse,33,5484,2752,0.5018,2745,0.9975,7
+qwen38-27b,33,5484,3329,0.6070,3315,0.9958,14
+saul-54b,33,5484,203,0.0370,200,0.9852,3

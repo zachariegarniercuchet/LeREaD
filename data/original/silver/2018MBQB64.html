@@ -1,0 +1,1391 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 14 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";
+	text-transform:uppercase;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.MsoFootnoteReference
+	{}
+a:link, span.MsoHyperlink
+	{font-family:"Verdana","sans-serif";
+	color:#004B91;
+	text-decoration:none none;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:10.0pt;
+	margin-right:28.35pt;
+	margin-bottom:8.0pt;
+	margin-left:28.35pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";
+	color:#404040;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Tahoma","sans-serif";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.Number, li.Number, div.Number
+	{mso-style-name:Number;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:0in;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Tahoma","sans-serif";}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Tahoma","sans-serif";}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Tahoma","sans-serif";
+	font-style:italic;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Tahoma","sans-serif";
+	color:#404040;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Segoe UI","sans-serif";}
+span.bold1
+	{mso-style-name:bold1;
+	font-weight:bold;}
+span.italic1
+	{mso-style-name:italic1;
+	font-style:italic;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="#004B91" vlink="purple">
+<div class="WordSection1">
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<p align="right" class="MsoNormal" style="text-align:right">Date: 
+20180425</p>
+<p align="right" class="MsoNormal" style="text-align:right">Docket:
+CI 14-01-92650</p>
+<p align="right" class="MsoNormal" style="text-align:right">(Winnipeg
+Centre)</p>
+<p align="right" class="MsoNormal" style="text-align:right">Indexed
+as: Free Enterprise Bus Lines Inc. et al. v. </p>
+<p align="right" class="MsoNormal" style="text-align:right">Winnipeg
+Exclusive Bus Tours Inc. et al.</p>
+<p align="right" class="MsoNormal" style="text-align:right">Cited
+as:  2018 MBQB 64</p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<h1 align="center" style="text-align:center"><u><span style="font-size:16.0pt">COURT OF QUEEN’S BENCH OF MANITOBA</span></u></h1>
+<h1 style="text-align:justify"><span style="font-size:14.0pt;
+font-weight:normal"> </span></h1>
+<p class="MsoNormal"><b><span style="font-size:14.0pt">B E T W E E N:</span></b></p>
+<p class="MsoNormal"> </p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="336">
+<p class="MsoNormal" style="line-height:115%"><span style="text-transform:uppercase">free enterprise BUS lines Inc.,</span></p>
+<p class="MsoNormal" style="line-height:115%"><span style="text-transform:uppercase">hernan silva </span>and<span style="text-transform:uppercase"> vickie comeau,  </span></p>
+<p align="right" class="MsoNormal" style="text-align:right;line-height:115%">(plaintiffs) respondents,</p>
+</td>
+<td style="width:.25in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="24">
+<p class="MsoNormal" style="line-height:115%">)</p>
+<p class="MsoNormal" style="line-height:115%">)</p>
+<p class="MsoNormal" style="line-height:115%">)</p>
+</td>
+<td style="width:2.55in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="245">
+<p class="MsoNormal" style="line-height:115%"><u>Joseph A. Pollock
+  </u></p>
+<p class="MsoNormal" style="line-height:115%">for the respondents</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="336">
+<p class="MsoNormal" style="line-height:115%">- and -</p>
+</td>
+<td style="width:.25in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="24">
+<p class="MsoNormal" style="line-height:115%">)</p>
+</td>
+<td style="width:2.55in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="245">
+<p class="MsoNormal" style="line-height:115%"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="336">
+<p class="MsoNormal" style="line-height:115%"> </p>
+</td>
+<td style="width:.25in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="24">
+<p class="MsoNormal" style="line-height:115%">)</p>
+</td>
+<td style="width:2.55in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="245">
+<p align="left" class="MsoNormal" style="text-align:left;line-height:115%"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="336">
+<p class="MsoNormal" style="line-height:115%">WINNIPEG
+  EXCLUSIVE BUS TOURS INC.,  </p>
+<p class="MsoNormal" style="line-height:115%">WALT MORRIS,
+  MAISIE HICKS and</p>
+<p class="MsoNormal" style="line-height:115%">CAROLYNE BRAID,   </p>
+</td>
+<td style="width:.25in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="24">
+<p class="MsoNormal" style="line-height:115%">)</p>
+<p class="MsoNormal" style="line-height:115%">)</p>
+<p class="MsoNormal" style="line-height:115%">)</p>
+</td>
+<td style="width:2.55in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="245">
+<p align="left" class="MsoNormal" style="text-align:left;line-height:115%"><u>David M. Skwark</u></p>
+<p align="left" class="MsoNormal" style="text-align:left;line-height:115%">for the applicants</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right;line-height:115%">(defendants) applicants.  </p>
+</td>
+<td style="width:.25in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="24">
+<p class="MsoNormal" style="line-height:115%">)</p>
+</td>
+<td style="width:2.55in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="245">
+<p class="MsoNormal" style="line-height:115%">JUDGMENT
+  DELIVERED:</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right;line-height:115%"> </p>
+</td>
+<td style="width:.25in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="24">
+<p class="MsoNormal" style="line-height:115%">)</p>
+</td>
+<td style="width:2.55in;padding:0in 4.0pt 0in 4.0pt" valign="top" width="245">
+<p align="left" class="MsoNormal" style="text-align:left;line-height:115%">April 25, 2018</p>
+</td>
+</tr>
+</tbody></table>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style="margin-top:12.0pt;line-height:200%"><b><u><span style="font-size:14.0pt;line-height:200%">GREENBERG J.</span></u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[1]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>The defendants seek summary judgment dismissing
+the plaintiffs’ claim.  The claim relates to negotiations between the parties
+towards the purchase by the defendant, Winnipeg Exclusive Bus Tours Inc. (“WE”),
+of the assets of the plaintiff, Free Enterprise Bus Lines Inc. (“FE”).  In
+their claim, the plaintiffs allege that a binding agreement of sale was
+concluded but was not honoured by the defendants.  Alternatively, they allege
+that the defendants are liable in damages for representing to the plaintiffs
+that a contract would be concluded.  The defendants say that the claim does not
+raise a genuine issue requiring a trial.</p>
+<h1>background</h1>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[2]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>The evidence presented on this motion shows the
+following.<a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Tahoma","sans-serif"'>[1]</span></span></a> 
+The plaintiffs Hernan Silva and Vickie Comeau are a married couple who owned
+and operated FE, a charter bus business.  The defendant Walt Morris owns WE, a charter
+and tour bus business.  At the relevant times, the defendants Maisie Hicks and
+Carolyne Braid were employed by WE.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[3]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>Sometime in 2013, Silva and Comeau made a
+decision to either sell or close down FE.  In October 2013, while attending a
+legislative committee hearing, they were introduced to Morris.  They understood
+that Morris was interested in buying a bus company and asked whether he would
+be interested in buying FE.  There followed discussions and the exchange of
+information between the parties.   </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[4]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>At the time, FE held a licence under the <b><i>Motor
+Vehicle Transport Act</i></b>, R.S.C., 1985, c. 29 (3<sup>rd</sup> Supp.), to
+operate an extra-provincial bus undertaking.  It owned three motor coaches and
+leased one.  Although WE also operated a tour bus company, it did not own any
+buses, nor did it have a licence to operate a bus company.  It carried out its
+contracts by renting buses from other licensed operators. However, Morris was
+interested in acquiring a licence and that could only be accomplished through
+the purchase of a company that held a licence.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[5]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>Most of the negotiations regarding the sale of
+FE to WE were conducted between Comeau, on behalf of FE, and Hicks, on behalf
+of WE.  But Comeau knew that Morris owned WE and that any discussions between
+her and Hicks had to be run by him.  Hicks told Comeau that Morris would not
+accept their asking price of $400,000 and that the price would have to be
+negotiated.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[6]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>On January 20, 2014, while negotiations were
+ongoing between the parties, Comeau received an email from Canadian National
+(“CN”) with a Request for Proposals (“RFP”) regarding a contract to provide
+transportation services for CN employees.  Comeau had never done business with
+CN and did not know why FE received the RFP.  As FE was going out of business,
+she had no intention to bid on the contract.  Comeau immediately forwarded the RFP
+to Hicks with the caption “Good Luck to you and make it happen”.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[7]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>On January 27, 2014, at Hicks’ request, Comeau
+signed a letter stating that FE released all interest in quoting on the CN contract
+and all interest in any contract should WE be successful in its bid.  WE sent
+in its bid to CN on January 31, 2014 along with a covering letter which stated
+that WE provided charter bus service “in partnership” with FE and that it had
+four buses in its fleet.  The letter was signed by Morris, Hicks, Silva and
+Comeau.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[8]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>At a meeting between the parties on February 24,
+2014, Morris presented Silva and Comeau with a “Term Sheet” which had been
+prepared by Morris’ lawyer and which Silva and Comeau signed.  The Term Sheet
+states that WE would purchase the assets of FE subject to financing and due
+diligence. The Term Sheet also contained the following clause:</p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Upon signing the
+Term Sheet, the parties will diligently negotiate the terms and conditions of a
+definitive purchase agreement documenting the business terms highlighted above
+and other representations, warranties, conditions, covenants and indemnities
+which are usual for a transaction of this nature.  Hernan Silva and Vickie
+Comeau (the “shareholders”) shall be jointly and severally liable with [FE] for
+[FE] representations, warranties and indemnities.  <u>Except as set forth in
+the next paragraph, the parties intend that no legal rights or obligations
+between them will come into existence until the definitive agreement is
+executed and delivered by the parties</u>.</span></p>
+<p align="right" class="MsoQuote" style="text-align:right"><span style="font-size:11.0pt">[emphasis added]</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[9]<span style='font:7.0pt "Times New Roman"'>             
+</span></span>The next paragraph in the Term Sheet was a “lock
+up clause” which stated that FE would continue operating in the normal course
+but could not enter into any significant contracts without WE’s consent and
+could not discuss the sale of their business to anyone else.  The lock up
+clause stated that it would terminate on April 15, 2014 (the closing date) if a
+definitive purchase agreement had not been executed by that date. </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[10]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>When Morris presented the Term Sheet to Comeau
+and Silva, the purchase price was blank.  After discussions between them, Morris
+handwrote the price on the Term Sheet as $150,000 plus “commission on CN 6 yr.
+contract 5% of sale to Vickie and Hernan. If no CN contract purchase price will
+be $180,000.”  In March, WE was in fact awarded the CN contract. </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[11]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Silva and Comeau did not have a lawyer when they
+signed the Term Sheet but subsequently retained Jim Saper to represent them. 
+Following the signing of the Term Sheet, WE’s lawyers sent to Mr. Saper a
+number of drafts of an asset purchase agreement, a management agreement, a
+non-competition agreement, and a commission agreement.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[12]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>On March 26, 2014, Hicks had a meeting with FE’s
+drivers where she told them that WE had a deal to purchase FE and asked the
+drivers if they wished to stay on.  At her examination for discovery, Hicks
+acknowledged that, as no deal had in fact been reached at this point, her
+statements to the drivers were misleading.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[13]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>No agreements were ever signed by the parties.  In
+her examination for discovery, Comeau said that she declined to sign the
+agreements drafted by WE’s lawyers on the advice of her lawyer.  She also said
+that she was not prepared to conclude the transaction until the paperwork was
+in a form acceptable to her.  No evidence was led by the plaintiffs as to what
+aspects of the draft agreements were unacceptable and, in particular, whether the
+terms to which they objected were, in their view, essential or non-essential
+terms of the agreements.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[14]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>In any event, the draft management agreement
+that WE’s lawyers had sent to FE’s lawyer provided that WE would manage all
+aspects of FE’s business commencing on April 1, 2014 until the earliest of
+September 30, 2014 and the date FE’s licence was transferred to WE.  The
+agreement provided for adjustments and the return of records if the purchase
+agreement did not close.  Although the management agreement was never signed,
+WE did begin to manage FE’s business on April 1, 2014, with the assistance of
+Comeau.  And when WE began to perform the CN contract on April 6, 2014, they
+used FE’s buses and drivers. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[15]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>On April 30, 2014, Comeau sent a text message to
+Morris expressing concern about the progress of the negotiations:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">I think we need some kind if [<i>sic</i>] resolution. 
+I know that you wanted the buses inspected but this is not working for us
+anymore.  We have proved ourselves over and over again and we still are being
+questioned.  It’s not working for us.</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[16]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>On May 1, 2014, several text messages were
+exchanged between Comeau and Morris regarding the commission on the CN contract:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">Hi Walt, here is option 3 or 4.  I lost track now.  If
+we were to stick around and receive the CN contract commission it would be at
+least $1800.00 a month.  Pay us out and you won’t have to deal with us again. 
+So you pay the 75,000.00 and then buy us out if [<i>sic</i>] the CN.  Thoughts?</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[17]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>On May 2, 2014, Comeau sent this text to Morris:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">Hi Walt, we really need an answer today, if not, we’ll
+take that as the deal is off.  We need to make arrangements and move on.</span></p>
+<p class="MsoNormal"><span style="font-size:11.0pt"> </span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[18]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>An hour later, Morris responded:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">Well, with sadness we are not going to complete this
+deal.  This deal is off. </span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[19]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Comeau immediately replied:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">No problem.  I will invoice you for the past month of
+using the buses.</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[20]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Comeau then offered to make FE’s buses available
+to WE until WE bought its own.  On May 5, 2014, Comeau emailed Hicks asking
+that the financial documents that she had sent to WE be returned or destroyed. 
+She also asked for copies of fuel receipts and drivers’ pay so that she could
+determine what WE owed it “for the last month of CN bus rentals.”    WE did pay
+FE for the use of FE’s buses.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[21]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Comeau claims that throughout the negotiations
+she received assurances from both Morris and Hicks that they wanted to make the
+deal work.   In particular, in her affidavit, she states that Morris and Hicks
+made representations at the February 24, 2014, meeting, when the Term Sheet was
+signed, that WE would be purchasing the assets of FE; that Silva and her would
+be hired to work for WE; that there would be a commission agreement with
+respect to the CN contract; and that WE would be managing FE pending the
+transfer of FE’s licence to WE.  She said that it was those representations
+that prompted her to sign the Term Sheet.  However, at her examination for
+discovery, which took place almost two years before she signed the affidavit,
+she said that she did not remember details of the February 24, 2014 meeting and
+did not remember whether Hicks was present.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[22]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>While Comeau says that she thought they had a
+deal with WE, she knew that no deal would be completed until WE had conducted
+due diligence.  A consent to due diligence was sent to her lawyer on March 31,
+2014.  The text messages referred to above suggest that, as of May 1, 2014, WE
+had not completed its inspection of FE’s buses.  And, as of that date, the
+parties continued to negotiate essential terms, including the contract price.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[23]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>There is not a lot of evidence regarding Braid’s
+involvement in the negotiations.  She attended some of the meetings with Comeau
+and Silva and, with input from Morris and Hicks, she drafted the cover letter
+that WE sent to CN with their bid.  She no longer works for WE.</p>
+<p class="Number"> </p>
+<h1>causes of action</h1>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[24]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs allege three causes of action. 
+The primary cause of action is based on breach of contract.  FE alleges that WE
+agreed to buy FE’s assets and that WE breached that agreement by failing to
+follow through with the purchase.  FE has since sold its assets to a third
+party for substantially less than the purchase price set out in the Term Sheet
+and it claims damages for the difference. </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[25]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The claims against the individual defendants
+Morris, Hicks and Braid are based on the torts of negligent misrepresentation
+and conspiracy.  The plaintiffs claim that, even if no contract was reached,
+the three defendants should be liable to pay damages to the plaintiffs for
+representing to them that WE would be buying FE’s assets, a representation on
+which the plaintiffs say they relied.  The plaintiffs also claim that the three
+defendants should be liable in the tort of conspiracy because they agreed to
+lie to CN in order to obtain the CN contract and, in doing so, caused harm to
+the plaintiffs.    </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[26]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>A fourth cause of action raised in the claim,
+unlawful interference with economic interests, is not being pursued by the
+plaintiffs.</p>
+<h1> </h1>
+<h1>the test on summary judgment</h1>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[27]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Amendments to the <i>Queen’s Bench Rules</i>,
+Man. Reg. 553/88, as amended by Man. Reg. 130/17, which came into effect in
+January of this year, make significant changes to the summary judgment process. 
+The new rules are designed to promote proportionality to ensure “the just, most
+expeditious and least expensive determination of every civil proceeding on its
+merits” (Rule 1.04(1)) and reflect the Supreme Court’s direction in <b><i>Hryniak
+v. Mauldin</i></b>, 2014 SCC 7 (para. 2), [2014] 1 S.C.R. 87, that “a culture
+shift is required in order to create an environment promoting timely and
+affordable access to the civil justice system.”</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[28]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Manitoba’s new summary judgment rules are
+similar to the Ontario summary judgment rules interpreted by the Court in <b><i>Hryniak</i></b>.
+ In that case, Karakatsanis J. explained (at para. 45) that the Ontario rules “are
+designed to transform Rule 20 from a means to weed out unmeritorious claims to
+a significant alternative model of adjudication.”  To that end, the test on a
+summary judgment motion is no longer whether there is a “genuine issue for
+trial” but whether there is a “genuine issue <u>requiring</u> a trial” (Rule
+20.07(1)).   The traditional trial is no longer the default position but should
+be pursued only where the judge cannot “achieve a fair and just adjudication of
+the issues” on the basis of the evidence produced on the summary judgment
+motion (Rule 20.03(5)).  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[29]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>To facilitate the use of the summary judgment
+motion as an alternative means of adjudication, the rules contemplate more
+flexibility in the type of evidence tendered and authorize the judge to weigh
+evidence, evaluate credibility of deponents and draw reasonable inferences
+(Rule 20.07(2)).  Whereas under the former rules issues of credibility usually
+required a trial, the new rules facilitate the resolution of those issues on
+summary judgment.  A trial is not required unless the judge is not confident
+making the necessary fact findings on the basis of the evidence presented and
+tools available on the motion.  As explained in <b><i>Hryniak</i></b>:</p>
+<p class="MsoQuote"><span style="font-size:11.0pt">[56]     While I
+agree that a motion judge must have an appreciation of the evidence necessary
+to make dispositive findings, such an appreciation is not only available at
+trial. Focussing on how much and what kind of evidence could be adduced at a
+trial, as opposed to whether a trial is "requir[ed]" as the Rule
+directs, is likely to lead to the bar being set too high. The interest of
+justice cannot be limited to the advantageous features of a conventional trial,
+and must account for proportionality, timeliness and affordability. Otherwise,
+the adjudication permitted with the new powers -- and the purpose of the
+amendments -- would be frustrated.</span></p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">[57]     On a summary judgment motion, the evidence
+need not be equivalent to that at trial, but must be such that the judge is
+confident that she can fairly resolve the dispute. A documentary record,
+particularly when supplemented by the new fact-finding tools, including
+ordering oral testimony, is often sufficient to resolve material issues fairly
+and justly. The powers provided in Rules 20.04(2.1) and 20.04(2.2) can provide
+an equally valid, if less extensive, manner of fact finding.</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[30]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>In <b><i>Hryniak</i></b>, the Court suggested
+that the new powers to evaluate the evidence and order oral evidence should
+only be engaged where the judge cannot decide the issues without resorting to
+those powers.  Karakatsanis J. said:</p>
+<p class="MsoQuote"><span style="font-size:11.0pt">[66]     On a
+motion for summary judgment under Rule 20.04, the judge should first determine
+if there is a genuine issue requiring trial based only on the evidence before
+her, without using the new fact-finding powers. There will be no genuine issue
+requiring a trial if the summary judgment process provides her with the
+evidence required to fairly and justly adjudicate the dispute and is a timely,
+affordable and proportionate procedure, under Rule 20.04(2)(a). If there
+appears to be a genuine issue requiring a trial, she should then determine if
+the need for a trial can be avoided by using the new powers under Rules
+20.04(2.1) and (2.2). She may, at her discretion, use those powers, provided
+that their use is not against the interest of justice. Their use will not be
+against the interest of justice if they will lead to a fair and just result and
+will serve the goals of timeliness, affordability and proportionality in light
+of the litigation as a whole.</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[31]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>And in the companion case, <b><i>Bruno Appliance
+and Furniture, Inc. v. Hryniak</i></b>, 2014 SCC 8, [2014] 1 S.C.R. 126, she
+said:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">[22]     Summary judgment may not be granted under
+Rule 20 where there is a genuine issue requiring a trial. As outlined in the
+companion <i>Mauldin</i> appeal, the motion judge should ask whether the matter
+can be resolved in a fair and just manner on a summary judgment motion. This
+will be the case when the process (1) allows the judge to make the necessary
+findings of fact, (2) allows the judge to apply the law to the facts, and (3)
+is a proportionate, more expeditious and less expensive means to achieve a just
+result. If there appears to be a genuine issue requiring a trial, based only on
+the record before her, the judge should then ask if the need for a trial can be
+avoided by using the new powers provided under Rules 20.04(2.1) and (2.2). She
+may, at her discretion, use those powers, provided that their use is not
+against the interest of justice.</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[32]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>In my view, the two-step approach described in <b><i>Hryniak
+</i></b>is not consistent with the process contemplated by the Manitoba rules. 
+Unlike the Ontario rules considered in that case, the Manitoba rules require
+the motion judge to hold a summary judgment conference before the hearing where
+the judge may give directions as to the nature of the evidence, including directing
+that oral evidence be presented (Rules 20.03(6), 20.03(7)).  In <b><i>Hryniak</i></b>,
+at paras. 69 to 73, the Court suggested that a motion for directions before the
+hearing would allow early judicial involvement to manage the time and cost of a
+summary judgment motion.  The summary judgment conference under the Manitoba
+rules is a substitute for the motion for directions suggested in <b><i>Hryniak</i></b>
+and allows the judge to shepherd the process.  As the motion judge considers,
+in advance of the hearing, whether oral evidence would be helpful, it would not
+make sense that she would then, at the hearing, first consider whether the
+issues could be determined without the advantage of that oral evidence.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[33]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The summary judgment conference is a significant
+piece of the new approach to summary judgment motions in Manitoba.  It requires
+the judge to consider whether a summary judgment motion can “achieve a fair and
+just adjudication of the issues” (Rule 20.03(5)), that is to say, whether the
+judge will be able to determine the factual and legal issues on the basis of
+the summary judgment process.  This screening process ensures the summary
+judgment process is not used inappropriately.  It avoids the expense of a
+failed summary judgment motion where the nature of the issues or the proposed
+evidence is such that the case would clearly be best resolved by a traditional
+trial with <i>viva voce</i> evidence (see e.g. <b><i>Berscheid v. Federated
+Co-operatives et al</i></b>, 2018 MBCA 27 (CanLII)).  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[34]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The summary judgment conference also allows the
+judge to consider whether, even if the case is conducive to resolution on a
+summary judgment motion, a motion would be no less expensive or expeditious
+than a trial.  Summary judgment motions are not inexpensive.  Affidavits must
+be prepared, cross-examinations pursued, transcripts ordered and briefs
+prepared. These costs must be kept in mind in considering the relative cost of
+a motion versus a trial.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[35]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Finally, as mentioned above, the summary
+judgment conference allows the judge, with the input of counsel, to give
+directions regarding the evidence to be relied upon on the motion. For example,
+the judge may decide that certain witnesses should provide their evidence
+orally on the motion or that, while affidavit evidence may be relied upon,
+cross-examination on those affidavits should be conducted before the judge at
+the hearing as opposed to in the lawyer’s office.  But, if the judge feels that
+the case can only be decided with extensive oral evidence, it may be that a
+summary judgment motion is not the most expeditious way to proceed.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[36]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The fact that a judge determines that the
+summary judgment process is not appropriate does not mean that a traditional
+trial is required.  Even where a case is proceeding to trial, the new Manitoba
+rules give pre-trial judges broad discretion to limit the nature of the
+evidence or the manner of its presentation to ensure the most expeditious and
+least expensive determination of an action (Rules 50. 05(3) and (4)). </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[37]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The other significant piece of the new summary
+judgment process is that, if after hearing the motion, the judge finds that
+some or all of the issues require a trial, where practicable, she will remain
+seized of the file and will preside at the trial (Rule 20.10).  That is not to
+say that where a motion is dismissed, the judge must direct a full trial.  It
+should be remembered that the motion judge is involved in directing what
+evidence should be tendered at the motion and whether oral evidence should be
+called at that time.  However, it may be difficult to predict before the
+hearing what kind of record will be necessary to resolve the issues fairly. If
+the judge ultimately feels unable to decide the issues based on the evidence
+produced at the hearing, the failed motion may still be “salvaged”, to use the
+language in <b><i>Hryniak</i></b>.  Because the judge remains seized of the
+case, she can continue to rely on the evidence produced on the motion with
+direction to the parties as to what further evidence she would need to come to
+a decision.             </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[38]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>These two aspects of the new summary judgment
+rules - the summary judgment conference and the judge staying seized - create a
+judge-managed process.   The judge is involved at the “front end” to provide
+direction to the parties and to help ensure that the procedure is tailored to
+the requirements of the case.  While the parties no longer control the process,
+they benefit from the flexibility which the new process provides.   </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[39]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The new procedure for summary judgment motions
+also means that the two-step analysis described by the court in <b><i>Homestead
+Properties (Canada) Ltd. v. Sekhri et al.</i></b>, 2007 MBCA 61 (CanLII), no
+longer fits.  In this oft-quoted passage from that case, Freedman J.A. explained:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">14     The test for summary judgment is well
+established, and no further detailed explanation is needed. The test is to the
+same effect regardless of whether the moving party is the plaintiff or the
+defendant. When the defendant moves, as here, he must prove, on a prima facie
+basis, that the plaintiff's action must fail. If he meets that burden, then the
+plaintiff has the burden to establish that there is a genuine issue for
+determination. He must show that his claim is "one with a real chance of
+success" (see <i>Hercules Managements Ltd. v. Ernst &amp; Young</i>,
+[1997] 2 S.C.R. 165 at para. 15; see also <i>Manitoba Hydro Electric v. Inglis
+(John) Co. et al</i>. (1999), 142 Man.R. (2d) 1 (C.A.)). If he fails to do so,
+summary judgment dismissing the claim will follow.</span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[40]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Because the new summary judgment procedure is no
+longer designed to weed out claims but is rather an alternate means of
+resolving the case, a shifting onus no longer makes sense.  The respondent may
+still advance arguments as to why the matter must go to trial.  But those
+arguments should first be advanced at the summary judgment conference before
+the parties have gone to the expense of preparing the motion.   That is not to
+say that any formality needs to be introduced into the summary judgment conference
+but the need for a trial should be explained to the judge at that point so that
+she has the information necessary to determine if the summary judgment motion
+should proceed.  </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[41]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Once the judge has screened out those cases that
+clearly require a trial, the judge should consider all of the evidence
+presented by the parties at the hearing in determining whether she can decide
+the issues fairly on the basis of that evidence or whether some type of further
+hearing is necessary.  In my view, it is not helpful to make this determination
+on the basis of a shifting onus.  I note that the Court in <b><i>Hryniak</i></b>
+made no reference to onus in discussing the test for summary judgment.  It
+would seem that to the extent that onus plays a role in the process, it is with
+respect to the substantive issues, as it is in a traditional trial.  </p>
+<span style='font-size:12.0pt;line-height:115%;font-family:"Tahoma","sans-serif"'><br clear="all" style="page-break-before:always"/>
+</span>
+<p align="left" class="MsoNormal" style="margin-bottom:10.0pt;text-align:left;
+line-height:115%"> </p>
+<p class="Number"> </p>
+<h1>analysis</h1>
+<p class="MsoNormal"> </p>
+<h2 style="margin-top:0in">The Contract Claim</h2>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[42]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs claim that FE had a binding
+agreement with WE for the sale of FE’s assets which, although not committed to
+writing, was evidenced by the conduct of the   parties.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[43]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The Manitoba Court of Appeal reviewed the
+requirements for an enforceable contract in <b><i>Matic et al v Waldner et al</i></b>,
+2016 MBCA 60 (CanLII), application for leave to appeal to S.C.C. denied, [2016]
+S.C.C.A. No. 359 (QL).  Pfuetzner J.A. explained:</p>
+<p class="MsoQuote"><span style="font-size:11.0pt">55     The standard
+for determining whether an agreement, written or oral, has been reached, is
+whether an "objective reasonable bystander", looking at all the
+material facts, would say so. GHL Fridman, <i>The Law of Contract in Canada,
+6th ed</i> (Toronto: Carswell, 2011) describes the test as follows (at p 15):</span></p>
+<p class="MsoQuote" style="margin-left:.5in"><span style="font-size:
+11.0pt">Constantly reiterated in the judgments is the idea that the test of
+agreement for legal purposes is whether parties have indicated to the outside
+world, in the form of the objective reasonable bystander, their intention to
+contract and the terms of such contract. <u>The law is concerned not with the
+parties' intentions but with their manifested intentions. It is not what an
+individual party believed or understood was the meaning of what the other party
+said or did that is the criterion of agreement</u>; it is whether a reasonable
+man in the situation of that party would have believed and understood that the
+other party was consenting to the identical terms. As Fraser C.J.A. said in <i>Ron
+Ghitter Property Consultants Ltd. v. Beaver Lumber Co</i>. [2003 ABCA 221 at
+para 9, 330 AR 353]:</span></p>
+<p class="MsoQuote" style="margin-left:1.0in"><span style="font-size:
+11.0pt">the parties will be found to have reached a meeting of the minds, in
+other words be ad idem, <u>where it is clear to the objective reasonable
+bystander, in light of all the material facts, that the parties intended to
+contract</u> and the essential terms of that contract can be determined with a
+reasonable degree of certainty.</span></p>
+<p align="right" class="MsoQuote" style="text-align:right"><span style="font-size:11.0pt">[emphasis in original]</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">56     The
+requirements for the formation of a contract were described in <i>Bawitko
+Investments Ltd v Kernels Popcorn Ltd</i> (1991), 53 OAC 314, a leading
+decision on oral contracts. Robins JA wrote (at para 21):</span></p>
+<p class="MsoQuote" style="margin-left:.5in"><span style="font-size:
+11.0pt">However, when the original contract is incomplete because essential
+provisions intended to govern the contractual relationship have not been
+settled or agreed upon; or the contract is too general or uncertain to be valid
+in itself and is dependent on the making of a formal contract; <u>or the
+understanding or intention of the parties, even if there is no uncertainty as
+to the terms of their agreement, is that their legal obligations are to be
+deferred until a formal contract has been approved and executed, the original
+or preliminary agreement cannot constitute an enforceable contract. In other
+words, in such circumstances the "contract to make a contract" is not
+a contract at all. The execution of the contemplated formal document is not
+intended only as a solemn record or memorial of an already complete and binding
+contract but is essential to the formation of the contract itself.</u></span></p>
+<p align="right" class="MsoQuote" style="text-align:right"><span style="font-size:11.0pt">[emphasis added]</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[44]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>There is no dispute that an agreement need not
+be in writing to be binding.  The question is whether the evidence in this case
+establishes an enforceable oral agreement or only a “contract to make a
+contract”.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[45]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The following are undisputed facts.  Some time
+in the late fall of 2013, the parties entered into negotiations regarding the
+purchase by WE of FE’s assets. The plaintiffs initially asked for $400,000 but
+Morris rejected that offer. On February 24, 2014, the parties signed a Term
+Sheet that stipulated that WE would purchase FE’s assets for $150,000 plus a
+five percent commission on the CN contract.  The Term Sheet provided that the sale
+was subject to financing and due diligence and that no obligations would arise
+until a definitive agreement was executed.  Negotiations continued after the
+Term Sheet was signed.  WE’s lawyers sent draft agreements to FE’s lawyers,
+including an asset purchase agreement which set the sale price at $150,000 and
+a commission agreement whereby the plaintiffs would receive six percent
+commission on the CN contract, an amount greater than set out in the Term
+Sheet.  The plaintiffs refused to sign the agreements on the advice of their
+lawyer.  There is no evidence before me that the plaintiffs suggested amendments
+to the agreements and no evidence that the terms that were unacceptable were non-essential
+terms.  Although no written agreement was executed, on April 1, 2014, WE took
+over management of FE as contemplated by the draft management agreement.  In an
+exchange of text messages on May 2, 2014, Comeau asked for some confirmation as
+to whether the deal was on.  Morris texted that the deal was off and Comeau
+responded, “No problem”.  FE sent WE an invoice for the use of its buses in
+April 2014 and that invoice was paid.   </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[46]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Notwithstanding the stipulation in the Term
+Sheet that no obligations would arise “until the definitive agreement is
+executed and delivered,” the plaintiffs say that the defendants conducted
+themselves as though a sale had been finalized.  They say that the objective
+reasonable bystander would believe that the parties intended to contract and
+that the essential terms of the contract were clear.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[47]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>In their written brief, the plaintiffs also rely
+on the letter sent to CN with WE’s bid as evidence that an agreement of sale
+had been concluded.  In that letter, sent on January 31, 2014, the parties
+stated that WE and FE were in partnership.  However, it is clear that, at that
+point in time, the parties had come to no agreement on the terms of sale and
+the Term Sheet signed subsequently makes it clear that the only agreement between
+the parties was an agreement to negotiate.  In oral argument, plaintiffs’
+counsel said that he was relying on events after the Term Sheet was signed as
+evidencing a verbal agreement.  He argued that a reasonable bystander looking
+at the conduct of the parties would find that the parties intended to
+contract.  But the reasonable bystander would have all of the material facts,
+including the stipulation in the Term Sheet that no obligations arose until a
+definitive agreement was executed and delivered.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[48]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Moreover, in order to find the existence of a
+binding contract, the essential terms must be reasonably certain.  The text
+messages between the parties on May 1 and 2, 2014 show that the contract price,
+a term usually considered to be essential, was still being negotiated.    </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:
+14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[49]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>While Comeau relies on representations made to
+her that a sale would occur, it is clear from the statements in her examination
+for discovery that she never believed an agreement had been concluded:</p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q : …There was no final
+deal as of April 1, 2014, correct?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A:  Not written.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q:  Not at all.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A:  Not written.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q:  Not written.  And what
+were the terms of a final agreement on April 1, 2014?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A:  There were no final
+terms.  There were no final terms discussed.  We didn’t come to that point that
+there was – that the terms were all written out.  There was no final agreement
+with that.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q:  Right, but there was
+nothing --</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A:  Written.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q: Okay.  You are suggesting
+that there was something verbal?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A: It was always promised to
+us, and it was always led us to believe that this was going to be resolved,
+that we were going to have the sale.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q: I understand your position
+is that you were led to believe that there was going to be a sale, right?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A: Yes.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q: But that sale had to be on
+terms and conditions that were acceptable to you, correct?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A: Correct.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q: So, by April 1, 2014, you
+didn’t have terms and conditions that were acceptable to you, correct?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A: No</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q: The only thing you are
+saying you had of that day was, we’re going to try to make this happen, is that
+fair?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A: That that’s what they had
+said?</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">Q: Yes.</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">A:  Yes, that we were going to
+try to make this happen, yes.</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[50]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs point to the fact that WE had taken over
+management of FE on April 1, 2014, as evidence of a binding contract.  But, as
+I said, the parties were still negotiating the essential terms. 
+I note that the draft management agreement contemplated that WE would take over
+management before an agreement was executed but provided for an accounting of
+earnings and expenses if the purchase agreement did not close. </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[51]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The following comments in <b><i>Ward v. Ward</i></b>,
+2011 ONCA 178 (CanLII), at para. 53, cited with approval in <b><i>Matic</i></b>,
+at para. 61,<b><i> </i></b>are apt:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">At common law, an agreement is binding if the parties
+consider that it contains all essential terms, even if the parties also agree
+that those terms will subsequently be recorded in a more formal document
+together with the usual terms ancillary to that type of agreement. However, an
+agreement is not final or binding if it is merely an agreement to later agree
+on essential provisions, or to defer the binding nature of the agreement until
+the execution of the proposed subsequent formal contract.  </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[52]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs argue that a trial is required to
+determine whether there was an agreement because all of the relevant evidence
+is not before the court.  In particular, the plaintiffs say they would call Jim
+Saper at the trial.  Mr. Saper represented the plaintiffs in the negotiations
+and may have relevant evidence.  But the plaintiffs cannot respond to a summary
+judgment motion by arguing that they will be able to prove their case at
+trial.  They must put their best case forward now (Rule 20.05).  Counsel was
+not able to explain at the hearing why an affidavit from Mr. Saper was not filed
+on this motion.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[53]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs also say that the evidence on
+this motion raises issues of credibility that cannot be resolved without
+hearing from the parties at trial.  Counsel for the plaintiffs points to the
+letter to CN where WE alleged it was in partnership with FE.  In his
+examination for discovery, Morris admitted this was not true.  When pressed, he
+agreed it was a “lie”.  But, in her examination for discovery, Comeau also admitted
+signing the letter knowing the contents were not true.   It appears that both
+parties were prepared to distort the truth to bolster WE’s bid for the CN
+contract.  But to the extent that these “lies” are relevant, they are apparent on
+the evidence before me.  Further examination at a trial would add nothing.   </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[54]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Counsel for the plaintiffs also points to
+discrepancies between the evidence in the affidavits and the evidence at the
+examinations for discovery which he says can only be sorted out at a trial.  What
+is curious about this argument is that the discrepancies are primarily in the
+evidence of his own client.  In particular, there are a number of discrepancies
+between statements in Comeau’s affidavit and statements that she made two years
+earlier at her examination for discovery. Even assuming that a party can raise
+her own credibility as a matter warranting a trial, I am confident that I do
+not need a trial to make the findings necessary to determine the issues.  As
+set out above, the factors that are key to determining if there was an
+agreement in this case are not contentious.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;
+line-height:200%;font-family:"Times New Roman","serif"'>[55]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>I am satisfied I can reach a fair and just
+determination of the contract issue without a trial.  I am confident that I
+have the evidence necessary to determine that the parties never concluded an
+agreement for the sale of FE’s assets to WE.  </p>
+<h2>Negligent Misrepresentation</h2>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[56]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The five elements of the tort of negligent
+misrepresentation are set out by the Supreme Court in <b><i>Queen v. Cognos
+Inc.</i></b>, [1993] 1 S.C.R. 87 (at para. 33):</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:49.65pt;margin-bottom:.0001pt;text-indent:-14.2pt"><span style="font-size:11.0pt">(1)      there must be a duty of care based
+on a "special relationship" between   the representor and the
+representee; </span></p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:49.65pt;margin-bottom:.0001pt;text-indent:-14.2pt"><span style="font-size:11.0pt">(2)      the representation in question
+must be untrue, inaccurate, or       misleading; </span></p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:49.65pt;margin-bottom:.0001pt;text-indent:-14.2pt"><span style="font-size:11.0pt">(3)      the representor must have acted
+negligently in making said         misrepresentation; </span></p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:49.65pt;margin-bottom:.0001pt;text-indent:-14.2pt"><span style="font-size:11.0pt">(4)      the representee must have relied,
+in a reasonable manner, on said         negligent misrepresentation; and </span></p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:49.65pt;margin-bottom:.0001pt;text-indent:-14.2pt"><span style="font-size:11.0pt">(5)      the reliance must have been
+detrimental to the representee in the          sense that damages resulted. </span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;
+line-height:200%;font-family:"Times New Roman","serif"'>[57]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>In <b><i>Cognos</i></b>, the Court found the
+tort had been established where the plaintiff entered a contract of employment
+to work for the defendant as a result of representations made to him during the
+job interview that the project for which he was being hired would last a
+minimum of two years.  The plaintiff gave up a lucrative job and moved his
+family halfway across the country only to be laid off a year later.  The Court
+found that the defendant had a duty not to represent to the plaintiff that the
+job offered was a secure one when they knew or should have known it was not.   </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[58]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs here argue that the defendants
+owed a duty of care to them based on a special relationship between them; that
+the defendants represented to the plaintiffs on numerous occasions that they
+were going to purchase FE’s assets and pay them a commission on the CN
+contract; that these representations were untrue or misleading and the
+defendants were negligent in making them; and that the plaintiffs reasonably
+relied on those representations to their detriment. </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[59]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs argue that the defendants owed a
+duty of care to them because the plaintiffs were business neophytes while the
+defendants were sophisticated business persons.  However, the test for
+establishing a duty of care is far more complex.  In <b><i>Deloitte &amp;
+Touche v. Livent Inc. (Receiver of)</i></b>, 2017 SCC 63, [2017] 2 S.C.R. 795, the
+Court explained:</p>
+<p class="MsoQuote" style="margin-top:12.0pt;margin-right:28.35pt;margin-bottom:
+12.0pt;margin-left:28.35pt"><a name="PNUM_29"><span class="bold1"><span style="font-size:11.0pt;font-weight:normal">[29] </span></span></a><span style="font-size:11.0pt">    Where an established
+proximate relationship cannot be found, courts must undertake a full proximity
+analysis. To determine whether the "'close and direct' relationship which
+is the hallmark of the common law duty of care" exists (<span class="italic1">Saadati v. Moorhead</span>, </span><a href="https://www.lexisnexis.com:443/ca/legal/search/runRemoteLink.do?A=0.052195389092527966&amp;bct=A&amp;service=citation&amp;risb=21_T27377487279&amp;langcountry=CA&amp;linkInfo=F%23CA%23SCC%23sel1%252017%25year%252017%25decisiondate%252017%25onum%2528%25" target="_parent"><span style="font-size:11.0pt;color:#404040">2017 SCC 28</span></a><span style="font-size:11.0pt">, </span><a href="https://www.lexisnexis.com:443/ca/legal/search/runRemoteLink.do?A=0.32665209564049247&amp;bct=A&amp;service=citation&amp;risb=21_T27377487279&amp;langcountry=CA&amp;linkInfo=F%23CA%23SCR%23vol%251%25sel1%252017%25page%25543%25year%252017%25sel2%251%25" target="_parent"><span style="font-size:11.0pt;color:#404040">[2017] 1 S.C.R.
+543</span></a><span style="font-size:11.0pt">, at para. 24,
+citing <span class="italic1">Cooper</span>, at para. 32, and <span class="italic1">Donoghue
+v. Stevenson</span>, [1932] A.C. 562 (H.L.), at pp. 580-81), courts must
+examine all relevant "factors arising from the <span class="italic1"><span style="font-style:normal">relationship</span></span> between the plaintiff and
+the defendant" (<span class="italic1">Cooper</span>, at para. 30 (emphasis
+in original); <span class="italic1">Edwards</span>, at para. 9; <span class="italic1">Childs</span>, at para. 24; <span class="italic1">Odhavji</span>,
+at para. 50; <span class="italic1"><span style="font-style:normal">Hill</span></span>,
+at para. 24; <span class="italic1">Fullowka</span>, at para. 26;<span class="italic1"><span style="font-style:normal"> </span>Saadati</span>, at para.
+24). While these factors are diverse and depend on the circumstances of each
+case (<span class="italic1">Cooper</span>, at para. 35), this Court has
+maintained that they include "expectations, representations, reliance, and
+the property or other interests involved" (<span class="italic1"><span style="font-style:normal">ibid.</span></span>, at para. 34; <span class="italic1">Odhavji</span>, at para. 50; <span class="italic1">Fullowka</span>,
+at para. 26) as well as any statutory obligations (<span class="italic1">Cooper</span>,
+at para. 38; <span class="italic1">Edwards</span>, at paras. 9 and 13; <span class="italic1">Odhavji</span>, at para. 56).</span></p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[60]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>In cases, like <b><i>Cognos</i></b>, where a
+duty of care has been found, there was a contractual relationship between the
+parties.  The argument in that case was that the plaintiff relied on
+representations to enter the contract and that the “representations made in a
+pre-contractual setting did not correspond with the post-agreement reality” (<b><i>Cognos</i></b>,
+at para. 36).  Unlike <b><i>Cognos</i></b> and the other cases relied upon by
+the plaintiffs (<b><i>Smith v. Union of Icelandic Fish Producers, </i></b>2005
+NSCA 145 (CanLII); <b><i>TRC Enterprises v. Tobmar Newstands Inc. et al</i></b>,
+2010 MBQB 112 (CanLII)), there was no contractual relationship between the
+parties here.   </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[61]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Even assuming that a duty of care can be found between
+parties who are negotiating a contract, the evidence does not support the other
+elements of the tort. First, the impugned representations here relate to the
+intention of the defendants to contract. There is debate in the case law as to
+whether representations relating to the intent of the parties, as opposed to matters
+of fact, can found an action in tort (see <b><i>Smith </i></b>at paras.
+75-76).  Second, the evidence does not support the allegations that the
+representations were untrue or misleading.  Draft agreements, approved by
+Morris, were sent by his lawyers to the plaintiffs’ lawyer.  It was the
+plaintiffs who chose not to sign the draft agreements.  </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[62]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The evidence before me does not establish
+negligent misrepresentation nor is there anything before me that suggests that
+further evidence is needed to resolve this issue.</p>
+<p class="Number" style="margin-top:12.0pt"> </p>
+<h2 style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in">Conspiracy</h2>
+<p class="Number" style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;
+line-height:200%;font-family:"Times New Roman","serif"'>[63]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Two types of conspiracy are recognized in
+Canadian tort law – predominant purpose conspiracy and unlawful means
+conspiracy. They are explained in <b><i>Pro-Sys Consultants Ltd. v. Microsoft
+Corporation</i></b>, 2013 SCC 57, [2013] 3 S.C.R. 477:</p>
+<p class="MsoQuote"><span style="font-size:11.0pt">[74]    
+Predominant purpose conspiracy is made out where the predominant purpose of the
+defendant's conduct is to cause injury to the plaintiff using either lawful or
+unlawful means, and the plaintiff does in fact suffer loss caused by the
+defendant's conduct. Where lawful means are used, if their object is to injure
+the plaintiff, the lawful acts become unlawful (<i>Canada Cement LaFarge Ltd.
+v. British Columbia Lightweight Aggregate Ltd.</i>, [1983] 1 S.C.R. 452, at pp.
+471-72).</span></p>
+<p align="center" class="MsoNormal" style="text-align:center"><span style="font-size:11.0pt">. . .</span></p>
+<p class="MsoQuote"><span style="font-size:11.0pt">[80]     The second
+type of conspiracy, called "unlawful means conspiracy", requires no
+predominant purpose but requires that the unlawful conduct in question be
+directed toward the plaintiff, that the defendant should know that injury to the
+plaintiff is likely to result, and that the injury to the plaintiff does in
+fact occur (<i>Cement LaFarge</i>, at pp. 471-72).</span></p>
+<p class="MsoQuote"> </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[64]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>In the statement of claim, the plaintiffs allege
+that “Hicks, Braid and Morris were parties to an agreement to deceive CN into
+believing that [WE] was qualified for the CN contract when it was not, that
+their actions were directed towards the plaintiffs with the intention to cause
+them injury and that they knew or ought to have known that the plaintiffs would
+suffer injury.”   Plaintiffs’ counsel made no argument at the hearing regarding
+the claim of conspiracy but relied on the plaintiffs’ written brief which
+explains: </p>
+<p class="MsoQuote"><span style="font-size:11.0pt">26.  The evidence
+is clear that Walt, Maisie and Carolyn lied on numerous occasions to several
+different parties.  They lied to the plaintiffs.  They lied to CN.  They lied
+to the drivers.</span></p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:28.35pt;margin-bottom:
+0in;margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:11.0pt">27.  Why did they lie?  They lied because they wanted
+the plaintiffs’ authority [transport licence] and believed that without it,
+they could not get the CN contract.  As the evidence shows, they never had a
+bona fide intention to honour their commitments to the plaintiffs.  They made
+an agreement amongst themselves to lie to CN, the plaintiffs and the drivers
+which resulting [sic] in the plaintiffs’ [sic] suffering damages.  As indicated
+in <b><i>Alevizos</i></b>, there was a concerted action taken on their part,
+pursuant to an agreement, that was likely to cause the plaintiffs harm, and did
+in fact cause them harm. </span></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[65]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>It is not clear from the written argument
+whether the plaintiffs are alleging predominant purpose conspiracy or unlawful
+means conspiracy.  However, as no argument was made that the conduct on which
+the conspiracy is based – lying – was “unlawful” (see <b><i>A.I. Enterprises
+Ltd. v. Bram Enterprises Ltd.</i></b>, 2014 SCC 12, [2014] 1 S.C.R. 177), I
+will assume that the claim is based on predominant purpose conspiracy.   </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[66]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>There is no evidence to support the plaintiffs’
+claim that Morris, Hicks and Braid lied to them when they led them to believe
+that WE intended to purchase FE.  Rather, the evidence is that WE made offers
+to FE which FE rejected.  Morris approved the draft agreements sent to the
+plaintiffs’ lawyer by his lawyers and was prepared to sign them.    </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[67]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>As for the allegation that the defendants agreed
+to lie to CN, it is true that the covering letter sent with WE’s bid was
+misleading in referring to a partnership between WE and FE even though no purchase
+agreement had been concluded.  But, to the extent that there was any agreement
+to lie to CN, the plaintiffs were parties to it. Both Comeau and Silva signed
+the letter to CN.  In her examination for discovery, Comeau admitted that she
+signed the letter knowing that the representation in it was untrue.      </p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[68]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Moreover, the predominant purpose of the
+“agreement to lie” to CN was not to cause injury to the plaintiffs.  It was to
+ensure that WE got the CN contract.  As the plaintiffs were to get a commission
+on that contract if the sale went through, the lie would benefit them, not
+injure them.   </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[69]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>I am confident on the evidence before me that
+there is no merit to the claim of conspiracy and that a trial of the issue
+would not provide anything further to substantiate the claim.     </p>
+<p class="Number"> </p>
+<h1>conclusion</h1>
+<p class="MsoNormal"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[70]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The plaintiffs claim that WE concluded an
+agreement with FE to purchase FE’s assets or, at least, they were led to
+believe an agreement would be concluded.  I have explained why I have found
+that there is no genuine issue regarding the claim of contract or the torts of
+negligent misrepresentation or conspiracy.  And I am satisfied that the
+evidence necessary to fairly adjudicate these issues is before me or could have
+been put before me.  While Mr. Saper may have been able to shed some light on
+the issues, if he in fact would have anything to add, his evidence should have
+been introduced on this motion. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[71]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>It appears that the plaintiffs’ real complaint
+is that the defendants did not negotiate with them in good faith.  The
+statement of claim does not plead a breach of the duty of good faith as a cause
+of action.  But, in any case, while the law recognizes a duty of good faith in
+the performance of a contract (<b><i>Bhasin v. Hrynew</i></b>, 2014 SCC 71,
+[2014] 3 S.C.R. 494), it does not recognize a duty of good faith in negotiating
+a contract (<b><i>Martel Building Ltd. v. Canada</i></b>, 2000 SCC 60, [2000] 2
+S.C.R. 860).  The adversarial nature of commercial negotiations must temper the
+expectations of the parties.  As stated in <b><i>Martel</i></b>, at para. 62,
+“The primary goal of any economically rational actor engaged in commercial
+negotiation is to achieve the most advantageous financial bargain.”  The failed
+negotiations in this case do not give the plaintiffs a claim against the
+defendants.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[72]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>The motion of the defendants to dismiss the
+plaintiffs’ claim is granted.</p>
+<p class="Number" style="margin-top:12.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-indent:0in"><span style='font-size:14.0pt;line-height:200%;font-family:"Times New Roman","serif"'>[73]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Costs may be spoken to if they cannot be agreed
+upon.</p>
+<p class="Number"> </p>
+<p class="Number"> </p>
+<p align="right" class="Number" style="text-align:right">___________________________________
+J.</p>
+<p class="Number" style="margin-top:12.0pt"> </p>
+</div>
+<div><br clear="all"/>
+<hr align="left" size="1" width="33%"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>[1]</span></span></a> The only evidence before me were the affidavits of the defendant,
+Walt Morris, and the plaintiff, Vickie Comeau, which included excerpts of the
+examinations for discovery of the various parties.  Because counsel had
+conducted examinations for discovery before this motion was filed, they chose
+not to cross-examine on the affidavits.  </p>
+</div>
+</div>
+</body></html>

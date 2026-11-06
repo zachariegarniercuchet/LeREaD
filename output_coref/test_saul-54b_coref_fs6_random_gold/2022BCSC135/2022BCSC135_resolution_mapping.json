@@ -1,0 +1,3194 @@
+{
+  "BCSC 135 2022": {
+    "uri": "https://canlii.ca/t/jm25m",
+    "score": 0.7916179299354553,
+    "candidate_id": "2022bcsc135",
+    "candidate_title": "British Columbia (Environmental Management Act) v Canadian National Railway Company",
+    "query_text": "decision | British Columbia (Environmental\n  Management Act) v. Canadian National Railway Company | Decision of September 10, 2019 | Decision of September 17, 2019 | EAB decision of September 10, 2019 | EAB decision of September 17, 2019 | decisions\nof September 10, 2019 | decision | decision of September 10, 2019 | Decision\nof May 29, 2020 | EAB’s decision | decisions\ndated (September 10 | decision dated May 29, 2020 | decision\nof May 29, 2020 | decisions (September\n10, 2019 | May 29, 2020 decision | EAB’s decisions of September 10, 2019 | decision of September\n17, 2019 | decision of May 29, 2020 | EAB decision | 2022 BCSC 135",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jm25m",
+        "score": 0.7916179299354553,
+        "candidate_title": "British Columbia (Environmental Management Act) v Canadian National Railway Company"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn8l",
+        "score": 0.7850822806358337,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn9f",
+        "score": 0.7653135657310486,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      }
+    ]
+  },
+  "Decision of September 17, 2019": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.7766280770301819,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | Decision of September 17, 2019 | September 17, 2019 | September 17, 2019 decisions | EAB decision of September 17,\n2019 | EAB’s September 17, 2019 decision | September 17, 2019 decision | EAB decision of\nSeptember 17, 2019 | Decision\nof September 17, 2019 | EAB decision of September 17, 2019 | decision of September 17, 2019 | decision of\nSeptember 17, 2019",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.7766280770301819,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/262j6",
+        "score": 0.5525002479553223,
+        "candidate_title": "Schrader (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn8l",
+        "score": 0.5504480600357056,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      }
+    ]
+  },
+  "EAB decision of May 29, 2020": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.6659722328186035,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | EAB decision of May 29, 2020 | May 29, 2020 decision of the EAB | EAB\ndecision of May 29, 2020 | decision of the EAB",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.6659722328186035,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/jd56v",
+        "score": 0.5978827476501465,
+        "candidate_title": "Decision No.: 2020-0555"
+      },
+      {
+        "uri": "https://canlii.ca/t/j55b6",
+        "score": 0.5913176536560059,
+        "candidate_title": "Maceachern (Re)"
+      }
+    ]
+  },
+  "CNRL v. Canada AG": {
+    "uri": "https://canlii.ca/t/1ftdl",
+    "score": 0.7783777713775635,
+    "candidate_id": "1988csc-scc39",
+    "candidate_title": "Canadian National Railway Co. v. Courtois",
+    "query_text": "decision | Canadian National Transportation Ltd. v.\nCanada (Attorney General) | Canadian\nNational Railway Co. v. Courtois | [1983] 2 S.C.R. 206 | [1988] 1 S.C.R. 868",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftdl",
+        "score": 0.7783777713775635,
+        "candidate_title": "Canadian National Railway Co. v. Courtois"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mfmv",
+        "score": 0.7272215485572815,
+        "candidate_title": "A.G. (Can.) v. Can. Nat. Transportation, Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/g6z0w",
+        "score": 0.7087568044662476,
+        "candidate_title": "Canadian National Railway Co. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "EAB": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.6443400979042053,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | EAB’s decision | EAB | EAB’s May 29,\n2020 decision",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.6443400979042053,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn9f",
+        "score": 0.5636104941368103,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jd56v",
+        "score": 0.5609301924705505,
+        "candidate_title": "Decision No.: 2020-0555"
+      }
+    ]
+  },
+  "British Columbia (Environmental Management Act) v. Canadian National Railway Company": {
+    "uri": "https://canlii.ca/t/fp9gs",
+    "score": 0.6443279385566711,
+    "candidate_id": "2011onlst214",
+    "candidate_title": "James Maurice Melnick v. Law Society of Upper Canada",
+    "query_text": "decision | decision | Sierra Club | James Maurice Melnick v. Law\nSociety of Upper Canada | decision of September 10, 2019 | Alltrans | Bell\nCanada | <i>Reference Case</i> | EMA\nReference | September 10, 2019 | EAB decision of September 10, 2019 | 2011 ONLSHP 214",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fp9gs",
+        "score": 0.6443279385566711,
+        "candidate_title": "James Maurice Melnick v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/hx97s",
+        "score": 0.5850212574005127,
+        "candidate_title": "Belwood Lake Cottagers Association Inc. v. Ontario (Environment and Climate Change)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fsj8",
+        "score": 0.5765557289123535,
+        "candidate_title": "Nlaka’pamux Nation Tribal Council v. British Columbia (Environmental Assessment Office)"
+      }
+    ]
+  },
+  "May 29, 2020 EAB Decision": {
+    "uri": "https://canlii.ca/t/jbh32",
+    "score": 0.5482257604598999,
+    "candidate_id": "2020onca676",
+    "candidate_title": "McAnuff (Re)",
+    "query_text": "decision | May 29, 2020\ndecision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jbh32",
+        "score": 0.5482257604598999,
+        "candidate_title": "McAnuff (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8f5l",
+        "score": 0.53729248046875,
+        "candidate_title": "Magee (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5313312411308289,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      }
+    ]
+  },
+  "Decision of September 10, 2019": {
+    "uri": "https://canlii.ca/t/j0rv8",
+    "score": 0.5761346220970154,
+    "candidate_id": "2019fct770",
+    "candidate_title": "Smith v. Canada (Attorney General)",
+    "query_text": "decision | September\n10, 2019 | decision of September 10,\n2019 | decision of September 10, 2019",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j0rv8",
+        "score": 0.5761346220970154,
+        "candidate_title": "Smith v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5753139853477478,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/hx5fh",
+        "score": 0.5663893818855286,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "EAB decision of September 10, 2019": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.7121326327323914,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | <a name=\"_Toc90897832\">EAB decision of September 10, 201</a>9 | decision | EAB decision of September 10, 2019 | EAB decision | EAB decisions of September 10, 2019",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.7121326327323914,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/j0flg",
+        "score": 0.5871372222900391,
+        "candidate_title": "A.L.W. v T.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/jdz5k",
+        "score": 0.5661275386810303,
+        "candidate_title": "Essa v APEGA"
+      }
+    ]
+  },
+  "Sierra Club of Canada v. Canada (Minister of Finance)": {
+    "uri": "https://canlii.ca/t/51s4",
+    "score": 0.8180186152458191,
+    "candidate_id": "2002csc-scc41",
+    "candidate_title": "Sierra Club of Canada v. Canada (Minister of Finance)",
+    "query_text": "decision | Sierra\nClub of Canada v. Canada (Minister of Finance) | 2002 SCC 41",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51s4",
+        "score": 0.8180186152458191,
+        "candidate_title": "Sierra Club of Canada v. Canada (Minister of Finance)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nb6r",
+        "score": 0.6290112137794495,
+        "candidate_title": "Placer Dome Canada Ltd. v. Ontario (Minister of Finance)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftpf",
+        "score": 0.6185498237609863,
+        "candidate_title": "Finlay v. Canada (Minister of Finance)"
+      }
+    ]
+  },
+  "A.B. v. Bragg Communications Inc.": {
+    "uri": "https://canlii.ca/t/fstvq",
+    "score": 0.8139307498931885,
+    "candidate_id": "2012csc-scc46",
+    "candidate_title": "A.B. v. Bragg Communications Inc.",
+    "query_text": "decision | A.B. v. Bragg\nCommunications Inc. | 2012 SCC 46",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fstvq",
+        "score": 0.8139307498931885,
+        "candidate_title": "A.B. v. Bragg Communications Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/51s6",
+        "score": 0.576021134853363,
+        "candidate_title": "Bell ExpressVu Limited Partnership v. Rex"
+      },
+      {
+        "uri": "https://canlii.ca/t/gs3l3",
+        "score": 0.5704902410507202,
+        "candidate_title": "Rogers Communications Inc. v. Châteauguay (City)"
+      }
+    ]
+  },
+  "RvChanmany": {
+    "uri": "https://canlii.ca/t/gskjd",
+    "score": 0.8058494925498962,
+    "candidate_id": "2016onca576",
+    "candidate_title": "R. v. Chanmany",
+    "query_text": "decision | R. v. Chanmany | 2016 ONCA 576",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gskjd",
+        "score": 0.8058494925498962,
+        "candidate_title": "R. v. Chanmany"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fpgj",
+        "score": 0.6159440875053406,
+        "candidate_title": "R. v. Manley"
+      },
+      {
+        "uri": "https://canlii.ca/t/jlmkx",
+        "score": 0.6155107617378235,
+        "candidate_title": "R. v. Chacon-Perez"
+      }
+    ]
+  },
+  "Mentuck": {
+    "uri": "https://canlii.ca/t/51x5",
+    "score": 0.797789990901947,
+    "candidate_id": "2001csc-scc76",
+    "candidate_title": "R. v. Mentuck",
+    "query_text": "decision | R. v. Mentuck | Mentuck | /Mentuck | <i>Mentuck</i> | 2001 SCC 76",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51x5",
+        "score": 0.797789990901947,
+        "candidate_title": "R. v. Mentuck"
+      },
+      {
+        "uri": "https://canlii.ca/t/gjcjj",
+        "score": 0.6177768111228943,
+        "candidate_title": "R. v. Tatton"
+      },
+      {
+        "uri": "https://canlii.ca/t/5212",
+        "score": 0.6062436699867249,
+        "candidate_title": "R. v. Rideout"
+      }
+    ]
+  },
+  "Duteil v. British Columbia Nurses’ Union": {
+    "uri": "https://canlii.ca/t/hw1xc",
+    "score": 0.8675538897514343,
+    "candidate_id": "2018bcsc1976",
+    "candidate_title": "Duteil v British Columbia Nurses’ Union",
+    "query_text": "decision | Duteil\nv. British Columbia Nurses’ Union | 2018 BCSC 1976",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hw1xc",
+        "score": 0.8675538897514343,
+        "candidate_title": "Duteil v British Columbia Nurses’ Union"
+      },
+      {
+        "uri": "https://canlii.ca/t/h07gj",
+        "score": 0.6803356409072876,
+        "candidate_title": "British Columbia Nurses’ Union v. Health Sciences Association  of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/jdstr",
+        "score": 0.6320566534996033,
+        "candidate_title": "Health Employers Association of BC v British Columbia Nurses’ Union"
+      }
+    ]
+  },
+  "Sierra Club": {
+    "uri": "https://canlii.ca/t/51s4",
+    "score": 0.6736820936203003,
+    "candidate_id": "2002csc-scc41",
+    "candidate_title": "Sierra Club of Canada v. Canada (Minister of Finance)",
+    "query_text": "decision | Sierra Club | Sierra\nClub",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51s4",
+        "score": 0.6736820936203003,
+        "candidate_title": "Sierra Club of Canada v. Canada (Minister of Finance)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9rdj",
+        "score": 0.5938553214073181,
+        "candidate_title": "Saskatchewan Action Foundation for the Environment Inc. v. Saskatchewan (Minister of the Environment and Public Safety"
+      },
+      {
+        "uri": "https://canlii.ca/t/46h1",
+        "score": 0.5844440460205078,
+        "candidate_title": "Rocky Mountain Ecosystem Coalition v. Canada (National Energy Board)"
+      }
+    ]
+  },
+  "Vavilov": {
+    "uri": "https://canlii.ca/t/j46kb",
+    "score": 0.8892059922218323,
+    "candidate_id": "2019csc-scc65",
+    "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov",
+    "query_text": "decision | Canada (Minister of Citizenship and Immigration)\nv. Vavilov | Vavilov | 2019 SCC 65",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j46kb",
+        "score": 0.8892059922218323,
+        "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4j13",
+        "score": 0.7908703684806824,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gkr9s",
+        "score": 0.7846671938896179,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "EAB’s decision of May 29, 2020": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.6485451459884644,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | EAB’s decision\nof May 29, 2020",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.6485451459884644,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/j55b6",
+        "score": 0.5798072814941406,
+        "candidate_title": "Maceachern (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn9f",
+        "score": 0.5708141326904297,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      }
+    ]
+  },
+  "Edmonton Journal v. Alberta (Attorney General)": {
+    "uri": "https://canlii.ca/t/1fszp",
+    "score": 0.7930176258087158,
+    "candidate_id": "1989csc-scc131",
+    "candidate_title": "Edmonton Journal v. Alberta (Attorney General)",
+    "query_text": "decision | <i>Edmonton\nJournal v. Alberta (Attorney General)</i> | [1989] 2 S.C.R. 1326",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fszp",
+        "score": 0.7930176258087158,
+        "candidate_title": "Edmonton Journal v. Alberta (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft6r",
+        "score": 0.6132442355155945,
+        "candidate_title": "Slaight Communications Inc. v. Davidson"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh6p2",
+        "score": 0.6038383841514587,
+        "candidate_title": "Edmonton (City) v. Alberta (Information and Privacy Commissioner)"
+      }
+    ]
+  },
+  "Dagenais": {
+    "uri": "https://canlii.ca/t/1frnq",
+    "score": 0.6534790992736816,
+    "candidate_id": "1994csc-scc102",
+    "candidate_title": "Dagenais v. Canadian Broadcasting Corp.",
+    "query_text": "decision | Dagenais | <i>Dagenais</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frnq",
+        "score": 0.6534790992736816,
+        "candidate_title": "Dagenais v. Canadian Broadcasting Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/ftmfr",
+        "score": 0.5712301135063171,
+        "candidate_title": "Dag v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fst8",
+        "score": 0.5608970522880554,
+        "candidate_title": "Danson v. Ontario (Attorney General)"
+      }
+    ]
+  },
+  "Dore v. Barreau du Quebec": {
+    "uri": "https://canlii.ca/t/fqn88",
+    "score": 0.7941659688949585,
+    "candidate_id": "2012csc-scc12",
+    "candidate_title": "Doré v. Barreau du Québec",
+    "query_text": "decision | <i>Doré v. Barreau du Québec</i> | 2012\nSCC 12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqn88",
+        "score": 0.7941659688949585,
+        "candidate_title": "Doré v. Barreau du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/hn9jp",
+        "score": 0.6179299354553223,
+        "candidate_title": "Barreau du Québec v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqlm2",
+        "score": 0.5714451670646667,
+        "candidate_title": "Barreau du Québec c. Micheline Parizeau"
+      }
+    ]
+  },
+  "Doré": {
+    "uri": "https://canlii.ca/t/fqn88",
+    "score": 0.7056060433387756,
+    "candidate_id": "2012csc-scc12",
+    "candidate_title": "Doré v. Barreau du Québec",
+    "query_text": "decision | Doré | <i>Doré</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqn88",
+        "score": 0.7056060433387756,
+        "candidate_title": "Doré v. Barreau du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/hzzc8",
+        "score": 0.6067266464233398,
+        "candidate_title": "Dorélas v. Canada (Transport)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs1k",
+        "score": 0.5380363464355469,
+        "candidate_title": "Domtar Inc. v. Quebec (Commission d'appel en matière de lésions professionnelles)"
+      }
+    ]
+  },
+  "Canadian Broadcasting Corporation v. Ferrier": {
+    "uri": "https://canlii.ca/t/j49hl",
+    "score": 0.8507091999053955,
+    "candidate_id": "2019onca1025",
+    "candidate_title": "Canadian Broadcasting Corporation v. Ferrier",
+    "query_text": "decision | Canadian Broadcasting Corporation v. Ferrier | 2019\nONCA 1025",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j49hl",
+        "score": 0.8507091999053955,
+        "candidate_title": "Canadian Broadcasting Corporation v. Ferrier"
+      },
+      {
+        "uri": "https://canlii.ca/t/265b2",
+        "score": 0.5874113440513611,
+        "candidate_title": "Statham v. Canadian Broadcasting Corporation"
+      },
+      {
+        "uri": "https://canlii.ca/t/gkfmq",
+        "score": 0.5806007981300354,
+        "candidate_title": "Chandra v CBC"
+      }
+    ]
+  },
+  "Ferrier": {
+    "uri": "https://canlii.ca/t/j49hl",
+    "score": 0.6024295687675476,
+    "candidate_id": "2019onca1025",
+    "candidate_title": "Canadian Broadcasting Corporation v. Ferrier",
+    "query_text": "decision | Ferrier",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j49hl",
+        "score": 0.6024295687675476,
+        "candidate_title": "Canadian Broadcasting Corporation v. Ferrier"
+      },
+      {
+        "uri": "https://canlii.ca/t/hq0sv",
+        "score": 0.5480040311813354,
+        "candidate_title": "Ferraro v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jw0v8",
+        "score": 0.5376132726669312,
+        "candidate_title": "Fortier v. The Queen"
+      }
+    ]
+  },
+  "Fraser v. Canada (Public Safety and Emergency Preparedness)": {
+    "uri": "https://canlii.ca/t/jhh3j",
+    "score": 0.8258281350135803,
+    "candidate_id": "2021fct821",
+    "candidate_title": "Fraser v. Canada (Public Safety and Emergency Preparedness)",
+    "query_text": "decision | <i>Fraser v. Canada (Public Safety and Emergency Preparedness)</i> | 2021 FC 821",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jhh3j",
+        "score": 0.8258281350135803,
+        "candidate_title": "Fraser v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jgl8h",
+        "score": 0.6950942277908325,
+        "candidate_title": "Khizar v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jj01q",
+        "score": 0.6822961568832397,
+        "candidate_title": "XY v. Canada (Public Safety and Emergency Preparedness)"
+      }
+    ]
+  },
+  "Corus": {
+    "uri": "https://canlii.ca/t/jbwm6",
+    "score": 0.5406321287155151,
+    "candidate_id": "2020fct1064",
+    "candidate_title": "Corus Entertainment Inc. v. Canada (Attorney General)",
+    "query_text": "decision | Corus",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jbwm6",
+        "score": 0.5406321287155151,
+        "candidate_title": "Corus Entertainment Inc. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/k0z9d",
+        "score": 0.5318405032157898,
+        "candidate_title": "Corless v. Bell Mobility Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/g1jnc",
+        "score": 0.5217013359069824,
+        "candidate_title": "Regina v. Armco Canada Ltd. and 9 other Corporations (No.2)"
+      }
+    ]
+  },
+  "EAB decision of September 17, 2019, paras. 75, 82": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Sherman": {
+    "uri": "https://canlii.ca/t/jgc4w",
+    "score": 0.6546391248703003,
+    "candidate_id": "2021csc-scc25",
+    "candidate_title": "Sherman Estate v. Donovan",
+    "query_text": "decision | Sherman | <i>Sherman</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jgc4w",
+        "score": 0.6546391248703003,
+        "candidate_title": "Sherman Estate v. Donovan"
+      },
+      {
+        "uri": "https://canlii.ca/t/22rwm",
+        "score": 0.5722073912620544,
+        "candidate_title": "Sherren v. Pearson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fslt",
+        "score": 0.5319672226905823,
+        "candidate_title": "R. v. Sherratt"
+      }
+    ]
+  },
+  "Canadian Broadcasting Corp. v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/2fgn1",
+    "score": 0.8177856802940369,
+    "candidate_id": "2011csc-scc2",
+    "candidate_title": "Canadian Broadcasting Corp. v. Canada (Attorney General)",
+    "query_text": "decision | <i>Canadian Broadcasting Corp. v. Canada (Attorney\nGeneral)</i> | 2011 SCC 2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2fgn1",
+        "score": 0.8177856802940369,
+        "candidate_title": "Canadian Broadcasting Corp. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft4g",
+        "score": 0.6686007380485535,
+        "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mkb3",
+        "score": 0.661098301410675,
+        "candidate_title": "Capital Cities Comm. v. C.R.T.C."
+      }
+    ]
+  },
+  "Arsenault v. 3249265 Nova Scotia Limited (Pizzadelic)": {
+    "uri": "https://canlii.ca/t/hx4sr",
+    "score": 0.7992287278175354,
+    "candidate_id": "2018nshrc1000001",
+    "candidate_title": "Arsenault v 3249265 Nova Scotia Limited (Pizzadelic)",
+    "query_text": "decision | Arsenault v. 3249265 Nova\nScotia Limited (Pizzadelic) | 2018 CanLII 129531 (NS HRC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hx4sr",
+        "score": 0.7992287278175354,
+        "candidate_title": "Arsenault v 3249265 Nova Scotia Limited (Pizzadelic)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hzbj9",
+        "score": 0.5300870537757874,
+        "candidate_title": "Nova Scotia (Attorney General) v S&D Smith Central Supplies Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/fmqmj",
+        "score": 0.523483157157898,
+        "candidate_title": "2420188 Nova Scotia Ltd. v. Hiltz"
+      }
+    ]
+  },
+  "AB v. Ontario (Education)": {
+    "uri": "https://canlii.ca/t/hvd7z",
+    "score": 0.8338016867637634,
+    "candidate_id": "2018onhrt1351",
+    "candidate_title": "AB v. Ontario (Education)",
+    "query_text": "decision | <i>AB v. Ontario\n(Education)</i> | 2018 HRTO 1351 (Ont. HR)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvd7z",
+        "score": 0.8338016867637634,
+        "candidate_title": "AB v. Ontario (Education)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1wz5s",
+        "score": 0.6457993984222412,
+        "candidate_title": "Persaud v. Toronto District School Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/k5wqw",
+        "score": 0.6017909049987793,
+        "candidate_title": "Tran v. Ontario Superior Court of Justice"
+      }
+    ]
+  },
+  "British Columbia (Securities Commission) v. BridgeMark Financial Corp.": {
+    "uri": "https://canlii.ca/t/j6b2r",
+    "score": 0.8491551280021667,
+    "candidate_id": "2020bcsc527",
+    "candidate_title": "British Columbia (Securities Commission) v BridgeMark Financial Corp.",
+    "query_text": "decision | British Columbia\n(Securities Commission) v. BridgeMark Financial Corp. | 2020 BCSC 527",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j6b2r",
+        "score": 0.8491551280021667,
+        "candidate_title": "British Columbia (Securities Commission) v BridgeMark Financial Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/jg8m9",
+        "score": 0.6174651384353638,
+        "candidate_title": "Poonian v. British Columbia (Securities Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggh6z",
+        "score": 0.603803813457489,
+        "candidate_title": "Streamline Properties Inc (Re)"
+      }
+    ]
+  },
+  "EAB decision of September 10, 2019, paras. 56-58": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "September 10, 2019 decision": {
+    "uri": "https://canlii.ca/t/j32qw",
+    "score": 0.5973658561706543,
+    "candidate_id": "2019onsc5780",
+    "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada",
+    "query_text": "decision | September 10, 2019 decision | September 10,\n2019 decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5973658561706543,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/j0rv8",
+        "score": 0.593793511390686,
+        "candidate_title": "Smith v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hx5fh",
+        "score": 0.5861955285072327,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "September 17, 2019 decision": {
+    "uri": "https://canlii.ca/t/j0rv8",
+    "score": 0.5688204765319824,
+    "candidate_id": "2019fct770",
+    "candidate_title": "Smith v. Canada (Attorney General)",
+    "query_text": "decision | September 17, 2019 decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j0rv8",
+        "score": 0.5688204765319824,
+        "candidate_title": "Smith v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hx5fh",
+        "score": 0.5385953187942505,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5352082848548889,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      }
+    ]
+  },
+  "Reference re Environmental Management Act (British Columbia)": {
+    "uri": "https://canlii.ca/t/j0fsc",
+    "score": 0.787667453289032,
+    "candidate_id": "2019bcca181",
+    "candidate_title": "Reference re Environmental Management Act (British Columbia)",
+    "query_text": "decision | <i>Reference re\nEnvironmental Management Act (British Columbia)</i> | EMA\nReference | 2019 BCCA 181",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j0fsc",
+        "score": 0.787667453289032,
+        "candidate_title": "Reference re Environmental Management Act (British Columbia)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn8l",
+        "score": 0.7010124921798706,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jm25m",
+        "score": 0.7008009552955627,
+        "candidate_title": "British Columbia (Environmental Management Act) v Canadian National Railway Company"
+      }
+    ]
+  },
+  "2020 SCC 1": {
+    "uri": "https://canlii.ca/t/jh6m8",
+    "score": 0.6188132166862488,
+    "candidate_id": "2021csc-scc30",
+    "candidate_title": "Canada v. Canada North Group Inc.",
+    "query_text": "decision | 2020 SCC 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jh6m8",
+        "score": 0.6188132166862488,
+        "candidate_title": "Canada v. Canada North Group Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.612440288066864,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/k5vlj",
+        "score": 0.607974112033844,
+        "candidate_title": "Canada (Attorney General) v. Power"
+      }
+    ]
+  },
+  "EMA Reference": {
+    "uri": "https://canlii.ca/t/jvn9f",
+    "score": 0.48703768849372864,
+    "candidate_id": "2020bceab12",
+    "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act",
+    "query_text": "decision | EMA Reference | <i>EMA Reference</i> | <i>EMA\nReference</i> | EMA\nReference",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jvn9f",
+        "score": 0.48703768849372864,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/j4rs7",
+        "score": 0.4752531051635742,
+        "candidate_title": "Reference re Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn8l",
+        "score": 0.4653644263744354,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      }
+    ]
+  },
+  "Reference re Securities Act": {
+    "uri": "https://canlii.ca/t/fpdwb",
+    "score": 0.8315666913986206,
+    "candidate_id": "2011csc-scc66",
+    "candidate_title": "Reference re Securities Act",
+    "query_text": "decision | Reference re Securities\nAct | 2011 SCC\n66",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpdwb",
+        "score": 0.8315666913986206,
+        "candidate_title": "Reference re Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/g25sg",
+        "score": 0.6178752779960632,
+        "candidate_title": "McLean v. British Columbia (Securities Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fbv3",
+        "score": 0.6011580228805542,
+        "candidate_title": "Celgene Corp. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Québec (Procureur général) c. Lacombe": {
+    "uri": "https://canlii.ca/t/2cxpb",
+    "score": 0.8268113732337952,
+    "candidate_id": "2010csc-scc38",
+    "candidate_title": "Quebec (Attorney General) v. Lacombe",
+    "query_text": "decision | <i>Québec (Attorney General) v. Lacombe</i> | 2010 SCC 38",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2cxpb",
+        "score": 0.8268113732337952,
+        "candidate_title": "Quebec (Attorney General) v. Lacombe"
+      },
+      {
+        "uri": "https://canlii.ca/t/fvsc0",
+        "score": 0.6325054168701172,
+        "candidate_title": "Quebec (Attorney General) v. A"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrkm6",
+        "score": 0.6139818429946899,
+        "candidate_title": "R. v. Comeau"
+      }
+    ]
+  },
+  "Canadian Western Bank": {
+    "uri": "https://canlii.ca/t/1rmr1",
+    "score": 0.6841932535171509,
+    "candidate_id": "2007csc-scc22",
+    "candidate_title": "Canadian Western Bank v. Alberta",
+    "query_text": "decision | <i>Canadian Western Bank</i> | <i>Canadian\nWestern Bank</i> | Canadian Western Bank | Canadian Western\nBank",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rmr1",
+        "score": 0.6841932535171509,
+        "candidate_title": "Canadian Western Bank v. Alberta"
+      },
+      {
+        "uri": "https://canlii.ca/t/hw4nr",
+        "score": 0.5925216674804688,
+        "candidate_title": "Coburn and Watson’s Metropolitan Home v. Bank of Montreal"
+      },
+      {
+        "uri": "https://canlii.ca/t/k407z",
+        "score": 0.5894811153411865,
+        "candidate_title": "Royal Bank of Canada v Canwest Aerospace Inc."
+      }
+    ]
+  },
+  "Reference\\_re\\_Greenhouse\\_Gas\\_Pollution\\_Pricing\\_Act": {
+    "uri": "https://canlii.ca/t/jdwnw",
+    "score": 0.8208098411560059,
+    "candidate_id": "2021csc-scc11",
+    "candidate_title": "References re Greenhouse Gas Pollution Pricing Act",
+    "query_text": "decision | Reference\nre Greenhouse Gas Pollution Pricing Act | 2021 SCC 11",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jdwnw",
+        "score": 0.8208098411560059,
+        "candidate_title": "References re Greenhouse Gas Pollution Pricing Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jh6m8",
+        "score": 0.5938538312911987,
+        "candidate_title": "Canada v. Canada North Group Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/2fbv3",
+        "score": 0.5607205629348755,
+        "candidate_title": "Celgene Corp. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Courtois": {
+    "uri": "https://canlii.ca/t/1ftdl",
+    "score": 0.5687804818153381,
+    "candidate_id": "1988csc-scc39",
+    "candidate_title": "Canadian National Railway Co. v. Courtois",
+    "query_text": "decision | Courtois | <i>Courtois</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftdl",
+        "score": 0.5687804818153381,
+        "candidate_title": "Canadian National Railway Co. v. Courtois"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vk2h",
+        "score": 0.5122621655464172,
+        "candidate_title": "Cooper v. R."
+      },
+      {
+        "uri": "https://canlii.ca/t/21v58",
+        "score": 0.5114926695823669,
+        "candidate_title": "Cook v. Lewis"
+      }
+    ]
+  },
+  "SCC_2005_65": {
+    "uri": "https://canlii.ca/t/1m020",
+    "score": 0.8350902795791626,
+    "candidate_id": "2005csc-scc65",
+    "candidate_title": "Kirkbi AG v. Ritvik Holdings Inc.",
+    "query_text": "decision | Kirkbi AG v. Ritvik Holdings\nInc. | 2005 SCC 65",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m020",
+        "score": 0.8350902795791626,
+        "candidate_title": "Kirkbi AG v. Ritvik Holdings Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/gg19b",
+        "score": 0.55232834815979,
+        "candidate_title": "Tervita Corp. v. Canada (Commissioner of Competition)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g88q1",
+        "score": 0.5491974353790283,
+        "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp."
+      }
+    ]
+  },
+  "Reference_re_Assisted_Human_Reproduction_Act": {
+    "uri": "https://canlii.ca/t/2f387",
+    "score": 0.8598534464836121,
+    "candidate_id": "2010csc-scc61",
+    "candidate_title": "Reference re Assisted Human Reproduction Act",
+    "query_text": "decision | <i>Reference re Assisted Human Reproduction\nAct</i> | 2010 SCC 61",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2f387",
+        "score": 0.8598534464836121,
+        "candidate_title": "Reference re Assisted Human Reproduction Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsk9",
+        "score": 0.6007612943649292,
+        "candidate_title": "Reference Re Canada Assistance Plan (B.C.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2f3vx",
+        "score": 0.5917912125587463,
+        "candidate_title": "Canada (Attorney General) v. McArthur"
+      }
+    ]
+  },
+  "Reference Case": {
+    "uri": "https://canlii.ca/t/j4rs7",
+    "score": 0.6094787120819092,
+    "candidate_id": "2020csc-scc1",
+    "candidate_title": "Reference re Environmental Management Act",
+    "query_text": "decision | Reference Case",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j4rs7",
+        "score": 0.6094787120819092,
+        "candidate_title": "Reference re Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jdhv",
+        "score": 0.5865471959114075,
+        "candidate_title": "Reference re Same-Sex Marriage"
+      },
+      {
+        "uri": "https://canlii.ca/t/fpdwb",
+        "score": 0.5788939595222473,
+        "candidate_title": "Reference re Securities Act"
+      }
+    ]
+  },
+  "Bonsecours": {
+    "uri": "https://synthetic.leread.ca/gold/G0098",
+    "score": 0.5581572651863098,
+    "candidate_id": "gold-G0098",
+    "candidate_title": "Canadian Pacific Railway Co. v. Corporation of the Parish of Notre Dame de Bonsecours",
+    "query_text": "decision | Bonsecours",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0098",
+        "score": 0.5581572651863098,
+        "candidate_title": "Canadian Pacific Railway Co. v. Corporation of the Parish of Notre Dame de Bonsecours"
+      },
+      {
+        "uri": "https://canlii.ca/t/21xpk",
+        "score": 0.4986167550086975,
+        "candidate_title": "BCE Inc. v. 1976 Debentureholders"
+      },
+      {
+        "uri": "https://canlii.ca/t/gb4qx",
+        "score": 0.493301123380661,
+        "candidate_title": "R. v. Bonadie"
+      }
+    ]
+  },
+  "Ontario v. Canadian Pacific Ltd.": {
+    "uri": "https://canlii.ca/t/g16t9",
+    "score": 0.8058748841285706,
+    "candidate_id": "1993onca1000062",
+    "candidate_title": "Ontario v. Canadian Pacific Ltd.",
+    "query_text": "decision | <i>Ontario v. Canadian\nPacific Ltd.</i> | [1993] O.J. No. 1082 (Ont. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g16t9",
+        "score": 0.8058748841285706,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frjh",
+        "score": 0.7486122250556946,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1w7z9",
+        "score": 0.661176323890686,
+        "candidate_title": "Canadian Pacific Ltd. v. Canada (Competition Act, Director of Investigation and Research)"
+      }
+    ]
+  },
+  "R. v. TNT Canada Inc.": {
+    "uri": "https://canlii.ca/t/g1cks",
+    "score": 0.8181096315383911,
+    "candidate_id": "1986onca1000045",
+    "candidate_title": "Regina v. TNT Canada Inc.",
+    "query_text": "decision | R. v. TNT Canada Inc. | (1986), 37 D.L.R. (4th) 297 (Ont. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1cks",
+        "score": 0.8181096315383911,
+        "candidate_title": "Regina v. TNT Canada Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1vk",
+        "score": 0.6387245059013367,
+        "candidate_title": "R. v. Transport Robert (1973) Lteé; R. v. 1260448 Ontario Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/g16t9",
+        "score": 0.5984986424446106,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      }
+    ]
+  },
+  "TNT": {
+    "uri": "https://canlii.ca/t/g1cks",
+    "score": 0.680518388748169,
+    "candidate_id": "1986onca1000045",
+    "candidate_title": "Regina v. TNT Canada Inc.",
+    "query_text": "decision | TNT",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1cks",
+        "score": 0.680518388748169,
+        "candidate_title": "Regina v. TNT Canada Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jxpqq",
+        "score": 0.5359711647033691,
+        "candidate_title": "Canadian National Railway Company v. Canada (Minister of Transport)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gjcjj",
+        "score": 0.5358678102493286,
+        "candidate_title": "R. v. Tatton"
+      }
+    ]
+  },
+  "pp.302-3": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Canadian Pacific": {
+    "uri": "https://canlii.ca/t/228wg",
+    "score": 0.7233198285102844,
+    "candidate_id": "1988csc-scc92",
+    "candidate_title": "Canadian Pacific Ltd. v. Paul",
+    "query_text": "decision | Canadian Pacific",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/228wg",
+        "score": 0.7233198285102844,
+        "candidate_title": "Canadian Pacific Ltd. v. Paul"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frjh",
+        "score": 0.7049527764320374,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1w7z9",
+        "score": 0.686654269695282,
+        "candidate_title": "Canadian Pacific Ltd. v. Canada (Competition Act, Director of Investigation and Research)"
+      }
+    ]
+  },
+  "IMTT-Québec inc.": {
+    "uri": "https://canlii.ca/t/j8g0d",
+    "score": 0.6198790669441223,
+    "candidate_id": "2020fct161",
+    "candidate_title": "9255-2504 Québec Inc. v. Canada",
+    "query_text": "decision | IMTT-Québec inc. | IMTT Québec inc. | IMTT-Québec\ninc.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j8g0d",
+        "score": 0.6198790669441223,
+        "candidate_title": "9255-2504 Québec Inc. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/gkbxg",
+        "score": 0.594055712223053,
+        "candidate_title": "Imperial Tobacco Canada Ltd. c. Conseil québécois sur le tabac et la santé"
+      },
+      {
+        "uri": "https://canlii.ca/t/520p",
+        "score": 0.5793192386627197,
+        "candidate_title": "Lac d'Amiante du Québec Ltée v. 2858-0702 Québec Inc."
+      }
+    ]
+  },
+  "IMTT-Quebec inc.": {
+    "uri": "https://canlii.ca/t/j8g0d",
+    "score": 0.5925933122634888,
+    "candidate_id": "2020fct161",
+    "candidate_title": "9255-2504 Québec Inc. v. Canada",
+    "query_text": "decision | IMTT-Québec\ninc. | IMTT-Québec inc.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j8g0d",
+        "score": 0.5925933122634888,
+        "candidate_title": "9255-2504 Québec Inc. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/gkbxg",
+        "score": 0.5832791328430176,
+        "candidate_title": "Imperial Tobacco Canada Ltd. c. Conseil québécois sur le tabac et la santé"
+      },
+      {
+        "uri": "https://canlii.ca/t/520p",
+        "score": 0.575724184513092,
+        "candidate_title": "Lac d'Amiante du Québec Ltée v. 2858-0702 Québec Inc."
+      }
+    ]
+  },
+  "British Columbia (Attorney General) v. Lafarge Canada Inc.": {
+    "uri": "https://canlii.ca/t/1rmqz",
+    "score": 0.7924491763114929,
+    "candidate_id": "2007csc-scc23",
+    "candidate_title": "British Columbia (Attorney General) v. Lafarge Canada Inc.",
+    "query_text": "decision | British\nColumbia (Attorney General) v. Lafarge Canada Inc. | <i>Lafarge</i> | 2007 SCC 23",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rmqz",
+        "score": 0.7924491763114929,
+        "candidate_title": "British Columbia (Attorney General) v. Lafarge Canada Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jrcxg",
+        "score": 0.628510594367981,
+        "candidate_title": "Northcott v. Director, Northern Region, Regional Services, Alberta Enironment, re: Lafarge Canada Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jh2cd",
+        "score": 0.5978626012802124,
+        "candidate_title": "Teck Metals Ltd. v. British Columbia (Attorney General)"
+      }
+    ]
+  },
+  "Mangat": {
+    "uri": "https://canlii.ca/t/fv6q5",
+    "score": 0.6794428825378418,
+    "candidate_id": "2012fct1409",
+    "candidate_title": "Singh Mangat v. Canada (Attorney General)",
+    "query_text": "decision | Mangat",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fv6q5",
+        "score": 0.6794428825378418,
+        "candidate_title": "Singh Mangat v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/51zn",
+        "score": 0.6237148642539978,
+        "candidate_title": "Law Society of British Columbia v. Mangat"
+      },
+      {
+        "uri": "https://canlii.ca/t/jc1gj",
+        "score": 0.5223950147628784,
+        "candidate_title": "Mann v Jagpal"
+      }
+    ]
+  },
+  "Alltrans": {
+    "uri": "https://canlii.ca/t/1ftdn",
+    "score": 0.6299083828926086,
+    "candidate_id": "1988csc-scc40",
+    "candidate_title": "Alltrans Express Ltd. v. British Columbia (Workers' Compensation Board)",
+    "query_text": "decision | Alltrans",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftdn",
+        "score": 0.6299083828926086,
+        "candidate_title": "Alltrans Express Ltd. v. British Columbia (Workers' Compensation Board)"
+      },
+      {
+        "uri": "https://canlii.ca/t/grsdd",
+        "score": 0.5131523013114929,
+        "candidate_title": "Aheer Transportation Ltd. v. Office of the British Columbia Container Trucking Commissioner"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvzbj",
+        "score": 0.5084585547447205,
+        "candidate_title": "Windsor (City) v. Canadian Transit Co."
+      }
+    ]
+  },
+  "Bell Canada 1988": {
+    "uri": "https://canlii.ca/t/1ft4g",
+    "score": 0.774703860282898,
+    "candidate_id": "1989csc-scc73",
+    "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)",
+    "query_text": "decision | Bell Canada (1988) | Bell Canada\n(1988)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft4g",
+        "score": 0.774703860282898,
+        "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftgp",
+        "score": 0.7404909133911133,
+        "candidate_title": "Bell Canada v. Quebec (Commission de la Santé et de la Sécurité du Travail)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvbwv",
+        "score": 0.7067922353744507,
+        "candidate_title": "Bell Canada v. 7262591 Canada Ltd."
+      }
+    ]
+  },
+  "Reference\\_re\\_Environmental\\_Management\\_Act": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "R v Hydro-Quebec": {
+    "uri": "https://canlii.ca/t/1fqzr",
+    "score": 0.8279085159301758,
+    "candidate_id": "1997csc-scc80",
+    "candidate_title": "R. v. Hydro-Québec",
+    "query_text": "decision | <i>R. v. Hydro-Québec</i> | [1997] 3 S.C.R. 213",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzr",
+        "score": 0.8279085159301758,
+        "candidate_title": "R. v. Hydro-Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/1zhnr",
+        "score": 0.6117113828659058,
+        "candidate_title": "Hydro-Québec v. Syndicat des employé-e-s de techniques professionnelles et de bureau d'Hydro-Québec, section locale 2000 (SCFP-FTQ)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvw0n",
+        "score": 0.6100532412528992,
+        "candidate_title": "Churchill Falls (Labrador) Corp. v. Hydro‑Québec"
+      }
+    ]
+  },
+  "R v. Cariboo Pulp & Paper Company Limited": {
+    "uri": "https://canlii.ca/t/21bzd",
+    "score": 0.8386688828468323,
+    "candidate_id": "2008bcca423",
+    "candidate_title": "R. v. Cariboo Pulp & Paper Company Limited",
+    "query_text": "decision | <i>R. v. Cariboo\nPulp &amp; Paper Company Limited</i> | 2008 BCCA 423",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21bzd",
+        "score": 0.8386688828468323,
+        "candidate_title": "R. v. Cariboo Pulp & Paper Company Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/29d53",
+        "score": 0.6041234135627747,
+        "candidate_title": "Catalyst Paper Corporation v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fq18",
+        "score": 0.5722777247428894,
+        "candidate_title": "R. v. Timminco Ltd."
+      }
+    ]
+  },
+  "Friends of the Oldman River Society v. Canada (Minister of Transport)": {
+    "uri": "https://canlii.ca/t/1bqn8",
+    "score": 0.8806314468383789,
+    "candidate_id": "1992csc-scc1",
+    "candidate_title": "Friends of the Oldman River Society v. Canada (Minister of Transport)",
+    "query_text": "decision | <i>Friends of the Oldman River Society v. Canada (Minister of Transport)</i> | [1992] 1 S.C.R. 3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1bqn8",
+        "score": 0.8806314468383789,
+        "candidate_title": "Friends of the Oldman River Society v. Canada (Minister of Transport)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g94jt",
+        "score": 0.7923771142959595,
+        "candidate_title": "Friends of the Oldman River Society v. Canada (Minister of Transport) (C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2199k",
+        "score": 0.5942972302436829,
+        "candidate_title": "Friends of the Earth v. Canada (Governor in Council)"
+      }
+    ]
+  },
+  "Cariboo Pulp & Paper": {
+    "uri": "https://canlii.ca/t/21bzd",
+    "score": 0.7735254764556885,
+    "candidate_id": "2008bcca423",
+    "candidate_title": "R. v. Cariboo Pulp & Paper Company Limited",
+    "query_text": "decision | Cariboo Pulp &amp; Paper | Cariboo\nPulp &amp; Paper | Cariboo Pulp &amp;\nPaper",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21bzd",
+        "score": 0.7735254764556885,
+        "candidate_title": "R. v. Cariboo Pulp & Paper Company Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/gbd77",
+        "score": 0.6295424699783325,
+        "candidate_title": "Churchill Pulpmill Ltd. v. Manitoba (Government)"
+      },
+      {
+        "uri": "https://canlii.ca/t/29d53",
+        "score": 0.6273773312568665,
+        "candidate_title": "Catalyst Paper Corporation v. North Cowichan (District)"
+      }
+    ]
+  },
+  "Rogers": {
+    "uri": "https://canlii.ca/t/23q2c",
+    "score": 0.6671204566955566,
+    "candidate_id": "1981bcsc1000260",
+    "candidate_title": "Rogers v. Hunter",
+    "query_text": "decision | <i>Rogers</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23q2c",
+        "score": 0.6671204566955566,
+        "candidate_title": "Rogers v. Hunter"
+      },
+      {
+        "uri": "https://canlii.ca/t/gs3l3",
+        "score": 0.6391820907592773,
+        "candidate_title": "Rogers Communications Inc. v. Châteauguay (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1s2f4",
+        "score": 0.6001086235046387,
+        "candidate_title": "Rogers Wireless Inc. v. Muroff"
+      }
+    ]
+  },
+  "COPA": {
+    "uri": "https://canlii.ca/t/51xc",
+    "score": 0.5198239684104919,
+    "candidate_id": "2001csc-scc79",
+    "candidate_title": "Cooper v. Hobart",
+    "query_text": "decision | <i>COPA</i> | COPA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51xc",
+        "score": 0.5198239684104919,
+        "candidate_title": "Cooper v. Hobart"
+      },
+      {
+        "uri": "https://canlii.ca/t/1j1v7",
+        "score": 0.5120042562484741,
+        "candidate_title": "Cooper v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/k1f2d",
+        "score": 0.5003122091293335,
+        "candidate_title": "Cozak v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Desgagnés": {
+    "uri": "https://canlii.ca/t/j3n27",
+    "score": 0.6316896677017212,
+    "candidate_id": "2019csc-scc58",
+    "candidate_title": "Desgagnés Transport Inc. v. Wärtsilä Canada Inc.",
+    "query_text": "decision | Desgagnés | <i>Desgagnés</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j3n27",
+        "score": 0.6316896677017212,
+        "candidate_title": "Desgagnés Transport Inc. v. Wärtsilä Canada Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/j5sqf",
+        "score": 0.5364012718200684,
+        "candidate_title": "Desgranges v. Canada (Administrative Tribunals Support Services)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hqzds",
+        "score": 0.5099871754646301,
+        "candidate_title": "Dhesi v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Rogers Communications Inc. v. Châteauguay (City)": {
+    "uri": "https://canlii.ca/t/gs3l3",
+    "score": 0.8725365400314331,
+    "candidate_id": "2016csc-scc23",
+    "candidate_title": "Rogers Communications Inc. v. Châteauguay (City)",
+    "query_text": "decision | Rogers\nCommunications Inc. v. Châteauguay (City) | 2016 SCC 23",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gs3l3",
+        "score": 0.8725365400314331,
+        "candidate_title": "Rogers Communications Inc. v. Châteauguay (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fs0v9",
+        "score": 0.6449552774429321,
+        "candidate_title": "Rogers Communications Inc. v. Society of Composers, Authors and Music Publishers of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1s2f4",
+        "score": 0.6373657584190369,
+        "candidate_title": "Rogers Wireless Inc. v. Muroff"
+      }
+    ]
+  },
+  "Québec (Attorney General) v. Canadian Owners and Pilots Association": {
+    "uri": "https://canlii.ca/t/2cxpd",
+    "score": 0.8000761866569519,
+    "candidate_id": "2010csc-scc39",
+    "candidate_title": "Quebec (Attorney General) v. Canadian Owners and Pilots Association",
+    "query_text": "decision | Québec (Attorney\nGeneral) v. Canadian Owners and Pilots Association | COPA | 2010 SCC 39",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2cxpd",
+        "score": 0.8000761866569519,
+        "candidate_title": "Quebec (Attorney General) v. Canadian Owners and Pilots Association"
+      },
+      {
+        "uri": "https://canlii.ca/t/2cxpb",
+        "score": 0.5967797040939331,
+        "candidate_title": "Quebec (Attorney General) v. Lacombe"
+      },
+      {
+        "uri": "https://canlii.ca/t/2b5ss",
+        "score": 0.5909886956214905,
+        "candidate_title": "Ontario (Public Safety and Security) v. Criminal Lawyers' Association"
+      }
+    ]
+  },
+  "Bell Canada (1988)": {
+    "uri": "https://canlii.ca/t/1ft4g",
+    "score": 0.7730607986450195,
+    "candidate_id": "1989csc-scc73",
+    "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)",
+    "query_text": "decision | Bell Canada (1988)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft4g",
+        "score": 0.7730607986450195,
+        "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftgp",
+        "score": 0.7381893396377563,
+        "candidate_title": "Bell Canada v. Quebec (Commission de la Santé et de la Sécurité du Travail)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvbwv",
+        "score": 0.7035170197486877,
+        "candidate_title": "Bell Canada v. 7262591 Canada Ltd."
+      }
+    ]
+  },
+  "EAB decision": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.630557656288147,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | EAB decision",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.630557656288147,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn9f",
+        "score": 0.5636358857154846,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jdz5k",
+        "score": 0.5612756013870239,
+        "candidate_title": "Essa v APEGA"
+      }
+    ]
+  },
+  "Madden": {
+    "uri": "https://synthetic.leread.ca/gold/G0319",
+    "score": 0.6122528314590454,
+    "candidate_id": "gold-G0319",
+    "candidate_title": "Madden v. Nelson & Fort Sheppard Railway",
+    "query_text": "decision | Madden",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0319",
+        "score": 0.6122528314590454,
+        "candidate_title": "Madden v. Nelson & Fort Sheppard Railway"
+      },
+      {
+        "uri": "https://canlii.ca/t/hx9vx",
+        "score": 0.5271066427230835,
+        "candidate_title": "Madison Pacific Properties Inc. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/jx5b9",
+        "score": 0.5140581130981445,
+        "candidate_title": "Mand v. Canada"
+      }
+    ]
+  },
+  "Canada v. Attorney-General for Ontario": {
+    "uri": "https://canlii.ca/t/k8t2l",
+    "score": 0.7240084409713745,
+    "candidate_id": "1896ukpc1000000",
+    "candidate_title": "Attorney-General for the Dominion of Canada v. Attorney-General for Ontario; Attorney-General for Quebec v. Attorney-General for Ontario",
+    "query_text": "decision | <i>Canada v. Attorney-General for\nOntario</i> | [1937] A.C. 326 (P.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k8t2l",
+        "score": 0.7240084409713745,
+        "candidate_title": "Attorney-General for the Dominion of Canada v. Attorney-General for Ontario; Attorney-General for Quebec v. Attorney-General for Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/grlg9",
+        "score": 0.6603906750679016,
+        "candidate_title": "Canada (Attorney General) / Ontario (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gb1v7",
+        "score": 0.6525447368621826,
+        "candidate_title": "Alberta (Attorney General) v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Cariboo Pulp \\u0026amp; Paper": {
+    "uri": "https://canlii.ca/t/21bzd",
+    "score": 0.7599737644195557,
+    "candidate_id": "2008bcca423",
+    "candidate_title": "R. v. Cariboo Pulp & Paper Company Limited",
+    "query_text": "decision | <i>Cariboo Pulp &amp; Paper</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21bzd",
+        "score": 0.7599737644195557,
+        "candidate_title": "R. v. Cariboo Pulp & Paper Company Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/gbd77",
+        "score": 0.6202874183654785,
+        "candidate_title": "Churchill Pulpmill Ltd. v. Manitoba (Government)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gd0l6",
+        "score": 0.6184235215187073,
+        "candidate_title": "Pulp and Paper Workers of Canada v. International Brotherhood of Pulp, Sulphite and Paper Mill Workers"
+      }
+    ]
+  },
+  "Canada (Attorney General) v. PHS Community Services Society": {
+    "uri": "https://canlii.ca/t/fn9cf",
+    "score": 0.8576264381408691,
+    "candidate_id": "2011csc-scc44",
+    "candidate_title": "Canada (Attorney General) v. PHS Community Services Society",
+    "query_text": "decision | Canada (Attorney General) v.\nPHS Community Services Society | 2011 SCC 44",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fn9cf",
+        "score": 0.8576264381408691,
+        "candidate_title": "Canada (Attorney General) v. PHS Community Services Society"
+      },
+      {
+        "uri": "https://canlii.ca/t/fnl47",
+        "score": 0.6804578900337219,
+        "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fbv3",
+        "score": 0.6592180728912354,
+        "candidate_title": "Celgene Corp. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Bell Canada": {
+    "uri": "https://canlii.ca/t/1ft4g",
+    "score": 0.7420316934585571,
+    "candidate_id": "1989csc-scc73",
+    "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)",
+    "query_text": "decision | Bell Canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft4g",
+        "score": 0.7420316934585571,
+        "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j46k8",
+        "score": 0.73691725730896,
+        "candidate_title": "Bell Canada v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvbwv",
+        "score": 0.7237497568130493,
+        "candidate_title": "Bell Canada v. 7262591 Canada Ltd."
+      }
+    ]
+  },
+  "Grand Trunk Railway": {
+    "uri": "https://canlii.ca/t/1zgd8",
+    "score": 0.7190784215927124,
+    "candidate_id": "1906csc-scc10017",
+    "candidate_title": "City of Toronto v. Grand Trunk Ry. Co.",
+    "query_text": "decision | <i>Grand Trunk Railway</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1zgd8",
+        "score": 0.7190784215927124,
+        "candidate_title": "City of Toronto v. Grand Trunk Ry. Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/21v1l",
+        "score": 0.5907899141311646,
+        "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/gw699",
+        "score": 0.5897448658943176,
+        "candidate_title": "Wood v. Grand Valley R. Co."
+      }
+    ]
+  },
+  "Lacombe": {
+    "uri": "https://canlii.ca/t/2cxpb",
+    "score": 0.6625823378562927,
+    "candidate_id": "2010csc-scc38",
+    "candidate_title": "Quebec (Attorney General) v. Lacombe",
+    "query_text": "decision | <i>Lacombe</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2cxpb",
+        "score": 0.6625823378562927,
+        "candidate_title": "Quebec (Attorney General) v. Lacombe"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrkm6",
+        "score": 0.5325859189033508,
+        "candidate_title": "R. v. Comeau"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nl8x",
+        "score": 0.5297374129295349,
+        "candidate_title": "Lévesque v. Comeau et al."
+      }
+    ]
+  },
+  "Alberta (Attorney General) v. Moloney": {
+    "uri": "https://canlii.ca/t/gm22l",
+    "score": 0.8078271746635437,
+    "candidate_id": "2015csc-scc51",
+    "candidate_title": "Alberta (Attorney General) v. Moloney",
+    "query_text": "decision | <i>Alberta (Attorney General) v. Moloney</i> | 2015 SCC 51",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gm22l",
+        "score": 0.8078271746635437,
+        "candidate_title": "Alberta (Attorney General) v. Moloney"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvf7h",
+        "score": 0.5795755982398987,
+        "candidate_title": "R v Mongeon"
+      },
+      {
+        "uri": "https://canlii.ca/t/gjcjj",
+        "score": 0.5785733461380005,
+        "candidate_title": "R. v. Tatton"
+      }
+    ]
+  },
+  "Multiple Access": {
+    "uri": "https://canlii.ca/t/1lpcl",
+    "score": 0.7180256843566895,
+    "candidate_id": "1982csc-scc10040",
+    "candidate_title": "Multiple Access Ltd. v. McCutcheon",
+    "query_text": "decision | Multiple Access",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpcl",
+        "score": 0.7180256843566895,
+        "candidate_title": "Multiple Access Ltd. v. McCutcheon"
+      },
+      {
+        "uri": "https://canlii.ca/t/51s6",
+        "score": 0.5261114239692688,
+        "candidate_title": "Bell ExpressVu Limited Partnership v. Rex"
+      },
+      {
+        "uri": "https://canlii.ca/t/jbh32",
+        "score": 0.5202181935310364,
+        "candidate_title": "McAnuff (Re)"
+      }
+    ]
+  },
+  "Bank of Montreal v. Hall": {
+    "uri": "https://canlii.ca/t/1rmr1",
+    "score": 0.6144828796386719,
+    "candidate_id": "2007csc-scc22",
+    "candidate_title": "Canadian Western Bank v. Alberta",
+    "query_text": "decision | <i>Western Bank</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rmr1",
+        "score": 0.6144828796386719,
+        "candidate_title": "Canadian Western Bank v. Alberta"
+      },
+      {
+        "uri": "https://canlii.ca/t/hw4nr",
+        "score": 0.5796137452125549,
+        "candidate_title": "Coburn and Watson’s Metropolitan Home v. Bank of Montreal"
+      },
+      {
+        "uri": "https://canlii.ca/t/1wwvh",
+        "score": 0.5758393406867981,
+        "candidate_title": "Royal Bank of Canada v. Welton"
+      }
+    ]
+  },
+  "Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd.": {
+    "uri": "https://canlii.ca/t/gm22q",
+    "score": 0.8571845293045044,
+    "candidate_id": "2015csc-scc53",
+    "candidate_title": "Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd.",
+    "query_text": "decision | Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd. | 2015 SCC 53",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gm22q",
+        "score": 0.8571845293045044,
+        "candidate_title": "Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpbb",
+        "score": 0.6408463716506958,
+        "candidate_title": "Consolboard Inc. v. MacMillan Bloedel (Sask.) Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frdw",
+        "score": 0.6367716193199158,
+        "candidate_title": "MacMillan Bloedel Ltd. v. Simpson"
+      }
+    ]
+  },
+  "Law Society of British Columbia v. Mangat": {
+    "uri": "https://canlii.ca/t/51zn",
+    "score": 0.8473122119903564,
+    "candidate_id": "2001csc-scc67",
+    "candidate_title": "Law Society of British Columbia v. Mangat",
+    "query_text": "decision | Law Society of\nBritish Columbia v. Mangat | 2001 SCC 67",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51zn",
+        "score": 0.8473122119903564,
+        "candidate_title": "Law Society of British Columbia v. Mangat"
+      },
+      {
+        "uri": "https://canlii.ca/t/fn82c",
+        "score": 0.6526184678077698,
+        "candidate_title": "Federation of Law Societies of Canada v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpcn",
+        "score": 0.6406105160713196,
+        "candidate_title": "A.G. Can. v. Law Society of B.C."
+      }
+    ]
+  },
+  "Moloney": {
+    "uri": "https://canlii.ca/t/gm22l",
+    "score": 0.6542447805404663,
+    "candidate_id": "2015csc-scc51",
+    "candidate_title": "Alberta (Attorney General) v. Moloney",
+    "query_text": "decision | <i>Moloney</i> | Moloney",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gm22l",
+        "score": 0.6542447805404663,
+        "candidate_title": "Alberta (Attorney General) v. Moloney"
+      },
+      {
+        "uri": "https://canlii.ca/t/grpd7",
+        "score": 0.5533927083015442,
+        "candidate_title": "Mohr v Sweeney"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0512",
+        "score": 0.5524245500564575,
+        "candidate_title": "Van Mol SCC 2000"
+      }
+    ]
+  },
+  "Marine Services International Ltd. v. Ryan Estate": {
+    "uri": "https://canlii.ca/t/fzwp7",
+    "score": 0.8342742323875427,
+    "candidate_id": "2013csc-scc44",
+    "candidate_title": "Marine Services International Ltd. v. Ryan Estate",
+    "query_text": "decision | Marine Services International Ltd. v. Ryan Estate | 2013 SCC 44",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fzwp7",
+        "score": 0.8342742323875427,
+        "candidate_title": "Marine Services International Ltd. v. Ryan Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqjz",
+        "score": 0.5422986149787903,
+        "candidate_title": "Fraser River Pile & Dredge Ltd. v. Can-Dive Services Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/fz572",
+        "score": 0.5371359586715698,
+        "candidate_title": "Nishi v. Rascal Trucking Ltd."
+      }
+    ]
+  },
+  "September 17, 2019": {
+    "uri": "https://canlii.ca/t/j0rv8",
+    "score": 0.5659687519073486,
+    "candidate_id": "2019fct770",
+    "candidate_title": "Smith v. Canada (Attorney General)",
+    "query_text": "decision | September 17,\n2019 | September 17, 2019",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j0rv8",
+        "score": 0.5659687519073486,
+        "candidate_title": "Smith v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hx5fh",
+        "score": 0.5264221429824829,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hzzcc",
+        "score": 0.5244033932685852,
+        "candidate_title": "Kinsella v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Judicial Process": {
+    "uri": "https://canlii.ca/t/jbh32",
+    "score": 0.5341129302978516,
+    "candidate_id": "2020onca676",
+    "candidate_title": "McAnuff (Re)",
+    "query_text": "decision | decision (May 29, 2020",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jbh32",
+        "score": 0.5341129302978516,
+        "candidate_title": "McAnuff (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8f5l",
+        "score": 0.5234926342964172,
+        "candidate_title": "Magee (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5152938961982727,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      }
+    ]
+  },
+  "EAB’s May 29, 2020 decision": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.6131469011306763,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | EAB’s May 29, 2020 decision",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.6131469011306763,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/j55b6",
+        "score": 0.554702877998352,
+        "candidate_title": "Maceachern (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn9f",
+        "score": 0.5511651039123535,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      }
+    ]
+  },
+  "EAB decisions of September 10, 2019": {
+    "uri": "https://synthetic.leread.ca/gold/G0126",
+    "score": 0.683915913105011,
+    "candidate_id": "gold-G0126",
+    "candidate_title": "decision",
+    "query_text": "decision | EAB decisions of\nSeptember 10, 2019",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0126",
+        "score": 0.683915913105011,
+        "candidate_title": "decision"
+      },
+      {
+        "uri": "https://canlii.ca/t/j0flg",
+        "score": 0.5645650029182434,
+        "candidate_title": "A.L.W. v T.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/jvn8l",
+        "score": 0.5480039715766907,
+        "candidate_title": "Canadian National Railway Company v. Delegate of the Director, Environmental Management Act"
+      }
+    ]
+  },
+  "May 29, 2020": {
+    "uri": "https://canlii.ca/t/jbh32",
+    "score": 0.51736980676651,
+    "candidate_id": "2020onca676",
+    "candidate_title": "McAnuff (Re)",
+    "query_text": "decision | May 29, 2020",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jbh32",
+        "score": 0.51736980676651,
+        "candidate_title": "McAnuff (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8f5l",
+        "score": 0.5068349242210388,
+        "candidate_title": "Magee (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jb6dp",
+        "score": 0.499712198972702,
+        "candidate_title": "Henderson v. Quinn"
+      }
+    ]
+  },
+  "Judicial Review Procedure Act BC": {
+    "uri": "https://canlii.ca/t/56vg3",
+    "score": 0.7969799637794495,
+    "candidate_id": "l19746!19746-current-1",
+    "candidate_title": "Judicial Review Procedure Act",
+    "query_text": "legislation | <i>Judicial Review Procedure Act</i> | Judicial\nReview Procedure Act | JRPA | R.S.B.C. 1996, c. 241 | R.S.B.C. 1996, c. 241",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.7969799637794495,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p4b",
+        "score": 0.5614440441131592,
+        "candidate_title": "Judicature Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/565gs",
+        "score": 0.5436446666717529,
+        "candidate_title": "Provincial Court Act"
+      }
+    ]
+  },
+  "Environmental Management Act BC": {
+    "uri": "https://canlii.ca/t/56c1p",
+    "score": 0.6932665109634399,
+    "candidate_id": "l20180!20180-current-1",
+    "candidate_title": "Environmental Management Act",
+    "query_text": "legislation | ATA | EMA | Environmental Management Act | <i>EMA</i> | Act | <i>Environmental Management Act</i> | <i>Administrative\nTribunals Act</i> | <i>ATA</i> | statute | TDGA | Environmental\nManagement Act | <i>Environmental Protection Act</i> | S.B.C. 2003, c. 53 | S.B.C. 2004, c. 45",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.6932665109634399,
+        "candidate_title": "Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.6510013341903687,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/561jt",
+        "score": 0.6339588761329651,
+        "candidate_title": "Administrative Tribunals Act"
+      }
+    ]
+  },
+  "Constitution Act 1867": {
+    "uri": "https://canlii.ca/t/56g8v",
+    "score": 0.7122491002082825,
+    "candidate_id": "l36027!36027-current-1",
+    "candidate_title": "The Constitution Act, 1867",
+    "query_text": "legislation | Constitution Act, 1867 | Constitution\nAct | Constitution Act | Constitution | <i>Constitution\nAct</i> | Constitution\nAct, 1867 | (U.K.), 30\n&amp; 31 Vic., c. 3 | R.S.C. 1985, App. II, No. 5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.7122491002082825,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fhd6",
+        "score": 0.6497136354446411,
+        "candidate_title": "Loi constitutionnelle de 1867"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6492292284965515,
+        "candidate_title": "Canada Act 1982"
+      }
+    ]
+  },
+  "Spill Preparedness and Recovery Regulations BC 185/2017": {
+    "uri": "https://canlii.ca/t/568fh",
+    "score": 0.8306212425231934,
+    "candidate_id": "l43861!43861-current-1",
+    "candidate_title": "Spill Preparedness, Response and Recovery Regulation",
+    "query_text": "legislation | <i>Spill Preparedness and Recovery Regulations, </i> | Spill Regulation | <i>Spill\nResponse and Preparedness Recovery Regulations</i> | Spill\nRegulation | <i>Spill Regulation</i> | <i>Spill Preparedness Response and Recovery Regulation</i> | Regulation | Act | Bill 21 | Official\nReport of Debates of the Legislative Assembly (Hansard) | <i>Spill Preparedness, Response and Recovery\nRegulation</i> | B.C.\nReg. 185/2017 | B.C. Reg. 185/2017",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/568fh",
+        "score": 0.8306212425231934,
+        "candidate_title": "Spill Preparedness, Response and Recovery Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/8z4p",
+        "score": 0.5436394214630127,
+        "candidate_title": "Water Sustainability Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.54060298204422,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      }
+    ]
+  },
+  "EMA BC": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.48101991415023804,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | <i>EMA</i> | <i>ATA</i> | ATA | EMA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.48101991415023804,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/82tg",
+        "score": 0.46610456705093384,
+        "candidate_title": "Employment Standards Regulation"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0203",
+        "score": 0.4618193209171295,
+        "candidate_title": "Excise Tax Act"
+      }
+    ]
+  },
+  "Constitutional Question Act BC": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 0.6081303358078003,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "legislation | Constitutional\nQuestion Act | R.S.B.C. 1996, c. 68",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 0.6081303358078003,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p19",
+        "score": 0.6050434708595276,
+        "candidate_title": "Election Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.6007419228553772,
+        "candidate_title": "Judicial Review Procedure Act"
+      }
+    ]
+  },
+  "Canada Transportation Act": {
+    "uri": "https://canlii.ca/t/56sp9",
+    "score": 0.7747226357460022,
+    "candidate_id": "l13155!13155-current-1",
+    "candidate_title": "Canada Transportation Act",
+    "query_text": "legislation | <i>Canada\nTransportation Act</i> | S.C. 1996, c. 10",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.7747226357460022,
+        "candidate_title": "Canada Transportation Act"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0498",
+        "score": 0.6087496876716614,
+        "candidate_title": "Transport Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vwp",
+        "score": 0.597781240940094,
+        "candidate_title": "Canada Shipping Act, 2001"
+      }
+    ]
+  },
+  "Railway Safety Act CA 1985": {
+    "uri": "https://synthetic.leread.ca/gold/G0433",
+    "score": 0.693831741809845,
+    "candidate_id": "gold-G0433",
+    "candidate_title": "Rules Respecting Key Trains and Key Routes",
+    "query_text": "legislation | <i>Railway Safety Act</i> | RSA | <i>RSA</i> | <i>Rules\nRespecting Key Trains and Key Routes</i> | R.S.C. 1985, c. 32 | R.S.C. 1985, c. 32 (4th Supp.)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0433",
+        "score": 0.693831741809845,
+        "candidate_title": "Rules Respecting Key Trains and Key Routes"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kgw",
+        "score": 0.6769722700119019,
+        "candidate_title": "Railway Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56hrq",
+        "score": 0.6438308358192444,
+        "candidate_title": "Railway Act"
+      }
+    ]
+  },
+  "Transportation of Dangerous Goods Act CA 1992": {
+    "uri": "https://canlii.ca/t/543hb",
+    "score": 0.7574581503868103,
+    "candidate_id": "l13096!13096-current-1",
+    "candidate_title": "Transportation of Dangerous Goods Act, 1992",
+    "query_text": "legislation | <i>Transportation of Dangerous Goods Act</i> | TDGA | <i>TDGA</i> | <i>Transportation of Dangerous\nGoods Act, 1992</i> | <i>Transportation\nof Dangerous Goods Act</i>, 1992 | S.C. 1992, c. 34 | S.C. 1992, c. 34 | S.C, 1992, c. 34 | Hogg",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/543hb",
+        "score": 0.7574581503868103,
+        "candidate_title": "Transportation of Dangerous Goods Act, 1992"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wpr",
+        "score": 0.6427894830703735,
+        "candidate_title": "Transportation of Dangerous Goods by Rail Security Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.523406982421875,
+        "candidate_title": "Canada Transportation Act"
+      }
+    ]
+  },
+  "PD 36": {
+    "uri": "https://synthetic.leread.ca/gold/G0400",
+    "score": 0.7546438574790955,
+    "candidate_id": "gold-G0400",
+    "candidate_title": "Protective Direction No. 36",
+    "query_text": "legislation | Protective Direction No. 36 | PD 36 | Protective Direction\nNo. 36 | PD\n36 | <i>PD 36</i> | Protective Direction | PD 36 | PD36 | PD\n32",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0400",
+        "score": 0.7546438574790955,
+        "candidate_title": "Protective Direction No. 36"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0399",
+        "score": 0.7161872982978821,
+        "candidate_title": "Protective Direction No. 32"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0387",
+        "score": 0.610105574131012,
+        "candidate_title": "Practice Direction 56"
+      }
+    ]
+  },
+  "PD 32": {
+    "uri": "https://synthetic.leread.ca/gold/G0399",
+    "score": 0.7656601667404175,
+    "candidate_id": "gold-G0399",
+    "candidate_title": "Protective Direction No. 32",
+    "query_text": "legislation | Protective Direction No. 32 | PD 32 | PD 32",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0399",
+        "score": 0.7656601667404175,
+        "candidate_title": "Protective Direction No. 32"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0400",
+        "score": 0.7414409518241882,
+        "candidate_title": "Protective Direction No. 36"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0387",
+        "score": 0.5484440922737122,
+        "candidate_title": "Practice Direction 56"
+      }
+    ]
+  },
+  "Transportation of Dangerous Goods by Rail Security Regulations": {
+    "uri": "https://canlii.ca/t/56wpr",
+    "score": 0.7604029178619385,
+    "candidate_id": "l49667!49667-current-1",
+    "candidate_title": "Transportation of Dangerous Goods by Rail Security Regulations",
+    "query_text": "legislation | <i>Transportation\nof Dangerous Goods by Rail Security Regulations</i> | <i>Transportation of Dangerous\nGoods by Rail Security Regulations</i> | <i>Rail Security\nRegulations</i> | SOR/2019-113",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56wpr",
+        "score": 0.7604029178619385,
+        "candidate_title": "Transportation of Dangerous Goods by Rail Security Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/543hb",
+        "score": 0.606743335723877,
+        "candidate_title": "Transportation of Dangerous Goods Act, 1992"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kgw",
+        "score": 0.5744210481643677,
+        "candidate_title": "Railway Safety Act"
+      }
+    ]
+  },
+  "Environmental Management Act BC s. 41": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.5361006259918213,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | ATA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.5361006259918213,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.49658921360969543,
+        "candidate_title": "Canada Transportation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8035",
+        "score": 0.4792909622192383,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      }
+    ]
+  },
+  "EMA BC s. 41(2)(a)": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.678867757320404,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.678867757320404,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6437222361564636,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6401100158691406,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Charter": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 0.692016065120697,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Charter | <i>Charter</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.692016065120697,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 0.6599903702735901,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6404091715812683,
+        "candidate_title": "Canada Act 1982"
+      }
+    ]
+  },
+  "Police Services Act": {
+    "uri": "https://canlii.ca/t/553sm",
+    "score": 0.7521207332611084,
+    "candidate_id": "l377!377-current-1",
+    "candidate_title": "Police Services Act",
+    "query_text": "legislation | <i>Police\nServices Act</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/553sm",
+        "score": 0.7521207332611084,
+        "candidate_title": "Police Services Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/c00t",
+        "score": 0.7000430822372437,
+        "candidate_title": "Comprehensive Ontario Police Services Act, 2019"
+      },
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 0.6911236643791199,
+        "candidate_title": "Police Act"
+      }
+    ]
+  },
+  "EMA BC s. 41": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.5399598479270935,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | <i>ATA</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.5399598479270935,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.5031448006629944,
+        "candidate_title": "Canada Transportation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jgm",
+        "score": 0.49972766637802124,
+        "candidate_title": "Access to Information Act"
+      }
+    ]
+  },
+  "Administrative Tribunals Act": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.5361006259918213,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | ATA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.5361006259918213,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.49658921360969543,
+        "candidate_title": "Canada Transportation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8035",
+        "score": 0.4792909622192383,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      }
+    ]
+  },
+  "ATA s. 41": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.5399598479270935,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | <i>ATA</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.5399598479270935,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.5031448006629944,
+        "candidate_title": "Canada Transportation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jgm",
+        "score": 0.49972766637802124,
+        "candidate_title": "Access to Information Act"
+      }
+    ]
+  },
+  "ATA": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.5400309562683105,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | ATA | <i>ATA</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.5400309562683105,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8035",
+        "score": 0.49451589584350586,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.4856472313404083,
+        "candidate_title": "Canada Transportation Act"
+      }
+    ]
+  },
+  "Practice Direction 56": {
+    "uri": "https://synthetic.leread.ca/gold/G0387",
+    "score": 0.7181895971298218,
+    "candidate_id": "gold-G0387",
+    "candidate_title": "Practice Direction 56",
+    "query_text": "legislation | Practice Direction 56",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0387",
+        "score": 0.7181895971298218,
+        "candidate_title": "Practice Direction 56"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0021",
+        "score": 0.47341811656951904,
+        "candidate_title": "An Act to amend the Courts of Justice Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.4712749421596527,
+        "candidate_title": "Supreme Court Civil Rules"
+      }
+    ]
+  },
+  "Spill Regulation BC 185/2017": {
+    "uri": "https://canlii.ca/t/568fh",
+    "score": 0.7478638291358948,
+    "candidate_id": "l43861!43861-current-1",
+    "candidate_title": "Spill Preparedness, Response and Recovery Regulation",
+    "query_text": "legislation | <i>Spill Regulation</i> | Spill\nRegulation | Spill Regulation | <i>Spill\nRegulation</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/568fh",
+        "score": 0.7478638291358948,
+        "candidate_title": "Spill Preparedness, Response and Recovery Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.5492058396339417,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/8z4p",
+        "score": 0.5400071740150452,
+        "candidate_title": "Water Sustainability Regulation"
+      }
+    ]
+  },
+  "Interpretation Act CA 1985": {
+    "uri": "https://canlii.ca/t/56c1p",
+    "score": 0.47750788927078247,
+    "candidate_id": "l20180!20180-current-1",
+    "candidate_title": "Environmental Management Act",
+    "query_text": "legislation | Act | <i>EMA</i> | written brief | Hogg",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.47750788927078247,
+        "candidate_title": "Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kd4",
+        "score": 0.469422847032547,
+        "candidate_title": "Environmental Management Amendment Act, 2016"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.45961809158325195,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      }
+    ]
+  },
+  "Interpretation Act CA 1885": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6778140664100647,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6778140664100647,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6439381837844849,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6395516991615295,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "BNA Act 1867": {
+    "uri": "https://canlii.ca/t/56g8v",
+    "score": 0.7053760290145874,
+    "candidate_id": "l36027!36027-current-1",
+    "candidate_title": "The Constitution Act, 1867",
+    "query_text": "legislation | British\nNorth America Act | The British\nNorth America Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.7053760290145874,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fhd6",
+        "score": 0.6505473256111145,
+        "candidate_title": "Loi constitutionnelle de 1867"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6086176633834839,
+        "candidate_title": "Canada Act 1982"
+      }
+    ]
+  },
+  "TDGA CA 1992": {
+    "uri": "https://canlii.ca/t/543hb",
+    "score": 0.49196967482566833,
+    "candidate_id": "l13096!13096-current-1",
+    "candidate_title": "Transportation of Dangerous Goods Act, 1992",
+    "query_text": "legislation | TDGA | <i>TDGA</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/543hb",
+        "score": 0.49196967482566833,
+        "candidate_title": "Transportation of Dangerous Goods Act, 1992"
+      },
+      {
+        "uri": "https://canlii.ca/t/53gqp",
+        "score": 0.4628899097442627,
+        "candidate_title": "The Treaty Land Entitlement Implementation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/bj0t",
+        "score": 0.4611662030220032,
+        "candidate_title": "Attorney General Statutes Amendment Act, 2018"
+      }
+    ]
+  },
+  "EMA BC s. 91.11": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6778140664100647,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6778140664100647,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6439381837844849,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6395516991615295,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Bill 21": {
+    "uri": "https://canlii.ca/t/96kv",
+    "score": 0.619005560874939,
+    "candidate_id": "l48936!48936-current-1",
+    "candidate_title": "Modernized Municipal Government Act",
+    "query_text": "legislation | Bill 21",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/96kv",
+        "score": 0.619005560874939,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55vp4",
+        "score": 0.5988062620162964,
+        "candidate_title": "Education Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/bgdf",
+        "score": 0.5818861126899719,
+        "candidate_title": "Red Tape Reduction Statutes Amendment Act, 2022"
+      }
+    ]
+  },
+  "Railway Act": {
+    "uri": "https://canlii.ca/t/56hrq",
+    "score": 0.7552042603492737,
+    "candidate_id": "l19915!19915-current-1",
+    "candidate_title": "Railway Act",
+    "query_text": "legislation | Railway\nAct",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56hrq",
+        "score": 0.7552042603492737,
+        "candidate_title": "Railway Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kgw",
+        "score": 0.6897420883178711,
+        "candidate_title": "Railway Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.5671181678771973,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      }
+    ]
+  },
+  "Freedom of Information and Protection of Privacy Act BC": {
+    "uri": "https://canlii.ca/t/56w78",
+    "score": 0.7962964773178101,
+    "candidate_id": "l19661!19661-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | <i>Freedom\nof Information and Protection of Privacy Act</i> | <i>FOIPPA</i> | <i>Freedom of Information and Protection\nof Privacy Act</i> | FOIPA | R.S.B.C. 1996, c. 165 | RSBC 1996 c. 165",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 0.7962964773178101,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 0.6992055177688599,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 0.6980085372924805,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Administrative Penalties (Environmental Management Act) Regulation BC 133/2014": {
+    "uri": "https://canlii.ca/t/56wnv",
+    "score": 0.8472390174865723,
+    "candidate_id": "l38688!38688-current-1",
+    "candidate_title": "Administrative penalties (Environmental Management Act) Regulation",
+    "query_text": "legislation | <i>Administrative Penalties\n(Environmental Management Act) Regulation</i> | B.C. Reg. 133/2014",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.8472390174865723,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.6137874722480774,
+        "candidate_title": "Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w7m",
+        "score": 0.6057051420211792,
+        "candidate_title": "Administrative Penalty Regulation"
+      }
+    ]
+  },
+  "JRPA": {
+    "uri": "https://canlii.ca/t/56vg3",
+    "score": 0.5234979391098022,
+    "candidate_id": "l19746!19746-current-1",
+    "candidate_title": "Judicial Review Procedure Act",
+    "query_text": "legislation | <i>JRPA</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.5234979391098022,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p4b",
+        "score": 0.5139009356498718,
+        "candidate_title": "Judicature Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.5028240084648132,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      }
+    ]
+  },
+  "Regulation": {
+    "uri": "https://canlii.ca/t/56vxx",
+    "score": 0.643194317817688,
+    "candidate_id": "l36914!36914-current-1",
+    "candidate_title": "General Regulation",
+    "query_text": "legislation | Regulation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vxx",
+        "score": 0.643194317817688,
+        "candidate_title": "General Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/85ps",
+        "score": 0.6158854961395264,
+        "candidate_title": "Medical and Health Care Services Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/95zc",
+        "score": 0.6072741746902466,
+        "candidate_title": "Cannabis Control Regulation"
+      }
+    ]
+  },
+  "British North America Act": {
+    "uri": "https://canlii.ca/t/56g8v",
+    "score": 0.7090140581130981,
+    "candidate_id": "l36027!36027-current-1",
+    "candidate_title": "The Constitution Act, 1867",
+    "query_text": "legislation | British North America Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.7090140581130981,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fhd6",
+        "score": 0.6517946124076843,
+        "candidate_title": "Loi constitutionnelle de 1867"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6065059304237366,
+        "candidate_title": "Canada Act 1982"
+      }
+    ]
+  },
+  "Bill C-18": {
+    "uri": "https://canlii.ca/t/543hb",
+    "score": 0.6921298503875732,
+    "candidate_id": "l13096!13096-current-1",
+    "candidate_title": "Transportation of Dangerous Goods Act, 1992",
+    "query_text": "legislation | Bill C-18 | Transportation of Dangerous\nGoods Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/543hb",
+        "score": 0.6921298503875732,
+        "candidate_title": "Transportation of Dangerous Goods Act, 1992"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wpr",
+        "score": 0.6316695213317871,
+        "candidate_title": "Transportation of Dangerous Goods by Rail Security Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/944b",
+        "score": 0.532476544380188,
+        "candidate_title": "An Act to amend the Criminal Code (offences relating to conveyances) and to make consequential amendments to other Acts"
+      }
+    ]
+  },
+  "Constitution Act": {
+    "uri": "https://synthetic.leread.ca/gold/G0116",
+    "score": 0.6820985674858093,
+    "candidate_id": "gold-G0116",
+    "candidate_title": "Canada Act 1982",
+    "query_text": "legislation | Constitution Act",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6820985674858093,
+        "candidate_title": "Canada Act 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.673966646194458,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.6417312026023865,
+        "candidate_title": "The Constitution Act, 1982"
+      }
+    ]
+  },
+  "Civil Code of Québec": {
+    "uri": "https://canlii.ca/t/56lxj",
+    "score": 0.7751094698905945,
+    "candidate_id": "l6195!6195-current-1",
+    "candidate_title": "Civil Code of Québec",
+    "query_text": "legislation | Civil Code of Québec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 0.7751094698905945,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v3w",
+        "score": 0.7751094698905945,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fw77",
+        "score": 0.7381395697593689,
+        "candidate_title": "Code civil du Québec"
+      }
+    ]
+  },
+  "TDGA": {
+    "uri": "https://canlii.ca/t/543hb",
+    "score": 0.49966341257095337,
+    "candidate_id": "l13096!13096-current-1",
+    "candidate_title": "Transportation of Dangerous Goods Act, 1992",
+    "query_text": "legislation | TDGA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/543hb",
+        "score": 0.49966341257095337,
+        "candidate_title": "Transportation of Dangerous Goods Act, 1992"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.46631482243537903,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/bgdf",
+        "score": 0.46593159437179565,
+        "candidate_title": "Red Tape Reduction Statutes Amendment Act, 2022"
+      }
+    ]
+  },
+  "Rail Security Regulations": {
+    "uri": "https://canlii.ca/t/55kgw",
+    "score": 0.6586096882820129,
+    "candidate_id": "l12731!12731-current-1",
+    "candidate_title": "Railway Safety Act",
+    "query_text": "legislation | Rail\nSecurity Regulations | Rail Security Regulations | Rail Security\nRegulations",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55kgw",
+        "score": 0.6586096882820129,
+        "candidate_title": "Railway Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wpr",
+        "score": 0.640629768371582,
+        "candidate_title": "Transportation of Dangerous Goods by Rail Security Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/56hrq",
+        "score": 0.6332259178161621,
+        "candidate_title": "Railway Act"
+      }
+    ]
+  },
+  "FOIPPA": {
+    "uri": "https://canlii.ca/t/56pvb",
+    "score": 0.6804485321044922,
+    "candidate_id": "l169!169-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | FOIPPA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 0.6804485321044922,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 0.6451117992401123,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 0.6371844410896301,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "PD36": {
+    "uri": "https://synthetic.leread.ca/gold/G0400",
+    "score": 0.5841098427772522,
+    "candidate_id": "gold-G0400",
+    "candidate_title": "Protective Direction No. 36",
+    "query_text": "legislation | PD36",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0400",
+        "score": 0.5841098427772522,
+        "candidate_title": "Protective Direction No. 36"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0387",
+        "score": 0.5635912418365479,
+        "candidate_title": "Practice Direction 56"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0399",
+        "score": 0.5559177994728088,
+        "candidate_title": "Protective Direction No. 32"
+      }
+    ]
+  },
+  "EMA": {
+    "uri": "https://canlii.ca/t/56c1p",
+    "score": 0.5219705700874329,
+    "candidate_id": "l20180!20180-current-1",
+    "candidate_title": "Environmental Management Act",
+    "query_text": "legislation | EMA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.5219705700874329,
+        "candidate_title": "Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kd4",
+        "score": 0.5156264901161194,
+        "candidate_title": "Environmental Management Amendment Act, 2016"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g1j",
+        "score": 0.5118204355239868,
+        "candidate_title": "Patented Medicines (Notice of Compliance) Regulations"
+      }
+    ]
+  },
+  "Regulatory Impact Analysis Statement": {
+    "uri": "https://synthetic.leread.ca/gold/G0417",
+    "score": 0.6712521314620972,
+    "candidate_id": "gold-G0417",
+    "candidate_title": "Regulatory Impact Analysis Statement",
+    "query_text": "secondary sources | Regulatory Impact Analysis\nStatement | Regulatory Impact Analysis Statement | Regulatory\nImpact Analysis Statement",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0417",
+        "score": 0.6712521314620972,
+        "candidate_title": "Regulatory Impact Analysis Statement"
+      },
+      {
+        "uri": "https://canlii.ca/t/99sw",
+        "score": 0.5128324627876282,
+        "candidate_title": "An Act to enact the Impact Assessment Act and the Canadian Energy Regulator Act, to amend the Navigation Protection Act and to make consequential amendments to other Acts"
+      },
+      {
+        "uri": "https://canlii.ca/t/7xr3",
+        "score": 0.4613710045814514,
+        "candidate_title": "Canada Industrial Relations Board Regulations, 2012"
+      }
+    ]
+  },
+  "Canada, Parliament, Senate, Standing Committee on Transport": {
+    "uri": "https://synthetic.leread.ca/gold/G0452",
+    "score": 0.7526998519897461,
+    "candidate_id": "gold-G0452",
+    "candidate_title": "Proceedings",
+    "query_text": "secondary sources | Proceedings | Written Brief | Canada, Parliament, Senate, Standing Committee on\nTransport",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0452",
+        "score": 0.7526998519897461,
+        "candidate_title": "Proceedings"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0498",
+        "score": 0.5146245360374451,
+        "candidate_title": "Transport Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56sp9",
+        "score": 0.5142490863800049,
+        "candidate_title": "Canada Transportation Act"
+      }
+    ]
+  },
+  "Brown and Evans": {
+    "uri": "https://synthetic.leread.ca/gold/G0045",
+    "score": 0.7687472105026245,
+    "candidate_id": "gold-G0045",
+    "candidate_title": "Judicial Review of Administrative Action in Canada",
+    "query_text": "secondary sources | Judicial Review of\nAdministrative Action in Canada | Brown and Evans",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0045",
+        "score": 0.7687472105026245,
+        "candidate_title": "Judicial Review of Administrative Action in Canada"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0275",
+        "score": 0.6935253143310547,
+        "candidate_title": "Judicial Review of Administrative Action"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/1984CanLIIDocs4",
+        "score": 0.6161423921585083,
+        "candidate_title": "Judicial Review of Administrative Action: Application for Judicial Review"
+      }
+    ]
+  }
+}

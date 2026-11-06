@@ -1,0 +1,122 @@
+{
+  "2001BCSC1342": {
+    "uri": "https://canlii.ca/t/5884",
+    "score": 0.8250490427017212,
+    "candidate_id": "2001bcsc1342",
+    "candidate_title": "John Campbell Law Corp. v. Owners, Strata Plan 1350",
+    "query_text": "decision | John Campbell Law Corporation v. Owners, Strata\n  Plan 1350",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5884",
+        "score": 0.8250490427017212,
+        "candidate_title": "John Campbell Law Corp. v. Owners, Strata Plan 1350"
+      },
+      {
+        "uri": "https://canlii.ca/t/gtqsc",
+        "score": 0.6517991423606873,
+        "candidate_title": "The Owners, Strata Plan KAS 3549 v. 0738039 B.C. Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/k1stv",
+        "score": 0.6404159069061279,
+        "candidate_title": "Giacomini Consulting Canada Inc. v. The Owners, Strata Plan EPS 3173"
+      }
+    ]
+  },
+  "Carstairs and Another v. Taylor": {
+    "uri": "https://canlii.ca/t/j32qw",
+    "score": 0.5512065887451172,
+    "candidate_id": "2019onsc5780",
+    "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada",
+    "query_text": "decision | .",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5512065887451172,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.5500788688659668,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/1dlw7",
+        "score": 0.5481023788452148,
+        "candidate_title": "Smith v. Reid"
+      }
+    ]
+  },
+  "Wayen Diners Ltd. v. Hong Yick Tong Ltd.": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739977359771729,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739977359771729,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5710335969924927,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5616254210472107,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "John Campbell Law Corporation v. Owners, Strata Plan 1350": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739977359771729,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739977359771729,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5710335969924927,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5616254210472107,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Theberge v. Zittlau": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5713425874710083,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  }
+}

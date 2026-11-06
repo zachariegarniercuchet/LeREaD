@@ -1,0 +1,18 @@
+{
+  "Estevan Coal Corp. v Estevan (Rural Municipality No. 5)": {
+    "uri": "https://canlii.ca/t/1l6w0",
+    "score": 3.7,
+    "candidate_id": "2000skca82",
+    "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)",
+    "query_text": "decision | <i>Estevan Coal Corp.</i> v. <i>Estevan (Rural Municipality No. 5),</i> | 2000 SKCA 82 | 199 Sask. R. 57",
+    "method": "citation_exact",
+    "matched_key": "199saskr57",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6w0",
+        "score": 3.7,
+        "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)"
+      }
+    ]
+  }
+}

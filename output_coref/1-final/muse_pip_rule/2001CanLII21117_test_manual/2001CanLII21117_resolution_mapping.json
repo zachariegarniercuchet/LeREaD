@@ -1,0 +1,255 @@
+{
+  "Charter of Human Rights and Freedoms (Quebec)": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 3.5,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | Charter of human rights and freedoms | Charter\nof human rights and freedoms | Charter | Act | Section 18.2 | R.S.Q.,\nc. C-12 | R.S.Q. c.\nC-12",
+    "method": "citation_exact",
+    "matched_key": "rsqcc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 3.5,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      }
+    ]
+  },
+  "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets": {
+    "uri": "https://canlii.ca/t/56w3x",
+    "score": 2.0,
+    "candidate_id": "l5660!5660-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | <i>By-law respecting standards of the Sûreté du Québec\nand municipal police forces for the hiring of constables and cadets</i> | <i>Police Act</i> | Regulation 14 | By-law respecting standards of the Sûreté du Québec and\nmunicipal police forces for the hiring of constables and cadets | <i>By-law respecting standards of the Sûreté du Québec and municipal\npolice forces for the hiring of constables and cadets</i> | By-law respecting standards of the Sûreté du Québec and municipal police\nforces for the hiring of constables and cadets | Regulation\n14",
+    "method": "title_exact",
+    "matched_key": "police act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w3x",
+        "score": 2.0,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 2.0,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/52ndn",
+        "score": 2.0,
+        "candidate_title": "Police Act"
+      }
+    ]
+  },
+  "Criminal Code": {
+    "uri": "https://canlii.ca/t/56lsh",
+    "score": 3.5,
+    "candidate_id": "l12792!12792-current-1",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Criminal Code | Criminal Code (<auto_label id=\"133\" labelname=\"citation\" parent=\"title\" style=\"background-color: rgb(255, 87, 51); color: black;\" verified=\"false\">Revised Statutes of Canada,\n1985, chapter C-46</auto_label>) | <i>Criminal Code</i> | Criminal\nCode | R.S.C. 1970, c. C-34 | R.S.C., 1985, c. C-46",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cc46",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Criminal Records Act": {
+    "uri": "https://canlii.ca/t/56lsj",
+    "score": 2.0,
+    "candidate_id": "l12793!12793-current-1",
+    "candidate_title": "Criminal Records Act",
+    "query_text": "legislation | Criminal Records Act | Act | Criminal\nRecords Act | C.R.A. | Criminal Records\nAct",
+    "method": "title_exact",
+    "matched_key": "criminal records act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsj",
+        "score": 2.0,
+        "candidate_title": "Criminal Records Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fmwv",
+        "score": 2.0,
+        "candidate_title": "Loi sur le casier judiciaire"
+      }
+    ]
+  },
+  "National Defence Act": {
+    "uri": "https://canlii.ca/t/56mrx",
+    "score": 2.0,
+    "candidate_id": "l12899!12899-current-1",
+    "candidate_title": "National Defence Act",
+    "query_text": "legislation | National Defence Act",
+    "method": "title_exact",
+    "matched_key": "national defence act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56mrx",
+        "score": 2.0,
+        "candidate_title": "National Defence Act"
+      }
+    ]
+  },
+  "Police Act": {
+    "uri": "https://canlii.ca/t/56w3x",
+    "score": 2.0,
+    "candidate_id": "l5660!5660-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | Police Act | Act | Police\nAct | (c. P-13)",
+    "method": "title_exact",
+    "matched_key": "police act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w3x",
+        "score": 2.0,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 2.0,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/52ndn",
+        "score": 2.0,
+        "candidate_title": "Police Act"
+      }
+    ]
+  },
+  "B.C. Human Rights Commission v. B.C. Human Rights Tribunal": {
+    "uri": "https://canlii.ca/t/1fndz",
+    "score": 3.5,
+    "candidate_id": "2000bcca584",
+    "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal",
+    "query_text": "decision | <i>B.C. Human Rights Commission</i> v<i>.\nB.C. Human Rights Tribunal</i> | 2000 BCCA 584",
+    "method": "citation_exact",
+    "matched_key": "2000bcca584",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 3.5,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      }
+    ]
+  },
+  "McLaughlin": {
+    "uri": "https://canlii.ca/t/1fndz",
+    "score": 3.0,
+    "candidate_id": "2000bcca584",
+    "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal",
+    "query_text": "decision | McLaughlin | <i><span style=\"font-size:10.0pt\">McLaughlin</span></i><span style=\"font-size:\n10.0pt\"> v. <i>Fletcher Challenge Canada Ltd</i>.</span> | [2000] B.C.J. No 2162 | 2000 BCCA\n584",
+    "method": "citation_exact",
+    "matched_key": "2000bcca584",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 3.0,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      }
+    ]
+  },
+  "Human Rights Code (British Columbia)": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 3.5,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "legislation | Human Rights Code | R.S.B.C., 1996, c. 210",
+    "method": "citation_exact",
+    "matched_key": "rsbc1996c210",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 3.5,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "Young Offenders Act": {
+    "uri": "https://canlii.ca/t/kmfv",
+    "score": 3.5,
+    "candidate_id": "l12988!12988-current-1",
+    "candidate_title": "Young Offenders Act",
+    "query_text": "legislation | Young Offenders Act | R.S.C.\n1985, c. Y-1",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cy1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kmfv",
+        "score": 3.5,
+        "candidate_title": "Young Offenders Act"
+      }
+    ]
+  },
+  "Human Rights Act": {
+    "uri": "https://canlii.ca/t/53j7p",
+    "score": 2.0,
+    "candidate_id": "l22604!22604-current-1",
+    "candidate_title": "Human Rights Act",
+    "query_text": "legislation | Human Rights Act",
+    "method": "title_exact",
+    "matched_key": "human rights act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53j7p",
+        "score": 2.0,
+        "candidate_title": "Human Rights Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtj5",
+        "score": 2.0,
+        "candidate_title": "Human Rights Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8j8z",
+        "score": 2.0,
+        "candidate_title": "Human Rights Act"
+      }
+    ]
+  },
+  "Act respecting the Ministère du Revenu": {
+    "uri": "https://canlii.ca/t/x6v",
+    "score": 3.0,
+    "candidate_id": "l5406!5406-current-1",
+    "candidate_title": "Tax Administration Act",
+    "query_text": "legislation | <i>Act\nrespecting the Ministère du Revenu</i> | R.S.Q. c. M-31",
+    "method": "citation_exact",
+    "matched_key": "rsqcm31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/x6v",
+        "score": 3.0,
+        "candidate_title": "Tax Administration Act"
+      }
+    ]
+  },
+  "Code of Civil Procedure (Quebec)": {
+    "uri": "https://canlii.ca/t/6fn1z",
+    "score": 3.0,
+    "candidate_id": "l5519!5519-current-1",
+    "candidate_title": "Code des professions",
+    "query_text": "legislation | R.S.Q. c. C-26",
+    "method": "citation_exact",
+    "matched_key": "rsqcc26",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fn1z",
+        "score": 3.0,
+        "candidate_title": "Code des professions"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxm",
+        "score": 3.0,
+        "candidate_title": "Professional Code"
+      }
+    ]
+  }
+}

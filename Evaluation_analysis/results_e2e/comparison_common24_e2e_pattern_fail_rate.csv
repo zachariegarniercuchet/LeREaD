@@ -1,0 +1,13 @@
+mention,pattern_grouped,gold_n,gemma4,gpt5.2,muse,qwen38,saullm
+decision,title -> citation,525,0.4362,0.1524,0.5905,0.5524,0.9352
+legislation,fragment,459,0.5577,0.2614,0.7734,0.6732,1.0000
+decision,title,432,0.4028,0.3356,0.4745,0.4398,0.9329
+legislation,title,425,0.4329,0.3365,0.5741,0.4612,0.9953
+legislation,fragment -> title,365,0.5205,0.3233,0.6548,0.4384,0.9973
+decision,fragment,222,0.8198,0.8063,0.9955,0.9144,1.0000
+decision,title -> fragment,176,0.2273,0.2386,0.3920,0.3523,0.9261
+decision,title -> citation -> fragment,151,0.0795,0.0795,0.4503,0.2914,0.8477
+decision,citation,127,0.8661,0.8031,0.9370,0.9134,1.0000
+decision,title -> citation -> fragment -> citation,56,0.0357,0.0179,0.3214,0.2857,0.8571
+decision,citation -> fragment,31,0.8710,0.8387,0.9355,0.9677,1.0000
+legislation,title -> citation,27,0.3333,0.2222,0.5556,0.4815,1.0000

@@ -1,0 +1,2344 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 14 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:25.0pt;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";}
+h2
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+h3
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h4
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h5
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h6
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;
+	font-style:italic;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+span.MsoEndnoteReference
+	{vertical-align:super;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:-.25in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:8.0pt;
+	font-family:"Arial","sans-serif";}
+p.Paragraphe, li.Paragraphe, div.Paragraphe
+	{mso-style-name:Paragraphe;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:0in;
+	line-height:25.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.Citationenretrait, li.Citationenretrait, div.Citationenretrait
+	{mso-style-name:"Citation en retrait";
+	margin-top:6.0pt;
+	margin-right:.5in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-indent:0in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+span.Citationintgre
+	{mso-style-name:"Citation intégrée";
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.zSoquijlblCour, li.zSoquijlblCour, div.zSoquijlblCour
+	{mso-style-name:zSoquij_lblCour;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:25.0pt;
+	font-size:18.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.zSoquijlblPays, li.zSoquijlblPays, div.zSoquijlblPays
+	{mso-style-name:zSoquij_lblPays;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblProvince, li.zSoquijlblProvince, div.zSoquijlblProvince
+	{mso-style-name:zSoquij_lblProvince;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblGreffe, li.zSoquijlblGreffe, div.zSoquijlblGreffe
+	{mso-style-name:zSoquij_lblGreffe;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatGreffe, li.zSoquijdatGreffe, div.zSoquijdatGreffe
+	{mso-style-name:zSoquij_datGreffe;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatDivision, li.zSoquijdatDivision, div.zSoquijdatDivision
+	{mso-style-name:zSoquij_datDivision;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblNoDossier, li.zSoquijlblNoDossier, div.zSoquijlblNoDossier
+	{mso-style-name:zSoquij_lblNoDossier;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatNoDossier, li.zSoquijdatNoDossier, div.zSoquijdatNoDossier
+	{mso-style-name:zSoquij_datNoDossier;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatNoDossierAnt, li.zSoquijdatNoDossierAnt, div.zSoquijdatNoDossierAnt
+	{mso-style-name:zSoquij_datNoDossierAnt;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:47.5pt;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatDateJugement, li.zSoquijdatDateJugement, div.zSoquijdatDateJugement
+	{mso-style-name:zSoquij_datDateJugement;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblDateJugement, li.zSoquijlblDateJugement, div.zSoquijlblDateJugement
+	{mso-style-name:zSoquij_lblDateJugement;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblJuge, li.zSoquijlblJuge, div.zSoquijlblJuge
+	{mso-style-name:zSoquij_lblJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.zSoquijdatQteJuge, li.zSoquijdatQteJuge, div.zSoquijdatQteJuge
+	{mso-style-name:zSoquij_datQteJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.zSoquijdatJuge, li.zSoquijdatJuge, div.zSoquijdatJuge
+	{mso-style-name:zSoquij_datJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.zSoquijdatNomPartieDem, li.zSoquijdatNomPartieDem, div.zSoquijdatNomPartieDem
+	{mso-style-name:zSoquij_datNomPartieDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.zSoquijdatQtePartieDem, li.zSoquijdatQtePartieDem, div.zSoquijdatQtePartieDem
+	{mso-style-name:zSoquij_datQtePartieDem;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblLienParties, li.zSoquijlblLienParties, div.zSoquijlblLienParties
+	{mso-style-name:zSoquij_lblLienParties;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatNomPartieDef, li.zSoquijdatNomPartieDef, div.zSoquijdatNomPartieDef
+	{mso-style-name:zSoquij_datNomPartieDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.zSoquijdatQtePartieDef, li.zSoquijdatQtePartieDef, div.zSoquijdatQtePartieDef
+	{mso-style-name:zSoquij_datQtePartieDef;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblTypeDocument, li.zSoquijlblTypeDocument, div.zSoquijlblTypeDocument
+	{mso-style-name:zSoquij_lblTypeDocument;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblProcureurDem, li.zSoquijlblProcureurDem, div.zSoquijlblProcureurDem
+	{mso-style-name:zSoquij_lblProcureurDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblProcureurDef, li.zSoquijlblProcureurDef, div.zSoquijlblProcureurDef
+	{mso-style-name:zSoquij_lblProcureurDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblDateAudience, li.zSoquijlblDateAudience, div.zSoquijlblDateAudience
+	{mso-style-name:zSoquij_lblDateAudience;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatDateAudience, li.zSoquijdatDateAudience, div.zSoquijdatDateAudience
+	{mso-style-name:zSoquij_datDateAudience;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblNomChambre, li.zSoquijlblNomChambre, div.zSoquijlblNomChambre
+	{mso-style-name:zSoquij_lblNomChambre;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijlblOpinionJuge, li.zSoquijlblOpinionJuge, div.zSoquijlblOpinionJuge
+	{mso-style-name:zSoquij_lblOpinionJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.zSoquijlblEntNoDossier
+	{mso-style-name:zSoquij_lblEntNoDossier;}
+p.zSoquijlblTitrePartie, li.zSoquijlblTitrePartie, div.zSoquijlblTitrePartie
+	{mso-style-name:zSoquij_lblTitrePartie;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatIdJuge, li.zSoquijdatIdJuge, div.zSoquijdatIdJuge
+	{mso-style-name:zSoquij_datIdJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.Sous-paragraphe, li.Sous-paragraphe, div.Sous-paragraphe
+	{mso-style-name:Sous-paragraphe;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.55in;
+	text-align:justify;
+	text-indent:-.3in;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatNomProcureurDem, li.zSoquijdatNomProcureurDem, div.zSoquijdatNomProcureurDem
+	{mso-style-name:zSoquij_datNomProcureurDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatNomProcureurDef, li.zSoquijdatNomProcureurDef, div.zSoquijdatNomProcureurDef
+	{mso-style-name:zSoquij_datNomProcureurDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatCabinetProcureurDem, li.zSoquijdatCabinetProcureurDem, div.zSoquijdatCabinetProcureurDem
+	{mso-style-name:zSoquij_datCabinetProcureurDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatCabinetProcureurDef, li.zSoquijdatCabinetProcureurDef, div.zSoquijdatCabinetProcureurDef
+	{mso-style-name:zSoquij_datCabinetProcureurDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.Tableaudroiteanglais, li.Tableaudroiteanglais, div.Tableaudroiteanglais
+	{mso-style-name:"Tableau droite anglais";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.1in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Tableaugauchefranais, li.Tableaugauchefranais, div.Tableaugauchefranais
+	{mso-style-name:"Tableau gauche français";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.zSoquijdatRepertorie, li.zSoquijdatRepertorie, div.zSoquijdatRepertorie
+	{mso-style-name:zSoquij_datRepertorie;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.zSoquijdatRefNeutre, li.zSoquijdatRefNeutre, div.zSoquijdatRefNeutre
+	{mso-style-name:zSoquij_datRefNeutre;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.StylezSoquijdatRepertorie, li.StylezSoquijdatRepertorie, div.StylezSoquijdatRepertorie
+	{mso-style-name:"Style zSoquij_datRepertorie";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:25.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:1.0in .7in 1.0in 1.3in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:612.1pt 792.1pt;
+	margin:1.0in .7in 1.0in 1.3in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head>
+<body lang="EN-US">
+<div class="WordSection1">
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:.4pt;border-collapse:collapse" width="618">
+<tr style="height:14.2pt">
+<td colspan="5" style="width:354.0pt;padding:0in 0in 0in 0in;
+  height:14.2pt" valign="top" width="472">
+<p class="zSoquijdatRepertorie"><span lang="FR-CA">Centre commercial Les Rivières
+  ltée c. Jean bleu inc.</span></p>
+</td>
+<td style="width:109.5pt;padding:0in 0in 0in 0in;
+  height:14.2pt" valign="top" width="146">
+<p align="right" class="zSoquijdatRefNeutre" style="text-align:right"><span lang="FR-CA">2012 QCCA 1663</span></p>
+</td>
+</tr>
+<tr style="height:12.35pt">
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in;
+  height:12.35pt" valign="top" width="618">
+<p class="zSoquijlblCour"><span lang="EN-CA">COURT OF APPEAL</span></p>
+</td>
+</tr>
+<tr style="height:27.0pt">
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in;
+  height:27.0pt" valign="top" width="618">
+<p class="zSoquijdatDivision"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijlblPays"><span lang="EN-CA">CANADA</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijlblProvince"><span lang="EN-CA">PROVINCE OF QUEBEC</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:83.6pt;padding:0in 0in 0in 0in" valign="top" width="111">
+<p class="zSoquijlblGreffe"><span lang="EN-CA">REGISTRY OF</span></p>
+</td>
+<td colspan="3" style="width:379.9pt;padding:0in 0in 0in 0in" valign="top" width="507">
+<p class="zSoquijdatGreffe"><a name="NomGreffe"><span lang="EN-CA">MONTREAL</span></a></p>
+<p class="zSoquijdatGreffe"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:51.5pt;padding:0in 0in 0in 0in" valign="top" width="69">
+<p class="zSoquijlblNoDossier"><span lang="EN-CA">No:</span></p>
+</td>
+<td colspan="5" style="width:412.0pt;padding:0in 0in 0in 0in" valign="top" width="549">
+<p class="zSoquijdatNoDossier"><a name="NoDossier"><span lang="EN-CA">500-09-020958-104</span></a></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijdatNoDossierAnt"><span lang="EN-CA">(500-17-047870-095)</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:51.5pt;padding:0in 0in 0in 0in" valign="top" width="69">
+<p class="zSoquijlblDateJugement"><span lang="EN-CA">DATE:</span></p>
+</td>
+<td colspan="5" style="width:412.0pt;padding:0in 0in 0in 0in" valign="top" width="549">
+<p class="zSoquijdatDateJugement"><span lang="EN-CA"> SEPTEMBER 19, 2012</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;border:none;
+  padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:.75in;padding:0in 0in 0in 0in" valign="top" width="72">
+<p class="zSoquijlblJuge"><a name="Coram"><span lang="EN-CA">CORAM:</span></a></p>
+</td>
+<td colspan="2" style="width:1.75in;padding:0in 0in 0in 0in" valign="top" width="168">
+<p class="zSoquijdatQteJuge"><a name="Honorables"><span lang="EN-CA">THE HONOURABLE</span></a></p>
+</td>
+<td colspan="2" style="width:283.5pt;padding:0in 0in 0in 0in" valign="top" width="378">
+<p class="zSoquijdatJuge"><a name="NomJuge1"><span lang="FR-CA">LOUIS ROCHETTE, J.A.</span></a></p>
+<p class="zSoquijdatJuge"><a name="NomJuge2"><span lang="FR-CA">NICHOLAS KASIRER,
+  J.A.</span></a></p>
+<p class="zSoquijdatJuge"><a name="NomJuge3"></a><a name="_Hlt520513784"></a><span lang="EN-CA">RICHARD WAGNER, J.A.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="DE"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijlblTitrePartie"><span lang="DE"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijdatNomPartieDem"><span lang="FR-CA">CENTRE COMMERCIAL LES
+  RIVIÈRES LTÉE</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijdatQtePartieDem"><span lang="EN-CA">APPELLANT – plaintiff –
+  respondent </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijlblLienParties"><span lang="EN-CA">v.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijdatNomPartieDef"><span lang="EN-CA">LE JEAN BLEU INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijdatQtePartieDef"><span lang="EN-CA">RESPONDENT – defendant –
+  petitioner </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;border:none;
+  border-top:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top" width="618"><a name="Arret"></a>
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="zSoquijlblTypeDocument"><a name="TitreDocument"><span lang="EN-CA">JUDGMENT</span></a></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="width:463.5pt;border:none;
+  padding:0in 0in 0in 0in" valign="top" width="618">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr height="0">
+<td style="border:none" width="69"></td>
+<td style="border:none" width="3"></td>
+<td style="border:none" width="39"></td>
+<td style="border:none" width="129"></td>
+<td style="border:none" width="232"></td>
+<td style="border:none" width="146"></td>
+</tr>
+</table>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="FR"> </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt">[1]<span style='font:7.0pt "Times New Roman"'>          
+</span><span lang="EN-CA">On appeal from a judgment of the Superior Court,
+District of Montreal (the Honourable Madam Justice Lise Matteau), rendered on
+July 22, 2010, which declared the appellant guilty of contempt of court.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt">[2]<span style='font:7.0pt "Times New Roman"'>          
+</span><span lang="EN-CA">For the reasons of Kasirer, J.A., with which Rochette
+and Wagner, JJ.A. agree, <b>THE COURT</b>:</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[3]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><b><span lang="EN-CA">ALLOWS</span></b><span lang="EN-CA"> the appeal;</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[4]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><b><span lang="EN-CA">SETS ASIDE</span></b><span lang="EN-CA"> the
+trial judgment;</span></p>
+<b><span lang="EN-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'><br clear="all" style="page-break-before:always"/>
+</span></b>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[5]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><b><span lang="EN-CA">DISMISSES</span></b><span lang="EN-CA"> the
+proceedings in contempt of court;</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[6]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span lang="EN-CA">With costs throughout.</span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:.4pt;border-collapse:collapse" width="624">
+<tr style="height:.4in">
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in;
+  height:.4in" valign="top" width="624">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;border:none;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal"><span lang="EN-CA">LOUIS ROCHETTE, J.A.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312"><a name="Signature2"></a>
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;border:none;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="EN-CA">NICHOLAS
+  KASIRER, J.A.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312"><a name="Signature3"></a>
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width:234.1pt;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="FR"> </span></p>
+</td>
+<td style="width:233.9pt;border:none;padding:0in 0in 0in 0in" valign="top" width="312">
+<p class="MsoNormal" style="page-break-after:avoid"><span lang="EN-CA">RICHARD
+  WAGNER, J.A.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="MsoNormal"><span lang="FR"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijdatNomProcureurDem"><span lang="EN-CA">Mtre François Viau</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijdatCabinetProcureurDem"><span lang="EN-CA">GOWLING LAFLEUR
+  HENDERSON</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijlblProcureurDem"><span lang="EN-CA">For the appellant</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijdatNomProcureurDef"><span lang="EN-CA">Mtre Gérald R. Tremblay</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijdatCabinetProcureurDef"><span lang="EN-CA">McCARTHY TÉTRAULT</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">Legal adviser for the
+  appellant</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijdatNomProcureurDef"><span lang="FR-CA">Mtre Bernard Lévy-Soussan</span></p>
+<p class="zSoquijdatNomProcureurDef"><span lang="FR-CA">Mtre Alexandre Rousseau</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijdatCabinetProcureurDef"><span lang="EN-CA">NBL LEGAL INC.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijlblProcureurDef"><span lang="EN-CA">For the respondent </span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:99.85pt;padding:0in 0in 0in 0in" valign="top" width="133">
+<p class="zSoquijlblDateAudience"><span lang="EN-CA">Date of hearing:</span></p>
+</td>
+<td colspan="2" style="width:368.15pt;padding:0in 0in 0in 0in" valign="top" width="491">
+<p class="zSoquijdatDateAudience"><span lang="EN-CA">April 24, 2012</span></p>
+</td>
+</tr>
+<tr height="0">
+<td style="border:none" width="133"></td>
+<td style="border:none" width="179"></td>
+<td style="border:none" width="312"></td>
+</tr>
+</table>
+</div>
+<span lang="EN-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'><br clear="all" style="page-break-before:always"/>
+</span>
+<div class="WordSection2">
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:.4pt;border-collapse:collapse">
+<tr>
+<td style="width:6.5in;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 0in 0in 0in" valign="top" width="624"><a name="Opinion"></a>
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:6.5in;border:none;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:6.5in;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="zSoquijlblOpinionJuge"><a name="MotifJuge2"><span lang="EN-CA">REASONS OF</span></a><span lang="EN-CA"> KASIRER, J.A.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width:6.5in;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:6.5in;border:none;padding:0in 0in 0in 0in" valign="top" width="624">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+</table>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[7]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span lang="EN-CA">It is often said that contempt of court is an
+exceptional proceeding to which courts should turn only "sparingly"
+and as a "last resort". When presented with an apparent violation of
+a court order, judges have expressed this in different ways: by insisting, for
+example, that the requirements for civil contempt are <i>strictissimi juris</i>,
+that other remedies be exhausted before holding a party in contempt, that the
+underlying court order suffer from no ambiguity, or that the complainant bear
+the burden of proof, beyond reasonable doubt, for the <i>actus reus</i> and the
+<i>mens rea</i> of this quasi-criminal offence. All of these concerns reflect
+the seriousness of the charge of contempt and the reality that the contemnor is
+potentially exposed to the rare sanction of imprisonment in civil matters. But
+they also rest on a right posture of judicial policy. If a finding of contempt
+comes too easily – if the use of contempt is not "most jealously and
+carefully watched and exercised",</span><a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[1]</span></span></span></span></a><span lang="EN-CA"> as
+was once famously said – a court’s outrage might be treated as just so much
+bluster that might ultimately cheapen the role and authority of the very
+judicial power it seeks to protect.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[8]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span lang="EN-CA">The ruling of contempt in this appeal tests the
+idea of the remedy of last resort where contempt is based on the alleged failure
+of a party to satisfy a case management order to disclose documents. Like some
+other jurisdictions, Quebec has embraced a "new judicial culture" in
+which parties are recognized as exercising a responsibility in the management
+of their cases and judges are empowered to make decisions to advance
+proceedings efficiently to trial as a means of promoting the social good of
+access to justice.</span><a href="#_ftn2" name="_ftnref2" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[2]</span></span></span></span></a><span lang="EN-CA"> Where a party transgresses an order issued by a judge to produce
+documents as a pre-trial measure of case management, is he or she in contempt
+of court where other avenues of redress were plainly available?</span></p>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA">I           FACTS
+AND PROCEEDINGS</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[9]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span lang="EN-CA">The conviction for contempt in this case arose
+against the background of a longstanding dispute between the parties to a
+commercial lease.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[10]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Centre commercial Les Rivières ltée is the owner
+of a large shopping centre in Trois-Rivières, Quebec, managed by Ivanhoe
+Cambridge Inc. Le Jean Bleu inc. is a tenant in the Les Rivières’ shopping
+centre. At the time of the lease, Jean Bleu's retail outlet was one of eight
+stores it rented in various Ivanhoe-managed shopping centres.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[11]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Jean Bleu's lease stipulated that it was
+"fully net to the Landlord". Article 4.03 provided that the rent
+included "Occupancy Costs", notably a share of common area costs and taxes.
+Article 4.08 required the landlord to calculate the occupancy costs and
+prepare, in sufficient detail, a "Statement" for the tenant of what
+was owed. Article 4.08(c) set out a procedure to be followed in the event of a
+dispute over the amount due. The same clause allowed for the appointment of a
+mutually acceptable expert to resolve disagreements relating to the occupancy
+costs.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[12]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Jean Bleu has long argued that the common area
+costs claimed by its landlord Les Rivières were unreasonably high. As early as
+June, 1995 under a previous lease, Jean Bleu had sought the relevant documents
+from Les Rivières – electricity bills, accounting policies and practices, and
+the like – that would allow it, as tenant, to verify whether the correct
+amounts had been levied.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[13]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">For a time, Jean Bleu continued to pay its share
+of the common area costs under protest, while reserving its right to contest
+the charges. The parties exchanged letters and emails over the course of 2007
+and 2008 – some cordial, some less so – but, in the end, Jean Bleu remained
+unsatisfied with the explanations and documents it received from Les Rivières.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[14]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In late 2008, Jean Bleu stopped paying the rent.
+It took the view that it was owed somewhere between $100,000 and $300,000 in
+overpayments for the common area costs wrongly charged to it by the landlord.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[15]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On January 20, 2009, Les Rivières instituted
+proceedings against Jean Bleu for $76,327.71 in unpaid rent through January
+2009. It also sought resiliation of the lease and a further sum of $78,252.69,
+representing accelerated rent due in the event of breach. (Subsequent to the
+commencement of the action, the lease was terminated and Jean Bleu is no longer
+a tenant in the Les Rivières' shopping centre).</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[16]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The matter of the proper amount of the occupancy
+costs as part of the rent is thus the nub of the dispute in the main action
+pending before the Superior Court. Jean Bleu's on-going demand for documents
+explaining the occupancy costs has been a focus in pre-trial proceedings.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[17]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On March 4, 2009, Jean Bleu filed a "Motion
+to Appoint an Expert" pursuant to Article 4.08(c) of the lease. Les
+Rivières countered with a motion for particulars calling on Jean Bleu to state
+its claim in more precise terms. The parties eventually agreed that Jean Bleu
+would name its own accountant, Gerald Bernstein, who, together with the
+accountants of the landlord, would review the various calculations relating to
+the occupancy costs for 2007. On March 26, 2009, Hébert, J. of the Superior
+Court postponed the hearing of the two motions <i>sine die</i> and reserved the
+parties’ rights under the lease for 2008 and 2009.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[18]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Acting for Jean Bleu pursuant to this
+arrangement, Mr. Bernstein moved quickly to obtain documents from the landlord
+relating to the occupancy costs. In April 2009, he was asked to sign a
+confidentiality agreement by the landlord's accountants in which he would
+undertake not to use the information obtained beyond what was necessary for his
+mandate under the lease. Mr. Bernstein refused to sign and Jean Bleu brought a
+motion on April 30, 2009 to obtain the required documents, denying that it had
+any obligation to keep them confidential. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[19]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Once again the parties arrived at an agreement,
+this time allowing Mr. Bernstein to attend the premises of Ivanhoe in order to
+copy the materials he needed. He undertook to sign a document that would record
+all materials copied or scanned for the purposes of his mandate. On May 15,
+2009, Beaugé, J. of the Superior Court ratified the agreement.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[20]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On May 21, 2009, Mtre. François Viau, counsel
+for Les Rivières, wrote to Jean Bleu to say that Mr. Bernstein could proceed
+with the verifications pursuant to the agreement, adding that Les Rivières
+needed time to "mettre en place le nécessaire afin de pouvoir l'accueillir".
+On May 26, 2009, Castonguay, J. of the Superior Court ordered Les Rivières to
+allow Mr. Bernstein access to the documents referred to in the judgment of
+Beaugé, J. no later than June 5, 2009.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[21]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In June, Mr. Bernstein undertook the necessary
+verifications at Ivanhoe, and was provided access to the "General
+Ledger" of business accounts. He then presented a list of written
+questions to Les Rivières, including some relating to other leases and salaries
+of employees. The landlord replied by letter dated June 25, 2009, providing
+some of the requested materials "dans l'unique but d'éviter des
+interrogatoires avant ou après défense fastidieux", while refusing others.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[22]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Still unsatisfied with the documents made
+available to its accountant, Jean Bleu filed a "</span>Requête en vue de
+se conformer à une ordonnance et obtenir des documents<span lang="EN-CA">",
+alleging that Les Rivières had failed to respect Article 4.08(c) of the lease
+and had wrongly denied Mr. Bernstein access to the necessary documents ordered
+by Castonguay, J. on May 26, 2009. Jean Bleu sought a further order requiring that
+Les Rivières remit the documents identified by Mr. Bernstein in a letter dated
+July 3, 2009 (referred to as exhibit “R-4”). Some of the documents and
+materials requested from Les Rivières and its manager Ivanhoe were precisely
+identified, but in other respects "all supporting documentation" was
+requested. In the letter R-4, the accountant listed all documents he thought
+relevant to the calculation of occupancy costs including, for example,
+information on employees and their salaries.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[23]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The hearing on the motion lasted some forty
+minutes before Mongeon, J. in the practice division of the Superior Court. In
+its representations before the motions judge, Les Rivières raised, without
+further detail, the confidential character of some of the documents sought by
+Jean Bleu but did not, at that time, secure an order to have that
+confidentiality protected. Counsel for Les Rivières otherwise consented to
+releasing the documents mentioned in Mr. Bernstein's letter R-4.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[24]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On July 13, 2009, Mongeon, J. issued the
+following order by oral judgment which, as later events would have it, became
+the focus of these contempt proceedings:</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Le Tribunal ordonne la production
+des documents faisant l'objet de la liste R-4, devront être produits d'ici le
+20 août 2009 ou un affidavit attestant de leur non disponibilité devra être
+produit.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Frais à suivre.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[25]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On August 20, 2009 – the last day of the period
+fixed by Mongeon, J. for production of the documents – an explanatory letter
+was sent to Jean Bleu by Mtre. Viau’s law firm, in the latter's absence. This
+letter, which was not in the form of a sworn affidavit, provided the landlord's
+answer to various requests in Mr. Bernstein’s list of documents referred to in
+the order of July 13, 2009. Some further materials were furnished but
+disclosure of others was denied because they were said to be confidential, not
+available or already provided. In two instances, the letter stated that the
+documents requested were not relevant.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[26]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Jean Bleu took the position that Les Rivières
+had failed to satisfy the terms of the order issued by Mongeon, J.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[27]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On August 27, 2009, Jean Bleu filed a motion <i>ex
+parte</i> for a special rule ordering Les Rivières to appear before the
+Superior Court to face charges of contempt of court. In its motion, Jean Bleu
+submitted that Les Rivières had failed to obey to the order issued by Mongeon,
+J. in that it did not properly disclose documents requested in Mr. Bernstein's
+list (R-4) or supply an explanatory affidavit for undisclosed materials. Downs,
+J. granted the motion for a special rule that day.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[28]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On September 10, 2009, Jean Bleu filed a
+separate motion to dismiss Les Rivières’ action to recover the unpaid rents,
+invoking articles 2, 20, 46 and 54.1 C.C.P. The allegations were broadly
+similar to those of the motion to obtain a special rule for contempt filed and
+granted two weeks earlier. The motion to dismiss alluded to the contempt
+proceedings. Alleging further that the refusal by the landlord to disclose
+documents rendered a proper defence against the latter's claim impossible and
+that this conduct was the cause of excessive and unfair delay, Jean Bleu sought
+the dismissal of the main action as an improper proceeding and, in the
+alternative, asked once more for the documents on Mr. Bernstein's list.
+Specifically, the motion invited the following principal and alternate
+conclusions:</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">REJETER</span></b><span lang="FR-CA"> l'action de la demanderesse [Les Rivières];</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">SUBSIDIAIREMENT, AJOURNER</span></b><span lang="FR-CA"> la requête pour rejet d'action de la défenderesse [Jean Bleu] au
+mardi 29 septembre 2009, date à laquelle il y sera fait droit advenant le
+défaut de se conformer à l'ordonnance continue ci-après, soit;</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">ORDONNER</span></b><span lang="FR-CA"> à la demanderesse [Les Rivières] de communiquer aux procureurs de
+la défenderesse [Jean Bleu], au plus tard cinq (5) jours du jugement à être
+rendu sur la présente requête, la totalité des documents et/ou informations
+ayant fait l'objet de l'ordonnance (R-1) du 13 juillet 2009 émise par
+l'Honorable juge Robert Mongeon, j.c.s.;</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">SUBSIDIAIREMENT, AUTORISER </span></b><span lang="FR-CA">la défenderesse [Jean Bleu] à récupérer le dépôt de CENT VINGT MILLE
+DOLLARS (120 000,00$) ayant été effectué au dossier de cette Honorable Cour
+[…].</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[29]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The hearing of the motion to dismiss was
+suspended pending the outcome of the contempt proceedings by order of de
+Grandpré, J. on October 19, 2009.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[30]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On July 22, 2010, Matteau, J. of the Superior
+Court found Les Rivières to be in contempt of court for its failure to obey
+Mongeon, J.'s order.</span></p>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA">II          JUDGMENT
+OF THE SUPERIOR COURT</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[31]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The trial judge provided a fulsome discussion of
+the background leading to the special rule citing Les Rivières for contempt.
+She then presented the law applicable to civil contempt, placing emphasis on
+its exceptional character and the importance that its elements be made out
+beyond reasonable doubt. The judge set out a four-step analysis to determine
+whether the order had been disobeyed "</span>en fonction tant de sa lettre
+que des circonstances l’entourant<span lang="EN-CA">" (para [26]).</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[32]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In the first step of her analysis, the trial
+judge concluded that Mongeon, J.’s order had the plain purpose of obliging Les
+Rivières to furnish documents that justified the occupancy charges it levied.
+She examined the terms of the order, exchanges between Mongeon, J. and counsel
+for Les Rivières, and the list provided by Mr. Bernstein for Jean Bleu in
+exhibit R-4 as to what precisely it needed. She concluded that the order issued
+by Mongeon, J. "</span>n’est susceptible d’aucune interprétation<span lang="EN-CA">" and characterized it as evincing "</span>une clarté
+exemplaire<span lang="EN-CA">" (para [36]).</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[33]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The judge then embarked on a second stage of
+analysis bearing on the evidence of a breach of the order as constituting the <i>actus
+reus</i> of contempt. While Les Rivières did respond to Jean Bleu within the
+time period stipulated by Mongeon, J., the trial judge was of the view that Les
+Rivières did not satisfy either the terms or the spirit of the July 13, 2009 order
+of the Superior Court. Notwithstanding the undertaking by counsel before
+Mongeon, J., Les Rivières did not provide all documents and information set
+forth in exhibit R-4. Moreover, Les Rivières failed to provide an affidavit
+explaining why the materials were not available. Jean Bleu had thus met its
+burden of demonstrating that the order had not been respected.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[34]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In the third step of her analysis, the trial
+judge considered whether Les Rivières had properly raised grounds for not
+respecting the order. Considering in particular evidence given at trial by
+Linda Froncioni, a regional director in the finance department of Ivanhoe, the
+judge decided that no proper justification was given for the absence of an
+affidavit. She then reviewed the proposed explanation that the documents
+required by R-4 were either imprecisely identified, irrelevant or confidential.
+She concluded that Les Rivières reasons for its conduct were insufficient.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[35]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Lastly, the judge considered whether Jean Bleu
+had demonstrated beyond a reasonable doubt that Les Rivières had the requisite<i>
+mens rea</i> for contempt of court. She decided that Les Rivières never had the
+intention to comply with the requirement that the non-availability of documents
+and information be attested in an affidavit. The judge noted that Les Rivières
+did not appeal Mongeon, J.'s order. She added that while the landlord may have
+answered the better part of Jean Bleu’s requests for documents, those it did
+furnish did not allow for the verification of the amount of occupancy costs
+owed that Jean Bleu had been seeking for many months. For the judge, Les
+Rivières’ conduct reflected its flagrant intention to disobey the order issued
+on July 13, 2009.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[36]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The trial judge accordingly held Les Rivières in
+contempt and set a later date for representations on sentence.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[37]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On August 20, 2010, Les Rivières filed an
+inscription in appeal. Jean Bleu brought a motion to dismiss the appeal, which
+motion was dismissed by a panel of this Court on November 15, 2010.</span><a href="#_ftn3" name="_ftnref3" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[3]</span></span></span></span></a><span lang="EN-CA"> The conclusions of the judgment read as follows:</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">POUR CES MOTIFS, LA COUR</span></b><span lang="FR-CA">:</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">REJETTE</span></b><span lang="FR-CA"> la requête en rejet d’appel, frais à suivre;</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">ORDONNE</span></b><span lang="FR-CA"> que l’instance se poursuive en première instance, à l’exception des
+procédures en outrage;</span></p>
+<p class="Citationenretrait"><b><span lang="FR-CA">SUGGÈRE</span></b><span lang="FR-CA"> aux parties de s’adresser au juge en chef pour qu’il désigne un
+juge coordonnateur pour la gestion de l’instance.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[38]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">While it does not bear directly on the present
+appeal, it is nevertheless worthy of mention that the Chief Justice of the
+Superior Court did later designate a special case management judge as suggested
+by this Court.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[39]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On or about September 13, 2010, Les Rivières
+filed a motion for the issuance of a confidentiality order and other case
+management measures based on articles 2, 20 and 46 C.C.P. This motion
+specifically requested that certain documents referred to by Mongeon, J. in his
+order be communicated to Jean Bleu in a manner that would protect their
+confidential character.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[40]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">On January 24, 2011, the case management judge
+Gibeau, J. granted Les Rivières’ motion. Noting that Mongeon, J. did not rule
+on the confidentiality of the documents mentioned in exhibit R-4, Gibeau, J.
+applied the principles of <i>Lac d'Amiante</i>,</span><a href="#_ftn4" name="_ftnref4" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[4]</span></span></span></span></a><span lang="EN-CA"> by
+analogy, in the circumstances. She held that a confidentiality order would not
+preclude Jean Bleu from evaluating the relevant materials and the tenant could
+not use the documents for a purpose other than the dispute under the lease.
+Several days later, Les Rivières’ counsel remitted documents under seal to Jean
+Bleu.</span></p>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA">III         ARGUMENTS
+OF THE PARTIES</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[41]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Les Rivières submits that the trial judge erred
+in failing to ensure that Jean Bleu had exhausted all other remedies before
+undertaking proceedings in contempt. Specifically, it contends that the
+Mongeon, J.’s order was one of case management, the violation of which should
+have, at worst, given rise to sanction for abuse of process rather than
+contempt. For Les Rivières, the availability of a distinct remedy under art.
+54.1 C.C.P., recognized by Jean Bleu itself, served as a bar to a finding of
+contempt.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[42]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Secondly, Les Rivières argues that the judge was
+mistaken in holding that the order of July 13, 2009 was perfectly clear such
+that its conduct could not constitute the <i>actus reus</i> of civil contempt.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[43]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Finally, Les Rivières says that its substantial
+compliance with the order was incompatible with a finding that it had the
+requisite <i>mens rea</i> for contempt.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[44]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Jean Bleu answers that the judge’s analysis
+satisfied all the requirements established by law before a ruling of contempt.
+It says there is no formal necessity to exhaust all remedies for a finding of
+civil contempt under articles 49 <i>et seq.</i> C.C.P. In this case, Les
+Rivières plainly transgressed the court order of Mongeon, J. It did so with the
+full intention of withholding documents clearly identified in the order and was
+mindful that its letter of August 20, 2009 neither met the disclosure
+requirements ordered by the judge nor offered an explanation for non-compliance
+by way of a sworn statement. Given that the essential elements of the
+quasi-criminal offence were proven beyond a reasonable doubt, Jean Bleu says
+the judge was right to hold Les Rivières in contempt.</span></p>
+<span lang="EN-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA">IV        ANALYSIS</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[45]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In many respects, the trial judgment provides a
+model account of the procedure to be followed in trying a case of civil
+contempt based on the breach of a court order. The judge quite rightly, for
+example, began her analysis with a reminder, drawn from the <i>Vidéotron</i></span><a href="#_ftn5" name="_ftnref5" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[5]</span></span></span></span></a><span lang="EN-CA"> case, that civil contempt is an exceptional remedy given its
+quasi-criminal character and potentially grave sanctions. The judge aptly
+quoted from <i>Daigle</i></span><a href="#_ftn6" name="_ftnref6" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[6]</span></span></span></span></a><span lang="EN-CA"> regarding the relevant steps of analysis, including the following
+passage that highlights the importance of context to evaluating the allegedly
+transgressed order:</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Lorsqu'il s'agit d'une allégation
+de la non-exécution d'un ordre du tribunal, le juge saisi d'une demande en déclaration
+d'outrage doit, à mon avis, procéder par étapes. Il lui faut d'abord examiner
+attentivement les termes du jugement auquel, selon le requérant, l'intimé
+n'aurait pas obéi. <u>Ces termes impliquent non seulement le sens des mots
+utilisés mais aussi l'esprit dans lequel l'ensemble de la décision a été conçu
+par celui qui l'a rédigé.</u> […].</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">[</span>Emphasis added.<span lang="FR-CA">]</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[46]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">I am most respectfully unable to agree, however,
+with the judge's view that a violation of Mongeon, J.'s order should have given
+rise to a finding of contempt in the circumstances. I find this especially so
+when one considers the nature and context of the order as suggested in the
+above-quoted passage from <i>Daigle</i>. Mongeon, J. issued a case management
+order dealing with an unresolved dispute relating in part to the
+confidentiality of documents. In my view, there were other available remedies
+far better suited than contempt for redressing Les Rivières alleged failure to
+comply with this court order. It was thus wrong for the judge to hold that a
+violation by Les Rivières' of the case management order merited the
+quasi-criminal sanctions for contempt. And while some of the strategy of
+counsel for Les Rivières may well have exposed the landlord to sanction for
+abuse of process, when the whole of the context is taken into account, I also
+find myself unable to agree that proof beyond reasonable doubt was made that
+Les Rivières had the intention required for contempt.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[47]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">I propose to consider the parties’ respective
+arguments under four headings: (a) the nature and context of the order; (b) the
+relevance of other available remedies; (c) proof of the <i>actus reus</i>; and
+(d) proof of the <i>mens rea</i>.</span></p>
+<span lang="EN-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="Paragraphe" style="text-indent:.5in;line-height:14.0pt"><span lang="EN-CA">(a)       <u>The nature and context of the order</u></span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[48]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">What then was the nature of the order issued by
+Mongeon, J. and the context in which it was issued?</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[49]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">First, it is useful to observe that Mongeon, J.
+did not order the landlord to perform a substantive obligation under the lease,
+such as, say, the delivery of the written statement setting out the occupancy
+costs required under Article 4. Instead, the order was emphatically procedural
+in character: it was one of a series of pre-trial motions by which Jean Bleu
+sought, and Les Rivières resisted, the disclosure of documents as a means to
+determine whether or not the rent claimed in the principal action was
+justified.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[50]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The list of documents referred to by Mongeon, J.
+was itself prepared following an agreement, ratified by a judge in an earlier
+case management decision, on what documents would be released. The list emerged
+in fits and starts, as part of a laborious process of back and forth between
+the parties, punctuated by the intervention of judges who sought to help manage
+this unruly case. During this period, Jean Bleu developed increasingly precise
+demands for documents. Les Rivières released some materials but not others and,
+over time, the landlord made the scope and basis for its objections more
+precise. The parties thus managed the ongoing demands for disclosure of
+documents in part by themselves. When Mongeon, J. was called in – like Hébert,
+J., Beaugé, J. and Castonguay, J. before him – he took on that active stance
+promoted by the rules of the <i>Code of Civil Procedure</i> for managing the
+case onto an efficient path to trial. In short, the parties and the judge
+worked within the framework of the "new judicial culture" for
+managing the dispute pursuant to article 4.1 C.C.P.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[51]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Mongeon, J.'s order may thus fairly be styled as
+one of "case management" (an </span><i>ordonnance de gestion de
+l’instance</i><span lang="EN-CA">).</span><a href="#_ftn7" name="_ftnref7" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[7]</span></span></span></span></a><span lang="EN-CA"> His
+exchanges with the parties and eventual decision bearing on disclosure fit the
+model of case management exactly. It was part of a gradual and evolving process
+that followed the design of the new culture of the <i>Code of Civil Procedure</i>,
+put in place to save time and money, to limit unnecessarily bellicose discovery,
+and to open the door to a reconciliation of the parties' positions.</span><a href="#_ftn8" name="_ftnref8" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[8]</span></span></span></span></a><span lang="EN-CA"> The whole was undertaken in a manner tailored to the circumstances,
+in the spirit of values recognized by the legislature of proportionality and
+fair access to the courts.</span><a href="#_ftn9" name="_ftnref9" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[9]</span></span></span></span></a><span lang="EN-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[52]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Equally key to understanding the context that
+served as background to the case management order was a longstanding
+allegation, made by Les Rivières, that some of the material sought by Jean Bleu
+was confidential. Confidentiality of documents is of course a common preoccupation
+in commercial disputes where parties may claim – often legitimately, sometimes
+less so – that the materials sought by an adversary, if revealed without
+special precautionary measures, would disclose commercial or other secrets
+unfairly. When the whole of the narrative prior to the order of Mongeon, J. is
+taken into account, it is plain that Les Rivières regularly, if not always
+effectively, raised confidentiality as a source of its hesitation to release
+certain materials to Jean Bleu. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[53]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Indeed, as early as April, 2009, Jean Bleu’s
+expert Bernstein refused to sign a confidentiality agreement that, for Les
+Rivières, would have allowed the landlord to disclose the necessary documents
+without imperilling what it appears to have considered confidential commercial
+information. Soon thereafter, Jean Bleu called on the Superior Court to manage
+the matter, moving on April 30, 2009 for disclosure of all documents and
+claiming that there was no right to confidentiality under the lease.
+Confidentiality was also apparently a concern at the time of the agreement
+between the parties ratified by Beaugé, J. on May 15, 2009. That
+"consent" imposed upon the accountant Bernstein the obligation to
+sign a document recording all the materials photocopied or scanned for the
+purposes of his mandate. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[54]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The confidentiality issue was again aired,
+however inconclusively, before Mongeon, J. on July 13, 2009. The following
+exchange involving lawyers for Les Rivières and Jean Bleu is highly suggestive
+that Mongeon, J. understood that the landlord's claim to confidentiality would
+need to be fully addressed through further management of the case:</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Alors, messieurs, s'il
+s'agit simplement de voir si tout le problème va être réglé en donnant accès à
+ces documents-là. Puis je regarde ça là, on veut des factures puis la méthode
+d'allocation des différentes dépenses au centre d'achats, qui sont des montants
+regroupés.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me FRANÇOIS VIAU [Les
+Rivières]:</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Je pense qu'il veut
+avoir des listes de salaires aussi.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Oui.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me FRANÇOIS VIAU :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            <u>On rentre dans des
+choses qui sont… Vous savez, Votre Seigneurie, quand tu fais faire une
+vérification par évidemment des vérificateurs, c'est évidemment pour se mettre
+entre les… tu ne peux pas divulguer évidemment à une partie demanderesse les
+salaires des employés, des choses comme ça évidemment. Tu peux le faire au
+niveau d'un poste général au niveau des salaires, mais si on veut savoir
+combien qu'il est payé par année, combien qu'il fait de l'heure, et cætera,
+c'est des choses comme ça évidemment qui vont faire l'objet d'un
+interrogatoire, pour s'assurer qu'on puisse protéger les droits des gens.</u></span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            <u>Mais, maître, il y a
+moyen de protéger les droits des gens.</u></span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me FRANÇOIS VIAU :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            <u>Absolument</u>.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            <u>Assoyez-vous puis
+notamment là pour ça. Prenez la liste des salaires, puis vous caviardez les
+adresses ou les noms, parce que ce n'est pas les noms dont on a besoin, c'est
+la fonction puis la charge, le montant que ça coûte, vu que vous les facturez
+en vertu de votre clause <i>d'escalation</i> de frais d'opérations. Ça se fait
+ça.</u></span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me FRANÇOIS VIAU :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Votre Seigneurie,
+encore une fois, on n'a pas d'objection qu'on fasse un interrogatoire avant
+défense. Et dans le cadre de l'interrogatoire qu'on pose ces questions-là.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            De deux choses l'une,
+messieurs, ou bien vous vous entendez sur la liste des documents. Si vous ne
+pouvez pas vous entendre, entendez-vous sur la date de l'interrogatoire puis
+qui va être interrogé.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me FRANÇOIS VIAU :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Voilà.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me BERNARD LÉVY-SOUSSAN [Jean
+Bleu]:</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Mais on n'a pas à
+interroger à ce stade-ci, on veut ces documents, monsieur le juge.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Mais maître…</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me BERNARD LÉVY-SOUSSAN :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Je veux pouvoir
+compléter mon expertise.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            <u>Mais maître, ce
+qu'on vous dit là, c'est qu'on n'est pas prêt à vous donner accès à ces
+documents-là.</u></span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me BERNARD LÉVY-SOUSSAN :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Alors, que la Cour
+décide si on doit avoir accès ou non.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Ou encore que la Cour
+vous dise faites un interrogatoire puis demandez-les. Il va y avoir une
+objection, puis on va débattre de l'objection.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me BERNARD LÉVY-SOUSSAN :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Mais on est là, je
+présente cette liste de documents. Il faut comprendre, c'est pour ça que
+monsieur Bernstein est là. Il faut que la Cour comprenne les réponses qu'on a
+obtenues à ces questions pour comprendre l'illogisme de ces réponses. Et c'est
+la raison pour laquelle on présente cette demande. Pour la quatrième fois, on
+veut avoir accès à des documents. Entre autres, on nous dit : « Voici
+les – c'est la pièce R-3, la réponse de mon confrère – voici l'allocation qui
+vient de Ivanhoé », avec un chiffre, bang, quatre chiffres :
+102 000; 235 000. Pour un total de 86 000. Ce n'est pas comme ça
+qu'on va pouvoir vérifier. On ne peut pas avoir une vérification qui a du sens
+quand on me lance quatre chiffres en l'air. C'est la pièce R-3. Alors, on
+demande d'avoir des précisions sur ces documents.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me FRANÇOIS VIAU :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            <u>Votre Seigneurie, je
+ne suis pas en mesure aujourd'hui à la pièce…</u></span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Maître, les précisions
+sur les documents, est-ce que ça va être d'autres documents ou si ça va être
+une explication lors d'un interrogatoire quand vous allez dire :
+« Mais vous avez des frais d'administration de 32 000 $,
+allocation directeur régional. »</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me BERNARD LÉVY-SOUSSAN :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Alors, on veut avoir
+les justificatifs. Ça fait partie des dépenses d'opérations, on veut avoir les
+justificatifs. Parce que c'est ce que la première ordonnance nous a donné, de
+pouvoir vérifier ces chiffres-là. On ne nous donne pas accès à ces chiffres
+pour deux raisons, soit on ne les a pas, soit on veut les cacher. Mais ça ne
+peut qu'être ça. Pourquoi nous refuse-t-on certains documents? Et c'est la
+raison pour laquelle, pour la quatrième fois, on s'adresse à la Cour. Nous
+avons fait une requête pour nommer un expert.</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">LA COUR :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            Et cette liste-là, vous
+ne l'avez pas vue encore?</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">Me FRANÇOIS VIAU :</span></p>
+<p class="Citationenretrait"><span lang="FR-CA">            <u>Je ne l'ai pas vue
+encore. Et Votre Seigneurie, ma cliente évidemment est une personne sérieuse.
+On ne cache rien. Le dossier va se faire en bonne et due forme. On accepte de
+les regarder à la pièce les demandes. Si les demandes sont justifiées, nous lui
+remettrons. Si elles ne le sont pas, nous allons nous objecter et le Tribunal
+tranchera. On accepte tout ça.</u></span></p>
+<p class="Citationenretrait"><span lang="FR-CA">[</span>Emphasis added<span lang="FR-CA">.]</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="FR-CA">[55]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="FR-CA">Following this exchange, counsel for Les
+Rivières agreed to communicate documents in the list R-4 "dans la mesure
+où les documents sont disponibles" and not, as the judge warned him,
+"dans la mesure où la cliente est d'accord".</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[56]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Mongeon, J. proceeded to issue the order for
+disclosure. He did not rule on confidentiality that day, but the exchange
+suggests that the matter remained open – unfinished business, of sorts – when
+he managed the case on July 13, 2009.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[57]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">This ongoing debate on confidentiality was thus
+necessarily part of the context against which the alleged violation of Mongeon,
+J.’s case management order must be understood – part of "</span>l'esprit
+dans lequel l’ensemble de la décision a été conçue par celui qui l’a rédigée<span lang="EN-CA">", to revert to the idea explained in <i>Daigle</i>. The order
+was issued in a manner that would allow Les Rivières to come forward at a later
+time, if necessary, to ask the Superior Court for a separate sealing order,
+allowing the landlord to accede to the request for documents without
+compromising confidentiality. In keeping with the task of case management at
+hand, Mongeon, J. gave Les Rivières sufficient time to comply with the order –
+five weeks – as well as the opportunity to explain in the manner he specified,
+by the same deadline, why compliance would not be possible if that proved to be
+the case. In other words, Mongeon, J. foresaw the possibility that some
+materials could be disclosed subject to later procedural steps undertaken to
+protect confidential material.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[58]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA"> Mongeon, J.’s order was consonant with the
+often fluid case management process that evolves with, and accommodates, the
+changing circumstances of proceedings. The transcript of hearing indicates that
+Les Rivières left open the possibility of securing protection of the
+confidential documents by way of further case management. Had this occurred,
+Mongeon, J.'s order would have been narrowed, just as his own order narrowed
+the scope of that of Castonguay J., which in turn specified the date of the
+order previously issued by Beaugé, J., which in turn built upon the first
+intervention by Hébert, J. The case management order at issue on contempt, when
+considered against the backdrop of the whole of the pre-trial debate on
+disclosure, did not settle the confidentiality issue once and for all.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[59]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">This is not to say that a case management order,
+even taken as part of an evolving process such as this one, is something
+inherently less than an interlocutory judgment that, theoretically at least, is
+susceptible of appeal in the event that the requirements of articles 29 and 511
+C.C.P. are satisfied. But here, the trial judge's criticism of Les Rivières in
+paragraph [63] of her reasons for not appealing the Mongeon, J. order seems
+misplaced. In the circumstances, it is unlikely that this highly discretionary
+case management ruling could have been the subject of a successful application
+for leave to appeal, especially since Mongeon, J. ordered nothing that could
+not be later undone.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[60]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">When the time came to determine whether Les
+Rivières' conduct amounted to civil contempt, the fact that the order was one
+of case management in an evolving setting needed to be considered before
+deciding that contempt and its sanctions were appropriate in the circumstances.
+This is not to say that a party's failure to abide by a case management order
+is always immune from a citation for contempt. But the requirement that the
+contemnor defy the order in a manner deserving of sanction is difficult to
+establish unless this aspect of the context is fully weighed.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[61]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Before considering how the nature and context of
+the case management order affected the appreciation of the essential elements
+of the offence of contempt here, I turn next to the connected issue of the
+other remedies available in the circumstances.</span></p>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA">(b)       <u>The
+relevance of other available remedies</u></span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[62]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Was the fact that Jean Bleu had not exhausted
+other avenues of redress a bar to holding Les Rivières in contempt for
+disobeying the case management order?</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[63]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Les Rivières submits that the trial judge should
+not have found it in contempt because more fitting remedies for abuse of
+process had not been exhausted. It states the point boldly, arguing that the
+requirement of exhausting all other remedies is what makes contempt a
+"last resort" and, as a result, should be seen as a legal
+precondition to a valid order of contempt.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[64]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Courts and learned authors have, on occasion,
+pointed to the importance that the party seeking a contempt order demonstrate
+an "</span>épuisement des recours<span lang="EN-CA">" under articles 49
+<i>et seq.</i> C.C.P.</span><a href="#_ftn10" name="_ftnref10" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[10]</span></span></span></span></a><span lang="EN-CA"> The point is regularly made, for example, that contempt is not a
+means of obtaining the execution of judgments.</span><a href="#_ftn11" name="_ftnref11" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[11]</span></span></span></span></a><span lang="EN-CA"> The
+argument that all available remedies should first be exhausted is often
+presented forcefully in Quebec and elsewhere in the family context where
+criminal sanctions for contempt can prove particularly ill-suited to the
+violation of a court order, but the claim is not limited to that field.</span><a href="#_ftn12" name="_ftnref12" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[12]</span></span></span></span></a><span lang="EN-CA"> I find particularly instructive the findings of a recent New
+Zealand government report, including its mention of case management orders
+under applicable law, prepared by Dean A.T.H. Smith, a leading common law
+authority on contempt:</span></p>
+<p class="MsoNormal" style="text-indent:.5in"><b><span lang="EN-CA" style="font-size:11.0pt">Contempt of court as a "last resort"</span></b></p>
+<p class="MsoNormal"><span lang="EN-CA" style="font-size:11.0pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:30.1pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-align:justify;text-indent:
+-1.0in"><span lang="EN-CA" style="font-size:11.0pt">                        1.32     The
+courts have emphasised, time and again, that the use of the summary powers of
+contempt should be seen as a matter of last resort<sup>42</sup> particularly in
+the context of family disputes. There are generally other methods of enforcing
+compliance with case management rulings and orders than the sanction of
+contempt, such as costs orders. The courts also frequently remind themselves
+that the weapon is one that must be used "sparingly". In the words of
+Lord Goddard CJ in <i>Parashuram Detaram Shamdasani v The King Emperor</i>,
+[[1945] A.C. 264, 270]:</span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-CA" style="font-size:11.0pt"> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:27.0pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-align:justify"><span lang="EN-CA" style="font-size:11.0pt">Their lordships would once again emphasise
+what has often been said before, that this summary power of punishing for
+contempt should be used sparingly and only in serious cases. It is a power
+which a court must of necessity possess; its usefulness depends on the wisdom
+and restraint with which it is exercised.</span></p>
+<p class="MsoNormal" style="text-align:justify"><span lang="EN-CA" style="font-size:11.0pt"> </span></p>
+<p class="Paragraphe" style="margin-top:6.0pt;margin-right:30.1pt;margin-bottom:
+6.0pt;margin-left:1.0in;line-height:14.0pt"><span lang="EN-CA" style="font-size:
+11.0pt">1.33     This approach has significantly reduced the practical ambit of
+the law of contempt.</span><a href="#_ftn13" name="_ftnref13" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[13]</span></span></span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[65]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The policy of ensuring that all other remedies
+are exhausted reflects the seriousness of the charge of contempt. Unlike many
+other available remedies, civil contempt is treated as if it were a criminal
+offence. The Supreme Court has made plain in its interpretation of the <i>Code
+of Civil Procedure</i> that all forms of contempt, including civil contempt <i>ex
+facie</i> based on the disobedience of a court order, involve an interference
+with the orderly administration of justice that strikes at the heart of the
+rule of law. Writing on the definition of contempt in article 50 C.C.P.,
+Gonthier, J. observed in <i>Vidéotron</i></span><a href="#_ftn14" name="_ftnref14" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[14]</span></span></span></span></a><span lang="EN-CA">:</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">The definition clearly establishes
+the characteristics common to all types of contempt covered by the <i>Code of
+Civil Procedure</i>, characteristics which may be unduly masked by too great an
+insistence on the distinction between civil contempt and criminal contempt. The
+penalty for contempt of court, even when it is used to enforce a purely private
+order, still involves an element of "public law", in a sense, because
+<u>the respect for the role and authority of the courts, one of the foundations
+of the rule of law, is always at issue</u>.</span></p>
+<p class="Citationenretrait"><span lang="EN-CA">[Emphasis added.]</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[66]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Gonthier, J. explained further that this public
+law aspect of contempt is reflected in the criminal law sanctions attached to
+civil contempt, which include meaningful fines and, for some, imprisonment. To
+that one might add the stigma that a person, natural or legal, must bear
+following conviction for the quasi-criminal offence of civil contempt. It is of
+course true in this case that Les Rivières, a legal person, cannot itself be
+imprisoned, but a conviction for the offence of contempt brings this stigma of
+the criminal law, along with potential fines and forfeiture of property.</span><a href="#_ftn15" name="_ftnref15" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[15]</span></span></span></span></a><span lang="EN-CA"> This quasi-criminal setting moved the House of Lords to remark that
+there is "an element of public policy in punishing civil contempt, since
+the administration of justice would be undermined if the order of any court of
+law could be disregarded with impunity".</span><a href="#_ftn16" name="_ftnref16" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[16]</span></span></span></span></a><span lang="EN-CA"> As
+authors Denis Ferland and Benoît Emery have written, citing <i>Vidéotron</i> and
+like cases, "[l]'expression 'outrage au tribunal' identifie ainsi une
+'infraction contre l’administration de la justice'".</span><a href="#_ftn17" name="_ftnref17" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[17]</span></span></span></span></a><span lang="EN-CA"> </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[67]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Viewing contempt as a last resort where there is
+an alternative remedy, better-tailored to the context, has the further advantage
+of reserving contempt for those cases of egregious behaviour that genuinely
+threaten the authority of the courts and merit the strong medicine of the
+quasi-criminal contempt sanction. This Court has rightly warned against the
+notion of contempt being debased if used where more suitable remedies exist.</span><a href="#_ftn18" name="_ftnref18" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[18]</span></span></span></span></a><span lang="EN-CA"> The problem of trivializing the seriousness of contempt through
+inappropriate or overzealous use – the risk of contempt becoming
+"galvaudé" – was highlighted by the Law Reform Commission of Canada
+which noted that "[t]here is a very serious danger that contempt might
+eventually turn against those using it, and in the final analysis, involving it
+too frequently might do more harm than good in the interests of justice".</span><a href="#_ftn19" name="_ftnref19" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:
+12.0pt;font-family:"Arial","sans-serif"'>[19]</span></span></span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[68]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">I am inclined, at least on the basis of the
+facts of the present case, to see the exhaustion of other remedies less as a
+formal rule of law and more as a reflection of the proper exercise of judicial
+discretion undertaken pursuant to article 49 C.C.P. Indeed the discretionary
+and contextual character of a contempt order would suggest that exhausting
+remedies is best viewed as a sound judicial policy rather than as an unbending
+legal rule. A judge seized of a motion for contempt should inquire first
+whether there are other available remedies suitable for redressing a party’s
+disobedience of a court order, reserving punitive measures of contempt for
+quasi-criminal conduct that meaningfully impugns the authority of the courts.
+While exhausting remedies may not be required as a precondition to contempt in
+all cases, judges should inquire whether alternative remedies to contempt exist
+in their evaluation of the proportionality between, on the one hand, the
+quasi-criminal sanctions for contempt and, on the other, the seriousness of the
+contemnor’s conduct and intent.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[69]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">This judicial policy favouring the exhaustion of
+remedies is particularly apposite in respect of the alleged disobedience of a
+case management order such as the one that concerns us here. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[70]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Certainly no one should have thought that the
+failure to satisfy the requirements of Mongeon, J.’s case management order was
+without moment. Such orders must be respected and failure to do so may well
+invite serious civil sanctions.</span><a href="#_ftn20" name="_ftnref20" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[20]</span></span></span></span></a><span lang="EN-CA"> If
+Les Rivières failed to produce the documents in R-4 ordered by the judge, the
+transgression of the case management order would expose the landlord to the
+risk of the dismissal of its claim for the unpaid rent. Les Rivières would then
+not be in a position to prove – given the missing justification that it had the
+burden to show under Article 4 of the lease – that the occupancy costs claimed
+were in fact due. In that circumstance, as plaintiff, Les Rivières ran the risk
+of losing its case on the grounds of abuse of process. Other sanctions short of
+contempt would also have been easy to imagine for the violation of the case
+management order: the striking of allegations in Les Rivières' motion to
+institute proceedings, an unfavourable order as to costs, or even the possible
+forfeiture of the advantage of funds held on deposit in the Superior Court as
+stipulated in a safeguard order being among them.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[71]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Importantly, in Jean Bleu’s motion under article
+54.1 C.C.P. filed in the days following its demand for a special rule in
+contempt, some of these alternative sanctions were raised. Among the
+conclusions of that motion, cited above, was what amounted to a demand for the
+execution of the order of Mongeon, J. which would have given Les Rivières a
+last chance to release the documents. Jean Bleu itself proposed the dismissal
+of all or part of the claim for unpaid rent for abuse as a possible consequence
+of Les Rivières' failure on August 20, 2009 to meet the terms of the order. Les
+Rivières should too have understood, in contemplating its letter in response to
+the case management order, that in the ordinary course of events it would risk
+sanctions such as a striking of allegations or even the dismissal of its action
+if it wrongly failed to produce the documents or a proper explanation. These
+remedies were among what this Court has called the "new remedial
+tools",</span><a href="#_ftn21" name="_ftnref21" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[21]</span></span></span></span></a><span lang="EN-CA"> better adapted to the new judicial culture, and made available by
+the legislature in the <i>Code of Civil Procedure</i> to the parties and to
+courts in order to correct a procedural wrong. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[72]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Unlike abuse of process, civil contempt is a <i>mens
+rea</i> offence. Whatever the character of wrongdoing associated with improper
+proceedings under article 54.1 C.C.P., it is not the blame of criminal intent
+required for a conviction of contempt. The failure to abide by principles of
+fair play and proportionality in litigation may well lend themselves to civil
+sanctions for impropriety.</span><a href="#_ftn22" name="_ftnref22" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[22]</span></span></span></span></a><span lang="EN-CA"> The advent in particular of a "power to impose sanctions for
+improper use of procedure / pouvoir de sanctionner les abus de procédure"
+in articles 54.1 <i>et seq.</i> C.C.P., in the same chapter of the Code as the
+power to punish for contempt of court, brings the consideration of alternative
+remedies to the quasi-criminal sanction of contempt into focus. Indeed it is
+not unlikely that recourse to the contempt remedy will diminish over time as
+judges exercise their discretionary power to redress abuse under article 54.1
+C.C.P. rather than resorting to the quasi-criminal sanction.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[73]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Jean Bleu instituted contempt proceedings, in
+part, to coerce Les Rivières into producing the still missing documents and not
+merely as a means of punishing its disobedience of the ruling. Jean Bleu’s
+subsequent Motion to Dismiss, including its subsidiary conclusion renewing the
+demand for documents, makes this plain. Alerted to this during the contempt
+proceedings, the trial judge should have noted that Jean Bleu allegations of
+contempt were an inappropriate means of forcing the execution of the original
+order. A finding of contempt in the presence of other well-suited remedies
+cannot be said to be a sparing use of the quasi-criminal sanction. Under
+article 49 C.C.P., courts "may / peuvent" condemn a person who is
+guilty of contempt but they are not bound to do so when circumstances suggest
+that recourse to be disproportionately harsh. The judge in this case should have
+been wary to use her discretion to condemn Les Rivières here because that
+quasi-criminal sanction was out of proportion to the wrong for which lesser,
+civil remedies were appropriate.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[74]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In the instant case, the nature of the case
+management order meant that the public law dimension spoken to in <i>Vidéotron</i>
+was not obviously in play. The context in which Mongeon, J. issued the order
+meant that the imposition of a criminal sanction when other civil sanctions
+were available was incongruous. The trial judge analyzed the conduct of Les
+Rivières without reference to the character of the order as one of case
+management. In this case, the failure to respect the case management order –
+assuming it was not respected – did not undermine the administration of justice
+in the manner spoken to in <i>Vidéotron</i> but more properly exposed the
+landlord to the risk of a better-tailored sanction for abuse of process.
+Judicial powers set out by the legislature in articles 54.1 <i>et seq.</i>
+C.C.P. were available to remedy precisely the kind of misconduct that Jean Bleu
+had alleged and the tenant had contemporaneously imagined sanctions for abuse
+of process as a suitable avenue of redress. The trial judge should have
+explained more plainly why the quasi-criminal sanction was necessary here. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[75]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Applying the idea that the consideration of
+alternative remedies is a sound judicial policy to the present case, I am
+respectfully of the view that the trial judge should have dismissed the motion
+for contempt. She should have noted that a sanction such as striking
+allegations or even dismissing Les Rivières action would have been better
+suited and more proportional in the circumstances. Indeed recourse to contempt
+here – for the alleged violation of a case management order dealing with the
+availability of documents – ran the risk of decrying conduct as contempt when
+the role and authority of the court ran little or no risk of being devalued.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[76]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">I turn now to Les Rivières’ arguments that the <i>actus
+reus</i> and <i>mens rea</i> of contempt were not properly demonstrated in the
+circumstances.</span></p>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA">(c)        <u>Proof
+of the <i>actus reus</i> for civil contempt</u></span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[77]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Jean Bleu says that the judge made no mistake in
+holding that the <i>actus reus</i> of civil contempt was made out beyond
+reasonable doubt. The judge was categorical in her conclusion that the order
+was clear and, in particular, that the documents and information were listed
+unambiguously in Mr. Bernstein's letter. Furthermore, she held there was no
+mistaking that Les Rivières failed to produce either the required documents or
+an explanation, in the form of an affidavit, by the August 20, 2009 deadline
+identified by the motions judge.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[78]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Les Rivières attacks the trial judge's analysis
+of the <i>actus reus</i> for contempt by arguing that she erred in deciding
+that the order was free from ambiguity. In point of fact, says the appellant,
+the language used by Mr. Bernstein in his letter R-4, and incorporated by
+reference by Mongeon, J. in his order, defies proper execution. In his letter,
+Jean Bleu's accountant demanded, for example, "all supporting documents"
+in reference to nine different heads of information he claimed necessary to
+verify properly the amount charged as occupancy costs. In four other instances,
+Mr. Bernstein called for documents "including but not limited to"
+specified examples in a list. Given the great number of documents involved, Les
+Rivières says this evokes conduct that is too imprecise to be transgressed.
+Citing <i>Daigle</i></span><a href="#_ftn23" name="_ftnref23" title=""><span class="MsoFootnoteReference"><i><span lang="FR-CA"><span class="MsoFootnoteReference"><b><span lang="FR-CA" style='font-size:12.0pt;
+font-family:"Arial","sans-serif"'>[23]</span></b></span></span></i></span></a><span lang="EN-CA"> and <i>Zhang</i>,</span><a href="#_ftn24" name="_ftnref24" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:"Arial","sans-serif"'>[24]</span></span></span></span></a><span lang="EN-CA"> the appellant argues that there was an ambiguity in the order that
+meant it could not be reliably executed. Les Rivières submits that
+non-disclosure of documents improperly identified cannot be considered as the <i>actus
+reus</i> of contempt here.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[79]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">It is true that circumstances do exist where
+language such as the "all supporting documents" incorporated into the
+order might well be interpreted as being insufficiently precise to support a
+finding of contempt. I am nevertheless not inclined to disturb the judge's
+finding that the order was clear in the circumstances. The judge had before her
+evidence from Ms. Froncioni of Ivanhoe who, notwithstanding the open-textured
+wording of Mr. Bernstein's letter, claimed to understand exactly the documents
+Jean Bleu would need to verify the calculations of the occupancy costs. The
+judge considered the evidence and found that Les Rivières and Ivanhoe were in a
+position to know what was asked of them in Mr. Bernstein's letter based in
+large part on her appreciation of Ms. Froncioni’s testimony. Les Rivières had
+made practically identical arguments regarding the ambiguous character of the order
+at trial that were rejected. It now seeks to retry this point on appeal. It has
+not convinced me that the judge made a reviewable error that would justify the
+intervention of the Court on this point. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[80]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Moreover, the <i>actus reus</i> of contempt was
+proven in another respect. While Les Rivières may have gone a way to comply
+with the order by providing further documents and answering certain of Mr.
+Bernstein's questions in his letter, the landlord failed to present the
+affidavit specifically ordered by Mongeon, J. The trial judge fixed on this as
+part of the violation she described as the <i>actus reus</i> of the offence in
+paragraph [42] of her reasons. In this respect alone, Jean Bleu met its burden
+of proving wrongful conduct.</span></p>
+<p class="Paragraphe" style="line-height:14.0pt"><span lang="EN-CA">(d)       <u>Proof
+of <i>mens rea</i> for civil contempt</u></span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="FR-CA">[81]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The judge held that Jean Bleu had demonstrated,
+beyond all reasonable doubt, that Les Rivières had the flagrant intention to
+disobey Mongeon, J.'s order. She decided that the landlord never intended to
+provide its explanation for withholding documents in the form of an affidavit,
+adding that the evidence at trial showed that it had displayed an "</span>insouciance
+grossière<span lang="EN-CA">" in respect of this aspect of the order (paras.
+[51] and [52] of the trial judgment). Moreover, she held that Les Rivières knew
+the documents it had sent to be incomplete. The landlord's refusal to furnish
+the materials listed in R-4 on the grounds that they were confidential,
+unnecessary or irrelevant further demonstrated, in the judge's view, that it
+had no intention of complying with the order. In deciding on its own that the
+information was not available, Les Rivières had shown its deliberate intention
+to defy Mongeon, J.'s ruling, both in letter and in spirit (para [64]). </span><span lang="FR-CA">She described Les Rivières' conduct as evincing a "désinvolture
+totale à l'égard d'une ordonnance de cette Cour" (para [65]).</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[82]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Before the trial judge, and again on appeal, Les
+Rivières argued that at the time it sent the August 20, 2009 letter, it had the
+firm conviction that it had complied with the spirit of the order. It does not
+deny, for example, that its answer to Jean Bleu was not in the form of an
+affidavit, but contends that at the time it believed that it had substantively
+met the requirements of Mongeon, J.’s order and that, accordingly, an answer by
+affidavit was not due. Les Rivières says that the judge erred in finding the
+requisite <i>mens rea</i> by reason of her failure to consider the case
+management context, the whole of the evidence and the availability of other
+remedies.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[83]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Discerning <i>mens rea</i>, including when
+intention can be inferred from conduct, is a matter ordinarily left to the
+trier of fact in criminal matters and, absent a palpable and overriding error,
+a court of appeal should not disturb that finding. I am however respectfully of
+the view that the trial judge did not properly consider the impact of Les
+Rivières' position that it had substantively complied with the order on the
+proof of <i>mens rea</i>. In measuring <i>mens rea</i>, the trial judge fixed
+unduly on what she understood to be Les Rivières' material failure to provide
+an affidavit and to disclose certain documents on the list R-4 as a means of
+inferring intent. She paid insufficient attention, in my view, to the testimony
+of the representative of the landlord, Linda Froncioni, who believed that Les
+Rivières had substantively met Mongeon, J.'s demands. The judge thereby left
+room for a reasonable doubt as to whether Les Rivières had the intention to
+defy the court order when it sent its letter on August 20, 2009. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[84]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">More specifically, was the judge right to decide
+that Les Rivières declined to forward documents on the list R-4 with the
+intention to defy the order of Mongeon, J.?</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[85]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Ms. Froncioni testified at length concerning the
+meaning of the August 20, 2009 letter sent on behalf of the landlord by counsel
+for Les Rivières, noting that it had been prepared by her with the assistance
+of Mtre. Viau, Les Rivières lawyer, and another lawyer who worked in-house for
+Ivanhoe. Ms. Froncioni explained at trial that she believed that Les Rivières
+had complied with the order in that all the documents identified on the list
+R-4 necessary to ascertain occupancy costs had either been forwarded to Jean
+Bleu or made available to Mr. Bernstein, its accountant. She may or may not
+have been mistaken as to whether that was the case, as a material fact, but she
+asserted it as her honest belief.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[86]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">It should be noted that at no point in her
+reasons did the judge explicitly state that Ms. Froncioni's evidence was not
+credible. Instead, the judge concluded from the August 20, 2009 letter and Ms.
+Froncinci's evidence at trial that documents were wrongly withheld on the
+grounds that they were irrelevant or confidential, and she inferred from that
+conduct that Les Rivières had done so intentionally.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[87]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The letter did appear to raise relevancy as an
+excuse to withhold documents. </span><span lang="FR-CA">The judge rightly noted
+that for certain documents relating to the media fund and the promotional fund,
+the August 20, 2009 letter states: "Puisqu'il s'agit d'une charge fixe,
+votre cliente ne devrait pas recevoir de crédit ou d'ajustement de sorte que
+nous ne voyons pas la pertinence de la demande". </span><span lang="EN-CA">For
+the judge, Les Rivières could not refuse to disclose documents unilaterally –
+according to its "</span>bon vouloir<span lang="EN-CA">" as she wrote
+in para. [65] – without violating the order.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="FR-CA">[88]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">At trial, however, Ms. Froncioni explained this
+portion of the letter. On cross-examination by Jean Bleu's lawyer, Ms.
+Froncioni noted that, in June 2009, these documents had been inadvertently
+withheld from Mr. Bernstein. Les Rivières acknowledged this in its letter sent
+to Jean Bleu on June 25, 2009, and agreed to make them available to Mr.
+Bernstein at that time. Mr. Bernstein never made an appointment to examine the
+documents. </span><span lang="FR-CA">Ms. Froncioni explained: "Ils [the
+documents relating to the media fund and promotion fund] sont disponibles, on
+attend toujours que monsieur Bernstein ou l'expert prenne rendez-vous pour
+venir les voir. On a les boîtes depuis le vingt-cinq (25) juin.". She was
+pressed on this point by Jean Bleu's lawyer who, citing the sentence quoted
+above from the letter, said: "Alors je comprends que ça n'a pas été fourni."
+Ms. Froncioni answered: "Ce n'est pas ce qu'on dit. On dit juste que pour
+nous, on ne voit pas la pertinence de la demande. Ça ne dit pas qu'on ne veut
+pas les fournir" (see MA 987-8). </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[89]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In other words, this portion of the letter did
+not seek to explain the withholding of documents. However irrelevant they were
+in the eyes of Les Rivières, the documents were not actually withheld. In this
+sense, the landlord could not have a criminal intent to withhold these
+documents. With respect, the judge was in error here.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[90]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">While it is not always plain from the language
+employed in the letter of August 20, 2009, other documents referred to therein
+were also made available to Jean Bleu. These include documents in R-4 relating
+to the umbrella insurance policy, administrative services as well as
+maintenance and security wages. On first reading, the tenor of the August 20,
+2009 letter appears to suggest that all these documents were withheld but, in
+point of fact, as Ms. Froncioni testified, many of these documents were in fact
+communicated to Jean Bleu or made available to the accountant as part of the
+General Ledger that he consulted based on one of the earlier case management
+order. Ms. Froncioni's position was that only those documents that Les Rivières
+considered to be confidential were actually withheld. </span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[91]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The trial judge indeed reproached Les Rivières
+for its intentional refusal to disclose documents that it considered to be
+confidential, including certain information relating to insurance contracts,
+salaries of named employees and the like. As the judge observed, Ms. Froncioni
+freely admitted that Les Rivières refused to disclose those materials.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[92]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Did this mean that, at least in respect of its
+refusal to share confidential documents, Les Rivières had the criminal
+intention to defy the order? I think not, at least not according to the
+standard of beyond a reasonable doubt.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[93]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">In this case, the nature of the case management
+order and context in which it was issued credits the view that, at the time,
+Les Rivières sought to take measures to protect the confidential character of
+materials it felt unable to share with Jean Bleu. In the parties' exchanges
+with Mongeon, J., this was abundantly plain. Mongeon, J. conceived his order as
+one of case management; he crafted it, as we have seen, on the premise that the
+matter of confidentiality could be revisited. The letter sent by Les Rivières'
+legal counsel to Jean Bleu on August 20, 2009 did seek to respond to the order of
+the motions judge. New documents were conveyed to Jean Bleu, and an explanation
+was provided for those that were lacking. In the opening paragraph of the
+letter, counsel states its understanding that the documents called for by
+Mongeon, J. were to be furnished "</span>sous réserve de la
+confidentialité<span lang="EN-CA">". This was Les Rivières' stated belief at
+this stage of the case management process.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[94]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The nature and context of the order, in
+particular the fluid character of the case management process to that time, and
+the unfinished business in respect of confidentiality, were not properly taken
+into account in the portion of the trial judge’s reasons devoted to <i>mens rea</i>.
+Les Rivières said that it believed that it had substantially complied with the
+order in advance of further dealings relating to confidentiality. Its position
+was shaped by its understanding that Mongeon, J. had left the matter of
+confidentiality open until it was settled between the parties or by another
+judge. This argument goes to the existence of <i>mens rea</i> to defy the order
+and, with respect, it was not sufficiently answered in the judge’s reasons.
+While the judge alluded to confidentiality in paragraphs [67] and [68] of the
+judgment, she did not consider the impact on intention of the possibility of
+further case management. Instead of giving proper consideration to whether Les
+Rivières’ conduct reflected an intent to defy the order, I am of the respectful
+view that the judge fixed unduly on its text – the call for an affidavit, for
+example, and the material absence of documents – and did not fully weigh the
+“spirit” in which the case management order was issued.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[95]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">What about the affidavit? Was the trial judge
+correct that Les Rivières showed a criminal intention to defy the order when it
+answered Jean Bleu on August 20, 2009 by ordinary letter rather than by sworn
+statement, as directed by Mongeon, J.?</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[96]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">Clearly from her testimony, Ms. Froncioni
+understood the affidavit requirement as did, needless to say, the two lawyers
+who assisted her in preparing the August 20, 2009 response. But at trial she
+explained her view that the affidavit was only required if Les Rivières did not
+comply with the order and that, in her estimation, Les Rivières had so complied
+on the deadline set of August 20. The letter was intended, on this view, to
+explain that Les Rivières had complied with the order rather than to explain
+why it had not satisfied the requirements of the motions judge.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[97]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The issue is not whether, as a material fact,
+the letter was or was not presented in the form of an affidavit. The issue is
+whether in writing the letter as it did, Les Rivières allowed the trial judge
+to infer an intention to defy the order. That inference could not properly be
+made without disposing of Ms. Froncioni’s claim that she did not think the affidavit
+was necessary. Ms. Froncioni may or may not have been acting under the sway of
+a mistake of fact, but that was the view she expressed.</span><a href="#_ftn25" name="_ftnref25" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:12.0pt;font-family:
+"Arial","sans-serif"'>[25]</span></span></span></span></a><span lang="EN-CA"> Her
+testimony may or may not have been credible, but the trial judge did not
+address this point. At the very least, a defence to the allegation that she had
+deliberately defied the order in not providing the affidavit was properly
+raised. The judge did not consider this in the portion of her reasons devoted
+to the proof of <i>mens rea</i>.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[98]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The law’s treatment of civil contempt as a
+criminal offence and the risk of harsh sanctions attached to it are justified
+by proof of subjective intention. It is certainly true that Les Rivières sent
+the explanation for withholding the documents on August 20, 2009 in the form of
+an ordinary letter and not, as Mongeon, J. had ordered, in an affidavit. It is
+true too that the letter did not explain the lack of disclosure of all
+documents mentioned in R-4. These failures to respect the terms of the order
+may well have constituted an abuse of process – that is a matter to be decided
+in a distinct proceeding that is pending before the courts. But with due regard
+to the spirit in which the order was made and the whole of the evidence, it is
+not plain that this conduct translated into a criminal intention to defy the
+authority of the court in a manner consonant with civil contempt, as opposed to
+the otherwise available civil sanctions for abuse of process. The possibility
+of a reasonable doubt as to the existence of a <i>mens rea</i> should have
+benefited Les Rivières.</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[99]<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span lang="EN-CA">The exceptional character of the sanctions
+associated with a conviction for civil contempt required proof of the full <i>mens
+rea</i> for the offence based on a proper consideration of the nature and
+context of the case management order. To do otherwise, in my respectful view,
+was to deploy contempt too readily in the circumstances</span>. </p>
+<p align="center" class="Paragraphe" style="text-align:center;line-height:14.0pt"><span lang="EN-CA">***</span></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:14.0pt"><span lang="EN-CA">[100]<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span lang="EN-CA">I would allow the appeal, set aside the trial
+judgment and dismiss the proceedings in contempt of court against Les Rivières,
+with costs throughout.</span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:.4pt;border-collapse:collapse" width="624">
+<tr style="page-break-inside:avoid;height:25.65pt">
+<td colspan="2" style="width:6.5in;padding:0in 0in 0in 0in;
+  height:25.65pt" valign="top" width="624">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid;height:13.85pt">
+<td rowspan="2" style="width:236.75pt;padding:0in 0in 0in 0in;
+  height:13.85pt" valign="top" width="316">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+<td style="width:231.25pt;border:none;border-bottom:
+  solid windowtext 1.0pt;padding:0in 0in 0in 0in;height:13.85pt" valign="top" width="308">
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid;height:13.8pt">
+<td style="width:231.25pt;padding:0in 0in 0in 0in;
+  height:13.8pt" valign="top" width="308">
+<p class="MsoNormal"><span lang="EN-CA">NICHOLAS KASIRER, J.A.</span></p>
+</td>
+</tr>
+</table>
+<p class="MsoNormal"><span lang="EN-CA"> </span></p>
+</div>
+<div><br clear="all"/>
+<hr align="left" size="1" width="33%"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[1]</span></span></span></span></a><span lang="EN-CA">     Jessel, M.R. in <i>Re Clements</i>, (1877) 46 L.J. Ch. 375
+(Eng. C.A.) quoted recently by Sharpe, J.A. in <i>St. Elizabeth Home Society v.
+Hamilton (City)</i>, 2008 ONCA 182 at para [42].</span></p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText"><a href="#_ftnref2" name="_ftn2" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[2]</span></span></span></span></a><span lang="FR-CA">     Quebec, Comité de révision de la procédure civile [Professor Denis
+Ferland, chair], <i>La révision de la procédure civile : une nouvelle
+culture judiciaire</i> (Quebec City: Min. de la Justice, 2001), esp. 27 <i>et
+seq</i>.</span></p>
+</div>
+<div id="ftn3">
+<p class="MsoFootnoteText"><a href="#_ftnref3" name="_ftn3" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[3]</span></span></span></span></a><span lang="EN-CA">     2010 QCCA 2089 (Forget, Rochon and Dufresne, JJ.A.).</span></p>
+</div>
+<div id="ftn4">
+<p class="MsoFootnoteText"><a href="#_ftnref4" name="_ftn4" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[4]</span></span></span></span></a><span lang="FR-CA">     <i>Lac d’Amiante du Québec ltée</i> v. <i>2858-0702 Québec inc.</i>,
+[2001] 2 S.C.R. 743.</span></p>
+</div>
+<div id="ftn5">
+<p class="MsoFootnoteText"><a href="#_ftnref5" name="_ftn5" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[5]</span></span></span></span></a><span lang="EN-CA">     <i>Videotron Ltée </i>v<i>. Industries Microlec Produits
+Électroniques Inc.</i>, [1992] 2 S.C.R. 1065, quoted by the trial judge in para
+[21] of her reasons.</span></p>
+</div>
+<div id="ftn6">
+<p class="MsoFootnoteText"><a href="#_ftnref6" name="_ftn6" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[6]</span></span></span></span></a><span lang="EN-CA">     <i>Daigle</i> v. <i>Corp. mun. de la paroisse de St-Gabriel de
+Brandon</i>, (1991) R.D.J. 249 (C.A.), 252-3, quoted by the judge at para [22].</span></p>
+</div>
+<div id="ftn7">
+<p class="MsoFootnoteText"><a href="#_ftnref7" name="_ftn7" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[7]</span></span></span></span></a><span lang="FR-CA">     Yves-Marie Morissette has written on the aspiration of the case
+management process as "une mise à distance plus marquée de la culture
+adversariale, laquelle nécessite un contrôle plus étroit sur le cheminement de
+l'instance": "Gestion d'instance, proportionnalité et preuve
+civile : état provisoire des questions" (2009) 50 C. de D. 381.</span></p>
+</div>
+<div id="ftn8">
+<p class="MsoFootnoteText"><a href="#_ftnref8" name="_ftn8" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[8]</span></span></span></span></a><span lang="FR-CA">     These themes were expertly canvassed in a recent lecture given
+by André Rochon, "La gestion d’instance : Présentation à l’occasion
+de l’Assemblée divisionnaire de la Cour supérieure [du Québec]", June 8,
+2012, Montebello, Quebec (unpublished).</span></p>
+</div>
+<div id="ftn9">
+<p class="MsoFootnoteText"><a href="#_ftnref9" name="_ftn9" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[9]</span></span></span></span></a><span lang="FR-CA">     Catherine Piché, "La proportionnalité procédurale :
+une perspective comparative" (2009-2010) 40 R.D.U.S. 551, 568-9.</span></p>
+</div>
+<div id="ftn10">
+<p class="MsoFootnoteText"><a href="#_ftnref10" name="_ftn10" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[10]</span></span></span></span></a><span lang="FR-CA">    See, <i>e.g.</i>, Christiane L. Bernadet, "L'outrage au
+tribunal dans le cyberespace", <i>Conférence des juristes de l'État 2009</i>
+(Cowansville: Éd. </span><span lang="EN-CA">Yvon Blais, 2009) 421, 432-3 and
+authorities cited therein; and Adrian Popovici, <i>L'outrage au tribunal</i>
+(Montreal: Éd. Thémis, 1977) 127.</span></p>
+</div>
+<div id="ftn11">
+<p class="MsoFootnoteText"><a href="#_ftnref11" name="_ftn11" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[11]</span></span></span></span></a><span lang="EN-CA">    See, <i>e.g.</i>, <i>Vidéotron</i>, <i>supra</i> note 5, 1079; <i>Daigle</i>,
+<i>supra</i> note 6, 252.</span></p>
+</div>
+<div id="ftn12">
+<p class="MsoFootnoteText"><a href="#_ftnref12" name="_ftn12" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[12]</span></span></span></span></a><span lang="EN-CA">    See, <i>e.g.</i>, <i>Droit de la famille – 082781</i>, 2008 QCCA
+2070 and, generally, David Eady and A.T.H. Smith, <i>Arlidge, Eady and Smith on
+Contempt</i>, 3<sup>rd</sup> ed. (London: Sweet and Maxwell, 2005) 897-899.</span></p>
+</div>
+<div id="ftn13">
+<p class="MsoFootnoteText"><a href="#_ftnref13" name="_ftn13" title=""><span class="MsoFootnoteReference"><span lang="EN-CA"><span class="MsoFootnoteReference"><span lang="EN-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[13]</span></span></span></span></a><span lang="EN-CA">    "Reforming the New Zealand Law of Contempt of Court: An
+Issues/Discussion Paper" 18 April 2011 [A.T.H. Smith, reporter],
+references omitted (available at www.crownlaw.govt.nz).</span></p>
+</div>
+<div id="ftn14">
+<p class="MsoFootnoteText"><a href="#_ftnref14" name="_ftn14" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[14]</span></span></span></span></a><span lang="FR-CA">    <i>Vidéotron</i>, <i>supra</i> note 5, 1075, L'Heureux-Dubé J.
+was dissenting.</span></p>
+</div>
+<div id="ftn15">
+<p class="MsoFootnoteText"><a href="#_ftnref15" name="_ftn15" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[15]</span></span></span></span></a><span lang="EN-CA">    It may be noted in this regard that under article 54 C.C.P., the
+punishment for contempt, whether imposed on a natural or legal person, is
+understood as penal in character, and is executed in accordance with the <i>Code
+of Penal Procedure</i>, R.S.Q., c. C-25.1.</span></p>
+</div>
+<div id="ftn16">
+<p class="MsoFootnoteText"><a href="#_ftnref16" name="_ftn16" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[16]</span></span></span></span></a><span lang="EN-CA">    <i>Attorney-General v. Times Newspapers Ltd.,</i> [1974] A.C.
+273, 308. In his book <i>Contempt of Court</i>, 3<sup>rd</sup> ed. (Oxford:
+Oxford. U.P., 2000), para 1.07, author C.J. Miller writes that this aspect of
+civil contempt highlighted by the House of Lords has been similarly prominent
+in Canada, citing <i>Videotron, supra</i> note 5.</span></p>
+</div>
+<div id="ftn17">
+<p class="MsoFootnoteText"><a href="#_ftnref17" name="_ftn17" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[17]</span></span></span></span></a><span lang="EN-CA">    Denis Ferland </span><span lang="FR-CA">and Benoît Emery, <i>Précis
+de procédure civile du Québec</i>, vol. 1, 4<sup>th</sup> ed. (Cowansville: Éd.
+Yvon Blais, 2003) 116. See also Sylvain Lussier in "L’outrage au tribunal:
+développements jurisprudentiels récents" in Bar of Quebec, ed., <i>Développement
+récents en droit civil (1993)</i> (Cowansville: Éd. Yvon Blais</span><span lang="EN-CA">, 1993) 93.</span></p>
+</div>
+<div id="ftn18">
+<p class="MsoFootnoteText"><a href="#_ftnref18" name="_ftn18" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[18]</span></span></span></span></a><span lang="FR-CA">    See the remarks of Monet, J.A. in <i>Charlebois</i> v. <i>Bourbeau</i>,
+[1979] J.Q. no 122 (C.A.) at para [23]: “Malheureusement, la notion d’outrage
+au tribunal est trop souvent avilie. C’est à tort, à mon avis</span><span lang="EN-CA">, qu’on assimile une requête en outrage au tribunal aux voies
+d’exécution”. See also, to the same effect, <i>Droit de la famille – 3069</i>,
+[1998] J.Q. no 5533, para [41] (Sup. Ct.).</span></p>
+</div>
+<div id="ftn19">
+<p class="MsoFootnoteText"><a href="#_ftnref19" name="_ftn19" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[19]</span></span></span></span></a><span lang="EN-CA">    Law Reform Commission of Canada [Antonio Lamer, chair], <i>Contempt
+of Court: Working Paper no. 20 </i>(Ottawa: Min. Supply and Services, 1977) 49.
+The telling expression "galvaudé" is used for "overuse" in
+the French version of this bilingual report (p. 8).</span></p>
+</div>
+<div id="ftn20">
+<p class="MsoFootnoteText"><a href="#_ftnref20" name="_ftn20" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[20]</span></span></span></span></a><span lang="EN-CA">    See the comments of my colleague Bich, J.A. as to the
+appropriateness of sanctions, even a grave one such as dismissal of an action,
+for the transgression of a case management order: <i>Genest v. Labelle</i>,
+2009 QCCA 2438 at para [39].</span></p>
+</div>
+<div id="ftn21">
+<p class="MsoFootnoteText"><a href="#_ftnref21" name="_ftn21" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[21]</span></span></span></span></a><span lang="FR-CA">    In <i>Costolec inc. v. Structure Laferté inc</i>., 2010 QCCA
+1600, my colleague Dalphond, J.A. explained at para [56]: "Grâce à divers
+ajouts récents au Code de procédure, il se trouve désormais dans le coffre des
+parties et des juges de nouveaux outils qui permettent d'encadrer, corriger et
+sanctionner", including sanctions at article 54.1 <i>et seq.</i>
+C.C.P. </span></p>
+</div>
+<div id="ftn22">
+<p class="MsoFootnoteText"><a href="#_ftnref22" name="_ftn22" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[22]</span></span></span></span></a><span lang="FR-CA">    Piché, <i>supra</i> note 9, 572 has written that "la
+proportionnalité québécoise est encadrée, en quelque sorte, par les articles
+54.1 et suivants <i>C.p.c</i>. […]".</span></p>
+</div>
+<div id="ftn23">
+<p class="MsoFootnoteText"><a href="#_ftnref23" name="_ftn23" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[23]</span></span></span></span></a><span lang="FR-CA">    <i>Supra</i> note 6, 252.</span></p>
+</div>
+<div id="ftn24">
+<p class="MsoFootnoteText"><a href="#_ftnref24" name="_ftn24" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[24]</span></span></span></span></a><span lang="FR-CA">    <i>Zhang v. Chau</i>, 2003 CanLII 47974 (QCCA), paras [24], [31]
+and [32].</span></p>
+</div>
+<div id="ftn25">
+<p class="MsoFootnoteText"><a href="#_ftnref25" name="_ftn25" title=""><span class="MsoFootnoteReference"><span lang="FR-CA"><span class="MsoFootnoteReference"><span lang="FR-CA" style='font-size:10.0pt;font-family:"Arial","sans-serif"'>[25]</span></span></span></span></a><span lang="FR-CA">    For example, in answer to a question on cross-examination as to
+why she did not supply an affidavit, Ms. Froncioni replied (MA 949): Q.[676]
+"Vous n'avez pas jugé nécessaire de faire un affidavit? R.
+"Non". Q.[677] "Pourquoi?" R. "Parce que nous avons
+répondu à la question". </span></p>
+</div>
+</div>
+</body>
+</html>

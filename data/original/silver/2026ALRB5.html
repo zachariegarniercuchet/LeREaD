@@ -1,0 +1,1093 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:8.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;
+	font-weight:normal;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:8.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#0F4761;
+	font-weight:normal;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#0F4761;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#0F4761;
+	font-weight:normal;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#595959;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#595959;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#272727;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Titre 9 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#272727;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+span.MsoFootnoteReference
+	{}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Titre Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Titre Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Sous-titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:14.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#595959;
+	letter-spacing:.75pt;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:8.0pt;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#404040;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-link:"Citation intense Car";
+	margin-top:.25in;
+	margin-right:.6in;
+	margin-bottom:.25in;
+	margin-left:.6in;
+	text-align:center;
+	line-height:107%;
+	border:none;
+	padding:0in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#0F4761;
+	font-style:italic;}
+span.MsoIntenseEmphasis
+	{color:#0F4761;
+	font-style:italic;}
+span.MsoIntenseReference
+	{font-variant:small-caps;
+	color:#0F4761;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	color:#0F4761;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	color:#0F4761;
+	font-style:italic;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Times New Roman",serif;
+	color:#0F4761;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Times New Roman",serif;
+	color:#595959;
+	font-style:italic;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Times New Roman",serif;
+	color:#595959;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Times New Roman",serif;
+	color:#272727;
+	font-style:italic;}
+span.Titre9Car
+	{mso-style-name:"Titre 9 Car";
+	mso-style-link:"Titre 9";
+	font-family:"Times New Roman",serif;
+	color:#272727;}
+span.TitreCar
+	{mso-style-name:"Titre Car";
+	mso-style-link:Titre;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+span.Sous-titreCar
+	{mso-style-name:"Sous-titre Car";
+	mso-style-link:Sous-titre;
+	font-family:"Times New Roman",serif;
+	color:#595959;
+	letter-spacing:.75pt;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	color:#404040;
+	font-style:italic;}
+span.CitationintenseCar
+	{mso-style-name:"Citation intense Car";
+	mso-style-link:"Citation intense";
+	color:#0F4761;
+	font-style:italic;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;}
+p.ALRB2, li.ALRB2, div.ALRB2
+	{mso-style-name:ALRB_2;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:0in;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body>
+<div class="WordSection1">
+<table border="0" cellpadding="0" cellspacing="0" class="TableGrid1" style="width:474.75pt;border-collapse:collapse;border:none" width="0">
+<tbody><tr>
+<td style="width:171.0pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="221">
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-bottom:.0001pt;line-height:normal"><b><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>OUR VISION</span></b><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>: The fair
+  and equitable interpretation and application of Alberta’s collective
+  bargaining legislation.<br/>
+<br/>
+</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:3.75pt;margin-bottom:
+  6.0pt;line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>The fair and equitable
+  hearing of appeals under the Alberta’s occupational health &amp; safety and
+  employment standards legislation.</span></p>
+</td>
+<td style="width:1.75in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="184">
+<p align="center" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"><img align="left" alt="A red and blue sign with white text
+
+Description automatically generated" height="90" hspace="12" src="Certain_Employees_of_STARBUCKS_COFFEE_CANADA__INC._v_United_Steelworkers__Local_1-207_-_RV-01373_-_Schick_fichiers/image001.png" width="145"/></p>
+</td>
+<td style="width:177.75pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="229">
+<p align="right" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:6.0pt;margin-left:8.25pt;text-align:right;line-height:normal"><b><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>OUR
+  MISSION: </span></b><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>To
+  interpret and apply Alberta's collective bargaining legislation and 
+  adjudicate appeals under Alberta’s occupational health &amp; safety and
+  employment standards legislation, in an impartial, knowledgeable, efficient,
+  timely, and consistent way.</span></p>
+</td>
+</tr>
+<tr style="height:30.3pt">
+<td style="width:171.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:30.3pt" valign="top" width="221">
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-bottom:.0001pt;text-align:justify;line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>640, 10155
+  – 102 Street NW</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-bottom:.0001pt;text-align:justify;line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>Edmonton,
+  AB T5J 4G8</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-bottom:.0001pt;text-align:justify;line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>Tel: 
+  780-422-5926</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-bottom:.0001pt;text-align:justify;line-height:normal"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'><a href="mailto:alrb.edm@gov.ab.ca"><span style='font-size:8.0pt;font-family:
+  "Arial",sans-serif;color:#0563C1'>alrb.edm@gov.ab.ca</span></a></span></p>
+</td>
+<td style="width:1.75in;padding:0in 5.4pt 0in 5.4pt;
+  height:30.3pt" valign="top" width="184">
+<p align="center" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>ALRB
+  Fax: 780-422-0970</span></p>
+<p align="center" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>General
+  email: </span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'><a href="mailto:alrb.info@gov.ab.ca"><span style='font-size:8.0pt;font-family:
+  "Arial",sans-serif;color:#0563C1'>alrb.info@gov.ab.ca</span></a></span></p>
+<p align="center" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>Website:
+  </span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'><a href="http://www.alrb.gov.ab.ca"><span style='font-size:8.0pt;font-family:
+  "Arial",sans-serif;color:#0563C1'>www.alrb.gov.ab.ca</span></a></span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'> </span></p>
+</td>
+<td style="width:177.75pt;padding:0in 5.4pt 0in 5.4pt;
+  height:30.3pt" valign="top" width="229">
+<p align="right" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:right;
+  line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>308,
+  1212 – 31 Avenue NE</span></p>
+<p align="right" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:right;
+  line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>Calgary,
+  AB T2E 7S8</span></p>
+<p align="right" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:right;
+  line-height:normal"><span style='font-size:8.0pt;font-family:"Arial",sans-serif'>Tel: 
+  403-297-4334</span></p>
+<p align="right" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:right;
+  line-height:normal"><span style='font-size:12.0pt;font-family:
+  "Calibri",sans-serif'><a href="mailto:alrb.cal@gov.ab.ca"><span style='font-size:8.0pt;font-family:"Arial",sans-serif;color:#0563C1'>alrb.cal@gov.ab.ca</span></a></span></p>
+</td>
+</tr>
+</tbody></table>
+<p class="MsoHeader"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoHeader"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoHeader"><b><span style='font-family:"Arial",sans-serif'>CITATION:
+ <i>Certain Employees of STARBUCKS COFFEE CANADA, INC. v United Steel, Paper
+and Forestry, Rubber, Manufacturing, Energy, Allied Industrial and Service
+Workers International Union (United Steelworkers), Local 1-207, </i>2026 ALRB 5</span></b></p>
+<p class="MsoHeader"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'>January 16,
+2026</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><b><span style='font-family:"Arial",sans-serif'>Directed to:    </span></b><span style='font-family:"Arial",sans-serif'>Certain Employees of
+STARBUCKS COFFEE CANADA, INC. – Alena Leonova; McLennan Ross LLP – Timothy
+Mitchell; STARBUCKS COFFEE CANADA, INC. – Kate Fenton; Chivers Carpenter
+Lawyers – Drew R. Blaikie / Jacob Holloway; United Steel, Paper and Forestry,
+Rubber, Manufacturing, Energy, Allied Industrial and Service Workers
+International Union (United Steel Workers), Local 1-207 – Tara Cavanagh</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:70.9pt;margin-bottom:.0001pt;text-indent:-70.9pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<div style="border:none;border-bottom:solid windowtext 1.0pt;padding:0in 0in 1.0pt 0in">
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;text-indent:-.5in;line-height:normal;
+border:none;padding:0in"><b><span style='font-family:"Arial",sans-serif'>RE:      An
+application for revocation of the bargaining rights of the United Steel, Paper
+and Forestry, Rubber, Manufacturing, Energy, Allied Industrial and Service
+Workers International Union (United Steelworkers), Local 1-207 brought by
+Certain Employees of STARBUCKS COFFEE CANADA, INC. affecting STARBUCKS COFFEE
+CANADA, INC. — Board File No. RV-01373</span></b></p>
+</div>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[1]<span style='font:7.0pt "Times New Roman"'>          
+</span>On June 2, 2025, certain employees of Starbucks Coffee Canada Inc. (the
+“Applicants”) applied to revoke the bargaining rights of United Steel, Paper
+and Forestry, Rubber, Manufacturing, Energy, Allied Industrial and Service
+Workers Internation Union (United Steelworkers), Local 1-207 (the “Union”) in
+relation to Board Certificate C2048-2022 covering “All employees at the
+Millrise Centre (Store #04619) in Calgary”. On June 11, the Board Officer
+issued a Board Officer’s report recommending dismissal of the revocation
+application on the basis it was untimely. Pursuant to section 52(3)(d) of the <i>Labour
+Relations Code </i>(the “<i>Code”</i>):</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:28.55pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'>52(3)    An application for
+revocation of bargaining rights may be made by the employees in the unit</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:42.75pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'>(d)        if a collective
+agreement for a term of more than 2 years is in force in respect of any of the employees
+in the unit, at any time</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:78.15pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'>(ii)        in the 11th or
+12th month of the 2nd or any subsequent year of the term, or</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:78.15pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:78.15pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'>(ii)        in the 2 months
+immediately preceding the end of the term.</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:78.15pt;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[2]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Applicants are covered by a collective agreement with a term of
+August 4, 2023 to July 31, 2026. Thus, the “open period” for revocation
+applications set by section 52(3)(d) did not open until June 4, 2025.<a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span style='font-size:11.0pt;line-height:107%;
+font-family:"Arial",sans-serif'>[1]</span></span></a> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[3]<span style='font:7.0pt "Times New Roman"'>          
+</span>Upon receiving the Officer’s Report, the spokesperson for the Applicants
+wrote the Board. She stated:</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>I am writing to respectfully request
+that the Board exercise its discretion under Section 57 of the [<i>Code</i>] to
+waive the statutory bar period and permit resubmission of the employees’
+Application for Revocation.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>…</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>I respectfully submit that this minor
+technical filing error [the premature filing date] should not bar the employees
+from exercising their statutory right to apply for revocation. In support of
+this waiver request, I submit the following:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>The application was submitted in good
+faith, and full compliance was made with all substantive requirements under the
+<i>Code, </i>including the required threshold of employee support. The
+premature filing resulted solely from a misunderstanding of the 10-month window
+calculation.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>The filing was made only two days prior
+to the opening of the applicable window. This minor deviation resulted in no
+material prejudice or disruption to the Board’s processes or any party’s
+ability to respond.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>…</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>I fully acknowledge responsibility for
+the technical filing error but respectfully submit that denying employees
+access to the decertification process based on a two-day early filing would be
+unduly harsh and inconsistent with the remedial intent of the Code. Granting
+consent to refile would promote industrial stability, employee choice, and labour
+relations fairness … Allowing the application to proceed would permit the
+employees to exercise their statutory right to vote on continued
+representation.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'>I therefore respectfully request that
+the Board consent to refile and allow the application to proceed in the
+interest of justice, fairness and employee choice.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[4]<span style='font:7.0pt "Times New Roman"'>          
+</span>Section 57(1)(b) of the <i>Code</i> states that if an application for
+revocation has been refused by the Board, withdrawn by the applicant, or
+remains before the Board without being actively pursued, the applicant may not,
+<i>without consent of the Board</i>, make the same or substantially the same
+application for 90 days. The section is worded in that manner to prevent
+parties from making a second, duplicative, revocation application (whether the
+original application has been dismissed, withdrawn, or simply sits in abeyance)
+until a certain time period has passed. However, it permits the party to seek
+the Board’s consent to file a second, new, duplicative application. A good
+discussion of the factors that the Board will consider in section 57
+applications, albeit in the context of a certification, can be found in <i>Telecommunications
+Workers Union (TWU), United Steelworkers Local Union 1944 v ADT Securities
+Services Canada, Inc.</i>, [2021] Alta. L.R.B.R. LD-055 at paras 22-28. A key
+consideration is whether permitting the early second application would create labour
+relations disruption. </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[5]<span style='font:7.0pt "Times New Roman"'>          
+</span>The problem immediately apparent with the spokesperson’s letter is that
+it asks for two, quite contradictory, things. It references section 57 and
+speaks of “resubmission” of the application and “refiling”. However, it also
+refers to allowing the current application to proceed. In such circumstances,
+the Board Officer will reach out to the party, particularly a self-represented
+spokesperson for a group of revocation applicants, to clarify their options.
+The key options for the Applicants here would be to withdraw their June 2
+application and seek consent of the Board to permit filing of a new, timely,
+application (which the Board notes would establish a new date for determination
+of the applicable Voters List); or they could insist that the current
+application continue. Here, it is very noteworthy that the application was
+never withdrawn. The Union made its position clear by letter dated June 13 that
+the Applicants’ section 57 request was improper given that the original
+application was not withdrawn and was continuing to be pursued by the
+Applicants.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[6]<span style='font:7.0pt "Times New Roman"'>          
+</span>In the face of the Applicants’ failure to withdraw the June 2 application,
+the Board followed its normal process to proceed to direct a vote with the ballot
+box sealed pending determination of the Applicants’ objection to the Board
+Officer’s recommendation of dismissal and other objections to the voting
+constituency. It is important for future applicants facing similar situations
+to understand the impact that insisting on the original application proceeding
+to a vote may have on the situation: the holding of a representation vote in
+the original application is one of the types of “labour relations disruption”
+that will be considered by the Board in considering consent under section 57 to
+file a second application.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[7]<span style='font:7.0pt "Times New Roman"'>          
+</span>When the current Vice Chair was assigned the hearing into this matter, the
+Vice Chair directed the matter be set down for the earliest available case
+management date. With self-represented litigants, a situation such as this
+calls out for clarification of the potentially contradictory positions of the
+party. Statements by the spokesperson for the Applicants in case management
+confirmed they have indeed insisted upon continuation of the initial
+application rather than any form of withdrawal of the initial application and
+filing of a new application.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[8]<span style='font:7.0pt "Times New Roman"'>          
+</span>In case management, the Board canvassed whether there were any disputed
+facts in relation to the Applicants’ request in its June 12, 2025 letter. All
+parties agreed that there was no disagreement with the facts contained within
+that letter, and the question of whether the Board could grant that request was
+purely one of law and applicable Board policy. On that basis, the Board
+determined the issue could be dealt with by written submissions alone. The
+Employer has made helpful submissions on the complex legal issues raised in
+this circumstance which might not otherwise have been canvassed by the
+self-represented Applicants.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[9]<span style='font:7.0pt "Times New Roman"'>          
+</span>The written submissions of the parties have come before a panel of the
+Board (Schick, Burns, Thibault).</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'>The Applicants’ Submissions</span></i></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[10]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Board summarizes the Applicants’ submissions as follows:</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The early filing was
+a minor procedural defect which ought not to bar the exercise of the employees’
+ability to seek revocation;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>“The timing
+irregularity was identified promptly, and I immediately sought the Board’s
+direction by emailing a letter on June 12, 2025, rather than withdrawing and
+refiling”;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The Board proceeded
+to direct a vote with full knowledge of the irregularity; </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The Board should
+confirm that it has jurisdiction to proceed with a revocation application
+despite a technical defect in the application where it is technical and no
+prejudice results;</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>There would be no
+practical purpose in refusing to allow the employees’ votes on revocation to be
+considered at this time.</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'>The Employer’s
+Submissions</span></i></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[11]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Board summarizes the Employer’s submissions as follows:</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The Applicants’
+request on June 12 should be framed as a request to “permit resubmission” of
+the revocation application, and therefore the question should be whether the
+Board grants that consent under section 57;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The Board has the
+authority to do so because the Applicants did not “actively pursue” the initial
+application;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The <i>Code</i>’s
+policy in preserving the democratic right to change bargaining agent through
+open periods is best met by permitting such consent; otherwise, the
+spokesperson’s error effectively closed the open period to the detriment of
+those rights;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The Board raised the
+legitimate expectations of the employees, by ordering the vote following the
+request for resubmission after having initially informed the employees through
+the posted Notice to Vote that the vote would only be ordered if the
+application met the <i>Code</i>’s requirements;</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>No prejudice has
+been caused to any party.</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[12]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Employer raises the case of <i>Certain Employees of the Royal
+Canadian Legion Calgary v. Unite Here Canada Local 47</i>, [2007] Alta.
+L.R.B.R. LD-064, in which the Board exercised its discretion under section 57
+to consent to the filing of a second application for revocation in similar circumstances
+where the first revocation application was filed two days early. As the
+Employer acknowledges, that was a case where the applicants withdrew the
+initial application and were seeking consent to file a new application. The
+Employer states that is a distinction without a difference, as it argues in
+this case the Applicants simply chose not to “actively pursue” the initial
+application.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'>The Union’s Submissions</span></i></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[13]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Board summarizes the Union’s submissions as follows:</p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The Board
+has no authority under section 57(1)(b) of the <i>Code </i>to permit a revocation
+application to proceed that was filed outside the open period;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The
+Applicants have been clear that they are seeking the initial application to
+proceed. This was clear in the spokesperson’s letter of June 12, in her
+comments in case management, and in the Applicants’ written submissions;</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-21.25pt;
+line-height:normal">•<span style='font:7.0pt "Times New Roman"'>          
+</span><span style='font-family:"Arial",sans-serif'>The
+Applicants have only filed one revocation application and it is being “actively
+pursued”, in that it has not been withdrawn despite that option being made clear
+to the Applicants.</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[14]<span style='font:7.0pt "Times New Roman"'>       
+</span>The Union refers to the case of <i>IABSRI, Local 725 v Quolus
+Construction Services Ltd.</i>, [2019] Alta. L.R.B.R. 236 (“<i>Quolus</i>”) as
+support for the proposition that the first application remaining outstanding
+before the Board means it was being “actively pursued”.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'>Analysis</span></i></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><i><span style='font-family:"Arial",sans-serif'> </span></i></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[15]<span style='font:7.0pt "Times New Roman"'>       
+</span>As outlined above, section 57 of the <i>Code</i> sets a limitation upon
+certification or revocation applicants bringing the same or substantially the
+same application without waiting the applicable 90 day period.  Previous
+versions of that section only limited second applications where the first was
+withdrawn or refused/dismissed. As can be seen in <i>Miscellaneous Employees,
+Teamsters Local No. 987 v. Brandt Tractor Ltd.</i>, [2010] Alta. L.R.B.R. 56 (“<i>Brandt</i>”),
+this meant applicants could seek to avoid the time limit for filing a new application
+by not withdrawing the application and simply sitting on the application such
+that it was not refused/dismissed. As discussed in <i>Brandt</i>, the question
+then became one of the Board’s discretion whether to refuse the duplicative
+application as an abuse of process.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[16]<span style='font:7.0pt "Times New Roman"'>       
+</span>The <i>Code </i>was subsequently amended to expand the limitation on
+filing duplicative applications to situations where the initial application was
+refused by the Board, withdrawn by the applicant, or <i>remained before the
+Board without being actively pursued</i>. As seen in <i>Quolos</i>, applicants sought
+to avoid this limitation by arguing they were in fact actively pursuing the
+initial application. The Board found in <i>Quolos </i>that, while section 57
+was indeed not applicable to this fact scenario, the circumstances were
+fundamentally different than <i>Brandt</i> and the Board dismissed the second
+duplicative application as an abuse of process. The Board’s view of duplicative
+proceedings was set out in paras. 14-17 of <i>Quolos</i>.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[17]<span style='font:7.0pt "Times New Roman"'>       
+</span>One of the fundamental rationales for the finding in <i>Quolos</i> is
+the ease with which the <i>Code</i> permits applicants to file a second
+application, through the express process of obtaining Board consent for the
+filing of a new application. As referenced above, the Board carefully takes
+into account practical labour relations considerations in deciding whether to
+grant consent for the filing.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[18]<span style='font:7.0pt "Times New Roman"'>       
+</span>In this case, seeking consent from the Board to refile a new revocation
+application that would be within the open period was the easy and obvious step.</p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'> </span></p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[19]<span style='font:7.0pt "Times New Roman"'>       
+</span>Unfortunately, the Board is satisfied that the Applicants’ actions here did
+not take that step. While the June 12 letter contains reference to seeking consent
+for “resubmission” and “refiling”, the Board finds the Applicants’ actions were
+contrary to that interpretation of that letter. Failure to withdraw the
+original application, and thus having that application proceed to preliminary consideration
+of next steps by the original Board administrative panel, in the face of the
+Union’s letter of June 13, demonstrates the Applicants’ intention to pursue the
+alternative course referenced in their June 12 letter: seeking the Board to
+“allow the application to proceed”. This intention is confirmed by the
+spokesperson’s comments in case management and indeed by the Applicants’
+written submissions (“… I immediately sought the Board’s direction by emailing
+a letter on June 12, 2025, <b>rather than withdrawing and refiling</b>”
+[emphasis added]). The Board finds this constitutes the Applicants “actively
+pursuing” the original application. In such circumstances, the Board would have
+no proper basis to consider the issue of section 57 consent, and indeed any new
+filing (had one been received) would likely have been an abuse of process
+without the first application having been withdrawn.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[20]<span style='font:7.0pt "Times New Roman"'>       
+</span>While it may have been preferable for the matter to have been set for
+early case management to clarify with the Applicants the issues with their June
+12 request and the limited scope of the Board’s discretion under section 57, the
+Applicants were free to proceed down the path they chose. There may indeed have
+been strategic reasons for doing so: applicants for certification or revocation
+may choose their application dates carefully since, as referenced above, the
+voting constituency in a representation vote might change under the Board’s
+Voting Rules depending on the date of application, and a refiled second
+application would have a new application date.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[21]<span style='font:7.0pt "Times New Roman"'>       
+</span>In the face of the dispute between the parties, the Board followed its
+normal practice and directed a vote be held <i>with the ballot box sealed
+pending resolution of all objections</i>. The Board regularly directs votes in
+the face of disputes, including disputes on timeliness, and the holding of a
+vote cannot be viewed as creating legitimate expectations that a party’s
+position will be accepted and the vote counted.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[22]<span style='font:7.0pt "Times New Roman"'>       
+</span>As a result of the above, the Board is satisfied it has only the June 2,
+2025 revocation application before it, and there is no basis to consider an
+application for consent under section 57. Further, contrary to the Applicants’
+written submissions, there is no jurisdiction for the Board to permit a
+revocation application filed outside of the open period set in section 52(3)(d)
+of the <i>Code</i> to proceed, via section 57 or otherwise. The early filing
+cannot be characterized as a mere technical defect. The times set out for certifications
+and revocations in sections akin to section 52(3)(d) are mandatory: one can see
+this in the requirement in section 53(1)(a) that the Board shall satisfy itself
+that “the application is timely” before granting an application for revocation.
+Applications outside those permitted times are statute barred: see, for
+example, <i>Brown &amp; Marshall Electric Ltd. v IBEW, Local 424</i>, [2001]
+Alta L.R.B.R. 492 at para. 35. Section 57 does nothing to permit the Board to
+alter that requirement, regardless of the procedural nature of the error or the
+good faith intentions of the Applicants.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt;text-indent:0in">[23]<span style='font:7.0pt "Times New Roman"'>       
+</span>Accordingly, the Board dismisses the request of the Applicants. As there
+is no basis to overturn the Board Officer’s finding that the application was
+untimely, the revocation application must be dismissed.</p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="ALRB2" style="margin:0in;margin-bottom:.0001pt"> </p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><span style='font-family:"Arial",sans-serif'>Jeremy D. Schick, Vice
+Chair</span></p>
+</div>
+<div><br clear="all"/>
+<hr align="left" size="1" width="33%"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style='font-size:9.0pt;font-family:
+"Arial",sans-serif'><span style='font-size:9.0pt;line-height:107%;font-family:"Arial",sans-serif'>[1]</span></span></span></a><span style='font-size:9.0pt;font-family:"Arial",sans-serif'> A helpful
+explanation concerning the calculation of open periods can be found in the
+Board’s Policy and Procedure Manual, Chapter 24(h).</span></p>
+</div>
+</div>
+</body></html>

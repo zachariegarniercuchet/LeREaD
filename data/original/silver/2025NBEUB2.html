@@ -1,0 +1,1138 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	text-indent:-.3in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.4in;
+	margin-bottom:.0001pt;
+	text-indent:-.4in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	margin-bottom:.0001pt;
+	text-indent:-.6in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.7in;
+	margin-bottom:.0001pt;
+	text-indent:-.7in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.9in;
+	margin-bottom:.0001pt;
+	text-indent:-.9in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-indent:-1.0in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Titre 9 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.1in;
+	margin-bottom:.0001pt;
+	text-indent:-1.1in;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:16.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-name:"Titre\,Sub 3";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-name:"Titre\,Sub 3CxSpFirst";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-name:"Titre\,Sub 3CxSpMiddle";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-name:"Titre\,Sub 3CxSpLast";
+	mso-style-link:"Titre Car\,Sub 3 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Sous-titre Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#5A5A5A;
+	letter-spacing:.75pt;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Texte brut Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:Consolas;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Objet du commentaire Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-indent:-.5in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-style:italic;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;}
+span.Titre9Car
+	{mso-style-name:"Titre 9 Car";
+	mso-style-link:"Titre 9";
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;
+	font-style:italic;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;
+	font-family:"Times New Roman",serif;}
+p.Sub4, li.Sub4, div.Sub4
+	{mso-style-name:"Sub 4";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:85.05pt;
+	margin-bottom:.0001pt;
+	line-height:18.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.TitreCar
+	{mso-style-name:"Titre Car\,Sub 3 Car";
+	mso-style-link:"Titre\,Sub 3";
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+span.TextebrutCar
+	{mso-style-name:"Texte brut Car";
+	mso-style-link:"Texte brut";
+	font-family:Consolas;}
+span.Sous-titreCar
+	{mso-style-name:"Sous-titre Car";
+	mso-style-link:Sous-titre;
+	font-family:"Times New Roman",serif;
+	color:#5A5A5A;
+	letter-spacing:.75pt;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";}
+span.ObjetducommentaireCar
+	{mso-style-name:"Objet du commentaire Car";
+	mso-style-link:"Objet du commentaire";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Headnig1, li.Headnig1, div.Headnig1
+	{mso-style-name:"Headnig 1";
+	mso-style-link:"Headnig 1 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Headnig1Char
+	{mso-style-name:"Headnig 1 Char";
+	mso-style-link:"Headnig 1";
+	font-family:"Calibri",sans-serif;}
+span.Style2
+	{mso-style-name:Style2;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="#0563C1" vlink="#954F72">
+<div class="WordSection1">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt">Citation: NB
+Power Corp. – 2025-2026 Variance Account Recovery (Re), 2025 NBEUB 2</p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt">Date:
+2025-03-18</p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoTableGridLight" style="width:450.9pt;border-collapse:collapse;border:none" width="0">
+<tbody><tr style="height:157.0pt">
+<td colspan="3" style="width:450.9pt;padding:0in 5.4pt 0in 5.4pt;
+  height:157.0pt" valign="top" width="673">
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:9.0pt;margin-bottom:.0001pt;line-height:normal"><img align="left" alt="Text
+
+Description automatically generated" height="151" hspace="12" src="2025_03_18_-_Matter_589_-_Decision_fichiers/image001.jpg" width="582"/></p>
+</td>
+</tr>
+<tr style="height:281.25pt">
+<td style="width:113.4pt;padding:0in 5.4pt 0in 5.4pt;
+  height:281.25pt" valign="top" width="15">
+<p align="center" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-left:9.0pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"> </p>
+</td>
+<td style="width:3.15in;padding:0in 5.4pt 0in 5.4pt;
+  height:281.25pt" valign="top" width="643">
+<p align="center" class="MsoNormal" style="margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:9.0pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"> </p>
+<p align="center" class="MsoNormal" style="margin-top:0in;
+  margin-bottom:0in;margin-left:9.0pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"><b> </b></p>
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="width:6.55in;border-collapse:collapse;border:none" width="0">
+<tbody><tr style="height:281.25pt">
+<td style="width:1.4in;padding:0in 5.4pt 0in 5.4pt;
+    height:281.25pt" valign="top" width="134">
+<p class="MsoNormal" style="margin-top:6.0pt;margin-bottom:
+    0in;margin-bottom:.0001pt;text-align:justify;
+    text-indent:-21.3pt;line-height:normal"> </p>
+</td>
+<td style="width:3.75in;padding:0in 5.4pt 0in 5.4pt;
+    height:281.25pt" valign="top" width="360">
+<p align="center" class="MsoNormal" style="margin-top:6.0pt;
+    margin-bottom:0in;margin-bottom:.0001pt;text-align:center;
+    text-indent:.3pt;line-height:normal"><b><span style="font-size:
+    16.0pt">DECISION</span></b></p>
+<p align="center" class="MsoNormal" style="margin-top:6.0pt;
+    margin-bottom:0in;margin-bottom:.0001pt;text-align:center;
+    text-indent:.3pt;line-height:normal"><b><span style="font-size:
+    16.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:
+    0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-indent:
+    0in;line-height:normal"><b><span style="font-size:14.0pt">IN THE
+    MATTER OF </span></b><a name="_Hlk191473480"></a><span style="font-size:14.0pt">an application by New Brunswick Power Corporation
+    pursuant to Section 10 of the <i>Regulatory Variance Accounts and Deferral
+    Account Regulation</i> <i>–</i> <i>Electricity Act</i>.</span></p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:
+    0in;margin-left:0in;margin-bottom:.0001pt;text-indent:0in;line-height:normal"><span style="font-size:14.0pt"> </span></p>
+<p align="center" class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;
+    margin-bottom:0in;margin-bottom:.0001pt;text-align:center;
+    text-indent:0in;line-height:normal"><span style="font-size:14.0pt">(Matter
+    No. 589)</span></p>
+<p align="center" class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;
+    margin-bottom:0in;margin-bottom:.0001pt;text-align:center;
+    text-indent:0in;line-height:normal"><span style="font-size:14.0pt"> </span></p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:
+    0in;margin-left:0in;margin-bottom:.0001pt;text-indent:0in;line-height:normal"><span style="font-size:14.0pt"> </span></p>
+<p align="center" class="MsoNormal" style="margin-top:6.0pt;margin-right:8.55pt;
+    margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;
+    text-indent:0in;line-height:normal"><span style="font-size:14.0pt">March 18,
+    2025</span></p>
+<p align="center" class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;
+    margin-bottom:0in;margin-left:6.3pt;margin-bottom:.0001pt;text-align:center;
+    text-indent:-21.3pt;line-height:normal"><span style="font-size:
+    14.0pt"> </span></p>
+<p align="center" class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;
+    margin-bottom:0in;margin-left:6.3pt;margin-bottom:.0001pt;text-align:center;
+    text-indent:-21.3pt;line-height:normal"><span style="font-size:
+    14.0pt"> </span></p>
+</td>
+<td style="width:1.4in;padding:0in 5.4pt 0in 5.4pt;
+    height:281.25pt" valign="top" width="134">
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:
+    0in;margin-bottom:.0001pt;text-align:justify;
+    text-indent:-14.85pt;line-height:normal"> </p>
+</td>
+</tr>
+</tbody></table>
+</div>
+<h2 style="margin-left:0in;text-align:justify;text-indent:0in;line-height:
+  normal"> </h2>
+<p align="center" class="MsoNormal" style="margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:9.0pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal"> </p>
+</td>
+<td style="width:110.7pt;padding:0in 5.4pt 0in 5.4pt;
+  height:281.25pt" valign="top" width="15">
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:9.0pt;margin-bottom:.0001pt;line-height:normal"> </p>
+</td>
+</tr>
+</tbody></table>
+<b><span style='font-size:12.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span></b></div>
+<b><span style='font-size:12.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span></b>
+<div class="WordSection2">
+<p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><b><span style="font-size:12.0pt;line-height:107%">IN THE MATTER OF <span style="font-size:16.0pt;line-height:107%"><span style="font-size:
+12.0pt;line-height:107%;font-weight:normal">an application by New Brunswick
+Power Corporation pursuant to Section 10 of the <i>Regulatory Variance Accounts
+and Deferral Account Regulation –</i> <i>Electricity Act</i></span></span><span style="font-size:16.0pt;line-height:107%;font-weight:normal">.</span></span></b><span style="font-size:12.0pt;line-height:107%"> </span></p>
+<p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><span style="font-size:12.0pt;line-height:107%">(Matter No.589)</span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoTableGridLight" style="width:463.5pt;border-collapse:collapse;border:none" width="0">
+<tbody><tr style="height:30.9pt">
+<td colspan="2" style="width:463.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:30.9pt" valign="top" width="618">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt">ORAL HEARING</span></b><span style="font-size:12.0pt">:      February 11, 2025</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt"> </span></b></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt">NEW BRUNSWICK ENERGY AND UTILITIES
+  BOARD</span></b><span style="font-size:12.0pt">:</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt"> </span></b></p>
+</td>
+</tr>
+<tr style="height:34.15pt">
+<td style="width:283.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:34.15pt" valign="top" width="378">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Presiding Chair</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Member</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Member</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td style="width:2.5in;padding:0in 5.4pt 0in 5.4pt;
+  height:34.15pt" valign="top" width="240">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Christopher Stewart</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Heather Black</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Kenneth McCullogh, K.C.</span></p>
+</td>
+</tr>
+<tr style="height:3.4pt">
+<td style="width:283.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="378">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt">PARTICIPANTS</span></b><span style="font-size:12.0pt">:</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td style="width:2.5in;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="240">
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:9.0pt;margin-bottom:.0001pt;line-height:normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:3.4pt">
+<td style="width:283.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="378">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">New Brunswick Power Corporation</span></p>
+</td>
+<td style="width:2.5in;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="240">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">John Furey</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:3.4pt">
+<td style="width:283.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="378">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">New Brunswick Association of Community
+  Organizations for Reform Now</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td style="width:2.5in;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="240">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">John Anderson</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:3.4pt">
+<td style="width:283.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="378">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">New Brunswick Coalition of Persons
+  with Disabilities</span></p>
+</td>
+<td style="width:2.5in;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="240">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Shelley Petit</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:3.4pt">
+<td style="width:283.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="378">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+<td style="width:2.5in;padding:0in 5.4pt 0in 5.4pt;
+  height:3.4pt" valign="top" width="240">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt"> </span></p>
+</td>
+</tr>
+<tr style="height:17.35pt">
+<td style="width:283.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:17.35pt" valign="top" width="378">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:12.0pt">PUBLIC INTERVENER</span></b><span style="font-size:12.0pt">:</span></p>
+</td>
+<td style="width:2.5in;padding:0in 5.4pt 0in 5.4pt;
+  height:17.35pt" valign="top" width="240">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:12.0pt">Alain Chiasson</span></p>
+</td>
+</tr>
+</tbody></table>
+<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+background:yellow'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="MsoNormal"><span style="background:yellow"> </span></p>
+<p class="MsoTocHeading" style="margin-bottom:12.0pt">Table of Contents</p>
+<p class="MsoToc1"><a href="#_Toc193101495">1<span style="font-size:12.0pt;line-height:107%;
+color:windowtext;text-decoration:none">      </span>Introduction<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">1</span></a></p>
+<p class="MsoToc1"><a href="#_Toc193101496">2<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Determination<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">2</span></a></p>
+<p class="MsoToc1"><a href="#_Toc193101497">3<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Discussion<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">2</span></a></p>
+<p class="MsoToc2"><a href="#_Toc193101498">3.1<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">        </span>RECOVERY
+OF VARIANCE<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">2</span></a></p>
+<p class="MsoToc3"><a href="#_Toc193101499">3.1.1<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Recovery
+Period<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">2</span></a></p>
+<p class="MsoToc3"><a href="#_Toc193101500">3.1.2<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Amount to
+be Recovered in Fiscal Year Beginning April 1, 2025<span style="color:windowtext;
+display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">3</span></a></p>
+<p class="MsoToc2"><a href="#_Toc193101501">3.2<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">        </span>RATE
+RIDERS<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">3</span></a></p>
+<p class="MsoToc3"><a href="#_Toc193101502">3.2.1<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Allocation
+of Rate Riders<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">3</span></a></p>
+<p class="MsoToc3"><a href="#_Toc193101503">3.2.2<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Recovery
+through Rate Riders<span style="color:windowtext;display:none;text-decoration:
+none">. </span><span style="color:windowtext;display:none;text-decoration:none">3</span></a></p>
+<p class="MsoToc3"><a href="#_Toc193101504">3.2.3<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Determination
+of Rate Riders by Rate Class<span style="color:windowtext;display:none;
+text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">4</span></a></p>
+<p class="MsoToc2"><a href="#_Toc193101505">3.3<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">        </span>REASONABLENESS
+OF VARIANCE ACCOUNTS AND RECOVERY<span style="color:windowtext;display:none;
+text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">4</span></a></p>
+<p class="MsoToc1"><a href="#_Toc193101506">4<span style="font-size:12.0pt;
+line-height:107%;color:windowtext;text-decoration:none">      </span>Conclusion<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">5</span></a></p>
+<p class="MsoNormal"> </p>
+<span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;
+margin-left:0in;text-indent:-.5in;line-height:18.0pt"> </p>
+</div>
+<b><span style='font-size:16.0pt;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span></b>
+<div class="WordSection3">
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc134023637"></a><a name="_Toc134023712"></a><a name="_Toc134023725"></a><a name="_Toc193101495">1<span style='font:7.0pt "Times New Roman"'>        
+</span>Introduction</a></h1>
+<p class="MsoListParagraph"><span style="line-height:115%">[1]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">In each of its fiscal
+years, NB Power is required to calculate the actual balance of the Energy
+Supply Cost Variance Account and the Electricity Sales and Margin Variance
+Account established pursuant to section 117.4 of the <i>Electricity Act </i>and
+to file the calculation with the Board on or before December 15. With its filed
+calculation, NB Power  is required to propose the period of years over which
+the balance is to be recovered from or reimbursed to customers, the amount of
+the balance to be recovered or reimbursed in the fiscal year next following its
+filing, and a calculation of the rate rider for each rate class in the  fiscal
+year next following the filing necessary to recover or reimburse the portion of
+the balance to be recovered or reimbursed in that year.</span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[2]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">For purposes of this
+matter, the Board is required to accept NB Power’s variance account balance
+calculations as filed, then determine how and over what period any balance is
+to be recovered or reimbursed, as the case may be, by way of rate riders. The
+way the Board is to determine when and how the amounts are to be recovered from
+or reimbursed to customers is strictly prescribed in the <i>Regulatory Variance
+Accounts and Deferral Account Regulation – Electricity Act</i> (the “<i>Regulation</i>”).
+The resulting rate riders are to be implemented by April 1 of the fiscal year
+next following NB Power’s filing and to remain in effect for the remainder of
+that fiscal year.</span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[3]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">On December 12, 2024,
+NB Power filed its calculations of the balances of the two variance accounts as
+of October 31, 2024, together with its proposal to redress the aggregate
+positive balance. NB Power’s calculation of the actual balance of the Energy
+Supply Cost Variance Account and the Electricity Sales and Margin Variance Account
+as of October 31, 2024, is $245.5 million, after taking into account the
+Incentive Thresholds imposed by section 8 of the <i>Regulation</i>.</span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[4]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">The matter was heard by
+video conference on February 11, 2025.  In addition to written evidence filed
+by NB Power, the Public Intervener introduced the opinion evidence of Dustin
+Madsen, who was qualified, without objection, to give opinion evidence in the
+field of regulatory accounting and finance for utilities, rate regulation,
+deferral and variance accounts, revenue requirements, accounting matters and
+depreciation and expense. The Board also received written submissions from NB
+Power, the Association for Community Organizations Reform Now and the New
+Brunswick Coalition of Persons with Disabilities. Finally, the Board heard oral
+submissions from NB Power, the Public Intervener and Shelley Petit, Chair of
+the New Brunswick Coalition of Persons with Disabilities.</span></p>
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc193101496">2<span style='font:7.0pt "Times New Roman"'>        
+</span>Determination</a></h1>
+<p class="MsoListParagraph"><span style="line-height:115%">[5]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">Following the
+methodology prescribed by the Regulation, the Board has determined that:</span></p>
+<p class="MsoListParagraph" style="margin-top:6.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-28.35pt"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>            
+</span></span><span style="line-height:115%">The net positive variance accounts
+balance of $245.5 million is to be recovered over six fiscal years. </span></p>
+<p class="MsoListParagraph" style="margin-top:6.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-28.35pt"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>            
+</span></span><span style="line-height:115%"> The amount to be recovered in
+fiscal year beginning April 1, 2025, is $54.7 million.</span></p>
+<p class="MsoListParagraph" style="margin-top:6.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:63.8pt;margin-bottom:.0001pt;text-indent:-28.35pt"><span style="line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>             
+</span></span><span style="line-height:115%">The amount to be recovered in
+fiscal year beginning April 1, 2025, is to be recovered </span><span style="line-height:115%">from NB Power’s rate classes in the following
+proportions:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:28.35pt;margin-bottom:.0001pt"><span style="font-size:12.0pt;
+line-height:107%"> </span></p>
+<p class="MsoNormal" style="margin-left:63.8pt"><span style="font-size:12.0pt;
+line-height:107%">Residential                                             43.85%</span></p>
+<p class="MsoNormal" style="margin-left:63.8pt"><span style="font-size:12.0pt;
+line-height:107%">General Service                                     17.45%</span></p>
+<p class="MsoNormal" style="margin-left:63.8pt"><span style="font-size:12.0pt;
+line-height:107%">Streetlights                                              0.12%</span></p>
+<p class="MsoNormal" style="margin-left:63.8pt"><span style="font-size:12.0pt;
+line-height:107%">Unmetered                                              0.33%</span></p>
+<p class="MsoNormal" style="margin-left:63.8pt"><span style="font-size:12.0pt;
+line-height:107%">Industrial Distribution                            5.75%</span></p>
+<p class="MsoNormal" style="margin-left:63.8pt"><span style="font-size:12.0pt;
+line-height:107%">Wholesale                                                8.09%</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:63.8pt;margin-bottom:.0001pt"><span style="font-size:12.0pt;
+line-height:107%">Industrial Transmission                        24.41%</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt"><span style="font-size:12.0pt;
+line-height:107%"> </span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[6]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">The Board accepts NB
+Power’s methodology for calculating rate riders as consistent with the <i>Regulation</i>.
+However, the approved load forecast to be used for purposes of ss.12(2) of the <i>Regulation</i>
+should be the approved load forecast for the fiscal year ending March 31, 2026,
+and not that for the fiscal year ending March 31, 2025, as proposed by NB Power
+in its filing.</span></p>
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc193101497">3<span style='font:7.0pt "Times New Roman"'>        
+</span>Discussion</a></h1>
+<h2><a name="_Toc193101498">3.1<span style='font:7.0pt "Times New Roman"'>      
+</span>RECOVERY OF VARIANCE</a> </h2>
+<h3><a name="_Toc193101499">3.1.1<span style='font:7.0pt "Times New Roman"'>       
+</span>Recovery Period</a></h3>
+<p class="MsoListParagraph"><span style="line-height:115%">[7]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">As noted above, the Board is
+required by regulation to accept that there was a net positive balance of
+$245.5 million in the two variance accounts as of October 31, 2024. This being
+the case, the Board is required to determine the number of fiscal years over
+which the balance may be recovered from customers by way of rate riders.</span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[8]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">NB Power proposes a
+recovery period of six fiscal years. The proposal is to impose the rate riders
+that would recover the amount prescribed by regulation in each of the first
+three years of the proposed recovery period followed by two years of minimum
+recovery based on 40% of the net balance with a final year to collect the
+remaining net balance. NB Power’s proposal for recovery appropriately accounts
+for the limits on rate riders imposed by the <i>Regulation</i>.  The Board
+accepts the proposed methodology.</span></p>
+<h3><a name="_Toc193101500">3.1.2<span style='font:7.0pt "Times New Roman"'>       
+</span>Amount to be Recovered in Fiscal Year Beginning April 1, 2025</a></h3>
+<p class="MsoListParagraph" style="margin-left:35.45pt;text-indent:-35.45pt"><span style="line-height:115%">[9]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="line-height:115%">The calculation of the amount to
+be recovered from customers in the fiscal year next following filing is
+prescribed by subsection 11(3) of the <i>Regulation</i>. Subject to the
+constraints on rate riders imposed by section 12 of the <i>Regulation</i>, the
+amount to be recovered in the fiscal year beginning April 1, 2025, is 40% of
+$245.5 million, or $98.2 million.</span></p>
+<h2><a name="_Toc193101501">3.2<span style='font:7.0pt "Times New Roman"'>      
+</span>RATE RIDERS</a></h2>
+<h3><a name="_Toc193101502">3.2.1<span style='font:7.0pt "Times New Roman"'>       
+</span>Allocation of Rate Riders</a></h3>
+<p class="MsoListParagraph">[10]<span style='font:7.0pt "Times New Roman"'>          
+</span><span style="line-height:115%">Subsection 12(1) of the <i>Regulation</i>
+requires the Board to allocate the amount to be recovered or reimbursed to each
+rate class through rate riders in the same proportion as energy supply costs
+are allocated in the most recent Class Cost Allocation Study approved by the
+Board. In this case, the allocation is to be calculated using the percentages
+set out in paragraph 5(c) above.</span></p>
+<h3><a name="_Toc193101503">3.2.2<span style='font:7.0pt "Times New Roman"'>       
+</span>Recovery through Rate Riders</a></h3>
+<p class="MsoListParagraph">[11]<span style='font:7.0pt "Times New Roman"'>          
+</span><span style="line-height:115%">Subsection 12(2) of the <i>Regulation</i>
+requires the Board to determine rate riders to apply to energy consumption for
+each customer class in the first fiscal year following filing.</span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[12]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:115%">Paragraph 12(4)(a) of
+the <i>Regulation</i> provides that rate riders in the first fiscal year
+following the filing shall not exceed three percent of the total in-province
+revenue forecast approved by the Board for that fiscal year. In Matter 552, the
+Board approved a total in-province revenue for NB Power of $1,824.6 million for
+the fiscal year beginning April 1, 2025. Three percent of that is $54.7
+million. This is the maximum aggregate recovery permissible in the fiscal year
+beginning April 1, 2025.</span></p>
+<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%"> </span></p>
+<h3><a name="_Toc193101504">3.2.3<span style='font:7.0pt "Times New Roman"'>       
+</span>Determination of Rate Riders by Rate Class</a></h3>
+<p class="MsoListParagraph"><span style="line-height:115%">[13]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:115%">Subsection 12(2) of the
+<i>Regulation</i> requires the Board to determine the rate riders to apply to
+the energy consumption of each rate class based on the allocations identified
+in paragraph 10 above and NB Power’s most recent load forecast approved by the
+Board.</span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[14]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:115%">In Matter 552 the Board
+approved NB Power’s load forecasts for both the fiscal year ending March 31,
+2025, and the fiscal year ending March 31, 2026. In proposing rate riders in
+this matter, NB Power uses the approved load forecast for the year ending March
+31, 2025, although in his oral submissions, Mr. Furey acknowledged that there
+is some logic to using the approved load forecast for the fiscal year ending
+March 31, 2026, as that is the same fiscal year in which riders are to be
+applied.  While a case could be made for using either forecast, the Board
+concludes that in the circumstances of this matter, it is reasonable to use
+approved load forecast for the fiscal year next following the filing: fiscal
+year ending March 31, 2026.</span></p>
+<h2><a name="_Toc193101505">3.3<span style='font:7.0pt "Times New Roman"'>      
+</span>REASONABLENESS OF VARIANCE ACCOUNTS AND RECOVERY</a></h2>
+<p class="MsoListParagraph"><span style="line-height:115%">[15]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:115%">In her oral submission
+on behalf of the New Brunswick Coalition of Persons with Disabilities, Ms.
+Petit urged the Board to consider expanding the remaining recovery period to
+partially ameliorate the impact of electricity price increases to the persons her
+organization represents. The Board recognizes that energy prices are rising and
+that they affect all of NB Power’s customers, some, more profoundly and
+immediately than others. However, in the present case, the proposed six-year
+recovery period provides for the smallest allowable recovery in each year of
+the period and the Board has no discretion under the Regulation to reduce the
+amounts to be recovered.  </span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[16]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:115%">In his evidence, Mr.
+Madsen made observations about the consequences of the operation of Part 3 of
+the <i>Regulation</i> and questioned whether it achieves what the legislature
+intended. The Board is of the view that Part 3 of the <i>Regulation</i> read in
+its entire context and grammatical and ordinary sense is in harmony with the scheme
+of the <i>Electricity </i>Act.</span></p>
+<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%"> </span></p>
+<h1 style="margin-top:6.0pt;margin-right:0in;margin-bottom:16.0pt;margin-left:
+.3in;line-height:normal"><a name="_Toc193101506">4<span style='font:7.0pt "Times New Roman"'>        
+</span>Conclusion</a></h1>
+<p class="MsoListParagraph"><span style="line-height:115%">[17]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:115%">NB Power is directed to
+refile Table 4.1 of Exhibit NBP 1.01 using the approved load forecast for the
+fiscal year ending March 31, 2026</span></p>
+<p class="MsoListParagraph"><span style="line-height:115%">[18]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="line-height:115%">Subject to its approval
+of the refiled table, the Board will issue an order approving rate riders to be
+effective April 1, 2025.</span></p>
+<p class="MsoListParagraph" style="text-indent:0in"><span style="line-height:115%"> </span></p>
+<p class="MsoListParagraph" style="text-indent:0in"><span style="line-height:115%"> </span></p>
+<p class="MsoListParagraph" style="text-indent:0in"><span style="line-height:
+115%"> </span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%">Dated at
+Saint John, New Brunswick, this 18<sup>th</sup> day of March, 2025.</span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%"> </span></p>
+<p class="MsoNormal"><u><span style="font-size:12.0pt;line-height:107%">Original
+Signed by:</span></u></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%">Christopher J. Stewart</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%">Acting Chairperson</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%"> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%">Heather Black</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%">Member</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%"> </span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%">Kenneth McCullogh, K.C.</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><span style="font-size:12.0pt;line-height:107%">Member</span></p>
+</div>
+</body></html>

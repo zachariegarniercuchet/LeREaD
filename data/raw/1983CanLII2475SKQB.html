@@ -1,0 +1,2443 @@
+<HTML><!--
+  {
+    messageType: 'MultiPolyglotteMetadata',
+    converter: 'PolyglotteConverter',
+    date: 'Thu Jul 03 13:57:51 EDT 2014',
+    clientVersion: '3.16.0',
+    serverVesrion: '3.17.1',
+    polyglotteID: '2',
+    polyglotteURL: 'http://polyglot2.dmz.lexum.pri:16123/'
+  }
+-->
+
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META name="Generator" content="Microsoft Word 14 (filtered)">
+<TITLE>R</TITLE>
+
+<STYLE>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";
+	font-weight:normal;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.MsoFootnoteReference
+	{font-family:"Times New Roman","serif";
+	vertical-align:super;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Cambria","serif";}
+p.Appearances, li.Appearances, div.Appearances
+	{mso-style-name:Appearances;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.AppearancesCxSpFirst, li.AppearancesCxSpFirst, div.AppearancesCxSpFirst
+	{mso-style-name:AppearancesCxSpFirst;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.AppearancesCxSpMiddle, li.AppearancesCxSpMiddle, div.AppearancesCxSpMiddle
+	{mso-style-name:AppearancesCxSpMiddle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.AppearancesCxSpLast, li.AppearancesCxSpLast, div.AppearancesCxSpLast
+	{mso-style-name:AppearancesCxSpLast;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.Bench, li.Bench, div.Bench
+	{mso-style-name:Bench;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.BenchCxSpFirst, li.BenchCxSpFirst, div.BenchCxSpFirst
+	{mso-style-name:BenchCxSpFirst;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.BenchCxSpMiddle, li.BenchCxSpMiddle, div.BenchCxSpMiddle
+	{mso-style-name:BenchCxSpMiddle;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.BenchCxSpLast, li.BenchCxSpLast, div.BenchCxSpLast
+	{mso-style-name:BenchCxSpLast;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.CitationLine, li.CitationLine, div.CitationLine
+	{mso-style-name:CitationLine;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.Court, li.Court, div.Court
+	{mso-style-name:Court;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.Indent1, li.Indent1, div.Indent1
+	{mso-style-name:Indent1;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:28.35pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Arial","sans-serif";}
+p.Indent2, li.Indent2, div.Indent2
+	{mso-style-name:Indent2;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:42.55pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.Indent3, li.Indent3, div.Indent3
+	{mso-style-name:Indent3;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:56.7pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.Label, li.Label, div.Label
+	{mso-style-name:Label;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.Metadata, li.Metadata, div.Metadata
+	{mso-style-name:Metadata;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MetadataCxSpFirst, li.MetadataCxSpFirst, div.MetadataCxSpFirst
+	{mso-style-name:MetadataCxSpFirst;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MetadataCxSpMiddle, li.MetadataCxSpMiddle, div.MetadataCxSpMiddle
+	{mso-style-name:MetadataCxSpMiddle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MetadataCxSpLast, li.MetadataCxSpLast, div.MetadataCxSpLast
+	{mso-style-name:MetadataCxSpLast;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.ParagNum, li.ParagNum, div.ParagNum
+	{mso-style-name:ParagNum;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Arial","sans-serif";}
+p.Party, li.Party, div.Party
+	{mso-style-name:Party;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.PartyCxSpFirst, li.PartyCxSpFirst, div.PartyCxSpFirst
+	{mso-style-name:PartyCxSpFirst;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.PartyCxSpMiddle, li.PartyCxSpMiddle, div.PartyCxSpMiddle
+	{mso-style-name:PartyCxSpMiddle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.PartyCxSpLast, li.PartyCxSpLast, div.PartyCxSpLast
+	{mso-style-name:PartyCxSpLast;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.ParaG, li.ParaG, div.ParaG
+	{mso-style-name:ParaG;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Arial","sans-serif";}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</STYLE>
+
+</HEAD>
+
+<BODY lang="EN-US">
+
+<DIV class="WordSection1">
+
+<P class="Court">Saskatchewan Court of Queen’s Bench</P>
+
+<P class="Court">Judicial Centre of Regina</P>
+
+<P class="CitationLine"><SPAN lang="FR-CA">Citation: R.L. Crain Inc. et al. and
+Moore Corporation Limited et al. and Lawson Business Forms (Manitoba) Ltd. et al.
+v. Couture, Restrictive Trade Practises Commission, and Lawson (Director of
+Investigation and Research)</SPAN></P>
+
+<P class="MetadataCxSpFirst">Date: 1983-12-01</P>
+
+<P class="MetadataCxSpLast">Docket: 701 A.D. 1982</P>
+
+<P class="Label">Between:</P>
+
+<P class="PartyCxSpFirst"><SPAN lang="FR-CA">R.L. Crain Inc. et al. and Moore
+Corporation Limited et al. and Lawson Business Forms (Manitoba) Ltd. et al.</SPAN></P>
+
+<P class="PartyCxSpMiddle"><SPAN lang="FR-CA">and</SPAN></P>
+
+<P class="PartyCxSpLast"><SPAN lang="FR-CA">Couture, Restrictive Trade Practises
+Commission, and Lawson (Director of Investigation and Research)</SPAN></P>
+
+<P class="Bench">Scheibel, J.</P>
+
+<P class="Label">Counsel:</P>
+
+<P class="AppearancesCxSpFirst">D.E. Gauley, Q.C., and P. Foley, for R.L. Crain
+et al.;</P>
+
+<P class="AppearancesCxSpMiddle">R.L. Barclay, Q.C., for Moore Corporation
+Limited et al.;</P>
+
+<P class="AppearancesCxSpMiddle">W.L. Ritchie, Q.C., for Lawson Business Forms (Manitoba) Ltd. et al.;</P>
+
+<P class="AppearancesCxSpLast">B.D. Collins, Q.C., for L.A. Couture, Q.C., et al.</P>
+
+<P class="ParagNum">[1] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Scheibel, J.: This is an application pursuant to s. 24(1) of the <I>Charter
+of Rights and Freedoms</I> for relief in respect of an alleged infringement of
+rights guaranteed by the <I>Charter.</I> The applicants are three corporations engaged
+in various phases of the manufacture, distribution and sale of business forms
+and related products, and fifteen individuals who were connected with one or
+more of these corporations by virtue of their employment in some capacity
+relating to the actual business operations of one or more of the corporations.
+All fifteen individuals have been ordered by the Restrictive Trade Practises
+Commission (herein referred to as “the Commission”) constituted under the <I>Combines
+Investigation Act</I>, R.S.C. 1970, c. C-23 (herein referred to as “the Act”)
+to appear before a hearing officer to give oral testimony under oath in
+connection with the business operations of the applicant corporations.</P>
+
+<P class="ParagNum">[2] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants, corporate and individual, object to this proposed form
+of inquiry because they fear that their rights under the <I>Charter</I> are and
+will be violated. The respondents are L.A. Couture, Q.C., the Hearing Officer
+appointed to receive the oral testimony of the individual applicants, the
+Commission, and Lawson A.W. Hunter, Director of Investigation and Research of
+the Combines Investigation Branch of the Department of Consumer and Corporate
+Affairs.</P>
+
+<H1 align="center" style="text-align:center">I</H1>
+
+<H2 align="center" style="text-align:center"><I>Relief Sought:</I></H2>
+
+<P class="ParagNum">[3] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The relief being sought by the applicants is set out in the amended
+notice of motion as follows:</P>
+
+<P class="Indent1">1) A declaration that the proposed inquiry procedure is
+repugnant to the <I>Canadian Charter of Rights and Freedoms</I>;</P>
+
+<P class="Indent1">1a) A declaration that the provisions of s. 45 of the <I>Combines
+Investigation Act are</I>, pursuant to s. 52 of the <I>Constitution Act</I>, 1982,
+of no force and effect;</P>
+
+<P class="Indent1">2) A mandatory order directing the Director of Investigation
+and Research and the respondent, L.A. Couture, Q.C., to give effect to the
+rights of the applicants herein as such rights are guaranteed in the said
+Charter;</P>
+
+<P class="Indent1">2) A declaration that, in the absence of an according of the
+principles of fundamental justice by the respondents to the applicants during
+the course of the said inquiry, a refusal by a witness to answer and the action
+of counsel in so advising a witness is not an offence within the meaning of
+sections 40 and 41 of the <I>Combines Investigation Act</I>;</P>
+
+<P class="Indent1">4<I>)</I> An interim order staying the respondents from
+proceeding with the said inquiry until such time as this Motion can be heard;</P>
+
+<P class="Indent1">5) An order restraining the respondents from depriving or
+continuing to deprive the applicants of the principles of fundamental Justice
+in the said inquiry.</P>
+
+<H2 align="center" style="text-align:center"><I>II</I></H2>
+
+<H2 align="center" style="text-align:center"><I>Issues:</I></H2>
+
+<P class="ParagNum">[4] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The issues presented for determination in this case are as follows:</P>
+
+<P class="Indent1">1) Whether, having regard to the nature of the relief sought,
+the commencement procedure adopted by the applicants in this case is authorized
+by the Queen’s Bench Rules for Saskatchewan, and if not, whether s. 24 of the <I>Charter</I>
+operates to modify or dispense with procedural rules in force in the province
+governing the manner in which proceedings in this court shall be commenced.</P>
+
+<P class="Indent1">2) Whether this court is a court of competent jurisdiction to
+entertain an application for a declaration respecting the constitutional
+validity of federal legislation where the legislation is impugned as being
+contrary to the <I>Charter of Rights and Freedoms</I>; and whether this court
+has jurisdiction to adjudicate upon a claim alleging that rights guaranteed by
+the <I>Charter</I> have been infringed by federal administrative action where
+that claim is unconnected with the constitutional validity of the legislation
+pursuant to which the administrative action was taken.</P>
+
+<P class="Indent1">3) Whether the inquiry procedure authorized by Part II of the <I>Act</I>
+is invalid as infringing the rights of the applicants under s. 7 of the <I>Charter.</I>
+In this regard the following subsidiary issues are raised:</P>
+
+<P class="Indent2">a) Is the right not to be compelled to give self-incriminating
+evidence within the range of interests protected by the right to life, liberty
+and security of the person;</P>
+
+<P class="Indent2">b) What standard of judicial review of alleged interferences
+with the rights protected by s. 7 is contemplated by the phrase “fundamental
+justice”;</P>
+
+<P class="Indent1">4) Whether the provisions of s. 45 of the <I>Act</I> are
+inconsistent with the rights guaranteed by s. 7 and s. 11(d) of the <I>Charter.</I></P>
+
+<H2 align="center" style="text-align:center"><I>III</I></H2>
+
+<H2 align="center" style="text-align:center"><I>Facts:</I></H2>
+
+<P class="ParagNum">[5] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>On some undisclosed date an inquiry was launched by the Director of
+Investigation and Research into the production, manufacture and supply of
+business forms and related products. The statutory authority under which this
+inquiry was commenced is s. 8(b)-(iii) of the <I>Act.</I></P>
+
+<P class="ParagNum">[6] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In pursuance of his duty to investigate, the Director, at various dates
+between August, 1981, and February, 1982, authorized his representatives to
+attend at the business premises of the three corporate applicants for the
+purpose of examining and taking away documents which in the opinion of the
+Director or his representatives were capable of affording evidence relevant to
+the inquiry. These documents were subsequently reproduced on microfiche and the
+originals returned to the applicant corporations.</P>
+
+<P class="ParagNum">[7] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The statutory provisions under which this search was conducted and the
+seizure of corporate documents effected is s. 10 of the <I>Act.</I> No issue
+arises in these proceedings as to whether the provisions of s. 10 have been
+complied with or whether, assuming such compliance, the procedure authorized by
+s. 10 is unlawful as infringing upon the constitutional guarantee against
+unreasonable search and seizure. (This issue has been dealt with by the Alberta
+Court of Appeal in <I>Southam Inc. v. Hunter</I> (1983), 42 A.R. 108; 3 C.C.C.
+(3d) 497.)</P>
+
+<P class="ParagNum">[8] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>On June 1, 1982, as a further step in the inquiry launched by the
+Director, an order was made by a member of the Commission requiring the
+individual applicants to attend before Mr. L.A. Couture, Q.C. at the Regina
+Court House on July 5, 1982, to give evidence on oath in connection with
+matters relevant to the inquiry.</P>
+
+<P class="ParagNum">[9] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Shortly after the opening of the hearing before Mr. Couture, Q.C., on
+the morning of July 5 at the Regina Court House, counsel for the applicants
+raised several questions regarding the proposed examinations and the
+proced-dures to be followed in the inquiry. Following a brief adjournment these
+questions were answered by counsel for the Director and by Mr. Couture.</P>
+
+<P class="ParagNum">[10] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>There followed some discourse between Mr. Couture and counsel for the
+applicants concerning whether, in light of the answers given to the questions,
+the proposed witnesses would testify or not testify. Counsel for the applicants
+took the position that to proceed with this type of hearing or inquiry would
+amount to a denial of natural justice as enshrined in the <I>Charter</I> and
+therefore the witnesses had a good and sufficient reason not to testify.</P>
+
+<P class="ParagNum">[11] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Subsequently, affidavits and microfiche packages containing documents
+which had earlier been seized from the applicants were entered into evidence.</P>
+
+<P class="ParagNum">[12] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Counsel for the applicants requested access to and copies of all the
+microfiche filed with the hearing of ficer. The hearing officer denied this
+request. The entry into evidence of these documents was objected to by counsel
+for the applicants.</P>
+
+<P class="ParagNum">[13] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>After the noon break the Director’s counsel called the first witness.
+All persons other than the witness, his counsel, and the director’s counsel and
+instructing officers, were instructed to leave the hearing room. This request
+was complied with following objections by counsel for each of the applicants.</P>
+
+<P class="ParagNum">[14] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>After being sworn, the first witness refused to answer any questions.
+Mr. Couture pointed out to the witness the possible penalties under s. 40 and
+41 of the <I>Act</I> that the witness exposed himself to by failing to answer
+the questions. Mr. Couture then adjourned the hearing until 10:00 a.m. the next
+morning.</P>
+
+<P class="ParagNum">[15] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The next morning the applicants applied to this court and received a
+stay of the inquiry proceedings pending a decision on the applications herein.
+The hearing was reconvened and then adjourned <I>sine die.</I></P>
+
+<H2 align="center" style="text-align:center"><I>IV</I></H2>
+
+<H2 align="center" style="text-align:center"><I>Commencement Procedure:</I></H2>
+
+<P class="ParagNum">[16] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants have combined in their prayer for relief a request for
+both a declaration and an injunction. In seeking this relief, the applicants
+have proceeded by notice of motion. However, under the practice of this court
+up to the enactment of the <I>Charter</I>, these remedies could be obtained
+only in proceedings commenced by a statement of claim, with one exception:
+interlocutory applications for an injunction may be obtained upon notice of
+motion, or in certain limited cases, upon <I>ex parte</I> application. Thus,
+the question that arises in this case, is whether the applicants have employed
+the proper commencement procedure.</P>
+
+<P class="ParagNum">[17] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The relevant Queen’s Bench Rules are reproduced below.</P>
+
+<P class="Indent1">13(1) Except as otherwise provided, every action shall be
+commenced by issue of a statement of claim in form 2.</P>
+
+<P class="Indent1">441(1) All applications both in court and in chambers shall be
+by notice of motion except where otherwise specially provided.</P>
+
+<P class="ParagNum">[18] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants rely on Rule 441(2) as authorizing the commencement of
+these proceedings by notice of motion. It is contended that insofar as s. 24(1)
+of the <I>Charter</I> provides for an application to a court of competent
+jurisdiction Rule 441(2) is applicable. In my respectful view, this contention
+cannot be sustained.</P>
+
+<P class="ParagNum">[19] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>It is unnecessary in this case to determine the precise scope of Rule
+441(2). It suffices to say in relation to this case that the expression
+“application” in Rule 441(2) does not connote the same thing as the expression
+“application” when considered in the context of s. 24(1) of the <I>Charter.</I>
+In Rule 441(2), the expression “application” refers to the manner in which
+proceedings may be commenced. A statute employing the same expression to
+indicate that proceedings may be taken to enforce a claim or right which the
+statute has created, comes within the purview of the rule only if it may be
+inferred from the context that the expression “application” as used in the
+statute is intended to refer to the mode of proceeding and not merely to the
+fact that relief is available.</P>
+
+<P class="ParagNum">[20] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In this connection, I would observe that the provisions of s. 24(1) of
+the <I>Charter</I> are substantive in nature. They operate to create a
+substantive right to relief. The expression “application” in this context is
+intended to refer simply to the fact that the substantive right to relief which
+the section gives may be invoked by proceedings taken in a court of competent
+jurisdiction for that purpose. An “application” in this sense is a compendious
+term which denotes the types of proceedings which by law are available to
+secure the form of relief sought. Accordingly, s. 24(1) of the <I>Charter</I> does
+not come within the purview of Rule 441(2) so as to permit the commencement of
+these proceedings by notice of motion..</P>
+
+<P class="ParagNum">[21] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>If there be any doubt on this point, I would add that if the applicants
+were right in their contention that proceedings commenced pursuant to s. 24(1)
+of the <I>Charter</I> fall within the ambit of Rule 441(2), then the types of
+proceedings which could be commenced by notice of motion would be greatly
+expanded, as s. 24(1) does not restrict the kind of relief which a court of
+competent jurisdiction may grant in an application pursuant to that section.</P>
+
+<P class="ParagNum">[22] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants argue, in the alternative, that Rule 5(4) may be invoked
+to cure the defect in the commencement procedure. Rule 5(4) provides as
+follows:</P>
+
+<P class="Indent1">5(4) The court shall not set aside any proceedings or the
+document by which the proceeding was begun solely on the ground that the
+proceeding was required by any of these rules to be initiated by a commencement
+document other than the one employed.</P>
+
+<P class="ParagNum">[23] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>It should be noted that the curative provisions of Rule 5(4) only apply
+in situations in which an improper “commencement document” has been employed.
+In my view a notice of motion is not a commencement document. Thus, Rule 5(4)
+is not applicable to the present situation.</P>
+
+<P class="ParagNum">[24] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>However, the fact that Rule 5(4) is not applicable does not mean the
+proceedings must necessarily be set aside. Rule 5(4) merely deals with one
+specific type of non-compliance. The Rules dealing with irregularities and
+non-compliance generally are Rules 5(1) and 5(2). These rules provide as
+follows:</P>
+
+<P class="Indent1">5(1) Unless the court otherwise orders, any procedural defect,
+including a failure to comply with these rules, shall be treated as an
+irregularity and shall not nullify a proceeding, any step taken in the
+proceeding, or any document, or order made therein.</P>
+
+<P class="Indent1">(2) Where there has been a failure to comply with these rules,
+the court may, at any time and on such terms and conditions as it thinks just,</P>
+
+<P class="Indent2">(a) set aside a proceeding, either wholly or in part;</P>
+
+<P class="Indent2">(b) set aside any step taken in a proceeding, or a document,
+or order made therein;</P>
+
+<P class="Indent2">(c) allow an amendment to the pleadings under the rules
+therefor;</P>
+
+<P class="Indent2">(d) amend any defect or error in a proceeding, in order to
+secure the Just determination of the real matters in dispute;</P>
+
+<P class="Indent2">(e) make such order as may seem just.</P>
+
+<P class="ParagNum">[25] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Rules 5(1) and 5(2) make it clear that non-compliance with the Rules
+does not automatically nullify the proceedings. The court is given a broad
+discretion to treat noncompliance as it thinks just.</P>
+
+<P class="ParagNum">[26] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In this case the respondent has not objected to the commencement
+procedure. The facts are not in dispute. All parties are apparently satisfied
+that all of the evidence is before me.</P>
+
+<P class="ParagNum">[27] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Furthermore, in fairness to the applicants, it should be noted that,
+aside from the general statement in s. 24(1), that an application may be made
+to a court of competent jurisdiction, the <I>Charter</I> is silent as to the
+appropriate commencement procedure. The courts have been left with the task of
+formulating workable rules of procedure to deal with the plethora of litigation
+arising under the <I>Charter.</I> As the development of procedural rules is
+still in the infant stage, I am prepared to be somewhat tolerant of what I
+perceive to be procedural defects.</P>
+
+<P class="ParagNum">[28] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>For all of these reasons, I would hold that it is not conducive to the
+ends of justice to set aside these proceedings on the ground that they have
+been improperly commenced. However, it is hoped that in the future, counsel
+will commence this type of action by statement of claim rather than by notice
+of motion.</P>
+
+<H2 align="center" style="text-align:center"><I>V</I></H2>
+
+<H2 align="center" style="text-align:center"><I>Jurisdiction</I></H2>
+
+<P class="ParagNum">[29] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In this case the focal point of the issue of jurisdiction is s. 18 of
+the <I>Federal Court Act</I>, S.C. 1970-71-72, c. 1. By virtue of that section
+the Federal Court, Trial Division has exclusive original jurisdiction to
+entertain proceedings for <I>inter alia</I>, declaratory and injunctive relief
+against a “federal board, commission or other tribunal”, and to entertain
+proceedings brought against the Attorney General where the object of these
+proceedings is to obtain relief against “a federal board, commission or
+tribunal”.</P>
+
+<P class="ParagNum">[30] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>For convenience, the relevant provisions of the interpretation section
+and the provisions of s. 18 are reproduced below.</P>
+
+<P class="Indent1">2. In this Act . . .</P>
+
+<P class="Indent1">(g) ‘federal board, commission or other tribunal’ means any
+body or any person or persons having, exercising or purporting to exercise
+jurisdiction or powers conferred by or under an act of the Parliament of
+Canada, other than any such body constituted or established by or under a law
+of a province or any such person or persons appointed under or in accordance
+with a law of a province or under section 9-6 of <I>The British North America
+Act</I>, 1867; . . .</P>
+
+<P class="Indent1">(m) ‘relief includes every species of relief whether by way of
+damages, payment of money, injunction, declaration, restitution of an
+incorporeal right, return of land or chattels or otherwise;</P>
+
+<P class="Indent1">(q) ‘Trial Division’ means that division of the court called
+the Federal Court-Trial Division.</P>
+
+<P class="Indent1">18. The Trial Division has exclusive original jurisdiction</P>
+
+<P class="Indent2">(a) to issue an injunction, writ of <I>certiorari</I>, writ of
+prohibition, writ of <I>mandamus</I> or writ of <I>quo warranto</I>, or grant
+declaratory relief, against any federal board, commission or other tribunal;
+and</P>
+
+<P class="Indent2">(b) to hear and determine any application or other proceeding
+for relief in the nature of relief contemplated by paragraph (a), including any
+proceeding brought against the Attorney General of Canada, to obtain relief
+against a federal board, commission or other tribunal.</P>
+
+<P class="ParagNum">[31] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Also relevant to the issue of jurisdiction is s. 24(1) of the <I>Charter</I>
+which provides as follows:</P>
+
+<P class="Indent1">24(1<I>)</I> Anyone whose rights or freedoms, as guaranteed by
+this Charter, have been infringed or denied may apply to a court of competent
+jurisdiction to obtain such remedy as the court considers appropriate and just
+in the circumstances.</P>
+
+<P class="ParagNum">[32] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I wish to state at the outset that in my view the expression “court of
+competent jurisdiction” refers to the court which, apart from the <I>Charter</I>,
+possesses the requisite jurisdiction to entertain proceedings against the
+person or body being impleaded, and to grant the relief sought. Where an
+application for relief is brought under s. 24 of the <I>Charter</I>, it must
+not be presumed that s. 24 operates to fill any lacunae in the jurisdiction of
+the court selected by the applicant as the appropriate forum.</P>
+
+<P class="ParagNum">[33] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A similar view has been expressed by Eberle, J., in <I>Re Regina and
+Brooks et al.</I> (1983), 1 C.C.C.(3d) 506, at page 509 (Ont. H.C.):</P>
+
+<P class="Indent1">I do not think that it can be said that, by the use of those
+words in s. 24(1), namely, ‘a court of competent jurisdiction,’ Parliament
+intended to give all jurisdiction in all matters to all courts. That, it seems
+to me, is an interpretation going far beyond the phrase itself and the context
+in which it appears. It seems to me that in giving a person a right to apply to
+a court of competent jurisdiction, as s. 24 does, the section refers to and
+points to the court or courts of competent jurisdiction with respect to the
+matter that is sought to be enforced under s. 24<I>.</I></P>
+
+<P class="ParagNum">[34] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In the formal notice served upon the Attorney General of Canada pursuant
+to s. 8 of the <I>Constitutonal Questions Act</I>, R.S.S. 1978, c. C-29, the
+applicants advised that the constitutional validity of s. 18 of the <I>Federal
+Court Act</I> was being challenged. However, in the original notice of motion
+and in the amended notice of motion filed subsequent thereto, there is no
+mention of s. 18 of the <I>Federal Court Act</I> as being among the statutory
+provisions whose constitutional validity was being impugned in these
+proceedings. Therefore, I do not propose to deal with the issue of the
+competency of Parliament to enact s. 18, other than to comment on the scope of
+the exclusive jurisdiction granted to the Federal Court, Trial Division by s.
+18 of that <I>Act.</I></P>
+
+<P class="ParagNum">[35] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The scope of s. 18 of the <I>Federal Court Act</I> has recently been
+considered by the Supreme Court of Canada in <I>Jabour v. Law Society of British Columbia et oil. and Attorney General of British Columbia et al.</I>, [1982] 5
+W.W.R. 289; 43 N.R. 451. That case arose, in part, out of the commencement of
+an inquiry by the Director of the Restrictive Trade Practises Commission into
+“the production, purchase, sale and supply of legal services and related
+products in the Province of British Columbia”. The Law Society of British
+Columbia commenced an action in the Supreme Court of British Columbia in which
+the Society sought declarations that the <I>Act</I> was not applicable to it,
+or to the extent to which it purported to be applicable, it was <I>ultra vires</I>
+the Parliament of Canada, together with an injunction preventing the Director
+from continuing with the inquiry.</P>
+
+<P class="ParagNum">[36] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Counsel for the Attorney General of Canada argued that the Federal
+Court, Trial Division had exclusive jurisdiction over declaratory or injunctive
+relief against the Attorney-General of Canada and against a federal tribunal
+such as the Restrictive Trade Practises Commission. However, the Supreme Court
+of Canada held that the exclusive jurisdiction granted to the Federal Court,
+Trial Division by s. 17 and s. 18 of the <I>Federal Court Act</I> did not
+preclude a Provincial superior court from declaring a statute enacted by
+Parliament to be beyond the constitutional authority of Parliament.</P>
+
+<P class="ParagNum">[37] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The issue of whether a statute or portion thereof, is inconsistent with
+the Charter is not a constitutional question in the traditional sense. Before
+the enactment of the <I>Constitution Act, 1982</I>, which entrenched the <I>Charter
+of Rights and Freedoms</I> as part of the Constitution of Canada,
+constitutional issues arose only when legislation was challenged as being
+beyond the jurisdictional limits of Parliament of the Legislatures.</P>
+
+<P class="ParagNum">[38] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The role of the judiciary in dealing with these traditional
+constitutional issues has been described by Lord Watson, in <I>Union Colliery
+Company of British Columbia Limited v. Bryden</I>, [1899] A.C. 580 (P.C.), at
+page 585:</P>
+
+<P class="Indent1">In assigning legislative power to the one or the other of
+these parliaments, it is not made a statutory condition that the exercise of
+such power shall be, in the opinion of a court of law, discreet. In so far as
+they possess legislative jurisdiction’, the discretion committed to the
+parliaments, whether of the Dominion or of the provinces, is unfettered. It is
+the proper function of a court of law to determine what are the limits of the
+Jurisdiction committed to them; but, when that point has been settled, courts
+of law have no right whatever to inquire whether their Jurisdiction has been
+exercised wisely or not.</P>
+
+<P class="ParagNum">[39] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>However, the enactment of the <I>Constitution Act, 1982</I>, has altered
+the role of the judiciary in Canada. The courts are now called on to review the
+substance of legislation to determine whether the legislation imposes
+unreasonable restrictions on the rights and freedoms guaranteed by the <I>Charter.</I></P>
+
+<P class="ParagNum">[40] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The <I>Charter</I> is part of the Constitution of Canada. Section 52(1)
+of the <I>Constitution Act, 1982</I>, states that “any law that is inconsistent
+with the provisions of the Constitution is, to the extent of the inconsistency,
+of no force or effect”. Thus, where legislation is challenged as being
+inconsistent with the rights and freedoms as guaranteed by the <I>Charter</I>, the
+constitutional validity of the legislation is at issue. Therefore, the
+reasoning in the <I>Jabour</I> case, supra, applies with equal force to
+situations, such as the present situation, in which legislation is challenged
+as being inconsistent with the fundamental rights and freedoms guaranteed by
+the <I>Charter.</I></P>
+
+<P class="ParagNum">[41] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>For this reason, I conclude that s. 18 of the <I>Federal Court Act</I> does
+not confer exclusive jurisdiction on the Federal Court to decide whether
+federal legislation is inconsistent with the rights and freedoms guaranteed by
+the <I>Charter.</I> This court has jurisdiction to make such a determination.</P>
+
+<P class="ParagNum">[42] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>However, it does not follow from this conclusion that s. 24(1)
+applications are never within the exclusive jurisdiction of the federal courts.
+The nature of the violation must be considered. If the violation is the result
+of actions taken by a federal board that are not expressly authorized by
+statute, then no issue as to the validity of legislation arises. In my opinion,
+s. 24(1) applications for relief in respect to actions of a federal board
+remain within the exclusive jurisdiction of the federal courts.</P>
+
+<P class="ParagNum">[43] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The Supreme Court of Canada has pointed out in <I>Howrath v. National
+Parole Board</I> (1975), 3 N.R. 391; 50 D.L.R.(3d) 349, at p. 351, that
+supervisory jurisdiction over federal boards has been wholly transferred from
+the superior courts of the Provinces to the Trial Division of the Federal Court
+by s. 18 of the <I>Federal Court Act.</I> The <I>Charter</I> has not effected a
+jurisdictional realignment of the courts. The fact that actions of a federal
+administrative body are challenged as infringing or denying fundamental rights
+and freedoms protected by the <I>Charter</I> does not change the supervisory
+nature of such an action. Where the validity of legislation is not brought into
+issue, such applications remain exclusively within the jurisdiction of the
+federal courts: see, for example, <I>Gandam v. Minister of Employment and
+Immigration</I> [1983), 20 Sask. R. 123; 140 D.L.R.(3d) 363 (Sask. Q.B.); and <I>Jackson
+v. Minister of National Revenue</I> (1983), 21 Sask. R. 221.</P>
+
+<P class="ParagNum">[44] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In the present case the applicants seek a declaration that the proposed
+inquiry procedure is repugnant to the <I>Charter.</I> There are two aspects to
+the inquiry procedure that are challenged. The first is the procedure set forth
+in the <I>Act</I>; the second is the procedure established by Mr. Couture, in
+his capacity as an appointee of the Restrictive Trade Practises Commission.</P>
+
+<P class="ParagNum">[45] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The role that the Commission plays in determining the procedure to be
+followed in the examination of witnesses under s. 17(1), has recently been the
+subject of an extensive review by the Federal Court of Appeal in <I>Restrictive
+Trade Practices Commission et al. v. Irvine et al.</I> (1982), 41 N.R. 375; 65
+C.C.C.(2d) 108 (presently on appeal to the Supreme Court of Canada). Chief
+Justice Thurlow states at p. 118:</P>
+
+<P class="Indent1">As there is no provision prescribing the procedure for the
+examination of witnesses under s. 17(1), either at the inquiry stage or at any
+other stage, in my opinion, it is for a member of the Commission to determine
+what procedure should be followed. What the Commissioner prescribes will, no
+doubt, depend on the particular proceeding. . . . [W]hether or not
+cross-examination by persons whose conduct is under investigation or by their counsel
+is to be permitted in the examination in the course of an inquiry of persons
+under oath under s. 17(1) is, in my opinion, a matter for the decision of a
+member of the Commission.</P>
+
+<P class="ParagNum">[46] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The Chief Justice went on to rule that it is for the Commission, subject
+to the provisions for privacy contained in s. 27(1) of the Act, to determine
+what persons will be permitted to attend the examinations of a person under s.
+17(1). The only limitation of the Commission’s discretion in this regard is
+that he does not have the right to bar counsel who represents the person being
+examined, since that right is specifically provided in s. 20(1) of the <I>Act.</I></P>
+
+<P class="ParagNum">[47] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I would conclude that, while this court has jurisdiction to grant a
+declaration with respect to the inquiry procedure set forth in the Act, it does
+not have jurisdiction to supervise the discretionary actions of the Commission
+or its appointee. Accordingly, I will deal only with those aspects of the
+present application related to the validity of the <I>Act.</I></P>
+
+<H2 align="center" style="text-align:center"><I>VI</I></H2>
+
+<H2 align="center" style="text-align:center"><I>The Inquiry Procedure:</I></H2>
+
+<P class="ParagNum">[48] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The main ground on which the applicants rely in challenging the inquiry
+procedure set forth in Part II of the <I>Act</I>, is that the investigative
+procedure authorized by s. 17 infringes their rights and freedoms under s. 7 of
+the <I>Charter</I>,</P>
+
+<P class="ParagNum">[49] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 7 of the <I>Charter</I> provides as follows:</P>
+
+<P class="Indent1">Everyone has the right to life, liberty and security of the
+person and the right not to be deprived thereof except in accordance with the
+principles of fundamental Justice.</P>
+
+<P class="ParagNum">[50] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The portions of s. 17 of the <I>Act</I> which deal with the compelling
+of evidence, provide as follows:</P>
+
+<P class="Indent1">17(1) On <I>ex parte</I> application of the Director, or on
+his own motion, a member of the Commission may order that any person resident
+or present in Canada be examined upon oath before, or make production of books,
+papers, records or other documents to such member or before or to any other
+person named for the purpose by the order of such member and may make such
+orders as seem to him to be proper for securing the attendance of such witness
+and his examination, and the production by him of books, papers, records or
+other documents and may otherwise exercise, for the enforcement of such orders
+or punishment for disobedience thereof, all powers that are exercised by any
+superior court in Canada for the enforcement of subpoenas to witnesses or
+punishment of disobedience thereof.</P>
+
+<P class="Indent1">(2) Any person summoned under subsection (1) is competent and
+may be compelled to give evidence as a witness,</P>
+
+<P class="Indent1">(3) A member of the Commission shall not exercise power to
+penalize any person pursuant to this Act, whether for contempt or otherwise,
+unless, on the application of the member, a judge of the Exchequer Court of
+Canada or of a superior or county court has certified, as such judge may, that
+the power may be exercised in the matter disclosed in the application, and the
+member has given to such person twenty-four hours notice of the hearing of the
+application or such shorter notice as the Judge deems reasonable.</P>
+
+<P class="ParagNum">[51] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 17(1) authorizes a member of the Commission to order, either <I>ex
+proprio motu</I> or upon <I>ex parte</I> application of the Director, the
+examination upon oath of any person resident or present in Canada and the production by that person of relevant documents which are within his power to
+produce.</P>
+
+<P class="ParagNum">[52] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>It will be observed that such an order combines the features of both the
+<I>subpoena duces tecum</I> and the <I>subpoena ad testificandum.</I> On the
+one hand, it compels the witness to testify as to facts within his personal
+knowledge which is the function of the <I>subpoena ad testificandum</I>; and on
+the other, it compels the witness to produce documents which is the function of
+the <I>subpoena duces tecum.</I> Of course, an order under s. 17 may be
+concerned only with compelling the witness to give testimonial evidence without
+requiring production of documents. In the present case, the formal orders
+directed to the several applicants whose affidavits have been filed in support
+of this application, require the witness to give testimonial evidence only.</P>
+
+<P class="ParagNum">[53] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A person to whom a s. 17(1) order is directed may be compelled under s.
+17(2) to give evidence as a witness.</P>
+
+<P class="ParagNum">[54] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Under s. 17(3), the member whose order it is has the same powers with
+respect to the enforcement thereof as any superior court in Canada has for the enforcement of subpoenas to witnesses, including the power to punish for disobedience
+thereof. However, insofar as the power sought to be exercised is punitive in
+naure, the member must, as a precondition to punishing an offending party,
+apply to a court of competent jurisdiction for an order certifying that the
+power may be exercised.</P>
+
+<P class="ParagNum">[55] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Also relevant to the issue of the compulsion of evidence is s. 20 of the
+<I>Act</I> which provides that:</P>
+
+<P class="Indent1">20(1) A member of the Commission may allow any person whose
+conduct is being inquired into and shall permit any person who is being himself
+examined under oath to be represented by counsel.</P>
+
+<P class="Indent1">(2) No person shall be excused from attending and giving
+evidence and producing books, papers, records or other documents, in obedience
+to the order of a member of the Commission, on the ground that the oral
+evidence or documents required of him may tend to criminate him or subject him
+to any proceeding or penalty, but no oral evidence so required shall be used or
+receivable against such person in any criminal proceedings thereafter
+instituted against him, other than a prosecution for perjury in giving such
+evidence or a prosecution under section 122 or 124 of the <I>Criminal Code</I> in
+respect of such evidence.</P>
+
+<P class="ParagNum">[56] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 20 provides a measure of protection against the abuse of the
+broad investigative powers authorized under s. 17. Section 20(1) permits any
+person being examined under oath to be represented by counsel. Section 20(2)
+extends a limited protection against self-incrimination by providing that no
+oral evidence that may tend to criminate a witness shall be used against such
+witness in any subsequent criminal proceedings.</P>
+
+<P class="ParagNum">[57] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Briefly stated the applicants contend that s. 7 of the <I>Charter</I> operates
+to guarantee the right to life, liberty and security of the person, and that a
+necessary concomitant of one or more of these rights is the right not to be
+compelled to give self-incriminating evidence. The applicants argue that s. 17,
+which compels the giving of evidence, and s. 20, which provides that a person
+is not excused from giving evidence on the ground that it may incriminate him,
+constitute an interference with their right to life, liberty and security of
+the person that is not in accordance with the principles of fundamental
+justice.</P>
+
+<P class="ParagNum">[58] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In order to pronounce on the merits of the applicants’ position with
+respect to the investigative powers authorized by s. 17 of the <I>Act</I>, it
+is necessary to first examine the standard of judicial review authorized by the
+phrase “fundamental justice”, and the scope of the phrase “life, liberty and
+security of the person” as contained in s. 7 of the <I>Charter.</I></P>
+
+<H2>a) <I>The Scope of Life, Liberty and Security Of The Person.</I></H2>
+
+<P class="ParagNum">[59] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The respondents contend that the scope of s. 7 of the <I>Charter</I> is
+limited by the enumerated rights in s. 8 to s. 14. More specifically, they
+argue that since the right not to give self-incriminating evidence is dealt
+with in s. 11(c) and s. 13 of the <I>Charter</I>, a more general right against
+self-incrimination cannot be within the scope of s<I>.</I> 7.</P>
+
+<P class="ParagNum">[60] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants do not rely on s. 11(c), presumably, because the rights
+under s. 11 only arise where a person is charged with an offence. The
+applicants contend instead that the specific rights provided in s. 11(c) and s.
+13 should not be construed as limiting the scope of rights in s. 7. Rather,
+they are specific examples or emanations of the general rights secured by s. 7.</P>
+
+<P class="ParagNum">[61] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>These submissions necessitate a consideration of the nature of the
+relationship between the broad rights conferred by s. 7 and the more specific
+legal rights provided in ss. 8 to 14.</P>
+
+<P class="ParagNum">[62] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The starting point of such a consideration is <I>Curr v. The Queen</I> (1972),
+7 C.C.C.(2d) 181, 26 D.L.R.(3d) 603 (S.C.C.). The <I>Curr</I> case involved a
+challenge to the breathalyzer provisions of the <I>Criminal Code</I>, specifically
+s. 223 (now s. 235), on the grounds that these provisions constituted a
+violation of certain rights protected by the <I>Canadian Bill of Rights</I>, R.S.C.
+1970, App. III. The only issue relevant for present purposes, was whether the
+compelling of breath samples was a violation of s. 1(a) or s. 2(d) of the <I>Bill
+of Rights.</I> These sections provide as follows:</P>
+
+<P class="Indent1">1. It is hereby recognized and declared that in Canada there
+have existed and shall continue to exist without discrimination by reason of
+race, national origin, colour, religion or sex, the following human rights and
+fundamental freedoms, namely,</P>
+
+<P class="Indent2">(a) the right of the individual to life, liberty, security of
+the person and enjoyment of property, and the right not to be deprived thereof
+except by due process of law; . . .</P>
+
+<P class="Indent1">2. Every law of Canada shall, unless it is expressly declared
+by an Act of the Parliament of Canada that it shall operate notwithstanding the
+<I>Canadian Bill of Rights</I>, be so construed and applied as not to abrogate,
+abridge or infringe or to authorize the abrogation, abridgement or infringement
+of any of the rights or freedoms herein recognized and declared, and in
+particular, no law of Canada shall be construed or applied so as to . . .</P>
+
+<P class="Indent2">(d) authorize a court, tribunal, commission, board or other
+authority to compel a person to give evidence if he is denied counsel,
+protection against self incrimination or other constitutional safeguards .</P>
+
+<P class="ParagNum">[63] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Laskin, J. (as he then was), in delivering the majority judgment in <I>Curr</I>,
+held that s. 2(d) did not apply because the term “other authority” as used in
+s. 2(d) did not refer to peace officers. However, after concluding that s. 2(d)
+did not provide a privilege against compulsory self-incrimination on the facts
+of that case, the learned Justice, went on to consider whether there was a
+residual scope to the privilege that fell within s. 1(a).</P>
+
+<P class="ParagNum">[64] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Since the respondents put much reliance on his statements in this
+regard, I wish to quote his conclusion at some length. At page 202 he states:</P>
+
+<P class="Indent1">I do not think that the <I>Canadian Bill of Rights</I> can be
+construed as having taken a piecemeal approach to the privilege against
+self-crimination. The history of the privilege as a Canadian derivative from
+the English common law is accurately reflected in the way it is expressed in s.
+2(d): see <I>Wigmore on Evidence</I>, vol. 8 (McNaughton revision, 1961), s.
+2250, p. 284 ff. The scope or policy of the privilege may be another thing, as
+it has proved to be under its constitutional formulation in the United States. Unless s. 2(d), where the privilege is expressed, yields room to take policy
+beyond history - and I have already dealt with s. 2(d) in this respect - I do
+not think that s. 1(a), where there is no reference to the privilege and whose
+words provide no historical warrant for embracing it, can be taken to include
+in its protection an extension of the privilege beyond what is found in s.
+2(d).</P>
+
+<P class="Indent1">No doubt, the generous words of s. l(a) may bring to mind
+matters other than protection against self-crimination for which protection may
+be sought thereunder, failing their specific mention elsewhere in the <I>Canadian
+Bill of Rights.</I> I do not propose to speculate on them; their day of
+decision may come, but in this case 1 am concerned with a submission that
+although self-crimination is expressly dealt with in one provision of the
+statute, this court should find another expression thereof in another provision
+of the same statute where it is not expressly mentioned,</P>
+
+<P class="Indent1">There is a distinction to be drawn in respect of the privilege
+which is commanded by the experience with it in this country and in the United States. The point in the criminal process at which the privilege can be asserted is
+one thing; what the privilege embraces at that point is something else. It is
+my conclusion that the point of assertion has been fixed in s. 2(d) and I do
+not think I can invoke s. l(a) to shift it to a stage which would make it
+effective against s. 223.</P>
+
+<P class="ParagNum">[65] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The respondents contend that the reasons of Mr. Justice Laskin apply
+with equal force to the present consideration. They suggest that s. 11 (c) of
+the <I>Charter</I> sets the point at which the right not to be compelled to give
+evidence arises, and s. 7 cannot be invoked to give rise to a similar right at
+an earlier stage.</P>
+
+<P class="ParagNum">[66] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>While there is some force in this suggestion, I do not believe that it
+necessarily follows that since s. 1(a) of the <I>Bill of Rights</I> cannot be
+invoked to enlarge upon the rights specifically enumerated elsewhere in that
+legislation, that s. 7 of the <I>Charter</I> cannot be invoked to enlarge upon
+the rights provided elsewhere in the <I>Charter.</I></P>
+
+<P class="ParagNum">[67] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>It cannot be over-emphasized that the enactment of the <I>Constitution
+Act, 1982</I>, and the <I>Charter</I> contained therein, has fundamentally
+changed the role the courts play in enforcing rights and freedoms. In my view,
+in light of this fundamental change, it is incumbent on the courts to review
+the issues that arise under the <I>Charter</I> without being unduly influenced
+by pre-Charter decisions.</P>
+
+<P class="ParagNum">[68] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The usefulness of cases decided under the <I>Bill of Rights</I>, in
+determining issues which arise under the <I>Charter</I>, has been considered by
+Tallis, J.A., in <I>R. v. Therens</I> (1983), 23 Sask. R. 81; 33 C.R.(3d) 204,
+(Sask. C.A.). In that case the meaning of the term “detained” as used in s. 10
+of the <I>Charter</I> was in issue. It was argued that the meaning of the word
+“detained” should be the same as that attributed to the term in <I>R. v.
+Chromiak</I> (1980), 29 N.R. 441; 12 C.R.(3d) 300; 102 D.L.R.(3d) 368,
+(S.C.C.). In rejecting this view Tallis, J.A., stated at page 220:</P>
+
+<P class="Indent1">I am of the opinion that the principles enunciated in <I>R. v.
+Chromiak</I> and <I>R. V. Dedman</I> [(1981), 23 C.R.(3d) 228] are not
+determinative of the issues in this case. While cases under statutes such as
+the <I>Bill of Rights</I>, R.S.C. 1970, App. III, may be of interpretative
+assistance, it must be remembered that the <I>Charter</I> stands on an entirely
+different basis. It is not a mere cannon of construction for the interpretation
+of federal legislation: vide <I>R. v. Drybones, [1910]</I> S.C.R. 282, 10
+C.R.W.S. 334, 71 W.W.R. 161, [1970] 3 C.C.C. 355, 9 D.L.R.(3d) 473.</P>
+
+<P class="ParagNum">[69] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I am in full agreement with the view expressed by Mr. Justice Tallis.</P>
+
+<P class="ParagNum">[70] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Furthermore, support for the view that the <I>Curr</I> case is not
+particularly helpful, in light of the constitutional entrenchment of the <I>Charter</I>,
+can be found in the reasons of Laskin, J., in the <I>Curr</I> case itself. In
+reaching his conclusion Mr. Justice Laskin appears to have been influenced by
+the fact that under the <I>Bill of Rights</I> the courts have a statutory
+jurisdiction rather than a constitutional jurisdiction.</P>
+
+<P class="ParaG">At page 191 supra, he states:</P>
+
+<P class="Indent1">Assuming that ‘except by due process of law’ provides a means
+of controlling substantive federal legislation - a point that did not directly
+arise <I>in R. v. Drybones</I> - compelling reasons ought to be advanced to
+justify the court in this case to employ a statutory (as contrasted with a
+constitutional) jurisdiction to deny operative effect to a substantive measure duly
+enacted by a Parliament constitutionally competent to do so, and exercising its
+powers in accordance with the tenents of responsible government, which underlie
+the discharge of legislative authority under the <I>British North America Act,
+1867.</I></P>
+
+<P class="ParagNum">[71] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In <I>Morgentaler v. The Queen</I> (1975), 4 N.R. 277; 20 C.C.C.(2d) 449
+(S.C.C.), Chief Justice Laskin again alluded to the importance he attached to
+the fact that the <I>Bill of Rights</I> was a statutory instrument. At page 461
+he states:</P>
+
+<P class="Indent1">This court indicated in the <I>Curr</I> case how foreign to
+our constitutional traditions, to our constitutional law and to our conceptions
+of judicial review was any interference by a court with the substantive content
+of legislation. No doubt, substantive content had to be measured on an issue of
+<I>ultra vires</I> even prior to the enactment of the <I>Canadian Bill of
+Rights</I>, and necessary interpretative considerations also had and have a
+bearing on substantive terms. Of course, the <I>Canadian Bill of Rights</I>, introduced
+a new dimension in respect of the operation and application of federal law, as
+the judgments of this court have attested. Yet it cannot be forgotten that it
+is a statutory instrument, illustrative of Parliament’s primacy within the
+limits of its assigned legislative authority, and this is a relevant
+consideration in determining how far the language of the <I>Canadian Bill of
+Rights</I> should be taken in assessing the quality of federal enactments which
+are challenged under s. 1(a). There is as much a temptation here as there is on
+the question of <I>ultra vires</I> to consider the wisdom of the legislation,
+and I think it is our duty to resist it in the former connection as in the
+latter.</P>
+
+<P class="ParagNum">[72] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The enactment of the <I>Constitution Act, 1982</I> has, changed the
+fundamental principle underlying the <I>Curr</I> case. The courts now have a
+constitutional jurisdiction to review legislation; the <I>Charter</I> is not
+merely a statutory instrument. Therefore, in my view, it is incumbent on the
+courts to reconsider the reasoning in <I>Curr</I> in light of these fundamental
+changes.</P>
+
+<P class="ParagNum">[73] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I would also note that the <I>Curr</I> decision has recently been
+reviewed by the British Columbia Court of Appeal in <I>Reference Re Section
+94(2) of Motor Vehicle Act R.S.B.C. 1979, c. 288</I> (1983), 33 C.R.(3d) 22.
+That court in dealing with the issue of whether s. 7 of the <I>Charter</I> should
+be given substantive effect, chose not to treat the statements made in <I>Curr</I>,
+with respect to s. 1(a) of the <I>Bill of Rights</I>, as being determinative of
+that issue.</P>
+
+<P class="ParagNum">[74] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>For the above reasons, I conclude that the <I>Curr</I> case is not
+determinative of the relationship between s. 7 and ss. 8 to 14. The proper
+relationship between these provisions should be determined through an
+examination of the <I>Charter</I> itself, bearing in mind the purpose and the
+constitutional nature of that document.</P>
+
+<P class="ParagNum">[75] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>It is suggested that a rule of statutory interpretation, expressed in
+the maxim <I>expressio unius est exclusio alterius -</I> the expression of one
+thing is the exclusion of another - should apply. As a matter of statutory
+interpretation, it is argued, the express right not to be compelled to be a
+witness provided in s. 11(c) necessarily precludes the implication of a similar
+right in s. 7. It is also argued that the protection against self-incrimination
+provided in s. 13 precludes the implication of similar protection in s. 7.</P>
+
+<P class="ParagNum">[76] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The problem with this argument is that it assumes that a constitutional
+document should be construed according to the ordinary rules of statutory
+interpretation. The fallacy of such a view has been pointed out in <I>Minister
+of Home Affairs v, Fisher</I>, [1980] A.C. 319; [1979] 3 All E.R. 21. That case
+involved the interpretation of the word “child” as used in the <I>Bermuda
+Constitution Act</I>, 1967. It was argued that the Constitution should be
+interpreted the same as any English statute, thus, a presumption that the word
+“child” means ligitimate child should apply. Lord Wilberforce, in giving the
+opinion of the Privy Council, dealt with this argument as follows at page 329:</P>
+
+<P class="Indent1">. . . [T]he question must inevitably be asked whether the
+appellants’ premise, fundamental to their argument, that these provisions are
+to be construed in the manner and according to the rules which apply to Acts of
+Parliament, is sound. In their Lordships’ view there are two possible answers
+to this. The first would be to say that, recognizing the status of the
+Constitution as, in effect, an <I>Act</I> of Parliament, there is room for
+interpreting it with less rigidity, and greater generosity, than other Acts,
+such as those which are concerned with property, or succession, or citizenship.
+On the particular question this would require the court to accept as a starting
+point the general presumption that ‘child’ means ‘legitimate child’ but to
+recognize that this presumption may be more easily displaced. The second would
+be more radical: it would be to treat a constitutional instrument such as this
+as sui generis, calling for principles of interpretation of its own, suitable
+to its character as already described, without necessary acceptance of all the
+presumptions that are relevant to legislation of private law.</P>
+
+<P class="Indent1">It is possible that, as regard the question now for decision,
+either method would lead to the same result. But their Lordships prefer the
+second. This is in no way to say that there are no rules of law which should
+apply to the interpretation of a constitution. A constitution is a legal
+instrument giving rise, amongst other things, to individual rights capable of
+enforcement in a court of law. Respect must be paid to the language which has
+been used and to the traditions and usages which have given meaning to that language.
+It is quite consistent with this, and with the recognition that rules of
+interpretation may apply, to take as a point of departure for the process of
+interpretation a recognition of the character and origin of the instrument, and
+to be guided by the principle of giving full recognition and effect to those
+fundamental rights and freedoms with a statement of which the Constitution
+commences. In their Lordships’ opinion this must mean approaching the question
+what is meant by ‘child’ with an open mind.</P>
+
+<P class="ParagNum">[77] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Approaching the interpretation of the <I>Charter</I> in this manner,
+guided by the principle of giving full recognition and effect to the rights and
+freedoms guaranteed therein, and considering the language used in the <I>Charter</I>,
+I see no reason to view ss. 8 to 14 as imposing limits on the rights bestowed
+by s. 7.</P>
+
+<P class="ParagNum">[78] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 26 of the <I>Charter</I> indicates an intention that the
+enunciated rights should not be construed as excluding rights not expressly
+mentioned. Section 26 of the <I>Charter</I> provides as follows:</P>
+
+<P class="Indent1">26. The guarantee in this Charter of certain rights and
+freedoms shall not be construed as denying the existence of any other rights or
+freedoms that exist in Canada.</P>
+
+<P class="ParagNum">[79] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In addition, s. 1 provides that the rights guaranteed by the <I>Charter</I>
+are subject “only to such reasonable limits prescribed by law as can be
+demonstrably justified in a free and democratic society”. In light of this
+general limitation it would seem unnecessary and inappropriate to read further
+restrictions into s. 7.</P>
+
+<P class="ParagNum">[80] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In my view, the specific rights enumerated in s. 8 to s. 14 are specific
+examples or emanations of the general right to life, liberty and security of
+the person, and the specific mention of these rights serves to reinforce the
+general rights secured by s. 7, rather than to restrict them.</P>
+
+<P class="ParagNum">[81] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Although the specific rights enumerated in s. 8 to s. 14 may come within
+the scope of the compendious phrase “life, liberty and security of the person”,
+the framers of the <I>Charter</I> in placing certain specific rights outside of
+s. 7 afforded them an additional measure of sanctity. Under s. 7 a person may
+be deprived of his rights if the deprivation is in accordance with the
+principles of fundamental justi’ce. The specific rights in ss. 8 to 14 are not
+so limited.</P>
+
+<P class="ParagNum">[82] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>If the relationship between s. 7 and the following sections is viewed in
+this way, s. 11(c) does not preclude a right not to be compelled to be a
+witness against oneself from arising before a person is charged. Rather, s.
+11(c) provides additional protection by setting the point at which the right
+not to be compelled to be a witness against oneself is no longer subject to
+possible deprivation in accordance with the principles of fundamental justice.</P>
+
+<P class="ParagNum">[83] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Similarly, s. 13 guarantees to a witness the specific right not to have
+self-incriminating evidence used against him in other proceedings. This is a
+separate right which arises regardless of whether the witness testifies
+voluntarily or under compulsion. This positive right conferred by s. 13 should
+not be taken as a constitutional adoption of the statutory scheme established
+by s. 5 of the <I>Canada Evidence Act</I>, R.S.C. 1970, c. E-10. There is
+nothing in s. 13 that expressly makes a person compellable to give
+self-incriminating evidence. Although s. 13 is similar to s. 5(2) of the <I>Canada
+Evidence Act</I>, and s. 20(2) of the <I>Combines Investigation Act</I>, there
+is no equivalent to s. 5(1) of the <I>Canada Evidence Act</I>, or to s. 17(2)
+of the <I>Combines Investigation Act</I>, contained in the <I>Charter.</I> The
+restrictive provisions of these latter sections should not be read into the <I>Charter</I>
+as necessarily implicit in the positive rights conferred by s. 13.</P>
+
+<P class="ParagNum">[84] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>For these reasons I would hold that the specific rights in s. 11(c) and
+s. 13 do not necessarily preclude a more general right against the compelling
+of self-incriminating evidence from being within the scope of s. 7. It remains
+to be considered whether the compelling of such evidence, as authorized by s.
+17 of the <I>Act</I>, is an interference with a person’s right to liberty and
+security of the person.</P>
+
+<P class="ParagNum">[85] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I do not propose to attempt any exhaustive definition of the range of
+rights encompassed by the phrase “life, liberty and security of the person”.
+Indeed, it would be impossible to define the scope of this phrase with any
+degree of exactness. The boundaries of this broad right will undoubtedly be
+developed by the courts interstitially as different claims arise.</P>
+
+<P class="ParagNum">[86] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In the present case the applicants allege that the phrase includes a
+right not to compelled to give self-incriminating evidence. This claim does not
+require any judicial exploration of the penumbra of the right to life, liberty
+and security of the person. Although the right to life is not in issue here, in
+my view, the privilege against self-incrimination is deeply rooted in the right
+to liberty and security of the person.</P>
+
+<P class="ParagNum">[87] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The history of the privilege against self-incrimination is well
+documented in Levy, <I>Origins of The Fifth Amendment</I>, New York: Oxford
+University Press, 1968. Levy points out that the privilege against
+self-incrimination was at the root of the historic struggle for individual
+liberty.</P>
+
+<P class="ParagNum">[88] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Furthermore, the phrase “security of the person” includes a right to
+personal dignity and a right to an area of privacy or individual sovereignty
+into which the state must not make arbitrary or unjustified intrusions. These
+considerations also underly the privilege against self-incrimination.</P>
+
+<P class="ParagNum">[89] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In the landmark American case, <I>Miranda v. Arizona</I>, 384 U.S. 436; 16 L. ed. (2d) 694; 86 S.Ct. 1602, the United States Supreme Court examined the
+historical and policy underpinnings of the privilege against
+self-incrimination. Chief Justice Warren, in delivering the opinion of the
+court, made the following remarks at page 460:</P>
+
+<P class="Indent1">Thus we may view the historical development of the privilege
+as one which groped for the proper scope of governmental power over the
+citizen. . . . All of these policies point to one overriding thought: the
+constitutional foundation underlying the privilege is a respect a government -
+state or federal - must accord to the dignity and integrity of its citizens.</P>
+
+<P class="ParagNum">[90] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The policy underlying the privilege against self-incrimination is also
+examined at length in <I>Wigmore on Evidence</I>, vol. 8 (McNaughton Revision,
+1961), s. 2251. Wigmore concludes that there are only two valid purposes to the
+privilege. He identifies these purposes at page 318:</P>
+
+<P class="Indent1">The first is to remove the right to an answer in the hard
+cores of instances where compulsion might lead to inhumanity, the principal
+inhumanity being abusive tactics by a zealous questioner. The second is to
+comply with the prevailing ethic that the individual is sovereign and that
+proper rules of battle between government and individual require that the
+individual not to be bothered for less than good reason and not to be
+conscripted by his opponent to defeat himself.</P>
+
+<P class="ParagNum">[91] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 7 of the <I>Charter</I> has given constitutional recognition to
+the principle that the individual is sovereign, and that there are limits to
+the valid exercise of governmental authority over the individual. One such
+limit, that is deeply rooted in the individual’s right to “liberty and security
+of the person”, is that a person should not be compelled to incriminate
+himself.</P>
+
+<P class="ParagNum">[92] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I am mindful that the Ontario Court of Appeal in <I>R. v. Altaeimer</I> (1983),
+1 C.C.C.(3d) 7, has held that the <I>Charter</I> does not confer a broad
+privilege against self-incrimination. In that case the Ontario Court of Appeal
+referred to a brief review of the common law privilege against
+self-incrimination made by Dickson, J., in <I>R. v. Marooux and Solomon</I> (1976),
+4 N.R. 64; 24 C.C.C.(2d) 1, at page 5 and cited his conclusion as follows:</P>
+
+<P class="Indent1">In short, the privilege extends to the accused <I>qua</I> witness
+and not <I>qua</I> accused, it is concerned with testimonial compulsion
+specifically and not with compulsion generally.. . .</P>
+
+<P class="ParagNum">[93] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The Ontario Court of Appeal in stating that the <I>Charter</I> does not
+confer a broad privilege against self-incrimination was merely concluding that
+s. 11(c) and s. 13 of the <I>Charter</I> apply only to testimonial compulsion.
+However, the court did not consider the nature of the rights secured by s. 7.
+In my view the Altseimer case should not be viewed as holding that the
+compelling of self-incriminating evidence is not an interference with the
+rights secured by s. 7.</P>
+
+<P class="ParagNum">[94] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The respondents raise an additional issue related to the proper scope of
+s. 7. They contend that even if s. 7 does encompass the right not to be
+compelled to give self-incriminating evidence, the beneficial provisions of s.
+7 do not extend to corporations. They argue that the term “everyone”, as used
+in s. 7 does not include corporations. Thus, they argue, the corporate applicants
+cannot enjoy rights secured by s. 7.</P>
+
+<P class="ParagNum">[95] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Although this issue of whether or not the beneficial provisions of s. 7
+extend to corporations may be critical in certain applications, it is not
+necessary to decide this issue in the present case.</P>
+
+<P class="ParagNum">[96] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>As I have indicated earlier in these reasons, this court’s jurisdiction
+in this matter is limited to a determination of the validity of the impugned
+provisions of the <I>Act.</I> If s. 17 is inconsistent with the rights of the
+individual applicants, then it is of no force or effect. In my view, the
+possibility that the same provision may not be inconsistent with the rights of
+the corporate applicants is irrelevant. If the provision is inconsistent with
+any rights secured by the <I>Charter</I>, it must be held invalid. It is not
+the proper function of this court to rewrite the impugned provision in order to
+remedy the inconsistency by making it applicable only to persons whose rights
+may not be protected.</P>
+
+<P class="ParagNum">[97] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>However, before leaving this issue, I would like to make some general
+comments on the respondents’ submissions.</P>
+
+<P class="ParagNum">[98] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I do not believe that the issue of whether the rights guaranteed by s. 7
+extend to corporations can be determined on a narrow and technical
+interpretation of the term “everyone”. Regard must be had to the nature of the
+rights provided by that section.</P>
+
+<P class="ParagNum">[99] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>This approach was adopted in <I>Southern Inc. v. Hunter et al.</I> (1982),
+42 A.R. 109; 68 C.C.C.(2d) 356 (Alberta Q.B.), by Mr. Justice Cavanagh in
+determining whether the term “everyone” as used in s. 8 of the <I>Charter</I> includes
+corporations. He expressed his view as follows at page 364:</P>
+
+<P class="Indent1">I would hold that ‘everyone’ as used in section 8 should
+include all human beings and all entities that are capable of enjoying the
+benefit of security against unreasonable search. This then would include corporations.
+That interpretation would not be inconsistent in the other sections where the
+word ‘everyone’ is used where only human beings can enjoy the rights given.</P>
+
+<P class="ParagNum">[100] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>This statement has been adopted by Scollin, J., in <I>Balderstone v. R.
+and Manitoba, Attorney General of</I> (1983), 19 Man. R.(2d) 321; 2 C.C.C. (3d)
+37 (Manitoba Q.B.). In that case, Mr. Justice Scollin concluded that a
+corporation is entitled to the legal rights guaranteed by the <I>Charter</I>, including
+those secured by s. 7.</P>
+
+<P class="ParagNum">[101] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A similar approach to that adopted by Cavanagh, J., has also been taken
+by at least one member of the British Columbia Court of Appeal in <I>Re PPG
+Industries Canada Ltd. and Attorney General of Canada</I> (1983), 3 C.C.C.(3d)
+97. In that case the court was called upon to determine whether the right to a
+jury trial provided in s. 11(f) of the <I>Charter</I> should be extended to
+corporations. The issue turned on the meaning to be given to the term “person”.
+Nemetz, C.J.B.C., delivering one of the majority judgments stated at page 103:</P>
+
+<P class="Indent1">In my view, the context dictates that a restricted meaning be
+given to the word ‘person’. In the context of section 11(f), ‘person’ must mean
+a natural person, since it is only such natural persons who can be subjected to
+imprisonment for five years or more.</P>
+
+<P class="ParagNum">[102] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The approach adopted in these cases seems to me to be a sensible one.
+There is no need to ascribe to the term “everyone” a technical meaning, and
+then to adopt that meaning wherever that term appears.</P>
+
+<P class="ParagNum">[103] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Since the term “everyone” is capable of including non-natural persons,
+in my view, it should be construed as including such where the rights secured
+are capable of being enjoyed by non-natural persons. Such an approach is in
+accordance with the principle of giving a broad and liberal interpretation to a
+constitutional document.</P>
+
+<P class="ParagNum">[104] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In summary, it is my opinion that s. 7 should be given a broad scope,
+that the specific rights enumerated in s. 8 to s. 14 should be viewed as
+reinforcing the broad general rights secured by s. 7, and that the right to
+“life and liberty of the person” secured by s. 7 encompasses a right not to be
+compelled to give self-incriminating evidence.</P>
+
+<H2>(b) <I>The Standard of Fundamental Justice</I></H2>
+
+<P class="ParagNum">[105] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Having concluded that a right not to be compelled to give
+self-incriminating evidence is within the scope of s. 7, it becomes clear that
+Part II of the <I>Act</I> constitutes an interference with this right. Section
+17 makes a person compellable, and s. 20(2) provides that a person is not
+excused from giving evidence on the ground that the evidence may tend to
+incriminate him. However, the crucial issue is whether this interference is in
+accordance with the principles of fundamental justice.</P>
+
+<P class="ParagNum">[106] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A determination of this issue necessarily involves a consideration of
+what standard of judicial review is contemplated by the phrase “principles of
+fundamental justice”. Does this phrase contemplate substantive review or merely
+procedural review? In either case what yardstick is suggested to measure
+whether legislation, which interferes with protected rights, is in accordance
+with the principles of fundamental justice?</P>
+
+<P class="ParagNum">[107] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>If the phrase “principles of fundamental justice” merely contemplates
+procedural review, then legislation is open to attack only on the ground that
+the procedure prescribed or adopted for the achievement of certain policies
+falls below a minimum acceptable standard recognized as being indispensable for
+the enjoyment of life, liberty and security of the person. On the other hand,
+if the phrase contemplates substantive review, then legislation is also open to
+attack on the ground that the policies are in themselves incompatible with the
+enjoyment of such rights.</P>
+
+<P class="ParagNum">[108] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The <I>Bill of Rights</I> contains a similar provision to s. 7 of the <I>Charter</I>,
+except s. 1(a) of the <I>Bill of Rights</I> uses the phrase “due process of
+law” instead of “the principles of fundamental justice”. The courts in
+interpreting the due process clause in the <I>Bill of Rights</I> have
+consistently held that all that is meant by this phrase is that established
+legal pro cedure must be followed: see for example, <I>Re State of Wisconsin
+and Armstrong</I> (1973), 32 D.L.R.(3d) 265 (F.C.A.).</P>
+
+<P class="ParagNum">[109] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The fact that the framers of the <I>Charter</I> decided not to use the
+due process of law clause in the <I>Charter</I> would seem to indicate a desire
+that s. 7 be given a broader interpretation than that attributed to s. 1(a) of
+the <I>Bill of Rights.</I></P>
+
+<P class="ParagNum">[110] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In <I>Curr v. The Queen</I>, supra, Laskin, J. (as he then was),
+although he did not expressly rule out the possibility that the due process
+clause in s. 1(a) of the <I>Bill of Rights</I> could be used as a means of
+challenging the validity of substantive legislation, indicated that he would be
+reluctant to employ a statutory jurisdiction to deny effect to substantive
+legislation. As I have pointed out earlier, the entrenchment of the <I>Charter</I>
+has removed this constraint. The courts now have a constitutional jurisdiction
+to deny effect to substantive legislation that is inconsistent with the
+provisions of the <I>Charter.</I> Section 52 of the <I>Constitutional Act</I>, 1982
+expressly imposes this duty on the courts.</P>
+
+<P class="ParagNum">[111] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The phrase “principles of fundamental justice” is used in s. 2(e) of the
+<I>Bill of Rights.</I> This section has received judicial consideration by the
+Supreme Court of Canada in <I>Duke v. The Queen</I> (1972), 28 D.L.R.(3d) 129.
+In that case Chief Justice Fauteux remarked as follows at page 134:</P>
+
+<P class="Indent1">Under s. 2(e) of the <I>Bill of Rights</I> no law of Canada shall be construed or applied so as to deprive him of ‘a fair hearing in accordance
+with the principles of fundamental justice’. Without attempting to formulate
+any final definition of those words, I would take them to mean, generally, that
+the tribunal which adjudicates upon his rights must act fairly, in good faith,
+without bias and. in a judicial temper, and must give to him the opportunity
+adequately to state his case.</P>
+
+<P class="ParagNum">[112] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>This definition clearly contemplates a procedural standard of review.
+However, the context in which the phrase is used in s. 2(e) must be considered.
+It is used in reference to the right to a fair hearing which is a procedural
+right. The Chief Justice was not merely defining the phrase “principles of fundamental
+justice”, he was considering what is meant by the phrase “a fair hearing in
+accordance with the principles of fundamental justice”. In my view, the
+statement of Chief Justice Fauteux is not particularly helpful in determining
+the meaning of the phrase as it appears in s. 7. In s. 7 the phrase “principles
+of fundamental justice” appears in an entirely different context.</P>
+
+<P class="ParagNum">[113] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In this regard, I would refer to a note by John D. Whyte in (1983), 32
+C.R.(3d) 107. Professor Whyte states at page 114:</P>
+
+<P class="Indent1">Section 2(e) of the <I>Canadian Bill of Rights</I>, R.S.C.
+1970, App. III, in a context which is clearly limited to the notion of fair
+hearing, uses the phrase ‘fundamental Justice’, and this incident of use may be
+what led some to believe that ‘fundamental Justice’ was merely an alternative
+to ‘natural justice’. Section 7 of the Charter is, of course, devoid of any
+such contextual limitation and, from the point of view of initial impressions,
+there is neither any reason to assume that ‘fundamental justice’ must be given
+the restricted meaning of ‘natural Justice’ nor any reason not to see
+‘principles of fundamental justice’ as encompassing the question of whether
+substantive concepts of justice have been complied with. After all, the natural
+reading to give to the word ‘justice’ is not a set of procedural standards, but
+rather a political virtue applicable to the allocation of benefits and
+punishments.</P>
+
+<P class="ParagNum">[114] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The issue of whether s. 7 has a substantive effect has been discussed in
+a number of recent cases. Several of these have held that s. 7 is merely
+procedural: see for example, <I>R. v. Gallant</I> (1983), 70 C.C.C.(2d) 213 (Ont. Prov. Ct.); <I>R. v. Holman</I> (1982), 28 C.R.(3d) 378 (B.C. Prov. Ct.); <I>Re
+Balderstone v. The Queen</I>, supra, and, <I>Re Jamieson v. The Queen</I> (1983),
+70 C.C.C.(2d) 430 (Que. Sup. Ct.). Other cases have attributed a substantive
+effect to s. 7: see for example, <I>R.</I> v. <I>Rolbin</I> (1982), 1 C.R.R.
+186 (Que. Ct. of Sess.), affirmed (1983), 2 C.R.R. 166 (Que. Sup. Ct.); <I>R. v. Carriere</I> (1983), 32 C.R.(3d) 117 (Ont. Prov. Ct.); <I>R. v. Hayden</I> (1983),
+33 C.R.(3d) 363 (Man. Prov. Ct.); and, <I>R. v. Campagna</I> (1983), 70
+C.C.C.(2d) 236 (B.C. Prov. Ct.).</P>
+
+<P class="ParagNum">[115] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The only appellate court to deal with this issue, that has come to my
+attention, is <I>Reference Re Section</I> 94(2) of <I>Motor Vehicle Act</I>, supra.
+In that case the British Columbia Court of Appeal examined the phrase
+“principles of fundamental justice” and concluded at page 30 as follows:</P>
+
+<P class="Indent1">. . . [T]he meaning to be given to the phrase ‘principles of
+fundamental justice’ is that it is not restricted to matters of procedure but
+extends to substantive law and that the courts are therefore called upon, in
+construing the provisions of s. 7 of the <I>Charter</I>, to have regard to the
+content of legislation.</P>
+
+<P class="ParagNum">[116] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>For all of these reasons, I would conclude that the phrase “principles
+of fundamental justice” should not be interpreted as limiting the courts to a
+review of procedural matters. Rather, it has opened the door to a review of the
+substance of legislation that interferes with a person’s right to life, liberty
+and security of the person.</P>
+
+<P class="ParagNum">[117] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The more fundamental question is what yardstick is suggested by the
+phrase “principles of fundamental justice” against which the validity of
+substantive legislation can be measured? What sort of considerations justify an
+interference with the right to life, liberty and security of the person?</P>
+
+<P class="ParagNum">[118] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Some insight into this difficult problem can be gained by examining
+those cases that have held substantive legislation to be of no force or effect
+on the ground that it constituted an interference with s. 7 rights, and this
+interference was not in accordance with the principles of fundamental justice.</P>
+
+<P class="ParagNum">[119] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In <I>R. v. Hayden</I>, supra, Judge Kopstein held that s. 97(b) of the <I>Indian
+Act</I>, R.S.C. 1970, c. I-6, which created an offence of being intoxicated on
+an Indian reserve was inconsistent with s. 7 and thus, of no force and effect.
+Judge Kopstein considered the meaning of the “principles of fundamental
+justice” as follows at page 367:</P>
+
+<P class="Indent1">Section 7 of the <I>Charter</I> permits deprivations of
+liberty only in accordance with the principles of fundamental Justice.
+Considering the disruption of life, the assault upon human dignity and the
+degradation associated with being taken into custody by a police agency, a
+humanitarian consideration which I conceive to be a principle of fundamental
+justice is that law should not jeopardize the right of the liberty of any
+person save and except where the weight of compelling factors such as the need
+for public protection, or the need to preserve public order, or the need of law
+enforcement agencies to investigate crime and preserve evidence, or the
+principles of general or individual deterrence - the legitimate interests of
+society which justify an -interference with personal liberty - override the
+importance of the right to liberty. The absence of such overriding factors in
+the promulgation or perpetuation of a law which authorizes arrest ignores that
+principle of fundamental justice.</P>
+
+<P class="ParagNum">[120] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Judge Kopstein went on to review the various provincial liquor acts and
+concluded that the tendency among the majority of jurisdictions across this
+country is to avoid arrest and punitive detentions for intoxication alone. He
+went on to hold, at page 370, that under s. 97(b) of the <I>Indian Act</I>:</P>
+
+<P class="Indent1">The power to arrest and the loss of liberty which will result
+from the exercise of that power does not rest upon any factor which is so
+important to the interests of society as to bring it within a principle of
+fundamental justice.</P>
+
+<P class="ParagNum">[121] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In <I>Reference Re Section 94(2) of Motor Vehicle Act</I>, supra, the
+British Columbia Court of Appeal held that a section of the <I>Motor Vehicle
+Act</I>, R.S.B.C. 1979, c. 288 that created an offence of absolute liability
+with a mandatory minimum term of imprisonment was inconsistent with the <I>Charter.</I>
+In deciding that the impugned legislation constituted a deprivation of liberty
+not in accordance with the principles of fundamental justice, the Court of
+Appeal relied heavily on statements made by Dickson, J., in <I>R. v. <A href="http://sau.lt/"><SPAN style="color:windowtext;text-decoration:none">Sault</SPAN></A>
+Ste. Marie</I> (1978), 21 N.R. 295; 40 C.C.C.(2d) 353, (S.C.C.), to the effect
+that it is contrary to fundamental principles of penal liability to convict a
+person of a crime involving a substantial term of imprisonment, where that
+person has acted without guilty intent.</P>
+
+<P class="ParagNum">[122] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In <I>R. v. Campagna</I>, supra, Judge Paradis also held that the same
+provision of the <I>British Columbia Motor Vehicle Act</I> was inconsistent
+with the <I>Charter.</I> He also referred to Mr. Justice Dickson’s reference to
+fundamental principles of penal liability in <I>R. v. City of Sault Ste. Marie.</I>
+Judge Paradis, however, went on to further support his finding that the
+impugned legislation was not in accordance with the principles of fundamental
+justice, as follows at page 246:</P>
+
+<P class="Indent1">In the Canadian legal fabric, offences which carry a minimum
+penalty of a term of imprisonment are rare. I have searched in vain for any
+such offence which imposes a burden of absolute liability. The fact that s.
+94.1(2) and (3) stand alone in that respect is significant. A serious problem
+was seen to exist and Draconian measures were thought necessary to deal with
+it. However, those measures went far beyond what has, in the past, been seen as
+reasonable by any other Legislature.</P>
+
+<P class="ParagNum">[123] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Judge Paradis, at page 246, then referred to the following quote by Mr.
+Justice Rand in his article “Except by Due Process of Law” (1961), 2 Osgoode
+Hall, L.J. 171:</P>
+
+<P class="Indent1">At certain dimensions we can without doubt pronounce
+legislation outside of the bounds of traditional process, as where the issue of
+river-pilot licenses is limited to persons of blood relation to presently
+licensed pilots; or legislation that eliminates most women as barmaids; or
+legislation that would take property for an exclusively private purpose, or for
+a public purpose without compensation. With such departures from the norm of
+living tradition we have no difficulty and they give a clue to the character of
+action which due process condemns.</P>
+
+<P class="ParagNum">[124] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Judge Paradis then stated his conclusions as follows at page 247:</P>
+
+<P class="Indent1">In my view, to automatically deprive a citizen of his liberty
+by a process of absolute liability can only be seen as a ‘departure from the
+norm of living tradition’.</P>
+
+<P class="ParagNum">[125] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In <I>R. v. Carriere</I>, supra, Ontario Provincial Court Judge Belanger
+held that the legislation creating writs of assistance constitute a violation
+of the right to life, liberty and security of the person that is not in
+accordance with the principles of fundamental justice. In holding that s. 7
+should be given a substantive effect he stated at page 130:</P>
+
+<P class="Indent1">It follows that those legal processes hitherto recognized by
+Parliament and the courts are no longer necessarily the standards justifying
+deprivation of the right to liberty and security of the person.</P>
+
+<P class="ParaG">He went on to state his reasons for finding writs of assistance
+to be inconsistent with s. 7 of the <I>Charter</I> as follows at page 131-32:</P>
+
+<P class="Indent1">I am of the view that writs of assistance offend the
+principles of fundamental justice. The history of the development of our
+criminal law is also the history of the development of restrictions and
+controls on the actions of individuals charged with the enforcement of that
+law. Our democratic society’s will, legislatively expressed, has progressively
+become more hesitant to grant wide discretion to the enforcer lest he, quite
+apart from wrongful or illegal motives, confuse his duty with his own view of
+the law and lend his own colour to events giving rise to collectively defined
+rights and wrongs. To this date the only working method devised to adequately
+monitor his actions has been the interposition of independent judicial scrutiny
+at every significant juncture in the criminal process. It is a method which is
+far from perfect, because it is cumbersome and often inexpedient, but it is
+difficult to conceive of a better one.</P>
+
+<P class="Indent1">One such juncture - and a most crucial one - arises when
+police forces are required to invade a person’s privacy in order to obtain
+evidence of crime. There can be no doubt that privacy cannot be held up in all
+circumstances as a shield to prevent the detection of crime, but I conceive
+that it is so important and fundamental a concept in our society that
+interference with it should occur only when it is clear and has been <I>demonstrably
+made clear</I> that it cannot stand as an impediment to our collective right to
+protection from crime. Convenience and expediency merit consideration only to
+the extent that they are reconcilable with that concept.</P>
+
+<P class="ParagNum">[126] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Several themes reoccur in these cases that are possible yardsticks for
+reviewing substantive legislation. These are: the historical development of
+rights protected by the common law, the legislative tradition in Canada as found in an analogous existing legislation, and community standards or the
+“living tradition”. There is also reference to the need for compelling factors
+to justify placing the collective interests of society ahead of the rights of
+the individual.</P>
+
+<P class="ParagNum">[127] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>While I am not suggesting that these concepts make substantive review a
+simple matter of application, I do believe that these concepts can provide
+useful guidance.</P>
+
+<P class="ParagNum">[128] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>With this by way of background, I now turn to examine whether the
+interference with the applicants’ right to liberty and security of the person,
+as authorized by s. 17 of the <I>Act</I>, is in accordance with the principles
+of fundamental justice.</P>
+
+<P class="ParagNum">[129] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The common law privilege against self-incrimination developed out of
+public resentment of the Court of Star Chamber procedure, and in particular the
+oath <I>ex officio.</I> (For a complete historical development of the privilege
+see: Levy, <I>Origins Of The Fifth Amendment</I>, supra.)</P>
+
+<P class="ParagNum">[130] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Professor Ratushny traces the development of the privilege in his book, <I>Self-incrimination
+In The Canadian Criminal Process</I>, Toronto: Carswell, 1979. He points out
+that the offensive nature of the Star Chamber procedure was that arbitrary
+power was exercised in subjecting persons to inquiries under oath for the
+purpose of making out an accusation against them. He states at page 172:</P>
+
+<P class="Indent1">The repugnance was found in the procedure whereby a person
+would be called before Judges without any specific allegation of wrong-doing on
+his part and subjected to a broad range of questions.</P>
+
+<P class="ParagNum">[131] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>During the 16th century the common law courts began to restrict the Star
+Chamber by granting prohibition against the administering of the oath <I>ex
+officio.</I> In so doing, they began to state the general rule, <I>nemo tenetur
+prodere seipsum</I>, or no one is bound to betray himself. Professor Ratushny
+refers to this development at page 169:</P>
+
+<P class="Indent1">Although the Latin phrase has been the subject of considerable
+analysis, its precise origins are not clear. However, it is quite possible that
+in the 16th century common law courts, it was merely an impressive way of
+stating the existing common law rule that no man was bound to produce the
+accusation against himself.</P>
+
+<P class="ParagNum">[132] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A classic statement of the common law privilege against
+self-incrimination that evolved from these historic roots is found in <I>Lamb
+v. Munster</I> (1882), 10 Q.B. 110. At page 113 Stephen, J., states the rule as
+follows:</P>
+
+<P class="Indent1">It is not that a man must be guilty of an offence and say
+substantially, ‘I am guilty of the offence, but I am not going to furnish
+evidence of it.’ I do not think the privilege is so narrow as that, for then it
+would be illusory. The extent of the privilege is I think this: the man may
+say, ‘if you are going to bring a criminal charge, or if I have reason to think
+a criminal charge is going to be brought against me, I will hold my tongue.
+Prove what you can, but I am protected from furnishing evidence against myself
+out of my own mouth’.</P>
+
+<P class="ParagNum">[133] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Canadian legislative tradition has long since parted company with the
+common law privilege. The <I>Canada Evidence Act</I> of 1893 contained a
+provision substantially the same as the present s. 5. (For a review of the
+history and debate surrounding the original <I>Canada Evidence Act</I> see:
+Noble, ‘<I>The Struggle To Make The Accused Competent In England And Canada’</I>
+(1970), 8 Osgoode Hall, L.J. 249.)</P>
+
+<P class="ParagNum">[134] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The original <I>Canada Evidence Act</I> of 1893 made the accused
+competent but not compellable, and made other witnesses compellable to answer
+questions which may tend to incriminate them, while protecting them from use of
+the evidence in subsequent criminal proceedings against themselves.</P>
+
+<P class="ParagNum">[135] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Criminal trials were clearly the focus of concern that lead to the
+removal of the common law privilege against self-incrimination, but the
+language was not restricted to criminal proceedings. As administrative bodies
+began to play an increasing role in the investigation of criminal activities,
+s. 5 of the <I>Canada Evidence Act</I>, and its provincial equivalents, were
+applied to these forms of inquiry. However, the removal of a witness’s
+privilege against self-incrimination in administrative inquiries gives rise to
+entirely different considerations.</P>
+
+<P class="ParagNum">[136] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The focus of the criminal proceedings is the conduct of the accused; its
+purpose is to determine the guilt or innocence of the accused. In criminal
+proceedings the accused’s privilege against self-incrimination is protected, at
+trial, by his statutory right of non-compellability, and at the pre-trial
+stage, by the exclusionary rules of evidence.</P>
+
+<P class="ParagNum">[137] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A witness in a criminal proceeding is compellable to testify as to the
+activities or conduct of the accused. The removal of the witnesses’ privilege
+against self-incrimination may result in the witness being compelled to reveal
+self-incriminating evidence. But that is not the purpose of the compulsion. The
+compelling of self-incriminating evidence is merely incidental to the purpose
+of the criminal proceeding.</P>
+
+<P class="ParagNum">[138] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The removal of the privilege from witnesses in criminal proceedings
+reflects a policy that the incidental incrimination of a witness must not be
+allowed to thwart the legitimate purpose of the proceedings: the just
+determination of the guilt or innocence of the accused.</P>
+
+<P class="ParagNum">[139] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>An administrative inquiry, on the other hand, may be directed at
+uncovering illegal activity on the part of the witness. The denial of that
+witness’s privilege against self-incrimination in this situation may result in
+the witness being compelled to assist in an investigation into his criminal
+activity.</P>
+
+<P class="ParagNum">[140] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>This result has been recognized by Dickson, J., in <I>Di Iorio and
+Fontaine v. Warden of the Common Jail of Montreal and Brunet et al.</I> (1977),
+8 N.R. 361; 73 D.L.R.(3d) 491 (S.C.C.). In that case the appellants were found
+guilty of contempt for refusing to answer questions before the Quebec Police
+Commission Inquiry into organized crime. They appealed their convictions, <I>inter
+alia</I>, on the ground that the Commission’s power interfered with their right
+to protection against self-incrimination. At page 539 Dickson, J., stated:</P>
+
+<P class="Indent1">Whether or not one agrees with a result which may force a
+person to assist in an investigation of his criminal activity, the provisions
+of s. 5 of the <I>Canada Evidence Act</I> and both federal and provincial <I>Inquiries
+Acta</I> compel such a result.</P>
+
+<P class="ParagNum">[141] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Mr. Justice Dickson’s statement reflects the prevailing principle, at
+that time, of parliamentary supremacy. This principle, however, has now been limited
+by the entrenchment of the <I>Charter.</I> Under the <I>Charter</I> a result is
+no longer justified solely on the ground that it is dictated by duly enacted
+legislation, it must also be in accordance with the principles of fundamental
+justice.</P>
+
+<P class="ParagNum">[142] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The compelling of a person to assist in an investigation of his own
+misconduct, of course, does not occur in all administrative inquiries. In my
+view, this result is dictated only where the administrative body has formed a
+suspicion that certain persons are involved in criminal activity and the
+inquiry is used to gather evidence of the criminal activity of those persons.
+In other words, at least one of the purposes of the inquiry is to assist in the
+eventual criminal prosecution of specific suspects.</P>
+
+<P class="ParagNum">[143] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 8 of the <I>Act</I> authorizes the commencement of an inquiry.
+This section provides as follows:</P>
+
+<P class="Indent1">The Director shall</P>
+
+<P class="Indent1">(a) on application made under section 7.</P>
+
+<P class="Indent1">(b) whenever he has reason to believe that</P>
+
+<P class="Indent2">(i) a person has contravened or failed to comply with an order
+made pursuant to section 29, 29.1 or 30,</P>
+
+<P class="Indent2">(ii) grounds exist for the making of an order by the
+Commission under Part IV.1, or</P>
+
+<P class="Indent2">(iii) an offence under Part V or section 46.1 has been or is
+about to be committed, or</P>
+
+<P class="Indent1">(c) whenever he is directed by the Minister to inquire whether
+any of the circumstances described in subparagraphs (b)(i) to (iii) exists,</P>
+
+<P class="Indent1">cause an inquiry to be made into all such matters as he
+considers necessary to inquire into with the view of determining the facts.</P>
+
+<P class="ParagNum">[144] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The grounds for commencing an inquiry are all predicated on a suspicion
+of wrongdoing formed by the Director. There is no requirement that the Director
+disclose the grounds for his suspicions, or the identity of the persons
+suspected. In fact there is no requirement that the suspicion be reasonable.</P>
+
+<P class="ParagNum">[145] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Once the inquiry has been commenced, s. 17 can be invoked to compel a
+person, who may be a suspect, to answer an unrestricted range of questions,
+without any requirement that a person be advised of any allegations against
+him.</P>
+
+<P class="ParagNum">[146] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 18(1) of the <I>Act</I> does make some provision for informing
+suspects of allegations against them. The provision reads as follows:</P>
+
+<P class="Indent1">18(1) At any stage of an inquiry,</P>
+
+<P class="Indent2">(a) the Director may, if he is of the opinion that the
+evidence obtained discloses a situation contrary to any provision in Part V,
+and</P>
+
+<P class="Indent2">(b) the Director shall, if the inquiry relates to an alleged
+or suspected offence under any provision of Part V and he is so required by the
+Minister, prepare a statement of evidence obtained in the inquiry which shall
+be submitted to the Commission and to each person against whom an allegation is
+made therein.</P>
+
+<P class="ParaG">However, it will be noted that the suspect has no right to be
+informed of an allegation against him. The matter is in the discretion of the
+Director or the Minister.</P>
+
+<P class="ParagNum">[147] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Finally, in my view, s. 17 may be an integral step in an eventual
+criminal prosecution of a suspected person. The immediate result of the inquiry
+is either a referral of evidence to the Attorney General of Canada under s.
+15(1) or a report to the Minister under s. 19(1). In either case the evidence
+gathered may form the basis for a subsequent criminal prosecution.</P>
+
+<P class="ParagNum">[148] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I would conclude that the procedure authorized by s. 17 of the <I>Act</I>
+brings us full circle back to the original concerns out of which the privilege
+against self-incrimination developed. It authorizes the arbitrary compelling of
+a person to assist in his own prosecution.</P>
+
+<P class="ParagNum">[149] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Furthermore, in my view, there are no compelling factors to justify the
+result dictated by s. 17. The public interest in orderly competition is not so
+compelling as to override this serious interference with the right to liberty
+and security. In fact, the public has an interest in not allowing this form of
+compulsory self-incrimination.</P>
+
+<P class="ParagNum">[150] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>This public interest is recognized in <I>Wigmore on Evidence</I> (3d Ed.
+1940), vol. 8, at p. 309:</P>
+
+<P class="Indent1">[A]ny system of administration which permits the prosecution
+of trust habitually to compulsory self-disclosure as a source of proof must
+itself suffer morally thereby. The inclination develops to rely mainly upon
+such evidence, and to be satisfied with an incomplete investigation of the
+other sources. The exercise of the power to extract answers begets a
+forgetfulness of the Just limitations of that power. The simple and peaceful
+process of questioning breeds a readiness to resort to bullying and to physical
+force and torture. If there is a right to an answer, there soon seems to be a
+right to the expected answer, that is, to a confession of guilt. Thus the
+legitimate use grows into the unjust abuse; ultimately, the innocent are jeopardized
+by the encroachments of a bad system. Such seems to have been the course of
+experience in those legal systems where the privilege was not recognized.</P>
+
+<P class="ParagNum">[151] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I am also of the opinion that the protection against subsequent use of
+self-incriminating testimony provided in s. 20(2) of the <I>Act</I> and s. 13
+of the <I>Charter</I> does not justify the result dictated by s. 17. The
+protection against subsequent use of self-incriminating evidence may be
+adequate in situations in which the witness is not an accused or a suspect, but
+such protection falls short of the standard of fundamental justice in
+situations in which the witness is compelled to assist in an investigation of
+his own misconduct.</P>
+
+<P class="ParagNum">[152] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>After much consideration, I am forced to the conclusion that s. 17 of
+the <I>Act</I> is inconsistent with the individual applicant’s rights secured
+by s. 7 of the <I>Charter.</I></P>
+
+<P class="ParagNum">[153] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Furthermore, in my view, s. 17 is not saved by s. 1 of the <I>Charter</I>,
+As I have indicated the public interest is not such as to make this
+interference with fundamental rights demonstrably justified in a free and
+democratic society.</P>
+
+<P class="ParagNum">[154] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Accordingly, I would hold s. 17 of the <I>Combines Investigation Act</I>
+to be of no force or effect.</P>
+
+<H2 align="center" style="text-align:center"><I>VII</I></H2>
+
+<H2 align="center" style="text-align:center"><I>Section 45 Of The Act:</I></H2>
+
+<P class="ParagNum">[155] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants also contend that s. 45 of the <I>Act</I> is inconsistent
+with their rights under s. 7 and s. 11(d) of the <I>Charter.</I></P>
+
+<P class="ParagNum">[156] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 45 provides as follows:</P>
+
+<P class="Indent1">45(1) In this section</P>
+
+<P class="Indent1">‘agent of a participant’ means a person who by a document
+admitted in evidence under this section appears to be or is otherwise proven to
+be an officer, agent, servant, employee or representative of a participant;
+‘document’ includes any document appearing to be a carbon, photographic or
+other copy of a document; ‘participant’ means any person against whom
+proceedings have been instituted under this <I>Act</I> and in the case of a
+prosecution means any accused and any person who, although not accused, is
+alleged in the charge or indictment to have been a co-conspirator or otherwise
+party or privy to the offence charged.</P>
+
+<P class="Indent1">(2) In any proceedings before the Commission or in any
+prosecution or proceedings before a court under or pursuant to this <I>Act</I>,</P>
+
+<P class="Indent2">(a) anything done, said or agreed upon by an agent of a
+participant shall <I>prima facie</I> be deemed to have been done, said or
+agreed upon, as the case may be, with the authority of that participant;</P>
+
+<P class="Indent2">(b) a document written or received by an agent of a
+participant shall <I>prima facie</I> be deemed to have been written or
+received, as the case may be, with the authority of that participant; and</P>
+
+<P class="Indent2">(c) a document proved to have been in the possession of a
+participant or on premises used or occupied by a participant or in the
+possession of an agent of a participant shall be admitted in evidence without
+further proof thereof and is <I>prima facie</I> proof.</P>
+
+<P class="Indent3">(i) that the participant had knowledge of the document and itS
+contents,</P>
+
+<P class="Indent3">(ii) that anything recorded in or by the document as having
+been done, said or agreed upon by any participant or by an agent of a
+participant was done, said or agreed upon as recorded and, where anything is
+recorded in or by the document as having been done, said or agreed upon by an
+agent of a participant, that it was done, said or agreed upon with the
+authority of that participant.</P>
+
+<P class="Indent3">(iii) that the document, where it appears to have been written
+by any participant or by an agent of a participant, was so written and, where
+it appears to have been written by an agent of a participant, that it was
+written with the authority of that participant.</P>
+
+<P class="ParagNum">[157] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants argue that this provision, in authorizing the blanket
+introduction of documentary evidence, without such evidence being proven as a
+fact, is a violation of s. 7 that is not in accordance with the principles of
+fundamental justice. They also argue that the section raises a <I>prima facie</I>
+presumption with regard to documentary evidence that is inconsistent with the
+presumption of innocence guaranteed by s. 11(d).</P>
+
+<P class="ParagNum">[158] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The respondents raise a preliminary objection that s. 45 only applies
+“in proceedings before the Commission or in prosecution or proceeding before a
+Court under or pursuant to this <I>Act”.</I> Since the hearings before Mr.
+Couture do not fall within this category, s. 45 cannot be invoked at the
+present stage of the inquiry. The respondents contend that until the section is
+invoked, the applicants have no status to challenge its validity.</P>
+
+<P class="ParagNum">[159] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>On the face of it, the respondent’s objection has some merit. Section
+24(1) contains a statutory standing provision. An application under s. 24(1)
+may be brought by “anyone whose rights and freedoms, as guaranteed by this <I>Charter</I>,
+have been infringed or denied” (emphasis added). This would seem to rule out an
+application in respect of an impending violation. However, for the several
+reasons that follow, it is my view that this section should not be construed so
+narrowly.</P>
+
+<P class="ParagNum">[160] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>First, this is not an ordinary statute; it is a constitutional document
+which “guarantees the rights and freedoms set out in it”.</P>
+
+<P class="ParagNum">[161] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The famous statement made by Lord Sankey, L.C., in <I>Edwards v.
+Attorney General for Canada</I>, [1930] A. C. 124 (P.C.), in reference to the <I>British
+North America Act</I> are equally applicable to the <I>Constitution Act, 1982</I>,
+and the <I>Charter of Rights</I> contained therein. His Lordship stated at page
+136:</P>
+
+<P class="Indent1">The British North America Act planted in Canada a living tree capable of growth and expansion within its natural limits. The object of the <I>Act</I>
+was to grant a Constitution to Canada. . . .</P>
+
+<P class="Indent2">Their Lordships do not conceive it to be the duty of this
+Board - it is certainly not their desire - to cut down the provisions of the <I>Act</I>
+by a narrow and technical construction, but rather to give it a large and
+liberal interpretation. . . .</P>
+
+<P class="ParagNum">[162] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I would also refer to the following statement made by Tallis, J.A., of
+the Saskatchewan Court of Appeal in <I>R. V. Therens</I>, supra, at page 221,
+which is to the same effect:</P>
+
+<P class="Indent1">Our nation’s constitutional ideals have been enshrined in the <I>Charter</I>
+and it will not be a ‘living’ charter unless it is interpreted in a meaningful
+way from the standpoint of an average citizen who seldom has a brush with the
+law, . . . The implementation and application of the <I>Charter</I> should not
+be blunted or thwarted by technical or legalistic interpretations of ordinary
+words of the English language. Using this approach, our citizens will not be
+placed in a position of feeling that the statements in the <I>Charter</I> are
+only rights in theory. If these rights are to survive and be available on a
+day-to-day basis we must resist the temptation to opt in favour of a
+restrictive approach.</P>
+
+<P class="ParagNum">[163] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>If s. 24(1) is interpreted so that persons will be denied access to the
+Courts until their rights have actually been violated, persons will be left
+without an effective means of enforcing their rights, and the rights will be
+rights only in theory.</P>
+
+<P class="ParagNum">[164] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Secondly, a literal reading of s. 24(1) would mean that a person must
+establish a violation of his rights before bringing an application for a
+remedy. Of course, this is not how the section is being applied. In practice, a
+person must establish a violation of his rights as a necessary step in his
+application for a remedy. In other words, the establishment of a violation of
+rights is pre-requisite to the obtaining of a remedy. It is not a pre-requisite
+to the commencing of a s. 24(1) application. There should be no doubt that in
+order to bring a s. 24(1) application it is necessary only that the applicant
+allege that his rights have been infringed or denied.</P>
+
+<P class="ParagNum">[165] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Thirdly, s. 24(1) refers to rights being “infringed or denied”. If the
+term “infringed” is to add anything to the term “denied” it must contemplate a
+situation short of an actual denial of rights. In my view, the term “infringed”
+should be given an independent meaning; the term is broad enough to encompass
+present threats to a person’s rights or freedoms .</P>
+
+<P class="ParagNum">[166] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>It is not difficult to imagine situations in which a present threat of a
+violation of a person’s rights may lead to consequences that are as detrimental
+as an actual violation. A useful example of such a situation is posited by
+Professor Gibson in Tarnopolsky and Beaudoin, Ed., <I>The Canadian Charter of
+Rights and Freedoms</I>, Toronto: Carswell, 1982, at 498-99. Professor Gibson
+states that where the law empowers authorities to infringe rights or freedoms
+in some arbitrary fashion, such as randomly searching homes in the hope of
+finding evidence of illegal activity, the threat of an impending violation has
+immediate restrictive consequences. He points out that the threat of such
+illegal searches may cause persons to take immediate protective steps, such as
+the removal or destruction of innocent but suspicious or embarrassing material.
+Thus, although the person’s rights have not actually been violated, the threat
+of an impending violation constitutes an interference with the person’s
+enjoyment of his rights. While such a situation may not constitute a “denial”
+of a person’s rights, it can properly be termed an “infringement”.</P>
+
+<P class="ParagNum">[167] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I would conclude that if s.</P>
+
+<P class="Indent1">24(1) is given a broad and liberal interpretation, a person
+will have standing to bring an application for an alleged impending violation
+of his rights, and such an interpretation does not do violence to the words
+actually used.</P>
+
+<P class="ParagNum">[168] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>This conclusion, however, does not mean that all persons alleging an
+impending violation will be entitled to a remedy. Section 24(1) leaves the
+matter of remedies in the discretion of the court. The imminence of the
+impending violation of the applicant’s rights will likely be a factor in
+deciding whether to exercise this discretion. (In this regard see: Spry, <I>Equitable
+Remedies</I> (2d Ed.), London: Sweet &amp; Maxwell, 1980 at p. 366-69.)</P>
+
+<P class="ParagNum">[169] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I would also note that s. 24 is a remedial section. This fact in itself
+imposes some restrictions on who may make application under the section. A
+remedy is a means by which a violation, of a right is redressed or prevented. A
+declaration that a statute or portion thereof is invalid, will in certain cases
+be a remedy. In situations where a person is convicted of an offence by
+operation of a statute, and that statute is subsequently declared invalid, the
+declaration will result in an acquittal, and is therefore a means of redress.
+In other cases where there is a threat that a person will become subject to a
+statutory provision that constitutes a violation of the person’s rights, a
+declaration of invalidity will be a remedy in the sense that it will prevent an
+impending violation of the person’s rights. Thus, in both of these situations a
+declaration of invalidity pursuant to s. 52 of the <I>Constitution Act</I>, 1982,
+is a remedy available under s. 24(1).</P>
+
+<P class="ParagNum">[170] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>If a person is unable to show that a right personal to him has been
+violated or threatened, or he is unable to show that the threat of a violation
+is immediate enough to justify the court exercising its discretion in favour of
+granting a remedy, it may still be open to that person to challenge the
+validity of legislation by means of an action pursuant to s. 52 of the <I>Constitution
+Act, 1982.</I> In such a case the common law rules of standing as expounded by
+the Supreme Court of Canada in <I>Minister of Justice of Canada et al. v.
+Boroweki</I> (1982), 39 N.R. 331; 64 C.C.C.(2d) 97, would presumably apply.</P>
+
+<P class="ParagNum">[171] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Applying the foregoing analysis to the applicants’ motion for a
+declaration that s. 45 of the <I>Act</I> is invalid, I would note, that
+although the provisions of s. 45 may not be invoked at the present stage, there
+is a present threat that the applicants will become subject to the provisions
+of that section. Thus, the applicants are alleging an impending infringement of
+their rights sufficient to give them standing to apply under s. 24(1) for the
+declaration sought.</P>
+
+<P class="ParagNum">[172] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I now turn to the merits of the applicants’ position with respect to s.
+45 of the <I>Act.</I></P>
+
+<P class="ParagNum">[173] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>As I have indicated, the applicants allege that s. 45 of the <I>Act</I> is
+inconsistent with their rights under s. 7 and s. 11(d) of the <I>Charter.</I> While
+s. 45 can apply to prosecutions under the <I>Act</I> - that is to situations in
+which a person is charged - it also can apply to proceedings before the
+Commission in which no formal charges have been layed. In light of my earlier
+conclusions with respect to the proper relationship between s. 7 and the other
+legal rights contained in ss. 8 to 14 of the <I>Charter</I>, it should be obvious
+that I would not preclude an argument being raised under s. 7 in situations in
+which the person has not been charged. However, on this branch of the
+applicants’ challenge to the <I>Act</I>, I believe that I can deal with the
+arguments raised under s. 7 rather briefly.</P>
+
+<P class="ParagNum">[174] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants’ position with respect to s. 7 seems to be based on an
+assumption that any legislation that abrogates the common law principles of
+evidence is not in accordance with the principles of fundamental justice. They
+argue that at common law the mere production of documentary evidence was not
+sufficient to make the documents admissible. In the case of private documents,
+it was required that the court be satisfied that the document was duly executed
+or that the origin and authorship the document was established before the
+document could be introduced as evidence: see, Sopinka and Lederman, <I>The Law
+of Evidence In Civil Cases</I>, Toronto: Butterworths, 1974, at page 429.</P>
+
+<P class="ParagNum">[175] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The applicants cite <I>R. v. Anthes Business Forms Ltd. et al.</I> (1976),
+10 O.R.(2d) 153, as authority for the proposition that s. 45 of the <I>Act</I> has
+abrogated these common law principles and rules of evidence. However, authority
+for that proposition is hardly needed. It is clear that s. 45 has changed the
+common law rules of evidence, but that fact alone does not mean that it is
+inconsistent with the applicants’ right to life, liberty and security of the
+person. The applicants do not allege any specific interest, other than their
+right to be presumed innocent, which is interfered with. For my part I find it
+difficult to conceive what other fundamental right is abrogated by this change
+in evidentiary rules. In this regard I wish to adopt a statement made by
+Cartright, J., in <I>Howard Smith Paper Mills Limited et al. v. The Queen</I>, [1957]
+S.C.R. 403 at 420:</P>
+
+<P class="Indent1">While s. 41 (now s. 45) [of the <I>Act]</I> makes a
+revolutionary change in the law of evidence, it creates no offence, it takes
+away no defence, it does not render criminal any course of conduct which was
+not already so declared before its enactment, it does not alter the character
+or legal effect of any transaction already entered into; it deals with a matter
+of evidence only. . . .</P>
+
+<P class="ParagNum">[176] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>With respect to the applicants’ submission that s. 45 constitutes a
+violation of the presumption of innocence, I consider it unnecessary to deal
+with s. 7. Presumably s. 7 would only be resorted to where a person has not
+been formally charged, that is at an investigatory stage. If the person
+alleging the infringement of his right to be presumed innocent has been charged,
+his interest will be squarely within the protection of s. 11(d).</P>
+
+<P class="ParagNum">[177] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I propose to examine whether s. 45 is inconsistent with a person’s
+rights under s. 11(d). If s. 45 is not inconsistent with the presumption of
+innocence in a situation in which a person has been charged, then it is
+difficult to see how it could be offensive in situations where a person has not
+been charged.</P>
+
+<P class="ParagNum">[178] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Section 11(d) has received extensive judicial consideration at appellate
+court level. At least four appellate courts have dealt with s. 11(d): see, <I>R.
+v. Oakes</I> (1983), 2 C.C.C.(3d) 339 (Ont. Ct. A.); <I>R. V. Carroll</I> (1983),
+40 Nfld. &amp; P.E.I.R. 147; 115 A.P.R. 147 (P.E.I.C.A.); <I>R. V. Cook</I> (1983),
+56 N.S.R. (2d) 449; 117 A.P.R. 449 (C.A.); <I>R. v. Stanger; R. v. Bramwell</I>
+(1983), 46 A.R. 241 (Alta. C.A.). All of these cases involves successful
+challenges to s. 8 of the <I>Narcotics Control Act</I>, R.S.C. 1970, c. N-1.</P>
+
+<P class="ParagNum">[179] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The leading case in this area is <I>R. v. Oakes</I>, supra. The <I>Oakes</I>
+case establishes that a statutory reverse onus clause which places the burden
+of disproving an essential element of a crime on the accused will be held to be
+inconsistent with s. 11(d) of the <I>Charter</I>, unless there is a rational
+nexus between the proven fact that gives rise to the statutory presumption and
+the presumed fact.</P>
+
+<P class="ParagNum">[180] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A more recent judgment of the Ontario Court of Appeal, <I>Re Boyle and
+The Queen</I> (1983), 41 O.R.(2d) 713, expands somewhat on the principles
+enunciated in <I>Oakes</I>, and is more useful for present purposes.</P>
+
+<P class="ParagNum">[181] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In <I>Boyle</I>, Mr. Justice Martin provides an excellent analysis of
+the issues that arise under s. 11(d). His Lordship points out that in addition
+to reverse onus clauses, such as the one considered in <I>Oakes</I>, which
+required the accused to negative an element of the offence on a balance of
+probability, there are certain statutory presumptions which may also be
+inconsistent with s. 11(d).</P>
+
+<P class="ParagNum">[182] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>He divides these statutory presumptions into two groups: permissive
+presumptions and mandatory presumptions. The latter type is also referred to as
+rebuttable presumptions of law.</P>
+
+<P class="ParagNum">[183] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Martin, J., refers to a statement in Cross, <I>Evidence</I> London: Butterworths (5th Ed. 1979), at page 723. The essential part of this reference is
+as follows:</P>
+
+<P class="Indent1"><I>A rebuttable presumption of law is a conclusion that a fact
+(‘the presumed fact’) exists which must be drawn, in the absence of further
+evidence, if another fact (‘the basic fact’) is proved ‘or admitted.</I></P>
+
+<P class="ParagNum">[184] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>A permissive presumption is an inference that may, not must, be drawn
+when a basic fact is proved.</P>
+
+<P class="ParagNum">[185] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Mr. Justice Martin then deals specifically with the term “prima facie
+evidence” that is used in some statutes. He indicates that this term is capable
+of contemplating either a permissive or a mandatory inference. At page 727 he
+states as follows:</P>
+
+<P class="Indent1">Wigmore points out that the term ‘<I>prima facie</I> evidence’
+is used in two senses. It is sometimes used as equivalent to the notion of a
+presumption, even in the strict sense of a ruling of the judge putting upon the
+opponent the duty of producing evidence. When the term prima facie is so used,
+it is applied to the stage of the proceedings where the party having the legal
+burden of proving the issue or the burden of persuasion, has not only removed
+by producing sufficient evidence the duty of producing evidence to get past the
+judge to the jury, but has gone further and, either by means of a presumption
+or by a general mass of strong evidence, has entitled himself to a ruling that
+the opponent should fail if he does nothing more in the way of producing
+evidence. The second and more usual sense in which the term ‘<I>prima facie</I>
+evidence’ is used is where the proponent having the first duty of producing
+some evidence in order to pass the judge to the jury, has fulfilled that duty,
+satisfied the Judge, and may properly claim the jury be allowed to consider his
+case: see <I>Wigmore on Evidence</I>, 3rd ed. (1940), volume IX, pps. 293-94<I>.</I></P>
+
+<P class="ParagNum">[186] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Mr. Justice Martin finally defines a permissive presumption in these
+terms at page 730:</P>
+
+<P class="Indent1">If the Crown establishes a <I>prima facie</I> case, in the
+sense that it has produced evidence which requires the case to be submitted to
+the Jury, the accused <I>risks</I> conviction if he fails to satisfy the
+evidential burden of adducing evidence by way of explanation or denial, but he
+will not <I>necessarily</I> be convicted. The Jury may not be satisfied beyond
+a reasonable doubt of the accused’s guilt, even though there is evidence upon
+which they <I>could</I> be so satisfied. Discharge of the evidential burden by
+the accused is not a prerequisite to an acquittal: see <I>Phipson on Evidence</I>,
+13th ed. (1982), at pp. 48-49.</P>
+
+<P class="ParaG">And at page 732 His Lordship defines a mandatory presumption as
+follows:</P>
+
+<P class="Indent1">. .. [Upon] proof of the basic facts giving rise to the
+presumption, the accused is not required to disprove an essential ingredient of
+the offence on a balance of probabilities, it is sufficient for him to adduce
+evidence which raises a reasonable doubt . . . . However, when the presumption
+arises, if he fails to . adduce evidence (through the Crown witnesses or
+defence witnesses) which raises a reasonable doubt with respect to those
+elements, conviction will ensue.</P>
+
+<P class="ParagNum">[187] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>After establishing these two types of statutory presumptions, his
+Lordship held that a mandatory presumption should be treated the same as a
+reverse onus provision for the purposes of s. 11(d). His conclusion in this
+regard is stated as follows at page 733:</P>
+
+<P class="Indent1">A mandatory presumption and a ‘reverse onus’ provision with
+respect to an essential element of an offence have in common that when the
+presumption arises and it is not displaced, the trier of fact is required to
+find that the presumed fact has been proved. The essential difference between
+the two is that in the case of a mandatory presumption (rebuttable presumption
+of law) the presumption is displaced by evidence which is not rejected and
+which raises a reasonable doubt as to the existence of the presumed fact. In
+the case of a ‘reverse onus’ provision, the presumption is only displaced by
+proof to the contrary on a balance of probability.</P>
+
+<P class="Indent1">In my view, it is their common feature, that is, the mandatory
+nature of the conclusion required to be drawn when they arise, which requires
+that they be treated alike for the purpose of determining their constitutional
+validity.</P>
+
+<P class="ParagNum">[188] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Mr. Justice Martin concludes that reverse onus clauses and mandatory
+presumptions will be held inconsistent with s. 11(d) of the <I>Charter</I>, unless
+they satisfy the rational nexus test expounded in <I>Oakee.</I> It is implicit
+in his reasons that a permissive presumption does not offend s. 11(d).</P>
+
+<P class="ParagNum">[189] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I am of the opinion that the <I>prima facie</I> presumptions arising
+under s. 45 of the <I>Act</I> are of the permissive type.</P>
+
+<P class="ParagNum">[190] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I am reinforced in this conclusion by the Supreme Court of Canada
+decision in <I>Sunbeam Corporation (Canada) Ltd. v. The Queen</I>, [1969] 2
+C.C.C. 189, reversing a judgment of the Appeal Court of Ontario, [1967] 3 CC.C.
+149.</P>
+
+<P class="ParagNum">[191] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>In the Supreme Court of Canada, Ritchie, J., held at page 195 as
+follows:</P>
+
+<P class="Indent1">Section 41(2)(c) [now s. 45] simply provides that documents,
+such as these letters, which were in the possession of the accused ‘shall be
+admitted in evidence without further proof thereof and shall be <I>prima facie</I>
+evidence’ that the accused had knowledge of the documents and their contents
+and that anything recorded in them as having been done, said or agreed upon by
+the accused or its agent, was done, said or agreed upon. This does not mean
+that the trial Judge, having accepted the letters as <I>prima facie</I> evidence
+of their contents, is precluded from assessing the weight to be attached to
+that evidence in considering the issue of the accused’s guilt or innocence.</P>
+
+<P class="ParagNum">[192] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>Since the presumptions arising by virtue of s. 45 of the <I>Act</I> are
+permissive presumptions, I hold that they are not inconsistent with the <I>Charter.</I></P>
+
+<P class="ParagNum">[193] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>The result is that the applicants are entitled to a declaration that s.
+17 of the <I>Combines Investigation Act</I> is inconsistent with s. 7 of the <I>Charter</I>
+and is therefore of no force or effect. The other relief sought by the
+applicants is denied for the reasons given.</P>
+
+<P class="ParagNum">[194] <SPAN style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</SPAN>I make no order as to costs.</P>
+
+<P class="MsoNormal" style="margin-top:12.0pt"><I>Application allowed in part.</I></P>
+
+</DIV>
+
+
+
+
+</BODY></HTML>

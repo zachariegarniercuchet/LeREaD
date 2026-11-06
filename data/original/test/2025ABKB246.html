@@ -1,0 +1,813 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.5in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:2.0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:2.0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:2.0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:2.0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:#404040;
+	font-weight:bold;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:12.25pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:23.75pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:48.25pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:59.75pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:1.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:84.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:96.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.MsoFootnoteReference
+	{font-family:"Times New Roman",serif;
+	font-variant:normal !important;
+	text-transform:none;
+	text-decoration:none;
+	}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.5in;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:6.0pt;
+	margin-right:.5in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria",serif;
+	font-weight:bold;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Times New Roman",serif;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Times New Roman",serif;}
+p.FelskyNumbering12, li.FelskyNumbering12, div.FelskyNumbering12
+	{mso-style-name:"Felsky Numbering 1\.2";
+	mso-style-link:"Felsky Numbering 1\.2 Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-indent:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FelskyNumbering12Char
+	{mso-style-name:"Felsky Numbering 1\.2 Char";
+	mso-style-link:"Felsky Numbering 1\.2";
+	font-family:"Times New Roman",serif;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Times New Roman",serif;}
+p.Quote2nd, li.Quote2nd, div.Quote2nd
+	{mso-style-name:"Quote 2nd";
+	mso-style-link:"Quote 2nd Char";
+	margin-top:6.0pt;
+	margin-right:1.0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote2ndChar
+	{mso-style-name:"Quote 2nd Char";
+	mso-style-link:"Quote 2nd";
+	font-family:"Times New Roman",serif;}
+p.Quote3rd, li.Quote3rd, div.Quote3rd
+	{mso-style-name:"Quote 3rd";
+	mso-style-link:"Quote 3rd Char";
+	margin-top:6.0pt;
+	margin-right:1.5in;
+	margin-bottom:6.0pt;
+	margin-left:1.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote3rdChar
+	{mso-style-name:"Quote 3rd Char";
+	mso-style-link:"Quote 3rd";
+	font-family:"PMingLiU",serif;}
+p.Quote4th, li.Quote4th, div.Quote4th
+	{mso-style-name:"Quote 4th";
+	mso-style-link:"Quote 4th Char";
+	margin-top:6.0pt;
+	margin-right:2.0in;
+	margin-bottom:6.0pt;
+	margin-left:2.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote4thChar
+	{mso-style-name:"Quote 4th Char";
+	mso-style-link:"Quote 4th";
+	font-family:"PMingLiU",serif;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma",sans-serif;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Times New Roman",serif;
+	font-style:italic;
+	text-decoration:underline;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Times New Roman",serif;
+	color:#404040;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";}
+p.TableText, li.TableText, div.TableText
+	{mso-style-name:"Table Text";
+	mso-style-link:"Table Text Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.TableTextCxSpFirst, li.TableTextCxSpFirst, div.TableTextCxSpFirst
+	{mso-style-name:"Table TextCxSpFirst";
+	mso-style-link:"Table Text Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.TableTextCxSpMiddle, li.TableTextCxSpMiddle, div.TableTextCxSpMiddle
+	{mso-style-name:"Table TextCxSpMiddle";
+	mso-style-link:"Table Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.TableTextCxSpLast, li.TableTextCxSpLast, div.TableTextCxSpLast
+	{mso-style-name:"Table TextCxSpLast";
+	mso-style-link:"Table Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Quote1st, li.Quote1st, div.Quote1st
+	{mso-style-name:"Quote 1st";
+	mso-style-link:"Quote 1st Char";
+	margin-top:6.0pt;
+	margin-right:.5in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.ParagraphedelisteCar
+	{mso-style-name:"Paragraphe de liste Car";
+	mso-style-link:"Paragraphe de liste";}
+span.Quote1stChar
+	{mso-style-name:"Quote 1st Char";
+	mso-style-link:"Quote 1st";}
+span.TableTextChar
+	{mso-style-name:"Table Text Char";
+	mso-style-link:"Table Text";}
+p.Spacingadjust, li.Spacingadjust, div.Spacingadjust
+	{mso-style-name:"Spacing adjust";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Style1CxSpFirst, li.Style1CxSpFirst, div.Style1CxSpFirst
+	{mso-style-name:Style1CxSpFirst;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Style1CxSpMiddle, li.Style1CxSpMiddle, div.Style1CxSpMiddle
+	{mso-style-name:Style1CxSpMiddle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Style1CxSpLast, li.Style1CxSpLast, div.Style1CxSpLast
+	{mso-style-name:Style1CxSpLast;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-size:12.0pt;}
+.MsoPapDefault
+	{margin-left:.5in;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+</head>
+<body link="blue" style="text-justify-trim:punctuation" vlink="purple">
+<div class="WordSection1">
+<p class="Style1">Court of King’s Bench of Alberta</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><b>Citation: Durham Creek Energy Ltd v Chimera Management Group Ltd, 2025 ABKB 246</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><b>Date:</b> 20250422</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><b>Docket:</b> 2501 01277</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><b>Registry:</b> Calgary</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><a name="RegularStyleOf">Between:</a></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b>Durham Creek Energy Ltd.</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">Applicant</p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center">- and -</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b>Chimera Management Group Ltd., Chris Lewis, Wtrshed Resources Ltd., and Kellie D'Hondt</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">Respondents</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in"> </p>
+</div><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><br clear="all" style="page-break-before:auto"/></span>
+<div class="WordSection2">
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"><a name="CorrectedJudgment"></a><b> </b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><b>_______________________________________________________</b></p>
+<p align="center" class="MsoNormal" style="margin-top:12.0pt;margin-right:0in;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;
+page-break-after:avoid"><a name="JudgmentType"></a><a name="JudgmentTypeStart"></a><a name="JudgmentTypeEnd"></a><b>Reasons for Decision</b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><a name="JusticeTitleStart"></a><a name="Salutation"></a><a name="Masters"></a><a name="JusticeTitleEnd"></a><b>of the</b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><a name="JusticeTitleBefore"><b>Honourable Justice</b></a><b> <a name="JusticeName"></a><a name="JusticeTitleAfter"></a>Colin C.J. Feasby</b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><b>_______________________________________________________</b></p>
+<p class="MsoNormal" style="margin-left:0in"><a name="TableOfContentsLocation"></a> </p>
+<h1 style="margin-left:.75in;text-indent:-.5in"><a name="Disposition"></a><a name="FelskyStart"></a><a name="Paragraph1"></a>I.<span style='font:7.0pt "Times New Roman"'>                   </span>Introduction</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par1">1</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Durham Creek Energy Ltd (“Durham Creek”) commenced this action by Originating Notice seeking a declaration that, among other things, the gross overriding royalty (“GORR”) held by Chimera Management Group Ltd (“Chimera”) and Wtrshed Resources Ltd (“Wtrshed”) is not an interest in land.  Both parties agree that determination of this issue by the Court will assist the parties govern their affairs.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par2">2</a>]<span style='font:7.0pt "Times New Roman"'>               </span>The question of whether GORRs are interests in land has been a source of litigation and academic debate for many years.  The law is now clear that GORRs can be interests in land but there is continuing uncertainty over how to determine if the parties to a royalty grant intended the GORR to be an interest in land.  There is a tension between textual and contextual approaches to interpreting GORRs in the case law.  My view, as expressed in the following Reasons, is that the approach to interpreting GORRs should be consistent with contemporary principles of contract interpretation and should consider the language of the GORR together with evidence of both purpose and surrounding circumstances.</p>
+<h1 style="margin-left:.75in;text-indent:-.5in">II.<span style='font:7.0pt "Times New Roman"'>                </span>Background</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par3">3</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Hudson’s Bay Oil and Gas Company Limited (“HBOG”) leased the petroleum and natural gas rights in the lands from the fee simple landowners.  HBOG then farmed its working interest in the lease out to Pacific Petroleums Ltd (“Pacific”) pursuant to a letter agreement dated October 10, 1975 (the “Letter Agreement”).  The Letter Agreement provided that the Pacific working interest was subject to a GORR in favour of HBOG.  The key paragraph is as follows:</p>
+<p class="Quote1st">Upon completion of the test well, Farmee shall earn a 100% working interest to all rights in the farmout lands to the base of the Cretaceous formation subject to a gross overriding royalty to Hudson’s Bay Oil and Gas Company Limited of 1/150 sliding scale (5-15%) on oil and 15% on gas.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par4">4</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Today, Durham Creek stands in place of Pacific as the working interest owner and Chimera and Wtrshed claim are successors to HBOG as owners of the GORR.  Durham Creek asks the Court to determine that the GORR is not an interest in land.  Durham Creek says that whether the GORR is an interest in land determines whether the GORR is payable to Chimera and Wtrshed.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par5">5</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Durham Creek’s position was initially that the GORR was extinguished in the bankruptcy of Sequoia Resources Corporation (“Sequoia”) which held the GORR prior to Chimera and Wtrshed.  But the GORR was an asset of Sequoia, not a liability, and was not disclaimed by the trustee.  Indeed, the trustee sold the GORR to Chimera and Wtrshed.  Justice Armstrong issued an Approval and Vesting Order in respect of the sale on December 2, 2024.  Whether the GORR was an interest in land or just a contractual right, it survived the Sequoia bankruptcy proceedings and was transferred to Chimera and Wtrshed.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par6">6</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Durham Creek now says that the question of whether the GORR is an interest in land is relevant to whether it must accept the assignment of the GORR from Sequoia to Chimera and Wtrshed.  Durham Creek says that it may refuse the assignment if it is only contractual in nature whereas it is bound by the assignment if it is an interest in land.  Chimera and Wtrshed agree that Durham Creek is bound by the assignment of the GORR if it is an interest in land but dispute Durham Creek’s assertion that it may reject the GORR if it is only contractual in nature.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par7">7</a>]<span style='font:7.0pt "Times New Roman"'>               </span>The parties agree that it would be helpful for the Court to determine whether the GORR is an interest in land and that there is no reason to defer this question to a trial.  The parties further agree that the evidence before the Court at a trial would be no different than the record now before the Court.</p>
+<h1 style="margin-left:.75in;text-indent:-.5in">III.<span style='font:7.0pt "Times New Roman"'>             </span>Royalties as Interests in Land</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par8">8</a>]<span style='font:7.0pt "Times New Roman"'>               </span>The question of whether a gross overriding royalty can be an interest in land has vexed Alberta courts for decades: see generally G.J. Davies, “The Legal Characterization of Overriding Royalty Interests in Oil and Gas” (1972) 10 Alberta Law Review 232.  Justice Major, writing for the Court in <b><i>Bank of Montreal v Dynex Petroleum Ltd</i></b>, 2002 SCC 7 (“<b><i>Dynex SCC</i></b>”) settled the issue by casting aside the common law restrictions on creating interests in land out of incorporeal interests and held that whether a GORR is an interest in land depends on the intention of the parties not whether the underlying interest in land is corporeal or incorporeal.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par9">9</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Justice Bourque provided an excellent review of the pre- and post-<b><i>Dynex SCC</i></b> case law in <b><i>PrairieSky Royalty Ltd v Yangarra Resources Ltd</i></b>, 2023 ABKB 11 at paras 20-66.  Rather than undertake a similar exegesis afresh, I adopt his summary of the law.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par10">10</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The issue post-<b><i>Dynex SCC</i></b> is how to determine the intention of the parties.  The reason that this is a problem at all is because <b><i>Dynex SCC</i></b> is a terse decision that has sent conflicting signals to lower courts.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par11">11</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Before <b><i>Dynex SCC</i></b>, Courts looked for “magic words” that indicated whether an instrument created an interest in land.  This approach was exemplified in <b><i>Vandergrift v Coseka Resources Ltd</i></b>, (1989) 67 Alta LR (2d) 17.  The magic words approach was rejected in <b><i>Bank of Montreal v Enchant Resources Ltd</i></b>, 1999 ABCA 363 (“<b><i>Dynex CA</i></b>”) at para 73 in favour of a contextual approach.  <b><i>Dynex CA</i></b> identified the following non-exclusive set of indicia that could be used to identify whether an interest in land had been created:</p>
+<p class="MsoListNumber">1.<span style='font:7.0pt "Times New Roman"'>                  </span>The underlying interest is an interest in land (corporeal or incorporeal);</p>
+<p class="MsoListNumber">2.<span style='font:7.0pt "Times New Roman"'>                  </span>The intentions of the parties, as evidenced by the language of the grant and any admissible evidence of the surrounding circumstances or behaviour, indicate that it was understood that an interest in land was created/conveyed;</p>
+<p class="MsoListNumber">3.<span style='font:7.0pt "Times New Roman"'>                  </span>The interest is capable of lasting for the duration of the underlying estate.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par12">12</a>]<span style='font:7.0pt "Times New Roman"'>           </span><b><i>Dynex SCC</i></b> affirmed the decision in <b><i>Dynex CA</i></b> but failed to address the contextual approach set out in <b><i>Dynex CA</i></b> and instead at para 22 quoted from <b><i>Vandergrift</i></b>.  The passage Justice Major quoted from <b><i>Vandergrift</i></b> directs courts to determine if “the language used in describing the interest is sufficiently precise to show that the parties intended the royalty to be a grant of an interest in land, rather than a contractual right to a portion of the oil and gas substances recovered from the land.”  <b><i>Dynex SCC</i></b> commands Courts to look at the language of the royalty grant arguably to the exclusion of the purpose of the royalty grant or evidence of the surrounding circumstances: Elisa Stewart and Joel Henderson, “A Tale of Two Interests: Reframing <i>Dynex </i>to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land” (2020) 18 Annual Review of Insolvency Law 215 at 227.  Alicia Quesnel observed that “[t]hose who prefer the strict method of interpretation can at least take comfort that earlier cases ... may still be relevant” because <b><i>Dynex SCC</i></b> quoted <b><i>Vandergrift</i></b>: Alicia K. Quesnel, “Modernizing the Property Laws that Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry” (2003) 41 Alberta Law Review 159 at 176.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par13">13</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The <b><i>Vandergrift</i></b> quote floats in the ether without any approving or disapproving commentary from Justice Major or any indication as to its significance, so Courts and commentators have been left to guess whether it is meant to be a refinement or rejection of the <b><i>Dynex CA</i></b> indicia or something else altogether.  David LeGeyt and his co-authors speculated that the <b><i>Vandergrift</i></b> quote signals a rejection of the <b><i>Dynex CA</i></b> indicia: David LeGeyt, Ashley Weldon, Natasha Wood, and Brendan Downey, “Let’s Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty” (2019) 57 Alberta Law Review 335 at 347.  Professor Bankes politely observed that “because the Supreme Court itself did not offer much guidance on the question of how to assess the intentions of the parties, lower courts have sometimes struggled with the question of how to apply <i>Dynex</i>”: Nigel Bankes, “The Legal Status of a Gross Overriding Royalty Carved out of a Crown Lease” ABLawg.ca (January 11, 2023).  Justice Lauwers in <b><i>Third Eye Capital Corporation v Dianor Resources Inc</i></b>, 2018 ONCA 253 at para 73, citing an earlier article by Professor Bankes, made a similar criticism of <b><i>Dynex SCC</i></b>.  The confusion sowed by <b><i>Dynex SCC</i></b> concerning the correct approach to determining whether a GORR is an interest in land is evident in the cases reviewed by Bourque J in <b><i>PrairieSky</i></b>.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par14">14</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The correct approach, in my opinion, is to use the <b><i>Dynex CA</i></b> indicia to determine whether the GORR is an interest in land.  The first <b><i>Dynex CA</i></b> indicum is uncontroversial and consistent with <b><i>Dynex SCC</i></b>.  The second <b><i>Dynex CA</i></b> indicum aligns with the contextual approach to ascertaining the intention of parties to contracts that has developed in the time since <b><i>Dynex SCC</i></b> was decided by allowing for consideration of the surrounding circumstances and purpose of the royalty grant: see <b><i>Creston Moly Corp v Sattva Capital Corp</i></b>, 2014 SCC 53 at 47-49 and <b><i>IFP Technologies (Canada) Inc v EnCana Midstream and Marketing</i></b>, 2017 ABCA 157 at para 79.  The <b><i>Dynex SCC/Vandergrift</i></b> narrow focus on the language of a royalty grant to the exclusion of purpose and surrounding circumstances must be rejected because it is out of step with contemporary contract interpretation.  The third <b><i>Dynex CA</i></b> indicum has been used by other courts since <b><i>Dynex SCC</i></b>: see, for example, <b><i>Manitok Energy Inc (Re)</i></b>, 2018 ABKB 488 at para 24 where Horner J observed that the GORR was structured to have the same duration as the underlying interest in land.  The <b><i>Dynex CA</i></b> approach is, in my opinion, consistent with the approach Bourque J outlined in <b><i>PrairieSky</i></b> at paras 59-66.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par15">15</a>]<span style='font:7.0pt "Times New Roman"'>           </span>To the foregoing criticism, I add that the <b><i>Dynex SCC/Vandergrift</i></b> demand for language that is “sufficiently precise” to create an interest in land is unhelpful.  Whether a royalty is an interest in land or just a contractual right is determined according to the civil standard of proof.  Neither <b><i>Dynex SCC </i></b>nor <b><i>Vandergrift</i></b> explains if the words “sufficiently precise” are consistent with proof on a balance of probabilities or whether the words imply a different standard.  Regardless, it is a distraction from the task at hand, which is determining on an objective basis whether the parties, on a balance of probabilities, intended the GORR to be an interest in land.</p>
+<h1 style="margin-left:.75in;text-indent:-.5in">IV.<span style='font:7.0pt "Times New Roman"'>             </span>Analysis</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par16">16</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The dispute between the parties turns on the second <b><i>Dynex CA</i></b> indicum, the intention of the parties.  The first <b><i>Dynex CA</i></b> indicum is satisfied because the parties agree for the purpose of this application that the underlying interest is an interest in land.  The third <b><i>Dynex CA</i></b> indicum was disputed by Durham Creek on the basis that the current royalty is limited to the Mannville formation rather than applying to all strata to the base of the Cretaceous formation and thus part of the GORR has not lasted the duration of the underlying interest in land.  Though there is no evidence on the point, the royalty must have been amended sometime between its creation and today.  The point of the third <b><i>Dynex CA</i></b> indicum is that the interest is <u>capable</u> of lasting for the duration of the underlying estate not that it has, in fact, lasted the duration of the underlying estate.  The inquiry is directed to the time at which the grant is made and does not consider subsequent events.  The GORR in issue in this case was capable of lasting the duration of the underlying leasehold interest.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par17">17</a>]<span style='font:7.0pt "Times New Roman"'>           </span>At the outset considering the second <b><i>Dynex CA</i></b> indicum, I note that there is no evidence of circumstances surrounding the creation of the GORR.  Neither of the parties before the Court are the original parties to the Letter Agreement and it is not known if the individuals involved in creating the Letter Agreement are alive today let alone if they remember anything about the circumstances surrounding the formation of the Letter Agreement nearly 50 years ago.  Further, neither party called an expert witness who could speak to the practices of the oil and gas industry in the 1970s.  The purpose of the GORR and other contextual considerations relevant to interpretation must be inferred from the Letter Agreement itself.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par18">18</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The first point relevant to interpretation of the GORR is that both Durham Creek’s working interest and Chimera and Wtrshed’s GORR originate in the same paragraph of the Letter Agreement.  The fact that the GORR originates in the same paragraph as the working interest to which it attaches supports the view that the GORR is the same type of interest as the working interest.  And there is no dispute that Durham Creek’s working interest in the lease is an interest in land.  Of course, such an inference could be negated through use of appropriate language, but there are no words in the Letter Agreement that indicate that the GORR is a different or lesser nature of interest than the working interest.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par19">19</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The second point that supports a finding that the GORR is an interest in land is the language used in the Letter Agreement.  The Letter Agreement specifies that the working interest to be earned is “subject to” the GORR.  <b><i>Dynex CA</i></b> rightly rejected the “magic words” approach to interpretation seen in <b><i>Vandergrift</i></b>, but that does not mean that the words are irrelevant.  Instead, it means that the words are to be read in context including considering evidence of the surrounding circumstances and the purpose of the grant.  The words “subject to”, when used in relation to legal rights, indicate the ordering of rights.  The words “subject to” as used in the Letter Agreement may indicate that the GORR is an interest in land and the working interest is subordinate to the GORR.  The words “subject to” could also be interpreted to mean that the GORR is a contractual right that burdens the working interest.  The words “subject to” are not dispositive though, in my view, they are more suggestive of an interest in land than a contractual right.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par20">20</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The third and most important point for interpreting the Letter Agreement is the economics of the transaction between Pacific and HBOG.  HBOG was the holder of the lease, and it may be inferred that a well had to be drilled to hold the lease.  For whatever reason, HBOG farmed the opportunity out to Pacific.  Pacific drilled the well, earned the working interest, and assumed HBOG’s obligations to the lessor.  The main consideration in the transaction flowing back to HBOG was the GORR.  The key thing to understand is that HBOG did not get paid up front for the working interest; its consideration was deferred and contingent.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par21">21</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The risk in a transaction where one party transfers value up front and the other receives deferred and contingent consideration is that the deferred and contingent consideration may never materialize.  One way this can happen with a contractual GORR is that a future transferee of the lease refuses to accept the assignment of the GORR obligation.  Indeed, this is exactly what Durham Creek says that it is entitled to do now.  Prudent and informed parties entering a farm out arrangement in the place of Pacific and HBOG would recognize the risk that HBOG (or its successors) may be denied the deferred and contingent consideration by unanticipated future events and would want the GORR to run with the underlying leasehold interest to protect against that risk.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par22">22</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The Court of Appeal explained the business logic of GORRs being interests in land in <b><i>Dynex CA</i></b> at para 36 in terms that are applicable to the present case:</p>
+<p class="Quote1st">Royalties ... are investments in a particular piece of property, not in a particular operator or company.  There are other means for investing in the owner or operator.  The investment return on a royalty results from the success of the property regardless of who owns or is working the property.  These unique functions and characteristics apply equally to overriding royalties as well as royalties.  The fact that overriding royalties are not granted from the whole of the mineral interest but from the working interest does not change their role in oil and gas production.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par23">23</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Common sense and business efficacy suggest that the GORR in issue in the present case should be interpreted to be an interest in land if the language used permits such an interpretation.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par24">24</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Taken together, the common origin of the working interest and the GORR in the same paragraph of the Letter Agreement, the words “subject to” indicating that the working interest is subordinate to the GORR, and the economics of the Letter Agreement transaction all support the conclusion that the GORR is an interest in land.</p>
+<h1 style="margin-left:.75in;text-indent:-.5in">V.<span style='font:7.0pt "Times New Roman"'>                </span>Conclusion</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par25">25</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Durham Creek’s application is dismissed.  If the parties are unable to agree on costs, they may provide written submissions of 3 pages or less supported by a Bill of Costs.</p>
+<p class="Spacingadjust"> </p>
+<p class="MsoNormal" style="margin-left:0in">Heard on the <a name="HearingDate"></a>17<sup>th</sup> day of April, 2025.</p>
+<p class="MsoNormal" style="margin-left:0in"><b>Dated</b> at the City of Calgary, Alberta this <a name="JudgmentDate"></a>22<sup>nd</sup> day of April, 2025.</p>
+<p class="FelskyNumbering12"> </p>
+<p class="FelskyNumbering12"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:6.0pt 0in 2.9pt 0in" valign="top" width="336">
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:2.9pt;
+  margin-left:0in"> </p></td>
+<td style="width:3.0in;border:none;border-top:solid black 1.0pt;
+  padding:6.0pt 0in 2.9pt 0in" valign="top" width="288">
+<p class="MsoNormal" style="margin-left:0in"><b>Colin C.J. Feasby</b></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:2.9pt;
+  margin-left:0in"><b>J.C.K.B.A.</b></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"><b>Appearances:</b></p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">Craig O. Alcock, Burnet, Duckworth &amp; Palmer LLP</p>
+<p class="MsoNormal" style="margin-left:0in">            for the Applicant</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">Warren P. Foley &amp; Kevin Pedersen, Gowling WLG (Canada) LLP</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">            for the Respondents</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><a name="Corrigendum"></a><span style="font-size:11.0pt"> </span></p>
+<p class="MsoNormal" style="margin-left:0in"><span style="font-size:
+11.0pt"> </span></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "Lynch v. B.C. Human Rights Commission": {
+    "uri": "https://canlii.ca/t/1fmmj",
+    "score": 3.0,
+    "candidate_id": "2000bcsc1419",
+    "candidate_title": "David Lynch v. BC Human Rights Commission",
+    "query_text": "decision | <i>Lynch v. B.C. Human Rights Commission,</i> | 2000 BCSC 1419",
+    "method": "citation_exact",
+    "matched_key": "2000bcsc1419",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fmmj",
+        "score": 3.0,
+        "candidate_title": "David Lynch v. BC Human Rights Commission"
+      }
+    ]
+  }
+}

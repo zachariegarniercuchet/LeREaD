@@ -1,0 +1,186 @@
+{
+  "merges": [
+    {
+      "new_group_id": "G0053",
+      "merged_from": [
+        "G0053",
+        "G0134"
+      ],
+      "reason": "constitution-1867: federal-unique title, cite-compatible (weak '1867'/citeless), no jurisdiction conflict",
+      "n_members": 2,
+      "canonical_title": "Constitution Act, 1867"
+    },
+    {
+      "new_group_id": "G0055",
+      "merged_from": [
+        "G0055",
+        "G0298",
+        "G0327",
+        "G0498"
+      ],
+      "reason": "criminal-code: federal-unique title, all citeless legislation, no jurisdiction conflict",
+      "n_members": 4,
+      "canonical_title": "Criminal Code"
+    },
+    {
+      "new_group_id": "G0338",
+      "merged_from": [
+        "G0338",
+        "G1154"
+      ],
+      "reason": "nicholson: shared cite [1979] 1 S.C.R. 311, identical full case name",
+      "n_members": 2,
+      "canonical_title": "Nicholson v. Haldimand-Norfolk Regional Board of Commissioners of Police"
+    },
+    {
+      "new_group_id": "G0510",
+      "merged_from": [
+        "G0510",
+        "G0989"
+      ],
+      "reason": "ontario-rules: same Ontario Rules of Civil Procedure instrument, different provisions cited (Rule 39.01 vs Rule 20)",
+      "n_members": 2,
+      "canonical_title": "Ontario Rules of Civil Procedure"
+    },
+    {
+      "new_group_id": "G0210",
+      "merged_from": [
+        "G0210",
+        "G0309"
+      ],
+      "reason": "gladue: shared cite [1999] 1 S.C.R. 688, identical case name",
+      "n_members": 2,
+      "canonical_title": "R. v. Gladue"
+    },
+    {
+      "new_group_id": "G0480",
+      "merged_from": [
+        "G0480",
+        "G0569"
+      ],
+      "reason": "voice-construction: shared cite [2004] 1 S.C.R. 609, identical full case name",
+      "n_members": 2,
+      "canonical_title": "Voice Construction Ltd. v. Construction & General Workers’ Union, Local 92"
+    },
+    {
+      "new_group_id": "G0115",
+      "merged_from": [
+        "G0115",
+        "G0661"
+      ],
+      "reason": "wigmore: distinctive treatise title, author-compatible (one side empty), both citeless secondary",
+      "n_members": 2,
+      "canonical_title": "Wigmore on Evidence"
+    },
+    {
+      "new_group_id": "G0482",
+      "merged_from": [
+        "G0482",
+        "G0708"
+      ],
+      "reason": "wcb-canada: identical book title + overlapping author Ison/Terence G. Ison (R6)",
+      "n_members": 2,
+      "canonical_title": "Workers’ Compensation in Canada"
+    },
+    {
+      "new_group_id": "G0483",
+      "merged_from": [
+        "G0483",
+        "G0709"
+      ],
+      "reason": "wcb-ontario: identical book title + overlapping authors Gilbert/Liversidge (R6)",
+      "n_members": 2,
+      "canonical_title": "Workers’ Compensation in Ontario"
+    },
+    {
+      "new_group_id": "G1478",
+      "merged_from": [
+        "G1478",
+        "G1479",
+        "G1480"
+      ],
+      "reason": "nb-wcb-act: shared cite R.S.N.B. 1973 c. W-13, same NB Workers Compensation Act (PEI W-7.1 G1482 kept separate)",
+      "n_members": 3,
+      "canonical_title": "Workers’ Compensation Act (New Brunswick)"
+    },
+    {
+      "new_group_id": "G0164",
+      "merged_from": [
+        "G0164",
+        "G0206"
+      ],
+      "reason": "london-drugs: shared cites [1992] 3 S.C.R. 299 + 97 D.L.R. (4th) 261, same appellant, respondent variant same litigation",
+      "n_members": 2,
+      "canonical_title": "London Drugs Ltd. v. Kuehne & Nagel International Ltd."
+    },
+    {
+      "new_group_id": "G0154",
+      "merged_from": [
+        "G0154",
+        "G0193"
+      ],
+      "reason": "edgeworth: shared cite [1993] 3 S.C.R. 206, same appellant, respondent name variant",
+      "n_members": 2,
+      "canonical_title": "Edgeworth Construction Ltd. v. Lea (N.D.) and Associates Ltd. et al."
+    },
+    {
+      "new_group_id": "G0429",
+      "merged_from": [
+        "G0429",
+        "G0555"
+      ],
+      "reason": "matsqui: shared cite [1995] 1 S.C.R. 3, reversed parties (benign)",
+      "n_members": 2,
+      "canonical_title": "Canadian Pacific Ltd. v. Matsqui Indian Band"
+    },
+    {
+      "new_group_id": "G0313",
+      "merged_from": [
+        "G0313",
+        "G1268"
+      ],
+      "reason": "rizzo: shared cite [1998] 1 S.C.R. 27, Re-caption variant",
+      "n_members": 3,
+      "canonical_title": "Rizzo & Rizzo Shoes Ltd. (Re)"
+    },
+    {
+      "new_group_id": "G0447",
+      "merged_from": [
+        "G0447",
+        "G0485"
+      ],
+      "reason": "wsia: shared cite S.O. 1997 c. 16, long-title vs short-title of same Ontario act, same source doc",
+      "n_members": 2,
+      "canonical_title": "An Act to Secure the Financial Stability of the Compensation System for Injured Workers, to Promote the Prevention of Injury and Disease in Ontario Workplaces and to Revise the Workers’ Compensation Act and Make Related Amendments to Other Acts"
+    },
+    {
+      "new_group_id": "G0463",
+      "merged_from": [
+        "G0463",
+        "G0684"
+      ],
+      "reason": "keddy: fuzzy citation 2002247nbr2d284~2002247nbr2d284ca (score 93.75, '(C.A.)' suffix variant of same 247 N.B.R. (2d) 284 cite) + same appellant Keddy + same respondent WHSCC + same year; verified by agent review of 44 fuzzy pairs (43 rejected as distinct cases)",
+      "n_members": 2,
+      "canonical_title": "Keddy v. New Brunswick (Workplace Health, Safety and Compensation Commission)"
+    }
+  ],
+  "left_split": [
+    "codeofcivilprocedure G0747/G1075/G1377: Quebec CCP but no shared cite (C.C.P. junk vs C-25/C-25.01 vs I-0.2.1) - human check",
+    "judicatureact G0303/G0533/G1199: NL vs NWT vs NB cites - different provincial acts",
+    "labourrelationsact G0036/G0538/G0811/G1323/G1326: ON vs MB, no shared cite - different provinces acts",
+    "maxwell G0005/G0017: author mismatch (Corry vs Maxwell vs empty), same-doc overlap - human check",
+    "pse-act G0829/G0862: same doc but incompatible cites (P-42.2/Bill5 vs P-15.01/M-36.1) - different instruments",
+    "publicutilitiesact G0962/G1438: NL RSNL P-47 vs citeless TPA - no proof",
+    "sfl G0846/G1334: 2012 SKQB multi-cite cluster vs 2015 SCC cite - different instances/eras",
+    "unknown G0286/G0423/G0875: junk placeholders, mixed types",
+    "workers G0707/G1478: decision vs legislation - title-key artifact",
+    "G0444/G0445 PEI-vs-NB amendments, G0122/G0123 BC-vs-ON, G0302/G0681 NL-vs-PEI, FOIP AB/PEI/NU, trade-union base-vs-amendments, Daigle/Pettkus/Dunsmuir-co-citations, Andrews/Thornton trilogy, Dunmore/SFL co-citation, MPAO/SFL volume collision, G0780/G0817 title-cite mismatch (flagged suspect)"
+  ],
+  "fuzzy_scan": {
+    "method": "rapidfuzz fuzz.ratio>=90 on normalized distinctive citations (1331 cites, junk/years excluded)",
+    "pairs_reviewed": 44,
+    "merged": 1,
+    "rejected": 43,
+    "note": "Near-identical cites (consecutive neutral numbers, adjacent pages/volumes/chapters) proved to be distinct cases in 43/44 pairs - same trap as SPLADE similarity: relatedness != identity. Only the Keddy (C.A.)-suffix variant was the same source."
+  }
+}

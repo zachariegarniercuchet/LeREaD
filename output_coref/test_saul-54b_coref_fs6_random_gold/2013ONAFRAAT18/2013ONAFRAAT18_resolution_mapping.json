@@ -1,0 +1,194 @@
+{
+  "Association of Ontario Chicken Processors v. CFO": {
+    "uri": "https://canlii.ca/t/g2ggd",
+    "score": 0.7717670202255249,
+    "candidate_id": "2013onafraat18",
+    "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)",
+    "query_text": "decision | Association\n  of Ontario Chicken Processors v. CFO | Association of Ontario Chicken Processors v. Chicken\nFarmers of Ontario | 2013\n  ONAFRAAT 18",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g2ggd",
+        "score": 0.7717670202255249,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g29t4",
+        "score": 0.7608989477157593,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (Without Reasons)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hnqrt",
+        "score": 0.5932642221450806,
+        "candidate_title": "Seelster Farms Inc. v. ONTARIO"
+      }
+    ]
+  },
+  "Children’s Aid Society of the County of Renfrew v. J.D.": {
+    "uri": "https://canlii.ca/t/2fk1b",
+    "score": 0.8702656626701355,
+    "candidate_id": "2011onsc744",
+    "candidate_title": "Children’s Aid Society of the County of Renfrew v. J.D.",
+    "query_text": "decision | <i><span style=\"font-size:12.0pt\">Children’s Aid Society of the County of Renfrew</span></i><span style=\"font-size:12.0pt\"> v. <i>J.D.</i></span> | 2011 ONSC <span style='font-size:12.0pt;font-family:\"Times Roman\",\"serif\"'>744</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2fk1b",
+        "score": 0.8702656626701355,
+        "candidate_title": "Children’s Aid Society of the County of Renfrew v. J.D."
+      },
+      {
+        "uri": "https://canlii.ca/t/ftnb8",
+        "score": 0.6977418661117554,
+        "candidate_title": "Huron-Perth Children’s Aid Society v. J.F."
+      },
+      {
+        "uri": "https://canlii.ca/t/gf6fp",
+        "score": 0.6779587864875793,
+        "candidate_title": "Children’s Aid Society of Ottawa v. DL, AR, and SR"
+      }
+    ]
+  },
+  "Bloorview Children’s Hospital Foundation v. Bloorview MacMillan Centre": {
+    "uri": "https://synthetic.leread.ca/gold/G0097",
+    "score": 0.813225507736206,
+    "candidate_id": "gold-G0097",
+    "candidate_title": "Bloorview Children’s Hospital Foundation v. Bloorview MacMillan Centre",
+    "query_text": "decision | Bloorview\nChildren’s Hospital Foundation v. Bloorview MacMillan Centre | <i>Bloorview</i> | [2001] O.J.\nNo.1700",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0097",
+        "score": 0.813225507736206,
+        "candidate_title": "Bloorview Children’s Hospital Foundation v. Bloorview MacMillan Centre"
+      },
+      {
+        "uri": "https://canlii.ca/t/1rrsv",
+        "score": 0.4824822247028351,
+        "candidate_title": "City Front Developments Inc. v. Toronto District School Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/jjz42",
+        "score": 0.47831636667251587,
+        "candidate_title": "McFlow Capital Corp. v. James"
+      }
+    ]
+  },
+  "M v H": {
+    "uri": "https://canlii.ca/t/1vtm7",
+    "score": 0.7507199645042419,
+    "candidate_id": "1994onctgd10174",
+    "candidate_title": "M. v. H.",
+    "query_text": "decision | <i>M. v. H.</i> | 1994 CanLII 7324\n(ON SC) | (1994), 20 O.R. (3d) 70",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vtm7",
+        "score": 0.7507199645042419,
+        "candidate_title": "M. v. H."
+      },
+      {
+        "uri": "https://canlii.ca/t/h3g0p",
+        "score": 0.5804317593574524,
+        "candidate_title": "M.R.R. v J.M."
+      },
+      {
+        "uri": "https://canlii.ca/t/1m6m2",
+        "score": 0.5772544145584106,
+        "candidate_title": "Murray v. Murray"
+      }
+    ]
+  },
+  "Ministry of Agriculture, Food and Rural Affairs Act": {
+    "uri": "https://canlii.ca/t/55z3s",
+    "score": 0.7899413108825684,
+    "candidate_id": "l267!267-current-1",
+    "candidate_title": "Ministry of Agriculture, Food and Rural Affairs Act",
+    "query_text": "legislation | Ministry\n  of Agriculture, Food and Rural Affairs Act | <span lang=\"EN-GB\" style=\"font-size:12.0pt\"> <i>MINISTRY OF\nAGRICULTURE, </i></span><i><span lang=\"EN-GB\" style=\"font-size:12.0pt\">FOOD\nAND RURAL AFFAIRS ACT</span></i> | Act | Statutory\nPowers and Procedure Act | <span lang=\"EN-GB\" style=\"font-size:\n12.0pt\">R.S.O. 1990</span><span lang=\"EN-GB\" style=\"font-size:\n12.0pt\">, CHAPTER M.16</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55z3s",
+        "score": 0.7899413108825684,
+        "candidate_title": "Ministry of Agriculture, Food and Rural Affairs Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jsg",
+        "score": 0.5564930438995361,
+        "candidate_title": "Statutory Powers Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/h7lx",
+        "score": 0.5422018766403198,
+        "candidate_title": "Rural Municipality Act, 1989"
+      }
+    ]
+  },
+  "Rules": {
+    "uri": "https://canlii.ca/t/56nkn",
+    "score": 0.7626093626022339,
+    "candidate_id": "l2759!2759-current-1",
+    "candidate_title": "Rules of Civil Procedure",
+    "query_text": "legislation | Rules | Rules of Civil Procedure",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 0.7626093626022339,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.7216887474060059,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.6669092178344727,
+        "candidate_title": "Supreme Court Civil Rules"
+      }
+    ]
+  },
+  "Act": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.631432056427002,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation | Act",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.631432056427002,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0118",
+        "score": 0.6127445697784424,
+        "candidate_title": "Canadian Citizenship Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6122518181800842,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      }
+    ]
+  },
+  "Merriam-Webster’s dictionary": {
+    "uri": "https://synthetic.leread.ca/gold/G0520",
+    "score": 0.5481342077255249,
+    "candidate_id": "gold-G0520",
+    "candidate_title": "Webster’s Canadian Dictionary and Thesaurus",
+    "query_text": "secondary sources | Merriam-Webster’s dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0520",
+        "score": 0.5481342077255249,
+        "candidate_title": "Webster’s Canadian Dictionary and Thesaurus"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0338",
+        "score": 0.5399831533432007,
+        "candidate_title": "Merriam-Webster dictionary"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0339",
+        "score": 0.5296140313148499,
+        "candidate_title": "Merriam-Webster Online Dictionary"
+      }
+    ]
+  }
+}

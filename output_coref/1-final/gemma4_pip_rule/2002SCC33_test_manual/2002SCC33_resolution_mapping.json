@@ -1,0 +1,775 @@
+{
+  "Housen v. Nikolaisen": {
+    "uri": "https://canlii.ca/t/51tl",
+    "score": 3.5,
+    "candidate_id": "2002csc-scc33",
+    "candidate_title": "Housen v. Nikolaisen",
+    "query_text": "decision | Housen v | Housen <i>v</i>. Nikolaisen | Nikolaisen rollover | 2002 SCC 33",
+    "method": "citation_exact",
+    "matched_key": "2002scc33",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tl",
+        "score": 3.5,
+        "candidate_title": "Housen v. Nikolaisen"
+      }
+    ]
+  },
+  "The Rural Municipality Act, 1989": {
+    "uri": "https://canlii.ca/t/h7lx",
+    "score": 3.5,
+    "candidate_id": "l5306!5306-current-1",
+    "candidate_title": "Rural Municipality Act, 1989",
+    "query_text": "legislation | The Rural Municipality Act, 1989 | Rural Municipality Act, 1989 | The Rural Municipality Act | Act | Rural Municipality Act | S.S. 1989‑90, c. R‑26.1 | 1992, c. 63 | 1993, c. T‑20.1 | S.S. 1989-90, c. R-26.1 | 1989",
+    "method": "citation_exact",
+    "matched_key": "ss198990cr261",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h7lx",
+        "score": 3.5,
+        "candidate_title": "Rural Municipality Act, 1989"
+      }
+    ]
+  },
+  "Criminal Code": {
+    "uri": "https://canlii.ca/t/56lsh",
+    "score": 3.5,
+    "candidate_id": "l12792!12792-current-1",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Criminal Code | R.S.C. 1985, c. C‑46 | R.S.C. 1985, c. C-46",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cc46",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Highway Traffic Act SS 1986": {
+    "uri": "https://canlii.ca/t/h7p5",
+    "score": 3.5,
+    "candidate_id": "l5334!5334-current-1",
+    "candidate_title": "The Highway Traffic Act",
+    "query_text": "legislation | Highway Traffic Act | The Highway Traffic Act | S.S. 1986, c. H‑3.1 | S.S. 1986, c. H-3.1",
+    "method": "citation_exact",
+    "matched_key": "ss1986ch31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h7p5",
+        "score": 3.5,
+        "candidate_title": "The Highway Traffic Act"
+      }
+    ]
+  },
+  "2000 SKCA 12": {
+    "uri": "https://canlii.ca/t/1l6s3",
+    "score": 4.0,
+    "candidate_id": "2000skca12",
+    "candidate_title": "Shellbrook (Rural Municipality No. 493) v. Housen",
+    "query_text": "decision | <i>Saskatchewan Court of Appeal</i> | [2000] 4 W.W.R. 173 | 189 Sask. R. 51 | 9 M.P.L.R. (3d) 126 | 50 M.V.R. (3d) 70 | [2000] S.J. No. 58 (QL) | 2000 SKCA 12",
+    "method": "citation_exact",
+    "matched_key": "189saskr51",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6s3",
+        "score": 4.0,
+        "candidate_title": "Shellbrook (Rural Municipality No. 493) v. Housen"
+      }
+    ]
+  },
+  "[1998] 5 W.W.R. 523": {
+    "uri": "https://canlii.ca/t/1nszq",
+    "score": 3.6,
+    "candidate_id": "1997skqb10291",
+    "candidate_title": "Housen v. Nikolaisen",
+    "query_text": "decision | <i>Saskatchewan Court of Queen’s Bench</i> | [1998] 5 W.W.R. 523 | 161 Sask. R. 241 | 44 M.P.L.R. (2d) 203 | [1997] S.J. No. 759 (QL)",
+    "method": "citation_exact",
+    "matched_key": "161saskr241",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nszq",
+        "score": 3.6,
+        "candidate_title": "Housen v. Nikolaisen"
+      }
+    ]
+  },
+  "Gottardo Properties (Dome) Inc. v. Toronto (City)": {
+    "uri": "https://canlii.ca/t/6h3n",
+    "score": 2.0,
+    "candidate_id": "1998onca10456",
+    "candidate_title": "Gottardo Properties (Dome) Inc. v. Toronto (City of)",
+    "query_text": "decision | Gottardo Properties (Dome) Inc. v. Toronto (City) | Gottardo Properties | (1998), 162 D.L.R. (4th) 574 (Ont. C.A.)",
+    "method": "title_exact",
+    "matched_key": "gottardo properties dome inc v toronto city",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6h3n",
+        "score": 2.0,
+        "candidate_title": "Gottardo Properties (Dome) Inc. v. Toronto (City of)"
+      }
+    ]
+  },
+  "Schwartz v. Canada": {
+    "uri": "https://canlii.ca/t/1frcq",
+    "score": 3.5,
+    "candidate_id": "1996csc-scc15",
+    "candidate_title": "Schwartz v. Canada",
+    "query_text": "decision | Schwartz v. Canada | Schwartz | [1996] 1 S.C.R. 254",
+    "method": "citation_exact",
+    "matched_key": "19961scr254",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frcq",
+        "score": 3.5,
+        "candidate_title": "Schwartz v. Canada"
+      }
+    ]
+  },
+  "Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital": {
+    "uri": "https://canlii.ca/t/1frwb",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc4",
+    "candidate_title": "Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital",
+    "query_text": "decision | Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital | Toneguzzo-Norvell | [1994] 1 S.C.R. 114",
+    "method": "citation_exact",
+    "matched_key": "19941scr114",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frwb",
+        "score": 3.5,
+        "candidate_title": "Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital"
+      }
+    ]
+  },
+  "Van de Perre v. Edwards": {
+    "uri": "https://canlii.ca/t/51z8",
+    "score": 3.7,
+    "candidate_id": "2001csc-scc60",
+    "candidate_title": "Van de Perre v. Edwards",
+    "query_text": "decision | Van de Perre  v. Edwards | Van de Perre | Van de Perre v. Edwards | [2001] 2 S.C.R. 1014 | 2001 SCC 60",
+    "method": "citation_exact",
+    "matched_key": "20012scr1014",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51z8",
+        "score": 3.7,
+        "candidate_title": "Van de Perre v. Edwards"
+      }
+    ]
+  },
+  "Underwood v. Ocean City Realty Ltd.": {
+    "uri": "https://canlii.ca/t/2126f",
+    "score": 2.0,
+    "candidate_id": "1987bcca1000149",
+    "candidate_title": "Underwood v. Ocean City Realty Ltd.",
+    "query_text": "decision | Underwood v. Ocean City Realty Ltd. | (1987), 12 B.C.L.R. (2d) 199 (C.A.)",
+    "method": "title_exact",
+    "matched_key": "underwood v ocean city realty ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2126f",
+        "score": 2.0,
+        "candidate_title": "Underwood v. Ocean City Realty Ltd."
+      }
+    ]
+  },
+  "Woods Manufacturing Co. v. The King": {
+    "uri": "https://canlii.ca/t/22wpp",
+    "score": 3.0,
+    "candidate_id": "1951csc-scc1000014",
+    "candidate_title": "Woods v. The King",
+    "query_text": "decision | Woods Manufacturing Co. v. The King | [1951] S.C.R. 504",
+    "method": "citation_exact",
+    "matched_key": "1951scr504",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 3.0,
+        "candidate_title": "Woods v. The King"
+      }
+    ]
+  },
+  "Stein v. The Ship “Kathy K”": {
+    "uri": "https://canlii.ca/t/1z9xr",
+    "score": 3.0,
+    "candidate_id": "1975csc-scc10129",
+    "candidate_title": "Stein et al. v. ‘Kathy K’ et al. (The Ship)",
+    "query_text": "decision | Stein v. The Ship “Kathy K” | Stein v. The Ship“Kathy K” | [1976] 2 S.C.R. 802",
+    "method": "citation_exact",
+    "matched_key": "19762scr802",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z9xr",
+        "score": 3.0,
+        "candidate_title": "Stein et al. v. ‘Kathy K’ et al. (The Ship)"
+      }
+    ]
+  },
+  "Ingles v. Tutkaluk Construction Ltd.": {
+    "uri": "https://canlii.ca/t/527s",
+    "score": 3.2,
+    "candidate_id": "2000csc-scc12",
+    "candidate_title": "Ingles v. Tutkaluk Construction Ltd.",
+    "query_text": "decision | [2000] 1 S.C.R. 298 | 2000 SCC 12",
+    "method": "citation_exact",
+    "matched_key": "20001scr298",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/527s",
+        "score": 3.2,
+        "candidate_title": "Ingles v. Tutkaluk Construction Ltd."
+      }
+    ]
+  },
+  "Ryan v. Victoria (City)": {
+    "uri": "https://canlii.ca/t/1fqpf",
+    "score": 3.5,
+    "candidate_id": "1999csc-scc6",
+    "candidate_title": "Ryan v. Victoria (City)",
+    "query_text": "decision | Ryan v. Victoria (City) | Ryan | [1999] 1 S.C.R. 201",
+    "method": "citation_exact",
+    "matched_key": "19991scr201",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqpf",
+        "score": 3.5,
+        "candidate_title": "Ryan v. Victoria (City)"
+      }
+    ]
+  },
+  "Fletcher v. Manitoba Public Insurance Co.": {
+    "uri": "https://canlii.ca/t/1fsqh",
+    "score": 3.5,
+    "candidate_id": "1990csc-scc120",
+    "candidate_title": "Fletcher v. Manitoba Public Insurance Co.",
+    "query_text": "decision | Fletcher v. Manitoba Public Insurance Co. | [1990] 3 S.C.R. 191",
+    "method": "citation_exact",
+    "matched_key": "19903scr191",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsqh",
+        "score": 3.5,
+        "candidate_title": "Fletcher v. Manitoba Public Insurance Co."
+      }
+    ]
+  },
+  "Consolboard Inc. v. MacMillan Bloedel (Saskatchewan) Ltd.": {
+    "uri": "https://canlii.ca/t/1lpbb",
+    "score": 3.5,
+    "candidate_id": "1981csc-scc10006",
+    "candidate_title": "Consolboard Inc. v. MacMillan Bloedel (Sask.) Ltd.",
+    "query_text": "decision | Consolboard Inc. v. MacMillan Bloedel (Saskatchewan) Ltd. | [1981] 1 S.C.R. 504",
+    "method": "citation_exact",
+    "matched_key": "19811scr504",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpbb",
+        "score": 3.5,
+        "candidate_title": "Consolboard Inc. v. MacMillan Bloedel (Sask.) Ltd."
+      }
+    ]
+  },
+  "Geffen v. Goodman Estate": {
+    "uri": "https://canlii.ca/t/1fsjz",
+    "score": 3.5,
+    "candidate_id": "1991csc-scc61",
+    "candidate_title": "Geffen v. Goodman Estate",
+    "query_text": "decision | Geffen v. Goodman Estate | Geffen | [1991] 2 S.C.R. 353",
+    "method": "citation_exact",
+    "matched_key": "19912scr353",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsjz",
+        "score": 3.5,
+        "candidate_title": "Geffen v. Goodman Estate"
+      }
+    ]
+  },
+  "Schreiber Brothers Ltd. v. Currie Products Ltd.": {
+    "uri": "https://canlii.ca/t/1mjv0",
+    "score": 3.5,
+    "candidate_id": "1980csc-scc10003",
+    "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al.",
+    "query_text": "decision | Schreiber Brothers Ltd. v. Currie Products Ltd. | [1980] 2 S.C.R. 78",
+    "method": "citation_exact",
+    "matched_key": "19802scr78",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjv0",
+        "score": 3.5,
+        "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al."
+      }
+    ]
+  },
+  "Métivier v. Cadorette": {
+    "uri": "https://canlii.ca/t/1mx4h",
+    "score": 3.5,
+    "candidate_id": "1975csc-scc10001",
+    "candidate_title": "Métivier v. Cadorette",
+    "query_text": "decision | Métivier v. Cadorette | [1977] 1 S.C.R. 371",
+    "method": "citation_exact",
+    "matched_key": "19771scr371",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mx4h",
+        "score": 3.5,
+        "candidate_title": "Métivier v. Cadorette"
+      }
+    ]
+  },
+  "Palsky v. Humphrey": {
+    "uri": "https://canlii.ca/t/22xwz",
+    "score": 3.5,
+    "candidate_id": "1964csc-scc1000055",
+    "candidate_title": "Palsky et al. v. Humphrey et al./ Sillito et al. v. Humphrey et al.",
+    "query_text": "decision | Palsky v. Humphrey | [1964] S.C.R. 580",
+    "method": "citation_exact",
+    "matched_key": "1964scr580",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22xwz",
+        "score": 3.5,
+        "candidate_title": "Palsky et al. v. Humphrey et al./ Sillito et al. v. Humphrey et al."
+      }
+    ]
+  },
+  "Hodgkinson v. Simms": {
+    "uri": "https://canlii.ca/t/1frpl",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc81",
+    "candidate_title": "Hodgkinson v. Simms",
+    "query_text": "decision | Hodgkinson v. Simms | [1994] 3 S.C.R. 377",
+    "method": "citation_exact",
+    "matched_key": "19943scr377",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frpl",
+        "score": 3.5,
+        "candidate_title": "Hodgkinson v. Simms"
+      }
+    ]
+  },
+  "Canada (Director of Investigation and Research) v. Southam Inc.": {
+    "uri": "https://canlii.ca/t/1fr34",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc33",
+    "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc.",
+    "query_text": "decision | Canada (Director of Investigation and Research) v. Southam Inc. | Southam | [1997] 1 S.C.R. 748",
+    "method": "citation_exact",
+    "matched_key": "19971scr748",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr34",
+        "score": 3.5,
+        "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc."
+      }
+    ]
+  },
+  "Jaegli Enterprises Ltd. v. Taylor": {
+    "uri": "https://canlii.ca/t/1mjlf",
+    "score": 3.0,
+    "candidate_id": "1981csc-scc10016",
+    "candidate_title": "Jaegli Enterprises v. Taylor",
+    "query_text": "decision | Jaegli Enterprises Ltd. v. Taylor | Jaegli Enterprises | [1981] 2 S.C.R. 2",
+    "method": "citation_exact",
+    "matched_key": "19812scr2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjlf",
+        "score": 3.0,
+        "candidate_title": "Jaegli Enterprises v. Taylor"
+      }
+    ]
+  },
+  "McCannell v. McLean": {
+    "uri": "https://canlii.ca/t/1nmz7",
+    "score": 3.5,
+    "candidate_id": "1937csc-scc10000",
+    "candidate_title": "McCannell v. Mclean",
+    "query_text": "decision | McCannell v. McLean | [1937] S.C.R. 341",
+    "method": "citation_exact",
+    "matched_key": "1937scr341",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 3.5,
+        "candidate_title": "McCannell v. Mclean"
+      }
+    ]
+  },
+  "Dube v. Labar": {
+    "uri": "https://canlii.ca/t/1fttd",
+    "score": 3.5,
+    "candidate_id": "1986csc-scc28",
+    "candidate_title": "Dube v. Labar",
+    "query_text": "decision | Dube v. Labar | [1986] 1 S.C.R. 649",
+    "method": "citation_exact",
+    "matched_key": "19861scr649",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fttd",
+        "score": 3.5,
+        "candidate_title": "Dube v. Labar"
+      }
+    ]
+  },
+  "C.N.R. v. Muller": {
+    "uri": "https://canlii.ca/t/gw9j1",
+    "score": 2.0,
+    "candidate_id": "1933csc-scc1000064",
+    "candidate_title": "C.N.R. v. Muller",
+    "query_text": "decision | C.N.R. v. Muller | [1934] 1 D.L.R. 768 (S.C.C.)",
+    "method": "title_exact",
+    "matched_key": "c n r v muller",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 2.0,
+        "candidate_title": "C.N.R. v. Muller"
+      }
+    ]
+  },
+  "Galaske v. O’Donnell": {
+    "uri": "https://canlii.ca/t/1frvm",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc26",
+    "candidate_title": "Galaske v. O'Donnell",
+    "query_text": "decision | Galaske v. O’Donnell | Galaske | [1994] 1 S.C.R 670",
+    "method": "citation_exact",
+    "matched_key": "19941scr670",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frvm",
+        "score": 3.5,
+        "candidate_title": "Galaske v. O'Donnell"
+      }
+    ]
+  },
+  "St-Jean v. Mercier": {
+    "uri": "https://canlii.ca/t/51vg",
+    "score": 3.7,
+    "candidate_id": "2002csc-scc15",
+    "candidate_title": "St-Jean v. Mercier",
+    "query_text": "decision | St-Jean v. Mercier | [2002] 1 S.C.R. 491 | 2002 SCC 15",
+    "method": "citation_exact",
+    "matched_key": "20021scr491",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51vg",
+        "score": 3.7,
+        "candidate_title": "St-Jean v. Mercier"
+      }
+    ]
+  },
+  "Rhône (The) v. Peter A.B. Widener (The)": {
+    "uri": "https://canlii.ca/t/1fs4n",
+    "score": 3.5,
+    "candidate_id": "1993csc-scc20",
+    "candidate_title": "Rhône (The) v. Peter A.B. Widener (The)",
+    "query_text": "decision | Rhône (The) v.  Peter A.B. Widener (The) | [1993] 1 S.C.R. 497",
+    "method": "citation_exact",
+    "matched_key": "19931scr497",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs4n",
+        "score": 3.5,
+        "candidate_title": "Rhône (The) v. Peter A.B. Widener (The)"
+      }
+    ]
+  },
+  "Van Mol (Guardian ad Litem of) v. Ashmore": {
+    "uri": "https://canlii.ca/t/54n2",
+    "score": 2.0,
+    "candidate_id": "1999bcca6",
+    "candidate_title": "Van  Mol v. Ashmore",
+    "query_text": "decision | Van Mol (Guardian ad Litem of) v. Ashmore | (1999), 168 D.L.R. (4th) 637 (B.C.C.A.) | [2000] 1 S.C.R. vi",
+    "method": "title_exact",
+    "matched_key": "van mol guardian ad litem of v ashmore",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/54n2",
+        "score": 2.0,
+        "candidate_title": "Van  Mol v. Ashmore"
+      }
+    ]
+  },
+  "Contributory Negligence Act": {
+    "uri": "https://canlii.ca/t/52w1g",
+    "score": 2.0,
+    "candidate_id": "l4841!4841-current-1",
+    "candidate_title": "The Contributory Negligence Act",
+    "query_text": "legislation | The Contributory Negligence Act",
+    "method": "title_exact",
+    "matched_key": "the contributory negligence act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/52w1g",
+        "score": 2.0,
+        "candidate_title": "The Contributory Negligence Act"
+      }
+    ]
+  },
+  "Just v. British Columbia": {
+    "uri": "https://canlii.ca/t/1cff2",
+    "score": 3.5,
+    "candidate_id": "1989csc-scc127",
+    "candidate_title": "Just v. British Columbia",
+    "query_text": "decision | Just v. British Columbia | Just | [1989] 2 S.C.R. 1228 | [1989] 2 S.C.R. 1228 (S.C.C.)",
+    "method": "citation_exact",
+    "matched_key": "19892scr1228",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cff2",
+        "score": 3.5,
+        "candidate_title": "Just v. British Columbia"
+      }
+    ]
+  },
+  "Toronto (City) Board of Education v. O.S.S.T.F., District 15": {
+    "uri": "https://canlii.ca/t/1fr2l",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc25",
+    "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
+    "query_text": "decision | Toronto (City) Board of Education v. O.S.S.T.F., District 15 | [1997] 1 S.C.R. 487",
+    "method": "citation_exact",
+    "matched_key": "19971scr487",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr2l",
+        "score": 3.5,
+        "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
+      }
+    ]
+  },
+  "Lester (W. W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740": {
+    "uri": "https://canlii.ca/t/1fsqw",
+    "score": 3.5,
+    "candidate_id": "1990csc-scc126",
+    "candidate_title": "Lester (W.W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740",
+    "query_text": "decision | Lester (W. W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740 | [1990] 3 S.C.R. 644",
+    "method": "citation_exact",
+    "matched_key": "19903scr644",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsqw",
+        "score": 3.5,
+        "candidate_title": "Lester (W.W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740"
+      }
+    ]
+  },
+  "Moge v. Moge": {
+    "uri": "https://canlii.ca/t/1fs7v",
+    "score": 3.5,
+    "candidate_id": "1992csc-scc111",
+    "candidate_title": "Moge v. Moge",
+    "query_text": "decision | Moge v. Moge | [1992] 3 S.C.R. 813",
+    "method": "citation_exact",
+    "matched_key": "19923scr813",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs7v",
+        "score": 3.5,
+        "candidate_title": "Moge v. Moge"
+      }
+    ]
+  },
+  "R. v. Nova Scotia Pharmaceutical Society": {
+    "uri": "https://canlii.ca/t/1fs9g",
+    "score": 3.5,
+    "candidate_id": "1992csc-scc69",
+    "candidate_title": "R. v. Nova Scotia Pharmaceutical Society",
+    "query_text": "decision | R. v. Nova Scotia Pharmaceutical Society | Nova Scotia Pharmaceutical Society | [1992] 2 S.C.R. 606",
+    "method": "citation_exact",
+    "matched_key": "19922scr606",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs9g",
+        "score": 3.5,
+        "candidate_title": "R. v. Nova Scotia Pharmaceutical Society"
+      }
+    ]
+  },
+  "Levey v. Rural Municipality of Rodgers, No. 133": {
+    "uri": "https://canlii.ca/t/g76jn",
+    "score": 0.9885057471264368,
+    "candidate_id": "1921skca1000067",
+    "candidate_title": "Levy v. Rural Municipality of Rodgers, No 133",
+    "query_text": "decision | Levey v. Rural Municipality of Rodgers, No. 133 | [1921] 3 W.W.R. 764 (Sask. C.A.)",
+    "method": "fuzzy",
+    "matched_key": "levey v rural municipality of rodgers no 133",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g76jn",
+        "score": 0.9885057471264368,
+        "candidate_title": "Levy v. Rural Municipality of Rodgers, No 133"
+      }
+    ]
+  },
+  "Diebel Estate v. Pinto Creek No. 75 (Rural Municipality)": {
+    "uri": "https://canlii.ca/t/1ns66",
+    "score": 0.9454545454545454,
+    "candidate_id": "1996skqb10208",
+    "candidate_title": "Diebel Estate v. Pinto Creek (Rural Municipality No. 75)",
+    "query_text": "decision | Diebel Estate v. Pinto Creek No. 75 (Rural Municipality) | Diebel Estate | (1996), 149 Sask. R. 68 (Q.B.)",
+    "method": "fuzzy",
+    "matched_key": "diebel estate v pinto creek no 75 rural municipality",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ns66",
+        "score": 0.9454545454545454,
+        "candidate_title": "Diebel Estate v. Pinto Creek (Rural Municipality No. 75)"
+      }
+    ]
+  },
+  "R. v. Jennings": {
+    "uri": "https://canlii.ca/t/1tvt7",
+    "score": 3.0,
+    "candidate_id": "1966csc-scc10010",
+    "candidate_title": "The Queen v. Jennings et al.",
+    "query_text": "decision | R. v. Jennings | Jennings | [1966] S.C.R. 532",
+    "method": "citation_exact",
+    "matched_key": "1966scr532",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tvt7",
+        "score": 3.0,
+        "candidate_title": "The Queen v. Jennings et al."
+      }
+    ]
+  },
+  "County of Parkland No. 31 v. Stetar": {
+    "uri": "https://canlii.ca/t/1z452",
+    "score": 3.0,
+    "candidate_id": "1974csc-scc10180",
+    "candidate_title": "Parkland (County of) v. Stetar et al.",
+    "query_text": "decision | County of Parkland No. 31 v. Stetar | [1975] 2 S.C.R. 884",
+    "method": "citation_exact",
+    "matched_key": "19752scr884",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z452",
+        "score": 3.0,
+        "candidate_title": "Parkland (County of) v. Stetar et al."
+      }
+    ]
+  },
+  "Fafard v. City of Quebec": {
+    "uri": "https://canlii.ca/t/fsm1s",
+    "score": 2.0,
+    "candidate_id": "1917csc-scc1000040",
+    "candidate_title": "Fafard v. La Cité de Québec",
+    "query_text": "decision | Fafard v. City of Quebec | Fafard | (1917), 39 D.L.R. 717 (S.C.C.)",
+    "method": "title_exact",
+    "matched_key": "fafard v city of quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fsm1s",
+        "score": 2.0,
+        "candidate_title": "Fafard v. La Cité de Québec"
+      }
+    ]
+  },
+  "Williams v. Town of North Battleford": {
+    "uri": "https://canlii.ca/t/g74k0",
+    "score": 2.0,
+    "candidate_id": "1911sksceb1000022",
+    "candidate_title": "Williams v. Town of North Battleford",
+    "query_text": "decision | Williams v. Town of North Battleford | (1911), 4 Sask. L.R. 75",
+    "method": "title_exact",
+    "matched_key": "williams v town of north battleford",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g74k0",
+        "score": 2.0,
+        "candidate_title": "Williams v. Town of North Battleford"
+      }
+    ]
+  },
+  "Nelson v. Waverley (Rural Municipality)": {
+    "uri": "https://canlii.ca/t/g8d73",
+    "score": 2.0,
+    "candidate_id": "1988skqb1000212",
+    "candidate_title": "Nelson v. Waverley (Rural Municipality)",
+    "query_text": "decision | Nelson v. Waverley (Rural Municipality) | (1988), 65 Sask. R. 260 (Q.B.)",
+    "method": "title_exact",
+    "matched_key": "nelson v waverley rural municipality",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8d73",
+        "score": 2.0,
+        "candidate_title": "Nelson v. Waverley (Rural Municipality)"
+      }
+    ]
+  },
+  "Joseph Brant Memorial Hospital v. Koziol": {
+    "uri": "https://canlii.ca/t/1mk9p",
+    "score": 3.5,
+    "candidate_id": "1977csc-scc10005",
+    "candidate_title": "Joseph Brant Memorial Hospital v. Koziol",
+    "query_text": "decision | Joseph Brant Memorial Hospital v. Koziol | [1978] 1 S.C.R. 491",
+    "method": "citation_exact",
+    "matched_key": "19781scr491",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mk9p",
+        "score": 3.5,
+        "candidate_title": "Joseph Brant Memorial Hospital v. Koziol"
+      }
+    ]
+  },
+  "Kamloops (City of) v. Nielsen": {
+    "uri": "https://canlii.ca/t/1lpfd",
+    "score": 3.0,
+    "candidate_id": "1984csc-scc10005",
+    "candidate_title": "Kamloops v. Nielsen",
+    "query_text": "decision | Kamloops (City of) v. Nielsen | [1984] 2 S.C.R. 2",
+    "method": "citation_exact",
+    "matched_key": "19842scr2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpfd",
+        "score": 3.0,
+        "candidate_title": "Kamloops v. Nielsen"
+      }
+    ]
+  },
+  "Brown v. British Columbia (Minister of Transportation and Highways)": {
+    "uri": "https://canlii.ca/t/1frv5",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc19",
+    "candidate_title": "Brown v. British Columbia (Minister of Transportation and Highways)",
+    "query_text": "decision | Brown v. British Columbia (Minister of Transportation and Highways) | Brown | [1994] 1 S.C.R. 420",
+    "method": "citation_exact",
+    "matched_key": "19941scr420",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frv5",
+        "score": 3.5,
+        "candidate_title": "Brown v. British Columbia (Minister of Transportation and Highways)"
+      }
+    ]
+  },
+  "Swinamer v. Nova Scotia (Attorney General)": {
+    "uri": "https://canlii.ca/t/1frv7",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc20",
+    "candidate_title": "Swinamer v. Nova Scotia (Attorney General)",
+    "query_text": "decision | Swinamer v. Nova Scotia (Attorney General) | [1994] 1 S.C.R. 445",
+    "method": "citation_exact",
+    "matched_key": "19941scr445",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frv7",
+        "score": 3.5,
+        "candidate_title": "Swinamer v. Nova Scotia (Attorney General)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "retriever": {
+    "name": "bm25",
+    "score_kind": "score",
+    "size": 7058,
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "regex"
+  },
+  "input_file": "data\\gold_candidate_pool.csv",
+  "num_candidates": 7058,
+  "representation": {
+    "fields": [
+      "docType",
+      "docTitle",
+      "autoCompletions.text"
+    ],
+    "autoCompletions": "Only the text field of each autoCompletion is encoded; the completion type is discarded.",
+    "format": "fields concatenated with ' | '"
+  }
+}

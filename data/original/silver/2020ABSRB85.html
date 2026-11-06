@@ -1,0 +1,742 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 14 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	text-autospace:none;
+	border:none;
+	padding:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:28.35pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Objet du commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:0in;
+	margin-right:36.5pt;
+	margin-bottom:12.0pt;
+	margin-left:35.45pt;
+	text-align:justify;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Times New Roman","serif";}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Times New Roman","serif";}
+p.subsection, li.subsection, div.subsection
+	{mso-style-name:subsection;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.clause, li.clause, div.clause
+	{mso-style-name:clause;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Citation, li.Citation, div.Citation
+	{mso-style-name:^Citation;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	text-align:right;
+	line-height:9.5pt;
+	font-size:8.0pt;
+	font-family:"Times New Roman","serif";}
+p.Clause0, li.Clause0, div.Clause0
+	{mso-style-name:^Clause;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.3in;
+	margin-bottom:.0001pt;
+	text-indent:-1.3in;
+	line-height:11.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+span.SubsectionChar
+	{mso-style-name:"^Subsection Char";
+	mso-style-link:^Subsection;}
+p.Subsection0, li.Subsection0, div.Subsection0
+	{mso-style-name:^Subsection;
+	mso-style-link:"^Subsection Char";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:56.9pt;
+	margin-bottom:.0001pt;
+	line-height:11.0pt;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";}
+p.numberedparagraph, li.numberedparagraph, div.numberedparagraph
+	{mso-style-name:"numbered paragraph";
+	mso-style-link:"numbered paragraph Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:0in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.ParagraphedelisteCar
+	{mso-style-name:"Paragraphe de liste Car";
+	mso-style-link:"Paragraphe de liste";
+	font-family:"Times New Roman","serif";}
+span.numberedparagraphChar
+	{mso-style-name:"numbered paragraph Char";
+	mso-style-link:"numbered paragraph";
+	font-family:"Times New Roman","serif";}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma","sans-serif";}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Times New Roman","serif";}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman","serif";
+	font-style:italic;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;
+	font-family:"Times New Roman","serif";}
+span.ObjetducommentaireCar
+	{mso-style-name:"Objet du commentaire Car";
+	mso-style-link:"Objet du commentaire";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri","sans-serif";}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in .5in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body>
+<div class="WordSection1">
+<p align="center" class="MsoNormal" style="text-align:center"><b>ALBERTA
+SURFACE RIGHTS BOARD</b></p>
+<p align="center" class="MsoNormal" style="text-align:center">(the
+“Board”)</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>Citation: </b>Praskach
+Farms Ltd v Lexin Resources Ltd, 2020 ABSRB 85</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>Date:</b> 2020-02-07</p>
+<p class="MsoNormal"><b>File No.:</b> RC2017.0332</p>
+<p class="MsoNormal"><b>Decision No.:</b> 2020/0085</p>
+<p class="MsoNormal"><b>SRB Land Area Code:</b> LSP</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>In the matter of</b> the <i>Surface Rights Act</i>, RSA 2000, c S-24 (the “Act”)</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>And in the matter of</b> land in the Province of Alberta within the:</p>
+<p class="MsoNormal" style="margin-left:.25in">SW ¼-32-11-21-W4M
+as described in Certificate of Title No. 041 404 847 (the “Land”),</p>
+<p class="MsoNormal" style="margin-left:.25in">particularly the
+area granted for Well Licence No. 0088459 and access road (the “Site”).</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>Between:</b></p>
+<p align="center" class="MsoNormal" style="text-align:center">Lexin
+Resources Ltd.,</p>
+<p align="right" class="MsoNormal" style="text-align:right">Operator,</p>
+<p align="center" class="MsoNormal" style="text-align:center">-
+and -</p>
+<p class="MsoNormal"> </p>
+<p align="center" class="MsoNormal" style="text-align:center">Praskach
+Farms Ltd.,</p>
+<p align="right" class="MsoNormal" style="text-align:right">Applicant.</p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<p class="MsoNormal"><b>Before:  </b>Terri
+Mann, Chair </p>
+<p class="MsoNormal">              Shannon Boyer</p>
+<p class="MsoNormal">              Tracy King (the “Panel”).</p>
+<p class="MsoNormal"> </p>
+<div style="border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+solid windowtext 1.0pt;border-right:none;padding:4.0pt 0in 4.0pt 0in">
+<h2>DEMAND FOR PAYMENT<br/>
+AND ORDER SUSPENDING AND TERMINATING ENTRY RIGHTS</h2>
+</div>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-indent:.5in">IT IS DEMANDED the Operator pay FOUR THOUSAND SIX HUNDRED and 00/100 DOLLARS
+($4,600.00) to the Applicant. If this amount is not paid by the date of
+termination, below, the Board may direct the Minister to pay ONE THOUSAND ONE HUNDRED
+AND FIFTY and 00/100 DOLLARS ($1,150.00) to the Applicant for the years 2016
+and 2017.</p>
+<p class="MsoNormal" style="margin-bottom:6.0pt;text-indent:.5in">IT IS ORDERED that if the Board does not receive satisfactory
+evidence that the $4,600.00 has been paid in full to the Applicant, then <u>without
+further notice</u> the Operator’s right to enter the Site shall be suspended
+and terminated under section 36(5) of the Act at 4:30 p.m. on the
+dates below. This shall not
+affect any of the Operator’s obligations in regards to the Site, nor any other
+person’s rights against the Operator. The Right of Entry Instrument remains in
+place for purposes of shutting-in, suspension, abandonment, and reclamation.</p>
+<p class="MsoListParagraph" style="text-indent:-14.7pt">•<span style='font:7.0pt "Times New Roman"'>      
+</span>Suspension effective from February 23, 2020,
+lasting 15 days.</p>
+<p class="MsoListParagraph" style="text-indent:-14.7pt">•<span style='font:7.0pt "Times New Roman"'>      
+</span>Termination effective from March 9, 2020.</p>
+<p class="MsoNormal"> </p>
+<div style="border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+solid windowtext 1.0pt;border-right:none;padding:4.0pt 0in 4.0pt 0in">
+<h2>DECISION AND REASONS</h2>
+</div>
+<p class="MsoNormal" style="page-break-after:avoid"> </p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[1]<span style='font:7.0pt "Times New Roman"'>              
+</span>The Applicant filed an application under
+section 36 of the Act seeking recovery of unpaid compensation due under a
+Surface Lease Agreement for the above Site dated January 9, 1981 (the “Right of
+Entry Instrument”).</p>
+<h3>ISSUES</h3>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[2]<span style='font:7.0pt "Times New Roman"'>              
+</span>The issues before the Panel are:</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;
+margin-left:42.55pt;text-indent:-28.35pt">(1)     Is money past
+due and unpaid by the Operator to the Applicant under a surface lease agreement
+or compensation order?</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;
+margin-left:42.5pt;text-indent:-28.3pt">(2)     If money is past
+due and unpaid, is there any reason why the Board should direct the Minister to
+pay less than the full amount owing?</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;
+margin-left:42.5pt;text-indent:-28.3pt">(3)     Should the
+Board suspend and terminate the Operator’s entry rights and direct the Minister
+to pay the Applicant out of the General Revenue Fund under section 36(6) of the
+Act?</p>
+<h3>DECISION</h3>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[3]<span style='font:7.0pt "Times New Roman"'>              
+</span>The Panel decides:</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;
+margin-left:42.25pt;text-indent:-28.1pt">(1)     Pursuant to the
+Right of Entry Instrument, $4,600.00 is payable to the Applicant by the
+Operator and the evidence satisfactorily proves non-payment for 2016 and 2017.</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;
+margin-left:42.25pt;text-indent:-28.1pt">(2)     Directing the
+Minister to pay the full amount owing by the Operator is unjustified and the
+Applicant is entitled to a total amount of $1,150.00 for the years 2016 and
+2017.</p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:12.0pt;
+margin-left:42.25pt;text-indent:-28.1pt">(3)     Unless the
+Board receives satisfactory evidence that $4,600.00 has been paid in full to the
+Applicant, the Operator’s entry rights shall be suspended and terminated
+according to the preceding order and the Board may direct the Minister to pay
+the amount of $1,150.00.</p>
+<h3>ANALYSIS</h3>
+<h4>Issue 1:  Is there money past due and unpaid by the
+Operator to the Applicant under a surface lease agreement or compensation
+order?</h4>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[4]<span style='font:7.0pt "Times New Roman"'>              
+</span>After a review of the evidence, the Panel finds
+that $4,600.00 is owed by the Operator to the Applicant for annual payment due
+under the Right of Entry Instrument. This amount is calculated as two payments of
+$2,300.00 due on the anniversary of the Right of Entry Instrument for the years
+2016 and 2017. </p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[5]<span style='font:7.0pt "Times New Roman"'>              
+</span>The current Certificate of Title confirms the
+Applicant is the owner of the Land and was the owner when the rentals became
+due. Evidence of a surface lease and the rental rate is supported by
+documentation on file. The Applicant’s Director, James Praskach, swore a
+statutory declaration stating that the rentals have not been paid.<span style='font-size:11.0pt;font-family:"Calibri","sans-serif";
+background:white'> </span><span style="background:white">The Panel
+notes that the statutory declaration does not contain a signing date or
+location, but does have the Commissioner’s name and expiration date. The Panel
+has decided to accept the statutory declaration as evidence in spite of its
+flaws.</span></p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[6]<span style='font:7.0pt "Times New Roman"'>              
+</span>The well licence is registered in the name of
+the Operator. The Site has not been reclaimed, and accordingly the Right of
+Entry Instrument remains in effect. </p>
+<h4>Issue 2:  If money is past due and unpaid, is there any
+reason why the Board should direct the Minister to pay less than the full
+amount owing?</h4>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[7]<span style='font:7.0pt "Times New Roman"'>              
+</span>The Panel’s decision to direct the Minister to
+pay out of the General Revenue Fund is discretionary, per <i>Devon Canada Corp
+v Alberta (Surface Rights Board)</i>, 2003 ABQB 7 at ¶29.3 (“<i>Devon</i>”).
+This was confirmed by the Alberta Court of Queen’s Bench in <i>Provident Energy
+Ltd v Alberta (Surface Rights Board), </i>2004 ABQB 650 (“<i>Provident Energy</i>”).
+</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[8]<span style='font:7.0pt "Times New Roman"'>              
+</span>This Decision is restricted to making a
+determination of the amount of compensation the Operator owes and what the Board
+should direct the Minister to pay out of public money. This decision does not
+absolve the Operator of the responsibility to pay the full amount of
+compensation owing. It is not a compensation review under section 27 of the Act
+and it does not amend the Surface Lease Agreement, or affect the amount owing
+to the Applicant.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[9]<span style='font:7.0pt "Times New Roman"'>              
+</span>The Court in <i>Devon</i> makes it clear that
+the Panel must consider whether to direct the Minister to pay the full amount
+of money owing or a reduced amount if it finds that the payment of the full
+amount is unjustified, patently unreasonable, or constitutes unjust enrichment.
+At paragraph 29.2 of <i>Devon</i>,<i> </i>the Court provides some
+direction on factors the Board should consider: </p>
+<p class="MsoQuote">            The Surface Rights Board has
+developed an expertise in quantifying land values, inconvenience, weed control,
+damage to topsoil and oil company techniques. Some legal expertise is required
+to determine whether a lease is valid and subsisting. No expertise is needed to
+determine whether rent has been paid. In determining which factors are relevant
+to decide whether a direction should be made that the province pay the rental
+arrears, the Board has much experience and thus is better aware of how best to
+exercise this discretion. </p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[10]<span style='font:7.0pt "Times New Roman"'>          
+</span>There are two factors particularly important for
+considering annual compensation and whether directing the Minister to pay the
+full amount owing is unjustified. When the Board reviews the rate of
+compensation under section 27 of the Act, the factors considered under section 25(1)(c)
+and (d) are the loss of use by the owner of the area of the surface lease and the
+adverse effect of the lease on the remaining land of the owner. The Board also
+assesses the nuisance, inconvenience, and noise that might be caused by or
+arising from or in connection with the operations of the operator. As noted
+above, this is not a review of compensation under section 27, however, the loss
+of use and adverse effect are components of fair compensation which the Board
+can consider when determining if directing the Minister to pay the full amount
+owing is justified.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[11]<span style='font:7.0pt "Times New Roman"'>          
+</span>When considering the loss of use of the lease
+area, the Panel examines the status of the area taken and whether the Applicant
+is using the site to generate income or otherwise. The Panel also considers the
+adverse effect on the remaining land or the nuisance, inconvenience, and noise
+that might be caused by or arising from or in connection with the operations of
+the operator. The purpose of annual compensation under the Act is to compensate
+the owner for loss and adverse effect arising from the surface lease and the
+operations of the operator. </p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[12]<span style='font:7.0pt "Times New Roman"'>          
+</span>Where, at the relevant time, there is ongoing loss
+of use or adverse effect; equipment, fencing and facilities remain on site; the
+site is compacted preventing production; or there are reclamation activities or
+other damages, it is less likely that there would be a reduction in the amount
+that the Minister is directed to pay. On the other hand, if the site is near
+reclamation and the owner has full use of it, the loss of use and adverse
+effect would be almost nonexistent and directing the Minister to pay the full
+amount owing under the lease would not be justified. Likewise, if the site is
+reclaimed, but no Reclamation Certificate is issued, the Board may determine
+that there should be a significant reduction in the amount that the Minister is
+directed to pay. For example, in <i>Provident Energy</i>, in finding that the Board
+was correct in following <i>Devon</i> and exercising its discretion to reduce
+the payments to the landowners in an amount reflecting the loss incurred, the
+Court stated at paragraph 27:</p>
+<p class="MsoQuote">As Sirrs J. held in the <i>Devon</i> case,
+the application of Section 36 is discretionary and even if a land owner shows
+sufficient evidence that a lease exists, the Board is not bound to order
+compensation. If the Board was bound to do so, this would amount to a
+fettering of its discretion.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[13]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Board may determine the amount the Minister
+is directed to pay by considering of a combination of factors relevant to loss
+of use and adverse effect. Some compelling factors include facilities, fencing,
+and equipment remaining on the lease; operator activity on the lease; the
+condition of the land within the lease, including compaction, foreign
+materials, and changes of elevation; how the remaining land is used and how the
+site impacts this use; if and to what extent the owner is using the lease for
+production, including cropping and grazing; and the existence and extent of nuisance,
+inconvenience, and noise.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[14]<span style='font:7.0pt "Times New Roman"'>          
+</span>As stated in <i>Devon</i> (at para 29.3), the
+section 36 process provides a “pragmatic, inexpensive solution to the surface
+owner when rent under a surface lease is not paid.” At the same time, the
+process must be fair and provide an opportunity for the parties to provide
+submissions. In this context, the Panel considered whether further proceedings are
+necessary to establish the impacts of the Surface Lease and any operations on
+the Land. In <i>Husky Oil Operations Limited v Scriber</i>, 2013 ABQB 74, the Court determined that the Board is
+entitled to consider what it would accept as evidence and whether, in doing so,
+it might open a plethora of inquiries which would lead to protracted, inefficient,
+and inaccessible Board proceedings.
+To prevent a cumbersome and inefficient process in determining section 36
+applications that are typically unopposed by the operator, the Panel will
+conduct this hearing by written submissions and consider the Applicant’s application,
+statutory declaration, and written submissions and documents provided. The
+Panel finds this process to be fair and sufficient to establish whether the
+Minister should be ordered to pay the full amount or a portion of the money
+owed.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[15]<span style='font:7.0pt "Times New Roman"'>          
+</span>Regarding loss of use, the
+Panel notes that an Alberta Energy Regulator search confirms that the wellsite
+was listed as an abandoned site as of July 31, 1998 and its license status has
+not changed since that time. The Surface Lease remains on the Title, and the
+Site has not been fully reclaimed, leaving the Lease in effect until a
+Reclamation Certificate issues pursuant to section 144 of the <i>Environmental
+and Protection Act</i>, RSA 2000 c E‑12<i>.</i></p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[16]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Application contains a Condition of Land
+Form wherein the Applicant is asked to describe the condition of the surface
+lease area. In response to the Applicant’s completed Condition of Land Form,
+Surface Rights Board administration sent a letter to the Applicant explaining
+that changes in the condition of the surface lease area could result in reduced
+payment and the Applicant was invited to make submissions. In response, the
+Applicant filed further submissions with the Board on February 28, 2019.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[17]<span style='font:7.0pt "Times New Roman"'>          
+</span>In its submissions, the Applicant conceded that the
+gas well is inactive and there is no equipment or fencing on the Site. The Site
+is within pivot irrigated land and is cropped annually. The soil within the Site
+is compacted, noticeably rough, and undulating which impacts seeding and
+harvesting of low-growing crops. The Applicant was unable to estimate reduced
+yield because the Site is located near the margin of irrigated and
+non-irrigated land.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[18]<span style='font:7.0pt "Times New Roman"'>          
+</span>The Site is cropped and the Leased land is back
+in production, therefore, the loss of use is greatly diminished as the
+Applicant is once again using the Lease to generate income. The Applicant
+reports the production is lower over the Site and there is some difficulty seeding
+and harvesting due to uneven soil, suggesting there is still some minor loss of
+use.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[19]<span style='font:7.0pt "Times New Roman"'>          
+</span>Regarding adverse effect, the impact on
+remaining Lands at the relevant time (2016 and 2017) is minimal because the
+wellsite is not in operation and has not been for many years. The well was
+abandoned in August 1998 and the Board finds that Operator activity ceased at
+approximately the same time, with the exception of incomplete reclamation work that
+occurred five to seven years prior to the date of the owner’s submission. There
+is no evidence of impact on remaining Lands on the relevant time period and
+there is no nuisance, inconvenience, or noise that might be caused by the
+operations of the Operator.</p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[20]<span style='font:7.0pt "Times New Roman"'>          
+</span>Because the loss of use and the adverse effect
+is greatly diminished, the Panel finds that directing the Minister to pay the
+full amount of unpaid rentals out of public money is unjustified and would
+cause unjust enrichment. </p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[21]<span style='font:7.0pt "Times New Roman"'>          
+</span>In this case, the Panel determines a reduction
+in the amount it directs the Minister to pay by 75% of annual compensation, from
+$2,300.00 per year to $575.00 per year, to reflect a significant decrease in
+the loss of use and adverse effect suffered by the Applicant as a result of the
+surface lease. </p>
+<p class="numberedparagraph" style="margin-left:0in;text-indent:0in">[22]<span style='font:7.0pt "Times New Roman"'>          
+</span>This decision does not absolve the Operator of
+the responsibility to pay the full amount of compensation. Again, the Panel
+notes the Operator remains responsible to pay the full amount and if the
+Operator does not make payment of the full amount owing to the Applicant, its
+entry rights will be suspended and terminated according to the preceding order,
+after which the Board may direct the Minister to pay a total of $1,150.00 to
+the Applicant out of the General Revenue Fund under section 36(6) for the years
+2016 and 2017.</p>
+<p class="MsoNormal" style="margin-top:15.6pt;page-break-after:avoid">Dated at the City of Edmonton in the Province of Alberta this seventh
+day of February 2020.</p>
+<p class="MsoNormal" style="margin-top:9.6pt;margin-right:0in;margin-bottom:0in;
+margin-left:304.75pt;margin-bottom:.0001pt;page-break-after:avoid"><b>SURFACE RIGHTS BOARD</b></p>
+<p class="MsoNormal" style="page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:304.8pt;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:304.8pt;page-break-after:avoid">__________________________</p>
+<p class="MsoNormal" style="margin-left:304.8pt;page-break-after:avoid">Shannon Boyer, Member</p>
+</div>
+</body></html>

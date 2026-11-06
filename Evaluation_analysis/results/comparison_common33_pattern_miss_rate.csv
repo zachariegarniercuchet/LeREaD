@@ -1,0 +1,13 @@
+mention,pattern,gold_common,gemma4,gpt-5.2,muse,qwen38-27b,saul-54b
+decision,title,924,0.3539,0.2219,0.4686,0.3810,0.9286
+legislation,title,924,0.2695,0.2825,0.5530,0.3398,0.9978
+legislation,fragment,585,0.1590,0.1009,0.3009,0.2479,0.9897
+legislation,fragment -> title,568,0.0299,0.0299,0.1761,0.1197,0.9894
+decision,title -> citation,434,0.2442,0.0461,0.4931,0.4171,0.9378
+decision,fragment,312,0.8494,0.7596,0.9872,0.8654,1.0000
+decision,title -> fragment,223,0.1345,0.0942,0.4439,0.3543,0.9283
+decision,title -> citation -> fragment,178,0.1461,0.0674,0.5730,0.3652,0.8989
+decision,title -> citation -> citation,157,0.3694,0.1529,0.5541,0.5159,0.9108
+decision,citation,90,0.4667,0.3111,0.7444,0.6778,0.9778
+decision,title -> citation -> fragment -> citation,67,0.0299,0.0299,0.2836,0.2537,0.8657
+secondary sources,authors -> title -> source -> fragment,60,0.0667,0.1000,0.3000,0.1333,0.9833

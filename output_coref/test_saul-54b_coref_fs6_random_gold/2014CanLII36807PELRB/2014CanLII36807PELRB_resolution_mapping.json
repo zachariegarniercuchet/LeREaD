@@ -1,0 +1,722 @@
+{
+  "Labour Act PEI 1988": {
+    "uri": "https://canlii.ca/t/54vv7",
+    "score": 0.75473952293396,
+    "candidate_id": "l27462!27462-current-1",
+    "candidate_title": "Labour Act Regulations",
+    "query_text": "legislation | <i>Labour Act</i> | Act | Regulations | <i>Act</i> | <i>Labour\nAct</i> | Labour\nAct Regulations | <i>Regulations</i> | Labour Relations Act | R.S.P.E.I. 1988, Cap.\nL-1 | R.S.P.E.I. 1988, Cap. L-1 | P.E.I. Reg. EC1971-521 | R.S.P.E.I. 1974, Cap. L-1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/54vv7",
+        "score": 0.75473952293396,
+        "candidate_title": "Labour Act Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/56tln",
+        "score": 0.6807963848114014,
+        "candidate_title": "Labour Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vvz",
+        "score": 0.6750456690788269,
+        "candidate_title": "Labour Act"
+      }
+    ]
+  },
+  "Charter": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 0.6817847490310669,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Charter",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.6817847490310669,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 0.6461866497993469,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0116",
+        "score": 0.6333056688308716,
+        "candidate_title": "Canada Act 1982"
+      }
+    ]
+  },
+  "Labor Act PEI 1988": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6781476736068726,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6781476736068726,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6436222791671753,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6397304534912109,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Ontario Labour Relations Act 2000": {
+    "uri": "https://canlii.ca/t/55zl8",
+    "score": 0.6409304141998291,
+    "candidate_id": "l96540!96540-current-1",
+    "candidate_title": "Labour Relations Amendment Act, 2000",
+    "query_text": "legislation | Ontario Labour Relations Act | 2000, c. 38",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55zl8",
+        "score": 0.6409304141998291,
+        "candidate_title": "Labour Relations Amendment Act, 2000"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 0.6326143741607666,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/2gr",
+        "score": 0.623852014541626,
+        "candidate_title": "Labour Relations Act"
+      }
+    ]
+  },
+  "Canadian Union of Public Employees, Local 5003 and Eastern School District": {
+    "uri": "https://canlii.ca/t/fqn5m",
+    "score": 0.7821508646011353,
+    "candidate_id": "2012pelrb1000000",
+    "candidate_title": "Canadian Union of Public Employees, Local 5003 v Eastern School District",
+    "query_text": "decision | Canadian\nUnion of Public Employees, Local 5003 and Eastern School District | <i>Canadian Union of Public Employees, Local 5003\nand Eastern School District</i> | Eastern School\nDistrict | Eastern\nSchool District | Eastern School District | Eastern\nSchool Board | 2012 CanLII13522 (P.E.L.R.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqn5m",
+        "score": 0.7821508646011353,
+        "candidate_title": "Canadian Union of Public Employees, Local 5003 v Eastern School District"
+      },
+      {
+        "uri": "https://canlii.ca/t/jmwtf",
+        "score": 0.5827808976173401,
+        "candidate_title": "School District No. 5 (Southeast Kootenay) and B.C.T.F. (Yellowaga) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/51pb",
+        "score": 0.5823271870613098,
+        "candidate_title": "Parry Sound (District) Social Services Administration Board v. O.P.S.E.U., Local 324"
+      }
+    ]
+  },
+  "APM Construction Inc. v. Construction and Labourers Union, Local 1077": {
+    "uri": "https://canlii.ca/t/1cvp1",
+    "score": 0.7654165625572205,
+    "candidate_id": "1998pesctd198710011",
+    "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union",
+    "query_text": "decision | <i>APM\nConstruction Inc.</i> v. <i>Construction and Labourers Union,\nLocal 1077,</i> | <i>APM Construction Inc.</i> v. <i>Construction and Labourers\nUnion, Local 1077,</i> | [1998] PEIJ45",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cvp1",
+        "score": 0.7654165625572205,
+        "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0217",
+        "score": 0.6769443154335022,
+        "candidate_title": "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/22pj2",
+        "score": 0.6009619832038879,
+        "candidate_title": "United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry of the United States and Canada, Local 488 v. Bantrel Constructors Co."
+      }
+    ]
+  },
+  "United Food and Commercial Workers Union, Local 864, et. al. v. Polar Foods International Inc., et. al.": {
+    "uri": "https://synthetic.leread.ca/gold/G0384",
+    "score": 0.8542046546936035,
+    "candidate_id": "gold-G0384",
+    "candidate_title": "United Food and Commercial Workers Union, Local 864, et. al. v. Polar Foods International Inc., et. al.",
+    "query_text": "decision | <i>United\nFood and Commercial Workers Union, Local 864, et. al. v. Polar Foods\nInternational Inc., et. al.</i> | PEI LRB File No. 01-004, 01-022\n(April 4, 2002)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0384",
+        "score": 0.8542046546936035,
+        "candidate_title": "United Food and Commercial Workers Union, Local 864, et. al. v. Polar Foods International Inc., et. al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1tbn8",
+        "score": 0.6163224577903748,
+        "candidate_title": "Westfair Foods Ltd. v. United Food and Commercial Workers' Union, Local 401"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8x59",
+        "score": 0.6138888597488403,
+        "candidate_title": "United Food and Commercial Workers, Local 1252 v. Lewisporte Wholesalers Ltd."
+      }
+    ]
+  },
+  "Ontario Allied Construction Trades Council v. Electrical Power Systems Construction Association": {
+    "uri": "https://synthetic.leread.ca/gold/G0164",
+    "score": 0.874621570110321,
+    "candidate_id": "gold-G0164",
+    "candidate_title": "Ontario Allied Construction Trades Council v. Electrical Power Systems Construction Association",
+    "query_text": "decision | Ontario\nAllied Construction Trades Council v. Electrical Power Systems Construction\nAssociation | [1992] OLRB Rep. 47",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0164",
+        "score": 0.874621570110321,
+        "candidate_title": "Ontario Allied Construction Trades Council v. Electrical Power Systems Construction Association"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0253",
+        "score": 0.6303079128265381,
+        "candidate_title": "IBEW Local 353 v. P & M Electric (1982) Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/fsshr",
+        "score": 0.6044039726257324,
+        "candidate_title": "Labourers’ International Union of North America, Local 183 v Jarlian Construction Inc"
+      }
+    ]
+  },
+  "United Brotherhood of Carpenters & Joiners of America, Local 83 v. The Governors of Dalhousie College & University": {
+    "uri": "https://canlii.ca/t/j69ts",
+    "score": 0.8830968141555786,
+    "candidate_id": "1988nslrb1000001",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v The Governors of Dalhousie College & University",
+    "query_text": "decision | <i>United\nBrotherhood of Carpenters &amp; Joiners of America, Local 83 v. The Governors\nof Dalhousie College &amp; University</i> (1988) | N.S.L.R.B. Decision #1117C",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j69ts",
+        "score": 0.8830968141555786,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v The Governors of Dalhousie College & University"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.6980094909667969,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69x5",
+        "score": 0.6824224591255188,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Page Realty Management"
+      }
+    ]
+  },
+  "Gaddess Industrial Inc. and UBCJA, Local 2262": {
+    "uri": "https://canlii.ca/t/g02jt",
+    "score": 0.7766050100326538,
+    "candidate_id": "2013nbleb10000056",
+    "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Millwrights Local 2262 v Gaddess Industrial Inc",
+    "query_text": "decision | Gaddess\nIndustrial Inc. and UBCJA, Local 2262, | Gaddess Industrial Inc. and\nUBCJA, Local 2262, | 2013CarswellNB\n049 | 2013CarswellNB 049",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g02jt",
+        "score": 0.7766050100326538,
+        "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Millwrights Local 2262 v Gaddess Industrial Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mvmk",
+        "score": 0.6435872316360474,
+        "candidate_title": "National Automobile, Aerospace Trans-portation and General Workers Union of Canada (C.A.W. - Canada) Local No. 27 v. London Machinery Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/fm6b0",
+        "score": 0.632002592086792,
+        "candidate_title": "Syndicat canadien des communications, de l’énergie et du papier, section locale 30 c. Les Pâtes et Papier Irving, Limitée"
+      }
+    ]
+  },
+  "IUOE, Local 793 v. Smiths Construction Co.": {
+    "uri": "https://canlii.ca/t/25qrn",
+    "score": 0.6533308029174805,
+    "candidate_id": "1984onlrb1000034",
+    "candidate_title": "International Union of Operating Engineers, Local 793 v. Construction Company Arnprior Limited",
+    "query_text": "decision | IUOE,\nLocal 793 v. Smiths Construction Co. | IUOE, Local 793 v. Smiths Construction\nCo. | 1984CarswellOnt\n997 | 1984CarswellOnt 997",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/25qrn",
+        "score": 0.6533308029174805,
+        "candidate_title": "International Union of Operating Engineers, Local 793 v. Construction Company Arnprior Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vddp",
+        "score": 0.6304465532302856,
+        "candidate_title": "International Union of Operating Engineers, Local 793 v. Carman Construction Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1gv2m",
+        "score": 0.6272485852241516,
+        "candidate_title": "Voice Construction Ltd. v. Construction & General Workers' Union, Local 92"
+      }
+    ]
+  },
+  "United Brotherhood of America, Local 1388 v. Canadian Paperworkers Union, Local 167 (1990)": {
+    "uri": "https://canlii.ca/t/1p8xp",
+    "score": 0.7349418997764587,
+    "candidate_id": "1990pesctd198710003",
+    "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 1388 v. Prince Edward Island (Labour Relations Board)",
+    "query_text": "decision | United Brotherhood of\nAmerica, Local 1388 [sic] v. Canadian Paperworkers Union, Local 167 (1990) | 81\nNfld. and P.E.I.R.40 (P.E.I.S.C.T.D.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p8xp",
+        "score": 0.7349418997764587,
+        "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 1388 v. Prince Edward Island (Labour Relations Board)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69ts",
+        "score": 0.6510530114173889,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v The Governors of Dalhousie College & University"
+      },
+      {
+        "uri": "https://canlii.ca/t/6hd0",
+        "score": 0.6348843574523926,
+        "candidate_title": "Labourers' International Union of North America, Local 183 v. Carpenters and Allied Workers Local 27"
+      }
+    ]
+  },
+  "APM Construction Inc.": {
+    "uri": "https://canlii.ca/t/1cvp1",
+    "score": 0.6514760851860046,
+    "candidate_id": "1998pesctd198710011",
+    "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union",
+    "query_text": "decision | APM\nConstruction Inc.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cvp1",
+        "score": 0.6514760851860046,
+        "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union"
+      },
+      {
+        "uri": "https://canlii.ca/t/jdmsb",
+        "score": 0.5826149582862854,
+        "candidate_title": "Elite Construction Inc. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/gmnjq",
+        "score": 0.5596959590911865,
+        "candidate_title": "Attila Dogan Construction and Installation Co. Inc. v AMEC Americas Limited"
+      }
+    ]
+  },
+  "International Brotherhood of Electrical Workers": {
+    "uri": "https://synthetic.leread.ca/gold/G0253",
+    "score": 0.7069518566131592,
+    "candidate_id": "gold-G0253",
+    "candidate_title": "IBEW Local 353 v. P & M Electric (1982) Ltd.",
+    "query_text": "decision | International Brotherhood of Electrical Workers",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0253",
+        "score": 0.7069518566131592,
+        "candidate_title": "IBEW Local 353 v. P & M Electric (1982) Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/j2nxr",
+        "score": 0.6779208779335022,
+        "candidate_title": "Telecon Inc. v. International Brotherhood of Electrical Workers (Local Union 213)"
+      },
+      {
+        "uri": "https://canlii.ca/t/k0qzz",
+        "score": 0.6492438316345215,
+        "candidate_title": "Saskatchewan Power Corporation v International Brotherhood of Electrical Workers Local 2067"
+      }
+    ]
+  },
+  "IBEW Local 353": {
+    "uri": "https://synthetic.leread.ca/gold/G0253",
+    "score": 0.7318437099456787,
+    "candidate_id": "gold-G0253",
+    "candidate_title": "IBEW Local 353 v. P & M Electric (1982) Ltd.",
+    "query_text": "decision | IBEW Local\n353",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0253",
+        "score": 0.7318437099456787,
+        "candidate_title": "IBEW Local 353 v. P & M Electric (1982) Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/j2nxr",
+        "score": 0.6049606800079346,
+        "candidate_title": "Telecon Inc. v. International Brotherhood of Electrical Workers (Local Union 213)"
+      },
+      {
+        "uri": "https://canlii.ca/t/k0qzz",
+        "score": 0.6029372215270996,
+        "candidate_title": "Saskatchewan Power Corporation v International Brotherhood of Electrical Workers Local 2067"
+      }
+    ]
+  },
+  "Bickerton": {
+    "uri": "https://canlii.ca/t/g1k41",
+    "score": 0.6945802569389343,
+    "candidate_id": "1975onhcj1000014",
+    "candidate_title": "Bickerton v. Bickerton",
+    "query_text": "decision | Bickerton",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1k41",
+        "score": 0.6945802569389343,
+        "candidate_title": "Bickerton v. Bickerton"
+      },
+      {
+        "uri": "https://canlii.ca/t/jjmr7",
+        "score": 0.4955180585384369,
+        "candidate_title": "McKee v Hicks"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqhdj",
+        "score": 0.4885205030441284,
+        "candidate_title": "R. v Biccum"
+      }
+    ]
+  },
+  "Public Service Alliance of Canada v. Canadian Corps of Commissionaires": {
+    "uri": "https://synthetic.leread.ca/gold/G0403",
+    "score": 0.853804886341095,
+    "candidate_id": "gold-G0403",
+    "candidate_title": "Public Service Alliance of Canada v. Canadian Corps of Commissionaires",
+    "query_text": "decision | Public Service Alliance of Canada v. Canadian\nCorps of Commissionaires | Public\nService Alliance of Canada v. Canadian Corps of Commissionaires | PEI LRB 01-012 (2002)",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0403",
+        "score": 0.853804886341095,
+        "candidate_title": "Public Service Alliance of Canada v. Canadian Corps of Commissionaires"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqn5m",
+        "score": 0.6435492634773254,
+        "candidate_title": "Canadian Union of Public Employees, Local 5003 v Eastern School District"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fslz",
+        "score": 0.6407965421676636,
+        "candidate_title": "Canada (Attorney General) v. Public Service Alliance of Canada"
+      }
+    ]
+  },
+  "Polar Foods": {
+    "uri": "https://synthetic.leread.ca/gold/G0384",
+    "score": 0.6031014323234558,
+    "candidate_id": "gold-G0384",
+    "candidate_title": "United Food and Commercial Workers Union, Local 864, et. al. v. Polar Foods International Inc., et. al.",
+    "query_text": "decision | Polar Foods",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0384",
+        "score": 0.6031014323234558,
+        "candidate_title": "United Food and Commercial Workers Union, Local 864, et. al. v. Polar Foods International Inc., et. al."
+      },
+      {
+        "uri": "https://canlii.ca/t/jhbns",
+        "score": 0.5296186208724976,
+        "candidate_title": "Paramount Fine Foods v Johnston"
+      },
+      {
+        "uri": "https://canlii.ca/t/kftjr",
+        "score": 0.5225812792778015,
+        "candidate_title": "Yat Sun Food Products Ltd. v. Griffith Foods International Inc."
+      }
+    ]
+  },
+  "Levert & Associates": {
+    "uri": "https://canlii.ca/t/28snw",
+    "score": 0.5363619923591614,
+    "candidate_id": "1989onlrb1000132",
+    "candidate_title": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers v. Levert & Associates Contracting Inc",
+    "query_text": "decision | Levert &amp; Associates",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28snw",
+        "score": 0.5363619923591614,
+        "candidate_title": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers v. Levert & Associates Contracting Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/1n0zk",
+        "score": 0.5075353384017944,
+        "candidate_title": "Lévis (City) v. Tétreault; Lévis (City) v. 2629-4470 Québec inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/htr7s",
+        "score": 0.5011665225028992,
+        "candidate_title": "Feigin v. L’vova"
+      }
+    ]
+  },
+  "Nova Scotia Power Corporation": {
+    "uri": "https://canlii.ca/t/k5vlj",
+    "score": 0.5953914523124695,
+    "candidate_id": "2024csc-scc26",
+    "candidate_title": "Canada (Attorney General) v. Power",
+    "query_text": "decision | Nova Scotia\nPower Corporation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k5vlj",
+        "score": 0.5953914523124695,
+        "candidate_title": "Canada (Attorney General) v. Power"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8xr6",
+        "score": 0.5622912049293518,
+        "candidate_title": "Power Agencies Co. and Du Pont Canada Inc. v. Newfoundland Hospital and Nursing Home Assoc."
+      },
+      {
+        "uri": "https://canlii.ca/t/28tb5",
+        "score": 0.5599986910820007,
+        "candidate_title": "Homburg Canada Inc. v. Nova Scotia (Utility and Review Board)"
+      }
+    ]
+  },
+  "Fuller Construction": {
+    "uri": "https://synthetic.leread.ca/gold/G0217",
+    "score": 0.6203582286834717,
+    "candidate_id": "gold-G0217",
+    "candidate_title": "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited",
+    "query_text": "decision | Fuller Construction",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0217",
+        "score": 0.6203582286834717,
+        "candidate_title": "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/jdmsb",
+        "score": 0.5490366220474243,
+        "candidate_title": "Elite Construction Inc. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/5cd6",
+        "score": 0.546355128288269,
+        "candidate_title": "R. v. Fuller"
+      }
+    ]
+  },
+  "United Brotherhood of Carpenters and Joiners of America, Local 83 and Quinpool Properties Ltd.": {
+    "uri": "https://canlii.ca/t/j69w3",
+    "score": 0.7809116244316101,
+    "candidate_id": "1995nslrb1000000",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited",
+    "query_text": "decision | United Brotherhood of Carpenters and\nJoiners of America, Local 83 and Quinpool Properties Ltd. | LRB 1622C",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.7809116244316101,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69x5",
+        "score": 0.6874071955680847,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Page Realty Management"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69ts",
+        "score": 0.6540841460227966,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v The Governors of Dalhousie College & University"
+      }
+    ]
+  },
+  "United Brotherhood of Carpenters & Joiners of America, Local 1988 v. Tops Marina Motor Hotel": {
+    "uri": "https://synthetic.leread.ca/gold/G0324",
+    "score": 0.8299950361251831,
+    "candidate_id": "gold-G0324",
+    "candidate_title": "Marina Motor Hotel",
+    "query_text": "decision | United Brotherhood of Carpenters &amp; Joiners of America, Local 1988\nv. Tops Marina Motor Hotel | <i>Tops Marina Motor Hotel</i> | [1964] OLRB Rep. Jan 583",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0324",
+        "score": 0.8299950361251831,
+        "candidate_title": "Marina Motor Hotel"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.5952823758125305,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69x5",
+        "score": 0.5932385921478271,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Page Realty Management"
+      }
+    ]
+  },
+  "Sheet Metal Workers’ International Association, Local 562 v. Ridsdale Steel Fabricators Inc.": {
+    "uri": "https://canlii.ca/t/281xt",
+    "score": 0.795496940612793,
+    "candidate_id": "1987onlrb1000202",
+    "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc.",
+    "query_text": "decision | Sheet Metal Workers’ International\nAssociation, Local 562 v. Ridsdale Steel Fabricators Inc. | [1987] OLRB Rep.\nApril 601",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/281xt",
+        "score": 0.795496940612793,
+        "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jxvrx",
+        "score": 0.5798714756965637,
+        "candidate_title": "Shopmen’s Local Union No. 809 of the International Association of Bridge, Structural, Ornamental, and Reinforcing IronWorkers v Metaltech Ltd./Ltée"
+      },
+      {
+        "uri": "https://canlii.ca/t/gcgw6",
+        "score": 0.5761298537254333,
+        "candidate_title": "Griffin Steel Foundries Ltd. v. Canadian Association of Industrial, Mechanical and Allied Workers"
+      }
+    ]
+  },
+  "BBF v. Levert and Associates": {
+    "uri": "https://canlii.ca/t/28snw",
+    "score": 0.5427658557891846,
+    "candidate_id": "1989onlrb1000132",
+    "candidate_title": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers v. Levert & Associates Contracting Inc",
+    "query_text": "decision | BBF v. Levert and Associates",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28snw",
+        "score": 0.5427658557891846,
+        "candidate_title": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers v. Levert & Associates Contracting Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmgf",
+        "score": 0.5173808336257935,
+        "candidate_title": "Lebeuf c. Groupe SNC-Lavalin inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/j1r4g",
+        "score": 0.5000067353248596,
+        "candidate_title": "Leavitt v Canadian Council of Independent Laboratories"
+      }
+    ]
+  },
+  "Gaddess": {
+    "uri": "https://canlii.ca/t/h41b3",
+    "score": 0.49947452545166016,
+    "candidate_id": "2017fca109",
+    "candidate_title": "Gladman v. Canada (Attorney General)",
+    "query_text": "decision | Gaddess",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h41b3",
+        "score": 0.49947452545166016,
+        "candidate_title": "Gladman v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j2x78",
+        "score": 0.49872440099716187,
+        "candidate_title": "Gittens v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hpsk4",
+        "score": 0.49791303277015686,
+        "candidate_title": "G (JD) v G (SL)"
+      }
+    ]
+  },
+  "Oxford English Dictionary": {
+    "uri": "https://synthetic.leread.ca/gold/G0483",
+    "score": 0.5988516211509705,
+    "candidate_id": "gold-G0483",
+    "candidate_title": "The Oxford English Dictionary",
+    "query_text": "secondary sources | Oxford English\nDictionary | dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0483",
+        "score": 0.5988516211509705,
+        "candidate_title": "The Oxford English Dictionary"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0346",
+        "score": 0.5845154523849487,
+        "candidate_title": "New Oxford Dictionary of English"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0374",
+        "score": 0.5714545845985413,
+        "candidate_title": "Oxford English Dictionary"
+      }
+    ]
+  },
+  "Black": {
+    "uri": "https://synthetic.leread.ca/gold/G0094",
+    "score": 0.5982463359832764,
+    "candidate_id": "gold-G0094",
+    "candidate_title": "Black's Law Dictionary",
+    "query_text": "secondary sources | Black's Law Dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0094",
+        "score": 0.5982463359832764,
+        "candidate_title": "Black's Law Dictionary"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0152",
+        "score": 0.4544781744480133,
+        "candidate_title": "Commentaries on the Laws of England"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0533",
+        "score": 0.4454123377799988,
+        "candidate_title": "Words and Phrases. Permanent Edition"
+      }
+    ]
+  },
+  "PolicyStatement": {
+    "uri": "https://canlii.ca/t/1glp0",
+    "score": 0.463858425617218,
+    "candidate_id": "2004csc-scc13",
+    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "query_text": "unable to classify",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1glp0",
+        "score": 0.463858425617218,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr6t",
+        "score": 0.46306735277175903,
+        "candidate_title": "Adler v. Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/hr3x4",
+        "score": 0.4590446352958679,
+        "candidate_title": "Class v. Smith"
+      }
+    ]
+  },
+  "MaintenancePolicyStatement": {
+    "uri": "https://canlii.ca/t/1glp0",
+    "score": 0.463858425617218,
+    "candidate_id": "2004csc-scc13",
+    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "query_text": "unable to classify",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1glp0",
+        "score": 0.463858425617218,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr6t",
+        "score": 0.46306735277175903,
+        "candidate_title": "Adler v. Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/hr3x4",
+        "score": 0.4590446352958679,
+        "candidate_title": "Class v. Smith"
+      }
+    ]
+  }
+}

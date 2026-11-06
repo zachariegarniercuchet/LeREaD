@@ -1,0 +1,27 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\AA_final\gpt5.2_pip
+Split: extended_test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 24 evaluation pair(s)
+
+Mention alignment (total over 24 document(s))
+  gold mentions: 4165 | system mentions: 4730 | matched: 3190
+  gold-only (missed): 975 | system-only (spurious): 1540
+  mention-level  P=0.674  R=0.766  F1=0.717
+
+
+=== Aggregate over 24 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.6143     │ 0.6888     │ 0.6494     │
+│ B3       │ 0.6859     │ 0.7632     │ 0.7225     │
+│ CEAF_e   │ 0.5284     │ 0.4494     │ 0.4857     │
+│ LEA      │ 0.4653     │ 0.4757     │ 0.4705     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.6192
+

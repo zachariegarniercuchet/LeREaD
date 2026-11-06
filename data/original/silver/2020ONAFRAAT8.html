@@ -1,0 +1,2053 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 14 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+span.MsoFootnoteReference
+	{}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma","sans-serif";}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Times New Roman","serif";}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Times New Roman","serif";}
+p.resettabpap, li.resettabpap, div.resettabpap
+	{mso-style-name:resettab&pap;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Courier;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="blue" vlink="purple">
+<div class="WordSection1">
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width:446.25pt;border-collapse:collapse" width="595">
+<tbody><tr>
+<td colspan="2" style="width:182.35pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="243">
+<p class="MsoNormal" style="line-height:115%"><b><span style="font-size:9.0pt;
+  line-height:115%">Agriculture, Food and Rural Affairs</span></b></p>
+<p class="MsoNormal" style="line-height:115%"><b><span style="font-size:9.0pt;
+  line-height:115%">Appeal Tribunal</span></b></p>
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;
+  line-height:115%">1 Stone Road West</span></p>
+</td>
+<td colspan="2" style="width:189.3pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="252">
+<p class="MsoNormal" style="line-height:115%"><b><span style="font-size:9.0pt;line-height:115%">Tribunal d’appel de l’agriculture,
+  de l’alimentation et des affaires rurales</span></b></p>
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;line-height:115%">1 Stone Road West</span></p>
+</td>
+<td colspan="2" rowspan="2" style="width:72.1pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="96">
+<p align="right" class="MsoNormal" style="margin-top:0in;margin-right:.2pt;
+  margin-bottom:0in;margin-bottom:.0001pt;text-align:right"><img height="84" src="2020-08_UFCW_MedReleaf_Phase_2_Decision_Final_06_17_2020__RE__fichiers/image001.jpg" width="83"/></p>
+</td>
+<td style="width:2.5pt;padding:0in 0in 0in 0in" width="3">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="height:23.4pt">
+<td colspan="2" style="width:182.35pt;padding:0in 5.4pt 0in 5.4pt;
+  height:23.4pt" valign="top" width="243">
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;
+  line-height:115%">Guelph, Ontario, N1G 4Y2</span></p>
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;
+  line-height:115%">Tel: (519) 826-3433, Fax: (519) 826-4232</span></p>
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;
+  line-height:115%">Email: </span><a href="mailto:AFRAAT@ontario.ca"><span style="font-size:9.0pt;line-height:115%">AFRAAT@ontario.ca</span></a></p>
+</td>
+<td colspan="2" style="width:189.3pt;padding:0in 5.4pt 0in 5.4pt;
+  height:23.4pt" valign="top" width="252">
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;line-height:115%">Guelph (Ontario) N1G 4Y2</span></p>
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;line-height:115%">Tél.: (519) 826-3433, Téléc.: (519)
+  826-4232</span></p>
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:9.0pt;line-height:115%">Courriel: </span><a href="mailto:AFRAAT@ontario.ca"><span style="font-size:9.0pt;
+  line-height:115%">AFRAAT@ontario.ca</span></a></p>
+</td>
+<td style="width:2.5pt;padding:0in 0in 0in 0in;height:23.4pt" width="3">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr style="height:4.5pt">
+<td style="width:2.5pt;padding:0in 0in 0in 0in;height:4.5pt" width="3">
+<p class="MsoNormal"> </p>
+</td>
+<td colspan="2" style="width:180.6pt;border:none;
+  border-bottom:solid windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt;height:4.5pt" valign="top" width="241">
+<p class="MsoNormal" style="margin-right:.3in"><span style='font-size:12.0pt;
+  font-family:"Calibri","sans-serif"'> </span></p>
+</td>
+<td colspan="2" style="width:189.3pt;border:none;
+  border-bottom:solid windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt;height:4.5pt" valign="top" width="252">
+<p class="MsoNormal"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif"'> </span></p>
+</td>
+<td colspan="2" style="width:73.85pt;border:none;
+  border-bottom:solid windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt;height:4.5pt" valign="top" width="98">
+<p class="MsoNormal" style="margin-right:26.1pt"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif"'> </span></p>
+</td>
+</tr>
+<tr height="0">
+<td style="border:none" width="3"></td>
+<td style="border:none" width="240"></td>
+<td style="border:none" width="1"></td>
+<td style="border:none" width="251"></td>
+<td style="border:none" width="1"></td>
+<td style="border:none" width="95"></td>
+<td style="border:none" width="3"></td>
+</tr>
+</tbody></table>
+</div>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:13.5pt"> </span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:13.5pt"> </span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:13.5pt">AGRICULTURE, FOOD AND RURAL AFFAIRS APPEAL TRIBUNAL</span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:13.5pt"> </span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:13.5pt"> </span></b></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:5.4pt;border-collapse:collapse">
+<tbody><tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">APPEAL:</span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">UFCW v
+  MedReleaf Phase 2 (RE)</span></b></p>
+</td>
+</tr>
+<tr style="height:33.75pt">
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:33.75pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt;
+  height:33.75pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+</tr>
+<tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">CITATION:</span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">UFCW v
+  MedReleaf Phase 2</span></b></p>
+</td>
+</tr>
+<tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+</tr>
+<tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal"><b><span style="font-size:14.0pt">STATUTE:</span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><i><span style="font-size:14.0pt"> </span></i></b></p>
+<p class="MsoNormal"><b><i><span style="font-size:14.0pt">Agricultural
+  Employees Protection Act, 2002</span></i></b></p>
+</td>
+</tr>
+<tr style="height:32.85pt">
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:32.85pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt;
+  height:32.85pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+</tr>
+<tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">HEARING DATES:</span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt;color:black">October 17-18,
+  2019, October 31, 2019 to November 1, 2019, November 6-8, 2019, November 21-22,
+  2019, and December 17- 18, 2019.</span></b></p>
+<p class="MsoNormal"><span style="color:black"> </span></p>
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+</tr>
+<tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">DATE OF
+  DECISION:</span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">June 17, 2020</span></b></p>
+</td>
+</tr>
+<tr style="height:33.75pt">
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:33.75pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt;
+  height:33.75pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+</tr>
+<tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">FILE NUMBER:</span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">001UFCW16B</span></b></p>
+</td>
+</tr>
+<tr style="height:32.85pt">
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:32.85pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt;
+  height:32.85pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+</td>
+</tr>
+<tr>
+<td style="width:184.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="246">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">NEUTRAL
+  CITATION:</span></b></p>
+</td>
+<td style="width:3.7in;padding:0in 5.4pt 0in 5.4pt" valign="top" width="355">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">2020 ONAFRAAT
+  08</span></b></p>
+</td>
+</tr>
+</tbody></table>
+<p class="MsoNormal"><b><span style="font-size:14.0pt"> </span></b></p>
+<p align="center" class="MsoNormal" style="margin-right:-.5in;text-align:center"><b><span style="font-size:14.0pt"> </span></b></p>
+<p class="MsoNormal"><b><span style='font-family:"Calibri","sans-serif";
+color:black'> </span></b></p>
+<span style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+color:black'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="MsoNormal" style="margin-bottom:10.0pt;line-height:115%"><span style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal"><b><span style='font-size:12.0pt;font-family:
+"Calibri","sans-serif";color:black'>IN THE MATTER OF THE <i>AGRICULTURAL EMPLOYEES
+PROTECTION ACT, 2002</i></span></b></p>
+<p class="MsoNormal" style="margin-left:2.2in;text-indent:-2.2in"><b><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'> </span></b></p>
+<p class="MsoNormal"><b><span style='font-size:12.0pt;font-family:
+"Calibri","sans-serif";color:black'>AND IN THE MATTER OF: </span></b><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'>A Notice of Constitutional Question to the Agriculture, Food and
+Rural Affairs Appeal Tribunal (the Tribunal)<b> </b>by<b> </b></span><b><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";color:black'>United
+Food and Commercial Workers International Union </span></b><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";color:black'>examining
+the validity of Sections 2(1) and 5 of the A<i>gricultural Employees Protection
+Act, 2002.</i></span></p>
+<p class="MsoNormal"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal"><b><span style='font-size:12.0pt;font-family:
+"Calibri","sans-serif";color:black'>AND IN THE MATTER OF:</span></b><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'> Notice of Motion Attorney General of Ontario dated October 7,
+2019.</span></p>
+<p class="MsoNormal"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal" style="margin-right:-.5in;text-align:justify"><i><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";color:black'>Before:
+</span></i></p>
+<p class="MsoNormal" style="margin-right:-.5in;text-align:justify"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";color:black'>John
+O’Kane, Vice-Chair; Harold McNeely, Vice-Chair and Jeffrey J. Hewitt,
+Vice-Chair</span></p>
+<p class="MsoNormal" style="margin-right:-.5in;text-align:justify"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";color:black'> </span></p>
+<p class="MsoNormal" style="margin-right:-.5in;text-align:justify"><i><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";color:black'>Appearances:</span></i></p>
+<p class="MsoNormal" style="text-align:justify"><span style='font-size:12.0pt;
+font-family:"Calibri","sans-serif";color:black'>Micheil M. Russell and Patrick
+Enright, counsel for the Complainant</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style='font-size:12.0pt;
+font-family:"Calibri","sans-serif";color:black'>Richard J. Charney and Rika
+Sawatsky, counsel for the Respondent</span></p>
+<p class="MsoNormal"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'>Estée Garfin, Otto Ranalli and Jennifer Luong, counsel for the
+Ministry of the Attorney General for Ontario</span></p>
+<p class="MsoNormal"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'>Tala Khoury and John Craig, counsel for Labour Issues Coordinating
+Committee</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style='font-size:12.0pt;
+font-family:"Calibri","sans-serif";color:black'> </span></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style='font-size:14.0pt;font-family:"Calibri","sans-serif";color:black'> </span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style='font-size:14.0pt;font-family:"Calibri","sans-serif";color:black'>DECISION</span></b></p>
+<p class="MsoNormal" style="text-align:justify"><b><span style='font-family:"Calibri","sans-serif";color:black'> </span></b></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><b><u><span style='font-family:"Calibri","sans-serif";color:black'>PART I
+— OVERVIEW</span></u></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[1]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The United Food and Commercial Workers International Union
+(“UFCW”) together with four individual employees brought a complaint to the
+Tribunal under Section 11 of the <i>Agricultural Employees Protection Act</i>
+(“<i>AEPA</i>”) against MedReleaf Corp. (“MedReleaf”).</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[2]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The complaint alleged unfair labour practices by MedReleaf,
+specifically that MedReleaf violated those employees’ rights and protections
+under Sections 8 to 10 of the <i>AEPA</i> and asserted that Sections 2(1) and 5
+of the <i>AEPA</i> violate the Complainant’s associational rights guaranteed
+under Section 2(d) of the <i>Charter of Rights and Freedoms</i> (“<i>Charter</i>”).</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[3]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Since the complaint involved a <i>Charter</i> challenge, the Attorney
+General for Ontario (“AG”) intervened from the outset of the complaint and, at
+a later date, the Labour Issues Coordinating Committee (“LICC”) also intervened
+in the complaint.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[4]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>By agreement of the parties, the complaint was bifurcated, dealing
+in Phase One with the unfair labour practices complaint and in Phase Two with
+the <i>Charter</i> challenge.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[5]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>On August 29, 2018, the Tribunal published its Phase One reasons
+for decision for dismissing the unfair labour practices complaint. Rather than
+repeat the findings of fact we made in those reasons for decision, we adopt and
+incorporate those findings here by reference.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[6]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In this Phase Two decision, we conclude that Sections 2(1) and 5
+of the <i>AEPA</i> do not violate the associational rights of the MedReleaf
+employees as guaranteed by Section 2(d) of the <i>Charter </i>and it therefore
+follows from that conclusion that the <i>Charter</i> challenge is dismissed.</span></p>
+<p class="MsoNormal" style="margin-top:20.0pt;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><u><span style='font-family:"Calibri","sans-serif";color:black'>PART II — PRELIMINARY
+MOTION DECISION</span></u></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[7]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>At the beginning of what was to be the oral evidentiary portion of
+the Section 2(d) <i>Charter</i> challenge, the AG moved to strike portions of
+the affidavit evidence filed by the UFCW on the grounds that the impugned
+portions of the UFCW’s affidavits contained inadmissible evidence. The AG
+characterized the impugned portions of the affidavits as containing
+inadmissible hearsay, irrelevant evidence, legal opinion and sworn arguments.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[8]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In response, the UFCW has conceded that certain portions of its
+filed affidavits should indeed be withdrawn. Further, UFCW itself moved to
+strike portions of the affidavit evidence filed by the AG on grounds that the
+AG’s affidavits contained similar inadmissible evidence.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[9]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>After considering the AG’s motion, we accepted UFCW’s concessions
+and dismissed the motion as it related to the remainder of the UFCW affidavits,
+with written reasons to follow. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[10]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>After hearing the oral reasons, counsel for UFCW withdrew the UFCW
+motion.</span></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><i><span style='font-family:"Calibri","sans-serif";color:black'>Preliminary
+Motion Analysis</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[11]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The schedule for the hearing of the UFCW’s Section 2(d) <i>Charter</i>
+challenge had long been agreed to by the parties and was to encompass October
+17, 2019 to October 18, 2019, October 31, 2019 to November 1, 2019, November 6,
+2019 to November 8, 2019, November 21, 2019 to November 22, 2019, and December
+17, 2019 to December 18, 2019.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[12]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Very close to the eve of the start of that hearing, the AG moved
+to strike portions of affidavit materials that had been delivered many months
+previously in accordance with a consent schedule of exchanging affidavit
+evidence. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[13]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The impugned portions of the UFCW’s affidavits have previously
+been the subject of detailed response affidavits on behalf of the AG. In our
+view, had the AG been concerned with the content of the affidavit evidence,
+rather than respond substantively as it did, the better approach would have
+been to first move to strike the portions of the affidavits. In this context,
+the late timing of the AG’s motion concerns us. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[14]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The rules of evidence applicable in the law courts in respect of
+inadmissible hearsay evidence are expressly inapplicable to the Tribunal under
+the <i>Statutory Powers Procedure Act</i> (“<i>SPPA</i>”).</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[15]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>As argued by UFCW’s counsel in response to the AG’s motion, many
+of the issues the AG raises about portions of the UFCW affidavit evidence are
+also evident in the AG’s affidavit evidence.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[16]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The focal issue on this motion is whether the impugned affidavit
+evidence is relevant and while the AG’s motion raises arguable doubt as to the
+relevance of the impugned affidavit evidence, in the interests of procedural
+fairness and timing that doubt is better resolved by allowing the evidence in
+and reserving our discretion to accord the evidence appropriate weight.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[17]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The AG’s motion, if granted, would in our view interrupt the
+agreed-upon hearing schedule and quite likely extend the hearing of the Section
+2(d)<i> Charter</i> challenge into 2020. In our view, such a potential delay
+unnecessarily prejudices the hearing schedule, the parties and delays the
+administration of justice generally. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[18]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>We remain unconvinced that excising the impugned affidavit
+evidence from the record will create enough efficiencies to outweigh the
+potential hearing disruption and prejudice.</span></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><i><span style='font-family:"Calibri","sans-serif";color:black'>Preliminary
+Motion Order</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[19]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Attorney General’s preliminary motion is hereby dismissed. On
+consent, </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:71.15pt;text-align:justify;text-indent:-32.3pt;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>a)<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The UFCW’s preliminary motion is withdrawn; and,</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:71.15pt;text-align:justify;text-indent:-32.3pt;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>b)<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Paragraphs 43 to 48 of the March 18, 2019 affidavit of Eric Tucker
+are hereby withdrawn; and,</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:71.15pt;text-align:justify;text-indent:-32.3pt;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>c)<span style='font:7.0pt "Times New Roman"'>               
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Paragraphs 6, 8, 96 to 100 of the July 29, 2019 reply affidavit of
+Eric Tucker are hereby withdrawn.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[20]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The withdrawn affidavit paragraphs shall be redacted from the
+public record copies of the filed affidavits.</span></p>
+<p class="MsoNormal" style="margin-top:20.0pt;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><span style='font-family:"Calibri","sans-serif";color:black'>PART III — TRIBUNAL
+JURISDICTION</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[21]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Jurisdiction invokes that we consider the parties, the subject
+matter and the remedies sought. The alignment of these three elements creates
+the Tribunal’s jurisdictional foundation. In these circumstances the <i>AEPA</i>
+identifies three prospective parties: agricultural employees, employers and
+employees’ associations. The <i>AEPA</i> also sets out the jurisdictional
+subject matter as the “rights of agricultural employees” as enumerated in Section
+1. The remedies jurisdiction is set out in Section 11 of the <i>AEPA</i>,
+subject to the limitation in Section 17.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[22]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>None of the parties before the Tribunal argued that, in these
+circumstances, the Tribunal lacked the jurisdiction to decide the <i>Charter</i>
+challenge.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[23]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Central to our analysis in the <i>Charter</i> challenge is the
+relevant evidentiary matrix which is focused on the MedReleaf workplace in
+Markham between May 2015 and June 2017 (the “Relevant Period”). Most of the
+evidence related to the MedReleaf workplace was heard during Phase One. That
+Phase One evidence was supplemented in Phase Two with the May 30, 2019 affidavit
+of Igor Gimelshtein and his cross-examination and re-examination on that
+affidavit. Mr. Gimelshtein was the Chief Financial Officer of MedReleaf between
+March 23, 2015 and December 10, 2018. No other witness testifying in Phase Two
+had any direct evidence relevant to staffing and operations at MedReleaf during
+the Relevant Period. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[24]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In our Phase One decision, we found that a primary driver behind
+MedReleaf employees seeking representation by the UFCW was that some employee
+dismissals had generated employee uncertainty about their security of tenure. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[25]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>There was no evidence in either Phase One or Phase Two that would
+inform any fact findings that MedReleaf employees suffered from any economic
+disadvantage. The evidence about MedReleaf was that most of its workforce of
+sixty-nine employees were skilled, trained, received good wages, benefits,
+shares in the corporation and worked in a highly regulated and inspected
+facility involving the continuous growing and harvesting of medical marijuana.
+That evidence was neither challenged nor contradicted and we make those
+findings of fact.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[26]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>While there was evidence in Phase Two about the vulnerability of
+farm workers, particularly those employed under either the Temporary Farm
+Workers Program (“TFWP”) or the Seasonal Agricultural Workers Program (“SAWP”),
+there was no evidence that any MedReleaf employee participated in those
+programs. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[27]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>There was evidence about what was described as the “family farm”
+in Ontario, as well as evidence about the absence of successful agricultural
+employee representation campaigns in Ontario and the experiences in Ontario and
+other jurisdictions with a variety of labour relations schemes in the
+agricultural sector. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[28]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>There was also evidence from three witnesses qualified, on
+consent, to give expert opinion evidence. Largely that expert evidence was
+contextual and divorced from the facts of the experiences between the UFCW,
+MedReleaf and the employees at MedReleaf. That expert evidence was adduced to
+provide the Tribunal with context about the foundational legislative and
+societal evidence that each party considered relevant to the Section 2(d) <i>Charter</i>
+challenge.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[29]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Some of the expert evidence “coloured outside the lines” of the
+parameters for opinion evidence, sometimes straying into opinions about the
+constitutionality of the very legislation we are called on to determine, and
+occasionally straying into opinions outside the disciplines in which the experts
+were qualified. None of the experts testifying had any direct knowledge or any
+opinions regarding the MedReleaf workplace. These factors implicated our
+consideration of that evidence and we gave that evidence the appropriate
+weight. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[30]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>We do not have jurisdiction over farm workers as there are no farm
+workers before the Tribunal; nor over those working under the TFWP or the SAWP
+as no such workers are before the Tribunal; nor over family farms because no
+such farms are before the Tribunal; nor regarding unsuccessful representation
+campaigns at other agricultural operations in Ontario, as no complaint about
+those campaigns are before the Tribunal. As a result, we accept and agree with
+the MedReleaf submission that the UFCW <i>Charter</i> challenge is limited “temporally
+and geographically” to the experience at MedReleaf as discussed.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[31]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Accordingly, we make no substantive findings of fact flowing from
+the evidence that was not specific to MedReleaf and the rights of the MedReleaf
+employees, and our jurisdiction is limited to such.</span></p>
+<p class="MsoNormal" style="margin-top:20.0pt;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><span style='font-family:"Calibri","sans-serif";color:black'>PART IV — THE LAW &amp;
+LABOUR RELATIONS</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[32]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>For most of the Ontario private sector, labour relations are
+governed by the <i>Labour Relations Act</i> (“<i>LRA</i>”), which incorporates
+what is commonly called a “Wagner Act” model of labour relations whereby employees
+may organize into a bargaining unit represented by a single trade union. Under
+the Wagner Act model, the representative trade union is selected by a majority
+vote of employees and thereafter the union enjoys status as the exclusive
+bargaining agent in the workplace. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[33]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The <i>LRA</i> promotes collective bargaining for terms of
+employment between the employer and employees and creates mechanisms to address
+both employer-employee disputes and collective bargaining impasses. These “last
+resort” mechanisms are the <i>strike</i> by employees and the <i>lockout</i> by
+employers. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[34]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Certain employees are specifically excluded from application of
+the <i>LRA</i>, including an “employee” who is defined in the <i>AEPA</i> as
+being one who is employed in agriculture. As a result, in previous proceedings
+under the <i>LRA</i> involving the Complainant and MedReleaf, the Ontario
+Labour Relations Board (“OLRB”) determined it did not have jurisdiction over
+the issues because MedReleaf’s employees were excluded from the <i>LRA</i> and
+included under the <i>AEPA</i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[35]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The <i>AEPA</i> created a labour relations regime unique to the
+Ontario agricultural sector. The <i>AEPA</i> was the Ontario legislature’s
+response to the Supreme Court of Canada’s decision in <i>Dunmore v. Ontario
+(Attorney General)</i>, 2001 SCC 94. That decision confirmed that excluding
+farm workers from <i>Labour Relations Act, 1995</i> violated the associational
+rights of farm workers guaranteed under Section 2(d) of the <i>Charter</i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[36]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The <i>AEPA</i> applies to any employee in agriculture, which
+industry is broadly defined to include the growing and cultivating of
+agricultural commodities. As MedReleaf grows and harvests medical marijuana,
+and as found in our Phase One decision, MedReleaf employees are employed in
+agriculture and therefore the <i>AEPA</i> is the governing labour relations
+regime.</span></p>
+<p class="MsoNormal"><b><i><span style='font-family:"Calibri","sans-serif";
+color:black'> </span></i></b></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><b><i><span style='font-family:"Calibri","sans-serif";color:black'>The
+Supreme Court of Canada’s Decisions</span></i></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[37]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>We describe the issue in Phase Two by borrowing from the Supreme
+Court of Canada’s reasons for decision in <i>Ontario (Attorney General) v.
+Fraser</i> [2011] 2 S.C.R., in which the Court considered a <i>Charter </i>challenge
+to the<i> AEPA</i>.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>The issue is whether the
+failure of the Ontario government to enact a positive statutory framework for
+agricultural modelled after the Ontario <u>LRA</u> violates s. 2(d) of the <u>Charter</u>
+in a manner that cannot be justified by s. 1.</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[38]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The UFCW argues there are serious reasons to doubt that <i>Fraser</i>
+remains good law and that the test for a Section 2(d) <i>Charter</i> violation
+has been altered since <i>Fraser </i>was decided. A key feature of the UFCW
+argument focuses on the <i>AEPA</i> not providing a meaningful alternative to
+the Wagner Act model.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[39]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In addition, the UFCW argues that the Court in <i>Fraser</i> never
+considered that the <i>AEPA</i> excluded strike activity for agricultural
+workers and that, since the decision in <i>Fraser</i>,<i> </i>the right to
+strike has been recognized as a constitutional right, thereby bringing <i>Fraser’</i>s
+precedential value into doubt.</span></p>
+<p class="MsoNormal"><i><span style='font-family:"Calibri","sans-serif";
+color:black'>The <u>Fraser</u> Case</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[40]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Our review of the jurisprudence begins with<i> </i>the <i>Fraser</i>
+case, which considered whether the <i>AEPA</i> was constitutionally valid. The
+Supreme Court of Canada characterized the <i>AEPA</i> as Ontario’s “latest
+attempt to frame a separate labour relations regime for the farming sector”.
+The Supreme Court concluded that “the <i>AEPA</i>, properly interpreted, meets
+these requirements, and is not unconstitutional”. The requirements the Court
+alluded to a process by which employees or employee associations could make
+employment related representations to employers and an obligation on employers
+to consider and discuss such representations in good faith.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[41]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The agricultural workers involved in <i>Fraser</i> were employed
+at a large industrial-type mushroom farm and at an industrial greenhouse. The
+employees at both workplaces engaged the UFCW to represent them and bargain
+with their respective employers. The employer at the mushroom farm refused to
+recognize the UFCW as the bargaining agent for its employees and did not
+respond to UFCW’s attempts to engage the employer to begin negotiations toward
+a first contract. The employer at the greenhouse expressed doubt that UFCW
+could be an employee association under the <i>AEPA</i> but allowed the union to
+make a short presentation to which the employer responded claiming the employer
+did not have to bargain with the union. The employer also did not respond to
+further written overtures from the UFCW about employment terms at the
+workplace.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[42]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Supreme Court in <i>Fraser</i> summarized the respondent’s
+(the employees and the UFCW) access to the <i>AEPA</i> remedies at paragraph
+12:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>The respondents did not
+attempt to pursue remedies under the <u>AEPA</u>, Specifically, no recourse was
+made to the Tribunal set up under the Act to deal with complaints. Rather, the
+respondent sought a declaration that s. 3(.1) of the <u>LRA</u>, which provides
+that the <u>LRA</u> does not apply to farm workers, and that the <u>AEPA</u> as
+a whole were unconstitutional.</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[43]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Court’s reasons were developed in the context of the Ontario
+Court of Appeal’s determination that the <i>AEPA</i> was unconstitutional
+because it did not provide three minimum protections animating the right to
+meaningful collective bargaining: “(1) a statutory duty to bargain in good
+faith; (2) statutory recognition of the principles of exclusivity and
+majoritarianism; and (3) a statutory mechanism for resolving bargaining
+impasses and disputes regarding the interpretation or administration of
+collective agreements”.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[44]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The UFCW’s arguments before us included the assertion that the <i>AEPA
+</i>failed to provide agricultural workers with those same minimum protections.
+We note that the complaint before us did not encompass a factual matrix
+regarding agricultural workers generally but rather the workers at MedReleaf
+alone.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[45]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Supreme Court overruled the Court of Appeal’s decision and
+clarified in its reasons that its role was not to dictate in advance any
+particular labour relations model as that role was reserved to the legislature.
+</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[46]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>While the principle of <i>stare decisis</i> does not apply in the
+sense that the Tribunal is not bound by its own previous decisions on similar
+cases, it does apply where a court has determined a statutory provision. The
+Tribunal is bound under that principle to apply the court’s interpretation.
+Therefore, at least regarding the authority of <i>Fraser</i>, we begin at a
+position that the <i>AEPA</i> is presumptively valid and the Tribunal is bound
+by the precedent established in <i>Fraser</i> under the doctrine of <i>stare
+decisis</i>.</span></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><i><span style='font-family:"Calibri","sans-serif";color:black'>The <u>Mounted
+Police</u><a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><b><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";color:black'>[1]</span></b></span></a>
+Case</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[47]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Four years after the Supreme Court released its decision in <i>Fraser</i>,
+it considered the constitutional validity of federal legislation governing the
+labour relations of the RCMP. The Court prefaced its analysis as a review and
+interpretation of Section 2(d) <i>Charter</i> rights and clarifying the “scope
+of the constitutional protection of collective bargaining rights” recognized in
+<i>Fraser</i>. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[48]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The context of <i>Mounted Police</i> was that the RCMP had for
+decades, and unlike most members of the federal public service, been
+legislatively excluded from joining a union or from collectively bargaining.
+The labour relations regime for the RCMP excluded them from the definition of
+“employee” that governed most members of the federal public service and
+featured members communicating workplace concerns through a staff relations
+program; pay and benefit concerns through a pay council process; and, legal
+assistance for employment related issues. The appeal challenged the
+constitutional validity of that federal scheme.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[49]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Supreme Court determined that the federal legislation denied
+the RCMP the choice of representation and independence from management to
+identify and advance their workplace concerns and that the impugned provision
+in the legislation contradicted Section 2(d) of the <i>Charter</i> and was not
+a justified infringement under Section 1 of the <i>Charter</i>. The Court also concluded
+that excluding the RCMP from collective bargaining through the definition of
+“employee” in related legislation was also an unjustified infringement of
+Section 2(d) of the <i>Charter</i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[50]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Court reviewed the structure and operation of the Staff Relations
+Representative Program (SRRP) and concluded there was no choice and no
+independence since that employee representative was legislatively mandated and
+because the SRRP was part of management. Those factors proved to be substantial
+interference with the associational freedoms of the RCMP and therefore
+constitutionally invalid.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[51]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Court also considered the exclusion of RCMP from the
+definition of “employee” in related impugned legislation. The Court concluded
+that the related legislative measures, taken together, substantially interfered
+with the RCMP’s freedom of association rights.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[52]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In making these determinations, the Court was careful to reiterate
+that their conclusion did not require Parliament to include the RCMP in the
+labour relations scheme that covered the majority of the public sector
+employees.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>As discussed above, s.
+2(d) of the Charter does not mandate a particular model of labour relations.
+Our conclusion with respect to the constitutionality of the <u>PSLRA</u>
+exclusion means only that Parliament must not substantially interfere with the
+right of RCMP members to a meaningful process of collective bargaining …. For
+example, it remains open to the federal government to explore other collective
+bargaining processes that could better address the specific context in which
+members of the RCMP discharge their duties.</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[53]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Court clarified the constitutional protection of collective
+bargaining rights recognized in <i>Fraser</i>. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[54]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>At paragraph 45, the Court reaffirmed that Section 2(d) of the
+Charter “confers the right to a process of collective bargaining, understood as
+meaningful association in pursuit of workplace goals” including the right of
+employees joining together and making collective representations to the
+employer, who must consider the representations in good faith.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[55]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>At paragraph 67, the Court affirmed the central holding from <i>Fraser</i>
+that using a purposive approach to interpreting the Section 2(d) right to
+meaningfully associate to pursue collective workplace goals including the right
+to collective bargaining means the guaranteed right to a “process”, not any
+particular labour relations model or outcome.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[56]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>At paragraph 73, the Court clarified collective bargaining as a
+core right versus a derivative right guaranteed under the <i>Charter</i> and
+the Attorney General’s misunderstanding of what the Court in <i>Fraser</i>
+meant about “effectively impossible” workplace association.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[57]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>At paragraph 75, the Court sharpened the <i>Fraser</i> focus
+noting that its previous comments regarding “effectively impossible” were not
+defining the legal test for infringement of a Section 2(d) right but the effect
+of the legislation. The legal test for breach of the right of freedom of
+association is “substantial interference”. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[58]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Therefore, to this point in our analysis of the developing
+jurisprudence, <i>Fraser</i> remains good and controlling law, binding on this
+Tribunal, subject to the clarifications from <i>Mounted Police</i>:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>To recap, s. 2(d)
+protects against substantial interference with the right to a meaningful
+process of collective bargaining. Historically, workers have associated in
+order “to meet on more equal terms the power and strength of those with whom
+their interests interact and, perhaps, conflict”, namely, their employers: <u>Alberta
+Reference</u>, at p. 366. The guarantee entrenched in s. 2(d) of the <u>Charter</u>
+cannot be indifferent to power imbalances in the labour relations context. To
+sanction such indifference would be to ignore “the historical origins of the
+concepts enshrined” in s. 2(d): <u>Big M Drug Mart</u>, at p. 344. It follows
+that the right to a meaningful process of collective bargaining will not be
+satisfied by a legislative scheme that strips employees of adequate protections
+in their interactions with management so as to substantially interfere with
+their ability to meaningfully engage in collective negotiations.</span></i></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><i><span style='font-family:"Calibri","sans-serif";color:black'>The <u>SFL</u><a href="#_ftn2" name="_ftnref2" title=""><span class="MsoFootnoteReference"><b><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+color:black'>[2]</span></b></span></a> Case</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[59]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Three months after releasing its decision in <i>Mounted Police</i>,
+the Supreme Court of Canada released <i>Saskatchewan Federation of Labour</i> (<i>SFL</i>),
+a challenge to a provincial legislative scheme containing an outright ban on
+the right to strike for public sector employees designated as “essential”. The
+Court concluded that the right to strike is an indispensable element of the
+right to meaningful collective bargaining and that where “essential” public service
+collective bargaining reaches an impasse, legislation banning striking, without
+providing a less disruptive alternate mechanism to bridge the impasse, will be
+unconstitutional. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[60]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>After a detailed historical analysis of the strike in Canadian
+labour relations and the status of the strike generally in many modern
+democracies, the Court at paragraph 75 observed:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>This historical,
+international and jurisprudential landscape suggests compellingly to me that s.
+2(d) has arrived at the destination sought by Dickson, C.J. in the <u>Alberta
+Reference</u>, namely, the conclusion that a meaningful process of collective
+bargaining requires the ability of employees to participate in the collective
+withdrawal of services for the purpose of pursuing the terms and conditions of
+their employment through a collective agreement. Where good faith negotiations
+break down, the ability to engage in the collective withdrawal of services is a
+necessary component of the process through which workers can continue to
+participate meaningfully in the pursuit of their collective workplace goals. In
+this case, the suppression of the right to strike amounts to a substantial
+interference with the right to a meaningful process of collective bargaining.</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[61]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>After determining the impugned legislation banning public sector
+strikes infringed the Section 2(d) <i>Charter</i> associational rights, the
+Court’s Section 1 justification analysis focused on the absence of any
+statutory alternative dispute resolution mechanism to conclude the legislation
+banning strikes could not be reasonably justified.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[62]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>At this point in our analysis of the developing jurisprudence, <i>Fraser</i>
+remains good and controlling law, binding on this Tribunal, subject to the
+clarifications from <i>Mounted Police </i>and <i>SFL</i>.</span></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><i><span style='font-family:"Calibri","sans-serif";color:black'>The <u>BC
+Teachers Federation</u><a href="#_ftn3" name="_ftnref3" title=""><span class="MsoFootnoteReference"><b><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";color:black'>[3]</span></b></span></a>
+case</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[63]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In 2016, the Supreme Court released brief reasons substantially
+adopting the dissenting reasons of Justice Donald of the British Columbia Court
+of Appeal in determining that the impugned legislation violated the Section
+2(d) <i>Charter </i>rights of teachers in the province. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[64]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Justice Donald’s reasons relied on the Supreme Court’s new labour
+relations decision trilogy of <i>Fraser</i>, <i>Mounted Police</i> and <i>SFL</i>.
+</span></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><b><i><span style='font-family:"Calibri","sans-serif";color:black'>Stare
+Decisis</span></i></b><b><span style='font-family:"Calibri","sans-serif";
+color:black'> and The New Labour Relations Trilogy Since <i>Fraser</i></span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[65]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Supreme Court of Canada has articulated principles to guide
+when and how decision-makers can depart from binding pronouncements. Those
+principles were recently reiterated in <i>R. v. Comeau</i>, 2018 SCC 15. The
+overarching principle is “vertical <i>stare decisis</i>” (inferior
+decision-makers are bound by the decisions of superior decision-makers). For
+the Tribunal to deviate from the controlling authority of <i>Fraser </i>that
+the <i>AEPA</i> is constitutionally valid, the UFCW must convince us there has
+been some seismic shift in the law creating new legal issues or new evidence
+that alters how decision-makers understand the legal issues.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[66]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The new trilogy in labour relations jurisprudence does not
+represent a seismic shift in the law creating new legal issues. Those three
+cases reflect consistent serial affirmations of the continuing authority of <i>Fraser</i>.
+</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[67]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Supreme Court informs us that the evidentiary exception is
+narrow and not just any evidence will suffice; it must be evidence of
+significant evolution in the foundational legislative and social facts. It is
+not a question of disagreement or interpretation.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[68]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The evidence before us in the record, and our findings of fact
+from that evidentiary record, do not satisfy us of significant changes in the
+foundational legislative and social facts from the controlling jurisprudence. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[69]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><i><span style='font-family:"Calibri","sans-serif";
+color:black'>Dunmore</span></i><span style='font-family:"Calibri","sans-serif";
+color:black'> can be considered the seminal case in developing the current
+relevant jurisprudence and part of the evidence was summarized at paragraph 5
+of the decision. “Moreover, the affidavit evidence in this case ‘presents in
+stark contrast two conflicting views of an appropriate labour relations regime
+for agricultural workers in Ontario’ …”. That passage aptly describes the polar
+alignment of certain of the views in the affidavit evidence, and really the
+parties, in this case. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[70]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>By the courts in both <i>Dunmore</i> and <i>Fraser</i>,
+agricultural workers in Ontario had, since at least 1943, been excluded from
+labour relations legislation that covered most other private sector workers
+except for the brief period between the enactment and eventual repeal of the <i>Agricultural
+Labour Relations Act, 1994</i> (“<i>ALRA</i>”). </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[71]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In the <i>Fraser</i> decision at paragraph 13, at the trial level
+of <i>Dunmore</i>, Justice Sharpe found that agricultural workers “are ‘poorly
+paid, face difficult working conditions, have low levels of skills and
+education, low status and limited employment mobility’.” Those factual findings
+from <i>Dunmore</i> were adopted by the trial judge in <i>Fraser</i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[72]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The Phase Two affidavit evidence of Kevin Shimmin, a National
+Representative for the UFCW, attested to the vulnerability of seasonal farm
+workers from other countries working in Canada under the SAWP. Mr. Shimmin’s
+evidence (paragraphs 26-36) was largely anecdotal and was not accompanied or
+supported by the evidence of any agricultural workers. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[73]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The affidavit evidence of Derek Johnstone, Special Assistant to
+the President of the UFCW, appended public interest group reports spanning 2001
+to 2015 that described the working conditions of migrant farm works. In
+addition, Mr. Johnstone testified about the UFCW’s education, advocacy and
+lobbying efforts to the government about the exploitation and vulnerability of
+migrant farm workers under both the SAWP and the TFWP. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[74]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The descriptions of the working conditions of migrant farm workers
+from Mr. Shimmin and Mr. Johnstone parallel the findings made by the courts in <i>Dunmore</i>
+and <i>Fraser </i>with added challenges of language and immigration issues. A
+review of the reports cited and the UFCW’s education, advocacy and lobbying
+efforts reveals they span a temporal arc from <i>Dunmore</i> to <i>Fraser </i>to
+this case and support our conclusion that, regarding farm workers generally and
+migrant farm workers, the foundational legislative and social facts have not
+changed significantly.</span></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><b><span style='font-family:"Calibri","sans-serif";color:black'>A
+Positive Statutory Framework Modelled on the <i>LRA</i> </span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[75]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The <i>LRA</i> is an example of the Wagner Act model expressed in
+a statutory framework governing private sector labour relations in Ontario. The
+essence of the UFCW arguments is that the failure of the <i>AEPA</i> to use
+some close proxy of that <i>LRA</i> model that encompasses a statutorily job
+protected right to strike or a statutorily enshrined alternate mechanism which
+might include features such as binding arbitration or final offer arbitration
+or interest arbitration renders the <i>AEPA</i> unworkable and unconstitutional.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[76]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>A core feature of the Wagner Act model is the ability of workers
+to collectively withdraw services from their employer to exert economic
+pressure to advance collective bargaining. Under the <i>LRA</i> expression of
+the Wagner Act model, employees who do collectively withdraw services (strike),
+have a limited statutory right to reinstatement post-strike. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[77]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Both the UFCW and the AG provided evidence from academics about
+employment and labour law, labour policy and labour relations in Ontario and
+elsewhere in Canada and the world to frame a broader context for the Tribunal’s
+considering Section 2(d) <i>Charter </i>arguments.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[78]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Eric Tucker, a law school professor and author qualified as an
+expert in labour law and employment law, testified on behalf of UFCW. Certain
+of Professor Tucker’s evidence was problematic. The hallmarks of expert
+evidence are that it is objective, fair and non-partisan and is confined to the
+expert’s specific discipline. The problems associated with Professor Tucker’s
+expert evidence are, for the most part, violations of those hallmarks and were
+appropriately summarized in Part II, D of the AG’s Factum.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[79]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Richard Chaykowski, a university professor and author qualified as
+an expert in labour economics, industrial and labour relations and labour
+policy testified on behalf of the AG. We found no problems with Professor
+Chaykowski’s evidence similar to those that we found with Professor Tucker’s
+evidence. Professor Chaykowski “stayed within the lane” of his expertise and
+did not advocate partisan views. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[80]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>In resolving any divergence in expert evidence from Professor
+Tucker and Professor Chaykowski, we would resolve that divergence in favour of
+accepting Professor Chaykowski’s evidence. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[81]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>There was, at least in one relevant area, an alignment of views of
+Professor Tucker and Professor Chaykowski. Professor Tucker described the
+Wagner Act model as “a failing model in our current economy” and that “I don’t
+think it’s the optimal model for farm workers either”. Further, Professor
+Tucker was of the opinion that there were “all kinds of models” that “would, in
+my view, be much more effective than the Wagner Act model”. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[82]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Professor Tucker’s authorship included a 2014 paper titled “Can
+Worker Voice Strike Back” in which he posited about the future of strikes and
+that unions were “part of the problem” because they had been shaped by the
+legal framework (the Wagner Act model) in which they operate. His paper
+explained that “they” (unions) often become narrowly focused on pursuing the
+interests of their members through collective bargaining and developed a
+repertoire of actions, permitted within the legal framework, to advance those
+interests. Reforming the legal framework and expanding the repertoire while
+keeping the same narrow focus is unlikely to lead to much change: </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>…. Perhaps what is
+needed is a more fundamental shift that would see unions trying to rebuild as
+working-class movements more broadly focused on organizing and advancing the
+interests of working people outside the framework of contract unionism. Notable
+in this regard have been one-day strikes by Walmart and fast-food workers
+demanding higher wages, even though there is no prospect that they will be
+organized into dues paying bargaining units.</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[83]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>On cross-examination, Professor Tucker confirmed his writing and
+confirmed to the truth of his views.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[84]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Professor Chaykowski testified about several labour relations
+models used in industrialized nations around the globe other than the Wagner Act
+model. During cross-examination, he testified about scholarly views in
+industrial relations expressing the need to look at alternatives to the Wagner Act
+model because “trying to force that model on certain industries is not working
+and we need alternatives” and  “…I think that’s widely acknowledged and
+recognized in all of the articles that we’ve been talking about this morning.
+It’s evident in all of those articles. I don’t think there’s any debate about
+the fact that the Wagner Act model is not serving private-sector workers. It’s
+just not.” In testimony that aligned with Professor Tucker’s views about the
+Wagner Act model and today’s economy he testified, “…what I’m saying is that
+flies in the face of the reality of experience of the Wagner Act model in the
+new economy. It’s not working in more and more industries.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[85]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>While our decision in Phase One stands on its own without the need
+for further explanation, we take this opportunity to clarify our comments on
+collective bargaining contained therein given that, in Phase Two, UFCW relies
+on our wording, found at page 16 of our decision, that “collective bargaining
+does not apply under the <i>AEPA</i>”. UFCW does so to support its position
+that the <i>AEPA</i> does not provide “a meaningful process for workers to
+engage in collective bargaining.” Isolating those words from the balance of the
+discussion contained in the Phase One decision removes the context in which
+those words were written. There was a thorough analysis in that Phase One
+decision that <i>exclusive</i> collective bargaining was not the model utilized
+by the <i>AEPA</i>. The portion of the paragraph immediately following the
+excerpt upon which UFCW relies discusses non-exclusive bargaining and that is
+the context in which the words “collective bargaining does not apply under the <i>AEPA</i>”
+must be read. It is the Wagner Act model that does not apply.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[86]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>While that alignment of views of those two expert witnesses does
+not determine the <a name="_Hlk36124787">issue before the Tribunal, it does
+provide some useful academic context within which we consider the UFCW’s
+arguments that the <i>AEPA</i> needs to have greater statutory protections for
+agricultural workers to be constitutionally valid.</a></span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[87]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>We received some “farm” specific evidence from three farm owner
+representatives called on behalf of the intervenor LICC. Ken Forth is a farm
+owner of a broccoli farm with a work force primarily comprised of part-time
+seasonal employees employed under the SAWP and producing 80,000 crates of
+broccoli annually from 250 acres of farmland. Jan Vanderhout is a farm owner of
+a greenhouse cucumber farm with a mix of full-time and part-time employees
+which includes employees under both the SAWP and the TFWP, depending on the
+season and producing about 16 million seedless cucumbers per year from
+greenhouses on about 536 acres of farmland. Amy Cronin is a farm owner of a hog
+farming operation on just over 900 acres of farmland with about 6,700 sow hogs
+and most of her employees come via the TFWP. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[88]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>That broader contextual evidence specific to those three farming
+operations represented a minute fraction of the agricultural industry in Ontario
+but that evidence was more or less aligned about the withdrawal of services by
+their employees creating economic havoc in those farming operations due to
+factors such as the health, safety and welfare of livestock and the
+perishability of the crops and the need for ongoing crop maintenance. All three
+witnesses also testified about their individual experiences with labour
+shortages in the farm sector, which underscored their reality that in the face
+of a withdrawal of services by their employees, there was no alternative source
+of reliable labour.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[89]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The contextual evidence about labour relations and the impact of
+the withdrawal of services specific to the three farms does not determine the
+issue before the Tribunal. However, it does provide some useful real-world
+context within which we consider the UFCW’s arguments that the <i>AEPA</i>
+ought to have greater statutory protections for agricultural workers to be
+constitutionally valid.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[90]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Portia MacDonald-Dewhirst testified for the AG and was qualified
+to give expert evidence about the agricultural labour market in Ontario and
+Canada. Her evidence was there were labour shortages caused by increasing
+demands in the province for labour in the agricultural sector and the
+decreasing supply of labour in that same sector. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[91]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Like the other contextual evidence, the evidence about the general
+state of the agricultural labour market in Ontario does not determine the issue
+before the Tribunal. However, it too provides some useful context within which
+we consider the UFCW’s arguments that the <i>AEPA</i> needs to have greater
+statutory protections for agricultural workers to be constitutionally valid.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[92]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The authority of <i>Fraser</i>, as clarified by <i>Mounted Police</i>,
+confirms a constitutional right to a process for some form of collective
+bargaining (but not necessarily a Wagner Act model) and a right to withdraw
+services (but not necessarily a strike), each adjunct animating the Section
+2(d) <i>Charter</i> right of freedom of association. However, that authority
+does not mean that every labour relations statute that does not currently
+contain a statutory right to a Wagner Act model of collective bargaining or to
+strike is rendered unconstitutional as violating the right of freedom of
+association under Section 2(d) of the <i>Charter</i>. Rather, that authority
+requires that we “read-in” where appropriate those constitutionally recognized
+rights in any such labour relations legislation. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[93]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif"'>As a starting
+point, we are of the opinion that Section 5(a) of the <i>AEPA</i> statutorily
+provides for a form of collective bargaining in that it allows an employee’s
+association </span><span style='font-family:"Calibri","sans-serif";
+color:black;background:white'>to make representations respecting the terms and
+conditions of employment of one or more of its members who are employed by an
+employer. While it is not the exclusive Wagner Act model of collective
+bargaining, it does allow for the collective bargaining of two or more
+employees if they so wish.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[94]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The authority of <i>Fraser</i>, as clarified by <i>SFL</i>,
+confirms the unconstitutionality of a labour relations scheme that bans strikes
+without providing a statutory alternate dispute resolution process. Only when a
+labour relations legislative regime contains an outright ban on strikes without
+providing an alternative statutory dispute resolution mechanism would such a
+regime be unconstitutional as violating the Section 2(d) <i>Charter</i> freedom
+of association right.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[95]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>The <i>AEPA</i> does not ban strikes. And while the <i>AEPA</i> is
+silent about the right to strike, such silence does not undermine its
+constitutional validity. The <i>AEPA </i>does not use the “legal framework” of
+the labour relations regime of the <i>LRA,</i> to borrow Professor Tucker’s
+description, nor does it have to.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[96]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Absent any <i>AEPA</i> prohibition on striking, MedReleaf’s
+employees had the freedom to withdraw their services to exert economic leverage
+on their employer in negotiations over employment terms (collective
+bargaining). UFCW’s counsel characterized that freedom as the right to
+collectively quit their employment since the <i>AEPA</i> contains no statutory
+job protection for striking employees akin to that of the <i>LRA</i>. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[97]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>However, we find no support in the authority of <i>Fraser</i>, <i>Mounted
+Police</i> or <i>SFL</i> for the proposition that a labour relations regime
+must contain statutory job protections for employees exercising their right to
+strike. If such statutory job protections are a constitutional right, it will
+be for the Supreme Court of Canada to determine and not this Tribunal. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[98]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>There was no evidence that, during the relevant period, the
+MedReleaf employees sought to withdraw their services to advance any workplace
+concerns. Similarly, regarding the broader contextual evidence described above,
+there was no instance called to our attention of any Ontario farm workers
+seeking to withdraw their services to advance workplace concerns.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[99]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>Mr. Gimelshtein’s Phase Two evidence on behalf of MedReleaf
+reiterated the sensitive nature of the marijuana crop to light, temperature,
+nutrition, trimming, disease, harvesting and drying and the strict federal
+regulatory environment that required specially vetted and approved employees<a href="#_ftn4" name="_ftnref4" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Calibri","sans-serif";color:black'>[4]</span></span></a> always present
+in the cannabis production rooms. The following cross-examination exchange from
+his testimony is apposite:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>Q. Is all of your ARPICs
+died one morning – all of them, all died, no ARPICs – would that effectively
+shut your production down?</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>A. That would – that
+would mean I was dead as well, and yes, it would certainly shut it down.</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>Q. You were actually on
+vacation anyway, and you’re fine. Production was shut down. Okay.</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>A. In fact, I would even
+take it one step further. You would not need all of the ARPICs to die in order
+to shut down our production. A small subset would be able to stifle our
+production dramatically, and that’s why we had to treat them and – with respect
+and hold these employees in the highest regard because ultimately, they might
+not have been executives of the company, but they held a significant power
+within the company.</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>Q. Okay. So from
+MedReleaf’s perspective, it’s very preferable to operate under a statute that
+doesn’t give the employees a right to strike?</span></i></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>A. What I – they
+wouldn’t need a right to strike because if they were to walk out of the
+facility, we wouldn’t be able to run.  </span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[100]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>While that
+exchange concerned a hypothetical scenario, it underscores the inference we
+draw at this point based on the MedReleaf findings from our Phase One decision
+and the MedReleaf evidence in Phase Two that MedReleaf employees, through the
+threat of or actual withdrawal of services, have significant economic leverage
+with their employer arising from that agricultural crop and the limited
+availability of a pool of readily trained replacement employees that could be
+hired in a timely fashion. We draw that inference and note that economic
+leverage exists absent any express statutory right of reinstatement following the
+withdrawal of services (we have intentionally used the word “express” at this
+time).</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[101]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>In the Phase
+One decision we reviewed the evidence of extensive “back and forth”
+communications between MedReleaf and UFCW between January 2016 and June 2017
+over representational status and about terms of employment that ultimately
+reached an impasse. Our Phase One decision characterization of that impasse was
+that UFCW’s dogmatism regarding using traditional <i>LRA</i> methods, “derailed
+the process required by Section 5 of the <i>AEPA</i>”.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[102]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>We observe
+here that the UFCW’s perspective in that regard has been shaped into a “narrow
+focus”, again borrowing from Professor Tucker, by that <i>LRA</i> legal
+framework and a “repertoire of action” that is informed by traditional labour
+relations based on the Wagner model.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[103]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>In the same
+vein of our Phase One decision characterization, we observe that having reached
+an impasse with MedReleaf, largely due to its own dogmatism, the UFCW and the
+MedReleaf employees did not seek to engage MedReleaf in mediation, arbitration
+or threaten withdrawal of services. In that respect, there is no evidentiary
+record upon which we can decide. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[104]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As in <i>Fraser</i>,
+the full breadth of the flexibility the <i>AEPA </i>affords employees and
+employee associations has not been explored in this case. Similarly, the full
+extent of the Tribunal’s jurisdiction cannot yet be explored and it is
+premature to do so without the necessary factual context.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[105]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The
+Tribunal’s express jurisdiction contained in Section 11 of the <i>AEPA</i> is
+set out below with our bold emphasis added:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>11(1) An employee, an
+employees’ association, an employer, an employers’ organization or any other
+person or entity directly involved in an activity related to an exercise of a <b>right</b>
+under this Act may file a written complaint with the Tribunal alleging that
+there has been a contravention of this Act. </span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[106]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>Faced with a
+constitutionalized right to non-exclusive collective bargaining (which is also,
+in this case, statutory) and to withdraw services as recognized by the Supreme
+Court of Canada and our reading of those rights into the <i>AEPA </i>where
+necessary, it is arguable and an open question for determination by another
+panel of this Tribunal in an appropriate case whether firstly the union’s
+and/or the employer’s failure to take proactive steps after reaching
+negotiating impasse or secondly job action against employees exercising their
+right to withdraw services is the subject of a complaint that would engage the
+Tribunal’s remedies under Section 11(6) of the <i>AEPA</i>, which includes the
+power to order parties to cease doing the act complained of or to rectify the
+act complained of and ordering employee reinstatement and compensation.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[107]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The purpose
+section of the <i>AEPA</i> contains express statutory recognition of the
+objective to protect employee rights within the unique context of agriculture.
+The evidence, both specific to MedReleaf and the broader contextual evidence,
+only reinforced the unique characteristics of agriculture well understood by
+this Tribunal. Unlike the labour relations regime of the <i>LRA</i> that
+creates a “one-size fits all” paradigm, the <i>AEPA</i> creates a labour
+relations regime predicated on flexibility to respond to the unique labour
+relations circumstances at small farms, big farms, family owner farms,
+industrial farms, and a non-traditional agricultural enterprises such as
+MedReleaf, operating within a factory like building in an industrial/commercial
+neighborhood in Markham.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[108]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As the
+Supreme Court of Canada observed in <i>Fraser</i>, and equally apposite here,
+after limited efforts to use the protections of the <i>AEPA</i>, the UFCW
+mounted this constitutional challenge without fully engaging or testing those
+protections. It was premature to do so then, just as it is premature to do so
+now.</span></p>
+<p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify;layout-grid-mode:
+char"><b><span style='font-family:"Calibri","sans-serif";color:black'>UFCW’s
+Efforts to Undermine the <i>AEPA</i></span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[109]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The UFCW has
+steadfastly refused to embrace the <i>AEPA</i>’s statutory framework for the protection
+of agricultural workers and in turn, with cart-before-the horse logic, condemns
+the <i>AEPA</i> for being a broken model that has failed those workers. This
+approach is most evident in its website that provides a “History Timeline” of
+“Agricultural Workers in Canada.”<a href="#_ftn5" name="_ftnref5" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";color:black'>[5]</span></span></a>
+In its review of the historic statutory approach, the UFCW downplays and
+denigrates the <i>AEPA</i> for its failure to provide for collective bargaining
+– being the only model the UFCW seems to embrace, despite the existence of
+other bargaining models. The UFCW writes that agricultural workers “ability to
+organize is hobbled by provincial legislation,” and that it is the UFCW’s
+“experience in Ontario, that the vulnerability of both domestic and migrant
+workers to employer abuse is directly reinforced by their inability to organize
+and compel employers to collectively bargain in good faith.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[110]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>Further, the UFCW
+website states that,</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:56.9pt;margin-bottom:
+10.0pt;margin-left:56.7pt;text-align:justify;layout-grid-mode:char"><i><span style='font-family:"Calibri","sans-serif";color:black'>The AEPA does not
+provide agricultural workers with collective bargaining rights enjoyed by
+workers under the Labour Relations Act. In particular, employers of
+agricultural workers are not under a duty to recognize unions as the workers’
+exclusive bargaining agent, or to bargain in good faith with unions that enjoy
+majority support among their employees.</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[111]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The UFCW concludes
+that the <i>AEPA</i> “has proven insufficient in upholding the labour rights of
+agricultural workers in Ontario,” is “not worth using,” “does not work,” and
+“has proven insufficient in upholding the labour rights of agricultural workers
+in Ontario.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[112]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>It is this
+singular focus of the UFCW on the Wagner Act model of collective bargaining
+that is the UFCW’s downfall, not the <i>AEPA</i>’s. When UFCW states, again on
+its website, that “not one group of Ontario agricultural works has ever been
+able to organize or bargain collectively under the AEPA,” such a statement is
+inherently true as the <i>AEPA </i>admittedly does not provide for traditional
+collective bargaining. However, it is the UFCW that itself has sabotaged any
+potential effectiveness of the processes provided by the <i>AEPA</i>. Just as
+it did with MedReleaf (see Phase One Decision), it has only tried to organize
+agricultural workers under the <i>LRA </i>and the <i>Canada Labour Code</i>,
+both of which utilize a Wagner Act collective bargaining model. The UFCW’s
+witnesses (both Shimmin and Johnstone) could not identify any representational
+activity that the UFCW has undertaken under the <i>AEPA</i>, other than those
+following a Wagner Act collective bargaining model. Nor could they identify any
+time workers were advised of their actual rights under the <i>AEPA</i>, as
+opposed to being misled (such as by its website) about any such rights.</span></p>
+<p class="MsoListParagraph" style="margin-left:0in;text-align:justify;text-indent:
+0in;layout-grid-mode:char"><span style='font-family:"Calibri","sans-serif";
+color:black'>[113]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>As stated above, the Tribunal concludes that, just as in <i>Fraser</i>,
+the protections of the <i>AEPA</i> simply have never been engaged and therefore
+never tested. Despite its self-promotion as being the “primary advocate for
+domestic and migrant agricultural workers,”<a href="#_ftn6" name="_ftnref6" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri","sans-serif";
+color:black'>[6]</span></span></a> the UFCW has failed to look outside
+the traditional Wagner Act collective bargaining box and embrace alternative
+models to represent agricultural workers who desire such assistance.</span></p>
+<p class="MsoNormal" style="margin-top:20.0pt;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><span style='font-family:"Calibri","sans-serif";color:black'>PART V — THE <i>CHARTER </i>ANALYSIS</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[114]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As stated
+previously, it is our opinion that Section 5(1) of the <i>AEPA</i> provides a
+form of non-exclusive collective bargaining as it allows for the collective
+representation of more than one employee of any given employer. However, for
+there to be a breach of Section 2(d) of the <i>Charter</i>, the <i>AEPA</i>
+must not provide a <i>meaningful</i> form of collective bargaining. Therefore, UFCW
+must prove that the <i>AEPA</i> substantially interferes with a meaningful
+process of collective bargaining; “substantial interference” remains the legal
+test for a Section 2(d) breach.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[115]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As discussed,
+the weight of binding authority informs us that elements of a meaningful
+process of collective bargaining include employee choice and independence of
+representation/collectivism; good faith duties; and employee power in dealing
+with the employer or influencing employment conditions. We will review each
+element in turn to explain why we find that UFCW has failed to prove that the <i>AEPA</i>
+breaches of Section 2(d) of the <i>Charter</i>. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><span style='font-family:"Calibri","sans-serif";color:black'>Choice and
+Independence</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[116]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The academic
+evidence of representation in labour relations globally satisfies us that
+choice and independence in representation comes in a variety of models that
+include the Wagner Act majoritarian exclusivity and social partnership,
+sectoral bargaining, centralized awards, enterprise unionism and voluntarism.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[117]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As the Court in
+<i>Mounted Police </i>confirmed, “the Wagner Act model, however, is not the
+only model capable of accommodating choice and independence that ensures
+meaningful collective bargaining”.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[118]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The <i>AEPA</i>
+contains no limitations on an “employees’ association”. There are no
+limitations in size or structure or composition. The only requirement of the <i>AEPA</i>
+is that the membership be of agricultural employees and that the association be
+formed for the purposes of those agricultural employees “acting in concert”. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[119]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>In our view,
+that statutory definition of an “employees’ association” could not define a
+broader degree of representational choice for employees.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[120]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The Phase One
+evidence reinforced for us that several MedReleaf employees chose the UFCW as
+their representative to make representations about employment conditions.
+Unlike under the <i>LRA</i>, the MedReleaf employees were entitled under the <i>AEPA</i>
+to that representational choice regardless of the percentage level of employees
+choosing the UFCW.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[121]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The <i>AEPA</i>
+definitions of “employee”, “employees’ association”, and “employer” animate the
+independence of employees’ representational choices from the employer. Section
+8 of the <i>AEPA</i> further animates the principle of independence by
+expressly prohibiting employers or their proxies from interfering with
+employees’ representational choices. Section 11 of the AEPA establish a process
+for addressing complaints that include where an employer interferes with
+employee’s representational choices.  These legislative protections reinforce
+the independence of employee associations from the employer.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><a name="_Hlk42251515"><span style='font-family:"Calibri","sans-serif";
+color:black'>[122]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style='font-family:"Calibri","sans-serif";
+color:black'>There was no evidence in either Phase One or Phase Two that UFCW’s
+representation of those MedReleaf employees was not independent of MedReleaf management.
+</span></a></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><span style='font-family:"Calibri","sans-serif";color:black'>Good Faith</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[123]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The weight of
+binding authority recognizes that employers and employees must act in good
+faith toward each other regarding bargaining about employment conditions but
+there is no constitutional imprimatur requiring an express statutory duty of
+good faith bargaining. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[124]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As <i>Fraser</i>
+directed, Section 5 of the <i>AEPA </i>requires employers to consider
+representations from employee associations in good faith and that satisfies the
+constitutional good faith principle embodied in Section 2(d) of the <i>Charter</i>.
+That direction has not been diminished or altered by the jurisprudence since <i>Fraser</i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[125]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As noted in
+our Phase One decision about the duty imposed by Section 5 of the AEPA, good
+faith requires that the “parties meet and engage in meaningful dialogue where
+positions are explained and each party reads, listens to, and considers
+representations made by the other; an employer must consider the association’s
+representations with an open mind.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[126]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>In our view,
+Section 5 of the <i>AEPA</i> and the implicit duty of good faith in bargaining
+between agricultural employees and employers embody the constitutional
+principle of good faith reflected in Section 2(d) <i>Charter</i> associational
+rights.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[127]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>UFCW points
+to the absence of any evidence of successful collective agreements under the<i>
+AEPA</i> as supporting its argument that good faith negotiations are not
+occurring and that the underlying reason for the absence of such evidence is
+the failure of the <i>AEPA</i>. We observe that no evidence was adduced within
+the agricultural sector in Ontario to determine the success or failure of
+achieving collective agreements under the <i>AEPA</i>. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[128]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>There was
+anecdotal evidence in Phase Two that representations by the UFCW on behalf of
+employees at an Ontario poultry farm (Premier Family Farms) did not result in a
+collective agreement. That evidence suggested that UFCW and the employer
+reached a bargaining impasse. However, there was no evidence that either UFCW
+or the employer sought to engage the complaint process under the <i>AEPA</i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[129]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>We know that
+no collective agreement was achieved by the UFCW on behalf of the MedReleaf
+employees that it represented but that lack of success was due not to a failure
+of the <i>AEPA</i>; it was due to the UFCW’s intransigence.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[130]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>Considering
+the anecdotal evidence of the Premier Farms circumstance and the Phase One evidence
+about the MedReleaf circumstance, we can conclude that, in those two fact
+situations, no collective agreements were achieved. However, the duty of good
+faith implicit in Section 2(d) <i>Charter</i> associational right does not
+guarantee any particular bargaining outcome, including a successful collective
+agreement.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[131]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>Professor
+Tucker’s cross-examination evidence acknowledged an anecdote from North
+Carolina where a collective agreement was negotiated involving 8,500 Mexican
+migrant agricultural workers across 1,000 farms where there was no statutory
+framework for collective bargaining. While anecdotal in nature, we note that
+evidence demonstrates that employees can negotiate and influence employment
+conditions outside a traditional “statutory” Wagner Act model.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><span style='font-family:"Calibri","sans-serif";color:black'>Employee
+Power</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[132]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The weight of
+binding authority informs us of the traditional economic power balance that
+favours employers is addressed by employees’ ability to “meet on more equal
+terms” and the ultimate equalizer is the ability to participate in “collective
+withdrawal of services for the purpose of pursuing the terms and conditions of
+employment”.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[133]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As discussed
+in detail in <i>SFL</i>, the strike or collective withdrawal of services by
+employees has a long common law traditional foundation that pre-dates statutory
+schemes guaranteeing a right to strike.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[134]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>While the
+decision in <i>SFL</i> confirmed that an express statutory prohibition on
+striking runs afoul the Section 2(d) <i>Charter </i>rights, the <i>AEPA</i>
+does not prohibit or preclude employees from exercising their common law
+freedom to collectively withdraw services from their employer in pursuit of
+negotiating employment terms and conditions.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[135]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>In support of
+its claim that agricultural employees under the <i>AEPA </i>have no power, UFCW
+argues that the common law freedom to collectively withdraw employment services
+amounts to nothing more than the collective right to “quit” employment. In
+advancing that argument, UFCW seeks to constitutionalize reinstatement protections
+for agricultural workers. We do not read the weight of binding authority as
+having established that protection. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[136]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>As previously
+discussed, the direct evidence about the MedReleaf workplace and the contextual
+evidence from the farm owner representatives about the consequences of
+employees collectively withdrawing services satisfies us that those employees
+could exercise significant economic power in negotiating employment terms and
+conditions and nothing in the <i>AEPA</i> diminishes that economic power.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;layout-grid-mode:char"><b><span style='font-family:"Calibri","sans-serif";color:black'>Section 1
+Analysis</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;layout-grid-mode:
+char"><span style='font-family:"Calibri","sans-serif";color:black'>[137]<span style='font:7.0pt "Times New Roman"'>       </span></span><span style='font-family:"Calibri","sans-serif";color:black'>Having
+concluded that the Complainant has not proven a breach of their Section 2 (d)
+associational rights, there is no need for us to engage in a Section 1
+analysis.</span></p>
+<p class="MsoNormal"><span style='font-size:8.0pt;font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal"><b><u><span style='font-family:"Calibri","sans-serif";
+color:black'>Order of the Tribunal</span></u></b></p>
+<p class="MsoNormal"><span style='font-size:8.0pt;font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Calibri","sans-serif";color:black'>The
+Tribunal Orders:</span></p>
+<p class="MsoNormal"><span style='font-family:"Calibri","sans-serif";color:black'> </span></p>
+<p class="MsoListParagraph" style="margin-left:.25in;text-indent:-.25in"><span style='font-family:"Calibri","sans-serif";color:black'>1.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style='font-family:"Calibri","sans-serif";color:black'>The
+Complainant’s Constitutional challenge is hereby dismissed.</span></p>
+<p class="MsoNormal"><span style='font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal" style="margin-left:230.5pt;text-indent:-230.5pt;line-height:
+50%"><span style='line-height:50%;font-family:"Calibri","sans-serif";
+color:black'> </span></p>
+<p class="MsoNormal"><span style='font-family:"Calibri","sans-serif";
+color:black'>Dated at Collingwood, Ontario this 17<sup>th</sup> day of June,
+2020.</span></p>
+<p class="MsoNormal"> </p>
+</div>
+<div><br clear="all"/>
+<hr align="left" size="1" width="33%"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style='font-family:"Calibri","sans-serif"'><span style='font-size:10.0pt;font-family:
+"Calibri","sans-serif"'>[1]</span></span></span></a><span style='font-family:"Calibri","sans-serif"'> <i>Mounted Police Assn. of Ontario
+v. Canada</i>, [2015] 380 D.L.R. (4<sup>th</sup>) SCC</span></p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText"><a href="#_ftnref2" name="_ftn2" title=""><span class="MsoFootnoteReference"><span style='font-family:"Calibri","sans-serif"'><span style='font-size:10.0pt;font-family:
+"Calibri","sans-serif"'>[2]</span></span></span></a><span style='font-family:"Calibri","sans-serif"'> <i>SFL v. Saskatchewan</i>, [2015]
+380 D.L.R. (4<sup>th</sup>) SCC</span></p>
+</div>
+<div id="ftn3">
+<p class="MsoFootnoteText"><a href="#_ftnref3" name="_ftn3" title=""><span class="MsoFootnoteReference"><span style='font-family:"Calibri","sans-serif"'><span style='font-size:10.0pt;font-family:
+"Calibri","sans-serif"'>[3]</span></span></span></a><span style='font-family:"Calibri","sans-serif"'> <i>B.C. Teachers’ Federation v.
+British Columbia</i>, 2016 SCC 49</span></p>
+</div>
+<div id="ftn4">
+<p class="MsoFootnoteText"><a href="#_ftnref4" name="_ftn4" title=""><span class="MsoFootnoteReference"><span style='font-family:"Calibri","sans-serif"'><span style='font-size:10.0pt;font-family:
+"Calibri","sans-serif"'>[4]</span></span></span></a><span style='font-family:"Calibri","sans-serif"'> “Responsible Person in Charge
+(RPIC)” and “Alternative Responsible Person in Charge (ARPIC)”</span></p>
+</div>
+<div id="ftn5">
+<p class="MsoFootnoteText"><a href="#_ftnref5" name="_ftn5" title=""><span class="MsoFootnoteReference"><span style='font-family:"Calibri","sans-serif"'><span style='font-size:10.0pt;font-family:
+"Calibri","sans-serif"'>[5]</span></span></span></a><span style='font-family:"Calibri","sans-serif"'> A copy of the relevant pages from
+the UFCW’s website was made evidence at the Phase Two Hearing. Further, the
+Tribunal notes that the affidavit evidence of Mr. Johnstone was, for all
+intents and purposes, a direct copy of the content of these same UFCW webpages.</span></p>
+</div>
+<div id="ftn6">
+<p class="MsoFootnoteText"><a href="#_ftnref6" name="_ftn6" title=""><span class="MsoFootnoteReference"><span style='font-family:"Calibri","sans-serif"'><span style='font-size:10.0pt;font-family:
+"Calibri","sans-serif"'>[6]</span></span></span></a><span style='font-family:"Calibri","sans-serif"'> See the UFCW website.</span></p>
+</div>
+</div>
+</body></html>

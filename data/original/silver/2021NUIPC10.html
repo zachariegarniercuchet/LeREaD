@@ -1,0 +1,1026 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+span.MsoFootnoteReference
+	{}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:10.0pt;
+	margin-right:.6in;
+	margin-bottom:8.0pt;
+	margin-left:.6in;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#404040;
+	font-style:italic;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	color:#404040;
+	font-style:italic;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body>
+<div class="WordSection1">
+<p align="center" class="MsoNormalCxSpFirst" style="text-align:center;line-height:
+normal"><b><span style='font-size:12.0pt;font-family:"Gadugi",sans-serif'>ᓄᓇᕗᒻᒥ</span></b><b><span style="font-size:12.0pt"> </span></b><b><span style='font-size:12.0pt;font-family:"Gadugi",sans-serif'>ᑐᓴᐅᒪᔪᓕᕆᓂᕐᒧᑦ</span></b><b><span style="font-size:12.0pt"> </span></b><b><span style='font-size:12.0pt;font-family:"Gadugi",sans-serif'>ᑲᖖᒍᓇᖅᑐᓕᕆᓂᕐᒧᓪᓗ</span></b><b><span style="font-size:12.0pt"> </span></b><b><span style='font-size:12.0pt;font-family:"Gadugi",sans-serif'>ᑲᒥᓯᓇ</span></b></p>
+<p align="center" class="MsoNormalCxSpMiddle" style="text-align:center;line-height:
+normal"><b><span style="font-size:12.0pt">Nunavut Information and
+Privacy Commissioner</span></b></p>
+<p align="center" class="MsoNormalCxSpMiddle" style="text-align:center;line-height:
+normal"><b><span style="font-size:12.0pt">Nunavunmi
+Tuhaqtauyukhaliqinirmun Kanngunaqtuliqinirmun Kamisina </span></b></p>
+<p align="center" class="MsoNormalCxSpMiddle" style="text-align:center;line-height:
+normal"><b><span style="font-size:12.0pt">Commissaire à
+l’information et à la protection de la vie privée du Nunavut</span></b></p>
+<p align="center" class="MsoNormalCxSpMiddle" style="text-align:center;line-height:
+normal"><span style="font-size:12.0pt"> </span></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:16.0pt;line-height:115%">Commissioner’s Final Report</span></b></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:115%"> </span></p>
+<table border="1" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse;border:none">
+<tbody><tr>
+<td style="width:155.7pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="208">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b>Report Number:</b></p>
+</td>
+<td style="width:303.3pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="404">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal">21-191</p>
+</td>
+</tr>
+<tr>
+<td style="width:155.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="208">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b>CanLII Citation:</b></p>
+</td>
+<td style="width:303.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="404">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal">Department of Education (Re), 2021 NUIPC 10</p>
+</td>
+</tr>
+<tr>
+<td style="width:155.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="208">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b>NUIPC File Number(s):</b></p>
+</td>
+<td style="width:303.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="404">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal">20-181-5</p>
+</td>
+</tr>
+<tr>
+<td style="width:155.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="208">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b>Date:</b></p>
+</td>
+<td style="width:303.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="404">
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal">February 16, 2021</p>
+</td>
+</tr>
+</tbody></table>
+<p class="MsoNormal"><span style="line-height:115%"> </span></p>
+<p class="MsoNormal"><b><span style="line-height:115%">Summary</span></b></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[1]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">A teacher applied
+for disclosure of certain documents related to their employment.<a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span style='font-size:14.0pt;line-height:
+115%;font-family:"Calibri",sans-serif'>[1]</span></span></a> One part of
+the request was for a professional development document, which the parties
+agreed had once existed but the department could not now find. The Commissioner
+finds that the department’s search did not meet the standard of a “diligent
+search”, and makes recommendations to complete the search. Another part of the
+request was for records related to a harassment complaint that had been filed
+against the Applicant. The department disclosed the records, but with
+redactions based on certain exemptions. The Commissioner finds the exemptions
+were properly applied. </span></p>
+<p class="MsoNormal"><b><span style="line-height:115%">Nature of
+Review and Jurisdiction</span></b></p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[2]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">This is an access
+review under s 28(1) of the <i>Freedom of Information and Protection of Privacy
+Act</i> (ATIPPA). </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:42.55pt"><span style="line-height:115%"> </span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[3]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">The Commissioner
+has jurisdiction over the Department of Education: ATIPPA, s 2, definition of
+“public body”. </span></p>
+<p class="MsoNormal"><b><span style="line-height:115%">Issues</span></b></p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[4]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">The issues in this
+review are: </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">Did the department
+conduct a diligent search for the specific document requested by the Applicant?</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">Did the department
+correctly apply the exemptions it claimed when redacting the other documents?</span></p>
+<p class="MsoNormal"><b><span style="line-height:115%">Facts</span></b></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[5]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">The Applicant is a
+teacher. They applied under the ATIPPA for certain documents, in four parts,
+related to their employment.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[6]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">One of the four
+parts was transferred to the Department of Human Resources. It is not part of
+this review. Another of the four parts was really a question, not a request for
+records, and the Department of Education answered the question in the cover
+letter to its disclosure. That answer is not part of this review.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[7]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">Of the two
+remaining parts, one was for a specific document, or to be precise, a specific
+set of documents, namely the Applicant’s completed “Professional Development
+Framework” documents for 2018-19.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[8]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">The Professional
+Development Framework consists of professional standards and a professional
+development toolkit. The toolkit includes a professional development plan and a
+self-reflection. This set of documents is often referred to as if it were a single
+document. I will refer to it in the singular, as “the PDF document”. (I am
+aware that the acronym PDF has another, much more common usage in relation to
+document formats, but in this report it refers only to the Professional
+Development Framework document.)</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[9]<span style='font:7.0pt "Times New Roman"'>                 
+</span></span></b><span style="line-height:115%">Both the Applicant
+and the department agree that the Applicant’s PDF document for 2018-19 did
+exist at one time. The department undertook a search for the document but says
+it cannot now be found.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[10]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The fourth part of
+the Applicant’s request was for a copy of a harassment complaint, with
+supporting documents, filed against the Applicant by a school staff member. The
+department released 26 pages of responsive documents, with redactions, in
+response to this part of the request.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[11]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The Applicant now
+seeks review of (a) the department’s professed inability to find the PDF
+document for 2018-19, and (b) the redactions claimed by the department.</span></p>
+<p class="MsoNormal"><b><span style="line-height:115%">Law</span></b></p>
+<p class="MsoNormal"><i><span style="line-height:115%">The duty to
+assist</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[12]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">An applicant has “a
+right of access to any record in the custody or under the control of a public
+body”: ATIPPA, s 5(1).</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[13]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The head of a
+public body “shall make every reasonable effort to assist an applicant and to
+respond to an applicant openly, accurately, completely and without delay”:
+ATIPPA, s 7(1). This is often referred to as “the duty to assist”.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[14]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">There is nothing
+else in the ATIPPA itself about what “every reasonable effort” means, but there
+is legal precedent from other Canadian jurisdictions. In the Analysis section
+below, I will discuss what the precedents tell us about a public body’s duty to
+conduct a diligent search.</span></p>
+<p class="MsoNormal"><i><span style="line-height:115%">The Section
+23(1) exemption</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[15]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The head of a
+public body “shall refuse to disclose personal information to an applicant
+where the disclosure would be an unreasonable invasion of a third party’s
+personal privacy”: ATIPPA, s 23(1).</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[16]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">“Personal
+information” means information about an identifiable individual: ATIPPA s 2. That
+may include (among many other things) an individual’s name, their medical and
+psychological history, and their personal opinions. </span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[17]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In <i>Department of
+Human Resources (Re), </i>2021 NUIPC 4 (CanLII), I explained how s 23 analysis
+proceeds: </span></p>
+<p class="MsoQuote" style="margin-left:1.0in">[21] I start with
+some general observations about a s 23 analysis. The core idea is in s 23(1):
+“The head of a public body shall refuse to disclose personal information to an
+applicant where the disclosure would be an unreasonable invasion of a third
+party’s personal privacy.” The rest of s 23 provides guidance on how to make
+the determination required by s 23(1):</p>
+<p class="MsoQuote" style="margin-left:1.5in">a. Subsection (2)
+lists circumstances in which an unreasonable invasion of personal privacy may
+be presumed.</p>
+<p class="MsoQuote" style="margin-left:1.5in">b. Subsection (3)
+directs the head of the public body to consider “all the relevant
+circumstances”, and gives some examples.</p>
+<p class="MsoQuote" style="margin-left:1.5in">c. Subsection (4)
+lists circumstances in which a disclosure is deemed not to be an unreasonable
+invasion of personal privacy.</p>
+<p class="MsoQuote" style="margin-left:1.0in">[22] Any s 23
+analysis, then, must consider all relevant factors. A presumption raised by s
+23(2) is not conclusive; it can be rebutted by contrary circumstances of
+greater weight. Section 23(4), in contrast, directs a conclusion if the case
+falls within one of the listed circumstances.</p>
+<p class="MsoNormal" style="page-break-after:avoid"><i><span style="line-height:115%">The Section 25.1(b) exemption</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt;
+page-break-after:avoid"><b><span style="line-height:115%">[18]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Section 25.1 was
+added to the ATIPPA in 2017. It provides an exemption for certain information
+connected to employee relations. Section 25.1(b) is the only portion that the
+department claims:</span></p>
+<p class="MsoQuote" style="margin-left:1.0in">The head of a
+public body may refuse to disclose to an applicant:</p>
+<p class="MsoNormal">                                    …</p>
+<p class="MsoQuote" style="margin-left:1.5in">(b) information
+created or gathered for the purpose of a workplace investigation, regardless of
+whether such investigation actually took place, where the release of such
+information could reasonably be expected to cause harm to the applicant, a public
+body or a third party; ….</p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[19]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The onus of
+establishing an exemption rests on the public body: ATIPPA, s 33(1). To
+correctly claim a s 25.1(b) exemption, a public body must (a) establish the
+information was created or gathered for the purpose of a workplace
+investigation, (b) identify who might suffer harm, (c) establish what harm that
+person might be expected to suffer, and (d) establish why the expectation of
+harm is reasonable. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[20]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Even then, s 25.1
+is a discretionary exemption. Discretionary exemptions involve a two-step
+process. Even if the factual conditions for an exemption are met, the public
+body may choose to release the information. If it does not, it must give a
+rational explanation as to why. </span></p>
+<p class="MsoNormal" style="page-break-after:avoid"><b><span style="line-height:115%">Analysis</span></b></p>
+<p class="MsoNormal" style="page-break-after:avoid"><i><span style="line-height:115%">What is a “diligent search”?</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt;
+page-break-after:avoid"><b><span style="line-height:115%">[21]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%"> The Applicant
+asked for their PDF document for 2018-19. This is not a case in which an
+applicant has given a vague or unfamiliar description of a document they are seeking.
+The department acknowledges that it knew precisely which document the Applicant
+wanted.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[22]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Neither is this a
+case in which an applicant believes a document exists, but is unable to provide
+“some basis” to show that it actually does:<i> Review Report 17-118 (Re)</i>,
+2017 NUIPC 5 (CanLII), citing Order P2010-10 of the Alberta Information and
+Privacy Commissioner. We know the document existed because this very document,
+or at least the self-reflection part of it, was the subject-matter of <i>Complainant
+(Re),</i> 2020 NUIPC 9 (CanLII), a recent Review Report by the former
+Commissioner. In that case the Complainant complained of a privacy breach
+because of the manner in which the document was handled.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[23]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Although the ATIPPA
+does not stipulate exactly how a public body is to go about looking for
+requested records, the duty to assist includes a requirement to use every
+reasonable effort to find the documents. I have found reference in case reports
+to “diligent search”, “reasonable search”, “thorough search”, “full search”,
+“comprehensive search” and “exhaustive search”, and various combinations of
+these adjectives. I prefer the term “diligent search” and that is the term I
+will use in this report.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[24]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In Ontario, the
+search required of a public body is described this way: “A reasonable search is
+one in which an experienced employee knowledgeable in the subject matter of the
+request expends a reasonable effort to locate records which are reasonably
+related to the request”: <i>Municipality of Chatham-Kent (Re),</i> 2019 CanLII
+108986 (ON IPC) at paragraph 15; <i>Health Professions Appeal and Review Board
+(Re),</i> 2018 CanLII 74224 (ON IPC) at paragraph 11.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[25]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">A similar but more
+detailed explanation is given by an adjudicator for the Alberta Information and
+Privacy Commissioner: <i>University of Lethbridge (Re)</i>, 2016 CanLII 92076
+(AB OIPC). This case is especially pertinent because the language of Alberta’s
+“duty to assist” is the same as Nunavut’s, and because the case involves the
+search for a specific document that had definitely existed, but could not now
+be found. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[26]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The adjudicator in <i>University
+of Lethbridge</i> gives this explanation of the source of the public body’s
+duty, and the kind of evidence required to show “reasonable efforts”: </span></p>
+<p class="MsoQuote" style="margin-left:1.0in">[para 7]  A public
+body’s obligation to respond to an applicant’s access request is set out in section
+10, which states in part:</p>
+<p class="MsoQuote" style="margin-left:1.4in">10(1) The head of
+a public body must make every reasonable effort to assist applicants and to
+respond to each applicant openly, accurately and completely.</p>
+<p class="MsoQuote" style="margin-left:1.0in">[para 8]  The duty
+to assist includes responding openly, accurately and completely, as well as
+conducting an adequate search. The Public Body bears the burden of proof with
+respect to its obligations under section 10(1), as it is in the best position
+to describe the steps taken to assist the Applicant (see Order 97-006, at para.
+7).</p>
+<p class="MsoQuote" style="margin-left:1.0in">[para 9]  In Order
+F2007-029, the Commissioner described the kind of evidence that assists a
+decision-maker to determine whether a public body has made reasonable efforts
+to search for records:</p>
+<p class="MsoQuote" style="margin-left:1.4in">In general,
+evidence as to the adequacy of a search should cover the following points:</p>
+<p class="MsoQuoteCxSpMiddle" style="margin-top:10.0pt;margin-right:43.1pt;
+margin-bottom:8.0pt;margin-left:100.95pt">•         The
+specific steps taken by the Public Body to identify and locate records
+responsive to the Applicant's access request</p>
+<p class="MsoQuoteCxSpMiddle" style="margin-top:10.0pt;margin-right:43.1pt;
+margin-bottom:8.0pt;margin-left:100.95pt">•         The scope
+of the search conducted - for example: physical sites, program areas, specific
+databases, off-site storage areas, etc.</p>
+<p class="MsoQuoteCxSpMiddle" style="margin-top:10.0pt;margin-right:43.1pt;
+margin-bottom:8.0pt;margin-left:100.95pt">•         The steps
+taken to identify and locate all possible repositories of records relevant to
+the access request: keyword searches, records retention and disposition
+schedules, etc.</p>
+<p class="MsoQuoteCxSpMiddle" style="margin-top:10.0pt;margin-right:43.1pt;
+margin-bottom:8.0pt;margin-left:100.95pt">•         Who did
+the search</p>
+<p class="MsoQuoteCxSpLast" style="margin-top:10.0pt;margin-right:43.1pt;
+margin-bottom:8.0pt;margin-left:100.95pt">•         Why the
+Public Body believes no more responsive records exist than what has been found
+or produced</p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[27]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">I adopt this
+explanation of the ATIPPA search requirement, along with the stipulation from
+the Ontario cases that the search should be conducted by “an experienced
+employee knowledgeable in the subject matter of the request”.</span></p>
+<p class="MsoNormal"><i><span style="line-height:115%">Did the
+department conduct a diligent search?</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[28]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The department gives
+this explanation as to where the PDF document should have been: </span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The PDF document is
+completed by the teacher and then discussed with the principal. Both the
+teacher and the principal are supposed to keep a copy.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The PD plan and
+self-reflection are then sent supposed to be sent by the principal to the
+school district office and placed in the teacher’s personnel file there.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="line-height:115%">In addition, the
+principal is supposed to send the PD plan to the Educator Development division
+of the Department of Education, where the plans are filed in a shared email
+account. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[29]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The department states
+the following steps were taken, in late September to mid-October 2020, to try
+to locate the document:</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The department’s ATIPP
+coordinator contacted the department’s human resources division, which directed
+them to the school district office.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The ATIPP coordinator
+contacted the school district office. The HR officer there was unable to locate
+the document, and directed the ATIPP coordinator to the school.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="line-height:115%">The ATIPP coordinator
+contacted the school principal, who was unable to locate the document. (The
+principal was new to the position. The principal who would have handled the
+2018-19 PDF document was no longer at the school, and in fact was no longer
+employed by the Government of Nunavut. It appears that no attempt was made to
+contact the former principal.)</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">d.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The ATIPP coordinator
+contacted the Director of Educator Development. The Director was unable to
+locate the document in the shared email drive because, according to the
+department, “the contents of the email folder have yet to be restored following
+ransomware.” (The GN was hit by a disruptive ransomware attack in early
+November 2019.)</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[30]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">I assume the
+Applicant did not keep a copy of the PDF document, because otherwise there
+would have been no need for them to file an ATIPPA request for it. The
+department does not know what the former principal did with the document.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[31]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The department can
+only say that the PDF document is not in the place(s) that it should have been,
+and in the case of the Educator Development division, it cannot currently be
+recovered due to the lingering effects of the November 2019 ransomware attack. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[32]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In my view, the
+search conducted by the department was reasonably good, but does not meet the
+criteria for a “diligent search”. I see two aspects that could have been done
+better.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[33]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">First, the school
+principal plays a key role in the PDF process, but it does not appear any
+attempt was made to contact the principal who was in place at the time the
+2018-19 PDF document was created. The department advises that the principal is
+no longer a GN employee. In my view, the fact that someone has left the GN
+should not automatically mean that they cannot or should not be contacted. The
+department may well have reasons for not doing so in this case, but I am not
+prepared to make that assumption. A “diligent search” may, depending on the
+circumstances, include attempting to contact a former employee who is likely to
+have useful information about the location of a record.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[34]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Second, the
+department appears not to have followed up with the Educator Development
+division after the first, unsuccessful attempt to obtain the PD plan from them.
+The initial contact was in mid-October 2020. The answer given was “the contents
+of the email folder have yet to be restored following ransomware”. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[35]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The department’s
+submissions to this office are dated December 1, 2020. There does not appear to
+have been any follow-up between mid-October and December 1 to determine, either
+from the Educator Development division or the Department of Community and Government
+Services (which manages the GN’s computer systems), whether the shared e-mail
+folder would ever be restored, or when, or whether an individual document could
+be restored in priority to the entire folder.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[36]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">It was a source of
+some frustration to my predecessor, who retired in mid-January 2021, that
+“ransomware” was cited repeatedly by various public bodies, long after the
+attack itself, as a reason for not being able to fulfil ATIPPA requests. For
+example, in <i>Department of Human Resources (Re)</i>, 2020 NUIPC 13 (CanLII),
+which is dated November 30, 2020, the former Commissioner wrote:</span></p>
+<p class="MsoQuote" style="margin-left:1.0in">As noted, I have
+already written to the Minister responsible for Community and Government
+Services to register my concerns about the effect that the ransomware attack
+seems to be having on access to information even a year after the attack. This
+is simply an unacceptable situation that must be addressed.</p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[37]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In <i>Complainant
+(Re),</i> 2020 NUIPC 9 (CanLII), which is dated October 11, 2020, the former
+Commissioner wrote:</span></p>
+<p class="MsoQuote" style="margin-left:1.0in"> I would also take
+this opportunity to address the apparent inability of the GN to recover email
+records created before the ransomware attack experienced by the [GN] at the end
+of October of last year. This is becoming a recurring theme when dealing, in
+particular, with access to information requests. In this case, it is being used
+on two fronts to justify a failure to respond to questions asked by this office
+- once to suggest that the supervisor could not confirm whether or not he
+responded to the Complainant’s email in which the breach was confirmed in
+writing and again as the reason that it could not be determined if the Deputy
+Minister responded in any way to the Complainant’s emails about his concerns.
+This excuse was being relied on some six months or more after the attack and
+months after I had been advised that all historical records were to have been
+restored. I gave the Department several opportunities to provide the requested
+records but received no response. I do not accept the ransomware attack as a
+valid reason for not being able to show steps taken to address the privacy
+breach complaint. In the future if public bodies are unable to respond to this
+office because of problems arising out of the ransomware attack, I will require
+confirmation of that from those responsible for the electronic systems within
+the GN, as well as an explanation for the inability to access the records.</p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[38]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">On August 17, 2019,
+the deputy minister of CGS wrote to the former Commissioner to say “…we can
+confirm that all emails have been recovered and are able to be accessed. A
+backup of GN network drives was completed … on the night before the incident.
+These network drives … are now online and operational as the file repository
+for the GN.” (The only reference to further delay is for “expired user
+accounts”, which were expected to be archived “by the end of the year”. I have
+no reason to believe that the shared email folder at the Educator Development
+division of the Department of Education counts as an “expired user account”.
+Even if it were, we are now past the end of the year.)</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[39]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">There is no doubt
+that CGS worked long and hard to restore services after the November 2019 ransomware
+attack. They should be congratulated for that. Restoration of services across
+the GN was complex and expensive. A certain amount of delay and backlog was to
+be expected. But the ransomware attack is now fifteen months behind us, and the
+deputy minister of CGS indicated six months ago that almost everything was back
+in operation.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[40]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In the present
+case, it was mid-October when the department’s ATIPP coordinator asked the
+Educator Development division to look for the PD plan document. That was almost
+a year after the ransomware attack, and two months after the deputy minister of
+CGS assured my predecessor that all e-mails were recovered and accessible and
+network drives were online and operational.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[41]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In my view, a
+“diligent search” in late 2020, or anytime thereafter, requires more than a one-time
+request and a reference to “ransomware” as a reason why nothing could be found.
+It will require:</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">A specific description
+of the network or other locations where the ATIPP coordinator reasonably expects
+the responsive document(s) to be found.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">Based on the answer to
+(a), a specific description of the network or other locations that have
+actually been searched; the specific dates and times of those searches; the
+name(s) of the person(s) who carried out those searches; and details of the
+search strategies they employed.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="line-height:115%">Based on the answer to
+(a), a specific description of the network or other locations that are <u>not</u>
+accessible to a search, and <u>why</u> the ATIPP coordinator believes they are
+not accessible.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">d.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">Based on the answer to
+(c), verification <u>in writing</u> by an experienced and knowledgeable
+employee of the IT division of CGS (or for other public bodies not running on
+the GN system, the equivalent IT resource) that the specified network or other
+locations are indeed not accessible, and the detailed technical reasons why
+they are not accessible.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">e.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">Based on the answer to
+(d), a statement by the same IT employee as to when, if ever, the network or
+other locations are expected to be accessible.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[42]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In short: the time
+for accepting the response “ransomware” as a reason for not fulfilling an ATIPP
+request is over. The law requires better. Nunavummiut deserve better.</span></p>
+<p class="MsoNormal" style="page-break-after:avoid"><i><span style="line-height:115%">Did the department correctly claim certain exemptions?</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt;
+page-break-after:avoid"><b><span style="line-height:115%">[43]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In response to the
+request for the harassment complaint, the department disclosed to the Applicant
+26 pages of responsive records. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[44]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">It is not
+surprising, in the circumstances, that there are extensive redactions. All of
+the claimed exemptions fall under two sections of the ATIPPA: s 23(1)
+(unreasonable invasion of a third party’s personal privacy) and s 25.1(b)
+(workplace investigation with reasonable expectation of harm). Some redactions
+are claimed under both s 23(1) and s 25.1(b). </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[45]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">I do not propose to
+deal with each redaction, one by one. To do so might lead to this report
+ballooning to a hundred pages or more. I propose to deal with categories of
+redactions, and then determine if the exemptions were properly applied to those
+categories. First, however, I must deal with the department’s request to
+withhold some of its submissions from the Applicant.</span></p>
+<p class="MsoNormal"><i><span style="line-height:115%">The
+department’s request to withhold submissions</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[46]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The department made
+submissions to this office that it asked not be shared with the Applicant. The
+submissions are related to the “reasonable expectation of harm” criterion in s
+25.1(b). </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[47]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In <i>Department of
+Community and Government Services (Re),</i> 2021 NUIPC 8, I gave two reasons
+why withholding information from one of the parties is generally undesirable: </span></p>
+<p class="MsoQuote" style="margin-left:1.0in"> [19]   First, it
+means the Complainant will not see, and will not have a chance to respond to,
+the department’s submissions to me. No one is entitled as of right to have
+access to, or to comment on, representations made to this office by any other
+person: ATIPPA, s 32(3). Nevertheless, it is a good practice, and one which
+this office generally follows. </p>
+<p class="MsoQuote" style="margin-left:1.0in">[20]    The second
+reason for my hesitation is that this report will have to be more oblique than
+I would like. One purpose of a Commissioner’s report is to educate government
+staff and the general public. Another purpose is to be transparent in ATIPPA
+administration. Those purposes are not well served if important facts are
+omitted.</p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[48]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Nevertheless, I am usually
+prepared in a case under s 25.1(b) to consider withholding a public body’s
+submissions. Disclosing the source and nature of potential harm may itself
+create a risk of harm. Workplace harassment is a serious issue with potentially
+wide-ranging and pernicious effects, and I would not wish the ATIPPA review
+process to contribute, directly or indirectly, to worsening those effects.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[49]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">At the same time, s
+25.1(b) is not a free pass: it still requires proof commensurate with the
+occasion. The nature and extent of the proof required may vary with the
+circumstances of the case. The onus is on the public body.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[50]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Here, the very
+document requested by the Applicant is a harassment complaint in which they are
+the respondent. There are other legal processes in place designed to get to the
+bottom of this sort of complaint. I am in no position to judge the merits of
+the complaint, and I explicitly do not do so. Therefore, and for purposes of s
+25.1(b) of the ATIPPA, I am prepared to <u>assume</u> that the harassment allegations
+are true (while emphasizing again that I am no position to say if they are true
+or not). </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[51]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Based on that
+assumption, I find that the department’s submissions on reasonable expectation
+of harm may be withheld from the Applicant.</span></p>
+<p class="MsoNormal"><i><span style="line-height:115%">Were the
+exemptions properly claimed?</span></i></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[52]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The 26 pages of
+responsive records consist of the complaint itself, supported by an extensive
+record, almost a journal one might say, of e-mails, conversations, and
+incidents covering a lengthy period. This record deals almost exclusively with
+events occurring in and around the school at which the complainant and
+respondent worked.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[53]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Generally speaking,
+the department has claimed a s 23(1) exemption for the following categories of
+information: </span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The names of students.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The names of other
+school staff, where the name is only incidental to the harassment complaint.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="line-height:115%">Expressions by the
+complainant of their own psychological or medical reaction to the alleged harassment.</span></p>
+<p class="MsoNormal" style="margin-left:.75in"><span style="line-height:
+115%">I agree that these are proper categories for a s 23(1) exemption. They
+are “personal information” within the meaning of the ATIPPA.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[54]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Generally speaking,
+the department has claimed a s 25.1(b) exemption for </span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The names of potential
+witnesses to the alleged harassment.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">The names of people
+with whom the staff member consulted about what to do in response to the
+alleged harassment.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="line-height:115%">Expressions of a fear
+of harm, either to the staff member or to a third party.</span></p>
+<p class="MsoNormal" style="margin-left:.75in"><span style="line-height:
+115%">I agree that, in the specific circumstances of this case, there are
+proper categories for the s 25.1(b) exemption.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[55]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">As I stated above,
+to correctly claim a s 23(1) exemption, all relevant circumstances must be
+taken into account: ATIPPA, s 23(3). In that respect, I take note of the
+following factors:</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">With respect to student
+names, the students are entirely incidental to the alleged harassment. They are
+minors. Their specific identities are of no relevance to the harassment
+complaint or to the ATIPPA process. Disclosing their names would, in the circumstances,
+be an unreasonable invasion of their personal privacy.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">With respect to the
+names of other staff, their appearance in the documents is (apart from
+potential witnesses) incidental to the alleged harassment. Disclosing their
+names would, in the circumstances, be an unreasonable invasion of their
+personal privacy.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="line-height:115%">With respect to the
+complainant staff member’s psychological or medical reaction to the alleged
+harassment, ATIPPA s 23(2)(a) creates a rebuttable presumption that medical and
+psychological information is an unreasonable invasion of personal privacy. I
+see nothing in the file material that would rebut this presumption.</span></p>
+<p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in"><span style="line-height:115%">d.<span style='font:7.0pt "Times New Roman"'>    
+</span></span><span style="line-height:115%">ATIPPA s 23(3) says
+that one relevant factor is “whether…the personal information is relevant to a
+fair determination of the applicant’s rights”. As I have noted above, there are
+other legal processes in place to determine if a harassment complaint is
+well-founded. The Applicant is, for example, a member of a union, and operating
+under a collective agreement with a well-entrenched dispute-resolution process.
+These other legal processes are available to fairly determine the Applicant’s
+rights, and the Applicant may, in those other processes, be entitled to fuller
+disclosure (e.g. the names of possible witnesses) than under the ATIPPA. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[56]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">I have carefully
+examined every word of the redactions. For the reasons in the previous
+paragraph, and taking into account all relevant circumstances, I find that the
+department has properly claimed the exemptions under s 23(1).</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[57]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">To correctly claim
+a s 25.1(b) exemption, a public body must (a) establish the information was
+created or gathered for the purpose of a workplace investigation, (b) identify
+specifically who might suffer harm, (c) establish what harm that person might
+be expected to suffer, and (d) establish why the expectation of harm is
+reasonable. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[58]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">I find the first
+criterion is met. Besides the harassment complaint form itself, the 26 pages of
+documents are a detailed compilation of incidents. In context, it is evident
+that the staff member was building a dossier of evidence that was likely eventually
+to form the basis for a complaint.  </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[59]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">In its submissions,
+the department has been reasonably specific about the other three criteria: who
+might suffer harm if the information is released, the nature of that harm, and
+why the expectation of harm is reasonable. It could be more detailed, but it is
+not merely speculative. This is the portion of the department’s submissions
+that I have agreed may be withheld from the Applicant. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[60]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Again, I have carefully
+examined every word of the redactions. For the reasons in the previous two
+paragraphs, I find that the department has properly claimed the exemptions
+under s 25.1(b).</span></p>
+<p class="MsoNormal"><b><span style="line-height:115%">Conclusion</span></b></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[61]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">The department has
+fallen short of the criteria for a “diligent search” for the Professional
+Development Framework document. </span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[62]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">Under s 23(1) and s
+25.1(b) of the ATIPPA, and in the specific context of this case, the redacted
+information is properly withheld.</span></p>
+<p class="MsoNormal"><b><span style="line-height:115%">Recommendations</span></b></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[63]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><b><span style="line-height:115%">I recommend</span></b><span style="line-height:115%"> that the Department of Education consider
+contacting the former principal (the one in place when the Applicant’s PDF
+document for 2018-19 was created) to seek their assistance in locating the PDF document.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[64]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><b><span style="line-height:115%">I recommend</span></b><span style="line-height:115%"> that the Department of Education contact
+the Director of the Educator Development division again to determine if that
+division’s shared email folder is now accessible.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[65]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">If the shared email
+folder is now accessible, <b>I recommend</b> that the department obtain the
+Applicant’s PDF document for 2018-19 and disclose it to the Applicant.</span></p>
+<p class="MsoListParagraph" style="margin-left:42.55pt;text-indent:-42.55pt"><b><span style="line-height:115%">[66]<span style='font:7.0pt "Times New Roman"'>            
+</span></span></b><span style="line-height:115%">If the shared email
+folder is still not accessible, <b>I recommend</b> that the Department of
+Education consult with CGS about if and when the shared email drive <u>will</u>
+be accessible. I <b>recommend</b> that the result of that consultation be
+shared with this office.</span></p>
+<p class="MsoNormal"><span style="line-height:115%"> </span></p>
+<p class="MsoNormalCxSpMiddle"><span style="line-height:115%">Graham
+Steele</span></p>
+<p class="MsoNormalCxSpMiddle"><span style='font-size:12.0pt;
+line-height:115%;font-family:"Gadugi",sans-serif'>ᑲᒥᓯᓇ
+/ Commissioner / Kamisina / Commissaire</span></p>
+<p class="MsoNormal"><b><span style="line-height:115%"> </span></b></p>
+</div>
+<div><br clear="all"/>
+<hr align="left" size="1" width="33%"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;line-height:115%;font-family:"Calibri",sans-serif'>[1]</span></span></a> For the purpose of anonymization, it is the Commissioner’s practice
+not to name complainants, GN employees, other individuals or communities unless
+the names are relevant to an understanding of the issues; and also to use the
+pronouns “they/them” even when referring to an individual.</p>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,2543 @@
+<!DOCTYPE html>
+
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+      "color": "#76CEDE",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "decision": {
+      "color": "#6aa3ff",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "secondary sources": {
+      "color": "#278FE3",
+      "sublabels": {
+        "authors": {
+          "color": "#ffb84d",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "source": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "unable to classify": {
+      "color": "#ffc107",
+      "sublabels": {},
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    }
+  },
+  "meta": {
+    "time": 7887234,
+    "project title": "CLIQAI",
+    "Annotator": "A1",
+    "annotation guidelines": "V2",
+    "Labels tree": "V2",
+    "Annotation date": "2026-02-18",
+    "Reviewer": "RL",
+    "Review Date": "2026-02-25"
+  }
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+h1
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:25.0pt;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial",sans-serif;}
+h2
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+h3
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;}
+h4
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+h5
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;}
+h6
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+span.MsoFootnoteReference
+	{}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:-.25in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:8.0pt;
+	font-family:"Arial",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Objet du commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.Paragraphe, li.Paragraphe, div.Paragraphe
+	{mso-style-name:Paragraphe;
+	mso-style-link:"Paragraphe Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:0in;
+	line-height:25.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.Citationenretrait, li.Citationenretrait, div.Citationenretrait
+	{mso-style-name:"Citation en retrait";
+	margin-top:6.0pt;
+	margin-right:.5in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+span.Citationintgre
+	{mso-style-name:"Citation intégrée";
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.zSoquijlblCour, li.zSoquijlblCour, div.zSoquijlblCour
+	{mso-style-name:zSoquij_lblCour;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:25.0pt;
+	font-size:18.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.zSoquijlblPays, li.zSoquijlblPays, div.zSoquijlblPays
+	{mso-style-name:zSoquij_lblPays;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblProvince, li.zSoquijlblProvince, div.zSoquijlblProvince
+	{mso-style-name:zSoquij_lblProvince;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblGreffe, li.zSoquijlblGreffe, div.zSoquijlblGreffe
+	{mso-style-name:zSoquij_lblGreffe;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatGreffe, li.zSoquijdatGreffe, div.zSoquijdatGreffe
+	{mso-style-name:zSoquij_datGreffe;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatDivision, li.zSoquijdatDivision, div.zSoquijdatDivision
+	{mso-style-name:zSoquij_datDivision;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblNoDossier, li.zSoquijlblNoDossier, div.zSoquijlblNoDossier
+	{mso-style-name:zSoquij_lblNoDossier;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatNoDossier, li.zSoquijdatNoDossier, div.zSoquijdatNoDossier
+	{mso-style-name:zSoquij_datNoDossier;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatNoDossierAnt, li.zSoquijdatNoDossierAnt, div.zSoquijdatNoDossierAnt
+	{mso-style-name:zSoquij_datNoDossierAnt;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:47.5pt;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatDateJugement, li.zSoquijdatDateJugement, div.zSoquijdatDateJugement
+	{mso-style-name:zSoquij_datDateJugement;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblDateJugement, li.zSoquijlblDateJugement, div.zSoquijlblDateJugement
+	{mso-style-name:zSoquij_lblDateJugement;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblJuge, li.zSoquijlblJuge, div.zSoquijlblJuge
+	{mso-style-name:zSoquij_lblJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.zSoquijdatQteJuge, li.zSoquijdatQteJuge, div.zSoquijdatQteJuge
+	{mso-style-name:zSoquij_datQteJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.zSoquijdatJuge, li.zSoquijdatJuge, div.zSoquijdatJuge
+	{mso-style-name:zSoquij_datJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.zSoquijdatNomPartieDem, li.zSoquijdatNomPartieDem, div.zSoquijdatNomPartieDem
+	{mso-style-name:zSoquij_datNomPartieDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.zSoquijdatQtePartieDem, li.zSoquijdatQtePartieDem, div.zSoquijdatQtePartieDem
+	{mso-style-name:zSoquij_datQtePartieDem;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblLienParties, li.zSoquijlblLienParties, div.zSoquijlblLienParties
+	{mso-style-name:zSoquij_lblLienParties;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatNomPartieDef, li.zSoquijdatNomPartieDef, div.zSoquijdatNomPartieDef
+	{mso-style-name:zSoquij_datNomPartieDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.zSoquijdatQtePartieDef, li.zSoquijdatQtePartieDef, div.zSoquijdatQtePartieDef
+	{mso-style-name:zSoquij_datQtePartieDef;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblTypeDocument, li.zSoquijlblTypeDocument, div.zSoquijlblTypeDocument
+	{mso-style-name:zSoquij_lblTypeDocument;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblProcureurDem, li.zSoquijlblProcureurDem, div.zSoquijlblProcureurDem
+	{mso-style-name:zSoquij_lblProcureurDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblProcureurDef, li.zSoquijlblProcureurDef, div.zSoquijlblProcureurDef
+	{mso-style-name:zSoquij_lblProcureurDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblDateAudience, li.zSoquijlblDateAudience, div.zSoquijlblDateAudience
+	{mso-style-name:zSoquij_lblDateAudience;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatDateAudience, li.zSoquijdatDateAudience, div.zSoquijdatDateAudience
+	{mso-style-name:zSoquij_datDateAudience;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblNomChambre, li.zSoquijlblNomChambre, div.zSoquijlblNomChambre
+	{mso-style-name:zSoquij_lblNomChambre;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijlblOpinionJuge, li.zSoquijlblOpinionJuge, div.zSoquijlblOpinionJuge
+	{mso-style-name:zSoquij_lblOpinionJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+span.zSoquijlblEntNoDossier
+	{mso-style-name:zSoquij_lblEntNoDossier;}
+p.zSoquijlblTitrePartie, li.zSoquijlblTitrePartie, div.zSoquijlblTitrePartie
+	{mso-style-name:zSoquij_lblTitrePartie;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatIdJuge, li.zSoquijdatIdJuge, div.zSoquijdatIdJuge
+	{mso-style-name:zSoquij_datIdJuge;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.Sous-paragraphe, li.Sous-paragraphe, div.Sous-paragraphe
+	{mso-style-name:Sous-paragraphe;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.55in;
+	text-align:justify;
+	text-indent:-.3in;
+	line-height:14.0pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatNomProcureurDem, li.zSoquijdatNomProcureurDem, div.zSoquijdatNomProcureurDem
+	{mso-style-name:zSoquij_datNomProcureurDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatNomProcureurDef, li.zSoquijdatNomProcureurDef, div.zSoquijdatNomProcureurDef
+	{mso-style-name:zSoquij_datNomProcureurDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatCabinetProcureurDem, li.zSoquijdatCabinetProcureurDem, div.zSoquijdatCabinetProcureurDem
+	{mso-style-name:zSoquij_datCabinetProcureurDem;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatCabinetProcureurDef, li.zSoquijdatCabinetProcureurDef, div.zSoquijdatCabinetProcureurDef
+	{mso-style-name:zSoquij_datCabinetProcureurDef;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.Tableaudroiteanglais, li.Tableaudroiteanglais, div.Tableaudroiteanglais
+	{mso-style-name:"Tableau droite anglais";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.1in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.Tableaugauchefranais, li.Tableaugauchefranais, div.Tableaugauchefranais
+	{mso-style-name:"Tableau gauche français";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.zSoquijdatRepertorie, li.zSoquijdatRepertorie, div.zSoquijdatRepertorie
+	{mso-style-name:zSoquij_datRepertorie;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.zSoquijdatRefNeutre, li.zSoquijdatRefNeutre, div.zSoquijdatRefNeutre
+	{mso-style-name:zSoquij_datRefNeutre;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.StylezSoquijdatRepertorie, li.StylezSoquijdatRepertorie, div.StylezSoquijdatRepertorie
+	{mso-style-name:"Style zSoquij_datRepertorie";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:25.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Segoe UI",sans-serif;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Arial",sans-serif;}
+span.ParagrapheCar
+	{mso-style-name:"Paragraphe Car";
+	mso-style-link:Paragraphe;
+	font-family:"Arial",sans-serif;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;
+	font-family:"Arial",sans-serif;}
+span.ObjetducommentaireCar
+	{mso-style-name:"Objet du commentaire Car";
+	mso-style-link:"Objet du commentaire";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.reflex2-link
+	{mso-style-name:reflex2-link;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:1.0in .7in 1.0in 1.3in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="blue" vlink="#954F72">
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:.4pt;border-collapse:collapse">
+<tbody><tr style="height:14.2pt">
+<td colspan="5" style="padding:0in 0in 0in 0in;
+  height:14.2pt" valign="top">
+<p class="zSoquijdatRepertorie"><manual_label docid="Mouvement laïque québécois" id="0" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/kdzlx" verified="false"><manual_label id="1" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Mouvement laïque québécois c.
+  English Montreal School Board</manual_label></manual_label></p>
+</td>
+<td style="padding:0in 0in 0in 0in;
+  height:14.2pt" valign="top">
+<p align="right" class="zSoquijdatRefNeutre" style="text-align:right"></p></td><td style="padding:0in 0in 0in 0in;
+  height:14.2pt" valign="top"><p align="right" class="zSoquijdatRefNeutre" style="text-align:right"><manual_label id="2" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2021 QCCA 1675</manual_label></p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"></p></td><td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr style="height:12.35pt">
+<td colspan="6" style="padding:0in 0in 0in 0in;
+  height:12.35pt" valign="top">
+<p class="zSoquijlblCour">COURT OF APPEAL</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr style="height:27.0pt">
+<td colspan="6" style="padding:0in 0in 0in 0in;
+  height:27.0pt" valign="top">
+<p class="zSoquijdatDivision"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblPays">CANADA</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProvince">PROVINCE OF QUEBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblGreffe">REGISTRY OF</p>
+</td>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatGreffe"><a name="NomGreffe">MONTREAL</a></p>
+<p class="zSoquijdatGreffe"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblNoDossier">No.:</p>
+</td>
+<td colspan="5" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNoDossier"><a name="NoDossier">500-09-029539-210</a>, 500-09-029549-219, 500-09-029550-217</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNoDossierAnt">(500-17-107204-193)
+  (500-17-108353-197) (500-17-109731-193) </p>
+<p class="zSoquijdatNoDossierAnt">(500-17-109983-190)</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblDateJugement">DATE:</p>
+</td>
+<td colspan="5" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatDateJugement"> November 9, 2021</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="2" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblJuge"><a name="Coram">BEFORE</a></p>
+</td>
+<td colspan="2" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQteJuge"><a name="Honorables">THE HONOURABLE</a></p>
+</td>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatJuge"><a name="NomJuge1"></a><a name="_Hlt520513784"></a>FRÉDÉRIC BACHAND, J.A.</p>
+</td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblTitrePartie">No.: 500-09-029539-210</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblTitrePartie"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDem">MOUVEMENT LAÏQUE QUÉBÉCOIS</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDem">APPELLANT/INCIDENTAL
+  RESPONDENT – Intervenor</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblLienParties">v.</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ENGLISH MONTREAL SCHOOL
+  BOARD</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">MUBEENAH MUGHAL</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">PIETRO MERCURI</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">RESPONDENTS/INCIDENTAL
+  APPELLANTS – Plaintiffs</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ATTORNEY GENERAL OF QUEBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">JEAN-FRANÇOIS ROBERGE, in
+  his capacity as Minister of Education</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">SIMON JOLIN-BARRETTE, in his
+  capacity as Minister of Immigration, Diversity and Inclusiveness</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTIES – Defendants</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ICHRAK NOUREL HAK</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">NATIONAL COUNCIL OF CANADIAN
+  MUSLIMS (NCCM)</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">CORPORATION OF THE CANADIAN
+  CIVIL LIBERTIES ASSOCIATION</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ANDRÉA LAUZON</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">HAKIMA DADOUCHE</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">BOUCHERA CHELBI</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">COMITÉ JURIDIQUE DE LA
+  COALITION INCLUSION QUÉBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">FÉDÉRATION AUTONOME DE
+  L’ENSEIGNEMENT</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTIES – Plaintiffs</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">QUÉBEC COMMUNITY GROUPS
+  NETWORK</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">CANADIAN HUMAN RIGHTS
+  COMMISSION</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">WORLD SIKH ORGANIZATION OF
+  CANADA</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">AMRIT KAUR</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">AMINISTIE INTERNATIONALE,
+  SECTION CANADA FRANCOPHONE</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">POUR LES DROITS DES FEMMES
+  DU QUÉBEC – PDF QUÉBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">THE LORD READING LAW SOCIETY</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">PUBLIC SERVICE ALLIANCE OF
+  CANADA (PSAC)</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTIES –
+  Intervenors</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef" style="margin-left:0in">and</p>
+<p class="zSoquijdatQtePartieDef" style="margin-left:0in"><b>QUÉBEC
+  ENGLISH SCHOOL BOARDS ASSOCIATION</b></p>
+<p class="zSoquijdatQtePartieDef" style="margin-left:.5in">INTERVENOR</p>
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">No.: 500-09-029549-219</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDem">POUR LES DROITS DES FEMMES
+  DU QUÉBEC – PDF QUÉBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDem">APPELLANT/INCIDENTAL
+  RESPONDENT – Intervenor</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblLienParties">v.</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblLienParties"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ENGLISH MONTREAL SCHOOL
+  BOARD</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">MUBEENAH MUGHAL</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">PIETRO MERCURI</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">RESPONDENTS/INCIDENTAL
+  APPELLANTS – Plaintiffs</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ATTORNEY GENERAL OF QUEBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">JEAN-FRANÇOIS ROBERGE, in
+  his capacity as Minister of Education</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">SIMON JOLIN-BARRETTE, in his
+  capacity as Minister of Immigration, Diversity and Inclusiveness</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTIES – Defendants</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ICHRAK NOUREL HAK</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">NATIONAL COUNCIL OF CANADIAN
+  MUSLIMS (NCCM)</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">CORPORATION OF THE CANADIAN
+  CIVIL LIBERTIES ASSOCIATION</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ANDRÉA LAUZON</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">HAKIMA DADOUCHE</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">BOUCHERA CHELBI</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">COMITÉ JURIDIQUE DE LA
+  COALITION INCLUSION QUÉBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">FÉDÉRATION AUTONOME DE
+  L’ENSEIGNEMENT</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTIES – Plaintiffs</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">WORLD SIKH ORGANIZATION OF
+  CANADA</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">AMRIT KAUR</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">QUEBEC COMMUNITY GROUPS
+  NETWORK</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">CANADIAN HUMAN RIGHTS
+  COMMISSION</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">MOUVEMENT LAÏQUE QUÉBÉCOIS</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">AMNISTIE INTERNATIONALE,
+  SECTION CANADA FRANCOPHONE</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">THE LORD READING LAW SOCIETY</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">PUBLIC SERVICE ALLIANCE OF
+  CANADA (PSAC)</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTIES –
+  Intervenors</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef" style="margin-left:0in">and</p>
+<p class="zSoquijdatQtePartieDef" style="margin-left:0in"><b>QUÉBEC
+  ENGLISH SCHOOL BOARDS ASSOCIATION</b></p>
+<p class="zSoquijdatQtePartieDef" style="margin-left:.5in">INTERVENOR</p>
+<p class="zSoquijdatQtePartieDef"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">No.: 500-09-029550-217</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDem">ATTORNEY GENERAL OF QUEBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDem">JEAN-FRANÇOIS ROBERGE, in his
+  capacity as Minister of Education</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDem">SIMON JOLIN-BARRETTE, in his
+  capacity as Minister of Immigration, Diversity and Inclusiveness</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDem">APPELLANTS/INCIDENTAL
+  RESPONDENTS – Defendants</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblLienParties">v.</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblLienParties"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ENGLISH MONTREAL SCHOOL
+  BOARD</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">MUBEENAH MUGHAL</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">PIETRO MERCURI</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">RESPONDENTS/INCIDENTAL
+  APPELLANTS – Plaintiffs </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ICHRAK NOUREL HAK</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">NATIONAL COUNCIL OF CANADIAN
+  MUSLIMS (NCCM)</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">CORPORATION OF THE CANADIAN
+  CIVIL LIBERTIES ASSOCIATION</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">ANDRÉA LAUZON</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">HAKIMA DADOUCHE</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">BOUCHERA CHELBI</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">COMITÉ JURIDIQUE DE LA
+  COALITION INCLUSION QUÉBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">FÉDÉRATION AUTONOME DE
+  L’ENSEIGNEMENT</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">RESPONDENTS – Plaintiffs</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">QUEBEC COMMUNITY GROUPS
+  NETWORK</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTY/INCIDENTAL
+  APPELLANT – Intervenor</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">WORLD SIKH ORGANIZATION OF
+  CANADA</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">AMRIT KAUR</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">CANADIAN HUMAN RIGHTS COMMISSION</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">MOUVEMENT LAÏQUE QUÉBÉCOIS</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">POUR LES DROITS DES FEMMES
+  DU QUÉBEC – PDF QUÉBEC</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">LIBRE PENSEURS ATHÉES</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">AMNISTIE INTERNATIONALE,
+  SECTION CANADA FRANCOPHONE</p>
+<p class="zSoquijdatNomPartieDef">THE LORD READING LAW SOCIETY</p>
+<p class="zSoquijdatNomPartieDef">PUBLIC SERVICE ALLIANCE OF
+  CANADA (PSAC)</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">IMPLEADED PARTIES –
+  Intervenors</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal">and</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomPartieDef">FRANÇOIS PARADIS, in his
+  capacity as President of the National Assembly of Quebec</p>
+<p class="zSoquijdatNomPartieDef">QUÉBEC ENGLISH SCHOOL BOARDS
+  ASSOCIATION</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatQtePartieDef">INTERVENORS</p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-top:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblTypeDocument"><a name="TitreDocument">JUDGMENT</a></p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr>
+<td colspan="6" style="border:none;
+  padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in"><p class="MsoNormal"> </p></td>
+</tr>
+<tr height="0">
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+</tr>
+</tbody></table>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal"><a name="Arret">[1]<span style='font:7.0pt "Times New Roman"'>         
+</span>This is an application under article <manual_label docid="Code of Civil Procedure" id="3" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"><manual_label fragmentid="sec 661" id="4" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">661 <i>C.C.P.</i></manual_label><i></i></manual_label><i></i>
+seeking the provisional execution of certain portions of the April 20, 2021
+judgment of the Superior Court, District of Montreal (the Honourable Mr.
+Justice Marc-André Blanchard),</a><a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[1]</span></span></a> addressing the constitutionality of the<manual_label docid="Laicity Act" id="5" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"> <i></i><manual_label id="6" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false"><i>Act respecting the
+laicity of the State</i> </manual_label>(“<i><manual_label id="7" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></i>” or “<i><manual_label id="8" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></i>”</manual_label>).<a href="#_ftn2" name="_ftnref2" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[2]</span></span></a> Specifically, the applicants English Montreal School Board (“EMSB”), Mubeenah Mughal and Pietro Mercuri
+seek an order providing for the execution — pending
+the appeals filed by the Attorney General of Quebec, the Mouvement laïque
+québécois and Pour le droit des femmes du Québec — of orders to the effect
+that certain provisions of the <i><manual_label docid="Laicity Act" id="9" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="10" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></manual_label></i> amount to unjustifiable
+violations of <manual_label docid="Canadian Charter" id="11" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="12" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</manual_label> of the <i><manual_label id="13" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Canadian Charter of Rights and Freedoms</manual_label></i></manual_label><i></i>.
+Those orders were not suspended to give a period of time to the National
+Assembly to formulate amendments to the<manual_label docid="Laicity Act" id="14" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"> <manual_label id="15" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></manual_label>. Moreover, no order for provisional
+execution was sought at first instance.</p>
+<p align="center" class="Paragraphe" style="text-align:center;line-height:normal">*           *           *</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[2]<span style='font:7.0pt "Times New Roman"'>         
+</span>Quebec has a distinctive approach regarding the
+effect of judgments under appeal. As is the case in many civil law
+jurisdictions,<a href="#_ftn3" name="_ftnref3" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[3]</span></span></a> the general rule — set out in <manual_label docid="Code of Civil Procedure" id="16" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"><manual_label fragmentid="sec 355(1)" id="17" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">article 355 para. 1 </manual_label><i></i><manual_label id="18" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false"><i>C.C.P.</i> </manual_label></manual_label>—
+is that the filing of an appeal stays the execution of the impugned judgment.
+Provisional execution is addressed in <manual_label docid="Code of Civil Procedure" id="19" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"><manual_label fragmentid="sec 661(1)" id="20" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">article 661 para. 1</manual_label> <i><manual_label id="21" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">C.C.P.</manual_label></i></manual_label><i></i>, which
+states that an order to that effect can be made upon a showing that the filing
+of an appeal “is likely to cause serious or irreparable
+prejudice to one of the parties/<i>risque de causer un préjudice sérieux ou
+irréparable à une partie</i>”. Because it provides for an exception to the rule
+provided for in<manual_label docid="Code of Civil Procedure" id="22" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"> <manual_label fragmentid="sec 355(1)" id="23" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">article 355 para. 1</manual_label> <i><manual_label id="24" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">C.C.P.</manual_label></i><i></i>, <manual_label fragmentid="sec 661(1)" id="25" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">article 661 para.
+1</manual_label> <i><manual_label id="26" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">C.C.P.</manual_label></i></manual_label><i></i> is interpreted and applied in a restrictive manner.<a href="#_ftn4" name="_ftnref4" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[4]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[3]<span style='font:7.0pt "Times New Roman"'>         
+</span>To establish that it is likely to suffer serious
+or irreparable prejudice while an appeal is pending, the applying party cannot
+merely rely on vague, general or hypothetical assertions. It must allege and
+prove precise, clear and concrete facts supporting its claim.<a href="#_ftn5" name="_ftnref5" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[5]</span></span></a> Moreover, being deprived of the rights
+under the judgment as a result of the filing of an appeal cannot, in itself,
+constitute the prejudice which is alluded to in<manual_label docid="Code of Civil Procedure" id="27" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"> <manual_label fragmentid="sec 661(1)" id="28" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">article 661 para. 1</manual_label> <i><manual_label id="29" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">C.C.P.</manual_label></i></manual_label><i></i>
+The analysis must rather focus on the consequences of being deprived of those
+rights.<a href="#_ftn6" name="_ftnref6" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[6]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[4]<span style='font:7.0pt "Times New Roman"'>         
+</span>Because the power to order provisional execution
+is a discretionary one, the applicant must further demonstrate that the order
+sought is warranted in the circumstances of the case. A key consideration here
+is the need to avoid significantly upsetting the balance between the
+appellant’s interest in pursuing the appeal and the respondent’s interest in
+benefitting from the impugned judgment.<a href="#_ftn7" name="_ftnref7" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[7]</span></span></a> While
+the judgment is presumed to be well-founded, the apparent strength of the appellant’s
+case remains relevant to the exercise of judicial discretion.<a href="#_ftn8" name="_ftnref8" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[8]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[5]<span style='font:7.0pt "Times New Roman"'>         
+</span>Additional considerations come into play in
+cases involving challenges to the constitutionality of legislation, because the
+analysis must proceed on the assumption that the legislation at issue “is
+directed to the public good and serves a valid public purpose”.<a href="#_ftn9" name="_ftnref9" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[9]</span></span></a> As the Supreme Court noted in <i><manual_label docid="Harper" id="30" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/524l" verified="false"><manual_label id="31" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Harper</manual_label></manual_label></i>, “[c]ourts will not
+lightly order that laws that Parliament or a legislature has duly enacted for
+the public good are inoperable in advance of complete constitutional review”;<a href="#_ftn10" name="_ftnref10" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[10]</span></span></a> they will only do so in clear cases.<a href="#_ftn11" name="_ftnref11" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[11]</span></span></a> It is worth noting that this approach remains applicable even where
+a judge at first instance has held the legislation at issue to be unconstitutional.<a href="#_ftn12" name="_ftnref12" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[12]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[6]<span style='font:7.0pt "Times New Roman"'>         
+</span>Lastly, it is worth noting that the standard
+applicable at the first stage of the analysis — <i>is the filing of the appeal
+likely to cause serious or irreparable prejudice?</i> — is no less stringent
+when <i><manual_label docid="Canadian Charter" id="32" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label id="33" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Charter</manual_label> </manual_label></i>rights are in dispute. This point, which is conceded by the
+applicants,<a href="#_ftn13" name="_ftnref13" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[13]</span></span></a> is illustrated by the Court’s 2019 judgment refusing to stay
+certain provisions of the <i><manual_label docid="Laicity Act" id="34" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="35" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></manual_label></i>.<a href="#_ftn14" name="_ftnref14" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[14]</span></span></a>
+Although a stay of legislation and an order for provisional execution are
+different remedies, they are both subject to similar requirements regarding the
+need to prevent ongoing or future harm. In its 2019 judgment, the Court was
+unanimous in applying the relevant requirement rigorously, as is clear from the
+dissenting reasons of then Chief Justice Duval Hesler, who insisted on the need
+to prove a “well-defined harm”<a href="#_ftn15" name="_ftnref15" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[15]</span></span></a> before reproducing the following excerpt from a judgment rendered
+by Justice Sébastien Grammond:<a href="#_ftn16" name="_ftnref16" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[16]</span></span></a></p>
+<p class="Paragraphe" style="margin-top:6.0pt;margin-right:35.1pt;margin-bottom:
+6.0pt;margin-left:35.45pt;line-height:normal"><span style="font-size:11.0pt">[136]  The burden of proving irreparable harm falls
+upon the party seeking an injunction. It has been difficult to describe the
+standard of proof, because the exercise is necessarily forward-looking and, as
+the Saskatchewan Court of Appeal noted, it “involves, and must involve, a
+weighing of risks rather than a weighing of certainties” (<i></i><manual_label docid="Mosaic Potash" id="36" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/fnk4z" verified="false"><i><manual_label id="37" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Mosaic Potash</manual_label></i>,
+at <manual_label fragmentid="para 58" id="38" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paragraph 58</manual_label></manual_label>). In that exercise, <b>one must take into account “<i>both</i>
+the likelihood of the harm occurring and its size or significance”</b> (<i></i><manual_label docid="Mosaic Potash" id="39" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/fnk4z" verified="false"><i>ibid</i>,
+at <manual_label fragmentid="para 59" id="40" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paragraph 59</manual_label></manual_label>). In reviewing assertions of irreparable harm, this Court has
+often used strong language that may be thought to amount to a requirement of
+certainty. However, such language is mainly used to impress on applicants <b>the
+need to provide evidence that goes beyond mere speculation or hypotheses about
+future harm</b>, in cases that fall well short of the mark. In a recent case,
+Justice David Stratas of the Federal Court of Appeal provides a useful review
+of the jurisprudence and summarizes the applicable test as follows: “</span><b><span style="font-size:11.0pt">The burden on a moving party seeking a stay
+is to adduce </span></b><b><span style="font-size:11.0pt">specific,
+particularized evidence</span></b><b><span style="font-size:11.0pt">
+establishing a <i>likelihood</i> of irreparable harm</span></b><span style="font-size:11.0pt">” (<i></i><manual_label docid="Oshkosh Defense Canada" id="41" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/hscjf" verified="false"><i><manual_label id="42" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Canada (Attorney General) v Oshkosh
+Defense Canada Inc.</manual_label></i>, <manual_label id="43" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2018 FCA 102</manual_label> at <manual_label fragmentid="para 30" id="44" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paragraph 30</manual_label></manual_label>, emphasis mine).</span></p>
+<p align="right" class="Paragraphe" style="margin-top:6.0pt;margin-right:35.1pt;
+margin-bottom:6.0pt;margin-left:35.45pt;text-align:right;line-height:normal"><span style="font-size:11.0pt">[Italics in the original; boldface added]</span></p>
+<p align="center" class="Paragraphe" style="text-align:center;line-height:normal">*           *           *</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[7]<span style='font:7.0pt "Times New Roman"'>         
+</span>I now consider whether the applicants have shown
+that the filing of the appeals is likely to cause serious
+or irreparable prejudice to the holders of the <manual_label docid="Canadian Charter" id="45" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="46" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</manual_label></manual_label> rights vindicated in
+the impugned judgment.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[8]<span style='font:7.0pt "Times New Roman"'>         
+</span>It is important to begin by clarifying the
+rights at issue. To do so, it is necessary to briefly discuss <manual_label docid="Canadian Charter" id="47" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="48" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</manual_label> of the
+<i><manual_label id="49" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Charter</manual_label></i> </manual_label>as well as the relevant aspects of Blanchard J.’s judgment.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[9]<span style='font:7.0pt "Times New Roman"'>        </span><manual_label docid="Canadian Charter" id="50" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><span style='font:7.0pt "Times New Roman"'> 
+</span><manual_label fragmentid="sec 23" id="51" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">Section 23</manual_label></manual_label> grants a right to minority-language instruction
+to certain parents who form part of the French or English linguistic minority
+population of the province in which they reside. The
+scope of that right, which depends on the number of children whose parents hold
+<manual_label docid="Canadian Charter" id="52" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="53" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</manual_label></manual_label> rights, varies from a right to
+publicly-funded minority-language instruction (<manual_label docid="Canadian Charter" id="54" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23(3)(a)" id="55" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23(3)(a)</manual_label></manual_label>) to a right to receive such instruction in publicly-funded minority-language
+educational facilities (<manual_label docid="Canadian Charter" id="56" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23(3)(b)" id="57" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23(3)(b)</manual_label></manual_label>). The latter right, which is situated
+at the high end of what has been described as a “sliding scale”,<a href="#_ftn17" name="_ftnref17" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[17]</span></span></a> comprises a right of management and control
+that includes authority to make decisions relating to the recruitment and
+assignment of teachers and other personnel.<a href="#_ftn18" name="_ftnref18" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[18]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[10]<span style='font:7.0pt "Times New Roman"'>      
+</span>The applicants represent the interests of parents
+who form part of Quebec’s English minority population and who, unquestionably,
+have a right to publicly-funded minority-language
+educational facilities, as well as a right to manage and control such
+facilities. The dispute rather focusses on whether certain provisions of the <i><manual_label docid="Laicity Act" id="58" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="59" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity
+Act</manual_label></manual_label></i> infringe on that right of management and control.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[11]<span style='font:7.0pt "Times New Roman"'>      
+</span>Blanchard J. found that
+it did. In reaching that
+conclusion, he began by recalling that, in<manual_label docid="Mahe" id="60" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1fsz4" verified="false"><manual_label id="61" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false"> <i>Mahe</i></manual_label><i></i></manual_label><i></i>, the Supreme Court had emphasized the importance of <manual_label docid="Canadian Charter" id="62" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="63" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</manual_label></manual_label> in
+light of “the vital role of education in preserving and encouraging linguistic
+and cultural vitality”,<a href="#_ftn19" name="_ftnref19" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[19]</span></span></a> while also holding that <manual_label docid="Canadian Charter" id="64" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23(3)(b)" id="65" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23(3)(b)</manual_label></manual_label> gave relevant linguistic minorities an exclusive right of control
+over all aspects of minority education which pertain not only to linguistic
+concerns, but also to cultural ones.<a href="#_ftn20" name="_ftnref20" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[20]</span></span></a>
+Blanchard J. added that, in its recent decision in <i></i><manual_label docid="Conseil scolaire francophone de la Colombie-Britannique" id="66" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j882q" verified="false"><i></i><manual_label id="67" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false"><i>Conseil
+scolaire francophone de la Colombie</i><i><span style='font-family:"Cambria Math",serif'>‑</span></i><i>Britannique</i></manual_label><i></i></manual_label><i></i>,<a href="#_ftn21" name="_ftnref21" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[21]</span></span></a> the Supreme Court had stated<i> </i>that <manual_label docid="Canadian Charter" id="68" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="69" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section
+23</manual_label></manual_label> was intended to preserve both the language and the culture of Canada’s
+French and English minorities.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[12]<span style='font:7.0pt "Times New Roman"'>      
+</span>Turning next to the evidence before him,
+Blanchard J. found that many of Quebec’s Anglophone school boards have adopted
+policies recognizing the importance of social, ethnic, cultural and religious
+diversity,<a href="#_ftn22" name="_ftnref22" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[22]</span></span></a> as well as the related importance of counting among its teaching
+and management staff persons who wear religious symbols.<a href="#_ftn23" name="_ftnref23" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[23]</span></span></a> This led him to articulate the relevant constitutional right as one
+to foster such diversity through means that include the recruitment and
+promotion of religious-symbol-wearing employees.<a href="#_ftn24" name="_ftnref24" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[24]</span></span></a> He then held that the relevant provisions of the <i><manual_label docid="Laicity Act" id="70" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="71" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></manual_label> </i>breached
+<manual_label docid="Canadian Charter" id="72" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="73" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</manual_label> of the <i><manual_label id="74" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Charter</manual_label></i></manual_label><i>,</i><a href="#_ftn25" name="_ftnref25" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[25]</span></span></a> and he
+did so after having explained that the problem lay in the fact that those
+provisions would eventually lead to a systematic absence (“<i>l’absence
+systématique”</i>)<a href="#_ftn26" name="_ftnref26" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[26]</span></span></a> of religious-symbol-wearing teachers and management staff.<a href="#_ftn27" name="_ftnref27" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[27]</span></span></a> Lastly, Blanchard J. found that those <i><manual_label docid="Canadian Charter" id="75" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label id="76" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Charter</manual_label></manual_label>
+</i>breaches could not be justified under section 1 thereof.<a href="#_ftn28" name="_ftnref28" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[28]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[13]<span style='font:7.0pt "Times New Roman"'>      
+</span>Coming back to the application for provisional
+execution before me, the key question, is whether the applicants are likely to
+suffer serious or irreparable prejudice as a result of the<manual_label docid="Laicity Act" id="77" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"> <i><manual_label id="78" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></i></manual_label><i>’s</i>
+interference, while the appeals are pending, with that right to foster social,
+ethnic, cultural and religious diversity.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[14]<span style='font:7.0pt "Times New Roman"'>      
+</span>While considering that question, it is important
+to keep in mind that the <i><manual_label docid="Laicity Act" id="79" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="80" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></manual_label></i>’s prohibition against wearing religious
+symbols in the exercise of professional functions does not apply to persons
+who, on March 27, 2019, were employed as principals, vice principals or
+teachers, and this for as long as they exercise the same function within the
+same school board.<a href="#_ftn29" name="_ftnref29" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[29]</span></span></a> Therefore, Quebec’s Anglophone school boards are not altogether
+prevented from employing principals, vice principals and teachers who wear
+religious symbols. What the <i></i><manual_label docid="Laicity Act" id="81" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><i><manual_label id="82" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></i> </manual_label>prevents them from doing — and
+what they will be prevented from doing while the appeals are pending, unless
+provisional execution is ordered — is to recruit principals, vice principals
+and teachers who wear religious symbols, or to give different responsibilities
+to employees whose right to continue to wear such symbols was preserved by the<manual_label docid="Laicity Act" id="83" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"> <i><manual_label id="84" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></i></manual_label><i></i>’s
+grandfather clause.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[15]<span style='font:7.0pt "Times New Roman"'>      
+</span>Turning now to the applicants’ claims, they
+first contend that the<manual_label docid="Laicity Act" id="85" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"> <i><manual_label id="86" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></i></manual_label><i></i> negates the school boards’ hiring and
+promotion policies while suppressing minority culture among their institutions.<a href="#_ftn30" name="_ftnref30" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[30]</span></span></a> That claim is an overstatement, at least in the context of the
+present application. While the <i><manual_label docid="Laicity Act" id="87" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="88" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></manual_label></i> undeniably interferes with the school
+board’s policies in some respects, the claim that such interference has led —
+or is likely to lead, in the near future — to the suppression of minority
+culture goes too far. The school boards’ objectives in relation to social,
+ethnic, cultural and religious diversity can still be furthered in many
+respects, including by the presence of teaching and management staff members
+who wear religious symbols and who benefit from the<manual_label docid="Laicity Act" id="89" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"> <i><manual_label id="90" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></i></manual_label><i></i>’s grandfather
+clause. Given the legal framework applicable to applications based on <manual_label docid="Code of Civil Procedure" id="91" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"><manual_label fragmentid="sec 661" id="92" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">article
+661</manual_label> <i><manual_label id="93" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">C.C.P.</manual_label></i><i></i></manual_label><i></i>, it cannot be simply assumed that the <i><manual_label docid="Laicity Act" id="94" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="95" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></manual_label></i>’s partial interference
+with the school boards’ hiring and promotion policies is likely to have a
+significant detrimental impact on the latter’s social, ethnic, cultural and
+religious diversity while the appeals are pending.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[16]<span style='font:7.0pt "Times New Roman"'>      
+</span>The applicants’ second claim is that the <i><manual_label docid="Laicity Act" id="96" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="97" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity
+Act</manual_label></manual_label> </i>will seriously harm the integration and educational success of
+students, notably their ethnic and religious minority students, who will be
+deprived of the full benefits of a pedagogical approach emphasizing the
+acceptance and celebration of religious diversity.<a href="#_ftn31" name="_ftnref31" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[31]</span></span></a> They
+support their claim by invoking a number of items of evidence that were adduced
+at trial and that point to the benefits of religious diversity among
+administrative and teaching staff, as well as the fact that no other party — not
+even the Attorney General — adduced any evidence to the contrary. </p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[17]<span style='font:7.0pt "Times New Roman"'>      
+</span>However, even assuming that the evidence
+supports the findings made by Blanchard J., it sheds little light on the extent
+to which the perpetuation of that pedagogical approach will depend on
+recruitment or promotion decisions which the <i></i><manual_label docid="Laicity Act" id="98" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><i><manual_label id="99" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></i> </manual_label>will prevent
+the Anglophone school boards from making while the appeals are pending. In my
+opinion, one cannot assume that the <i><manual_label docid="Laicity Act" id="100" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="101" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Act</manual_label></manual_label></i>’s partial interference — during
+that period — with the Anglophone school boards’ ability either to recruit
+principals, vice principals and teachers, or to give different responsibilities
+to current employees, will compromise that diversity-focused pedagogical
+approach in a way that will significantly impact the integration and educational
+success of students. It is particularly noteworthy that, as the record
+currently stands, it is very difficult to get a clear sense of the impact that
+the filing of the appeals is likely to have on the overall composition of the
+school boards’ teaching and management staff in the near future. Moreover, I
+agree with the Attorney General that the applicants’ claim is seriously
+weakened by the lack of evidence showing that the school boards’ diversity-focused
+pedagogical approach has been concretely and significantly compromised since
+June 2019, when the <i><manual_label docid="Laicity Act" id="102" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="103" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></manual_label></i> came into force.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[18]<span style='font:7.0pt "Times New Roman"'>      
+</span>The applicants’ third claim is that the
+inability to offer teaching positions to candidates who wear religious symbols
+is problematic in light of the teacher shortage currently faced by at least
+some Anglophone school boards.<a href="#_ftn32" name="_ftnref32" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[32]</span></span></a> Relying on sworn statements from Ann Watson<a href="#_ftn33" name="_ftnref33" title=""><span class="MsoFootnoteReference"><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>[33]</span></span></a> — who has held the position of Director of the Human Resources
+Department at the EMSB since January 2019 —, they emphasize the following
+facts:</p>
+<p class="Paragraphe" style="margin-left:.5in;text-indent:-.25in;line-height:
+normal">•<span style='font:7.0pt "Times New Roman"'>        
+</span>in Montreal, there are currently 60 teaching
+positions that are either unfilled or filled with persons without proper
+qualifications;</p>
+<p class="Paragraphe" style="margin-left:.5in;text-indent:-.25in;line-height:
+normal">•<span style='font:7.0pt "Times New Roman"'>        
+</span>the teacher shortage is particularly acute for
+French-speaking teacher positions (48 of the 60 positions);</p>
+<p class="Paragraphe" style="margin-left:.5in;text-indent:-.25in;line-height:
+normal">•<span style='font:7.0pt "Times New Roman"'>        
+</span>in recent years, many French-speaking candidates
+have been persons from North Africa or the Middle East who wear religious
+symbols (generally the hijab);</p>
+<p class="Paragraphe" style="margin-left:.5in;text-indent:-.25in;line-height:
+normal">•<span style='font:7.0pt "Times New Roman"'>        
+</span>the EMSB generally prefers to hire properly qualified
+candidates rather than candidates who either hold letters of tolerance (<i>tolérances
+d’engagement</i>) or are only qualified to teach other subject matters.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[19]<span style='font:7.0pt "Times New Roman"'>      
+</span>I agree with the applicants that Ms. Watson’s
+sworn statements support those factual assertions. I also recognize, as a
+general proposition, that a measure that interferes with a school board’s or
+service centre’s ability to fill vacant positions with properly qualified
+teachers is inherently detrimental to the public interest. As the Supreme Court
+emphasized in <i></i><manual_label docid="Ross" id="104" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1frbr" verified="false"><i></i><manual_label id="105" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false"><i>Ross v</i><i>.</i> <i>New Brunswick School District No. 15</i></manual_label><i></i></manual_label><i></i>, before quoting from Chief Justice Warren’s opinion in the landmark
+case of <i><span style="color:black;letter-spacing:-.15pt"><manual_label docid="Brown" id="106" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://www.canlii.org/en/bc/bcca/doc/2013/2013bcca483/2013bcca483.html" verified="false"><manual_label id="107" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Brown
+v. Board of Education of Topeka</manual_label></manual_label></span></i><span style="color:black;
+letter-spacing:-.15pt">,</span><a href="#_ftn34" name="_ftnref34" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[34]</span></span></a><span style="color:black;letter-spacing:-.15pt"> “</span><span style="color:black;letter-spacing:-.15pt">[w]hether one views it from an
+economic, social, cultural or civic point of view, the education of the
+young is critically important in our society”.</span><a href="#_ftn35" name="_ftnref35" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[35]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[20]<span style='font:7.0pt "Times New Roman"'>      
+</span>However, I find that the facts to which Ms.
+Watson attests are not sufficiently precise, clear and concrete to support an
+inference that the application of the <i><manual_label docid="Laicity Act" id="108" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="109" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></manual_label></i> while the appeals are
+pending is likely to have a significant impact on the EMSB’s ability to fill
+vacant positions with properly qualified candidates.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[21]<span style='font:7.0pt "Times New Roman"'>      
+</span>I arrive at this conclusion for the following
+reasons.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[22]<span style='font:7.0pt "Times New Roman"'>      
+</span>To begin, Ms. Watson’s assertions are vague in two
+critical respects. First, she states that the pool of French-speaking
+candidates is usually comprised of “many” persons from North Africa or the
+Middle East who wear religious symbols. It is very difficult to determine from
+that statement that the application of the <i><manual_label docid="Laicity Act" id="110" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="111" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></manual_label></i> is likely to
+impact the pool of properly qualified French-speaking candidates in a significant,
+as opposed to a merely marginal, manner. Moreover, as I read them, Ms. Watson’s
+statements seem to assume that religious-symbol-wearing French-speaking
+teachers who usually form part of the pool of qualified candidates would only
+pursue employment opportunities if allowed to wear religious symbols while
+exercising their professional functions. Although the record shows that there
+are such candidates,<a href="#_ftn36" name="_ftnref36" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[36]</span></span></a> it does not provide a clear indication of the extent to which their
+situation is representative of all religious-symbol-wearing French-speaking
+candidates. In my view, it would be inappropriate to make categorical
+assumptions about those persons’ religious practices and preferences, given the
+inherently deeply personal nature of such matters.<a href="#_ftn37" name="_ftnref37" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[37]</span></span></a></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[23]<span style='font:7.0pt "Times New Roman"'>      
+</span>Furthermore, the Attorney General has filed
+evidence tending to demonstrate that there are approximately 100 qualified
+French-speaking teachers who are potentially available to work in Quebec’s
+Anglophone public school system at the present time.<a href="#_ftn38" name="_ftnref38" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Arial",sans-serif'>[38]</span></span></a> I see
+no basis upon which that evidence can be discarded. Nor
+do I see any basis to discard the Attorney General’s evidence tending to
+demonstrate that teachers who are granted letters of tolerance are, for the
+most part, university students or graduates who are keenly interested in the
+teaching profession and who benefit from a range of support and mentoring
+services geared towards the successful performance of their teaching duties.<a href="#_ftn39" name="_ftnref39" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Arial",sans-serif'>[39]</span></span></a> In my opinion, these facts significantly
+weaken any inference to the effect that, unless provisional execution is
+ordered, the Anglophone school boards will likely have no choice but to recruit
+a significant number of French-speaking teachers who would be unable to perform
+their duties in a sufficiently satisfactory manner.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[24]<span style='font:7.0pt "Times New Roman"'>      
+</span>The applicants make a fourth claim, which they
+asserted for the first time during the hearing on their application. That claim
+emphasizes the <i><manual_label docid="Laicity Act" id="112" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="113" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></manual_label></i>’s general impact not only on the culture of
+openness and tolerance that is so important to the Anglophone school boards,
+but also on the latter’s core identity and values. However, in my opinion, the
+applicants have not demonstrated that the prejudice alleged in relation to that
+claim was sufficiently precise, clear and concrete to justify the order sought.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[25]<span style='font:7.0pt "Times New Roman"'>      
+</span>For these reasons — and bearing in mind the
+exceptional nature of an order for provisional execution as well as the
+requirement that <manual_label docid="Code of Civil Procedure" id="114" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"><manual_label fragmentid="sec 661(1)" id="115" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">article 661 para. 1</manual_label> <i></i><manual_label id="116" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false"><i>C.C.P</i><i>.</i></manual_label><i></i></manual_label><i></i> be
+applied in a restrictive manner, both of which reflect Quebec’s
+distinctive approach regarding the effect of judgments under appeal —, I find
+that the applicants have not discharged their burden to show, through precise,
+clear and concrete facts, that the filing of the
+appeals is likely to cause serious or irreparable
+prejudice to the holders of the <manual_label docid="Canadian Charter" id="117" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56kkc" verified="false"><manual_label fragmentid="sec 23" id="118" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</manual_label></manual_label> rights vindicated in the impugned
+judgment.</p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal">[26]<span style='font:7.0pt "Times New Roman"'>      
+</span>This finding suffices to dispose of the
+application.</p>
+<p class="Paragraphe" style="line-height:normal;page-break-after:avoid"><b>FOR THESE REASONS, THE UNDERSIGNED:</b></p>
+<p class="Paragraphe" style="margin-left:0in;text-indent:0in;line-height:normal;
+page-break-after:avoid">[27]<span style='font:7.0pt "Times New Roman"'>      
+</span><b>DISMISSES </b>the
+application for provisional execution, with legal costs.</p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr style="height:.4in">
+<td colspan="3" style="padding:0in 0in 0in 0in;
+  height:.4in" valign="top">
+<p class="MsoNormal" style="page-break-after:avoid"> </p>
+</td>
+</tr>
+<tr style="height:14.15pt">
+<td colspan="2" style="padding:0in 0in 0in 0in;
+  height:14.15pt" valign="top">
+<p class="MsoNormal" style="page-break-after:avoid"> </p>
+</td>
+<td style="border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 0in 0in 0in;height:14.15pt" valign="top">
+<p class="MsoNormal" style="page-break-after:avoid"> </p>
+</td>
+</tr>
+<tr style="height:14.15pt">
+<td colspan="2" style="padding:0in 0in 0in 0in;
+  height:14.15pt" valign="top">
+<p class="MsoNormal" style="page-break-after:avoid"> </p>
+</td>
+<td style="border:none;padding:0in 0in 0in 0in;
+  height:14.15pt" valign="top">
+<p class="MsoNormal">FRÉDÉRIC BACHAND, J.A.</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDem">Mtre Luc Alarie</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDem">ALARIE LEGAULT
+  CABINET D’AVOCATS</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDem">Me Guillaume Rousseau</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDem">MUNICONSEIL AVOCATS</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDem">For Mouvement laïque québécois</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Perri Ravon </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Giacomo Zucchi</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Mark Power</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Jennifer Klinck</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">JURISTES POWER</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For English Montreal School
+  Board, Mubeenah Mughal, Pietro Mercuri</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Stéphanie Garon</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Isabelle Brunet</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Samuel Chayer</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">BERNARD, ROY
+  (JUSTICE-QUÉBEC)</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For Attorney General of Quebec,
+  Jean-François Roberge, Simon Jolin-Barrette</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Olga Redko</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Léa Charbonneau</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">IMK</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For Ichrak Nourel Hak,
+  National Council of Canadian Muslims (NCCM), Corporation of the Canadian
+  civil liberties Association</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Arielle Corobow</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">GREY &amp; CASGRAIN</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For Quebec Community Groups
+  Network, Canadian Human Rights Commission</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Léon H. Moubayed</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">DAVIES WARD PHILLIPS
+  &amp; VINEBERG</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For World Sikh Organization
+  of Canada, Amrit Kaur</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Christiane Pelchat</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">RÉSEAU-ENVIRONNEMENT</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For Pour les droits des
+  femmes du Québec – PDF Québec</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Azimuddin Hussain</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">CABINET D’AVOCATS
+  NOVALEX</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Jérémy
+  Boulanger-Bonnely</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">NORTON ROSE FULBRIGHT
+  CANADA</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For Andréa Lauzon, Hakima
+  Dadouche, Bouchera Chelbi, Comité juridique de la Coalition Inclusion Québec</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Theodore Goloff</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">ROBINSON SHEPPARD
+  SHAPIRO</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For the Lord Reading Law
+  Society</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Camille Savard</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">GATTUSO BOURGET
+  MAZZONE</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For Fédération autonome de
+  l’enseignement</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Marie-Claude
+  St-Amant</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">MMGC</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For Public Service Alliance
+  of Canada (PSAC)</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatNomProcureurDef">Mtre Maxime-Arnaud Keable</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatCabinetProcureurDef">FASKEN MARTINEAU
+  DUMOULIN</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblProcureurDef">For François Paradis, in his
+  capacity as President of the National Assembly of Quebec</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0in 0in 0in 0in" valign="top">
+<p class="MsoNormal"> </p>
+</td>
+</tr>
+<tr>
+<td style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijlblDateAudience">Date of hearing:</p>
+</td>
+<td colspan="2" style="padding:0in 0in 0in 0in" valign="top">
+<p class="zSoquijdatDateAudience">October 18, 2021</p>
+</td>
+</tr>
+<tr height="0">
+<td style="border:none"></td>
+<td style="border:none"></td>
+<td style="border:none"></td>
+</tr>
+</tbody></table>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<div><br clear="all"/>
+<hr align="left" size="1"/>
+<div id="ftn1">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[1]</span></span></a>    <i></i><manual_label docid="Hak QCCS 2021" id="119" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"><i><manual_label id="120" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Hak c. Procureur général du Québec</manual_label></i>, <manual_label id="121" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2021 QCCS 1466</manual_label></manual_label>.</p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref2" name="_ftn2" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[2]</span></span></a>    <manual_label docid="Laicity Act" id="122" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label id="123" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="false">CQLR c L-0.3</manual_label></manual_label>.</p>
+</div>
+<div id="ftn3">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref3" name="_ftn3" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[3]</span></span></a>    See e.g. <manual_label docid="Recourse Against Civil Judgments" id="124" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" uri="https://www.canlii.org/en/sk/laws/stat/ss-2005-c-e-9.121/latest/ss-2005-c-e-9.121.html" verified="false"><manual_label id="125" labelname="authors" parent="secondary sources" style="background-color: rgb(255, 184, 77); color: black;" verified="false">John Anthony Jolowicz</manual_label>, “<manual_label id="126" labelname="title" parent="secondary sources" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Introduction — Recourse Against
+Civil Judgments in the European Union: A Comparative Survey</manual_label>”, in <manual_label id="127" labelname="source" parent="secondary sources" style="background-color: rgb(255, 87, 51); color: black;" verified="false">John Anthony
+Jolowicz and Cornelis Hendrik (Remco) van Rhee (eds.), <i>Recourse Against Judgments
+in the European Union</i>, The Hague, Kluwer Law International, 1999, 1</manual_label>, <manual_label fragmentid="p 11" id="128" labelname="fragment" non_standard="false" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p. 11</manual_label></manual_label>:
+“As regards the availability of appeal to the (intermediate) appellate court,
+the common law principle is that there is no suspensive effect. First instance
+judgments are immediately enforceable unless a stay of execution is ordered. In
+the ‘civil law’ and Scandinavian countries, on the other hand, the traditional
+principle is to the opposite effect: in accordance with the so-called
+suspensive effect of the appeal, a judgment at first instance is not
+enforceable until the time for appealing has expired or, if an appeal is
+brought, until it has been disposed of”.</p>
+</div>
+<div id="ftn4">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref4" name="_ftn4" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[4]</span></span></a>    See: <i></i><manual_label docid="CTI Capital" id="129" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j54ch" verified="false"><i><manual_label id="130" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">CTI Capital valeurs mobilières inc. c. Nassif</manual_label></i>, <manual_label id="131" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2020
+QCCA 197</manual_label> (judge alone), <manual_label fragmentid="para 11" id="132" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 11</manual_label></manual_label>, as well as the cases cited at <manual_label docid="CTI Capital" id="133" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j54ch" verified="false"><manual_label fragmentid="7" id="134" labelname="fragment" non_standard="true" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">footnote 7</manual_label></manual_label>;<manual_label docid="Aliments Ultima" id="135" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jd5s9" verified="false"> <i><manual_label id="136" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Aliments
+Ultima inc. c. Vergers Leahy inc.</manual_label></i>, <manual_label id="137" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2021 QCCA 239</manual_label> (judge alone),<manual_label fragmentid="para 6" id="138" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false"> para. 6</manual_label></manual_label>.</p>
+</div>
+<div id="ftn5">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref5" name="_ftn5" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[5]</span></span></a>  <manual_label docid="Lebeuf" id="139" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1nmgf" verified="false"> <manual_label id="140" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false"> <i>Lebeuf c. Groupe SNC-Lavalin inc.</i></manual_label><i></i>, <manual_label id="141" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">1995 CanLII 5310</manual_label>
+(judge alone), <manual_label fragmentid="para 8 - para 9" id="142" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras. 8-9</manual_label></manual_label>. Gendreau J.A.’s analysis
+remains relevant under the 2016 <manual_label docid="Code of Civil Procedure" id="143" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html" verified="false"><i><manual_label id="144" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Code of Civil Procedure</manual_label></i></manual_label><i></i>; see e.g.: <i></i><manual_label docid="Friedrich" id="145" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/gw2bc" verified="false"><i><manual_label id="146" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Friedrich
+v. Friedrich</manual_label></i>, <manual_label id="147" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2016 QCCA 2011</manual_label> (judge alone), <manual_label fragmentid="para 6 - para 7 " id="148" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras. 6-7</manual_label></manual_label>.
+See also:<i> </i><manual_label docid="Droit de la famille - 172312" id="149" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/h6k5p" verified="false"><i><manual_label id="150" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Droit de la famille — 172312</manual_label></i>, <manual_label id="151" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2017 QCCA 1554</manual_label> (judge alone),
+<manual_label fragmentid="para 23" id="152" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 23</manual_label></manual_label>; <i></i><manual_label docid="Droit de la famille — 21903" id="153" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jg2jz" verified="false"><i><manual_label id="154" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Droit de la famille — 21903</manual_label></i>, <manual_label id="155" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2021 QCCA 837 </manual_label>(judge alone),
+<manual_label fragmentid="para 6" id="156" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 6</manual_label></manual_label>.</p>
+</div>
+<div id="ftn6">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref6" name="_ftn6" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[6]</span></span></a>    See <i></i><manual_label docid="Société Nationale d'assurance" id="157" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><manual_label id="158" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Société Nationale d’assurance inc./Les Clairvoyants,
+compagnie d’assurance générale c. Gaz Métropolitain inc.</manual_label></i>, <manual_label id="159" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[2001] R.R.A. 757
+(C.S.)</manual_label>, <manual_label fragmentid="p 764" id="160" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p. 764</manual_label>, <manual_label id="161" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2001 CanLII 25493</manual_label>, <manual_label fragmentid="para 50" id="162" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 50</manual_label></manual_label> (“<i>[l]e préjudice sérieux doit
+être autre chose que d’avoir à subir un appel, sans quoi l’exécution provisoire
+ne serait pas une mesure exceptionnelle, mais bien la règle générale</i>ˮ),
+cited with approval in <i></i><manual_label docid="Imperial Tobacco" id="163" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/gkbxg" verified="false"><i><manual_label id="164" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Imperial Tobacco Canada Ltd. v. Conseil québécois sur
+le tabac et la santé</manual_label></i>, <manual_label id="165" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2015 QCCA 1224</manual_label>,<manual_label fragmentid="para 31" id="166" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false"> para. 31</manual_label></manual_label>.</p>
+</div>
+<div id="ftn7">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref7" name="_ftn7" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[7]</span></span></a>   <manual_label docid="Lebeuf" id="167" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1nmgf" verified="false"><manual_label id="168" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false"> <i>Lebeuf c. Groupe SNC-Lavalin inc.</i></manual_label><i></i>, <manual_label id="169" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">1995 CanLII 5310</manual_label>
+(judge alone),<manual_label fragmentid="para 8" id="170" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false"> para. 8</manual_label></manual_label>.</p>
+</div>
+<div id="ftn8">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref8" name="_ftn8" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[8]</span></span></a>   <manual_label docid="Lebeuf" id="171" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1nmgf" verified="false"> <i>Ibid</i></manual_label><i>.</i></p>
+</div>
+<div id="ftn9">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref9" name="_ftn9" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[9]</span></span></a>   <manual_label docid="Harper" id="172" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/524l" verified="false"> <i><manual_label id="173" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Harper v. Canada (Attorney General)</manual_label></i>, <manual_label id="174" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[2000] 2 S.C.R. 764</manual_label>,
+<manual_label id="175" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2000 SCC 57</manual_label>, <manual_label fragmentid="para 9" id="176" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 9</manual_label></manual_label>.</p>
+</div>
+<div id="ftn10">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref10" name="_ftn10" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[10]</span></span></a>  <i><manual_label docid="Harper" id="177" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/524l" verified="false">Ibid</manual_label>.</i></p>
+</div>
+<div id="ftn11">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref11" name="_ftn11" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[11]</span></span></a> <manual_label docid="Harper" id="178" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/524l" verified="false"> <i>Ibid</i></manual_label><i>.</i> See also<manual_label docid="Quebec English School Board Association" id="179" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j9pm6" verified="false"> <i><manual_label id="180" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Procureur général du Québec c. Quebec
+English School Board Association</manual_label></i>, <manual_label id="181" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2020 QCCA 1171</manual_label>, <manual_label fragmentid="para 11" id="182" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 11</manual_label></manual_label>.</p>
+</div>
+<div id="ftn12">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref12" name="_ftn12" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[12]</span></span></a>  See e.g.: <i></i><manual_label docid="Solski" id="183" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1fc2k" verified="false"><i><manual_label id="184" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Procureure générale du Québec c. Solski</manual_label></i>, <manual_label id="185" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">J.E.
+2001-400 (C.A.)</manual_label>, <manual_label id="186" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2001 CanLII 5956</manual_label> </manual_label>(judge alone); <i></i><manual_label docid="H.N." id="187" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/20mt9" verified="false"><i><manual_label id="188" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Québec (Procureur général) c.
+H.N.</manual_label></i>, <manual_label id="189" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2007 QCCA 1136</manual_label> (judge alone), <manual_label fragmentid="para 7" id="190" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 7</manual_label></manual_label>; <i></i><manual_label docid="Canadian Council for Refugees" id="191" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1vkdx" verified="false"><i><manual_label id="192" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Canada
+v. Canadian Council for Refugees</manual_label></i>, <manual_label id="193" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2008 FCA 40</manual_label> (judge alone), <manual_label fragmentid="para 34" id="194" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 34</manual_label></manual_label>; <i></i><manual_label docid="Bedford" id="195" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/2dp6k" verified="false"><i><manual_label id="196" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Bedford
+v. Canada (Attorney General)</manual_label></i>, <manual_label id="197" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2010 ONCA 814</manual_label> (judge alone), <manual_label fragmentid="para 67" id="198" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras. 67</manual_label> and <manual_label fragmentid="para 68" id="199" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">68</manual_label></manual_label>.</p>
+</div>
+<div id="ftn13">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref13" name="_ftn13" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[13]</span></span></a>  Who accept that the framework set out in the leading case of <i></i><manual_label docid="Lebeuf" id="200" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1nmgf" verified="false"><i><manual_label id="201" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Lebeuf
+c. Groupe SNC-Lavalin inc.</manual_label></i>, <manual_label id="202" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">1995 CanLII 5310</manual_label></manual_label> (judge alone) is applicable in
+the present case.</p>
+</div>
+<div id="ftn14">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref14" name="_ftn14" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[14]</span></span></a>  <i></i><manual_label docid="Hak QCCA 2019" id="203" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j3xk2" verified="false"><i><manual_label id="204" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Hak c. Procureure générale du Québec</manual_label></i>, <manual_label id="205" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2019 QCCA 2145</manual_label></manual_label>.</p>
+</div>
+<div id="ftn15">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref15" name="_ftn15" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[15]</span></span></a>  <i></i><manual_label docid="Hak QCCA 2019" id="206" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j3xk2" verified="false"><i>Id.</i>, <manual_label fragmentid="para 67" id="207" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 67</manual_label></manual_label>. Duval Hesler, C.J. cited, in support of that
+proposition, <i></i><manual_label docid="Fédération des coopératives funéraires du Québec" id="208" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/273mr" verified="false"><i><manual_label id="209" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Fédération des coopératives funéraires du Québec c. Bureau de
+normalisation du Québec</manual_label></i>,<manual_label id="210" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false"> J.E. 2010-153 (C.A.)</manual_label>, <manual_label id="211" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2009 QCCA 2445</manual_label> (judge
+alone), <manual_label fragmentid="para 17" id="212" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 17</manual_label></manual_label>, and<i> </i><manual_label docid="Lours" id="213" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/gvw9w" verified="false"><i><manual_label id="214" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Montréal (Ville de) c. Lours</manual_label></i>, <manual_label id="215" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">J.E. 2016-2133
+(C.A.)</manual_label>, <manual_label id="216" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2016 QCCA 1931</manual_label>, <manual_label fragmentid="para 20" id="217" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 20</manual_label></manual_label>.</p>
+</div>
+<div id="ftn16">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref16" name="_ftn16" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[16]</span></span></a> <manual_label docid="British Columbia" id="218" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j2kgx" verified="false"> <i><manual_label id="219" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">British Columbia (Attorney General) v. Alberta (Attorney
+General)</manual_label></i>, <manual_label id="220" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2019 FC 1195</manual_label> </manual_label>(reversed in appeal, albeit on other grounds: <manual_label docid="Alberta" id="221" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jfknm" verified="false"><manual_label id="222" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2021
+FCA 84</manual_label></manual_label>).</p>
+</div>
+<div id="ftn17">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref17" name="_ftn17" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[17]</span></span></a>  A concept that the Supreme Court recently revisited in <i></i><manual_label docid="Conseil scolaire francophone de la Colombie-Britannique" id="223" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j882q" verified="false"><i></i><manual_label id="224" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false"><i>Conseil
+scolaire francophone de la Colombie</i><i><span style='font-family:"Cambria Math",serif'>‑</span></i><i>Britannique
+v. British Columbia</i></manual_label><i></i>, <manual_label id="225" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2020 SCC 13</manual_label></manual_label>. See, in
+particular, the discussion at <manual_label docid="Conseil scolaire francophone de la Colombie-Britannique" id="226" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j882q" verified="false"><manual_label fragmentid="para 21 and following" id="227" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras. 21 et seq.</manual_label></manual_label></p>
+</div>
+<div id="ftn18">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref18" name="_ftn18" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[18]</span></span></a> <manual_label docid="Mahe" id="228" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1fsz4" verified="false"> <i><manual_label id="229" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Mahe v. Alberta</manual_label></i>, <manual_label id="230" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[1990] 1 S.C.R. 342</manual_label>, <manual_label fragmentid="p 377" id="231" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p. 377</manual_label></manual_label><i>.</i></p>
+</div>
+<div id="ftn19">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref19" name="_ftn19" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[19]</span></span></a> <manual_label docid="Mahe" id="232" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1fsz4" verified="false"> <i>Id.</i>, <manual_label fragmentid="p 350" id="233" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p. 350</manual_label></manual_label><i>.</i></p>
+</div>
+<div id="ftn20">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref20" name="_ftn20" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[20]</span></span></a> <manual_label docid="Mahe" id="234" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1fsz4" verified="false"> <i>Id.</i>, <manual_label fragmentid="p 375 - p 376" id="235" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">pp. 375-376</manual_label></manual_label><i>.</i></p>
+</div>
+<div id="ftn21">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref21" name="_ftn21" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[21]</span></span></a>  <i></i><manual_label docid="Conseil scolaire francophone de la Colombie-Britannique" id="236" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/j882q" verified="false"><i></i><manual_label id="237" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false"><i>Conseil scolaire francophone de la Colombie</i><i><span style='font-family:"Cambria Math",serif'>‑</span></i><i>Britannique v. British Columbia</i></manual_label><i></i>, <manual_label id="238" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2020
+SCC 13</manual_label></manual_label>.</p>
+</div>
+<div id="ftn22">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref22" name="_ftn22" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[22]</span></span></a>  <i></i><manual_label docid="Hak QCCS 2021" id="239" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"><i><manual_label id="240" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Hak c. Procureur général du Québec</manual_label></i>,<manual_label id="241" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false"> 2021 QCCS 1466</manual_label>, <manual_label fragmentid="para 983 and following" id="242" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras.
+983 et seq.</manual_label></manual_label></p>
+</div>
+<div id="ftn23">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref23" name="_ftn23" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[23]</span></span></a>  <i></i><manual_label docid="Hak QCCS 2021" id="243" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"><i>Id.</i>, <manual_label fragmentid="para 989 and following" id="244" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras. 989 et seq.</manual_label></manual_label></p>
+</div>
+<div id="ftn24">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref24" name="_ftn24" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[24]</span></span></a>  <i></i><manual_label docid="Hak QCCS 2021" id="245" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"><i>Id.</i>, <manual_label fragmentid="para 993" id="246" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 993</manual_label></manual_label>.</p>
+</div>
+<div id="ftn25">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref25" name="_ftn25" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[25]</span></span></a>  <i></i><manual_label docid="Hak QCCS 2021" id="247" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"><i>Id.</i>, <manual_label fragmentid="para 1003" id="248" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 1003</manual_label></manual_label>.</p>
+</div>
+<div id="ftn26">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref26" name="_ftn26" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[26]</span></span></a>  <i></i><manual_label docid="Hak QCCS 2021" id="249" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"><i>Id.</i>, <manual_label fragmentid="para 994" id="250" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 994</manual_label></manual_label>.</p>
+</div>
+<div id="ftn27">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref27" name="_ftn27" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[27]</span></span></a>  See also <manual_label docid="Hak QCCS 2021" id="251" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"><manual_label fragmentid="para 998 - para 1002" id="252" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras. 998-1002</manual_label></manual_label>.</p>
+</div>
+<div id="ftn28">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref28" name="_ftn28" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[28]</span></span></a> <manual_label docid="Hak QCCS 2021" id="253" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jff8f" verified="false"> <i>Id.</i>, <manual_label fragmentid="para 1004 and following" id="254" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras. 1004 et seq.</manual_label></manual_label></p>
+</div>
+<div id="ftn29">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref29" name="_ftn29" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[29]</span></span></a>  <manual_label docid="Laicity Act" id="255" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lzp" verified="false"><manual_label fragmentid="sec 31(5)" id="256" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">Section 31(5)</manual_label> of the <i><manual_label id="257" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="false">Laicity Act</manual_label></i></manual_label><i></i>.</p>
+</div>
+<div id="ftn30">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref30" name="_ftn30" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[30]</span></span></a>  <i>Application for provisional execution of judgment</i>, para. 17.</p>
+</div>
+<div id="ftn31">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref31" name="_ftn31" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[31]</span></span></a>  <i>Id.</i>, para. 18.</p>
+</div>
+<div id="ftn32">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref32" name="_ftn32" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[32]</span></span></a>  <i>Id.</i>, para. 19.</p>
+</div>
+<div id="ftn33">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref33" name="_ftn33" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[33]</span></span></a>  Exhibits P-11 and P-22.</p>
+</div>
+<div id="ftn34">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref34" name="_ftn34" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[34]</span></span></a>  <manual_label docid="Brown" id="258" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://www.canlii.org/en/bc/bcca/doc/2013/2013bcca483/2013bcca483.html" verified="false"><manual_label id="259" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">347 U.S. 483 (1954)</manual_label>, <manual_label fragmentid="p 493" id="260" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p. 493</manual_label></manual_label>: “<span style="color:black;letter-spacing:-.15pt">Today, education is perhaps the most
+important function of state and local governments. […] It is the very
+foundation of good citizenship. Today it is a principal instrument in awakening
+the child to cultural values, in preparing him for later professional training,
+and in helping him to adjust normally to his environment.”</span></p>
+</div>
+<div id="ftn35">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref35" name="_ftn35" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[35]</span></span></a> <manual_label docid="Ross" id="261" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1frbr" verified="false"> <manual_label id="262" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[1996] 1 S.C.R. 825</manual_label>, <manual_label fragmentid="p 873" id="263" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p. 873</manual_label></manual_label>.</p>
+</div>
+<div id="ftn36">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref36" name="_ftn36" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[36]</span></span></a>  See e.g.<i> </i>exhibit P-9. See also
+exhibit P-11, para. 3, where Ms. Watson states that, since March 2019, six
+applicants were denied teaching positions by the EMSB solely because they wear
+religious symbols.</p>
+</div>
+<div id="ftn37">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref37" name="_ftn37" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[37]</span></span></a>  See e.g. <i></i><manual_label docid="Syndicat Northcrest" id="264" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1hddh" verified="false"><i><manual_label id="265" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Syndicat Northcrest v. Amselem</manual_label></i>,
+<manual_label id="266" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[2004] 2 S.C.R. 551</manual_label>, <manual_label id="267" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2004 SCC 47</manual_label>,<manual_label fragmentid="para 39" id="268" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false"> para. 39</manual_label></manual_label> (“[i]n essence, religion is about
+freely and deeply held personal convictions or beliefs connected to an
+individual’s spiritual faith and integrally linked to one’s self-definition and
+spiritual fulfilment, the practices of which allow individuals to foster a
+connection with the divine or with the subject or object of that spiritual
+faith”), as well as<manual_label docid="Syndicat Northcrest" id="269" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1hddh" verified="false"> <manual_label fragmentid="para 42" id="270" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 42</manual_label></manual_label>, where the Supreme Court emphasized the “personal
+or subjective conception of freedom of religion, one that is integrally linked
+with an individual’s self-definition and fulfilment and is a function of
+personal autonomy and choice”.</p>
+</div>
+<div id="ftn38">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref38" name="_ftn38" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[38]</span></span></a>  Sworn statement of George Lemieux dated August 27, 2021. </p>
+</div>
+<div id="ftn39">
+<p class="MsoFootnoteText" style="margin-left:14.2pt;text-indent:-14.2pt"><a href="#_ftnref39" name="_ftn39" title=""><span class="MsoFootnoteReference"><span style='font-size:
+10.0pt;font-family:"Arial",sans-serif'>[39]</span></span></a>  Sworn statement of Éric Bergeron dated August 27, 2021. </p>
+</div>
+</div>
+</body></html>

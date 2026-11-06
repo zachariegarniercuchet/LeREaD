@@ -1,0 +1,744 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 10 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Shruti;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Shruti;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Shruti;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Shruti;}
+p.quote, li.quote, div.quote
+	{margin-top:0cm;
+	margin-right:63.0pt;
+	margin-bottom:6.0pt;
+	margin-left:63.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Shruti;}
+ /* Page Definitions */
+ @page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section2
+	{page:Section2;}
+@page Section3
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section3
+	{page:Section3;}
+@page Section4
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section4
+	{page:Section4;}
+@page Section5
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section5
+	{page:Section5;}
+@page Section6
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section6
+	{page:Section6;}
+@page Section7
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section7
+	{page:Section7;}
+@page Section8
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section8
+	{page:Section8;}
+@page Section9
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section9
+	{page:Section9;}
+@page Section10
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section10
+	{page:Section10;}
+@page Section11
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section11
+	{page:Section11;}
+@page Section12
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 90.0pt 90.0pt;}
+div.Section12
+	{page:Section12;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+<body lang="EN-US" style="text-justify-trim:punctuation">
+<div class="Section1">
+<p class="MsoNormal" style="text-align:justify"><a name="QuickMark"></a><span style="font-size:13.0pt;font-family:Shruti">                 </span><b><span style="font-size:17.0pt;font-family:Shruti">QUEEN</span></b><b><span style="font-size:17.0pt">’</span></b><b><span style="font-size:17.0pt;
+font-family:Shruti">S BENCH FOR SASKATCHEWAN</span></b></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti">                                                                                                           </span><span style="font-size:11.0pt;font-family:Shruti">Citation: </span><b><span style="font-family:Shruti">2009 SKQB 465<a name="a1"></a> </span></b></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:11.0pt;
+font-family:Shruti">Date: <b>                        2009 <a name="a2">12 02</a></b></span></p>
+<p class="MsoNormal" style="margin-left:99.0pt;text-align:justify;text-indent:
+-99.0pt"><span style="font-size:11.0pt;font-family:Shruti">Docket:                     <a name="a3"></a>Q. B. 19 of 2008</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:11.0pt;
+font-family:Shruti">Judicial Centre:         <a name="a4">Moose Jaw</a></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:1.4pt"><span style="position:absolute;z-index:-3;left:0px;margin-left:120px;margin-top:0px;
+width:600px;height:1px"><img height="1" src="Terra_Grain_Fuels_v__Babich_Judgment_fichiers/image001.gif" width="600"/></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti">BETWEEN:</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="margin-left:99.0pt;text-align:justify"><a name="a5"><span style="font-family:Shruti">TERRA GRAIN FUELS INC.</span></a></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti">                                                                                                                                   <a name="a6">PLAINTIFF</a></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti">                                                                      -
+and -</span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="margin-left:99.0pt;text-align:justify"><a name="a7"><span style="font-family:Shruti">BYRON BABICH</span></a></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti">                                                                                                                              <a name="a8">DEFENDANT</a></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><b><span style="font-family:Shruti">Counsel:</span></b></p>
+<p class="MsoNormal" style="margin-left:54.0pt;text-align:justify"><a name="a9"><span style="font-family:Shruti">W. Timothy Stodalka</span></a><span style="font-family:Shruti">                                                                        for
+the <a name="a10">plaintiff</a></span></p>
+<p class="MsoNormal" style="margin-left:54.0pt;text-align:justify"><a name="a11"><span style="font-family:Shruti">Kenneth M. Cornea</span></a><span style="font-family:
+Shruti">                                                                      for
+the <a name="a12">defendant</a></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:.95pt"><span style="position:absolute;z-index:-2;left:0px;margin-left:120px;margin-top:0px;
+width:600px;height:1px"><img height="1" src="Terra_Grain_Fuels_v__Babich_Judgment_fichiers/image001.gif" width="600"/></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti">JUDGMENT                                                                                                                  <a name="a13">BALL J.</a></span></p>
+<p class="MsoNormal" style="text-align:justify"><a name="a14"><span style="font-family:Shruti">December 2, 2009</span></a></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:.95pt"><span style="position:absolute;z-index:-1;left:0px;margin-left:120px;margin-top:0px;
+width:600px;height:1px"><img height="1" src="Terra_Grain_Fuels_v__Babich_Judgment_fichiers/image001.gif" width="600"/></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[1]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             The
+plaintiff claims damages for breach of a contract which required the defendant
+to deliver grain to the plaintiff</span><span style="font-size:13.0pt;
+line-height:150%">’</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti">s ethanol production facility at Belle Plaine,
+Saskatchewan. The defendant denied that he was bound by the contract. At the
+conclusion of the trial of the action I held that the contract was binding on
+the defendant and that he had breached it by failing or refusing to deliver the
+grain. I reserved my decision on the issues of damages and costs. This decision
+deals with those issues.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section2">
+<p class="MsoNormal" style="text-align:justify;line-height:150%;page-break-after:
+avoid"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">                                                    <b><u>DAMAGES</u></b></span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%;page-break-after:
+avoid"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[2]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             The
+production  contract obligated the defendant to deliver 16,000 bushels of Ac
+Andrew wheat to the plaintiff in each of the crop years 2007 and 2008 for a
+price of $3.67 per net bushel. It contained the following provision relevant to
+damages:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="quote" style="margin-top:0cm;margin-right:63.0pt;margin-bottom:6.5pt;
+margin-left:108.0pt;text-align:justify;text-indent:-45.0pt"><span style="font-size:11.0pt;font-family:Shruti">2.            OBLIGATIONS AND
+LIABILITY OF GROWER:  The Grower is required to sell and deliver the Minimum
+Quantity to Terra Grain Fuels. If the Grower fails to deliver the Minimum
+Quantity as required due to any cause except an act of God resulting in loss or
+degradation of crop dedicated to this contract, the Grower shall pay to Terra
+Grain Fuels immediately upon default liquidated damages (which the parties
+agree is a genuine pre-estimate of the damages Terra Grain Fuels will suffer as
+a result of such default) equal to the greater of $10.00 per tonne or the
+amount by which Terra Grain Fuels</span><span style="font-size:11.0pt">’</span><span style="font-size:11.0pt;font-family:Shruti"> posted spot price on the failure
+date exceeds the contract price, for each tonne or portion thereof not
+delivered. If an act of God prevents delivery of the Minimum Quantity, the Grower
+must deliver all the production from the dedicated acres if it meets the
+specifications in this contract or if Terra Grain Fuels is prepared to take
+delivery and assess a discount as hereinbefore provided</span><span style="font-size:13.0pt;font-family:Shruti">.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[3]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             For
+reasons explained below, the plaintiff did not post a spot price (that is, the
+price at which it was prepared to purchase Ac Andrew grain on the open market)
+at any time during the crop years 2007 and 2008. However, the plaintiff
+contends that it should not be confined to damages of $10.00 per tonne (the
+equivalent of 27.22 cents per bushel, or $8,710.40 for 16,000 bushels) because
+the above provision is unenforceable as a penalty. The plaintiff argues that
+the court should award damages of between $60,000.00 and $75,000.00 by
+reference to Pool Return Outlook (</span><span style="font-size:13.0pt;
+line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti">PRO</span><span style="font-size:13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">) prices published
+monthly by the Canadian Wheat Board (</span><span style="font-size:13.0pt;
+line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti">CWB</span><span style="font-size:13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">).</span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section3">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[4]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             Much
+of the evidence at trial related to the circumstances under which the contract
+was entered into by the parties and the purpose and relevance of CWB PRO
+prices. I will summarize that evidence.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[5]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             Before
+constructing its facility at Belle Plaine, the plaintiff took steps to secure
+the supply of grain it would need to produce ethanol. The preferred grain was
+Ac Andrew wheat, a high starch, low protein grain especially well suited for
+the manufacture of ethanol. Farmers are not required to market wheat of that
+type through the Canadian Wheat Board (</span><span style="font-size:13.0pt;
+line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti">CWB</span><span style="font-size:13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">) and may sell it
+directly to the end user. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[6]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             To
+assess the availability of Ac Andrew wheat the plaintiff invited selected
+farmers to </span><span style="font-size:13.0pt;line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">focus group</span><span style="font-size:13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti"> meetings. The defendant, who carries on a
+large farming operation near Belle Plaine, attended one such meeting. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[7]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             The
+majority of the farmers who attended the focus group meetings indicated that
+they would not commit to grow and deliver Ac Andrew wheat to the ethanol plant
+unless they were assured of receiving between $3.40 and $3.60 per bushel.
+Although that price was well above the 12 year average market price for Ac
+Andrew wheat, in due course the plaintiff offered producers a fixed price of
+$3.54 per bushel for a one year term contract and $3.67 per bushel for a two
+year term contract.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section4">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[8]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             To
+set the fixed price it offered producers for Ac Andrew wheat, the plaintiff had
+relied on PRO prices published by the CWB. PRO prices represent the CWB</span><span style="font-size:13.0pt;line-height:150%">’</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti">s best forecast of what the final price of
+listed crops will be. PRO pricing does not reflect the cost to the farmer of
+transportation from a local grain elevator to a maritime shipping port, which
+amounted to $1.63 per bushel for wheat. Thus, one way to estimate a farmer</span><span style="font-size:13.0pt;line-height:150%">’</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti">s probable net return for wheat to be sold
+through an elevator was to deduct $1.63 per bushel from the PRO forecast price.
+Unlike deliveries to a grain elevator, by delivering their grain directly to
+the ethanol plant at Belle Plaine, farmers would not pay any additional charges
+for transportation.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[9]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">             Al
+McDonald, a former senior manager employed by the plaintiff, testified that
+when discussions with potential producers were taking place through focus group
+meetings in the late fall of 2006, the PRO forecast price for Ac Andrew,
+adjusted for shipping, was in the range of $2.85 per bushel. Even so, Mr.
+McDonald considered PRO prices meaningless unless the CWB had a buyer to sell
+to and rail cars available to transport the grain.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section5">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[10]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+plaintiff and the defendant signed their production contract on January 8,
+2007. Construction of the ethanol plant was completed in the spring of 2007 and
+formal opening ceremonies took place in August of 2007. The plaintiff had been
+so successful in securing commitments from farmers for the delivery of Ac
+Andrew wheat that before the plant could begin producing ethanol, its entire
+1.4 million bushels of grain storage facilities were filled to capacity and
+another 3.5 million bushels of grain were stored outside on the ground. Most of
+the grain was eventually used for production of ethanol, although some was
+spoiled. That grain was sold for feed at increasingly reduced prices.
+Eventually, when its value was so low that the cost of transporting it to a
+feedlot was not justified, it was worked into nearby fields. Al McDonald
+estimated the total amount of spoiled grain to be not more than two to four per
+cent of the total amount purchased by the plaintiff.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[11]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           In the
+spring of 2007, the market price for Ac Andrew wheat started to rise. By the
+latter part of 2007, the published PRO prices for Ac Andrew wheat exceeded
+$7.00 per bushel. During the first eight calendar months of 2008, they were
+between $9.00 and $10.00 per bushel. The PRO forecast price of Ac Andrew wheat
+then began declining so that by September of 2009, it was $6.12 per bushel.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[12]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+plaintiff acknowledges that during the 2007 and 2008 crop years it did not post
+a spot price for Ac Andrew grain as contemplated by paragraph 2 of the General
+Terms and Conditions. There is no evidence that the plaintiff bought or sold
+any Ac Andrew wheat at prices equivalent to published PRO prices, or at prevailing
+</span><span style="font-size:13.0pt;line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">spot</span><span style="font-size:13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti"> prices, during the term of its contract
+with the defendant. With one anomalous exception involving a swap of grain for
+feed, the plaintiff</span><span style="font-size:13.0pt;line-height:150%">’</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">s only  purchases
+were from a relatively few farmers who wished to deliver more grain than the
+quantity specified by their contract. In those cases, the price was not a </span><span style="font-size:13.0pt;line-height:150%">“</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti">spot price</span><span style="font-size:
+13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;line-height:
+150%;font-family:Shruti"> reflective of the prevailing market price but the
+price at which that particular farmer had already contracted to deliver the
+grain under a production contract.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section6">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[13]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+production contract between the plaintiff and defendant contained a schedule
+for delivery of the grain to the ethanol plant in stages. In September of 2007,
+an employee of the plaintiff wrote to the defendant to confirm his intentions
+with respect to the delivery of his grain. The defendant responded by denying
+that he had ever entered into a contract with the plaintiff or that he was
+obligated to deliver grain to the ethanol plant. By November of 2007, it was
+clear that the defendant had repudiated the contract.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[14]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+defendant had, in fact, seeded 320 acres of Ac Andrew wheat during the summer
+of 2007. On March 7, 2008, he sold all of the grain harvested from that land
+(which exceeded 16,000 bushels) through a Parish and Heinbecker elevator in
+Moose Jaw for $267.10 per tonne (the equivalent of $7.27 per bushel). Deducting
+freight and elevation charges of $1.63 per bushel meant that the defendant</span><span style="font-size:13.0pt;line-height:150%">’</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti">s net return for the Ac Andrew wheat sold
+was $5.64 per bushel. Thus, by selling his 16,000 bushels of Ac Andrew grain
+through the Parish and Heinbecker elevator for a net $5.64 per bushel rather
+than delivering it to the plaintiff for the contract price of $3.67, the
+defendant gained an additional $31,520.00 (16,000 x $1.97) for grain grown in
+the first year of the two year term.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">                                   <b><u>SUBMISSIONS
+OF THE PARTIES</u></b></span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[15]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           Counsel
+for the plaintiff argues that para. 2 of the production contract</span><span style="font-size:13.0pt;line-height:150%">’</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti">s General Terms and Conditions is an
+unenforceable penalty clause. Instead, he argues that damages should be
+calculated in accordance with s. 50 of <i>The Sale of Goods Act</i>, R.S.S.
+1978, c. S-1 which states:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="quote" style="margin-bottom:5.5pt;text-align:justify"><b><span style="font-size:11.0pt;font-family:Shruti">50</span></b><span style="font-size:11.0pt;font-family:Shruti">(1)       Where the seller
+wrongfully neglects or refused to deliver the goods to the buyer the buyer may
+maintain an action against the seller for damages for non-delivery.</span></p>
+<p class="quote" style="margin-bottom:5.5pt;text-align:justify"><span style="font-size:11.0pt;font-family:Shruti">(2)           The measure of
+damages is the estimated loss directly and naturally resulting in the ordinary
+course of events from the seller</span><span style="font-size:11.0pt">’</span><span style="font-size:11.0pt;font-family:Shruti">s breach of contract.</span></p>
+</div>
+<span style="font-size:11.0pt;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section7">
+<p class="quote" style="margin-bottom:6.5pt;text-align:justify"><span style="font-size:11.0pt;font-family:Shruti">(3)           Where there is an
+available market for the goods in question the measure of damages is <i>prima
+facie</i> to be ascertained by the difference between the contract price and
+the market or current price of the goods at the time or times when they ought
+to have been delivered or if no time was fixed then at the time of the refusal
+to deliver.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[16]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           Assuming
+that the clause is unenforceable, counsel for the plaintiff submits that the
+damages should be assessed under s. 50 of <i>The Sale of Goods Act </i>by
+referring to the CWB</span><span style="font-size:13.0pt;line-height:150%">’</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">s PRO pricing as
+published for each month the defendant failed to deliver the grain and then
+deducting anticipated shipping charges of $1.63 per bushel. Using that
+approach, the total damages would amount to $75,200.00. Alternatively, he
+submits that damages should be calculated using the published PRO price as at
+November 2007, being the month in which the defendant repudiated the contract,
+in which case damages would amount to $70,542.00, or as at March of 2008, being
+the date on which the defendant delivered the Ac Andrew wheat to the CWB
+through the Parish and Heinbecker elevator, in which case damages would amount
+to $63,000.00.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[17]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           In the
+alternative, counsel for the plaintiff submits that even if paragraph 2 of the
+General Terms and Conditions is enforceable as a genuine pre-estimate of
+liquidated damages, the plaintiff should not be confined to recovering $10.00
+per tonne. Instead, counsel submits the court should assess damages by
+reference to the CWB PRO prices with notional discounts for shipping costs. His
+submission, therefore, is that damages should be awarded based on CWB PRO
+prices whether or not the liquidated damages clause is valid and enforceable.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section8">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[18]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           Counsel
+for the defendant submits that clause 2 of the General Terms and Conditions is
+not a penalty clause but a genuine pre-estimate of liquidated damages that
+means what it says and is binding upon both parties.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">                                                    <b><u>ANALYSIS</u></b></span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[19]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+first question is whether clause 2 of the General Terms and Conditions is a
+genuine pre-estimate of liquidated damages (in which case it is enforceable) or
+a penalty clause (in which case it may be unenforceable).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[20]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+test for differentiating between an agreement for </span><span style="font-size:13.0pt;line-height:150%">“</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti">liquidated damages</span><span style="font-size:13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;
+line-height:150%;font-family:Shruti"> and a </span><span style="font-size:13.0pt;
+line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti">penalty</span><span style="font-size:13.0pt;line-height:
+150%">”</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">
+is whether the amount stipulated in the contract as payable is a genuine
+pre-estimate of damages. The provision will be void as a penalty where it requires
+the party in breach to pay amounts that are unconscionably high relative to the
+greatest loss that could arise from the breach. In those situations, payment
+will be considered unconscionable and extravagant if it produces a generally
+unreasonable result, either in amount or in the conditions under which payment
+is made, so that the court may find it unjust to allow such a sum to be
+recovered (<i>Dunlop Pneumatic Tyre Company Limited v. New Garage and Motor
+Company Limited,</i> [1915] A.C. 79 at p. 87).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section9">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[21]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           Where a
+contract expressly states that the parties have agreed upon a genuine
+pre-estimate of liquidated damages, courts have upheld the agreement unless it
+is clear that the stipulated damages constitute an unconscionable penalty (<i>Elsley
+v. J. G. Collins Insurance Agencies Ltd.</i> 1978 83 D.L.R. (3d) 1; [1978] 2
+S.C.R. 916). The effect of the words </span><span style="font-size:13.0pt;
+line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti">liquidated damages</span><span style="font-size:13.0pt;
+line-height:150%">”</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti"> is to limit liability for breach of contract if, taken in
+their context, they do amount to a genuine limitation </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[22]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+plaintiff essentially argues that because it failed to post a spot price, the
+amount it can recover is unreasonably low and therefore the liquidated damages
+clause is unenforceable as a penalty. However, agreements for liquidated
+damages have regularly been enforced when the loss caused by breach proves to
+be greater than the amount fixed by the agreement (<i>Gisvold v. Hill</i>
+(1963), 37 D.L.R.(2nd) 606 (B.C.S.C.); <i>Maxwell v. Gibsons Drugs Ltd. et al.</i>
+(1979), 103 D.L.R. (3d) 433 (B.C.S.C.); <i>Dorge v. Dumesnil et al.</i> (1973),
+39 D.L.R. (3d) 750 (Man.Q.B.); <i>Cellulose Acetate Silk Company Limited. v.
+Widnes Foundry (1925), Limited</i>, [1933] A.C. 20 (H.L.)).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[23]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           In this
+case, the production contract was prepared by the plaintiff. It required
+payment of relatively nominal damages of $10.00 per tonne (27.22 cents per
+bushel) if the farmer failed to deliver the specified amount of grain. This
+minimum payment was required upon default without proof of any actual damages
+sustained by the plaintiff. If the plaintiff posted a spot price for the grain
+(that is, the price it was prepared to pay from time to time for Ac Andrew on
+the open market), the contract stated that its recoverable damages would be
+equal to the difference between the posted spot price and the fixed price
+contained in the contract. This approach was clearly a genuine attempt to
+pre-estimate the liquidated damages that would arise if the contract was
+breached. As a matter of evidence, the contract permitted and required the
+plaintiff to prove its loss by reference to (and only to) its own posted spot
+price. There was no reference to published CWB PRO prices.</span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section10">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[24]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           It
+cannot be said that the provision was unconscionable for either party. It is
+true that the defendant realized significant profits by breaching the
+production contract with the plaintiff. However, liquidated damages under the
+contract were to be determined, not by what the defendant might gain, but what
+the plaintiff might lose. In most cases, once the plaintiff established
+liquidated damages by reference to its own spot price, some or all of whatever
+a producer might gain by breaching the contract would become payable to the
+plaintiff. In this case, however, the plaintiff cannot establish that it lost
+more than $10.00 per tonne because it did not post a spot price. The reason
+appears to have been that it had no need to buy replacement grain on the spot
+market.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[25]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           I find
+that para. 2 of the General Terms and Conditions was a genuine pre-estimate of
+liquidated damages. As such, it was valid and binding upon both parties to the
+contract. There was no evidence that the defendant had posted a spot price
+during the two year term of its production contract with the plaintiff. To
+ignore the express terms of the production contract by using some other market
+measure to assess damages (such as CWB PRO forecast prices adjusted by notional
+discounts for shipping) would be to rewrite the contract.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[26]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+plaintiff is entitled to recover damages of $10.00 per tonne or 27.22 cents per
+bushel in accordance with the express terms of the production contract. For the
+16,000 bushels deliverable by the defendant in each of the crop years 2007 and
+2008, the recoverable damages amount to $8,710.40 (16,000 bushels x 27.22 cents
+x 2 years).</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section11">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">                                                      <b><u>COSTS</u></b></span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[27]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+plaintiff seeks solicitor and client costs of the action, primarily because the
+defendant denied the existence of the production contract.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[28]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+production contract contained the following provision relevant to costs:</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="quote" style="margin-top:0cm;margin-right:63.0pt;margin-bottom:6.5pt;
+margin-left:108.0pt;text-align:justify;text-indent:-45.0pt"><span style="font-size:11.0pt;font-family:Shruti">7.            COSTS: The Grower
+will be responsible for all legal and collection costs incurred by Terra Grain
+Fuels in performing and enforcing this contract.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[29]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           As
+Matheson J. observed in <i>Prairie Pulse Inc. v. Lacasse</i> (2004), 244 Sask.
+R. 126 (Q.B.), it is not every case where a contract provides for payment of
+solicitor and client costs that they will be awarded. A court continues to
+retain discretion to award costs pursuant to Rule 545(1) of <i>The Queen</i></span><i><span style="font-size:13.0pt;line-height:150%">’</span></i><i><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">s Bench Rules</span></i><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[30]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           The
+result of this dispute was divided. The defendant was unsuccessful in his
+claims that the production contract was incomplete when he signed it and that
+it was intended as nothing more than an indication of his intention to grow Ac
+Andrew wheat on 320 acres. The plaintiff was unsuccessful in its claim that the
+</span><span style="font-size:13.0pt;line-height:150%">“</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">pre-estimate of
+liquidated damages</span><span style="font-size:13.0pt;line-height:150%">”</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> clause was void
+or unenforceable. Both parties contributed to the cost and necessity of
+pursuing this matter through trial </span><span style="font-size:13.0pt;
+line-height:150%">–</span><span style="font-size:13.0pt;line-height:150%;
+font-family:Shruti"> the defendant by denying the validity of the contract; the
+plaintiff by pursuing a claim for damages in an amount that was not
+sustainable.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+</div>
+<span style="font-size:13.0pt;line-height:150%;font-family:Shruti"><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="Section12">
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">[31]</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">           As a
+result, there will not be an order for solicitor and client costs. Rather, the
+plaintiff shall have party and party costs throughout under Column 2 of the
+Court of Queen</span><span style="font-size:13.0pt;line-height:150%">’</span><span style="font-size:13.0pt;line-height:150%;font-family:Shruti">s Bench tariff of
+costs.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:13.0pt;line-height:150%;font-family:Shruti"> </span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:13.0pt;
+font-family:Shruti">                                                           <u>                                                         
+J.</u></span></p>
+<p class="MsoNormal" style="text-align:justify"><span style="font-size:13.0pt;
+font-family:Shruti">                                                                                                          <a name="a15">D. P. Ball</a></span></p>
+</div>
+</body>
+</html>

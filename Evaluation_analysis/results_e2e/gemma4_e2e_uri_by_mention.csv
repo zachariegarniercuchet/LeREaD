@@ -1,0 +1,4 @@
+mention,n_gold_real_uri,TP,FN_extraction,FN_no_uri,FN_wrong_uri,FP_spurious,excluded_no_uri,precision,recall,F1,extraction_recall,resolver_accuracy_on_matched
+decision,2843,1508,1050,3,282,478,447,0.6649,0.5304,0.5901,0.6307,0.8410
+legislation,2445,1560,399,0,486,482,433,0.6171,0.6380,0.6274,0.8368,0.7625
+secondary sources,51,29,16,0,6,120,275,0.1871,0.5686,0.2816,0.6863,0.8286

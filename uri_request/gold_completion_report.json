@@ -1,0 +1,424 @@
+{
+  "docs": {
+    "data/annotated/dev/1989CanLII1415ONCA.html": {
+      "status": "completed",
+      "parent_tags": 95,
+      "uris_before": 17,
+      "none_before": 78,
+      "uris_after": 95,
+      "none_after": 0,
+      "new_uris": 78,
+      "conflicts": 0
+    },
+    "data/annotated/dev/2016NBOMB12.html": {
+      "status": "completed",
+      "parent_tags": 136,
+      "uris_before": 131,
+      "none_before": 5,
+      "uris_after": 136,
+      "none_after": 0,
+      "new_uris": 5,
+      "conflicts": 0
+    },
+    "data/annotated/dev/2021QCCA1675.html": {
+      "status": "completed",
+      "parent_tags": 99,
+      "uris_before": 96,
+      "none_before": 3,
+      "uris_after": 99,
+      "none_after": 0,
+      "new_uris": 3,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/1983CanLII2967L.html": {
+      "status": "completed",
+      "parent_tags": 52,
+      "uris_before": 20,
+      "none_before": 32,
+      "uris_after": 52,
+      "none_after": 0,
+      "new_uris": 32,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/1993CanLII1889PESCTSD.html": {
+      "status": "completed",
+      "parent_tags": 138,
+      "uris_before": 89,
+      "none_before": 49,
+      "uris_after": 138,
+      "none_after": 0,
+      "new_uris": 49,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/1993CanLII3004FCA.html": {
+      "status": "completed",
+      "parent_tags": 549,
+      "uris_before": 365,
+      "none_before": 184,
+      "uris_after": 549,
+      "none_after": 0,
+      "new_uris": 184,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/1993NSSC71.html": {
+      "status": "completed",
+      "parent_tags": 71,
+      "uris_before": 37,
+      "none_before": 34,
+      "uris_after": 71,
+      "none_after": 0,
+      "new_uris": 34,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/1997CanLII11497.html": {
+      "status": "completed",
+      "parent_tags": 100,
+      "uris_before": 97,
+      "none_before": 3,
+      "uris_after": 100,
+      "none_after": 0,
+      "new_uris": 3,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/1999CanLII7320(ONCA).html": {
+      "status": "completed",
+      "parent_tags": 271,
+      "uris_before": 178,
+      "none_before": 93,
+      "uris_after": 271,
+      "none_after": 0,
+      "new_uris": 93,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2001BCSC1342.html": {
+      "status": "completed",
+      "parent_tags": 95,
+      "uris_before": 29,
+      "none_before": 66,
+      "uris_after": 95,
+      "none_after": 0,
+      "new_uris": 66,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2003MBCA71.html": {
+      "status": "completed",
+      "parent_tags": 49,
+      "uris_before": 31,
+      "none_before": 18,
+      "uris_after": 49,
+      "none_after": 0,
+      "new_uris": 18,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2005NLTD57.html": {
+      "status": "completed",
+      "parent_tags": 80,
+      "uris_before": 46,
+      "none_before": 34,
+      "uris_after": 80,
+      "none_after": 0,
+      "new_uris": 34,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2009BCHRT256.html": {
+      "status": "completed",
+      "parent_tags": 157,
+      "uris_before": 124,
+      "none_before": 33,
+      "uris_after": 157,
+      "none_after": 0,
+      "new_uris": 33,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2009NUCA3.html": {
+      "status": "completed",
+      "parent_tags": 52,
+      "uris_before": 15,
+      "none_before": 37,
+      "uris_after": 52,
+      "none_after": 0,
+      "new_uris": 37,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2010SKQB255.html": {
+      "status": "completed",
+      "parent_tags": 102,
+      "uris_before": 90,
+      "none_before": 12,
+      "uris_after": 102,
+      "none_after": 0,
+      "new_uris": 12,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2013ONAFRAAT18.html": {
+      "status": "completed",
+      "parent_tags": 40,
+      "uris_before": 31,
+      "none_before": 9,
+      "uris_after": 40,
+      "none_after": 0,
+      "new_uris": 9,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2014CanLII36807PELRB.html": {
+      "status": "completed",
+      "parent_tags": 249,
+      "uris_before": 197,
+      "none_before": 52,
+      "uris_after": 243,
+      "none_after": 6,
+      "new_uris": 46,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2015NSSC25.html": {
+      "status": "completed",
+      "parent_tags": 311,
+      "uris_before": 212,
+      "none_before": 99,
+      "uris_after": 296,
+      "none_after": 15,
+      "new_uris": 84,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2016QCCS1184.html": {
+      "status": "completed",
+      "parent_tags": 87,
+      "uris_before": 70,
+      "none_before": 17,
+      "uris_after": 87,
+      "none_after": 0,
+      "new_uris": 17,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2017ABCA157.html": {
+      "status": "completed",
+      "parent_tags": 349,
+      "uris_before": 270,
+      "none_before": 79,
+      "uris_after": 302,
+      "none_after": 47,
+      "new_uris": 32,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2018NSOIPC2.html": {
+      "status": "completed",
+      "parent_tags": 271,
+      "uris_before": 269,
+      "none_before": 2,
+      "uris_after": 271,
+      "none_after": 0,
+      "new_uris": 2,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2019QCCA1492.html": {
+      "status": "completed",
+      "parent_tags": 1424,
+      "uris_before": 1229,
+      "none_before": 195,
+      "uris_after": 1424,
+      "none_after": 0,
+      "new_uris": 195,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2020ABPLAB11.html": {
+      "status": "completed",
+      "parent_tags": 64,
+      "uris_before": 58,
+      "none_before": 6,
+      "uris_after": 64,
+      "none_after": 0,
+      "new_uris": 6,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2020BCHPRB101.html": {
+      "status": "completed",
+      "parent_tags": 149,
+      "uris_before": 104,
+      "none_before": 45,
+      "uris_after": 149,
+      "none_after": 0,
+      "new_uris": 45,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2020FCA63.html": {
+      "status": "completed",
+      "parent_tags": 180,
+      "uris_before": 179,
+      "none_before": 1,
+      "uris_after": 180,
+      "none_after": 0,
+      "new_uris": 1,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2022BCSC135.html": {
+      "status": "completed",
+      "parent_tags": 1145,
+      "uris_before": 984,
+      "none_before": 161,
+      "uris_after": 1145,
+      "none_after": 0,
+      "new_uris": 161,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2022ONCMT32.html": {
+      "status": "completed",
+      "parent_tags": 163,
+      "uris_before": 152,
+      "none_before": 11,
+      "uris_after": 162,
+      "none_after": 1,
+      "new_uris": 10,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2024ABOHSAB19.html": {
+      "status": "completed",
+      "parent_tags": 52,
+      "uris_before": 41,
+      "none_before": 11,
+      "uris_after": 52,
+      "none_after": 0,
+      "new_uris": 11,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2024BCSC764.html": {
+      "status": "completed",
+      "parent_tags": 232,
+      "uris_before": 218,
+      "none_before": 14,
+      "uris_after": 232,
+      "none_after": 0,
+      "new_uris": 14,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2025ABAER7.html": {
+      "status": "completed",
+      "parent_tags": 144,
+      "uris_before": 142,
+      "none_before": 2,
+      "uris_after": 144,
+      "none_after": 0,
+      "new_uris": 2,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2025ABKB246.html": {
+      "status": "completed",
+      "parent_tags": 58,
+      "uris_before": 57,
+      "none_before": 1,
+      "uris_after": 58,
+      "none_after": 0,
+      "new_uris": 1,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2025MBKB136.html": {
+      "status": "completed",
+      "parent_tags": 47,
+      "uris_before": 44,
+      "none_before": 3,
+      "uris_after": 47,
+      "none_after": 0,
+      "new_uris": 3,
+      "conflicts": 0
+    },
+    "data/annotated/test_assisted/2025NBEUB1.html": {
+      "status": "completed",
+      "parent_tags": 25,
+      "uris_before": 21,
+      "none_before": 4,
+      "uris_after": 25,
+      "none_after": 0,
+      "new_uris": 4,
+      "conflicts": 0
+    },
+    "data/annotated/test_manual/2001CanLII21117.html": {
+      "status": "completed",
+      "parent_tags": 322,
+      "uris_before": 283,
+      "none_before": 39,
+      "uris_after": 322,
+      "none_after": 0,
+      "new_uris": 39,
+      "conflicts": 0
+    },
+    "data/annotated/test_manual/2002SCC33.html": {
+      "status": "completed",
+      "parent_tags": 328,
+      "uris_before": 289,
+      "none_before": 39,
+      "uris_after": 328,
+      "none_after": 0,
+      "new_uris": 39,
+      "conflicts": 0
+    },
+    "data/annotated/test_manual/2005QCCA437.html": {
+      "status": "completed",
+      "parent_tags": 117,
+      "uris_before": 102,
+      "none_before": 15,
+      "uris_after": 117,
+      "none_after": 0,
+      "new_uris": 15,
+      "conflicts": 0
+    },
+    "data/annotated/test_manual/2024NBKB203.html": {
+      "status": "completed",
+      "parent_tags": 244,
+      "uris_before": 229,
+      "none_before": 15,
+      "uris_after": 244,
+      "none_after": 0,
+      "new_uris": 15,
+      "conflicts": 0
+    },
+    "data/annotated/train/1994CanLII4528NLCA.html": {
+      "status": "completed",
+      "parent_tags": 167,
+      "uris_before": 166,
+      "none_before": 1,
+      "uris_after": 167,
+      "none_after": 0,
+      "new_uris": 1,
+      "conflicts": 0
+    },
+    "data/annotated/train/1997CanLII16226ONCA.html": {
+      "status": "completed",
+      "parent_tags": 623,
+      "uris_before": 555,
+      "none_before": 68,
+      "uris_after": 623,
+      "none_after": 0,
+      "new_uris": 68,
+      "conflicts": 0
+    },
+    "data/annotated/train/2008CSC9.html": {
+      "status": "completed",
+      "parent_tags": 484,
+      "uris_before": 417,
+      "none_before": 67,
+      "uris_after": 484,
+      "none_after": 0,
+      "new_uris": 67,
+      "conflicts": 0
+    },
+    "data/annotated/train/2019SCC65.html": {
+      "status": "completed",
+      "parent_tags": 1446,
+      "uris_before": 1182,
+      "none_before": 264,
+      "uris_after": 1443,
+      "none_after": 3,
+      "new_uris": 261,
+      "conflicts": 0
+    }
+  },
+  "conflicts": [],
+  "unmapped_none": [],
+  "summary": {
+    "dry_run": false,
+    "files": 41,
+    "parent_tags": 10767,
+    "new_uris": 1829,
+    "conflicts": 0,
+    "unmapped_none": 0
+  }
+}

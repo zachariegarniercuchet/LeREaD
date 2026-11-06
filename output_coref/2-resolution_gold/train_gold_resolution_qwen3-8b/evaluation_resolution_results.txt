@@ -1,0 +1,75 @@
+
+======================================================================
+BATCH RESOLUTION EVALUATION (uri)
+======================================================================
+Batch folder: output_coref\train_gold_resolution_qwen3-8b
+Split: train
+File suffix: _resolution.html
+======================================================================
+Found 4 evaluation pair(s)
+
+
+Level-3 (uri) batch evaluation — 4 file pair(s)
+======================================================================
+
+[1/4] 1994CanLII4528NLCA.html
+  matched spans:  424  |  uri instances:   166  |  accuracy: 51.2%
+
+[2/4] 1997CanLII16226ONCA.html
+  matched spans: 1911  |  uri instances:   555  |  accuracy: 97.7%
+
+[3/4] 2008CSC9.html
+  matched spans: 1399  |  uri instances:   417  |  accuracy: 97.4%
+
+[4/4] 2019SCC65.html
+  matched spans: 4658  |  uri instances:  1182  |  accuracy: 87.0%
+
+======================================================================
+
+╔════════════════════════════════════════════════════════════════════╗
+║                  LEVEL 3 – URI RESOLUTION ACCURACY                 ║
+╚════════════════════════════════════════════════════════════════════╝
+
+  Evaluated attribute : uri
+  Agreement criterion : exact match (case-insensitive, stripped)
+  Counted instances   : spans matched at Level 1 where uri is present on either side, excluding gold uri="None" (no answer)
+
+──────────────────────────────────────────────────────────────────────────────
+  OVERALL
+──────────────────────────────────────────────────────────────────────────────
+
+  Matched spans (Level 1)   :   8392
+  URI instances compared    :   2320
+  Skipped (gold uri=None)   :    400
+  Matching URI values       :   2061
+  URI ACCURACY              :     88.84%
+
+  Errors — missing in system:     34
+         — missing in gold  :      7
+         — different value  :    218
+
+──────────────────────────────────────────────────────────────────────────────
+  PER-LABEL BREAKDOWN
+──────────────────────────────────────────────────────────────────────────────
+
+  Label                                 Total  Match   Accuracy
+  ────────────────────────────────────────────────────────────
+  decision                               1451   1291      89.0%
+  legislation                             835    746      89.3%
+  secondary sources                        34     24      70.6%
+
+──────────────────────────────────────────────────────────────────────────────
+  PER-CATEGORY BREAKDOWN
+──────────────────────────────────────────────────────────────────────────────
+
+  Category                              Total  Match   Accuracy
+  ────────────────────────────────────────────────────────────
+  decision                               1451   1291      89.0%
+  legislation                             835    746      89.3%
+  secondary sources                        34     24      70.6%
+
+══════════════════════════════════════════════════════════════════════════════
+
+  Macro accuracy (mean per-document uri accuracy): 83.30%
+  Documents evaluated: 4/4
+

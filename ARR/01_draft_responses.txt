@@ -1,0 +1,87 @@
+LeREaD ARR resubmission — Draft point-by-point responses (WORKING FILE)
+Previous round: Submission5922 (v1: 11 docs). Current manuscript: 45 manually verified gold + 55 silver = 100 decisions (see latex/acl_latex.tex:164).
+Goal PDF: overview of changes + response to each weakness/suggestion (meta + 3 reviewers). Add Sec./line numbers after final compile. Colour-coded diff optional.
+Status: DRAFT — fill [TODO]s, verify numbers against current .tex before copying into submission form.
+
+================================================================
+A. OVERVIEW OF MAJOR CHANGES (to put at top of revision PDF)
+================================================================
+1. Dataset scale rewritten (addresses M1, C1, A1, B1).
+   - From 11 annotated decisions (v1: ~250k tokens, 4,062 mentions, 7,861 sublabels) to 100 decisions (1982-2026): 45 manually verified gold (31,602 spans = ~11k mentions + ~20k components, per AGENTS.md; check exact split in Sec. 3 / Tab. 1) + 55 silver for training/validation. Total 49,737 spans (17,852 mentions + 31,885 components) — abstract [TODO: Sec.1, lines].
+   - New Sec. on sampling: stratified by jurisdiction / court level / period, avoiding tribunal/decade over-representation (was App. B, now surfaced in main + App. [TODO]). Explicit statement of how representative / what is NOT covered.
+   - Span-level framing throughout: abstract, dataset Sec., eval Sec., limitations. Report tokens + spans per split (train/dev/test), not just doc counts. Per-label table kept only in appendix (or removed) with fragility warning; main text reports micro-F1 only [TODO: decide keep/remove Table 9 equivalent].
+2. Disambiguation now evaluated (addresses M2, C2, A-?, B2).
+   - v1 title promised extraction+disambiguation but ran extraction only. New manuscript evaluates full pipeline: Sec. "Extraction and Disambiguation Pipeline" (latex/acl_latex.tex:686): (i) span extraction, (ii) coreference resolution (docid grouping), (iii) repository linking (uri to 1,437 external sources / 6,437-entry candidate pool — verify numbers, [TODO]).
+   - Baselines for all three stages incl. recent open models + legal-domain model (see below). Disambiguation is no longer "future work / metadata only".
+   - Keep title "Extraction and Disambiguation" ONLY because both are now evaluated; otherwise must drop "Disambiguation" per M2. [TODO: confirm coref+linking results present in results table before keeping title.]
+3. Transparency / reproducibility (addresses M3, C3, A2-A4, B3-B5).
+   - Prompts (decision: NO full prompts in appendix, no placeholders): full prompt texts live versioned in the code repo (src/prompts/; acl_latex.tex:700). Appendix-3 (active file, wired in acl_latex.tex:1017) documents design/validation instead: copy-and-annotate format, paragraph-aware chunking, AIO vs DEC, pattern-based few-shot (k=6, coverage >80%), repair/fallback rates. [TODO: remove unused \promptplaceholder macro appendix-3.tex:7-12 so no TODO boxes compile.]
+   - Timing: timer definition moved to main text (acl_latex.tex:578: starts on mouse movement, pauses after 60s inactivity; annotator-only, excludes model latency/fallback) + appendix note (appendix-3.tex:387, Sec. app:llm_experiments). Report conditions box: RQ1 = 4 scratch (33k tokens) vs 2 verification (59k tokens); RQ2/RQ3 = 4 double-annotated (2,714 spans, 85.5k tokens); 6 docs re-annotated, ~39h + 73h active time [TODO: reconcile 39h vs 73h — check which is total vs study-only].
+   - Workflow->gold mapping: state final release = human-only complete annotations (extraction + disambiguation); experiment annotations released separately; D10 clarified (Annotator 1 from-scratch = released test version; Annotator 2 verification = separate study copy). Add per-document condition table in appendix [TODO].
+   - Level 1 / Level 2: definitions moved (or to be moved) into Sec. 3.4 main text; appendix keeps full protocol + pilot tables (appendix-3.tex:350,379, Sec. app:annotation) [TODO: verify in main text].
+   - Model choice: rationale paragraph (proprietary frontier + open across scales + legal-domain + recent; dense; MoE as future work) [TODO: Sec. ref]. Current set per .tex: GPT-5.2, Qwen2.5-7B/32B?, Phi-4-14B, Gemma?, SaulLM-54B (acl_latex.tex:874,876) — verify final list, drop-or-justify inconsistencies with rebuttal's 4-model list.
+4. Cautious wording (addresses M2, B7).
+   - Anchoring: "consistent with an anchoring effect" + alternatives (difficulty, shared guidelines, editing mechanics / platform affordance) + limitation (acl_latex.tex:983). No causal claim.
+   - Motivation: scope-based (unified legislation + decisions + secondary sources), not "prior work monolingual/small" as blanket critique; note English-only now, French source pool exists for future bilingual extension [TODO: Sec. ref].
+   - Annotation effects: "no detectable loss in quality" / "+29% throughput" with sample-size caveat, not bold generalisation.
+
+================================================================
+B. POINT-BY-POINT (map to 00_review_points_summary.txt codes)
+================================================================
+--- Meta-review ---
+[M1] Span-level scale + limits.
+  Response: Agree doc count was under-contextualised. Revised manuscript foregrounds spans/tokens: abstract + dataset table give tokens/spans per split; eval discusses doc-count limits + why spans are the scoring unit; per-label only appendix with warning; v1->100-decision expansion described; limitations Sec. states English-only + 45-gold eval core. [TODO: Sec./line refs.]
+  Change: abstract rewritten; Tab.1 expanded; Limitations extended.
+[M2] Disambiguation framing + cautious claims.
+  Response: Title retained ONLY because disambiguation is now evaluated (coref + linking baselines, Sec. [TODO]). If AC prefers, we will drop "and Disambiguation". Anchoring + productivity claims softened (see A4).
+  Change: new pipeline Sec. + results; wording pass.
+[M3] Transparency/repro.
+  Response: Full prompt texts in public repo (versioned, src/prompts/) rather than pasted in appendix (space; prompts evolve with code). Paper + appendix give design/revision/validation chain: setup/ablations (chunking AIO/DEC, few-shot k=6, coverage Fig.), repair/fallback table; timing definition; workflow table; data = 45 gold to release + public CanLII sources + open Labelizer tool.
+  Change: App. design/validation details (no prompt dump); Sec. 4-5 experimental details; footnote with anonymous repo link. [TODO: replace anonymous link for camera-ready.]
+
+--- Reviewer CjA3 ---
+[C1] Small sample / bold claims.
+  Response: Same as M1 + new scale (45 gold / 100 total). Bold claims removed; overall micro-F1 emphasised; CIs / split sizes reported; v2-preliminary language dropped (it IS the new submission). [TODO: add CIs if space, else state why not.]
+[C2] Disambiguation in title.
+  Response: Same as M2 — now evaluated; point to coref/linking Secs. + tables.
+[C3] Prompt validation.
+  Response: Design->validation chain added: paragraph-aware chunking, AIO vs DEC, pattern-based few-shot (coverage >80% at k=6), repair/fallback rates table, dev-set ablations; full texts in repo (src/prompts/), design + validation in paper/appendix (no prompt dump by decision). [TODO: cite App. tables/figs.]
+
+--- Reviewer 4Akm ---
+[A1] 11 docs / 3 test; per-label fragile.
+  Response: New splits over 45 gold (train 4 / dev 3 / ... — [TODO: copy exact split from line 432 + Tab.1]); test tokens/spans reported; per-label confined to appendix with fragility note (or removed — [TODO: decide]); main claim = overall micro-F1.
+[A2] 134.8 min: latency/fallback? Only 4 docs -> generalisation?
+  Response: Annotator-only time (timer + 60s-inactivity rule), no latency/fallback; RQ1/RQ2 sample boxes given explicitly; labelled "preliminary / focused study" in limitations; same annotators/platform/guidelines/order/task; difficulty uncontrolled — acknowledged limit.
+  Change: Sec. 3/4 timing paragraph + App. box (appendix-3.tex:387).
+[A3] L1/L2 in main text.
+  Response: Done — definitions in Sec. 3.4 [TODO: verify + line ref]; appendix retains full numbers.
+[A4] Why these LLM families? Dense vs MoE, sizes?
+  Response: Rationale added: frontier proprietary upper bound (GPT-5.2) + open across scales (Qwen2.5-7B/32B, Phi-4-14B) + recent open (Gemma [TODO: verify]) + legal-domain (SaulLM-54B, likely under-prompted — stated); MoE / more sizes = future work (compute + prompt-long-context constraints). [TODO: harmonise with rebuttal's 4-model list; update rebuttal text.]
+  Follow-up commitment (15 Jul): timing + RQ breakdown explicitly in paper — done (see A2); span-level framing — done (see M1). Main-vs-Findings is AC's call; we argue expanded eval + full disambiguation now meets bar, while retaining Findings suitability statement.
+
+--- Reviewer b9UJ ---
+[B1] Scale + representativeness (5/3/3).
+  Response: New 45-gold/55-silver replaces 5/3/3; stratified sampling detailed (jurisdiction/level/period; App. B -> main summary); representativeness + residual gaps (English-only, CanLII-only, federal-court skew if any — [TODO: check Tab.1]) stated; selection criteria listed.
+[B2] Disambiguation = future / tiny pool.
+  Response: Outdated for new manuscript: candidate pools defined (gold vs full), linking evaluated, pool-size realism discussed as limitation (pool too small for realistic retrieval -> stated openly, larger-pool work ongoing). [TODO: Sec./line.]
+[B3] Which process -> gold? D10 double appearance.
+  Response: Explicit mapping: released gold = human-only complete (extraction + disambiguation) for all 45 (+11 of v1 subset); study copies (4 extraction-only, 4 verification) released separately for transparency; D10: Annotator-1 scratch = released test file, Annotator-2 verification = independent study copy (different purpose, no contamination of gold); ordering/familiarity: studies run end-of-process after tool/guideline familiarisation. Add doc x condition table. [TODO: build table; verify D10 file id in data/annotated/test.]
+[B4] 29% gain under-controlled (difficulty, fatigue, order, familiarity, environment).
+  Response: Controls listed (same annotators/platform/guidelines/order/task; end-of-process; identical task = mentions + sublabels; inactivity-aware timer); confounds acknowledged (difficulty not quantified/counterbalanced; N small; order fixed) in Limitations; claim scoped to "focused study" not universal gain; words/hour vs spans/hour both reported (+29% spans/h, +81% words/h — explain divergence: verification docs longer/denser). [TODO: line refs Sec. 3/4.]
+[B5] Prompt design/revision/validation.
+  Response: Same as C3 + Pattern-dict / RPR precompute / ablations; copy-and-annotate format specified; failure/repair rates reported (App. correction-fallback table). Full texts repo-only by decision, no appendix dump.
+[B6] "Monolingual/too small" critique applies to v1 itself.
+  Response: Motivation rewritten to scope (unified 3 source types + nested components + coref/link metadata) not language/size superiority; English-only stated as limitation; French CanLII versions noted as pool for future bilingual extension.
+[B7] Anchoring: suggestive not conclusive.
+  Response: Agree; rewritten as "consistent with" + three alternatives (easy refs, shared guidelines, edit-mechanics/platform affordance); no causal claim; platform's edit-friendly design disclosed as potential contributor. [TODO: line ref acl_latex.tex:983.]
+
+================================================================
+C. STILL TO DO BEFORE PDF (checklist)
+================================================================
+[ ] Prompts: confirmed NO dump in appendix-3 (decision). Remove unused \promptplaceholder macro (appendix-3.tex:7-12) so no TODO boxes compile; ensure src/prompts/ is public + path cited in paper.
+[ ] Verify numbers: 45 gold split (4/?/?), 31,602 spans; 100 total 49,737 spans; 1,437 sources / 6,437 pool; 73h vs 39h; 33k/59k/85.5k tokens; 1,243 / 971 / 2,714 spans. Make rebuttal-PDF numbers match .tex exactly.
+[ ] Decide per-label table: keep in appendix with warning vs remove (promised "can be removed" in rebuttals — either is defensible, state choice).
+[ ] Add doc x condition table (gold vs study copies; D10 row) + sampling summary in main.
+[ ] Harmonise model list (rebuttal said 4; .tex now mentions GPT-5.2, Qwen, Phi-4, Gemma, SaulLM) + one-sentence rationale each.
+[ ] Compile, capture Sec./line numbers, then generate revision PDF (overview + this point-by-point, optionally colour-coded diff appended).
+[ ] Replace [Anonymized] repo/tool links if non-anonymous track; keep otherwise.

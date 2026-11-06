@@ -1,0 +1,20 @@
+level,mention_parent,component,gold,system,TP,FN,FP,miss_rate_FN_over_gold,false_discovery_FP_over_sys,precision,recall,F1
+child,?,unable to classify,87,0,0,87,0,1.0000,0.0000,0.0000,0.0000,0.0000
+child,citation,fragment,0,1,0,0,1,0.0000,1.0000,0.0000,0.0000,0.0000
+child,citation,title,0,1,0,0,1,0.0000,1.0000,0.0000,0.0000,0.0000
+child,decision,citation,2242,2124,1978,264,146,0.1178,0.0687,0.9313,0.8822,0.9061
+child,decision,fragment,1457,1269,1157,300,112,0.2059,0.0883,0.9117,0.7941,0.8489
+child,decision,title,2940,3132,2549,391,583,0.1330,0.1861,0.8139,0.8670,0.8396
+child,fragment,citation,0,1,0,0,1,0.0000,1.0000,0.0000,0.0000,0.0000
+child,legislation,citation,433,428,397,36,31,0.0831,0.0724,0.9276,0.9169,0.9222
+child,legislation,fragment,2138,2339,1999,139,340,0.0650,0.1454,0.8546,0.9350,0.8930
+child,legislation,title,2365,2379,2103,262,276,0.1108,0.1160,0.8840,0.8892,0.8866
+child,secondary sources,authors,292,274,222,70,52,0.2397,0.1898,0.8102,0.7603,0.7845
+child,secondary sources,fragment,305,371,263,42,108,0.1377,0.2911,0.7089,0.8623,0.7781
+child,secondary sources,source,233,260,177,56,83,0.2403,0.3192,0.6808,0.7597,0.7181
+child,secondary sources,title,276,526,245,31,281,0.1123,0.5342,0.4658,0.8877,0.6110
+child,source,title,3,5,3,0,2,0.0000,0.4000,0.6000,1.0000,0.7500
+child,title,citation,2,10,2,0,8,0.0000,0.8000,0.2000,1.0000,0.3333
+parent,decision,-,3401,3652,2635,766,1017,0.2252,0.2785,0.7215,0.7748,0.7472
+parent,legislation,-,3119,3315,2612,507,703,0.1626,0.2121,0.7879,0.8374,0.8119
+parent,secondary sources,-,387,771,273,114,498,0.2946,0.6459,0.3541,0.7054,0.4715

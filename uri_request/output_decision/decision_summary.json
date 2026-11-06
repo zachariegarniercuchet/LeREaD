@@ -1,0 +1,29 @@
+{
+  "threshold": 10.0,
+  "n": 1551,
+  "exists": 206,
+  "needs_review": 65,
+  "by_type": {
+    "legislation": {
+      "EXISTS": 74,
+      "MISSING": 252
+    },
+    "secondary sources": {
+      "EXISTS": 1,
+      "MISSING": 184
+    },
+    "decision": {
+      "EXISTS": 131,
+      "MISSING": 909
+    }
+  },
+  "via": {
+    "rank1/alias": 5,
+    "rank1/citation": 110,
+    "rank1/title-unique": 87,
+    "rank2/alias": 1,
+    "rank4/citation": 1,
+    "rank2/citation": 2
+  },
+  "docs_affected": 55
+}

@@ -1,0 +1,1671 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:24.0pt;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Univers (W1)",sans-serif;
+	font-weight:bold;
+	text-decoration:underline;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Cambria",serif;
+	color:#365F91;
+	font-weight:normal;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.MsoFootnoteReference
+	{}
+span.MsoEndnoteReference
+	{}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{mso-style-link:"Note de fin Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Bookman Old Style",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Bookman Old Style",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Bookman Old Style",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Bookman Old Style",serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Tahoma",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Univers (W1)",sans-serif;
+	font-weight:bold;
+	text-decoration:underline;}
+p.Number, li.Number, div.Number
+	{mso-style-name:Number;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:0in;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.ssbf
+	{mso-style-name:ss_bf;}
+span.ssit
+	{mso-style-name:ss_it;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Segoe UI",sans-serif;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Tahoma",sans-serif;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Tahoma",sans-serif;}
+span.NotedefinCar
+	{mso-style-name:"Note de fin Car";
+	mso-style-link:"Note de fin";
+	font-family:"Tahoma",sans-serif;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Tahoma",sans-serif;}
+p.paranondepar-altn, li.paranondepar-altn, div.paranondepar-altn
+	{mso-style-name:paranondepar-altn;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.sslistlabel
+	{mso-style-name:ss_listlabel;}
+span.sslistitemcontent
+	{mso-style-name:ss_listitemcontent;}
+span.ssib
+	{mso-style-name:ss_ib;}
+span.texthighlight
+	{mso-style-name:texthighlight;}
+span.ssiu
+	{mso-style-name:ss_iu;}
+span.ssun
+	{mso-style-name:ss_un;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Cambria",serif;
+	color:#365F91;}
+p.secheading, li.secheading, div.secheading
+	{mso-style-name:secheading;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.up1tab, li.up1tab, div.up1tab
+	{mso-style-name:up1tab;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.ind1c, li.ind1c, div.ind1c
+	{mso-style-name:ind1c;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.secnum
+	{mso-style-name:secnum;}
+p.ind1, li.ind1, div.ind1
+	{mso-style-name:ind1;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.clause
+	{mso-style-name:clause;}
+span.UnresolvedMention
+	{mso-style-name:"Unresolved Mention";
+	color:#605E5C;
+	background:#E1DFDD;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="blue" vlink="purple">
+<div class="WordSection1">
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:
+11.0pt">Date: 20250911 </span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:
+11.0pt">Docket: CI 15-01-99336</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:
+11.0pt">(Winnipeg Centre)</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:
+11.0pt">Indexed as: Farmers Edge Inc. v. Precision Weather Solutions Inc.  </span></p>
+<p align="right" class="MsoNormal" style="text-align:right"><span style="font-size:
+11.0pt">Cited as: 2025 MBKB 113</span></p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><u><span style="font-size:16.0pt">COURT OF KING'S BENCH OF MANITOBA</span></u></b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse" width="0">
+<tbody><tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"><b><span style="font-size:14.0pt">B E T W E E N:</span></b></p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center"> </p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225"></td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in"><u><span style="text-decoration:
+   none"> </span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal">FARMERS EDGE INC.,  </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left"><u>Michael
+  G. Finlayson </u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in"><u>Gabrielle C. Lisi</u> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right">plaintiff,</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in">for the plaintiff/defendant by
+  </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in">counterclaim</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal">- and -</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in"> </p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in"><u><span style="text-decoration:
+   none"> </span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal">PRECISION WEATHER SOLUTIONS INC.,</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%">Alistair Crawley</span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%">Kate McGrann</span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right">defendant,</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><span style="line-height:115%">for the defendant/plaintiff
+  by </span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><span style="line-height:115%">counterclaim</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left">AND BETWEEN:</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left">PRECISION WEATHER
+  SOLUTIONS INC.,</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right">plaintiff by
+  counterclaim,</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left">-and-</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left">FARMERS EDGE INC., WADE
+  BARNES,  </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="left" class="MsoNormal" style="text-align:left">CURTIS MACKINNON and
+  TREVOR ARMITAGE</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p align="right" class="MsoNormal" style="text-align:right">defendants by
+  counterclaim.</p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><u><span style="line-height:115%"><span style="text-decoration:
+   none"> </span></span></u></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p align="left" class="MsoNormal" style="margin-right:-.05in;text-align:left;
+  line-height:115%"><span style="line-height:115%">JUDGMENT DELIVERED:</span></p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:3.5in;padding:0in .05in 0in .05in" valign="top" width="336">
+<p class="MsoNormal"> </p>
+</td>
+<td style="width:19.5pt;padding:0in .05in 0in .05in" valign="top" width="26">
+<p align="center" class="MsoNormal" style="text-align:center">)</p>
+</td>
+<td style="width:168.6pt;padding:0in .05in 0in .05in" valign="top" width="225">
+<p class="MsoNormal" style="margin-right:-.05in">September 11, 2025</p>
+</td>
+</tr>
+</tbody></table>
+<h1 style="line-height:200%"><span style='font-size:12.0pt;line-height:200%;
+font-family:"Tahoma",sans-serif'><span style="text-decoration:none"> </span></span></h1>
+<h1 style="line-height:200%"><span style='line-height:200%;font-family:"Tahoma",sans-serif'>MARTIN,
+J.</span></h1>
+<h1 style="line-height:200%"><span style='font-size:14.0pt;line-height:200%;
+font-family:"Tahoma",sans-serif;font-variant:small-caps'>Introduction</span></h1>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[1]<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="line-height:200%">Farmers Edge Inc. (“Farmers”) and Precision
+Weather Solutions Inc. (“Precision”), both Manitoba corporations, have</span>
+been involved in uncompromising litigation in Manitoba since 2015, emanating
+from a July 2014 failed contractual arrangement (“this action” or “the Manitoba
+action”).  The individual defendants-by-counterclaim are former employees of Farmers.
+ This decision deals with Farmers’ motion to strike key aspects of the
+counterclaim or alternately to refuse to allow Precision to adduce certain evidence
+and expert evidence it has not produced to date. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[2]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Some context is beneficial to frame the proceeding and this
+decision.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[3]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>First, Precision has at various times initiated other proceedings
+in other jurisdictions dealing with the same core issues as its counterclaim in
+this action.  Notably, in 2021 Precision pursued a similar action in the State
+of Virgina in the United States of America, (“USA”) which failed for
+jurisdiction reasons in both the State District Court and on appeal.  As a
+result, from about October 2021 until September 2023 this Manitoba action was
+stayed as the Court would not acquiesce to concurrent duplicate actions in two
+jurisdictions. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[4]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>When the stay was lifted in September 2023, at both parties’
+urging, a five-week trial was set to be held slightly over two years hence,
+starting October 20, 2025. The parties committed to have the matter fully ready
+for trial.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[5]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Second, in November 2022, Precision retained new counsel (“MLTA”),
+which was only formalized on the record in June 2023.  By the Fall of 2023 Farmers
+also had new counsel. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[6]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>However, in February 2025, Precision’s counsel, MLTA, was allowed
+to withdraw due to a conflict and, what has only recently been revealed to be, Precision’s
+continuous inability to pay them. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[7]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Then, in May 2025, when Precision obtained another private litigation
+funder, Precision’s current counsel became counsel of record for this trial.  However,
+that counsel was already familiar with this matter.  In 2023, they initiated an
+Ontario action against Farmers’ main shareholder and others. Later in 2024 Precision’s
+current counsel were in the background assisting Precision on this action.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[8]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Third, the Ontario action is in abeyance pending this trial.
+Farmers is not named as a defendant because, the claim states, Farmers was “on
+the brink of insolvency” and controlled entirely by the Ontario defendants who
+are alleged to be vicariously liable for Farmers’ alleged misappropriation of Precision’s
+proprietary technology and confidential information.  This foundational
+allegation in the Ontario claim, in which damages are quantified at $450
+million, is the key part of the Manitoba counterclaim.  Also, in 2024, Precision
+commenced another action, in the State of Kansas, USA, against two of the
+Ontario corporate defendants’ subsidiaries.  I am unaware of its status, but again
+the Manitoba counterclaim underpins it.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[9]<span style='font:7.0pt "Times New Roman"'>        
+</span></span>Fourth, throughout, the prospects and fortunes of Farmers and Precision
+have substantially and badly changed. In the last years, Farmers’ business
+prospects and corporate value precipitously declined.  So too Precision.  In January
+2025, Precision’s parent company was declared bankrupt (<b><i>The Bankruptcy of
+Galton Corporation</i></b>, 2025 MBKB 13 (the “<b><i>Galton</i></b> bankruptcy”)).
+ And, Precision’s counsel now advises that after retaining MLTA counsel in
+2022, until May 2025, Precision could not adequately fund this litigation, which
+effectively meant that its trial preparation and responsiveness to Farmers was
+hampered.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[10]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Finally, two points about the Manitoba action.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[11]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>One, in September 2019, Farmers launched a second Manitoba action
+claiming unpaid accounts further to a 2016 consent court order that was in
+place to stabilize ongoing business claims between the parties (CI 19-01-23195).
+Again, Precision counterclaimed.  Overtime that action notionally merged with
+this action.  Now both parties are abandoning that action, although some evidentiary
+aspects overlap this action.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[12]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Two, as to this action, relatively close to the <b><i>Galton</i></b>
+bankruptcy, in early 2025, Farmers advised it would no longer pursue its
+original claim. Thus, now, only the Precision counterclaim will be determined
+at trial. There are two core sets of allegations in the counterclaim:</p>
+<p class="Number" style="margin-left:.5in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span>breach of contract for failing to pay accounts alleged at about $1.2
+million <span style="line-height:200%">which, if proven, may be subject to
+setoffs</span></p>
+<p class="Number" style="margin-left:.25in">and, of much greater significance;
+and</p>
+<p class="Number" style="margin-left:.5in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span>infringement of Precision’s intellectual property (confidential
+information and trade secrets) and related breach of trust, by, particularly, Farmers
+creating in 2019 a digital platform product called FarmCommand <span style="line-height:200%">(</span>collectively “the infringement claim”) and two
+peripheral allegations.  For these allegations, Precision seeks damages, various
+declarations, an accounting and disgorgement of profits <span style="font-size:
+10.0pt;line-height:200%">(para 28).</span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[13]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>This trial, 10 years in the making, starts seven and half weeks
+from August 26, 2025, when the subject matter of this judgment was argued. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[14]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>This judgment addresses Farmers’ long-standing discovery complaints,
+crystallized through a motion seeking to:</p>
+<p class="Number" style="margin-left:.5in;text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'>     </span>i.<span style='font:7.0pt "Times New Roman"'>       
+</span>confirm Precision is in contempt of an August 2020 and January 2025,
+court order with respect to disclosure and production of documents, delivery of
+responses to undertakings, answers to interrogatories, production of experts
+reports and quantification of its damages in the action;</p>
+<p class="Number" style="margin-left:.5in;text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'>    </span>ii.<span style='font:7.0pt "Times New Roman"'>       
+</span>strike the counterclaim or alternately strike allegations in specified
+paragraphs, including those dealing with the infringement claim, and peripheral
+common law “passing off” and s. 52 of the <b><i>Competition Act</i></b>, R.S.C.,
+1985, c. C-34 allegations; or</p>
+<p class="Number" style="margin-left:.5in;text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'>   </span>iii.<span style='font:7.0pt "Times New Roman"'>       
+</span>bar Precision from filing any or further expert reports in the action;
+and/or</p>
+<p class="Number" style="margin-left:.5in;text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'>   </span>iv.<span style='font:7.0pt "Times New Roman"'>       
+</span>bar Precision from adducing further documentary or expert evidence to
+support its allegations noted at item “ii” above; and</p>
+<p class="Number" style="margin-left:.5in;text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'>    </span>v.<span style='font:7.0pt "Times New Roman"'>       
+</span>amend its pleading.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[15]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>At para. 1 of its responding brief on the motion, Precision “acknowledges
+that it has failed to fully comply with discovery obligations and to meet
+Court-ordered deadlines” and “has work to do to cure the Noncompliance”, which
+it is doing.  More specifically, they acknowledge that Precision has missed
+court ordered expert and evidentiary deadlines.  They also agree to Farmers’ proposed
+pleading amendment, which is relatively minor. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[16]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Further, during the motion hearing, Precision abandoned the peripheral
+passing off and <b><i>Competition Act</i></b> claims.  In doing so, some
+outstanding answers and disclosure are eliminated and only the two core sets of
+claims, breach of contract for failing to pay accounts and the infringement
+claim, are left for trial.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[17]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Precision’s counsels’ candor in its brief was further exhibited
+at the hearing.  They conceded it would be difficult for Farmers to fulsomely
+address the anticipated expert evidence without their own expert’s review, and
+failure to allow the expert report would hamper the Court’s ability to effectively
+adjudicate key aspects of Precision’s claim.  To be clear, the expert report is
+for the damages claim.  As things stand, Precision cannot obtain a liability
+expert to address the intellectual property evidence. I commend Precision’s
+counsel for their professionalism and frankness.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[18]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>With this, I need not examine the granular detail of each
+complaint or point referred to in para. 14.i above as particularized in Farmers’
+materials.  Rather, respecting both elements of liability and damages, notably for
+Precision’s infringement claim, it is common ground that Precision has failed,
+contrary to civil procedure rules or Court directions, to properly and
+fulsomely provide disclosure of documents, answers to undertakings and
+interrogatories and, critically, expert evidence it intends to rely on. While I
+accept Precision’s counsel continues to diligently work on this since it was
+formally retained about four months ago, Precision’s compliance remains a work-in-progress
+with no firm completion date except they anticipate receiving the final expert
+report on damages before September 12, 2025.</p>
+<p class="Number"><b><u><span style="font-size:14.0pt;line-height:200%;
+font-variant:small-caps">The Parties’ Positions</span></u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[19]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Farmers vigorously argues for an order striking particularly the infringement
+claim or alternatively restricting the evidence by not allowing new undisclosed
+evidence or material, expert or otherwise, into the trial.  After all these
+years of litigation, it still cannot respond to this most significant part of Precision’s
+claim; evidence of alleged proprietary or confidential information is beyond
+their grasp.  It is prejudiced by Precision’s failures, which are vital. Given
+how the proceedings have unfolded over the years, especially since the stay was
+lifted, and that the fortunes of each party have fallen, it says the toll of
+litigation is crippling; it cannot bear any adjournment.  Instead, it would
+need to deal with the case however disclosure, answers and production unfolds
+over the next weeks, no matter how their ability to effectively put forward their
+defence would be compromised or how unjust.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[20]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>On the other hand, Precision says striking the infringement claim,
+or not receiving as yet undisclosed evidence respecting it, which Precision says
+would be tantamount to dismissing the infringement claim, would deny Precision a
+fair adjudication of a meritorious claim.  Any such remedy is extreme and not
+warranted; Precision has good reasons for its noncompliance, particularly that (i)
+its principal (Ms. Bonk) suffered some hand related health problems in 2024, (ii)
+after the Virginia action was dismissed on Appeal, it lost its third-party litigation
+funder and, despite its diligence, it took 21 months to secure a new one, and
+(iii) it puts blame on Farmers for its conduct and noncompliance with various
+required disclosure and responses.  Further, Farmers has not shown it is specifically
+prejudiced by Precision’s failures. All in, Precision proposes that a short
+adjournment of the trial may be warranted.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[21]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>To be clear, neither party has requested an adjournment, which, as
+I informed counsel, would not be a short delay but a two-year delay.  Further,
+bifurcation of trial issues is neither acceptable nor, especially in this
+situation, practical.  In the end, it would be hugely onerous and
+counterproductive for the parties and Court. </p>
+<p class="Number"><b><u><span style="font-size:14.0pt;line-height:200%;
+font-variant:small-caps">The Key Issue</span></u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[22]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>In sum, the issue before me reduces to the appropriate, just and
+proportionate remedy for Precision’s failures to deliver answers and evidence
+central to Precision’s infringement claim.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[23]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Realistically, this means (i) striking the infringement claim as
+requested, or (ii) refusing to allow Precision to adduce key evidence, or (iii)
+adjourning the trial for two years or (iv) having the trial go-ahead in about
+five weeks, confident Farmers will be compromised by having to deal with Precision’s
+deficient information because of its noncompliance, especially disclosure and
+answer failures (chiefly, as I frame it, precisely detailing the intellectual or
+confidential property at issue and the basis for claiming it is proprietary,
+confidential or secret) and a late breaking expert report that cannot
+meaningfully be responded to.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[24]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Given the context as mentioned and for the reasons that follow, I
+am striking Precision’s infringement claim.  As such, I will not deal in any
+depth with the other relief sought on the motion, notably contempt or refusing
+to allow certain evidence on the infringement claim to be adduced.</p>
+<p class="Number"><b><u><span style="font-size:14.0pt;line-height:200%;
+font-variant:small-caps">Analysis</span></u></b></p>
+<p class="Number"><b><span style="line-height:200%">STRIKING A PLEADING FOR
+NONCOMPLIANCE WITH RULES OR ORDERS</span></b></p>
+<p class="Number"><b><i>Legal Principles</i></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[25]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Both parties remind the Court of the general principle of
+interpreting Manitoba’s civil procedure Rules at Court of King’s Bench Rule 1.04;
+that the “rules shall be liberally construed to secure the just, most
+expeditious and least expensive determination of every civil proceeding on its
+merits.”</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[26]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Farmers invokes numerous other Rules of civil procedure in
+support of their motion. Specifically, respecting motions to strike pleadings
+such as those at issue:</p>
+<p class="Number" style="margin-left:.75in;text-indent:-.25in">-<span style='font:7.0pt "Times New Roman"'>      </span>Rule
+25.11(1)(a) provides the court may strike out all or part of a pleading on the
+ground the pleading “may prejudice or delay the fair trial of the action”; </p>
+<p class="Number" style="margin-left:.75in;text-indent:-.25in">-<span style='font:7.0pt "Times New Roman"'>      </span>Rule
+50.09(1) provides a court may strike out a pleading where a party, without
+reasonable excuse, fails to comply with a direction of a judge such as producing
+documents, answers or reports by a set date; and</p>
+<p class="Number" style="margin-left:.75in;text-indent:-.25in">-<span style='font:7.0pt "Times New Roman"'>      </span>otherwise,
+the court may strike out pleading where the party fails to produce documents (Rule
+30.08(2)) or fails to answer undertakings (Rule 34.14) or fails to answer
+interrogatories (Rule 35.04(3)).</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[27]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Precision also points to Rule 53.09, which sets out that where
+there has been a failure to serve an expert report (Rule 53.03(3)), leave to
+admit the report “shall be granted on such terms as are just and with an
+adjournment if necessary, unless to do so will cause prejudice to the opposite
+party or will cause undue delay in the conduct of the trial.” To be clear,
+Precision has not filed a motion for leave to admit late filed expert evidence
+(perhaps because the evidence is not yet available) or other evidence the Rule
+may apply to.  As I understand it, they reference Rule 53.09 as part of their response
+to the Court’s consideration of refusing to allow such evidence.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[28]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Both parties rely on jurisprudence emanating from <b><i>Cobbe’s
+Plumbing &amp; Heating Ltd. v. Westfair Properties Ltd.</i></b> 2004 MBQB 31, as
+reiterated 10 years later in <b><i>Biomedical Commercialization Canada Inc. v.
+Health Media Network Inc.</i></b> 2018 MBQB 188, for the factors to be
+considered in weighing or balancing a decision to strike a pleading for
+noncompliance with civil procedure rules.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[29]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>In <b><i>Cobbe</i></b>, after a thorough review of limited
+precedents, including several from the Ontario Court of Appeal, and analogous
+situations of striking a claim for delay, Greenberg J. summarized the
+applicable principles at para. 25:</p>
+<p class="MsoQuote">[25]    Having regard to the above cases and
+the wording of the Court of Queen's Bench Rules, I would summarize the
+applicable principles in determining the appropriate sanction under Rule 34.14
+to be:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in">1.       The application of Rule 34.14 must
+be consistent with the general principles of interpretation set out in the
+Rules, in particular Rule 1.04 which mandates that the Rules be interpreted
+"to secure the just, most expeditious and least expensive determination of
+every civil proceeding on its merits."</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in">2.       The overarching consideration for
+the court is to strike an appropriate balance between the right of the
+respondent to have its action determined on the merits and the right of the
+applicant to insist on compliance with the Rules and court orders with a view
+to facilitating the "flow" of the case.</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in">3.       Striking a pleading is an exceptional
+remedy which should be reserved for the most extreme cases of non-compliance
+with the Rules. A review of the cases suggests that the sanction would rarely
+be used for an isolated incident of non-compliance but is more likely </p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in"> </p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in">where there has been a course of conduct
+which indicates that a court order giving the respondent a "second
+chance" is unlikely to be complied with.</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in">4.       The court should look at the
+explanation of the respondent for non-compliance. That explanation may indicate
+not only the seriousness of the default (for example, whether it was deliberate
+as opposed to inadvertent) but also whether the respondent is likely to comply
+with further court orders.</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in">5.       The court should look at the prejudice
+which the non-compliance has caused the applicant and whether that prejudice
+can be remedied in some other way, for example, through an award of costs.</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.0in">6.       There is some suggestion in the cases
+that the merit of the respondent's case is also a relevant factor. Although not
+relied on as a deciding factor in any case, there is a suggestion in some
+cases, where the court refused to strike a pleading, that the result might have
+been different if the respondent's case were completely without merit.</p>
+<p class="MsoNormal" style="line-height:200%"><span style="border:none windowtext 1.0pt;
+padding:0in">While <b><i>Cobbe</i></b> dealt with a different section of the Rules
+than here, these principles apply to almost any motion to strike a pleading for
+non-compliance with procedural rules. </span></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[30]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I also note the Ontario Court of Appeal decision
+of <b><i>Falcon Lumber Limited v. 2480375 Ontario Inc. (GN Mouldings and Doors)</i></b>,
+2020 ONCA 310, where the Court struck a pleading for a party’s non-compliance
+with documentary disclosure and production obligations.  The Court observed at
+para. 55 that <b><i>Hryniak v. Mauldin</i></b>, 2014 SCC 7, “requires judges to
+actively manage the civil legal process in line with the principle of
+proportionality: … Orders to strike out pleadings are one such means by which
+to ensure that the civil justice process delivers justice that is proportionate,
+timely and affordable.” </p>
+<span style='font-size:12.0pt;line-height:115%;font-family:"Tahoma",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span>
+<p align="left" class="MsoNormal" style="margin-bottom:10.0pt;text-align:left;
+line-height:115%"> </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[31]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Also, in <b><i>Falcon Lumber</i></b>, the Court
+summarized the principles for striking pleadings in such situations:</p>
+<p class="MsoQuote">[57]    To summarize, several principles
+guide the exercise of a court’s discretion to strike out a party’s claim or
+defence under r. 30.08(2) for non-compliance with documentary disclosure and
+production obligations:</p>
+<p class="MsoQuote" style="margin-left:1.5in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span>The remedy is not restricted to “last resort”
+situations, in the sense that it must be preceded by a party breaching a series
+of earlier orders that compelled better disclosure or production. However,
+courts usually want to ensure that a party has a reasonable opportunity to cure
+its non-compliance before striking out its pleading;</p>
+<p class="MsoQuote" style="margin-left:1.5in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span>A court should consider a number of common sense
+factors including: (i) whether the party’s failure is deliberate or
+inadvertent; (ii) whether the failure is clear and unequivocal; (iii) whether
+the defaulting party can provide a reasonable explanation for its default,
+coupled with a credible commitment to cure the default quickly; (iv) whether
+the substance of the default is material or minimal; (v) the extent to which
+the party remains in default at the time of the request to strike out its
+pleading; and (vi) the impact of the default on the ability of the court to do
+justice in the particular case;</p>
+<p class="MsoQuote" style="margin-left:1.5in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span>The merits of a party’s claim or defence may
+play only a limited role where breaches of disclosure and production
+obligations are alleged as one would reasonably expect a party with a strong
+claim or defence to comply promptly with its disclosure and production
+obligations;</p>
+<p class="MsoQuote" style="margin-left:1.5in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span>In considering whether an order to strike out a
+pleading would constitute a proportional remedy in the circumstances, a court
+should consider:</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.5in;text-indent:0in"><span style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>       
+</span></span>the extent to which the defaulting party’s
+conduct has increased the non-defaulting party’s costs of litigating the
+action, including the proportionality of those increased costs to the amount
+actually in dispute in the proceeding; and</p>
+<p class="MsoQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:12.0pt;
+margin-left:1.5in;text-indent:0in"><span style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>       
+</span></span>to what extent the defaulting party’s failure to
+comply with its obligation to make automatic disclosure and production of
+documents has delayed the final adjudication of the case on its merits, taking
+into account the simplicity (or complexity) of the claim and the amount of
+money in dispute.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style="line-height:200%">While expressed differently, and fleshing
+out a number of common-sense considerations in the second point, these
+principles are essentially similar to those set out in <b><i>Cobbe</i></b>.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[32]<span style='font:7.0pt "Times New Roman"'>     
+</span></span><b><i>Cobbe</i></b> was considered by the Manitoba Court of
+Appeal in <b><i>Hanson v Hildi Warkentin Tax Ltd et al</i></b>, 2017 MBCA 99,
+and <b><i>National Concrete Accessories Canada Inc v AAA-Zaid</i></b>, 2017 MBCA 28, both cases dealing with striking a pleading
+as a sanction for noncompliance of the expedited action rules.  In each
+instance the Court of Appeal upheld the motion judges’ exercise of discretion
+in striking the pleadings, whether for breaching directions once in <b><i>National
+Concrete</i></b>, or repeatedly not complying with disclosure obligations and
+directions in <b><i>Hanson</i></b>. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[33]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Similar to the Ontario Court of Appeal in <b><i>Falcon
+Lumber</i></b>,<b><i> </i></b>the Manitoba Court
+of Appeal in <b><i>Hanson</i></b> expressed its views of the modern litigation environment
+at para. 20:</p>
+<p class="MsoQuote">[<a name="par20">20</a>]    In summary, we are
+of the view that it would be inappropriate to fetter the discretion of a case
+conference judge by either requiring a warning or setting out a range of
+circumstances required before striking a pleading.  Both counsel and
+litigants have to understand that the litigation landscape is changing in all
+areas of the law.  If litigation is allowed to drag on, the resolution of
+the case is delayed, wasting the resources of the parties and of the
+courts.  This leads to a denial of access to justice for the parties to
+the specific litigation and for other parties waiting to have their matters
+heard.  Counsel have been on notice for some time, both as a result of
+changes in court rules and practices and from the jurisprudence on this issue,
+that unnecessary and unexplained delays will not be tolerated.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[34]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The <b><i>Cobbe</i></b> principles were noted in an Endorsement
+dated June 30, 2017, in <b><i>EllisDon Corporation v. Winnipeg Airports
+Authority Inc.</i></b>, File No. CI 11-01-74938, wherein Joyal C.J. struck out
+the entirety of a statement of claim shortly before trial.  At para. 24 the
+Court also observed:</p>
+<p class="MsoQuote">[24]    In dealing with situations of
+noncompliance, while acknowledging that a court must carefully consider the
+effectiveness of alternate sanctions and the potential practicality and utility
+of “progressive discipline”, there are some circumstances, like those in the
+present case, where the nature of the obligations on the parties are so
+well-known given the nature of the proceedings (and, as here, and the nature of
+the case management order), that serious sanctions (in the event of
+noncompliance) should not take any party by surprise. …</p>
+<p class="Number" style="line-height:normal"><b><i> </i></b></p>
+<p class="Number"><b><i>Application of the Principles </i></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[35]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I start by recognizing what is trite: striking a pleading wholly
+or partially, as in this situation, deprives the defaulting party of their day
+in court.  It is an exceptional remedy, to be used cautiously.  On the
+flipside, increasingly courts and the public recognize that the justice system is
+strained to do justice; the non-defaulting party, or access to justice more
+generally, cannot be straitjacketed by disinterested or distracted or disorganized
+or disingenuous litigants.  Collectively, systemic issues including the high
+cost of litigation, the effort on parties and witnesses required to marshal a
+case, and psychological toll on them, demands no less. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[36]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>As Rule 1.04 demands, parties are expected to focus their case
+strategy, tactics and resources to “secure the just, most expeditious and least
+expensive determination of every civil proceeding on its merits.” Precision has
+fallen significantly short of this mark.  It, as distinct from its counsel, is
+the author of its own misfortune for what is a predictable or foreseeable outcome
+since the time it undertook the Virginia action in 2021, which was relatively
+concurrent to when it formally amended its pleading for the infringement claim.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[37]<span style='font:7.0pt "Times New Roman"'>     
+</span></span> Bearing in mind the context set out in the Introduction herein,
+I turn to the interplay of the evidence on the motion and legal principles or
+factors in judiciously exercising discretion to strike part of a claim, knowing
+the defaulting party’s claim will not be adjudicated on its merits. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[38]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>First, noncompliance with the Rules by failure to appropriately respond
+with answers to undertaking from discoveries and interrogatories is conceded.  Without
+detailing each instance, this noncompliance is repetitive, extensive and, most
+critically, material in that much of it deals with vital points central to the
+infringement claim.  Without proper, fulsome and timely responses Farmers
+remains at a serious disadvantage in countering the specifics of the case it
+must meet.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[39]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>As well, it is conceded the Court’s directions endorsing
+counsels’ agreements imposing dates for specific outstanding items to be completed
+was breached by Precision. Notably the Court’s January 2025 directions, when
+optimistically there remained time to salvage the trial.  The Court’s direction
+and involvement became necessary as previous dates agreed between counsel for
+various steps were not adhered to and became moving targets. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[40]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Of note, Precision’s principal, Ms. Bonk, was fully involved when
+I set the January 2025 directions during several case conference meetings.  In my
+January 17 memorandum I stated:</p>
+<p class="MsoQuote">Trial dates of October 20 - November 21, 2025,
+remained fixed.</p>
+<p class="MsoQuote">I am very concerned with the litigation
+steps that have, or have not, taken place thus far. The substance of these
+claims dates back a decade, as does the initiation of litigation. Much has been
+done in the meantime, but by far the majority of that has not meaningfully
+advanced litigation of the core issues. This case must come to a conclusion.</p>
+<p class="MsoQuote">I again implore [Precision] to ensure it has
+a realistic, objective assessment of liability and damages, along with a clear
+understanding of the necessary procedural steps that need be taken in
+preparation for trial, and its owners to prosecute the counterclaim now that
+that is the only claim for trial. A dispassionate and fact-based assessment of
+all of the parts is necessary so the case can proceed in as pragmatic a way as
+possible</p>
+<p class="MsoNormal"> </p>
+<p class="Number">One of the outstanding items was Precision’s expert report,
+which I agreed to be due May 16 and then May 23, 2025.  This left little time
+for Farmers to be able to respond with its expert but was likely doable, hence
+Farmers agreed to the date. To reiterate, the Precision report has not yet
+surfaced. Given the importance of the damage assessment and the anticipated complexity
+of it, realistically, now there is insufficient time before the trial for
+Farmers to tackle it with a responding expert.  In early 2025, I expressly
+warned Ms. Bonk that Farmers might move to strike out pleadings.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[41]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Two other points.  One, a January 2020 Court disclosure order was
+also breached by Precision.  As this order dealt with the second Manitoba
+action, which has now been abandoned by both parties, the breach is not
+significant to the trial.  Yet, it is another demonstrated breach.  Two, I
+would be remiss if I did not acknowledge that throughout the litigation, and
+partially in defence of this motion, Precision pointed to Farmers, with some
+degree of detail and possible merit, not living up to its disclosure
+obligations.  However, that is not an issue on the motion before me.  Moreover,
+Farmers’ complaints on the motion involve what has, at least for almost the last
+five years since the infringement claim amendments, been a major if not
+defining legal and evidentiary issue of the trial. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[42]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Second, Precision says it has valid explanations, or reasonable
+excuses, for its noncompliance. At para. 48 of their brief they state:</p>
+<p class="MsoQuote">[Precision’s] noncompliance is the product
+of certain circumstances outside of its control, mainly the loss of its prior
+litigation funding and the time it took to secure new litigation funding,
+certain medical issues that confronted PWS’s principal Ms. Bonk in 2024, and [Farmers]
+failure to comply with its disclosure obligations in this matter.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style="line-height:200%">I disagree these
+matters were beyond its control and do not find them to be reasonable excuses
+or explanations for their noncompliance.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[43]<span style='font:7.0pt "Times New Roman"'>     
+</span></span><i>Litigation Funder</i>: Precision had third-party private litigation
+funding from October 2021 until July 2023.  The Virginia action had been
+finally dismissed in February 2023.  A new external funder was secured in late
+April 2025, facilitating current counsel to assume conduct of the matter.  Ms.
+Bonk now boldly deposes that in the 21 months between litigation funders,
+Precision “was not in a position to pay [counsel’s] fees and was therefore not
+in a position to instruct [counsel] to undertake all the work required to
+advance the litigation”.  This is surprising and unacceptable:</p>
+<p class="Number" style="margin-left:39.75pt;text-indent:-39.75pt"><span style='font:7.0pt "Times New Roman"'>       </span>i.<span style='font:7.0pt "Times New Roman"'>       
+</span>while I accept Precision did not have an external third-party litigation
+funder for about 21 months, it provided no other cogent evidence as to its
+financial wherewithal or inability to fund this action litigation since 2020-2021.
+I acknowledge Galton Corporation was put into bankruptcy but that has not changed
+Precision pursuing this litigation;</p>
+<p class="Number" style="margin-left:39.75pt;text-indent:-39.75pt"><span style='font:7.0pt "Times New Roman"'>      </span>ii.<span style='font:7.0pt "Times New Roman"'>       
+</span>regardless, without question, after amending its counterclaim in early
+2021 for the infringement claim, Precision devoted substantial funds provided
+by its first litigation funder to the Virginia action, a USA version of this
+action.  Precision is being sued for the return of $1.7 million (USD).  Precision
+funding litigation in Virginia, rather than focusing their attention, energy
+and litigation funds to the original Manitoba action, was their tactical choice.
+It was clearly within their control. The Manitoba action was always the foundational
+action, the home jurisdiction of the key players, activity and evidence, and Manitoba
+was the governing law and venue for dispute resolution. </p>
+<p class="Number" style="margin-left:39.75pt">Farmers pointed out an analogous
+situation in <b><i>Canadian Star Development Corp. v. 0712276 B.C. Ltd.</i></b>,
+2018 BCSC 871, at para. 59. I agree with the sentiments:</p>
+<p class="MsoQuote">[59]  In the absence of any
+specific financial disclosure about these other overseas ventures, the
+reasonable inference that arises is that Mr. Sial and Mr. Dhanoa had sufficient
+resources to pursue these business ventures, which they chose to prioritize in
+favour of pursuing this litigation. The circumstances before me are similar to
+those found in <i>Ed Bulley Ventures Ltd. v. The Pantry Hospitality
+Corporation</i>, <a href="https://advance.lexis.com/search/?pdmfid=1505209&amp;crid=07725b8b-9dc6-4dd4-bebf-e0592877a0e1&amp;pdsearchterms=2018+BCSC+871&amp;pdicsfeatureid=1517129&amp;pdstartin=hlct%3A1%3A11&amp;pdcaseshlctselectedbyuser=false&amp;pdtypeofsearch=searchboxclick&amp;pdsearchtype=SearchBox&amp;pdqttype=or&amp;pdpsf=%3A%3A1&amp;pdquerytemplateid=&amp;ecomp=wzxt9kk&amp;earg=pdpsf&amp;prid=624c7217-15ec-4729-ad7e-04bbee5091a1" title="British Columbia Court of Appeal"><span style="color:windowtext;
+text-decoration:none">2014 BCCA 52</span></a>. There, at paras. 42-43, 46-48,
+the court upheld the chambers judge's conclusion that, when a party chooses to
+pursue other ventures, both in terms of available time and money, that does not
+constitute a reasonable excuse. In that case, as here, the plaintiff argued
+that pursuing these other matters was financially necessary to fund the
+litigation: para. 25.</p>
+<p class="Number" style="margin-left:39.75pt;text-indent:-39.75pt"><span style='font:7.0pt "Times New Roman"'>     </span>iii.<span style='font:7.0pt "Times New Roman"'>       
+</span>throughout the approximate five-year life of the infringement claim, in addition
+to the Virginia action Precision also devoted resources to initiating the
+Ontario suit and the Kansas suit. The Court had no knowledge of this critical
+funding issue until 2025.  I understand opposing counsel also did not.  When I
+held the first case management conference with then new counsel, MLTA, on
+September 7, 2023, by Ms. Bonk’s evidence on this motion, obviously funding was
+already a live problem for Precision (although I am unaware what they may have
+revealed to their counsel at the time).  And, counsel recognized there was
+significant work ahead to be trial ready by October 2025, roughly 25 plus
+months away, yet no such funding obstacles were disclosed then or after.  In
+setting trial dates, the parties committed to each other, and to the Court, to be
+ready. I also directly alerted Precision to the damages expert issue when I
+wrote at that time: <span class="CitationCar">“I also cautioned counsel to
+conduct a realistic damages assessment, preferably sooner than later, so the
+case can proceed in as pragmatic a way as possible.” </span>While perhaps not
+disclosed in the record for this motion, this was not my first such caution. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[44]<span style='font:7.0pt "Times New Roman"'>     
+</span></span><i>The Medical Excuse</i>: The evidence of Ms. Bonk’s medical
+issues, three unspecified surgeries from February through October 2024 with
+unspecified complicated recoveries, is too generic to be critically assessed as
+a reasonable excuse for not attending to these matters. Against this, affidavit
+evidence (see<span style="line-height:200%"> Sparrow, June 10, 2025, Ex. H
+&amp; T</span>) detailed numerous other legal matters Ms. Bonk dealt with during
+this timeframe, that appear, on the surface, to require similar attention,
+research and focus as would responding to undertakings and other disclosure. All
+in, I am not satisfied Ms. Bonk put forth a reasonable effort to attend to this
+action.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[45]<span style='font:7.0pt "Times New Roman"'>     
+</span></span><i>Farmers Disclosure Failures</i>: I have already briefly addressed
+Precision foisting blame on Farmers as a basis for Precision’s noncompliance.  I
+do not accept it as a sufficiently valid excuse. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[46]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Since the stay, Precision has not taken any motions for better
+production or answers except to defend Farmers’ complaints. Nor have they availed
+themselves of my case management. In any event, clearly by September 2024,
+Farmers responded to many outstanding issues.  Of note as well, Precision just
+served “a targeted set of 35 written interrogatories on Farmers Edge intended
+to streamline discovery” with the primary focus on “obtaining evidence relative
+to Farmers position that it developed FarmCommand independently and without
+copying any [Precision’s] technology and related claims”. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[47]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Given all of this, I cannot fully judge the materiality
+Precision’s remaining complaints of Farmers conduct, particularly the “chicken
+and egg” analogy raised by Precision’s counsel in their brief except to say
+that it feeds into my concern that Precision (again, as distinct from its
+counsel) has been distracted by the other related actions and other unrelated litigation
+matters and is disorganized.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[48]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>All in, Ms. Bonk and Precision are sophisticated, or at least,
+experienced, litigants. To date they have had three different sets of counsel
+on the Manitoba action, and counsel for the other similar actions.  Precision
+was not suitably transparent about either funding or medical issues, both of
+which strain credibility as reasonable explanations.  None of the explanations stand
+scrutiny as matters outside their control as a reason for noncompliance. At
+best, the explanations may demonstrate Precision was not disingenuous about
+truly prosecuting the Manitoba action, but their conduct appears to be the
+result of forum shopping in the USA.  Their conduct is not inadvertence but self-induced
+distraction and disorganization.  Since succeeding in 2020 with its motion to
+re-amend to include the infringement claim, Precision had much more control
+over prosecuting this action than it posits.  This leads to one incidental
+point.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[49]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Precision prefaces much of its argument that of the total 10
+years the Manitoba action has been litigated, only just over three years have
+been “active” litigation <i>vis-à-vis</i> the infringement claim. Implicitly
+then, along with its explanations as above noted, the noncompliance should be
+cast against a three-year litigation period, rather than anything beyond. I
+disagree.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[50]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>As Precision notes, it learned of Farmers conduct which forms the
+core of the infringement claim in 2019, and successfully moved to amend its
+counterclaim for this in 2020, over five years ago.  While the stay of
+proceedings was in place for almost two years, that does not equate to
+Precision having time off rather than doing the legwork necessary to prove its
+claim in Manitoba, or Virginia, Ontario or Kansas for that matter (bearing in
+mind the basis of Farmers’ liability and damages was all the same and would
+have to be disclosed in any of those actions).  Yet, five years later, it wants
+leeway.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[51]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Fourth, can Precision remedy the noncompliance?  Maybe with more time
+but definitely not in a manner that will put Farmers in the trial-ready
+position it should now be in, or even, I infer, when the trial starts in about
+five weeks.  Numerous critical answers to undertakings and interrogatories have
+yet to be answered, and others must be reworked so they are properly responsive. 
+Whenever Precision’s expert report is ready, even if in the next few days, it
+is not reasonable to believe Farmers will be able to properly respond to it in
+time for the trial.  Further, despite the <i>bona fides</i> of current
+Precision counsel, and the considerable efforts they are expending to address
+the deficiencies and noncompliance, given how Precision has handled this claim
+and conducted itself since 2021, I have little faith it will produce to their
+counsel the detailed, precise information, data or work product that is needed.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[52]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Further, as reviewed during the motion hearing, even more recent
+attempts to remedy these failures are, in part, seriously deficient.  For
+example, recently Precision answered 42 undertakings and interrogatories by
+lumping them together in one 21-page, single spaced, narrative answer which
+still did not detail key items, such as software or operating algorithms, in a
+way that Farmers could assess, for example whether such information or
+technology was proprietary or confidential to Precision or alternately, for
+example, openly available from public university research.  As to any answers
+that may be buried in the 21-page narrative, Farmers would have to tease those
+out. Standard trial procedures such as focused cross-examination and read-ins
+would be utterly unwieldy, if not impossible. I appreciate Precision’s counsel
+explanation for this approach, given its client and the state of the material
+it is working with. Yet, they also understand my assessment of how deficient
+the approach is and will have to redo the answers.  I do however recognize that
+numerous other answers have been appropriately provided by Precision. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[53]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Based on much of what I have outlined in this judgment, Precision
+itself has been too distracted or disorganized to credibly and reliably fulfill
+its litigation obligations to Farmers.  They have not prioritized the Manitoba
+action with demonstrated, tangible, necessary deeds to advance this action.  With
+Ms. Bonk’s own admission Precision was not in a position to pay legal fees between
+July 2023 and April 2025 and “was therefore not in a position to instruct MLTA
+[counsel] to undertake all the work required to advance the litigation”, along
+with the lack of transparency of this to opposing counsel or the Court,
+especially when I set the trial dates, it is not unfair to conclude Precision
+essentially ragged the puck for those 21 months.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[54]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Fifth, as to prejudice, by the end of the oral hearing of the
+motion, it was relatively clear to everyone that I either had to grant Farmers
+the relief they seek or adjourn the trial, even though neither party actually
+requested an adjournment.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[55]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>In fact, Farmers was adamant that they could not sustain an
+adjournment.  Rather, they insist on bringing this litigation to an end one way
+or the other.  They waited nearly two years while related parties were sued in
+other jurisdictions.  They have prepared over the last two years for the
+scheduled trial which Precision asked for and agreed to.  In the meantime, as
+noted in the Ontario action, its fortunes have taken a material turn for the
+worse.  They say Court directed trial dates must be taken seriously: I should
+grant their motion to strike the pleadings, or they will assume the risk of
+going to trial knowing their defence will be compromised, if not severely so.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[56]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>There are two types of prejudice at play: </p>
+<p class="Number" style="margin-left:40.5pt;text-indent:-40.5pt"><span style='font:7.0pt "Times New Roman"'>       </span>i.<span style='font:7.0pt "Times New Roman"'>      </span>I am
+satisfied Farmers will suffer actual prejudice if the trial goes ahead as set, with
+either the current state of answers to undertakings and interrogatories, or
+whatever may be done to cure the noncompliance. Simply put, for core issues and
+evidence, it is too little, too late. To let the trial proceed and allow the contested
+evidence into the trial, whenever it may be produced, amounts to the same as trial
+by ambush.  For both liability and damages, Farmers’ defence will be
+compromised in repelling Precision’s claims and in putting forward an
+affirmative defence position.</p>
+<p class="Number" style="margin-left:40.5pt;text-indent:-40.5pt"><span style='font:7.0pt "Times New Roman"'>      </span>ii.<span style='font:7.0pt "Times New Roman"'>      </span>Farmers
+is also exposed to inherent prejudice at this point, and especially if an
+adjournment were ordered.  I will not repeat the impacts of Precision’s
+strategic or tactical litigation choices since the start of the Virginia action
+in 2021.  Otherwise, the allegations generally, and on the specific facts pled,
+are serious.  They are of the ilk that would negatively affect the reputation
+of any business or individuals being sued.  As to the evidence, my exposure to
+it on this motion and otherwise as the case management judge demonstrates it is
+dense, complicated and nuanced.  After these years, and particularly if there were
+another two-year delay by an adjournment, it will be difficult for witnesses to
+coherently explain these events and the technical aspects of the proprietary or
+confidential information.  </p>
+<p class="Number" style="margin-left:40.5pt;text-indent:-40.5pt"><span style='font:7.0pt "Times New Roman"'>     </span>iii.<span style='font:7.0pt "Times New Roman"'>      </span>A
+final point, Precision suggests that Farmers requesting a stay in 2021 defeats
+its position; if it has been prejudiced by delay for example, it could have had
+an earlier adjudication if it had not asked for the stay.  I disagree.  The
+reasons for the stay are clear in two judgments, which are contrary to Precision’s
+submission.  The stay was imposed for good, clear reasons that Precision fully
+understood when it decided to continue to pursue reconsideration and then appeal
+the first judge’s dismissal of the Virginia action instead of prosecuting the
+Manitoba action. </p>
+<p class="Number">Thus, Farmers’ prejudice is fairly clear no matter the outcome.</p>
+<p class="Number"><b><u><span style="font-size:14.0pt;line-height:200%;
+font-variant:small-caps">Conclusion</span></u></b></p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[57]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>In sum, the only appropriate and just course of action at this
+point for this proceeding is to either strike the infringement claim pleading
+as requested or adjourn the trial. </p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[58]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>The lesser step of not allowing Precision to adduce the evidence
+at issue is wholly unsatisfactory as I foresee it will result in: many
+skirmishes about specific pieces of evidence; an incomplete evidentiary
+foundation and record; prolonged and confusing testimony and evidence, and;
+ultimately leaving the Court at a significant disadvantage to conduct a fulsome
+and proper adjudication of the claim and defence.  It would be a mess.  In any
+event, Precision says doing so “certainly” would not allow an adjudication on
+the merits of the claim.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[59]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I find it would be unjust to Farmers to adjourn the trial for
+another two years.  In this situation, they are entitled to the finality of the
+trial as scheduled.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[60]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>I have considered Rule 1.04, the other specific Rules at play in
+this situation and the overarching factor of an appropriate balance between the
+right of Precision to have its action determined on the merits and Farmers’
+right to compliance with the Rules. I accept that striking a pleading is an
+exceptional remedy and that Precision’s infringement claim may have merit, in
+that I cannot say it is frivolous or without merit.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[61]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Further, to summarize the relevant factors set out in <b><i>Falcon
+Lumber</i></b> and <b><i>Cobbe’s</i></b>, I find Precision’s noncompliance on
+the whole, to be closer to deliberate than inadvertent, given its litigation
+choices; its failures are clear and unequivocal; it has not provided reasonable
+explanations, nor can I find a credible commitment by Precision, as opposed to
+its counsel, to appropriately cure the noncompliance quickly; especially as the
+substance of the noncompliance is material and extensive, dealing with key
+evidence. I am unimpressed with Precision’s conduct since the stay and their
+lack of candor.  As well, I have found Farmers is prejudiced.  Finally, the
+noncompliance will impact the Court’s ability to do justice in this action.  Ultimately,
+all of this leads to only one conclusion.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[62]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Precision’s infringement counterclaim against all defendants set
+out at paras. 28(i) to 28(k), paras. 37.1 to 37.14, paras. 47 through 53, and
+paras. 53.1 and 53.2 of Precision’s re-amended statement of defence and
+counterclaim is hereby struck out.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[63]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Farmers shall have costs on the motion, which may be spoken to if
+not agreed.</p>
+<p class="Number" style="margin-left:0in;text-indent:0in"><span style="line-height:
+200%">[64]<span style='font:7.0pt "Times New Roman"'>     
+</span></span>Another case management meeting should be scheduled forthwith to
+address the remaining trial issue of breach of contract for failing to pay
+accounts.</p>
+<p align="right" class="Number" style="text-align:right;line-height:normal"> </p>
+<p align="right" class="Number" style="text-align:right;line-height:normal"> </p>
+<p align="right" class="Number" style="text-align:right;line-height:normal"> </p>
+<p align="right" class="Number" style="text-align:right;line-height:normal"> </p>
+<p align="right" class="Number" style="text-align:right;line-height:normal">________________________
+J.</p>
+<p class="Number" style="line-height:normal"> </p>
+</div>
+</body></html>

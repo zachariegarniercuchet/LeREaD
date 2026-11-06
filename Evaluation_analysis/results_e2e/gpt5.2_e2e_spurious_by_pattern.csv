@@ -1,0 +1,46 @@
+mention,pattern_grouped,fp_spurious
+decision,title,331
+decision,citation,167
+legislation,title,159
+secondary sources,title,149
+legislation,fragment,139
+decision,title -> citation,104
+secondary sources,(no child),93
+secondary sources,fragment,56
+decision,fragment,44
+legislation,(unaligned),42
+legislation,fragment -> title,42
+decision,(no child),39
+secondary sources,authors,24
+decision,title -> fragment,21
+decision,title -> citation -> fragment,13
+secondary sources,authors -> title -> source -> fragment,11
+decision,title -> citation -> fragment -> citation,8
+secondary sources,fragment -> title,7
+secondary sources,title -> source,7
+secondary sources,authors -> title -> source,6
+legislation,(no child),5
+secondary sources,title -> source -> fragment,5
+legislation,title -> citation,4
+decision,title -> citation -> fragment -> citation -> fragment,3
+legislation,fragment -> title -> citation,3
+decision,title -> citation -> title,2
+legislation,fragment -> title -> citation -> fragment,2
+legislation,title -> citation -> fragment -> citation -> fragment,2
+legislation,title -> citation -> fragment -> citation -> fragment -> citation -> fragment,2
+secondary sources,source -> fragment,2
+secondary sources,source -> title,2
+secondary sources,title -> fragment,2
+decision,citation -> title,1
+decision,title -> fragment -> citation -> fragment,1
+decision,title -> legislation -> title -> citation,1
+legislation,citation,1
+legislation,fragment -> title -> fragment -> title,1
+legislation,title -> citation -> fragment,1
+legislation,title -> citation -> fragment -> citation,1
+legislation,title -> citation -> title,1
+legislation,title -> fragment,1
+secondary sources,authors -> fragment,1
+secondary sources,authors -> source,1
+secondary sources,authors -> title -> fragment,1
+secondary sources,source -> title -> source -> fragment,1

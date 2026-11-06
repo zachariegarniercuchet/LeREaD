@@ -1,0 +1,6013 @@
+{
+  "generated": "2026-10-22T09:53:49",
+  "merge_gap": 15,
+  "gaps": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    30,
+    45,
+    60
+  ],
+  "context_chars": 200,
+  "pairs": [
+    {
+      "reflex": "1982CanLII3042NBCA_reflex.html",
+      "doc_id": "1982CanLII3042NBCA",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9912
+    },
+    {
+      "reflex": "1982CanLII883ONLRB_reflex.html",
+      "doc_id": "1982CanLII883ONLRB",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9955
+    },
+    {
+      "reflex": "1983CanLII2475SKQB_reflex.html",
+      "doc_id": "1983CanLII2475SKQB",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9864
+    },
+    {
+      "reflex": "1983CanLII2967MBCA_reflex.html",
+      "doc_id": "1983CanLII2967L",
+      "split": "test",
+      "match": "fuzzy",
+      "similarity": 0.9721
+    },
+    {
+      "reflex": "1989CanLII1415CACITT_reflex.html",
+      "doc_id": "1989CanLII1415ONCA",
+      "split": "dev",
+      "match": "fuzzy",
+      "similarity": 0.9977
+    },
+    {
+      "reflex": "1993CanLII1889PESCTD_reflex.html",
+      "doc_id": "1993CanLII1889PESCTSD",
+      "split": "test",
+      "match": "fuzzy",
+      "similarity": 0.9827
+    },
+    {
+      "reflex": "1993CanLII2395BCCA_reflex.html",
+      "doc_id": "1993CanLII2395BCCA",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9866
+    },
+    {
+      "reflex": "1993CanLII3004FCA_reflex.html",
+      "doc_id": "1993CanLII3004FCA",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9608
+    },
+    {
+      "reflex": "1993NSSC71_reflex.html",
+      "doc_id": "1993NSSC71",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9853
+    },
+    {
+      "reflex": "1994CanLII4528NLCA_reflex.html",
+      "doc_id": "1994CanLII4528NLCA",
+      "split": "train",
+      "match": "exact",
+      "similarity": 0.9953
+    },
+    {
+      "reflex": "1994CanLII8687PESCAD_reflex.html",
+      "doc_id": "1994CanLII8687PESCAD",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9903
+    },
+    {
+      "reflex": "1997CanLII11497NSSC_reflex.html",
+      "doc_id": "1997CanLII11497",
+      "split": "test",
+      "match": "fuzzy",
+      "similarity": 0.9977
+    },
+    {
+      "reflex": "1997CanLII16226ONCA_reflex.html",
+      "doc_id": "1997CanLII16226ONCA",
+      "split": "train",
+      "match": "exact",
+      "similarity": 0.9848
+    },
+    {
+      "reflex": "1998CanLII18739NLSCTD_reflex.html",
+      "doc_id": "1998CanLII18739NLSCTD",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9927
+    },
+    {
+      "reflex": "1999CanLII18647MBCA_reflex.html",
+      "doc_id": "1999CanLII18647MBCA",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9807
+    },
+    {
+      "reflex": "1999CanLII7320ONCA_reflex.html",
+      "doc_id": "1999CanLII7320(ONCA)",
+      "split": "test",
+      "match": "fuzzy",
+      "similarity": 0.9746
+    },
+    {
+      "reflex": "2001BCSC1342_reflex.html",
+      "doc_id": "2001BCSC1342",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9867
+    },
+    {
+      "reflex": "2001CanLII21117QCTDP_reflex.html",
+      "doc_id": "2001CanLII21117",
+      "split": "test",
+      "match": "fuzzy",
+      "similarity": 0.9962
+    },
+    {
+      "reflex": "2002CanLII49492ONSC_reflex.html",
+      "doc_id": "2002CanLII49492ONSC",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9868
+    },
+    {
+      "reflex": "2002MBCA125_reflex.html",
+      "doc_id": "2002MBCA125",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9725
+    },
+    {
+      "reflex": "2002NFCA43_reflex.html",
+      "doc_id": "2002NFCA43",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9924
+    },
+    {
+      "reflex": "2002SCC33_reflex.html",
+      "doc_id": "2002SCC33",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9836
+    },
+    {
+      "reflex": "2003ABCA256_reflex.html",
+      "doc_id": "2003ABCA256",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9819
+    },
+    {
+      "reflex": "2003FC1056_reflex.html",
+      "doc_id": "2003FC1056",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9802
+    },
+    {
+      "reflex": "2003MBCA71_reflex.html",
+      "doc_id": "2003MBCA71",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9828
+    },
+    {
+      "reflex": "2003SKAIA1_reflex.html",
+      "doc_id": "2003SKAIA1",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2004CanLII14579ONCA_reflex.html",
+      "doc_id": "2004CanLII14579ONCA",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9786
+    },
+    {
+      "reflex": "2005NBCA70._reflex.html",
+      "doc_id": "2005NBCA70",
+      "split": "silver",
+      "match": "fuzzy",
+      "similarity": 0.9896
+    },
+    {
+      "reflex": "2005NLTD57_reflex.html",
+      "doc_id": "2005NLTD57",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9876
+    },
+    {
+      "reflex": "2005QCCA437_reflex.html",
+      "doc_id": "2005QCCA437",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9925
+    },
+    {
+      "reflex": "2006NBCA75_reflex.html",
+      "doc_id": "2006NBCA75",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2006NUCJ23_reflex.html",
+      "doc_id": "2006NUCJ23",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9964
+    },
+    {
+      "reflex": "2007NUCA2_reflex.html",
+      "doc_id": "2007NUCA2",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9955
+    },
+    {
+      "reflex": "2008CanLII89121MBLB_reflex.html",
+      "doc_id": "2008CanLII89121MBLB",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9984
+    },
+    {
+      "reflex": "2008CSC9_reflex.html",
+      "doc_id": "2008CSC9",
+      "split": "train",
+      "match": "exact",
+      "similarity": 0.985
+    },
+    {
+      "reflex": "2008NLCA4_reflex.html",
+      "doc_id": "2008NLCA4",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9828
+    },
+    {
+      "reflex": "2009BCHRT256_reflex.html",
+      "doc_id": "2009BCHRT256",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9983
+    },
+    {
+      "reflex": "2009CanLII72366SKLRB_reflex.html",
+      "doc_id": "2009CanLII72366SKLRB",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2009NBQB60_reflex.html",
+      "doc_id": "2009NBQB60",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9859
+    },
+    {
+      "reflex": "2009NUCA3_reflex.html",
+      "doc_id": "2009NUCA3",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9846
+    },
+    {
+      "reflex": "2009PECA12_reflex.html",
+      "doc_id": "2009PECA12",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9928
+    },
+    {
+      "reflex": "2009SKQB465_reflex.html",
+      "doc_id": "2009KQB465",
+      "split": "silver",
+      "match": "fuzzy",
+      "similarity": 0.991
+    },
+    {
+      "reflex": "2010CanLII27153NBWCAT_reflex.html",
+      "doc_id": "2010CanLII27153NBWCAT",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2010SKQB255_reflex.html",
+      "doc_id": "2010SKQB255",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9866
+    },
+    {
+      "reflex": "2011CanLII91839PEIPC_reflex.html",
+      "doc_id": "2011CanLII 91839PEIPC",
+      "split": "silver",
+      "match": "fuzzy",
+      "similarity": 0.9993
+    },
+    {
+      "reflex": "2011FC18_reflex.html",
+      "doc_id": "2011FC18",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9153
+    },
+    {
+      "reflex": "2011NBCA76_reflex.html",
+      "doc_id": "2011NBCA76",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9862
+    },
+    {
+      "reflex": "2011TMOB65_reflex.html",
+      "doc_id": "2011TMOB65",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9708
+    },
+    {
+      "reflex": "2012PECA3_reflex.html",
+      "doc_id": "2012PECA3",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9964
+    },
+    {
+      "reflex": "2012QCCA1663_reflex.html",
+      "doc_id": "2012QCCA1663",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9981
+    },
+    {
+      "reflex": "2012SKCA24_reflex.html",
+      "doc_id": "2012SKCA24",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9992
+    },
+    {
+      "reflex": "2012SKQB62_reflex.html",
+      "doc_id": "2012SKQB62",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9978
+    },
+    {
+      "reflex": "2013ONAFRAAT18_reflex.html",
+      "doc_id": "2013ONAFRAAT18",
+      "split": "test",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2014CanLII36807PELRB_reflex.html",
+      "doc_id": "2014CanLII36807PELRB",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9988
+    },
+    {
+      "reflex": "2014FC638_reflex.html",
+      "doc_id": "2014FC638",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9989
+    },
+    {
+      "reflex": "2015NLCA24_reflex.html",
+      "doc_id": "2015NLCA24",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.998
+    },
+    {
+      "reflex": "2015NSSC25_reflex.html",
+      "doc_id": "2015NSSC25",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9978
+    },
+    {
+      "reflex": "2016NBOMB12_reflex.html",
+      "doc_id": "2016NBOMB12",
+      "split": "dev",
+      "match": "exact",
+      "similarity": 0.9977
+    },
+    {
+      "reflex": "2016NSCA89_reflex.html",
+      "doc_id": "2016NSCA89",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9809
+    },
+    {
+      "reflex": "2016PESC4_reflex.html",
+      "doc_id": "2016PESC4",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9874
+    },
+    {
+      "reflex": "2016QCCA76_reflex.html",
+      "doc_id": "2016QCCA76",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9955
+    },
+    {
+      "reflex": "2016QCCS1184_reflex.html",
+      "doc_id": "2016QCCS1184",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9974
+    },
+    {
+      "reflex": "2017ABCA157_reflex.html",
+      "doc_id": "2017ABCA157",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9977
+    },
+    {
+      "reflex": "2018BCHPRB52_reflex.html",
+      "doc_id": "2018BCHPRB52",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2018FCA69_reflex.html",
+      "doc_id": "2018FCA69",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9974
+    },
+    {
+      "reflex": "2018MBQB64_reflex.html",
+      "doc_id": "2018MBQB64",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9957
+    },
+    {
+      "reflex": "2018NBOMB6_reflex.html",
+      "doc_id": "2018NBOMB6",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9972
+    },
+    {
+      "reflex": "2018NSOIPC2_reflex.html",
+      "doc_id": "2018NSOIPC2",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9975
+    },
+    {
+      "reflex": "2018SKCA43_reflex.html",
+      "doc_id": "2018SKCA43",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9964
+    },
+    {
+      "reflex": "2019CHRT30_reflex.html",
+      "doc_id": "2019CHRT30",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2019QCCA1492_reflex.html",
+      "doc_id": "2019QCCA1492",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9818
+    },
+    {
+      "reflex": "2019SCC65_reflex.html",
+      "doc_id": "2019SCC65",
+      "split": "train",
+      "match": "exact",
+      "similarity": 0.9886
+    },
+    {
+      "reflex": "2020ABPLAB11_reflex.html",
+      "doc_id": "2020ABPLAB11",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9973
+    },
+    {
+      "reflex": "2020ABSRB85_reflex.html",
+      "doc_id": "2020ABSRB85",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2020BCHPRB101_reflex.html",
+      "doc_id": "2020BCHPRB101",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9973
+    },
+    {
+      "reflex": "2020CanLII55888MBLB_reflex.html",
+      "doc_id": "2020CanLII55888MBLB",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2020FCA63_reflex.html",
+      "doc_id": "2020FCA63",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9902
+    },
+    {
+      "reflex": "2020ONAFRAAT8_reflex.html",
+      "doc_id": "2020ONAFRAAT8",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2021NBOMB1_reflex.html",
+      "doc_id": "2021NBOMB1",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2021NUIPC10_reflex.html",
+      "doc_id": "2021NUIPC10",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2021NUIPC8_reflex.html",
+      "doc_id": "2021NUIPC8",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2021QCCA1675_reflex.html",
+      "doc_id": "2021QCCA1675",
+      "split": "dev",
+      "match": "exact",
+      "similarity": 0.995
+    },
+    {
+      "reflex": "2022BCSC135_reflex.html",
+      "doc_id": "2022BCSC135",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9962
+    },
+    {
+      "reflex": "2022ONCMT32_reflex.html",
+      "doc_id": "2022ONCMT32",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.0834
+    },
+    {
+      "reflex": "2022QCCS1670_reflex.html",
+      "doc_id": "2022QCCS1670",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2023ABCA35_reflex.html",
+      "doc_id": "2023ABCA35",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2023FCA24_reflex.html",
+      "doc_id": "2023FCA24",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 0.9982
+    },
+    {
+      "reflex": "2024ABOHSAB19_reflex.html",
+      "doc_id": "2024ABOHSAB19",
+      "split": "test",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2024BCSC764_reflex.html",
+      "doc_id": "2024BCSC764",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9987
+    },
+    {
+      "reflex": "2024NBKB203_reflex.html",
+      "doc_id": "2024NBKB203",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9963
+    },
+    {
+      "reflex": "2024NUCA9_reflex.html",
+      "doc_id": "2024NUCA9",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9926
+    },
+    {
+      "reflex": "2024ONCMT19_reflex.html",
+      "doc_id": "2024ONCMT19",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2025ABAER7_reflex.html",
+      "doc_id": "2025ABAER7",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9993
+    },
+    {
+      "reflex": "2025ABKB246_reflex.html",
+      "doc_id": "2025ABKB246",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9959
+    },
+    {
+      "reflex": "2025MBKB113_reflex.html",
+      "doc_id": "2025MBKB113",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2025MBKB136_reflex.html",
+      "doc_id": "2025MBKB136",
+      "split": "test",
+      "match": "exact",
+      "similarity": 0.9958
+    },
+    {
+      "reflex": "2025NBEUB1_reflex.html",
+      "doc_id": "2025NBEUB1",
+      "split": "test",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2025NBEUB2_reflex.html",
+      "doc_id": "2025NBEUB2",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    },
+    {
+      "reflex": "2026ABCA2_reflex.html",
+      "doc_id": "2026ABCA2L",
+      "split": "test",
+      "match": "fuzzy",
+      "similarity": 0.9944
+    },
+    {
+      "reflex": "2026ALRB5_reflex.html",
+      "doc_id": "2026ALRB5",
+      "split": "silver",
+      "match": "exact",
+      "similarity": 1.0
+    }
+  ],
+  "sweep": {
+    "0": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 493,
+              "n_gold": 3904,
+              "n_system": 2016
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1305,
+              "n_gold": 3904,
+              "n_system": 2016
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1467
+            },
+            "legislation": {
+              "tp": 536,
+              "n_gold": 3560,
+              "n_system": 2301
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1409,
+              "n_gold": 3901,
+              "n_system": 1467
+            },
+            "legislation": {
+              "tp": 1436,
+              "n_gold": 3560,
+              "n_system": 2301
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 12,
+              "n_gold": 192,
+              "n_system": 33
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 22,
+              "n_gold": 192,
+              "n_system": 33
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 146,
+              "n_gold": 900,
+              "n_system": 749
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 438,
+              "n_gold": 900,
+              "n_system": 749
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 518,
+              "n_gold": 3904,
+              "n_system": 1865
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1298,
+              "n_gold": 3904,
+              "n_system": 1865
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 598,
+              "n_gold": 3560,
+              "n_system": 2015
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1409,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 1433,
+              "n_gold": 3560,
+              "n_system": 2015
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 9,
+              "n_gold": 192,
+              "n_system": 29
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 22,
+              "n_gold": 192,
+              "n_system": 29
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 161,
+              "n_gold": 900,
+              "n_system": 636
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 431,
+              "n_gold": 900,
+              "n_system": 636
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    },
+    "10": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 906,
+              "n_gold": 3904,
+              "n_system": 1377
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1273,
+              "n_gold": 3904,
+              "n_system": 1377
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 982,
+              "n_gold": 3560,
+              "n_system": 1517
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1409,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 1410,
+              "n_gold": 3560,
+              "n_system": 1517
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 15,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 21,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 325,
+              "n_gold": 900,
+              "n_system": 447
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 422,
+              "n_gold": 900,
+              "n_system": 447
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    },
+    "15": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 955,
+              "n_gold": 3904,
+              "n_system": 1319
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1269,
+              "n_gold": 3904,
+              "n_system": 1319
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 1021,
+              "n_gold": 3560,
+              "n_system": 1461
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1409,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 1404,
+              "n_gold": 3560,
+              "n_system": 1461
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 15,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 21,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 342,
+              "n_gold": 900,
+              "n_system": 428
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 422,
+              "n_gold": 900,
+              "n_system": 428
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    },
+    "20": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 952,
+              "n_gold": 3904,
+              "n_system": 1309
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1264,
+              "n_gold": 3904,
+              "n_system": 1309
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 1016,
+              "n_gold": 3560,
+              "n_system": 1449
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1409,
+              "n_gold": 3901,
+              "n_system": 1458
+            },
+            "legislation": {
+              "tp": 1397,
+              "n_gold": 3560,
+              "n_system": 1449
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 15,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 21,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 339,
+              "n_gold": 900,
+              "n_system": 424
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 420,
+              "n_gold": 900,
+              "n_system": 424
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    },
+    "30": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 932,
+              "n_gold": 3904,
+              "n_system": 1295
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1250,
+              "n_gold": 3904,
+              "n_system": 1295
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1456
+            },
+            "legislation": {
+              "tp": 995,
+              "n_gold": 3560,
+              "n_system": 1437
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1409,
+              "n_gold": 3901,
+              "n_system": 1456
+            },
+            "legislation": {
+              "tp": 1385,
+              "n_gold": 3560,
+              "n_system": 1437
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 15,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 21,
+              "n_gold": 192,
+              "n_system": 21
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 332,
+              "n_gold": 900,
+              "n_system": 420
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 416,
+              "n_gold": 900,
+              "n_system": 420
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    },
+    "45": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 900,
+              "n_gold": 3904,
+              "n_system": 1273
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1232,
+              "n_gold": 3904,
+              "n_system": 1273
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1451
+            },
+            "legislation": {
+              "tp": 971,
+              "n_gold": 3560,
+              "n_system": 1421
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1404,
+              "n_gold": 3901,
+              "n_system": 1451
+            },
+            "legislation": {
+              "tp": 1370,
+              "n_gold": 3560,
+              "n_system": 1421
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 14,
+              "n_gold": 192,
+              "n_system": 20
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 20,
+              "n_gold": 192,
+              "n_system": 20
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 321,
+              "n_gold": 900,
+              "n_system": 414
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 410,
+              "n_gold": 900,
+              "n_system": 414
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    },
+    "60": {
+      "per_split": {
+        "silver": {
+          "exact": {
+            "legislation": {
+              "tp": 872,
+              "n_gold": 3904,
+              "n_system": 1253
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 11,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 1214,
+              "n_gold": 3904,
+              "n_system": 1253
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 370,
+              "n_system": 0
+            },
+            "decision": {
+              "tp": 909,
+              "n_gold": 2521,
+              "n_system": 956
+            }
+          }
+        },
+        "test": {
+          "exact": {
+            "decision": {
+              "tp": 19,
+              "n_gold": 3901,
+              "n_system": 1449
+            },
+            "legislation": {
+              "tp": 958,
+              "n_gold": 3560,
+              "n_system": 1406
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 1402,
+              "n_gold": 3901,
+              "n_system": 1449
+            },
+            "legislation": {
+              "tp": 1358,
+              "n_gold": 3560,
+              "n_system": 1406
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 456,
+              "n_system": 0
+            }
+          }
+        },
+        "dev": {
+          "exact": {
+            "legislation": {
+              "tp": 14,
+              "n_gold": 192,
+              "n_system": 20
+            },
+            "decision": {
+              "tp": 0,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "legislation": {
+              "tp": 20,
+              "n_gold": 192,
+              "n_system": 20
+            },
+            "decision": {
+              "tp": 36,
+              "n_gold": 96,
+              "n_system": 36
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 42,
+              "n_system": 0
+            }
+          }
+        },
+        "train": {
+          "exact": {
+            "decision": {
+              "tp": 0,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 317,
+              "n_gold": 900,
+              "n_system": 411
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          },
+          "overlap": {
+            "decision": {
+              "tp": 665,
+              "n_gold": 1580,
+              "n_system": 668
+            },
+            "legislation": {
+              "tp": 407,
+              "n_gold": 900,
+              "n_system": 411
+            },
+            "secondary sources": {
+              "tp": 0,
+              "n_gold": 237,
+              "n_system": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "final": {
+    "gap": 15,
+    "per_split": {
+      "silver": {
+        "exact": {
+          "legislation": {
+            "tp": 955,
+            "n_gold": 3904,
+            "n_system": 1319
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 370,
+            "n_system": 0
+          },
+          "decision": {
+            "tp": 11,
+            "n_gold": 2521,
+            "n_system": 956
+          }
+        },
+        "overlap": {
+          "legislation": {
+            "tp": 1269,
+            "n_gold": 3904,
+            "n_system": 1319
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 370,
+            "n_system": 0
+          },
+          "decision": {
+            "tp": 909,
+            "n_gold": 2521,
+            "n_system": 956
+          }
+        }
+      },
+      "test": {
+        "exact": {
+          "decision": {
+            "tp": 19,
+            "n_gold": 3901,
+            "n_system": 1458
+          },
+          "legislation": {
+            "tp": 1021,
+            "n_gold": 3560,
+            "n_system": 1461
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 456,
+            "n_system": 0
+          }
+        },
+        "overlap": {
+          "decision": {
+            "tp": 1409,
+            "n_gold": 3901,
+            "n_system": 1458
+          },
+          "legislation": {
+            "tp": 1404,
+            "n_gold": 3560,
+            "n_system": 1461
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 456,
+            "n_system": 0
+          }
+        }
+      },
+      "dev": {
+        "exact": {
+          "legislation": {
+            "tp": 15,
+            "n_gold": 192,
+            "n_system": 21
+          },
+          "decision": {
+            "tp": 0,
+            "n_gold": 96,
+            "n_system": 36
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 42,
+            "n_system": 0
+          }
+        },
+        "overlap": {
+          "legislation": {
+            "tp": 21,
+            "n_gold": 192,
+            "n_system": 21
+          },
+          "decision": {
+            "tp": 36,
+            "n_gold": 96,
+            "n_system": 36
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 42,
+            "n_system": 0
+          }
+        }
+      },
+      "train": {
+        "exact": {
+          "decision": {
+            "tp": 0,
+            "n_gold": 1580,
+            "n_system": 668
+          },
+          "legislation": {
+            "tp": 342,
+            "n_gold": 900,
+            "n_system": 428
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 237,
+            "n_system": 0
+          }
+        },
+        "overlap": {
+          "decision": {
+            "tp": 665,
+            "n_gold": 1580,
+            "n_system": 668
+          },
+          "legislation": {
+            "tp": 422,
+            "n_gold": 900,
+            "n_system": 428
+          },
+          "secondary sources": {
+            "tp": 0,
+            "n_gold": 237,
+            "n_system": 0
+          }
+        }
+      }
+    },
+    "per_doc": {
+      "1982CanLII3042NBCA": {
+        "split": "silver",
+        "n_gold": 105,
+        "n_system": 31,
+        "n_anchors": 51,
+        "align_ratio": 0.9963,
+        "exact": {
+          "tp": 11,
+          "n_gold": 105,
+          "n_system": 31,
+          "P": 0.3548387096774194,
+          "R": 0.10476190476190476,
+          "F1": 0.16176470588235295,
+          "n_fp": 20,
+          "n_fn": 94
+        },
+        "overlap": {
+          "tp": 31,
+          "n_gold": 105,
+          "n_system": 31,
+          "P": 1.0,
+          "R": 0.29523809523809524,
+          "F1": 0.45588235294117646,
+          "n_fp": 0,
+          "n_fn": 74
+        }
+      },
+      "1982CanLII883ONLRB": {
+        "split": "silver",
+        "n_gold": 69,
+        "n_system": 3,
+        "n_anchors": 3,
+        "align_ratio": 0.9983,
+        "exact": {
+          "tp": 0,
+          "n_gold": 69,
+          "n_system": 3,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 3,
+          "n_fn": 69
+        },
+        "overlap": {
+          "tp": 3,
+          "n_gold": 69,
+          "n_system": 3,
+          "P": 1.0,
+          "R": 0.043478260869565216,
+          "F1": 0.08333333333333333,
+          "n_fp": 0,
+          "n_fn": 66
+        }
+      },
+      "1983CanLII2475SKQB": {
+        "split": "silver",
+        "n_gold": 480,
+        "n_system": 142,
+        "n_anchors": 198,
+        "align_ratio": 0.9949,
+        "exact": {
+          "tp": 86,
+          "n_gold": 480,
+          "n_system": 142,
+          "P": 0.6056338028169014,
+          "R": 0.17916666666666667,
+          "F1": 0.27652733118971057,
+          "n_fp": 56,
+          "n_fn": 394
+        },
+        "overlap": {
+          "tp": 137,
+          "n_gold": 480,
+          "n_system": 142,
+          "P": 0.9647887323943662,
+          "R": 0.28541666666666665,
+          "F1": 0.44051446945337625,
+          "n_fp": 5,
+          "n_fn": 343
+        }
+      },
+      "1983CanLII2967L": {
+        "split": "test",
+        "n_gold": 52,
+        "n_system": 11,
+        "n_anchors": 11,
+        "align_ratio": 0.9884,
+        "exact": {
+          "tp": 0,
+          "n_gold": 52,
+          "n_system": 11,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 11,
+          "n_fn": 52
+        },
+        "overlap": {
+          "tp": 11,
+          "n_gold": 52,
+          "n_system": 11,
+          "P": 1.0,
+          "R": 0.21153846153846154,
+          "F1": 0.34920634920634924,
+          "n_fp": 0,
+          "n_fn": 41
+        }
+      },
+      "1989CanLII1415ONCA": {
+        "split": "dev",
+        "n_gold": 95,
+        "n_system": 3,
+        "n_anchors": 3,
+        "align_ratio": 0.9991,
+        "exact": {
+          "tp": 0,
+          "n_gold": 95,
+          "n_system": 3,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 3,
+          "n_fn": 95
+        },
+        "overlap": {
+          "tp": 3,
+          "n_gold": 95,
+          "n_system": 3,
+          "P": 1.0,
+          "R": 0.031578947368421054,
+          "F1": 0.061224489795918366,
+          "n_fp": 0,
+          "n_fn": 92
+        }
+      },
+      "1993CanLII1889PESCTSD": {
+        "split": "test",
+        "n_gold": 138,
+        "n_system": 30,
+        "n_anchors": 30,
+        "align_ratio": 0.9933,
+        "exact": {
+          "tp": 0,
+          "n_gold": 138,
+          "n_system": 30,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 30,
+          "n_fn": 138
+        },
+        "overlap": {
+          "tp": 28,
+          "n_gold": 138,
+          "n_system": 30,
+          "P": 0.9333333333333333,
+          "R": 0.2028985507246377,
+          "F1": 0.33333333333333337,
+          "n_fp": 2,
+          "n_fn": 110
+        }
+      },
+      "1993CanLII2395BCCA": {
+        "split": "silver",
+        "n_gold": 87,
+        "n_system": 13,
+        "n_anchors": 13,
+        "align_ratio": 0.9941,
+        "exact": {
+          "tp": 0,
+          "n_gold": 87,
+          "n_system": 13,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 13,
+          "n_fn": 87
+        },
+        "overlap": {
+          "tp": 13,
+          "n_gold": 87,
+          "n_system": 13,
+          "P": 1.0,
+          "R": 0.14942528735632185,
+          "F1": 0.26000000000000006,
+          "n_fp": 0,
+          "n_fn": 74
+        }
+      },
+      "1993CanLII3004FCA": {
+        "split": "test",
+        "n_gold": 549,
+        "n_system": 233,
+        "n_anchors": 280,
+        "align_ratio": 0.9866,
+        "exact": {
+          "tp": 31,
+          "n_gold": 549,
+          "n_system": 233,
+          "P": 0.13304721030042918,
+          "R": 0.056466302367941715,
+          "F1": 0.07928388746803068,
+          "n_fp": 202,
+          "n_fn": 518
+        },
+        "overlap": {
+          "tp": 225,
+          "n_gold": 549,
+          "n_system": 233,
+          "P": 0.9656652360515021,
+          "R": 0.4098360655737705,
+          "F1": 0.5754475703324808,
+          "n_fp": 8,
+          "n_fn": 324
+        }
+      },
+      "1993NSSC71": {
+        "split": "test",
+        "n_gold": 71,
+        "n_system": 19,
+        "n_anchors": 28,
+        "align_ratio": 0.9943,
+        "exact": {
+          "tp": 4,
+          "n_gold": 71,
+          "n_system": 19,
+          "P": 0.21052631578947367,
+          "R": 0.056338028169014086,
+          "F1": 0.08888888888888889,
+          "n_fp": 15,
+          "n_fn": 67
+        },
+        "overlap": {
+          "tp": 19,
+          "n_gold": 71,
+          "n_system": 19,
+          "P": 1.0,
+          "R": 0.2676056338028169,
+          "F1": 0.42222222222222217,
+          "n_fp": 0,
+          "n_fn": 52
+        }
+      },
+      "1994CanLII4528NLCA": {
+        "split": "train",
+        "n_gold": 167,
+        "n_system": 74,
+        "n_anchors": 124,
+        "align_ratio": 0.9982,
+        "exact": {
+          "tp": 60,
+          "n_gold": 167,
+          "n_system": 74,
+          "P": 0.8108108108108109,
+          "R": 0.3592814371257485,
+          "F1": 0.4979253112033195,
+          "n_fp": 14,
+          "n_fn": 107
+        },
+        "overlap": {
+          "tp": 73,
+          "n_gold": 167,
+          "n_system": 74,
+          "P": 0.9864864864864865,
+          "R": 0.437125748502994,
+          "F1": 0.6058091286307054,
+          "n_fp": 1,
+          "n_fn": 94
+        }
+      },
+      "1994CanLII8687PESCAD": {
+        "split": "silver",
+        "n_gold": 59,
+        "n_system": 18,
+        "n_anchors": 47,
+        "align_ratio": 0.9963,
+        "exact": {
+          "tp": 12,
+          "n_gold": 59,
+          "n_system": 18,
+          "P": 0.6666666666666666,
+          "R": 0.2033898305084746,
+          "F1": 0.3116883116883117,
+          "n_fp": 6,
+          "n_fn": 47
+        },
+        "overlap": {
+          "tp": 18,
+          "n_gold": 59,
+          "n_system": 18,
+          "P": 1.0,
+          "R": 0.3050847457627119,
+          "F1": 0.4675324675324675,
+          "n_fp": 0,
+          "n_fn": 41
+        }
+      },
+      "1997CanLII11497": {
+        "split": "test",
+        "n_gold": 100,
+        "n_system": 6,
+        "n_anchors": 8,
+        "align_ratio": 0.9991,
+        "exact": {
+          "tp": 1,
+          "n_gold": 100,
+          "n_system": 6,
+          "P": 0.16666666666666666,
+          "R": 0.01,
+          "F1": 0.018867924528301886,
+          "n_fp": 5,
+          "n_fn": 99
+        },
+        "overlap": {
+          "tp": 6,
+          "n_gold": 100,
+          "n_system": 6,
+          "P": 1.0,
+          "R": 0.06,
+          "F1": 0.11320754716981131,
+          "n_fp": 0,
+          "n_fn": 94
+        }
+      },
+      "1997CanLII16226ONCA": {
+        "split": "train",
+        "n_gold": 623,
+        "n_system": 291,
+        "n_anchors": 450,
+        "align_ratio": 0.9942,
+        "exact": {
+          "tp": 162,
+          "n_gold": 623,
+          "n_system": 291,
+          "P": 0.5567010309278351,
+          "R": 0.26003210272873195,
+          "F1": 0.3544857768052517,
+          "n_fp": 129,
+          "n_fn": 461
+        },
+        "overlap": {
+          "tp": 285,
+          "n_gold": 623,
+          "n_system": 291,
+          "P": 0.979381443298969,
+          "R": 0.45746388443017655,
+          "F1": 0.6236323851203501,
+          "n_fp": 6,
+          "n_fn": 338
+        }
+      },
+      "1998CanLII18739NLSCTD": {
+        "split": "silver",
+        "n_gold": 126,
+        "n_system": 25,
+        "n_anchors": 25,
+        "align_ratio": 0.9973,
+        "exact": {
+          "tp": 0,
+          "n_gold": 126,
+          "n_system": 25,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 25,
+          "n_fn": 126
+        },
+        "overlap": {
+          "tp": 25,
+          "n_gold": 126,
+          "n_system": 25,
+          "P": 1.0,
+          "R": 0.1984126984126984,
+          "F1": 0.3311258278145695,
+          "n_fp": 0,
+          "n_fn": 101
+        }
+      },
+      "1999CanLII18647MBCA": {
+        "split": "silver",
+        "n_gold": 86,
+        "n_system": 53,
+        "n_anchors": 69,
+        "align_ratio": 0.9926,
+        "exact": {
+          "tp": 10,
+          "n_gold": 86,
+          "n_system": 53,
+          "P": 0.18867924528301888,
+          "R": 0.11627906976744186,
+          "F1": 0.14388489208633096,
+          "n_fp": 43,
+          "n_fn": 76
+        },
+        "overlap": {
+          "tp": 51,
+          "n_gold": 86,
+          "n_system": 53,
+          "P": 0.9622641509433962,
+          "R": 0.5930232558139535,
+          "F1": 0.7338129496402879,
+          "n_fp": 2,
+          "n_fn": 35
+        }
+      },
+      "1999CanLII7320(ONCA)": {
+        "split": "test",
+        "n_gold": 271,
+        "n_system": 110,
+        "n_anchors": 110,
+        "align_ratio": 0.9897,
+        "exact": {
+          "tp": 4,
+          "n_gold": 271,
+          "n_system": 110,
+          "P": 0.03636363636363636,
+          "R": 0.014760147601476014,
+          "F1": 0.020997375328083986,
+          "n_fp": 106,
+          "n_fn": 267
+        },
+        "overlap": {
+          "tp": 108,
+          "n_gold": 271,
+          "n_system": 110,
+          "P": 0.9818181818181818,
+          "R": 0.3985239852398524,
+          "F1": 0.5669291338582676,
+          "n_fp": 2,
+          "n_fn": 163
+        }
+      },
+      "2001BCSC1342": {
+        "split": "test",
+        "n_gold": 95,
+        "n_system": 14,
+        "n_anchors": 19,
+        "align_ratio": 0.9951,
+        "exact": {
+          "tp": 3,
+          "n_gold": 95,
+          "n_system": 14,
+          "P": 0.21428571428571427,
+          "R": 0.031578947368421054,
+          "F1": 0.055045871559633024,
+          "n_fp": 11,
+          "n_fn": 92
+        },
+        "overlap": {
+          "tp": 14,
+          "n_gold": 95,
+          "n_system": 14,
+          "P": 1.0,
+          "R": 0.14736842105263157,
+          "F1": 0.2568807339449541,
+          "n_fp": 0,
+          "n_fn": 81
+        }
+      },
+      "2001CanLII21117": {
+        "split": "test",
+        "n_gold": 322,
+        "n_system": 150,
+        "n_anchors": 226,
+        "align_ratio": 0.9985,
+        "exact": {
+          "tp": 110,
+          "n_gold": 322,
+          "n_system": 150,
+          "P": 0.7333333333333333,
+          "R": 0.3416149068322981,
+          "F1": 0.46610169491525416,
+          "n_fp": 40,
+          "n_fn": 212
+        },
+        "overlap": {
+          "tp": 143,
+          "n_gold": 322,
+          "n_system": 150,
+          "P": 0.9533333333333334,
+          "R": 0.4440993788819876,
+          "F1": 0.6059322033898306,
+          "n_fp": 7,
+          "n_fn": 179
+        }
+      },
+      "2002CanLII49492ONSC": {
+        "split": "silver",
+        "n_gold": 169,
+        "n_system": 52,
+        "n_anchors": 71,
+        "align_ratio": 0.9953,
+        "exact": {
+          "tp": 28,
+          "n_gold": 169,
+          "n_system": 52,
+          "P": 0.5384615384615384,
+          "R": 0.16568047337278108,
+          "F1": 0.25339366515837103,
+          "n_fp": 24,
+          "n_fn": 141
+        },
+        "overlap": {
+          "tp": 51,
+          "n_gold": 169,
+          "n_system": 52,
+          "P": 0.9807692307692307,
+          "R": 0.30177514792899407,
+          "F1": 0.46153846153846145,
+          "n_fp": 1,
+          "n_fn": 118
+        }
+      },
+      "2002MBCA125": {
+        "split": "silver",
+        "n_gold": 97,
+        "n_system": 50,
+        "n_anchors": 58,
+        "align_ratio": 0.9899,
+        "exact": {
+          "tp": 1,
+          "n_gold": 97,
+          "n_system": 50,
+          "P": 0.02,
+          "R": 0.010309278350515464,
+          "F1": 0.013605442176870748,
+          "n_fp": 49,
+          "n_fn": 96
+        },
+        "overlap": {
+          "tp": 38,
+          "n_gold": 97,
+          "n_system": 50,
+          "P": 0.76,
+          "R": 0.3917525773195876,
+          "F1": 0.5170068027210885,
+          "n_fp": 12,
+          "n_fn": 59
+        }
+      },
+      "2002NFCA43": {
+        "split": "silver",
+        "n_gold": 168,
+        "n_system": 21,
+        "n_anchors": 22,
+        "align_ratio": 0.9971,
+        "exact": {
+          "tp": 3,
+          "n_gold": 168,
+          "n_system": 21,
+          "P": 0.14285714285714285,
+          "R": 0.017857142857142856,
+          "F1": 0.031746031746031744,
+          "n_fp": 18,
+          "n_fn": 165
+        },
+        "overlap": {
+          "tp": 21,
+          "n_gold": 168,
+          "n_system": 21,
+          "P": 1.0,
+          "R": 0.125,
+          "F1": 0.2222222222222222,
+          "n_fp": 0,
+          "n_fn": 147
+        }
+      },
+      "2002SCC33": {
+        "split": "test",
+        "n_gold": 328,
+        "n_system": 144,
+        "n_anchors": 177,
+        "align_ratio": 0.9934,
+        "exact": {
+          "tp": 16,
+          "n_gold": 328,
+          "n_system": 144,
+          "P": 0.1111111111111111,
+          "R": 0.04878048780487805,
+          "F1": 0.06779661016949154,
+          "n_fp": 128,
+          "n_fn": 312
+        },
+        "overlap": {
+          "tp": 144,
+          "n_gold": 328,
+          "n_system": 144,
+          "P": 1.0,
+          "R": 0.43902439024390244,
+          "F1": 0.6101694915254238,
+          "n_fp": 0,
+          "n_fn": 184
+        }
+      },
+      "2003ABCA256": {
+        "split": "silver",
+        "n_gold": 193,
+        "n_system": 129,
+        "n_anchors": 171,
+        "align_ratio": 0.9927,
+        "exact": {
+          "tp": 77,
+          "n_gold": 193,
+          "n_system": 129,
+          "P": 0.5968992248062015,
+          "R": 0.39896373056994816,
+          "F1": 0.47826086956521735,
+          "n_fp": 52,
+          "n_fn": 116
+        },
+        "overlap": {
+          "tp": 118,
+          "n_gold": 193,
+          "n_system": 129,
+          "P": 0.9147286821705426,
+          "R": 0.6113989637305699,
+          "F1": 0.732919254658385,
+          "n_fp": 11,
+          "n_fn": 75
+        }
+      },
+      "2003FC1056": {
+        "split": "silver",
+        "n_gold": 141,
+        "n_system": 78,
+        "n_anchors": 101,
+        "align_ratio": 0.9938,
+        "exact": {
+          "tp": 17,
+          "n_gold": 141,
+          "n_system": 78,
+          "P": 0.21794871794871795,
+          "R": 0.12056737588652482,
+          "F1": 0.1552511415525114,
+          "n_fp": 61,
+          "n_fn": 124
+        },
+        "overlap": {
+          "tp": 75,
+          "n_gold": 141,
+          "n_system": 78,
+          "P": 0.9615384615384616,
+          "R": 0.5319148936170213,
+          "F1": 0.684931506849315,
+          "n_fp": 3,
+          "n_fn": 66
+        }
+      },
+      "2003MBCA71": {
+        "split": "test",
+        "n_gold": 49,
+        "n_system": 20,
+        "n_anchors": 22,
+        "align_ratio": 0.9936,
+        "exact": {
+          "tp": 1,
+          "n_gold": 49,
+          "n_system": 20,
+          "P": 0.05,
+          "R": 0.02040816326530612,
+          "F1": 0.02898550724637681,
+          "n_fp": 19,
+          "n_fn": 48
+        },
+        "overlap": {
+          "tp": 20,
+          "n_gold": 49,
+          "n_system": 20,
+          "P": 1.0,
+          "R": 0.40816326530612246,
+          "F1": 0.5797101449275363,
+          "n_fp": 0,
+          "n_fn": 29
+        }
+      },
+      "2003SKAIA1": {
+        "split": "silver",
+        "n_gold": 30,
+        "n_system": 1,
+        "n_anchors": 1,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 30,
+          "n_system": 1,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 1,
+          "n_fn": 30
+        },
+        "overlap": {
+          "tp": 1,
+          "n_gold": 30,
+          "n_system": 1,
+          "P": 1.0,
+          "R": 0.03333333333333333,
+          "F1": 0.06451612903225806,
+          "n_fp": 0,
+          "n_fn": 29
+        }
+      },
+      "2004CanLII14579ONCA": {
+        "split": "silver",
+        "n_gold": 44,
+        "n_system": 31,
+        "n_anchors": 39,
+        "align_ratio": 0.9921,
+        "exact": {
+          "tp": 9,
+          "n_gold": 44,
+          "n_system": 31,
+          "P": 0.2903225806451613,
+          "R": 0.20454545454545456,
+          "F1": 0.24000000000000005,
+          "n_fp": 22,
+          "n_fn": 35
+        },
+        "overlap": {
+          "tp": 18,
+          "n_gold": 44,
+          "n_system": 31,
+          "P": 0.5806451612903226,
+          "R": 0.4090909090909091,
+          "F1": 0.4800000000000001,
+          "n_fp": 13,
+          "n_fn": 26
+        }
+      },
+      "2005NBCA70": {
+        "split": "silver",
+        "n_gold": 110,
+        "n_system": 39,
+        "n_anchors": 48,
+        "align_ratio": 0.9957,
+        "exact": {
+          "tp": 12,
+          "n_gold": 110,
+          "n_system": 39,
+          "P": 0.3076923076923077,
+          "R": 0.10909090909090909,
+          "F1": 0.1610738255033557,
+          "n_fp": 27,
+          "n_fn": 98
+        },
+        "overlap": {
+          "tp": 39,
+          "n_gold": 110,
+          "n_system": 39,
+          "P": 1.0,
+          "R": 0.35454545454545455,
+          "F1": 0.5234899328859061,
+          "n_fp": 0,
+          "n_fn": 71
+        }
+      },
+      "2005NLTD57": {
+        "split": "test",
+        "n_gold": 80,
+        "n_system": 16,
+        "n_anchors": 21,
+        "align_ratio": 0.9955,
+        "exact": {
+          "tp": 3,
+          "n_gold": 80,
+          "n_system": 16,
+          "P": 0.1875,
+          "R": 0.0375,
+          "F1": 0.06249999999999999,
+          "n_fp": 13,
+          "n_fn": 77
+        },
+        "overlap": {
+          "tp": 16,
+          "n_gold": 80,
+          "n_system": 16,
+          "P": 1.0,
+          "R": 0.2,
+          "F1": 0.33333333333333337,
+          "n_fp": 0,
+          "n_fn": 64
+        }
+      },
+      "2005QCCA437": {
+        "split": "test",
+        "n_gold": 116,
+        "n_system": 24,
+        "n_anchors": 35,
+        "align_ratio": 0.9969,
+        "exact": {
+          "tp": 14,
+          "n_gold": 116,
+          "n_system": 24,
+          "P": 0.5833333333333334,
+          "R": 0.1206896551724138,
+          "F1": 0.2,
+          "n_fp": 10,
+          "n_fn": 102
+        },
+        "overlap": {
+          "tp": 24,
+          "n_gold": 116,
+          "n_system": 24,
+          "P": 1.0,
+          "R": 0.20689655172413793,
+          "F1": 0.34285714285714286,
+          "n_fp": 0,
+          "n_fn": 92
+        }
+      },
+      "2006NBCA75": {
+        "split": "silver",
+        "n_gold": 10,
+        "n_system": 1,
+        "n_anchors": 1,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 10,
+          "n_system": 1,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 1,
+          "n_fn": 10
+        },
+        "overlap": {
+          "tp": 1,
+          "n_gold": 10,
+          "n_system": 1,
+          "P": 1.0,
+          "R": 0.1,
+          "F1": 0.18181818181818182,
+          "n_fp": 0,
+          "n_fn": 9
+        }
+      },
+      "2006NUCJ23": {
+        "split": "silver",
+        "n_gold": 54,
+        "n_system": 29,
+        "n_anchors": 42,
+        "align_ratio": 0.9988,
+        "exact": {
+          "tp": 9,
+          "n_gold": 54,
+          "n_system": 29,
+          "P": 0.3103448275862069,
+          "R": 0.16666666666666666,
+          "F1": 0.21686746987951805,
+          "n_fp": 20,
+          "n_fn": 45
+        },
+        "overlap": {
+          "tp": 27,
+          "n_gold": 54,
+          "n_system": 29,
+          "P": 0.9310344827586207,
+          "R": 0.5,
+          "F1": 0.6506024096385543,
+          "n_fp": 2,
+          "n_fn": 27
+        }
+      },
+      "2007NUCA2": {
+        "split": "silver",
+        "n_gold": 50,
+        "n_system": 11,
+        "n_anchors": 13,
+        "align_ratio": 0.9983,
+        "exact": {
+          "tp": 3,
+          "n_gold": 50,
+          "n_system": 11,
+          "P": 0.2727272727272727,
+          "R": 0.06,
+          "F1": 0.09836065573770492,
+          "n_fp": 8,
+          "n_fn": 47
+        },
+        "overlap": {
+          "tp": 11,
+          "n_gold": 50,
+          "n_system": 11,
+          "P": 1.0,
+          "R": 0.22,
+          "F1": 0.36065573770491804,
+          "n_fp": 0,
+          "n_fn": 39
+        }
+      },
+      "2008CanLII89121MBLB": {
+        "split": "silver",
+        "n_gold": 38,
+        "n_system": 1,
+        "n_anchors": 1,
+        "align_ratio": 0.9992,
+        "exact": {
+          "tp": 0,
+          "n_gold": 38,
+          "n_system": 1,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 1,
+          "n_fn": 38
+        },
+        "overlap": {
+          "tp": 1,
+          "n_gold": 38,
+          "n_system": 1,
+          "P": 1.0,
+          "R": 0.02631578947368421,
+          "F1": 0.05128205128205127,
+          "n_fp": 0,
+          "n_fn": 37
+        }
+      },
+      "2008CSC9": {
+        "split": "train",
+        "n_gold": 484,
+        "n_system": 210,
+        "n_anchors": 282,
+        "align_ratio": 0.9941,
+        "exact": {
+          "tp": 68,
+          "n_gold": 484,
+          "n_system": 210,
+          "P": 0.3238095238095238,
+          "R": 0.14049586776859505,
+          "F1": 0.19596541786743515,
+          "n_fp": 142,
+          "n_fn": 416
+        },
+        "overlap": {
+          "tp": 209,
+          "n_gold": 484,
+          "n_system": 210,
+          "P": 0.9952380952380953,
+          "R": 0.4318181818181818,
+          "F1": 0.6023054755043228,
+          "n_fp": 1,
+          "n_fn": 275
+        }
+      },
+      "2008NLCA4": {
+        "split": "silver",
+        "n_gold": 63,
+        "n_system": 26,
+        "n_anchors": 28,
+        "align_ratio": 0.9935,
+        "exact": {
+          "tp": 4,
+          "n_gold": 63,
+          "n_system": 26,
+          "P": 0.15384615384615385,
+          "R": 0.06349206349206349,
+          "F1": 0.0898876404494382,
+          "n_fp": 22,
+          "n_fn": 59
+        },
+        "overlap": {
+          "tp": 26,
+          "n_gold": 63,
+          "n_system": 26,
+          "P": 1.0,
+          "R": 0.4126984126984127,
+          "F1": 0.5842696629213483,
+          "n_fp": 0,
+          "n_fn": 37
+        }
+      },
+      "2009BCHRT256": {
+        "split": "test",
+        "n_gold": 157,
+        "n_system": 42,
+        "n_anchors": 42,
+        "align_ratio": 0.9995,
+        "exact": {
+          "tp": 0,
+          "n_gold": 157,
+          "n_system": 42,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 42,
+          "n_fn": 157
+        },
+        "overlap": {
+          "tp": 42,
+          "n_gold": 157,
+          "n_system": 42,
+          "P": 1.0,
+          "R": 0.267515923566879,
+          "F1": 0.4221105527638191,
+          "n_fp": 0,
+          "n_fn": 115
+        }
+      },
+      "2009CanLII72366SKLRB": {
+        "split": "silver",
+        "n_gold": 31,
+        "n_system": 18,
+        "n_anchors": 29,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 6,
+          "n_gold": 31,
+          "n_system": 18,
+          "P": 0.3333333333333333,
+          "R": 0.1935483870967742,
+          "F1": 0.24489795918367346,
+          "n_fp": 12,
+          "n_fn": 25
+        },
+        "overlap": {
+          "tp": 16,
+          "n_gold": 31,
+          "n_system": 18,
+          "P": 0.8888888888888888,
+          "R": 0.5161290322580645,
+          "F1": 0.6530612244897959,
+          "n_fp": 2,
+          "n_fn": 15
+        }
+      },
+      "2009NBQB60": {
+        "split": "silver",
+        "n_gold": 82,
+        "n_system": 25,
+        "n_anchors": 29,
+        "align_ratio": 0.9946,
+        "exact": {
+          "tp": 4,
+          "n_gold": 82,
+          "n_system": 25,
+          "P": 0.16,
+          "R": 0.04878048780487805,
+          "F1": 0.07476635514018692,
+          "n_fp": 21,
+          "n_fn": 78
+        },
+        "overlap": {
+          "tp": 25,
+          "n_gold": 82,
+          "n_system": 25,
+          "P": 1.0,
+          "R": 0.3048780487804878,
+          "F1": 0.4672897196261682,
+          "n_fp": 0,
+          "n_fn": 57
+        }
+      },
+      "2009NUCA3": {
+        "split": "test",
+        "n_gold": 52,
+        "n_system": 12,
+        "n_anchors": 13,
+        "align_ratio": 0.9934,
+        "exact": {
+          "tp": 5,
+          "n_gold": 52,
+          "n_system": 12,
+          "P": 0.4166666666666667,
+          "R": 0.09615384615384616,
+          "F1": 0.15625,
+          "n_fp": 7,
+          "n_fn": 47
+        },
+        "overlap": {
+          "tp": 12,
+          "n_gold": 52,
+          "n_system": 12,
+          "P": 1.0,
+          "R": 0.23076923076923078,
+          "F1": 0.375,
+          "n_fp": 0,
+          "n_fn": 40
+        }
+      },
+      "2009PECA12": {
+        "split": "test",
+        "n_gold": 87,
+        "n_system": 50,
+        "n_anchors": 66,
+        "align_ratio": 0.9968,
+        "exact": {
+          "tp": 14,
+          "n_gold": 87,
+          "n_system": 50,
+          "P": 0.28,
+          "R": 0.16091954022988506,
+          "F1": 0.20437956204379562,
+          "n_fp": 36,
+          "n_fn": 73
+        },
+        "overlap": {
+          "tp": 50,
+          "n_gold": 87,
+          "n_system": 50,
+          "P": 1.0,
+          "R": 0.5747126436781609,
+          "F1": 0.7299270072992701,
+          "n_fp": 0,
+          "n_fn": 37
+        }
+      },
+      "2009KQB465": {
+        "split": "silver",
+        "n_gold": 11,
+        "n_system": 7,
+        "n_anchors": 10,
+        "align_ratio": 0.9961,
+        "exact": {
+          "tp": 2,
+          "n_gold": 11,
+          "n_system": 7,
+          "P": 0.2857142857142857,
+          "R": 0.18181818181818182,
+          "F1": 0.2222222222222222,
+          "n_fp": 5,
+          "n_fn": 9
+        },
+        "overlap": {
+          "tp": 7,
+          "n_gold": 11,
+          "n_system": 7,
+          "P": 1.0,
+          "R": 0.6363636363636364,
+          "F1": 0.7777777777777778,
+          "n_fp": 0,
+          "n_fn": 4
+        }
+      },
+      "2010CanLII27153NBWCAT": {
+        "split": "silver",
+        "n_gold": 23,
+        "n_system": 1,
+        "n_anchors": 1,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 23,
+          "n_system": 1,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 1,
+          "n_fn": 23
+        },
+        "overlap": {
+          "tp": 0,
+          "n_gold": 23,
+          "n_system": 1,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 1,
+          "n_fn": 23
+        }
+      },
+      "2010SKQB255": {
+        "split": "test",
+        "n_gold": 102,
+        "n_system": 62,
+        "n_anchors": 83,
+        "align_ratio": 0.9947,
+        "exact": {
+          "tp": 27,
+          "n_gold": 102,
+          "n_system": 62,
+          "P": 0.43548387096774194,
+          "R": 0.2647058823529412,
+          "F1": 0.32926829268292684,
+          "n_fp": 35,
+          "n_fn": 75
+        },
+        "overlap": {
+          "tp": 61,
+          "n_gold": 102,
+          "n_system": 62,
+          "P": 0.9838709677419355,
+          "R": 0.5980392156862745,
+          "F1": 0.7439024390243901,
+          "n_fp": 1,
+          "n_fn": 41
+        }
+      },
+      "2011CanLII 91839PEIPC": {
+        "split": "silver",
+        "n_gold": 269,
+        "n_system": 92,
+        "n_anchors": 139,
+        "align_ratio": 0.9997,
+        "exact": {
+          "tp": 73,
+          "n_gold": 269,
+          "n_system": 92,
+          "P": 0.7934782608695652,
+          "R": 0.27137546468401486,
+          "F1": 0.4044321329639889,
+          "n_fp": 19,
+          "n_fn": 196
+        },
+        "overlap": {
+          "tp": 91,
+          "n_gold": 269,
+          "n_system": 92,
+          "P": 0.9891304347826086,
+          "R": 0.3382899628252788,
+          "F1": 0.5041551246537396,
+          "n_fp": 1,
+          "n_fn": 178
+        }
+      },
+      "2011FC18": {
+        "split": "silver",
+        "n_gold": 29,
+        "n_system": 11,
+        "n_anchors": 13,
+        "align_ratio": 0.9737,
+        "exact": {
+          "tp": 1,
+          "n_gold": 29,
+          "n_system": 11,
+          "P": 0.09090909090909091,
+          "R": 0.034482758620689655,
+          "F1": 0.05,
+          "n_fp": 10,
+          "n_fn": 28
+        },
+        "overlap": {
+          "tp": 11,
+          "n_gold": 29,
+          "n_system": 11,
+          "P": 1.0,
+          "R": 0.3793103448275862,
+          "F1": 0.5499999999999999,
+          "n_fp": 0,
+          "n_fn": 18
+        }
+      },
+      "2011NBCA76": {
+        "split": "silver",
+        "n_gold": 176,
+        "n_system": 64,
+        "n_anchors": 87,
+        "align_ratio": 0.9949,
+        "exact": {
+          "tp": 30,
+          "n_gold": 176,
+          "n_system": 64,
+          "P": 0.46875,
+          "R": 0.17045454545454544,
+          "F1": 0.25,
+          "n_fp": 34,
+          "n_fn": 146
+        },
+        "overlap": {
+          "tp": 63,
+          "n_gold": 176,
+          "n_system": 64,
+          "P": 0.984375,
+          "R": 0.35795454545454547,
+          "F1": 0.525,
+          "n_fp": 1,
+          "n_fn": 113
+        }
+      },
+      "2011TMOB65": {
+        "split": "silver",
+        "n_gold": 48,
+        "n_system": 21,
+        "n_anchors": 25,
+        "align_ratio": 0.989,
+        "exact": {
+          "tp": 5,
+          "n_gold": 48,
+          "n_system": 21,
+          "P": 0.23809523809523808,
+          "R": 0.10416666666666667,
+          "F1": 0.14492753623188404,
+          "n_fp": 16,
+          "n_fn": 43
+        },
+        "overlap": {
+          "tp": 21,
+          "n_gold": 48,
+          "n_system": 21,
+          "P": 1.0,
+          "R": 0.4375,
+          "F1": 0.6086956521739131,
+          "n_fp": 0,
+          "n_fn": 27
+        }
+      },
+      "2012PECA3": {
+        "split": "silver",
+        "n_gold": 88,
+        "n_system": 20,
+        "n_anchors": 26,
+        "align_ratio": 0.9985,
+        "exact": {
+          "tp": 3,
+          "n_gold": 88,
+          "n_system": 20,
+          "P": 0.15,
+          "R": 0.03409090909090909,
+          "F1": 0.055555555555555546,
+          "n_fp": 17,
+          "n_fn": 85
+        },
+        "overlap": {
+          "tp": 20,
+          "n_gold": 88,
+          "n_system": 20,
+          "P": 1.0,
+          "R": 0.22727272727272727,
+          "F1": 0.37037037037037035,
+          "n_fp": 0,
+          "n_fn": 68
+        }
+      },
+      "2012QCCA1663": {
+        "split": "silver",
+        "n_gold": 77,
+        "n_system": 10,
+        "n_anchors": 11,
+        "align_ratio": 0.9992,
+        "exact": {
+          "tp": 2,
+          "n_gold": 77,
+          "n_system": 10,
+          "P": 0.2,
+          "R": 0.025974025974025976,
+          "F1": 0.04597701149425288,
+          "n_fp": 8,
+          "n_fn": 75
+        },
+        "overlap": {
+          "tp": 10,
+          "n_gold": 77,
+          "n_system": 10,
+          "P": 1.0,
+          "R": 0.12987012987012986,
+          "F1": 0.22988505747126434,
+          "n_fp": 0,
+          "n_fn": 67
+        }
+      },
+      "2012SKCA24": {
+        "split": "test",
+        "n_gold": 44,
+        "n_system": 19,
+        "n_anchors": 29,
+        "align_ratio": 0.9997,
+        "exact": {
+          "tp": 6,
+          "n_gold": 44,
+          "n_system": 19,
+          "P": 0.3157894736842105,
+          "R": 0.13636363636363635,
+          "F1": 0.19047619047619047,
+          "n_fp": 13,
+          "n_fn": 38
+        },
+        "overlap": {
+          "tp": 19,
+          "n_gold": 44,
+          "n_system": 19,
+          "P": 1.0,
+          "R": 0.4318181818181818,
+          "F1": 0.6031746031746031,
+          "n_fp": 0,
+          "n_fn": 25
+        }
+      },
+      "2012SKQB62": {
+        "split": "silver",
+        "n_gold": 879,
+        "n_system": 388,
+        "n_anchors": 583,
+        "align_ratio": 0.9991,
+        "exact": {
+          "tp": 303,
+          "n_gold": 879,
+          "n_system": 388,
+          "P": 0.7809278350515464,
+          "R": 0.3447098976109215,
+          "F1": 0.478295185477506,
+          "n_fp": 85,
+          "n_fn": 576
+        },
+        "overlap": {
+          "tp": 383,
+          "n_gold": 879,
+          "n_system": 388,
+          "P": 0.9871134020618557,
+          "R": 0.43572241183162685,
+          "F1": 0.6045777426992897,
+          "n_fp": 5,
+          "n_fn": 496
+        }
+      },
+      "2013ONAFRAAT18": {
+        "split": "test",
+        "n_gold": 40,
+        "n_system": 2,
+        "n_anchors": 2,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 40,
+          "n_system": 2,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 2,
+          "n_fn": 40
+        },
+        "overlap": {
+          "tp": 2,
+          "n_gold": 40,
+          "n_system": 2,
+          "P": 1.0,
+          "R": 0.05,
+          "F1": 0.09523809523809523,
+          "n_fp": 0,
+          "n_fn": 38
+        }
+      },
+      "2014CanLII36807PELRB": {
+        "split": "test",
+        "n_gold": 243,
+        "n_system": 85,
+        "n_anchors": 145,
+        "align_ratio": 0.9995,
+        "exact": {
+          "tp": 70,
+          "n_gold": 243,
+          "n_system": 85,
+          "P": 0.8235294117647058,
+          "R": 0.2880658436213992,
+          "F1": 0.4268292682926829,
+          "n_fp": 15,
+          "n_fn": 173
+        },
+        "overlap": {
+          "tp": 85,
+          "n_gold": 243,
+          "n_system": 85,
+          "P": 1.0,
+          "R": 0.3497942386831276,
+          "F1": 0.5182926829268293,
+          "n_fp": 0,
+          "n_fn": 158
+        }
+      },
+      "2014FC638": {
+        "split": "silver",
+        "n_gold": 320,
+        "n_system": 52,
+        "n_anchors": 63,
+        "align_ratio": 0.9996,
+        "exact": {
+          "tp": 13,
+          "n_gold": 320,
+          "n_system": 52,
+          "P": 0.25,
+          "R": 0.040625,
+          "F1": 0.06989247311827956,
+          "n_fp": 39,
+          "n_fn": 307
+        },
+        "overlap": {
+          "tp": 52,
+          "n_gold": 320,
+          "n_system": 52,
+          "P": 1.0,
+          "R": 0.1625,
+          "F1": 0.27956989247311825,
+          "n_fp": 0,
+          "n_fn": 268
+        }
+      },
+      "2015NLCA24": {
+        "split": "silver",
+        "n_gold": 47,
+        "n_system": 11,
+        "n_anchors": 14,
+        "align_ratio": 0.9991,
+        "exact": {
+          "tp": 1,
+          "n_gold": 47,
+          "n_system": 11,
+          "P": 0.09090909090909091,
+          "R": 0.02127659574468085,
+          "F1": 0.034482758620689655,
+          "n_fp": 10,
+          "n_fn": 46
+        },
+        "overlap": {
+          "tp": 11,
+          "n_gold": 47,
+          "n_system": 11,
+          "P": 1.0,
+          "R": 0.23404255319148937,
+          "F1": 0.3793103448275862,
+          "n_fp": 0,
+          "n_fn": 36
+        }
+      },
+      "2015NSSC25": {
+        "split": "test",
+        "n_gold": 296,
+        "n_system": 110,
+        "n_anchors": 112,
+        "align_ratio": 0.999,
+        "exact": {
+          "tp": 75,
+          "n_gold": 296,
+          "n_system": 110,
+          "P": 0.6818181818181818,
+          "R": 0.2533783783783784,
+          "F1": 0.3694581280788177,
+          "n_fp": 35,
+          "n_fn": 221
+        },
+        "overlap": {
+          "tp": 110,
+          "n_gold": 296,
+          "n_system": 110,
+          "P": 1.0,
+          "R": 0.3716216216216216,
+          "F1": 0.541871921182266,
+          "n_fp": 0,
+          "n_fn": 186
+        }
+      },
+      "2016NBOMB12": {
+        "split": "dev",
+        "n_gold": 136,
+        "n_system": 19,
+        "n_anchors": 30,
+        "align_ratio": 0.9991,
+        "exact": {
+          "tp": 9,
+          "n_gold": 136,
+          "n_system": 19,
+          "P": 0.47368421052631576,
+          "R": 0.0661764705882353,
+          "F1": 0.11612903225806452,
+          "n_fp": 10,
+          "n_fn": 127
+        },
+        "overlap": {
+          "tp": 19,
+          "n_gold": 136,
+          "n_system": 19,
+          "P": 1.0,
+          "R": 0.13970588235294118,
+          "F1": 0.24516129032258066,
+          "n_fp": 0,
+          "n_fn": 117
+        }
+      },
+      "2016NSCA89": {
+        "split": "silver",
+        "n_gold": 121,
+        "n_system": 31,
+        "n_anchors": 32,
+        "align_ratio": 0.9923,
+        "exact": {
+          "tp": 3,
+          "n_gold": 121,
+          "n_system": 31,
+          "P": 0.0967741935483871,
+          "R": 0.024793388429752067,
+          "F1": 0.039473684210526314,
+          "n_fp": 28,
+          "n_fn": 118
+        },
+        "overlap": {
+          "tp": 31,
+          "n_gold": 121,
+          "n_system": 31,
+          "P": 1.0,
+          "R": 0.256198347107438,
+          "F1": 0.4078947368421052,
+          "n_fp": 0,
+          "n_fn": 90
+        }
+      },
+      "2016PESC4": {
+        "split": "silver",
+        "n_gold": 104,
+        "n_system": 55,
+        "n_anchors": 56,
+        "align_ratio": 0.9952,
+        "exact": {
+          "tp": 3,
+          "n_gold": 104,
+          "n_system": 55,
+          "P": 0.05454545454545454,
+          "R": 0.028846153846153848,
+          "F1": 0.03773584905660378,
+          "n_fp": 52,
+          "n_fn": 101
+        },
+        "overlap": {
+          "tp": 37,
+          "n_gold": 104,
+          "n_system": 55,
+          "P": 0.6727272727272727,
+          "R": 0.3557692307692308,
+          "F1": 0.46540880503144655,
+          "n_fp": 18,
+          "n_fn": 67
+        }
+      },
+      "2016QCCA76": {
+        "split": "silver",
+        "n_gold": 150,
+        "n_system": 66,
+        "n_anchors": 102,
+        "align_ratio": 0.9981,
+        "exact": {
+          "tp": 27,
+          "n_gold": 150,
+          "n_system": 66,
+          "P": 0.4090909090909091,
+          "R": 0.18,
+          "F1": 0.25,
+          "n_fp": 39,
+          "n_fn": 123
+        },
+        "overlap": {
+          "tp": 65,
+          "n_gold": 150,
+          "n_system": 66,
+          "P": 0.9848484848484849,
+          "R": 0.43333333333333335,
+          "F1": 0.6018518518518519,
+          "n_fp": 1,
+          "n_fn": 85
+        }
+      },
+      "2016QCCS1184": {
+        "split": "test",
+        "n_gold": 87,
+        "n_system": 18,
+        "n_anchors": 18,
+        "align_ratio": 0.999,
+        "exact": {
+          "tp": 3,
+          "n_gold": 87,
+          "n_system": 18,
+          "P": 0.16666666666666666,
+          "R": 0.034482758620689655,
+          "F1": 0.05714285714285715,
+          "n_fp": 15,
+          "n_fn": 84
+        },
+        "overlap": {
+          "tp": 18,
+          "n_gold": 87,
+          "n_system": 18,
+          "P": 1.0,
+          "R": 0.20689655172413793,
+          "F1": 0.34285714285714286,
+          "n_fp": 0,
+          "n_fn": 69
+        }
+      },
+      "2017ABCA157": {
+        "split": "test",
+        "n_gold": 302,
+        "n_system": 82,
+        "n_anchors": 89,
+        "align_ratio": 0.9992,
+        "exact": {
+          "tp": 5,
+          "n_gold": 302,
+          "n_system": 82,
+          "P": 0.06097560975609756,
+          "R": 0.016556291390728478,
+          "F1": 0.026041666666666668,
+          "n_fp": 77,
+          "n_fn": 297
+        },
+        "overlap": {
+          "tp": 82,
+          "n_gold": 302,
+          "n_system": 82,
+          "P": 1.0,
+          "R": 0.271523178807947,
+          "F1": 0.4270833333333333,
+          "n_fp": 0,
+          "n_fn": 220
+        }
+      },
+      "2018BCHPRB52": {
+        "split": "silver",
+        "n_gold": 26,
+        "n_system": 21,
+        "n_anchors": 40,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 11,
+          "n_gold": 26,
+          "n_system": 21,
+          "P": 0.5238095238095238,
+          "R": 0.4230769230769231,
+          "F1": 0.4680851063829788,
+          "n_fp": 10,
+          "n_fn": 15
+        },
+        "overlap": {
+          "tp": 20,
+          "n_gold": 26,
+          "n_system": 21,
+          "P": 0.9523809523809523,
+          "R": 0.7692307692307693,
+          "F1": 0.8510638297872339,
+          "n_fp": 1,
+          "n_fn": 6
+        }
+      },
+      "2018FCA69": {
+        "split": "silver",
+        "n_gold": 227,
+        "n_system": 107,
+        "n_anchors": 144,
+        "align_ratio": 0.9989,
+        "exact": {
+          "tp": 23,
+          "n_gold": 227,
+          "n_system": 107,
+          "P": 0.21495327102803738,
+          "R": 0.1013215859030837,
+          "F1": 0.1377245508982036,
+          "n_fp": 84,
+          "n_fn": 204
+        },
+        "overlap": {
+          "tp": 105,
+          "n_gold": 227,
+          "n_system": 107,
+          "P": 0.9813084112149533,
+          "R": 0.46255506607929514,
+          "F1": 0.6287425149700598,
+          "n_fp": 2,
+          "n_fn": 122
+        }
+      },
+      "2018MBQB64": {
+        "split": "silver",
+        "n_gold": 75,
+        "n_system": 23,
+        "n_anchors": 27,
+        "align_ratio": 0.9984,
+        "exact": {
+          "tp": 0,
+          "n_gold": 75,
+          "n_system": 23,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 23,
+          "n_fn": 75
+        },
+        "overlap": {
+          "tp": 23,
+          "n_gold": 75,
+          "n_system": 23,
+          "P": 1.0,
+          "R": 0.30666666666666664,
+          "F1": 0.4693877551020408,
+          "n_fp": 0,
+          "n_fn": 52
+        }
+      },
+      "2018NBOMB6": {
+        "split": "silver",
+        "n_gold": 109,
+        "n_system": 63,
+        "n_anchors": 86,
+        "align_ratio": 0.9988,
+        "exact": {
+          "tp": 41,
+          "n_gold": 109,
+          "n_system": 63,
+          "P": 0.6507936507936508,
+          "R": 0.3761467889908257,
+          "F1": 0.4767441860465116,
+          "n_fp": 22,
+          "n_fn": 68
+        },
+        "overlap": {
+          "tp": 58,
+          "n_gold": 109,
+          "n_system": 63,
+          "P": 0.9206349206349206,
+          "R": 0.5321100917431193,
+          "F1": 0.6744186046511628,
+          "n_fp": 5,
+          "n_fn": 51
+        }
+      },
+      "2018NSOIPC2": {
+        "split": "test",
+        "n_gold": 271,
+        "n_system": 114,
+        "n_anchors": 148,
+        "align_ratio": 0.9992,
+        "exact": {
+          "tp": 26,
+          "n_gold": 271,
+          "n_system": 114,
+          "P": 0.22807017543859648,
+          "R": 0.0959409594095941,
+          "F1": 0.13506493506493508,
+          "n_fp": 88,
+          "n_fn": 245
+        },
+        "overlap": {
+          "tp": 114,
+          "n_gold": 271,
+          "n_system": 114,
+          "P": 1.0,
+          "R": 0.42066420664206644,
+          "F1": 0.5922077922077922,
+          "n_fp": 0,
+          "n_fn": 157
+        }
+      },
+      "2018SKCA43": {
+        "split": "silver",
+        "n_gold": 681,
+        "n_system": 199,
+        "n_anchors": 261,
+        "align_ratio": 0.9987,
+        "exact": {
+          "tp": 30,
+          "n_gold": 681,
+          "n_system": 199,
+          "P": 0.1507537688442211,
+          "R": 0.04405286343612335,
+          "F1": 0.06818181818181818,
+          "n_fp": 169,
+          "n_fn": 651
+        },
+        "overlap": {
+          "tp": 198,
+          "n_gold": 681,
+          "n_system": 199,
+          "P": 0.9949748743718593,
+          "R": 0.2907488986784141,
+          "F1": 0.45,
+          "n_fp": 1,
+          "n_fn": 483
+        }
+      },
+      "2019CHRT30": {
+        "split": "silver",
+        "n_gold": 44,
+        "n_system": 12,
+        "n_anchors": 13,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 1,
+          "n_gold": 44,
+          "n_system": 12,
+          "P": 0.08333333333333333,
+          "R": 0.022727272727272728,
+          "F1": 0.03571428571428572,
+          "n_fp": 11,
+          "n_fn": 43
+        },
+        "overlap": {
+          "tp": 12,
+          "n_gold": 44,
+          "n_system": 12,
+          "P": 1.0,
+          "R": 0.2727272727272727,
+          "F1": 0.42857142857142855,
+          "n_fp": 0,
+          "n_fn": 32
+        }
+      },
+      "2019QCCA1492": {
+        "split": "test",
+        "n_gold": 1423,
+        "n_system": 695,
+        "n_anchors": 1111,
+        "align_ratio": 0.9918,
+        "exact": {
+          "tp": 232,
+          "n_gold": 1423,
+          "n_system": 695,
+          "P": 0.3338129496402878,
+          "R": 0.16303583977512298,
+          "F1": 0.2190745986779981,
+          "n_fp": 463,
+          "n_fn": 1191
+        },
+        "overlap": {
+          "tp": 687,
+          "n_gold": 1423,
+          "n_system": 695,
+          "P": 0.9884892086330935,
+          "R": 0.48278285312719604,
+          "F1": 0.6487252124645891,
+          "n_fp": 8,
+          "n_fn": 736
+        }
+      },
+      "2019SCC65": {
+        "split": "train",
+        "n_gold": 1443,
+        "n_system": 521,
+        "n_anchors": 615,
+        "align_ratio": 0.9946,
+        "exact": {
+          "tp": 52,
+          "n_gold": 1443,
+          "n_system": 521,
+          "P": 0.09980806142034548,
+          "R": 0.036036036036036036,
+          "F1": 0.05295315682281059,
+          "n_fp": 469,
+          "n_fn": 1391
+        },
+        "overlap": {
+          "tp": 520,
+          "n_gold": 1443,
+          "n_system": 521,
+          "P": 0.9980806142034548,
+          "R": 0.36036036036036034,
+          "F1": 0.5295315682281059,
+          "n_fp": 1,
+          "n_fn": 923
+        }
+      },
+      "2020ABPLAB11": {
+        "split": "test",
+        "n_gold": 64,
+        "n_system": 44,
+        "n_anchors": 83,
+        "align_ratio": 0.9989,
+        "exact": {
+          "tp": 26,
+          "n_gold": 64,
+          "n_system": 44,
+          "P": 0.5909090909090909,
+          "R": 0.40625,
+          "F1": 0.4814814814814815,
+          "n_fp": 18,
+          "n_fn": 38
+        },
+        "overlap": {
+          "tp": 42,
+          "n_gold": 64,
+          "n_system": 44,
+          "P": 0.9545454545454546,
+          "R": 0.65625,
+          "F1": 0.7777777777777778,
+          "n_fp": 2,
+          "n_fn": 22
+        }
+      },
+      "2020ABSRB85": {
+        "split": "silver",
+        "n_gold": 25,
+        "n_system": 10,
+        "n_anchors": 16,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 4,
+          "n_gold": 25,
+          "n_system": 10,
+          "P": 0.4,
+          "R": 0.16,
+          "F1": 0.22857142857142856,
+          "n_fp": 6,
+          "n_fn": 21
+        },
+        "overlap": {
+          "tp": 10,
+          "n_gold": 25,
+          "n_system": 10,
+          "P": 1.0,
+          "R": 0.4,
+          "F1": 0.5714285714285715,
+          "n_fp": 0,
+          "n_fn": 15
+        }
+      },
+      "2020BCHPRB101": {
+        "split": "test",
+        "n_gold": 149,
+        "n_system": 71,
+        "n_anchors": 112,
+        "align_ratio": 0.9992,
+        "exact": {
+          "tp": 47,
+          "n_gold": 149,
+          "n_system": 71,
+          "P": 0.6619718309859155,
+          "R": 0.31543624161073824,
+          "F1": 0.42727272727272725,
+          "n_fp": 24,
+          "n_fn": 102
+        },
+        "overlap": {
+          "tp": 71,
+          "n_gold": 149,
+          "n_system": 71,
+          "P": 1.0,
+          "R": 0.47651006711409394,
+          "F1": 0.6454545454545454,
+          "n_fp": 0,
+          "n_fn": 78
+        }
+      },
+      "2020CanLII55888MBLB": {
+        "split": "silver",
+        "n_gold": 16,
+        "n_system": 0,
+        "n_anchors": 0,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 16,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 16
+        },
+        "overlap": {
+          "tp": 0,
+          "n_gold": 16,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 16
+        }
+      },
+      "2020FCA63": {
+        "split": "test",
+        "n_gold": 162,
+        "n_system": 108,
+        "n_anchors": 146,
+        "align_ratio": 0.9957,
+        "exact": {
+          "tp": 22,
+          "n_gold": 162,
+          "n_system": 108,
+          "P": 0.2037037037037037,
+          "R": 0.13580246913580246,
+          "F1": 0.16296296296296298,
+          "n_fp": 86,
+          "n_fn": 140
+        },
+        "overlap": {
+          "tp": 102,
+          "n_gold": 162,
+          "n_system": 108,
+          "P": 0.9444444444444444,
+          "R": 0.6296296296296297,
+          "F1": 0.7555555555555556,
+          "n_fp": 6,
+          "n_fn": 60
+        }
+      },
+      "2020ONAFRAAT8": {
+        "split": "silver",
+        "n_gold": 238,
+        "n_system": 38,
+        "n_anchors": 65,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 28,
+          "n_gold": 238,
+          "n_system": 38,
+          "P": 0.7368421052631579,
+          "R": 0.11764705882352941,
+          "F1": 0.20289855072463767,
+          "n_fp": 10,
+          "n_fn": 210
+        },
+        "overlap": {
+          "tp": 34,
+          "n_gold": 238,
+          "n_system": 38,
+          "P": 0.8947368421052632,
+          "R": 0.14285714285714285,
+          "F1": 0.24637681159420288,
+          "n_fp": 4,
+          "n_fn": 204
+        }
+      },
+      "2021NBOMB1": {
+        "split": "silver",
+        "n_gold": 84,
+        "n_system": 15,
+        "n_anchors": 15,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 6,
+          "n_gold": 84,
+          "n_system": 15,
+          "P": 0.4,
+          "R": 0.07142857142857142,
+          "F1": 0.12121212121212122,
+          "n_fp": 9,
+          "n_fn": 78
+        },
+        "overlap": {
+          "tp": 10,
+          "n_gold": 84,
+          "n_system": 15,
+          "P": 0.6666666666666666,
+          "R": 0.11904761904761904,
+          "F1": 0.20202020202020202,
+          "n_fp": 5,
+          "n_fn": 74
+        }
+      },
+      "2021NUIPC10": {
+        "split": "silver",
+        "n_gold": 74,
+        "n_system": 9,
+        "n_anchors": 9,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 74,
+          "n_system": 9,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 9,
+          "n_fn": 74
+        },
+        "overlap": {
+          "tp": 9,
+          "n_gold": 74,
+          "n_system": 9,
+          "P": 1.0,
+          "R": 0.12162162162162163,
+          "F1": 0.21686746987951808,
+          "n_fp": 0,
+          "n_fn": 65
+        }
+      },
+      "2021NUIPC8": {
+        "split": "silver",
+        "n_gold": 50,
+        "n_system": 0,
+        "n_anchors": 0,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 50,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 50
+        },
+        "overlap": {
+          "tp": 0,
+          "n_gold": 50,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 50
+        }
+      },
+      "2021QCCA1675": {
+        "split": "dev",
+        "n_gold": 99,
+        "n_system": 35,
+        "n_anchors": 38,
+        "align_ratio": 0.9981,
+        "exact": {
+          "tp": 6,
+          "n_gold": 99,
+          "n_system": 35,
+          "P": 0.17142857142857143,
+          "R": 0.06060606060606061,
+          "F1": 0.08955223880597014,
+          "n_fp": 29,
+          "n_fn": 93
+        },
+        "overlap": {
+          "tp": 35,
+          "n_gold": 99,
+          "n_system": 35,
+          "P": 1.0,
+          "R": 0.35353535353535354,
+          "F1": 0.5223880597014925,
+          "n_fp": 0,
+          "n_fn": 64
+        }
+      },
+      "2022BCSC135": {
+        "split": "test",
+        "n_gold": 1145,
+        "n_system": 312,
+        "n_anchors": 457,
+        "align_ratio": 0.9985,
+        "exact": {
+          "tp": 194,
+          "n_gold": 1145,
+          "n_system": 312,
+          "P": 0.6217948717948718,
+          "R": 0.16943231441048034,
+          "F1": 0.26630061770761837,
+          "n_fp": 118,
+          "n_fn": 951
+        },
+        "overlap": {
+          "tp": 292,
+          "n_gold": 1145,
+          "n_system": 312,
+          "P": 0.9358974358974359,
+          "R": 0.2550218340611354,
+          "F1": 0.4008236101578586,
+          "n_fp": 20,
+          "n_fn": 853
+        }
+      },
+      "2022ONCMT32": {
+        "split": "test",
+        "n_gold": 162,
+        "n_system": 1,
+        "n_anchors": 1,
+        "align_ratio": 0.0349,
+        "exact": {
+          "tp": 0,
+          "n_gold": 162,
+          "n_system": 1,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 1,
+          "n_fn": 162
+        },
+        "overlap": {
+          "tp": 0,
+          "n_gold": 162,
+          "n_system": 1,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 1,
+          "n_fn": 162
+        }
+      },
+      "2022QCCS1670": {
+        "split": "silver",
+        "n_gold": 24,
+        "n_system": 18,
+        "n_anchors": 26,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 12,
+          "n_gold": 24,
+          "n_system": 18,
+          "P": 0.6666666666666666,
+          "R": 0.5,
+          "F1": 0.5714285714285715,
+          "n_fp": 6,
+          "n_fn": 12
+        },
+        "overlap": {
+          "tp": 17,
+          "n_gold": 24,
+          "n_system": 18,
+          "P": 0.9444444444444444,
+          "R": 0.7083333333333334,
+          "F1": 0.8095238095238096,
+          "n_fp": 1,
+          "n_fn": 7
+        }
+      },
+      "2023ABCA35": {
+        "split": "silver",
+        "n_gold": 44,
+        "n_system": 11,
+        "n_anchors": 14,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 6,
+          "n_gold": 44,
+          "n_system": 11,
+          "P": 0.5454545454545454,
+          "R": 0.13636363636363635,
+          "F1": 0.21818181818181817,
+          "n_fp": 5,
+          "n_fn": 38
+        },
+        "overlap": {
+          "tp": 11,
+          "n_gold": 44,
+          "n_system": 11,
+          "P": 1.0,
+          "R": 0.25,
+          "F1": 0.4,
+          "n_fp": 0,
+          "n_fn": 33
+        }
+      },
+      "2023FCA24": {
+        "split": "silver",
+        "n_gold": 258,
+        "n_system": 84,
+        "n_anchors": 120,
+        "align_ratio": 0.9994,
+        "exact": {
+          "tp": 42,
+          "n_gold": 258,
+          "n_system": 84,
+          "P": 0.5,
+          "R": 0.16279069767441862,
+          "F1": 0.24561403508771928,
+          "n_fp": 42,
+          "n_fn": 216
+        },
+        "overlap": {
+          "tp": 84,
+          "n_gold": 258,
+          "n_system": 84,
+          "P": 1.0,
+          "R": 0.32558139534883723,
+          "F1": 0.49122807017543857,
+          "n_fp": 0,
+          "n_fn": 174
+        }
+      },
+      "2024ABOHSAB19": {
+        "split": "test",
+        "n_gold": 52,
+        "n_system": 32,
+        "n_anchors": 54,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 23,
+          "n_gold": 52,
+          "n_system": 32,
+          "P": 0.71875,
+          "R": 0.4423076923076923,
+          "F1": 0.5476190476190477,
+          "n_fp": 9,
+          "n_fn": 29
+        },
+        "overlap": {
+          "tp": 30,
+          "n_gold": 52,
+          "n_system": 32,
+          "P": 0.9375,
+          "R": 0.5769230769230769,
+          "F1": 0.7142857142857143,
+          "n_fp": 2,
+          "n_fn": 22
+        }
+      },
+      "2024BCSC764": {
+        "split": "test",
+        "n_gold": 232,
+        "n_system": 101,
+        "n_anchors": 122,
+        "align_ratio": 0.9995,
+        "exact": {
+          "tp": 55,
+          "n_gold": 232,
+          "n_system": 101,
+          "P": 0.5445544554455446,
+          "R": 0.23706896551724138,
+          "F1": 0.3303303303303303,
+          "n_fp": 46,
+          "n_fn": 177
+        },
+        "overlap": {
+          "tp": 91,
+          "n_gold": 232,
+          "n_system": 101,
+          "P": 0.900990099009901,
+          "R": 0.3922413793103448,
+          "F1": 0.5465465465465466,
+          "n_fp": 10,
+          "n_fn": 141
+        }
+      },
+      "2024NBKB203": {
+        "split": "test",
+        "n_gold": 244,
+        "n_system": 70,
+        "n_anchors": 84,
+        "align_ratio": 0.9985,
+        "exact": {
+          "tp": 3,
+          "n_gold": 244,
+          "n_system": 70,
+          "P": 0.04285714285714286,
+          "R": 0.012295081967213115,
+          "F1": 0.01910828025477707,
+          "n_fp": 67,
+          "n_fn": 241
+        },
+        "overlap": {
+          "tp": 46,
+          "n_gold": 244,
+          "n_system": 70,
+          "P": 0.6571428571428571,
+          "R": 0.1885245901639344,
+          "F1": 0.2929936305732484,
+          "n_fp": 24,
+          "n_fn": 198
+        }
+      },
+      "2024NUCA9": {
+        "split": "test",
+        "n_gold": 115,
+        "n_system": 49,
+        "n_anchors": 70,
+        "align_ratio": 0.9971,
+        "exact": {
+          "tp": 18,
+          "n_gold": 115,
+          "n_system": 49,
+          "P": 0.3673469387755102,
+          "R": 0.1565217391304348,
+          "F1": 0.21951219512195122,
+          "n_fp": 31,
+          "n_fn": 97
+        },
+        "overlap": {
+          "tp": 46,
+          "n_gold": 115,
+          "n_system": 49,
+          "P": 0.9387755102040817,
+          "R": 0.4,
+          "F1": 0.5609756097560976,
+          "n_fp": 3,
+          "n_fn": 69
+        }
+      },
+      "2024ONCMT19": {
+        "split": "silver",
+        "n_gold": 66,
+        "n_system": 28,
+        "n_anchors": 31,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 2,
+          "n_gold": 66,
+          "n_system": 28,
+          "P": 0.07142857142857142,
+          "R": 0.030303030303030304,
+          "F1": 0.0425531914893617,
+          "n_fp": 26,
+          "n_fn": 64
+        },
+        "overlap": {
+          "tp": 28,
+          "n_gold": 66,
+          "n_system": 28,
+          "P": 1.0,
+          "R": 0.42424242424242425,
+          "F1": 0.5957446808510638,
+          "n_fp": 0,
+          "n_fn": 38
+        }
+      },
+      "2025ABAER7": {
+        "split": "test",
+        "n_gold": 144,
+        "n_system": 5,
+        "n_anchors": 5,
+        "align_ratio": 0.9997,
+        "exact": {
+          "tp": 0,
+          "n_gold": 144,
+          "n_system": 5,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 5,
+          "n_fn": 144
+        },
+        "overlap": {
+          "tp": 5,
+          "n_gold": 144,
+          "n_system": 5,
+          "P": 1.0,
+          "R": 0.034722222222222224,
+          "F1": 0.06711409395973154,
+          "n_fp": 0,
+          "n_fn": 139
+        }
+      },
+      "2025ABKB246": {
+        "split": "test",
+        "n_gold": 58,
+        "n_system": 8,
+        "n_anchors": 8,
+        "align_ratio": 0.9985,
+        "exact": {
+          "tp": 0,
+          "n_gold": 58,
+          "n_system": 8,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 8,
+          "n_fn": 58
+        },
+        "overlap": {
+          "tp": 8,
+          "n_gold": 58,
+          "n_system": 8,
+          "P": 1.0,
+          "R": 0.13793103448275862,
+          "F1": 0.2424242424242424,
+          "n_fp": 0,
+          "n_fn": 50
+        }
+      },
+      "2025MBKB113": {
+        "split": "silver",
+        "n_gold": 50,
+        "n_system": 11,
+        "n_anchors": 13,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 2,
+          "n_gold": 50,
+          "n_system": 11,
+          "P": 0.18181818181818182,
+          "R": 0.04,
+          "F1": 0.06557377049180327,
+          "n_fp": 9,
+          "n_fn": 48
+        },
+        "overlap": {
+          "tp": 11,
+          "n_gold": 50,
+          "n_system": 11,
+          "P": 1.0,
+          "R": 0.22,
+          "F1": 0.36065573770491804,
+          "n_fp": 0,
+          "n_fn": 39
+        }
+      },
+      "2025MBKB136": {
+        "split": "test",
+        "n_gold": 47,
+        "n_system": 21,
+        "n_anchors": 22,
+        "align_ratio": 0.9982,
+        "exact": {
+          "tp": 1,
+          "n_gold": 47,
+          "n_system": 21,
+          "P": 0.047619047619047616,
+          "R": 0.02127659574468085,
+          "F1": 0.02941176470588235,
+          "n_fp": 20,
+          "n_fn": 46
+        },
+        "overlap": {
+          "tp": 15,
+          "n_gold": 47,
+          "n_system": 21,
+          "P": 0.7142857142857143,
+          "R": 0.3191489361702128,
+          "F1": 0.4411764705882353,
+          "n_fp": 6,
+          "n_fn": 32
+        }
+      },
+      "2025NBEUB1": {
+        "split": "test",
+        "n_gold": 25,
+        "n_system": 0,
+        "n_anchors": 0,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 25,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 25
+        },
+        "overlap": {
+          "tp": 0,
+          "n_gold": 25,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 25
+        }
+      },
+      "2025NBEUB2": {
+        "split": "silver",
+        "n_gold": 24,
+        "n_system": 0,
+        "n_anchors": 0,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 24,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 24
+        },
+        "overlap": {
+          "tp": 0,
+          "n_gold": 24,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 24
+        }
+      },
+      "2026ABCA2L": {
+        "split": "test",
+        "n_gold": 43,
+        "n_system": 29,
+        "n_anchors": 37,
+        "align_ratio": 0.9983,
+        "exact": {
+          "tp": 1,
+          "n_gold": 43,
+          "n_system": 29,
+          "P": 0.034482758620689655,
+          "R": 0.023255813953488372,
+          "F1": 0.027777777777777776,
+          "n_fp": 28,
+          "n_fn": 42
+        },
+        "overlap": {
+          "tp": 25,
+          "n_gold": 43,
+          "n_system": 29,
+          "P": 0.8620689655172413,
+          "R": 0.5813953488372093,
+          "F1": 0.6944444444444445,
+          "n_fp": 4,
+          "n_fn": 18
+        }
+      },
+      "2026ALRB5": {
+        "split": "silver",
+        "n_gold": 46,
+        "n_system": 0,
+        "n_anchors": 0,
+        "align_ratio": 1.0,
+        "exact": {
+          "tp": 0,
+          "n_gold": 46,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 46
+        },
+        "overlap": {
+          "tp": 0,
+          "n_gold": 46,
+          "n_system": 0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0,
+          "n_fp": 0,
+          "n_fn": 46
+        }
+      }
+    }
+  },
+  "coverage": {
+    "raw_anchors": {
+      "legislation": 5538,
+      "decision": 3132
+    },
+    "predictions": {
+      "legislation": 3229,
+      "decision": 3118
+    },
+    "unclassified_http_links": 3
+  },
+  "false_negative_taxonomy_split": "test",
+  "fn_taxonomy": {
+    "exact": {
+      "decision": {
+        "tp": 19,
+        "n_gold": 3901,
+        "n_system": 1458
+      },
+      "legislation": {
+        "tp": 1021,
+        "n_gold": 3560,
+        "n_system": 1461
+      },
+      "secondary sources": {
+        "tp": 0,
+        "n_gold": 456,
+        "n_system": 0
+      }
+    },
+    "overlap": {
+      "decision": {
+        "tp": 1409,
+        "n_gold": 3901,
+        "n_system": 1458
+      },
+      "legislation": {
+        "tp": 1404,
+        "n_gold": 3560,
+        "n_system": 1461
+      },
+      "secondary sources": {
+        "tp": 0,
+        "n_gold": 456,
+        "n_system": 0
+      }
+    },
+    "fn": {
+      "decision": {
+        "tp": 0,
+        "n_gold": 2492,
+        "n_system": 0
+      },
+      "legislation": {
+        "tp": 0,
+        "n_gold": 2156,
+        "n_system": 0
+      },
+      "secondary sources": {
+        "tp": 0,
+        "n_gold": 456,
+        "n_system": 0
+      }
+    },
+    "fn_short": {
+      "decision": 1936,
+      "legislation": 1840,
+      "secondary sources": 151
+    },
+    "fn_full": {
+      "decision": 556,
+      "legislation": 316,
+      "secondary sources": 305
+    },
+    "fn_cite": {
+      "decision": 254,
+      "legislation": 62,
+      "secondary sources": 42
+    },
+    "fn_dist": {
+      "decision": {
+        "no reflex link nearby (genuine miss)": 2162,
+        "within 40 chars": 168,
+        "touching (boundary mismatch)": 156,
+        "no reflex link of this type in the document": 6
+      },
+      "legislation": {
+        "no reflex link of this type in the document": 263,
+        "no reflex link nearby (genuine miss)": 1675,
+        "within 40 chars": 186,
+        "touching (boundary mismatch)": 32
+      },
+      "secondary sources": {
+        "no reflex link of this type in the document": 456
+      }
+    }
+  },
+  "comparisons": {
+    "rules": {
+      "per_mode": {
+        "exact": {
+          "decision": {
+            "tp": 1196,
+            "n_gold": 3901,
+            "n_system": 3726
+          },
+          "legislation": {
+            "tp": 1203,
+            "n_gold": 3560,
+            "n_system": 2795
+          },
+          "secondary sources": {
+            "tp": 31,
+            "n_gold": 456,
+            "n_system": 938
+          }
+        },
+        "overlap": {
+          "decision": {
+            "tp": 2549,
+            "n_gold": 3901,
+            "n_system": 3726
+          },
+          "legislation": {
+            "tp": 2281,
+            "n_gold": 3560,
+            "n_system": 2795
+          },
+          "secondary sources": {
+            "tp": 164,
+            "n_gold": 456,
+            "n_system": 938
+          }
+        }
+      },
+      "per_doc": {
+        "1983CanLII2967L": {
+          "n_gold": 52,
+          "n_system": 47,
+          "exact": {
+            "tp": 9,
+            "n_gold": 52,
+            "n_system": 47,
+            "P": 0.19148936170212766,
+            "R": 0.17307692307692307,
+            "F1": 0.18181818181818182
+          },
+          "overlap": {
+            "tp": 33,
+            "n_gold": 52,
+            "n_system": 47,
+            "P": 0.7021276595744681,
+            "R": 0.6346153846153846,
+            "F1": 0.6666666666666666
+          }
+        },
+        "1993CanLII1889PESCTSD": {
+          "n_gold": 138,
+          "n_system": 157,
+          "exact": {
+            "tp": 50,
+            "n_gold": 138,
+            "n_system": 157,
+            "P": 0.3184713375796178,
+            "R": 0.36231884057971014,
+            "F1": 0.3389830508474576
+          },
+          "overlap": {
+            "tp": 105,
+            "n_gold": 138,
+            "n_system": 157,
+            "P": 0.6687898089171974,
+            "R": 0.7608695652173914,
+            "F1": 0.7118644067796611
+          }
+        },
+        "1993CanLII3004FCA": {
+          "n_gold": 549,
+          "n_system": 580,
+          "exact": {
+            "tp": 128,
+            "n_gold": 549,
+            "n_system": 580,
+            "P": 0.2206896551724138,
+            "R": 0.2331511839708561,
+            "F1": 0.22674933569530556
+          },
+          "overlap": {
+            "tp": 344,
+            "n_gold": 549,
+            "n_system": 580,
+            "P": 0.593103448275862,
+            "R": 0.6265938069216758,
+            "F1": 0.6093888396811337
+          }
+        },
+        "1993NSSC71": {
+          "n_gold": 71,
+          "n_system": 47,
+          "exact": {
+            "tp": 9,
+            "n_gold": 71,
+            "n_system": 47,
+            "P": 0.19148936170212766,
+            "R": 0.1267605633802817,
+            "F1": 0.15254237288135594
+          },
+          "overlap": {
+            "tp": 34,
+            "n_gold": 71,
+            "n_system": 47,
+            "P": 0.723404255319149,
+            "R": 0.4788732394366197,
+            "F1": 0.576271186440678
+          }
+        },
+        "1997CanLII11497": {
+          "n_gold": 100,
+          "n_system": 68,
+          "exact": {
+            "tp": 35,
+            "n_gold": 100,
+            "n_system": 68,
+            "P": 0.5147058823529411,
+            "R": 0.35,
+            "F1": 0.41666666666666663
+          },
+          "overlap": {
+            "tp": 58,
+            "n_gold": 100,
+            "n_system": 68,
+            "P": 0.8529411764705882,
+            "R": 0.58,
+            "F1": 0.6904761904761905
+          }
+        },
+        "1999CanLII7320(ONCA)": {
+          "n_gold": 271,
+          "n_system": 408,
+          "exact": {
+            "tp": 50,
+            "n_gold": 271,
+            "n_system": 408,
+            "P": 0.12254901960784313,
+            "R": 0.18450184501845018,
+            "F1": 0.14727540500736375
+          },
+          "overlap": {
+            "tp": 223,
+            "n_gold": 271,
+            "n_system": 408,
+            "P": 0.5465686274509803,
+            "R": 0.8228782287822878,
+            "F1": 0.6568483063328423
+          }
+        },
+        "2001BCSC1342": {
+          "n_gold": 95,
+          "n_system": 82,
+          "exact": {
+            "tp": 31,
+            "n_gold": 95,
+            "n_system": 82,
+            "P": 0.3780487804878049,
+            "R": 0.3263157894736842,
+            "F1": 0.3502824858757062
+          },
+          "overlap": {
+            "tp": 64,
+            "n_gold": 95,
+            "n_system": 82,
+            "P": 0.7804878048780488,
+            "R": 0.6736842105263158,
+            "F1": 0.7231638418079096
+          }
+        },
+        "2001CanLII21117": {
+          "n_gold": 322,
+          "n_system": 247,
+          "exact": {
+            "tp": 117,
+            "n_gold": 322,
+            "n_system": 247,
+            "P": 0.47368421052631576,
+            "R": 0.36335403726708076,
+            "F1": 0.41124780316344467
+          },
+          "overlap": {
+            "tp": 211,
+            "n_gold": 322,
+            "n_system": 247,
+            "P": 0.854251012145749,
+            "R": 0.65527950310559,
+            "F1": 0.7416520210896309
+          }
+        },
+        "2002SCC33": {
+          "n_gold": 328,
+          "n_system": 364,
+          "exact": {
+            "tp": 199,
+            "n_gold": 328,
+            "n_system": 364,
+            "P": 0.5467032967032966,
+            "R": 0.6067073170731707,
+            "F1": 0.5751445086705201
+          },
+          "overlap": {
+            "tp": 285,
+            "n_gold": 328,
+            "n_system": 364,
+            "P": 0.782967032967033,
+            "R": 0.8689024390243902,
+            "F1": 0.8236994219653179
+          }
+        },
+        "2003MBCA71": {
+          "n_gold": 49,
+          "n_system": 50,
+          "exact": {
+            "tp": 16,
+            "n_gold": 49,
+            "n_system": 50,
+            "P": 0.32,
+            "R": 0.32653061224489793,
+            "F1": 0.3232323232323232
+          },
+          "overlap": {
+            "tp": 33,
+            "n_gold": 49,
+            "n_system": 50,
+            "P": 0.66,
+            "R": 0.673469387755102,
+            "F1": 0.6666666666666666
+          }
+        },
+        "2005NLTD57": {
+          "n_gold": 80,
+          "n_system": 52,
+          "exact": {
+            "tp": 15,
+            "n_gold": 80,
+            "n_system": 52,
+            "P": 0.28846153846153844,
+            "R": 0.1875,
+            "F1": 0.22727272727272727
+          },
+          "overlap": {
+            "tp": 36,
+            "n_gold": 80,
+            "n_system": 52,
+            "P": 0.6923076923076923,
+            "R": 0.45,
+            "F1": 0.5454545454545455
+          }
+        },
+        "2005QCCA437": {
+          "n_gold": 116,
+          "n_system": 116,
+          "exact": {
+            "tp": 28,
+            "n_gold": 116,
+            "n_system": 116,
+            "P": 0.2413793103448276,
+            "R": 0.2413793103448276,
+            "F1": 0.2413793103448276
+          },
+          "overlap": {
+            "tp": 83,
+            "n_gold": 116,
+            "n_system": 116,
+            "P": 0.7155172413793104,
+            "R": 0.7155172413793104,
+            "F1": 0.7155172413793104
+          }
+        },
+        "2009BCHRT256": {
+          "n_gold": 157,
+          "n_system": 118,
+          "exact": {
+            "tp": 41,
+            "n_gold": 157,
+            "n_system": 118,
+            "P": 0.3474576271186441,
+            "R": 0.2611464968152866,
+            "F1": 0.2981818181818182
+          },
+          "overlap": {
+            "tp": 98,
+            "n_gold": 157,
+            "n_system": 118,
+            "P": 0.8305084745762712,
+            "R": 0.6242038216560509,
+            "F1": 0.7127272727272728
+          }
+        },
+        "2009NUCA3": {
+          "n_gold": 52,
+          "n_system": 55,
+          "exact": {
+            "tp": 31,
+            "n_gold": 52,
+            "n_system": 55,
+            "P": 0.5636363636363636,
+            "R": 0.5961538461538461,
+            "F1": 0.5794392523364486
+          },
+          "overlap": {
+            "tp": 47,
+            "n_gold": 52,
+            "n_system": 55,
+            "P": 0.8545454545454545,
+            "R": 0.9038461538461539,
+            "F1": 0.8785046728971962
+          }
+        },
+        "2009PECA12": {
+          "n_gold": 87,
+          "n_system": 106,
+          "exact": {
+            "tp": 27,
+            "n_gold": 87,
+            "n_system": 106,
+            "P": 0.25471698113207547,
+            "R": 0.3103448275862069,
+            "F1": 0.27979274611398963
+          },
+          "overlap": {
+            "tp": 71,
+            "n_gold": 87,
+            "n_system": 106,
+            "P": 0.6698113207547169,
+            "R": 0.8160919540229885,
+            "F1": 0.7357512953367875
+          }
+        },
+        "2010SKQB255": {
+          "n_gold": 102,
+          "n_system": 75,
+          "exact": {
+            "tp": 21,
+            "n_gold": 102,
+            "n_system": 75,
+            "P": 0.28,
+            "R": 0.20588235294117646,
+            "F1": 0.23728813559322035
+          },
+          "overlap": {
+            "tp": 57,
+            "n_gold": 102,
+            "n_system": 75,
+            "P": 0.76,
+            "R": 0.5588235294117647,
+            "F1": 0.6440677966101696
+          }
+        },
+        "2012SKCA24": {
+          "n_gold": 44,
+          "n_system": 41,
+          "exact": {
+            "tp": 19,
+            "n_gold": 44,
+            "n_system": 41,
+            "P": 0.4634146341463415,
+            "R": 0.4318181818181818,
+            "F1": 0.4470588235294118
+          },
+          "overlap": {
+            "tp": 38,
+            "n_gold": 44,
+            "n_system": 41,
+            "P": 0.926829268292683,
+            "R": 0.8636363636363636,
+            "F1": 0.8941176470588236
+          }
+        },
+        "2013ONAFRAAT18": {
+          "n_gold": 40,
+          "n_system": 31,
+          "exact": {
+            "tp": 5,
+            "n_gold": 40,
+            "n_system": 31,
+            "P": 0.16129032258064516,
+            "R": 0.125,
+            "F1": 0.14084507042253522
+          },
+          "overlap": {
+            "tp": 14,
+            "n_gold": 40,
+            "n_system": 31,
+            "P": 0.45161290322580644,
+            "R": 0.35,
+            "F1": 0.3943661971830986
+          }
+        },
+        "2014CanLII36807PELRB": {
+          "n_gold": 243,
+          "n_system": 179,
+          "exact": {
+            "tp": 76,
+            "n_gold": 243,
+            "n_system": 179,
+            "P": 0.4245810055865922,
+            "R": 0.31275720164609055,
+            "F1": 0.36018957345971564
+          },
+          "overlap": {
+            "tp": 159,
+            "n_gold": 243,
+            "n_system": 179,
+            "P": 0.888268156424581,
+            "R": 0.654320987654321,
+            "F1": 0.7535545023696683
+          }
+        },
+        "2015NSSC25": {
+          "n_gold": 296,
+          "n_system": 240,
+          "exact": {
+            "tp": 70,
+            "n_gold": 296,
+            "n_system": 240,
+            "P": 0.2916666666666667,
+            "R": 0.23648648648648649,
+            "F1": 0.2611940298507463
+          },
+          "overlap": {
+            "tp": 151,
+            "n_gold": 296,
+            "n_system": 240,
+            "P": 0.6291666666666667,
+            "R": 0.5101351351351351,
+            "F1": 0.5634328358208954
+          }
+        },
+        "2016QCCS1184": {
+          "n_gold": 87,
+          "n_system": 120,
+          "exact": {
+            "tp": 8,
+            "n_gold": 87,
+            "n_system": 120,
+            "P": 0.06666666666666667,
+            "R": 0.09195402298850575,
+            "F1": 0.07729468599033817
+          },
+          "overlap": {
+            "tp": 55,
+            "n_gold": 87,
+            "n_system": 120,
+            "P": 0.4583333333333333,
+            "R": 0.632183908045977,
+            "F1": 0.5314009661835749
+          }
+        },
+        "2017ABCA157": {
+          "n_gold": 302,
+          "n_system": 315,
+          "exact": {
+            "tp": 25,
+            "n_gold": 302,
+            "n_system": 315,
+            "P": 0.07936507936507936,
+            "R": 0.08278145695364239,
+            "F1": 0.08103727714748785
+          },
+          "overlap": {
+            "tp": 144,
+            "n_gold": 302,
+            "n_system": 315,
+            "P": 0.45714285714285713,
+            "R": 0.4768211920529801,
+            "F1": 0.46677471636953
+          }
+        },
+        "2018NSOIPC2": {
+          "n_gold": 271,
+          "n_system": 219,
+          "exact": {
+            "tp": 89,
+            "n_gold": 271,
+            "n_system": 219,
+            "P": 0.4063926940639269,
+            "R": 0.3284132841328413,
+            "F1": 0.363265306122449
+          },
+          "overlap": {
+            "tp": 188,
+            "n_gold": 271,
+            "n_system": 219,
+            "P": 0.8584474885844748,
+            "R": 0.6937269372693727,
+            "F1": 0.7673469387755101
+          }
+        },
+        "2019QCCA1492": {
+          "n_gold": 1423,
+          "n_system": 1304,
+          "exact": {
+            "tp": 485,
+            "n_gold": 1423,
+            "n_system": 1304,
+            "P": 0.37193251533742333,
+            "R": 0.3408292340126493,
+            "F1": 0.3557022368903557
+          },
+          "overlap": {
+            "tp": 903,
+            "n_gold": 1423,
+            "n_system": 1304,
+            "P": 0.6924846625766872,
+            "R": 0.634574841883345,
+            "F1": 0.6622662266226622
+          }
+        },
+        "2020ABPLAB11": {
+          "n_gold": 64,
+          "n_system": 77,
+          "exact": {
+            "tp": 33,
+            "n_gold": 64,
+            "n_system": 77,
+            "P": 0.42857142857142855,
+            "R": 0.515625,
+            "F1": 0.4680851063829787
+          },
+          "overlap": {
+            "tp": 61,
+            "n_gold": 64,
+            "n_system": 77,
+            "P": 0.7922077922077922,
+            "R": 0.953125,
+            "F1": 0.8652482269503546
+          }
+        },
+        "2020BCHPRB101": {
+          "n_gold": 149,
+          "n_system": 89,
+          "exact": {
+            "tp": 24,
+            "n_gold": 149,
+            "n_system": 89,
+            "P": 0.2696629213483146,
+            "R": 0.1610738255033557,
+            "F1": 0.20168067226890754
+          },
+          "overlap": {
+            "tp": 84,
+            "n_gold": 149,
+            "n_system": 89,
+            "P": 0.9438202247191011,
+            "R": 0.5637583892617449,
+            "F1": 0.7058823529411764
+          }
+        },
+        "2020FCA63": {
+          "n_gold": 162,
+          "n_system": 134,
+          "exact": {
+            "tp": 57,
+            "n_gold": 162,
+            "n_system": 134,
+            "P": 0.4253731343283582,
+            "R": 0.35185185185185186,
+            "F1": 0.38513513513513514
+          },
+          "overlap": {
+            "tp": 114,
+            "n_gold": 162,
+            "n_system": 134,
+            "P": 0.8507462686567164,
+            "R": 0.7037037037037037,
+            "F1": 0.7702702702702703
+          }
+        },
+        "2022BCSC135": {
+          "n_gold": 1145,
+          "n_system": 1364,
+          "exact": {
+            "tp": 449,
+            "n_gold": 1145,
+            "n_system": 1364,
+            "P": 0.3291788856304985,
+            "R": 0.3921397379912664,
+            "F1": 0.35791151853328024
+          },
+          "overlap": {
+            "tp": 734,
+            "n_gold": 1145,
+            "n_system": 1364,
+            "P": 0.5381231671554252,
+            "R": 0.6410480349344978,
+            "F1": 0.58509366281387
+          }
+        },
+        "2022ONCMT32": {
+          "n_gold": 162,
+          "n_system": 62,
+          "exact": {
+            "tp": 11,
+            "n_gold": 162,
+            "n_system": 62,
+            "P": 0.1774193548387097,
+            "R": 0.06790123456790123,
+            "F1": 0.09821428571428571
+          },
+          "overlap": {
+            "tp": 43,
+            "n_gold": 162,
+            "n_system": 62,
+            "P": 0.6935483870967742,
+            "R": 0.2654320987654321,
+            "F1": 0.38392857142857145
+          }
+        },
+        "2024ABOHSAB19": {
+          "n_gold": 52,
+          "n_system": 65,
+          "exact": {
+            "tp": 14,
+            "n_gold": 52,
+            "n_system": 65,
+            "P": 0.2153846153846154,
+            "R": 0.2692307692307692,
+            "F1": 0.23931623931623933
+          },
+          "overlap": {
+            "tp": 29,
+            "n_gold": 52,
+            "n_system": 65,
+            "P": 0.4461538461538462,
+            "R": 0.5576923076923077,
+            "F1": 0.49572649572649574
+          }
+        },
+        "2024BCSC764": {
+          "n_gold": 232,
+          "n_system": 153,
+          "exact": {
+            "tp": 39,
+            "n_gold": 232,
+            "n_system": 153,
+            "P": 0.2549019607843137,
+            "R": 0.16810344827586207,
+            "F1": 0.2025974025974026
+          },
+          "overlap": {
+            "tp": 100,
+            "n_gold": 232,
+            "n_system": 153,
+            "P": 0.6535947712418301,
+            "R": 0.43103448275862066,
+            "F1": 0.5194805194805194
+          }
+        },
+        "2024NBKB203": {
+          "n_gold": 244,
+          "n_system": 198,
+          "exact": {
+            "tp": 104,
+            "n_gold": 244,
+            "n_system": 198,
+            "P": 0.5252525252525253,
+            "R": 0.4262295081967213,
+            "F1": 0.47058823529411764
+          },
+          "overlap": {
+            "tp": 149,
+            "n_gold": 244,
+            "n_system": 198,
+            "P": 0.7525252525252525,
+            "R": 0.610655737704918,
+            "F1": 0.67420814479638
+          }
+        },
+        "2024NUCA9": {
+          "n_gold": 115,
+          "n_system": 76,
+          "exact": {
+            "tp": 31,
+            "n_gold": 115,
+            "n_system": 76,
+            "P": 0.40789473684210525,
+            "R": 0.26956521739130435,
+            "F1": 0.3246073298429319
+          },
+          "overlap": {
+            "tp": 66,
+            "n_gold": 115,
+            "n_system": 76,
+            "P": 0.868421052631579,
+            "R": 0.5739130434782609,
+            "F1": 0.6910994764397906
+          }
+        },
+        "2025ABAER7": {
+          "n_gold": 144,
+          "n_system": 118,
+          "exact": {
+            "tp": 62,
+            "n_gold": 144,
+            "n_system": 118,
+            "P": 0.5254237288135594,
+            "R": 0.4305555555555556,
+            "F1": 0.4732824427480916
+          },
+          "overlap": {
+            "tp": 102,
+            "n_gold": 144,
+            "n_system": 118,
+            "P": 0.864406779661017,
+            "R": 0.7083333333333334,
+            "F1": 0.7786259541984732
+          }
+        },
+        "2025ABKB246": {
+          "n_gold": 58,
+          "n_system": 17,
+          "exact": {
+            "tp": 0,
+            "n_gold": 58,
+            "n_system": 17,
+            "P": 0.0,
+            "R": 0.0,
+            "F1": 0.0
+          },
+          "overlap": {
+            "tp": 13,
+            "n_gold": 58,
+            "n_system": 17,
+            "P": 0.7647058823529411,
+            "R": 0.22413793103448276,
+            "F1": 0.3466666666666667
+          }
+        },
+        "2025MBKB136": {
+          "n_gold": 47,
+          "n_system": 29,
+          "exact": {
+            "tp": 7,
+            "n_gold": 47,
+            "n_system": 29,
+            "P": 0.2413793103448276,
+            "R": 0.14893617021276595,
+            "F1": 0.18421052631578946
+          },
+          "overlap": {
+            "tp": 21,
+            "n_gold": 47,
+            "n_system": 29,
+            "P": 0.7241379310344828,
+            "R": 0.44680851063829785,
+            "F1": 0.5526315789473684
+          }
+        },
+        "2025NBEUB1": {
+          "n_gold": 25,
+          "n_system": 27,
+          "exact": {
+            "tp": 12,
+            "n_gold": 25,
+            "n_system": 27,
+            "P": 0.4444444444444444,
+            "R": 0.48,
+            "F1": 0.4615384615384615
+          },
+          "overlap": {
+            "tp": 20,
+            "n_gold": 25,
+            "n_system": 27,
+            "P": 0.7407407407407407,
+            "R": 0.8,
+            "F1": 0.7692307692307692
+          }
+        },
+        "2026ABCA2L": {
+          "n_gold": 43,
+          "n_system": 29,
+          "exact": {
+            "tp": 3,
+            "n_gold": 43,
+            "n_system": 29,
+            "P": 0.10344827586206896,
+            "R": 0.06976744186046512,
+            "F1": 0.08333333333333333
+          },
+          "overlap": {
+            "tp": 24,
+            "n_gold": 43,
+            "n_system": 29,
+            "P": 0.8275862068965517,
+            "R": 0.5581395348837209,
+            "F1": 0.6666666666666666
+          }
+        }
+      }
+    },
+    "gpt-5.2": {
+      "per_mode": {
+        "exact": {
+          "legislation": {
+            "tp": 378,
+            "n_gold": 441,
+            "n_system": 456
+          },
+          "decision": {
+            "tp": 402,
+            "n_gold": 500,
+            "n_system": 488
+          },
+          "secondary sources": {
+            "tp": 48,
+            "n_gold": 69,
+            "n_system": 82
+          }
+        },
+        "overlap": {
+          "legislation": {
+            "tp": 414,
+            "n_gold": 441,
+            "n_system": 456
+          },
+          "decision": {
+            "tp": 437,
+            "n_gold": 500,
+            "n_system": 488
+          },
+          "secondary sources": {
+            "tp": 60,
+            "n_gold": 69,
+            "n_system": 82
+          }
+        }
+      },
+      "per_doc": {
+        "2001CanLII21117": {
+          "n_gold": 322,
+          "n_system": 351,
+          "exact": {
+            "tp": 270,
+            "n_gold": 322,
+            "n_system": 351,
+            "P": 0.7692307692307693,
+            "R": 0.8385093167701864,
+            "F1": 0.8023774145616642
+          },
+          "overlap": {
+            "tp": 296,
+            "n_gold": 322,
+            "n_system": 351,
+            "P": 0.8433048433048433,
+            "R": 0.9192546583850931,
+            "F1": 0.8796433878157505
+          }
+        },
+        "2002SCC33": {
+          "n_gold": 328,
+          "n_system": 305,
+          "exact": {
+            "tp": 260,
+            "n_gold": 328,
+            "n_system": 305,
+            "P": 0.8524590163934426,
+            "R": 0.7926829268292683,
+            "F1": 0.8214849921011058
+          },
+          "overlap": {
+            "tp": 280,
+            "n_gold": 328,
+            "n_system": 305,
+            "P": 0.9180327868852459,
+            "R": 0.8536585365853658,
+            "F1": 0.8846761453396524
+          }
+        },
+        "2005QCCA437": {
+          "n_gold": 116,
+          "n_system": 120,
+          "exact": {
+            "tp": 102,
+            "n_gold": 116,
+            "n_system": 120,
+            "P": 0.85,
+            "R": 0.8793103448275862,
+            "F1": 0.864406779661017
+          },
+          "overlap": {
+            "tp": 113,
+            "n_gold": 116,
+            "n_system": 120,
+            "P": 0.9416666666666667,
+            "R": 0.9741379310344828,
+            "F1": 0.9576271186440678
+          }
+        },
+        "2024NBKB203": {
+          "n_gold": 244,
+          "n_system": 250,
+          "exact": {
+            "tp": 196,
+            "n_gold": 244,
+            "n_system": 250,
+            "P": 0.784,
+            "R": 0.8032786885245902,
+            "F1": 0.7935222672064778
+          },
+          "overlap": {
+            "tp": 222,
+            "n_gold": 244,
+            "n_system": 250,
+            "P": 0.888,
+            "R": 0.9098360655737705,
+            "F1": 0.8987854251012145
+          }
+        }
+      }
+    },
+    "gemma4": {
+      "per_mode": {
+        "exact": {
+          "legislation": {
+            "tp": 381,
+            "n_gold": 441,
+            "n_system": 434
+          },
+          "decision": {
+            "tp": 352,
+            "n_gold": 500,
+            "n_system": 394
+          },
+          "secondary sources": {
+            "tp": 48,
+            "n_gold": 69,
+            "n_system": 67
+          }
+        },
+        "overlap": {
+          "legislation": {
+            "tp": 411,
+            "n_gold": 441,
+            "n_system": 434
+          },
+          "decision": {
+            "tp": 383,
+            "n_gold": 500,
+            "n_system": 394
+          },
+          "secondary sources": {
+            "tp": 60,
+            "n_gold": 69,
+            "n_system": 67
+          }
+        }
+      },
+      "per_doc": {
+        "2001CanLII21117": {
+          "n_gold": 322,
+          "n_system": 322,
+          "exact": {
+            "tp": 287,
+            "n_gold": 322,
+            "n_system": 322,
+            "P": 0.8913043478260869,
+            "R": 0.8913043478260869,
+            "F1": 0.8913043478260869
+          },
+          "overlap": {
+            "tp": 303,
+            "n_gold": 322,
+            "n_system": 322,
+            "P": 0.9409937888198758,
+            "R": 0.9409937888198758,
+            "F1": 0.9409937888198758
+          }
+        },
+        "2002SCC33": {
+          "n_gold": 328,
+          "n_system": 222,
+          "exact": {
+            "tp": 192,
+            "n_gold": 328,
+            "n_system": 222,
+            "P": 0.8648648648648649,
+            "R": 0.5853658536585366,
+            "F1": 0.6981818181818181
+          },
+          "overlap": {
+            "tp": 211,
+            "n_gold": 328,
+            "n_system": 222,
+            "P": 0.9504504504504504,
+            "R": 0.6432926829268293,
+            "F1": 0.7672727272727273
+          }
+        },
+        "2005QCCA437": {
+          "n_gold": 116,
+          "n_system": 116,
+          "exact": {
+            "tp": 97,
+            "n_gold": 116,
+            "n_system": 116,
+            "P": 0.8362068965517241,
+            "R": 0.8362068965517241,
+            "F1": 0.8362068965517241
+          },
+          "overlap": {
+            "tp": 111,
+            "n_gold": 116,
+            "n_system": 116,
+            "P": 0.9568965517241379,
+            "R": 0.9568965517241379,
+            "F1": 0.9568965517241379
+          }
+        },
+        "2024NBKB203": {
+          "n_gold": 244,
+          "n_system": 235,
+          "exact": {
+            "tp": 205,
+            "n_gold": 244,
+            "n_system": 235,
+            "P": 0.8723404255319149,
+            "R": 0.8401639344262295,
+            "F1": 0.8559498956158664
+          },
+          "overlap": {
+            "tp": 229,
+            "n_gold": 244,
+            "n_system": 235,
+            "P": 0.9744680851063829,
+            "R": 0.9385245901639344,
+            "F1": 0.9561586638830897
+          }
+        }
+      }
+    },
+    "qwen38-27b": {
+      "per_mode": {
+        "exact": {
+          "legislation": {
+            "tp": 329,
+            "n_gold": 441,
+            "n_system": 381
+          },
+          "decision": {
+            "tp": 284,
+            "n_gold": 500,
+            "n_system": 329
+          },
+          "secondary sources": {
+            "tp": 29,
+            "n_gold": 69,
+            "n_system": 41
+          }
+        },
+        "overlap": {
+          "legislation": {
+            "tp": 358,
+            "n_gold": 441,
+            "n_system": 381
+          },
+          "decision": {
+            "tp": 310,
+            "n_gold": 500,
+            "n_system": 329
+          },
+          "secondary sources": {
+            "tp": 39,
+            "n_gold": 69,
+            "n_system": 41
+          }
+        }
+      },
+      "per_doc": {
+        "2001CanLII21117": {
+          "n_gold": 322,
+          "n_system": 266,
+          "exact": {
+            "tp": 224,
+            "n_gold": 322,
+            "n_system": 266,
+            "P": 0.8421052631578947,
+            "R": 0.6956521739130435,
+            "F1": 0.761904761904762
+          },
+          "overlap": {
+            "tp": 252,
+            "n_gold": 322,
+            "n_system": 266,
+            "P": 0.9473684210526315,
+            "R": 0.782608695652174,
+            "F1": 0.8571428571428571
+          }
+        },
+        "2002SCC33": {
+          "n_gold": 328,
+          "n_system": 207,
+          "exact": {
+            "tp": 176,
+            "n_gold": 328,
+            "n_system": 207,
+            "P": 0.8502415458937198,
+            "R": 0.5365853658536586,
+            "F1": 0.6579439252336449
+          },
+          "overlap": {
+            "tp": 189,
+            "n_gold": 328,
+            "n_system": 207,
+            "P": 0.9130434782608695,
+            "R": 0.5762195121951219,
+            "F1": 0.7065420560747663
+          }
+        },
+        "2005QCCA437": {
+          "n_gold": 116,
+          "n_system": 68,
+          "exact": {
+            "tp": 55,
+            "n_gold": 116,
+            "n_system": 68,
+            "P": 0.8088235294117647,
+            "R": 0.47413793103448276,
+            "F1": 0.5978260869565216
+          },
+          "overlap": {
+            "tp": 64,
+            "n_gold": 116,
+            "n_system": 68,
+            "P": 0.9411764705882353,
+            "R": 0.5517241379310345,
+            "F1": 0.6956521739130435
+          }
+        },
+        "2024NBKB203": {
+          "n_gold": 244,
+          "n_system": 210,
+          "exact": {
+            "tp": 187,
+            "n_gold": 244,
+            "n_system": 210,
+            "P": 0.8904761904761904,
+            "R": 0.7663934426229508,
+            "F1": 0.8237885462555066
+          },
+          "overlap": {
+            "tp": 202,
+            "n_gold": 244,
+            "n_system": 210,
+            "P": 0.9619047619047619,
+            "R": 0.8278688524590164,
+            "F1": 0.8898678414096917
+          }
+        }
+      }
+    }
+  }
+}

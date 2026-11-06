@@ -1,0 +1,1923 @@
+<!DOCTYPE html>
+
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+      "color": "#76CEDE",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "decision": {
+      "color": "#6aa3ff",
+      "sublabels": {
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "citation": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "secondary sources": {
+      "color": "#278FE3",
+      "sublabels": {
+        "authors": {
+          "color": "#ffb84d",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "title": {
+          "color": "#93c47d",
+          "sublabels": {},
+          "attributes": {
+            "titletype": {
+              "type": "dropdown",
+              "options": [
+                "official",
+                "alias"
+              ],
+              "default": "official",
+              "groupRole": "regular"
+            }
+          }
+        },
+        "source": {
+          "color": "#ff5733",
+          "sublabels": {},
+          "attributes": {}
+        },
+        "fragment": {
+          "color": "#8e7cc3",
+          "sublabels": {},
+          "attributes": {
+            "fragmentid": {
+              "type": "string",
+              "default": "",
+              "groupRole": "regular"
+            },
+            "non_standard": {
+              "type": "checkbox",
+              "default": false,
+              "groupRole": "regular"
+            }
+          }
+        }
+      },
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    },
+    "unable to classify": {
+      "color": "#ffc107",
+      "sublabels": {},
+      "attributes": {
+        "docid": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupID"
+        },
+        "uri": {
+          "type": "string",
+          "default": "",
+          "groupRole": "groupAttribute"
+        }
+      }
+    }
+  },
+  "meta": {
+    "time": 16103544,
+    "project title": "CLIQAI",
+    "annotation guidelines": "V2",
+    "labels Tree": "V2",
+    "Annotator": "A1",
+    "Annotation Date": "2026-04-17",
+    "Reviewer": "RL",
+    "Review Date": "2026-04-20, 2026-05-07, 2026-05-11"
+  }
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.MsoFootnoteReference
+	{}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Calibri",sans-serif;}
+p.ind1c, li.ind1c, div.ind1c
+	{mso-style-name:ind1c;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.ind2c, li.ind2c, div.ind2c
+	{mso-style-name:ind2c;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
+span.UnresolvedMention
+	{mso-style-name:"Unresolved Mention";
+	color:#605E5C;
+	background:#E1DFDD;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="#0563C1" vlink="#954F72">
+<p align="center" class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+text-align:center"><b><span style="font-size:14.0pt">Report of
+Findings:<span style="letter-spacing:1.95pt"> </span>2015-2859-AP-1547</span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:14.0pt">Town of Caraquet</span></b></p>
+<p align="center" class="MsoNormal" style="text-align:center"><b><span style="font-size:14.0pt">October 19, 2016</span></b></p>
+<p class="MsoNormal" style="line-height:115%"><b><span style="font-size:12.0pt;line-height:115%">Citation</span></b><span style="font-size:12.0pt;line-height:115%">: <manual_label docid="Caraquet" id="0" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/jzp9r" verified="true"><manual_label id="1" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Caraquet (Town) (Re)</manual_label>, <manual_label id="2" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">2016 NBOMB 12</manual_label></manual_label></span></p>
+<p class="MsoNormal" style="line-height:115%"><b><span style="font-size:12.0pt;line-height:115%">Date:</span></b><span style="font-size:12.0pt;line-height:115%"> 2016-10-19</span></p>
+<p class="MsoNormal" style="line-height:115%"><b><span style="font-size:12.0pt;line-height:115%">INTRODUCTION AND BACKGROUND</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[1]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">This
+Report of the Commissioner’s Findings is issued under <manual_label docid="Right to Information Act" id="3" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 73(1)" id="4" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 73(1)</manual_label> of
+the <i><manual_label id="5" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Right to Information and Protection of Privacy Act</manual_label> </i>(the “<i><manual_label id="6" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i>”)</manual_label>.
+This Report stems from a complaint filed with our office in which the Applicant
+requested that the Commissioner conduct an investigation into the matter.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[2]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">On
+September 29, 2015, the Applicant made an access to information request under
+the <i><manual_label docid="Right to Information Act" id="7" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="8" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> to the Town of Caraquet to obtain the following information:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">1.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style="font-size:12.0pt;line-height:115%">Salary or other compensation received
+by AcadieNor officers (members of the Board of Directors, employees and
+suppliers) since 2006;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">2.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style="font-size:12.0pt;line-height:115%">Expense accounts of AcadieNor
+officers (members of the Board of Directors, employees and suppliers) since
+2006; and</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+12.0pt;margin-left:.5in;text-align:justify;text-indent:-.25in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">3.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="font-size:12.0pt;line-height:115%">AcadieNor’s
+operating budget since 2006.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[3]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Town responded to the request on October 30, 2015. In its response, the Town
+informed the Applicant that the records being sought were outside the Town’s
+purview, for the following reasons:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">1.<span style='font:7.0pt "Times New Roman"'>      </span></span><i><span style="font-size:12.0pt;line-height:115%">The Town of Caraquet has no
+jurisdiction over any of the records;</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+12.0pt;margin-left:.5in;text-align:justify;text-indent:-.25in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">2.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><i><span style="font-size:12.0pt;line-height:115%">The Town can
+neither confirm nor deny the existence of these records, as it has no control
+over them as AcadieNor is duly incorporated under the </span></i><manual_label docid="New Brunswick Companies Act" id="9" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/557qs" verified="true"><i><span style="font-size:12.0pt;line-height:115%"></span></i><manual_label id="10" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i><span style="font-size:12.0pt;line-height:115%">New Brunswick </span></i><i><span style="font-size:12.0pt;line-height:115%">Companies</span></i><span style="font-size:12.0pt;line-height:115%"> <i>Act</i></span></manual_label><span style="font-size:12.0pt;line-height:115%"><i></i></span></manual_label><span style="font-size:12.0pt;line-height:115%"><i></i>, <i>and is a legal entity
+separate from the municipality.</i></span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[4]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">This
+was the Applicant’s second access request to the Town of Caraquet. The
+Applicant first exercised the right to know in 2013. The Applicant did not
+complain about the response that was received at that time.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[5]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">However,
+this time, on November 27, 2015, the Applicant filed a complaint with our
+office. We then realized that we had answered a general question on this topic
+from the same Applicant a few months earlier.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[6]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+wish to point out that a major part of our statutory role is to inform the
+public about the <i><manual_label docid="Right to Information Act" id="11" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="12" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>. The public can of course turn to us at any time
+for answers to questions of procedure or application of the <i><manual_label docid="Right to Information Act" id="13" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="14" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>, or for
+interpretation of provisions of the <i><manual_label docid="Right to Information Act" id="15" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="16" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>. We also receive similar
+questions from public entities and many other interested parties (we answer
+between 125 and 150 such questions annually), although our analysis is limited
+to the facts presented, since it is not an investigation (pursuant to the
+duties incumbent on the Commissioner, as set out in <manual_label docid="Right to Information Act" id="17" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 60(1)" id="18" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 60(1)</manual_label> of the <i><manual_label id="19" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i>.)</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[7]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">As a
+result, based on the information available at the time and on our
+interpretation of the<manual_label docid="Right to Information Act" id="20" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"> <i><manual_label id="21" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i>, we answered the question and indicated that
+AcadieNor Inc., a non-profit corporation, was subject to the <i><manual_label docid="Right to Information Act" id="22" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="23" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> because
+the corporation fits the definition of what the <i><manual_label docid="Right to Information Act" id="24" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="25" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> means by an “office”
+of a municipality, a so-called “local government body.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[8]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Applicant relied on this answer in making a second request to the Town of
+Caraquet in September 2015 to find out more about AcadieNor Inc. The Applicant,
+dissatisfied with the Town of Caraquet’s response, filed a complaint on
+November 27, 2015.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[9]<span style='font:7.0pt "Times New Roman"'>              
+</span></span><span style="font-size:12.0pt;line-height:115%">Specifically,
+the Applicant is dissatisfied with the Town of Caraquet’s decision not to
+accede to the request for the reasons given in its answer, in light of our
+remarks that AcadieNor Inc. could be considered an office of the Town of
+Caraquet and thus subject to the <i><manual_label docid="Right to Information Act" id="26" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="27" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[10]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+complaint is admissible because <manual_label docid="Right to Information Act" id="28" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 67(1)(a)(i)" id="29" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subparagraph 67(1)(<i>a</i>)(i)</manual_label> of the <i><manual_label id="30" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i><i></i>
+states that an applicant may file a complaint with the Commissioner if the
+applicant requested access to a record and is not satisfied with a <u>decision,
+an act or an omission</u> of a head of a public body in relation to the
+request. In addition, the complaint was filed within the prescribed time, i.e.,
+60 days from the date on which the Applicant was notified of the answer
+(decision) by the Town of Caraquet, namely that it had no information to
+provide about AcadieNor.</span></p>
+<p class="MsoNormal" style="margin-right:.2pt;text-align:justify;line-height:
+115%;punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><b><span style="font-size:12.0pt;line-height:115%">OUR PROCESS FOR
+INVESTIGATING COMPLAINTS, AND THE PROCESS USED IN THIS CASE</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[11]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">When
+complaints are filed, the Commissioner has a duty to investigate. However, she
+can also take the necessary steps to resolve the complaint, in accordance with
+the <i><manual_label docid="Right to Information Act" id="31" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="32" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>. Our investigation process requires first that we meet with the
+officers of the public body in question to find out more about the handling of
+the request made under the <i><manual_label docid="Right to Information Act" id="33" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="34" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>, including how the search for the
+relevant records was conducted and how the records pertaining to the request
+were reviewed, and so on, after which we present our preliminary findings as to
+whether or not the decision to grant or deny access to the requested
+information is in accordance with the <i><manual_label docid="Right to Information Act" id="35" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="36" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[12]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Our
+preliminary findings are usually accompanied by a suggested <i>Act</i>ion plan
+for the public body to resolve the complaint informally, always in compliance
+with the <i><manual_label docid="Right to Information Act" id="37" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="38" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[13]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Should
+the public body disagree with our preliminary findings, we cannot proceed with
+the other steps in the complaint resolution process and must complete our
+investigation by producing a report under <manual_label docid="Right to Information Act" id="39" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 73" id="40" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 73</manual_label></manual_label>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[14]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+this case, and since were conducting an investigation, we were able to gather
+more facts about the creation of AcadieNor Inc. and its connection with the
+municipality of Caraquet.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[15]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We met
+with and obtained explanations from officials with the Town of Caraquet and
+officers of AcadieNor Inc. concerning the main issue in this case. We also
+asked the Town of Caraquet to share its comments and observations with us in
+writing. The Town asked AcadieNor Inc. to submit its observations to us as
+well.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[16]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">After
+carefully reviewing all of the comments and observations we received, we
+reached the same conclusion: AcadieNor Inc. is an “office” of the municipality
+of Caraquet within the meaning of the <i><manual_label docid="Right to Information Act" id="41" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="42" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Right to Information and Protection of
+Privacy Act</manual_label></manual_label></i>. This finding also means that AcadieNor Inc. is subject to the <i><manual_label docid="Right to Information Act" id="43" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="44" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>,
+as is the Town of Caraquet.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[17]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+asked the Town of Caraquet whether it agreed with this preliminary finding so
+we could determine if we could move on to the next step in our complaint
+investigation process. The Town informed us that this substantive issue of
+whether AcadieNor Inc. fits the definition under the <i><manual_label docid="Right to Information Act" id="45" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="46" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> of an “office”
+of a municipality and a “local government body” and is thus subject to the <i><manual_label docid="Right to Information Act" id="47" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="48" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>
+could be referred to the courts, given its significance and its impact on the
+Town and on the other bodies connected with the Town.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[18]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+respect that right. Under the circumstances, we put the remainder of our
+investigation into this complaint on hold so that we could present our formal
+analysis and interpretation of this substantive issue and give the Town the
+opportunity to communicate its decision on the matter to us. Naturally, the
+Applicant is afforded this same right and can communicate his or her decision
+to us.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[19]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+following Report sets out the facts gathered, the written comments and
+observations provided, and our analysis of this substantive issue.</span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:115%;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><b><span style="font-size:12.0pt;line-height:115%">ANALYSIS OF THE <i>ACT</i></span></b></p>
+<p class="MsoNormal" style="text-align:justify;line-height:115%;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><b><span style="font-size:12.0pt;line-height:115%">Is AcadieNor Inc. an “office” of the
+municipality of Caraquet within the meaning of the <i><manual_label docid="Right to Information Act" id="49" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="50" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Right to Information and
+Protection of Privacy Act</manual_label></manual_label></i>?</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[20]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The <i>Act</i>
+gives the public the right to access any records under the purview of public
+bodies, subject to the limited and specific exceptions it sets out.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[21]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+definition of “public body” in the <i><manual_label docid="Right to Information Act" id="51" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="52" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> applies to most offices of
+government at all levels: school boards, municipalities and the province.
+“Public body” (in <manual_label docid="Right to Information Act" id="53" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 1(a)" id="54" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph 1(<i>a</i>)</manual_label></manual_label>) also means a local public body.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[22]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The <i><manual_label docid="Right to Information Act" id="55" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="56" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>
+further defines “local public body” as an educational body, a health care body
+and a local government body.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[23]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Municipalities,
+rural communities, and so on come under the definition of “local government
+body”.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[24]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">However,
+the <i><manual_label docid="Right to Information Act" id="57" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="58" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> further states that the definition includes offices of a
+municipality, including a municipal police force.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[25]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">It was
+with reference to this definition that we began our analysis of which entities
+the <i><manual_label docid="Right to Information Act" id="59" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="60" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> intended to include through the phrase “<u>a municipality or any
+office of a municipality</u>.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[26]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+wish to point out from the outset that the phrase “<b>or any office of a municipality</b>”
+is not defined in the <i><manual_label docid="Right to Information Act" id="61" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="62" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[27]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+therefore looked to related case law, i.e., decisions by other commissioners in
+Canada on similar questions in the context of right-to-information legislation
+in the public sector.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[28]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+indicated that we had to make a determination solely in the context and for the
+purposes of the <i><manual_label docid="Right to Information Act" id="63" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="64" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Right to Information and Protection of Privacy Act</manual_label></manual_label></i>,
+i.e., concerning the public’s right to ccess information from governments
+(municipal, provincial and federal).</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><b><i><span style="font-size:12.0pt;
+line-height:115%">Methodology for interpreting legislation</span></i></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[29]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+2011, a methodology was adopted for interpreting the provisions of a statute in
+a recent decision<a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>[1]</span></span></a>
+by the Supreme Court of Canada, on appeal from the Federal Court of Canada. The
+issue involved the question of whether the Prime Minister’s Office or a
+minister’s office were “federal institutions” within the meaning of the <i><manual_label docid="Right to Information Act" id="65" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="66" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[30]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+deciding this question, the Supreme Court ruled as follows:</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">27. The proper approach to statutory interpretation has been
+articulated repeatedly and is now well entrenched. The goal is to determine the
+intention of Parliament by reading the words of the provision, in context and
+in their grammatical and ordinary sense, harmoniously with the scheme of the <i><manual_label docid="Access to Information Act" id="67" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56jgm" verified="true"><manual_label id="68" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>
+and the object of the statute. In addition to this general roadmap, a number of
+specific rules of construction may serve as useful guideposts on the court’s
+interpretative journey.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[31]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">At
+this end of this paragraph, Justice Charon reiterated the approach taken by the
+Federal Court of Canada judge in interpreting the provisions of the
+legislation. In particular, the Federal Court of Canada judge considered
+excerpts of Hansard debates from 1981 that made it clear that Parliament
+intended that the “<i></i><i><manual_label docid="Access to Information Act" id="69" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56jgm" verified="true"><manual_label id="70" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Access to Information Act</manual_label></manual_label> apply to information, in any form,
+held by specified government institutions</i>.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[32]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">As we
+indicated above, the phrase “or any office of a municipality” is not defined in
+the <i><manual_label docid="Right to Information Act" id="71" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="72" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>. As a result, it must be given its ordinary or most widely
+accepted meaning. Furthermore, to give an adequate right of access to records,
+this phrase should be interpreted liberally and broadly, given that
+legislators, had they wanted, could have restricted this concept to
+municipalities. Their intent was in fact the opposite.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[33]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+therefore reviewed the Debates of the Legislative Assembly of New Brunswick
+from May 29, 2009, reproduced in <i>Hansard</i>. We found the following
+regarding the legislators’ intent with respect to the<manual_label docid="Right to Information Act" id="73" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"> <i><manual_label id="74" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">As with Bill 82, the new <i><manual_label docid="Right to Information Act" id="75" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="76" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> provides a framework and
+process for accessing information pertaining to the business of public sector
+bodies, including not only government departments and regional health
+authorities, but also school districts, universities, <u>municipalities,
+municipal organizations</u>, and additional provincial agencies, boards and
+commissions. (emphasis ours)</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[34]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+this passage from the Debates, we draw attention to the important fact that the
+<i><manual_label docid="Right to Information Act" id="77" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="78" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> refers not only to municipalities, but also to municipal
+organizations.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><b><i><span style="font-size:12.0pt;
+line-height:115%">Related case law</span></i></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[35]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Ontario
+has passed right-to-information legislation dealing specifically with
+municipalities. In this statute, i.e., the <i></i></span><manual_label docid="Municipal Freedom of Information Act" id="79" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><span style="font-size:12.0pt;line-height:115%"><i></i></span><manual_label id="80" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><span style="font-size:12.0pt;line-height:115%"><i>Municipal Freedom o</i></span><i><span style="font-size:12.0pt;line-height:115%;color:#222222">f
+Information and Protection of Privacy Act</span></i></manual_label><i><span style="font-size:12.0pt;line-height:115%;color:#222222"></span></i></manual_label><i><span style="font-size:12.0pt;line-height:115%;color:#222222"></span></i><span style="font-size:12.0pt;line-height:115%;color:#222222">, the word
+“institution” is defined as follows:</span></p>
+<p class="MsoNormal" style="margin-left:.5in;text-align:justify;line-height:115%;
+background:white"><span style="font-size:12.0pt;line-height:115%;
+color:black">“institution”:</span></p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.75in;text-align:justify;
+text-indent:-.25in;background:white"><span style="font-size:12.0pt;line-height:
+115%;color:black">a.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="font-size:12.0pt;line-height:115%;color:black">a
+municipality</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0in;margin-right:.5in;
+margin-bottom:0in;margin-left:.75in;margin-bottom:.0001pt;text-align:justify;
+text-indent:-.25in;background:white"><span style="font-size:12.0pt;line-height:
+115%;color:black">b.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="font-size:12.0pt;line-height:115%;color:black">a
+school board, municipal service board, city board, transit commission, public
+library board, board of health, police services board, conservation authority,
+district social services administration board, local services board, planning
+board, local roads board, police village or joint committee of management or
+joint board of management established under the</span><span style="font-size:12.0pt;line-height:115%;color:black"></span><span style="font-size:12.0pt;line-height:115%;color:black"> </span><a href="http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><manual_label docid="Municipal Act, 2001" id="81" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56mt0" verified="true"><a href="http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><manual_label id="82" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><a href="http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none">Municipal
+Act, 2001</span></i></a><a href="http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><a href="http://www.canlii.org/fr/on/legis/lois/lo-2001-c-25/derniere/lo-2001-c-25.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><span style="font-size:12.0pt;line-height:115%;
+color:black"> </span></manual_label><span style="font-size:12.0pt;line-height:115%;
+color:black"></span></manual_label><span style="font-size:12.0pt;line-height:115%;
+color:black">or the</span><span style="font-size:12.0pt;line-height:115%;
+color:black"></span><span style="font-size:12.0pt;line-height:115%;
+color:black"></span><span style="font-size:12.0pt;line-height:115%;
+color:black"></span><span style="font-size:12.0pt;line-height:115%;
+color:black"></span><span style="font-size:12.0pt;line-height:115%;
+color:black"></span><manual_label docid="City of Toronto Act, 2006" id="83" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56mpx" verified="true"><span style="font-size:12.0pt;line-height:115%;
+color:black"></span><manual_label id="84" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><span style="font-size:12.0pt;line-height:115%;
+color:black"> </span><a href="http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none">City
+of Toronto Act, 2006</span></i></a></manual_label><a href="http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a></manual_label><a href="http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><a href="http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><a href="http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><a href="http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><a href="http://www.canlii.org/fr/on/legis/lois/lo-2006-c-11-ann-a/derniere/lo-2006-c-11-ann-a.html"><i><span style="font-size:12.0pt;line-height:115%;color:black;text-decoration:none"></span></i></a><i><span style="font-size:12.0pt;line-height:
+115%;color:black"> </span></i><i><span style="font-size:12.0pt;line-height:
+115%;color:black"></span></i><span style="font-size:12.0pt;line-height:115%;
+color:black">or a predecessor of those <i>Act</i>s,</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-top:0in;margin-right:.5in;
+margin-bottom:0in;margin-left:.75in;margin-bottom:.0001pt;text-align:justify;
+text-indent:-.25in;background:white"><span style="font-size:12.0pt;line-height:
+115%;color:black">c.<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%;color:black">any
+agency, board, commission, corporation or other body designated as an
+institution in the regulations;</span></p>
+<p class="MsoNormal">                                               </p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[36]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%;
+color:black">In addition, <manual_label docid="Municipal Freedom of Information Act" id="85" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label fragmentid="sec 2(3)" id="86" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 2(3)</manual_label> of this <manual_label id="87" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Ontario statute</manual_label></manual_label> states
+further in this regard in the context that concerns us:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;background:white"><span style="font-size:12.0pt;line-height:115%;color:black">Bodies
+considered part of municipality</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;background:white"><a name="s2s3"></a><span style="font-size:12.0pt;line-height:115%;
+color:black;background:#F3F3F3">(3)</span><span style="font-size:
+12.0pt;line-height:115%;color:black"> Every agency, board, commission,
+corporation or other body not mentioned in <manual_label docid="Freedom of Information Act" id="88" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lrp" verified="true"><manual_label fragmentid='sec  2(1)("institution")(b)' id="89" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">clause (b) of the definition of
+“institution” in subsection (1)</manual_label></manual_label> or designated under <manual_label docid="Municipal Freedom of Information Act" id="90" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label fragmentid='sec 2(1)("institution")(c)' id="91" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">clause (c) of the
+definition of “institution” in subsection (1) </manual_label></manual_label>is deemed to be a part of the
+municipality for the purposes of this <i><manual_label docid="Municipal Freedom of Information Act" id="92" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label id="93" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> if all of its members or
+officers are appointed or chosen by or under the authority of the council of
+the municipality.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[37]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%"><manual_label docid="Institutions" id="94" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56p11" verified="true"><manual_label id="95" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Regulation
+372/91</manual_label></manual_label> of the <i><manual_label docid="Municipal Freedom of Information Act" id="96" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label id="97" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipal F<span style="color:#222222">reedom of Information
+and Protection of Privacy Act</span></manual_label><span style="color:#222222"></span></manual_label><span style="color:#222222"></span></i><span style="color:#222222"> sets out
+in <manual_label docid="Institutions" id="98" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56p11" verified="true"><manual_label fragmentid="sec 1(1)" id="99" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 1(1)</manual_label></manual_label> the entities designated as institutions.</span></span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[38]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%;
+color:#222222">These include Kitchener Housing Inc.,<a href="#_ftn2" name="_ftnref2" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Calibri",sans-serif;color:#222222'>[2]</span></span></a> a non-profit
+company that develops and manages affordable housing. The company, incorporated
+in 1986, was originally sponsored by the City of Kitchener. Its mission was to
+purchase and make housing available to low-income individuals and families in
+Kitchener. Kitchener Housing Inc. was managed by a board of directors
+consisting of three elected members and eight community leaders.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[39]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">At
+first blush, the creation of Kitchener Housing Inc. appeared to be similar to
+that of AcadieNor Inc. by the Town of Caraquet. We therefore took a closer look
+at the application of the definition of the word “institution” in the <manual_label docid="Municipal Freedom of Information Act" id="100" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label id="101" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Ontario
+statute</manual_label></manual_label>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[40]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+found that the <manual_label docid="Municipal Freedom of Information Act" id="102" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label id="103" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Ontario statute</manual_label> </manual_label>specifically listed the entities considered
+“institutions” in <manual_label docid="Institutions" id="104" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56p11" verified="true"><manual_label id="105" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">Regulation 372/91</manual_label></manual_label>. However, it was not a complete list. In
+fact, several decisions by the Information and Privacy Commissioner of Ontario
+reflected the need to interpret and apply this definition for the purposes of
+the public’s right to find out more about entities considered municipal institutions.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[41]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Information and Privacy Commissioner of Ontario on a few occasions had to
+determine whether an entity belonged to a municipality. If it did, this meant
+that the public had a statutory right to know more about its activities.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[42]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Information and Privacy Commissioner of Ontario therefore had to establish
+criteria to guide this statutory analysis.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[43]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">For
+everyone’s benefit, the <manual_label docid="TEDCO ON IPC 2005" id="106" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://www.canlii.org/en/on/onipc/doc/2005/2005canlii56347/2005canlii56347.html" verified="true"><manual_label id="107" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Commissioner of Ontario’s decision</manual_label></manual_label> was referred to the
+Court of Appeal to establish broader case law.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[44]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Court of Appeal in <b><i></i></b><manual_label docid="TEDCO ONCA 2008" id="108" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1wvjc" verified="true"><b><i><manual_label id="109" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">City of Toronto Economic Development Company v.
+Ontario (Information and Privacy Commissioner)</manual_label> </i></b>(“<manual_label id="110" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">TEDCO</manual_label>”<a href="#_ftn3" name="_ftnref3" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Calibri",sans-serif'>[3]</span></span></a>)<b></b></manual_label><b> </b>had to determine if
+TEDCO was an entity deemed to be a part of the municipality of Toronto pursuant
+to <manual_label docid="Municipal Freedom of Information Act" id="111" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label fragmentid="sec 2(3)" id="112" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 2(3)</manual_label></manual_label> above, that is, an “institution” where all of its members or
+officers are appointed or chosen by Toronto City Council, or appointed or
+chosen by or under the authority of the City.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[45]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Court of Appeal determined that the City of Toronto, the sole shareholder of
+TEDCO, provided a significant nexus between City Council’s authority and the
+officers of TEDCO, even though TEDCO’s members or officers were not appointed
+or chosen by Toronto City Council.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[46]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Court of Appeal noted the important fact that City Council appointed the members
+of TEDCO’s Board of Directors, who then appointed its members, thus exercising
+indirect authority over TEDCO. The Court of Appeal also noted</span></p>
+<p class="MsoListParagraph" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">that the sole
+purpose of TEDCO, a non-profit corporation, was to promote the City of
+Toronto’s economic development;</span></p>
+<p class="MsoListParagraph" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">that TEDCO is a
+complex bureaucratic structure of public administration; and</span></p>
+<p class="MsoListParagraph" style="margin-bottom:10.0pt;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">that it is
+contrary to the purpose of the <i></i><manual_label docid="Municipal Freedom of Information Act" id="113" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><i><manual_label id="114" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Act</manual_label></i> </manual_label>and access to information legislation
+to permit the City of Toronto to evade its statutory duty to provide its
+residents with access to TEDCO information simply by delegating its powers to a
+board of directors over which it holds ultimate authority.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[47]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">As in
+<manual_label docid="Durham (Regional Municipality) (Re)" id="115" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/22m7x" verified="true"><manual_label id="116" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">MO-2393</manual_label></manual_label><a href="#_ftn4" name="_ftnref4" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>[4]</span></span></a>
+and in most other similar cases handled by the Information and Privacy
+Commissioner of Ontario, the Commissioner often refers to the Court of Appeal
+decision in <i><manual_label docid="TEDCO ONCA 2008" id="117" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1wvjc" verified="true"><manual_label id="118" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">TEDCO</manual_label></manual_label></i> to further the purposes of the <i><manual_label docid="Municipal Freedom of Information Act" id="119" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label id="120" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Act</manual_label></manual_label></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[48]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">However,
+even though the Ontario legislation sets out the key criterion of whether an
+entity is a part of a municipality, the Ontario Commissioner nonetheless deemed
+it appropriate to conduct a more extensive analysis and consider other relevant
+criteria on this issue in <manual_label docid="London District Catholic School Board (Re)" id="121" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/gfx4z" verified="true"><manual_label id="122" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">MO-3146</manual_label></manual_label>.<a href="#_ftn5" name="_ftnref5" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>[5]</span></span></a></span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[49]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+other criteria or indicators seek to guide the assessment of the issue of what
+is meant by the “institution” of a municipality within the meaning of the <i><manual_label docid="Municipal Freedom of Information Act" id="123" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label id="124" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipal
+Freedom of Information and Protection of Privacy Act</manual_label></manual_label></i>:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in"><i><span style="font-size:12.0pt;line-height:115%">1.<span style='font:7.0pt "Times New Roman"'>     
+</span></span></i><i><span style="font-size:12.0pt;line-height:115%">What are
+the purposes of the entity in question?</span></i></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in"><i><span style="font-size:12.0pt;line-height:115%">2.<span style='font:7.0pt "Times New Roman"'>     
+</span></span></i><i><span style="font-size:12.0pt;line-height:115%">Does the
+municipality in question have the same purposes as the entity?</span></i></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in"><i><span style="font-size:12.0pt;line-height:115%">3.<span style='font:7.0pt "Times New Roman"'>     
+</span></span></i><i><span style="font-size:12.0pt;line-height:115%">What is
+the relationship between the municipality and the entity?</span></i></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in"><i><span style="font-size:12.0pt;line-height:115%">4.<span style='font:7.0pt "Times New Roman"'>     
+</span></span></i><i><span style="font-size:12.0pt;line-height:115%">Does the
+municipal council appoint or choose the members of the entity?</span></i></p>
+<p class="MsoListParagraph" style="margin-bottom:12.0pt;text-align:justify;
+text-indent:-.25in"><i><span style="font-size:12.0pt;line-height:115%">5.<span style='font:7.0pt "Times New Roman"'>      </span></span></i><i><span style="font-size:12.0pt;line-height:115%">Does the municipal council exercise
+any control or authority over the entity?</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[50]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Court of Appeal for Ontario decision and the above criteria developed by the
+Office of the Information and Privacy Commissioner of Ontario provide us with
+guidance in our interpretation of the provision in New Brunswick’s legislation.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[51]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+realize that the <manual_label docid="Municipal Freedom of Information Act" id="125" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/568d0" verified="true"><manual_label id="126" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Ontario access-to-information legislation</manual_label> </manual_label>sets out specific
+factors or conditions for determining whether an entity is a part of a
+municipality, and that these factors or conditions are not included in <manual_label docid="Right to Information Act" id="127" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="128" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">New
+Brunswick’s legislation</manual_label></manual_label>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[52]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Consequently,
+and since the definition of a “local government body” in New Brunswick is much
+broader, we are not limited to these factors and criteria alone in our
+analysis.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in"><b><i><span style="font-size:12.0pt;
+line-height:115%">Related legislation in New Brunswick</span></i></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[53]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">According
+to <manual_label docid="Right to Information Act" id="129" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 1" id="130" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 1</manual_label></manual_label> – “local government body” means </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style="font-size:12.0pt;line-height:115%">a municipality or any office of a
+municipality, including a municipal police force, </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style="font-size:12.0pt;line-height:115%">a local service district,</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>       </span></span><span style="font-size:12.0pt;line-height:115%">a rural community,</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">d.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style="font-size:12.0pt;line-height:115%">a local board as defined in</span></p><p class="MsoListParagraphCxSpMiddle" style="margin-right:.5in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%"> <manual_label docid="Municipalities Act" id="131" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 90.1" id="132" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section
+90.1</manual_label> of the <i><manual_label id="133" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></i></manual_label><i></i>, and </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+12.0pt;margin-left:.5in;text-align:justify;text-indent:-.25in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">e.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="font-size:12.0pt;line-height:115%">any other body
+designated in <manual_label docid="Right to Information Act" id="134" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="schedule A" id="135" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Schedule A</manual_label></manual_label> as</span></p><p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+12.0pt;margin-left:.5in;text-align:justify;text-indent:-.25in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%"> a local government body. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[54]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The <i><manual_label docid="Right to Information Act" id="136" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="137" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>
+gives no indication of what is meant by a municipality or “any office of a
+municipality.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[55]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In our
+opinion, it follows then that if the legislators had intended to limit the application
+of this provision by adding specific factors or criteria, they would have done
+so, or they would not have added “or any office of a municipality”:</span></p>
+<p class="MsoNormal" style="margin-left:.5in;line-height:115%;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%">“a municipality or any office of a
+municipality.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[56]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Town of Caraquet, in its interpretation of the definition of “local government
+body,” believes that it includes a local board as defined in<manual_label docid="Municipalities Act" id="138" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"> <manual_label fragmentid="sec 90.1" id="139" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 90.1</manual_label></manual_label> of
+the New Brunswick <i><manual_label docid="Municipalities Act" id="140" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label id="141" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></manual_label></i>. The Town argues that the
+legislators intended to limit the application of the clause “or any office of a
+municipality,” since they specified as much by referring to <manual_label docid="Municipalities Act" id="142" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 90.1" id="143" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 90.1</manual_label></manual_label>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[57]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">It
+would be useful to review the definition of “local board” from the <i><manual_label docid="Municipalities Act" id="144" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label id="145" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities
+Act</manual_label></manual_label></i>:</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><i><span style="font-size:12.0pt;
+line-height:115%">a body whose entire membership is appointed under the
+authority of a council but does not include an industrial commission or its
+board of directors.</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[58]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+view of this definition, we cannot accept the Town’s argument, since the matter
+at hand concerns the sub-definition of a “local government body” as set out in <u><manual_label docid="Right to Information Act" id="146" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid='sec 1 "local governement body" (a)' id="147" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph
+(<i>a</i>)</manual_label></manual_label></u>, and not the definition in <manual_label docid="Right to Information Act" id="148" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid='sec 1 "local governement body" (b)' id="149" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph (<i>d</i>)</manual_label></manual_label>, which concerns
+a <u>local board</u>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[59]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+addition, the legislators clarified what they meant by a “local board” by
+referring to the <i><manual_label docid="Municipalities Act" id="150" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label id="151" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></manual_label></i>, and chose not to do so in the case
+of the phrase “municipality or any office of a municipality.” We must therefore
+conclude that the legislators clearly intended not to limit the application of
+this provision.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[60]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Town of Caraquet also asked for a review of what is meant by the English
+version, i.e., “or any office of a municipality,” as “office” is not the same
+as “<i>institution</i>” and could limit its application.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[61]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+other provincial access-to-information legislation in Canada, the word “office”
+is not used in English, but rather “institution.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[62]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">For
+guidance in French, we looked to the <i></i><manual_label docid="Le Petit Robert" id="152" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" uri="https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058" verified="true"><i></i><manual_label id="153" labelname="title" parent="secondary sources" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"><i>Le Petit Robert</i> dictionary</manual_label></manual_label><a href="#_ftn6" name="_ftnref6" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Calibri",sans-serif'>[6]</span></span></a>, which indicates the
+following </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">under the word
+<manual_label docid="" id="154" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" verified="true">“<manual_label fragmentid="" id="155" labelname="fragment" non_standard="false" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="true">institution</manual_label>”</manual_label>:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style='font-size:12.0pt;line-height:115%;font-family:
+"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span><i><span style="font-size:12.0pt;line-height:115%">être l’institution de qqn,
+veut dire avoir été institué par lui</span></i></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span><i><span style="font-size:12.0pt;line-height:115%">qui relève du droit public</span></i></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">under the verb
+<manual_label docid="" id="156" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" verified="true">“<manual_label fragmentid="" id="157" labelname="fragment" non_standard="false" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="true">instituer</manual_label>” </manual_label></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style='font-size:12.0pt;line-height:115%;font-family:
+"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span><i><span style="font-size:12.0pt;line-height:115%">établir officiellement en
+charge, en fonction</span></i></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.0in;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span><i><span style="font-size:12.0pt;line-height:115%">établir d’une manière durable</span></i></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:1.0in;text-align:justify;text-indent:-.25in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span><i><span style="font-size:12.0pt;line-height:115%">«La force publique est
+instituée pour l’avantage de tous» (</span></i><span style="font-size:12.0pt;line-height:115%">declaration of human rights<i>)</i></span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[63]<span style='font:7.0pt "Times New Roman"'>          </span></span><manual_label docid="Webster’s Canadian Dictionary and Thesaurus" id="158" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" uri="https://www.canlii.org/en/ca/scc/doc/1995/1995canlii108/1995canlii108.html" verified="true"><span style="font-size:
+12.0pt;line-height:115%"><span style='font:7.0pt "Times New Roman"'>
+</span></span><span style="font-size:12.0pt;line-height:115%"><manual_label id="159" labelname="title" parent="secondary sources" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Webster’s
+Canadian Dictionary and Thesaurus</manual_label></span></manual_label><span style="font-size:12.0pt;line-height:115%"><a href="#_ftn7" name="_ftnref7" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>[7]</span></span></a>
+defines <manual_label docid="Webster’s Canadian Dictionary and Thesaurus" id="160" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" uri="https://www.canlii.org/en/ca/scc/doc/1995/1995canlii108/1995canlii108.html" verified="true">“<manual_label fragmentid="" id="161" labelname="fragment" non_standard="false" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="true">office</manual_label>”</manual_label> as follows: </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">A room or building where business is carried out; the
+people there; the location, staff, of <u>authority of a Government department</u>,
+etc.; a task or function; a position of authority; a duty; a religious
+ceremony, rite. (Emphasis added)</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[64]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In our
+view, the phrase “or any office of a municipality” in the <i><manual_label docid="Right to Information Act" id="162" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="163" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> expresses
+the legislators’ intent to specify that it includes the office of a government
+body, not to limit its application to a physical space.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[65]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Had
+that been the legislators’ intent, the <i><manual_label docid="Right to Information Act" id="164" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="165" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> would include the same
+equivalents found in other provisions as follows</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">The heading of
+<manual_label docid="Right to Information Act" id="166" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="part 4" id="167" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Part 4</manual_label> of the <i><manual_label id="168" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i> is “Office of the Access to Information and Protection
+of Privacy Commissioner,” and the French equivalent is “<i>Bureau;</i>” </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">The heading of
+<manual_label docid="Right to Information Act" id="169" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 58" id="170" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 58</manual_label> of the <i><manual_label id="171" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i> is “Staff of the Office of the Access to
+Information and Privacy Commissioner,” and the French equivalent is “<i>Bureau;</i>”
+</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">In<manual_label docid="Right to Information Act" id="172" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"> <manual_label fragmentid='sec 1("head")(a) and sec 1("public body")(a)' id="173" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraphs (<i>a</i>)
+of the definitions of “head” and “public body</manual_label>,”</manual_label> i.e., “in the case of a
+department, secretariat or office of the Province of New Brunswick…,” the
+French equivalent is “<i>bureau;</i>” </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">For the
+definition of “public body,” <manual_label docid="Right to Information Act" id="174" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid='sec 1 "public body" (a)(iv)' id="175" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subparagraphs (iv) of paragraph (<i>a</i>)</manual_label></manual_label>: “the
+office of a Minister of the Crown” and <manual_label docid="Right to Information Act" id="176" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid='sec 1 "public body" (b)(i)' id="177" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subparagraphs (i)</manual_label> and <manual_label fragmentid='sec 1 "public body" (b)(ii)' id="178" labelname="fragment" non_standard="true" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">(ii)</manual_label> of <manual_label fragmentid='sec 1 "public body" (b)(i)' id="179" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph
+(<i>b</i>)(i)</manual_label></manual_label> “the office of a member of the Legislative Assembly, the office
+of an officer of the Legislative Assembly,” the French equivalent in every case
+is “<i>bureau</i>;” and </span></p>
+<p class="MsoListParagraph" style="margin-bottom:12.0pt;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%;">•<span style='font:7.0pt "Times New Roman"'>        
+</span></span><span style="font-size:12.0pt;line-height:115%">For “Office of
+the Attorney General,” the French equivalent is “<i>Cabinet</i>.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[66]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+addition, in the definition of “local government body,” the legislators did not
+use the French equivalent “<i>bureau</i>” or “<i>cabinet</i>” to mean “office.”
+They used the word “<i>institution</i>” instead. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[67]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In our
+view, the legislators’ intent was not to limit “or any office of a
+municipality” to the physical offices of a municipality, but rather to give
+broader scope to the practical meaning of the word.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[68]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+light of the above definition of “office,” we conclude that the legislators
+intended to include in this expression <u>all of the entities that come under
+the authority of a municipality</u>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[69]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Manitoba <i><manual_label docid="Freedom of Information Act" id="180" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lrp" verified="true"><manual_label id="181" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Freedom of Information and Protection of Privacy Act</manual_label></manual_label><a href="#_ftn8" name="_ftnref8" title=""><span class="MsoFootnoteReference"><b><span style='font-size:12.0pt;
+font-family:"Calibri",sans-serif'>[8]</span></b></span></a></i> is
+relevant here. “Local government body” is defined in the <i><manual_label docid="Right to Information Act" id="182" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="183" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> as follows:</span></p>
+<p class="ind1c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;text-align:justify;line-height:115%;
+background:white"><b><span style='font-family:"Calibri",sans-serif;
+color:black'>“local government body”</span></b></p>
+<p class="ind2c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+line-height:115%;background:white"><span style='font-family:"Calibri",sans-serif;
+color:black'>a.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style='font-family:"Calibri",sans-serif;
+color:black'>The City of Winnipeg,</span></p>
+<p class="ind2c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+line-height:115%;background:white"><span style='font-family:"Calibri",sans-serif;
+color:black'>b.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style='font-family:"Calibri",sans-serif;
+color:black'>a municipality,</span></p>
+<p class="ind2c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+line-height:115%;background:white"><span style='font-family:"Calibri",sans-serif;
+color:black'>c.<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style='font-family:"Calibri",sans-serif;
+color:black'>a local government district,</span></p>
+<p class="ind2c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+line-height:115%;background:white"><span style='font-family:"Calibri",sans-serif'>d.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style='font-family:"Calibri",sans-serif;color:black'>a council of a </span><span style='font-family:"Calibri",sans-serif'>community under <i><manual_label docid="The Northern Affairs Act" id="184" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/5626h" verified="true"><manual_label id="185" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">The<span class="apple-converted-space"> </span>Northern Affairs Act</manual_label></manual_label></i>,</span></p>
+<p class="ind2c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+line-height:115%;background:white"><span style='font-family:"Calibri",sans-serif'>e.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style='font-family:"Calibri",sans-serif'>a planning district
+established under <i></i><i></i><manual_label docid="The Planning Act" id="186" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/jpvq" verified="true"><i></i><manual_label id="187" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>The</i><span class="apple-converted-space"> </span><i>Planning
+Act</i></manual_label><i></i></manual_label><i></i><i></i>,</span></p>
+<p class="ind2c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+line-height:115%;background:white"><span style='font-family:"Calibri",sans-serif;
+color:black'>f.<span style='font:7.0pt "Times New Roman"'>       
+</span></span><span style='font-family:"Calibri",sans-serif'>a
+conservation district established under <i><manual_label docid="The Conservation Districts Act" id="188" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/528n3" verified="true"><manual_label id="189" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">The<span class="apple-converted-space"> </span>Conservation Districts Act</manual_label></manual_label></i>,</span></p>
+<p class="ind2c" style="margin-top:0in;margin-right:6.0pt;margin-bottom:12.0pt;
+margin-left:.75in;text-align:justify;text-indent:-.25in;line-height:115%;
+background:white"><span style='font-family:"Calibri",sans-serif;color:black'>g.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style='font-family:"Calibri",sans-serif;color:black'>any other body
+designated as a local government body in the regulations; (« organisme
+d’administration locale »)</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[70]<span style='font:7.0pt "Times New Roman"'>          </span></span><manual_label docid="Access and Privacy Regulation" id="190" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56dg7" verified="true"><span style="font-size:12.0pt;line-height:115%"><span style='font:7.0pt "Times New Roman"'>
+</span></span><span style="font-size:12.0pt;line-height:115%"><manual_label id="191" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Regulation
+64/98</manual_label> </span></manual_label><span style="font-size:12.0pt;line-height:115%">of the <i><manual_label docid="Freedom of Information Act" id="192" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lrp" verified="true"><manual_label id="193" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> states in <manual_label docid="Access and Privacy Regulation" id="194" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56dg7" verified="true"><manual_label fragmentid="sec 12.3" id="195" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 12.3</manual_label></manual_label> that the bodies indicated in
+<manual_label docid="Access and Privacy Regulation" id="196" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56dg7" verified="true"><manual_label fragmentid="schedule F" id="197" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Schedule F</manual_label> of the <manual_label id="198" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Regulation</manual_label></manual_label> are also designated as local government bodies.
+Police boards established by the municipalities are set out in <manual_label docid="Access and Privacy Regulation" id="199" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56dg7" verified="true"><manual_label fragmentid="schedule F" id="200" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Schedule F</manual_label></manual_label>. In
+contrast, in the <manual_label docid="Right to Information Act" id="201" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="202" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">New Brunswick statute</manual_label></manual_label>, the designation of local government
+body is even more inclusive, as it describes a “municipality or any office of a
+municipality, including a municipal police force,” i.e., offices <i>in addition
+to</i> municipal police forces.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[71]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Having
+reviewed the related case law and the factors and methodology for interpreting
+what the <i><manual_label docid="Right to Information Act" id="203" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="204" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i> means by “or an office of the municipality,” we will apply
+all of these aspects to the case at hand.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[72]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+should add that our determination shall be made solely for the purposes of the <i><manual_label docid="Right to Information Act" id="205" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="206" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Right
+to Information and Protection of Privacy Act</manual_label></manual_label></i>, i.e., as regards access to
+information and the public’s right to find out more about the activities of
+public bodies. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[73]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+shall now determine if AcadieNor Inc. is an “office” of the Town of Caraquet
+within the meaning and for the purposes of the application of the <i><manual_label docid="Right to Information Act" id="207" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="208" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></manual_label></i>. </span></p>
+<p class="MsoNormal" style="text-align:justify;line-height:115%;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><b><span style="font-size:12.0pt;line-height:115%">APPLICATION OF THE <i><manual_label docid="Right to Information Act" id="209" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="210" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">ACT</manual_label></manual_label></i></span></b></p>
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><b><i><span style="font-size:12.0pt;line-height:115%">The Town of Caraquet and
+the creation of AcadieNor Inc.</span></i></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[74]<span style='font:7.0pt "Times New Roman"'>       </span></span><manual_label docid="Municipalities Act" id="211" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><span style="font-size:
+12.0pt;line-height:115%"><span style='font:7.0pt "Times New Roman"'>   </span></span><manual_label fragmentid="sec 7(1)" id="212" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true"><span style="font-size:
+12.0pt;line-height:115%"><span style='font:7.0pt "Times New Roman"'>
+</span></span><span style="font-size:12.0pt;line-height:115%">Subsection
+7(1)</span></manual_label><span style="font-size:12.0pt;line-height:115%"> of the <i><manual_label id="213" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></i><i></i></span></manual_label><span style="font-size:12.0pt;line-height:115%"><i></i> gives the Town of Caraquet, like all
+other municipalities, the authority to provide services that include industrial
+development and promotion. In addition, pursuant to <manual_label docid="Municipalities Act" id="214" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 4(3)" id="215" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 4(3)</manual_label></manual_label>, the
+municipality may create committees, departments, bureaus and agencies of the
+municipality, and delegate administrative powers and duties to them. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[75]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">AcadieNor
+Inc. claims that it operates independently of the Town to avoid any influence
+from Town Council because, in the past, the Commission du développement
+économique de Caraquet saw some projects collapse as a result of such
+interference. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[76]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Following
+these provisions, in January 2004, the Town of Caraquet created the Commission
+de développement économique de Caraquet. The Commission’s primary objective was
+to contribute to the region’s economic development. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[77]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">One of
+the Commission’s first <i>Act</i>ions was to take the necessary steps to
+acquire a decommissioned textile factory in the industrial park in Caraquet,
+turn it into an industrial complex and manage it.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[78]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">At the
+time, the Town believed that this development project was critical to attract
+new businesses. The factory belonged to the Province of New Brunswick.
+Following these steps, ownership of the factory was transferred to the Town of
+Caraquet for the sum of one dollar in 2001.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[79]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Town
+officials realized that it would be better if a body other than the Commission
+de développement économique de Caraquet managed this space to make the venture
+more effective and viable, and to shield it from “political interference”.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[80]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">According
+to the Town of Caraquet and AcadieNor Inc., the latter was established in June
+2005 when seven citizens of the community of Caraquet, including the mayor and
+a town councillor, made an application under the <i><manual_label docid="New Brunswick Companies Act" id="216" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/557qs" verified="true"><manual_label id="217" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Companies Act</manual_label></manual_label></i> to obtain
+Letters Patent. The Letters Patent were obtained on June 24, 2005. AcadieNor
+Inc. was designated as a non-profit corporation. The registered Letters Patent
+indicate that the primary objective of AcadieNor Inc. is to contribute to the
+economic development of the Caraquet region. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[81]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">However,
+the idea of creating a municipal body to promote the local economy in Caraquet
+had been floated years earlier. In an article titled <i>Gilles Lanteigne de
+retour à la barre d’AcadieNor</i>,<a href="#_ftn9" name="_ftnref9" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>[9]</span></span></a>
+the province’s French daily, reported that Gilles Lanteigne was back as
+president of AcadieNor following a long absence, having headed AcadieNor from
+early 2000 to 2006. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[82]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">To
+support the finding that AcadieNor Inc. is the result of a sponsorship by the
+Town of Caraquet, we also considered the article published on October 18, 2006,<a href="#_ftn10" name="_ftnref10" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Calibri",sans-serif'>[10]</span></span></a> and titled “Caraquet compte
+sur AcadieNor,” which describes AcadieNor as a municipal entity. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">[translation] The new municipal entity’s mission is to
+support local entrepreneurs and bring investment to the region. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">The Greater Caraquet region in the Acadian Peninsula has
+unveiled its latest economic development tool: AcadieNor, whose mission is to
+support local entrepreneurs and attract new businesses to the region. This
+initiative by the Town of Caraquet is the formal result of efforts <b>begun
+more than two years ago</b>. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">AcadieNor is banking especially on expertise in the region in
+traditional sectors such as the fishery and related areas to attract investors.
+To recruit investors, Executive Director Clifford Kennedy is relying on an
+array of promotional tools that include a website and a CD. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">The industrial complex in Caraquet is at the heart of this
+promotional campaign. It is being touted as an asset for attracting foreign
+investors. Leasing costs are competitive, and a wide range of services is
+available. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">Clifford Kennedy has extensive economic development
+expertise, having worked in the industry for over 25 years for the Province of
+New Brunswick. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">In the past two years, he has travelled to the United States
+and Asia on behalf of the Town of Caraquet. “AcadieNor is simply the structure
+and official tool that we have established. The work is the same,” Kennedy
+noted. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">Caraquet mayor Antoine Landry has high hopes for the new
+agency. He explained that the region has never been in a better position to
+persuade entrepreneurs to set up shop there.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[83]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We of
+course note the name of the municipal body used to describe AcadieNor. The
+description reflects the public’s perception that AcadieNor is a <u>municipal
+body and a tool of the Town of Caraquet</u> for promoting economic development
+in the region, as was reported by the media in 2006 in introducing AcadieNor to
+the public and the rest of New Brunswick.</span></p>
+<p class="MsoNormal" style="margin-right:106.5pt;text-align:justify;line-height:
+115%"><b><i><span style="font-size:12.0pt;line-height:115%">Indications
+that AcadieNor Inc. is an office of the Town of Caraquet</span></i></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[84]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">AcadieNor
+Inc. established by-laws that in no way indicate that Caraquet Town Council is
+responsible for appointing or choosing AcadieNor Inc.’s members, officers or
+directors. The by-laws do not stipulate that a proportion of its members must
+come from Caraquet Town Council. However, we note that AcadieNor Inc.’s members
+include the mayor and the General Manager of the Town of Caraquet.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[85]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Another
+indication we noted earlier that supports the finding that AcadieNor Inc. is an
+“office” of the Town of Caraquet can be found in its Letters Patent: Upon its
+dissolution, the residual assets are to be distributed or transferred to the
+Town of Caraquet.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[86]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">However,
+a few months ago, in March 2016, AcadieNor Inc. obtained Supplementary Letters
+Patent amending this plan, such that its residual assets are to be distributed
+to a registered Canadian charity or other recognized beneficiary listed in the <i><manual_label docid="Income Tax Act" id="218" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56p8v" verified="true"><manual_label id="219" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Income
+Tax Act</manual_label></manual_label></i> and, if possible, to a non-profit association having essentially “<u>the
+same objectives as the corporation</u>.” </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[87]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">This
+amendment would seem to signal a certain degree of independence from the Town
+of Caraquet. However, for the purposes of our analysis, this aspect does not
+trump the other convincing evidence. For all intents and purposes, the
+successor would remain loyal to the purposes of the Town of Caraquet, which
+came up with the idea of creating AcadieNor Inc. first.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[88]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">With
+respect to the factors present since its creation, we consider the following
+commercial lease to be a significant connection with the Town of Caraquet as
+one of its offices:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="font-size:12.0pt;line-height:115%">The signing of a
+commercial lease in 2008 (registered on January 21, 2008, under the <i><manual_label docid="Land Titles Act" id="220" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/564nf" verified="true"><manual_label id="221" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Land
+Titles Act</manual_label></manual_label></i>, and purported to be in force since January 1, 2006), which sets
+out the obligations of both bodies in connection with the industrial complex;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="font-size:12.0pt;line-height:115%">Under the terms
+of the lease, AcadieNor Inc. is to manage the industrial complex, owing to its
+duty to contribute to the economic development of the Town of Caraquet; and</span></p>
+<p class="MsoListParagraph" style="margin-bottom:12.0pt;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">c.<span style='font:7.0pt "Times New Roman"'>       </span></span><span style="font-size:12.0pt;line-height:115%">The lease includes a lot and a
+132,000-square-foot industrial complex in a 190-acre industrial park. The
+entire space is let by the Town of Caraquet to AcadieNor for the modest sum of
+$1,200 per month (plus HST, insurance, property taxes, water and sewer).</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[89]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">This
+lease provides for the primary objective in creating AcadieNor in 2005—and
+possibly earlier, since 2000 if the report at the time is correct—namely, to
+pursue activities involved in promoting the development of the Caraquet region,
+as described in the purposes of its Letters Patent. In our opinion, this
+further strengthens the indication that AcadieNor Inc. is not independent of the
+Town of Caraquet, but rather is an entity that supports it exclusively.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[90]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+fact, the objectives of AcadieNor, as set out in its Letters Patent, flow from
+the economic development objectives for the Town of Caraquet. The parties have
+been working to achieve this common goal for many years. The Town of Caraquet
+and AcadieNor are connected by the management of a major industrial complex
+belonging to the Town of Caraquet, by a well-defined commercial lease to ensure
+that the objectives are met by AcadieNor, and by the fact that the mayor and
+the General Manager of the Town of Caraquet are on AcadieNor Inc.’s Board of
+Directors. In our view, these indications, based on uncontested facts, show
+that the municipality of Caraquet has authority over this entity.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[91]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+addition, we draw attention to the fact that, every year since 2006, the Town
+of Caraquet has made grants to AcadieNor Inc. Those grants now total $411,756. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[92]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">The
+Town is of course entitled to make grants, pursuant to <manual_label docid="Municipalities Act" id="222" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 90.01(1)" id="223" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">subsection 90.01(1)</manual_label> of
+the <i><manual_label id="224" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></i></manual_label><i></i>, provided that—as stipulated in<manual_label docid="Municipalities Act" id="225" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"> <manual_label fragmentid="sec 90.01(1)(c)" id="226" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph
+90.01(1)(<i>c</i>)</manual_label></manual_label>—the grant is made to a corporation that assists in the
+development of the municipality. For our analysis, the contribution to funding
+for AcadieNor Inc. through these grants further supports the notion that the
+Town of Caraquet exercises significant authority over this corporation,
+definitely for its own economic development needs, and has done so every year
+without exception. In fact, such annual grants could be considered an annual
+operating budget.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[93]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">AcadieNor
+Inc. claims that, for the Town of Caraquet to have control over it, the
+incorporated status of AcadieNor Inc. would have to be pierced. To do so, it
+would have to be shown that the Town of Caraquet is the puppet master and that
+AcadieNor Inc. is actually its puppet, as indicated in the Supreme Court of
+Canada decision <i></i><manual_label docid="Aluminum Company of Canada" id="227" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1ttsd" verified="true"><i><manual_label id="228" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Aluminium Company of Canada Ltd. v. The Corporation of the
+City of Toronto</manual_label>,</i> 1944</manual_label>.<a href="#_ftn11" name="_ftnref11" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>[11]</span></span></a>
+According to AcadieNor Inc., there are no facts that would allow anyone to
+claim that AcadieNor is under the control of the Town of Caraquet.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[94]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+have reviewed the<manual_label docid="Aluminum Company of Canada" id="229" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1ttsd" verified="true"> <manual_label id="230" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">judgment</manual_label></manual_label> handed down by the Supreme Court of Canada in 1944.
+This <manual_label docid="Aluminum Company of Canada" id="231" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1ttsd" verified="true"><manual_label id="232" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">judgment</manual_label></manual_label> concerns a case involving two corporations, with one of the two
+corporations seeking to distance itself from the other with regard to taxation
+liabilities. The Supreme Court examined the relationship between the two
+corporations to determine if they were related to each other for taxation
+purposes. One of the factors was the degree of control one corporation exercised
+over the other. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[95]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%;
+color:black">In the recent decision<i> <manual_label docid="86296 Canada" id="233" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/gjh0l" verified="true"><manual_label id="234" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">86296 Canada Ltd. v. Shoppers Realty
+Inc.</manual_label></manual_label></i>,<a href="#_ftn12" name="_ftnref12" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;color:black'>[12]</span></span></a>
+the Court reiterated the principles established in the </span><i><span style="font-size:12.0pt;line-height:115%;background:white"><manual_label docid="Aluminum Company of Canada" id="235" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1ttsd" verified="true"><manual_label id="236" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Aluminium
+Company</manual_label></manual_label></span></i><span style="font-size:12.0pt;line-height:115%;
+background:white"> decision and affirmed that it was a taxation matter, and
+addressed the issue of “control” when dealing with related corporations. The
+Court indicated further </span><span style="font-size:12.0pt;
+line-height:115%">that <i><span style="background:white"><manual_label docid="Aluminum Company of Canada" id="237" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1ttsd" verified="true"><manual_label id="238" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Aluminium Company</manual_label></manual_label></span></i><span style="background:white"> purports as follows:</span></span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;background:white"><span style="font-size:12.0pt;line-height:115%;color:black">“In light of
+the foregoing cases, a corporation may be regarded as the <i>alter ego</i> of
+another corporation <u>when there is such a close relationship between
+them that what apparently concerns one <i>Act</i>ually pertains to the <i>Act</i>ivities
+of the other</u>. Undoubtedly a large number of factors can be identified to
+determine the existence of such a relationship: in my opinion, however, the one
+that is most explicit and most likely to <u>cover all aspects of the concept is
+control</u>.”</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[96]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">AcadieNor
+Inc. insists that it is not an office of the Town of Caraquet, as the latter
+does not exercise any control over its operations or decisions. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in"><span style="font-size:12.0pt;line-height:115%">[97]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+will point out that the degree of control exercised by a municipality over an
+entity is but one of several factors that reflect their relationship. We are
+not convinced that the Town of Caraquet does not exercise control over
+AcadieNor Inc.’s operations. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[98]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">Since
+its creation, AcadieNor Inc.’s directors have included members of Caraquet Town
+Council.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[99]<span style='font:7.0pt "Times New Roman"'>          
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+addition, AcadieNor indicated to us during our investigation that AcadieNor
+Inc.’s current president reports to the Town of Caraquet every three months on
+projects carried out to support economic development in the region. The Town
+has said that such a process before Caraquet Town Council does not exist.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[100]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">On the
+contrary, a May 6, 2013 presentation by the members of Caraquet Town
+Council, referenced in the minutes of the same date, indicated that AcadieNor
+exists solely for Caraquet’s benefit. </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[translation] The industrial complex is a building
+that the Town of Caraquet bought from the provincial government in 2001 for the
+sum of $1. Under the direction of AcadieNor and its Board of Directors, chaired
+by Antoine Landry, and with the assistance of various levels of government, the
+complex was completely refurbished: electricity, plumbing, roof, fire alarm
+system, and layout inside certain rooms. </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">Today, the 132,000-square-foot industrial complex is
+home to 18 companies that employ a total of 150 people in different
+industries. The remaining 8,000 square feet is to be leased shortly. </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">This building, the envy of many neighbouring
+communities, should in future generate considerable revenue annually. The
+industrial complex is a major asset for the economic development of the Town of
+Caraquet. <b>It is the only building from which the town benefits and which
+could make a difference for many development projects.</b></span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">The industrial complex and AcadieNor are major assets for our
+region, and it is very important to keep the complex.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[101]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">In a
+Town document<a href="#_ftn13" name="_ftnref13" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>[13]</span></span></a>
+made public in recent months, the Town claims that AcadieNor Inc. is working
+with it on economic development initiatives that the Town, for strategic or
+practical reasons, could not carry out. To that end, the Town hired a
+development officer to work closely with AcadieNor Inc.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[102]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+addition, in a document made public, the Town states that AcadieNor Inc. “gives
+the Town a small role on its Board of Directors by allocating seats for
+administrative staff and members of Town Council so that it can count on the Town’s
+understanding and, if necessary, support.” [translation] The economic
+development officer reports to Caraquet’s General Manager and Town Council.
+Thus, for all intents and purposes, reporting is now done by this Town
+employee.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[103]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">According
+to the officers of AcadieNor Inc., the Town of Caraquet and Town Council do not
+have any authority to appoint or remove members of AcadieNor’s Board of
+Directors. Furthermore, neither Town Council members nor Town of Caraquet
+officials are ex-officio members of AcadieNor Inc.’s Board of Directors. The
+mayor and the General Manager of the Town of Caraquet sit on the Board of
+Directors “not as ex-officio members, but rather in their personal capacity.”
+The Town of Caraquet is of the same opinion. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[104]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">However,
+on reading a newsletter published quarterly by the Town of Caraquet, we are not
+swayed by this argument. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[105]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+newsletter Vol. 12, No. 3, covering the months from September to November 2007<a href="#_ftn14" name="_ftnref14" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Calibri",sans-serif'>[14]</span></span></a>, the first article deals
+with economic development in Caraquet, and AcadieNor in particular. We draw
+attention to the following excerpts: </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><b><span style="font-size:12.0pt;line-height:115%">[translation] Economic Development in
+Caraquet: A Serious Matter</span></b></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><i><span style="font-size:12.0pt;line-height:115%">Over the past few years, Town Council
+has ramped up its economic development efforts. The large-scale works at the
+Greater Caraquet Industrial Complex, meetings with numerous investors from the
+area and further afield, the railway file, <b>the creation of the Corporation
+de développement économique AcadieNor</b> and the commercial promotion of
+downtown <b>are some of the main issues to which your elected officials have
+devoted their attention</b></span></i><span style="font-size:12.0pt;
+line-height:115%">.</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">…</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">A development officer will be hired for the
+Corporation de développement économique AcadieNor. This individual will follow
+up on key files. <b>AcadieNor will have an annual budget of $125,000</b>, and
+its objective will be to attr<i>Act</i> and retain entrepreneurs wishing to set
+up shop in Greater Caraquet. </span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:10.0pt;
+margin-left:.5in;text-align:justify;line-height:115%;punctuation-wrap:simple;
+text-autospace:none;vertical-align:baseline"><b><span style="font-size:12.0pt;line-height:115%">For his part, Mayor Landry has
+confirmed that councillor Romain Robichaud <u>will be representing Council at
+AcadieNor</u> in the place of Gilles Lanteigne</span></b><span style="font-size:12.0pt;line-height:115%">, who has resigned as councillor in
+order to take up a new career challenge. Mr. Lanteigne was also the president
+of the Corporation. Marc Cormier, an engineer with the Town, will be stepping
+into the role of Executive Director of the corporation… .</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[106]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">This
+article confirms that members of Town Council sit on AcadieNor’s Board of
+Directors in an ex officio capacity, not just out of personal interest. </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[107]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">Consequently,
+we looked to the New Brunswick <i><manual_label docid="Municipalities Act" id="239" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label id="240" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></manual_label></i><a href="#_ftn15" name="_ftnref15" title=""><span class="MsoFootnoteReference"><span style='font-size:12.0pt;font-family:
+"Calibri",sans-serif'>[15]</span></span></a> to determine whether a
+member of Town Council can sit on the board of directors of a corporation.
+<manual_label docid="Municipalities Act" id="241" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 90.1 - sec 90.91" id="242" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Sections 90.1 to 90.91</manual_label> of the <i><manual_label id="243" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></i></manual_label><i></i> set out provisions with
+respect to conflicts of interest. <manual_label docid="Municipalities Act" id="244" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 90.1" id="245" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Section 90.1</manual_label></manual_label> presents several definitions,
+including the following ones, which we believe are relevant to our analysis: </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">“member” means a member of a municipal council or a local
+board;</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">“senior officer” means the chairman or any vice-chairman of
+the board of directors of a company… ;</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">“senior appointed officer” means a person employed or appointed
+by a municipality or a local board who fulfills the responsibilities of any of
+the following: a chief administrative officer or the person who has the primary
+responsibility to council for administration of the affairs of the
+municipality;</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[108]<span style='font:7.0pt "Times New Roman"'>      </span></span><manual_label docid="Municipalities Act" id="246" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><span style="font-size:
+12.0pt;line-height:115%"><span style='font:7.0pt "Times New Roman"'>
+</span></span><span style="font-size:12.0pt;line-height:115%"><manual_label fragmentid="sec 90.2(1)" id="247" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Section
+90.2(1)</manual_label> of the <i><manual_label id="248" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></span></manual_label><span style="font-size:12.0pt;line-height:115%"><i></i> states that, subject to <manual_label docid="Municipalities Act" id="249" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 90.3" id="250" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 90.3</manual_label></manual_label>, a member or a
+senior appointed officer has a conflict of interest if he, his nominee or a
+family associate is a shareholder in, or is a director or a senior officer of,
+a private company that has an interest in any other matter in which such
+council or local board is concerned that would be of financial benefit to the
+company. However, pursuant to <manual_label docid="Municipalities Act" id="251" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="se 90.3(g)" id="252" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">90.3(<i>g</i>)</manual_label></manual_label>, a director or senior officer of a
+company <u>incorporated for the purpose of carrying on business for and on
+behalf of a municipality</u> does not have a conflict of interest by reason
+only that he or a family associate is a member.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[109]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">However,
+the Town of Caraquet argues that, pursuant to <manual_label docid="Municipalities Act" id="253" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label fragmentid="sec 90.3(l)" id="254" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">paragraph 90.3(<i>l</i>)</manual_label>, not <manual_label fragmentid="sec 90.3(g)" id="255" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">(<i>g</i>)</manual_label></manual_label>,
+there is no conflict of interest. The former paragraph states: </span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:.5in;margin-bottom:
+10.0pt;margin-left:.5in;text-align:justify;punctuation-wrap:simple;text-autospace:
+none;vertical-align:baseline"><span style="font-size:12.0pt;
+line-height:115%">(<i>l</i>) a member or officer of a service club or
+charitable organization that is in receipt of a benefit from the municipality
+or local board.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[110]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">We
+disagree for the simple reason that throughout our investigation and our
+discussions with the Town of Caraquet and AcadieNor Inc., both entities told us
+repeatedly that AcadieNor Inc. is a non-profit corporation. At no time we were
+told that AcadieNor Inc. is a service club or charitable organization. Although
+AcadieNor Inc. is a non-profit corporation, it is neither a service club nor a
+charitable organization.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[111]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">Caraquet’s
+mayor and General Manager both sit on AcadieNor Inc.’s Board of Directors. In
+our opinion, this is another significant indication of the control that the
+Town of Caraquet exercises over AcadieNor’s Board of Directors to further the
+Town of Caraquet’s interests, not their own (in accordance with the provisions
+of the <i><manual_label docid="Municipalities Act" id="256" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><manual_label id="257" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></manual_label></i>).</span></p>
+<p class="MsoNormal" style="line-height:115%"><b><span style="font-size:12.0pt;line-height:115%">FINDINGS AND RECOMMENDATION</span></b></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[112]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+light of the foregoing, we reiterate our finding that the legislators’ intent
+to use the phrase “or an office of the municipality” was to group together
+under the heading local (municipal) government bodies all of the entities with
+which municipalities have a connection, based on shared goals, for the benefit
+of both entities, and to ensure that such entities remain open and transparent
+in the public’s eyes.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[113]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+light of the aforementioned facts, we find that AcadieNor Inc. is an “office”
+of the Town of Caraquet, as this corporation has significant ties with the Town
+and its Council, within the meaning of the <i><manual_label docid="Right to Information Act" id="258" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="259" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Right to Information and Protection
+of Privacy Act</manual_label></manual_label></i>.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[114]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">Our
+finding is made solely for the purposes of the <i><manual_label docid="Right to Information Act" id="260" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label id="261" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Right to Information and
+Protection of Privacy Act</manual_label></manual_label></i>, and we cannot make a determination with respect
+to the implications this has or may have on any other statutes to which the
+Town is subject. The Town cannot shirk its statutory duty to provide its
+citizens with access to this information simply by delegating its authority to
+a board of directors over which the Town has control. Furthermore, AcadieNor
+Inc. cannot shirk its statutory duty to allow its citizens access to
+information about its <i>Act</i>ivities.</span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+10.0pt;margin-left:0in;text-align:justify;text-indent:0in;punctuation-wrap:
+simple;text-autospace:none;vertical-align:baseline"><span style="font-size:
+12.0pt;line-height:115%">[115]<span style='font:7.0pt "Times New Roman"'>      
+</span></span><span style="font-size:12.0pt;line-height:115%">In
+light of all of the foregoing, and pursuant to <manual_label docid="Right to Information Act" id="262" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 73" id="263" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 73</manual_label> of the <i><manual_label id="264" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i>,
+the Commissioner recommends as follows: </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+punctuation-wrap:simple;text-autospace:none;vertical-align:baseline"><span style="font-size:12.0pt;line-height:115%">a.<span style='font:7.0pt "Times New Roman"'>     
+</span></span><span style="font-size:12.0pt;line-height:115%">That the Town of
+Caraquet obtain the records pertaining to the access-to-information request
+from AcadieNor Inc.; and</span></p>
+<p class="MsoListParagraph" style="margin-bottom:12.0pt;text-align:justify;
+text-indent:-.25in;punctuation-wrap:simple;text-autospace:none;vertical-align:
+baseline"><span style="font-size:12.0pt;line-height:115%">b.<span style='font:7.0pt "Times New Roman"'>      </span></span><span style="font-size:12.0pt;line-height:115%">That the Town of Caraquet review and
+process all of the relevant records obtained from AcadieNor Inc. to determine
+what information can be released to the Applicant in accordance with the rules
+under <manual_label docid="Right to Information Act" id="265" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="part 2" id="266" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">Part 2</manual_label> of the <i><manual_label id="267" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true">Act</manual_label></i></manual_label><i></i>, in order to provide the Applicant with a
+meaningful response pursuant to <manual_label docid="Right to Information Act" id="268" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/566ls" verified="true"><manual_label fragmentid="sec 14" id="269" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="true">section 14 </manual_label>of the<manual_label id="270" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" verified="true"> <i>Act</i></manual_label><i></i></manual_label><i></i>, within 30 days of
+the date of this report. </span></p>
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%"> </span></p>
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%">Dated at
+Fredericton, New Brunswick, this 19th day of October 2016.</span></p>
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt"><b><span style="font-size:12.0pt">Anne Bertrand, Q.C.</span></b></p>
+<p class="MsoNormal"><span style="font-size:12.0pt">Access to Information
+and Privacy Commissioner</span></p>
+<div><br clear="all"/>
+<hr align="left" size="1"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[1]</span></span></a><i> </i><i></i><manual_label docid="Canada (Information Commissioner)" id="271" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/fld60" verified="true"><i></i><manual_label id="272" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true"><i>Canada (Information Commissioner) v.
+Canada</i> <i>(Minister of National Defence</i><i>)</i></manual_label><i>, </i><manual_label id="273" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">2011 SCC 25</manual_label></manual_label>.</p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText"><a href="#_ftnref2" name="_ftn2" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[2]</span></span></a>
+“About Us” (19 October 2016), online: <i>Kitchener Housing</i> &lt;
+https://kitchenerhousinginc.ca/about-us/&gt;.</p>
+</div>
+<div id="ftn3">
+<p class="MsoFootnoteText"><a href="#_ftnref3" name="_ftn3" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[3]</span></span></a>
+<i></i><manual_label docid="TEDCO ONCA 2008" id="274" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1wvjc" verified="true"><i><manual_label id="275" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">City of Toronto Economic Development Corp. v. Ontario (Information and
+Privacy Commissioner)</manual_label></i>, <manual_label id="276" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2008] OJ 1799</manual_label></manual_label>; reversing <manual_label docid="TEDCO ONSCDC 2006" id="277" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://www.canlii.org/en/ca/scc/doc/2017/2017scc61/2017scc61.html" verified="true"><manual_label id="278" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[2006] OJ 4615</manual_label>, <manual_label id="279" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">278 D.L.R.
+(4th) 356</manual_label></manual_label>.</p>
+</div>
+<div id="ftn4">
+<p class="MsoFootnoteText"><a href="#_ftnref4" name="_ftn4" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[4]</span></span></a>
+<i></i><manual_label docid="Durham (Regional Municipality) (Re)" id="280" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/22m7x" verified="true"><i><manual_label id="281" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Durham (Regional Municipality) (Re)</manual_label></i>, <manual_label id="282" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">2009 ON IPC 7937</manual_label></manual_label>.</p>
+</div>
+<div id="ftn5">
+<p class="MsoFootnoteText"><a href="#_ftnref5" name="_ftn5" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[5]</span></span></a>
+<i></i><i></i><manual_label docid="London District Catholic School Board (Re)" id="283" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/gfx4z" verified="true"><i><manual_label id="284" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">London District Catholic School Board (Re)</manual_label></i>, <manual_label id="285" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">2014 ON IPC 79892</manual_label></manual_label>.</p>
+</div>
+<div id="ftn6">
+<p class="MsoFootnoteText"><a href="#_ftnref6" name="_ftn6" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[6]</span></span></a><i> </i><i></i><manual_label docid="Le Petit Robert" id="286" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" uri="https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058" verified="true"><i><manual_label id="287" labelname="title" parent="secondary sources" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Le petit Robert 1, Dictionnaire
+alphabétique et analogique de la langue française</manual_label></i>, (<manual_label id="288" labelname="source" parent="secondary sources" style="background-color: rgb(255, 87, 51); color: black;" verified="true">Montreal: Dictionnaires Le Robert, 1988</manual_label>) sub verbo
+"<manual_label fragmentid="instituer" id="289" labelname="fragment" non_standard="false" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="true">instituer</manual_label>"</manual_label>.</p>
+</div>
+<div id="ftn7">
+<p class="MsoFootnoteText"><a href="#_ftnref7" name="_ftn7" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[7]</span></span></a>
+<i></i><i></i><manual_label docid="Webster’s Canadian Dictionary and Thesaurus" id="290" labelname="secondary sources" parent="" style="background-color: rgb(39, 143, 227); color: white;" uri="https://www.canlii.org/en/ca/scc/doc/1995/1995canlii108/1995canlii108.html" verified="true"><i><manual_label id="291" labelname="title" parent="secondary sources" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Webster’s Canadian Dictionary and Thesaurus</manual_label></i>, (<manual_label id="292" labelname="source" parent="secondary sources" style="background-color: rgb(255, 87, 51); color: black;" verified="true">Glasgow: Geddes and Grosset, 2010</manual_label>) sub verbo “<manual_label fragmentid="office" id="293" labelname="fragment" non_standard="false" parent="secondary sources" style="background-color: rgb(142, 124, 195); color: black;" verified="true">office</manual_label>”</manual_label>.</p>
+</div>
+<div id="ftn8">
+<p class="MsoFootnoteText"><a href="#_ftnref8" name="_ftn8" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[8]</span></span></a>
+<i></i><manual_label docid="Freedom of Information Act" id="294" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/56lrp" verified="true"><i><manual_label id="295" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">The Freedom of Information and Protection of Privacy Act</manual_label></i>, <manual_label id="296" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true">CCSM c F175</manual_label></manual_label>.</p>
+</div>
+<div id="ftn9">
+<p class="MsoFootnoteText"><a href="#_ftnref9" name="_ftn9" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[9]</span></span></a> David Caron, “Gilles Lanteigne de retour à la barre d’AcadieNor",
+<i></i><i>Acadie Nouvelle</i> (4 February 2015), online : &lt;
+https://www.acadienouvelle.com/Actualites/2015/02/04/gilles-lanteigne-de-retour-la-barre-dacadienor/&gt;.</p>
+</div>
+<div id="ftn10">
+<p class="MsoFootnoteText"><a href="#_ftnref10" name="_ftn10" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[10]</span></span></a> "Caraquet compte sur AcadieNor", <i></i><i>Radio-Canada</i> (18
+October 2006), online : &lt; https://ici.radio-canada.ca/nouvelle/326012/nb-acadienor&gt;.</p>
+</div>
+<div id="ftn11">
+<p class="MsoFootnoteText"><a href="#_ftnref11" name="_ftn11" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[11]</span></span></a> <i></i><manual_label docid="Aluminum Company of Canada" id="297" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/1ttsd" verified="true"><i><manual_label id="298" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Aluminum Company of Canada Ltd. v. City of Toronto</manual_label></i>, <manual_label id="299" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true">[1944]
+S.C.R. 267</manual_label></manual_label>.</p>
+</div>
+<div id="ftn12">
+<p class="MsoFootnoteText"><a href="#_ftnref12" name="_ftn12" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[12]</span></span></a>
+<i></i><manual_label docid="86296 Canada" id="300" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" uri="https://canlii.ca/t/gjh0l" verified="true"><i><manual_label id="301" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">86296 Canada Ltd. v. Shoppers Realty Inc</manual_label></i>,<manual_label id="302" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="true"> 2015 QCCS 2751</manual_label></manual_label>.</p>
+</div>
+<div id="ftn13">
+<p class="MsoFootnoteText"><a href="#_ftnref13" name="_ftn13" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[13]</span></span></a>
+http://www.caraquet.ca/sites/default/files/editor/files/appuicommunaute.pdf.</p>
+</div>
+<div id="ftn14">
+<p class="MsoFootnoteText"><a href="#_ftnref14" name="_ftn14" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[14]</span></span></a> Ville de Caraquet, <i>Journal Communautaire
+de Caraquet </i><i>Vol. 12, No. 3 </i>(Caraquet : Conseil Municipal, 2007),
+online : &lt;www.caraquet.ca/sites/default/files/bulletins/coupdoeil_v12n3.pdf&gt;.</p>
+</div>
+<div id="ftn15">
+<p class="MsoFootnoteText"><a href="#_ftnref15" name="_ftn15" title=""><span class="MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Calibri",sans-serif'>[15]</span></span></a> <i></i><manual_label docid="Municipalities Act" id="303" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" uri="https://canlii.ca/t/52xx6" verified="true"><i><manual_label id="304" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="true">Municipalities Act</manual_label></i>,<manual_label id="305" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="true"> RSNB 1973, c M-22</manual_label></manual_label>.</p>
+</div>
+</div>
+</body></html>

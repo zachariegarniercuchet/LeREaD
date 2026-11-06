@@ -1,0 +1,290 @@
+{
+  "Canadian National Transportation Ltd. v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/1mfmv",
+    "score": 3.0,
+    "candidate_id": "1983csc-scc10020",
+    "candidate_title": "A.G. (Can.) v. Can. Nat. Transportation, Ltd.",
+    "query_text": "decision | <i>Canadian National Transportation Ltd. v.\nCanada (Attorney General)</i> | [1983] 2 S.C.R. 206",
+    "method": "citation_exact",
+    "matched_key": "19832scr206",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mfmv",
+        "score": 3.0,
+        "candidate_title": "A.G. (Can.) v. Can. Nat. Transportation, Ltd."
+      }
+    ]
+  },
+  "Canadian National Railway Co. v. Courtois": {
+    "uri": "https://canlii.ca/t/1ftdl",
+    "score": 3.5,
+    "candidate_id": "1988csc-scc39",
+    "candidate_title": "Canadian National Railway Co. v. Courtois",
+    "query_text": "decision | <i>Canadian\nNational Railway Co. v. Courtois</i> | [1988] 1 S.C.R. 868",
+    "method": "citation_exact",
+    "matched_key": "19881scr868",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftdl",
+        "score": 3.5,
+        "candidate_title": "Canadian National Railway Co. v. Courtois"
+      }
+    ]
+  },
+  "Administrative Tribunals Act": {
+    "uri": "https://canlii.ca/t/561jt",
+    "score": 2.0,
+    "candidate_id": "l20204!20204-current-1",
+    "candidate_title": "Administrative Tribunals Act",
+    "query_text": "legislation | Administrative\nTribunals Act",
+    "method": "title_exact",
+    "matched_key": "administrative tribunals act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/561jt",
+        "score": 2.0,
+        "candidate_title": "Administrative Tribunals Act"
+      }
+    ]
+  },
+  "Dagenais v. Canadian Broadcasting Corp.": {
+    "uri": "https://canlii.ca/t/1frnq",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc102",
+    "candidate_title": "Dagenais v. Canadian Broadcasting Corp.",
+    "query_text": "decision | <i>Dagenais v. Canadian Broadcasting\nCorp.</i> | [1994] 3 S.C.R. 835",
+    "method": "citation_exact",
+    "matched_key": "19943scr835",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frnq",
+        "score": 3.5,
+        "candidate_title": "Dagenais v. Canadian Broadcasting Corp."
+      }
+    ]
+  },
+  "Duteil v. British Columbia Nurses’ Union": {
+    "uri": "https://canlii.ca/t/hw1xc",
+    "score": 3.5,
+    "candidate_id": "2018bcsc1976",
+    "candidate_title": "Duteil v British Columbia Nurses’ Union",
+    "query_text": "decision | <i>Duteil\nv. British Columbia Nurses’ Union</i> | 2018 BCSC 1976",
+    "method": "citation_exact",
+    "matched_key": "2018bcsc1976",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hw1xc",
+        "score": 3.5,
+        "candidate_title": "Duteil v British Columbia Nurses’ Union"
+      }
+    ]
+  },
+  "Police Services Act": {
+    "uri": "https://canlii.ca/t/553sm",
+    "score": 2.0,
+    "candidate_id": "l377!377-current-1",
+    "candidate_title": "Police Services Act",
+    "query_text": "legislation | <i>Police\nServices Act</i>",
+    "method": "title_exact",
+    "matched_key": "police services act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/553sm",
+        "score": 2.0,
+        "candidate_title": "Police Services Act"
+      }
+    ]
+  },
+  "Lacombe": {
+    "uri": "https://canlii.ca/t/2cxpb",
+    "score": 3.5,
+    "candidate_id": "2010csc-scc38",
+    "candidate_title": "Quebec (Attorney General) v. Lacombe",
+    "query_text": "decision | <i>Québec (Attorney General) v. Lacombe</i> | Lacombe | 2010 SCC 38",
+    "method": "citation_exact",
+    "matched_key": "2010scc38",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2cxpb",
+        "score": 3.5,
+        "candidate_title": "Quebec (Attorney General) v. Lacombe"
+      }
+    ]
+  },
+  "Greenhouse Gas Pollution Pricing Act": {
+    "uri": "https://canlii.ca/t/jdwnw",
+    "score": 3.0,
+    "candidate_id": "2021csc-scc11",
+    "candidate_title": "References re Greenhouse Gas Pollution Pricing Act",
+    "query_text": "decision | <i>Reference\nre Greenhouse Gas Pollution Pricing Act</i> | 2021 SCC 11",
+    "method": "citation_exact",
+    "matched_key": "2021scc11",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jdwnw",
+        "score": 3.0,
+        "candidate_title": "References re Greenhouse Gas Pollution Pricing Act"
+      }
+    ]
+  },
+  "R. v. TNT Canada Inc": {
+    "uri": "https://canlii.ca/t/g1cks",
+    "score": 2.0,
+    "candidate_id": "1986onca1000045",
+    "candidate_title": "Regina v. TNT Canada Inc.",
+    "query_text": "decision | R. v. TNT Canada Inc | .",
+    "method": "title_exact",
+    "matched_key": "r v tnt canada inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1cks",
+        "score": 2.0,
+        "candidate_title": "Regina v. TNT Canada Inc."
+      }
+    ]
+  },
+  "R. v. Hydro-Québec": {
+    "uri": "https://canlii.ca/t/1fqzr",
+    "score": 2.0,
+    "candidate_id": "1997csc-scc80",
+    "candidate_title": "R. v. Hydro-Québec",
+    "query_text": "decision | R. v. Hydro-Québec",
+    "method": "title_exact",
+    "matched_key": "r v hydro quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzr",
+        "score": 2.0,
+        "candidate_title": "R. v. Hydro-Québec"
+      }
+    ]
+  },
+  "Hydro-Quebec": {
+    "uri": "https://canlii.ca/t/1fqzr",
+    "score": 0.8571428571428571,
+    "candidate_id": "1997csc-scc80",
+    "candidate_title": "R. v. Hydro-Québec",
+    "query_text": "decision | <i>Hydro-Québec</i>",
+    "method": "fuzzy",
+    "matched_key": "hydro quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzr",
+        "score": 0.8571428571428571,
+        "candidate_title": "R. v. Hydro-Québec"
+      }
+    ]
+  },
+  "Canada (Attorney General) v. PHS Community Services Society": {
+    "uri": "https://canlii.ca/t/fn9cf",
+    "score": 3.5,
+    "candidate_id": "2011csc-scc44",
+    "candidate_title": "Canada (Attorney General) v. PHS Community Services Society",
+    "query_text": "decision | <i>Canada (Attorney General) v.\nPHS Community Services Society</i> | 2011 SCC 44",
+    "method": "citation_exact",
+    "matched_key": "2011scc44",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fn9cf",
+        "score": 3.5,
+        "candidate_title": "Canada (Attorney General) v. PHS Community Services Society"
+      }
+    ]
+  },
+  "General Motors of Canada Ltd. v. City National Leasing Ltd.": {
+    "uri": "https://canlii.ca/t/1ft82",
+    "score": 3.0,
+    "candidate_id": "1989csc-scc29",
+    "candidate_title": "General Motors of Canada Ltd. v. City National Leasing",
+    "query_text": "decision | <i>General\nMotors of Canada Ltd. v. City National Leasing Ltd.</i> | [1989] 1 S.C.R. 641",
+    "method": "citation_exact",
+    "matched_key": "19891scr641",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft82",
+        "score": 3.0,
+        "candidate_title": "General Motors of Canada Ltd. v. City National Leasing"
+      }
+    ]
+  },
+  "Bank of Montreal v. Hall": {
+    "uri": "https://canlii.ca/t/1d69w",
+    "score": 3.7,
+    "candidate_id": "1990csc-scc9",
+    "candidate_title": "Bank of Montreal v. Hall",
+    "query_text": "decision | <i>Bank of Montreal v. Hall</i> | 1990 CanLII 157\n(SCC) | [1990] 1 S.C.R. 121",
+    "method": "citation_exact",
+    "matched_key": "19901scr121",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1d69w",
+        "score": 3.7,
+        "candidate_title": "Bank of Montreal v. Hall"
+      }
+    ]
+  },
+  "Saskatchewan AG v Lemare Lake Logging Ltd": {
+    "uri": "https://canlii.ca/t/gm22q",
+    "score": 3.5,
+    "candidate_id": "2015csc-scc53",
+    "candidate_title": "Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd.",
+    "query_text": "decision | <i><span style=\"color:black\">Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd.</span></i> | 2015 SCC 53",
+    "method": "citation_exact",
+    "matched_key": "2015scc53",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gm22q",
+        "score": 3.5,
+        "candidate_title": "Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd."
+      }
+    ]
+  },
+  "Law Society of British Columbia v. Mangat": {
+    "uri": "https://canlii.ca/t/51zn",
+    "score": 3.5,
+    "candidate_id": "2001csc-scc67",
+    "candidate_title": "Law Society of British Columbia v. Mangat",
+    "query_text": "decision | <i>Law Society of\nBritish Columbia v. Mangat</i> | 2001 SCC 67",
+    "method": "citation_exact",
+    "matched_key": "2001scc67",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51zn",
+        "score": 3.5,
+        "candidate_title": "Law Society of British Columbia v. Mangat"
+      }
+    ]
+  },
+  "Bank of Montreal v. Marcotte": {
+    "uri": "https://canlii.ca/t/g91dq",
+    "score": 3.5,
+    "candidate_id": "2014csc-scc55",
+    "candidate_title": "Bank of Montreal v. Marcotte",
+    "query_text": "decision | <i>Bank of Montreal\nv. Marcotte</i> | 2014 SCC 55",
+    "method": "citation_exact",
+    "matched_key": "2014scc55",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g91dq",
+        "score": 3.5,
+        "candidate_title": "Bank of Montreal v. Marcotte"
+      }
+    ]
+  },
+  "Marine Services International Ltd. v. Ryan Estate": {
+    "uri": "https://canlii.ca/t/fzwp7",
+    "score": 3.5,
+    "candidate_id": "2013csc-scc44",
+    "candidate_title": "Marine Services International Ltd. v. Ryan Estate",
+    "query_text": "decision | <i>Marine Services International Ltd. v. Ryan Estate</i> | 2013 SCC 44",
+    "method": "citation_exact",
+    "matched_key": "2013scc44",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fzwp7",
+        "score": 3.5,
+        "candidate_title": "Marine Services International Ltd. v. Ryan Estate"
+      }
+    ]
+  }
+}

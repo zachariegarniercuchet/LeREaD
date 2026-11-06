@@ -1,0 +1,18 @@
+{
+  "Trainor v Trainor": {
+    "uri": "https://canlii.ca/t/gbtwt",
+    "score": 2.0,
+    "candidate_id": "1990pesctd19871000019",
+    "candidate_title": "Trainor v. Trainor",
+    "query_text": "decision | Trainor v Trainor | (1990), 87 Nfld. &amp;\nP.E.I.R. 37",
+    "method": "title_exact",
+    "matched_key": "trainor v trainor",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbtwt",
+        "score": 2.0,
+        "candidate_title": "Trainor v. Trainor"
+      }
+    ]
+  }
+}

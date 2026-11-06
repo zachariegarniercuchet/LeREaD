@@ -1,0 +1,53 @@
+mention,pattern_grouped,fp_spurious
+decision,title,152
+legislation,fragment,123
+decision,(unaligned),89
+legislation,title,53
+decision,title -> citation,45
+legislation,(unaligned),40
+legislation,fragment -> title,39
+decision,title -> fragment,14
+secondary sources,title,13
+legislation,(no child),12
+secondary sources,authors -> title -> source,12
+decision,citation,11
+decision,title -> citation -> fragment,10
+legislation,fragment -> title -> citation,9
+secondary sources,title -> source,9
+secondary sources,authors,8
+secondary sources,authors -> title -> source -> fragment,8
+decision,(no child),7
+decision,fragment,7
+legislation,title -> citation,7
+decision,title -> citation -> fragment -> citation,6
+decision,title -> citation -> fragment -> citation -> fragment,3
+secondary sources,authors -> source,3
+secondary sources,source -> fragment,3
+secondary sources,title -> fragment,3
+secondary sources,title -> source -> fragment,3
+legislation,fragment -> title -> citation -> title,2
+legislation,title -> fragment,2
+secondary sources,authors -> title -> fragment,2
+decision,citation -> title,1
+decision,fragment -> citation,1
+decision,title -> citation -> fragment -> citation -> title -> citation -> fragment -> citation,1
+decision,title -> citation -> title -> citation,1
+decision,title -> citation -> title -> citation -> title -> citation,1
+decision,title -> fragment -> title -> fragment,1
+legislation,citation -> title,1
+legislation,fragment -> citation -> fragment -> citation -> fragment,1
+legislation,fragment -> title -> citation -> fragment -> title -> citation,1
+legislation,fragment -> title -> fragment,1
+legislation,fragment -> title -> fragment -> title,1
+legislation,title -> citation -> fragment,1
+legislation,title -> citation -> fragment -> citation -> fragment -> citation -> fragment,1
+legislation,title -> citation -> title,1
+legislation,title -> citation -> title -> citation,1
+legislation,title -> citation -> title -> citation -> fragment,1
+secondary sources,authors -> fragment,1
+secondary sources,authors -> title,1
+secondary sources,fragment -> title -> source,1
+secondary sources,source,1
+secondary sources,source -> title,1
+secondary sources,title -> authors -> source -> fragment,1
+secondary sources,title -> source -> fragment -> authors,1

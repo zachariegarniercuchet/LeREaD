@@ -1,0 +1,122 @@
+{
+  "ClaimsOfficerDecision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5732042789459229,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5732042789459229,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5707862377166748,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5609192848205566,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Re 1587930 Ontario Inc.": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5732042789459229,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5732042789459229,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j32qw",
+        "score": 0.5707862377166748,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5609192848205566,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Jones 1791": {
+    "uri": "https://synthetic.leread.ca/gold/G0170",
+    "score": 0.6041339635848999,
+    "candidate_id": "gold-G0170",
+    "candidate_title": "Doe on the demise of Count Duroure v. Jones (1791)",
+    "query_text": "decision | <i>Jones</i> (1791) | 4 T.R. 301 | 100 E.R.",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0170",
+        "score": 0.6041339635848999,
+        "candidate_title": "Doe on the demise of Count Duroure v. Jones (1791)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fshw",
+        "score": 0.5747120976448059,
+        "candidate_title": "R. v. Jones"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0264",
+        "score": 0.5414295196533203,
+        "candidate_title": "Jones v. Great Central Railway Co."
+      }
+    ]
+  },
+  "Bankruptcy Act": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6778139472007751,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6778139472007751,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6439382433891296,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6395516395568848,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  },
+  "Limitations Act": {
+    "uri": "https://synthetic.leread.ca/gold/G0040",
+    "score": 0.6778139472007751,
+    "candidate_id": "gold-G0040",
+    "candidate_title": "An Act to amend various legislation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0040",
+        "score": 0.6778139472007751,
+        "candidate_title": "An Act to amend various legislation"
+      },
+      {
+        "uri": "https://canlii.ca/t/7vc6",
+        "score": 0.6439382433891296,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6395516395568848,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      }
+    ]
+  }
+}

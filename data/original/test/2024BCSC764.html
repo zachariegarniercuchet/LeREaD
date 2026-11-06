@@ -1,0 +1,1950 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	text-decoration:underline;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	font-style:italic;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	font-style:italic;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.5in;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	font-style:italic;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:#243F60;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:#243F60;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Cambria",serif;
+	color:#272727;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Titre 9 Car";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Cambria",serif;
+	color:#272727;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:12.0pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:24.0pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:48.0pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:60.0pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:1.0in;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:84.0pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:96.0pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin-top:0in;
+	margin-right:.25in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Explorateur de documents Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Objet du commentaire Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Cambria",serif;
+	color:#365F91;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	text-decoration:underline;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:italic;}
+p.SCJNormal, li.SCJNormal, div.SCJNormal
+	{mso-style-name:"SCJ Normal";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.SCJQuote, li.SCJQuote, div.SCJQuote
+	{mso-style-name:"SCJ Quote";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.SCJTranscript, li.SCJTranscript, div.SCJTranscript
+	{mso-style-name:"SCJ Transcript";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	text-indent:-.5in;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.SCJNon-Number, li.SCJNon-Number, div.SCJNon-Number
+	{mso-style-name:"SCJ Non-Number";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.SCJNumber, li.SCJNumber, div.SCJNumber
+	{mso-style-name:"SCJ Number";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-indent:0in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Times New Roman",serif;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Times New Roman",serif;}
+p.SCJHeader, li.SCJHeader, div.SCJHeader
+	{mso-style-name:"SCJ Header";
+	margin:0in;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0in;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.ExplorateurdedocumentsCar
+	{mso-style-name:"Explorateur de documents Car";
+	mso-style-link:"Explorateur de documents";
+	font-family:"Tahoma",sans-serif;}
+p.SCJTitle, li.SCJTitle, div.SCJTitle
+	{mso-style-name:"SCJ Title";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:24.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	font-weight:bold;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:italic;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:italic;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Cambria",serif;
+	color:#243F60;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Cambria",serif;
+	color:#243F60;
+	font-style:italic;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Cambria",serif;
+	color:#272727;}
+span.Titre9Car
+	{mso-style-name:"Titre 9 Car";
+	mso-style-link:"Titre 9";
+	font-family:"Cambria",serif;
+	color:#272727;
+	font-style:italic;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma",sans-serif;}
+p.SCJTOCHEADINGS, li.SCJTOCHEADINGS, div.SCJTOCHEADINGS
+	{mso-style-name:"SCJ TOC HEADINGS";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	font-size:14.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	font-weight:bold;}
+p.SCJTOCL1, li.SCJTOCL1, div.SCJTOCL1
+	{mso-style-name:"SCJ TOC L1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.SCJTOCL2, li.SCJTOCL2, div.SCJTOCL2
+	{mso-style-name:"SCJ TOC L2";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:12.25pt;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.SCJTOCL3, li.SCJTOCL3, div.SCJTOCL3
+	{mso-style-name:"SCJ TOC L3";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:23.75pt;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.SCJTOCL4, li.SCJTOCL4, div.SCJTOCL4
+	{mso-style-name:"SCJ TOC L4";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:.5in;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.SCJTOCL5, li.SCJTOCL5, div.SCJTOCL5
+	{mso-style-name:"SCJ TOC L5";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:48.25pt;
+	font-size:11.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+p.marginalnote, li.marginalnote, div.marginalnote
+	{mso-style-name:marginalnote;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.subsection, li.subsection, div.subsection
+	{mso-style-name:subsection;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.sectionlabel
+	{mso-style-name:sectionlabel;}
+span.lawlabel
+	{mso-style-name:lawlabel;}
+p.paragraph, li.paragraph, div.paragraph
+	{mso-style-name:paragraph;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.paranondepar-altn, li.paranondepar-altn, div.paranondepar-altn
+	{mso-style-name:paranondepar-altn;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.continueparasuitedupar-altp, li.continueparasuitedupar-altp, div.continueparasuitedupar-altp
+	{mso-style-name:continueparasuitedupar-altp;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.scjnumber0, li.scjnumber0, div.scjnumber0
+	{mso-style-name:scjnumber;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.sec, li.sec, div.sec
+	{mso-style-name:sec;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.secnumholder
+	{mso-style-name:secnumholder;}
+p.sub, li.sub, div.sub
+	{mso-style-name:sub;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.holder
+	{mso-style-name:holder;}
+p.para, li.para, div.para
+	{mso-style-name:para;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.UnresolvedMention
+	{mso-style-name:"Unresolved Mention";
+	color:#605E5C;
+	background:#E1DFDD;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;
+	font-family:"Arial",sans-serif;}
+span.ObjetducommentaireCar
+	{mso-style-name:"Objet du commentaire Car";
+	mso-style-link:"Objet du commentaire";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Arial (W1)",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 89.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="blue" vlink="purple">
+<div class="WordSection1">
+<p class="SCJTitle">IN THE SUPREME COURT OF BRITISH COLUMBIA</p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse:collapse">
+<tbody><tr>
+<td style="width:77.4pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="103">
+<p class="SCJNormal">Citation:</p>
+</td>
+<td style="width:240.0pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="320">
+<p class="SCJNormal"><i>Aquilini Development Limited
+  Partnership v. Garibaldi at Squamish Limited Partnership,</i></p>
+</td>
+</tr>
+<tr>
+<td style="width:77.4pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="103">
+<p class="SCJNormal"> </p>
+</td>
+<td style="width:240.0pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="320">
+<p class="SCJNormal">2024 BCSC 764</p>
+</td>
+</tr>
+</tbody></table>
+<p align="right" class="SCJNormal" style="text-align:right">Date: 20240503</p>
+<p align="right" class="SCJNormal" style="text-align:right">Docket:
+S236559</p>
+<p align="right" class="SCJNormal" style="margin-bottom:12.0pt;text-align:right">Registry: Vancouver</p>
+<p class="SCJNormal" style="margin-bottom:8.0pt">Between:</p>
+<p align="center" class="SCJNormal" style="text-align:center"><b>Aquilini
+Development Limited Partnership,<br/>
+Garibaldi Resort Management Company Ltd.<br/>
+and 1413994 B.C. Ltd.</b></p>
+<p align="right" class="SCJNormal" style="text-align:right">Petitioners</p>
+<p class="SCJNormal" style="margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in">And</p>
+<p align="center" class="SCJNormal" style="text-align:center"><b>Garibaldi
+at Squamish Limited Partnership<br/>
+and Garibaldi at Squamish Inc.</b></p>
+<p align="right" class="SCJNormal" style="margin-bottom:12.0pt;text-align:right">Respondents</p>
+<p align="center" class="SCJNormal" style="margin-bottom:12.0pt;text-align:center">Before: The Honourable Mr. Justice Walker</p>
+<p align="center" class="SCJNormal" style="margin-bottom:24.0pt;text-align:center"><b><span style="font-size:14.0pt">Reasons for Judgment</span></b></p>
+<p align="center" class="SCJNormal" style="margin-bottom:24.0pt;text-align:center"><span style='font-family:"Arial",sans-serif;color:black'>In Chambers</span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width:100.0%;border-collapse:collapse" width="100%">
+<tbody><tr style="page-break-inside:avoid">
+<td style="width:54.78%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="54%">
+<p class="SCJNormal">Counsel for the Petitioners:</p>
+</td>
+<td style="width:45.22%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="45%">
+<p align="right" class="SCJNormal" style="text-align:right">V.L.
+  Tickle<br/>
+  F. Finn</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:54.78%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="54%">
+<p class="SCJNormal">Counsel for the Respondents:</p>
+</td>
+<td style="width:45.22%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="45%">
+<p align="right" class="SCJNormal" style="text-align:right">J.R.
+  Sandrelli</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:54.78%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="54%">
+<p class="SCJNormal">Counsel for the Attendee, Ernst &amp;
+  Young Inc., in its capacity as court-appointed receiver and manager of
+  Garibaldi at Squamish Limited Partnership and Garibaldi at Squamish Inc.:</p>
+</td>
+<td style="width:45.22%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="45%">
+<p align="right" class="SCJNormal" style="text-align:right">W.E.J.
+  Skelly</p>
+<p align="right" class="SCJNormal" style="text-align:right">J.R.
+  Reid</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:54.78%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="54%">
+<p class="SCJNormal">Counsel for the Attendee, His Majesty the
+  King in Right of the Province of British Columbia: </p>
+</td>
+<td style="width:45.22%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="45%">
+<p align="right" class="SCJNormal" style="text-align:right">O. James</p>
+<p align="right" class="SCJNormal" style="text-align:right">R.
+  Power</p>
+<p align="right" class="SCJNormal" style="text-align:right">A.
+  Welch</p>
+<p align="right" class="SCJNormal" style="text-align:right">A.
+  Glen</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:54.78%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="54%">
+<p class="SCJNormal">Counsel for the Attendee, the Squamish
+  Nation: </p>
+</td>
+<td style="width:45.22%;padding:0in 5.4pt 12.0pt 5.4pt" valign="top" width="45%">
+<p align="right" class="SCJNormal" style="text-align:right">L.
+  Williams</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:54.78%;padding:0in 5.4pt 8.0pt 5.4pt" valign="top" width="54%">
+<p class="SCJNormal">Place and Dates of Hearing:</p>
+</td>
+<td style="width:45.22%;padding:0in 5.4pt 8.0pt 5.4pt" valign="top" width="45%">
+<p align="right" class="SCJNormal" style="text-align:right">Vancouver,
+  B.C.</p>
+<p align="right" class="SCJNormal" style="text-align:right">April
+  22-23, 2024</p>
+</td>
+</tr>
+<tr style="page-break-inside:avoid">
+<td style="width:54.78%;padding:0in 5.4pt 0in 5.4pt" valign="top" width="54%">
+<p class="SCJNormal">Place and Date of Judgment:</p>
+</td>
+<td style="width:45.22%;padding:0in 5.4pt 0in 5.4pt" valign="top" width="45%">
+<p align="right" class="SCJNormal" style="text-align:right">Vancouver,
+  B.C.</p>
+<p align="right" class="SCJNormal" style="text-align:right">May 3,
+  2024</p>
+</td>
+</tr>
+</tbody></table>
+<span style='font-size:12.0pt;font-family:"Arial (W1)",sans-serif'><br clear="all" style="page-break-before:always"/>
+</span>
+<p class="SCJNormal"> </p>
+<p align="center" class="SCJNormal" style="margin-bottom:.25in;text-align:center"><b><span style="font-size:14.0pt">Table of Contents</span></b></p>
+<p class="MsoToc1"><a href="#_Toc165628026">Introduction and
+Background<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">4</span></a></p>
+<p class="MsoToc1"><a href="#_Toc165628027">The Transaction<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">8</span></a></p>
+<p class="MsoToc1"><a href="#_Toc165628028">Reverse Vesting
+Orders<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">9</span></a></p>
+<p class="MsoToc1"><a href="#_Toc165628029">EY Recommends Court
+Approval of the Transaction<span style="color:windowtext;display:none;
+text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">11</span></a></p>
+<p class="MsoToc2"><a href="#_Toc165628030">General Comments<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">11</span></a></p>
+<p class="MsoToc2"><a href="#_Toc165628031">Change in Amount of
+the Credit Bid<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">11</span></a></p>
+<p class="MsoToc2"><a href="#_Toc165628032">The RVO<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">12</span></a></p>
+<p class="MsoToc1"><a href="#_Toc165628033">The Province Opposes
+the Transaction<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">16</span></a></p>
+<p class="MsoToc2"><a href="#_Toc165628034">Introductory Remarks<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">16</span></a></p>
+<p class="MsoToc2"><a href="#_Toc165628035">Jurisdiction under
+the <i>BIA</i><span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">16</span></a></p>
+<p class="MsoToc2"><a href="#_Toc165628036">Are there
+Impediments to Granting the RVO in this Case?<span style="color:windowtext;
+display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">26</span></a></p>
+<p class="MsoToc3"><a href="#_Toc165628037">Jurisdiction<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">26</span></a></p>
+<p class="MsoToc3"><a href="#_Toc165628038">Harte Gold Factors<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">29</span></a></p>
+<p class="MsoToc2"><a href="#_Toc165628039">The Release<span style="color:windowtext;display:none;text-decoration:none">. </span><span style="color:windowtext;display:none;text-decoration:none">31</span></a></p>
+<p class="MsoToc1"><a href="#_Toc165628040">Conclusion<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">31</span></a></p>
+<p class="MsoToc1"><a href="#_Toc165628041">Disposition<span style="color:windowtext;display:none;text-decoration:none">.. </span><span style="color:windowtext;display:none;text-decoration:none">32</span></a></p>
+<p class="SCJNormal"><b><br clear="all" style="page-break-before:
+always"/>
+</b> </p>
+<h1><a name="_Toc165628026">Introduction and Background</a></h1>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in"><a name="_Hlk165554906">[1]<span style='font:7.0pt "Times New Roman"'>         
+</span>The petitioners, Aquilini Development Limited
+Partnership, Garibaldi Resort Management Company Ltd., and 1413994 B.C. Ltd.,
+are secured creditors (debenture holders) of Garibaldi at Squamish Inc. (whom
+the parties refer to as “GAS”) and Garibaldi at Squamish Limited Partnership
+(“Partnership”). GAS is a federally incorporated company founded in 2001 to develop
+a ski resort on Brohm Ridge, near Squamish, British Columbia (“Project”). GAS
+is the managing partner of the Partnership (and owns just under 90% of its
+units). Both are privately held entities with operations in Vancouver. When I
+refer to them collectively, it is as the “Garibaldi entities”.</a></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[2]<span style='font:7.0pt "Times New Roman"'>         
+</span>In this insolvency proceeding, the petitioners
+seek to acquire ownership of the Garibaldi entities through an internal
+reorganization of GAS’ share structure and the Partnership.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[3]<span style='font:7.0pt "Times New Roman"'>         
+</span>The Project is intended to be a world-class,
+all-season resort, encompassing skiing, snowboarding, mountain biking, and
+other alpine activities, on Nch’Kay Mountain near Squamish, that would convert
+approximately 2,800 hectares of previously logged forest to recreational use.
+Construction of the Project is anticipated to occur in four phases over 30
+years, with an expectation to create approximately 2,000 construction jobs, and
+once completed, for the resort to create approximately 4,000 long-term
+operational careers, providing guests and residents with access to 126 ski and
+snowboard runs accessed through a network of 21 ski lifts. The residential
+component of the Project includes 21,960 bed units spread out over 5,233
+residential units representing hotel, condominium, townhouse, and detached
+dwellings.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[4]<span style='font:7.0pt "Times New Roman"'>         
+</span>The Garibaldi entities’ ability and GAS’ right to
+develop the Project arises from an environmental assessment certificate (“EA Certificate”)
+issued by the Province of British Columbia (“Province”) to GAS on January 26,
+2016, pursuant to the <a name="_Hlk165459763"><i>Environmental Assessment Act</i></a>,
+S.B.C. 2018, c. 51 [<i>E.A. Act</i>]. The purpose of the EA Certificate is to
+ensure that the Project and ultimately, the resort, adequately preserve and
+protect the surrounding environment. The Province entered into an interim
+agreement (“Interim Agreement”) with GAS on March 29, 2021. The Interim
+Agreement granted, <i>inter alia</i>, GAS a license with the right of
+occupation. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[5]<span style='font:7.0pt "Times New Roman"'>         
+</span>In order for construction to begin, GAS must,
+amongst other things, satisfy numerous (approximately 40) construction
+pre-conditions set out in the EA Certificate by no later than January 26, 2026 (the
+original deadline was extended by five years) and obtain approval of a master
+plan (“Master Plan”) from the Province. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[6]<span style='font:7.0pt "Times New Roman"'>         
+</span>The construction pre-conditions must be
+satisfied in order for the actual construction to begin at the Project. The
+work under these pre-conditions includes: (a) identifying primary and secondary
+water supplies to supply water at prescribed rates for at least three weeks in
+the event of an emergency; (b) robust conditions to evaluate and protect the
+Project area’s aquatic environment, including consultation with the Squamish
+Nation, certain provincial agencies and local governments regarding aquatic
+effects and Brohm River management plans; and (c) development of specific plans
+concerning biodiversity, ecosystem, snowmaking reservoir and dam failure, archaeology,
+preservation of Squamish Nation cultural heritage and activity in the Project
+area, old growth management, waste management, employee housing,
+transportation, recreation sites and trails, access, culverts, and air quality.
+</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[7]<span style='font:7.0pt "Times New Roman"'>         
+</span>The Master Plan has been drafted and I am told, is
+substantially completed. It includes as a key component the incorporation of
+Squamish Nation tourism (such as cultural and educational centres that
+highlight the Squamish Nation culture, history, and traditions), ongoing
+consultation with the Squamish Nation with certain rights of first refusal,
+mentorship, internship, and training opportunities, along with an opportunity
+for Indigenous representation in the Sea-to-Sky Corridor of the Province. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[8]<span style='font:7.0pt "Times New Roman"'>         
+</span>Construction has yet to get underway since the
+pre-conditions called for in the EA Certificate have yet to be satisfied. Only
+some work on the pre-conditions is underway. No actual work on the Project
+lands to satisfy those conditions has been done. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[9]<span style='font:7.0pt "Times New Roman"'>         
+</span>The Garibaldi entities are now insolvent. They owe
+the petitioners over $80 million, and thus GAS lacks the financial means
+to satisfy the construction pre-conditions set out in the EA Certificate. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[10]<span style='font:7.0pt "Times New Roman"'>       </span>A receivership order was issued pursuant to s. 243 of the <i>Bankruptcy
+and Insolvency Act</i>, R.S.C., 1985, c. B-3 [<i>BIA</i>] on December 4, 2023,
+appointing Ernst &amp; Young (“EY”) as the receiver, over all of the assets,
+undertaking, and property of the Garibaldi entities. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[11]<span style='font:7.0pt "Times New Roman"'>       </span>The Garibaldi entities do not own any physical assets and do not generate
+revenue. They have been dependant on third party funding since inception to support
+GAS’ obligations to develop a draft Master Plan and to satisfy the construction
+pre-conditions in the EA Certificate. Their assets are the EA Certificate, the
+Interim Agreement, and some (unidentified) tax attributes (losses). </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[12]<span style='font:7.0pt "Times New Roman"'>       </span>EY reports that a lack of consensus amongst GAS’ directors over the
+direction of the company and the future of the Project hindered its ability to
+raise funds necessary to support its ongoing operations, including funds
+required to satisfy the pre-conditions prescribed in the EA Certificate. EY
+also reports that eight of the construction pre-conditions, which are
+sequential in nature, are urgent and foundational to subsequent conditions
+since they inform the context of the remaining work to be done to satisfy the
+EA Certificate. EY reports they must be completed in the next 12 months and estimates
+the cost to complete the urgent construction pre-conditions is $5.5 million.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[13]<span style='font:7.0pt "Times New Roman"'>       </span>In view of the urgency in which to complete the construction
+pre-conditions or face expiry and loss of the EA Certificate, EY undertook
+without delay following its appointment as receiver, and with court approval, what
+all parties agree was a robust sale and investment solicitation process (“SISP”)
+to secure offers to sell those assets. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[14]<span style='font:7.0pt "Times New Roman"'>       </span>As part of that process, EY obtained court approval for the
+petitioners’ stalking horse bid (“Stalking Horse Bid”) to purchase the
+Garibaldi entities for a price of approximately $80.41 million, comprised of: (a)
+a credit bid of the indebtedness of the Garibaldi entities of just over $73.45
+million plus interest to the petitioners; (b) funding for EY’s borrowings; (c)
+a transaction to obtain the rights under the EA Certificate and the Interim
+Agreement, by either a traditional asset vesting order or a reverse vesting
+order (if necessary to retain the value of the EA Certificate and the Interim
+Agreement, and to a lesser extent, the tax attributes, in view of the risks and
+uncertainties said to be involved in obtaining governmental approval to a
+disposition through a transfer or assignment); (d) a $500,000 break fee; and (e)
+a requirement that any competing qualified bid must exceed the amount of the
+petitioners’ bid including the break fee. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[15]<span style='font:7.0pt "Times New Roman"'>       </span>EY also obtained an independent legal opinion confirming the validity
+of the petitioners’ security.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[16]<span style='font:7.0pt "Times New Roman"'>       </span>Despite what EY says were substantial expressions of interest from
+numerous parties (with nine executed confidentiality agreements allowing
+potential bidders access to the confidential data room), no other qualified bids
+were received.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[17]<span style='font:7.0pt "Times New Roman"'>       </span>EY now seeks court approval of a purchase agreement in line with the
+Stalking Horse Bid by means of a reverse vesting order (“RVO”). I refer to both
+collectively as the “Transaction”. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[18]<span style='font:7.0pt "Times New Roman"'>       </span>The petitioners have committed to incur the costs to complete the
+construction pre-conditions, including $5.5 million in the next 12 months, if
+the Transaction is approved.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[19]<span style='font:7.0pt "Times New Roman"'>       </span>The Squamish Nation, who has a 10% interest in the Partnership and
+was represented by counsel at the hearing, does not oppose the Transaction. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[20]<span style='font:7.0pt "Times New Roman"'>       </span>The only party opposing the Transaction is the Province. In
+particular, the Province raises once more for consideration in this Court whether
+jurisdiction exists under the <i>BIA</i> to approve RVOs, and if it does,
+whether it is appropriate to do so in this case since, the Province contends,
+the RVO circumvents provincial legislation, abrogates their statutory
+decision-making powers, and is unnecessary.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[21]<span style='font:7.0pt "Times New Roman"'>       </span>I say “once more” since the issue of jurisdiction to approve RVOs under
+the <i>BIA</i> has been considered and determined to exist in prior decisions
+of this Court: <i>PaySlate Inc. (Re)</i>, 2023 BCSC 608 [<i>PaySlate #1</i>]
+and 2023 BCSC 977 [<i>PaySlate #2</i>]; <i>Peakhill Capital Inc. v. Southview
+Gardens Limited Partnership</i>, 2023 BCSC 1476; <i>1351486 B.C. Ltd. v. <a name="_Hlk165461522">Living Beachside Development Limited Partnership, Port
+Capital, et al. </a></i>(27 October 2023),<i> </i>Vancouver S229506 (B.C.S.C.)
+[<i>Port Capital</i>]; and <i>Royal Bank of Canada v. Canwest Aerospace Inc</i>.,
+2024 BCSC 585. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[22]<span style='font:7.0pt "Times New Roman"'>       </span>Although the Province supports completion of the Project in view of
+the economic benefits to the Province (and others) and the fact that consultation
+with the Squamish Nation has already occurred, the Province argues, as one of
+its grounds opposing the Transaction, that there is no jurisdiction under the <i>BIA</i>,
+either generally or in the context of this case, to approve a transaction
+incorporating an RVO. The Province says that I am not bound to follow the prior
+decisions of this Court approving RVOs under the <i>BIA</i> because one or more
+of the exceptions to the application of horizontal <i>stare decisis</i>
+discussed in <i>Hansard Spruce Mills (Re)</i>, [1954] 4 D.L.R. 590, 1954 CanLII
+253 (B.C.S.C.) and <i>R. v. Sullivan</i>, 2022 SCC 19, are engaged. The Province
+also maintains that EY has not satisfied the onus placed on it in the case
+authorities to establish that an RVO is necessary in this case and moreover
+that as a stakeholder, it is worse off under the RVO as opposed to a
+transaction involving a traditional asset vesting order (“AVO”): see, e.g., <i><span style='font-family:"Arial",sans-serif;color:black'>Harte Gold Corp.
+(Re)</span></i><span style='font-family:"Arial",sans-serif;
+color:black'>, 2022 ONSC 653</span>, <i>Arrangement relatif à
+Blackrock Metals Inc</i>., 2022 QCCS 2828; <i><span style='font-family:"Arial",sans-serif;color:black'>Just Energy Group Inc. et.
+al. v. Morgan Stanley Capital Group Inc. et. al.</span></i><span style='font-family:"Arial",sans-serif;color:black'>, 2022 ONSC 6354.</span></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[23]<span style='font:7.0pt "Times New Roman"'>       </span>Given my determination, set out below, it is not necessary for me to
+consider EY’s alternative approach to jurisdiction grounded on the <i>Law and
+Equity Act</i>, R.S.B.C. 1996, c. 253.</p>
+<h1><a name="_Toc165628027">The Transaction</a></h1>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[24]<span style='font:7.0pt "Times New Roman"'>       </span>The Transaction calls for an RVO, with excluded assets and
+liabilities to be vested into a separate entity the parties refer to as “Excluded
+Co”. I am told that there are no assets designated as excluded assets. On
+closing, Excluded Co will be assigned into bankruptcy. In the absence of any
+other qualified bidders, the purchase price of the transaction no longer
+includes payment of a break fee. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[25]<span style='font:7.0pt "Times New Roman"'>       </span>To give effect to the Transaction, the Garibaldi entities will
+cancel all shares of GAS’ existing shareholders and Partnership units and issue
+new shares and new units to the petitioners. Thus, there is no proposed
+transfer or assignment of the EA Certificate and the Interim Agreement. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[26]<span style='font:7.0pt "Times New Roman"'>       </span>The result is a change of control. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[27]<span style='font:7.0pt "Times New Roman"'>       </span>That said, it is important to note that certain principals of what
+is known as the Aquilini group, are not only principals of the petitioners, are
+also principals of three of GAS’ four extant shareholders, Garibaldi Resorts
+(2002) Limited, Milborne Development Corporation, and Mountain Resort
+Developments Inc. (the other GAS shareholder is Garibaldi Alpen Resorts (1996) Ltd.). 
+</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[28]<span style='font:7.0pt "Times New Roman"'>       </span>The amount of the credit bid has been amended from what was proposed
+in the Stalking Horse Bid. The credit bid is reduced by $20 million. That
+amount, owed by the Garibaldi entities (as interest) under their security to
+the petitioners, will be a retained liability. Also retained will be any
+potential liabilities arising under the <i>Environmental Management Act</i>,
+S.B.C. 2003, c. 53 [<i>Env. Mgmt. Act</i>]. All other liabilities will be
+vested into Excluded Co. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[29]<span style='font:7.0pt "Times New Roman"'>       </span>Otherwise, the entities and their assets falling within the ambit of
+the RVO are to be released and forever discharged of all claims and
+encumbrances other than the retained liabilities, which as I have said, include
+any liability arising under the <i>Env. Mgmt. Act</i>.</p>
+<h1><a name="_Toc165628028">Reverse Vesting Orders</a></h1>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[30]<span style='font:7.0pt "Times New Roman"'>       </span>RVOs are a relatively recent method used in insolvency cases to
+avoid the purchaser assuming an insolvent debtor’s unwanted assets and
+liabilities. Their use in insolvency proceedings is on the rise, extending
+beyond their original use in restructurings under the <i>Companies’ Creditors
+Arrangement Act</i>, R.S.C. 1985, c. C-36 [<i>CCAA</i>], into cases brought
+under the receivership and proposal provisions of the <i>BIA.</i></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[31]<span style='font:7.0pt "Times New Roman"'>       </span>Typically, an RVO contemplates the sale of the debtor through a
+transaction structured such that “unwanted” assets and liabilities are removed
+and vended to a residual company while the desired or “good assets” remain with
+the debtor acquired by the purchaser.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[32]<span style='font:7.0pt "Times New Roman"'>       </span>RVOs circumvent the processes established by Parliament in
+insolvency legislation. They are not the norm and should only be granted in
+exceptional circumstances. RVOs have typically been granted where the debtor
+operates in a highly regulated environment where it is difficult to impossible
+to transfer licenses, permits, intellectual property, non-transferrable tax
+attributes, or other intangibles under a typical asset purchase agreement: see,
+e.g.,<i> Blackrock Metals </i>at paras. 85–86; <i>Quest University Canada (Re)</i>,
+2020 BCSC 1883 at paras. 161–162; <i>Harte Gold </i>at paras. 38, 48, and 70–71;
+Janis P. Sarra, “Reverse Vesting Orders – Developing Principles and Guardrails
+to Inform Judicial Decisions”, Canadian Legal Information Institute, 2022
+CanLIIDocs 431 at 1-2.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[33]<span style='font:7.0pt "Times New Roman"'>       </span>The factors to be considered are well described in the case
+authorities. In addition in to satisfying the court of the sufficiency of the
+sales process, the onus is on the proposed purchaser to establish necessity and
+that the result is at least as favourable as any other viable alternative, no
+other stakeholder is worse off than they would have been under any other viable
+structure, and the consideration paid reflects the importance and value of the
+licenses and permits (or other intangible assets) being preserved under the RVO
+structure: <i>Harte Gold</i> at para. 38; <i>Blackrock Metals</i> at paras. 99,
+114–116; <i>Just Energy</i> at para. 33; <i>PaySlate #1</i> at para. 89; Sarra<i>
+</i>at 17, 19, 23, 27–30; <i>Peakhill </i>at paras. 31–48; <i>Canwest </i>at
+paras. 23–26.</p>
+<h1><a name="_Toc165628029">EY Recommends Court Approval of
+the Transaction</a></h1>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[34]<span style='font:7.0pt "Times New Roman"'>      
+</span>EY recommends the Transaction be approved for
+reasons it identified in its second report filed March 14, 2024 (“Second
+Report”) and the first supplement to the second report filed April 10, 2024 (“First
+Supplement”).</p>
+<h2><a name="_Toc165628030">General Comments</a></h2>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[35]<span style='font:7.0pt "Times New Roman"'>      
+</span>EY’s general comments, taken from its Second Report,
+excerpted below, are not disputed:</p>
+<p class="SCJQuote">[from the Second Report]</p>
+<p class="SCJQuote"><b>The Receiver’s Commentary on the Stalking
+Horse Agreement</b></p>
+<p class="SCJQuote"><u>General Comments</u></p>
+<p class="SCJQuote">31.       The Receiver is satisfied that a thorough
+marketing of the opportunity has been undertaken, including in respect of the
+undertakings of the Receiver in furtherance of the SISP as described above.
+Based on the foregoing, the Receiver is satisfied and recommends that the
+Stalking Horse Agreement be approved by this Honourable Court for the following
+reasons:</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.25in">a)<span style='font:7.0pt "Times New Roman"'>    </span>the Stalking Horse Agreement is the only transaction resulting from
+the SISP;</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.25in">b)<span style='font:7.0pt "Times New Roman"'>    </span>the Stalking Horse Agreement will ensure the continued business
+relationships between Garibaldi [entities] and the EAC [EA Certificate]
+consultants who are working to assist in the satisfaction of the EAC Conditions;</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.25in">c)<span style='font:7.0pt "Times New Roman"'>    </span>the Stalking Horse Agreement ensures continued progress towards a
+new resort in southwestern British Columbia. It is expected that this progress
+will lead to continued and future sustained economic benefit in the region;</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.25in">d)<span style='font:7.0pt "Times New Roman"'>    </span>the Receiver believes the Stalking Horse Agreement is the best
+outcome for stakeholders;</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.25in">e)<span style='font:7.0pt "Times New Roman"'>    </span>the Receiver believes the Stalking Horse Agreement represents a
+greater recovery than would be available under a bankruptcy; and </p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:.5in;margin-bottom:.25in;
+margin-left:1.0in;text-indent:-.25in">f)<span style='font:7.0pt "Times New Roman"'>     </span>the Receiver believes that spending further time and resources
+marketing Garibaldi assets will not result in a transaction superior to the
+Stalking Horse Agreement.</p>
+<h2><a name="_Toc165628031">Change in Amount of the Credit Bid</a></h2>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[36]<span style='font:7.0pt "Times New Roman"'>       </span>EY supports the amendment to the amount of the credit bid and GAS’ retention
+of $20 million as a retained liability. In its second report, EY explained the
+petitioners seek to amend the Transaction in this way based on advice from
+their financial advisors. No party took issue to EY’s advice that the change is
+“superficial in nature, does not prejudice any of the Garibaldi [entities’]
+stakeholders or potential bidders”, and “does not impact on the efficacy of the
+SISP” (including the ability of any potential bidder to tender a bid that
+complies with the terms of the SISP), and is being done to avoid potential
+unintentional and adverse consequences to the petitioners as successful
+bidders. </p>
+<h2><a name="_Toc165628032">The RVO</a></h2>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[37]<span style='font:7.0pt "Times New Roman"'>       </span>EY recommends the RVO be approved. Two aspects of its advice to the Court
+are not challenged by the Province: the RVO produces an economic result at
+least as favourable as any other viable alternative and the consideration is appropriate.
+As mentioned at the outset of these reasons, the Province’s objections are
+grounded on jurisdiction and what are known as the <i>Harte Gold</i> factors of
+necessity and whether any stakeholder is worse off under the RVO than they
+would be under any other viable structure.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[38]<span style='font:7.0pt "Times New Roman"'>       </span>Before turning to my determination of the Province’s objections, it
+is useful to set out EY’s advice concerning jurisdiction and the two <i>Harte
+Gold</i> factors in issue.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[39]<span style='font:7.0pt "Times New Roman"'>       </span>In terms of jurisdiction, EY (and the petitioners) submit that the
+issue of jurisdiction has been decided in prior decisions of this Court (cited
+in para. 21) and that I am bound to follow them based on the principle of
+horizontal <i>stare decisis</i>. Further, the RVO, it says, does not contravene
+provincial legislation. </p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[40]<span style='font:7.0pt "Times New Roman"'>      
+</span>Turning to the two <i>Harte Gold</i> factors in
+issue, EY’s advice concerning necessity, excerpted below, is predicated on
+urgency to satisfy the construction pre-conditions and the absence of any other
+viable alternative to preserve both the value of the Garibaldi entities as going
+concerns and the Project:</p>
+<p class="SCJQuote">[from the Second Report]</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">35.       The
+Receiver considered the appropriateness of an RVO in the circumstances by
+evaluating the following factors:</p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.5in;text-indent:-.25in"><i>a)<span style='font:7.0pt "Times New Roman"'>    </span></i><i>Why is the RVO necessary in this case?</i></p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.0in">The RVO is necessary given the
+circumstances of the Debenture Holder’s requirement to maintain the EAC, the
+Interim Agreement and the tax attributes that may not be assignable or conveyed
+under a typical asset sale.</p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:.25in;
+margin-left:1.0in"><u>The RVO structure maintains the existing
+legal entities and ensures the preservation of the going concern nature of the
+Project, the EAC process and the Interim Agreement. The First Report describes
+the incredibly tight timeline to satisfy the preconstruction EAC conditions and
+the pivotal role the EAC plays in maintaining the Interim Agreement, Garibaldi only
+material asset</u>. Any delay between now and the EAC
+deadline, being January 26, 2026, could have a material impact on the value of Garibaldi
+and the going concern nature of the Project. The First Report contains a gantt
+chart outlining the outstanding requirements that will need to be satisfied
+urgently and the required sequencing of the same to ensure those conditions are
+satisfied prior to the EAC Deadline. The Receiver notes that the near term
+estimated costs associated with satisfying these conditions far exceeds the
+amount available to it through Receiver borrowing within these proceedings.
+Accordingly maintaining the financial requirements of continuing to pursue the
+satisfaction [of] the EAC conditions for an extended period in receivership is
+not possible and in order for the Project to continue a transaction is necessary.</p>
+<p class="SCJQuote">[from the First Supplement]</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">9.         <a name="_Hlk165465483">If Garibaldi is not able to keep the EAC in good standing,
+the Interim Agreement is at risk of being terminated and Garibaldi will not
+have any material assets or going concern enterprise value.</a></p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">10.       Given
+the unique nature of the Interim Agreement, its interdependence on the EAC, and
+the corresponding considerable expenses, and the tight timeline to satisfy the
+Pre-Construction Conditions, it is difficult to ascertain a value for the
+assets of Garibaldi. <u>The Interim Agreement grants an intangible opportunity
+to build the Project, at the significant cost and risk of the Purchasers</u>.</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Italic emphasis
+in original; underline emphasis added]</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[41]<span style='font:7.0pt "Times New Roman"'>      
+</span>EY considered whether an asset vesting order (“AVO”)
+was possible as part of its necessity analysis:</p>
+<p class="SCJQuote">[from the First Supplement]</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">33.       In
+addition to considering alternative insolvency proceedings, the Receiver
+considered whether there was the potential to amend the Stalking Horse
+Agreement to allow for the assets of Garibaldi to transfer to the Purchaser by
+way of an assets vesting order (“<b>AVO</b>”).</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">34.       As
+mentioned previously, <u>the Province has unilateral authority under the
+Interim Agreement to approve the assignment of the Interim Agreement. The
+Receiver does not think an AVO is a viable alternative to the Reverse Vesting
+Order without certainty from the Province that they would consent to the
+assignment of the Interim Agreement. It is unclear how long the Province would
+need to consult internally before approving the assignment of the Interim
+Agreement to the Purchasers</u>. The Receiver and Purchasers were not willing
+to undertake the costs associated with drafting a new purchase and sale
+agreement and associated court material without knowing, with certainty, that
+the AVO could proceed without opposition or delay in obtaining consent on the
+assignment of the Interim Agreement from the Province. </p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">35.       Additionally,
+it is expected that any tax attributes within Garibaldi would be preserved
+through the Reverse Vesting Order would likely not be transferrable through an
+AVO.</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">36.       <u>Based
+on these factors and without the Province agreeing to expedite their consent to
+the assignment [of] the Interim Agreement and the EAC to the Purchasers, the
+Receiver does not believe an AVO is practical or reasonable in the
+circumstances</u>.</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Bold in
+original, underling emphasis added]</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[42]<span style='font:7.0pt "Times New Roman"'>       </span>On Friday before the hearing was to begin the following Monday, the
+Province informed EY in writing that if an application was made requesting an
+assignment or transfer of the EA Certificate and the Interim Agreement to the
+purchasers under an AVO, “the Chief Executive Assessment Officer (i.e., the
+statutory decision-maker) <u>could</u> make a transfer decision <b>within three
+weeks</b> of receiving a complete application for transfer” [bold in original,
+underline emphasis added]. According to the Province, a transaction by an AVO
+is a viable alternative to the RVO. However, the Province, who is aware of the
+relationship between the petitioners and three of GAS’ four existing
+shareholders and to the Partnership, the looming timelines imposed under the EA
+Certificate, and urgent work to be done in the next twelve months to meet the
+deadline, has not indicated whether it will, would, or was likely to grant
+approval of a transfer when it responds. When the Province was pressed on the
+point during submissions, it became clear that the Province had not provided
+instructions to convey to the other parties and the Court of its position in
+that respect.</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[43]<span style='font:7.0pt "Times New Roman"'>      
+</span>As for whether there any viable alternatives to
+an RVO and whether any stakeholder is worse off, EY advises:</p>
+<p class="SCJQuote">[from the Second Report]</p>
+<p class="SCJQuote">35.       …</p>
+<p class="SCJQuote" style="margin-left:1.5in;text-indent:-.5in"><i>c)         Is any stakeholder worse off under the RVO structure than
+they would have been under any other viable structure?</i></p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:.25in;
+margin-left:1.0in"><u>No, the Receiver is not aware of any
+stakeholder who would be worse off under the RVO structure. The Receiver notes
+that there are no other alternative viable structures and absent the Stalking
+Horse Agreement, a liquidation or bankruptcy would be a likely scenario which,
+as mentioned above, would have a negative economic impact on the Project and
+the various stakeholders as compared to the Stalking Horse Agreement</u>.</p>
+<p class="SCJQuote">[from the First Supplement]</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">17.       The
+Receiver understands, based on conversation with the Province, that an
+assignment of the Interim Agreement to a third party purchaser would require
+consultation between several departments within the Province. The duration and
+resulting outcome of such a consultation process is unclear. Without certainty
+on the ability to assign the Interim Agreement, the Purchasers are not in a
+position to undertake any material costs associated with satisfying the EAC
+conditions.</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.5in">18.       The
+Province, through various ministries, is afforded consultation and approval rights
+within the EAC. There rights are maintained through the Stalking Horse
+Agreement and the Reverse Vesting Order sought by the Receiver. <u>If the
+Reverse Vesting Order is approved by this Honourable Court there will be no
+impact to the Province’s oversight of the EAC process</u>.</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Italic emphasis
+in original; underline emphasis added]</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[44]<span style='font:7.0pt "Times New Roman"'>       </span>EY’s analysis also confirms that proceeding through bankruptcy or
+proposal proceedings under the <i>BIA</i> or under the <i>CCAA</i> would not
+provide any advantages and instead, would, at a minimum, cause significant
+delay, putting completion of the construction pre-conditions in considerable
+jeopardy, and also cause additional unwarranted expense. Bankruptcy proceedings
+would, EY said, “likely erode all of the enterprise value within Garibaldi
+[entities]”: the First Supplement at para. 31. </p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[45]<span style='font:7.0pt "Times New Roman"'>      
+</span>In its conclusion, EY advises that none of the
+alternatives it reviewed – an AVO transaction, a proposal or bankruptcy
+proceedings under the <i>BIA</i>, or conversion to a <i>CCAA</i> proceeding – provide
+any additional benefit or better outcome and could put the Project at risk:</p>
+<p class="SCJQuote">[from the First Supplement]</p>
+<p class="SCJQuote">37.       In addition to the factors
+considered above, the Receiver notes none of the alternatives described above
+would provide any additional benefit or a better outcome to stakeholders. The
+recovery to stakeholders does not improve in any of the above alternatives. It
+is believed that the additional costs, uncertainty of outcome and potential
+delays associated [with] commencing or converting to a different proceeding is
+prejudicial to the Purchaser, who is the only creditor with a remaining
+economic interest in Garibaldi, <u>and could put the Project at risk</u>.</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Emphasis added]</p>
+<h1><a name="_Toc165628033">The Province Opposes the
+Transaction</a></h1>
+<h2><a name="_Toc165628034">Introductory Remarks</a></h2>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[46]<span style='font:7.0pt "Times New Roman"'>       </span>The Province’s opposition to the Transaction at the outset of the
+hearing was three-fold. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[47]<span style='font:7.0pt "Times New Roman"'>       </span>First, there is no jurisdiction in the <i>BIA</i> to approve RVOs. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[48]<span style='font:7.0pt "Times New Roman"'>       </span>Second, if there is, the RVO cannot be approved under the <i>BIA</i>
+in this case because it circumvents provincial legislation and its statutory decision-making
+powers, and, in any event, EY has not met its onus to satisfy the <i>Harte Gold</i>
+factors concerning necessity and the requirement that no other stakeholder is
+worse off.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[49]<span style='font:7.0pt "Times New Roman"'>       </span>Third, the proposed release in the contemplated court order was
+overly broad as it would immunize the purchaser from its obligations as a
+“responsible person” under the <i>Env. Mgmt. Act</i> for any prior
+contravention of that statute. The Province’s objection was resolved when the petitioners
+agreed to amend the release language.</p>
+<h2><a name="_Toc165628035">Jurisdiction under the <i>BIA</i></a><i> </i></h2>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[50]<span style='font:7.0pt "Times New Roman"'>       </span>The Province truncated its submissions somewhat concerning the
+absence of jurisdiction to order RVOs under any provision of the <i>BIA</i>
+after EY agreed that if it did, the Province could not be taken to have
+prejudiced what it described as its “no jurisdiction writ large” defence when
+its appeal of the order in <i>Peakhill</i>, approving an RVO in a <i>BIA</i>
+receivership setting, is argued in the Court of Appeal on June 6, 2024. Nevertheless,
+the Province’s submissions were, in the end, fulsome and referred to many
+authorities and points grounding its overarching defence since they were, it
+said, essential to and informed its position that there is no jurisdiction in
+the specific context of this case to approve the proposed RVO. For that reason,
+I have endeavoured to summarize the Province’s position, which as I have
+mentioned, asks me to reach a different conclusion than other decisions of this
+Court on the basis that horizontal <i>stare decisis</i> is not engaged.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[51]<span style='font:7.0pt "Times New Roman"'>       </span>The Province’s overarching position that no jurisdiction exists
+under the <i>BIA</i> to grant RVOs relies on case authorities and commentary in
+certain articles discussing the difference between the rules-based nature of
+the <i>BIA</i> as opposed to the elastic provisions of the <i>CCAA: </i>see, e.g.,
+<i>Century Services Inc. v. Canada (Attorney General), </i>2010 SCC 60; <i>Canada
+v. Canada North Group Inc</i>., 2021 SCC 30; <i>Saskatchewan (Attorney General)
+v. Lemare Lake Logging Ltd</i>., 2015 SCC 53; <i>GMAC Commercial Credit
+Corporation - Canada v. T.C.T. Logistics Inc</i>., 2006 SCC 35; <i>Third Eye
+Capital Corporation v. Ressources Dianor Inc./Dianor Resources Inc.</i>, 2019
+ONCA 508; <i>Yukon (Government of) v. Yukon Zinc Corporation</i>, 2021 YKCA 2; Professor
+Sarra’s article; Aminollah Sabzervari, “A Hill Too Far: Reverse Vesting orders
+in BIA Receiverships” (26 February, 2024), online (CanLII Connects): &lt;https://canliiconnects.org/en/commentaries/93579&gt;;
+Eamonn Watson et al., “Anything You Can Do, I Can Do Better: Does the <i>CCAA</i>
+Provide Broader Discretionary Relief than the <i>BIA</i>?”, 2022 Annual Review
+of Insolvency Law, 2022 CanLIIDocs 4309.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[52]<span style='font:7.0pt "Times New Roman"'>       </span>In particular, the Province relies heavily on <i>dicta</i> from the
+Supreme Court of Canada (e.g., <i>Century Services</i> at para. 14) and appellate
+decisions discussing the different objectives of the receivership regime in the
+<i>BIA, </i>focusing on liquidation of a debtor’s assets to maximize value to
+creditors, from the restructuring goals of the <i>CCAA</i>.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in"><span style="font-size:11.0pt;line-height:150%">[53]<span style='font:7.0pt "Times New Roman"'>       
+</span></span>The Province contends that neither s. 183(1)(c) nor
+s. 243(1) of the <i>BIA</i>, which it describes as general in nature, advanced
+as a jurisdictional basis in this and other cases where RVOs under the <i>BIA</i>
+are sought, are sufficient to ground jurisdiction in the rules-based regime of
+the <i>BIA</i> established by Parliament.</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[54]<span style='font:7.0pt "Times New Roman"'>      
+</span>Those sections provide:</p>
+<p class="SCJQuote" style="text-indent:.5in">Courts vested with
+jurisdiction</p>
+<p class="SCJQuote"><span class="lawlabel"><b><span style='font-family:
+"Helvetica",sans-serif;color:black'>(183)(1)</span></b></span> The
+following courts are invested with such jurisdiction at law and in equity as
+will enable them to exercise original, auxiliary and ancillary jurisdiction in
+bankruptcy and in other proceedings authorized by this Act during their
+respective terms, as they are now, or may be hereafter, held, and in vacation
+and in chambers: …</p>
+<p class="SCJQuote" style="margin-left:1.0in"><span class="lawlabel"><b><span style='font-family:"Helvetica",sans-serif;color:black'>(</span></b></span><span class="lawlabel"><b><span style='font-family:"Helvetica",sans-serif;
+color:black'>c)</span></b></span> in the Provinces of
+Nova Scotia and British Columbia, the Supreme Court; …</p>
+<p class="SCJQuote"><span class="lawlabel">…</span></p>
+<p class="SCJQuote"><b>Court may appoint receiver</b></p>
+<p class="SCJQuote"><span class="sectionlabel"><b><span style='font-family:"Helvetica",sans-serif;color:black'>243</span></b></span> <span class="lawlabel"><b><span style='font-family:"Helvetica",sans-serif;color:black'>(1)</span></b></span> Subject to subsection (1.1), on application by a secured
+creditor, a court may appoint a receiver to do any or all of the following if
+it considers it to be just or convenient to do so:</p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.0in"><span class="lawlabel"><b><span style='font-family:
+"Helvetica",sans-serif;color:black'>(a)</span></b></span> take
+possession of all or substantially all of the inventory, accounts receivable or
+other property of an insolvent person or bankrupt that was acquired for or used
+in relation to a business carried on by the Insolvent person or bankrupt;</p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.0in"><span class="lawlabel"><b><span style='font-family:
+"Helvetica",sans-serif;color:black'>(b)</span></b></span> exercise
+any control that the court considers advisable over that property and over the
+insolvent person’s or bankrupt’s business; or</p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.0in"><span class="lawlabel"><b><span style='font-family:
+"Helvetica",sans-serif;color:black'>(c)</span></b></span> take
+any other action that the court considers advisable.</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Bold in
+original]</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[55]<span style='font:7.0pt "Times New Roman"'>      
+</span>The Province contrasts those provisions from s.
+11 of the <i>CCAA</i>, excerpted below, which has been determined in numerous case
+authorities to ground jurisdiction to approve RVOs in restructuring proceedings
+brought under that statute:</p>
+<p class="SCJQuote"><b>General power of court</b></p>
+<p class="SCJQuote" style="page-break-after:avoid"><b><span style="color:black">11</span></b> Despite anything in
+the <i><u>Bankruptcy and Insolvency Act</u></i> or the <i><u>Winding-up
+and Restructuring Act</u></i>, if an application is made under this Act in
+respect of a debtor company, the court, on the application of any person
+interested in the matter, may, subject to the restrictions set out in this Act,
+on notice to any other person or without notice as it may see fit, make any
+order that it considers appropriate in the circumstances.</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Emphasis in
+original]</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[56]<span style='font:7.0pt "Times New Roman"'>      
+</span>The Province’s characterization of ss. 183 and
+243 is aptly summarised in these extracts from its application response:</p>
+<p class="SCJQuote">30.       By its terms, s. 183 is general in
+nature. Indeed, it is difficult to conceive of a provision that could be more
+general. …</p>
+<p class="SCJQuote">34.       The <i>BIA</i>, unlike the <i>CCAA</i>,
+is prescriptive, detailed and intricate. It carefully weighs competing
+interests. Allowing an RVO in a <i>BIA</i> proceeding – which inherently offers
+less room for judicial flexibility, and wherein there is no broad grant of
+authority equivalent to <i>CCAA </i>s. 11 – risks upsetting the comprehensive <i>BIA</i>
+scheme chosen by Parliament.</p>
+<p class="SCJQuote">35.       Simply put, jurisdiction cannot
+arise under s. 183 because s. 183 does not provide jurisdiction to approve a
+proposal without a vote, to approve a proposal that has failed to meet the
+sufficient majority of votes (which results in a deemed assignment into
+bankruptcy), to approve a proposal that does not have the mandatory payment
+terms, or to impose a proposal that does not meet other requirements mandated
+by the <i>BIA</i>. Section 183 cannot be read as providing jurisdiction which
+would bypass and upset the <i>BIA</i> scheme chosen by Parliament.</p>
+<p class="SCJQuote">…</p>
+<p class="SCJQuote" style="margin-bottom:.25in">38. For the same
+reasons as set out above concerning s. 183, the non-descript language of s. 243
+cannot provide jurisdiction to bypass the structure of the <i>BIA</i>.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[57]<span style='font:7.0pt "Times New Roman"'>       </span>It is appropriate to observe at this juncture that concerns over
+bypassing processes put in place by Parliament are addressed through
+jurisprudence confirming the need to demonstrate exceptional circumstances
+exist and an evidence-based rationale to find that the <i>Harte Gold </i>factors
+are satisfied before approving an RVO.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[58]<span style='font:7.0pt "Times New Roman"'>       </span>In contrast to the Province’s characterization of the <i>BIA</i> as
+a rigid, formulaic, rules-based statute, an expansive interpretation of flexibility
+of those sections of the <i>BIA</i> to allow insolvency judges to react to
+circumstances as they arise to do what practicality demands and justice
+dictates in <i>BIA</i> proceedings, including receiverships, was remarked upon as
+far back as 1994 by the respected insolvency jurist, Justice Farley, in <i>Canada
+(Minister of Indian Affairs &amp; Northern Development) v. Curragh Inc. </i>(1994),
+114 D.L.R. (4th) 176, 1994 CanLII 7468 (Ont. C.J. (Gen. Div.) [Commercial List]).</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[59]<span style='font:7.0pt "Times New Roman"'>      
+</span>In that case, Farley J. considered the scope of jurisdiction
+granted by Parliament in the language of what was then s. 47(2)(c) of the <i>BIA</i>,
+which authorized a court to direct an interim receiver to take such other
+action as the court considers advisable. His determination of the authority
+granted by that section is cited, with approval, in the following excerpt from
+the Ontario Court of Appeal’s decision in <i>Third Eye Capital</i>:</p>
+<p class="SCJQuote">[51]      Following the enactment of s.
+47(2), the courts granted interim receivers broad powers, and it became common
+to authorize an interim receiver to both operate and manage the debtor's
+business, and market and sell the debtor's property: Frank Bennett, <i><span style="border:none windowtext 1.0pt;padding:0in">Bennett on Bankruptcy</span></i>,
+21st ed. (Toronto: LexisNexis, 2019), at p. 205; Roderick J. Wood, <i><span style="border:none windowtext 1.0pt;padding:0in">Bankruptcy and Insolvency Law</span></i>,
+2nd ed. (Toronto: Irwin Law, 2015), at pp. 505-506.</p>
+<p class="SCJQuote">[52]      Such powers were endorsed by
+judicial interpretation of s. 47(2). Notably, in <i><span style="border:none windowtext 1.0pt;
+padding:0in">Canada (Minister of Indian Affairs &amp; Northern Development) v.
+Curragh Inc.</span></i><a href="https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;pubNum=6407&amp;serNum=1994399283&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)"><span style="color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:
+none"> (1994), 114 D.L.R. (4th) 176</span></a> (Ont.
+Gen. Div. [Commercial List]), Farley J. considered whether the language in s.
+47(2)(c) that provided that the court could "direct an interim receiver .
+. . to . . . take such other action as the court considers advisable",
+permitted the court to call for claims against a mining asset in the Yukon and
+bar claims not filed by a specific date. He determined that it did. He wrote,
+at p. 185:</p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.0in"><u>It would appear to me that Parliament
+did not take away any inherent jurisdiction from the Court but in fact
+provided, with these general words, that the Court could enlist the services of
+an interim receiver to do not only what "justice dictates" but also
+what "practicality demands." It should be recognized that where one
+is dealing with an insolvency situation one is not dealing with matters which
+are neatly organized and operating under predictable discipline. Rather the
+condition of insolvency usually carries its own internal seeds of chaos,
+unpredictability and instability.</u></p>
+<p class="SCJQuote">See also <i><span style="border:none windowtext 1.0pt;
+padding:0in">Loewen Group Inc., Re</span></i><a href="https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;pubNum=6407&amp;serNum=2001602267&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)"><span style="color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:
+none"> (2001), 22 B.L.R. (3d) 134</span></a> (Ont.
+S.C.J. [Commercial List]).</p>
+<p class="SCJQuote" style="page-break-after:avoid">[53]      Although
+Farley J. spoke of inherent jurisdiction, given that his focus was on providing
+meaning to the broad language of the provision in the context of Parliament's
+objective to regulate insolvency matters, this might be more appropriately
+characterized as statutory jurisdiction under Jackson and Sarra's hierarchy. <u>Farley
+J. concluded that the broad language employed by Parliament in s. 47(2)(c)
+provided the court with the ability to direct an interim receiver to do not
+only what "justice dictates" but also what "practicality
+demands".</u></p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Emphasis added]</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[60]<span style='font:7.0pt "Times New Roman"'>      
+</span>The Ontario Court of Appeal took the same view (of
+s. 243) in <i>Third Eye Capital</i> of the flexibility granted to insolvency
+judges to authorize a receiver to enter into agreements to sell a debtor’s
+property, recognizing the receivership regime must “be flexible and responsive
+to evolving commercial practice”:</p>
+<p class="SCJQuote"><span style="background:white">[55]      Parliament
+amended s. 47(2) through the <i><span style="border:none windowtext 1.0pt;
+padding:0in">Insolvency Reform Act</span></i> 2005 and the <i><span style="border:none windowtext 1.0pt;padding:0in">Insolvency Reform Act</span></i>
+2007 which came into force on September 18, 2009. The amendment both modified
+the scope and powers of interim receivers, and introduced a receivership regime
+that was national in scope under s. 243.</span></p>
+<p class="SCJQuote">…</p>
+<p class="SCJQuote"><span style="background:white">[57]      <u>When
+Parliament enacted s. 243, it was evident that courts had interpreted the
+wording "take such other action that the court considers advisable"
+in s. 47(2)(c) as permitting the court to do what "justice dictates"
+and "practicality demands".</u> As the Supreme Court observed in <i><span style="border:none windowtext 1.0pt;padding:0in">ATCO Gas &amp; Pipelines Ltd.
+v. Alberta (Energy &amp; Utilities Board)</span></i></span><a href="https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;pubNum=6407&amp;serNum=2008062690&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)"><span style="color:windowtext;border:none windowtext 1.0pt;padding:0in;background:
+white;text-decoration:none">, 2006 SCC 4, [2006] 1 S.C.R. 140</span></a><span style="background:white"> (S.C.C.): "It is a well-established principle
+that the legislature is presumed to have a mastery of existing law, both common
+law and statute law". Thus, Parliament's deliberate choice to import the
+wording from s. 47(2)(c) into s. 243(1)(c) must be considered in interpreting
+the scope of jurisdiction under </span><a href="https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0280329932&amp;pubNum=134158&amp;originatingDoc=I8bc97fb55eec36bae0540010e03eefe2&amp;refType=IG&amp;docFamilyGuid=Idba2ccabf42f11d99f28ffa0ae8c2575&amp;targetPreference=DocLanguage%3aEN&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)#co_pp_AA69F595595E466EE0540010E03EEFE0"><span style="color:windowtext;border:none windowtext 1.0pt;padding:0in;background:
+white;text-decoration:none">s. 243(1) of the BIA</span></a><span style="background:white">.</span></p>
+<p class="SCJQuote">…</p>
+<p class="SCJQuote">[85]      In my view, s. 243 provides
+jurisdiction to the court to authorize the receiver to enter into an agreement
+to sell property and in furtherance of that power, to grant an order vesting
+the purchased property in the purchaser. Thus, here the Receiver had the power
+under <a href="https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0280329932&amp;pubNum=134158&amp;originatingDoc=I8bc97fb55eec36bae0540010e03eefe2&amp;refType=IG&amp;docFamilyGuid=Idba2ccabf42f11d99f28ffa0ae8c2575&amp;targetPreference=DocLanguage%3aEN&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)"><span style="color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:
+none">s. 243 of the BIA</span></a> to enter into an
+agreement to sell Dianor's property, to seek approval of that sale, and to
+request a vesting order from the court to give effect to the sale that was
+approved.</p>
+<p class="SCJQuote" style="page-break-after:avoid"><span style="background:white">[86]      <u>Lastly, I would also observe that this
+conclusion supports the flexibility that is a hallmark of the Canadian system
+of insolvency — it facilitates the maximization of proceeds and realization of
+the debtor's assets, but as I will explain, at the same time operates to ensure
+that third party interests are not inappropriately violated. This conclusion is
+also consonant with contemporary commercial realities; realities that are
+reflected in the literature on the subject, the submissions of counsel for the
+intervener, the Insolvency Institute of Canada, and the model Commercial List
+Sales Approval and Vesting Order. Parliament knew that by importing the broad
+language of s. 47(2)(c) into s. 243(1)(c), the interpretation accorded s.
+243(1) would be consistent, thus reflecting a desire for the receivership
+regime to be flexible and responsive to evolving commercial practice.</u></span></p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Emphasis added]</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[61]<span style='font:7.0pt "Times New Roman"'>      
+</span>The same point is made in the 2022 decision of
+the Supreme Court of Canada, <i>Peace River Hydro Partners v. Petrowest Corp.</i>,
+2022 SCC 41, where, in the context of a <i>BIA</i> receivership proceeding, the
+Court was asked to decide whether a contractual agreement to arbitrate under a
+provincial statute should “give way to (what Justice Côté described at para. 1
+as) the public interest in the orderly and efficient resolution of a
+court-ordered receivership under s. 243 of the” <i>BIA</i>:</p>
+<p class="SCJQuote">[<a name="par148">148</a>]<span style="font-size:7.0pt"> </span>Further, under <a href="https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-b-3/latest/rsc-1985-c-b-3.html#sec243subsec1_smooth"><span style="color:windowtext;text-decoration:none">s. 243(1)</span></a>(c) of the <a href="https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-b-3/latest/rsc-1985-c-b-3.html"><i><span style="color:windowtext;text-decoration:none">BIA</span></i></a>, a court may
+appoint a receiver to, among other things, “take any . . . action that the
+court considers advisable”, if the court considers it “just or convenient to do
+so”. <u>This very expansive wording has been interpreted as giving judges the
+“broadest possible mandate in insolvency proceedings to enable them to react to
+any circumstances that may arise” in relation to court‑ordered
+receiverships</u> (<i>DGDP-BC Holdings Ltd. v. Third Eye Capital Corporation</i>,
+<a href="https://www.canlii.org/en/ab/abca/doc/2021/2021abca226/2021abca226.html"><span style="color:windowtext;text-decoration:none">2021 ABCA 226</span></a>, 459
+D.L.R. (4th) 538, at para. <a href="https://www.canlii.org/en/ab/abca/doc/2021/2021abca226/2021abca226.html#par20"><span style="color:windowtext;text-decoration:none">20</span></a>; see also Houlden,
+Morawetz and Sarra, at § 12:18; <i>Dianor</i>, at paras. 57‑58). <u>Section
+243(1)(c) thus permits a court to do not only what “justice dictates” but also
+what “practicality demands”</u> (<i>Dianor</i>, at para. 57; <i>Canada
+(Minister of Indian Affairs and Northern Development) v. Curragh</i> <i>Inc. </i>(1994),
+<a href="https://www.canlii.org/en/on/onsc/doc/1994/1994canlii7468/1994canlii7468.html"><span style="color:windowtext;text-decoration:none">1994 CanLII 7468 (ON SC)</span></a>,
+114 D.L.R. (4th) 176 (Ont. C.J. (Gen. Div.)), at p. 185).</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Emphasis added]</p>
+<p class="SCJNumber">See also paras. 9, 147.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[62]<span style='font:7.0pt "Times New Roman"'>       </span>In the Watson<i> </i>article cited by the Province, the authors
+remarked that the Court’s decision in <i>Petrowest</i> is “consistent with the
+trend reviewed in this article of encouraging Canadian courts to harmonize the
+two [<i>BIA</i> and <i>CCAA</i>] insolvency regimes.”</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[63]<span style='font:7.0pt "Times New Roman"'>       </span>The Province nonetheless stands by its position on jurisdiction and maintains
+that the exceptions to horizontal <i>stare decisis</i> described in <i>Hansard
+Spruce Mills</i> and <i>Sullivan </i>are engaged. It contends that I am not
+bound by the prior decisions of this Court (<i>PaySlate #1</i>, <i>PaySlate #2</i>,
+<i>Peakhill</i>, <i>Port Capital</i>, and <i>Canwest</i>) determining that
+jurisdiction exists generally in the <i>BIA</i> to grant RVOs. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[64]<span style='font:7.0pt "Times New Roman"'>       </span>The Province also says that there is no precedential value to
+decisions of the Ontario Superior Court of Justice approving RVOs (<i>Vert
+Infrastructure Ltd. (Re)</i> (8 June 2021), ONSC [Commercial List], Court file
+No. Toronto CV-20-00642256-00CL; and <i>2056706 Ontario Inc et al (Re)</i> (7 January
+2021), ONSC [Commercial List], Court file No. Toronto CV-20-00638503-00CL) in
+the absence of reasons discussing jurisdiction and also since the orders were
+issued by consent.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[65]<span style='font:7.0pt "Times New Roman"'>       </span>Leaving aside potential issues arising from the Ontario orders, the Province
+is in a difficult position concerning horizontal <i>stare decisis</i>. </p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[66]<span style='font:7.0pt "Times New Roman"'>      
+</span>As Justice Gomery points out in <i>Canwest </i>at
+para. 17, there are narrow exceptions to the principle. A useful description of
+the principle and the exceptions is found in <i>Sullivan</i>: </p>
+<p class="SCJQuote"><span style="color:black">[<a name="par6">6</a>]</span><span style="font-size:7.0pt;color:black">           </span><span style="color:black">…</span>The right approach can
+be stated plainly. Superior courts at first instance may not be bound if the
+prior decision is distinguishable on its facts or if the court had no practical
+way of knowing that the earlier decision existed. Otherwise, the decision is
+binding and the judge may only depart from it if one or more of the exceptions
+helpfully explained in <i>Re Hansard Spruce Mills</i>, [citation omitted] apply.</p>
+<p class="SCJQuote">…</p>
+<p class="SCJQuote">[<a name="par75">75</a>]<span style="font-size:7.0pt">        </span>The
+principle of judicial comity — that judges treat fellow judges’ decisions with
+courtesy and consideration — as well as the rule of law principles supporting <i>stare
+decisis </i>mean that prior decisions should be followed unless the <i>Spruce
+Mills</i> criteria are met. Correctly stated and applied, the <i>Spruce Mills</i>
+criteria strike the appropriate balance between the competing demands of
+certainty, correctness and the even-handed development of the law. Trial courts
+should only depart from binding decisions issued by a court of coordinate jurisdiction
+in three narrow circumstances:</p>
+<p class="SCJQuote" style="margin-left:1.0in">1. The rationale
+of an earlier decision has been undermined by subsequent appellate decisions;</p>
+<p class="SCJQuote" style="margin-left:1.0in">2. The earlier
+decision was reached per incuriam (“through carelessness” or “by
+inadvertence”); or</p>
+<p class="SCJQuote" style="margin-left:1.0in">3. The earlier
+decision was not fully considered, e.g. taken in exigent circumstances.</p>
+<p class="SCJQuote">[<a name="par76">76</a>]<span style="font-size:7.0pt">        </span>First, a
+judge need not follow a prior decision where the authority of the prior
+decision has been undermined by subsequent decisions. This may arise in a
+situation where a decision has been overruled by, or is necessarily
+inconsistent with, a decision by a higher court (see Rowe and Katz, at p. 18,
+citing Kerwin, at p. 542).</p>
+<p class="SCJQuote">[<a name="par77">77</a>]<span style="font-size:7.0pt">        </span>Second, a
+judge can depart from a decision where it was reached without considering a
+relevant statute or binding authority. In other words, the decision was made <i>per
+incuriam</i>, or by inadvertence, a circumstance generally understood to be
+“rare” (see, e.g., <i>The Owners, Strata Plan BCS 4006 v. Jameson House
+Ventures Ltd.</i>, 2017 BCSC 1988, 4 B.C.L.R. (6th) 370, at para. 132). The
+standard to find a decision <i>per incuriam</i> is well-known: the court failed
+to consider some authority such that, had it done so, it would have come to a
+different decision because the inadvertence is shown to have struck at the
+essence of the decision. It cannot merely be an instance in which an authority
+was not mentioned in the reasons; it must be shown that the missing authority
+affected the judgment (Rowe and Katz, at p. 19).</p>
+<p class="SCJQuote" style="margin-bottom:.25in">[<a name="par78">78</a>]<span style="font-size:7.0pt">        </span>Third and
+finally, a judge may depart where the exigencies of the trial required an
+immediate decision without the opportunity to consult authority fully and thus
+the decision was not fully considered. An unconsidered judgment is not binding
+on other judges (Rowe and Katz, at p. 18, citing <i>Spruce Mills</i>, at p. 592).</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[67]<span style='font:7.0pt "Times New Roman"'>       </span>The Province points out that the RVO ultimately approved in <i>PaySlate
+#2</i> was in the context of the proposal provisions of the <i>BIA</i> which have
+different objectives (akin to restructuring under the <i>CCAA</i>) and that jurisdiction
+was uncontested. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[68]<span style='font:7.0pt "Times New Roman"'>       </span>Even though jurisdiction was uncontested, it was considered in <i>PaySlate
+#1</i>: paras. 84–86.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[69]<span style='font:7.0pt "Times New Roman"'>       </span><i>Peakhill </i>was decided after <i>PaySlate
+#2</i>. Justice Loo determined he had jurisdiction to approve an RVO in a
+receivership proceeding. He considered the Province’s argument that ss. 183(1)
+and 243 are insufficient to ground jurisdiction to approve an RVO in a <i>BIA</i>
+receivership proceeding. Justice Loo’s reasons cite Professor Janis Sarra’s
+article (at paras. 24, 45–48) which includes cautionary but not prohibitory
+language concerning the use of RVOs in <i>BIA</i> proceedings. Moreover, the
+Province advised me in submissions on this application that it put <i>T.C.T.
+Logistics </i>before Loo J. as part of its jurisdiction argument.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[70]<span style='font:7.0pt "Times New Roman"'>       </span><i>Port Capital, </i>also a <i>BIA</i>
+receivership proceeding, followed <i>Peakhill</i>. Justice Masuhara’s
+reasons do not specifically address jurisdiction. His decision to approve the
+RVO following <i>Peakhill </i>rested on his determination that the exceptions
+to horizontal <i>stare decisis</i> argued by the Province were not engaged:
+paras. 9–11.</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[71]<span style='font:7.0pt "Times New Roman"'>      
+</span>The Province was not a party to <i>Canwest</i>,
+which was another receivership proceeding brought under the <i>BIA</i>. The
+Attorney General of Canada, who was a party, maintained its “principled
+objection” (described at para. 5 of the reasons) that the court has no power to
+order an RVO in a receivership proceeding but also acknowledged that the exceptions
+to horizontal <i>stare decisis</i> were not engaged. Justice Gomery considered
+the point in any event and determined he was bound by the decision in <i>Peakhill</i>:
+</p>
+<p class="SCJQuote" style="margin-bottom:.25in"><span style='font-family:"Arial",sans-serif;color:black'>[17]</span><span style="font-size:7.0pt;color:black">        </span><i><span style='font-family:"Arial",sans-serif;color:black'>Peakhill</span></i><span style='font-family:"Arial",sans-serif;color:black'> is binding upon
+me for what it decides according to the principle of horizontal <i>stare
+decisis</i>. There are narrow exceptions to horizontal <i>stare decisis</i> set
+out in <i>Hansard Spruce Mills (Re), </i>[1954] 4 D.L.R. 590, 1954 CanLII 253
+(B.C.S.C.) and <i>R. v. Sullivan, </i><a name="_Hlk163480170">2022 SCC 19 </a>at
+paras. 6 and 73-79. Canada concedes and I agree that none of these exceptions
+applies. The decision is not undermined by subsequent appellate authority. I
+have not been shown any authority binding on Justice Loo that he apparently
+overlooked. Justice Loo reserved judgment for three weeks before he rendered
+judgment, and his reasons are fully considered.</span></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[72]<span style='font:7.0pt "Times New Roman"'>       </span>On the instant application, the Province’s horizontal <i>stare
+decisis</i> argument ultimately narrowed to this point: the decisions of this Court
+(it says I am not bound to follow) did not consider the Yukon Court of Appeal’s
+2021 discussion of the purposes and limits on a receiver’s powers in <i>Yukon
+Zinc</i> (the Province says <i>Yukon Zinc</i> was not cited in argument in
+those cases). </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[73]<span style='font:7.0pt "Times New Roman"'>       </span>According to the Province, the reasons in <i>Yukon Zinc</i> provide
+a better discussion and analysis of the points the Province made in <i>Peakhill
+</i>and refers to more case authorities.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[74]<span style='font:7.0pt "Times New Roman"'>       </span>EY points out that although the Province was not a party in <i>Canwest</i>,
+it was in <i>Peakhill </i>and <i>Port Capital</i> and had the opportunity to
+but did not cite <i>Yukon Zinc</i>.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[75]<span style='font:7.0pt "Times New Roman"'>       </span>The Province conceded that it argued many of the points raised and
+some of the authorities discussed by Justice Tysoe (sitting as a justice of
+appeal of the Yukon Court of Appeal) in <i>Yukon Zinc</i> before Justice Loo in
+<i>Peakhill</i>. Moreover, what <i>Yukon Zinc</i> decided is that the court
+could not permit the receiver to extinguish substantive rights of third parties
+or “subvert provincially regulated property and civil rights” in the absence of
+clear statutory language: at paras. 43, 51, 120–122. That determination is consistent
+with the <i>dicta</i> of the Supreme Court of Canada in <i>T.C.T. Logistics</i>,
+which was cited to Loo J. in <i>Peakhill.</i></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[76]<span style='font:7.0pt "Times New Roman"'>       </span>The Province’s position is, in essence, that <i>Peakhill</i>, <i>Port
+Capital</i>, and <i>Canwest</i>, and possibly the determination of jurisdiction
+in proposal provisions of the <i>BIA</i> in <i>PaySlate</i> #<i>1</i>, were
+wrongfully decided (I say possibly because the Province seemed to suggest that
+jurisdiction may exist under the proposal provisions of the <i>BIA</i> as their
+purpose was akin to the restructuring provisions of the <i>CCAA</i>). That
+position is for the Province to advance when the <i>Peakhill</i> appeal is
+argued before the Court of Appeal. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[77]<span style='font:7.0pt "Times New Roman"'>       </span>For all of these reasons, I do not find that the exceptions to
+horizontal <i>stare decisis </i>are engaged.</p>
+<h2><a name="_Toc165628036">Are there Impediments to Granting
+the RVO in this Case?</a></h2>
+<h3><a name="_Toc165628037">Jurisdiction</a></h3>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[78]<span style='font:7.0pt "Times New Roman"'>       </span>The Province’s position is that absent circumstances involving
+paramountcy, which all parties agree are not present on this application, ss.
+183(1) and 243(1) are of such general application that they cannot be used to
+breach, circumvent, or otherwise work around provincial legislation. </p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[79]<span style='font:7.0pt "Times New Roman"'>      
+</span>Relying on s. 72 of the <i>BIA</i> (excerpted
+below) and case authorities such as <i>T.C.T. Logistics</i>, <i>Lemare Lake
+Logging</i>, and <i>Yukon Zinc</i>, the Province contends that the Court has no
+jurisdiction to approve the RVO in this case:</p>
+<p class="SCJQuote"><b>Application of other substantive law</b></p>
+<p class="SCJQuote"><span class="sectionlabel"><b><span style='font-family:"Helvetica",sans-serif;color:black'>72</span></b></span> <span class="lawlabel"><b><span style='font-family:"Helvetica",sans-serif;color:black'>(1)</span></b></span> The provisions of this Act shall not be deemed to abrogate or
+supersede the substantive provisions of any other law or statute relating to
+property and civil rights that are not in conflict with this Act, and the
+trustee is entitled to avail himself of all rights and remedies provided by
+that law or statute as supplementary to and in addition to the rights and
+remedies provided by this Act.</p>
+<p class="SCJQuote" style="margin-bottom:.25in"><span class="sectionlabel"><span style='font-family:"Helvetica",sans-serif;color:black'>[Bold in
+original]</span></span></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[80]<span style='font:7.0pt "Times New Roman"'>       </span>According to the Province, the RVO does a “work-around” of s. 33 of
+the <i>E.A. Act</i>, which includes its statutory decision-making powers and
+(undefined) rights for consultation amongst various provincial government
+agencies, and s. 99(2) of the <i>Land Act</i>, R.S.B.C. 1996, c. 245 [<i>Land
+Act</i>].</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[81]<span style='font:7.0pt "Times New Roman"'>       </span>In my opinion, the point to be taken from the authorities cited by
+the parties is that while jurisdiction exists in <i>BIA</i> proceedings in
+appropriate circumstances to approve RVOs, it is not unbounded. Standing alone,
+ss. 183(1) and 243(1) do not afford a basis in receivership proceedings to
+circumvent provincial legislation or abrogate third party contractual rights.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[82]<span style='font:7.0pt "Times New Roman"'>       </span>But that is not the result in this case. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[83]<span style='font:7.0pt "Times New Roman"'>       </span>The RVO does not circumvent provincial legislation and statutory decision-making
+powers under the <i>E.A. Act</i>. </p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[84]<span style='font:7.0pt "Times New Roman"'>      
+</span>Transfer applications by a holder of an environmental
+assessment certificate, such as the EA Certificate issued to GAS, to another
+person are addressed in s. 33 of the <i>E.A. Act</i>. The statute is silent to
+circumstances such as the instant case involving a change of control:</p>
+<p class="SCJQuote"><b><span style='font-family:"Arial",sans-serif'>Transfer
+of certificate or exemption</span></b></p>
+<p class="SCJQuote"><span class="secnumholder"><b><span style='font-size:10.5pt;font-family:"Arial",sans-serif;color:black'>33</span></b></span><span class="secnumholder"><span style='font-family:"Arial",sans-serif;
+color:black'>   <a name="d1e3476"></a>(1) </span></span><span style='font-family:"Arial",sans-serif'>On application by the holder
+of an environmental assessment certificate or exemption order, the chief
+executive assessment officer may transfer the certificate or order to another
+person on any conditions the chief executive assessment officer considers
+appropriate.</span></p>
+<p class="SCJQuote"><a name="d1e3485"></a><span class="holder"><span style='font-family:"Arial",sans-serif;color:black'>(2) </span></span><span style='font-family:"Arial",sans-serif'>An application under
+subsection (1) must be made in accordance with the requirements of the chief
+executive assessment officer.</span></p>
+<p class="SCJQuote"><a name="d1e3494"></a><span class="holder"><span style='font-family:"Arial",sans-serif;color:black'>(3) </span></span><span style='font-family:"Arial",sans-serif'>The chief executive
+assessment officer may make requirements for the purposes of this section that
+apply generally or with respect to a specific reviewable project.</span></p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Bold in
+original]</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[85]<span style='font:7.0pt "Times New Roman"'>      
+</span>However, the Province’s June 2021 Transfer
+Policy and Procedures of the Chief Executive Assessment Officer does. It
+contemplates a change of control, contemplated by the Transaction and the RVO,
+as one of the identified circumstances in which a certificate holder is <u>not </u>required
+to engage in the transfer process:</p>
+<p class="SCJQuote"><b>3.1. No Transfer of EAC or Order Required
+</b></p>
+<p class="SCJQuote"><u>A request to transfer an EAC or Order is
+not required in the following cases</u>:</p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span><u>If the Holder retains ownership of the EAC or
+Order and project assets. For example</u>: </p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.5in;text-indent:-.25in"><span style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span><u>Transfers in ownership of shares in a corporate Holder</u>; </p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.5in;text-indent:-.25in"><span style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span>Change of Holder legal name (e.g. rebranding); or, </p>
+<p class="SCJQuote" style="margin-top:0in;margin-right:1.0in;margin-bottom:6.0pt;
+margin-left:1.5in;text-indent:-.25in"><span style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>   </span></span>Amalgamation of a corporate Holder with another corporation. </p>
+<p class="SCJQuote" style="margin-left:1.0in;text-indent:-.25in">•<span style='font:7.0pt "Times New Roman"'>        
+</span>If the EAC or Order or project assets are held
+in the name of a partnership (e.g. the Holder is simply identified as 123456 BC
+L.P.), a change in partners (either general partners or limited partners) does
+not require a transfer of the EAC. </p>
+<p class="SCJQuote" style="margin-left:1.5in;text-indent:-.25in"><span style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>  
+</span></span>However, if the EAC or Order is held by one or
+more partners for the benefit of the partnership and the EAC is being
+transferred to a different partner or group of partners for the benefit of that
+partnership, the EAC or Order will need to be transferred. </p>
+<p class="SCJQuote" style="margin-bottom:.25in">[Bold in
+original; underlining emphasis added]</p>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[86]<span style='font:7.0pt "Times New Roman"'>      
+</span>The <i>Land Act</i> is also silent regarding a
+change of control of the holder of an interest or right in land. Section 99(2) addresses
+situations where a person seeks to dispose or deal with an interest in land,
+which GAS is not seeking to do: </p>
+<p class="SCJQuote">A person may not dispose of or deal with an
+interest in Crown land held under a disposition, other than a Crown grant,
+unless</p>
+<p class="SCJQuote"><a name="d2e6777"></a><span class="holder"><span style='font-family:"Arial",sans-serif;color:black'>(a) </span></span><span style='font-family:"Arial",sans-serif'>the disposition under which
+the interest is held expressly allows it, or</span></p>
+<p class="SCJQuote" style="margin-bottom:.25in"><a name="d2e6787"></a><span class="holder"><span style='font-family:"Arial",sans-serif;color:black'>(b)
+</span></span><span style='font-family:"Arial",sans-serif'>the
+minister approves in writing the disposition or dealing.</span></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[87]<span style='font:7.0pt "Times New Roman"'>       </span>The Province has also not established that the proposed RVO or any
+other aspect of the Transaction breach its contractual rights. The Interim
+Agreement is silent concerning change of control. While it prohibits
+assignments without its consent (not to be unreasonably withheld), it does <u>not</u>
+address an internal restructuring or change of control by GAS. There is a
+provision (s.10.01(e)) that permits the Province to exercise any or all of its
+remedies under s. 10.02 (e.g., to pursue remedies in law or in equity, suspend
+or terminate the license, or waive any default) if a receiver or
+receiver-manager is appointed to administer or carry on the business operations
+of GAS. However, there is no evidence to suggest, nor have I been told, that
+the Province has, intends to, or may elect to rely on that provision. Instead,
+as discussed above, the Province’s objection to the RVO is grounded on its
+position that there is no jurisdiction generally to approve RVOs under the <i>BIA</i>
+and its alternative position that in the context of this case, the RVO should
+not be approved because it abrogates its statutory decision-making powers. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[88]<span style='font:7.0pt "Times New Roman"'>       </span>The Province has not established that the proposed RVO or any other
+aspect of the Transaction breach or circumvent any other inter-departmental
+consultation powers. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[89]<span style='font:7.0pt "Times New Roman"'>       </span>In all, this is not a case where the RVO seeks to circumvent or work
+around provincial legislation, legislative intent, and statutory
+decision-making powers. To the contrary, the Province has specifically exempted
+from the transfer process the change of control mechanism called for in the
+Transaction.</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in"><a name="_Hlk165379968">[90]<span style='font:7.0pt "Times New Roman"'>      
+</span>The Province has not established that the RVO
+aims to extinguish or adversely affect substantive rights of any third party. The
+present circumstances are distinguishable from the facts of the cases cited by
+the Province where the receivership jeopardized unionized employees’ rights in <i>T.C.T
+Logistics </i>or infringed property rights of an equipment lessor in <i>Yukon
+Zinc</i>.</a></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in"><a name="_Hlk165379873">[91]<span style='font:7.0pt "Times New Roman"'>      
+</span>Thus, s. 72 of the <i>BIA</i> is not engaged.</a></p>
+<h3><a name="_Toc165628038">Harte Gold Factors</a></h3>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[92]<span style='font:7.0pt "Times New Roman"'>       </span>The Province argues that EY has not satisfied its onus to establish
+the <i>Harte Gold</i> factor of necessity since it has not applied for approval
+from the chief executive assessment officer to transfer the EA Certificate to
+the petitioners. As I have found, that application is not required. The change
+of control mechanism contemplated by the Transaction is specifically excluded
+from the application process. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[93]<span style='font:7.0pt "Times New Roman"'>       </span>Nonetheless, EY must still establish necessity on the evidence,
+which I find that it has. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[94]<span style='font:7.0pt "Times New Roman"'>       </span>The RVO is essential to allow GAS to meet the timelines imposed by
+the Province in the EA Certificate and thereby preserve the going concern value
+of the Project for all stakeholders, the anticipated economic benefits for all
+stakeholders, the goodwill established with and rights of the Squamish Nation,
+and tax attributes, in circumstances where the Province, aware of instant
+application since March 14, 2024, and knowing of the existing relationship
+between the petitioners and existing shareholders of GAS and the Partnership, and
+the urgent timeframe in which to complete the construction pre-conditions, has
+not advised, let alone indicated whether it would approve a transaction
+contemplated by a traditional AVO or that it would extend the deadlines in the
+EA Certificate (EY advises in its First Report that no further extensions will
+be granted). The Transaction represents the highest and best recovery for all
+of the Garibaldi entities’ stakeholders. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[95]<span style='font:7.0pt "Times New Roman"'>       </span>In contrast, a traditional AVO requires not only the reapproval from
+the Province, but also the preparation of a new application package, drafting
+and negotiation of a new purchase agreement, and filing of a new application to
+obtain the relevant order of the Court; all of which will result in additional
+delay and costs. Pursuing a transaction through the <i>CCAA</i> process would,
+given the urgency established by EY, similarly result in additional delay and
+in all probability, I find, doom satisfying the construction pre-conditions in
+the EA Certificate to failure. The Province’s insistence on an unnecessary
+formal transfer application being made as part of an AVO transaction in these
+circumstances underscores the necessity of the RVO. </p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[96]<span style='font:7.0pt "Times New Roman"'>       </span>EY has also established that no other stakeholder, including the
+Province, is worse off if the RVO is approved. Nothing in the Transaction avoids
+consultation obligations with the Squamish Nation. To the contrary, the EA
+Certificate retained by GAS provides for ongoing, broad oversight and consultation
+with the Squamish Nation throughout the Project to ensure its construction and the
+operation of the resort are carried out in a satisfactory manner. The petitioners
+are aware of those obligations contained in the EA Certificate and, EY advises,
+the petitioners are committed to satisfying them. The Province is the only
+stakeholder objecting to the Transaction despite its stated desire for the
+Project to complete. None of its statutory powers are adversely affected. There
+is no other viable alternative at this juncture to preserve the economic
+benefits to all stakeholders. </p>
+<h2><a name="_Toc165628039">The Release</a> </h2>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[97]<span style='font:7.0pt "Times New Roman"'>      
+</span>The Province’s fourth objection concerning a
+release of pre-transaction obligations under the <i>Env. Mgmt. Act</i>, which
+was the Province’s only objection to the release of the Garibaldi entities’
+liabilities, was resolved during the course of the hearing when the purchasers
+agreed to amend the RVO, with the following language, to remain liable to any
+governmental authority:</p>
+<p class="SCJQuote" style="margin-bottom:.25in">Notwithstanding
+the terms of this Order or the Purchase Agreement, any “Claims”,
+“Encumbrances”, or “Excluded Liabilities” which arise in favour of Governmental
+Authorities do not vest in Excluded Co and continue to rest with GAS and/or LP…</p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in">[98]<span style='font:7.0pt "Times New Roman"'>       </span>With that amendment, I am satisfied the release is appropriate and meets
+these criteria identified in the case authorities: (a) whether the parties to
+be released from claims were necessary and essential to the restructuring of
+the debtor; (b) whether the claims to be released were rationally
+connected to the purpose of the plan and necessary for it; (c) whether the plan
+could succeed without the releases; (d) whether the parties being released were
+contributing to the plan; and (e) whether the release benefitted the debtors as
+well as the creditors generally: <i>Metcalfe &amp; Mansfield Alternative
+Investments II Corp</i><i>., (Re)</i>, 2008 ONCA 587 at paras. 61 and 70; <i>Blackrock
+Metals</i> at paras. 128–130; <i>Harte Gold</i> at paras. 78–86.</p>
+<h1><a name="_Toc165628040">Conclusion</a></h1>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in"><span style='font-size:11.0pt;line-height:150%;font-family:"Arial",sans-serif'>[99]<span style='font:7.0pt "Times New Roman"'>       
+</span></span>In conclusion, <span style='font-family:"Arial",sans-serif'>jurisdiction exists under the <i>BIA</i>
+to approve the RVO. EY has met its onus to satisfy the <i>Harte Gold</i>
+factors. </span>EY has demonstrated an evidence-based
+rationale to approve the RVO. <span style='font-family:"Arial",sans-serif'>Exceptional
+circumstances exist to warrant approval of the RVO. They arise from the urgency
+to complete the construction pre-conditions (in order to preserve value to the
+Garibaldi entities and their stakeholders, including the Province) coupled with
+the lack of any meaningful response from the Province that would allow for an
+expeditious AVO transaction. </span></p>
+<p class="SCJNumber" style="margin-left:0in;text-indent:0in"><a name="_Hlk165555233"><span style='font-size:11.0pt;line-height:150%;
+font-family:"Arial",sans-serif'>[100]<span style='font:7.0pt "Times New Roman"'>    
+</span></span>The Transaction proposed by EY is also commercially
+reasonable. EY has shown that the factors from the governing authority, <i>Royal
+Bank of Canada v. Soundair Corp</i>. (1991), 4 O.R. (3d) 1, 1991 CanLII 2727 (C.A.),
+to determine when to approve a sale negotiated by a receiver </a><span style='font-family:"Arial",sans-serif'>are met: (a) whether the
+receiver made sufficient efforts to obtain the best price and did not act
+improvidently; (b) the interests of all parties; (c) the efficacy and integrity
+of the process by which offers were obtained; and (d) whether there has been
+any unfairness in the sales process: <i>Soundair Corp.</i> at paras. 16, 21-22.
+Looking at the Transaction as a whole, I am satisfied and find that EY has
+established that the proposed sale is appropriate, fair, and reasonable.</span></p>
+<h1><a name="_Toc165628041">Disposition</a></h1>
+<p class="SCJNumber" style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-indent:0in">[101]<span style='font:7.0pt "Times New Roman"'>   
+</span>EY’s application is allowed. The Transaction with
+the RVO is approved.</p>
+<p align="center" class="SCJNumber" style="margin-top:48.0pt;margin-right:0in;
+margin-bottom:6.0pt;margin-left:0in;text-align:center">“Walker
+J.”</p>
+</div>
+</body></html>

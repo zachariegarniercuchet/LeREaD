@@ -1,0 +1,698 @@
+{
+  "John Campbell Law Corporation v. Owners, Strata Plan 1350": {
+    "uri": "https://canlii.ca/t/5884",
+    "score": 0.6987476944923401,
+    "candidate_id": "2001bcsc1342",
+    "candidate_title": "John Campbell Law Corp. v. Owners, Strata Plan 1350",
+    "query_text": "decision | <span style='font-size:10.0pt;\n  font-family:\"Courier New\"'>John Campbell Law Corporation v. Owners, Strata\n  Plan 1350</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Rylands</i> v. <i>Fletcher</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><i>Rylands v. Fletcher</i></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Rickards</i> v. <i>Lothian</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Stachniak v. Thorhild</i></b><i> <b>(County\nNo.7)</b></i></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Rylands v. Fletcher</span> | Tock | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Tock</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Rylands v. Fletcher</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Tock</span> | 2001 BCSC 1342 | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1913] A.C. 263 (C.A.)</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[2001] A.J. No.423</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5884",
+        "score": 0.6987476944923401,
+        "candidate_title": "John Campbell Law Corp. v. Owners, Strata Plan 1350"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0436",
+        "score": 0.6441625952720642,
+        "candidate_title": "Rylands v. Fletcher"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0437",
+        "score": 0.6398453712463379,
+        "candidate_title": "Rylands v. Fletcher"
+      }
+    ]
+  },
+  "Rylands v. Fletcher": {
+    "uri": "https://synthetic.leread.ca/gold/G0436",
+    "score": 0.7682830691337585,
+    "candidate_id": "gold-G0436",
+    "candidate_title": "Rylands v. Fletcher",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Rylands v. Fletcher</i></b> (1866)</span> | <b><span style='font-size:10.0pt;font-family:\"Courier New\"'><i>Rylands v.\nFletcher</i></span></b> | <b><span style='font-size:10.0pt;font-family:\"Courier New\"'><i>Rylands</i> v. <i>Fletcher</i></span></b> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Rylands\nv. Fletcher</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Rylands v. Fletcher</i></b></span> | Rylands\nv. Fletcher | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Rylands v. Fletcher</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>L.R. 1 Ex.\n265</span> | Christopher Harvey",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0436",
+        "score": 0.7682830691337585,
+        "candidate_title": "Rylands v. Fletcher"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0437",
+        "score": 0.7522210478782654,
+        "candidate_title": "Rylands v. Fletcher"
+      },
+      {
+        "uri": "https://canlii.ca/t/gwf25",
+        "score": 0.4523782730102539,
+        "candidate_title": "Sweezey v. Crystal Chemicals Ltd. and Clark"
+      }
+    ]
+  },
+  "Wright v. Strata Plan No. 205": {
+    "uri": "https://canlii.ca/t/1f1w4",
+    "score": 0.8612102270126343,
+    "candidate_id": "1996bcsc10248",
+    "candidate_title": "Wright v. The Owners, Strata Plan #205",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Wright\nv. Strata Plan No. 205</i></b></span><span style='font-size:10.0pt;font-family:\"Courier New\"'> </span><span style='font-size:10.0pt;font-family:\"Courier New\"'>(1996)</span> | 20 B.C.L.R. (3d) 343 | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1996] B.C.J. No.\n381</span><span style='font-size:10.0pt;font-family:\"Courier New\"'>, </span><span style='font-size:10.0pt;font-family:\"Courier New\"'>(B.C.S.C.)</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1f1w4",
+        "score": 0.8612102270126343,
+        "candidate_title": "Wright v. The Owners, Strata Plan #205"
+      },
+      {
+        "uri": "https://canlii.ca/t/1dz60",
+        "score": 0.8428455591201782,
+        "candidate_title": "Wright v. Strata Plan #205 (Owners)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fmzr",
+        "score": 0.6655109524726868,
+        "candidate_title": "Butterfield v. The Owners, Strata Plan NW 3214"
+      }
+    ]
+  },
+  "City of Port Alberni v. Moyer": {
+    "uri": "https://synthetic.leread.ca/gold/G0345",
+    "score": 0.8671520352363586,
+    "candidate_id": "gold-G0345",
+    "candidate_title": "City of Port Alberni v. Moyer, (1999)",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>C</i></b></span><span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>ity of Port Alberni v. Moyer</i></b></span><span style='font-size:10.0pt;font-family:\"Courier New\"'>, </span><span style='font-size:10.0pt;font-family:\"Courier New\"'>(1999)</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>65 B.C.L.R.\n(3d) 352</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1999] B.C.J. No. 423</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0345",
+        "score": 0.8671520352363586,
+        "candidate_title": "City of Port Alberni v. Moyer, (1999)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2d4tk",
+        "score": 0.5767930746078491,
+        "candidate_title": "Moyer v. Mortensen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1p6r2",
+        "score": 0.5486288666725159,
+        "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)"
+      }
+    ]
+  },
+  "Cambridge Water Co. Ltd. v. Eastern Counties Leather plc": {
+    "uri": "https://synthetic.leread.ca/gold/G0113",
+    "score": 0.8229235410690308,
+    "candidate_id": "gold-G0113",
+    "candidate_title": "Cambridge Water Co. Ltd. v. Eastern Counties Leather plc",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Cambridge Water Co. Ltd. v.\nEastern Counties</i></b><i> <b>Leather plc</b></i></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1994] 2 A.C. 264</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0113",
+        "score": 0.8229235410690308,
+        "candidate_title": "Cambridge Water Co. Ltd. v. Eastern Counties Leather plc"
+      },
+      {
+        "uri": "https://canlii.ca/t/gwv79",
+        "score": 0.49370503425598145,
+        "candidate_title": "Crombie Property Holdings Limited v. McColl-Frontenac Inc. (Texaco Canada Limited)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1twsz",
+        "score": 0.48762476444244385,
+        "candidate_title": "Lambert v. Lastoplex Chemicals"
+      }
+    ]
+  },
+  "Burnie Port Authority v. General Jones Pty. Ltd.": {
+    "uri": "https://synthetic.leread.ca/gold/G0107",
+    "score": 0.8455021977424622,
+    "candidate_id": "gold-G0107",
+    "candidate_title": "Burnie Port Authority v. General Jones Pty. Ltd.",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Burnie Port Authority v.\nGeneral Jones Pty. Ltd.</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1994] 120 A.L.R. 42</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0107",
+        "score": 0.8455021977424622,
+        "candidate_title": "Burnie Port Authority v. General Jones Pty. Ltd."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0264",
+        "score": 0.46946290135383606,
+        "candidate_title": "Jones v. Great Central Railway Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1nh1h",
+        "score": 0.45467913150787354,
+        "candidate_title": "Maritime Steel and Foundries Ltd. v. Whitman Benn & Associates"
+      }
+    ]
+  },
+  "Pride of Derby and Derbyshire Angling Association Ltd. v. British Celanese Ltd.": {
+    "uri": "https://synthetic.leread.ca/gold/G0390",
+    "score": 0.880244255065918,
+    "candidate_id": "gold-G0390",
+    "candidate_title": "Pride of Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat.",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Pride\nof Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat.</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1953] Ch. 149</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0390",
+        "score": 0.880244255065918,
+        "candidate_title": "Pride of Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat."
+      },
+      {
+        "uri": "https://canlii.ca/t/gwf25",
+        "score": 0.5012773275375366,
+        "candidate_title": "Sweezey v. Crystal Chemicals Ltd. and Clark"
+      },
+      {
+        "uri": "https://canlii.ca/t/1w6hs",
+        "score": 0.4741031527519226,
+        "candidate_title": "Prashad v. ICI Paints (Canada) Inc."
+      }
+    ]
+  },
+  "Carstairs and Another v. Taylor": {
+    "uri": "https://synthetic.leread.ca/gold/G0130",
+    "score": 0.836980402469635,
+    "candidate_id": "gold-G0130",
+    "candidate_title": "Carstairs and Another v. Taylor (1871)",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Carstairs\nand Another v. Taylor</i></b></span><span style='font-size:10.0pt;font-family:\"Courier New\"'><i> </i></span><span style='font-size:10.0pt;font-family:\"Courier New\"'>(1871)</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>L.R. 6 Ex. 217</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0130",
+        "score": 0.836980402469635,
+        "candidate_title": "Carstairs and Another v. Taylor (1871)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1trxk",
+        "score": 0.5538845658302307,
+        "candidate_title": "Taylor v. Wallbridge"
+      },
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 0.5446305871009827,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      }
+    ]
+  },
+  "Ross v. Fedden and Another": {
+    "uri": "https://synthetic.leread.ca/gold/G0427",
+    "score": 0.8014902472496033,
+    "candidate_id": "gold-G0427",
+    "candidate_title": "Ross v. Fedden and Another (1972)",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Ross\nv. Fedden and Another</i></b></span><span style='font-size:10.0pt;font-family:\"Courier New\"'><i> </i></span><span style='font-size:10.0pt;font-family:\"Courier New\"'>(1972)</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>L.R. 7 Q.B. 661</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0427",
+        "score": 0.8014902472496033,
+        "candidate_title": "Ross v. Fedden and Another (1972)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqrkg",
+        "score": 0.5647314786911011,
+        "candidate_title": "Rossi v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/gj16c",
+        "score": 0.5616841316223145,
+        "candidate_title": "Ross v. Bacchus"
+      }
+    ]
+  },
+  "Ballard v. Tomlinson": {
+    "uri": "https://synthetic.leread.ca/gold/G0086",
+    "score": 0.6451945900917053,
+    "candidate_id": "gold-G0086",
+    "candidate_title": "United States v. Ballard",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Ballard\nv. Tomlinson</i></b></span><span style='font-size:10.0pt;font-family:\"Courier New\"'><i> </i></span><span style='font-size:10.0pt;font-family:\"Courier New\"'>(1885)</span> | Ballard | <span style='font-size:10.0pt;font-family:\"Courier New\"'>29 Ch.D. 115 (C.A.)</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0086",
+        "score": 0.6451945900917053,
+        "candidate_title": "United States v. Ballard"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0129",
+        "score": 0.5117729902267456,
+        "candidate_title": "Carlill v. Carbolic Smoke Ball Co."
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0304",
+        "score": 0.5018484592437744,
+        "candidate_title": "Learoyd v. Halifax Joint Stock Banking Co."
+      }
+    ]
+  },
+  "Ballard": {
+    "uri": "https://synthetic.leread.ca/gold/G0086",
+    "score": 0.6111810207366943,
+    "candidate_id": "gold-G0086",
+    "candidate_title": "United States v. Ballard",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Ballard</i></b></span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0086",
+        "score": 0.6111810207366943,
+        "candidate_title": "United States v. Ballard"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6btm",
+        "score": 0.6102831363677979,
+        "candidate_title": "R. v. Ball"
+      },
+      {
+        "uri": "https://canlii.ca/t/1rkw7",
+        "score": 0.568663477897644,
+        "candidate_title": "Coulter v. Ball"
+      }
+    ]
+  },
+  "Blake v. Woolf": {
+    "uri": "https://synthetic.leread.ca/gold/G0096",
+    "score": 0.8155802488327026,
+    "candidate_id": "gold-G0096",
+    "candidate_title": "Blake v. Woolf",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Blake\nv. Woolf</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1898] 2 Q.B. 426</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0096",
+        "score": 0.8155802488327026,
+        "candidate_title": "Blake v. Woolf"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggxn6",
+        "score": 0.5233489274978638,
+        "candidate_title": "Wood v. LeBlanc"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g2sl",
+        "score": 0.5232812762260437,
+        "candidate_title": "Woolf v. Harrop"
+      }
+    ]
+  },
+  "Lyon v. Shelbourne": {
+    "uri": "https://canlii.ca/t/gcqsn",
+    "score": 0.7297020554542542,
+    "candidate_id": "1981onhcj1000274",
+    "candidate_title": "Lyon v. Shelburne (Village)",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Lyon v. Shelbourne</i></b> (1981)</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>130 D.L.R. (3d) 307 (Ont.Co.Ct.)</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gcqsn",
+        "score": 0.7297020554542542,
+        "candidate_title": "Lyon v. Shelburne (Village)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jcnpp",
+        "score": 0.5038045644760132,
+        "candidate_title": "Daehn v. Lalonde"
+      },
+      {
+        "uri": "https://canlii.ca/t/jcn01",
+        "score": 0.5014795064926147,
+        "candidate_title": "Taylor v. Schultz"
+      }
+    ]
+  },
+  "Smeaton v. Ilford Corp": {
+    "uri": "https://synthetic.leread.ca/gold/G0446",
+    "score": 0.7966877818107605,
+    "candidate_id": "gold-G0446",
+    "candidate_title": "Smeaton v. Ilford Corp.",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Smeaton v. Ilford Corp</i></b>.</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1954] 1 All E.R. 923</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0446",
+        "score": 0.7966877818107605,
+        "candidate_title": "Smeaton v. Ilford Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/fsn3f",
+        "score": 0.4768422544002533,
+        "candidate_title": "Smith v. Nevins"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ttt9",
+        "score": 0.47015613317489624,
+        "candidate_title": "Smallman v. Moore"
+      }
+    ]
+  },
+  "Tock v. St.John": {
+    "uri": "https://canlii.ca/t/1ft1m",
+    "score": 0.8555579781532288,
+    "candidate_id": "1989csc-scc126",
+    "candidate_title": "Tock v. St. John's Metropolitan Area Board",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Tock v.\nSt.John's Metro Area Bd</i></b><i>.</i></span> | Tock | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1989] 2 S.C.R. 1181</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>(1989),\n64 D.L.R. (4<sup>th</sup>) 620</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft1m",
+        "score": 0.8555579781532288,
+        "candidate_title": "Tock v. St. John's Metropolitan Area Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8wpf",
+        "score": 0.6165245175361633,
+        "candidate_title": "St. John's Metropolotan Area Board v. Johnson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tx6c",
+        "score": 0.5822645425796509,
+        "candidate_title": "Regional Assessment Commissioner v. Downtown Oshawa Property Owners"
+      }
+    ]
+  },
+  "McKellar v. Saint John (City)": {
+    "uri": "https://canlii.ca/t/2120f",
+    "score": 0.8212413787841797,
+    "candidate_id": "1997nbqb1000007",
+    "candidate_title": "McKellar v. Saint John (City)",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>McKellar\nv. Saint John (City)</i> </b>(1997)</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>189 N.B.R. (2d) 49</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>(1997), 27 M.V.R. (3d)\n191</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2120f",
+        "score": 0.8212413787841797,
+        "candidate_title": "McKellar v. Saint John (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggxjg",
+        "score": 0.5881314277648926,
+        "candidate_title": "McCleave v. City of Moncton"
+      },
+      {
+        "uri": "https://canlii.ca/t/fsxmt",
+        "score": 0.585307240486145,
+        "candidate_title": "Newterm Ltd v St John's (City)"
+      }
+    ]
+  },
+  "Tock v. St. John": {
+    "uri": "https://canlii.ca/t/1ft1m",
+    "score": 0.8493347764015198,
+    "candidate_id": "1989csc-scc126",
+    "candidate_title": "Tock v. St. John's Metropolitan Area Board",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Tock v. St. John's Metropolitan Area Board</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1989] 2 S.C.R.\n1181.</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft1m",
+        "score": 0.8493347764015198,
+        "candidate_title": "Tock v. St. John's Metropolitan Area Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8wpf",
+        "score": 0.6211263537406921,
+        "candidate_title": "St. John's Metropolotan Area Board v. Johnson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tx7m",
+        "score": 0.5681453347206116,
+        "candidate_title": "Mississauga (City) v. Peel (Municipality)"
+      }
+    ]
+  },
+  "Tock": {
+    "uri": "https://canlii.ca/t/1ft1m",
+    "score": 0.6754602193832397,
+    "candidate_id": "1989csc-scc126",
+    "candidate_title": "Tock v. St. John's Metropolitan Area Board",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Tock</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft1m",
+        "score": 0.6754602193832397,
+        "candidate_title": "Tock v. St. John's Metropolitan Area Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqmsf",
+        "score": 0.5515215396881104,
+        "candidate_title": "Jock v. Canada (T.D.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1cwx1",
+        "score": 0.5496902465820312,
+        "candidate_title": "To v. Toronto Board of Education"
+      }
+    ]
+  },
+  "Rickards v. Lothian": {
+    "uri": "https://synthetic.leread.ca/gold/G0422",
+    "score": 0.852277398109436,
+    "candidate_id": "gold-G0422",
+    "candidate_title": "Rickards v. Lothian",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Rickards v. Lothian</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Rickards</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1913] A.C. 263</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0422",
+        "score": 0.852277398109436,
+        "candidate_title": "Rickards v. Lothian"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0423",
+        "score": 0.5097934007644653,
+        "candidate_title": "Ridge v. Baldwin"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0421",
+        "score": 0.5024729371070862,
+        "candidate_title": "Richardson v. Silvester (1873)"
+      }
+    ]
+  },
+  "Pride of Derby and Derbyshire Angling Association Ld. v. British Celanese Ld.": {
+    "uri": "https://synthetic.leread.ca/gold/G0390",
+    "score": 0.8788270354270935,
+    "candidate_id": "gold-G0390",
+    "candidate_title": "Pride of Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat.",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Pride of Derby and Derbyshire\nAngling Association Ld. v. British Celanese Ld.</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1953] Ch 149</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0390",
+        "score": 0.8788270354270935,
+        "candidate_title": "Pride of Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat."
+      },
+      {
+        "uri": "https://canlii.ca/t/gwf25",
+        "score": 0.4849390685558319,
+        "candidate_title": "Sweezey v. Crystal Chemicals Ltd. and Clark"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0078",
+        "score": 0.4626709818840027,
+        "candidate_title": "Associated Provincial Picture Houses Ltd. v. Wednesbury Corp."
+      }
+    ]
+  },
+  "Rickards": {
+    "uri": "https://synthetic.leread.ca/gold/G0422",
+    "score": 0.6688348054885864,
+    "candidate_id": "gold-G0422",
+    "candidate_title": "Rickards v. Lothian",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Rickards</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0422",
+        "score": 0.6688348054885864,
+        "candidate_title": "Rickards v. Lothian"
+      },
+      {
+        "uri": "https://canlii.ca/t/22hw5",
+        "score": 0.6427562832832336,
+        "candidate_title": "Rick v. Brandsema"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9bpj",
+        "score": 0.5754104852676392,
+        "candidate_title": "R. v. Richards"
+      }
+    ]
+  },
+  "Toms v. Duma": {
+    "uri": "https://synthetic.leread.ca/gold/G0496",
+    "score": 0.8760624527931213,
+    "candidate_id": "gold-G0496",
+    "candidate_title": "Toms v. Duma",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Toms\nv. Duma</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1970] O.J. No. 150 (Ont. S.C.)</span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0496",
+        "score": 0.8760624527931213,
+        "candidate_title": "Toms v. Duma"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z6dr",
+        "score": 0.5309322476387024,
+        "candidate_title": "Tomko v. Labour Relations Board (N.S.) et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/h59c8",
+        "score": 0.5031479597091675,
+        "candidate_title": "Furr v. Duhamel"
+      }
+    ]
+  },
+  "Wayen Diners Ltd. v. Hong Yick Tong Ltd": {
+    "uri": "https://canlii.ca/t/21255",
+    "score": 0.866096556186676,
+    "candidate_id": "1987bcsc1000175",
+    "candidate_title": "Wayen Diners Ltd. v. Hong Yick Tong Ltd.",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Wayen\nDiners Ltd. v. Hong Yick Tong Ltd</i></b>.</span><span style='font-size:10.0pt;font-family:\"Courier New\"'> </span><span style='font-size:10.0pt;font-family:\"Courier New\"'>(1987)</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>35 D.L.R. (4th) 722</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1987]\nB.C.J. No. 223</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21255",
+        "score": 0.866096556186676,
+        "candidate_title": "Wayen Diners Ltd. v. Hong Yick Tong Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/gbtd5",
+        "score": 0.5613908767700195,
+        "candidate_title": "Yee v. Gim"
+      },
+      {
+        "uri": "https://canlii.ca/t/1dzlx",
+        "score": 0.5471860766410828,
+        "candidate_title": "Lin v. Tang"
+      }
+    ]
+  },
+  "Theberge v. Zittlau": {
+    "uri": "https://canlii.ca/t/5l7d",
+    "score": 0.82436203956604,
+    "candidate_id": "2000bcpc225",
+    "candidate_title": "Theberge v. Zittlau",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Theberge v. Zittlau</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[2000] B.C.J. No. 2198</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5l7d",
+        "score": 0.82436203956604,
+        "candidate_title": "Theberge v. Zittlau"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0491",
+        "score": 0.616782009601593,
+        "candidate_title": "Theberge v Laudry (1876)"
+      },
+      {
+        "uri": "https://canlii.ca/t/23nfn",
+        "score": 0.5759328007698059,
+        "candidate_title": "Bergwitz v. Fast"
+      }
+    ]
+  },
+  "Bloom v. Creed": {
+    "uri": "https://canlii.ca/t/g19q7",
+    "score": 0.6804865002632141,
+    "candidate_id": "1937onca1000025",
+    "candidate_title": "Bloom v. Creed and the Consumer's Gas Co. of Toronto",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Bloom\nv. Creed</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>[1937] O.R. 626 (Ont.C.A.)</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g19q7",
+        "score": 0.6804865002632141,
+        "candidate_title": "Bloom v. Creed and the Consumer's Gas Co. of Toronto"
+      },
+      {
+        "uri": "https://canlii.ca/t/1cgl8",
+        "score": 0.5250867009162903,
+        "candidate_title": "Bjornson v. Creighton"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1fsv",
+        "score": 0.5178549885749817,
+        "candidate_title": "Bellamy v. Johnson"
+      }
+    ]
+  },
+  "Bloom": {
+    "uri": "https://canlii.ca/t/g19q7",
+    "score": 0.5964303016662598,
+    "candidate_id": "1937onca1000025",
+    "candidate_title": "Bloom v. Creed and the Consumer's Gas Co. of Toronto",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Bloom</i></b></span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g19q7",
+        "score": 0.5964303016662598,
+        "candidate_title": "Bloom v. Creed and the Consumer's Gas Co. of Toronto"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frdw",
+        "score": 0.5259986519813538,
+        "candidate_title": "MacMillan Bloedel Ltd. v. Simpson"
+      },
+      {
+        "uri": "https://canlii.ca/t/28z8j",
+        "score": 0.5196731090545654,
+        "candidate_title": "Reference re Broome v. Prince Edward Island"
+      }
+    ]
+  },
+  "Kinaschuk": {
+    "uri": "https://synthetic.leread.ca/gold/G0282",
+    "score": 0.6851868629455566,
+    "candidate_id": "gold-G0282",
+    "candidate_title": "Kinaschuk v. Day",
+    "query_text": "decision | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Kinaschuk</i></b></span>",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0282",
+        "score": 0.6851868629455566,
+        "candidate_title": "Kinaschuk v. Day"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrwmx",
+        "score": 0.5465329885482788,
+        "candidate_title": "Kyrylchuk v Cox"
+      },
+      {
+        "uri": "https://canlii.ca/t/hzzcc",
+        "score": 0.5365383625030518,
+        "candidate_title": "Kinsella v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Strata Property Act BC": {
+    "uri": "https://canlii.ca/t/56cd8",
+    "score": 0.7414295673370361,
+    "candidate_id": "l20103!20103-current-1",
+    "candidate_title": "Strata Property Act",
+    "query_text": "legislation | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Condominium Act</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>The <b><i>Strata\nProperty Act</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Condominium\nAct</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Black's Law Dictionary</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>S.B.C. 1998, c.43</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56cd8",
+        "score": 0.7414295673370361,
+        "candidate_title": "Strata Property Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jjd9",
+        "score": 0.7159907221794128,
+        "candidate_title": "Condominium Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/81ww",
+        "score": 0.669895350933075,
+        "candidate_title": "Condominium Property Act"
+      }
+    ]
+  },
+  "Linden-CanadianTortLaw": {
+    "uri": "https://synthetic.leread.ca/gold/G0127",
+    "score": 0.665327250957489,
+    "candidate_id": "gold-G0127",
+    "candidate_title": "Canadian Tort Law",
+    "query_text": "secondary sources | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Canadian Tort Law</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'><b><i>Remedies\nin Tort</i></b></span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>The Law of Torts</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Allen M.\nLinden</span> | <span style='font-size:10.0pt;font-family:\"Courier New\"'>Fleming</span> | Williams",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0127",
+        "score": 0.665327250957489,
+        "candidate_title": "Canadian Tort Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0477",
+        "score": 0.6174324154853821,
+        "candidate_title": "The Law of Torts"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0418",
+        "score": 0.5968340039253235,
+        "candidate_title": "Remedies in Tort"
+      }
+    ]
+  }
+}

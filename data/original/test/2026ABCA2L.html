@@ -1,0 +1,1034 @@
+<html>
+<!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:underline;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:underline;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:underline;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:underline;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:underline;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-style:italic;
+	text-decoration:underline;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:#404040;
+	font-style:italic;
+	text-decoration:underline;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:12.25pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:23.75pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:48.25pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:59.75pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Commentaire Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.MsoFootnoteReference
+	{font-family:"Times New Roman",serif;
+	font-variant:normal !important;
+	text-transform:none;
+	text-decoration:none;
+	}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{mso-style-link:"Liste à numéros Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumberCxSpFirst, li.MsoListNumberCxSpFirst, div.MsoListNumberCxSpFirst
+	{mso-style-link:"Liste à numéros Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumberCxSpMiddle, li.MsoListNumberCxSpMiddle, div.MsoListNumberCxSpMiddle
+	{mso-style-link:"Liste à numéros Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumberCxSpLast, li.MsoListNumberCxSpLast, div.MsoListNumberCxSpLast
+	{mso-style-link:"Liste à numéros Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2CxSpFirst, li.MsoListNumber2CxSpFirst, div.MsoListNumber2CxSpFirst
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2CxSpMiddle, li.MsoListNumber2CxSpMiddle, div.MsoListNumber2CxSpMiddle
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2CxSpLast, li.MsoListNumber2CxSpLast, div.MsoListNumber2CxSpLast
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{font-family:"Times New Roman",serif;
+	color:black;
+	text-decoration:none;}
+a:visited, span.MsoHyperlinkFollowed
+	{font-family:"Times New Roman",serif;
+	color:black;
+	text-decoration:none;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-link:"Sans interligne Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria",serif;
+	font-weight:bold;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma",sans-serif;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Times New Roman",serif;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Times New Roman",serif;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Times New Roman",serif;}
+p.Quote2nd, li.Quote2nd, div.Quote2nd
+	{mso-style-name:"Quote 2nd";
+	mso-style-link:"Quote 2nd Char";
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote2ndChar
+	{mso-style-name:"Quote 2nd Char";
+	mso-style-link:"Quote 2nd";
+	font-family:"Times New Roman",serif;}
+p.Quote3rd, li.Quote3rd, div.Quote3rd
+	{mso-style-name:"Quote 3rd";
+	mso-style-link:"Quote 3rd Char";
+	margin-top:0in;
+	margin-right:1.5in;
+	margin-bottom:12.0pt;
+	margin-left:1.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote3rdChar
+	{mso-style-name:"Quote 3rd Char";
+	mso-style-link:"Quote 3rd";
+	font-family:"Times New Roman",serif;}
+p.Quote4th, li.Quote4th, div.Quote4th
+	{mso-style-name:"Quote 4th";
+	mso-style-link:"Quote 4th Char";
+	margin-top:0in;
+	margin-right:2.0in;
+	margin-bottom:12.0pt;
+	margin-left:2.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote4thChar
+	{mso-style-name:"Quote 4th Char";
+	mso-style-link:"Quote 4th";
+	font-family:"Times New Roman",serif;}
+p.citation, li.citation, div.citation
+	{mso-style-name:citation;
+	mso-style-link:"citation Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.citationChar
+	{mso-style-name:"citation Char";
+	mso-style-link:citation;
+	font-family:"Times New Roman",serif;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman",serif;
+	font-style:italic;
+	text-decoration:underline;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	font-style:italic;
+	text-decoration:underline;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Times New Roman",serif;
+	color:#404040;
+	font-weight:bold;}
+p.FelskyNumbering12, li.FelskyNumbering12, div.FelskyNumbering12
+	{mso-style-name:"Felsky Numbering 1\.2";
+	mso-style-link:"Felsky Numbering 1\.2 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FelskyNumbering12Char
+	{mso-style-name:"Felsky Numbering 1\.2 Char";
+	mso-style-link:"Felsky Numbering 1\.2";
+	font-family:"Times New Roman",serif;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Times New Roman",serif;}
+p.TableText, li.TableText, div.TableText
+	{mso-style-name:"Table Text";
+	mso-style-link:"Table Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Quote1st, li.Quote1st, div.Quote1st
+	{mso-style-name:"Quote 1st";
+	mso-style-link:"Quote 1st Char";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote1stChar
+	{mso-style-name:"Quote 1st Char";
+	mso-style-link:"Quote 1st";
+	font-family:"Times New Roman",serif;}
+span.ParagraphedelisteCar
+	{mso-style-name:"Paragraphe de liste Car";
+	mso-style-link:"Paragraphe de liste";
+	font-family:"Times New Roman",serif;}
+span.TableTextChar
+	{mso-style-name:"Table Text Char";
+	mso-style-link:"Table Text";
+	font-family:"Times New Roman",serif;}
+p.Spacingadjust, li.Spacingadjust, div.Spacingadjust
+	{mso-style-name:"Spacing adjust";
+	mso-style-link:"Spacing adjust Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.ChangeFont, li.ChangeFont, div.ChangeFont
+	{mso-style-name:"Change Font";
+	mso-style-link:"Change Font Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.SpacingadjustChar
+	{mso-style-name:"Spacing adjust Char";
+	mso-style-link:"Spacing adjust";
+	font-family:"Times New Roman",serif;}
+p.Title1, li.Title1, div.Title1
+	{mso-style-name:Title1;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:.25in;
+	margin-left:.5in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.ChangeFontChar
+	{mso-style-name:"Change Font Char";
+	mso-style-link:"Change Font";
+	font-family:"Times New Roman",serif;}
+span.SansinterligneCar
+	{mso-style-name:"Sans interligne Car";
+	mso-style-link:"Sans interligne";
+	font-family:"Times New Roman",serif;}
+span.ListenumrosCar
+	{mso-style-name:"Liste à numéros Car";
+	mso-style-link:"Liste à numéros";
+	font-family:"Times New Roman",serif;}
+span.Listenumros2Car
+	{mso-style-name:"Liste à numéros 2 Car";
+	mso-style-link:"Liste à numéros 2";
+	font-family:"Times New Roman",serif;}
+span.CommentaireCar
+	{mso-style-name:"Commentaire Car";
+	mso-style-link:Commentaire;
+	font-family:"Times New Roman",serif;}
+p.felskynumbering120, li.felskynumbering120, div.felskynumbering120
+	{mso-style-name:felskynumbering12;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.quote1st0, li.quote1st0, div.quote1st0
+	{mso-style-name:quote1st;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.UnresolvedMention
+	{mso-style-name:"Unresolved Mention";
+	color:#605E5C;
+	background:#E1DFDD;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:62.75pt 1.0in 1.0in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 11.0in;
+	margin:79.25pt 1.0in 1.0in 1.0in;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head>
+<body link="black" style="text-justify-trim:punctuation" vlink="black">
+<div class="WordSection1">
+<p class="Title1"><a name="frTitle"></a>In the Court of Appeal of Alberta</p>
+<p class="MsoNormal" style="margin-left:0in"><a name="frCitation"></a><b>Citation: Bow Valley Engage Society v Alberta (<i>Environmental Protection and Enhancement Act</i>, Designated Director), 2026 ABCA 2</b></p>
+<p class="MsoNormal" style="margin-left:0in"><b> </b></p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><b>Date:</b> 20260108</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><a name="frDocket"></a><b>Docket:</b> 2501-0102AC</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><a name="frRegistry"></a><b>Registry:</b> Calgary</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><a name="frBetween"></a><b>Between:</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b>Bow Valley Engage Society</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">Respondent</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center">- <a name="frAnd"></a>and -</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">Three Sisters Mountain Village Properties Ltd and</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">Thunderstone Quarries Canmore Ltd</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black"> </span></p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><span style="color:black">Applicants</span></p>
+<p class="MsoNormal" style="margin-left:0in"><span style="color:black"> </span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center">- and -</p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black"> </span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black"> </span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">Designated Director under the <i>Environmental Protection Act</i>, and<i> </i></span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">His Majesty the King in right of Alberta as represented by </span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">the Minister of Justice and Solicitor General of Alberta</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black"> </span></b></p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><span style="color:black">Not parties to these Applications</span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><a name="CorrectedJudgment"></a><a name="TheCourt"></a><b><span style="color:black">_______________________________________________________</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><b><span style="color:black"> </span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><a name="JusticeName"></a><a name="JudgmentType"><b><span style="color:black">Reasons for Decision of</span></b></a></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><a name="JudgmentTypeCover"></a><b><span style="color:black">The Honourable Justice Kevin Feehan</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><span style="color:black">_______________________________________________________</span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black"> </span></p>
+<p class="MsoNormal" style="margin-left:0in"><b><span style="color:black"> </span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="TrialJudgmentType"></a><span style="color:black">Applications for Security </span><span style="color:black">for Costs</span></p>
+</div><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:black'><br clear="all" style="page-break-before:always"/></span>
+<div class="WordSection2">
+<p class="MsoNormal" style="margin-left:0in"><a name="TOC_Here"></a><span style="color:black"> </span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">_______________________________________________________</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black"> </span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="JudgmentTypeStart"></a><a name="JudgmentTypeEnd"></a><a name="JusticeTitleStart"></a><b><span style="color:black">Reasons for Decision of</span></b><a name="JudgmentTypeDocument"></a></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">The Honourable Justice Kevin Feehan</span></b><a name="JusticeTitleEnd"></a></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">_______________________________________________________</span></b></p>
+</div><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:black'><br clear="all" style="page-break-before:auto"/></span>
+<div class="WordSection3">
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<h1 style="text-indent:-.5in"><a name="FelskyStart"></a><a name="Paragraph1"></a><span style='font:7.0pt "Times New Roman"'>       </span>I.<span style='font:7.0pt "Times New Roman"'>            </span>Overview</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par1">1</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Three Sisters Mountain Village Properties Ltd and Thunderstone Quarries Canmore Ltd each apply for security for costs on an appeal filed by Bow Valley Engage Society from a decision of a chambers judge dated March 14, 2025: <b><i>Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)</i></b>, 2025 ABKB 158.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par2">2</a>]<span style='font:7.0pt "Times New Roman"'>               </span>The chambers judge struck two originating applications, following a failure by Bow Valley to serve Thunderstone under r 3.15(3)(c) of the <i>Alberta Rules of Court</i>, 124/2010, and in the alternative dismissed the originating applications on their merits. Bow Valley says in doing so, he misinterpreted the test for “directly affected” under the rule, misapplied the law to the facts, and erred in assessing whether the rule violated s 96 of the <i>Constitution Act, 1867</i>, UK 30 &amp; 31, Victoria, c 3, reprinted in RSC 1985, Appendix II, No 5. It also says he erred in finding the decision of the Designated Director reasonable given statutory and jurisprudential constraints, including decisions from this Court.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par3">3</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Three Sisters and Thunderstone ask that security for its costs be set at $29,413.13 apiece, calculated on Column 5 of the <i>Rules </i>with a 1.25 inflationary factor, and Bow Valley be required to post the security within 30 days, failing which Bow Valley’s appeal should be struck.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par4">4</a>]<span style='font:7.0pt "Times New Roman"'>               </span>For the reasons below, both applications are dismissed.</p>
+<h1 style="text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'>    </span>II.<span style='font:7.0pt "Times New Roman"'>            </span>Background</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par5">5</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Bow Valley’s application for judicial review was heard concurrently with a related application for judicial review brought by the Bearspaw First Nation, Chiniki First Nation, and Goodstoney First Nation, collectively the Stoney Nakoda First Nations. Stoney Nakoda also appeals the chambers decision in a related appeal No 2501-0107AC. Of interest, Bow Valley and Stoney Nakoda have split the grounds of appeal and arguments between them, such that there is no overlap in submissions, but they must be read together.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par6">6</a>]<span style='font:7.0pt "Times New Roman"'>               </span>In addition to the two appeals of the chambers decision, there are two other closely related appeals before this Court (Nos 2401-0275AC and 2401-0276AC). In those matters, Three Sisters appeals a preliminary decision of a chambers judge refusing to strike Stoney Nakoda’s and Bow Valley’s applications for judicial review. All four appeals are perfected and scheduled to be heard together on February 5, 2026.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par7">7</a>]<span style='font:7.0pt "Times New Roman"'>               </span>The underlying applications concern the Three Sisters Mountain Village Project, a development of land east of Canmore, pursuant to two municipal planning documents: the Three Sisters Mountain Village Area Structure Plan and the Smith Creek Area Structure Plan. Bow Valley and Stoney Nakoda requested that the Designated Director under the <i>Environmental Protection and Enhancement Act</i>, RSA 2000, c E-12, order an environmental impact assessment of the Three Sisters Mountain Village Project under the <i>Act</i>. However, the Designated Director concluded she lacked jurisdiction to determine whether an environmental impact assessment of the activities set out in the Area Structure Plans was warranted because these activities did not fall within the definition of “proposed activity” under the <i>Act</i>. Rather, she found “the current Three Sisters project and its ongoing construction are a continuation of the overall tourism and recreational project that was applied for and approved by the Natural Resources Conservation Board in 1992”.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par8">8</a>]<span style='font:7.0pt "Times New Roman"'>               </span>The chambers judge found Thunderstone was directly affected by the applications for judicial review, such that Bow Valley and Stoney Nakoda were required to serve Thunderstone under r 3.15(3)(c). The chambers judge rejected Bow Valley’s and Stoney Nakoda’s arguments that this rule violates s 96 of the<i> Constitution Act</i>, <i>1867</i>. He found the rule does not render it impossible to bring an application for judicial review in compliance with the <i>Rules</i>, and in any event, the case was not appropriate for a constitutional pronouncement. Therefore, he dismissed the applications for judicial review because Stoney Nakoda and Bow Valley had failed to serve Thunderstone, and in the alternative, found the Designated Director's determination to be reasonable.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par9">9</a>]<span style='font:7.0pt "Times New Roman"'>               </span>Following the chambers decision, the same judge rendered a written decision on costs, which in relevant part ordered Bow Valley to pay costs to both Thunderstone and Three Sisters: <b><i>Bow Valley Engage Society v Alberta (Environmental Protection and Enhancement Act, Designated Director)</i></b>, 2025 ABKB 463. Bow Valley and Thunderstone subsequently agreed to Thunderstone’s bill of costs in the amount of $8,679.61 and that amount has now been paid into trust in its counsel’s account. Bow Valley and Three Sisters have not yet agreed on Three Sisters’ bill of costs. They have provided further submissions to the chambers judge and are awaiting further direction from him.</p>
+<h1 style="text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'> </span>III.<span style='font:7.0pt "Times New Roman"'>            </span>Analysis</h1>
+<h3><span style="text-decoration:none">a)<span style='font:7.0pt "Times New Roman"'>      </span></span>Test for Security for Costs</h3>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par10">10</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Rules 4.22 and 14.67 of the <i>Alberta Rules of Court</i> govern applications for security for costs:</p>
+<p class="Quote1st">4.22 The Court may order a party to provide security for payment of a costs award if the Court considers it just and reasonable to do so, taking into account all of the following:</p>
+<p class="Quote1st" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt">(a)   whether it is likely the applicant for the order will be able to enforce an order or judgment against assets in Alberta;</p>
+<p class="Quote1st" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt">(b)   the ability of the respondent to the application to pay the costs award;</p>
+<p class="Quote1st" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt">(c)   the merits of the action in which the application is filed;</p>
+<p class="Quote1st" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt">(d)   whether an order to give security for payment of a costs award would unduly prejudice the respondent’s ability to continue the action;</p>
+<p class="Quote1st" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt">(e)   any other matter the Court considers appropriate.</p>
+<p class="Quote1st" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt"> </p>
+<p class="Quote1st">14.67(1) A single appeal judge may order a party to provide security for payment of a costs award pursuant to Part 4, Division 4.</p>
+<p class="Quote1st">(2) Where a party does not provide security as ordered, the appeal is deemed to have been abandoned and the other party is entitled to a costs award.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par11">11</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The test for granting security for costs is set out in detail in <b><i>Poole v City Wide Towing and Recovery Service Ltd</i></b>, 2020 ABCA 102, paras 47-51, 62 CCEL (4th) 184; see also <b><i>Milot Law v Sittler</i></b>, 2024 ABCA 116, para 15. As set out in <b><i>Poole</i></b>, para 47, “[t]he applicant bears the burden of establishing, on a balance of probabilities, that it is just and equitable to order security for costs or that the respondent will be unable to pay costs that may be awarded”: <b><i>PricewaterhouseCoopers Inc v Perpetual Energy Inc</i></b>, 2020 ABCA 36, para 18, 75 CBR (6th) 179, leave to appeal refused, 2020 ABCA 254. This is a disjunctive test. See also <b><i>Henderson (Re)</i></b>, 2022 ABCA 43, para 8; <b><i>Skolney v</i> <i>Nisha</i></b>, 2018 ABCA 78, para 15, 10 RFL (8th) 34.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par12">12</a>]<span style='font:7.0pt "Times New Roman"'>           </span>“A security for costs order is discretionary and balances the reasonable expectations of the parties with their rights in order to arrive at a just and reasonable outcome”: <b><i>Parker v Parker</i></b>, 2019 ABCA 114, para 4, 89 Alta LR (6th) 104; see also <b><i>Spiess v Spiess</i></b>, 2025 ABCA 3, paras 19-21; <b><i>Banovich v Banovic</i></b>, 2025 ABCA 231, paras 5-7.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in"><span style="color:black">[</span><a class="reflex-paragAnchor" name="par13"><span style="color:black">13</span></a><span style="color:black">]<span style='font:7.0pt "Times New Roman"'>           </span></span><span style="color:black">The court may make an order if it “considers it just and reasonable to do so”, taking into consideration the elements set out in r 4.22: <b><i>Skolney, </i></b>para </span><span style="color:black">21.</span></p>
+<h3><span style="text-decoration:none">b)<span style='font:7.0pt "Times New Roman"'>      </span></span>Are Three Sisters and Thunderstone likely to be able to enforce an order against assets in Alberta? Does Bow Valley have the ability to pay a costs award?</h3>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par14">14</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Three Sisters and Thunderstone argue Bow Valley has limited assets and is unlikely to be able to pay a costs award. The evidence filed in support of their applications includes Bow Valley's statement of financial position as at December 31, 2023, showing net assets of $3,870 at that time.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par15">15</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Bow Valley replies that it has longstanding involvement in Alberta and Canmore. It currently has $25,550.15 in its bank account and a subscriber network of 1,373 persons who can be relied upon to provide further funding should this Court render costs against it. Thunderstone and Three Sisters reply that the funds in the account are not a net figure and the Court does not know what debts or obligations may exist, including for legal fees.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par16">16</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Bow Valley says it has paid the current costs award in favour of Thunderstone into trust with an irrevocable direction to pay, pending appeal: see for example <b><i>Beaumont Energy Inc v Amik Oilfield Equipment and Rentals Ltd</i></b>, 2017 ABCA 327, paras 29, 30.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par17">17</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Given Bow Valley’s longstanding involvement in litigation involving this project, and its proven ability to raise funds, it is reasonable to determine that Three Sisters and Thunderstone will be able to enforce a costs award against it should it be unsuccessful on appeal. Bow Valley reasonably has the ability to pay a costs award.</p>
+<h3><span style="text-decoration:none">c)<span style='font:7.0pt "Times New Roman"'>      </span></span>Merits of the appeal</h3>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par18">18</a>]<span style='font:7.0pt "Times New Roman"'>           </span>As to merits of the appeal, Three Sisters and Thunderstone submit Bow Valley’s appeal is weak. They focus on the dismissal for want of service under r 3.15(3)(c). They say the chambers judge’s finding that Thunderstone was “directly affected” is reviewable on a standard of palpable and overriding error, and there is no such error in the chambers judge’s conclusion. Thunderstone was “directly affected” by the applications for judicial review because it is a landowner within the development area and, if successful, the applications for judicial review could lead to steps being taken to have an environmental impact assessment prepared in relation to land owned by Thunderstone, which in turn could result in the imposition of additional stipulations or conditions relating to those lands. It points out that it has already contributed to the wildlife corridors in the area as a result of the 1992 Order of the Natural Resources Conservation Board.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par19">19</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Additionally, Three Sisters and Thunderstone say there is no merit to an appeal over the constitutionality of r 3.15, for which the standard of correctness applies. The rule does not entirely restrict access to the Court of King’s Bench, but is merely a procedural requirement which must be satisfied and is not discretionary.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par20">20</a>]<span style='font:7.0pt "Times New Roman"'>           </span>If the chambers justice was wrong in his determination on striking the judicial review applications for the service failure, and on the constitutional question, Three Sisters and Thunderstone say his finding as to the Designated Director’s decision was reasonable, and this ground of appeal has little merit as well.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par21">21</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Bow Valley asserts that whether the Designated Director had jurisdiction to require an environmental impact assessment based on the definition of ‘proposed activity’ in s 39(c) of the <i>Act</i>, is a question of law informed by this Court’s decisions in <b><i>Castle – Crown Wilderness Coalition v Alberta (Director of Regulatory Assurance Decision, Alberta Environment)</i></b>, 2005 ABCA 283, 52 Alta LR (4th) 17; and <b><i>Alexis v Alberta (Environment and Parks)</i></b>, 2020 ABCA 188, 8 Alta LR (6th) 7.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par22">22</a>]<span style='font:7.0pt "Times New Roman"'>           </span>As to whether Thunderstone is directly affected by the judicial review application, such that it should have been served, Bow Valley says first there was no evidence before the chambers judge that either Bow Valley or Stoney Nakoda had any knowledge that Thunderstone existed until it filed its application to strike. However, Thunderstone is clearly registered as the landowner within the Smith Creek Area Redevelopment Plan. Additionally, Bow Valley says a party that has never participated in any form of regulatory proceeding in the Three Sisters development, should not have been found to be directly affected. It says that is extending the phrase “directly affected” too far.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par23">23</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Bow Valley says every other jurisdiction in Canada has an “off-ramp” to legislation similar to r 3.15: see for example <i>Supreme Court Civil Rules</i>, BC Reg 168/2009, r 16-1(3); <b><i>Aheer Transportation Ltd v Office of the British Columbia Container Trucking Commissioner</i></b>, 2016 BCSC 898, paras 60-65; <i>Federal Courts Rules</i>, SOR/98-106, s 104(1) and 304(1)(a); <b><i>Forest Ethics Advocacy Association v Canada (National Energy Board)</i></b>, 2013 FCA 236, para 21; <i>Court of King’s Bench Rules</i>, Man Reg 553/88, r 38.05(2)(b); <i>Rules of Civil Procedure</i>, RRO 1990, Reg 194, r 38.06(2)(b).</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par24">24</a>]<span style='font:7.0pt "Times New Roman"'>           </span>It says a mandatory requirement to strike for non-service, with no possible remedy, is unconstitutional.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par25">25</a>]<span style='font:7.0pt "Times New Roman"'>           </span>While it is premature to determine the strength of these submissions, which should be left to the panel, it is not possible to say they have no merit.</p>
+<h3><span style="text-decoration:none">d)<span style='font:7.0pt "Times New Roman"'>      </span></span>Would a costs award prejudice Bow Valley’s ability to continue the appeal?</h3>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par26">26</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Three Sisters and Thunderstone argue the Society’s ability to continue the appeal will not be unduly prejudiced by an order for security of costs because Bow Valley could fundraise to pay the security. They assert that although Bow Valley’s limited financial means suggests its ability to proceed with the appeal may be prejudiced if an order for security is granted, it is more likely that they would be successful in raising funds to post security for an appeal, rather than fundraising to pay for an ultimate costs award. They say an order for security for costs strikes the balance between allowing the appeal to proceed, but doing so at Bow Valley’s risk should the appeal fail.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par27">27</a>]<span style='font:7.0pt "Times New Roman"'>           </span>The intended result by Three Sisters and Thunderstone is that Bow Valley would have to fundraise $58,826.26 within 30 days, failing which its appeal would be struck. That is a tall order.</p>
+<h3><span style="text-decoration:none">e)<span style='font:7.0pt "Times New Roman"'>      </span></span>Other matters to be considered</h3>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par28">28</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Rule 4.22(e) provides that other matters may be considered if appropriate.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par29">29</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Bow Valley submits this application is brought too late; the appeal is to be heard on February 5, 2026 and a security for costs order would require fundraising right up until the appeal. This is too onerous an obligation at this late date: see <b><i>Amex Electrical Ltd v 726934 Alberta Ltd</i></b>, 2014 ABQB 66, para 75, [2014] 8 WWR 581; <b><i>Aski Construction Ltd v Markos</i></b>, 2017 ABCA 341, para 18.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par30">30</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Bow Valley says if security for costs is ordered, it fails to post the security, and this appeal is struck, it would have an impact on Stoney Nakoda’s appeal because Stoney Nakoda only argues the r 3.15 issue and relies on Bow Valley’s factum in respect of the merits of the application for judicial review. Three Sisters and Thunderstone reply that they would consent to Stoney Nakoda advancing the submissions that otherwise would have been advanced by Bow Valley. One wonders whether that advances the present situation.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par31">31</a>]<span style='font:7.0pt "Times New Roman"'>           </span>Bow Valley also says the resolution of this issue is important to the community, and the issues it raises are important issues of law. It says this also militates against an order for security for costs.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par32">32</a>]<span style='font:7.0pt "Times New Roman"'>           </span>On balance, it is not just or equitable to order security for costs against Bow Valley.</p>
+<h1 style="text-indent:-.5in"><span style='font:7.0pt "Times New Roman"'> </span>IV.<span style='font:7.0pt "Times New Roman"'>            </span>Conclusion</h1>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[<a class="reflex-paragAnchor" name="par33">33</a>]<span style='font:7.0pt "Times New Roman"'>           </span>For the above reasons, these applications are dismissed.</p>
+<p class="MsoNormal" style="margin-left:0in"><a name="JudgmentHeard"></a>Application heard on December 18, 2025</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><a name="JudgmentFiled"></a>Reasons filed at <a name="FilingJudicialDistrict"></a>Edmonton, Alberta</p>
+<p class="MsoNormal" style="margin-left:0in">this <a name="FilingDate"></a><span style="color:black">8th day of December, 2025</span></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<div align="right" class="MsoNormal" style="margin-left:0in;text-align:right">
+<a name="Signature"></a>
+<hr align="right" noshade="" size="1" style="width:3.0in" width="288"/>
+</div>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">Feehan J.A.<br clear="all" style="page-break-before:always"/></p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"><a name="frAppearances"></a><b>Appearances:</b></p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">R. E. Harrison</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">S. Fluker</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">            for the Respondent</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">G.J. Stewart-Palmer, KC</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">Z. Gerard</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">            for the Applicant, Three Sisters Mountain Village Properties Ltd</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">D.J. Wachowich, KC (no appearance)</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">S. Stokes</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">            for the Applicant, Thunderstone Quarries Canmore Ltd</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">A. M. Simmonds</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">D. Aman</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">            for Alberta (<i>Environmental Protection and Enhancement Act</i>, Designated Director)</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"><a name="Corrigendum"></a>D. Jergeas-Legate</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">J. Keliher (no appearance)</p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid">            for the Minister of Justice</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+</div>
+</body>
+</html>

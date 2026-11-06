@@ -1,0 +1,73 @@
+LeREaD ARR resubmission — Summary of reviewer / meta-reviewer points
+Submission5922 — snapshot of previous round (v1: 11 documents)
+Source: user paste of OpenReview thread (meta-review + 3 reviews + author rebuttals + 1 follow-up)
+Date compiled: 2026-10-09
+Manuscript under revision: C:\Users\zakga\OneDrive\Documents\code\LeREaD-manuscript (now ~45 gold + 55 silver, see latex/acl_latex.tex:164)
+Active appendix: latex/appendix-3.tex (wired via \input{latex/appendix-3} in acl_latex.tex:1017). appendix-1/appendix-2 are stale — ignore.
+
+================================================================
+0. SCORES / CONFIDENCE (for context, not to quote in PDF)
+================================================================
+- Meta-review (AC mGjw): Overall 3 = Findings. No ethics issues.
+- Reviewer CjA3: Confidence 3, Soundness 2 (Poor), Excitement 3, Overall 2 (Resubmit), Repro 2, Data 3, Software 2.
+- Reviewer 4Akm: Confidence 3, Soundness 3 (Acceptable), Overall 3 (Findings). Repro 4, Data 3, Software 3. Follow-up: kept Findings (not main track) for (i) doc count unfixable in-revision, (ii) RQ1-RQ2 preliminary.
+- Reviewer b9UJ: Confidence 3, Soundness 2 (Poor), Excitement 3, Overall 2 (Resubmit), Repro 2, Data 3, Software 2.
+
+================================================================
+1. META-REVIEW (AC mGjw) — 3 suggested revisions
+================================================================
+[M1] Limited dataset / span-level framing.
+  - Small doc count (11) worries reviewers; paper does not stress enough that LeREaD is span-level, so span count is the relevant scale metric.
+  - Ask: highlight span-level nature; clearer discussion of scale + evaluation limitations so readers do not over-weight doc count.
+[M2] Overstated disambiguation framing.
+  - Title promises extraction + disambiguation but disambiguation not experimentally assessed.
+  - Ask: align framing with evaluated contribution; possibly remove disambiguation from title; phrase annotation-effect claims more cautiously.
+[M3] Limited transparency / reproducibility.
+  - Ask: more detail on prompt validation, experimental setup, timing methodology, annotation workflow.
+
+================================================================
+2. REVIEWER CjA3 (Overall 2, Soundness 2)
+================================================================
+Strengths noted: methodological rigor (setup + annotation), relevant bottleneck (legal annotation), empirical analysis of process (productivity/quality/bias), practical guidance for high-stakes domains.
+Weaknesses:
+[C1] Dataset too small for statistical relevance. Trends OK but sample too small for bold claims.
+[C2] Disambiguation in title but not treated in depth.
+[C3] Prompt validation process under-described.
+Suggestion: broaden dataset, resubmit later.
+Author rebuttal already sent (13 Jul): span counts (250k tokens, 4,062 mentions, 7,861 sublabels); v2 in progress (>2x decisions); annotation-study scale (human-only 1,243 spans; agreement 971 human-human / 2,714 human-LLM; 6 docs re-annotated, ~39h); timing = annotator-only, no model latency; will publish full prompts; will soften anchoring wording; reproducibility = 11 docs to be released, sources public on CanLII.
+
+================================================================
+3. REVIEWER 4Akm (Overall 3 -> confirmed Findings after rebuttal)
+================================================================
+Strengths noted: well written, pilot rounds, fine-grained scheme (incl. secondary sources + sublabels), human vs LLM-assisted comparison, throughput gain at same quality.
+Weaknesses:
+[A1] Very small dataset: 11 docs train / 3 test (their reading). Results + per-label test claims statistically fragile. Acknowledge limit but still report per-label tests.
+[A2] LLM-human pipeline: mean time 134.8 min (Table 4). Unclear if it includes model latency / fallback passes. Only 4 docs in extraction + verification -> RQ1/RQ2 generalisation limited.
+[A3] Sec 3.4 (inter-annotator agreement): Level 1 / Level 2 defined only in Appendix C; move definitions into main text.
+[A4] Model selection: 4 LLMs (1 proprietary + 3 open) with no justification; suggests dense vs MoE comparison + more sizes.
+Author rebuttal already sent (13 Jul): val/test = 65k / 31.5k tokens, 2,015 / 1,241 spans; per-label only in App. Table 9, can remove, focus on micro-F1 0.91; v2 >2x decisions; timing = annotator-only via platform, no latency/fallback; RQ1 = 4 docs from scratch (33k tokens) vs 2 docs verification (59k tokens); RQ2/RQ3 = 4 double-annotated docs, 2,714 spans, 85.5k tokens; 6 docs re-annotated (~39h); will move L1/L2 to main; model choice = proprietary + open across scales (GPT-5.2, Qwen2.5-7B, Phi-4-14B, Qwen2.5-32B), MoE = future work.
+Follow-up by 4Akm (15 Jul): thanks; asks to put timing breakdown + RQ1-RQ3 details explicitly in paper; insists on explicit span-level framing; raises score but keeps Findings (doc count + small RQ1/RQ2 sets = preliminary, not main track).
+
+================================================================
+4. REVIEWER b9UJ (Overall 2, Soundness 2) — most detailed
+================================================================
+Strengths noted: relevant task (preprocessing for retrieval), detailed hierarchical scheme + metadata, useful baselines + preliminary LLM-assisted study.
+Weaknesses:
+[B1] Very limited scale for a benchmark: 11 decisions, 5/3/3 train/dev/test. Even if span-rich, doc count limits reliability, representativeness, per-label analysis. Ask: justify why these 11, how representative of Canadian decisions.
+[B2] Overstated extraction+disambiguation framing: experiments = extraction only; disambiguation = future; candidate pool too small for realistic retrieval. Ask: frame disambiguation modestly as released metadata / future work.
+[B3] Workflow vs released gold not transparent: docs processed under mixed conditions (human-only, LLM-assisted verification, double annotation, pilot). Unclear which process produced final gold per doc. D10 in both extraction-only and verification settings -> ordering / familiarity / comparability questions.
+[B4] Productivity analysis under-controlled: 29% gain on few timed docs; speed confounded by difficulty, fatigue, order, tool familiarity, environment. Ask: how timing recorded; were extraction vs verification controlled / counterbalanced.
+Comments/suggestions:
+[B5] Prompt design: copy-and-annotate format, chunking, few-shot given, but design/revision/validation process missing; results depend on prompt quality.
+[B6] Motivation vs prior work: paper criticises prior sets as monolingual / too small, but v1 is also English-only + 11 docs.
+[B7] Anchoring-bias interpretation too strong: verified-vs-LLM > raw-LLM-vs-gold is suggestive, not conclusive; could be easy references, shared guidelines, editing mechanics.
+Author rebuttal already sent (13 Jul, rev. 14 Jul): span counts (4,062 mentions, 7,861 sublabels, 250k tokens); stratified sampling (court level, jurisdiction, period; App. B; CanLII; avoid tribunal/decade over-representation); per-label only App. Table 9, can remove; v2 >2x; disambiguation metadata in v1, eval in v2 (preliminary runs done); final v1 release = 11 docs human-only (extraction + disambiguation); experiment docs also released (4 extraction-only + 4 verification); D10 = Annotator 1 from-scratch (extraction-only, final test version = Annotator 1 complete) vs Annotator 2 verification of LLM output (separate purpose); RQ1 = 4 scratch (33k) vs 2 verification (59k); RQ2/RQ3 = 4 double-annotated, 2,714 spans, 85.5k tokens; 6 docs re-annotated (~39h); end-of-process, same annotators/platform/guidelines/order/task; identical task (mentions + sublabels); timer with inactivity stop, no latency/fallback; difficulty not controlled (acknowledged limit); will publish full prompts + details; motivation = scope (primary vs legislation + secondary unified), English now but French versions exist in source pool (future bilingual); anchoring will be softened to "consistent with", incl. alternative explanations + platform editing affordance.
+
+================================================================
+5. CROSS-CUTTING THEMES (for the revision PDF)
+================================================================
+T1 Scale / stats: all reviewers + meta. Need span-level framing, tokens/spans per split, representativeness (stratified sampling), limits, per-label handling, v2 status.
+T2 Disambiguation scope: all reviewers + meta. v1 title vs evaluated content. (Note: new manuscript DOES evaluate disambiguation: coref + linking — this is the strongest answer.)
+T3 Transparency / repro: prompts, setup, timing, workflow->gold mapping, D10, data release (CanLII public + 11 docs), code/tool open-source.
+T4 Annotation study design: sample sizes (docs/tokens/spans/hours), conditions, controls, confounds (difficulty, order, fatigue, familiarity), cautiously worded anchoring.
+T5 Presentation: L1/L2 in main text; model-choice rationale; motivation wording (monolingual/small critique); micro-F1 focus over per-label.
