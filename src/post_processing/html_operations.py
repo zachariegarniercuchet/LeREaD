@@ -3,6 +3,7 @@ import json
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 from configs.config import LABEL_SCHEME_PATH
+from ..html_utils import is_auto_label_tag, is_manual_label_tag
 
 
 def is_pure_whitespace(node):
@@ -13,7 +14,23 @@ def get_significant_children(tag):
     """Return children that are not pure-whitespace text nodes."""
     return [c for c in tag.children if not is_pure_whitespace(c)]
 
-def fix_labels(html_content):
+def fix_labels(html_content, max_iterations=None):
+    """Push formatting tags outside auto_label boundaries.
+
+    Only formatting/content tags are ever considered as restructuring
+    candidates. Nested ``auto_label``/``manual_label`` tags are NEVER
+    unwrapped or wrapped here: treating a nested label as a "wrapping tag"
+    both destroys sublabel annotations and can oscillate forever between
+    ``parent > child`` and ``child > parent`` states (every pass reports a
+    change, so the ``while changed`` loop never exits). That configuration
+    is routine in AIO output (a parent mention covered by a single
+    sublabel), which is why AIO hung while DEC0 (parent labels only) did not.
+
+    Termination: each applied fix unwraps >= 1 formatting tag from inside a
+    label and places the replacement strictly outside it, so tags only ever
+    move outward and the loop must converge. ``max_iterations`` is a tripwire
+    (fail loudly, never hang silently) for any unforeseen pathology.
+    """
 
     def normalize_attr_value(k, v):
         if k == "style":
@@ -29,19 +46,36 @@ def fix_labels(html_content):
     changed = True
     soup = BeautifulSoup(html_content, 'html.parser')
 
+    if max_iterations is None:
+        n_labels = len(soup.find_all(["auto_label", "manual_label"]))
+        max_iterations = max(500, 5 * n_labels + 50)
+    iteration = 0
+    fixes = 0
+
     while changed:
+        iteration += 1
+        if iteration > max_iterations:
+            raise RuntimeError(
+                f"fix_labels did not converge after {max_iterations} passes "
+                f"({fixes} fixes applied). Aborting instead of hanging: inspect "
+                f"label/formatting-tag nesting in the input."
+            )
         changed = False
         for label in soup.find_all(["auto_label", "manual_label"]):
-            
+
             # Get the full text of the label (ground truth)
             label_text = label.get_text().strip()
             if not label_text:
                 continue
 
             # For each possible wrapping tag type found inside the label,
-            # check if concatenation of all its text == label text
+            # check if concatenation of all its text == label text.
+            # NOTE: nested auto_label/manual_label tags are excluded — they
+            # are annotations, not formatting, and must be preserved as-is.
             candidate_tags = {}  # (tag_name, attrs_tuple) -> [list of tag instances]
             for child_tag in label.find_all(True):
+                if child_tag.name in ("auto_label", "manual_label"):
+                    continue
                 key = (child_tag.name, tuple(sorted(
                     (k, normalize_attr_value(k, v))
                     for k, v in child_tag.attrs.items()
@@ -92,8 +126,11 @@ def fix_labels(html_content):
             label.wrap(outer)
 
             changed = True
+            fixes += 1
             break
 
+    if fixes:
+        print(f"   ✓ fix_labels applied {fixes} formatting-tag swap(s) in {iteration} pass(es)")
     return str(soup)
 
 

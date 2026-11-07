@@ -85,7 +85,9 @@ class FallbackHandler:
         
         # Generate fallback output
         messages = get_messages(system_prompt=fallback_system_prompt, user_input=fallback_user_prompt, fewshot_examples=None, has_system_role=assistant.has_system_role)
+        print("  [fallback] about to call assistant.generate")
         fallback_output = assistant.generate(messages=messages)
+        print("  [fallback] generate returned")
         
         
         # Process fallback output

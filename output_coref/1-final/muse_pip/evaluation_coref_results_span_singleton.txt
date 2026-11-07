@@ -2,8 +2,8 @@
 ======================================================================
 BATCH COREF EVALUATION
 ======================================================================
-Batch folder: output_coref\AA_final\muse_pip
-Split: extended_test
+Batch folder: output_coref\1-final\muse_pip
+Split: test
 Match mode: span (unmatched=singleton)
 ======================================================================
 Found 38 evaluation pair(s)

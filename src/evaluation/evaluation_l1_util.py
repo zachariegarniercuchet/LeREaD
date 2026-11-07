@@ -37,12 +37,16 @@ PARENT_LABELS = {"decision", "legislation", "secondary sources"}
 class Span:
     """One annotated span extracted from an HTML file."""
 
-    def __init__(self, text: str, labelname: str, context_text: str, attributes: dict = None, start_pos: int = 0):
+    def __init__(self, text: str, labelname: str, context_text: str, attributes: dict = None, start_pos: int = 0, end_pos: int = None):
         self.text        = " ".join(text.split())          # normalise whitespace
         self.labelname   = labelname.strip().lower()
         self.context_text = " ".join(context_text.split()).lower()  # normalised
         self.attributes   = attributes or {}
         self.start_pos    = start_pos # character offset in the document plain text
+        # Character offset one past the end of the span in the normalised
+        # plain text. Defaults to start + len(text) so old call sites that
+        # only pass start_pos keep working.
+        self.end_pos      = end_pos if end_pos is not None else (start_pos + len(self.text) if start_pos >= 0 else -1)
 
     def __repr__(self):
         preview = self.text[:40] + ("…" if len(self.text) > 40 else "")
@@ -64,6 +68,37 @@ class Span:
             return True
         return self.context_text == other.context_text
 
+    def overlap_len(self, other: "Span") -> int:
+        """Length (chars) of the character-span intersection, or 0."""
+        if self.start_pos < 0 or other.start_pos < 0:
+            return 0
+        if self.end_pos <= self.start_pos or other.end_pos <= other.start_pos:
+            return 0
+        return max(0, min(self.end_pos, other.end_pos) - max(self.start_pos, other.start_pos))
+
+    def overlaps(self, other: "Span") -> bool:
+        """
+        OVERLAP (comparison only — never used by the exact-match path).
+
+        True when both spans share the same label and their character
+        offsets in the normalised document text intersect. This credits
+        partial/boundary-mismatched predictions (e.g. gold "R. v. Smith,
+        2020 SCC 1" vs system "R. v. Smith").
+
+        Falls back to case-insensitive text containment when either span
+        has no valid offsets (occurrence lookup failed).
+        """
+        if self.labelname != other.labelname:
+            return False
+        if self.start_pos >= 0 and other.start_pos >= 0:
+            if self.end_pos > self.start_pos and other.end_pos > other.start_pos:
+                return self.overlap_len(other) > 0
+        # Fallback: same label + one text contains the other
+        a, b = self.text.lower(), other.text.lower()
+        if not a or not b:
+            return False
+        return a in b or b in a
+
 
 # ---------------------------------------------------------------------------
 # Extraction
@@ -84,10 +119,14 @@ def _find_nth(text: str, plain: str, n: int) -> int:
 
 
 def _get_context(elem_text: str, plain_text: str, context_chars: int,
-                 seen_counts: dict, labelname: str) -> Tuple[str, int]:
+                 seen_counts: dict, labelname: str) -> Tuple[str, int, int]:
     """
     Find the correct occurrence of elem_text using a per-(labelname, text) counter,
-    then return (context_window, end_position).
+    then return (context_window, start_position, end_position).
+
+    NOTE: the context-window computation is unchanged from the exact-match
+    version; only the span offsets are additionally returned for overlap
+    matching. Exact-match behaviour is unaffected.
     """
     normalised_elem  = " ".join(elem_text.split())
     normalised_plain = " ".join(plain_text.split())
@@ -101,7 +140,7 @@ def _get_context(elem_text: str, plain_text: str, context_chars: int,
     end       = start + len(normalised_elem)
     ctx_start = max(0, start - context_chars)
     ctx_end   = min(len(normalised_plain), end + context_chars)
-    return normalised_plain[ctx_start:ctx_end], end
+    return normalised_plain[ctx_start:ctx_end], start, end
 
 
 def extract_spans(html_path: str, context_chars: int = CONTEXT_CHARS) -> List[Span]:
@@ -128,10 +167,10 @@ def extract_spans(html_path: str, context_chars: int = CONTEXT_CHARS) -> List[Sp
         if not " ".join(text.split()):
             continue
 
-        context, _ = _get_context(text, plain_text, context_chars, seen_counts, labelname)
+        context, start, end = _get_context(text, plain_text, context_chars, seen_counts, labelname)
 
         attrs = dict(tag.attrs)
-        spans.append(Span(text, labelname, context, attributes=attrs))
+        spans.append(Span(text, labelname, context, attributes=attrs, start_pos=start, end_pos=end))
 
     return spans
 
@@ -162,6 +201,76 @@ def match_spans(gold: List[Span], system: List[Span]) -> Tuple[int, int, int]:
                 break
 
     return tp, len(gold), len(system)
+
+
+# ---------------------------------------------------------------------------
+# Overlap matching (COMPARISON ONLY — exact-match path above is untouched)
+# ---------------------------------------------------------------------------
+
+def match_spans_overlap(gold: List[Span], system: List[Span]) -> Tuple[int, int, int]:
+    """
+    Greedily match gold spans to system spans on OVERLAP.
+
+    A match requires: same label + character-span intersection (see
+    Span.overlaps). Each span is used at most once. For each gold span,
+    the unused overlapping system span with the largest intersection is
+    chosen (ties broken by order).
+
+    This is a lenient comparison metric shown ALONGSIDE the exact-match
+    main metric. It never affects exact-match counts.
+
+    Returns
+    -------
+    (tp, n_gold, n_system)
+    """
+    used = [False] * len(system)
+    tp   = 0
+
+    for g in gold:
+        best_j = -1
+        best_overlap = 0
+        for j, s in enumerate(system):
+            if used[j]:
+                continue
+            if not g.overlaps(s):
+                continue
+            ov = g.overlap_len(s)
+            if ov <= 0:
+                # Positional fallback (e.g. containment fallback): still a
+                # valid overlap hit, just without a measurable intersection.
+                if best_j == -1:
+                    best_j = j
+                continue
+            if ov > best_overlap:
+                best_overlap = ov
+                best_j = j
+        if best_j != -1:
+            tp += 1
+            used[best_j] = True
+
+    return tp, len(gold), len(system)
+
+
+def compute_metrics_overlap(gold: List[Span], system: List[Span]) -> Dict[str, dict]:
+    """
+    Per-label Precision / Recall / F1 under OVERLAP matching.
+
+    Mirrors compute_metrics() exactly, except match_spans_overlap() is
+    used instead of match_spans(). Comparison only.
+    """
+    all_labels = sorted(
+        {s.labelname for s in gold} | {s.labelname for s in system}
+    )
+
+    results = {}
+    for label in all_labels:
+        g = [s for s in gold   if s.labelname == label]
+        s = [s for s in system if s.labelname == label]
+        tp, n_gold, n_system = match_spans_overlap(g, s)
+        P, R, F = _prf(tp, n_gold, n_system)
+        results[label] = {"tp": tp, "n_gold": n_gold, "n_system": n_system,
+                          "P": P, "R": R, "F1": F}
+    return results
 
 
 # ---------------------------------------------------------------------------
@@ -278,6 +387,39 @@ def evaluate(
 
     if verbose:
         title = f"{Path(gold_path).name}  vs  {Path(system_path).name}"
+        _print_table(metrics, title, doc_f1s=None)
+
+    return metrics, doc_f1
+
+
+def evaluate_overlap(
+    gold_path: str,
+    system_path: str,
+    context_chars: int = CONTEXT_CHARS,
+    verbose: bool = True,
+) -> Tuple[Dict[str, dict], float]:
+    """
+    Evaluate one (gold, system) pair under OVERLAP matching.
+
+    Comparison only — mirrors evaluate() exactly, except overlap
+    matching is used. The exact-match evaluate() above is untouched
+    and remains the main metric.
+    """
+    gold_spans   = extract_spans(gold_path,   context_chars)
+    system_spans = extract_spans(system_path, context_chars)
+
+    if verbose:
+        print(f"  Gold  : {Path(gold_path).name}  ({len(gold_spans)} spans)")
+        print(f"  System: {Path(system_path).name}  ({len(system_spans)} spans)")
+
+    metrics = compute_metrics_overlap(gold_spans, system_spans)
+
+    # Per-document F1: micro over all spans regardless of label (overlap)
+    tp, n_gold, n_system = match_spans_overlap(gold_spans, system_spans)
+    _, _, doc_f1 = _prf(tp, n_gold, n_system)
+
+    if verbose:
+        title = f"{Path(gold_path).name}  vs  {Path(system_path).name}  [OVERLAP]"
         _print_table(metrics, title, doc_f1s=None)
 
     return metrics, doc_f1
@@ -495,6 +637,207 @@ def evaluate_batch(
 
     print("=" * 60)
     print("RESULTS — PARENT vs CHILDREN vs TOTAL")
+    print("=" * 60)
+    print(f"{'':<20} {'Gold':>6} {'Sys':>6} {'TP':>6} {'P':>8} {'R':>8} {'F1':>8}")
+    print(f"{'Parent spans':<20} {parent_metrics['n_gold']:>6} {parent_metrics['n_system']:>6} "
+          f"{parent_metrics['tp']:>6} {parent_metrics['P']*100:>7.1f}% "
+          f"{parent_metrics['R']*100:>7.1f}% {parent_metrics['F1']*100:>7.1f}%")
+    print(f"{'Children spans':<20} {children_metrics['n_gold']:>6} {children_metrics['n_system']:>6} "
+          f"{children_metrics['tp']:>6} {children_metrics['P']*100:>7.1f}% "
+          f"{children_metrics['R']*100:>7.1f}% {children_metrics['F1']*100:>7.1f}%")
+    print(f"{'Total':<20} {total_n_gold:>6} {total_n_system:>6} "
+          f"{total_tp:>6} {total_P*100:>7.1f}% {total_R*100:>7.1f}% {total_F1*100:>7.1f}%")
+    print()
+
+    return {
+        "overall": overall,
+        "per_document": per_document,
+        "per_label": per_label,
+        "parent_child_breakdown": {
+            "parent": parent_metrics,
+            "children": children_metrics,
+        },
+    }
+
+def evaluate_batch_overlap(
+    pairs: List[Tuple[str, str]],
+    context_chars: int = CONTEXT_CHARS,
+    verbose_per_file: bool = False,
+) -> Dict[str, dict]:
+    """
+    Batch evaluation under OVERLAP matching (comparison only).
+
+    Mirrors evaluate_batch() exactly, except overlap matching is used.
+    The exact-match evaluate_batch() above is untouched and remains the
+    main metric. Returned dict has the same shape ("overall",
+    "per_document", "per_label", "parent_child_breakdown").
+    """
+
+    accumulated = defaultdict(
+        lambda: {"tp": 0, "n_gold": 0, "n_system": 0}
+    )
+
+    per_document = {}
+    doc_f1s = []
+
+    print(f"\nBatch evaluation (OVERLAP — comparison) — {len(pairs)} file pair(s)")
+    print("=" * 60)
+
+    for i, (gold_path, system_path) in enumerate(pairs, 1):
+        doc_name = Path(gold_path).stem
+
+        print(f"\n[{i}/{len(pairs)}] {Path(gold_path).name}")
+
+        try:
+            metrics, doc_f1 = evaluate_overlap(
+                gold_path,
+                system_path,
+                context_chars=context_chars,
+                verbose=verbose_per_file,
+            )
+        except Exception as e:
+            print(
+                f"  ERROR processing "
+                f"{Path(gold_path).name} / {Path(system_path).name}: {e}"
+            )
+            continue
+
+        doc_f1s.append(doc_f1)
+
+        # ---------------------------------------------------------
+        # Per-document counts across ALL labels
+        # ---------------------------------------------------------
+        doc_tp = sum(m["tp"] for m in metrics.values())
+        doc_n_gold = sum(m["n_gold"] for m in metrics.values())
+        doc_n_system = sum(m["n_system"] for m in metrics.values())
+
+        doc_P, doc_R, doc_F1 = _prf(
+            doc_tp,
+            doc_n_gold,
+            doc_n_system,
+        )
+
+        per_document[doc_name] = {
+            "tp": doc_tp,
+            "n_gold": doc_n_gold,
+            "n_system": doc_n_system,
+            "P": doc_P,
+            "R": doc_R,
+            "F1": doc_F1,
+        }
+
+        # ---------------------------------------------------------
+        # Accumulate counts across documents, per label
+        # ---------------------------------------------------------
+        for label, m in metrics.items():
+            accumulated[label]["tp"] += m["tp"]
+            accumulated[label]["n_gold"] += m["n_gold"]
+            accumulated[label]["n_system"] += m["n_system"]
+
+        if not verbose_per_file:
+            print(
+                f"  TP={doc_tp} | "
+                f"Gold={doc_n_gold} | "
+                f"System={doc_n_system} | "
+                f"F1={doc_F1 * 100:.1f}%"
+            )
+
+    # -------------------------------------------------------------
+    # Overall counts across ALL documents and ALL labels
+    # -------------------------------------------------------------
+    total_tp = sum(d["tp"] for d in per_document.values())
+    total_n_gold = sum(d["n_gold"] for d in per_document.values())
+    total_n_system = sum(d["n_system"] for d in per_document.values())
+
+    total_P, total_R, total_F1 = _prf(
+        total_tp,
+        total_n_gold,
+        total_n_system,
+    )
+
+    overall = {
+        "tp": total_tp,
+        "n_gold": total_n_gold,
+        "n_system": total_n_system,
+        "P": total_P,
+        "R": total_R,
+        "F1": total_F1,
+    }
+
+    # -------------------------------------------------------------
+    # Micro-averaged results per label
+    # -------------------------------------------------------------
+    per_label = {}
+
+    for label, counts in accumulated.items():
+        tp = counts["tp"]
+        n_gold = counts["n_gold"]
+        n_system = counts["n_system"]
+
+        P, R, F = _prf(tp, n_gold, n_system)
+
+        per_label[label] = {
+            "tp": tp,
+            "n_gold": n_gold,
+            "n_system": n_system,
+            "P": P,
+            "R": R,
+            "F1": F,
+        }
+
+    parent_counts   = {"tp": 0, "n_gold": 0, "n_system": 0}
+    children_counts = {"tp": 0, "n_gold": 0, "n_system": 0}
+
+    for label, counts in accumulated.items():
+        bucket = parent_counts if label in PARENT_LABELS else children_counts
+        bucket["tp"]       += counts["tp"]
+        bucket["n_gold"]   += counts["n_gold"]
+        bucket["n_system"] += counts["n_system"]
+
+    parent_P, parent_R, parent_F1       = _prf(parent_counts["tp"], parent_counts["n_gold"], parent_counts["n_system"])
+    children_P, children_R, children_F1 = _prf(children_counts["tp"], children_counts["n_gold"], children_counts["n_system"])
+
+    parent_metrics   = {**parent_counts,   "P": parent_P,   "R": parent_R,   "F1": parent_F1}
+    children_metrics = {**children_counts, "P": children_P, "R": children_R, "F1": children_F1}
+
+    # -------------------------------------------------------------
+    # Print summary
+    # -------------------------------------------------------------
+    print("\n" + "=" * 60)
+    print("RESULTS (OVERLAP — comparison) — PER DOCUMENT")
+    print("=" * 60)
+
+    for doc_name, m in per_document.items():
+        print(
+            f"{doc_name:<40} "
+            f"TP={m['tp']:>4} | "
+            f"Gold={m['n_gold']:>4} | "
+            f"System={m['n_system']:>4} | "
+            f"F1={m['F1'] * 100:>5.1f}%"
+        )
+
+    print("\n" + "=" * 60)
+    print("RESULTS (OVERLAP — comparison) — TOTAL")
+    print("=" * 60)
+
+    print(
+        f"TP={total_tp} | "
+        f"Gold={total_n_gold} | "
+        f"System={total_n_system} | "
+        f"P={total_P * 100:.1f}% | "
+        f"R={total_R * 100:.1f}% | "
+        f"F1={total_F1 * 100:.1f}%"
+    )
+
+    print("\n" + "=" * 60)
+    _print_table(
+        per_label,
+        title="RESULTS (OVERLAP — comparison) — MICRO-AVERAGED PER LABEL",
+        doc_f1s=doc_f1s,
+    )
+
+    print("=" * 60)
+    print("RESULTS (OVERLAP — comparison) — PARENT vs CHILDREN vs TOTAL")
     print("=" * 60)
     print(f"{'':<20} {'Gold':>6} {'Sys':>6} {'TP':>6} {'P':>8} {'R':>8} {'F1':>8}")
     print(f"{'Parent spans':<20} {parent_metrics['n_gold']:>6} {parent_metrics['n_system']:>6} "

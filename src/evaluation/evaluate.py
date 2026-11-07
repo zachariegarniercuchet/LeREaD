@@ -41,6 +41,9 @@ evaluation_l1_util = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(evaluation_l1_util)
 evaluate_batch = evaluation_l1_util.evaluate_batch
 evaluate = evaluation_l1_util.evaluate
+# Overlap matching (comparison only — exact match stays the main metric)
+evaluate_batch_overlap = evaluation_l1_util.evaluate_batch_overlap
+evaluate_overlap = evaluation_l1_util.evaluate_overlap
 
 # Import evaluation config directly
 spec_config_eval = importlib.util.spec_from_file_location(
@@ -255,9 +258,33 @@ def run_single_file_evaluation(config: EvaluationConfig):
             verbose=True,
         )
     captured = buffer.getvalue()
-    print(captured)
+    print(captured, end="" if captured.endswith("\n") else "\n")
+    print("Main metric is EXACT match (above). "
+          "Overlap below is a lenient comparison only.")
 
     full_log = header + captured
+
+    # ---- Overlap matching (comparison only; exact output above untouched) ----
+    if getattr(config, "overlap", True):
+        ov_buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(ov_buffer):
+                print("\n" + "=" * 70)
+                print("OVERLAP MATCHING (comparison — main metric remains EXACT above)")
+                print("A hit = same label + overlapping character offsets.")
+                print("=" * 70)
+                evaluate_overlap(
+                    str(gold_path), str(system_path),
+                    context_chars=config.context_chars,
+                    verbose=True,
+                )
+        except Exception as e:
+            print(f"\n⚠ Overlap evaluation failed (exact results above unaffected): {e}")
+            ov_buffer.write(f"\n⚠ Overlap evaluation failed: {e}\n")
+        ov_captured = ov_buffer.getvalue()
+        print(ov_captured, end="" if ov_captured.endswith("\n") else "\n")
+        full_log += ov_captured
+
     save_evaluation_log(system_path.parent, full_log)
 
 
@@ -316,11 +343,30 @@ def run_batch_evaluation(
         )
     captured = buffer.getvalue()
 
-    # Print to console as normal
-    print(captured)
+    # Print to console as normal (exact match — main metric, unchanged)
+    print(captured, end="" if captured.endswith("\n") else "\n")
 
     # Build full log: header + captured output
     full_log = header + f"Found {len(pairs)} evaluation pair(s)\n\n" + captured
+
+    # ---- Overlap matching (comparison only; exact output above untouched) ----
+    overlap_results = None
+    if getattr(config, "overlap", True):
+        ov_buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(ov_buffer):
+                overlap_results = evaluate_batch_overlap(
+                    pairs,
+                    context_chars=config.context_chars,
+                    verbose_per_file=config.verbose_per_file,
+                )
+        except Exception as e:
+            print(f"\n⚠ Overlap evaluation failed (exact results above unaffected): {e}")
+            ov_buffer.write(f"\n⚠ Overlap evaluation failed: {e}\n")
+        ov_captured = ov_buffer.getvalue()
+        print(ov_captured, end="" if ov_captured.endswith("\n") else "\n")
+        full_log += ov_captured
+
     save_evaluation_log(batch_folder, full_log)
 
     return results
@@ -367,6 +413,11 @@ def main():
         action="store_true",
         help="Verbose output",
     )
+    single_parser.add_argument(
+        "--no-overlap",
+        action="store_true",
+        help="Skip the extra overlap-matching comparison (exact match is always shown)",
+    )
     
     # ========== BATCH EVALUATION ==========
     batch_parser = subparsers.add_parser(
@@ -400,6 +451,11 @@ def main():
         action="store_true",
         help="Verbose output per file",
     )
+    batch_parser.add_argument(
+        "--no-overlap",
+        action="store_true",
+        help="Skip the extra overlap-matching comparison (exact match is always shown)",
+    )
     
     args = parser.parse_args()
     
@@ -416,6 +472,7 @@ def main():
             data_dir=Path(args.data_dir),
             context_chars=args.context_chars,
             verbose_per_file=args.verbose,
+            overlap=not args.no_overlap,
         )
         config.validate()
         run_single_file_evaluation(config)
@@ -429,6 +486,7 @@ def main():
             data_dir=Path(args.data_dir),
             context_chars=args.context_chars,
             verbose_per_file=args.verbose,
+            overlap=not args.no_overlap,
         )
         config.validate()
         run_batch_evaluation(config)

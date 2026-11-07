@@ -16,7 +16,7 @@ with open("./configs/meta.json") as f:
     META = json.load(f)
 
 INPUT_DIR = DATA_DIR / "raw"
-OUTPUT_DIR = DATA_DIR / "original" / "incoming"
+OUTPUT_DIR = DATA_DIR / "original" / "no-gold"
 
 from bs4 import BeautifulSoup
 import chardet

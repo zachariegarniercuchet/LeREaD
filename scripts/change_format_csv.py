@@ -1,20 +1,24 @@
 """
 Convert a "cited_metadata.csv"-style file into the simpler
-"original_url,metadata" CSV format.
+"uri,metadata" CSV format.
 
 Input columns (per row):
     id, final_url, normalized_final_url, docType, jurisdictionId,
-    solr_collection, metadata
+    solr_collection, metadata, tiny_url (optional)
 
 The `metadata` column holds a JSON string shaped like:
     {"response": {"numFound": 1, "docs": [ {...one doc...} ]}}
 
 Output columns (per row):
-    original_url, metadata
+    uri, metadata
 
 Where:
-    - `original_url` comes from the input row's `final_url`
-      (falls back to `normalized_final_url` if `final_url` is missing/empty).
+    - `uri` comes from the input row's `tiny_url`, except when
+      `docType == DOCTRINE` (tiny url is not tiny there), in which case
+      it comes from `final_url` (falls back to `normalized_final_url`
+      if `final_url` is missing/empty). Non-DOCTRINE rows with a
+      missing/empty `tiny_url` also fall back to `final_url` then
+      `normalized_final_url`.
     - `metadata` is the `response.docs` list from the input's metadata JSON,
       pretty-printed (indent=2) so it reads the same way as the target
       example file.
@@ -36,7 +40,7 @@ def parse_args():
         description=(
             "Reformat a cited_metadata.csv file (id, final_url, "
             "normalized_final_url, docType, jurisdictionId, solr_collection, "
-            "metadata) into an original_url,metadata CSV file."
+            "metadata, tiny_url) into a uri,metadata CSV file."
         )
     )
     parser.add_argument(
@@ -76,13 +80,19 @@ def convert(input_csv, output_csv):
     ) as outfile:
         reader = csv.DictReader(infile)
         writer = csv.writer(outfile)
-        writer.writerow(["original_url", "metadata"])
+        writer.writerow(["uri", "metadata"])
 
         for row in reader:
-            original_url = (row.get("final_url") or row.get("normalized_final_url") or "").strip()
+            doc_type = (row.get("docType") or "").strip().upper()
+            tiny_url = (row.get("tiny_url") or "").strip()
+            final_url = (row.get("final_url") or "").strip() or (row.get("normalized_final_url") or "").strip()
+            if doc_type == "DOCTRINE":
+                uri = final_url
+            else:
+                uri = tiny_url or final_url
             raw_metadata = row.get("metadata", "")
 
-            if not original_url or not raw_metadata:
+            if not uri or not raw_metadata:
                 rows_skipped += 1
                 print(
                     f"Warning: skipping row id={row.get('id')!r} "
@@ -103,7 +113,7 @@ def convert(input_csv, output_csv):
                 continue
 
             formatted_metadata = json.dumps(docs, indent=2, ensure_ascii=False)
-            writer.writerow([original_url, formatted_metadata])
+            writer.writerow([uri, formatted_metadata])
             rows_written += 1
 
     print(f"Done. Wrote {rows_written} row(s) to {output_csv}.", file=sys.stderr)

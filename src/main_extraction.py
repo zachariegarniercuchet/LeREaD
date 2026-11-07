@@ -117,13 +117,17 @@ def load_fewshot_examples(
         new_labels = []
     if parents is None:
         parents = ["decision", "legislation", "secondary sources"]
-    fewshot_filename = f"examples_{fewshot_method}_surf-{get_method_config(method)['surface_pattern']}_struct-{get_method_config(method)['structural_pattern']}"
+    
+    if fewshot_method =="greedy":
+        fewshot_filename = f"examples_greedy_surf-{get_method_config(method)['surface_pattern']}_struct-{get_method_config(method)['structural_pattern']}"
+    elif fewshot_method == "random":
+        fewshot_filename = f"examples_random"
     with open(FEWSHOT_CACHE_DIR / f"{fewshot_filename}.json", "r", encoding="utf-8") as f:
         fewshot_file_content = json.load(f)
 
     print("fewshot examples from :", fewshot_filename)
 
-    # Previussly, 27/08/2026
+    # Former, 27/08/2026
     #fewshot_examples = [
     #        (example["example"]["input"], example["example"]["output"])
     #        for example in fewshot_file_content["examples"]
@@ -281,10 +285,11 @@ def process_aio_dec0(
     disable_fallback: bool = False,
 ) -> List:
     """Process document using AIO or DEC0 method (chunk-based)."""
-    print(f"  Processing {len(token_chunks)} chunks...\n")
     
     processed_chunks = []
     fallback_count = 0
+
+
     
     for chunk_tokens in tqdm(token_chunks, desc="Processing chunks"):
         user_input = decode(chunk_tokens)
@@ -302,8 +307,7 @@ def process_aio_dec0(
             allowed_labels=allowed_labels,
             assistant=assistant,
             with_fallback=not disable_fallback,
-        )
-        
+        )        
         processed_chunks.append(corrected_generated_tokens)
         
         if not status.passed:
@@ -627,6 +631,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--with-timestamp", action="store_true")
     parser.add_argument("--prompt-type", default="long", choices=["short", "long"])
 
+    parser.add_argument("--start", type=int, default=None,
+                        help="1-based index of the first document to process (inclusive).")
+    parser.add_argument("--end", type=int, default=None,
+                        help="1-based index of the last document to process (inclusive).")
+
     return parser
 
 
@@ -655,6 +664,20 @@ def main():
     output_root = run.output_root()
     filenames = run.get_filenames()
 
+    # ── Optional document range selection (1-based, inclusive) ──────────────
+    total_files = len(filenames)
+    start = args.start if args.start is not None else 1
+    end = args.end if args.end is not None else total_files
+
+    if start < 1 or end < start:
+        parser.error(f"Invalid range: --start {start} --end {end}")
+    if start > total_files:
+        parser.error(f"--start {start} is greater than the number of documents ({total_files})")
+
+    end = min(end, total_files)
+    filenames = filenames[start - 1:end]
+    print(f"[Setup] Selected documents {start} to {end} out of {total_files}")
+
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
 
@@ -669,9 +692,9 @@ def main():
 
     print(f"[Setup] Mode: {run.mode.upper()} | Files: {len(filenames)} | Output: {output_root}\n")
 
-    for filename in filenames:
+    for i, filename in enumerate(filenames, start=start):
         print(f"\n{'='*80}")
-        print(f"Processing: {filename}  ({filenames.index(filename)+1}/{len(filenames)})")
+        print(f"Processing: {filename}  (#{i}/{total_files})")
         print(f"{'='*80}")
         
         # Per-file output subfolder (only in split mode; flat in single mode)

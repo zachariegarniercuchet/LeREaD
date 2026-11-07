@@ -36,8 +36,8 @@ METRIC_TO_ANN_KEY = {
 }
 
 METRIC_TO_FIG_NAME = {
-    "surface": "Child-Level",
-    "structural": "Parent-Level",
+    "surface": "Component-Level",
+    "structural": "Mention-Level",
 }
 
 GREEDY_PATH_BY_METRIC = {
@@ -198,7 +198,7 @@ def _plot_combined() -> None:
     #    color=METRIC_COLOR["structural"],
     #)
 
-    ax_left.set_title("Coverage: greedy vs random (surface & structural)")
+    ax_left.set_title("Coverage: greedy vs random")
     ax_left.grid(alpha=0.3)
     ax_left.legend(lines, [l.get_label() for l in lines], loc="lower right")
 

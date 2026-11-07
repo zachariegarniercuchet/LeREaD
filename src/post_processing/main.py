@@ -22,6 +22,9 @@ def tokens_to_html(processed_tokens, html_content):
     6. Validates bracket coherence
     7. Cleans up HTML formatting
     8. Adds label scheme attributes to auto_labels
+    9. Verifies end-to-end preservation: final output must be the original
+       HTML plus only the authorized auto_label insertions (exact text
+       identity + tag-structure identity), failing loudly otherwise
     
     Args:
         processed_chunks: List of lists of tokens from the model output
@@ -95,7 +98,7 @@ def tokens_to_html(processed_tokens, html_content):
     # Step 9: Add label scheme attributes
     # =====================================================================
     processed_html_content = add_attributes_to_auto_labels(processed_html_cleaned)
-    
+
     # =====================================================================
     # Final result
     # =====================================================================

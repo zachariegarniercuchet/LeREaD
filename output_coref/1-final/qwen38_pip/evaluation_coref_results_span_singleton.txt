@@ -2,8 +2,8 @@
 ======================================================================
 BATCH COREF EVALUATION
 ======================================================================
-Batch folder: output_coref\AA_final\qwen38_pip
-Split: extended_test
+Batch folder: output_coref\1-final\qwen38_pip
+Split: test
 Match mode: span (unmatched=singleton)
 ======================================================================
 Found 38 evaluation pair(s)
