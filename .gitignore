@@ -24,4 +24,6 @@ data/full_candidate_pool.csv.bak_pre_gold_synth.csv
 data/gold_candidate_pool.csv.bak_pre_gold_synth.csv
 
 cache/
-cache/
+
+# Windows duplicate-download copies (e.g. "foo-DESKTOP-RC2PBBP.html")
+*-DESKTOP-*
