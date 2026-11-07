@@ -10,9 +10,15 @@ jobs/
 
 src/models/registry.py
 
-cache/candidate_pool_index
-cache/candidate_pool_index_qwen3-8b_v1/embeddings.npy
+# Large embedding / index blobs stay out of git.
+cache/candidate_pool_index_qwen3-8b_v1/
 cache/candidate_pool_index_splade_v1/embeddings.npy
+cache/candidate_pool_index_splade_v1_backup/embeddings.npy
+# Any other embedding blobs under cache (e.g. nested backups).
+cache/**/embeddings.npy
+# Cache-root duplicates (kept untracked).
+cache/*.pkl
+cache/*.json
 
 uri_request
 
@@ -22,8 +28,6 @@ ARR/
 
 data/full_candidate_pool.csv.bak_pre_gold_synth.csv
 data/gold_candidate_pool.csv.bak_pre_gold_synth.csv
-
-cache/
 
 # Windows duplicate-download copies (e.g. "foo-DESKTOP-RC2PBBP.html")
 *-DESKTOP-*

@@ -1,0 +1,485 @@
+{
+  "profiles": [
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Pharmascience",
+      "alternative_titles": {
+        "Pharmascience\n  inc. c. Option Consommateurs": "0"
+      },
+      "citations": {
+        "2005\n  QCCA 437": "0"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "0"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "CCP 1965",
+      "alternative_titles": {
+        "C.C.P.": "3",
+        "C.C.P": "19",
+        "Code\nof Civil Procedure": "53",
+        "Code of\nCivil Procedure": "55",
+        "Code": "57",
+        "Code of Civil Procedure": "103",
+        "Code of Civil\nProcedure": "111",
+        "Charter": "146"
+      },
+      "citations": {},
+      "fragments_mentioned": {
+        "articles 1002": "3",
+        "1003": "3",
+        "article 1002": "7",
+        "article\n1002": "13",
+        "article 1003": "25",
+        "article 59": "62",
+        "67": "64",
+        "art. 1011": "71",
+        "article 93": "82",
+        "Article 1003(b)": "92",
+        "article 1003(b)": "94",
+        "article 867": "97",
+        "article 1003 (b)": "100",
+        "article\n1003": "105",
+        "article 1010": "115",
+        "Article 13": "133",
+        "Article 396.1": "143",
+        "article 23": "146",
+        "article 396.1": "149",
+        "art. 294": "152",
+        "art. 314": "155",
+        "Art 59": "208",
+        "Art. 999": "211",
+        "Art. 1000": "217",
+        "Art. 4.1": "264",
+        "4.2": "264",
+        "151.1": "264",
+        "et seq": "264"
+      },
+      "authors": {},
+      "first_seen_id": "3"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "Quebec Charter",
+      "alternative_titles": {
+        "Charter of human rights and\nfreedoms": "22",
+        "Charter of\nhuman rights and freedoms": "28",
+        "Charter": "31",
+        "Quebec Charter": "136"
+      },
+      "citations": {
+        "R.S.Q., c. C-12": "190"
+      },
+      "fragments_mentioned": {
+        "section 23": "22",
+        "article 23": "39",
+        "Article 23": "136"
+      },
+      "authors": {},
+      "first_seen_id": "22"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Thompson",
+      "alternative_titles": {
+        "Thompson v. Masson": "69",
+        "Thomson": "74"
+      },
+      "citations": {
+        "[1993] R.J.Q. 69": "220"
+      },
+      "fragments_mentioned": {
+        "72": "222"
+      },
+      "authors": {},
+      "first_seen_id": "69"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "docid": "A New Judicial Culture",
+      "alternative_titles": {
+        "A New Judicial Culture": "244"
+      },
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {
+        "Civil Procedure Review Committee": "85"
+      },
+      "first_seen_id": "85"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Comité de l’environnement de la Baie Inc",
+      "alternative_titles": {
+        "Comité\nde l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan\nltée": "90"
+      },
+      "citations": {
+        "[1990] R.J.Q. 655 (C.A.)": "251"
+      },
+      "fragments_mentioned": {
+        "660 - 661": "253"
+      },
+      "authors": {},
+      "first_seen_id": "90"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "New York Life QCCA 2003",
+      "alternative_titles": {
+        "New York Life v. Vaughan": "113"
+      },
+      "citations": {
+        "[2003] J.Q. 89 (C.A.)": "272"
+      },
+      "fragments_mentioned": {
+        "para. 4-12": "276"
+      },
+      "authors": {},
+      "first_seen_id": "113"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Lyons",
+      "alternative_titles": {
+        "R. v. Lyons": "127"
+      },
+      "citations": {
+        "[1987] 2 S.C.R. 309": "283"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "127"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Crane Canada Inc.",
+      "alternative_titles": {
+        "Crane Canada Inc. v. Sécurité nationale,\ncompagnie d’assurances and Attorney General of Quebec": "129"
+      },
+      "citations": {
+        "[2004] J.Q. 13746 (Que. C.A.)": "294"
+      },
+      "fragments_mentioned": {
+        "para. 16-19": "296"
+      },
+      "authors": {},
+      "first_seen_id": "129"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "docid": "Droit Constitutionnel",
+      "alternative_titles": {
+        "Droit Constitutionnel,": "278"
+      },
+      "citations": {},
+      "fragments_mentioned": {
+        "1080-1081": "278"
+      },
+      "authors": {
+        "Professors\nBrun and Tremblay": "139",
+        "Henri Brun &amp; Guy Tremblay": "278"
+      },
+      "first_seen_id": "139"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "Regulation respecting manufacturers and wholesalers",
+      "alternative_titles": {
+        "regulation": "169",
+        "Regulation": "173",
+        "Regulation respecting the conditions on which manufacturers and wholesalers\nof medications shall be recognized,": "298"
+      },
+      "citations": {
+        "c. A-29.01, r.1.1": "298"
+      },
+      "fragments_mentioned": {
+        "Schedules I": "298",
+        "II": "298",
+        "Schedule I, s.1(4), para.2": "303"
+      },
+      "authors": {},
+      "first_seen_id": "169"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "Act respecting the class action",
+      "alternative_titles": {
+        "Act respecting the class action": "175"
+      },
+      "citations": {
+        "R.S.Q., c. R-2.1": "310"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "175"
+    },
+    {
+      "doc_type": "unable to classify",
+      "jurisdiction": null,
+      "docid": "primes illégales pharmaciens",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "189"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "CCP 1866",
+      "alternative_titles": {
+        "Code of Civil Procedure of Lower Canada": "192"
+      },
+      "citations": {
+        "1866": "192"
+      },
+      "fragments_mentioned": {
+        "Art. 80": "192",
+        "Art. 81a": "196",
+        "Art. 81b": "202"
+      },
+      "authors": {},
+      "first_seen_id": "192"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "An Act to Amend CCP 1960",
+      "alternative_titles": {},
+      "citations": {
+        "1959-60, 8-9\nElizabeth II c.99": "199",
+        "1959-60,\n8-9 Elizabeth II c.99": "205"
+      },
+      "fragments_mentioned": {
+        "a.6": "199"
+      },
+      "authors": {},
+      "first_seen_id": "199"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Comité de citoyens et d’action municipale de St-Césaire",
+      "alternative_titles": {
+        "Comité de citoyens et d’action\nmunicipale de St-Césaire v. St-Césaire": "214"
+      },
+      "citations": {
+        "[1986] R.J.Q. 101 (C.A.)": "214"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "214"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Société Asbestos Limitée",
+      "alternative_titles": {
+        "Société Asbestos Limitée v. Lacroix": "226"
+      },
+      "citations": {
+        "[2004] J.Q. no. 9410 (C.A.)": "226"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "226"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Dumas",
+      "alternative_titles": {
+        "Dumas v. Mutuelle des fonctionnaires du Québec\n(MFQ-Vie) et la Capitale": "229"
+      },
+      "citations": {
+        "[2002] J.Q. 692 (C.A.)": "229"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "229"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Les Tours Mirabelle Inc.",
+      "alternative_titles": {
+        "Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault": "232"
+      },
+      "citations": {
+        "(18\nOctober 1993), Montréal, 500-09-001756-931, (Que. C.A.)": "232"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "232"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Ville de Sainte-Anne-de-Beaupré",
+      "alternative_titles": {
+        "Ville de\nSainte-Anne-de-Beaupré v. Hamel": "235"
+      },
+      "citations": {
+        "[2003] J.Q. 11308": "235"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "235"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Toyota Canada Inc.",
+      "alternative_titles": {
+        "Toyota Canada\nInc. v. Harmegnie": "238"
+      },
+      "citations": {
+        "[2004] J.Q. 2901": "238"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "238"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Hotte",
+      "alternative_titles": {
+        "Hotte v. Servier Canada Inc.": "241"
+      },
+      "citations": {
+        "[1999] R.J.Q. 2598": "241"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "241"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Comité Régional des Usagers des transports en commun de Québec",
+      "alternative_titles": {
+        "Comité Régional des Usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec": "248",
+        "Comité régional des usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec": "259"
+      },
+      "citations": {
+        "[1981] 1 S.C.R. 424": "248"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "248"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "An Act to Amend CCP 1983",
+      "alternative_titles": {},
+      "citations": {
+        "S.Q., 1983 c. 28": "255"
+      },
+      "fragments_mentioned": {
+        "a.34": "255"
+      },
+      "authors": {},
+      "first_seen_id": "255"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Guimond",
+      "alternative_titles": {
+        "Guimond v. Québec (Attorney General)": "261"
+      },
+      "citations": {
+        "[1996] 3 S.C.R. 347": "261"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "261"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "New York Life SCC 2002",
+      "alternative_titles": {},
+      "citations": {
+        "[2002] C.S.C.R. no.\n470": "274"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "274"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Charelli",
+      "alternative_titles": {
+        "Charelli v. Canada (Minister of Employment and\nImmigration)": "285"
+      },
+      "citations": {
+        "[1992] 1 S.C.R. 711": "285"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "285"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Ruby",
+      "alternative_titles": {
+        "Ruby\nv. Canada\n(Attorney General": "288"
+      },
+      "citations": {
+        "[2002] 4 S.C.R. 3": "288"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "288"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "docid": "Dynar",
+      "alternative_titles": {
+        "United\nStates of America v. Dynar": "291"
+      },
+      "citations": {
+        "[1997] 2 S.C.R. 462": "291"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "291"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "docid": "List of medications",
+      "alternative_titles": {
+        "List of medications covered by the basic prescription drug insurance plan": "305"
+      },
+      "citations": {
+        "D-2003-007, 1 June 2003, G.O.Q.\n2003.II.1699A": "305"
+      },
+      "fragments_mentioned": {
+        "1704A": "308"
+      },
+      "authors": {},
+      "first_seen_id": "305"
+    }
+  ]
+}
