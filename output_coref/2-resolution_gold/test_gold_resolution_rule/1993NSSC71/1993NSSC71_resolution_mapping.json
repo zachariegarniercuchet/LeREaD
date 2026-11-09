@@ -1,0 +1,540 @@
+{
+  "Planning Act": {
+    "uri": "https://canlii.ca/t/jpvq",
+    "score": 3.5,
+    "candidate_id": "l23079!23079-51702-0",
+    "candidate_title": "Planning Act",
+    "query_text": "legislation | Planning Act | <b>Planning Act</b> | R.S.N.S. 1989, c.346 | R.S.N.S. 1989, c. 346 | R.S.N.S.\n1989, c. 346",
+    "method": "citation_exact",
+    "matched_key": "rsns1989c346",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jpvq",
+        "score": 3.5,
+        "candidate_title": "Planning Act"
+      }
+    ]
+  },
+  "Environmental Protection Act": {
+    "uri": "https://canlii.ca/t/8d2l",
+    "score": 2.0,
+    "candidate_id": "l26878!26878-current-1",
+    "candidate_title": "Environmental Protection Act",
+    "query_text": "legislation | Environmental Protection Act | Environmental\nProtection Act",
+    "method": "title_exact",
+    "matched_key": "environmental protection act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/8d2l",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection Act"
+      }
+    ]
+  },
+  "Order in council 1992": {
+    "uri": "https://synthetic.leread.ca/gold/G0369",
+    "score": 2.0,
+    "candidate_id": "gold-G0369",
+    "candidate_title": "order in council",
+    "query_text": "legislation | order in council",
+    "method": "title_exact",
+    "matched_key": "order in council",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0369",
+        "score": 2.0,
+        "candidate_title": "order in council"
+      }
+    ]
+  },
+  "Civil Procedure Rules": {
+    "uri": "https://canlii.ca/t/56nxx",
+    "score": 2.0,
+    "candidate_id": "l36995!36995-current-1",
+    "candidate_title": "Nova Scotia Civil Procedure Rules",
+    "query_text": "legislation | Civil Procedure Rule | Civil Procedure\nRules | Rules | Civil Procedure Rules | Civil\nProcedure Rules",
+    "method": "title_exact",
+    "matched_key": "civil procedure rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 2.0,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0430",
+        "score": 2.0,
+        "candidate_title": "Rules of Practice and Procedure"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0431",
+        "score": 2.0,
+        "candidate_title": "Rules of Procedure"
+      }
+    ]
+  },
+  "Trainor": {
+    "uri": "https://canlii.ca/t/gbtwt",
+    "score": 3.0,
+    "candidate_id": "1990pesctd19871000019",
+    "candidate_title": "Trainor v. Trainor",
+    "query_text": "decision | <b>Trainor v Trainor </b>(1990) | 87 Nfld. &amp;\nP.E.I.R. 37",
+    "method": "citation_exact",
+    "matched_key": "87nfldpeir37",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbtwt",
+        "score": 3.0,
+        "candidate_title": "Trainor v. Trainor"
+      }
+    ]
+  },
+  "Rules of Court": {
+    "uri": "https://synthetic.leread.ca/gold/G0428",
+    "score": 3.5,
+    "candidate_id": "gold-G0428",
+    "candidate_title": "old Rules of Court",
+    "query_text": "legislation | old <b>Rules of Court</b> | Order 38",
+    "method": "citation_exact",
+    "matched_key": "order38",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0428",
+        "score": 3.5,
+        "candidate_title": "old Rules of Court"
+      }
+    ]
+  },
+  "English Rule": {
+    "uri": "https://synthetic.leread.ca/gold/G0198",
+    "score": 3.5,
+    "candidate_id": "gold-G0198",
+    "candidate_title": "current English Rule",
+    "query_text": "legislation | current English Rule | Order 45",
+    "method": "citation_exact",
+    "matched_key": "order45",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0198",
+        "score": 3.5,
+        "candidate_title": "current English Rule"
+      }
+    ]
+  },
+  "Civil Procedure Guide": {
+    "uri": "https://synthetic.leread.ca/gold/G0142",
+    "score": 2.0,
+    "candidate_id": "gold-G0142",
+    "candidate_title": "Civil Procedure Guide",
+    "query_text": "secondary sources | Civil Procedure Guide | Stevenson and Cote",
+    "method": "title_exact",
+    "matched_key": "civil procedure guide",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0142",
+        "score": 2.0,
+        "candidate_title": "Civil Procedure Guide"
+      }
+    ]
+  },
+  "Savings and Investment Bank": {
+    "uri": "https://synthetic.leread.ca/gold/G0439",
+    "score": 3.5,
+    "candidate_id": "gold-G0439",
+    "candidate_title": "Savings and Investment Bank Ltd. v Gasco et al.",
+    "query_text": "decision | Savings and Investment\nBank Ltd. v Gasco et al. | (1984] 1 All E.R. 296 (Ch. D.)",
+    "method": "citation_exact",
+    "matched_key": "19841aller296chd",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0439",
+        "score": 3.5,
+        "candidate_title": "Savings and Investment Bank Ltd. v Gasco et al."
+      }
+    ]
+  },
+  "Weldon": {
+    "uri": "https://canlii.ca/t/g9g3w",
+    "score": 0.9438202247191011,
+    "candidate_id": "1989nsscad1000169",
+    "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co.",
+    "query_text": "decision | <b>Weldon v Kavanagh and Formac\nPublishing Co. </b>(1989) | 94 N.S.R. (2d) 181 (N.S.C.A.)",
+    "method": "fuzzy",
+    "matched_key": "weldon v kavanagh and formac publishing co 1989",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9g3w",
+        "score": 0.9438202247191011,
+        "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co."
+      }
+    ]
+  },
+  "The Law of Civil Procedure": {
+    "uri": "https://synthetic.leread.ca/gold/G0473",
+    "score": 2.0,
+    "candidate_id": "gold-G0473",
+    "candidate_title": "The Law of Civil Procedure",
+    "query_text": "secondary sources | The Law of Civil Procedure | Williston and Rolls",
+    "method": "title_exact",
+    "matched_key": "the law of civil procedure",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0473",
+        "score": 2.0,
+        "candidate_title": "The Law of Civil Procedure"
+      }
+    ]
+  },
+  "Lawrence Square": {
+    "uri": "https://synthetic.leread.ca/gold/G0299",
+    "score": 3.5,
+    "candidate_id": "gold-G0299",
+    "candidate_title": "Lawrence Square Ltd. v Pape at al. (1978)",
+    "query_text": "decision | <b>Lawrence Square Ltd. v Pape at al. </b>(1978) | 6 C.P.C. 51 (Ont. H.C.)",
+    "method": "citation_exact",
+    "matched_key": "6cpc51onthc",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0299",
+        "score": 3.5,
+        "candidate_title": "Lawrence Square Ltd. v Pape at al. (1978)"
+      }
+    ]
+  },
+  "Indust. Accept. Corpn.": {
+    "uri": "https://synthetic.leread.ca/gold/G0256",
+    "score": 3.5,
+    "candidate_id": "gold-G0256",
+    "candidate_title": "Re Indust. Accept. Corpn. and Commissioner of Excise",
+    "query_text": "decision | Re <b>Indust. Accept. Corpn. and Commissioner of Excise</b> | [1936] O.W.N.\n493",
+    "method": "citation_exact",
+    "matched_key": "1936own493",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0256",
+        "score": 3.5,
+        "candidate_title": "Re Indust. Accept. Corpn. and Commissioner of Excise"
+      }
+    ]
+  },
+  "Russell": {
+    "uri": "https://synthetic.leread.ca/gold/G0435",
+    "score": 3.5,
+    "candidate_id": "gold-G0435",
+    "candidate_title": "Russell v. Niagara, St. Catharines & Toronto Ry.",
+    "query_text": "decision | Russell v. Niagara, St. Catharines &amp; Toronto Ry. | [1945] O.W.N.\n347",
+    "method": "citation_exact",
+    "matched_key": "1945own347",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0435",
+        "score": 3.5,
+        "candidate_title": "Russell v. Niagara, St. Catharines & Toronto Ry."
+      }
+    ]
+  },
+  "Inducon Construction": {
+    "uri": "https://canlii.ca/t/g1f23",
+    "score": 3.0,
+    "candidate_id": "1966onhcj1000032",
+    "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere",
+    "query_text": "decision | <b>Inducon Coast. (Eastern) Ltd. v. Vaupere</b> | [1967] 1 O.R. 245",
+    "method": "citation_exact",
+    "matched_key": "19671or245",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1f23",
+        "score": 3.0,
+        "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere"
+      }
+    ]
+  },
+  "Air Canada": {
+    "uri": "https://canlii.ca/t/gwh22",
+    "score": 3.0,
+    "candidate_id": "1976fcttd1000011",
+    "candidate_title": "Air Canada et al. v. Maley et al.",
+    "query_text": "decision | <b>Air Canada at al. v Maley at al. </b>(1976) | 69\nD.L.R. (3d) 180",
+    "method": "citation_exact",
+    "matched_key": "69dlr3d180",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwh22",
+        "score": 3.0,
+        "candidate_title": "Air Canada et al. v. Maley et al."
+      }
+    ]
+  },
+  "Guptill": {
+    "uri": "https://canlii.ca/t/gccjw",
+    "score": 3.0,
+    "candidate_id": "1987nsscad1000023",
+    "candidate_title": "Guptill v. Guptill",
+    "query_text": "decision | <b>Guptill\nv Guptill </b>(1987) | 82 N.S.R. (2d) 390",
+    "method": "citation_exact",
+    "matched_key": "82nsr2d390",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gccjw",
+        "score": 3.0,
+        "candidate_title": "Guptill v. Guptill"
+      }
+    ]
+  },
+  "Gordon": {
+    "uri": "https://canlii.ca/t/g9bbl",
+    "score": 3.0,
+    "candidate_id": "1983nsscad1000007",
+    "candidate_title": "Gordon v. Nova Scotia Teachers' Union",
+    "query_text": "decision | <b>Gordon, Dixon, Baillie and Munroe v Nova Scotia\nTeachers' Union </b>(1983) | 59 N.S.R. (2d) 124",
+    "method": "citation_exact",
+    "matched_key": "59nsr2d124",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9bbl",
+        "score": 3.0,
+        "candidate_title": "Gordon v. Nova Scotia Teachers' Union"
+      }
+    ]
+  },
+  "Thornhill": {
+    "uri": "https://canlii.ca/t/jskv4",
+    "score": 3.0,
+    "candidate_id": "1981nssctd1000071",
+    "candidate_title": "Thornhill v. Dartmouth Broadcasting Limited and Patterson",
+    "query_text": "decision | <b>Thornhill v Dartmouth Broadcasting\nLtd. et al. </b>(1981) | Thornhill | 45 N.S.R. (2d) 111",
+    "method": "citation_exact",
+    "matched_key": "45nsr2d111",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jskv4",
+        "score": 3.0,
+        "candidate_title": "Thornhill v. Dartmouth Broadcasting Limited and Patterson"
+      }
+    ]
+  },
+  "Interpretation Act": {
+    "uri": "https://synthetic.leread.ca/gold/G0260",
+    "score": 3.5,
+    "candidate_id": "gold-G0260",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | R.S.N.S. 1967, c. 151",
+    "method": "citation_exact",
+    "matched_key": "rsns1967c151",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0260",
+        "score": 3.5,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Proceedings against the Crown Act": {
+    "uri": "https://synthetic.leread.ca/gold/G0393",
+    "score": 3.5,
+    "candidate_id": "gold-G0393",
+    "candidate_title": "Proceedings against the Crown Act",
+    "query_text": "legislation | Proceedings against the Crown Act | R.S.N.S.\n1967, c. 239",
+    "method": "citation_exact",
+    "matched_key": "rsns1967c239",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0393",
+        "score": 3.5,
+        "candidate_title": "Proceedings against the Crown Act"
+      }
+    ]
+  },
+  "Crombie": {
+    "uri": "https://canlii.ca/t/gw7w0",
+    "score": 3.0,
+    "candidate_id": "1922onscad1000025",
+    "candidate_title": "Crombie v. The King",
+    "query_text": "decision | <b>Crombie\nv The King </b>(1922) | 52 O.L.R. 72",
+    "method": "citation_exact",
+    "matched_key": "52olr72",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw7w0",
+        "score": 3.0,
+        "candidate_title": "Crombie v. The King"
+      }
+    ]
+  },
+  "Ind Coope": {
+    "uri": "https://synthetic.leread.ca/gold/G0255",
+    "score": 3.5,
+    "candidate_id": "gold-G0255",
+    "candidate_title": "Ind Coope & Co. v. Emmerson (1887)",
+    "query_text": "decision | <b>Ind\nCoope &amp; Co. v. Emmerson</b> (1887) | 12 App. Cas. 300",
+    "method": "citation_exact",
+    "matched_key": "12appcas300",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0255",
+        "score": 3.5,
+        "candidate_title": "Ind Coope & Co. v. Emmerson (1887)"
+      }
+    ]
+  },
+  "La Societe Les Affreteurs Reunis": {
+    "uri": "https://synthetic.leread.ca/gold/G0292",
+    "score": 3.5,
+    "candidate_id": "gold-G0292",
+    "candidate_title": "re La Societe Les Affreteurs Reunis and The Shipping Controller",
+    "query_text": "decision | re La Societe Les Affreteurs Reunis and\nThe Shipping Controller | (1921] 3 K.B. 1",
+    "method": "citation_exact",
+    "matched_key": "19213kb1",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0292",
+        "score": 3.5,
+        "candidate_title": "re La Societe Les Affreteurs Reunis and The Shipping Controller"
+      }
+    ]
+  },
+  "Tobin": {
+    "uri": "https://synthetic.leread.ca/gold/G0494",
+    "score": 3.7,
+    "candidate_id": "gold-G0494",
+    "candidate_title": "Tobin v. The Queen (1863)",
+    "query_text": "decision | <b>Tobin v. The Queen </b>(1863) | 32 L.J.C.P. 216 | 14 C.B.N.S. 505",
+    "method": "citation_exact",
+    "matched_key": "14cbns505",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0494",
+        "score": 3.7,
+        "candidate_title": "Tobin v. The Queen (1863)"
+      }
+    ]
+  },
+  "Maritime Bank": {
+    "uri": "https://synthetic.leread.ca/gold/G0325",
+    "score": 3.5,
+    "candidate_id": "gold-G0325",
+    "candidate_title": "Maritime Bank v. The Queen (1889)",
+    "query_text": "decision | <b>Maritime Bank\nv. The Queen </b>(1889) | 17 Can. S.C.R. 657",
+    "method": "citation_exact",
+    "matched_key": "17canscr657",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0325",
+        "score": 3.5,
+        "candidate_title": "Maritime Bank v. The Queen (1889)"
+      }
+    ]
+  },
+  "Newcastle": {
+    "uri": "https://synthetic.leread.ca/gold/G0350",
+    "score": 3.5,
+    "candidate_id": "gold-G0350",
+    "candidate_title": "Attorney‑General v. Newcastle‑upon‑Tyne Corporation",
+    "query_text": "decision | Attorney‑General v. Newcastle‑upon‑Tyne\nCorporation | (1897] 2 Q.B. 384",
+    "method": "citation_exact",
+    "matched_key": "18972qb384",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0350",
+        "score": 3.5,
+        "candidate_title": "Attorney‑General v. Newcastle‑upon‑Tyne Corporation"
+      }
+    ]
+  },
+  "Thomas": {
+    "uri": "https://synthetic.leread.ca/gold/G0493",
+    "score": 3.5,
+    "candidate_id": "gold-G0493",
+    "candidate_title": "Thomas v. The Queen (1874)",
+    "query_text": "decision | <b>Thomas v. The Queen </b>(1874) | L.R.\n10 Q.B. 44",
+    "method": "citation_exact",
+    "matched_key": "lr10qb44",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0493",
+        "score": 3.5,
+        "candidate_title": "Thomas v. The Queen (1874)"
+      }
+    ]
+  },
+  "Theberge": {
+    "uri": "https://synthetic.leread.ca/gold/G0491",
+    "score": 3.5,
+    "candidate_id": "gold-G0491",
+    "candidate_title": "Theberge v Laudry (1876)",
+    "query_text": "decision | <b>Theberge v Laudry </b>(1876) | 2 App. Cas. 102",
+    "method": "citation_exact",
+    "matched_key": "2appcas102",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0491",
+        "score": 3.5,
+        "candidate_title": "Theberge v Laudry (1876)"
+      }
+    ]
+  },
+  "Longo": {
+    "uri": "https://synthetic.leread.ca/gold/G0316",
+    "score": 3.5,
+    "candidate_id": "gold-G0316",
+    "candidate_title": "Longo v The Queen",
+    "query_text": "decision | Longo v The Queen | [1959] O.W.N. 19 (Ont., C.A.)",
+    "method": "citation_exact",
+    "matched_key": "1959own19ontca",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0316",
+        "score": 3.5,
+        "candidate_title": "Longo v The Queen"
+      }
+    ]
+  },
+  "Canada Deposit Insurance Corporation": {
+    "uri": "https://canlii.ca/t/2dm6j",
+    "score": 3.0,
+    "candidate_id": "1988abca36",
+    "candidate_title": "Canada Deposit Insurance Corporation v. Code",
+    "query_text": "decision | <b>Re Associated Investors of Canada Ltd. </b>(1988) | 57 Alta. L.R. (2d) 289",
+    "method": "citation_exact",
+    "matched_key": "57altalr2d289",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dm6j",
+        "score": 3.0,
+        "candidate_title": "Canada Deposit Insurance Corporation v. Code"
+      }
+    ]
+  },
+  "Mulroney": {
+    "uri": "https://canlii.ca/t/g1dm9",
+    "score": 0.9178082191780822,
+    "candidate_id": "1986onhcj1000108",
+    "candidate_title": "Re Mulroney et al. and Coates et al. Re Southam et al. and Mulroney et al.",
+    "query_text": "decision | <b>Re Mulroney at al. and Coates at al.;\n</b><b></b><b>Re Southham et al. and Mulroney at al</b><b>. </b>(1986) | 54 O.R. (2d) 353 (Ont. C.A.)",
+    "method": "fuzzy",
+    "matched_key": "re mulroney at al and coates at al re southham et al and mulroney at al 1986",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1dm9",
+        "score": 0.9178082191780822,
+        "candidate_title": "Re Mulroney et al. and Coates et al. Re Southam et al. and Mulroney et al."
+      }
+    ]
+  },
+  "Smallwood": {
+    "uri": "https://canlii.ca/t/1z1dd",
+    "score": 3.5,
+    "candidate_id": "1982csc-scc10189",
+    "candidate_title": "Smallwood v. Sparling",
+    "query_text": "decision | Smallwood v Sparling | (1982] 2 S.C.R.\n686",
+    "method": "citation_exact",
+    "matched_key": "19822scr686",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z1dd",
+        "score": 3.5,
+        "candidate_title": "Smallwood v. Sparling"
+      }
+    ]
+  }
+}

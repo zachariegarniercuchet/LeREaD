@@ -20,7 +20,10 @@ torch lazily on first use.
 """
 from .dataset import (
     AIO_LABELS,
+    DEC_ALL_LABELS,
+    DEC_PASS_CONFIGS,
     TRAIN_SET_CONDITIONS,
+    build_dec_training_examples,
     build_extraction_examples,
     get_or_build_dataset,
     load_system_prompt,
@@ -38,7 +41,10 @@ _LAZY = {
 
 __all__ = [
     "AIO_LABELS",
+    "DEC_ALL_LABELS",
+    "DEC_PASS_CONFIGS",
     "TRAIN_SET_CONDITIONS",
+    "build_dec_training_examples",
     "build_extraction_examples",
     "get_or_build_dataset",
     "load_system_prompt",

@@ -1,0 +1,82 @@
+{
+  "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited": {
+    "uri": "https://synthetic.leread.ca/gold/G0217",
+    "score": 3.5,
+    "candidate_id": "gold-G0217",
+    "candidate_title": "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited",
+    "query_text": "decision | <i>Local 1079A\nConstruction and General Labourers Union v. Fuller Construction Limited</i> | Fuller Construction | (1979) P.E.I.L.R.B.",
+    "method": "citation_exact",
+    "matched_key": "1979peilrb",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0217",
+        "score": 3.5,
+        "candidate_title": "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited"
+      }
+    ]
+  },
+  "LRB 1622C": {
+    "uri": "https://canlii.ca/t/j69w3",
+    "score": 0.8854166666666666,
+    "candidate_id": "1995nslrb1000000",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited",
+    "query_text": "decision | LRB 1622C United Brotherhood of Carpenters and\nJoiners of America, Local 83 and Quinpool Properties Ltd",
+    "method": "fuzzy",
+    "matched_key": "lrb 1622c united brotherhood of carpenters and joiners of america local 83 and quinpool properties ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.8854166666666666,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      }
+    ]
+  },
+  "United Brotherhood of Carpenters & Joiners of America, Local 1988 v. Tops Marina Motor Hotel": {
+    "uri": "https://synthetic.leread.ca/gold/G0324",
+    "score": 2.0,
+    "candidate_id": "gold-G0324",
+    "candidate_title": "Marina Motor Hotel",
+    "query_text": "decision | United Brotherhood of Carpenters &amp; Joiners of America, Local 1988\nv. Tops Marina Motor Hotel",
+    "method": "title_exact",
+    "matched_key": "united brotherhood of carpenters joiners of america local 1988 v tops marina motor hotel",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0324",
+        "score": 2.0,
+        "candidate_title": "Marina Motor Hotel"
+      }
+    ]
+  },
+  "Sheet Metal Workers’ International Association, Local 562 v. Ridsdale Steel Fabricators Inc.": {
+    "uri": "https://canlii.ca/t/281xt",
+    "score": 2.0,
+    "candidate_id": "1987onlrb1000202",
+    "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc.",
+    "query_text": "decision | <i>Sheet Metal Workers’ International\nAssociation, Local 562 v. Ridsdale Steel Fabricators Inc.</i> | [1987] OLRB Rep.\nApril 601 at 604",
+    "method": "title_exact",
+    "matched_key": "sheet metal workers international association local 562 v ridsdale steel fabricators inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/281xt",
+        "score": 2.0,
+        "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc."
+      }
+    ]
+  },
+  "Administrative Law in Canada": {
+    "uri": "https://synthetic.leread.ca/gold/G0051",
+    "score": 2.0,
+    "candidate_id": "gold-G0051",
+    "candidate_title": "Administrative Law in Canada",
+    "query_text": "secondary sources | Administrative Law in Canada",
+    "method": "title_exact",
+    "matched_key": "administrative law in canada",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0051",
+        "score": 2.0,
+        "candidate_title": "Administrative Law in Canada"
+      }
+    ]
+  }
+}

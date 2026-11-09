@@ -1,0 +1,380 @@
+{
+  "CCP 1965": {
+    "uri": "https://canlii.ca/t/6fqkd",
+    "score": 2.0,
+    "candidate_id": "l38186!38186-current-1",
+    "candidate_title": "Code de procédure civile",
+    "query_text": "legislation | C.C.P. | <span lang=\"EN-CA\">C.C.P</span><span lang=\"EN-CA\">.</span> | C.C.P | <span lang=\"EN-CA\">C.C.P</span><span lang=\"EN-CA\">.</span><span lang=\"EN-CA\"> </span> | <span lang=\"EN-CA\"> C.C.P</span><span lang=\"EN-CA\">.</span> | Code\nof Civil Procedure | Code of\nCivil Procedure | Code | <span lang=\"EN-CA\">C.C.P</span><span lang=\"EN-CA\">.</span><span lang=\"EN-CA\"></span><span lang=\"EN-CA\"></span><span lang=\"EN-CA\"> </span> | Code of Civil Procedure | Code of Civil\nProcedure | <i>Code of Civil\nProcedure</i> | Charter",
+    "method": "title_exact",
+    "matched_key": "code of civil procedure",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fqkd",
+        "score": 2.0,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 2.0,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 2.0,
+        "candidate_title": "Code of Civil Procedure"
+      }
+    ]
+  },
+  "Quebec Charter": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 3.5,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | <i>Charter of human rights and\nfreedoms</i> | <i>Charter of\nhuman rights and freedoms</i> | <span lang=\"EN-CA\">Charter</span> | Charter | Quebec Charter | R.S.Q., c. C-12",
+    "method": "citation_exact",
+    "matched_key": "rsqcc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 3.5,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      }
+    ]
+  },
+  "Thompson": {
+    "uri": "https://canlii.ca/t/1pf2l",
+    "score": 3.0,
+    "candidate_id": "1992qcca12623",
+    "candidate_title": "Thompson c. Masson",
+    "query_text": "decision | Thompson v. Masson | Thomson | [1993] R.J.Q. 69",
+    "method": "citation_exact",
+    "matched_key": "1993rjq69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pf2l",
+        "score": 3.0,
+        "candidate_title": "Thompson c. Masson"
+      }
+    ]
+  },
+  "A New Judicial Culture": {
+    "uri": "https://synthetic.leread.ca/gold/G0003",
+    "score": 2.0,
+    "candidate_id": "gold-G0003",
+    "candidate_title": "A New Judicial Culture",
+    "query_text": "secondary sources | A New Judicial Culture | Civil Procedure Review Committee",
+    "method": "title_exact",
+    "matched_key": "a new judicial culture",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0003",
+        "score": 2.0,
+        "candidate_title": "A New Judicial Culture"
+      }
+    ]
+  },
+  "Comité de l’environnement de la Baie Inc": {
+    "uri": "https://canlii.ca/t/1pj93",
+    "score": 0.9710982658959537,
+    "candidate_id": "1990qcca12989",
+    "candidate_title": "Comité d'environnement de la Baie inc. c. Société d'électrolyse et de chimie Alcan ltée",
+    "query_text": "decision | Comité\nde l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan\nltée | [1990] R.J.Q. 655 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "comite de l environnement de la baie inc v societe d electrolyse et de chimie alcan ltee",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pj93",
+        "score": 0.9710982658959537,
+        "candidate_title": "Comité d'environnement de la Baie inc. c. Société d'électrolyse et de chimie Alcan ltée"
+      }
+    ]
+  },
+  "Lyons": {
+    "uri": "https://canlii.ca/t/1ftlw",
+    "score": 3.5,
+    "candidate_id": "1987csc-scc56",
+    "candidate_title": "R. v. Lyons",
+    "query_text": "decision | R. v. Lyons | [1987] 2 S.C.R. 309",
+    "method": "citation_exact",
+    "matched_key": "19872scr309",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftlw",
+        "score": 3.5,
+        "candidate_title": "R. v. Lyons"
+      }
+    ]
+  },
+  "Droit Constitutionnel": {
+    "uri": "https://synthetic.leread.ca/gold/G0189",
+    "score": 2.0,
+    "candidate_id": "gold-G0189",
+    "candidate_title": "Droit Constitutionnel,",
+    "query_text": "secondary sources | <i>Droit Constitutionnel,</i> | <span lang=\"EN-CA\">Professors\nBrun and Tremblay</span> | Henri Brun &amp; Guy Tremblay",
+    "method": "title_exact",
+    "matched_key": "droit constitutionnel",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0189",
+        "score": 2.0,
+        "candidate_title": "Droit Constitutionnel,"
+      }
+    ]
+  },
+  "Regulation respecting manufacturers and wholesalers": {
+    "uri": "https://synthetic.leread.ca/gold/G0355",
+    "score": 2.0,
+    "candidate_id": "gold-G0355",
+    "candidate_title": "regulation",
+    "query_text": "legislation | regulation | Regulation | Regulation respecting the conditions on which manufacturers and wholesalers\nof medications shall be recognized, | c. A-29.01, r.1.1",
+    "method": "title_exact",
+    "matched_key": "regulation",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0355",
+        "score": 2.0,
+        "candidate_title": "regulation"
+      }
+    ]
+  },
+  "Act respecting the class action": {
+    "uri": "https://canlii.ca/t/55nzg",
+    "score": 3.0,
+    "candidate_id": "l5938!5938-current-1",
+    "candidate_title": "Act respecting the Fonds d'aide aux actions collectives",
+    "query_text": "legislation | <i>Act respecting the class action</i> | R.S.Q., c. R-2.1",
+    "method": "citation_exact",
+    "matched_key": "rsqcr21",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 3.0,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      }
+    ]
+  },
+  "CCP 1866": {
+    "uri": "https://synthetic.leread.ca/gold/G0133",
+    "score": 3.5,
+    "candidate_id": "gold-G0133",
+    "candidate_title": "Code of Civil Procedure of Lower Canada",
+    "query_text": "legislation | <i>Code of Civil Procedure of Lower Canada</i> | <span lang=\"EN-CA\"><i>Code of Civil Procedure of </i></span><i><span lang=\"EN-CA\">Lower Canada</span></i> | Code of Civil Procedure of Lower Canada | 1866",
+    "method": "citation_exact",
+    "matched_key": "1866",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0133",
+        "score": 3.5,
+        "candidate_title": "Code of Civil Procedure of Lower Canada"
+      }
+    ]
+  },
+  "An Act to Amend CCP 1960": {
+    "uri": "https://synthetic.leread.ca/gold/G0061",
+    "score": 3.0,
+    "candidate_id": "gold-G0061",
+    "candidate_title": "An Act to Amend CCP 1960",
+    "query_text": "legislation | 1959-60, 8-9\nElizabeth II c.99 | 1959-60,\n8-9 Elizabeth II c.99",
+    "method": "citation_exact",
+    "matched_key": "19596089elizabethiic99",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0061",
+        "score": 3.0,
+        "candidate_title": "An Act to Amend CCP 1960"
+      }
+    ]
+  },
+  "Comité de citoyens et d’action municipale de St-Césaire": {
+    "uri": "https://synthetic.leread.ca/gold/G0150",
+    "score": 3.5,
+    "candidate_id": "gold-G0150",
+    "candidate_title": "Comité de citoyens et d’action municipale de St-Césaire v. St-Césaire",
+    "query_text": "decision | Comité de citoyens et d’action\nmunicipale de St-Césaire v. St-Césaire | [1986] R.J.Q. 101 (C.A.)",
+    "method": "citation_exact",
+    "matched_key": "1986rjq101ca",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0150",
+        "score": 3.5,
+        "candidate_title": "Comité de citoyens et d’action municipale de St-Césaire v. St-Césaire"
+      }
+    ]
+  },
+  "Société Asbestos Limitée": {
+    "uri": "https://canlii.ca/t/gnv0d",
+    "score": 0.9705882352941176,
+    "candidate_id": "2004qcca1000654",
+    "candidate_title": "Société Asbestos limitée c. Lacroix",
+    "query_text": "decision | Société Asbestos Limitée v. Lacroix | [2004] J.Q. no. 9410 (C.A.)",
+    "method": "fuzzy",
+    "matched_key": "societe asbestos limitee v lacroix",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gnv0d",
+        "score": 0.9705882352941176,
+        "candidate_title": "Société Asbestos limitée c. Lacroix"
+      }
+    ]
+  },
+  "Les Tours Mirabelle Inc.": {
+    "uri": "https://synthetic.leread.ca/gold/G0306",
+    "score": 3.5,
+    "candidate_id": "gold-G0306",
+    "candidate_title": "Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault",
+    "query_text": "decision | Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault | (18\nOctober 1993), Montréal, 500-09-001756-931, (Que. C.A.)",
+    "method": "citation_exact",
+    "matched_key": "18october1993montreal50009001756931queca",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0306",
+        "score": 3.5,
+        "candidate_title": "Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault"
+      }
+    ]
+  },
+  "Hotte": {
+    "uri": "https://canlii.ca/t/1mvw6",
+    "score": 3.0,
+    "candidate_id": "1999qcca10908",
+    "candidate_title": "Hotte c. Servier Canada inc.",
+    "query_text": "decision | <i>Hotte v. Servier Canada Inc</i>. | [1999] R.J.Q. 2598",
+    "method": "citation_exact",
+    "matched_key": "1999rjq2598",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mvw6",
+        "score": 3.0,
+        "candidate_title": "Hotte c. Servier Canada inc."
+      }
+    ]
+  },
+  "Comité Régional des Usagers des transports en commun de Québec": {
+    "uri": "https://synthetic.leread.ca/gold/G0151",
+    "score": 3.5,
+    "candidate_id": "gold-G0151",
+    "candidate_title": "Comité Régional des Usagers des transports en commun de Québec v. Commission des transports de la Communauté urbaine de Québec",
+    "query_text": "decision | Comité Régional des Usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec | Comité régional des usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec | [1981] 1 S.C.R. 424",
+    "method": "citation_exact",
+    "matched_key": "19811scr424",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0151",
+        "score": 3.5,
+        "candidate_title": "Comité Régional des Usagers des transports en commun de Québec v. Commission des transports de la Communauté urbaine de Québec"
+      }
+    ]
+  },
+  "An Act to Amend CCP 1983": {
+    "uri": "https://synthetic.leread.ca/gold/G0062",
+    "score": 3.0,
+    "candidate_id": "gold-G0062",
+    "candidate_title": "An Act to Amend CCP 1983",
+    "query_text": "legislation | S.Q., 1983 c. 28",
+    "method": "citation_exact",
+    "matched_key": "sq1983c28",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0062",
+        "score": 3.0,
+        "candidate_title": "An Act to Amend CCP 1983"
+      }
+    ]
+  },
+  "Guimond": {
+    "uri": "https://canlii.ca/t/1fr7q",
+    "score": 3.5,
+    "candidate_id": "1996csc-scc89",
+    "candidate_title": "Guimond v. Quebec (Attorney General)",
+    "query_text": "decision | Guimond v. Québec (Attorney General) | <i>Guimond v. Québec (Attorney General</i>) | [1996] 3 S.C.R. 347",
+    "method": "citation_exact",
+    "matched_key": "19963scr347",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr7q",
+        "score": 3.5,
+        "candidate_title": "Guimond v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "New York Life SCC 2002": {
+    "uri": "https://synthetic.leread.ca/gold/G0348",
+    "score": 3.0,
+    "candidate_id": "gold-G0348",
+    "candidate_title": "New York Life SCC 2002",
+    "query_text": "decision | [2002] C.S.C.R. no.\n470",
+    "method": "citation_exact",
+    "matched_key": "2002cscrno470",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0348",
+        "score": 3.0,
+        "candidate_title": "New York Life SCC 2002"
+      }
+    ]
+  },
+  "Charelli": {
+    "uri": "https://canlii.ca/t/1fsf6",
+    "score": 3.0,
+    "candidate_id": "1992csc-scc25",
+    "candidate_title": "Canada (Minister of Employment and Immigration) v. Chiarelli",
+    "query_text": "decision | <span lang=\"EN-CA\"><i>Charelli v. </i></span><i><span lang=\"EN-CA\">Canada (Minister of Employment and\nImmigration)</span></i> | [1992] 1 S.C.R. 711",
+    "method": "citation_exact",
+    "matched_key": "19921scr711",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsf6",
+        "score": 3.0,
+        "candidate_title": "Canada (Minister of Employment and Immigration) v. Chiarelli"
+      }
+    ]
+  },
+  "Ruby": {
+    "uri": "https://canlii.ca/t/1k7",
+    "score": 3.0,
+    "candidate_id": "2002csc-scc75",
+    "candidate_title": "Ruby v. Canada (Solicitor General)",
+    "query_text": "decision | <span lang=\"EN-CA\"><i>Ruby\nv. </i></span><i><span lang=\"EN-CA\">Canada\n(Attorney General</span></i> | [2002] 4 S.C.R. 3",
+    "method": "citation_exact",
+    "matched_key": "20024scr3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k7",
+        "score": 3.0,
+        "candidate_title": "Ruby v. Canada (Solicitor General)"
+      }
+    ]
+  },
+  "Dynar": {
+    "uri": "https://canlii.ca/t/1fqdm",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc64",
+    "candidate_title": "États-Unis d'Amérique c. Dynar",
+    "query_text": "decision | United\nStates of America v. Dynar | [1997] 2 S.C.R. 462",
+    "method": "citation_exact",
+    "matched_key": "19972scr462",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqdm",
+        "score": 3.5,
+        "candidate_title": "États-Unis d'Amérique c. Dynar"
+      }
+    ]
+  },
+  "List of medications": {
+    "uri": "https://synthetic.leread.ca/gold/G0312",
+    "score": 3.5,
+    "candidate_id": "gold-G0312",
+    "candidate_title": "List of medications covered by the basic prescription drug insurance plan",
+    "query_text": "legislation | List of medications covered by the basic prescription drug insurance plan | D-2003-007, 1 June 2003, G.O.Q.\n2003.II.1699A",
+    "method": "citation_exact",
+    "matched_key": "d20030071june2003goq2003ii1699a",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0312",
+        "score": 3.5,
+        "candidate_title": "List of medications covered by the basic prescription drug insurance plan"
+      }
+    ]
+  }
+}

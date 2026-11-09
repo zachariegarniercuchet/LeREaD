@@ -1,0 +1,162 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/fqhtx",
+    "score": 3.0,
+    "candidate_id": "2012skca24",
+    "candidate_title": "Sasco Developments Ltd v Moose Jaw (City)",
+    "query_text": "decision | 2012 SKCA 24",
+    "method": "citation_exact",
+    "matched_key": "2012skca24",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqhtx",
+        "score": 3.0,
+        "candidate_title": "Sasco Developments Ltd v Moose Jaw (City)"
+      }
+    ]
+  },
+  "baseline_1": {
+    "uri": "https://canlii.ca/t/56bgk",
+    "score": 2.0,
+    "candidate_id": "l5162!5162-current-1",
+    "candidate_title": "Municipal Board Act",
+    "query_text": "legislation | Municipal Board Act | S.S. 1988-89, c. M",
+    "method": "title_exact",
+    "matched_key": "municipal board act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56bgk",
+        "score": 2.0,
+        "candidate_title": "Municipal Board Act"
+      }
+    ]
+  },
+  "baseline_2": {
+    "uri": "https://canlii.ca/t/56f73",
+    "score": 3.0,
+    "candidate_id": "l5009!5009-current-1",
+    "candidate_title": "The Cities Act",
+    "query_text": "legislation | Cities Act | I.  The Cities Act | 166 and 167\nof The Cities Act and | standard” and “mass appraisal” under The Cities Act to\npreclude determination of a | Cities\nAct | S.S. 2002, c. C-11.1",
+    "method": "citation_exact",
+    "matched_key": "ss2002cc111",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56f73",
+        "score": 3.0,
+        "candidate_title": "The Cities Act"
+      }
+    ]
+  },
+  "baseline_3": {
+    "uri": "https://canlii.ca/t/53886",
+    "score": 3.0,
+    "candidate_id": "l46226!46226-current-1",
+    "candidate_title": "The Cities Amendment Act, 2006",
+    "query_text": "legislation | Act | Act and | S.S.\n2006, c. 4",
+    "method": "citation_exact",
+    "matched_key": "ss2006c4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53886",
+        "score": 3.0,
+        "candidate_title": "The Cities Amendment Act, 2006"
+      }
+    ]
+  },
+  "baseline_4": {
+    "uri": "https://canlii.ca/t/1nqqv",
+    "score": 2.0,
+    "candidate_id": "1994skca10181",
+    "candidate_title": "Regina (City) v. Laing Property Corp.",
+    "query_text": "decision | Regina (City) v. Laing Property Corp. | [1995] 3\nW.W.R. 551 (Sask. C.A)",
+    "method": "title_exact",
+    "matched_key": "regina city v laing property corp",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nqqv",
+        "score": 2.0,
+        "candidate_title": "Regina (City) v. Laing Property Corp."
+      }
+    ]
+  },
+  "baseline_5": {
+    "uri": "https://canlii.ca/t/1l6w0",
+    "score": 3.0,
+    "candidate_id": "2000skca82",
+    "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)",
+    "query_text": "decision | Estevan Coal Corp. v. Estevan | 2000 SKCA 82",
+    "method": "citation_exact",
+    "matched_key": "2000skca82",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6w0",
+        "score": 3.0,
+        "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)"
+      }
+    ]
+  },
+  "baseline_10": {
+    "uri": "https://canlii.ca/t/1l5d5",
+    "score": 3.0,
+    "candidate_id": "2005abqb512",
+    "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)",
+    "query_text": "decision | 697604\nAlberta Ltd v. Calgary (City) | 2005 ABQB 512",
+    "method": "citation_exact",
+    "matched_key": "2005abqb512",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l5d5",
+        "score": 3.0,
+        "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)"
+      }
+    ]
+  },
+  "baseline_11": {
+    "uri": "https://canlii.ca/t/1jb31",
+    "score": 3.7,
+    "candidate_id": "2004abqb579",
+    "candidate_title": "Chateau Lake Louise Corporation v. Improvement District No. 9",
+    "query_text": "decision | Chateau Lake Louise\nCorp. v. Improvement District No. 9 | 2004 ABQB 579 | 366 A.R. 318",
+    "method": "citation_exact",
+    "matched_key": "2004abqb579",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1jb31",
+        "score": 3.7,
+        "candidate_title": "Chateau Lake Louise Corporation v. Improvement District No. 9"
+      }
+    ]
+  },
+  "baseline_13": {
+    "uri": "https://canlii.ca/t/5n0r",
+    "score": 3.7,
+    "candidate_id": "2000abqb594",
+    "candidate_title": "Mountain View (County of) v. Alberta (Municipal Government Board)",
+    "query_text": "decision | Mountain View (County)\nv. Alberta (Municipal Government Board) | 2000 ABQB 594 | [2001] 2 W.W.R.\n398",
+    "method": "citation_exact",
+    "matched_key": "2000abqb594",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5n0r",
+        "score": 3.7,
+        "candidate_title": "Mountain View (County of) v. Alberta (Municipal Government Board)"
+      }
+    ]
+  },
+  "baseline_14": {
+    "uri": "https://canlii.ca/t/2db7p",
+    "score": 3.0,
+    "candidate_id": "2010nsca87",
+    "candidate_title": "Nova Scotia (Assessment) v. van Driel",
+    "query_text": "decision | 2010 NSCA 87",
+    "method": "citation_exact",
+    "matched_key": "2010nsca87",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2db7p",
+        "score": 3.0,
+        "candidate_title": "Nova Scotia (Assessment) v. van Driel"
+      }
+    ]
+  }
+}

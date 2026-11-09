@@ -1,0 +1,274 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/jpvq",
+    "score": 3.5,
+    "candidate_id": "l23079!23079-51702-0",
+    "candidate_title": "Planning Act",
+    "query_text": "legislation | Planning Act R.S.N.S. | Planning Act | R.S.N.S. 1989, c. 346",
+    "method": "citation_exact",
+    "matched_key": "rsns1989c346",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jpvq",
+        "score": 3.5,
+        "candidate_title": "Planning Act"
+      }
+    ]
+  },
+  "baseline_1": {
+    "uri": "https://canlii.ca/t/8d2l",
+    "score": 2.0,
+    "candidate_id": "l26878!26878-current-1",
+    "candidate_title": "Environmental Protection Act",
+    "query_text": "legislation | Environmental\nProtection Act",
+    "method": "title_exact",
+    "matched_key": "environmental protection act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/8d2l",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection Act"
+      }
+    ]
+  },
+  "baseline_4": {
+    "uri": "https://synthetic.leread.ca/gold/G0439",
+    "score": 0.9285714285714286,
+    "candidate_id": "gold-G0439",
+    "candidate_title": "Savings and Investment Bank Ltd. v Gasco et al.",
+    "query_text": "decision | Savings and Investment\nBank Ltd. v Gasco",
+    "method": "fuzzy",
+    "matched_key": "savings and investment bank ltd v gasco",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0439",
+        "score": 0.9285714285714286,
+        "candidate_title": "Savings and Investment Bank Ltd. v Gasco et al."
+      }
+    ]
+  },
+  "baseline_5": {
+    "uri": "https://synthetic.leread.ca/gold/G0439",
+    "score": 3.0,
+    "candidate_id": "gold-G0439",
+    "candidate_title": "Savings and Investment Bank Ltd. v Gasco et al.",
+    "query_text": "decision | (1984] 1 All E.R. 296 (Ch. D.)",
+    "method": "citation_exact",
+    "matched_key": "19841aller296chd",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0439",
+        "score": 3.0,
+        "candidate_title": "Savings and Investment Bank Ltd. v Gasco et al."
+      }
+    ]
+  },
+  "baseline_6": {
+    "uri": "https://canlii.ca/t/g9g3w",
+    "score": 0.9438202247191011,
+    "candidate_id": "1989nsscad1000169",
+    "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co.",
+    "query_text": "decision | Weldon v Kavanagh and Formac\nPublishing Co. (1989)",
+    "method": "fuzzy",
+    "matched_key": "weldon v kavanagh and formac publishing co 1989",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9g3w",
+        "score": 0.9438202247191011,
+        "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co."
+      }
+    ]
+  },
+  "baseline_10": {
+    "uri": "https://canlii.ca/t/g1f23",
+    "score": 3.0,
+    "candidate_id": "1966onhcj1000032",
+    "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere",
+    "query_text": "decision | Inducon Coast. (Eastern) Ltd. v. Vaupere | [1967] 1 O.R. 245",
+    "method": "citation_exact",
+    "matched_key": "19671or245",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1f23",
+        "score": 3.0,
+        "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere"
+      }
+    ]
+  },
+  "baseline_14": {
+    "uri": "https://synthetic.leread.ca/gold/G0260",
+    "score": 3.5,
+    "candidate_id": "gold-G0260",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | R.S.N.S. 1967, c. 151",
+    "method": "citation_exact",
+    "matched_key": "rsns1967c151",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0260",
+        "score": 3.5,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "baseline_15": {
+    "uri": "https://synthetic.leread.ca/gold/G0393",
+    "score": 3.5,
+    "candidate_id": "gold-G0393",
+    "candidate_title": "Proceedings against the Crown Act",
+    "query_text": "legislation | Proceedings against the Crown Act | R.S.N.S.\n1967, c. 239",
+    "method": "citation_exact",
+    "matched_key": "rsns1967c239",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0393",
+        "score": 3.5,
+        "candidate_title": "Proceedings against the Crown Act"
+      }
+    ]
+  },
+  "baseline_19": {
+    "uri": "https://synthetic.leread.ca/gold/G0255",
+    "score": 2.0,
+    "candidate_id": "gold-G0255",
+    "candidate_title": "Ind Coope & Co. v. Emmerson (1887)",
+    "query_text": "decision | Ind\nCoope &amp; Co. v. Emmerson (1887)",
+    "method": "title_exact",
+    "matched_key": "ind coope co v emmerson 1887",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0255",
+        "score": 2.0,
+        "candidate_title": "Ind Coope & Co. v. Emmerson (1887)"
+      }
+    ]
+  },
+  "baseline_20": {
+    "uri": "https://synthetic.leread.ca/gold/G0292",
+    "score": 3.0,
+    "candidate_id": "gold-G0292",
+    "candidate_title": "re La Societe Les Affreteurs Reunis and The Shipping Controller",
+    "query_text": "decision | (1921] 3 K.B. 1",
+    "method": "citation_exact",
+    "matched_key": "19213kb1",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0292",
+        "score": 3.0,
+        "candidate_title": "re La Societe Les Affreteurs Reunis and The Shipping Controller"
+      }
+    ]
+  },
+  "baseline_21": {
+    "uri": "https://synthetic.leread.ca/gold/G0494",
+    "score": 2.0,
+    "candidate_id": "gold-G0494",
+    "candidate_title": "Tobin v. The Queen (1863)",
+    "query_text": "decision | Tobin v. The Queen (1863)",
+    "method": "title_exact",
+    "matched_key": "tobin v the queen 1863",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0494",
+        "score": 2.0,
+        "candidate_title": "Tobin v. The Queen (1863)"
+      }
+    ]
+  },
+  "baseline_22": {
+    "uri": "https://synthetic.leread.ca/gold/G0325",
+    "score": 2.0,
+    "candidate_id": "gold-G0325",
+    "candidate_title": "Maritime Bank v. The Queen (1889)",
+    "query_text": "decision | Maritime Bank\nv. The Queen (1889)",
+    "method": "title_exact",
+    "matched_key": "maritime bank v the queen 1889",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0325",
+        "score": 2.0,
+        "candidate_title": "Maritime Bank v. The Queen (1889)"
+      }
+    ]
+  },
+  "baseline_25": {
+    "uri": "https://synthetic.leread.ca/gold/G0350",
+    "score": 3.0,
+    "candidate_id": "gold-G0350",
+    "candidate_title": "Attorney‑General v. Newcastle‑upon‑Tyne Corporation",
+    "query_text": "decision | 11 Can. S.C.R. 1. The cases of Attorney‑General v. Newcastle‑upon‑Tyne\nCorporation | (1897] 2 Q.B. 384",
+    "method": "citation_exact",
+    "matched_key": "18972qb384",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0350",
+        "score": 3.0,
+        "candidate_title": "Attorney‑General v. Newcastle‑upon‑Tyne Corporation"
+      }
+    ]
+  },
+  "baseline_26": {
+    "uri": "https://synthetic.leread.ca/gold/G0493",
+    "score": 2.0,
+    "candidate_id": "gold-G0493",
+    "candidate_title": "Thomas v. The Queen (1874)",
+    "query_text": "decision | Thomas v. The Queen (1874) | L.R.\n10",
+    "method": "title_exact",
+    "matched_key": "thomas v the queen 1874",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0493",
+        "score": 2.0,
+        "candidate_title": "Thomas v. The Queen (1874)"
+      }
+    ]
+  },
+  "baseline_28": {
+    "uri": "https://synthetic.leread.ca/gold/G0491",
+    "score": 2.0,
+    "candidate_id": "gold-G0491",
+    "candidate_title": "Theberge v Laudry (1876)",
+    "query_text": "decision | Theberge v Laudry (1876)",
+    "method": "title_exact",
+    "matched_key": "theberge v laudry 1876",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0491",
+        "score": 2.0,
+        "candidate_title": "Theberge v Laudry (1876)"
+      }
+    ]
+  },
+  "baseline_29": {
+    "uri": "https://synthetic.leread.ca/gold/G0316",
+    "score": 2.0,
+    "candidate_id": "gold-G0316",
+    "candidate_title": "Longo v The Queen",
+    "query_text": "decision | Longo v The Queen",
+    "method": "title_exact",
+    "matched_key": "longo v the queen",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0316",
+        "score": 2.0,
+        "candidate_title": "Longo v The Queen"
+      }
+    ]
+  },
+  "baseline_31": {
+    "uri": "https://canlii.ca/t/1z1dd",
+    "score": 3.5,
+    "candidate_id": "1982csc-scc10189",
+    "candidate_title": "Smallwood v. Sparling",
+    "query_text": "decision | Smallwood v Sparling | (1982] 2 S.C.R.\n686",
+    "method": "citation_exact",
+    "matched_key": "19822scr686",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z1dd",
+        "score": 3.5,
+        "candidate_title": "Smallwood v. Sparling"
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/kbmxv",
+    "score": 2.0,
+    "candidate_id": "2025abkb246",
+    "candidate_title": "Durham Creek Energy Ltd v Chimera Management Group Ltd",
+    "query_text": "decision | Durham Creek Energy Ltd v Chimera Management Group Ltd",
+    "method": "title_exact",
+    "matched_key": "durham creek energy ltd v chimera management group ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kbmxv",
+        "score": 2.0,
+        "candidate_title": "Durham Creek Energy Ltd v Chimera Management Group Ltd"
+      }
+    ]
+  },
+  "baseline_3": {
+    "uri": "https://canlii.ca/t/td6h",
+    "score": 2.0,
+    "candidate_id": "d85995!d85995",
+    "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas",
+    "query_text": "secondary sources | The Legal Characterization of Overriding Royalty Interests in Oil and Gas | G.J. Davies",
+    "method": "title_exact",
+    "matched_key": "the legal characterization of overriding royalty interests in oil and gas",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 2.0,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      }
+    ]
+  },
+  "baseline_4": {
+    "uri": "https://canlii.ca/t/51tw",
+    "score": 3.5,
+    "candidate_id": "2002csc-scc7",
+    "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd.",
+    "query_text": "decision | Bank of Montreal v Dynex Petroleum Ltd | 2002 SCC 7",
+    "method": "citation_exact",
+    "matched_key": "2002scc7",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tw",
+        "score": 3.5,
+        "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd."
+      }
+    ]
+  },
+  "baseline_5": {
+    "uri": "https://canlii.ca/t/jtstb",
+    "score": 2.0,
+    "candidate_id": "2023abkb11",
+    "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd",
+    "query_text": "decision | PrairieSky Royalty Ltd v Yangarra Resources Ltd",
+    "method": "title_exact",
+    "matched_key": "prairiesky royalty ltd v yangarra resources ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 2.0,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      }
+    ]
+  },
+  "baseline_6": {
+    "uri": "https://canlii.ca/t/28n7r",
+    "score": 0.9315068493150684,
+    "candidate_id": "1989abqb1000047",
+    "candidate_title": "Vandergrift v. Coseka Resources Ltd.",
+    "query_text": "decision | Vandergrift v Coseka Resources Ltd, (1989)",
+    "method": "fuzzy",
+    "matched_key": "vandergrift v coseka resources ltd 1989",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28n7r",
+        "score": 0.9315068493150684,
+        "candidate_title": "Vandergrift v. Coseka Resources Ltd."
+      }
+    ]
+  },
+  "baseline_7": {
+    "uri": "https://canlii.ca/t/5s19",
+    "score": 3.5,
+    "candidate_id": "1999abca363",
+    "candidate_title": "Bank of Montreal v. Enchant Resources Ltd.",
+    "query_text": "decision | Bank of Montreal v Enchant Resources Ltd | 1999 ABCA 363",
+    "method": "citation_exact",
+    "matched_key": "1999abca363",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5s19",
+        "score": 3.5,
+        "candidate_title": "Bank of Montreal v. Enchant Resources Ltd."
+      }
+    ]
+  },
+  "baseline_8": {
+    "uri": "https://canlii.ca/t/t1wq",
+    "score": 2.0,
+    "candidate_id": "d76732!d76732",
+    "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land",
+    "query_text": "secondary sources | A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land | Joel Henderson",
+    "method": "title_exact",
+    "matched_key": "a tale of two interests reframing dynex to account for surrounding circumstances in determining whether a gross overriding royalty is an interest in land",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/t1wq",
+        "score": 2.0,
+        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+      }
+    ]
+  },
+  "baseline_9": {
+    "uri": "https://canlii.ca/t/2d9f",
+    "score": 2.0,
+    "candidate_id": "d5083!d5083",
+    "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry",
+    "query_text": "secondary sources | Modernizing the Property Laws that Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry | K. Quesnel",
+    "method": "title_exact",
+    "matched_key": "modernizing the property laws that bind us challenging traditional property law concepts unsuited to the realities of the oil and gas industry",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2d9f",
+        "score": 2.0,
+        "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry"
+      }
+    ]
+  },
+  "baseline_10": {
+    "uri": "https://canlii.ca/t/spvg",
+    "score": 2.0,
+    "candidate_id": "d67694!d67694",
+    "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty",
+    "query_text": "secondary sources | Let’s Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty | Brendan Downey",
+    "method": "title_exact",
+    "matched_key": "let s talk about royalties the continued uncertainty surrounding the creation and legal status of the overriding royalty",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/spvg",
+        "score": 2.0,
+        "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty"
+      }
+    ]
+  },
+  "baseline_11": {
+    "uri": "https://synthetic.leread.ca/gold/G0232",
+    "score": 2.0,
+    "candidate_id": "gold-G0232",
+    "candidate_title": "The Legal Status of a Gross Overriding Royalty Carved out of a Crown Lease",
+    "query_text": "secondary sources | The Legal Status of a Gross Overriding Royalty Carved out of a Crown Lease | Nigel Bankes",
+    "method": "title_exact",
+    "matched_key": "the legal status of a gross overriding royalty carved out of a crown lease",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0232",
+        "score": 2.0,
+        "candidate_title": "The Legal Status of a Gross Overriding Royalty Carved out of a Crown Lease"
+      }
+    ]
+  },
+  "baseline_12": {
+    "uri": "https://canlii.ca/t/hr0wb",
+    "score": 3.0,
+    "candidate_id": "2018onca253",
+    "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc.",
+    "query_text": "decision | Third Eye Capital Corporation v Dianor Resources Inc | 2018 ONCA 253",
+    "method": "citation_exact",
+    "matched_key": "2018onca253",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hr0wb",
+        "score": 3.0,
+        "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc."
+      }
+    ]
+  },
+  "baseline_13": {
+    "uri": "https://canlii.ca/t/g88q1",
+    "score": 3.0,
+    "candidate_id": "2014csc-scc53",
+    "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp.",
+    "query_text": "decision | Creston Moly Corp v Sattva Capital Corp | 2014 SCC 53",
+    "method": "citation_exact",
+    "matched_key": "2014scc53",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g88q1",
+        "score": 3.0,
+        "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp."
+      }
+    ]
+  },
+  "baseline_14": {
+    "uri": "https://canlii.ca/t/h438n",
+    "score": 3.0,
+    "candidate_id": "2017abca157",
+    "candidate_title": "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing",
+    "query_text": "decision | 47-49 and IFP Technologies (Canada) Inc v EnCana Midstream and Marketing | 2017 ABCA 157",
+    "method": "citation_exact",
+    "matched_key": "2017abca157",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h438n",
+        "score": 3.0,
+        "candidate_title": "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing"
+      }
+    ]
+  }
+}

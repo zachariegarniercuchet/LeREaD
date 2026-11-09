@@ -1,0 +1,6379 @@
+{
+  "generated": "2026-11-08T15:29:08",
+  "candidate_pool": "gold",
+  "merge_gap": 15,
+  "unmatched": "singleton",
+  "aggregate": {
+    "exact": {
+      "MUC": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "B3": {
+        "precision": 0.5912319112489687,
+        "recall": 0.09748771381181574,
+        "f1": 0.1547035160598086
+      },
+      "CEAF_e": {
+        "precision": 0.00043559333599598485,
+        "recall": 0.00034011529025994964,
+        "f1": 0.00036064363840478727
+      },
+      "LEA": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "CoNLL": {
+        "f1": 0.0516880532327378
+      }
+    },
+    "overlap": {
+      "MUC": {
+        "precision": 0.042880794640739996,
+        "recall": 0.01378628052682273,
+        "f1": 0.020220182768745515
+      },
+      "B3": {
+        "precision": 0.5956277452675253,
+        "recall": 0.09631424849077797,
+        "f1": 0.15345697197254254
+      },
+      "CEAF_e": {
+        "precision": 0.04293107822577867,
+        "recall": 0.016865103770789616,
+        "f1": 0.022629536000663607
+      },
+      "LEA": {
+        "precision": 0.012726062058408476,
+        "recall": 0.0026433930166380017,
+        "f1": 0.004234441890063581
+      },
+      "CoNLL": {
+        "f1": 0.06543556358065056
+      }
+    },
+    "stats": {
+      "gold": 10617,
+      "system": 4072,
+      "matched": 3,
+      "gold_only": 10614,
+      "system_only": 4069
+    },
+    "stats_overlap": {
+      "gold": 10617,
+      "system": 4072,
+      "matched": 1044,
+      "gold_only": 9573,
+      "system_only": 3028
+    },
+    "per_doc_exact": {
+      "1983CanLII2967L": {
+        "split": "test",
+        "n_gold_mentions": 50,
+        "n_sys_mentions": 11,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.15681233933161953,
+            "f1": 0.2711111111111111
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.09037037037037036,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1989CanLII1415ONCA": {
+        "split": "dev",
+        "n_gold_mentions": 75,
+        "n_sys_mentions": 3,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.10773480662983426,
+            "f1": 0.1945137157107232
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.06483790523690773,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1993CanLII1889PESCTSD": {
+        "split": "test",
+        "n_gold_mentions": 138,
+        "n_sys_mentions": 30,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.16030534351145037,
+            "f1": 0.2763157894736842
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.09210526315789473,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1993CanLII3004FCA": {
+        "split": "test",
+        "n_gold_mentions": 549,
+        "n_sys_mentions": 233,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.18752997601918464,
+            "recall": 0.08322690506598553,
+            "f1": 0.11528822055137845
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.03842940685045949,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1993NSSC71": {
+        "split": "test",
+        "n_gold_mentions": 70,
+        "n_sys_mentions": 19,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.8811881188118812,
+            "recall": 0.3545816733067729,
+            "f1": 0.5056818181818182
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.16856060606060608,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1994CanLII4528NLCA": {
+        "split": "train",
+        "n_gold_mentions": 167,
+        "n_sys_mentions": 74,
+        "n_matched": 1,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.08921933085501858,
+            "recall": 0.022168852761869574,
+            "f1": 0.03551346552234389
+          },
+          "CEAF_e": {
+            "precision": 0.0037411148522259632,
+            "recall": 0.006211180124223602,
+            "f1": 0.004669624095260331
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.013394363205868074,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1997CanLII11497": {
+        "split": "test",
+        "n_gold_mentions": 99,
+        "n_sys_mentions": 6,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.8974358974358975,
+            "recall": 0.011865747542095151,
+            "f1": 0.023421815748382778
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.007807271916127592,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1997CanLII16226ONCA": {
+        "split": "train",
+        "n_gold_mentions": 623,
+        "n_sys_mentions": 291,
+        "n_matched": 1,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.045615788158880836,
+            "recall": 0.012762983155098903,
+            "f1": 0.019945385035499724
+          },
+          "CEAF_e": {
+            "precision": 0.002757859900717043,
+            "recall": 0.0016313213703099511,
+            "f1": 0.002050020500205002
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.007331801845234909,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1999CanLII7320(ONCA)": {
+        "split": "test",
+        "n_gold_mentions": 264,
+        "n_sys_mentions": 110,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9444444444444444,
+            "recall": 0.28419452887537994,
+            "f1": 0.43691588785046725
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.14563862928348908,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2001BCSC1342": {
+        "split": "test",
+        "n_gold_mentions": 95,
+        "n_sys_mentions": 14,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9008264462809917,
+            "recall": 0.13814955640050697,
+            "f1": 0.23956043956043954
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.07985347985347985,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2001CanLII21117": {
+        "split": "test",
+        "n_gold_mentions": 296,
+        "n_sys_mentions": 150,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.09354026845637584,
+            "recall": 0.02938463565687179,
+            "f1": 0.04472074601423845
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.014906915338079483,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2002SCC33": {
+        "split": "test",
+        "n_gold_mentions": 315,
+        "n_sys_mentions": 144,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.5604395604395604,
+            "recall": 0.11772249294690947,
+            "f1": 0.19457397202204324
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.06485799067401442,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2003MBCA71": {
+        "split": "test",
+        "n_gold_mentions": 47,
+        "n_sys_mentions": 20,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9710144927536232,
+            "recall": 0.3116279069767442,
+            "f1": 0.47183098591549294
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.1572769953051643,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2005NLTD57": {
+        "split": "test",
+        "n_gold_mentions": 79,
+        "n_sys_mentions": 16,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.979381443298969,
+            "recall": 0.1445966514459665,
+            "f1": 0.25198938992042436
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08399646330680811,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2005QCCA437": {
+        "split": "test",
+        "n_gold_mentions": 96,
+        "n_sys_mentions": 24,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.4316546762589928,
+            "recall": 0.04357298474945534,
+            "f1": 0.07915567282321899
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.02638522427440633,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2008CSC9": {
+        "split": "train",
+        "n_gold_mentions": 470,
+        "n_sys_mentions": 210,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.24182076813655762,
+            "recall": 0.0704955421936554,
+            "f1": 0.10916680044951037
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.03638893348317012,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2009BCHRT256": {
+        "split": "test",
+        "n_gold_mentions": 157,
+        "n_sys_mentions": 42,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9900497512437811,
+            "recall": 0.037064630284969265,
+            "f1": 0.07145421903052064
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.023818073010173548,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2009NUCA3": {
+        "split": "test",
+        "n_gold_mentions": 52,
+        "n_sys_mentions": 12,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9696969696969697,
+            "recall": 0.0774818401937046,
+            "f1": 0.14349775784753363
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04783258594917788,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2009PECA12": {
+        "split": "test",
+        "n_gold_mentions": 86,
+        "n_sys_mentions": 50,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.4594594594594595,
+            "recall": 0.11467116357504216,
+            "f1": 0.1835357624831309
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.06117858749437696,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2010SKQB255": {
+        "split": "test",
+        "n_gold_mentions": 97,
+        "n_sys_mentions": 62,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.20730117340286833,
+            "recall": 0.10453648915187377,
+            "f1": 0.13898601398601398
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04632867132867133,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2012SKCA24": {
+        "split": "test",
+        "n_gold_mentions": 44,
+        "n_sys_mentions": 19,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.4666666666666667,
+            "recall": 0.07150964812712826,
+            "f1": 0.12401574803149606
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04133858267716536,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2013ONAFRAAT18": {
+        "split": "test",
+        "n_gold_mentions": 39,
+        "n_sys_mentions": 2,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.13898305084745763,
+            "f1": 0.24404761904761904
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08134920634920635,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2014CanLII36807PELRB": {
+        "split": "test",
+        "n_gold_mentions": 238,
+        "n_sys_mentions": 85,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.04980724749421742,
+            "recall": 0.022630140825334547,
+            "f1": 0.031120531843144807
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.010373510614381602,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2015NSSC25": {
+        "split": "test",
+        "n_gold_mentions": 226,
+        "n_sys_mentions": 110,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.1348314606741573,
+            "recall": 0.05934298834334158,
+            "f1": 0.08241353936718175
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.027471179789060583,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2016NBOMB12": {
+        "split": "dev",
+        "n_gold_mentions": 128,
+        "n_sys_mentions": 19,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.5231316725978647,
+            "recall": 0.038351160970519174,
+            "f1": 0.07146329606222654
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.023821098687408847,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2016QCCS1184": {
+        "split": "test",
+        "n_gold_mentions": 66,
+        "n_sys_mentions": 18,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9767441860465116,
+            "recall": 0.15,
+            "f1": 0.26006191950464397
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08668730650154799,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2017ABCA157": {
+        "split": "test",
+        "n_gold_mentions": 297,
+        "n_sys_mentions": 82,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.979328165374677,
+            "recall": 0.026365217391304346,
+            "f1": 0.051348055818994716
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.017116018606331572,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2018NSOIPC2": {
+        "split": "test",
+        "n_gold_mentions": 263,
+        "n_sys_mentions": 114,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.2884468247895945,
+            "recall": 0.015838339705079193,
+            "f1": 0.030027877339705297
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.010009292446568433,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2019QCCA1492": {
+        "split": "test",
+        "n_gold_mentions": 1404,
+        "n_sys_mentions": 695,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.09499027017242159,
+            "recall": 0.03756330642996474,
+            "f1": 0.05383707807530522
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.017945692691768406,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2019SCC65": {
+        "split": "train",
+        "n_gold_mentions": 1434,
+        "n_sys_mentions": 521,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.45989179016701953,
+            "recall": 0.036659228562320685,
+            "f1": 0.06790552275095518
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.022635174250318395,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2020ABPLAB11": {
+        "split": "test",
+        "n_gold_mentions": 38,
+        "n_sys_mentions": 44,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.0985576923076923,
+            "recall": 0.14963503649635038,
+            "f1": 0.11884057971014493
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.03961352657004831,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2020BCHPRB101": {
+        "split": "test",
+        "n_gold_mentions": 147,
+        "n_sys_mentions": 71,
+        "n_matched": 1,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.08118219229330341,
+            "recall": 0.037227654829301765,
+            "f1": 0.051046812514702423
+          },
+          "CEAF_e": {
+            "precision": 0.01310272536687631,
+            "recall": 0.007462686567164179,
+            "f1": 0.009509319132750094
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.020185377215817507,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2020FCA63": {
+        "split": "test",
+        "n_gold_mentions": 162,
+        "n_sys_mentions": 108,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.30612244897959184,
+            "recall": 0.0891089108910891,
+            "f1": 0.13803680981595093
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04601226993865031,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2021QCCA1675": {
+        "split": "dev",
+        "n_gold_mentions": 95,
+        "n_sys_mentions": 35,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.8666666666666667,
+            "recall": 0.13211382113821138,
+            "f1": 0.2292768959435626
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.07642563198118753,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2022BCSC135": {
+        "split": "test",
+        "n_gold_mentions": 1134,
+        "n_sys_mentions": 312,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.09220762657824257,
+            "recall": 0.021640227476803352,
+            "f1": 0.0350536956679838
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.011684565222661267,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2022ONCMT32": {
+        "split": "test",
+        "n_gold_mentions": 129,
+        "n_sys_mentions": 1,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.03264691109994977,
+            "f1": 0.06322957198443578
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.021076523994811927,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024ABOHSAB19": {
+        "split": "test",
+        "n_gold_mentions": 52,
+        "n_sys_mentions": 32,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.15053763440860216,
+            "recall": 0.08155339805825243,
+            "f1": 0.1057934508816121
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.03526448362720403,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024BCSC764": {
+        "split": "test",
+        "n_gold_mentions": 231,
+        "n_sys_mentions": 101,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.141396933560477,
+            "recall": 0.04778353483016695,
+            "f1": 0.07142857142857142
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.023809523809523808,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024NBKB203": {
+        "split": "test",
+        "n_gold_mentions": 239,
+        "n_sys_mentions": 70,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.07079037800687285,
+            "f1": 0.13222079589216945
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04407359863072315,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024NUCA9": {
+        "split": "test",
+        "n_gold_mentions": 113,
+        "n_sys_mentions": 49,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.27835051546391754,
+            "recall": 0.07258064516129033,
+            "f1": 0.11513859275053306
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.03837953091684435,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025ABAER7": {
+        "split": "test",
+        "n_gold_mentions": 143,
+        "n_sys_mentions": 5,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.021790341578327443,
+            "f1": 0.04265129682997118
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.014217098943323727,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025ABKB246": {
+        "split": "test",
+        "n_gold_mentions": 58,
+        "n_sys_mentions": 8,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.08870967741935484,
+            "f1": 0.16296296296296298
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.054320987654320994,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025MBKB136": {
+        "split": "test",
+        "n_gold_mentions": 45,
+        "n_sys_mentions": 21,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.16666666666666666,
+            "f1": 0.2857142857142857
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.09523809523809523,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025NBEUB1": {
+        "split": "test",
+        "n_gold_mentions": 24,
+        "n_sys_mentions": 0,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.07017543859649122,
+            "f1": 0.13114754098360656
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04371584699453552,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2026ABCA2L": {
+        "split": "test",
+        "n_gold_mentions": 43,
+        "n_sys_mentions": 29,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.7659574468085106,
+            "recall": 0.32432432432432434,
+            "f1": 0.4556962025316456
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.1518987341772152,
+            "precision": null,
+            "recall": null
+          }
+        }
+      }
+    },
+    "per_doc_overlap": {
+      "1983CanLII2967L": {
+        "split": "test",
+        "n_gold_mentions": 50,
+        "n_sys_mentions": 11,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.15025906735751296,
+            "f1": 0.26126126126126126
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08708708708708708,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1989CanLII1415ONCA": {
+        "split": "dev",
+        "n_gold_mentions": 75,
+        "n_sys_mentions": 3,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.10773480662983426,
+            "f1": 0.1945137157107232
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.06483790523690773,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1993CanLII1889PESCTSD": {
+        "split": "test",
+        "n_gold_mentions": 138,
+        "n_sys_mentions": 30,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.14396887159533073,
+            "f1": 0.25170068027210885
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08390022675736962,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1993CanLII3004FCA": {
+        "split": "test",
+        "n_gold_mentions": 549,
+        "n_sys_mentions": 233,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.13953488372093023,
+            "recall": 0.027586206896551724,
+            "f1": 0.046065259117082535
+          },
+          "B3": {
+            "precision": 0.18398427904691722,
+            "recall": 0.08056362267398086,
+            "f1": 0.11205864751645721
+          },
+          "CEAF_e": {
+            "precision": 0.12234042553191489,
+            "recall": 0.01754553965657593,
+            "f1": 0.030689694779318627
+          },
+          "LEA": {
+            "precision": 0.012537993920972783,
+            "recall": 0.0025996621259319007,
+            "f1": 0.004306419412691335
+          },
+          "CoNLL": {
+            "f1": 0.06293786713761947,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1993NSSC71": {
+        "split": "test",
+        "n_gold_mentions": 70,
+        "n_sys_mentions": 19,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.8787878787878788,
+            "recall": 0.3493975903614458,
+            "f1": 0.5
+          },
+          "CEAF_e": {
+            "precision": 0.16666666666666666,
+            "recall": 0.02040816326530612,
+            "f1": 0.03636363636363636
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.1787878787878788,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1994CanLII4528NLCA": {
+        "split": "train",
+        "n_gold_mentions": 167,
+        "n_sys_mentions": 74,
+        "n_matched": 1,
+        "scores": {
+          "MUC": {
+            "precision": 0.3125,
+            "recall": 0.1282051282051282,
+            "f1": 0.1818181818181818
+          },
+          "B3": {
+            "precision": 0.15670800450958286,
+            "recall": 0.03862183939983329,
+            "f1": 0.06197057512260365
+          },
+          "CEAF_e": {
+            "precision": 0.16435185185185183,
+            "recall": 0.13043478260869565,
+            "f1": 0.14544213041993853
+          },
+          "LEA": {
+            "precision": 0.10345560871876645,
+            "recall": 0.018801143645863216,
+            "f1": 0.03181965368572121
+          },
+          "CoNLL": {
+            "f1": 0.12974362912024132,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1997CanLII11497": {
+        "split": "test",
+        "n_gold_mentions": 99,
+        "n_sys_mentions": 6,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.8974358974358975,
+            "recall": 0.011865747542095151,
+            "f1": 0.023421815748382778
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.007807271916127592,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1997CanLII16226ONCA": {
+        "split": "train",
+        "n_gold_mentions": 623,
+        "n_sys_mentions": 291,
+        "n_matched": 1,
+        "scores": {
+          "MUC": {
+            "precision": 0.22826086956521738,
+            "recall": 0.07792207792207792,
+            "f1": 0.11618257261410787
+          },
+          "B3": {
+            "precision": 0.12359437751004015,
+            "recall": 0.03446248600223964,
+            "f1": 0.05389667250437828
+          },
+          "CEAF_e": {
+            "precision": 0.1315054356529011,
+            "recall": 0.07182051227728226,
+            "f1": 0.09290292608478698
+          },
+          "LEA": {
+            "precision": 0.06571758810564295,
+            "recall": 0.010491040378366602,
+            "f1": 0.01809364330785267
+          },
+          "CoNLL": {
+            "f1": 0.08766072373442439,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "1999CanLII7320(ONCA)": {
+        "split": "test",
+        "n_gold_mentions": 264,
+        "n_sys_mentions": 110,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9371428571428572,
+            "recall": 0.25826771653543307,
+            "f1": 0.4049382716049382
+          },
+          "CEAF_e": {
+            "precision": 0.05952380952380952,
+            "recall": 0.0038314176245210726,
+            "f1": 0.007199424046076313
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.13737923188367152,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2001BCSC1342": {
+        "split": "test",
+        "n_gold_mentions": 95,
+        "n_sys_mentions": 14,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9008264462809917,
+            "recall": 0.13814955640050697,
+            "f1": 0.23956043956043954
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.07985347985347985,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2001CanLII21117": {
+        "split": "test",
+        "n_gold_mentions": 296,
+        "n_sys_mentions": 150,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.056910569105691054,
+            "recall": 0.028225806451612902,
+            "f1": 0.03773584905660377
+          },
+          "B3": {
+            "precision": 0.09340080118068733,
+            "recall": 0.029235134956774236,
+            "f1": 0.04453156413349417
+          },
+          "CEAF_e": {
+            "precision": 0.04388335076408471,
+            "recall": 0.025037129861691265,
+            "f1": 0.03188350231659944
+          },
+          "LEA": {
+            "precision": 0.005260932975417922,
+            "recall": 0.0016867180265872953,
+            "f1": 0.002554449117764791
+          },
+          "CoNLL": {
+            "f1": 0.03805030516889913,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2002SCC33": {
+        "split": "test",
+        "n_gold_mentions": 315,
+        "n_sys_mentions": 144,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.5348837209302325,
+            "recall": 0.10742086144265697,
+            "f1": 0.17891097666378564
+          },
+          "CEAF_e": {
+            "precision": 0.04358974358974359,
+            "recall": 0.004168837936425221,
+            "f1": 0.007609881655149258
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.062173619439644966,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2003MBCA71": {
+        "split": "test",
+        "n_gold_mentions": 47,
+        "n_sys_mentions": 20,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9705882352941176,
+            "recall": 0.308411214953271,
+            "f1": 0.46808510638297873
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.15602836879432624,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2005NLTD57": {
+        "split": "test",
+        "n_gold_mentions": 79,
+        "n_sys_mentions": 16,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.979381443298969,
+            "recall": 0.1445966514459665,
+            "f1": 0.25198938992042436
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08399646330680811,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2005QCCA437": {
+        "split": "test",
+        "n_gold_mentions": 96,
+        "n_sys_mentions": 24,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.07692307692307693,
+            "recall": 0.0136986301369863,
+            "f1": 0.02325581395348837
+          },
+          "B3": {
+            "precision": 0.4222222222222222,
+            "recall": 0.041514930808448654,
+            "f1": 0.07559681697612732
+          },
+          "CEAF_e": {
+            "precision": 0.06666666666666667,
+            "recall": 0.011396011396011397,
+            "f1": 0.019464720194647202
+          },
+          "LEA": {
+            "precision": 0.01111111111111112,
+            "recall": 0.0005039052658100315,
+            "f1": 0.0009640877319836175
+          },
+          "CoNLL": {
+            "f1": 0.03943911704142097,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2008CSC9": {
+        "split": "train",
+        "n_gold_mentions": 470,
+        "n_sys_mentions": 210,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.02857142857142857,
+            "recall": 0.0051813471502590676,
+            "f1": 0.008771929824561403
+          },
+          "B3": {
+            "precision": 0.22578295702840495,
+            "recall": 0.06471816283924843,
+            "f1": 0.1006003569690086
+          },
+          "CEAF_e": {
+            "precision": 0.02505827505827506,
+            "recall": 0.008528784648187633,
+            "f1": 0.012726129258998926
+          },
+          "LEA": {
+            "precision": 0.0019230769230769301,
+            "recall": 0.00019681810726586673,
+            "f1": 0.00035708971879184375
+          },
+          "CoNLL": {
+            "f1": 0.04069947201752298,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2009BCHRT256": {
+        "split": "test",
+        "n_gold_mentions": 157,
+        "n_sys_mentions": 42,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.9897435897435898,
+            "recall": 0.035987320529554355,
+            "f1": 0.06944944224541202
+          },
+          "CEAF_e": {
+            "precision": 0.015384615384615385,
+            "recall": 0.007936507936507936,
+            "f1": 0.010471204188481676
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.026640215477964566,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2009NUCA3": {
+        "split": "test",
+        "n_gold_mentions": 52,
+        "n_sys_mentions": 12,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.96875,
+            "recall": 0.07524271844660194,
+            "f1": 0.1396396396396396
+          },
+          "CEAF_e": {
+            "precision": 0.03571428571428571,
+            "recall": 0.029411764705882353,
+            "f1": 0.03225806451612904
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.057299234718589546,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2009PECA12": {
+        "split": "test",
+        "n_gold_mentions": 86,
+        "n_sys_mentions": 50,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.4576271186440678,
+            "recall": 0.11392405063291139,
+            "f1": 0.18243243243243243
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.06081081081081081,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2010SKQB255": {
+        "split": "test",
+        "n_gold_mentions": 97,
+        "n_sys_mentions": 62,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.20418848167539266,
+            "recall": 0.10276679841897234,
+            "f1": 0.13672217353198945
+          },
+          "CEAF_e": {
+            "precision": 0.033985778729260646,
+            "recall": 0.02631578947368421,
+            "f1": 0.029662996329662995
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.05546172328721748,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2012SKCA24": {
+        "split": "test",
+        "n_gold_mentions": 44,
+        "n_sys_mentions": 19,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.4626865671641791,
+            "recall": 0.07045454545454545,
+            "f1": 0.12228796844181458
+          },
+          "CEAF_e": {
+            "precision": 0.034482758620689655,
+            "recall": 0.02857142857142857,
+            "f1": 0.03125
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.051179322813938194,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2013ONAFRAAT18": {
+        "split": "test",
+        "n_gold_mentions": 39,
+        "n_sys_mentions": 2,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.13898305084745763,
+            "f1": 0.24404761904761904
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08134920634920635,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2014CanLII36807PELRB": {
+        "split": "test",
+        "n_gold_mentions": 238,
+        "n_sys_mentions": 85,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.04966070326958667,
+            "recall": 0.02256165919282511,
+            "f1": 0.03102717286567739
+          },
+          "CEAF_e": {
+            "precision": 0.008771929824561403,
+            "recall": 0.004347826086956522,
+            "f1": 0.005813953488372093
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.012280375451349829,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2015NSSC25": {
+        "split": "test",
+        "n_gold_mentions": 226,
+        "n_sys_mentions": 110,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.04838709677419355,
+            "recall": 0.01694915254237288,
+            "f1": 0.02510460251046025
+          },
+          "B3": {
+            "precision": 0.13722334004024145,
+            "recall": 0.06030061892130858,
+            "f1": 0.08378378378378377
+          },
+          "CEAF_e": {
+            "precision": 0.04553503668100177,
+            "recall": 0.02,
+            "f1": 0.027792789315216553
+          },
+          "LEA": {
+            "precision": 0.004070556309362202,
+            "recall": 0.0010344827586206847,
+            "f1": 0.001649711300522396
+          },
+          "CoNLL": {
+            "f1": 0.045560391869820194,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2016NBOMB12": {
+        "split": "dev",
+        "n_gold_mentions": 128,
+        "n_sys_mentions": 19,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.5197132616487455,
+            "recall": 0.03784912555468546,
+            "f1": 0.07055961070559612
+          },
+          "CEAF_e": {
+            "precision": 0.047619047619047616,
+            "recall": 0.009009009009009009,
+            "f1": 0.01515151515151515
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.028570375285703758,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2016QCCS1184": {
+        "split": "test",
+        "n_gold_mentions": 66,
+        "n_sys_mentions": 18,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.975609756097561,
+            "recall": 0.14388489208633093,
+            "f1": 0.2507836990595611
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.08359456635318703,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2017ABCA157": {
+        "split": "test",
+        "n_gold_mentions": 297,
+        "n_sys_mentions": 82,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.979002624671916,
+            "recall": 0.025958661006333077,
+            "f1": 0.05057627118644068
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.016858757062146894,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2018NSOIPC2": {
+        "split": "test",
+        "n_gold_mentions": 263,
+        "n_sys_mentions": 114,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.16666666666666666,
+            "recall": 0.02242152466367713,
+            "f1": 0.039525691699604744
+          },
+          "B3": {
+            "precision": 0.2747784045124899,
+            "recall": 0.014365758099170073,
+            "f1": 0.02730402754423893
+          },
+          "CEAF_e": {
+            "precision": 0.039473684210526314,
+            "recall": 0.023529411764705882,
+            "f1": 0.029484029484029485
+          },
+          "LEA": {
+            "precision": 0.03225806451612912,
+            "recall": 0.0007791195948578233,
+            "f1": 0.0015214910612400393
+          },
+          "CoNLL": {
+            "f1": 0.03210458290929105,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2019QCCA1492": {
+        "split": "test",
+        "n_gold_mentions": 1404,
+        "n_sys_mentions": 695,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.03761755485893417,
+            "recall": 0.01060070671378092,
+            "f1": 0.016540317022742935
+          },
+          "B3": {
+            "precision": 0.09218373014066554,
+            "recall": 0.03632352149814346,
+            "f1": 0.05211282104071233
+          },
+          "CEAF_e": {
+            "precision": 0.03081901375980681,
+            "recall": 0.00994907218365773,
+            "f1": 0.01504218731046963
+          },
+          "LEA": {
+            "precision": 0.0025714582110058486,
+            "recall": 0.0003138299815515442,
+            "f1": 0.000559390001319239
+          },
+          "CoNLL": {
+            "f1": 0.027898441791308303,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2019SCC65": {
+        "split": "train",
+        "n_gold_mentions": 1434,
+        "n_sys_mentions": 521,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.024691358024691357,
+            "recall": 0.001728608470181504,
+            "f1": 0.003231017770597738
+          },
+          "B3": {
+            "precision": 0.43379446640316205,
+            "recall": 0.0330534954636148,
+            "f1": 0.06142652254521286
+          },
+          "CEAF_e": {
+            "precision": 0.03054839577529572,
+            "recall": 0.004384490818540133,
+            "f1": 0.007668370630530644
+          },
+          "LEA": {
+            "precision": 0.004062126642771817,
+            "recall": 1.597137928831525e-05,
+            "f1": 3.181765861336754e-05
+          },
+          "CoNLL": {
+            "f1": 0.02410863698211375,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2020ABPLAB11": {
+        "split": "test",
+        "n_gold_mentions": 38,
+        "n_sys_mentions": 44,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.029411764705882353,
+            "recall": 0.03225806451612903,
+            "f1": 0.030769230769230767
+          },
+          "B3": {
+            "precision": 0.09552599758162031,
+            "recall": 0.14548802946593,
+            "f1": 0.11532846715328467
+          },
+          "CEAF_e": {
+            "precision": 0.05405405405405406,
+            "recall": 0.04204204204204204,
+            "f1": 0.04729729729729729
+          },
+          "LEA": {
+            "precision": 0.002079002079002084,
+            "recall": 0.0027027027027026985,
+            "f1": 0.002350176263219743
+          },
+          "CoNLL": {
+            "f1": 0.06446499840660423,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2020BCHPRB101": {
+        "split": "test",
+        "n_gold_mentions": 147,
+        "n_sys_mentions": 71,
+        "n_matched": 1,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.08118219229330341,
+            "recall": 0.037227654829301765,
+            "f1": 0.051046812514702423
+          },
+          "CEAF_e": {
+            "precision": 0.01310272536687631,
+            "recall": 0.007462686567164179,
+            "f1": 0.009509319132750094
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.020185377215817507,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2020FCA63": {
+        "split": "test",
+        "n_gold_mentions": 162,
+        "n_sys_mentions": 108,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.5121951219512195,
+            "recall": 0.16535433070866143,
+            "f1": 0.25
+          },
+          "B3": {
+            "precision": 0.5073529411764706,
+            "recall": 0.1396761133603239,
+            "f1": 0.21904761904761905
+          },
+          "CEAF_e": {
+            "precision": 0.4710144927536232,
+            "recall": 0.15527950310559005,
+            "f1": 0.2335609054976644
+          },
+          "LEA": {
+            "precision": 0.28718535469107653,
+            "recall": 0.07039337474120008,
+            "f1": 0.1130713022279039
+          },
+          "CoNLL": {
+            "f1": 0.2342028415150945,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2021QCCA1675": {
+        "split": "dev",
+        "n_gold_mentions": 95,
+        "n_sys_mentions": 35,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.8529411764705882,
+            "recall": 0.11958762886597939,
+            "f1": 0.20976491862567812
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.0699216395418927,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2022BCSC135": {
+        "split": "test",
+        "n_gold_mentions": 1134,
+        "n_sys_mentions": 312,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.03463203463203463,
+            "recall": 0.007759456838021339,
+            "f1": 0.012678288431061807
+          },
+          "B3": {
+            "precision": 0.09140884684223984,
+            "recall": 0.021412955586834776,
+            "f1": 0.03469778953242909
+          },
+          "CEAF_e": {
+            "precision": 0.0284826308071276,
+            "recall": 0.009208851809954751,
+            "f1": 0.01391785666407376
+          },
+          "LEA": {
+            "precision": 0.0045424825266097545,
+            "recall": 0.0006782625408581713,
+            "f1": 0.0011802896714880077
+          },
+          "CoNLL": {
+            "f1": 0.020431311542521553,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2022ONCMT32": {
+        "split": "test",
+        "n_gold_mentions": 129,
+        "n_sys_mentions": 1,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.03264691109994977,
+            "f1": 0.06322957198443578
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.021076523994811927,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024ABOHSAB19": {
+        "split": "test",
+        "n_gold_mentions": 52,
+        "n_sys_mentions": 32,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.08333333333333333,
+            "recall": 0.045454545454545456,
+            "f1": 0.05882352941176471
+          },
+          "B3": {
+            "precision": 0.14389799635701275,
+            "recall": 0.07737512242899118,
+            "f1": 0.10063694267515924
+          },
+          "CEAF_e": {
+            "precision": 0.10769230769230768,
+            "recall": 0.04081632653061224,
+            "f1": 0.05919661733615221
+          },
+          "LEA": {
+            "precision": 0.007326007326007341,
+            "recall": 0.005539358600583052,
+            "f1": 0.00630862455383081
+          },
+          "CoNLL": {
+            "f1": 0.07288569647435872,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024BCSC764": {
+        "split": "test",
+        "n_gold_mentions": 231,
+        "n_sys_mentions": 101,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.1377245508982036,
+            "recall": 0.04641106947247045,
+            "f1": 0.06942647692971109
+          },
+          "CEAF_e": {
+            "precision": 0.01639344262295082,
+            "recall": 0.003537735849056604,
+            "f1": 0.005819592628516004
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.025082023186075695,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024NBKB203": {
+        "split": "test",
+        "n_gold_mentions": 239,
+        "n_sys_mentions": 70,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.06908423226991049,
+            "f1": 0.1292400171747531
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04308000572491771,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2024NUCA9": {
+        "split": "test",
+        "n_gold_mentions": 113,
+        "n_sys_mentions": 49,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.15,
+            "recall": 0.037037037037037035,
+            "f1": 0.0594059405940594
+          },
+          "B3": {
+            "precision": 0.2879581151832461,
+            "recall": 0.07422402159244265,
+            "f1": 0.11802575107296139
+          },
+          "CEAF_e": {
+            "precision": 0.09523809523809523,
+            "recall": 0.04395604395604396,
+            "f1": 0.06015037593984963
+          },
+          "LEA": {
+            "precision": 0.028571428571428536,
+            "recall": 0.003216295899222783,
+            "f1": 0.00578173933991818
+          },
+          "CoNLL": {
+            "f1": 0.07919402253562347,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025ABAER7": {
+        "split": "test",
+        "n_gold_mentions": 143,
+        "n_sys_mentions": 5,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.02150220913107511,
+            "f1": 0.042099192618223764
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.014033064206074588,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025ABKB246": {
+        "split": "test",
+        "n_gold_mentions": 58,
+        "n_sys_mentions": 8,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.0862533692722372,
+            "f1": 0.15880893300248142
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.05293631100082714,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025MBKB136": {
+        "split": "test",
+        "n_gold_mentions": 45,
+        "n_sys_mentions": 21,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.16030534351145037,
+            "f1": 0.2763157894736842
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.09210526315789473,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2025NBEUB1": {
+        "split": "test",
+        "n_gold_mentions": 24,
+        "n_sys_mentions": 0,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 1.0,
+            "recall": 0.07017543859649122,
+            "f1": 0.13114754098360656
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.04371584699453552,
+            "precision": null,
+            "recall": null
+          }
+        }
+      },
+      "2026ABCA2L": {
+        "split": "test",
+        "n_gold_mentions": 43,
+        "n_sys_mentions": 29,
+        "n_matched": 0,
+        "scores": {
+          "MUC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "B3": {
+            "precision": 0.7555555555555555,
+            "recall": 0.3119266055045872,
+            "f1": 0.4415584415584416
+          },
+          "CEAF_e": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "LEA": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CoNLL": {
+            "f1": 0.1471861471861472,
+            "precision": null,
+            "recall": null
+          }
+        }
+      }
+    },
+    "n_documents": 45
+  },
+  "per_doc": {
+    "1983CanLII2967L": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.15681233933161953,
+          "f1": 0.2711111111111111
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.09037037037037036,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.15025906735751296,
+          "f1": 0.26126126126126126
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08708708708708708,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 50,
+        "system": 11,
+        "matched": 0,
+        "gold_only": 50,
+        "system_only": 11
+      },
+      "stats_overlap": {
+        "gold": 50,
+        "system": 11,
+        "matched": 3,
+        "gold_only": 47,
+        "system_only": 8
+      },
+      "n_gold_mentions": 50,
+      "n_sys_mentions": 11,
+      "n_matched": 0
+    },
+    "1989CanLII1415ONCA": {
+      "split": "dev",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.10773480662983426,
+          "f1": 0.1945137157107232
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.06483790523690773,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.10773480662983426,
+          "f1": 0.1945137157107232
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.06483790523690773,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 75,
+        "system": 3,
+        "matched": 0,
+        "gold_only": 75,
+        "system_only": 3
+      },
+      "stats_overlap": {
+        "gold": 75,
+        "system": 3,
+        "matched": 0,
+        "gold_only": 75,
+        "system_only": 3
+      },
+      "n_gold_mentions": 75,
+      "n_sys_mentions": 3,
+      "n_matched": 0
+    },
+    "1993CanLII1889PESCTSD": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.16030534351145037,
+          "f1": 0.2763157894736842
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.09210526315789473,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.14396887159533073,
+          "f1": 0.25170068027210885
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08390022675736962,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 138,
+        "system": 30,
+        "matched": 0,
+        "gold_only": 138,
+        "system_only": 30
+      },
+      "stats_overlap": {
+        "gold": 138,
+        "system": 30,
+        "matched": 20,
+        "gold_only": 118,
+        "system_only": 10
+      },
+      "n_gold_mentions": 138,
+      "n_sys_mentions": 30,
+      "n_matched": 0
+    },
+    "1993CanLII3004FCA": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.18752997601918464,
+          "recall": 0.08322690506598553,
+          "f1": 0.11528822055137845
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.03842940685045949,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.13953488372093023,
+          "recall": 0.027586206896551724,
+          "f1": 0.046065259117082535
+        },
+        "B3": {
+          "precision": 0.18398427904691722,
+          "recall": 0.08056362267398086,
+          "f1": 0.11205864751645721
+        },
+        "CEAF_e": {
+          "precision": 0.12234042553191489,
+          "recall": 0.01754553965657593,
+          "f1": 0.030689694779318627
+        },
+        "LEA": {
+          "precision": 0.012537993920972783,
+          "recall": 0.0025996621259319007,
+          "f1": 0.004306419412691335
+        },
+        "CoNLL": {
+          "f1": 0.06293786713761947,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 549,
+        "system": 233,
+        "matched": 0,
+        "gold_only": 549,
+        "system_only": 233
+      },
+      "stats_overlap": {
+        "gold": 549,
+        "system": 233,
+        "matched": 99,
+        "gold_only": 450,
+        "system_only": 134
+      },
+      "n_gold_mentions": 549,
+      "n_sys_mentions": 233,
+      "n_matched": 0
+    },
+    "1993NSSC71": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.8811881188118812,
+          "recall": 0.3545816733067729,
+          "f1": 0.5056818181818182
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.16856060606060608,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.8787878787878788,
+          "recall": 0.3493975903614458,
+          "f1": 0.5
+        },
+        "CEAF_e": {
+          "precision": 0.16666666666666666,
+          "recall": 0.02040816326530612,
+          "f1": 0.03636363636363636
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.1787878787878788,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 70,
+        "system": 19,
+        "matched": 0,
+        "gold_only": 70,
+        "system_only": 19
+      },
+      "stats_overlap": {
+        "gold": 70,
+        "system": 19,
+        "matched": 2,
+        "gold_only": 68,
+        "system_only": 17
+      },
+      "n_gold_mentions": 70,
+      "n_sys_mentions": 19,
+      "n_matched": 0
+    },
+    "1994CanLII4528NLCA": {
+      "split": "train",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.08921933085501858,
+          "recall": 0.022168852761869574,
+          "f1": 0.03551346552234389
+        },
+        "CEAF_e": {
+          "precision": 0.0037411148522259632,
+          "recall": 0.006211180124223602,
+          "f1": 0.004669624095260331
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.013394363205868074,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.3125,
+          "recall": 0.1282051282051282,
+          "f1": 0.1818181818181818
+        },
+        "B3": {
+          "precision": 0.15670800450958286,
+          "recall": 0.03862183939983329,
+          "f1": 0.06197057512260365
+        },
+        "CEAF_e": {
+          "precision": 0.16435185185185183,
+          "recall": 0.13043478260869565,
+          "f1": 0.14544213041993853
+        },
+        "LEA": {
+          "precision": 0.10345560871876645,
+          "recall": 0.018801143645863216,
+          "f1": 0.03181965368572121
+        },
+        "CoNLL": {
+          "f1": 0.12974362912024132,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 167,
+        "system": 74,
+        "matched": 1,
+        "gold_only": 166,
+        "system_only": 73
+      },
+      "stats_overlap": {
+        "gold": 167,
+        "system": 74,
+        "matched": 30,
+        "gold_only": 137,
+        "system_only": 44
+      },
+      "n_gold_mentions": 167,
+      "n_sys_mentions": 74,
+      "n_matched": 1
+    },
+    "1997CanLII11497": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.8974358974358975,
+          "recall": 0.011865747542095151,
+          "f1": 0.023421815748382778
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.007807271916127592,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.8974358974358975,
+          "recall": 0.011865747542095151,
+          "f1": 0.023421815748382778
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.007807271916127592,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 99,
+        "system": 6,
+        "matched": 0,
+        "gold_only": 99,
+        "system_only": 6
+      },
+      "stats_overlap": {
+        "gold": 99,
+        "system": 6,
+        "matched": 0,
+        "gold_only": 99,
+        "system_only": 6
+      },
+      "n_gold_mentions": 99,
+      "n_sys_mentions": 6,
+      "n_matched": 0
+    },
+    "1997CanLII16226ONCA": {
+      "split": "train",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.045615788158880836,
+          "recall": 0.012762983155098903,
+          "f1": 0.019945385035499724
+        },
+        "CEAF_e": {
+          "precision": 0.002757859900717043,
+          "recall": 0.0016313213703099511,
+          "f1": 0.002050020500205002
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.007331801845234909,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.22826086956521738,
+          "recall": 0.07792207792207792,
+          "f1": 0.11618257261410787
+        },
+        "B3": {
+          "precision": 0.12359437751004015,
+          "recall": 0.03446248600223964,
+          "f1": 0.05389667250437828
+        },
+        "CEAF_e": {
+          "precision": 0.1315054356529011,
+          "recall": 0.07182051227728226,
+          "f1": 0.09290292608478698
+        },
+        "LEA": {
+          "precision": 0.06571758810564295,
+          "recall": 0.010491040378366602,
+          "f1": 0.01809364330785267
+        },
+        "CoNLL": {
+          "f1": 0.08766072373442439,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 623,
+        "system": 291,
+        "matched": 1,
+        "gold_only": 622,
+        "system_only": 290
+      },
+      "stats_overlap": {
+        "gold": 623,
+        "system": 291,
+        "matched": 96,
+        "gold_only": 527,
+        "system_only": 195
+      },
+      "n_gold_mentions": 623,
+      "n_sys_mentions": 291,
+      "n_matched": 1
+    },
+    "1999CanLII7320(ONCA)": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9444444444444444,
+          "recall": 0.28419452887537994,
+          "f1": 0.43691588785046725
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.14563862928348908,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9371428571428572,
+          "recall": 0.25826771653543307,
+          "f1": 0.4049382716049382
+        },
+        "CEAF_e": {
+          "precision": 0.05952380952380952,
+          "recall": 0.0038314176245210726,
+          "f1": 0.007199424046076313
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.13737923188367152,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 264,
+        "system": 110,
+        "matched": 0,
+        "gold_only": 264,
+        "system_only": 110
+      },
+      "stats_overlap": {
+        "gold": 264,
+        "system": 110,
+        "matched": 46,
+        "gold_only": 218,
+        "system_only": 64
+      },
+      "n_gold_mentions": 264,
+      "n_sys_mentions": 110,
+      "n_matched": 0
+    },
+    "2001BCSC1342": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9008264462809917,
+          "recall": 0.13814955640050697,
+          "f1": 0.23956043956043954
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.07985347985347985,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9008264462809917,
+          "recall": 0.13814955640050697,
+          "f1": 0.23956043956043954
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.07985347985347985,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 95,
+        "system": 14,
+        "matched": 0,
+        "gold_only": 95,
+        "system_only": 14
+      },
+      "stats_overlap": {
+        "gold": 95,
+        "system": 14,
+        "matched": 0,
+        "gold_only": 95,
+        "system_only": 14
+      },
+      "n_gold_mentions": 95,
+      "n_sys_mentions": 14,
+      "n_matched": 0
+    },
+    "2001CanLII21117": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.09354026845637584,
+          "recall": 0.02938463565687179,
+          "f1": 0.04472074601423845
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.014906915338079483,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.056910569105691054,
+          "recall": 0.028225806451612902,
+          "f1": 0.03773584905660377
+        },
+        "B3": {
+          "precision": 0.09340080118068733,
+          "recall": 0.029235134956774236,
+          "f1": 0.04453156413349417
+        },
+        "CEAF_e": {
+          "precision": 0.04388335076408471,
+          "recall": 0.025037129861691265,
+          "f1": 0.03188350231659944
+        },
+        "LEA": {
+          "precision": 0.005260932975417922,
+          "recall": 0.0016867180265872953,
+          "f1": 0.002554449117764791
+        },
+        "CoNLL": {
+          "f1": 0.03805030516889913,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 296,
+        "system": 150,
+        "matched": 0,
+        "gold_only": 296,
+        "system_only": 150
+      },
+      "stats_overlap": {
+        "gold": 296,
+        "system": 150,
+        "matched": 25,
+        "gold_only": 271,
+        "system_only": 125
+      },
+      "n_gold_mentions": 296,
+      "n_sys_mentions": 150,
+      "n_matched": 0
+    },
+    "2002SCC33": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.5604395604395604,
+          "recall": 0.11772249294690947,
+          "f1": 0.19457397202204324
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.06485799067401442,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.5348837209302325,
+          "recall": 0.10742086144265697,
+          "f1": 0.17891097666378564
+        },
+        "CEAF_e": {
+          "precision": 0.04358974358974359,
+          "recall": 0.004168837936425221,
+          "f1": 0.007609881655149258
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.062173619439644966,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 315,
+        "system": 144,
+        "matched": 0,
+        "gold_only": 315,
+        "system_only": 144
+      },
+      "stats_overlap": {
+        "gold": 315,
+        "system": 144,
+        "matched": 45,
+        "gold_only": 270,
+        "system_only": 99
+      },
+      "n_gold_mentions": 315,
+      "n_sys_mentions": 144,
+      "n_matched": 0
+    },
+    "2003MBCA71": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9710144927536232,
+          "recall": 0.3116279069767442,
+          "f1": 0.47183098591549294
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.1572769953051643,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9705882352941176,
+          "recall": 0.308411214953271,
+          "f1": 0.46808510638297873
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.15602836879432624,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 47,
+        "system": 20,
+        "matched": 0,
+        "gold_only": 47,
+        "system_only": 20
+      },
+      "stats_overlap": {
+        "gold": 47,
+        "system": 20,
+        "matched": 1,
+        "gold_only": 46,
+        "system_only": 19
+      },
+      "n_gold_mentions": 47,
+      "n_sys_mentions": 20,
+      "n_matched": 0
+    },
+    "2005NLTD57": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.979381443298969,
+          "recall": 0.1445966514459665,
+          "f1": 0.25198938992042436
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08399646330680811,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.979381443298969,
+          "recall": 0.1445966514459665,
+          "f1": 0.25198938992042436
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08399646330680811,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 79,
+        "system": 16,
+        "matched": 0,
+        "gold_only": 79,
+        "system_only": 16
+      },
+      "stats_overlap": {
+        "gold": 79,
+        "system": 16,
+        "matched": 0,
+        "gold_only": 79,
+        "system_only": 16
+      },
+      "n_gold_mentions": 79,
+      "n_sys_mentions": 16,
+      "n_matched": 0
+    },
+    "2005QCCA437": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.4316546762589928,
+          "recall": 0.04357298474945534,
+          "f1": 0.07915567282321899
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.02638522427440633,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.07692307692307693,
+          "recall": 0.0136986301369863,
+          "f1": 0.02325581395348837
+        },
+        "B3": {
+          "precision": 0.4222222222222222,
+          "recall": 0.041514930808448654,
+          "f1": 0.07559681697612732
+        },
+        "CEAF_e": {
+          "precision": 0.06666666666666667,
+          "recall": 0.011396011396011397,
+          "f1": 0.019464720194647202
+        },
+        "LEA": {
+          "precision": 0.01111111111111112,
+          "recall": 0.0005039052658100315,
+          "f1": 0.0009640877319836175
+        },
+        "CoNLL": {
+          "f1": 0.03943911704142097,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 96,
+        "system": 24,
+        "matched": 0,
+        "gold_only": 96,
+        "system_only": 24
+      },
+      "stats_overlap": {
+        "gold": 96,
+        "system": 24,
+        "matched": 8,
+        "gold_only": 88,
+        "system_only": 16
+      },
+      "n_gold_mentions": 96,
+      "n_sys_mentions": 24,
+      "n_matched": 0
+    },
+    "2008CSC9": {
+      "split": "train",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.24182076813655762,
+          "recall": 0.0704955421936554,
+          "f1": 0.10916680044951037
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.03638893348317012,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.02857142857142857,
+          "recall": 0.0051813471502590676,
+          "f1": 0.008771929824561403
+        },
+        "B3": {
+          "precision": 0.22578295702840495,
+          "recall": 0.06471816283924843,
+          "f1": 0.1006003569690086
+        },
+        "CEAF_e": {
+          "precision": 0.02505827505827506,
+          "recall": 0.008528784648187633,
+          "f1": 0.012726129258998926
+        },
+        "LEA": {
+          "precision": 0.0019230769230769301,
+          "recall": 0.00019681810726586673,
+          "f1": 0.00035708971879184375
+        },
+        "CoNLL": {
+          "f1": 0.04069947201752298,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 470,
+        "system": 210,
+        "matched": 0,
+        "gold_only": 470,
+        "system_only": 210
+      },
+      "stats_overlap": {
+        "gold": 470,
+        "system": 210,
+        "matched": 66,
+        "gold_only": 404,
+        "system_only": 144
+      },
+      "n_gold_mentions": 470,
+      "n_sys_mentions": 210,
+      "n_matched": 0
+    },
+    "2009BCHRT256": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9900497512437811,
+          "recall": 0.037064630284969265,
+          "f1": 0.07145421903052064
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.023818073010173548,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9897435897435898,
+          "recall": 0.035987320529554355,
+          "f1": 0.06944944224541202
+        },
+        "CEAF_e": {
+          "precision": 0.015384615384615385,
+          "recall": 0.007936507936507936,
+          "f1": 0.010471204188481676
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.026640215477964566,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 157,
+        "system": 42,
+        "matched": 0,
+        "gold_only": 157,
+        "system_only": 42
+      },
+      "stats_overlap": {
+        "gold": 157,
+        "system": 42,
+        "matched": 6,
+        "gold_only": 151,
+        "system_only": 36
+      },
+      "n_gold_mentions": 157,
+      "n_sys_mentions": 42,
+      "n_matched": 0
+    },
+    "2009NUCA3": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9696969696969697,
+          "recall": 0.0774818401937046,
+          "f1": 0.14349775784753363
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04783258594917788,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.96875,
+          "recall": 0.07524271844660194,
+          "f1": 0.1396396396396396
+        },
+        "CEAF_e": {
+          "precision": 0.03571428571428571,
+          "recall": 0.029411764705882353,
+          "f1": 0.03225806451612904
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.057299234718589546,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 52,
+        "system": 12,
+        "matched": 0,
+        "gold_only": 52,
+        "system_only": 12
+      },
+      "stats_overlap": {
+        "gold": 52,
+        "system": 12,
+        "matched": 2,
+        "gold_only": 50,
+        "system_only": 10
+      },
+      "n_gold_mentions": 52,
+      "n_sys_mentions": 12,
+      "n_matched": 0
+    },
+    "2009PECA12": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.4594594594594595,
+          "recall": 0.11467116357504216,
+          "f1": 0.1835357624831309
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.06117858749437696,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.4576271186440678,
+          "recall": 0.11392405063291139,
+          "f1": 0.18243243243243243
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.06081081081081081,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 86,
+        "system": 50,
+        "matched": 0,
+        "gold_only": 86,
+        "system_only": 50
+      },
+      "stats_overlap": {
+        "gold": 86,
+        "system": 50,
+        "matched": 1,
+        "gold_only": 85,
+        "system_only": 49
+      },
+      "n_gold_mentions": 86,
+      "n_sys_mentions": 50,
+      "n_matched": 0
+    },
+    "2010SKQB255": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.20730117340286833,
+          "recall": 0.10453648915187377,
+          "f1": 0.13898601398601398
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04632867132867133,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.20418848167539266,
+          "recall": 0.10276679841897234,
+          "f1": 0.13672217353198945
+        },
+        "CEAF_e": {
+          "precision": 0.033985778729260646,
+          "recall": 0.02631578947368421,
+          "f1": 0.029662996329662995
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.05546172328721748,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 97,
+        "system": 62,
+        "matched": 0,
+        "gold_only": 97,
+        "system_only": 62
+      },
+      "stats_overlap": {
+        "gold": 97,
+        "system": 62,
+        "matched": 3,
+        "gold_only": 94,
+        "system_only": 59
+      },
+      "n_gold_mentions": 97,
+      "n_sys_mentions": 62,
+      "n_matched": 0
+    },
+    "2012SKCA24": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.4666666666666667,
+          "recall": 0.07150964812712826,
+          "f1": 0.12401574803149606
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04133858267716536,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.4626865671641791,
+          "recall": 0.07045454545454545,
+          "f1": 0.12228796844181458
+        },
+        "CEAF_e": {
+          "precision": 0.034482758620689655,
+          "recall": 0.02857142857142857,
+          "f1": 0.03125
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.051179322813938194,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 44,
+        "system": 19,
+        "matched": 0,
+        "gold_only": 44,
+        "system_only": 19
+      },
+      "stats_overlap": {
+        "gold": 44,
+        "system": 19,
+        "matched": 1,
+        "gold_only": 43,
+        "system_only": 18
+      },
+      "n_gold_mentions": 44,
+      "n_sys_mentions": 19,
+      "n_matched": 0
+    },
+    "2013ONAFRAAT18": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.13898305084745763,
+          "f1": 0.24404761904761904
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08134920634920635,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.13898305084745763,
+          "f1": 0.24404761904761904
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08134920634920635,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 39,
+        "system": 2,
+        "matched": 0,
+        "gold_only": 39,
+        "system_only": 2
+      },
+      "stats_overlap": {
+        "gold": 39,
+        "system": 2,
+        "matched": 0,
+        "gold_only": 39,
+        "system_only": 2
+      },
+      "n_gold_mentions": 39,
+      "n_sys_mentions": 2,
+      "n_matched": 0
+    },
+    "2014CanLII36807PELRB": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.04980724749421742,
+          "recall": 0.022630140825334547,
+          "f1": 0.031120531843144807
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.010373510614381602,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.04966070326958667,
+          "recall": 0.02256165919282511,
+          "f1": 0.03102717286567739
+        },
+        "CEAF_e": {
+          "precision": 0.008771929824561403,
+          "recall": 0.004347826086956522,
+          "f1": 0.005813953488372093
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.012280375451349829,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 238,
+        "system": 85,
+        "matched": 0,
+        "gold_only": 238,
+        "system_only": 85
+      },
+      "stats_overlap": {
+        "gold": 238,
+        "system": 85,
+        "matched": 1,
+        "gold_only": 237,
+        "system_only": 84
+      },
+      "n_gold_mentions": 238,
+      "n_sys_mentions": 85,
+      "n_matched": 0
+    },
+    "2015NSSC25": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.1348314606741573,
+          "recall": 0.05934298834334158,
+          "f1": 0.08241353936718175
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.027471179789060583,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.04838709677419355,
+          "recall": 0.01694915254237288,
+          "f1": 0.02510460251046025
+        },
+        "B3": {
+          "precision": 0.13722334004024145,
+          "recall": 0.06030061892130858,
+          "f1": 0.08378378378378377
+        },
+        "CEAF_e": {
+          "precision": 0.04553503668100177,
+          "recall": 0.02,
+          "f1": 0.027792789315216553
+        },
+        "LEA": {
+          "precision": 0.004070556309362202,
+          "recall": 0.0010344827586206847,
+          "f1": 0.001649711300522396
+        },
+        "CoNLL": {
+          "f1": 0.045560391869820194,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 226,
+        "system": 110,
+        "matched": 0,
+        "gold_only": 226,
+        "system_only": 110
+      },
+      "stats_overlap": {
+        "gold": 226,
+        "system": 110,
+        "matched": 7,
+        "gold_only": 219,
+        "system_only": 103
+      },
+      "n_gold_mentions": 226,
+      "n_sys_mentions": 110,
+      "n_matched": 0
+    },
+    "2016NBOMB12": {
+      "split": "dev",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.5231316725978647,
+          "recall": 0.038351160970519174,
+          "f1": 0.07146329606222654
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.023821098687408847,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.5197132616487455,
+          "recall": 0.03784912555468546,
+          "f1": 0.07055961070559612
+        },
+        "CEAF_e": {
+          "precision": 0.047619047619047616,
+          "recall": 0.009009009009009009,
+          "f1": 0.01515151515151515
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.028570375285703758,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 128,
+        "system": 19,
+        "matched": 0,
+        "gold_only": 128,
+        "system_only": 19
+      },
+      "stats_overlap": {
+        "gold": 128,
+        "system": 19,
+        "matched": 2,
+        "gold_only": 126,
+        "system_only": 17
+      },
+      "n_gold_mentions": 128,
+      "n_sys_mentions": 19,
+      "n_matched": 0
+    },
+    "2016QCCS1184": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.9767441860465116,
+          "recall": 0.15,
+          "f1": 0.26006191950464397
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08668730650154799,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.975609756097561,
+          "recall": 0.14388489208633093,
+          "f1": 0.2507836990595611
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.08359456635318703,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 66,
+        "system": 18,
+        "matched": 0,
+        "gold_only": 66,
+        "system_only": 18
+      },
+      "stats_overlap": {
+        "gold": 66,
+        "system": 18,
+        "matched": 4,
+        "gold_only": 62,
+        "system_only": 14
+      },
+      "n_gold_mentions": 66,
+      "n_sys_mentions": 18,
+      "n_matched": 0
+    },
+    "2017ABCA157": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.979328165374677,
+          "recall": 0.026365217391304346,
+          "f1": 0.051348055818994716
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.017116018606331572,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.979002624671916,
+          "recall": 0.025958661006333077,
+          "f1": 0.05057627118644068
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.016858757062146894,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 297,
+        "system": 82,
+        "matched": 0,
+        "gold_only": 297,
+        "system_only": 82
+      },
+      "stats_overlap": {
+        "gold": 297,
+        "system": 82,
+        "matched": 6,
+        "gold_only": 291,
+        "system_only": 76
+      },
+      "n_gold_mentions": 297,
+      "n_sys_mentions": 82,
+      "n_matched": 0
+    },
+    "2018NSOIPC2": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.2884468247895945,
+          "recall": 0.015838339705079193,
+          "f1": 0.030027877339705297
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.010009292446568433,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.16666666666666666,
+          "recall": 0.02242152466367713,
+          "f1": 0.039525691699604744
+        },
+        "B3": {
+          "precision": 0.2747784045124899,
+          "recall": 0.014365758099170073,
+          "f1": 0.02730402754423893
+        },
+        "CEAF_e": {
+          "precision": 0.039473684210526314,
+          "recall": 0.023529411764705882,
+          "f1": 0.029484029484029485
+        },
+        "LEA": {
+          "precision": 0.03225806451612912,
+          "recall": 0.0007791195948578233,
+          "f1": 0.0015214910612400393
+        },
+        "CoNLL": {
+          "f1": 0.03210458290929105,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 263,
+        "system": 114,
+        "matched": 0,
+        "gold_only": 263,
+        "system_only": 114
+      },
+      "stats_overlap": {
+        "gold": 263,
+        "system": 114,
+        "matched": 66,
+        "gold_only": 197,
+        "system_only": 48
+      },
+      "n_gold_mentions": 263,
+      "n_sys_mentions": 114,
+      "n_matched": 0
+    },
+    "2019QCCA1492": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.09499027017242159,
+          "recall": 0.03756330642996474,
+          "f1": 0.05383707807530522
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.017945692691768406,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.03761755485893417,
+          "recall": 0.01060070671378092,
+          "f1": 0.016540317022742935
+        },
+        "B3": {
+          "precision": 0.09218373014066554,
+          "recall": 0.03632352149814346,
+          "f1": 0.05211282104071233
+        },
+        "CEAF_e": {
+          "precision": 0.03081901375980681,
+          "recall": 0.00994907218365773,
+          "f1": 0.01504218731046963
+        },
+        "LEA": {
+          "precision": 0.0025714582110058486,
+          "recall": 0.0003138299815515442,
+          "f1": 0.000559390001319239
+        },
+        "CoNLL": {
+          "f1": 0.027898441791308303,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 1404,
+        "system": 695,
+        "matched": 0,
+        "gold_only": 1404,
+        "system_only": 695
+      },
+      "stats_overlap": {
+        "gold": 1404,
+        "system": 695,
+        "matched": 130,
+        "gold_only": 1274,
+        "system_only": 565
+      },
+      "n_gold_mentions": 1404,
+      "n_sys_mentions": 695,
+      "n_matched": 0
+    },
+    "2019SCC65": {
+      "split": "train",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.45989179016701953,
+          "recall": 0.036659228562320685,
+          "f1": 0.06790552275095518
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.022635174250318395,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.024691358024691357,
+          "recall": 0.001728608470181504,
+          "f1": 0.003231017770597738
+        },
+        "B3": {
+          "precision": 0.43379446640316205,
+          "recall": 0.0330534954636148,
+          "f1": 0.06142652254521286
+        },
+        "CEAF_e": {
+          "precision": 0.03054839577529572,
+          "recall": 0.004384490818540133,
+          "f1": 0.007668370630530644
+        },
+        "LEA": {
+          "precision": 0.004062126642771817,
+          "recall": 1.597137928831525e-05,
+          "f1": 3.181765861336754e-05
+        },
+        "CoNLL": {
+          "f1": 0.02410863698211375,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 1434,
+        "system": 521,
+        "matched": 0,
+        "gold_only": 1434,
+        "system_only": 521
+      },
+      "stats_overlap": {
+        "gold": 1434,
+        "system": 521,
+        "matched": 203,
+        "gold_only": 1231,
+        "system_only": 318
+      },
+      "n_gold_mentions": 1434,
+      "n_sys_mentions": 521,
+      "n_matched": 0
+    },
+    "2020ABPLAB11": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.0985576923076923,
+          "recall": 0.14963503649635038,
+          "f1": 0.11884057971014493
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.03961352657004831,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.029411764705882353,
+          "recall": 0.03225806451612903,
+          "f1": 0.030769230769230767
+        },
+        "B3": {
+          "precision": 0.09552599758162031,
+          "recall": 0.14548802946593,
+          "f1": 0.11532846715328467
+        },
+        "CEAF_e": {
+          "precision": 0.05405405405405406,
+          "recall": 0.04204204204204204,
+          "f1": 0.04729729729729729
+        },
+        "LEA": {
+          "precision": 0.002079002079002084,
+          "recall": 0.0027027027027026985,
+          "f1": 0.002350176263219743
+        },
+        "CoNLL": {
+          "f1": 0.06446499840660423,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 38,
+        "system": 44,
+        "matched": 0,
+        "gold_only": 38,
+        "system_only": 44
+      },
+      "stats_overlap": {
+        "gold": 38,
+        "system": 44,
+        "matched": 5,
+        "gold_only": 33,
+        "system_only": 39
+      },
+      "n_gold_mentions": 38,
+      "n_sys_mentions": 44,
+      "n_matched": 0
+    },
+    "2020BCHPRB101": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.08118219229330341,
+          "recall": 0.037227654829301765,
+          "f1": 0.051046812514702423
+        },
+        "CEAF_e": {
+          "precision": 0.01310272536687631,
+          "recall": 0.007462686567164179,
+          "f1": 0.009509319132750094
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.020185377215817507,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.08118219229330341,
+          "recall": 0.037227654829301765,
+          "f1": 0.051046812514702423
+        },
+        "CEAF_e": {
+          "precision": 0.01310272536687631,
+          "recall": 0.007462686567164179,
+          "f1": 0.009509319132750094
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.020185377215817507,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 147,
+        "system": 71,
+        "matched": 1,
+        "gold_only": 146,
+        "system_only": 70
+      },
+      "stats_overlap": {
+        "gold": 147,
+        "system": 71,
+        "matched": 1,
+        "gold_only": 146,
+        "system_only": 70
+      },
+      "n_gold_mentions": 147,
+      "n_sys_mentions": 71,
+      "n_matched": 1
+    },
+    "2020FCA63": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.30612244897959184,
+          "recall": 0.0891089108910891,
+          "f1": 0.13803680981595093
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04601226993865031,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.5121951219512195,
+          "recall": 0.16535433070866143,
+          "f1": 0.25
+        },
+        "B3": {
+          "precision": 0.5073529411764706,
+          "recall": 0.1396761133603239,
+          "f1": 0.21904761904761905
+        },
+        "CEAF_e": {
+          "precision": 0.4710144927536232,
+          "recall": 0.15527950310559005,
+          "f1": 0.2335609054976644
+        },
+        "LEA": {
+          "precision": 0.28718535469107653,
+          "recall": 0.07039337474120008,
+          "f1": 0.1130713022279039
+        },
+        "CoNLL": {
+          "f1": 0.2342028415150945,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 162,
+        "system": 108,
+        "matched": 0,
+        "gold_only": 162,
+        "system_only": 108
+      },
+      "stats_overlap": {
+        "gold": 162,
+        "system": 108,
+        "matched": 66,
+        "gold_only": 96,
+        "system_only": 42
+      },
+      "n_gold_mentions": 162,
+      "n_sys_mentions": 108,
+      "n_matched": 0
+    },
+    "2021QCCA1675": {
+      "split": "dev",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.8666666666666667,
+          "recall": 0.13211382113821138,
+          "f1": 0.2292768959435626
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.07642563198118753,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.8529411764705882,
+          "recall": 0.11958762886597939,
+          "f1": 0.20976491862567812
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.0699216395418927,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 95,
+        "system": 35,
+        "matched": 0,
+        "gold_only": 95,
+        "system_only": 35
+      },
+      "stats_overlap": {
+        "gold": 95,
+        "system": 35,
+        "matched": 14,
+        "gold_only": 81,
+        "system_only": 21
+      },
+      "n_gold_mentions": 95,
+      "n_sys_mentions": 35,
+      "n_matched": 0
+    },
+    "2022BCSC135": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.09220762657824257,
+          "recall": 0.021640227476803352,
+          "f1": 0.0350536956679838
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.011684565222661267,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.03463203463203463,
+          "recall": 0.007759456838021339,
+          "f1": 0.012678288431061807
+        },
+        "B3": {
+          "precision": 0.09140884684223984,
+          "recall": 0.021412955586834776,
+          "f1": 0.03469778953242909
+        },
+        "CEAF_e": {
+          "precision": 0.0284826308071276,
+          "recall": 0.009208851809954751,
+          "f1": 0.01391785666407376
+        },
+        "LEA": {
+          "precision": 0.0045424825266097545,
+          "recall": 0.0006782625408581713,
+          "f1": 0.0011802896714880077
+        },
+        "CoNLL": {
+          "f1": 0.020431311542521553,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 1134,
+        "system": 312,
+        "matched": 0,
+        "gold_only": 1134,
+        "system_only": 312
+      },
+      "stats_overlap": {
+        "gold": 1134,
+        "system": 312,
+        "matched": 38,
+        "gold_only": 1096,
+        "system_only": 274
+      },
+      "n_gold_mentions": 1134,
+      "n_sys_mentions": 312,
+      "n_matched": 0
+    },
+    "2022ONCMT32": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.03264691109994977,
+          "f1": 0.06322957198443578
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.021076523994811927,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.03264691109994977,
+          "f1": 0.06322957198443578
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.021076523994811927,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 129,
+        "system": 1,
+        "matched": 0,
+        "gold_only": 129,
+        "system_only": 1
+      },
+      "stats_overlap": {
+        "gold": 129,
+        "system": 1,
+        "matched": 0,
+        "gold_only": 129,
+        "system_only": 1
+      },
+      "n_gold_mentions": 129,
+      "n_sys_mentions": 1,
+      "n_matched": 0
+    },
+    "2024ABOHSAB19": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.15053763440860216,
+          "recall": 0.08155339805825243,
+          "f1": 0.1057934508816121
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.03526448362720403,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.08333333333333333,
+          "recall": 0.045454545454545456,
+          "f1": 0.05882352941176471
+        },
+        "B3": {
+          "precision": 0.14389799635701275,
+          "recall": 0.07737512242899118,
+          "f1": 0.10063694267515924
+        },
+        "CEAF_e": {
+          "precision": 0.10769230769230768,
+          "recall": 0.04081632653061224,
+          "f1": 0.05919661733615221
+        },
+        "LEA": {
+          "precision": 0.007326007326007341,
+          "recall": 0.005539358600583052,
+          "f1": 0.00630862455383081
+        },
+        "CoNLL": {
+          "f1": 0.07288569647435872,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 52,
+        "system": 32,
+        "matched": 0,
+        "gold_only": 52,
+        "system_only": 32
+      },
+      "stats_overlap": {
+        "gold": 52,
+        "system": 32,
+        "matched": 9,
+        "gold_only": 43,
+        "system_only": 23
+      },
+      "n_gold_mentions": 52,
+      "n_sys_mentions": 32,
+      "n_matched": 0
+    },
+    "2024BCSC764": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.141396933560477,
+          "recall": 0.04778353483016695,
+          "f1": 0.07142857142857142
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.023809523809523808,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.1377245508982036,
+          "recall": 0.04641106947247045,
+          "f1": 0.06942647692971109
+        },
+        "CEAF_e": {
+          "precision": 0.01639344262295082,
+          "recall": 0.003537735849056604,
+          "f1": 0.005819592628516004
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.025082023186075695,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 231,
+        "system": 101,
+        "matched": 0,
+        "gold_only": 231,
+        "system_only": 101
+      },
+      "stats_overlap": {
+        "gold": 231,
+        "system": 101,
+        "matched": 10,
+        "gold_only": 221,
+        "system_only": 91
+      },
+      "n_gold_mentions": 231,
+      "n_sys_mentions": 101,
+      "n_matched": 0
+    },
+    "2024NBKB203": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.07079037800687285,
+          "f1": 0.13222079589216945
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04407359863072315,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.06908423226991049,
+          "f1": 0.1292400171747531
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04308000572491771,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 239,
+        "system": 70,
+        "matched": 0,
+        "gold_only": 239,
+        "system_only": 70
+      },
+      "stats_overlap": {
+        "gold": 239,
+        "system": 70,
+        "matched": 8,
+        "gold_only": 231,
+        "system_only": 62
+      },
+      "n_gold_mentions": 239,
+      "n_sys_mentions": 70,
+      "n_matched": 0
+    },
+    "2024NUCA9": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.27835051546391754,
+          "recall": 0.07258064516129033,
+          "f1": 0.11513859275053306
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.03837953091684435,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.15,
+          "recall": 0.037037037037037035,
+          "f1": 0.0594059405940594
+        },
+        "B3": {
+          "precision": 0.2879581151832461,
+          "recall": 0.07422402159244265,
+          "f1": 0.11802575107296139
+        },
+        "CEAF_e": {
+          "precision": 0.09523809523809523,
+          "recall": 0.04395604395604396,
+          "f1": 0.06015037593984963
+        },
+        "LEA": {
+          "precision": 0.028571428571428536,
+          "recall": 0.003216295899222783,
+          "f1": 0.00578173933991818
+        },
+        "CoNLL": {
+          "f1": 0.07919402253562347,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 113,
+        "system": 49,
+        "matched": 0,
+        "gold_only": 113,
+        "system_only": 49
+      },
+      "stats_overlap": {
+        "gold": 113,
+        "system": 49,
+        "matched": 9,
+        "gold_only": 104,
+        "system_only": 40
+      },
+      "n_gold_mentions": 113,
+      "n_sys_mentions": 49,
+      "n_matched": 0
+    },
+    "2025ABAER7": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.021790341578327443,
+          "f1": 0.04265129682997118
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.014217098943323727,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.02150220913107511,
+          "f1": 0.042099192618223764
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.014033064206074588,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 143,
+        "system": 5,
+        "matched": 0,
+        "gold_only": 143,
+        "system_only": 5
+      },
+      "stats_overlap": {
+        "gold": 143,
+        "system": 5,
+        "matched": 2,
+        "gold_only": 141,
+        "system_only": 3
+      },
+      "n_gold_mentions": 143,
+      "n_sys_mentions": 5,
+      "n_matched": 0
+    },
+    "2025ABKB246": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.08870967741935484,
+          "f1": 0.16296296296296298
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.054320987654320994,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.0862533692722372,
+          "f1": 0.15880893300248142
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.05293631100082714,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 58,
+        "system": 8,
+        "matched": 0,
+        "gold_only": 58,
+        "system_only": 8
+      },
+      "stats_overlap": {
+        "gold": 58,
+        "system": 8,
+        "matched": 2,
+        "gold_only": 56,
+        "system_only": 6
+      },
+      "n_gold_mentions": 58,
+      "n_sys_mentions": 8,
+      "n_matched": 0
+    },
+    "2025MBKB136": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.16666666666666666,
+          "f1": 0.2857142857142857
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.09523809523809523,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.16030534351145037,
+          "f1": 0.2763157894736842
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.09210526315789473,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 45,
+        "system": 21,
+        "matched": 0,
+        "gold_only": 45,
+        "system_only": 21
+      },
+      "stats_overlap": {
+        "gold": 45,
+        "system": 21,
+        "matched": 3,
+        "gold_only": 42,
+        "system_only": 18
+      },
+      "n_gold_mentions": 45,
+      "n_sys_mentions": 21,
+      "n_matched": 0
+    },
+    "2025NBEUB1": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.07017543859649122,
+          "f1": 0.13114754098360656
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04371584699453552,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 1.0,
+          "recall": 0.07017543859649122,
+          "f1": 0.13114754098360656
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.04371584699453552,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 24,
+        "system": 0,
+        "matched": 0,
+        "gold_only": 24,
+        "system_only": 0
+      },
+      "stats_overlap": {
+        "gold": 24,
+        "system": 0,
+        "matched": 0,
+        "gold_only": 24,
+        "system_only": 0
+      },
+      "n_gold_mentions": 24,
+      "n_sys_mentions": 0,
+      "n_matched": 0
+    },
+    "2026ABCA2L": {
+      "split": "test",
+      "exact": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.7659574468085106,
+          "recall": 0.32432432432432434,
+          "f1": 0.4556962025316456
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.1518987341772152,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "overlap": {
+        "MUC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "B3": {
+          "precision": 0.7555555555555555,
+          "recall": 0.3119266055045872,
+          "f1": 0.4415584415584416
+        },
+        "CEAF_e": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "LEA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CoNLL": {
+          "f1": 0.1471861471861472,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "stats": {
+        "gold": 43,
+        "system": 29,
+        "matched": 0,
+        "gold_only": 43,
+        "system_only": 29
+      },
+      "stats_overlap": {
+        "gold": 43,
+        "system": 29,
+        "matched": 4,
+        "gold_only": 39,
+        "system_only": 25
+      },
+      "n_gold_mentions": 43,
+      "n_sys_mentions": 29,
+      "n_matched": 0
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "baseline_3": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 0.8571428571428571,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | C.C.P. | Charter of human rights and | Charter of\nhuman rights and | Charter | Charter and the amendment to | Charter is concerned with procedural guarantees | Quebec’s Act respecting the | 1003 C.C.P. | 1003\nC.C.P. | 999 C.C.P. | 1000 C.C.P.",
+    "method": "fuzzy",
+    "matched_key": "c c p",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 0.8571428571428571,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      }
+    ]
+  },
+  "baseline_6": {
+    "uri": "https://canlii.ca/t/1pj93",
+    "score": 0.9404761904761905,
+    "candidate_id": "1990qcca12989",
+    "candidate_title": "Comité d'environnement de la Baie inc. c. Société d'électrolyse et de chimie Alcan ltée",
+    "query_text": "decision | Comité\nde l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan",
+    "method": "fuzzy",
+    "matched_key": "comite de l environnement de la baie inc v societe d electrolyse et de chimie alcan",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pj93",
+        "score": 0.9404761904761905,
+        "candidate_title": "Comité d'environnement de la Baie inc. c. Société d'électrolyse et de chimie Alcan ltée"
+      }
+    ]
+  },
+  "baseline_8": {
+    "uri": "https://canlii.ca/t/1ftlw",
+    "score": 2.0,
+    "candidate_id": "1987csc-scc56",
+    "candidate_title": "R. v. Lyons",
+    "query_text": "decision | R. v. Lyons",
+    "method": "title_exact",
+    "matched_key": "r v lyons",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftlw",
+        "score": 2.0,
+        "candidate_title": "R. v. Lyons"
+      }
+    ]
+  },
+  "baseline_11": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 2.0,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | Quebec Charter",
+    "method": "title_exact",
+    "matched_key": "quebec charter",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 2.0,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      }
+    ]
+  },
+  "baseline_13": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 3.0,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | R.S.Q., c. C-12",
+    "method": "citation_exact",
+    "matched_key": "rsqcc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 3.0,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      }
+    ]
+  },
+  "baseline_14": {
+    "uri": "https://synthetic.leread.ca/gold/G0150",
+    "score": 3.5,
+    "candidate_id": "gold-G0150",
+    "candidate_title": "Comité de citoyens et d’action municipale de St-Césaire v. St-Césaire",
+    "query_text": "decision | Comité de citoyens et d’action\nmunicipale de St-Césaire v. St-Césaire | [1986] R.J.Q. 101 (C.A.)",
+    "method": "citation_exact",
+    "matched_key": "1986rjq101ca",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0150",
+        "score": 3.5,
+        "candidate_title": "Comité de citoyens et d’action municipale de St-Césaire v. St-Césaire"
+      }
+    ]
+  },
+  "baseline_15": {
+    "uri": "https://canlii.ca/t/1pf2l",
+    "score": 3.0,
+    "candidate_id": "1992qcca12623",
+    "candidate_title": "Thompson c. Masson",
+    "query_text": "decision | [1993] R.J.Q. 69",
+    "method": "citation_exact",
+    "matched_key": "1993rjq69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pf2l",
+        "score": 3.0,
+        "candidate_title": "Thompson c. Masson"
+      }
+    ]
+  },
+  "baseline_16": {
+    "uri": "https://canlii.ca/t/gnv0d",
+    "score": 0.9705882352941176,
+    "candidate_id": "2004qcca1000654",
+    "candidate_title": "Société Asbestos limitée c. Lacroix",
+    "query_text": "decision | Société Asbestos Limitée v. Lacroix",
+    "method": "fuzzy",
+    "matched_key": "societe asbestos limitee v lacroix",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gnv0d",
+        "score": 0.9705882352941176,
+        "candidate_title": "Société Asbestos limitée c. Lacroix"
+      }
+    ]
+  },
+  "baseline_18": {
+    "uri": "https://synthetic.leread.ca/gold/G0306",
+    "score": 2.0,
+    "candidate_id": "gold-G0306",
+    "candidate_title": "Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault",
+    "query_text": "decision | Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault",
+    "method": "title_exact",
+    "matched_key": "les tours mirabelle inc and cabana airline v arsenault",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0306",
+        "score": 2.0,
+        "candidate_title": "Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault"
+      }
+    ]
+  },
+  "baseline_21": {
+    "uri": "https://canlii.ca/t/1mvw6",
+    "score": 3.0,
+    "candidate_id": "1999qcca10908",
+    "candidate_title": "Hotte c. Servier Canada inc.",
+    "query_text": "decision | Hotte v. Servier Canada Inc. | [1999] R.J.Q. 2598",
+    "method": "citation_exact",
+    "matched_key": "1999rjq2598",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mvw6",
+        "score": 3.0,
+        "candidate_title": "Hotte c. Servier Canada inc."
+      }
+    ]
+  },
+  "baseline_22": {
+    "uri": "https://synthetic.leread.ca/gold/G0151",
+    "score": 3.5,
+    "candidate_id": "gold-G0151",
+    "candidate_title": "Comité Régional des Usagers des transports en commun de Québec v. Commission des transports de la Communauté urbaine de Québec",
+    "query_text": "decision | Comité Régional des Usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec | Comité régional des usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec | [1981] 1 S.C.R. 424",
+    "method": "citation_exact",
+    "matched_key": "19811scr424",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0151",
+        "score": 3.5,
+        "candidate_title": "Comité Régional des Usagers des transports en commun de Québec v. Commission des transports de la Communauté urbaine de Québec"
+      }
+    ]
+  },
+  "baseline_24": {
+    "uri": "https://synthetic.leread.ca/gold/G0062",
+    "score": 3.0,
+    "candidate_id": "gold-G0062",
+    "candidate_title": "An Act to Amend CCP 1983",
+    "query_text": "legislation | S.Q., 1983 c. 28",
+    "method": "citation_exact",
+    "matched_key": "sq1983c28",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0062",
+        "score": 3.0,
+        "candidate_title": "An Act to Amend CCP 1983"
+      }
+    ]
+  },
+  "baseline_25": {
+    "uri": "https://canlii.ca/t/1fr7q",
+    "score": 3.5,
+    "candidate_id": "1996csc-scc89",
+    "candidate_title": "Guimond v. Quebec (Attorney General)",
+    "query_text": "decision | Guimond v. Québec (Attorney General) | [1996] 3 S.C.R. 347",
+    "method": "citation_exact",
+    "matched_key": "19963scr347",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr7q",
+        "score": 3.5,
+        "candidate_title": "Guimond v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "baseline_26": {
+    "uri": "https://canlii.ca/t/1ftlw",
+    "score": 3.0,
+    "candidate_id": "1987csc-scc56",
+    "candidate_title": "R. v. Lyons",
+    "query_text": "decision | [1987] 2 S.C.R. 309",
+    "method": "citation_exact",
+    "matched_key": "19872scr309",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftlw",
+        "score": 3.0,
+        "candidate_title": "R. v. Lyons"
+      }
+    ]
+  },
+  "baseline_27": {
+    "uri": "https://canlii.ca/t/1fsf6",
+    "score": 3.0,
+    "candidate_id": "1992csc-scc25",
+    "candidate_title": "Canada (Minister of Employment and Immigration) v. Chiarelli",
+    "query_text": "decision | Charelli v. Canada (Minister of Employment and\nImmigration) | [1992] 1 S.C.R. 711",
+    "method": "citation_exact",
+    "matched_key": "19921scr711",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsf6",
+        "score": 3.0,
+        "candidate_title": "Canada (Minister of Employment and Immigration) v. Chiarelli"
+      }
+    ]
+  },
+  "baseline_28": {
+    "uri": "https://canlii.ca/t/1k7",
+    "score": 3.0,
+    "candidate_id": "2002csc-scc75",
+    "candidate_title": "Ruby v. Canada (Solicitor General)",
+    "query_text": "decision | Ruby\nv. Canada\n(Attorney General) | [2002] 4 S.C.R. 3",
+    "method": "citation_exact",
+    "matched_key": "20024scr3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k7",
+        "score": 3.0,
+        "candidate_title": "Ruby v. Canada (Solicitor General)"
+      }
+    ]
+  },
+  "baseline_29": {
+    "uri": "https://canlii.ca/t/1fqdm",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc64",
+    "candidate_title": "États-Unis d'Amérique c. Dynar",
+    "query_text": "decision | United\nStates of America v. Dynar | [1997] 2 S.C.R. 462",
+    "method": "citation_exact",
+    "matched_key": "19972scr462",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqdm",
+        "score": 3.5,
+        "candidate_title": "États-Unis d'Amérique c. Dynar"
+      }
+    ]
+  },
+  "baseline_30": {
+    "uri": "https://canlii.ca/t/55nzg",
+    "score": 3.0,
+    "candidate_id": "l5938!5938-current-1",
+    "candidate_title": "Act respecting the Fonds d'aide aux actions collectives",
+    "query_text": "legislation | R.S.Q., c. R-2.1",
+    "method": "citation_exact",
+    "matched_key": "rsqcr21",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 3.0,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      }
+    ]
+  }
+}

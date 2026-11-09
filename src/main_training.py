@@ -14,6 +14,10 @@ Sweep (expands src.training.lora.DEFAULT_GRIDS):
 
 Dataset-only / smoke test (no model load, no GPU needed):
     python -m src.main_training --model gemma4 --train-on train+silver --dry-run
+
+python -m src.main_training --model gemma4 --train-on silver --dec-pass all --dry-run --chunker paragraph
+python -m src.main_training --model gemma4 --train-on silver --dec-pass all --chunker paragraph
+python -m src.main_training --model gemma4 --train-on train+silver --dec-pass all --chunker paragraph
 """
 import argparse
 import sys
@@ -24,7 +28,11 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from configs.config import MIN_TOKENS
-from src.training.dataset import get_or_build_dataset, load_system_prompt
+from src.training.dataset import (
+    DEC_PASS_CONFIGS,
+    get_or_build_dataset,
+    load_system_prompt,
+)
 from src.training.lora import (
     DEFAULT_GRIDS,
     LoRAConfig,
@@ -49,9 +57,12 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
     # data
     p.add_argument("--chunker", default="paragraph", choices=["paragraph", "sentence"])
+    p.add_argument("--dec-pass", default=None,
+                   help=f"Decomposed pass to train: {list(DEC_PASS_CONFIGS)} or 'all' "
+                        "(union of all 4 passes with task tokens). Default=None trains AIO.")
     p.add_argument("--min-tokens", type=int, default=MIN_TOKENS,
                    help="Chunk-merge threshold; smaller => more, shorter examples.")
-    p.add_argument("--max-seq-len", type=int, default=2048)
+    p.add_argument("--max-seq-len", type=int, default=4096)
     p.add_argument("--rebuild-dataset", action="store_true",
                    help="Ignore the dataset cache and rebuild.")
     p.add_argument("--prompt-type", default="long", choices=["short", "long"])
@@ -125,6 +136,7 @@ def run_one(args, overrides: dict | None = None):
         chunker=args.chunker,
         min_tokens=args.min_tokens,
         force=args.rebuild_dataset,
+        pass_id=args.dec_pass,
     )
     if not examples:
         print("✗ No training examples built — check the annotated data.")
@@ -137,6 +149,17 @@ def run_one(args, overrides: dict | None = None):
         print(f"  examples     : {len(examples)}")
         print(f"  avg input ch : {total_in / len(examples):.0f}")
         print(f"  avg output ch: {total_out / len(examples):.0f}")
+        if args.dec_pass == "all":
+            # per-pass breakdown
+            from collections import Counter
+            pass_counts = Counter()
+            for e in examples:
+                for tok in ("[DEC0]", "[DEC1]", "[DEC2]", "[DEC3]"):
+                    if e["input"].startswith(tok):
+                        pass_counts[tok] += 1
+                        break
+            for p in ("[DEC0]", "[DEC1]", "[DEC2]", "[DEC3]"):
+                print(f"  {p:<8s}: {pass_counts.get(p, 0)} examples")
         print(f"  lora         : {lora}")
         print(f"  sft          : {sft}")
         return None

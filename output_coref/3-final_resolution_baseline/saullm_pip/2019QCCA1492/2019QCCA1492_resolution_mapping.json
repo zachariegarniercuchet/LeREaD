@@ -1,0 +1,231 @@
+{
+  "Farrah": {
+    "uri": "https://canlii.ca/t/1z75c",
+    "score": 3.0,
+    "candidate_id": "1978csc-scc10191",
+    "candidate_title": "Attorney General (Que.) et al. v. Farrah",
+    "query_text": "decision | <i>Attorney General (Quebec) et al. v. Farrah</i> | [1978] 2 S.C.R\n638",
+    "method": "citation_exact",
+    "matched_key": "19782scr638",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z75c",
+        "score": 3.0,
+        "candidate_title": "Attorney General (Que.) et al. v. Farrah"
+      }
+    ]
+  },
+  "Proprio Direct": {
+    "uri": "https://canlii.ca/t/1x205",
+    "score": 3.7,
+    "candidate_id": "2008csc-scc32",
+    "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc.",
+    "query_text": "decision | <i>Association des courtiers et\nagents immobiliers du Québec v. Proprio Direct inc.</i> | 2008 SCC 32 | [2008] 2\nS.C.R. 195",
+    "method": "citation_exact",
+    "matched_key": "20082scr195",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1x205",
+        "score": 3.7,
+        "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc."
+      }
+    ]
+  },
+  "ReferenceReCanadaAssistancePlanBC": {
+    "uri": "https://canlii.ca/t/1fsk9",
+    "score": 2.0,
+    "candidate_id": "1991csc-scc66",
+    "candidate_title": "Reference Re Canada Assistance Plan (B.C.)",
+    "query_text": "decision | Reference Re Canada Assistance Plan (B.C.)",
+    "method": "title_exact",
+    "matched_key": "reference re canada assistance plan b c",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsk9",
+        "score": 2.0,
+        "candidate_title": "Reference Re Canada Assistance Plan (B.C.)"
+      }
+    ]
+  },
+  "DrQvCollegePhysiciansBC": {
+    "uri": "https://canlii.ca/t/1g5l3",
+    "score": 3.7,
+    "candidate_id": "2003csc-scc19",
+    "candidate_title": "Dr. Q. v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | <i>Dr. Q v. College of Physicians and\nSurgeons of British Columbia</i> | 2003 SCC 19 | [2003] 1 S.C.R. 226",
+    "method": "citation_exact",
+    "matched_key": "20031scr226",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1g5l3",
+        "score": 3.7,
+        "candidate_title": "Dr. Q. v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "LawSocietyNewBrunswickvRyan": {
+    "uri": "https://canlii.ca/t/1g5lm",
+    "score": 3.5,
+    "candidate_id": "2003csc-scc20",
+    "candidate_title": "Law Society of New Brunswick v. Ryan",
+    "query_text": "decision | <i>Law Society of New Brunswick v. Ryan</i> | [2003] 1 S.C.R. 247",
+    "method": "citation_exact",
+    "matched_key": "20031scr247",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1g5lm",
+        "score": 3.5,
+        "candidate_title": "Law Society of New Brunswick v. Ryan"
+      }
+    ]
+  },
+  "Canada(DeputyMinisterofNationalRevenue)vMattelCanadaInc.": {
+    "uri": "https://canlii.ca/t/521l",
+    "score": 3.7,
+    "candidate_id": "2001csc-scc36",
+    "candidate_title": "Canada (Deputy Minister of National Revenue) v. Mattel Canada Inc.",
+    "query_text": "decision | <i>Canada (Deputy Minister of\nNational Revenue) v. Mattel Canada Inc.</i> | 2001 SCC 36 | [2001] 2 S.C.R. 100",
+    "method": "citation_exact",
+    "matched_key": "20012scr100",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/521l",
+        "score": 3.7,
+        "candidate_title": "Canada (Deputy Minister of National Revenue) v. Mattel Canada Inc."
+      }
+    ]
+  },
+  "Crevier": {
+    "uri": "https://canlii.ca/t/1mjlq",
+    "score": 3.5,
+    "candidate_id": "1981csc-scc10020",
+    "candidate_title": "Crevier v. A.G. (Québec) et al.",
+    "query_text": "decision | <i>Crevier v. A.G. (Quebec) et al.</i> | [1981] 2 S.C.R. 220.",
+    "method": "citation_exact",
+    "matched_key": "19812scr220",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjlq",
+        "score": 3.5,
+        "candidate_title": "Crevier v. A.G. (Québec) et al."
+      }
+    ]
+  },
+  "InReVancini": {
+    "uri": "https://canlii.ca/t/ggxn8",
+    "score": 2.0,
+    "candidate_id": "1904csc-scc145787",
+    "candidate_title": "In re Vancini",
+    "query_text": "decision | <i>In Re Vancini</i> | (1904) 34\nS.C.R. 621",
+    "method": "title_exact",
+    "matched_key": "in re vancini",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ggxn8",
+        "score": 2.0,
+        "candidate_title": "In re Vancini"
+      }
+    ]
+  },
+  "ReResidentialTenanciesAct1979": {
+    "uri": "https://canlii.ca/t/1mjl9",
+    "score": 3.0,
+    "candidate_id": "1981csc-scc10014",
+    "candidate_title": "Re Residential Tenancies Act",
+    "query_text": "decision | <i>Re Residential Tenancies Act, 1979</i> | [1981] 1\nS.C.R. 714",
+    "method": "citation_exact",
+    "matched_key": "19811scr714",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjl9",
+        "score": 3.0,
+        "candidate_title": "Re Residential Tenancies Act"
+      }
+    ]
+  },
+  "Grondin": {
+    "uri": "https://canlii.ca/t/1lpcg",
+    "score": 3.5,
+    "candidate_id": "1982csc-scc10015",
+    "candidate_title": "Schneider v. The Queen",
+    "query_text": "decision | Attorney General of Québec v. Grondin | <i>Schneider v. The Queen</i> | [1982] 2 S.C.R. 112 | [1983] 2 S.C.R.\n364",
+    "method": "citation_exact",
+    "matched_key": "19822scr112",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpcg",
+        "score": 3.5,
+        "candidate_title": "Schneider v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1xv7x",
+        "score": 3.5,
+        "candidate_title": "Attorney General of Quebec v. Grondin"
+      }
+    ]
+  },
+  "Simard v. Vien": {
+    "uri": "https://canlii.ca/t/fm8cj",
+    "score": 3.5,
+    "candidate_id": "2010qcca2371",
+    "candidate_title": "Simard c. Vien",
+    "query_text": "decision | <i>Simard c. Vien</i> | 2010 QCCA 2371",
+    "method": "citation_exact",
+    "matched_key": "2010qcca2371",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fm8cj",
+        "score": 3.5,
+        "candidate_title": "Simard c. Vien"
+      }
+    ]
+  },
+  "Ferme Jean Bélanger inc. c. Commission de protection du territoire agricole": {
+    "uri": "https://canlii.ca/t/hqhq6",
+    "score": 2.0,
+    "candidate_id": "2018qccs560",
+    "candidate_title": "Ferme Jean Bélanger inc. c. Commission de protection du territoire agricole",
+    "query_text": "decision | Ferme Jean Bélanger inc. c. Commission de protection du territoire agricole",
+    "method": "title_exact",
+    "matched_key": "ferme jean belanger inc c commission de protection du territoire agricole",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hqhq6",
+        "score": 2.0,
+        "candidate_title": "Ferme Jean Bélanger inc. c. Commission de protection du territoire agricole"
+      }
+    ]
+  },
+  "Procureure generale du Quebec c. Ville de Montreal": {
+    "uri": "https://canlii.ca/t/gwqns",
+    "score": 3.5,
+    "candidate_id": "2016qcca2108",
+    "candidate_title": "Procureure générale du Québec c. Ville de Montréal",
+    "query_text": "decision | <i>Procureure générale du Québec c. Ville de\nMontréal</i> | 2016 QCCA 2108",
+    "method": "citation_exact",
+    "matched_key": "2016qcca2108",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwqns",
+        "score": 3.5,
+        "candidate_title": "Procureure générale du Québec c. Ville de Montréal"
+      }
+    ]
+  },
+  "FreresMaristesIbervilleCitLavalVilleDe": {
+    "uri": "https://canlii.ca/t/g7d8f",
+    "score": 3.5,
+    "candidate_id": "2014qcca1176",
+    "candidate_title": "Frères Maristes (Iberville) c. Laval (Ville de)",
+    "query_text": "decision | <i>Frères Maristes (Iberville) c. Laval\n(Ville de)</i> | 2014 QCCA 1176",
+    "method": "citation_exact",
+    "matched_key": "2014qcca1176",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7d8f",
+        "score": 3.5,
+        "candidate_title": "Frères Maristes (Iberville) c. Laval (Ville de)"
+      }
+    ]
+  }
+}

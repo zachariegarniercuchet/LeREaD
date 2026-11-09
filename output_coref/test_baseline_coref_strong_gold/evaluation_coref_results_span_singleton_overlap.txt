@@ -1,0 +1,49 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\test_baseline_coref_strong_gold
+Split: test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 38 evaluation pair(s)
+
+Mention alignment (total over 38 document(s))
+  gold mentions: 8006 | system mentions: 8006 | matched: 8006
+  gold-only (missed): 0 | system-only (spurious): 0
+  mention-level  P=1.000  R=1.000  F1=1.000
+
+
+=== Aggregate over 38 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.9415     │ 0.9304     │ 0.9359     │
+│ B3       │ 0.7165     │ 0.8830     │ 0.7911     │
+│ CEAF_e   │ 0.7746     │ 0.8093     │ 0.7916     │
+│ LEA      │ 0.6649     │ 0.8423     │ 0.7432     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.8395
+
+
+======================================================================
+OVERLAP ALIGNMENT (comparison — main metric remains EXACT above)
+Mentions align on same label + overlapping character offsets.
+======================================================================
+Mention alignment [OVERLAP] (total over 38 document(s))
+  gold mentions: 8006 | system mentions: 8006 | matched: 8005
+  gold-only (missed): 1 | system-only (spurious): 1
+  mention-level  P=1.000  R=1.000  F1=1.000
+
+
+=== Aggregate over 38 document(s) [OVERLAP] ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.9415     │ 0.9304     │ 0.9359     │
+│ B3       │ 0.7166     │ 0.8830     │ 0.7911     │
+│ CEAF_e   │ 0.7747     │ 0.8094     │ 0.7917     │
+│ LEA      │ 0.6650     │ 0.8424     │ 0.7433     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.8396
+

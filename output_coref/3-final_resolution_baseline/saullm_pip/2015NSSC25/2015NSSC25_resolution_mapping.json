@@ -1,0 +1,50 @@
+{
+  "Trinity_Western_University_v_British_Columbia_College_of_Teachers": {
+    "uri": "https://canlii.ca/t/dmd",
+    "score": 2.0,
+    "candidate_id": "2001csc-scc31",
+    "candidate_title": "Trinity Western University v. British Columbia College of Teachers",
+    "query_text": "decision | Trinity Western University v. British Columbia College of\nTeachers | of Teacher",
+    "method": "title_exact",
+    "matched_key": "trinity western university v british columbia college of teachers",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/dmd",
+        "score": 2.0,
+        "candidate_title": "Trinity Western University v. British Columbia College of Teachers"
+      }
+    ]
+  },
+  "R_v_Oakes": {
+    "uri": "https://canlii.ca/t/1ftv6",
+    "score": 2.0,
+    "candidate_id": "1986csc-scc7",
+    "candidate_title": "R. v. Oakes",
+    "query_text": "decision | R. v. Oakes",
+    "method": "title_exact",
+    "matched_key": "r v oakes",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftv6",
+        "score": 2.0,
+        "candidate_title": "R. v. Oakes"
+      }
+    ]
+  },
+  "Saskatchewan_(Human_Rights_Commission)_v_Whatcott": {
+    "uri": "https://canlii.ca/t/fw8x4",
+    "score": 2.0,
+    "candidate_id": "2013csc-scc11",
+    "candidate_title": "Saskatchewan (Human Rights Commission) v. Whatcott",
+    "query_text": "decision | Saskatchewan\n(Human Rights Commission) v. Whatcott",
+    "method": "title_exact",
+    "matched_key": "saskatchewan human rights commission v whatcott",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fw8x4",
+        "score": 2.0,
+        "candidate_title": "Saskatchewan (Human Rights Commission) v. Whatcott"
+      }
+    ]
+  }
+}

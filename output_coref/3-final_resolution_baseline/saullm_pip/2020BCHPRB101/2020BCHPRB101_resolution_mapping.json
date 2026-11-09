@@ -1,0 +1,18 @@
+{
+  "College of Physicians and Surgeons of British Columbia v Health Professions Review Board": {
+    "uri": "https://canlii.ca/t/hw4sk",
+    "score": 3.5,
+    "candidate_id": "2018bcsc2021",
+    "candidate_title": "The College of Physicians and Surgeons of British Columbia v The Health Professions Review Board",
+    "query_text": "decision | <i>The College of Physicians and Surgeons of British Columbia v The\nHealth Professions Review Board</i> | 2018 BCSC 2021",
+    "method": "citation_exact",
+    "matched_key": "2018bcsc2021",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hw4sk",
+        "score": 3.5,
+        "candidate_title": "The College of Physicians and Surgeons of British Columbia v The Health Professions Review Board"
+      }
+    ]
+  }
+}

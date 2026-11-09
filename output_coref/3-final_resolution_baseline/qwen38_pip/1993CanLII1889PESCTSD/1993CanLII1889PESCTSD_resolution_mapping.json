@@ -1,0 +1,513 @@
+{
+  "Ron Engineering & Construction (Eastern) Ltd. v. R.": {
+    "uri": "https://canlii.ca/t/1lpk8",
+    "score": 3.2,
+    "candidate_id": "1981csc-scc10008",
+    "candidate_title": "The Queen (Ont.) v. Ron Engineering",
+    "query_text": "decision | R. in Right of Ontario, et al. v. Ron Engineering &amp; Construction (Eastern)\nLtd. | Ron Engineering | Ron\nEngineering | [1981] 1 S.C.R. 111 | 119 D.L.R.(3d) 267",
+    "method": "citation_exact",
+    "matched_key": "119dlr3d267",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpk8",
+        "score": 3.2,
+        "candidate_title": "The Queen (Ont.) v. Ron Engineering"
+      }
+    ]
+  },
+  "Canamerican Auto Lease and Rental Limited v. Canada": {
+    "uri": "https://synthetic.leread.ca/gold/G0128",
+    "score": 3.5,
+    "candidate_id": "gold-G0128",
+    "candidate_title": "Canamerican Auto Lease and Rental Limited v. Canada",
+    "query_text": "decision | Canamerican Auto Lease and Rental Limited v. Canada | Canamerican Auto Lease | unreported, March 4,\n1985, Fed. T.D.",
+    "method": "citation_exact",
+    "matched_key": "unreportedmarch41985fedtd",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0128",
+        "score": 3.5,
+        "candidate_title": "Canamerican Auto Lease and Rental Limited v. Canada"
+      }
+    ]
+  },
+  "Goldsmith on Canadian Building Contracts": {
+    "uri": "https://synthetic.leread.ca/gold/G0224",
+    "score": 2.0,
+    "candidate_id": "gold-G0224",
+    "candidate_title": "Goldsmith on Canadian Building Contracts",
+    "query_text": "secondary sources | Goldsmith on Canadian Building Contracts | Goldsmith",
+    "method": "title_exact",
+    "matched_key": "goldsmith on canadian building contracts",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0224",
+        "score": 2.0,
+        "candidate_title": "Goldsmith on Canadian Building Contracts"
+      }
+    ]
+  },
+  "Cheshire, Fifoot and Furmston, Law of Contract": {
+    "uri": "https://synthetic.leread.ca/gold/G0295",
+    "score": 2.0,
+    "candidate_id": "gold-G0295",
+    "candidate_title": "Law of Contract",
+    "query_text": "secondary sources | Law of Contract | Cheshire, Fifoot\n&amp; Furmston's Law of Contract | Cheshire, Fifoot and\nFurmston | Cheshire &amp; Fifoot",
+    "method": "title_exact",
+    "matched_key": "law of contract",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0295",
+        "score": 2.0,
+        "candidate_title": "Law of Contract"
+      }
+    ]
+  },
+  "Kawneer Co. Canada, Ltd. v. Bank of Canada": {
+    "uri": "https://canlii.ca/t/g132b",
+    "score": 0.9382716049382716,
+    "candidate_id": "1982onca1000122",
+    "candidate_title": "Kawneer Co. Canada Ltd. v. Bank of Canada",
+    "query_text": "decision | Kawneer Co. Canada, Ltd. v. Bank of Canada (1982) | 40 O.R. (2d) 275 (Ont.\nC.A.)",
+    "method": "fuzzy",
+    "matched_key": "kawneer co canada ltd v bank of canada 1982",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g132b",
+        "score": 0.9382716049382716,
+        "candidate_title": "Kawneer Co. Canada Ltd. v. Bank of Canada"
+      }
+    ]
+  },
+  "Ellis-Don Construction Ltd. v. Canada (Minister of Public Works)": {
+    "uri": "https://synthetic.leread.ca/gold/G0195",
+    "score": 3.5,
+    "candidate_id": "gold-G0195",
+    "candidate_title": "Ellis-Don Construction Ltd. v. Canada (Minister of Public Works)",
+    "query_text": "decision | Ellis-Don Construction Ltd. v. Canada (Minister of Public Works) | (unreported, April 16, 1992, Fed. T.D.)",
+    "method": "citation_exact",
+    "matched_key": "unreportedapril161992fedtd",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0195",
+        "score": 3.5,
+        "candidate_title": "Ellis-Don Construction Ltd. v. Canada (Minister of Public Works)"
+      }
+    ]
+  },
+  "Megatech Contracting Ltd. v. Regional Municipality of Ottawa-Carleton": {
+    "uri": "https://canlii.ca/t/g1k3m",
+    "score": 3.0,
+    "candidate_id": "1989onhcj1000010",
+    "candidate_title": "Megatech Contracting Ltd. v. Ottawa-Carleton (Regional Municipality) (H.C.J.)",
+    "query_text": "decision | Megatech Con- tracting Ltd.\nv. Regional Municipality of Ottawa-Carleton (1989) | Megatech | 68 O.R. (2d) 503 | (Ont.\nS.C.)",
+    "method": "citation_exact",
+    "matched_key": "68or2d503",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1k3m",
+        "score": 3.0,
+        "candidate_title": "Megatech Contracting Ltd. v. Ottawa-Carleton (Regional Municipality) (H.C.J.)"
+      }
+    ]
+  },
+  "Arctic Cooperatives, Ltd. v. Sigyamiut Ltd.": {
+    "uri": "https://synthetic.leread.ca/gold/G0076",
+    "score": 3.5,
+    "candidate_id": "gold-G0076",
+    "candidate_title": "Arctic Cooperatives, Ltd. v. Sigyamiut Ltd.",
+    "query_text": "decision | Arctic Cooperatives, Ltd. v. Sigyamiut Ltd. | (unreported, April 2, 1991,\nN.W.T.S.C.)",
+    "method": "citation_exact",
+    "matched_key": "unreportedapril21991nwtsc",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0076",
+        "score": 3.5,
+        "candidate_title": "Arctic Cooperatives, Ltd. v. Sigyamiut Ltd."
+      }
+    ]
+  },
+  "Spencer v. Harding": {
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 4.1,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
+    "query_text": "decision | Spencer v. Harding | Spencer\nv. Harding | [1870] L.R. 4 C.P. 561 | 39\nL.J.C.P. 332 | 23 L.T. 237 | 19 W.R. 48",
+    "method": "citation_exact",
+    "matched_key": "1870lr4cp561",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 4.1,
+        "candidate_title": "Spencer v. Harding"
+      }
+    ]
+  },
+  "Halsbury": {
+    "uri": "https://synthetic.leread.ca/gold/G0236",
+    "score": 0.9285714285714286,
+    "candidate_id": "gold-G0236",
+    "candidate_title": "Halsbury’s Laws of England",
+    "query_text": "secondary sources | Halsbury's Laws of England\n(4th)",
+    "method": "fuzzy",
+    "matched_key": "halsbury s laws of england 4th",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0236",
+        "score": 0.9285714285714286,
+        "candidate_title": "Halsbury’s Laws of England"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0235",
+        "score": 0.9285714285714286,
+        "candidate_title": "Halsbury's Laws of England"
+      }
+    ]
+  },
+  "Chitty on Contracts": {
+    "uri": "https://synthetic.leread.ca/gold/G0136",
+    "score": 2.0,
+    "candidate_id": "gold-G0136",
+    "candidate_title": "Chitty on Contracts",
+    "query_text": "secondary sources | Chitty on Contracts",
+    "method": "title_exact",
+    "matched_key": "chitty on contracts",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0136",
+        "score": 2.0,
+        "candidate_title": "Chitty on Contracts"
+      }
+    ]
+  },
+  "Hudson": {
+    "uri": "https://synthetic.leread.ca/gold/G0251",
+    "score": 2.0,
+    "candidate_id": "gold-G0251",
+    "candidate_title": "Hudson's Building and Engineering Contracts",
+    "query_text": "secondary sources | Hudson's\nBuilding and Engineering Contracts | Hudson's Building and Engineering Contracts | I.N.D. Wallace",
+    "method": "title_exact",
+    "matched_key": "hudson s building and engineering contracts",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0251",
+        "score": 2.0,
+        "candidate_title": "Hudson's Building and Engineering Contracts"
+      }
+    ]
+  },
+  "Carlill v. Carbolic Smoke Ball Co.": {
+    "uri": "https://synthetic.leread.ca/gold/G0129",
+    "score": 4.1,
+    "candidate_id": "gold-G0129",
+    "candidate_title": "Carlill v. Carbolic Smoke Ball Co.",
+    "query_text": "decision | Carlill v. Carbolic Smoke Ball Co. | [1893]\n1 Q.B. 256 | 62 L.J.Q.B. 257 | 67 L.J. 837 | (1891-4) All E.R. Rep.\n127 (C.A.)",
+    "method": "citation_exact",
+    "matched_key": "18914allerrep127ca",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0129",
+        "score": 4.1,
+        "candidate_title": "Carlill v. Carbolic Smoke Ball Co."
+      }
+    ]
+  },
+  "Globe Heating & Plumbing Ltd. v. Northern Construction Co.": {
+    "uri": "https://canlii.ca/t/2dk33",
+    "score": 0.9090909090909091,
+    "candidate_id": "1986abca3",
+    "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd.",
+    "query_text": "decision | Globe Heating &amp; Plumbing Ltd. v. Northern Construction Co. | [1986] 2 W.W.R.\n649 (Alta. C.A.)",
+    "method": "fuzzy",
+    "matched_key": "globe heating plumbing ltd v northern construction co",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dk33",
+        "score": 0.9090909090909091,
+        "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd."
+      }
+    ]
+  },
+  "Northern Construction Company Division of Morrison-Knudsen Company, Inc. and the Canadian Indemnity Company v. The City of Calgary": {
+    "uri": "https://canlii.ca/t/1ftjp",
+    "score": 3.0,
+    "candidate_id": "1987csc-scc91",
+    "candidate_title": "Calgary v. Northern Construction co.",
+    "query_text": "decision | Northern Construction Company Division of Morrison-Knudsen Company, Inc.\nand the Canadian Indemnity Company v. The City of Calgary | [1987] 2 S.C.R. 757",
+    "method": "citation_exact",
+    "matched_key": "19872scr757",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftjp",
+        "score": 3.0,
+        "candidate_title": "Calgary v. Northern Construction co."
+      }
+    ]
+  },
+  "Bate Equipment Ltd. v. Ellis-Don Ltd.": {
+    "uri": "https://canlii.ca/t/gq9cz",
+    "score": 0.9315068493150684,
+    "candidate_id": "1992abqb1000269",
+    "candidate_title": "Bate Equipment Ltd. v. Ellis-Don Ltd. (1992)",
+    "query_text": "decision | Bate Equipment Ltd. v. Ellis-Don Ltd. | (unreported, July 21, 1992, Alta. Q.B.)",
+    "method": "fuzzy",
+    "matched_key": "bate equipment ltd v ellis don ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gq9cz",
+        "score": 0.9315068493150684,
+        "candidate_title": "Bate Equipment Ltd. v. Ellis-Don Ltd. (1992)"
+      }
+    ]
+  },
+  "Slave Lake (Town) v. Appleton Construction Ltd. et al. (1987)": {
+    "uri": "https://synthetic.leread.ca/gold/G0328",
+    "score": 2.0,
+    "candidate_id": "gold-G0328",
+    "candidate_title": "Martselos Services Ltd. v. Arctic College",
+    "query_text": "decision | Slave Lake (Town) v. Appleton Construction Ltd. et al. (1987) | Protec Installations Ltd. v. Aberdeen Construction Ltd. (1993) | Kencor Holdings Ltd. v. Saskatchewan (1991) | Scott Steel (Ottawa)\nLtd. v. R.J. Nicol Construction (1975) Ltd. | Martselos Services Ltd., v. Arctic College | Slave Lake (Town) v. Appleton Con- struction Ltd. et\nal. (1987) | 80 A.R. 276\n(Alta. Q.B.) | 6\nC.L.R. (2d) 143 (B.C.S.C.) | 6\nW.W.R. 717 (Sask. Q.B.) | 80 A.R. 276 (Alta. Q.B.)",
+    "method": "title_exact",
+    "matched_key": "martselos services ltd v arctic college",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0328",
+        "score": 2.0,
+        "candidate_title": "Martselos Services Ltd. v. Arctic College"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0440",
+        "score": 2.0,
+        "candidate_title": "Scott Steel (Ottawa) Ltd. v. R.J. Nicol Construction (1975) Ltd."
+      }
+    ]
+  },
+  "Whistler Service Park Ltd. v. Whistler (Resort Municipality) (1990)": {
+    "uri": "https://canlii.ca/t/1dt9j",
+    "score": 0.95,
+    "candidate_id": "1990bcsc10799",
+    "candidate_title": "Whistler Service Park Ltd. v. Whistler (Resort Municipality of)",
+    "query_text": "decision | Whistler Service Park Ltd. v. Whistler\n(Resort Municipality) (1990) | Whistler | 50 M.P.L.R. 233 (B.C.S.C.)",
+    "method": "fuzzy",
+    "matched_key": "whistler service park ltd v whistler resort municipality 1990",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1dt9j",
+        "score": 0.95,
+        "candidate_title": "Whistler Service Park Ltd. v. Whistler (Resort Municipality of)"
+      }
+    ]
+  },
+  "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)": {
+    "uri": "https://synthetic.leread.ca/gold/G0090",
+    "score": 3.5,
+    "candidate_id": "gold-G0090",
+    "candidate_title": "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)",
+    "query_text": "decision | Ben Bruinsma &amp; Sons Ltd. v. the Corporation of the City of Chatham et\nal. (1984) | Bruinsma | 11 C.L.R. 37 (Ont. S.C.)",
+    "method": "citation_exact",
+    "matched_key": "11clr37ontsc",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0090",
+        "score": 3.5,
+        "candidate_title": "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)"
+      }
+    ]
+  },
+  "Chinook Aggregates Ltd. v. Abbotsford Municipal District (1989)": {
+    "uri": "https://canlii.ca/t/1p6r2",
+    "score": 0.8543689320388349,
+    "candidate_id": "1989bcca10012",
+    "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)",
+    "query_text": "decision | Chinook\nAggregates Ltd. v. Abbotsford Municipal District (1989) | Chinook Aggregates | 40 B.C.L.R. (2d) 345\n(B.C.C.A.)",
+    "method": "fuzzy",
+    "matched_key": "chinook aggregates ltd v abbotsford municipal district 1989",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p6r2",
+        "score": 0.8543689320388349,
+        "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)"
+      }
+    ]
+  },
+  "Martselos Services Ltd., v. Arctic College": {
+    "uri": "https://synthetic.leread.ca/gold/G0328",
+    "score": 2.0,
+    "candidate_id": "gold-G0328",
+    "candidate_title": "Martselos Services Ltd. v. Arctic College",
+    "query_text": "decision | Martselos Services Ltd. | Martselos",
+    "method": "title_exact",
+    "matched_key": "martselos",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0328",
+        "score": 2.0,
+        "candidate_title": "Martselos Services Ltd. v. Arctic College"
+      }
+    ]
+  },
+  "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc. (1991)": {
+    "uri": "https://canlii.ca/t/1p8z3",
+    "score": 0.9557522123893806,
+    "candidate_id": "1991pescad198710005",
+    "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.",
+    "query_text": "decision | Hawes v. Sherwood-Parkdale Metro Junior Hockey Club\nInc. (1991) | 96 Nfld. &amp; P.E.I.R. 169 (P.E.I.S.C.T.D.)",
+    "method": "fuzzy",
+    "matched_key": "hawes v sherwood parkdale metro junior hockey club inc 1991",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p8z3",
+        "score": 0.9557522123893806,
+        "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc."
+      }
+    ]
+  },
+  "Georgia Construction Co. v. Pacific Great Eastern Railway": {
+    "uri": "https://canlii.ca/t/21v1l",
+    "score": 3.0,
+    "candidate_id": "1929csc-scc1000004",
+    "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co.",
+    "query_text": "decision | Georgia\nConstruction Co. v. Pacific Great Eastern Railway | [1929] S.C.R. 630",
+    "method": "citation_exact",
+    "matched_key": "1929scr630",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21v1l",
+        "score": 3.0,
+        "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co."
+      }
+    ]
+  },
+  "Cartwright & Crickmore, Ltd. v. MacInnes": {
+    "uri": "https://canlii.ca/t/21v1x",
+    "score": 3.5,
+    "candidate_id": "1931csc-scc1000000",
+    "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes",
+    "query_text": "decision | Cartwright &amp; Crickmore, Ltd. v. MacInnes | [1931] S.C.R. 425",
+    "method": "citation_exact",
+    "matched_key": "1931scr425",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 3.5,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      }
+    ]
+  },
+  "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)": {
+    "uri": "https://synthetic.leread.ca/gold/G0013",
+    "score": 3.5,
+    "candidate_id": "gold-G0013",
+    "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)",
+    "query_text": "decision | Acme\nBuilding and Construction Ltd. v. Newcastle (Town) (1992) | Acme | 2 C.L.R. (2d) 308\n(Ont. C.A.)",
+    "method": "citation_exact",
+    "matched_key": "2clr2d308ontca",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0013",
+        "score": 3.5,
+        "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0012",
+        "score": 3.5,
+        "candidate_title": "Acme Building and Construction Ltd. v. Newcastle (Town) (1992)"
+      }
+    ]
+  },
+  "Power Agencies Co. and DuPont Canada Inc. v. Newfoundland Hospital and Nursing Home Assoc. (1991)": {
+    "uri": "https://canlii.ca/t/g8xr6",
+    "score": 0.9662921348314607,
+    "candidate_id": "1991nlsctd19751000110",
+    "candidate_title": "Power Agencies Co. and Du Pont Canada Inc. v. Newfoundland Hospital and Nursing Home Assoc.",
+    "query_text": "decision | Power Agencies Co. and DuPont Canada Inc. v. Newfoundland Hospital and Nursing\nHome Assoc. (1991) | 90 Nfld. &amp; P.E.I.R. 64 (Nfld. S.C.)",
+    "method": "fuzzy",
+    "matched_key": "power agencies co and dupont canada inc v newfoundland hospital and nursing home assoc 1991",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8xr6",
+        "score": 0.9662921348314607,
+        "candidate_title": "Power Agencies Co. and Du Pont Canada Inc. v. Newfoundland Hospital and Nursing Home Assoc."
+      }
+    ]
+  },
+  "Richardson v. Silvester": {
+    "uri": "https://synthetic.leread.ca/gold/G0421",
+    "score": 3.5,
+    "candidate_id": "gold-G0421",
+    "candidate_title": "Richardson v. Silvester (1873)",
+    "query_text": "decision | Richardson v. Silvester (1873) | L.R. 9\nQ.B. 34",
+    "method": "citation_exact",
+    "matched_key": "lr9qb34",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0421",
+        "score": 3.5,
+        "candidate_title": "Richardson v. Silvester (1873)"
+      }
+    ]
+  },
+  "Zutphen Bros. Construction Ltd. v. Attorney General of Nova Scotia": {
+    "uri": "https://synthetic.leread.ca/gold/G0538",
+    "score": 3.5,
+    "candidate_id": "gold-G0538",
+    "candidate_title": "Zutphen Bros. Construction Ltd. v. Attorney General of Nova Scotia",
+    "query_text": "decision | Zutphen Bros. Construction Ltd. v. Attorney General of Nova Scotia | Zutphen Bros. | (unreported, September 15, 1993 N.S.S.C.)",
+    "method": "citation_exact",
+    "matched_key": "unreportedseptember151993nssc",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0538",
+        "score": 3.5,
+        "candidate_title": "Zutphen Bros. Construction Ltd. v. Attorney General of Nova Scotia"
+      }
+    ]
+  },
+  "Arrowsmith, Government Procurement and Judicial Review": {
+    "uri": "https://synthetic.leread.ca/gold/G0227",
+    "score": 2.0,
+    "candidate_id": "gold-G0227",
+    "candidate_title": "Government Procurement and Judicial Review",
+    "query_text": "secondary sources | Government Procurement and\nJudicial Review | Arrowsmith | Arrowsmith",
+    "method": "title_exact",
+    "matched_key": "government procurement and judicial review",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0227",
+        "score": 2.0,
+        "candidate_title": "Government Procurement and Judicial Review"
+      }
+    ]
+  },
+  "M.J. Peddlesden Ltd. v. Liddle Construction, Ltd. (1981)": {
+    "uri": "https://canlii.ca/t/23pbl",
+    "score": 0.9148936170212766,
+    "candidate_id": "1981bcsc1000170",
+    "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd.",
+    "query_text": "decision | M.J. Peddlesden Ltd. v. Liddle Construction, Ltd. (1981) | 128 D.L.R. (3d) 360\n(B.C.S.C.)",
+    "method": "fuzzy",
+    "matched_key": "m j peddlesden ltd v liddle construction ltd 1981",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23pbl",
+        "score": 0.9148936170212766,
+        "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd."
+      }
+    ]
+  },
+  "Pitch, Damages for Breach of Contract": {
+    "uri": "https://synthetic.leread.ca/gold/G0174",
+    "score": 2.0,
+    "candidate_id": "gold-G0174",
+    "candidate_title": "Damages for Breach of Contract",
+    "query_text": "secondary sources | Damages\nfor Breach of Contract | Pitch",
+    "method": "title_exact",
+    "matched_key": "damages for breach of contract",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0174",
+        "score": 2.0,
+        "candidate_title": "Damages for Breach of Contract"
+      }
+    ]
+  }
+}

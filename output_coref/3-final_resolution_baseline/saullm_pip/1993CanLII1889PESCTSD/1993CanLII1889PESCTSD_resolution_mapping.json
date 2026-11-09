@@ -1,0 +1,210 @@
+{
+  "Canamerican Auto Lease": {
+    "uri": "https://synthetic.leread.ca/gold/G0128",
+    "score": 2.0,
+    "candidate_id": "gold-G0128",
+    "candidate_title": "Canamerican Auto Lease and Rental Limited v. Canada",
+    "query_text": "decision | Canamerican Auto Lease",
+    "method": "title_exact",
+    "matched_key": "canamerican auto lease",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0128",
+        "score": 2.0,
+        "candidate_title": "Canamerican Auto Lease and Rental Limited v. Canada"
+      }
+    ]
+  },
+  "Spencer v. Harding": {
+    "uri": "https://synthetic.leread.ca/gold/G0449",
+    "score": 4.1,
+    "candidate_id": "gold-G0449",
+    "candidate_title": "Spencer v. Harding",
+    "query_text": "decision | Spencer v. Harding | Spencer\nv. Harding | [1870] L.R. 4 C.P. 561 | 39\nL.J.C.P. 332 | 23 L.T. 237 | 19 W.R. 48",
+    "method": "citation_exact",
+    "matched_key": "1870lr4cp561",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0449",
+        "score": 4.1,
+        "candidate_title": "Spencer v. Harding"
+      }
+    ]
+  },
+  "Carlill v. Carbolic Smoke Ball Co.": {
+    "uri": "https://synthetic.leread.ca/gold/G0129",
+    "score": 4.1,
+    "candidate_id": "gold-G0129",
+    "candidate_title": "Carlill v. Carbolic Smoke Ball Co.",
+    "query_text": "decision | Carlill v. Carbolic Smoke Ball Co. | [1893]\n1 Q.B. 256 | 62 L.J.Q.B. 257 | 67 L.J. 837 | (1891-4) All E.R. Rep.\n127 (C.A.)",
+    "method": "citation_exact",
+    "matched_key": "18914allerrep127ca",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0129",
+        "score": 4.1,
+        "candidate_title": "Carlill v. Carbolic Smoke Ball Co."
+      }
+    ]
+  },
+  "Globe Heating & Plumbing Ltd. v. Northern Construction Co.": {
+    "uri": "https://canlii.ca/t/2dk33",
+    "score": 0.9090909090909091,
+    "candidate_id": "1986abca3",
+    "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd.",
+    "query_text": "decision | Globe Heating &amp; Plumbing Ltd. v. Northern Construction Co. | [1986] 2 W.W.R.\n649 (Alta. C.A.)",
+    "method": "fuzzy",
+    "matched_key": "globe heating plumbing ltd v northern construction co",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dk33",
+        "score": 0.9090909090909091,
+        "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd."
+      }
+    ]
+  },
+  "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al.": {
+    "uri": "https://synthetic.leread.ca/gold/G0090",
+    "score": 0.9645390070921985,
+    "candidate_id": "gold-G0090",
+    "candidate_title": "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)",
+    "query_text": "decision | Ben Bruinsma &amp; Sons Ltd. v. the Corporation of the City of Chatham et\nal. | 11 C.L.R. 37 (Ont. S.C.), (\"Bruinsma\")",
+    "method": "fuzzy",
+    "matched_key": "ben bruinsma sons ltd v the corporation of the city of chatham et al",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0090",
+        "score": 0.9645390070921985,
+        "candidate_title": "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)"
+      }
+    ]
+  },
+  "Slave Lake (Town) v. Appleton Construction Ltd. et al.": {
+    "uri": "https://canlii.ca/t/28lgz",
+    "score": 0.98989898989899,
+    "candidate_id": "1987abqb1000166",
+    "candidate_title": "Slave Lake (Town) v. Appleton Construction Ltd.",
+    "query_text": "decision | Slave Lake (Town) v. Appleton Con- struction Ltd. et\nal. | 80 A.R. 276 (Alta. Q.B.)",
+    "method": "fuzzy",
+    "matched_key": "slave lake town v appleton con struction ltd et al",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28lgz",
+        "score": 0.98989898989899,
+        "candidate_title": "Slave Lake (Town) v. Appleton Construction Ltd."
+      }
+    ]
+  },
+  "Chinook Aggregates Ltd. v. Abbotsford Municipal District": {
+    "uri": "https://canlii.ca/t/1p6r2",
+    "score": 0.8979591836734694,
+    "candidate_id": "1989bcca10012",
+    "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)",
+    "query_text": "decision | Chinook\nAggregates Ltd. v. Abbotsford Municipal District | (1989), 40 B.C.L.R. (2d) 345\n(B.C.C.A.),",
+    "method": "fuzzy",
+    "matched_key": "chinook aggregates ltd v abbotsford municipal district",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p6r2",
+        "score": 0.8979591836734694,
+        "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)"
+      }
+    ]
+  },
+  "Best Cleaners & Contractors Ltd. v. Canada": {
+    "uri": "https://canlii.ca/t/jqtg0",
+    "score": 3.0,
+    "candidate_id": "1985fctad1000042",
+    "candidate_title": "Best Cleaners and Contractors Ltd. v. The Queen",
+    "query_text": "decision | Best Cleaners &amp; Contractors Ltd. v. Canada | 58 N.R. 295",
+    "method": "citation_exact",
+    "matched_key": "58nr295",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqtg0",
+        "score": 3.0,
+        "candidate_title": "Best Cleaners and Contractors Ltd. v. The Queen"
+      }
+    ]
+  },
+  "Bruinsma": {
+    "uri": "https://synthetic.leread.ca/gold/G0090",
+    "score": 2.0,
+    "candidate_id": "gold-G0090",
+    "candidate_title": "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)",
+    "query_text": "decision | Bruinsma",
+    "method": "title_exact",
+    "matched_key": "bruinsma",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0090",
+        "score": 2.0,
+        "candidate_title": "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)"
+      }
+    ]
+  },
+  "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.": {
+    "uri": "https://canlii.ca/t/1p8z3",
+    "score": 2.0,
+    "candidate_id": "1991pescad198710005",
+    "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.",
+    "query_text": "decision | Hawes v. Sherwood-Parkdale Metro Junior Hockey Club\nInc. | (1991), 96 Nfld. &amp; P.E.I.R. 169 (P.E.I.S.C.T.D.)",
+    "method": "title_exact",
+    "matched_key": "hawes v sherwood parkdale metro junior hockey club inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p8z3",
+        "score": 2.0,
+        "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc."
+      }
+    ]
+  },
+  "Georgia Construction Co. v. Pacific Great Eastern Railway": {
+    "uri": "https://canlii.ca/t/21v1l",
+    "score": 3.0,
+    "candidate_id": "1929csc-scc1000004",
+    "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co.",
+    "query_text": "decision | Georgia\nConstruction Co. v. Pacific Great Eastern Railway | [1929] S.C.R. 630",
+    "method": "citation_exact",
+    "matched_key": "1929scr630",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21v1l",
+        "score": 3.0,
+        "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co."
+      }
+    ]
+  },
+  "M.J. Peddlesden Ltd. v. Liddle Construction, Ltd.": {
+    "uri": "https://canlii.ca/t/23pbl",
+    "score": 0.9662921348314607,
+    "candidate_id": "1981bcsc1000170",
+    "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd.",
+    "query_text": "decision | M.J. Peddlesden Ltd. v. Liddle Construction, Ltd. | (1981), 128 D.L.R. (3d) 360",
+    "method": "fuzzy",
+    "matched_key": "m j peddlesden ltd v liddle construction ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23pbl",
+        "score": 0.9662921348314607,
+        "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd."
+      }
+    ]
+  },
+  "Zutphen Bros.": {
+    "uri": "https://synthetic.leread.ca/gold/G0538",
+    "score": 2.0,
+    "candidate_id": "gold-G0538",
+    "candidate_title": "Zutphen Bros. Construction Ltd. v. Attorney General of Nova Scotia",
+    "query_text": "decision | Zutphen Bros.",
+    "method": "title_exact",
+    "matched_key": "zutphen bros",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0538",
+        "score": 2.0,
+        "candidate_title": "Zutphen Bros. Construction Ltd. v. Attorney General of Nova Scotia"
+      }
+    ]
+  }
+}

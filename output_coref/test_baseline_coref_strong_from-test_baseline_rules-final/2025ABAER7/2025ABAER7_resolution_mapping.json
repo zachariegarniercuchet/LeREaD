@@ -1,0 +1,97 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/kfpl2",
+    "score": 2.0,
+    "candidate_id": "2025abaer7",
+    "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch",
+    "query_text": "decision | Canadian Natural Resources\nLimited v. AER Regulatory Compliance Branch",
+    "method": "title_exact",
+    "matched_key": "canadian natural resources limited v aer regulatory compliance branch",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kfpl2",
+        "score": 2.0,
+        "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch"
+      }
+    ]
+  },
+  "baseline_1": {
+    "uri": "https://canlii.ca/t/xhz",
+    "score": 2.0,
+    "candidate_id": "l5679!5679-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | EPEA | Positions. 6\nAnalysis  8\nAdministrative\nPenalty Regulation Limitation Period | Administrative Penalty Regulation | EPEA and the Administrative Penalty Regulation | EPEA and the Administrative\nPenalty Regulation | Administrative\nPenalty Regulation to determine a base penalty amount and | EPEA\nnor that the penalty is valid and was validly issued to | Administrative\nPenalty Regulation\nBackground | Administrative\nPenalty Regulation | Interpretation Act and | Interpretation Act | Interpretation Act or EPEA | EPEA and REDA provisions\naddressing interaction with other legislation and the AER’s mandate | EPEA regulates the storing\nand handling of hazardous substances. While Canadian Natural focused\nspecifically on the element of direct contact | Administrative Penalty\nRegulation Limitation Period | Administrative Penalty\nRegulation addresses timing of a notice of administrative penalty. It | Administrative Penalty Regulation\nonly creates a procedural deadline for issuing a notice of an administrative\npenalty and does not serve to grant immunity to an offence.\nAnalysis | EPEA cannot stand | Administrative Penalty\nRegulation | Administrative | Administrative\nPenalty Regulation establishes the process and criteria for determining the\namount of an administrative penalty. After a base penalty amount is\nestablished | EPEA as applied in the\nnotice of administrative penalty and find that the offence occurred on days\nwhen oilings did not occur | Administrative\nPenalty Regulation and apply them to the varied penalty in a new | EPEA applied in the notice of administrative penalty | EPEA by failing to store a hazardous\nsubstance in a manner that ensured that the | EPEA to this proceeding’s facts.\nConsidering relevant case law and legislative guidance in reviewing the\nregulatory framework",
+    "method": "title_exact",
+    "matched_key": "interpretation act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/xhz",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 2.0,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "baseline_4": {
+    "uri": "https://canlii.ca/t/56vzq",
+    "score": 2.0,
+    "candidate_id": "l17678!17678-current-1",
+    "candidate_title": "Environmental Protection and Enhancement Act",
+    "query_text": "legislation | Environmental Protection and Enhancement Act",
+    "method": "title_exact",
+    "matched_key": "environmental protection and enhancement act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 2.0,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      }
+    ]
+  },
+  "baseline_13": {
+    "uri": "https://canlii.ca/t/1fqwt",
+    "score": 3.0,
+    "candidate_id": "1998csc-scc5",
+    "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)",
+    "query_text": "decision | [1998] 1 SCR 27",
+    "method": "citation_exact",
+    "matched_key": "19981scr27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqwt",
+        "score": 3.0,
+        "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)"
+      }
+    ]
+  },
+  "baseline_14": {
+    "uri": "https://canlii.ca/t/j46kb",
+    "score": 3.0,
+    "candidate_id": "2019csc-scc65",
+    "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov",
+    "query_text": "decision | Parliament.” It also noted the Supreme Court’s statement from Canada\n(Minister of Citizenship and Immigration) v Vavilov | 2019 SCC 65",
+    "method": "citation_exact",
+    "matched_key": "2019scc65",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j46kb",
+        "score": 3.0,
+        "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov"
+      }
+    ]
+  }
+}

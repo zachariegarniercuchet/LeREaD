@@ -1,0 +1,55 @@
+{
+  "MegumaGold": {
+    "uri": "https://canlii.ca/t/k9zcz",
+    "score": 3.0,
+    "candidate_id": "2025nbeub1",
+    "candidate_title": "MegumaGold Corp. (Re)",
+    "query_text": "decision | Citation: MegumaGold Corp. (Re) | 2025 NBEUB 1",
+    "method": "citation_exact",
+    "matched_key": "2025nbeub1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k9zcz",
+        "score": 3.0,
+        "candidate_title": "MegumaGold Corp. (Re)"
+      }
+    ]
+  },
+  "Mining Act": {
+    "uri": "https://canlii.ca/t/56f38",
+    "score": 2.0,
+    "candidate_id": "l23667!23667-current-1",
+    "candidate_title": "Mining Act",
+    "query_text": "legislation | <span style=\"font-size:12.0pt\">MINING ACT</span> | <i>Mining Act</i> | Act | <i>Act</i> | the <i>Act</i> | <span style=\"font-size:12.0pt\">S.N.B., c. M-14.1</span>",
+    "method": "title_exact",
+    "matched_key": "mining act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56f38",
+        "score": 2.0,
+        "candidate_title": "Mining Act"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0203",
+        "score": 2.0,
+        "candidate_title": "Excise Tax Act"
+      }
+    ]
+  },
+  "Stewart": {
+    "uri": "https://canlii.ca/t/1mchs",
+    "score": 2.0,
+    "candidate_id": "1995nbqb10026",
+    "candidate_title": "Stewart v. New Brunswick (Mining Commissioner)",
+    "query_text": "decision | <b><i>Stewart v. New Brunswick (Mining Commissioner)</i></b> | (1995), N.B.R. (2d) 353 (Q.B.) | [1995] N.B.J. No. 191",
+    "method": "title_exact",
+    "matched_key": "stewart v new brunswick mining commissioner",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mchs",
+        "score": 2.0,
+        "candidate_title": "Stewart v. New Brunswick (Mining Commissioner)"
+      }
+    ]
+  }
+}

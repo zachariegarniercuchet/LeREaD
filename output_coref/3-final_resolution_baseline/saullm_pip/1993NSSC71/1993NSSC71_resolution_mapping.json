@@ -1,0 +1,34 @@
+{
+  "Trainor v Trainor": {
+    "uri": "https://canlii.ca/t/gbtwt",
+    "score": 2.0,
+    "candidate_id": "1990pesctd19871000019",
+    "candidate_title": "Trainor v. Trainor",
+    "query_text": "decision | Trainor v Trainor | (1990), 87 Nfld. &amp;\nP.E.I.R. 37",
+    "method": "title_exact",
+    "matched_key": "trainor v trainor",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbtwt",
+        "score": 2.0,
+        "candidate_title": "Trainor v. Trainor"
+      }
+    ]
+  },
+  "WillistonRolls1": {
+    "uri": "https://synthetic.leread.ca/gold/G0473",
+    "score": 0.8524590163934426,
+    "candidate_id": "gold-G0473",
+    "candidate_title": "The Law of Civil Procedure",
+    "query_text": "secondary sources | The Law of Civil Procedure, Volume 1 | Williston and Rolls",
+    "method": "fuzzy",
+    "matched_key": "the law of civil procedure volume 1",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0473",
+        "score": 0.8524590163934426,
+        "candidate_title": "The Law of Civil Procedure"
+      }
+    ]
+  }
+}

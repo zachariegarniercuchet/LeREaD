@@ -1,0 +1,1451 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/h438n",
+    "score": 3.0,
+    "candidate_id": "2017abca157",
+    "candidate_title": "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing",
+    "query_text": "decision | Technologies (Canada) Inc. v EnCana Midstream\nand Marketing | 2017 ABCA 157",
+    "method": "citation_exact",
+    "matched_key": "2017abca157",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h438n",
+        "score": 3.0,
+        "candidate_title": "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing"
+      }
+    ]
+  },
+  "baseline_1": {
+    "uri": "https://canlii.ca/t/g8r0n",
+    "score": 3.0,
+    "candidate_id": "2014abqb470",
+    "candidate_title": "IFP Technologies (Canada) v Encana Midstream and Marketing",
+    "query_text": "decision | Technologies (Canada) v Encana Midstream and Marketing | 2014 ABQB 470",
+    "method": "citation_exact",
+    "matched_key": "2014abqb470",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8r0n",
+        "score": 3.0,
+        "candidate_title": "IFP Technologies (Canada) v Encana Midstream and Marketing"
+      }
+    ]
+  },
+  "baseline_4": {
+    "uri": "https://canlii.ca/t/ggkhh",
+    "score": 3.5,
+    "candidate_id": "2015csc-scc10",
+    "candidate_title": "Potter v. New Brunswick Legal Aid Services Commission",
+    "query_text": "decision | Potter v\nNew Brunswick Legal Aid Services Commission | Potter v New Brunswick Legal Aid Services Commission | 2015 SCC 10",
+    "method": "citation_exact",
+    "matched_key": "2015scc10",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ggkhh",
+        "score": 3.5,
+        "candidate_title": "Potter v. New Brunswick Legal Aid Services Commission"
+      }
+    ]
+  },
+  "baseline_5": {
+    "uri": "https://canlii.ca/t/ggkhh",
+    "score": 3.0,
+    "candidate_id": "2015csc-scc10",
+    "candidate_title": "Potter v. New Brunswick Legal Aid Services Commission",
+    "query_text": "decision | [2015] 1 SCR 500",
+    "method": "citation_exact",
+    "matched_key": "20151scr500",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ggkhh",
+        "score": 3.0,
+        "candidate_title": "Potter v. New Brunswick Legal Aid Services Commission"
+      }
+    ]
+  },
+  "baseline_6": {
+    "uri": "https://canlii.ca/t/g88q1",
+    "score": 3.7,
+    "candidate_id": "2014csc-scc53",
+    "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp.",
+    "query_text": "decision | Sattva Capital Corp. v Creston Moly Corp. | Sattva Capital Corp v Creston Moly Corp | 2014 SCC 53 | [2014] 2 SCR 633",
+    "method": "citation_exact",
+    "matched_key": "20142scr633",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g88q1",
+        "score": 3.7,
+        "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp."
+      }
+    ]
+  },
+  "baseline_8": {
+    "uri": "https://canlii.ca/t/gf84s",
+    "score": 3.7,
+    "candidate_id": "2014csc-scc71",
+    "candidate_title": "Bhasin v. Hrynew",
+    "query_text": "decision | Bhasin v Hrynew | 2014 SCC 71 | [2014] 3 SCR 494",
+    "method": "citation_exact",
+    "matched_key": "20143scr494",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gf84s",
+        "score": 3.7,
+        "candidate_title": "Bhasin v. Hrynew"
+      }
+    ]
+  },
+  "baseline_37": {
+    "uri": "https://canlii.ca/t/75m",
+    "score": 0.9552238805970149,
+    "candidate_id": "d469!d469",
+    "candidate_title": "Good Faith as An Organizing Principle in Contract Law: Bhasin v Hrynew – Two Steps Forward & One Look",
+    "query_text": "secondary sources | Good Faith as an Organizing Principle\nin Contract Law: Bhasin v Hrynew – Two Steps Forward and One Look Back | Creek | Robertson | AJ No 537 (QL) | Eyehill | Jedfro Investments (USA) | All ER\n25 (CA)",
+    "method": "fuzzy",
+    "matched_key": "good faith as an organizing principle in contract law bhasin v hrynew two steps forward and one look back",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/75m",
+        "score": 0.9552238805970149,
+        "candidate_title": "Good Faith as An Organizing Principle in Contract Law: Bhasin v Hrynew – Two Steps Forward & One Look"
+      }
+    ]
+  },
+  "baseline_40": {
+    "uri": "https://canlii.ca/t/56kbt",
+    "score": 2.0,
+    "candidate_id": "l18616!18616-current-1",
+    "candidate_title": "Petroleum and Natural gas Tenure Regulation",
+    "query_text": "legislation | Petroleum and Natural Gas Tenure Regulation",
+    "method": "title_exact",
+    "matched_key": "petroleum and natural gas tenure regulation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kbt",
+        "score": 2.0,
+        "candidate_title": "Petroleum and Natural gas Tenure Regulation"
+      }
+    ]
+  },
+  "baseline_43": {
+    "uri": "https://canlii.ca/t/gr6cd",
+    "score": 3.5,
+    "candidate_id": "2016csc-scc19",
+    "candidate_title": "Heritage Capital Corp. v. Equitable Trust Co.",
+    "query_text": "decision | Heritage Capital Corp. v Equitable Trust Co. | Heritage Capital Corp v Equitable Trust Co | 2016 SCC 19 | 2016\nSCC 19",
+    "method": "citation_exact",
+    "matched_key": "2016scc19",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gr6cd",
+        "score": 3.5,
+        "candidate_title": "Heritage Capital Corp. v. Equitable Trust Co."
+      }
+    ]
+  },
+  "baseline_44": {
+    "uri": "https://canlii.ca/t/gr6cd",
+    "score": 3.0,
+    "candidate_id": "2016csc-scc19",
+    "candidate_title": "Heritage Capital Corp. v. Equitable Trust Co.",
+    "query_text": "decision | [2016] 1 SCR 306",
+    "method": "citation_exact",
+    "matched_key": "20161scr306",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gr6cd",
+        "score": 3.0,
+        "candidate_title": "Heritage Capital Corp. v. Equitable Trust Co."
+      }
+    ]
+  },
+  "baseline_45": {
+    "uri": "https://canlii.ca/t/gs8m4",
+    "score": 3.5,
+    "candidate_id": "2016bcca283",
+    "candidate_title": "British Columbia (Minister of Technology Innovation and Citizens’ Services) v. Columbus Real Estate Inc.",
+    "query_text": "decision | British\nColumbia (Minister of Technology Innovation and Citizens’ Services) v Columbus\nReal Estate Inc. | 2016 BCCA 283",
+    "method": "citation_exact",
+    "matched_key": "2016bcca283",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gs8m4",
+        "score": 3.5,
+        "candidate_title": "British Columbia (Minister of Technology Innovation and Citizens’ Services) v. Columbus Real Estate Inc."
+      }
+    ]
+  },
+  "baseline_46": {
+    "uri": "https://canlii.ca/t/gpknc",
+    "score": 3.0,
+    "candidate_id": "2016onca275",
+    "candidate_title": "Starrcoll Inc. v. 2281927 Ontario Ltd.",
+    "query_text": "decision | 2016 ONCA 275",
+    "method": "citation_exact",
+    "matched_key": "2016onca275",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gpknc",
+        "score": 3.0,
+        "candidate_title": "Starrcoll Inc. v. 2281927 Ontario Ltd."
+      }
+    ]
+  },
+  "baseline_48": {
+    "uri": "https://canlii.ca/t/gh170",
+    "score": 3.0,
+    "candidate_id": "2015abca127",
+    "candidate_title": "Bighorn (Municipal District No. 8) v Bow Valley Waste Management Commission",
+    "query_text": "decision | District No. 8) v Bow Valley Waste Management\nCommission | 2015 ABCA 127",
+    "method": "citation_exact",
+    "matched_key": "2015abca127",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gh170",
+        "score": 3.0,
+        "candidate_title": "Bighorn (Municipal District No. 8) v Bow Valley Waste Management Commission"
+      }
+    ]
+  },
+  "baseline_49": {
+    "uri": "https://canlii.ca/t/gtpvn",
+    "score": 3.7,
+    "candidate_id": "2016csc-scc37",
+    "candidate_title": "Ledcor Construction Ltd. v. Northbridge Indemnity Insurance Co.",
+    "query_text": "decision | Ledcor Construction Ltd. v\nNorthbridge Indemnity Insurance Co. | Ledcor Construction Ltd v Northbridge\nIndemnity Insurance Co | 2016 SCC 37 | [2016] 2 SCR 23",
+    "method": "citation_exact",
+    "matched_key": "20162scr23",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gtpvn",
+        "score": 3.7,
+        "candidate_title": "Ledcor Construction Ltd. v. Northbridge Indemnity Insurance Co."
+      }
+    ]
+  },
+  "baseline_53": {
+    "uri": "https://canlii.ca/t/h35kt",
+    "score": 3.0,
+    "candidate_id": "2017onca293",
+    "candidate_title": "Deslaurier Custom Cabinets Inc. v. 1728106 Ontario Inc.",
+    "query_text": "decision | 2017 ONCA 293",
+    "method": "citation_exact",
+    "matched_key": "2017onca293",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h35kt",
+        "score": 3.0,
+        "candidate_title": "Deslaurier Custom Cabinets Inc. v. 1728106 Ontario Inc."
+      }
+    ]
+  },
+  "baseline_54": {
+    "uri": "https://canlii.ca/t/g25sg",
+    "score": 3.5,
+    "candidate_id": "2013csc-scc67",
+    "candidate_title": "McLean v. British Columbia (Securities Commission)",
+    "query_text": "decision | McLean v British Columbia\n(Securities Commission) | 2013 SCC 67",
+    "method": "citation_exact",
+    "matched_key": "2013scc67",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g25sg",
+        "score": 3.5,
+        "candidate_title": "McLean v. British Columbia (Securities Commission)"
+      }
+    ]
+  },
+  "baseline_55": {
+    "uri": "https://canlii.ca/t/g25sg",
+    "score": 3.0,
+    "candidate_id": "2013csc-scc67",
+    "candidate_title": "McLean v. British Columbia (Securities Commission)",
+    "query_text": "decision | [2013] 3 SCR 895",
+    "method": "citation_exact",
+    "matched_key": "20133scr895",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g25sg",
+        "score": 3.0,
+        "candidate_title": "McLean v. British Columbia (Securities Commission)"
+      }
+    ]
+  },
+  "baseline_56": {
+    "uri": "https://canlii.ca/t/51tl",
+    "score": 3.7,
+    "candidate_id": "2002csc-scc33",
+    "candidate_title": "Housen v. Nikolaisen",
+    "query_text": "decision | Housen v\nNikolaisen | [2002] 2 SCR 235 | 2002 SCC 33",
+    "method": "citation_exact",
+    "matched_key": "20022scr235",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tl",
+        "score": 3.7,
+        "candidate_title": "Housen v. Nikolaisen"
+      }
+    ]
+  },
+  "baseline_59": {
+    "uri": "https://canlii.ca/t/1frpl",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc81",
+    "candidate_title": "Hodgkinson v. Simms",
+    "query_text": "decision | Hodgkinson v\nSimms | [1994] 3 SCR 377",
+    "method": "citation_exact",
+    "matched_key": "19943scr377",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frpl",
+        "score": 3.5,
+        "candidate_title": "Hodgkinson v. Simms"
+      }
+    ]
+  },
+  "baseline_60": {
+    "uri": "https://canlii.ca/t/gmnjq",
+    "score": 3.5,
+    "candidate_id": "2015abca406",
+    "candidate_title": "Attila Dogan Construction and Installation Co. Inc. v AMEC Americas Limited",
+    "query_text": "decision | Attila Dogan Construction and\nInstallation Co. Inc. v AMEC Americas Limited | Attila\nDogan Construction and Installation Co v AMEC Americas Ltd | 2015 ABCA 406 | 2015 ABCA\n406",
+    "method": "citation_exact",
+    "matched_key": "2015abca406",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gmnjq",
+        "score": 3.5,
+        "candidate_title": "Attila Dogan Construction and Installation Co. Inc. v AMEC Americas Limited"
+      }
+    ]
+  },
+  "baseline_61": {
+    "uri": "https://canlii.ca/t/gfd17",
+    "score": 3.5,
+    "candidate_id": "2014abca386",
+    "candidate_title": "1216808 Alberta Ltd. (Prairie Bailiff Services) v Devtex Ltd.",
+    "query_text": "decision | 1216808 Alberta Ltd. (Prairie Bailiff Services) v Devtex Ltd. | 2014 ABCA 386",
+    "method": "citation_exact",
+    "matched_key": "2014abca386",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gfd17",
+        "score": 3.5,
+        "candidate_title": "1216808 Alberta Ltd. (Prairie Bailiff Services) v Devtex Ltd."
+      }
+    ]
+  },
+  "baseline_62": {
+    "uri": "https://canlii.ca/t/1rrrw",
+    "score": 3.0,
+    "candidate_id": "2007onca425",
+    "candidate_title": "FL Receivables Trust 2002-A v. Cobrand Foods Ltd.",
+    "query_text": "decision | Receivables Trust 2002‑A\nv Cobrand Foods Ltd. | Receivables Trust 2002-A v Cobrand Foods Ltd | 2007 ONCA 425",
+    "method": "citation_exact",
+    "matched_key": "2007onca425",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rrrw",
+        "score": 3.0,
+        "candidate_title": "FL Receivables Trust 2002-A v. Cobrand Foods Ltd."
+      }
+    ]
+  },
+  "baseline_64": {
+    "uri": "https://canlii.ca/t/27zz2",
+    "score": 3.5,
+    "candidate_id": "2010csc-scc4",
+    "candidate_title": "Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)",
+    "query_text": "decision | Tercon\nContractors Ltd. v British Columbia (Transportation and Highways) | 2010\nSCC 4",
+    "method": "citation_exact",
+    "matched_key": "2010scc4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/27zz2",
+        "score": 3.5,
+        "candidate_title": "Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)"
+      }
+    ]
+  },
+  "baseline_65": {
+    "uri": "https://canlii.ca/t/27zz2",
+    "score": 3.0,
+    "candidate_id": "2010csc-scc4",
+    "candidate_title": "Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)",
+    "query_text": "decision | [2010] 1 SCR 69",
+    "method": "citation_exact",
+    "matched_key": "20101scr69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/27zz2",
+        "score": 3.0,
+        "candidate_title": "Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)"
+      }
+    ]
+  },
+  "baseline_66": {
+    "uri": "https://synthetic.leread.ca/gold/G0173",
+    "score": 0.8793103448275862,
+    "candidate_id": "gold-G0173",
+    "candidate_title": "Regina v Secretary of State for the Home Department, Ex Parte Daly",
+    "query_text": "decision | Regina v Secretary of State for the Home\nDepartment",
+    "method": "fuzzy",
+    "matched_key": "regina v secretary of state for the home department",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0173",
+        "score": 0.8793103448275862,
+        "candidate_title": "Regina v Secretary of State for the Home Department, Ex Parte Daly"
+      }
+    ]
+  },
+  "baseline_68": {
+    "uri": "https://canlii.ca/t/gdxt2",
+    "score": 3.5,
+    "candidate_id": "2014skca106",
+    "candidate_title": "Directcash Management Inc. v Seven Oaks Inn Partnership",
+    "query_text": "decision | Directcash\nManagement Inc. v Seven Oaks Inn Partnership | 2014 SKCA 106",
+    "method": "citation_exact",
+    "matched_key": "2014skca106",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gdxt2",
+        "score": 3.5,
+        "candidate_title": "Directcash Management Inc. v Seven Oaks Inn Partnership"
+      }
+    ]
+  },
+  "baseline_69": {
+    "uri": "https://canlii.ca/t/fvxv1",
+    "score": 3.5,
+    "candidate_id": "2013abca40",
+    "candidate_title": "Nexxtep Resources Ltd v Talisman Energy Inc",
+    "query_text": "decision | Nexxtep Resources Ltd v Talisman Energy Inc | 2013\nABCA 40",
+    "method": "citation_exact",
+    "matched_key": "2013abca40",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fvxv1",
+        "score": 3.5,
+        "candidate_title": "Nexxtep Resources Ltd v Talisman Energy Inc"
+      }
+    ]
+  },
+  "baseline_71": {
+    "uri": "https://canlii.ca/t/1qd9v",
+    "score": 3.5,
+    "candidate_id": "2007onca59",
+    "candidate_title": "Dumbrell v. The Regional Group of Companies Inc.",
+    "query_text": "decision | Dumbrell v\nThe Regional Group of Companies Inc. | 2007 ONCA 59",
+    "method": "citation_exact",
+    "matched_key": "2007onca59",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1qd9v",
+        "score": 3.5,
+        "candidate_title": "Dumbrell v. The Regional Group of Companies Inc."
+      }
+    ]
+  },
+  "baseline_72": {
+    "uri": "https://canlii.ca/t/1fbkq",
+    "score": 2.0,
+    "candidate_id": "2001onca14",
+    "candidate_title": "Hi-Tech Group Inc. v. Sears Canada Inc.",
+    "query_text": "decision | Hi‑Tech Group Inc. v Sears Canada Inc.",
+    "method": "title_exact",
+    "matched_key": "hi tech group inc v sears canada inc",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fbkq",
+        "score": 2.0,
+        "candidate_title": "Hi-Tech Group Inc. v. Sears Canada Inc."
+      }
+    ]
+  },
+  "baseline_73": {
+    "uri": "https://canlii.ca/t/1n6lt",
+    "score": 0.8869565217391304,
+    "candidate_id": "2000nlscad197521",
+    "candidate_title": "Eco-Zone Engineering Ltd. v. Grand Falls - Windsor (Town)",
+    "query_text": "decision | Eco‑Zone\nEngineering Ltd. v Grand Falls‑Windsor (Town), 2000 NFCA 21",
+    "method": "fuzzy",
+    "matched_key": "eco zone engineering ltd v grand falls windsor town 2000 nfca 21",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1n6lt",
+        "score": 0.8869565217391304,
+        "candidate_title": "Eco-Zone Engineering Ltd. v. Grand Falls - Windsor (Town)"
+      }
+    ]
+  },
+  "baseline_74": {
+    "uri": "https://canlii.ca/t/59nt",
+    "score": 3.5,
+    "candidate_id": "2003mbca71",
+    "candidate_title": "Geoffrey L. Moore Realty Inc. v. The Manitoba Motor League",
+    "query_text": "decision | Geoffrey L. Moore Realty Inc. v The Manitoba Motor League | 2003 MBCA 71",
+    "method": "citation_exact",
+    "matched_key": "2003mbca71",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/59nt",
+        "score": 3.5,
+        "candidate_title": "Geoffrey L. Moore Realty Inc. v. The Manitoba Motor League"
+      }
+    ]
+  },
+  "baseline_75": {
+    "uri": "https://canlii.ca/t/fnbhh",
+    "score": 3.0,
+    "candidate_id": "2011mbca80",
+    "candidate_title": "King v. Operating Engineers Training",
+    "query_text": "decision | King v Operating Engineers\nTraining Institute of Manitoba Inc. | 2011 MBCA 80",
+    "method": "citation_exact",
+    "matched_key": "2011mbca80",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fnbhh",
+        "score": 3.0,
+        "candidate_title": "King v. Operating Engineers Training"
+      }
+    ]
+  },
+  "baseline_76": {
+    "uri": "https://synthetic.leread.ca/gold/G0521",
+    "score": 2.0,
+    "candidate_id": "gold-G0521",
+    "candidate_title": "Investors Compensation Scheme Ltd. v West Bromwich Building Society",
+    "query_text": "decision | Investors Compensation Scheme Ltd. v West Bromwich\nBuilding Society",
+    "method": "title_exact",
+    "matched_key": "investors compensation scheme ltd v west bromwich building society",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0521",
+        "score": 2.0,
+        "candidate_title": "Investors Compensation Scheme Ltd. v West Bromwich Building Society"
+      }
+    ]
+  },
+  "baseline_77": {
+    "uri": "https://canlii.ca/t/fkrlt",
+    "score": 3.5,
+    "candidate_id": "2011abca101",
+    "candidate_title": "Keephills Aggregate Company Limited v. Riverview Properties Inc.",
+    "query_text": "decision | Keephills\nAggregate Company Limited v Riverview Properties Inc. | Keephills Aggregate Co v\nRiverview Properties Inc | 2011 ABCA 101",
+    "method": "citation_exact",
+    "matched_key": "2011abca101",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fkrlt",
+        "score": 3.5,
+        "candidate_title": "Keephills Aggregate Company Limited v. Riverview Properties Inc."
+      }
+    ]
+  },
+  "baseline_79": {
+    "uri": "https://canlii.ca/t/gg1qj",
+    "score": 3.5,
+    "candidate_id": "2015onca33",
+    "candidate_title": "Wesbell Networks Inc. v. Bell Canada",
+    "query_text": "decision | Wesbell Networks Inc. v Bell Canada | 2015 ONCA 33",
+    "method": "citation_exact",
+    "matched_key": "2015onca33",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gg1qj",
+        "score": 3.5,
+        "candidate_title": "Wesbell Networks Inc. v. Bell Canada"
+      }
+    ]
+  },
+  "baseline_80": {
+    "uri": "https://canlii.ca/t/5sjd",
+    "score": 3.5,
+    "candidate_id": "1998abca333",
+    "candidate_title": "Paddon Hughes Development v. Pancontinental Oil",
+    "query_text": "decision | Paddon Hughes Development v Pancontinental\nOil | 1998 ABCA 333",
+    "method": "citation_exact",
+    "matched_key": "1998abca333",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5sjd",
+        "score": 3.5,
+        "candidate_title": "Paddon Hughes Development v. Pancontinental Oil"
+      }
+    ]
+  },
+  "baseline_81": {
+    "uri": "https://canlii.ca/t/5rrr",
+    "score": 0.9662921348314607,
+    "candidate_id": "2000abca215",
+    "candidate_title": "Guaranty Properties Limited v. Edmonton (City of)",
+    "query_text": "decision | Guaranty Properties Limited v Edmonton (City",
+    "method": "fuzzy",
+    "matched_key": "guaranty properties limited v edmonton city",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5rrr",
+        "score": 0.9662921348314607,
+        "candidate_title": "Guaranty Properties Limited v. Edmonton (City of)"
+      }
+    ]
+  },
+  "baseline_82": {
+    "uri": "https://canlii.ca/t/5rrr",
+    "score": 3.0,
+    "candidate_id": "2000abca215",
+    "candidate_title": "Guaranty Properties Limited v. Edmonton (City of)",
+    "query_text": "decision | 2000 ABCA 215",
+    "method": "citation_exact",
+    "matched_key": "2000abca215",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5rrr",
+        "score": 3.0,
+        "candidate_title": "Guaranty Properties Limited v. Edmonton (City of)"
+      }
+    ]
+  },
+  "baseline_83": {
+    "uri": "https://canlii.ca/t/gvvmz",
+    "score": 3.5,
+    "candidate_id": "2016onca912",
+    "candidate_title": "Shewchuk v. Blackmont Capital Inc.",
+    "query_text": "decision | Shewchuk\nv Blackmont Capital Inc. | 2016 ONCA 912",
+    "method": "citation_exact",
+    "matched_key": "2016onca912",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gvvmz",
+        "score": 3.5,
+        "candidate_title": "Shewchuk v. Blackmont Capital Inc."
+      }
+    ]
+  },
+  "baseline_86": {
+    "uri": "https://canlii.ca/t/51tw",
+    "score": 3.7,
+    "candidate_id": "2002csc-scc7",
+    "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd.",
+    "query_text": "decision | Bank of\nMontreal v Dynex Petroleum Ltd. | [2002] 1 SCR 146 | 2002 SCC 7",
+    "method": "citation_exact",
+    "matched_key": "20021scr146",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tw",
+        "score": 3.7,
+        "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd."
+      }
+    ]
+  },
+  "baseline_88": {
+    "uri": "https://canlii.ca/t/1tfwx",
+    "score": 3.5,
+    "candidate_id": "2003abca277",
+    "candidate_title": "Alberta Energy Company Ltd. v. Goodwell Petroleum Corporation Ltd.",
+    "query_text": "decision | Alberta\nEnergy Company Ltd. v Goodwell Petroleum Corporation Ltd. | 2003 ABCA\n277",
+    "method": "citation_exact",
+    "matched_key": "2003abca277",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tfwx",
+        "score": 3.5,
+        "candidate_title": "Alberta Energy Company Ltd. v. Goodwell Petroleum Corporation Ltd."
+      }
+    ]
+  },
+  "baseline_89": {
+    "uri": "https://canlii.ca/t/h3bs5",
+    "score": 3.5,
+    "candidate_id": "2017abca124",
+    "candidate_title": "Orphan Well Association v Grant Thornton Limited",
+    "query_text": "decision | Orphan\nWell Association v Grant Thornton Limited | 2017 ABCA 124",
+    "method": "citation_exact",
+    "matched_key": "2017abca124",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h3bs5",
+        "score": 3.5,
+        "candidate_title": "Orphan Well Association v Grant Thornton Limited"
+      }
+    ]
+  },
+  "baseline_90": {
+    "uri": "https://synthetic.leread.ca/gold/G0288",
+    "score": 2.0,
+    "candidate_id": "gold-G0288",
+    "candidate_title": "L’interprétation des contrats",
+    "query_text": "secondary sources | thermal development | L’interprétation\ndes contrats | Eyehill Creek | Montemurro | Saden | F. Gendron",
+    "method": "title_exact",
+    "matched_key": "l interpretation des contrats",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0288",
+        "score": 2.0,
+        "candidate_title": "L’interprétation des contrats"
+      }
+    ]
+  },
+  "baseline_92": {
+    "uri": "https://canlii.ca/t/21xpk",
+    "score": 3.0,
+    "candidate_id": "2008csc-scc69",
+    "candidate_title": "BCE Inc. v. 1976 Debentureholders",
+    "query_text": "decision | 2008 SCC 69",
+    "method": "citation_exact",
+    "matched_key": "2008scc69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21xpk",
+        "score": 3.0,
+        "candidate_title": "BCE Inc. v. 1976 Debentureholders"
+      }
+    ]
+  },
+  "baseline_93": {
+    "uri": "https://canlii.ca/t/21xpk",
+    "score": 3.0,
+    "candidate_id": "2008csc-scc69",
+    "candidate_title": "BCE Inc. v. 1976 Debentureholders",
+    "query_text": "decision | [2008] 3 SCR 560",
+    "method": "citation_exact",
+    "matched_key": "20083scr560",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21xpk",
+        "score": 3.0,
+        "candidate_title": "BCE Inc. v. 1976 Debentureholders"
+      }
+    ]
+  },
+  "baseline_94": {
+    "uri": "https://canlii.ca/t/1p6kp",
+    "score": 0.9618320610687023,
+    "candidate_id": "1994abca94",
+    "candidate_title": "Mesa Operating Limited Partnership v. Amoco Canada Resources Ltd.",
+    "query_text": "decision | Mesa\nOperating Limited Partnership v Amoco Canada Resources Ltd. (1994)",
+    "method": "fuzzy",
+    "matched_key": "mesa operating limited partnership v amoco canada resources ltd 1994",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p6kp",
+        "score": 0.9618320610687023,
+        "candidate_title": "Mesa Operating Limited Partnership v. Amoco Canada Resources Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/gqb0s",
+        "score": 0.9291338582677166,
+        "candidate_title": "Mesa Operating Ltd. v. Amoco Canada (1992)"
+      }
+    ]
+  },
+  "baseline_96": {
+    "uri": "https://canlii.ca/t/1mzhq",
+    "score": 3.0,
+    "candidate_id": "1975csc-scc10005",
+    "candidate_title": "Penvidic v. International Nickel",
+    "query_text": "decision | Penvidic v International\nNickel (1975) | [1976] 1 SCR 267",
+    "method": "citation_exact",
+    "matched_key": "19761scr267",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mzhq",
+        "score": 3.0,
+        "candidate_title": "Penvidic v. International Nickel"
+      }
+    ]
+  },
+  "baseline_97": {
+    "uri": "https://canlii.ca/t/1xdt3",
+    "score": 2.0,
+    "candidate_id": "1970csc-scc10148",
+    "candidate_title": "Webb & Knapp (Canada) Limited et al. v. City of Edmonton",
+    "query_text": "decision | Webb &amp; Knapp\n(Canada) Ltd. v Edmonton (City)",
+    "method": "title_exact",
+    "matched_key": "webb knapp canada ltd v edmonton city",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1xdt3",
+        "score": 2.0,
+        "candidate_title": "Webb & Knapp (Canada) Limited et al. v. City of Edmonton"
+      }
+    ]
+  },
+  "baseline_98": {
+    "uri": "https://canlii.ca/t/fqj0w",
+    "score": 3.5,
+    "candidate_id": "2011abca189",
+    "candidate_title": "Dallin v. Montgomery",
+    "query_text": "decision | Dallin\nv Montgomery | 2011 ABCA 189",
+    "method": "citation_exact",
+    "matched_key": "2011abca189",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqj0w",
+        "score": 3.5,
+        "candidate_title": "Dallin v. Montgomery"
+      }
+    ]
+  },
+  "baseline_101": {
+    "uri": "https://canlii.ca/t/1nlgn",
+    "score": 2.0,
+    "candidate_id": "1969csc-scc10001",
+    "candidate_title": "Hawrish v. Bank of Montreal",
+    "query_text": "decision | Hawrish\nv Bank of Montreal",
+    "method": "title_exact",
+    "matched_key": "hawrish v bank of montreal",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nlgn",
+        "score": 2.0,
+        "candidate_title": "Hawrish v. Bank of Montreal"
+      }
+    ]
+  },
+  "baseline_102": {
+    "uri": "https://canlii.ca/t/1txg3",
+    "score": 3.0,
+    "candidate_id": "1982csc-scc10037",
+    "candidate_title": "Carman Construction Ltd. v. Canadian Pacific Railway Co.",
+    "query_text": "decision | Carman\nConstruction v Canadian Pacific Railway Co | [1982] 1 SCR 958",
+    "method": "citation_exact",
+    "matched_key": "19821scr958",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1txg3",
+        "score": 3.0,
+        "candidate_title": "Carman Construction Ltd. v. Canadian Pacific Railway Co."
+      }
+    ]
+  },
+  "baseline_104": {
+    "uri": "https://canlii.ca/t/1k864",
+    "score": 3.0,
+    "candidate_id": "2005csc-scc25",
+    "candidate_title": "H.L. v. Canada (Attorney General)",
+    "query_text": "decision | 2005 SCC 25",
+    "method": "citation_exact",
+    "matched_key": "2005scc25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k864",
+        "score": 3.0,
+        "candidate_title": "H.L. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "baseline_105": {
+    "uri": "https://canlii.ca/t/1k864",
+    "score": 3.0,
+    "candidate_id": "2005csc-scc25",
+    "candidate_title": "H.L. v. Canada (Attorney General)",
+    "query_text": "decision | [2005] 1 SCR 401",
+    "method": "citation_exact",
+    "matched_key": "20051scr401",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k864",
+        "score": 3.0,
+        "candidate_title": "H.L. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "baseline_106": {
+    "uri": "https://canlii.ca/t/g2s18",
+    "score": 3.7,
+    "candidate_id": "2014csc-scc7",
+    "candidate_title": "Hryniak v. Mauldin",
+    "query_text": "decision | Hryniak\nv Mauldin | 2014 SCC 7 | [2014] 1 SCR 87",
+    "method": "citation_exact",
+    "matched_key": "20141scr87",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g2s18",
+        "score": 3.7,
+        "candidate_title": "Hryniak v. Mauldin"
+      }
+    ]
+  },
+  "baseline_107": {
+    "uri": "https://synthetic.leread.ca/gold/G0531",
+    "score": 2.0,
+    "candidate_id": "gold-G0531",
+    "candidate_title": "Wood v Capita Insurance Services Ltd",
+    "query_text": "decision | Wood\nv Capita Insurance Services Ltd",
+    "method": "title_exact",
+    "matched_key": "wood v capita insurance services ltd",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0531",
+        "score": 2.0,
+        "candidate_title": "Wood v Capita Insurance Services Ltd"
+      }
+    ]
+  },
+  "baseline_108": {
+    "uri": "https://canlii.ca/t/1kwrr",
+    "score": 3.0,
+    "candidate_id": "2003abca221",
+    "candidate_title": "Ron Ghitter Property Consultants Ltd. v. Beaver Lumber Company Limited",
+    "query_text": "decision | Prof. Fridman quotes from Ron Ghitter Property\nConsultants Ltd v Beaver Lumber Co | 2003 ABCA 221",
+    "method": "citation_exact",
+    "matched_key": "2003abca221",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1kwrr",
+        "score": 3.0,
+        "candidate_title": "Ron Ghitter Property Consultants Ltd. v. Beaver Lumber Company Limited"
+      }
+    ]
+  },
+  "baseline_109": {
+    "uri": "https://canlii.ca/t/gx01m",
+    "score": 0.926829268292683,
+    "candidate_id": "2017csc-scc-al147308",
+    "candidate_title": "Ontario Electricity Financial Corporation, et al. v. Iroquois Falls Power Corporation, et al.",
+    "query_text": "decision | Ontario Electricity Financial Corporation v Iroquois\nFalls Power Corporation",
+    "method": "fuzzy",
+    "matched_key": "ontario electricity financial corporation v iroquois falls power corporation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gx01m",
+        "score": 0.926829268292683,
+        "candidate_title": "Ontario Electricity Financial Corporation, et al. v. Iroquois Falls Power Corporation, et al."
+      }
+    ]
+  },
+  "baseline_110": {
+    "uri": "https://canlii.ca/t/gpkj0",
+    "score": 3.0,
+    "candidate_id": "2016onca271",
+    "candidate_title": "Iroquois Falls Power Corporation v. Ontario Electricity Financial Corporation",
+    "query_text": "decision | 2016 ONCA 271",
+    "method": "citation_exact",
+    "matched_key": "2016onca271",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gpkj0",
+        "score": 3.0,
+        "candidate_title": "Iroquois Falls Power Corporation v. Ontario Electricity Financial Corporation"
+      }
+    ]
+  },
+  "baseline_111": {
+    "uri": "https://canlii.ca/t/gpkj0",
+    "score": 3.0,
+    "candidate_id": "2016onca271",
+    "candidate_title": "Iroquois Falls Power Corporation v. Ontario Electricity Financial Corporation",
+    "query_text": "decision | 398\nD.L.R. (4th) 652",
+    "method": "citation_exact",
+    "matched_key": "398dlr4th652",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gpkj0",
+        "score": 3.0,
+        "candidate_title": "Iroquois Falls Power Corporation v. Ontario Electricity Financial Corporation"
+      }
+    ]
+  },
+  "baseline_112": {
+    "uri": "https://canlii.ca/t/2f0t8",
+    "score": 0.9323308270676691,
+    "candidate_id": "1983abca33",
+    "candidate_title": "Sundance Investment Corporation Ltd. v. Richfield Properties Limited",
+    "query_text": "decision | Sundance\nInvestment Corporation Ltd v Richfield Properties Ltd (1983)",
+    "method": "fuzzy",
+    "matched_key": "sundance investment corporation ltd v richfield properties ltd 1983",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2f0t8",
+        "score": 0.9323308270676691,
+        "candidate_title": "Sundance Investment Corporation Ltd. v. Richfield Properties Limited"
+      }
+    ]
+  },
+  "baseline_113": {
+    "uri": "https://canlii.ca/t/299kt",
+    "score": 0.8873239436619719,
+    "candidate_id": "1980abqb1000095",
+    "candidate_title": "Coopers & Lybrand Ltd. v. William Schwartz Construction Co.",
+    "query_text": "decision | Community Drug Marts P\n&amp; S Inc Estate v William Schwartz Construction Co Ltd (1980)",
+    "method": "fuzzy",
+    "matched_key": "community drug marts p s inc estate v william schwartz construction co ltd 1980",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/299kt",
+        "score": 0.8873239436619719,
+        "candidate_title": "Coopers & Lybrand Ltd. v. William Schwartz Construction Co."
+      }
+    ]
+  },
+  "baseline_114": {
+    "uri": "https://canlii.ca/t/flkns",
+    "score": 3.0,
+    "candidate_id": "2011abca158",
+    "candidate_title": "Ford Motor Company of Canada, Limited v. Welcome Ford Sales Ltd.",
+    "query_text": "decision | Limited v Welcome Ford Sales Ltd | 2011 ABCA\n158",
+    "method": "citation_exact",
+    "matched_key": "2011abca158",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/flkns",
+        "score": 3.0,
+        "candidate_title": "Ford Motor Company of Canada, Limited v. Welcome Ford Sales Ltd."
+      }
+    ]
+  },
+  "baseline_115": {
+    "uri": "https://canlii.ca/t/fqhzh",
+    "score": 3.0,
+    "candidate_id": "2010abca199",
+    "candidate_title": "Pivotal Capital Advisory Group Ltd. v. NorAmera BioEnergy Corporation",
+    "query_text": "decision | Pivotal Capital Advisory\nGroup Ltd v NorAmera BioEnergy Corp | 2010 ABCA 199",
+    "method": "citation_exact",
+    "matched_key": "2010abca199",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqhzh",
+        "score": 3.0,
+        "candidate_title": "Pivotal Capital Advisory Group Ltd. v. NorAmera BioEnergy Corporation"
+      }
+    ]
+  },
+  "baseline_117": {
+    "uri": "https://canlii.ca/t/1j5fr",
+    "score": 3.2,
+    "candidate_id": "2004csc-scc75",
+    "candidate_title": "Pacific National Investments Ltd. v. Victoria (City)",
+    "query_text": "decision | 34 citing Pacific National Investments Ltd v Victoria (City) | [2004] 3 SCR 575 | 2004 SCC 75",
+    "method": "citation_exact",
+    "matched_key": "20043scr575",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1j5fr",
+        "score": 3.2,
+        "candidate_title": "Pacific National Investments Ltd. v. Victoria (City)"
+      }
+    ]
+  },
+  "baseline_118": {
+    "uri": "https://canlii.ca/t/1fbtg",
+    "score": 0.9508196721311475,
+    "candidate_id": "2001onca256",
+    "candidate_title": "Black v. Canada (Prime Minister)",
+    "query_text": "decision | Black v Canada (Prime Minister), (2001) | Black\nv Canada (Prime Minister). In",
+    "method": "fuzzy",
+    "matched_key": "black v canada prime minister 2001",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fbtg",
+        "score": 0.9508196721311475,
+        "candidate_title": "Black v. Canada (Prime Minister)"
+      }
+    ]
+  },
+  "baseline_119": {
+    "uri": "https://canlii.ca/t/gsq3d",
+    "score": 3.7,
+    "candidate_id": "2016csc-scc34",
+    "candidate_title": "Ferme Vi‑Ber inc. v. Financière agricole du Québec",
+    "query_text": "decision | Ferme\nVi-Ber Inc v Financière agricole du Québec | 2016 SCC 34 | [2016] 1 SCR 1032",
+    "method": "citation_exact",
+    "matched_key": "20161scr1032",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gsq3d",
+        "score": 3.7,
+        "candidate_title": "Ferme Vi‑Ber inc. v. Financière agricole du Québec"
+      }
+    ]
+  },
+  "baseline_120": {
+    "uri": "https://canlii.ca/t/6fw77",
+    "score": 2.0,
+    "candidate_id": "l6195!6195-current-1",
+    "candidate_title": "Code civil du Québec",
+    "query_text": "legislation | Civil Code of\nQuébec",
+    "method": "title_exact",
+    "matched_key": "civil code of quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fw77",
+        "score": 2.0,
+        "candidate_title": "Code civil du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 2.0,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v3w",
+        "score": 2.0,
+        "candidate_title": "Civil Code of Québec"
+      }
+    ]
+  },
+  "baseline_121": {
+    "uri": "https://canlii.ca/t/1fqp0",
+    "score": 0.9347826086956522,
+    "candidate_id": "1999csc-scc19",
+    "candidate_title": "M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.",
+    "query_text": "decision | Enterprises Ltd. v. Defence Construction (1951)",
+    "method": "fuzzy",
+    "matched_key": "enterprises ltd v defence construction 1951",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqp0",
+        "score": 0.9347826086956522,
+        "candidate_title": "M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd."
+      }
+    ]
+  },
+  "baseline_122": {
+    "uri": "https://canlii.ca/t/1fqp0",
+    "score": 3.0,
+    "candidate_id": "1999csc-scc19",
+    "candidate_title": "M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.",
+    "query_text": "decision | [1999] 1 SCR 619",
+    "method": "citation_exact",
+    "matched_key": "19991scr619",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqp0",
+        "score": 3.0,
+        "candidate_title": "M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd."
+      }
+    ]
+  },
+  "baseline_123": {
+    "uri": "https://canlii.ca/t/gfbv3",
+    "score": 3.0,
+    "candidate_id": "2014nlscad41",
+    "candidate_title": "Marine Atlantic Inc. v. Topsail Shipping",
+    "query_text": "decision | 41). See also Marine Atlantic Inc v Topsail Shipping Company Limited | 2014 NLCA 41",
+    "method": "citation_exact",
+    "matched_key": "2014nlca41",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gfbv3",
+        "score": 3.0,
+        "candidate_title": "Marine Atlantic Inc. v. Topsail Shipping"
+      }
+    ]
+  },
+  "baseline_124": {
+    "uri": "https://canlii.ca/t/gnhj8",
+    "score": 3.5,
+    "candidate_id": "2016onca168",
+    "candidate_title": "MEDIchair LP v. DME Medequip Inc.",
+    "query_text": "decision | MEDIchair LP v\nDME Medequip Inc | 2016 ONCA 168",
+    "method": "citation_exact",
+    "matched_key": "2016onca168",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gnhj8",
+        "score": 3.5,
+        "candidate_title": "MEDIchair LP v. DME Medequip Inc."
+      }
+    ]
+  },
+  "baseline_125": {
+    "uri": "https://canlii.ca/t/gr5hw",
+    "score": 3.5,
+    "candidate_id": "2016onca324",
+    "candidate_title": "Addison Chevrolet Buick GMC Limited v. General Motors of Canada Limited",
+    "query_text": "decision | Addison\nChevrolet Buick GMC Limited v General Motors of Canada Limited | 2016\nONCA 324",
+    "method": "citation_exact",
+    "matched_key": "2016onca324",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gr5hw",
+        "score": 3.5,
+        "candidate_title": "Addison Chevrolet Buick GMC Limited v. General Motors of Canada Limited"
+      }
+    ]
+  },
+  "baseline_126": {
+    "uri": "https://canlii.ca/t/fw8k1",
+    "score": 3.5,
+    "candidate_id": "2013onca121",
+    "candidate_title": "Moreira v. Ontario Lottery and Gaming Corporation",
+    "query_text": "decision | Moreira v Ontario Lottery and Gaming\nCorporation | 2013 ONCA 121",
+    "method": "citation_exact",
+    "matched_key": "2013onca121",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fw8k1",
+        "score": 3.5,
+        "candidate_title": "Moreira v. Ontario Lottery and Gaming Corporation"
+      }
+    ]
+  },
+  "baseline_127": {
+    "uri": "https://canlii.ca/t/fr44r",
+    "score": 3.0,
+    "candidate_id": "2012nbca40",
+    "candidate_title": "Druet v. Girouard",
+    "query_text": "decision | Girouard v Druet | 2012 NBCA 40",
+    "method": "citation_exact",
+    "matched_key": "2012nbca40",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fr44r",
+        "score": 3.0,
+        "candidate_title": "Druet v. Girouard"
+      }
+    ]
+  },
+  "baseline_128": {
+    "uri": "https://canlii.ca/t/1fs62",
+    "score": 3.5,
+    "candidate_id": "1993csc-scc7",
+    "candidate_title": "Reid Crowther & Partners Ltd. v. Simcoe & Erie General Insurance Co.",
+    "query_text": "decision | Reid Crowther &amp;\nPartners Ltd v Simcoe &amp; Erie General Insurance Co | [1993] 1 SCR 252",
+    "method": "citation_exact",
+    "matched_key": "19931scr252",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs62",
+        "score": 3.5,
+        "candidate_title": "Reid Crowther & Partners Ltd. v. Simcoe & Erie General Insurance Co."
+      }
+    ]
+  },
+  "baseline_129": {
+    "uri": "https://canlii.ca/t/21kz7",
+    "score": 3.0,
+    "candidate_id": "2008csc-scc66",
+    "candidate_title": "Canadian National Railway Co. v. Royal and Sun Alliance Insurance Co. of Canada",
+    "query_text": "decision | Canadian National Railway Company v Royal and Sun Alliance\nInsurance Company of Canada | 2008 SCC 66",
+    "method": "citation_exact",
+    "matched_key": "2008scc66",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21kz7",
+        "score": 3.0,
+        "candidate_title": "Canadian National Railway Co. v. Royal and Sun Alliance Insurance Co. of Canada"
+      }
+    ]
+  },
+  "baseline_130": {
+    "uri": "https://canlii.ca/t/21kz7",
+    "score": 3.0,
+    "candidate_id": "2008csc-scc66",
+    "candidate_title": "Canadian National Railway Co. v. Royal and Sun Alliance Insurance Co. of Canada",
+    "query_text": "decision | [2008] 3 SCR 453",
+    "method": "citation_exact",
+    "matched_key": "20083scr453",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21kz7",
+        "score": 3.0,
+        "candidate_title": "Canadian National Railway Co. v. Royal and Sun Alliance Insurance Co. of Canada"
+      }
+    ]
+  },
+  "baseline_131": {
+    "uri": "https://canlii.ca/t/frfzp",
+    "score": 3.0,
+    "candidate_id": "2012onca341",
+    "candidate_title": "Lloyds Syndicate 1221 (Millennium Syndicate) v. Coventree Inc.",
+    "query_text": "decision | Lloyds\nSyndicate 1221 (Millenium Syndicate) v Coventree Inc | 2012 ONCA 341",
+    "method": "citation_exact",
+    "matched_key": "2012onca341",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/frfzp",
+        "score": 3.0,
+        "candidate_title": "Lloyds Syndicate 1221 (Millennium Syndicate) v. Coventree Inc."
+      }
+    ]
+  },
+  "baseline_132": {
+    "uri": "https://canlii.ca/t/2cpm5",
+    "score": 3.0,
+    "candidate_id": "2010csc-scc33",
+    "candidate_title": "Progressive Homes Ltd. v. Lombard General Insurance Co. of Canada",
+    "query_text": "decision | Progressive Homes Ltd v. Lombard General Insurance Company | 2010 SCC 33",
+    "method": "citation_exact",
+    "matched_key": "2010scc33",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2cpm5",
+        "score": 3.0,
+        "candidate_title": "Progressive Homes Ltd. v. Lombard General Insurance Co. of Canada"
+      }
+    ]
+  },
+  "baseline_133": {
+    "uri": "https://canlii.ca/t/2cpm5",
+    "score": 3.0,
+    "candidate_id": "2010csc-scc33",
+    "candidate_title": "Progressive Homes Ltd. v. Lombard General Insurance Co. of Canada",
+    "query_text": "decision | [2010] 2 SCR 245",
+    "method": "citation_exact",
+    "matched_key": "20102scr245",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2cpm5",
+        "score": 3.0,
+        "candidate_title": "Progressive Homes Ltd. v. Lombard General Insurance Co. of Canada"
+      }
+    ]
+  },
+  "baseline_134": {
+    "uri": "https://canlii.ca/t/fvtbm",
+    "score": 3.5,
+    "candidate_id": "2013abca29",
+    "candidate_title": "Swan Group Inc. v. Bishop",
+    "query_text": "decision | Swan Group Inc v\nBishop | 2013 ABCA 29",
+    "method": "citation_exact",
+    "matched_key": "2013abca29",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fvtbm",
+        "score": 3.5,
+        "candidate_title": "Swan Group Inc. v. Bishop"
+      }
+    ]
+  },
+  "baseline_135": {
+    "uri": "https://canlii.ca/t/h5jtr",
+    "score": 3.0,
+    "candidate_id": "2016qcca1229",
+    "candidate_title": "Churchill Falls (Labrador) Corporation Ltd. c. Hydro-Québec",
+    "query_text": "decision | Churchill Falls (Labrador) Corporation Limited v\nHydro-Québec | 2016 QCCA 1229",
+    "method": "citation_exact",
+    "matched_key": "2016qcca1229",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h5jtr",
+        "score": 3.0,
+        "candidate_title": "Churchill Falls (Labrador) Corporation Ltd. c. Hydro-Québec"
+      }
+    ]
+  },
+  "baseline_136": {
+    "uri": "https://canlii.ca/t/6fw77",
+    "score": 2.0,
+    "candidate_id": "l6195!6195-current-1",
+    "candidate_title": "Code civil du Québec",
+    "query_text": "legislation | Civil\nCode of Quebec",
+    "method": "title_exact",
+    "matched_key": "civil code of quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fw77",
+        "score": 2.0,
+        "candidate_title": "Code civil du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 2.0,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v3w",
+        "score": 2.0,
+        "candidate_title": "Civil Code of Québec"
+      }
+    ]
+  },
+  "baseline_137": {
+    "uri": "https://canlii.ca/t/624n",
+    "score": 0.875,
+    "candidate_id": "2003onca10257",
+    "candidate_title": "Shelanu Inc. v. Print Three Franchising Corp.",
+    "query_text": "decision | Shelanu Inc v Print Three Franchising\nCorporation (2003)",
+    "method": "fuzzy",
+    "matched_key": "shelanu inc v print three franchising corporation 2003",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/624n",
+        "score": 0.875,
+        "candidate_title": "Shelanu Inc. v. Print Three Franchising Corp."
+      }
+    ]
+  },
+  "baseline_140": {
+    "uri": "https://canlii.ca/t/sl42",
+    "score": 2.0,
+    "candidate_id": "d64322!d64322",
+    "candidate_title": "Pooling Agreements in Canadian Oil and Gas Law",
+    "query_text": "secondary sources | Pooling Agreements in Canadian Oil and\nGas Law | Nigel Bankes",
+    "method": "title_exact",
+    "matched_key": "pooling agreements in canadian oil and gas law",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/sl42",
+        "score": 2.0,
+        "candidate_title": "Pooling Agreements in Canadian Oil and Gas Law"
+      }
+    ]
+  },
+  "baseline_141": {
+    "uri": "https://canlii.ca/t/qr",
+    "score": 2.0,
+    "candidate_id": "d83!d83",
+    "candidate_title": "Sole Risk Provisions in Joint Operating Agreements for Unconventional Oil and Gas Development",
+    "query_text": "secondary sources | Sole Risk Provisions in Joint Operating Agreements For Unconventional Oil\nand Gas Development | Kate\nRoyer",
+    "method": "title_exact",
+    "matched_key": "sole risk provisions in joint operating agreements for unconventional oil and gas development",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/qr",
+        "score": 2.0,
+        "candidate_title": "Sole Risk Provisions in Joint Operating Agreements for Unconventional Oil and Gas Development"
+      }
+    ]
+  },
+  "baseline_142": {
+    "uri": "https://canlii.ca/t/2d2z",
+    "score": 2.0,
+    "candidate_id": "d4889!d4889",
+    "candidate_title": "Recent Judicial Developments of Interest to Oil and Gas Lawyers",
+    "query_text": "secondary sources | Recent Judicial Developments of Interest to Oil and Gas\nLawyers | Edie Gillespie",
+    "method": "title_exact",
+    "matched_key": "recent judicial developments of interest to oil and gas lawyers",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2d2z",
+        "score": 2.0,
+        "candidate_title": "Recent Judicial Developments of Interest to Oil and Gas Lawyers"
+      }
+    ]
+  },
+  "baseline_143": {
+    "uri": "https://canlii.ca/t/sm0q",
+    "score": 2.0,
+    "candidate_id": "d65122!d65122",
+    "candidate_title": "Marketing Production from Joint Property: The Past, the Present and the Future",
+    "query_text": "secondary sources | Marketing\nProduction from Joint Property: The Past, The Present and the Future | Jay Park",
+    "method": "title_exact",
+    "matched_key": "marketing production from joint property the past the present and the future",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/sm0q",
+        "score": 2.0,
+        "candidate_title": "Marketing Production from Joint Property: The Past, the Present and the Future"
+      }
+    ]
+  },
+  "baseline_144": {
+    "uri": "https://canlii.ca/t/kzbn",
+    "score": 0.868421052631579,
+    "candidate_id": "l17494!17494-current-1",
+    "candidate_title": "Energy Resources Conservation Act",
+    "query_text": "legislation | 21 of the Energy Resources Conservation Act",
+    "method": "fuzzy",
+    "matched_key": "21 of the energy resources conservation act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kzbn",
+        "score": 0.868421052631579,
+        "candidate_title": "Energy Resources Conservation Act"
+      }
+    ]
+  }
+}

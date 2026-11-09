@@ -1,0 +1,1324 @@
+<html><!-- HTMLLabelizer
+{
+  "labeltree": {
+    "legislation": {
+        "color": "#76CEDE",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "decision": {
+        "color": "#6aa3ff",
+        "sublabels": {
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "citation": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "secondary sources": {
+        "color": "#278FE3",
+        "sublabels": {
+            "authors": {
+                "color": "#ffb84d",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "title": {
+                "color": "#93c47d",
+                "sublabels": {},
+                "attributes": {
+                    "titletype": {
+                        "type": "dropdown",
+                        "options": [
+                            "official",
+                            "alias"
+                        ],
+                        "default": "official",
+                        "groupRole": "regular"
+                    }
+                }
+            },
+            "source": {
+                "color": "#ff5733",
+                "sublabels": {},
+                "attributes": {}
+            },
+            "fragment": {
+                "color": "#8e7cc3",
+                "sublabels": {},
+                "attributes": {
+                    "fragmentid": {
+                        "type": "string",
+                        "default": "",
+                        "groupRole": "regular"
+                    },
+                    "non_standard": {
+                        "type": "checkbox",
+                        "default": false,
+                        "groupRole": "regular"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    },
+    "unable to classify": {
+        "color": "#ffc107",
+        "sublabels": {},
+        "attributes": {
+            "docid": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupID"
+            },
+            "uri": {
+                "type": "string",
+                "default": "",
+                "groupRole": "groupAttribute"
+            }
+        }
+    }
+},
+  "meta": {
+    "time": 0,
+    "project title": "LeREaD",
+    "name": "",
+    "annotation guidelines": "",
+    "labels Tree": "V2",
+    "annotation date": "",
+    "reviewer": "",
+    "review Date": ""
+}
+}
+--><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft Word 15 (filtered)" name="Generator"/>
+<style>
+<!--
+ /* Font Definitions */
+ 
+
+
+
+
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	text-decoration:underline;}
+h2
+	{mso-style-link:"Titre 2 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+h3
+	{mso-style-link:"Titre 3 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+h4
+	{mso-style-link:"Titre 4 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-link:"Titre 5 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+h6
+	{mso-style-link:"Titre 6 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Titre 7 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Titre 8 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:#404040;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:12.25pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:23.75pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:48.25pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:59.75pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Note de bas de page Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"En-tête Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pied de page Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.MsoFootnoteReference
+	{font-family:"Times New Roman",serif;
+	font-variant:normal !important;
+	text-transform:none;
+	text-decoration:none;
+	}
+span.MsoEndnoteReference
+	{}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{mso-style-link:"Note de fin Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{mso-style-link:"Liste à numéros Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2CxSpFirst, li.MsoListNumber2CxSpFirst, div.MsoListNumber2CxSpFirst
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2CxSpMiddle, li.MsoListNumber2CxSpMiddle, div.MsoListNumber2CxSpMiddle
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListNumber2CxSpLast, li.MsoListNumber2CxSpLast, div.MsoListNumber2CxSpLast
+	{mso-style-link:"Liste à numéros 2 Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{font-family:"Times New Roman",serif;
+	color:black;
+	text-decoration:none;}
+a:visited, span.MsoHyperlinkFollowed
+	{font-family:"Times New Roman",serif;
+	color:black;
+	text-decoration:none;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-link:"Sans interligne Car";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-link:"Paragraphe de liste Car";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Citation Car";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria",serif;
+	font-weight:bold;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma",sans-serif;}
+span.En-tteCar
+	{mso-style-name:"En-tête Car";
+	mso-style-link:En-tête;
+	font-family:"Times New Roman",serif;}
+span.PieddepageCar
+	{mso-style-name:"Pied de page Car";
+	mso-style-link:"Pied de page";
+	font-family:"Times New Roman",serif;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Times New Roman",serif;}
+p.Quote2nd, li.Quote2nd, div.Quote2nd
+	{mso-style-name:"Quote 2nd";
+	mso-style-link:"Quote 2nd Char";
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:12.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote2ndChar
+	{mso-style-name:"Quote 2nd Char";
+	mso-style-link:"Quote 2nd";
+	font-family:"Times New Roman",serif;}
+p.Quote3rd, li.Quote3rd, div.Quote3rd
+	{mso-style-name:"Quote 3rd";
+	mso-style-link:"Quote 3rd Char";
+	margin-top:0in;
+	margin-right:1.5in;
+	margin-bottom:12.0pt;
+	margin-left:1.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote3rdChar
+	{mso-style-name:"Quote 3rd Char";
+	mso-style-link:"Quote 3rd";
+	font-family:"Times New Roman",serif;}
+p.Quote4th, li.Quote4th, div.Quote4th
+	{mso-style-name:"Quote 4th";
+	mso-style-link:"Quote 4th Char";
+	margin-top:0in;
+	margin-right:2.0in;
+	margin-bottom:12.0pt;
+	margin-left:2.0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote4thChar
+	{mso-style-name:"Quote 4th Char";
+	mso-style-link:"Quote 4th";
+	font-family:"Times New Roman",serif;}
+p.citation, li.citation, div.citation
+	{mso-style-name:citation;
+	mso-style-link:"citation Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.citationChar
+	{mso-style-name:"citation Char";
+	mso-style-link:citation;
+	font-family:"Times New Roman",serif;}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman",serif;
+	text-decoration:underline;}
+span.Titre2Car
+	{mso-style-name:"Titre 2 Car";
+	mso-style-link:"Titre 2";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.Titre3Car
+	{mso-style-name:"Titre 3 Car";
+	mso-style-link:"Titre 3";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre4Car
+	{mso-style-name:"Titre 4 Car";
+	mso-style-link:"Titre 4";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre5Car
+	{mso-style-name:"Titre 5 Car";
+	mso-style-link:"Titre 5";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre6Car
+	{mso-style-name:"Titre 6 Car";
+	mso-style-link:"Titre 6";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre7Car
+	{mso-style-name:"Titre 7 Car";
+	mso-style-link:"Titre 7";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Titre8Car
+	{mso-style-name:"Titre 8 Car";
+	mso-style-link:"Titre 8";
+	font-family:"Times New Roman",serif;
+	color:#404040;
+	font-weight:bold;}
+p.FelskyNumbering12, li.FelskyNumbering12, div.FelskyNumbering12
+	{mso-style-name:"Felsky Numbering 1\.2";
+	mso-style-link:"Felsky Numbering 1\.2 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FelskyNumbering12Char
+	{mso-style-name:"Felsky Numbering 1\.2 Char";
+	mso-style-link:"Felsky Numbering 1\.2";
+	font-family:"Times New Roman",serif;}
+span.NotedebasdepageCar
+	{mso-style-name:"Note de bas de page Car";
+	mso-style-link:"Note de bas de page";
+	font-family:"Times New Roman",serif;}
+p.TableText, li.TableText, div.TableText
+	{mso-style-name:"Table Text";
+	mso-style-link:"Table Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Quote1st, li.Quote1st, div.Quote1st
+	{mso-style-name:"Quote 1st";
+	mso-style-link:"Quote 1st Char";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Quote1stChar
+	{mso-style-name:"Quote 1st Char";
+	mso-style-link:"Quote 1st";
+	font-family:"Times New Roman",serif;}
+span.ParagraphedelisteCar
+	{mso-style-name:"Paragraphe de liste Car";
+	mso-style-link:"Paragraphe de liste";
+	font-family:"Times New Roman",serif;}
+span.TableTextChar
+	{mso-style-name:"Table Text Char";
+	mso-style-link:"Table Text";
+	font-family:"Times New Roman",serif;}
+p.Spacingadjust, li.Spacingadjust, div.Spacingadjust
+	{mso-style-name:"Spacing adjust";
+	mso-style-link:"Spacing adjust Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.ChangeFont, li.ChangeFont, div.ChangeFont
+	{mso-style-name:"Change Font";
+	mso-style-link:"Change Font Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.SpacingadjustChar
+	{mso-style-name:"Spacing adjust Char";
+	mso-style-link:"Spacing adjust";
+	font-family:"Times New Roman",serif;}
+p.Title1, li.Title1, div.Title1
+	{mso-style-name:Title1;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:.25in;
+	margin-left:.5in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.ChangeFontChar
+	{mso-style-name:"Change Font Char";
+	mso-style-link:"Change Font";
+	font-family:"Times New Roman",serif;}
+span.SansinterligneCar
+	{mso-style-name:"Sans interligne Car";
+	mso-style-link:"Sans interligne";
+	font-family:"Times New Roman",serif;}
+span.ListenumrosCar
+	{mso-style-name:"Liste à numéros Car";
+	mso-style-link:"Liste à numéros";
+	font-family:"Times New Roman",serif;}
+span.Listenumros2Car
+	{mso-style-name:"Liste à numéros 2 Car";
+	mso-style-link:"Liste à numéros 2";
+	font-family:"Times New Roman",serif;}
+span.NotedefinCar
+	{mso-style-name:"Note de fin Car";
+	mso-style-link:"Note de fin";
+	font-family:"Times New Roman",serif;}
+span.reflex2-link
+	{mso-style-name:reflex2-link;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:62.75pt 1.0in 1.0in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 11.0in;
+	margin:79.25pt 1.0in 1.0in 1.0in;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head><body link="black" vlink="black">
+<div class="WordSection1">
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+background:white"><a name="frCitation"></a><b><span style='font-size:
+14.0pt;font-family:"Gadugi",sans-serif'>ᓄᓇᕘᒥ</span> <span style='font-size:14.0pt;font-family:"Gadugi",sans-serif'>ᐅᓐᓂᓗᖅᓴᖅᑐᓄᑦ ᐃᖅᑲᖅᑐᐃᕕᒃ</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+background:white"><b><span style='font-size:14.0pt;font-family:"Arial",sans-serif'>Nunavunmi
+Apiqhuidjutainut Uuktuffaarutit</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+background:white"><b><span style='font-size:14.0pt;font-family:"Arial",sans-serif'>Nunavut
+Court of Appeal</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+background:white"><b><span style='font-size:14.0pt;font-family:"Arial",sans-serif'>Cour
+d'appel du Nunavut</span></b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><b>Citation: Nunavut
+Tunngavik Incorporated et al v The Commissioner of Nunavut et al, 2024 NUCA 9</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><b>Date:</b> 20240828</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><a name="frDocket"></a><b>Docket:</b> 08-23-003-CAC</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><a name="frRegistry"></a><b>Registry:</b> Iqaluit</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><a name="frBetween"></a><b>Between:</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b>Nunavut Tunngavik Incorporated, Bernice Tujjaaqtuqaq Clarke, and</b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b>Lily Anne Maniapik</b></p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">Respondents</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center">- <a name="frAnd"></a>and -</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">The Commissioner of Nunavut as represented by
+the Government of Nunavut</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">and the Government of Nunavut as represented by
+the Attorney General</span></b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><span style="color:black">Appellants</span></p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="TheCourt"></a><b><span style="color:black">_______________________________________________________</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"> </p>
+<p align="left" class="MsoNormal" style="margin-left:0in;text-align:left"><b><span style="color:black">The Court:</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="JusticeName"><b><span style="color:black">The Honourable Chief
+Justice </span></b></a><b><span style="color:black">Ritu Khullar</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="JusticeName2"><b><span style="color:black">The Honourable
+Justice </span></b></a><b><span style="color:black">Jo’Anne Strekaf</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="JusticeName3"><b><span style="color:black">The Honourable
+Justice </span></b></a><b><span style="color:black">Kevin Feth</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">_______________________________________________________</span></b></p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><a name="JudgmentType"><b><span style="color:black">Memorandum of Judgment</span></b></a></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center;
+page-break-after:avoid"><a name="JudgmentTypeCover"></a> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="TrialJudgmentType"></a><span style="color:black">Appeal from the
+Order by </span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black">The Honourable Justice P. Bychok</span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black">Dated the 29<sup>th</sup> day of March, 2023</span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black">Filed the 30<sup>th</sup> day of March, 2023</span></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><span style="color:black">(<auto_label docid="2023 NUCJ 5" id="0" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="1" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2023 NUCJ 5</auto_label>, <auto_label id="2" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">Docket: 08-21-463-CVC</auto_label></auto_label>)</span></p>
+</div>
+<span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:black'><br clear="all" style="page-break-before:always"/>
+</span>
+<div class="WordSection2">
+<p class="MsoNormal" style="margin-left:0in"><a name="TOC_Here"></a> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><b><span style="color:black">_______________________________________________________</span></b></p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"> </p>
+<p align="center" class="MsoNormal" style="margin-left:0in;text-align:center"><a name="JudgmentTypeStart"></a><a name="JudgmentTypeEnd"></a><a name="JusticeTitleStart"></a><b><span style="color:black">Memorandum
+of Judgment _______________________________________________________</span></b></p>
+</div>
+<span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:black'><br clear="all" style="page-break-before:auto"/>
+</span>
+<div class="WordSection3">
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"><b>The Court:</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt"><b>Overview</b></p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[1]              
+This appeal arises out of legislative changes in
+Nunavut regarding the government’s obligation to provide instruction in the
+Inuit language in the Nunavut public school system.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[2]              
+With the creation of Nunavut, education came
+under the jurisdiction of the Nunavut legislature: <auto_label docid="Nunavut Act" id="3" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="4" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Nunavut Act</auto_label></i>, <auto_label id="5" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="false">SC 1993,
+c 28</auto_label>, <auto_label fragmentid="" id="6" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s 23</auto_label></auto_label>. <auto_label docid="Education Act (Nunavut)" id="7" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false">Nunavut’s <i><auto_label id="8" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Education Act</auto_label>, </i><auto_label id="9" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="false">S.Nu. 2008, c 15</auto_label>, <auto_label fragmentid="" id="10" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s 23</auto_label></auto_label> provides
+that:</p>
+<p class="Quote1st">Every student shall be given a bilingual education and the
+languages of instruction shall be Inuit Language and either English or French as
+determined by a district education authority with respect to the schools under
+its jurisdiction.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[3]              
+ Through its <i><auto_label docid="Education Act (Nunavut)" id="11" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label id="12" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Education Act</auto_label></auto_label></i> and the <auto_label docid="Inuit Language Protection Act" id="13" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="14" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Inuit
+Language Protection Act</auto_label></i>, <auto_label id="15" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="false">S.Nu. 2008, c 17</auto_label></auto_label>, the legislature established a
+framework that contemplated children would receive Inuit language instruction
+from kindergarten to grade 3 commencing July 1, 2009. By July 1, 2019, all
+schools were to provide fully bilingual instruction from kindergarten to grade
+12. However, by 2019 Inuit language instruction was still only available from
+kindergarten to grade 3.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[4]              
+In 2019, the legislation was amended<a href="#_ftn1" name="_ftnref1" title=""><span class="MsoFootnoteReference"><span style="font-size:10.0pt"><span style="font-size:10.0pt">[1]</span></span></span></a> to provide for a phased-in delivery over 20 years of Inuit Language
+Arts, defined as “a class or course that is focused on teaching the Inuit
+Language”. The requirement to provide bilingual education for all students from
+kindergarten to Grade 12 was postponed by 20 years, from July 1, 2019 to July
+1, 2039 (the “2019 Amendments”).</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[5]              
+Two Inuit mothers with school-aged children and Nunavut
+Tunngavik Incorporated, a non-profit that represents the interests of Inuit in
+Nunavut, (collectively referred to as NTI), commenced an action against the
+Government of Nunavut (GN). They allege that the 2019 Amendments infringe their
+right to equal benefit of the law without discrimination under <auto_label docid="Canadian Charter of Rights and Freedoms" id="16" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="17" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s 15(1)</auto_label> of the <i><auto_label id="18" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Canadian
+Charter of Rights and Freedoms</auto_label></i></auto_label><i> (<auto_label docid="Canadian Charter of Rights and Freedoms" id="19" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label id="20" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></auto_label>)</i>. They claim the 2019 Amendments effectively
+remove the requirement for bilingual Inuit education, and that this results in
+multiple negative impacts on Inuit, including the loss of Indigenous language
+and culture. The claim pleads adverse effects discrimination because of the
+disproportionate impact of the 2019 Amendments on Inuit and that the 2019
+Amendments reinforce and perpetuate historical disadvantage suffered by Inuit. It
+is grounded in the interconnectedness between racial and linguistic identity. </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[6]              
+The GN applied to strike the claim on the
+grounds that it disclosed no reasonable cause of action. The application was
+dismissed by a chambers judge: <auto_label docid="2023 NUCJ 5" id="21" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="22" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Nunavut Tunngavik Incorporated et al v The
+Commissioner of Nunavut et al</auto_label></i>, <auto_label id="23" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2023 NUCJ 5</auto_label></auto_label>. The GN appeals that decision.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[7]              
+The appeal is dismissed for the reasons that
+follow.</p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in"><b>Chambers Decision</b></p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[8]              
+The GN’s application to strike the claim as
+disclosing no reasonable cause of action was brought pursuant to <auto_label docid="Rules of Court (Nunavut)" id="24" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="25" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 129(1)</auto_label>
+of the <i><auto_label id="26" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Rules of Court</auto_label></i></auto_label><a href="#_ftn2" name="_ftnref2" title=""><span class="MsoFootnoteReference"><i><span style="font-size:10.0pt"><b><span style="font-size:10.0pt">[2]</span></b></span></i></span></a>. The test to be applied in considering such applications, as noted
+by the chambers judge, was explained in <auto_label docid="Atlantic Lottery Corp Inc v Babstock" id="27" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="28" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Atlantic Lottery Corp Inc v Babstock</auto_label></i>,
+<auto_label id="29" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2020 SCC 19</auto_label> at <auto_label fragmentid="" id="30" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 14</auto_label></auto_label>: </p>
+<p class="Quote1st">... whether it is plain and obvious, assuming the facts
+pleaded to be true, that each of the plaintiffs’ pleaded claims disclose no
+reasonable cause of action. Simply stated, if a claim has no reasonable
+prospect of success it should not be allowed to proceed to trial.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[9]              
+The chambers judge stated that whether the
+application to strike succeeds depends on the ambit of <auto_label docid="Canadian Charter of Rights and Freedoms" id="31" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="32" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15</auto_label> of the <i><auto_label id="33" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label>,
+and referred to the two-part test to determine whether an impugned law infringes
+<auto_label docid="Canadian Charter of Rights and Freedoms" id="34" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="35" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> set out in <auto_label docid="Ontario (Attorney General) v G" id="36" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="37" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Ontario (Attorney General) v G</auto_label></i>, <auto_label id="38" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2020 SCC 38</auto_label>,
+<auto_label id="39" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[2020] 3 SCR 629</auto_label> [<i><auto_label id="40" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Ontario</auto_label></i>] at <auto_label fragmentid="" id="41" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 40</auto_label></auto_label>: </p>
+<p class="Quote1st">The Court asks two questions in determining whether a law
+infringes <auto_label docid="Canadian Charter of Rights and Freedoms" id="42" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="43" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s 15(1)</auto_label></auto_label>. First, does the challenged law, on its face or in its
+impact, draw a distinction based on an enumerated or analogous ground? If a law
+is facially neutral, it may draw a distinction indirectly where it has an
+adverse impact upon members of a protected group. Second, if it does draw a
+distinction, does it impose “burdens or [deny] a benefit in a manner that has
+the effect of reinforcing, perpetuating or exacerbating . . . disadvantage”,
+including “historical” disadvantage? </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[10]          
+The chambers judge noted that “the Respondents
+claim that the 2019 Amendments create adverse effects discrimination on Inuit
+based on race and ethnicity.” NTI pleads that by removing the requirement for
+public education to be delivered in the Inuit language after grade 3, multiple
+adverse impacts are experienced by the Inuit as a people, including cultural,
+economic and social political disadvantage, and reduced educational attainment
+for Inuit children. The Amended Statement of Claim expressly asserts that the
+2019 Amendment violates the norms of substantive equality, denies all Inuit in
+Nunavut equal protection and benefit of the law, and discriminates based on the
+enumerated grounds of race and ethnic origin. </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[11]          
+After reviewing Supreme Court jurisprudence on
+the identification of “analogous grounds” for the purpose of <auto_label docid="Canadian Charter of Rights and Freedoms" id="44" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="45" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label>, the
+chambers judge recognized that the possibility of language being viewed as an
+analogous ground was acknowledged in <auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="46" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="47" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Gosselin (Tutor of) v Quebec (Attorney General)</auto_label></i>,
+<auto_label id="48" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2005 SCC 15</auto_label> at <auto_label fragmentid="" id="49" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 12</auto_label></auto_label>: </p>
+<p class="Quote1st" style="margin-bottom:0in;margin-bottom:.0001pt"><a href="https://www.canlii.org/en/ca/laws/stat/schedule-b-to-the-canada-act-1982-uk-1982-c-11/latest/schedule-b-to-the-canada-act-1982-uk-1982-c-11.html#sec15subsec1_smooth"><auto_label docid="Canadian Charter of Rights and Freedoms" id="50" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="51" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">Section
+15 (1)</auto_label></auto_label></a><span style="color:black"> of the </span><a href="https://www.canlii.org/en/ca/laws/stat/schedule-b-to-the-canada-act-1982-uk-1982-c-11/latest/schedule-b-to-the-canada-act-1982-uk-1982-c-11.html"><i>Canadian
+Charter</i></a><span style="color:black"> does not expressly enumerate
+language as a prohibited ground of discrimination. However, we agree with
+the observations of the Saskatchewan Court of Appeal in </span><auto_label docid="Reference re Use of French in Criminal Proceedings in Saskatchewan" id="52" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><span style="color:black"><i><auto_label id="53" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Reference re
+Use of French in Criminal Proceedings in Saskatchewan</auto_label></i> (1987), </span><a href="https://www.canlii.org/en/sk/skca/doc/1987/1987canlii204/1987canlii204.html"><auto_label id="54" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">1987
+CanLII 204 (SK CA)</auto_label></a><span style='font-size:13.0pt;font-family:"Arial",sans-serif;
+color:black'>, </span><span style="color:black"><auto_label id="55" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">36 C.C.C. (3d) 353</auto_label>, at <auto_label fragmentid="" id="56" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p.
+373</auto_label></span></auto_label><span style="color:black">, that:</span></p>
+<p class="MsoNormal" style="margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:53.85pt;margin-bottom:.0001pt"> </p>
+<p class="Quote2nd">Nor, in our view, does the presence in the <i><auto_label docid="Canadian Charter of Rights and Freedoms" id="57" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label id="58" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></auto_label></i> of
+the language provisions of <auto_label docid="UNKNOWN" id="59" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="60" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">ss. 16 to 20</auto_label></auto_label>, or the deletion from an earlier
+draft of <auto_label docid="Canadian Charter of Rights and Freedoms" id="61" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="62" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s. 15(1)</auto_label></auto_label> of the word “language”, have the effect necessarily of
+excluding from the reach of <auto_label docid="Canadian Charter of Rights and Freedoms" id="63" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="64" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s. 15</auto_label></auto_label> the form of distinction at issue in this
+case.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[12]          
+The chambers judge concluded that the Supreme
+Court “has left the door open, arguably, for the Respondents to assert that the
+provision of Inuit language education from kindergarten to grade 12 is an
+analogous ground protected against discrimination by <auto_label docid="Canadian Charter of Rights and Freedoms" id="65" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="66" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter </auto_label></i><auto_label fragmentid="" id="67" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section
+15(1)</auto_label></auto_label>.”: para 27.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[13]          
+The chambers judge then turned to consider the 2019
+Amendments within the context of the <i>Ontario</i> test. First, he found that
+the 2019 Amendments create a distinction, holding that, “taken at face value,
+the 2019 Amendments [apply] explicitly to, and will have a direct impact upon,
+Inuit children and their ability to study in their mother tongue or the
+language of their immediate ancestors” (para 29). </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[14]          
+With respect to the second part of the <i>Ontario
+</i>test, the chambers judge reviewed the factual assertions in NTI’s claim, and
+concluded that the 2019 Amendments arguably impose a burden upon, or deny
+benefits to, Inuit by contributing to Inuit youth “losing their language and
+their connection to Inuit culture”, and that the effect of the 2019 Amendments may
+be to “perpetuate the undeniably historical disadvantages experienced by Inuit
+from colonialism” (para 31).</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[15]          
+The chambers judge confirmed that NTI invoked
+<auto_label docid="Canadian Charter of Rights and Freedoms" id="68" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="69" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> alleging that the 2019 Amendments “discriminate against Inuit”
+and that “race and ethnic origin [are] two of the explicitly prohibited forms
+of discrimination.” He then observed: “The Applicants, on the other hand,
+assert that the claim pertains to language rights.” After recognizing the
+competing characterizations of the claim, the chambers judge concluded, “the
+law has yet to be settled whether language in some circumstances may be an
+analogous ground under <auto_label docid="Canadian Charter of Rights and Freedoms" id="70" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="71" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i> <auto_label fragmentid="" id="72" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label>. It is not plain and
+obvious that the Respondents’ claim would fail, however it is characterised”:
+(para 32). He concluded the action must proceed to trial and dismissed the
+application to strike. </p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in"><b>Issues on Appeal</b></p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[16]          
+The GN advances the following grounds of appeal:</p>
+<p class="FelskyNumbering12" style="margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in">1.     
+The chambers judge misapplied the test on an
+application to strike by refusing to dismiss the action simply because it
+advanced a novel claim; and</p>
+<p class="FelskyNumbering12" style="margin-left:.5in;text-indent:-.25in">2.     
+The chambers judge failed to answer the
+threshold legal question: whether a right to language instruction can be
+protected by <auto_label docid="Canadian Charter of Rights and Freedoms" id="73" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="74" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label> of the <i><auto_label id="75" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label>.</p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in"><b>Standard of Review</b></p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in"><a name="_Hlk174951839">[17]          
+Whether a pleading discloses a cause of action
+raises a question of law, reviewable for correctness. “</a><span style="color:#242424;background:white">However, the decision to
+strike a statement of claim is discretionary and is reviewable on a standard of
+reasonableness: <auto_label docid="Nammo v Canada (Justice and Attorney General)" id="76" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="77" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Nammo v Canada (Justice and Attorney General)</auto_label></i>, <auto_label id="78" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2015
+ABCA 389</auto_label> at <auto_label fragmentid="" id="79" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 7</auto_label>, <auto_label id="80" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">609 AR 189</auto_label></auto_label>; <auto_label docid="Ernst v Alberta (Energy Resources Conservation Board)" id="81" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="82" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Ernst v Alberta (Energy Resources
+Conservation Board)</auto_label></i>, <auto_label id="83" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2014 ABCA 285</auto_label> at <auto_label fragmentid="" id="84" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 11</auto_label>, <auto_label id="85" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">580 AR 341</auto_label></auto_label>...”</span>: <auto_label docid="Jane Doe v Government of Nunavut" id="86" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="87" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Jane Doe v Government of Nunavut</auto_label></i>, <auto_label id="88" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2021 NUCA 15</auto_label> at <auto_label fragmentid="" id="89" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 15</auto_label></auto_label>.</p>
+<p class="MsoNormal" style="margin-top:6.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in"><b>Analysis</b></p>
+<p class="FelskyNumbering12" style="margin-bottom:0in;margin-bottom:.0001pt;
+text-indent:.5in;line-height:200%"><i>Did the chambers judge
+misapply the test on an application to strike?</i></p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[18]          
+The GN acknowledges that the chambers judge
+articulated the correct legal test for an application to strike, but submits he
+misapplied that test because he exercised too much judicial reticence and refused
+to dismiss the action simply because a novel claim is advanced.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[19]          
+In its written submissions, the GN argued that
+the chambers judge applied what the GN described as “the now-defunct approach
+of assessing whether the plaintiffs’ claim is ‘arguable’ or ‘not doomed to
+fail’”. In oral submissions, the GN argued that the chambers judge failed to
+apply the robust approach from <i><auto_label docid="Atlantic Lottery Corp Inc v Babstock" id="90" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="91" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Atlantic Lottery</auto_label></auto_label></i> when evaluating a pure
+question of law, where the threshold legal question has been thoroughly
+canvassed by the Supreme Court of Canada and other courts, the necessary legal
+matrix is present, and the issue is ripe for determination. </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[20]          
+In our view, <i><auto_label docid="Atlantic Lottery Corp Inc v Babstock" id="92" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="93" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Atlantic Lottery</auto_label></auto_label></i> did not
+change the test to be applied on applications to strike. Rather, it encouraged
+courts to be bold in applying the test, and in particular, provided guidance on
+the approach to be adopted for novel claims. The Court said, at para 19:</p>
+<p class="Quote1st">Of course, it is not determinative on a motion to strike that
+the law has not yet recognized the particular claim. The law is not static, and
+novel claims that might represent an incremental development in the law should
+be allowed to proceed to trial (<auto_label docid="Imperial Tobacco Canada Ltd. v. Canada (Attorney General)" id="94" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="95" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Imperial Tobacco</auto_label></i>, at <auto_label fragmentid="" id="96" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 21</auto_label></auto_label>; <auto_label docid="Das v. George Weston Ltd" id="97" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="98" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Das v.
+George Weston Ltd</auto_label></i>., <auto_label id="99" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2018 ONCA 1053</auto_label>, <auto_label id="100" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">43 E.T.R. (4th) 173</auto_label>, at <auto_label fragmentid="" id="101" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 73</auto_label></auto_label>; see
+also <auto_label docid="R. v. Salituro" id="102" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="103" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">R. v. Salituro</auto_label></i>, <auto_label id="104" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">1991 CanLII 17 (SCC)</auto_label>, <auto_label id="105" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[1991] 3 S.C.R. 654</auto_label>, at <auto_label fragmentid="" id="106" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">p.
+670</auto_label></auto_label>). That said, a claim will not survive an application to strike simply
+because it is novel. It is beneficial, and indeed critical to the viability of
+civil justice and public access thereto that claims, <i>including novel claims</i>,
+which are <b>doomed to fail</b> be disposed of at an early stage in the
+proceedings. This is because such claims present “no legal justification for a
+protracted and expensive trial” (<auto_label docid="Syl Apps Secure Treatment Centre v. B.D" id="107" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="108" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Syl Apps Secure Treatment Centre v. B.D</auto_label></i>.,
+<auto_label id="109" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2007 SCC 38</auto_label>, <auto_label id="110" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[2007] 3 S.C.R. 83</auto_label>, at <auto_label fragmentid="" id="111" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para. 19</auto_label></auto_label>). If a court would not recognize a
+novel claim when the facts as pleaded are taken to be true, the claim is <b>plainly
+doomed to fail</b> and should be struck. In making this determination, it is
+not uncommon for courts to resolve complex questions of law and policy (see
+e.g. <i><auto_label docid="Imperial Tobacco Canada Ltd. v. Canada (Attorney General)" id="112" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="113" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Imperial Tobacco</auto_label></auto_label></i>; <auto_label docid="Cooper v. Hobart" id="114" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="115" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Cooper v. Hobart</auto_label></i>, <auto_label id="116" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2001 SCC 79</auto_label>, <auto_label id="117" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[2001] 3
+S.C.R. 537</auto_label></auto_label>; <i><auto_label docid="Syl Apps Secure Treatment Centre v. B.D" id="118" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="119" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Syl Apps</auto_label></auto_label></i>; <auto_label docid="Alberta v. Elder Advocates of Alberta Society" id="120" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="121" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Alberta v. Elder Advocates of Alberta Society</auto_label></i>,
+<auto_label id="122" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2011 SCC 24</auto_label>, <auto_label id="123" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[2011] 2 S.C.R. 261</auto_label></auto_label>).   </p>
+<p class="Quote1st" style="margin-left:4.0in;text-indent:.5in"> (emphasis added)</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[21]          
+The suggestion that the phrase “doomed to fail” following
+<i><auto_label docid="Atlantic Lottery Corp Inc v Babstock" id="124" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="125" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Atlantic Lottery</auto_label></auto_label></i> is now defunct is not sustainable. The phrase “doomed
+to fail” was used by both the majority in that case (on two occasions at para
+19, highlighted above, and at para 59) and by the minority (at para 84). </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[22]          
+While it is possible on an application to strike
+to determine a novel claim is doomed to fail based on the facts in the pleadings,
+“novel claims that might represent an incremental development in the law should
+be allowed to proceed to trial” (<auto_label docid="Atlantic Lottery Corp Inc v Babstock" id="126" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="127" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Atlantic Lottery</auto_label></i>, <auto_label fragmentid="" id="128" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 19</auto_label></auto_label>). This is
+particularly the case when a claim involves <i><auto_label docid="Canadian Charter of Rights and Freedoms" id="129" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label id="130" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></auto_label></i> or other
+constitutional challenges, where the importance of a proper factual foundation is
+well recognized: see <i>Manitoba (A.G.) v Metropolitan Stores Ltd</i>, [1987] 1
+SCR 110 at paras 50-51; <i>MacKay v Manitoba</i>, [1989] 2 SCR 357; <i>Danson v
+Ontario (Attorney General)</i>, [1990] 2 SCR 1086. Moreover, caution should be
+exercised in striking claims that explore the scope of a <i>Charter</i> right: <i>Leroux
+v Ontario</i>, 2023 ONCA 314 at para 86.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[23]          
+The chambers judge was sensitive to the nuances
+within the test, and the need to balance competing interests, noting at
+paragraph 11 of his reasons:</p>
+<p class="Quote1st">Public resources are not infinite, and limited court
+resources should not be squandered on actions which are frivolous or destined
+to failure. At the same time, however, courts must be careful not to dismiss an
+action merely because the claim is a novel one. As we shall see in a moment,
+the reach of <auto_label docid="Canadian Charter of Rights and Freedoms" id="131" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="132" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i> <auto_label fragmentid="" id="133" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> itself since its inception has been
+extended by the Supreme Court of Canada. Thus, in cases where the law is
+unsettled, and it is not plain and obvious that the claim will fail, the claim
+must be permitted to go to trial. </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[24]          
+We find no error in the chambers judge’s
+application of the test. He correctly examined whether it is plain and obvious
+that the pleaded claims have no reasonable prospect of success and therefore
+disclose no reasonable cause of action. He considered whether finite resources
+would be wasted, whether the claim as pleaded satisfied the elements of a
+<auto_label docid="Canadian Charter of Rights and Freedoms" id="134" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="135" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> action, the scope of the <auto_label docid="Canadian Charter of Rights and Freedoms" id="136" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="137" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i> right to substantive
+equality</auto_label> as described in the existing jurisprudence, and the caution to be
+exercised in striking a <auto_label docid="Canadian Charter of Rights and Freedoms" id="138" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="139" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i> claim</auto_label>. As explained below, he also
+correctly recognized the unsettled state of the law about the scope of the
+<auto_label docid="Canadian Charter of Rights and Freedoms" id="140" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="141" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label> <i><auto_label id="142" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i> right</auto_label>.</p>
+<p class="FelskyNumbering12" style="margin-bottom:0in;margin-bottom:.0001pt;
+text-indent:.5in;line-height:200%"><i>Did the chambers judge
+fail to answer the threshold question under <auto_label docid="Canadian Charter of Rights and Freedoms" id="143" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="144" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s 15(1)</auto_label></auto_label>?</i></p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[25]          
+The GN submits that the chambers judge failed to
+answer what the GN characterizes as the threshold legal question: whether
+language instruction rights can be protected by <auto_label docid="Canadian Charter of Rights and Freedoms" id="145" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="146" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label> of the <i><auto_label id="147" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label><i>.
+</i>In particular, the GN submits that <auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="148" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="149" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Gosselin</auto_label></i> and <i><auto_label id="150" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Lalonde v Ontario
+(Commission de restructuration des services de santé)</auto_label></i> <auto_label id="151" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">(2001), 56 OR (3d)
+505</auto_label>, <auto_label id="152" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">208 DLR (4th) 577 (Ont CA)</auto_label></auto_label> do not permit <auto_label docid="Canadian Charter of Rights and Freedoms" id="153" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="154" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label> of the <i><auto_label id="155" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label>
+to be used to advance a language right because <auto_label docid="Canadian Charter of Rights and Freedoms" id="156" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="157" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">sections 16 to 23</auto_label> of the <i><auto_label id="158" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label>
+provide a complete code with respect to language rights under the <i><auto_label docid="Canadian Charter of Rights and Freedoms" id="159" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label id="160" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></auto_label></i>.
+As the GN notes, those provisions relate to the status and protection of
+English and French in public institutions, the availability of public services
+in those languages, and a right to English or French minority language
+schooling for certain defined classes of individuals and under certain defined
+circumstances. While the claim is expressly framed under the enumerated grounds
+of race and ethnicity, the Court should look at the “real essence” or
+“essential character” of the claim – language of educational instruction – and
+conclude that no such analogous ground is available under <auto_label docid="Canadian Charter of Rights and Freedoms" id="161" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="162" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> and
+therefore no cause of action is disclosed. </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[26]          
+NTI rejects the threshold legal question
+proposed by the GN and the proposition that the Court should look beyond the
+plain wording of the pleading to recharacterize the claim on an analogous
+ground. The Amended Statement of Claim expressly alleges that the 2019
+Amendments discriminate against all Inuit in Nunavut “on the bases of their
+race and ethnic origin and deny them the equal protection and benefit of the
+law” (para 63). The inequality “reflects and reinforces historic discriminatory
+and assimilative practices” and “perpetrates negative stereotypes and messages
+about the Inuit and their language” (para 67). Unlike other students in Canada,
+Inuit students in Nunavut are “deprived of the ability to receive education in
+the locally dominant official language, which is also the first language of
+most Inuit in Nunavut” (para 64). This inequality is “imposed on Inuit of Nunavut
+by reason of their race and ethnic origin, which are personal characteristics
+listed as enumerated grounds of discrimination under <auto_label docid="Canadian Charter of Rights and Freedoms" id="163" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="164" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">subsection 15(1)</auto_label></auto_label>” (para
+68). The Amended Statement of Claim therefore frames a cause of action under
+<auto_label docid="Canadian Charter of Rights and Freedoms" id="165" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="166" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> based on enumerated grounds and the pleaded facts support the
+essential elements of that claim. </p>
+<p class="FelskyNumbering12" style="margin-top:12.0pt;margin-right:0in;
+margin-bottom:12.0pt;margin-left:0in;text-indent:0in">[27]          
+The GN’s arguments on this ground of appeal are
+not persuasive for two reasons.</p>
+<p class="FelskyNumbering12" style="margin-top:12.0pt;margin-right:0in;
+margin-bottom:12.0pt;margin-left:0in;text-indent:0in">[28]          
+First, we reject the GN’s submission that NTI’s
+claim must be assessed for its “real essence” or “essential character”, and
+characterized as an affirmative language rights claim in disguise. In making
+that argument, the GN relies on <auto_label docid="JP Morgan Asset Management (Canada) Inc v Canada (National Revenue)" id="167" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="168" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">JP Morgan Asset Management (Canada) Inc v Canada
+(National Revenue)</auto_label></i>, <auto_label id="169" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2013 FCA 250</auto_label> at <auto_label fragmentid="" id="170" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">paras 49-50</auto_label></auto_label>; <auto_label docid="Canada (Attorney General) v Scow" id="171" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="172" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Canada (Attorney
+General) v Scow</auto_label></i>, <auto_label id="173" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2022 BCCA 275</auto_label> at <auto_label fragmentid="" id="174" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 32</auto_label></auto_label>; <auto_label docid="Leroux v Canada Revenue Agency" id="175" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="176" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Leroux v Canada Revenue
+Agency</auto_label></i>, <auto_label id="177" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2012 BCCA 63</auto_label> at <auto_label fragmentid="" id="178" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 20</auto_label></auto_label>; <auto_label docid="Grand River Enterprises Six Nations Ltd v Attorney General (Canada)" id="179" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="180" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Grand River Enterprises Six Nations Ltd
+v Attorney General (Canada)</auto_label></i>, <auto_label id="181" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2017 ONCA 526</auto_label> at <auto_label fragmentid="" id="182" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 46</auto_label></auto_label>. </p>
+<p class="FelskyNumbering12" style="margin-top:12.0pt;margin-right:0in;
+margin-bottom:12.0pt;margin-left:0in;text-indent:0in">[29]          
+The “essential character” inquiry is not a component
+of the test for determining whether a reasonable cause of cause of action is
+disclosed. The cited cases involved circumstances where a court’s subject
+matter jurisdiction was challenged, and the essential nature of the claim had
+to be ascertained to establish whether the court had jurisdiction. On an
+application to strike for no reasonable cause of action, the Court focuses on
+the facts as pleaded, not a substantive inquiry into the merits. Moreover, in
+assessing alternative approaches to the cause of action, the Court considers
+whether “the pleadings are bound to fail on all reasonable theories of the
+case”: <auto_label docid="Nevsun Resources Ltd v Araya" id="183" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="184" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Nevsun Resources Ltd v Araya</auto_label></i>, <auto_label id="185" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">2020 SCC 5</auto_label> at <auto_label fragmentid="" id="186" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 147</auto_label></auto_label> (per Brown
+and Rowe JJ, dissenting in part but not on this point). A violation of the
+<auto_label docid="Canadian Charter of Rights and Freedoms" id="187" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="188" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> substantive equality right is expressly pleaded on enumerated
+grounds with sufficient material facts to support the essential elements of an
+arguable cause of action. </p>
+<p class="FelskyNumbering12" style="margin-top:12.0pt;margin-right:0in;
+margin-bottom:12.0pt;margin-left:0in;text-indent:0in">[30]          
+Second, the law addressing the scope of the
+<auto_label docid="Canadian Charter of Rights and Freedoms" id="189" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="190" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label></auto_label> substantive equality right and the interaction with <auto_label docid="Canadian Charter of Rights and Freedoms" id="191" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="192" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">sections
+16-23</auto_label> of the <i><auto_label id="193" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label> is not sufficiently settled to preclude a
+reasonable claim grounded on racial and ethnic discrimination merely because
+those enumerated grounds are interconnected with the language of educational
+instruction. </p>
+<p class="FelskyNumbering12" style="margin-top:12.0pt;margin-right:0in;
+margin-bottom:12.0pt;margin-left:0in;text-indent:0in">[31]          
+As NTI contends, the claim arguably does not
+relate to English or French, but to the Inuit language, and does not involve
+minority language rights, as the Inuit language is spoken by the majority in
+Nunavut. Moreover, there is no hierarchy among constitutional rights - one
+cannot be used to expand or circumscribe another. </p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[32]          
+We recognize that some claims under <auto_label docid="Canadian Charter of Rights and Freedoms" id="194" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="195" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section
+15(1)</auto_label> of the <i><auto_label id="196" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label> can be appropriately addressed on a preliminary
+basis, such as determining that <auto_label docid="Canadian Charter of Rights and Freedoms" id="197" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="198" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15</auto_label> rights</auto_label> are not available to
+corporations: see <auto_label docid="Edmonton Journal v Alberta (Attorney General)" id="199" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><i><auto_label id="200" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Edmonton Journal v Alberta (Attorney General)</auto_label></i>, <auto_label id="201" labelname="citation" parent="decision" style="background-color: rgb(255, 87, 51); color: black;" verified="false">[1989]
+2 SCR 1326</auto_label> at <auto_label fragmentid="" id="202" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">1382</auto_label></auto_label>. However, we agree with NTI that the law is not as clear as
+suggested by the GN and that this claim should proceed to trial.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[33]          
+ Neither <i><auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="203" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="204" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Gosselin</auto_label></auto_label></i> nor <i><auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="205" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="206" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">LaLonde</auto_label></auto_label></i> clearly
+precludes the claim advanced by NTI. <i><auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="207" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="208" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Gosselin</auto_label></auto_label></i> confirmed that equality
+guarantees in <auto_label docid="Canadian Charter of Rights and Freedoms" id="209" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="210" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15</auto_label></auto_label> cannot be used to modify the categories of rights
+holder defined under <auto_label docid="Canadian Charter of Rights and Freedoms" id="211" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="212" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</auto_label></auto_label> (<auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="213" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label fragmentid="" id="214" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 22</auto_label></auto_label>), but it did not determine whether <auto_label docid="Canadian Charter of Rights and Freedoms" id="215" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="216" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section
+23</auto_label></auto_label> can be used to constrain the interpretation and application of <auto_label docid="Canadian Charter of Rights and Freedoms" id="217" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="218" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15</auto_label></auto_label>
+equality rights to exclude other linguistic groups. <i><auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="219" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="220" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">LaLonde</auto_label></auto_label></i> recognized that
+“where the Constitution accords special rights to special groups, those
+specific guarantees must be respected and other <i>Charter</i> rights cannot be
+used to expand or diminish the rights so granted” (<auto_label docid="Gosselin (Tutor of) v Quebec (Attorney General)" id="221" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label fragmentid="" id="222" labelname="fragment" non_standard="false" parent="decision" style="background-color: rgb(142, 124, 195); color: black;" verified="false">para 101</auto_label></auto_label>). While <auto_label docid="Canadian Charter of Rights and Freedoms" id="223" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="224" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</auto_label></auto_label>
+accords special rights to special groups of English and French minorities, <i><auto_label docid="Lalonde v Ontario (Commission de restructuration des services de santé)" id="225" labelname="decision" parent="" style="background-color: rgb(106, 163, 255); color: black;" verified="false"><auto_label id="226" labelname="title" parent="decision" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Lalonde</auto_label></auto_label></i>
+does not resolve whether <auto_label docid="Canadian Charter of Rights and Freedoms" id="227" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="228" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 23</auto_label></auto_label> precludes other linguistic groups,
+including Indigenous majorities, from seeking substantive equality under <auto_label docid="Canadian Charter of Rights and Freedoms" id="229" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="230" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section
+15</auto_label></auto_label>.</p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[34]          
+ In our view, whether NTI’s claim is limited to
+protecting language rights (as characterized by the GN) or is broader in nature
+(as alleged in the Amended Statement of Claim), how that claim should be
+assessed in relation to <auto_label docid="Canadian Charter of Rights and Freedoms" id="231" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="232" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15(1)</auto_label> of the <i><auto_label id="233" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label>, and how <auto_label docid="Canadian Charter of Rights and Freedoms" id="234" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="235" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">section 15</auto_label></auto_label>
+interacts with <auto_label docid="Canadian Charter of Rights and Freedoms" id="236" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><auto_label fragmentid="" id="237" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">sections 16 – 23</auto_label> of the <i><auto_label id="238" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Charter</auto_label></i></auto_label> are complex questions of
+law that should be addressed in the context of a proper evidentiary record and
+concrete factual findings. Further, NTI’s expressly pleaded claim of racial and
+ethnic discrimination causing substantive inequality requires a fulsome
+evidentiary record to examine how the 2019 Amendments impose a burden or deny a
+benefit in a way that reinforces, perpetuates or exacerbates disadvantage
+including historical disadvantage. We decline to undertake that analysis in the
+abstract. </p>
+<p class="FelskyNumbering12"><b>Conclusion</b></p>
+<p class="FelskyNumbering12" style="margin-left:0in;text-indent:0in">[35]          
+The appeal is dismissed.</p>
+<p class="FelskyNumbering12" style="margin-bottom:0in;margin-bottom:.0001pt;
+line-height:200%"><a name="JudgmentHeard"></a>Appeal heard on February
+13, 2024</p>
+<p class="MsoNormal" style="margin-left:0in"><a name="JudgmentFiled"></a>Memorandum filed at <a name="FilingJudicialDistrict"></a>Iqaluit,
+Nunavut</p>
+<p class="MsoNormal" style="margin-left:0in">this 28th day of August,
+2024</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<div align="right" class="MsoNormal" style="margin-left:0in;text-align:right"><a name="Signature"></a><a name="frAppearances"></a>
+<hr align="right" noshade="" size="1" style="color:black" width="288"/>
+</div>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">Khullar C.J.A.</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"> </p>
+<div align="right" class="MsoNormal" style="margin-left:0in;text-align:right">
+<hr align="right" noshade="" size="1" style="color:black" width="288"/>
+</div>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">                                                     Strekaf J.A.</p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"> </p>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right"> </p>
+<div align="right" class="MsoNormal" style="margin-left:0in;text-align:right">
+<hr align="right" noshade="" size="1" style="color:black" width="288"/>
+</div>
+<p align="right" class="MsoNormal" style="margin-left:0in;text-align:right">Feth J.A.</p>
+<span style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'><br clear="all" style="page-break-before:always"/>
+</span>
+<p align="left" class="MsoNormal" style="margin-top:0in;margin-right:0in;
+margin-bottom:10.0pt;margin-left:0in;text-align:left;line-height:115%"> </p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"><b>Appearances:</b></p>
+<p class="MsoNormal" style="margin-left:0in;page-break-after:avoid"> </p>
+<p class="MsoNormal" style="margin-left:0in">T. Dickson</p>
+<p class="MsoNormal" style="margin-left:0in">A. Laskin</p>
+<p class="MsoNormal" style="margin-left:0in">J. Black</p>
+<p class="MsoNormal" style="margin-left:0in">            for the
+Respondents</p>
+<p class="MsoNormal" style="margin-left:0in"> </p>
+<p class="MsoNormal" style="margin-left:0in">M. Faille</p>
+<p class="MsoNormal" style="margin-left:0in">A. Christoff</p>
+<p class="MsoNormal" style="margin-left:0in">            for the
+Appellants</p>
+</div>
+<div><br clear="all"/>
+<hr align="left" size="1" width="33%"/>
+<div id="ftn1">
+<p class="MsoFootnoteText"><a href="#_ftnref1" name="_ftn1" title=""><span class="MsoFootnoteReference"><span style="font-size:10.0pt">[1]</span></span></a> <auto_label docid="Interim Language of Instruction Act" id="239" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="240" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Interim Language of Instruction Act</auto_label></i>, <auto_label id="241" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="false">S.Nu. 2019, c 8</auto_label>, <auto_label fragmentid="" id="242" labelname="fragment" non_standard="false" parent="legislation" style="background-color: rgb(142, 124, 195); color: black;" verified="false">s 2(2)</auto_label></auto_label></p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText"><a href="#_ftnref2" name="_ftn2" title=""><span class="MsoFootnoteReference"><span style="font-size:10.0pt">[2]</span></span></a> <auto_label docid="Rules of the Supreme Court of the Northwest Territories" id="243" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" verified="false"><i><auto_label id="244" labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="official" verified="false">Rules of the Supreme Court of the Northwest Territories</auto_label></i>, <auto_label id="245" labelname="citation" parent="legislation" style="background-color: rgb(255, 87, 51); color: black;" verified="false">NWT
+Reg (Nu) 010-96</auto_label></auto_label></p>
+</div>
+</div>
+</body></html>

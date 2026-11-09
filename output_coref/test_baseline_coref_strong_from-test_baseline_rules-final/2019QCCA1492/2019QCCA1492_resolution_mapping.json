@@ -1,0 +1,1978 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/6fqkd",
+    "score": 2.0,
+    "candidate_id": "l38186!38186-current-1",
+    "candidate_title": "Code de procédure civile",
+    "query_text": "legislation | Code of\n  Civil Procedure | Code of Civil Procedure | Code\nof Civil Procedure | Code of Civil\nProcedure",
+    "method": "title_exact",
+    "matched_key": "code of civil procedure",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fqkd",
+        "score": 2.0,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 2.0,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 2.0,
+        "candidate_title": "Code of Civil Procedure"
+      }
+    ]
+  },
+  "baseline_1": {
+    "uri": "https://canlii.ca/t/j2csc",
+    "score": 3.0,
+    "candidate_id": "2019qcca1492",
+    "candidate_title": "In the matter: Reference to the Court of Appeal of Quebec pertaining to the constitutional validity of the provisions of article 35 of the Code of Civil Procedure which set at less than $85,000 the exclusive monetary jurisdiction of the Court of Québec and to the appellate jurisdiction assigned to the Court of Québec",
+    "query_text": "decision | 2019 QCCA 1492",
+    "method": "citation_exact",
+    "matched_key": "2019qcca1492",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j2csc",
+        "score": 3.0,
+        "candidate_title": "In the matter: Reference to the Court of Appeal of Quebec pertaining to the constitutional validity of the provisions of article 35 of the Code of Civil Procedure which set at less than $85,000 the exclusive monetary jurisdiction of the Court of Québec and to the appellate jurisdiction assigned to the Court of Québec"
+      }
+    ]
+  },
+  "baseline_2": {
+    "uri": "https://synthetic.leread.ca/gold/G0141",
+    "score": 2.0,
+    "candidate_id": "gold-G0141",
+    "candidate_title": "Civil Justice in Mid-Nineteen-Century British North America: Court Structure, Judges and Recourse to the Courts in Lower Canada, Upper Canada, New Brunswick and Nova Scotia",
+    "query_text": "secondary sources | when\nthe adjudicative function is a sole or central function of the tribunal (Farrah) | [e]xcept on a question of jurisdiction / [s]auf\nsur une question de compétence | Report | Introduction to the Study of the\nLaw of the Constitution | Code de procédure civile du\nBas-Canada | The Supreme Court of Canada\nand the Provincial Court in Canada | La Cour du Québec et la justice administrative | Les appels administratifs au\nCanada | La Cour du Québec et la justice\nadministrative | Les\nappels administratifs au Canada | Les appels administratifs au Canada | Judicial Deference | CE OF THE SUPERIOR COURT OF QUEBEC\n\n\n\n\nCONSEIL DE LA MAGISTRATURE DU QUÉBEC\n\n\n\n\nCANADIAN ASSOCIATION OF PROVINCIAL\n  COURT JUDGES\n\n\n\n\nORGANISME D’AUTORÉGLEMENTATION DU\n  COURTAGE IMMOBILIER DU QUÉBEC (OACIQ) | Conversely | As the Supreme Court stated\nin Reference Re Canada Assistance Plan (B.C.) | McLachlin | Commission | Iacobucci | In Proprio Direct (CA) | Daigneault and Proprio\nDirect (CA) | She was of the\nview that the Court of Appeal’s judgments in Daigneault and Proprio\nDirect (CA) | Shortly after Proprio Direct (SCC) | Relying on Proprio Direct (SCC) | Citing Proprio Direct\n(SCC) | Dunsmuir and Proprio\nDirect (SCC) | Daigneault and Proprio Direct\n(SCC) | Q\nand Proprio Direct (SCC) | Daigneault and Proprio\nDirect (CA) | Proprio Direct (SCC) | Noël | Court in Daigneault\nand Proprio Direct (CA) | Grondin and Proprio Direct (SCC) | A.\n\n\n\n\n \n\n\n\n\n \n\n\n\n\nMtre Dominique Rousseau\n\n\n\n\nMtre Francis Demers\n\n\n\n\nMtre Jean-Yves Bernard\n\n\n\n\nMINISTÈRE DE LA\n  JUSTICE (DGAJLAJ) | Beaton\n\n\n\n\nMtre Audrey Mayrand\n\n\n\n\nPOWER LAW\n\n\n\n\nFor the Canadian Association\n  of Provincial Court Judges\n\n\n\n\n \n\n\n\n\nMtre Vanessa\n  Joannisse-Goulet\n\n\n\n\nORGANISME DU COURTAGE\n  IMMOBILIER DU QUÉBEC (OACIQ) | For the Organisme d’autoréglementation\n  du courtage immobilier du Québec (OACIQ) | Gonzalve Doutre | Noel Lyon | Yves-Marie Morissette | Patrice Garant | des Régions et de l’Occupation du territoire (“MAMROT”) | Paul Daly | Reference Re Canada Assistance Plan\n(B.C.) | Reference Re Canada Assistance Plan (B.C.) | Patrice\nGarant | Frank Iacobucci | CA | Proprio\nDirect (CA) | Proprio Direct\n(SCC)",
+    "method": "title_exact",
+    "matched_key": "report",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0141",
+        "score": 2.0,
+        "candidate_title": "Civil Justice in Mid-Nineteen-Century British North America: Court Structure, Judges and Recourse to the Courts in Lower Canada, Upper Canada, New Brunswick and Nova Scotia"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0290",
+        "score": 2.0,
+        "candidate_title": "La Cour du Québec et la justice administrative"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0147",
+        "score": 2.0,
+        "candidate_title": "Code de procédure civile du Bas-Canada"
+      }
+    ]
+  },
+  "baseline_3": {
+    "uri": "https://canlii.ca/t/56lsh",
+    "score": 3.5,
+    "candidate_id": "l12792!12792-current-1",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | 83\n4.3.3.     Real Estate Brokerage Act | 84\n4.3.6.     Police Act | Court of Québec............................................................ 93\n4.6.     The Re Residential Tenancies Act, 1979 | Court of Appeal Reference Act | Constitution Act, 1867 | 100 of the\nReal Estate Brokerage Act | 240 and 241 of the Police Act | R-8.1) and 61 of the Act respecting the protection of personal information in\nthe private sector | C.C.P. | Constitution\nAct, 1867 | 1873 Judicature Act | Constitution Act,\n1867 | Constitutional Act, 1867 | British North America Act | Quebec Professional Code | Professional\nCode | Re Residential Tenancies Act, 1979 | Professional Code in order to replace the | Youth\nProtection Act | 96 and 101 of the Constitution Act, 1867 | Re\nResidential Tenancies Act, 1979 | Amendments to the Residential Tenancies Act | Re Residential\nTenancies Act, 1979 | Young Offenders Act | As regards the analysis under Re Residential Tenancies Act, 1979 | B.C. Family Relations Act | Interest\nAct | 100 of the Real Estate Brokerage Act | R-8.1) and 61 of the Act respecting\nthe protection of personal information in the private sector | 96 and 92(14) of the Constitution\nAct, 1867 | Real Estate Brokerage Act | Professional Code | Professional | Securities Act | 4.3.6.   Police Act | Police Act | Real\nEstate Brokerage Act | Residential Tenancies\nAct | British North America Act may apply to an\nadministrative tribunal of appeal as well as to one concerned with direct\nenforcement of a regulatory statute | Transport\nAct and given a | Transport Act | Transport | Chapter IV of\n  the Professional Code | Sections 115.16 to 115.22 of the Act respecting the regulation of\n  the financial sector | of the Labour\n  Code | 18. Aucun pourvoi en contrôle judiciaire prévu au Code de procédure\n  civile | Constitution Act, 1960 | Canada\nEvidence Act | 2807 and 2809 of the Civil Code of Québec | Amendments to the\nResidential Tenancies Act | Amendments to the Residential\nTenancies Act | 90 and 55-57 of the Constitution Act, 1867 | Act to amend the Code of Civil Procedure respecting the\njurisdiction of the Circuit and Magistrate’s Courts | Act to again amend the Code of Civil Procedure | Act to amend the Code of Civil Procedure and other\nlegislation | An Act to amend various legislation | An Act to amend the Courts of Justice Act and other\nlegislation to establish the Court of Québec | Act to amend the Code of Civil Procedure and the Act\nrespecting municipal courts | Act to reform the Code of Civil Procedure | Code of Civil Procedure does not\napply to the | Act to amend the Professional Code and the Labour Code | Judges Act | Divorce Act | Bankruptcy and Insolvency Act | Companies’ Creditors Arrangement Act | Criminal Code | Courts of Justice Act | Youth Criminal Justice Act | Courts of Justice\nAct | Youth Protection Act | Provincial Court Act | Small Claims Act | Small Claims Court Act | Judicature Act | Small Claims Regulations | P.E.I. | Small\nClaims Act | Court of Queen’s Bench Small Claims Practices Act | Small Claims Act, 2016 | Small Claims Regulations, 2017 | Provincial Court Civil Procedure Regulation | The Statutes Amendment Act | Small Claims Court Monetary Limit Regulation | Tribunal\nSmall Claims Regulations | Reference Re Young Offenders Act | Amendments\nto the Residential Tenancies Act | Courts of\nJustice Act | C.C.Q. | Interest Act | Act to amend the Code of Civil Procedure | Code of Civil\nProcedure and other legislation | An Act to\namend various legislation | Act to amend the Code of Civil Procedure and the Charter of\nhuman rights and freedoms | Act to establish the new Code of Civil Procedure | (under) sections 100 of the Real\nEstate Brokerage Act | Pursuant to the Court of Appeal Reference Act | Real\nEstate Brokerage Act does not contain a privative clause limiting the | Superior Court. The Professional Code | Professional Code to which the Real\nEstate Brokerage Act refers | Real Estate\nBrokerage Act | British North America Act” | Act to establish the Régie du logement and to amend the Civil\nCode and other legislation | Act to establish the new Code of Civil\nProcedure | R.S.C. 1985 | R.S.C. 1985, c. C-5 | S.Q.\n1969, c. 81 | S.Q. 1979, c. 37 | S.Q. 1982, c. 58 | S.Q. 1984, c. 26 | S.Q. 1988, c. 21 | S.Q. 1995, c. 2 | S.Q. 2002,\nc. 7 | S.Q. 1972, c. 55 | R.S.Q. 1977, c. C-26 | S.Q.\n1982, c. 16 | R.S.C. 1985, c. J-1 | R.S.C. 1985, c. 3 | R.S.C. 1985, c. B-3 | R.S.C. 1985, c. C-36 | R.S.C. 1985, c. C-46 | S.C. 2002, c. 1 | R.S.C. 1985, c. Y-1 | R.S.O., c. C.43 | R.S.N.B. 1973, c. P-21 | R.S.N.B. 2012, c. 15 | R.S.N.S. 1989, c. 430 | S.P.E.I. 1988, c. P-25 | S.P.E.I. 1988, c. J | S.N.L. 1991, c. 15 | R.S.N.L. 1990, c. S-16 | S.S. 2016, c. S-50.12 | R.S.A. 2000, c. P-31 | S.A. 2015, c. 12 | R.S.B.C. 1996, c. 379 | R.S.B.C. 1996, c. 430 | R.S.O. 1990, c. C.43 | R.S.C. 1985, c. I-15 | S.Q. 1969, c.\n80 | S.Q. 1969,\nc. 81 | L.Q. 1979, c. 37 | S.Q. 1982, c. 32 | S.Q. 1993, c. 30 | S.Q.\n2014, c. 1 | S.Q. 2018, c. 23 | R.S.Q., c. C-26 | S.Q. 1979, c. 48 | S.Q., 2014, c. 1",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cc46",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q4x",
+        "score": 3.5,
+        "candidate_title": "Bankruptcy and Insolvency Act"
+      }
+    ]
+  },
+  "baseline_6": {
+    "uri": "https://canlii.ca/t/hrkm6",
+    "score": 3.5,
+    "candidate_id": "2018csc-scc15",
+    "candidate_title": "R. v. Comeau",
+    "query_text": "decision | R. v. Comeau | R. v. Comeau | [2018] 1 S.C.R. 342",
+    "method": "citation_exact",
+    "matched_key": "20181scr342",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hrkm6",
+        "score": 3.5,
+        "candidate_title": "R. v. Comeau"
+      }
+    ]
+  },
+  "baseline_7": {
+    "uri": "https://canlii.ca/t/g7z46",
+    "score": 2.0,
+    "candidate_id": "1879csc-scc144634",
+    "candidate_title": "Valin v. Langlois",
+    "query_text": "decision | Valin v. Langlois | Valin v. Langlois, (1879)",
+    "method": "title_exact",
+    "matched_key": "valin v langlois",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7z46",
+        "score": 2.0,
+        "candidate_title": "Valin v. Langlois"
+      }
+    ]
+  },
+  "baseline_10": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 2.0,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Canadian Charter of\nRights and | Canadian Charter of Rights and Freedoms",
+    "method": "title_exact",
+    "matched_key": "canadian charter of rights and freedoms",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 2.0,
+        "candidate_title": "The Constitution Act, 1982"
+      }
+    ]
+  },
+  "baseline_11": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 0.9142857142857143,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Canadian | Canadian Charter to",
+    "method": "fuzzy",
+    "matched_key": "canadian",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.9142857142857143,
+        "candidate_title": "The Constitution Act, 1982"
+      }
+    ]
+  },
+  "baseline_15": {
+    "uri": "https://canlii.ca/t/6fmkx",
+    "score": 0.9130434782608695,
+    "candidate_id": "l12616!12616-current-1",
+    "candidate_title": "Loi sur le courtage immobilier",
+    "query_text": "legislation | Real Estate Brokerage",
+    "method": "fuzzy",
+    "matched_key": "real estate brokerage",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fmkx",
+        "score": 0.9130434782608695,
+        "candidate_title": "Loi sur le courtage immobilier"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lgl",
+        "score": 0.9130434782608695,
+        "candidate_title": "Real Estate Brokerage Act"
+      }
+    ]
+  },
+  "baseline_17": {
+    "uri": "https://canlii.ca/t/6fmkc",
+    "score": 0.8813559322033898,
+    "candidate_id": "l5959!5959-current-1",
+    "candidate_title": "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels",
+    "query_text": "legislation | Act respecting access to documents held\nby public bodies and the protection of",
+    "method": "fuzzy",
+    "matched_key": "act respecting access to documents held by public bodies and the protection of",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fmkc",
+        "score": 0.8813559322033898,
+        "candidate_title": "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lg1",
+        "score": 0.8813559322033898,
+        "candidate_title": "Act respecting Access to documents held by public bodies and the Protection of personal information"
+      }
+    ]
+  },
+  "baseline_18": {
+    "uri": "https://canlii.ca/t/1frdw",
+    "score": 3.5,
+    "candidate_id": "1995csc-scc109",
+    "candidate_title": "MacMillan Bloedel Ltd. v. Simpson",
+    "query_text": "decision | Bloedel Ltd. v. Simpson | MacMillan Bloedel Ltd. v. Simpson | MacMillan\nBloedel Ltd. v. Simpson | MacMillan Bloedel\nLtd. v. Simpson | MacMillan\nBloedel Ltd. v. Simpson | MacMillan Bloedel Ltd. v.\nSimpson | [1995] 4 S.C.R. 725 | [1995] 4 S.C.R 725",
+    "method": "citation_exact",
+    "matched_key": "19954scr725",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frdw",
+        "score": 3.5,
+        "candidate_title": "MacMillan Bloedel Ltd. v. Simpson"
+      }
+    ]
+  },
+  "baseline_19": {
+    "uri": "https://canlii.ca/t/7cxr",
+    "score": 3.5,
+    "candidate_id": "2003qcca10172",
+    "candidate_title": "Pigeon c. Daigneault",
+    "query_text": "decision | Pigeon\nc. Daigneault | Procureure générale du Québec c. Ville de Montréal | Procureure générale du Québec c.\nVille de Montréal | McEvoy v. New Brunswick (Attorney General) | Immeubles Port\nLouis Ltée v. Lafontaine (Village) | Canada (Human\nRights Commission) v. Canadian Liberty Net | Sobeys Stores Ltd. v. Yeomans and Labour Standards Tribunal | Pigeon c. Daigneault | Mouvement laïque québécois v. Saguenay (City) | Sobeys Stores Ltd. v. Yeomans\nand Labour Standards Tribunal | Sobeys Stores\nLtd. v. Yeomans and Labour Standards Tribunal | Canada (Human Rights\nCommission) v. Canadian Liberty Net | Canada (Human Rights Commission)\nv. Canadian Liberty Net | Mouvement laïque\nquébécois v. Saguenay (City) | Mouvement\nlaïque québécois v. Saguenay (City) | Rasanen\nv. Rosemount Instruments Ltd., (1994) | Bell Canada v. Canada (Canadian Radio-Television and\nTelecommunications Commission) | 35 and Procureure générale du Québec\nc. Ville de Montréal | Canadian Human Rights Commission | Procureure générale du Québec c. Ville de\nMontréal | S.C.R. 1 | [1983] 1\nS.C.R. 704 | [1991] 1 S.C.R. 326 | [1998] 1 S.C.R. 626 | [1989] 1 S.C.R. 238 | [1981] 1 S.C.R. 753 | [2003] R.J.Q. 1090 | 2009 QCCA 2397 | 2011 QCCA 238 | 2014 QCCA 1176 | 2016 QCCA 2108 | [2015] 2 S.C.R. 3 | [1989]\n1 S.C.R. 238 | [1989] 1\nS.C.R. 238 | [1998] 1\nS.C.R. 626 | [1977] 1\nS.C.R. 112 | 2014 QCCA\n1176 | [2015]\n2 S.C.R. 3 | [1989] 1 S.C.R. 1722 | [2003] R.J.Q. 1090 (C.A.) | [2015] 2\nS.C.R. 3 | 2016 QCCA 1018 | 2016\nQCCA 2108 | [1977] 1 S.C.R. 112 | 2016 QCCA\n1018",
+    "method": "citation_exact",
+    "matched_key": "2003rjq1090",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7cxr",
+        "score": 3.5,
+        "candidate_title": "Pigeon c. Daigneault"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh67c",
+        "score": 3.5,
+        "candidate_title": "Mouvement laïque québécois v. Saguenay (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsnt",
+        "score": 3.5,
+        "candidate_title": "Immeubles Port Louis Ltée v. Lafontaine (Village)"
+      }
+    ]
+  },
+  "baseline_20": {
+    "uri": "https://synthetic.leread.ca/gold/G0320",
+    "score": 0.9421487603305785,
+    "candidate_id": "gold-G0320",
+    "candidate_title": "Act respecting the jurisdiction of the Magistrate’s Court",
+    "query_text": "legislation | Is the Act respecting the jurisdiction of the Magistrate’s\nCourt",
+    "method": "fuzzy",
+    "matched_key": "is the act respecting the jurisdiction of the magistrate s court",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0320",
+        "score": 0.9421487603305785,
+        "candidate_title": "Act respecting the jurisdiction of the Magistrate’s Court"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0277",
+        "score": 0.9354838709677419,
+        "candidate_title": "An Act respecting the jurisdiction of the Magistrate’s Court"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0018",
+        "score": 0.8721804511278195,
+        "candidate_title": "An Act respecting the jurisdiction of the District Magistrate’s Court"
+      }
+    ]
+  },
+  "baseline_21": {
+    "uri": "https://canlii.ca/t/1ftqf",
+    "score": 3.5,
+    "candidate_id": "1986csc-scc51",
+    "candidate_title": "Scowby v. Glendinning",
+    "query_text": "decision | Scowby v. Glendinning | [1986] 2 S.C.R. 226",
+    "method": "citation_exact",
+    "matched_key": "19862scr226",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftqf",
+        "score": 3.5,
+        "candidate_title": "Scowby v. Glendinning"
+      }
+    ]
+  },
+  "baseline_23": {
+    "uri": "https://synthetic.leread.ca/gold/G0308",
+    "score": 2.0,
+    "candidate_id": "gold-G0308",
+    "candidate_title": "Letang v. Cooper",
+    "query_text": "decision | Letang v. Cooper",
+    "method": "title_exact",
+    "matched_key": "letang v cooper",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0308",
+        "score": 2.0,
+        "candidate_title": "Letang v. Cooper"
+      }
+    ]
+  },
+  "baseline_24": {
+    "uri": "https://synthetic.leread.ca/gold/G0381",
+    "score": 2.0,
+    "candidate_id": "gold-G0381",
+    "candidate_title": "Pillai v. Mudanayake and Others",
+    "query_text": "decision | Pillai v.\nMudanayake and Others",
+    "method": "title_exact",
+    "matched_key": "pillai v mudanayake and others",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0381",
+        "score": 2.0,
+        "candidate_title": "Pillai v. Mudanayake and Others"
+      }
+    ]
+  },
+  "baseline_26": {
+    "uri": "https://canlii.ca/t/29h9c",
+    "score": 3.5,
+    "candidate_id": "2010qcca821",
+    "candidate_title": "Gignac c. Marcotte",
+    "query_text": "decision | Gignac c.\nMarcotte | Gignac c. Marcotte | 2010 QCCA 821",
+    "method": "citation_exact",
+    "matched_key": "2010qcca821",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/29h9c",
+        "score": 3.5,
+        "candidate_title": "Gignac c. Marcotte"
+      }
+    ]
+  },
+  "baseline_33": {
+    "uri": "https://canlii.ca/t/1sqcd",
+    "score": 3.5,
+    "candidate_id": "2006qcca978",
+    "candidate_title": "Proprio Direct inc. c. Pigeon",
+    "query_text": "decision | Pigeon c. Proprio Direct | Proprio Direct inc. c. Pigeon | 2006 QCCA 978",
+    "method": "citation_exact",
+    "matched_key": "2006qcca978",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1sqcd",
+        "score": 3.5,
+        "candidate_title": "Proprio Direct inc. c. Pigeon"
+      }
+    ]
+  },
+  "baseline_34": {
+    "uri": "https://canlii.ca/t/1x205",
+    "score": 0.9736842105263158,
+    "candidate_id": "2008csc-scc32",
+    "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc.",
+    "query_text": "decision | Québec v. Proprio Direct | Association des courtiers et agents immobiliers du Québec v.\nProprio Direct",
+    "method": "fuzzy",
+    "matched_key": "quebec v proprio direct",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1x205",
+        "score": 0.9736842105263158,
+        "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc."
+      }
+    ]
+  },
+  "baseline_35": {
+    "uri": "https://canlii.ca/t/1x205",
+    "score": 3.0,
+    "candidate_id": "2008csc-scc32",
+    "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc.",
+    "query_text": "decision | 2008 SCC 32",
+    "method": "citation_exact",
+    "matched_key": "2008scc32",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1x205",
+        "score": 3.0,
+        "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc."
+      }
+    ]
+  },
+  "baseline_36": {
+    "uri": "https://canlii.ca/t/hn9jp",
+    "score": 3.5,
+    "candidate_id": "2017csc-scc56",
+    "candidate_title": "Barreau du Québec v. Quebec (Attorney General)",
+    "query_text": "decision | Conférence des juges de paix magistrats du Québec v. Quebec\n(Attorney General) | Conférence des juges du\nQuébec v. Quebec (Attorney General) | Minc v. Quebec (Attorney General) | Conférence des juges\nde paix magistrats du Québec v. Quebec (Attorney General) | Barreau du Québec v. Quebec (Attorney General) | [2008] 2\nS.C.R. 195 | [2001]\n2 S.C.R. 207 | [2016] 2 S.C.R. 116 | [2005] 2 S.C.R. 286 | [2016] 2 S.C.R.\n116 | [2001] 2\nS.C.R. 207 | [2008] 2 S.C.R. 195 | [2017]\n2 S.C.R. 488",
+    "method": "citation_exact",
+    "matched_key": "20172scr488",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hn9jp",
+        "score": 3.5,
+        "candidate_title": "Barreau du Québec v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l6wl",
+        "score": 3.5,
+        "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gv3pl",
+        "score": 3.5,
+        "candidate_title": "Conférence des juges de paix magistrats du Québec v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "baseline_37": {
+    "uri": "https://canlii.ca/t/1g5l3",
+    "score": 3.0,
+    "candidate_id": "2003csc-scc19",
+    "candidate_title": "Dr. Q. v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | 2003 SCC 19",
+    "method": "citation_exact",
+    "matched_key": "2003scc19",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1g5l3",
+        "score": 3.0,
+        "candidate_title": "Dr. Q. v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "baseline_38": {
+    "uri": "https://canlii.ca/t/1g5l3",
+    "score": 3.0,
+    "candidate_id": "2003csc-scc19",
+    "candidate_title": "Dr. Q. v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | [2003] 1 S.C.R. 226",
+    "method": "citation_exact",
+    "matched_key": "20031scr226",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1g5l3",
+        "score": 3.0,
+        "candidate_title": "Dr. Q. v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "baseline_39": {
+    "uri": "https://canlii.ca/t/1g5lm",
+    "score": 3.7,
+    "candidate_id": "2003csc-scc20",
+    "candidate_title": "Law Society of New Brunswick v. Ryan",
+    "query_text": "decision | Law Society of New Brunswick v. Ryan | 2003 SCC\n20 | [2003] 1 S.C.R. 247",
+    "method": "citation_exact",
+    "matched_key": "20031scr247",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1g5lm",
+        "score": 3.7,
+        "candidate_title": "Law Society of New Brunswick v. Ryan"
+      }
+    ]
+  },
+  "baseline_40": {
+    "uri": "https://canlii.ca/t/521l",
+    "score": 3.7,
+    "candidate_id": "2001csc-scc36",
+    "candidate_title": "Canada (Deputy Minister of National Revenue) v. Mattel Canada Inc.",
+    "query_text": "decision | Canada (Deputy Minister of\nNational Revenue) v. Mattel Canada Inc. | 2001 SCC 36 | [2001] 2 S.C.R. 100",
+    "method": "citation_exact",
+    "matched_key": "20012scr100",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/521l",
+        "score": 3.7,
+        "candidate_title": "Canada (Deputy Minister of National Revenue) v. Mattel Canada Inc."
+      }
+    ]
+  },
+  "baseline_41": {
+    "uri": "https://canlii.ca/t/1fs1k",
+    "score": 3.5,
+    "candidate_id": "1993csc-scc73",
+    "candidate_title": "Domtar Inc. v. Quebec (Commission d'appel en matière de lésions professionnelles)",
+    "query_text": "decision | Domtar Inc. v.\nQuebec (Commission d’appel en matière de lésions professionnelles) | [1993]\n2 S.C.R. 756",
+    "method": "citation_exact",
+    "matched_key": "19932scr756",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs1k",
+        "score": 3.5,
+        "candidate_title": "Domtar Inc. v. Quebec (Commission d'appel en matière de lésions professionnelles)"
+      }
+    ]
+  },
+  "baseline_45": {
+    "uri": "https://canlii.ca/t/5535w",
+    "score": 2.0,
+    "candidate_id": "l6167!6167-current-1",
+    "candidate_title": "Act respecting the Syndical Plan of the Sûreté du Québec",
+    "query_text": "legislation | Act respecting the Syndical Plan of the Sûreté du Québec",
+    "method": "title_exact",
+    "matched_key": "act respecting the syndical plan of the surete du quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5535w",
+        "score": 2.0,
+        "candidate_title": "Act respecting the Syndical Plan of the Sûreté du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/6d497",
+        "score": 2.0,
+        "candidate_title": "Loi sur le régime syndical applicable à la Sûreté du Québec"
+      }
+    ]
+  },
+  "baseline_48": {
+    "uri": "https://canlii.ca/t/56cq3",
+    "score": 0.9493670886075949,
+    "candidate_id": "l5849!5849-current-1",
+    "candidate_title": "Act respecting the protection of personal information in the private sector",
+    "query_text": "legislation | C-25.01).\n\n\n\n \nAct respecting the protection of personal\ninformation in the private sector",
+    "method": "fuzzy",
+    "matched_key": "c 25 01 act respecting the protection of personal information in the private sector",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56cq3",
+        "score": 0.9493670886075949,
+        "candidate_title": "Act respecting the protection of personal information in the private sector"
+      }
+    ]
+  },
+  "baseline_49": {
+    "uri": "https://canlii.ca/t/fvhv7",
+    "score": 3.5,
+    "candidate_id": "2013fct6",
+    "candidate_title": "Daniels v. Canada (Indian Affairs and Northern Development)",
+    "query_text": "decision | Daniels v. Canada (Indian Affairs and\nNorthern Development) | 2013 FC 6",
+    "method": "citation_exact",
+    "matched_key": "2013fc6",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fvhv7",
+        "score": 3.5,
+        "candidate_title": "Daniels v. Canada (Indian Affairs and Northern Development)"
+      }
+    ]
+  },
+  "baseline_50": {
+    "uri": "https://canlii.ca/t/1gbdn",
+    "score": 2.0,
+    "candidate_id": "2003csc-scc74",
+    "candidate_title": "R. v. Malmo-Levine; R. v. Caine",
+    "query_text": "decision | R. v. Malmo-Levine",
+    "method": "title_exact",
+    "matched_key": "r v malmo levine",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1gbdn",
+        "score": 2.0,
+        "candidate_title": "R. v. Malmo-Levine; R. v. Caine"
+      }
+    ]
+  },
+  "baseline_51": {
+    "uri": "https://canlii.ca/t/1gbdn",
+    "score": 3.5,
+    "candidate_id": "2003csc-scc74",
+    "candidate_title": "R. v. Malmo-Levine; R. v. Caine",
+    "query_text": "decision | R. v. Caine | [2003] 3 S.C.R. 571",
+    "method": "citation_exact",
+    "matched_key": "20033scr571",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1gbdn",
+        "score": 3.5,
+        "candidate_title": "R. v. Malmo-Levine; R. v. Caine"
+      }
+    ]
+  },
+  "baseline_52": {
+    "uri": "https://canlii.ca/t/1m3f3",
+    "score": 3.5,
+    "candidate_id": "2005csc-scc71",
+    "candidate_title": "R. v. Spence",
+    "query_text": "decision | R. v. Spence | [2005] 3 S.C.R. 458",
+    "method": "citation_exact",
+    "matched_key": "20053scr458",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m3f3",
+        "score": 3.5,
+        "candidate_title": "R. v. Spence"
+      }
+    ]
+  },
+  "baseline_53": {
+    "uri": "https://canlii.ca/t/5274",
+    "score": 3.5,
+    "candidate_id": "2000csc-scc2",
+    "candidate_title": "Public School Boards' Assn. of Alberta v. Alberta (Attorney General)",
+    "query_text": "decision | Public School Boards’ Assn. of Alberta v. Alberta (Attorney\nGeneral) | [2000] 1 S.C.R. 44",
+    "method": "citation_exact",
+    "matched_key": "20001scr44",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5274",
+        "score": 3.5,
+        "candidate_title": "Public School Boards' Assn. of Alberta v. Alberta (Attorney General)"
+      }
+    ]
+  },
+  "baseline_54": {
+    "uri": "https://canlii.ca/t/1fst8",
+    "score": 3.5,
+    "candidate_id": "1990csc-scc95",
+    "candidate_title": "Danson v. Ontario (Attorney General)",
+    "query_text": "decision | Danson v. Ontario (Attorney\nGeneral) | [1990] 2 S.C.R. 1086",
+    "method": "citation_exact",
+    "matched_key": "19902scr1086",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fst8",
+        "score": 3.5,
+        "candidate_title": "Danson v. Ontario (Attorney General)"
+      }
+    ]
+  },
+  "baseline_55": {
+    "uri": "https://canlii.ca/t/fnbbl",
+    "score": 3.0,
+    "candidate_id": "2010qcca1978",
+    "candidate_title": "Droit de la famille — 102866",
+    "query_text": "decision | 2010 QCCA\n1978",
+    "method": "citation_exact",
+    "matched_key": "2010qcca1978",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fnbbl",
+        "score": 3.0,
+        "candidate_title": "Droit de la famille — 102866"
+      }
+    ]
+  },
+  "baseline_56": {
+    "uri": "https://canlii.ca/t/fvsc0",
+    "score": 3.0,
+    "candidate_id": "2013csc-scc5",
+    "candidate_title": "Quebec (Attorney General) v. A",
+    "query_text": "decision | [2013] 1 S.C.R. 61",
+    "method": "citation_exact",
+    "matched_key": "20131scr61",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fvsc0",
+        "score": 3.0,
+        "candidate_title": "Quebec (Attorney General) v. A"
+      }
+    ]
+  },
+  "baseline_57": {
+    "uri": "https://canlii.ca/t/t5tt",
+    "score": 2.0,
+    "candidate_id": "d80275!d80275",
+    "candidate_title": "The Independence of the Judiciary",
+    "query_text": "secondary sources | The Independence of the Judiciary | The Independence of\nthe Judiciary | R. Lederman | W. R. Lederman",
+    "method": "title_exact",
+    "matched_key": "the independence of the judiciary",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/t5tt",
+        "score": 2.0,
+        "candidate_title": "The Independence of the Judiciary"
+      }
+    ]
+  },
+  "baseline_58": {
+    "uri": "https://synthetic.leread.ca/gold/G0510",
+    "score": 3.0,
+    "candidate_id": "gold-G0510",
+    "candidate_title": "Valin PC 1879",
+    "query_text": "decision | (1879) 5\nA.C. 115 | (1879) 5 A.C. 115",
+    "method": "citation_exact",
+    "matched_key": "18795ac115",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0510",
+        "score": 3.0,
+        "candidate_title": "Valin PC 1879"
+      }
+    ]
+  },
+  "baseline_61": {
+    "uri": "https://canlii.ca/t/1m7f3",
+    "score": 3.5,
+    "candidate_id": "2005csc-scc82",
+    "candidate_title": "May v. Ferndale Institution",
+    "query_text": "decision | May v.\nFerndale Institution | [2005] 3 S.C.R. 809",
+    "method": "citation_exact",
+    "matched_key": "20053scr809",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m7f3",
+        "score": 3.5,
+        "candidate_title": "May v. Ferndale Institution"
+      }
+    ]
+  },
+  "baseline_62": {
+    "uri": "https://canlii.ca/t/fzw43",
+    "score": 3.5,
+    "candidate_id": "2013csc-scc43",
+    "candidate_title": "Ontario v. Criminal Lawyers’ Association of Ontario",
+    "query_text": "decision | Ontario v. Criminal\nLawyers’ Association of Ontario | Ontario v. Criminal Lawyers’ Association\nof Ontario | Ontario v. Criminal Lawyers’ Association of Ontario | [2013] 3 S.C.R. 3",
+    "method": "citation_exact",
+    "matched_key": "20133scr3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fzw43",
+        "score": 3.5,
+        "candidate_title": "Ontario v. Criminal Lawyers’ Association of Ontario"
+      }
+    ]
+  },
+  "baseline_63": {
+    "uri": "https://canlii.ca/t/gds2j",
+    "score": 3.5,
+    "candidate_id": "2014csc-scc59",
+    "candidate_title": "Trial Lawyers Association of British Columbia v. British Columbia (Attorney General)",
+    "query_text": "decision | Trial\nLawyers Association of British Columbia v. British Columbia (Attorney General) | Trial Lawyers Association of British Columbia v. British Columbia\n(Attorney General) | Trial Lawyers Association of British Columbia\nv. British Columbia (Attorney General) | Trial Lawyers Association of British Columbia v. British\nColumbia (Attorney General) | Lawyers Association of British Columbia v. British Columbia (Attorney General) | Trial Lawyers Association of British Columbia v. British\nColombia (Attorney General) | [2014] 3 S.C.R. 31",
+    "method": "citation_exact",
+    "matched_key": "20143scr31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gds2j",
+        "score": 3.5,
+        "candidate_title": "Trial Lawyers Association of British Columbia v. British Columbia (Attorney General)"
+      }
+    ]
+  },
+  "baseline_66": {
+    "uri": "https://canlii.ca/t/1xtx5",
+    "score": 3.0,
+    "candidate_id": "1972csc-scc10144",
+    "candidate_title": "Séminaire de Chicoutimi v. La Cité de Chicoutimi",
+    "query_text": "decision | Séminaire de Chicoutimi v.\nCité de Chicoutimi | Séminaire de\nChicoutimi v. Cité de Chicoutimi | Séminaire de Chicoutimi v. Cité de Chicoutimi | [1973] S.C.R. 681 | [1973]\nS.C.R. 681",
+    "method": "citation_exact",
+    "matched_key": "1973scr681",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1xtx5",
+        "score": 3.0,
+        "candidate_title": "Séminaire de Chicoutimi v. La Cité de Chicoutimi"
+      }
+    ]
+  },
+  "baseline_67": {
+    "uri": "https://canlii.ca/t/1z75c",
+    "score": 3.0,
+    "candidate_id": "1978csc-scc10191",
+    "candidate_title": "Attorney General (Que.) et al. v. Farrah",
+    "query_text": "decision | [1978] 2 S.C.R. 638 | [1978] 2\nS.C.R 638 | [1978] 2 S.C.R\n638 | [1978] 2 S.C.R 638",
+    "method": "citation_exact",
+    "matched_key": "19782scr638",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z75c",
+        "score": 3.0,
+        "candidate_title": "Attorney General (Que.) et al. v. Farrah"
+      }
+    ]
+  },
+  "baseline_68": {
+    "uri": "https://canlii.ca/t/1mjlq",
+    "score": 0.8695652173913043,
+    "candidate_id": "1981csc-scc10020",
+    "candidate_title": "Crevier v. A.G. (Québec) et al.",
+    "query_text": "decision | Crevier v.\nA.G. (Quebec) | Crevier v. A.G. (Quebec)",
+    "method": "fuzzy",
+    "matched_key": "crevier v a g quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjlq",
+        "score": 0.8695652173913043,
+        "candidate_title": "Crevier v. A.G. (Québec) et al."
+      }
+    ]
+  },
+  "baseline_69": {
+    "uri": "https://canlii.ca/t/1mjlq",
+    "score": 3.0,
+    "candidate_id": "1981csc-scc10020",
+    "candidate_title": "Crevier v. A.G. (Québec) et al.",
+    "query_text": "decision | [1981] 2 S.C.R. 220",
+    "method": "citation_exact",
+    "matched_key": "19812scr220",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjlq",
+        "score": 3.0,
+        "candidate_title": "Crevier v. A.G. (Québec) et al."
+      }
+    ]
+  },
+  "baseline_70": {
+    "uri": "https://canlii.ca/t/1lpcn",
+    "score": 3.5,
+    "candidate_id": "1982csc-scc10018",
+    "candidate_title": "A.G. Can. v. Law Society of B.C.",
+    "query_text": "decision | Canada (Attorney General) v. Law society of\nBritish Columbia | [1982] 2 S.C.R. 307",
+    "method": "citation_exact",
+    "matched_key": "19822scr307",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpcn",
+        "score": 3.5,
+        "candidate_title": "A.G. Can. v. Law Society of B.C."
+      }
+    ]
+  },
+  "baseline_71": {
+    "uri": "https://canlii.ca/t/1xv5d",
+    "score": 3.5,
+    "candidate_id": "1983csc-scc10097",
+    "candidate_title": "Canada Labour Relations Board et al. v. Paul L’Anglais Inc. et al.",
+    "query_text": "decision | Canada Labour\nRelations Board v. Paul L’Anglais Inc. | [1983] 1 S.C.R. 147",
+    "method": "citation_exact",
+    "matched_key": "19831scr147",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1xv5d",
+        "score": 3.5,
+        "candidate_title": "Canada Labour Relations Board et al. v. Paul L’Anglais Inc. et al."
+      }
+    ]
+  },
+  "baseline_72": {
+    "uri": "https://canlii.ca/t/2fn3v",
+    "score": 3.5,
+    "candidate_id": "2011csc-scc6",
+    "candidate_title": "R. v. Ahmad",
+    "query_text": "decision | R. v. Ahmad | [2011] 1 S.C.R. 110",
+    "method": "citation_exact",
+    "matched_key": "20111scr110",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2fn3v",
+        "score": 3.5,
+        "candidate_title": "R. v. Ahmad"
+      }
+    ]
+  },
+  "baseline_73": {
+    "uri": "https://canlii.ca/t/1k1bn",
+    "score": 0.9166666666666666,
+    "candidate_id": "2005csc-scc16",
+    "candidate_title": "Okwuobi v. Lester B. Pearson School Board; Casimir v. Quebec (Attorney General); Zorrilla v. Quebec (Attorney General)",
+    "query_text": "decision | Okwuobi v. Lester B. Pearson School",
+    "method": "fuzzy",
+    "matched_key": "okwuobi v lester b pearson school",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k1bn",
+        "score": 0.9166666666666666,
+        "candidate_title": "Okwuobi v. Lester B. Pearson School Board; Casimir v. Quebec (Attorney General); Zorrilla v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "baseline_74": {
+    "uri": "https://canlii.ca/t/1l6wl",
+    "score": 0.8888888888888888,
+    "candidate_id": "2005csc-scc44",
+    "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)",
+    "query_text": "decision | Casimir v. Quebec (Attorney General)",
+    "method": "fuzzy",
+    "matched_key": "casimir v quebec attorney general",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6wl",
+        "score": 0.8888888888888888,
+        "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjlq",
+        "score": 0.8787878787878788,
+        "candidate_title": "Crevier v. A.G. (Québec) et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1kxrh",
+        "score": 0.8656716417910447,
+        "candidate_title": "Chaoulli v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "baseline_75": {
+    "uri": "https://canlii.ca/t/1k1bn",
+    "score": 3.0,
+    "candidate_id": "2005csc-scc16",
+    "candidate_title": "Okwuobi v. Lester B. Pearson School Board; Casimir v. Quebec (Attorney General); Zorrilla v. Quebec (Attorney General)",
+    "query_text": "decision | Zorrilla v. Quebec (Attorney General) | [2005] 1 S.C.R. 257",
+    "method": "citation_exact",
+    "matched_key": "20051scr257",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k1bn",
+        "score": 3.0,
+        "candidate_title": "Okwuobi v. Lester B. Pearson School Board; Casimir v. Quebec (Attorney General); Zorrilla v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "baseline_76": {
+    "uri": "https://canlii.ca/t/2f3vx",
+    "score": 3.5,
+    "candidate_id": "2010csc-scc63",
+    "candidate_title": "Canada (Attorney General) v. McArthur",
+    "query_text": "decision | Canada (Attorney General) v. McArthur | [2010] 3 S.C.R. 626",
+    "method": "citation_exact",
+    "matched_key": "20103scr626",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2f3vx",
+        "score": 3.5,
+        "candidate_title": "Canada (Attorney General) v. McArthur"
+      }
+    ]
+  },
+  "baseline_77": {
+    "uri": "https://canlii.ca/t/2fkpf",
+    "score": 3.5,
+    "candidate_id": "2011csc-scc5",
+    "candidate_title": "R. v. Caron",
+    "query_text": "decision | R. v. Caron | [2011] 1\nS.C.R. 78",
+    "method": "citation_exact",
+    "matched_key": "20111scr78",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2fkpf",
+        "score": 3.5,
+        "candidate_title": "R. v. Caron"
+      }
+    ]
+  },
+  "baseline_78": {
+    "uri": "https://canlii.ca/t/1g5kv",
+    "score": 3.5,
+    "candidate_id": "2003csc-scc71",
+    "candidate_title": "British Columbia (Minister of Forests) v. Okanagan Indian Band",
+    "query_text": "decision | British Columbia (Minister of Forests) v.\nOkanagan Indian Band | [2003] 3 S.C.R. 371",
+    "method": "citation_exact",
+    "matched_key": "20033scr371",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1g5kv",
+        "score": 3.5,
+        "candidate_title": "British Columbia (Minister of Forests) v. Okanagan Indian Band"
+      }
+    ]
+  },
+  "baseline_79": {
+    "uri": "https://canlii.ca/t/1fs83",
+    "score": 3.5,
+    "candidate_id": "1992csc-scc81",
+    "candidate_title": "Vidéotron Ltée v. Industries Microlec Produits Électroniques Inc.",
+    "query_text": "decision | Vidéotron Ltée v. Industries Microlec Produits\nÉlectroniques Inc. | [1992] 2 S.C.R. 1065",
+    "method": "citation_exact",
+    "matched_key": "19922scr1065",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs83",
+        "score": 3.5,
+        "candidate_title": "Vidéotron Ltée v. Industries Microlec Produits Électroniques Inc."
+      }
+    ]
+  },
+  "baseline_80": {
+    "uri": "https://synthetic.leread.ca/gold/G0031",
+    "score": 0.9822485207100592,
+    "candidate_id": "gold-G0031",
+    "candidate_title": "An Act to amend the Code of Civil Procedure respecting the district magistrate’s court",
+    "query_text": "legislation | Act to amend the Code of Civil Procedure respecting the\ndistrict magistrate’s court",
+    "method": "fuzzy",
+    "matched_key": "act to amend the code of civil procedure respecting the district magistrate s court",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0031",
+        "score": 0.9822485207100592,
+        "candidate_title": "An Act to amend the Code of Civil Procedure respecting the district magistrate’s court"
+      }
+    ]
+  },
+  "baseline_81": {
+    "uri": "https://canlii.ca/t/fslp7",
+    "score": 3.0,
+    "candidate_id": "1938csc-scc1000015",
+    "candidate_title": "Reference re The Power of the Governor General in Council to Disallow Provincial Legislation and the Power of Reservation of a Lieutenant-Governor of a Province",
+    "query_text": "decision | [1938] S.C.R. 71",
+    "method": "citation_exact",
+    "matched_key": "1938scr71",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fslp7",
+        "score": 3.0,
+        "candidate_title": "Reference re The Power of the Governor General in Council to Disallow Provincial Legislation and the Power of Reservation of a Lieutenant-Governor of a Province"
+      }
+    ]
+  },
+  "baseline_82": {
+    "uri": "https://canlii.ca/t/1fqr3",
+    "score": 3.0,
+    "candidate_id": "1998csc-scc63",
+    "candidate_title": "Reference re Secession of Quebec",
+    "query_text": "decision | [1998] 2 S.C.R. 217",
+    "method": "citation_exact",
+    "matched_key": "19982scr217",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqr3",
+        "score": 3.0,
+        "candidate_title": "Reference re Secession of Quebec"
+      }
+    ]
+  },
+  "baseline_85": {
+    "uri": "https://canlii.ca/t/1ftzs",
+    "score": 3.5,
+    "candidate_id": "1985csc-scc80",
+    "candidate_title": "Valente v. The Queen",
+    "query_text": "decision | Valente v. The Queen | [1985] 2 S.C.R. 673",
+    "method": "citation_exact",
+    "matched_key": "19852scr673",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftzs",
+        "score": 3.5,
+        "candidate_title": "Valente v. The Queen"
+      }
+    ]
+  },
+  "baseline_87": {
+    "uri": "https://canlii.ca/t/fmnkc",
+    "score": 3.5,
+    "candidate_id": "2011qcca1498",
+    "candidate_title": "Parizeau c. Barreau du Québec",
+    "query_text": "decision | Parizeau c. Barreau du Québec | [1997] 3 S.C.R. 3 | 2011 QCCA 1498 | 2011 QCCA\n1498",
+    "method": "citation_exact",
+    "matched_key": "2011qcca1498",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fmnkc",
+        "score": 3.5,
+        "candidate_title": "Parizeau c. Barreau du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 3.0,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      }
+    ]
+  },
+  "baseline_89": {
+    "uri": "https://canlii.ca/t/1l6wl",
+    "score": 2.0,
+    "candidate_id": "2005csc-scc44",
+    "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)",
+    "query_text": "decision | Provincial Court Judges’ Assn.\nof New Brunswick v. New Brunswick (Minister of Justice)",
+    "method": "title_exact",
+    "matched_key": "provincial court judges assn of new brunswick v new brunswick minister of justice",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6wl",
+        "score": 2.0,
+        "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "baseline_90": {
+    "uri": "https://canlii.ca/t/1l6wl",
+    "score": 2.0,
+    "candidate_id": "2005csc-scc44",
+    "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)",
+    "query_text": "decision | Ontario Judges’ Assn.\nv. Ontario (Management Board)",
+    "method": "title_exact",
+    "matched_key": "ontario judges assn v ontario management board",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6wl",
+        "score": 2.0,
+        "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fkn",
+        "score": 2.0,
+        "candidate_title": "Ontario Judges' Assn. v. Ontario"
+      }
+    ]
+  },
+  "baseline_91": {
+    "uri": "https://canlii.ca/t/1l6wl",
+    "score": 2.0,
+    "candidate_id": "2005csc-scc44",
+    "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)",
+    "query_text": "decision | Bodner v. Alberta",
+    "method": "title_exact",
+    "matched_key": "bodner v alberta",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6wl",
+        "score": 2.0,
+        "candidate_title": "Provincial Court Judges' Assn. of New Brunswick v. New Brunswick (Minister of Justice); Ontario Judges' Assn. v. Ontario (Management Board); Bodner v. Alberta; Conférence des juges du Québec v. Quebec (Attorney General); Minc v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "baseline_92": {
+    "uri": "https://canlii.ca/t/520p",
+    "score": 3.0,
+    "candidate_id": "2001csc-scc51",
+    "candidate_title": "Lac d'Amiante du Québec Ltée v. 2858-0702 Québec Inc.",
+    "query_text": "decision | [2001] 2 S.C.R.\n743",
+    "method": "citation_exact",
+    "matched_key": "20012scr743",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/520p",
+        "score": 3.0,
+        "candidate_title": "Lac d'Amiante du Québec Ltée v. 2858-0702 Québec Inc."
+      }
+    ]
+  },
+  "baseline_93": {
+    "uri": "https://canlii.ca/t/1mm30",
+    "score": 3.5,
+    "candidate_id": "1979csc-scc10022",
+    "candidate_title": "C.B.C. v. Quebec Police Comm.",
+    "query_text": "decision | C.B.C v. Quebec Police Comm | [1979] 2 S.C.R. 618",
+    "method": "citation_exact",
+    "matched_key": "19792scr618",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mm30",
+        "score": 3.5,
+        "candidate_title": "C.B.C. v. Quebec Police Comm."
+      }
+    ]
+  },
+  "baseline_94": {
+    "uri": "https://canlii.ca/t/gwvg7",
+    "score": 3.5,
+    "candidate_id": "2017csc-scc1",
+    "candidate_title": "Ernst v. Alberta Energy Regulator",
+    "query_text": "decision | Ernst v. Alberta\nEnergy Regulator | [2017] 1 S.C.R. 3",
+    "method": "citation_exact",
+    "matched_key": "20171scr3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwvg7",
+        "score": 3.5,
+        "candidate_title": "Ernst v. Alberta Energy Regulator"
+      }
+    ]
+  },
+  "baseline_95": {
+    "uri": "https://canlii.ca/t/1fqzl",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc78",
+    "candidate_title": "Pasiechnyk v. Saskatchewan (Workers’ Compensation Board)",
+    "query_text": "decision | Pasiechnyk v.\nSaskatchewan (Workers’ Compensation Board) | [1997] 2 S.C.R. 890",
+    "method": "citation_exact",
+    "matched_key": "19972scr890",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzl",
+        "score": 3.5,
+        "candidate_title": "Pasiechnyk v. Saskatchewan (Workers’ Compensation Board)"
+      }
+    ]
+  },
+  "baseline_96": {
+    "uri": "https://canlii.ca/t/1fs2k",
+    "score": 3.0,
+    "candidate_id": "1993csc-scc55",
+    "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 579 v. Bradco Construction Ltd.",
+    "query_text": "decision | Local 579\nv. Bradco Construction Ltd. | [1993] 2 S.C.R. 316",
+    "method": "citation_exact",
+    "matched_key": "19932scr316",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs2k",
+        "score": 3.0,
+        "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 579 v. Bradco Construction Ltd."
+      }
+    ]
+  },
+  "baseline_97": {
+    "uri": "https://canlii.ca/t/1fs96",
+    "score": 3.5,
+    "candidate_id": "1992csc-scc65",
+    "candidate_title": "Chrysler Canada Ltd. v. Canada (Competition Tribunal)",
+    "query_text": "decision | Chrysler\nCanada Ltd. v. Canada (Competition Tribunal) | [1992] 2 S.C.R. 394",
+    "method": "citation_exact",
+    "matched_key": "19922scr394",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs96",
+        "score": 3.5,
+        "candidate_title": "Chrysler Canada Ltd. v. Canada (Competition Tribunal)"
+      }
+    ]
+  },
+  "baseline_98": {
+    "uri": "https://synthetic.leread.ca/gold/G0353",
+    "score": 2.0,
+    "candidate_id": "gold-G0353",
+    "candidate_title": "La Cour du Québec lance une nouvelle division administrative",
+    "query_text": "secondary sources | La Cour du Québec lance une nouvelle division administrative | Louis Baribeau",
+    "method": "title_exact",
+    "matched_key": "la cour du quebec lance une nouvelle division administrative",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0353",
+        "score": 2.0,
+        "candidate_title": "La Cour du Québec lance une nouvelle division administrative"
+      }
+    ]
+  },
+  "baseline_100": {
+    "uri": "https://canlii.ca/t/fqbcd",
+    "score": 3.0,
+    "candidate_id": "2011qcca214",
+    "candidate_title": "Nechi Investments Inc. c. Autorité des marchés financiers",
+    "query_text": "decision | 2011 QCCA 214",
+    "method": "citation_exact",
+    "matched_key": "2011qcca214",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fqbcd",
+        "score": 3.0,
+        "candidate_title": "Nechi Investments Inc. c. Autorité des marchés financiers"
+      }
+    ]
+  },
+  "baseline_101": {
+    "uri": "https://canlii.ca/t/g7d8f",
+    "score": 0.9629629629629629,
+    "candidate_id": "2014qcca1176",
+    "candidate_title": "Frères Maristes (Iberville) c. Laval (Ville de)",
+    "query_text": "decision | Frères Maristes (Iberville) c. Laval (Ville | Frères Maristes (Iberville) c.\nLaval (Ville | Frères Maristes (Iberville) c. Laval\n(Ville",
+    "method": "fuzzy",
+    "matched_key": "freres maristes iberville c laval ville",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7d8f",
+        "score": 0.9629629629629629,
+        "candidate_title": "Frères Maristes (Iberville) c. Laval (Ville de)"
+      }
+    ]
+  },
+  "baseline_102": {
+    "uri": "https://canlii.ca/t/gxhrr",
+    "score": 3.0,
+    "candidate_id": "2017qcca240",
+    "candidate_title": "Procureure générale du Québec (Ministère des Affaires municipales, des Régions et de l’Occupation du territoire («MAMROT»)) c. Fondation internationale Azzahra inc.",
+    "query_text": "decision | 2017 QCCA 240",
+    "method": "citation_exact",
+    "matched_key": "2017qcca240",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gxhrr",
+        "score": 3.0,
+        "candidate_title": "Procureure générale du Québec (Ministère des Affaires municipales, des Régions et de l’Occupation du territoire («MAMROT»)) c. Fondation internationale Azzahra inc."
+      }
+    ]
+  },
+  "baseline_103": {
+    "uri": "https://canlii.ca/t/22mvz",
+    "score": 3.5,
+    "candidate_id": "2009csc-scc12",
+    "candidate_title": "Canada (Citizenship and Immigration) v. Khosa",
+    "query_text": "decision | Canada (Citizenship and Immigration) v. Khosa | [2009] 1\nS.C.R. 339",
+    "method": "citation_exact",
+    "matched_key": "20091scr339",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22mvz",
+        "score": 3.5,
+        "candidate_title": "Canada (Citizenship and Immigration) v. Khosa"
+      }
+    ]
+  },
+  "baseline_104": {
+    "uri": "https://canlii.ca/t/1z1gk",
+    "score": 3.0,
+    "candidate_id": "1981csc-scc10176",
+    "candidate_title": "Massey-Ferguson Industries Ltd. et al. v. Government of Saskatchewan et al.",
+    "query_text": "decision | Massey-Ferguson\nIndustries Ltd. v. Government of Saskatchewan | [1981] 2 S.C.R.\n413",
+    "method": "citation_exact",
+    "matched_key": "19812scr413",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z1gk",
+        "score": 3.0,
+        "candidate_title": "Massey-Ferguson Industries Ltd. et al. v. Government of Saskatchewan et al."
+      }
+    ]
+  },
+  "baseline_105": {
+    "uri": "https://canlii.ca/t/hnhcd",
+    "score": 2.0,
+    "candidate_id": "1985qcca1000123",
+    "candidate_title": "Asselin c. Industries Abex Ltée",
+    "query_text": "decision | Asselin c. Industries Abex Ltée",
+    "method": "title_exact",
+    "matched_key": "asselin c industries abex ltee",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hnhcd",
+        "score": 2.0,
+        "candidate_title": "Asselin c. Industries Abex Ltée"
+      }
+    ]
+  },
+  "baseline_106": {
+    "uri": "https://canlii.ca/t/1fsk9",
+    "score": 3.0,
+    "candidate_id": "1991csc-scc66",
+    "candidate_title": "Reference Re Canada Assistance Plan (B.C.)",
+    "query_text": "decision | [1991] 2 S.C.R. 525 | [1991] 2\nS.C.R. 525",
+    "method": "citation_exact",
+    "matched_key": "19912scr525",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsk9",
+        "score": 3.0,
+        "candidate_title": "Reference Re Canada Assistance Plan (B.C.)"
+      }
+    ]
+  },
+  "baseline_107": {
+    "uri": "https://canlii.ca/t/1xv7x",
+    "score": 3.5,
+    "candidate_id": "1983csc-scc10141",
+    "candidate_title": "Attorney General of Quebec v. Grondin",
+    "query_text": "decision | Attorney General of Québec v. Grondin | Attorney General of Quebec v. Grondin | Attorney\nGeneral of Québec v. Grondin | Attorney General of\nQuébec v. Grondin | [1983] 2 S.C.R.\n364 | [1983] 2 S.C.R. 364",
+    "method": "citation_exact",
+    "matched_key": "19832scr364",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1xv7x",
+        "score": 3.5,
+        "candidate_title": "Attorney General of Quebec v. Grondin"
+      }
+    ]
+  },
+  "baseline_108": {
+    "uri": "https://canlii.ca/t/56vxx",
+    "score": 2.0,
+    "candidate_id": "l36914!36914-current-1",
+    "candidate_title": "General Regulation",
+    "query_text": "legislation | General Regulation",
+    "method": "title_exact",
+    "matched_key": "general regulation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vxx",
+        "score": 2.0,
+        "candidate_title": "General Regulation"
+      }
+    ]
+  },
+  "baseline_110": {
+    "uri": "https://canlii.ca/t/56p73",
+    "score": 3.5,
+    "candidate_id": "l36467!36467-current-1",
+    "candidate_title": "Civil Resolution Tribunal Act",
+    "query_text": "legislation | Civil Resolution Tribunal Act | S.B.C. 2012, c. 25",
+    "method": "citation_exact",
+    "matched_key": "sbc2012c25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56p73",
+        "score": 3.5,
+        "candidate_title": "Civil Resolution Tribunal Act"
+      }
+    ]
+  },
+  "baseline_111": {
+    "uri": "https://canlii.ca/t/56g2m",
+    "score": 2.0,
+    "candidate_id": "l6191!6191-current-1",
+    "candidate_title": "Act respecting the Barreau du Québec",
+    "query_text": "legislation | Act respecting\nthe Barreau du Québec",
+    "method": "title_exact",
+    "matched_key": "act respecting the barreau du quebec",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g2m",
+        "score": 2.0,
+        "candidate_title": "Act respecting the Barreau du Québec"
+      }
+    ]
+  },
+  "baseline_112": {
+    "uri": "https://canlii.ca/t/h32b7",
+    "score": 3.5,
+    "candidate_id": "2017csc-scc22",
+    "candidate_title": "Ostiguy v. Allie",
+    "query_text": "decision | Ostiguy v. Allie | [2017] 1\nS.C.R. 402",
+    "method": "citation_exact",
+    "matched_key": "20171scr402",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h32b7",
+        "score": 3.5,
+        "candidate_title": "Ostiguy v. Allie"
+      }
+    ]
+  },
+  "baseline_113": {
+    "uri": "https://canlii.ca/t/gx3xm",
+    "score": 3.5,
+    "candidate_id": "2017csc-scc6",
+    "candidate_title": "B.C. Freedom of Information and Privacy Association v. British Columbia (Attorney General)",
+    "query_text": "decision | B.C. Freedom of Information and\nPrivacy Association v. British Columbia (Attorney General) | [2017] 1\nS.C.R. 93",
+    "method": "citation_exact",
+    "matched_key": "20171scr93",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gx3xm",
+        "score": 3.5,
+        "candidate_title": "B.C. Freedom of Information and Privacy Association v. British Columbia (Attorney General)"
+      }
+    ]
+  },
+  "baseline_114": {
+    "uri": "https://canlii.ca/t/56p19",
+    "score": 2.0,
+    "candidate_id": "l19598!19598-current-1",
+    "candidate_title": "Election Act",
+    "query_text": "legislation | Election\nAct",
+    "method": "title_exact",
+    "matched_key": "election act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56p19",
+        "score": 2.0,
+        "candidate_title": "Election Act"
+      }
+    ]
+  },
+  "baseline_115": {
+    "uri": "https://canlii.ca/t/glx31",
+    "score": 3.5,
+    "candidate_id": "2015qcca1789",
+    "candidate_title": "Air Canada c. Québec (Procureure générale)",
+    "query_text": "decision | Air Canada c. Québec (Procureure générale) | 2015 QCCA 1789",
+    "method": "citation_exact",
+    "matched_key": "2015qcca1789",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/glx31",
+        "score": 3.5,
+        "candidate_title": "Air Canada c. Québec (Procureure générale)"
+      }
+    ]
+  },
+  "baseline_116": {
+    "uri": "https://canlii.ca/t/1ft8s",
+    "score": 3.5,
+    "candidate_id": "1989csc-scc8",
+    "candidate_title": "Ontario (Attorney General) v. Pembina Exploration Canada Ltd.",
+    "query_text": "decision | Ontario (Attorney General) v. Pembina Exploration Canada\nLtd. | [1989] 1 S.C.R. 206",
+    "method": "citation_exact",
+    "matched_key": "19891scr206",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft8s",
+        "score": 3.5,
+        "candidate_title": "Ontario (Attorney General) v. Pembina Exploration Canada Ltd."
+      }
+    ]
+  },
+  "baseline_117": {
+    "uri": "https://synthetic.leread.ca/gold/G0445",
+    "score": 3.5,
+    "candidate_id": "gold-G0445",
+    "candidate_title": "Small Claims Courts Act",
+    "query_text": "legislation | Small Claims Courts Act | R.S.O. 1980, c. 476",
+    "method": "citation_exact",
+    "matched_key": "rso1980c476",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0445",
+        "score": 3.5,
+        "candidate_title": "Small Claims Courts Act"
+      }
+    ]
+  },
+  "baseline_122": {
+    "uri": "https://canlii.ca/t/1z6dr",
+    "score": 0.8571428571428571,
+    "candidate_id": "1975csc-scc10166",
+    "candidate_title": "Tomko v. Labour Relations Board (N.S.) et al.",
+    "query_text": "decision | Tomko v. Labour Relations Board",
+    "method": "fuzzy",
+    "matched_key": "tomko v labour relations board",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z6dr",
+        "score": 0.8571428571428571,
+        "candidate_title": "Tomko v. Labour Relations Board (N.S.) et al."
+      }
+    ]
+  },
+  "baseline_123": {
+    "uri": "https://canlii.ca/t/1lpcg",
+    "score": 3.5,
+    "candidate_id": "1982csc-scc10015",
+    "candidate_title": "Schneider v. The Queen",
+    "query_text": "decision | Schneider v. The Queen | [1982] 2 S.C.R. 112",
+    "method": "citation_exact",
+    "matched_key": "19822scr112",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpcg",
+        "score": 3.5,
+        "candidate_title": "Schneider v. The Queen"
+      }
+    ]
+  },
+  "baseline_124": {
+    "uri": "https://canlii.ca/t/1ftn6",
+    "score": 3.0,
+    "candidate_id": "1987csc-scc43",
+    "candidate_title": "Ontario (Attorney General) v. OPSEU",
+    "query_text": "decision | [1987] 2 S.C.R. 2",
+    "method": "citation_exact",
+    "matched_key": "19872scr2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftn6",
+        "score": 3.0,
+        "candidate_title": "Ontario (Attorney General) v. OPSEU"
+      }
+    ]
+  },
+  "baseline_126": {
+    "uri": "https://canlii.ca/t/1tvnt",
+    "score": 3.0,
+    "candidate_id": "1958csc-scc101225",
+    "candidate_title": "Dupont et al. v. Inglis et al.",
+    "query_text": "decision | [1958] S.C.R. 535",
+    "method": "citation_exact",
+    "matched_key": "1958scr535",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tvnt",
+        "score": 3.0,
+        "candidate_title": "Dupont et al. v. Inglis et al."
+      }
+    ]
+  },
+  "baseline_127": {
+    "uri": "https://canlii.ca/t/51tl",
+    "score": 3.5,
+    "candidate_id": "2002csc-scc33",
+    "candidate_title": "Housen v. Nikolaisen",
+    "query_text": "decision | Housen v. Nikolaisen | [2002] 2 S.C.R. 235",
+    "method": "citation_exact",
+    "matched_key": "20022scr235",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tl",
+        "score": 3.5,
+        "candidate_title": "Housen v. Nikolaisen"
+      }
+    ]
+  },
+  "baseline_128": {
+    "uri": "https://canlii.ca/t/1vxsm",
+    "score": 3.5,
+    "candidate_id": "2008csc-scc9",
+    "candidate_title": "Dunsmuir v. New Brunswick",
+    "query_text": "decision | Dunsmuir v. New Brunswick | Since Dunsmuir v. New Brunswick | [2008] 1 S.C.R. 190 | [2008] 1\nS.C.R. 190",
+    "method": "citation_exact",
+    "matched_key": "20081scr190",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vxsm",
+        "score": 3.5,
+        "candidate_title": "Dunsmuir v. New Brunswick"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vxsn",
+        "score": 3.5,
+        "candidate_title": "Dunsmuir c. Nouveau-Brunswick"
+      }
+    ]
+  },
+  "baseline_129": {
+    "uri": "https://synthetic.leread.ca/gold/G0187",
+    "score": 2.0,
+    "candidate_id": "gold-G0187",
+    "candidate_title": "Dr. Q., a-t-il tué l’appel à la Cour du Québec? Les effets des normes de contrôle imposées par la Cour suprême en droit administratif, en droit judiciaire et en droit professionnel",
+    "query_text": "secondary sources | Dr. Q., a-t-il tué l’appel à la Cour du Québec? Les effets des\nnormes de contrôle imposées par la Cour suprême en droit administratif, en\ndroit judiciaire et en droit professionnel | Dr. Q., a-t-il tué l’appel à la Cour du\nQuébec? Les effets des normes de contrôle imposées par\nla Cour suprême en droit administratif, en droit judiciaire et en droit\nprofessionnel | Francis\nGervais | Francis Gervais | David J. Mullan",
+    "method": "title_exact",
+    "matched_key": "dr q a t il tue l appel a la cour du quebec les effets des normes de controle imposees par la cour supreme en droit administratif en droit judiciaire et en droit professionnel",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0187",
+        "score": 2.0,
+        "candidate_title": "Dr. Q., a-t-il tué l’appel à la Cour du Québec? Les effets des normes de contrôle imposées par la Cour suprême en droit administratif, en droit judiciaire et en droit professionnel"
+      }
+    ]
+  },
+  "baseline_130": {
+    "uri": "https://synthetic.leread.ca/gold/G0064",
+    "score": 2.0,
+    "candidate_id": "gold-G0064",
+    "candidate_title": "Administrative Tribunals and the Courts: An Evolutionary Relationship",
+    "query_text": "secondary sources | Administrative Tribunals and the Courts: An\nEvolutionary Relationship | Beverley McLachlin",
+    "method": "title_exact",
+    "matched_key": "administrative tribunals and the courts an evolutionary relationship",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0064",
+        "score": 2.0,
+        "candidate_title": "Administrative Tribunals and the Courts: An Evolutionary Relationship"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0055",
+        "score": 2.0,
+        "candidate_title": "Administrative Tribunals and the Courts: An Evolutionary Relationship"
+      }
+    ]
+  },
+  "baseline_132": {
+    "uri": "https://canlii.ca/t/fkv5f",
+    "score": 3.0,
+    "candidate_id": "2011qcca631",
+    "candidate_title": "Association des pompiers de Montréal inc. (APM) c. Montréal (Ville de)",
+    "query_text": "decision | 2011 QCCA 631",
+    "method": "citation_exact",
+    "matched_key": "2011qcca631",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fkv5f",
+        "score": 3.0,
+        "candidate_title": "Association des pompiers de Montréal inc. (APM) c. Montréal (Ville de)"
+      }
+    ]
+  },
+  "baseline_133": {
+    "uri": "https://canlii.ca/t/fm8cj",
+    "score": 3.5,
+    "candidate_id": "2010qcca2371",
+    "candidate_title": "Simard c. Vien",
+    "query_text": "decision | Simard c. Vien | 2010 QCCA 2371",
+    "method": "citation_exact",
+    "matched_key": "2010qcca2371",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fm8cj",
+        "score": 3.5,
+        "candidate_title": "Simard c. Vien"
+      }
+    ]
+  },
+  "baseline_134": {
+    "uri": "https://canlii.ca/t/1ft89",
+    "score": 3.0,
+    "candidate_id": "1988csc-scc106",
+    "candidate_title": "U.E.S., Local 298 v. Bibeault",
+    "query_text": "decision | Local 298 v. Bibeault | [1988] 2 S.C.R. 1048",
+    "method": "citation_exact",
+    "matched_key": "19882scr1048",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft89",
+        "score": 3.0,
+        "candidate_title": "U.E.S., Local 298 v. Bibeault"
+      }
+    ]
+  },
+  "baseline_135": {
+    "uri": "https://canlii.ca/t/1mm2x",
+    "score": 2.0,
+    "candidate_id": "1979csc-scc10021",
+    "candidate_title": "C.U.P.E. v. N.B. Liquor Corporation",
+    "query_text": "decision | C.U.P.E. v. N.B. Liquor\nCorporation | [1979] 2 S.C.R. 227 (Dickson, J., as he then was)",
+    "method": "title_exact",
+    "matched_key": "c u p e v n b liquor corporation",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mm2x",
+        "score": 2.0,
+        "candidate_title": "C.U.P.E. v. N.B. Liquor Corporation"
+      }
+    ]
+  },
+  "baseline_136": {
+    "uri": "https://canlii.ca/t/1frsf",
+    "score": 3.5,
+    "candidate_id": "1994csc-scc57",
+    "candidate_title": "Pezim v. British Columbia (Superintendent of Brokers)",
+    "query_text": "decision | Pezim v. British Columbia (Superintendent of Brokers) | [1994] 2 S.C.R. 557",
+    "method": "citation_exact",
+    "matched_key": "19942scr557",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frsf",
+        "score": 3.5,
+        "candidate_title": "Pezim v. British Columbia (Superintendent of Brokers)"
+      }
+    ]
+  },
+  "baseline_137": {
+    "uri": "https://canlii.ca/t/1fr34",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc33",
+    "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc.",
+    "query_text": "decision | Canada (Director of Investigation and Research) v. Southam Inc. | [1997] 1 S.C.R. 748",
+    "method": "citation_exact",
+    "matched_key": "19971scr748",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr34",
+        "score": 3.5,
+        "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc."
+      }
+    ]
+  },
+  "baseline_138": {
+    "uri": "https://canlii.ca/t/27jp3",
+    "score": 3.0,
+    "candidate_id": "2010qcca68",
+    "candidate_title": "Montréal (Ville de) c. KPMG inc.",
+    "query_text": "decision | 2010 QCCA 68",
+    "method": "citation_exact",
+    "matched_key": "2010qcca68",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/27jp3",
+        "score": 3.0,
+        "candidate_title": "Montréal (Ville de) c. KPMG inc."
+      }
+    ]
+  },
+  "baseline_139": {
+    "uri": "https://canlii.ca/t/gs2qk",
+    "score": 0.9387755102040817,
+    "candidate_id": "2016qcca1018",
+    "candidate_title": "Cummings c. Québec (Ville de)",
+    "query_text": "decision | Cummings c. Québec (Ville | Cummings c. Québec\n(Ville",
+    "method": "fuzzy",
+    "matched_key": "cummings c quebec ville",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gs2qk",
+        "score": 0.9387755102040817,
+        "candidate_title": "Cummings c. Québec (Ville de)"
+      }
+    ]
+  },
+  "baseline_142": {
+    "uri": "https://canlii.ca/t/hqhq6",
+    "score": 3.0,
+    "candidate_id": "2018qccs560",
+    "candidate_title": "Ferme Jean Bélanger inc. c. Commission de protection du territoire agricole",
+    "query_text": "decision | 2018 QCCS 560",
+    "method": "citation_exact",
+    "matched_key": "2018qccs560",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hqhq6",
+        "score": 3.0,
+        "candidate_title": "Ferme Jean Bélanger inc. c. Commission de protection du territoire agricole"
+      }
+    ]
+  },
+  "baseline_143": {
+    "uri": "https://synthetic.leread.ca/gold/G0048",
+    "score": 2.0,
+    "candidate_id": "gold-G0048",
+    "candidate_title": "Administrative Law",
+    "query_text": "secondary sources | Administrative\nLaw | Administrative Law",
+    "method": "title_exact",
+    "matched_key": "administrative law",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0048",
+        "score": 2.0,
+        "candidate_title": "Administrative Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0047",
+        "score": 2.0,
+        "candidate_title": "Administrative Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0049",
+        "score": 2.0,
+        "candidate_title": "Administrative Law"
+      }
+    ]
+  },
+  "baseline_144": {
+    "uri": "https://canlii.ca/t/hs9lr",
+    "score": 3.5,
+    "candidate_id": "2018csc-scc26",
+    "candidate_title": "Highwood Congregation of Jehovah’s Witnesses (Judicial Committee) v. Wall",
+    "query_text": "decision | Highwood Congregation of Jehovah’s\nWitnesses (Judicial Committee) v. Wall | [2018] 1 S.C.R. 750",
+    "method": "citation_exact",
+    "matched_key": "20181scr750",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hs9lr",
+        "score": 3.5,
+        "candidate_title": "Highwood Congregation of Jehovah’s Witnesses (Judicial Committee) v. Wall"
+      }
+    ]
+  },
+  "baseline_145": {
+    "uri": "https://canlii.ca/t/1tx7m",
+    "score": 3.5,
+    "candidate_id": "1979csc-scc10063",
+    "candidate_title": "Mississauga (City) v. Peel (Municipality)",
+    "query_text": "decision | Mississauga (City) v.\nPeel (Municipality) | [1979] 2 S.C.R. 244",
+    "method": "citation_exact",
+    "matched_key": "19792scr244",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tx7m",
+        "score": 3.5,
+        "candidate_title": "Mississauga (City) v. Peel (Municipality)"
+      }
+    ]
+  },
+  "baseline_146": {
+    "uri": "https://canlii.ca/t/gvjqr",
+    "score": 3.5,
+    "candidate_id": "2016csc-scc47",
+    "candidate_title": "Edmonton (City) v. Edmonton East (Capilano) Shopping Centres Ltd.",
+    "query_text": "decision | Edmonton (City) v. Edmonton East (Capilano) Shopping Centres\nLtd. | [2016] 2 S.C.R. 293",
+    "method": "citation_exact",
+    "matched_key": "20162scr293",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gvjqr",
+        "score": 3.5,
+        "candidate_title": "Edmonton (City) v. Edmonton East (Capilano) Shopping Centres Ltd."
+      }
+    ]
+  },
+  "baseline_147": {
+    "uri": "https://canlii.ca/t/fpb49",
+    "score": 3.7,
+    "candidate_id": "2011csc-scc61",
+    "candidate_title": "Alberta (Information and Privacy Commissioner) v. Alberta Teachers' Association",
+    "query_text": "decision | Alberta (Information and\nPrivacy Commissioner) v. Alberta Teachers’ Association | 2011 SCC 61 | [2011]\n3 S.C.R. 654",
+    "method": "citation_exact",
+    "matched_key": "20113scr654",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpb49",
+        "score": 3.7,
+        "candidate_title": "Alberta (Information and Privacy Commissioner) v. Alberta Teachers' Association"
+      }
+    ]
+  },
+  "baseline_148": {
+    "uri": "https://canlii.ca/t/hshvb",
+    "score": 3.0,
+    "candidate_id": "2018csc-scc31",
+    "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)",
+    "query_text": "decision | [2018] 2 S.C.R. 230",
+    "method": "citation_exact",
+    "matched_key": "20182scr230",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hshvb",
+        "score": 3.0,
+        "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "baseline_149": {
+    "uri": "https://canlii.ca/t/69m68",
+    "score": 2.0,
+    "candidate_id": "l5795!5795-current-1",
+    "candidate_title": "Loi sur la régie du logement",
+    "query_text": "legislation | Act\nrespecting the Régie du logement",
+    "method": "title_exact",
+    "matched_key": "act respecting the regie du logement",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/69m68",
+        "score": 2.0,
+        "candidate_title": "Loi sur la régie du logement"
+      },
+      {
+        "uri": "https://canlii.ca/t/52l2x",
+        "score": 2.0,
+        "candidate_title": "Act respecting the Régie du logement"
+      }
+    ]
+  },
+  "baseline_151": {
+    "uri": "https://canlii.ca/t/56w3t",
+    "score": 2.0,
+    "candidate_id": "l5877!5877-current-1",
+    "candidate_title": "Act respecting administrative justice",
+    "query_text": "legislation | Act respecting\nadministrative justice | 68.     La\n  Loi sur les tribunaux judiciaires | 75.     La\n  Loi sur les tribunaux judiciaires",
+    "method": "title_exact",
+    "matched_key": "act respecting administrative justice",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w3t",
+        "score": 2.0,
+        "candidate_title": "Act respecting administrative justice"
+      }
+    ]
+  },
+  "baseline_152": {
+    "uri": "https://canlii.ca/t/g7d7d",
+    "score": 0.9622641509433962,
+    "candidate_id": "2014qcca1184",
+    "candidate_title": "Régie de l'assurance maladie du Québec v. Pharmaprix inc.",
+    "query_text": "decision | Régie de l’assurance maladie du Québec\nv. Pharmaprix",
+    "method": "fuzzy",
+    "matched_key": "regie de l assurance maladie du quebec v pharmaprix",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7d7d",
+        "score": 0.9622641509433962,
+        "candidate_title": "Régie de l'assurance maladie du Québec v. Pharmaprix inc."
+      }
+    ]
+  },
+  "baseline_153": {
+    "uri": "https://canlii.ca/t/g7d7d",
+    "score": 3.0,
+    "candidate_id": "2014qcca1184",
+    "candidate_title": "Régie de l'assurance maladie du Québec v. Pharmaprix inc.",
+    "query_text": "decision | 2014 QCCA 1184",
+    "method": "citation_exact",
+    "matched_key": "2014qcca1184",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7d7d",
+        "score": 3.0,
+        "candidate_title": "Régie de l'assurance maladie du Québec v. Pharmaprix inc."
+      }
+    ]
+  },
+  "baseline_155": {
+    "uri": "https://canlii.ca/t/gx8g3",
+    "score": 3.0,
+    "candidate_id": "2017qcca128",
+    "candidate_title": "Deslongchamps c. Commissaire à la déontologie policière",
+    "query_text": "decision | 2017 QCCA 128",
+    "method": "citation_exact",
+    "matched_key": "2017qcca128",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gx8g3",
+        "score": 3.0,
+        "candidate_title": "Deslongchamps c. Commissaire à la déontologie policière"
+      }
+    ]
+  },
+  "baseline_156": {
+    "uri": "https://canlii.ca/t/1ftz1",
+    "score": 3.0,
+    "candidate_id": "1985csc-scc32",
+    "candidate_title": "Re Manitoba Language Rights",
+    "query_text": "decision | [1985] 1 S.C.R.\n721",
+    "method": "citation_exact",
+    "matched_key": "19851scr721",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftz1",
+        "score": 3.0,
+        "candidate_title": "Re Manitoba Language Rights"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "baseline_3": {
+    "uri": "https://synthetic.leread.ca/gold/G0141",
+    "score": 2.0,
+    "candidate_id": "gold-G0141",
+    "candidate_title": "Civil Justice in Mid-Nineteen-Century British North America: Court Structure, Judges and Recourse to the Courts in Lower Canada, Upper Canada, New Brunswick and Nova Scotia",
+    "query_text": "secondary sources | Report",
+    "method": "title_exact",
+    "matched_key": "report",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0141",
+        "score": 2.0,
+        "candidate_title": "Civil Justice in Mid-Nineteen-Century British North America: Court Structure, Judges and Recourse to the Courts in Lower Canada, Upper Canada, New Brunswick and Nova Scotia"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0327",
+        "score": 2.0,
+        "candidate_title": "Report"
+      }
+    ]
+  },
+  "baseline_5": {
+    "uri": "https://canlii.ca/t/1mchs",
+    "score": 0.945054945054945,
+    "candidate_id": "1995nbqb10026",
+    "candidate_title": "Stewart v. New Brunswick (Mining Commissioner)",
+    "query_text": "decision | Stewart v. New Brunswick (Mining Commissioner)\n(1995)",
+    "method": "fuzzy",
+    "matched_key": "stewart v new brunswick mining commissioner 1995",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mchs",
+        "score": 0.945054945054945,
+        "candidate_title": "Stewart v. New Brunswick (Mining Commissioner)"
+      }
+    ]
+  }
+}

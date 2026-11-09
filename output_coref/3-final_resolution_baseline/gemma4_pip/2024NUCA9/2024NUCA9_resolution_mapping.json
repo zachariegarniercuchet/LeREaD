@@ -1,0 +1,423 @@
+{
+  "2023 NUCJ 5": {
+    "uri": "https://canlii.ca/t/jvwmz",
+    "score": 3.5,
+    "candidate_id": "2023nucj5",
+    "candidate_title": "Nunavut Tunngavik Incorporated et. al. v The Commissioner of Nunavut et. al.",
+    "query_text": "decision | Nunavut Tunngavik Incorporated et al v The\nCommissioner of Nunavut et al | 2023 NUCJ 5 | Docket: 08-21-463-CVC",
+    "method": "citation_exact",
+    "matched_key": "2023nucj5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jvwmz",
+        "score": 3.5,
+        "candidate_title": "Nunavut Tunngavik Incorporated et. al. v The Commissioner of Nunavut et. al."
+      }
+    ]
+  },
+  "Nunavut Act": {
+    "uri": "https://canlii.ca/t/7vrt",
+    "score": 3.5,
+    "candidate_id": "l13115!13115-current-1",
+    "candidate_title": "Nunavut Act",
+    "query_text": "legislation | Nunavut Act | SC 1993,\nc 28",
+    "method": "citation_exact",
+    "matched_key": "sc1993c28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7vrt",
+        "score": 3.5,
+        "candidate_title": "Nunavut Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/5431p",
+        "score": 3.5,
+        "candidate_title": "Nunavut Act"
+      }
+    ]
+  },
+  "Education Act (Nunavut)": {
+    "uri": "https://canlii.ca/t/55vp4",
+    "score": 3.5,
+    "candidate_id": "l94378!94378-current-1",
+    "candidate_title": "Education Act",
+    "query_text": "legislation | Education Act | S.Nu. 2008, c 15",
+    "method": "citation_exact",
+    "matched_key": "snu2008c15",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55vp4",
+        "score": 3.5,
+        "candidate_title": "Education Act"
+      }
+    ]
+  },
+  "Inuit Language Protection Act": {
+    "uri": "https://canlii.ca/t/55vp6",
+    "score": 3.5,
+    "candidate_id": "l94380!94380-current-1",
+    "candidate_title": "Inuit Language Protection Act",
+    "query_text": "legislation | Inuit\nLanguage Protection Act | S.Nu. 2008, c 17",
+    "method": "citation_exact",
+    "matched_key": "snu2008c17",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55vp6",
+        "score": 3.5,
+        "candidate_title": "Inuit Language Protection Act"
+      }
+    ]
+  },
+  "Canadian Charter of Rights and Freedoms": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 2.0,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Canadian\nCharter of Rights and Freedoms | Charter",
+    "method": "title_exact",
+    "matched_key": "canadian charter of rights and freedoms",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 2.0,
+        "candidate_title": "The Constitution Act, 1982"
+      }
+    ]
+  },
+  "Rules of Court (Nunavut)": {
+    "uri": "https://canlii.ca/t/56ndw",
+    "score": 2.0,
+    "candidate_id": "l23977!23977-current-1",
+    "candidate_title": "Rules of Court",
+    "query_text": "legislation | Rules of Court",
+    "method": "title_exact",
+    "matched_key": "rules of court",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56ndw",
+        "score": 2.0,
+        "candidate_title": "Rules of Court"
+      }
+    ]
+  },
+  "Atlantic Lottery Corp Inc v Babstock": {
+    "uri": "https://canlii.ca/t/j8tcb",
+    "score": 3.5,
+    "candidate_id": "2020csc-scc19",
+    "candidate_title": "Atlantic Lottery Corp. Inc. v. Babstock",
+    "query_text": "decision | Atlantic Lottery Corp Inc v Babstock | Atlantic Lottery | 2020 SCC 19",
+    "method": "citation_exact",
+    "matched_key": "2020scc19",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j8tcb",
+        "score": 3.5,
+        "candidate_title": "Atlantic Lottery Corp. Inc. v. Babstock"
+      }
+    ]
+  },
+  "Ontario (Attorney General) v G": {
+    "uri": "https://canlii.ca/t/jbpb4",
+    "score": 3.7,
+    "candidate_id": "2020csc-scc38",
+    "candidate_title": "Ontario (Attorney General) v. G",
+    "query_text": "decision | Ontario (Attorney General) v G | Ontario | 2020 SCC 38 | [2020] 3 SCR 629",
+    "method": "citation_exact",
+    "matched_key": "20203scr629",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jbpb4",
+        "score": 3.7,
+        "candidate_title": "Ontario (Attorney General) v. G"
+      }
+    ]
+  },
+  "Gosselin (Tutor of) v Quebec (Attorney General)": {
+    "uri": "https://canlii.ca/t/1k1bm",
+    "score": 3.5,
+    "candidate_id": "2005csc-scc15",
+    "candidate_title": "Gosselin (Tutor of) v. Quebec (Attorney General)",
+    "query_text": "decision | Gosselin (Tutor of) v Quebec (Attorney General) | Gosselin | Lalonde v Ontario\n(Commission de restructuration des services de santé) | LaLonde | 2005 SCC 15 | (2001), 56 OR (3d)\n505 | 208 DLR (4th) 577 (Ont CA)",
+    "method": "citation_exact",
+    "matched_key": "2005scc15",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k1bm",
+        "score": 3.5,
+        "candidate_title": "Gosselin (Tutor of) v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "Reference re Use of French in Criminal Proceedings in Saskatchewan": {
+    "uri": "https://canlii.ca/t/1pfnc",
+    "score": 3.7,
+    "candidate_id": "1987skca10004",
+    "candidate_title": "Reference re French Language Rights of Accused in Saskatchewan Criminal Proceedings",
+    "query_text": "decision | Reference re\nUse of French in Criminal Proceedings in Saskatchewan | 1987\nCanLII 204 (SK CA) | 36 C.C.C. (3d) 353",
+    "method": "citation_exact",
+    "matched_key": "1987canlii204skca",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pfnc",
+        "score": 3.7,
+        "candidate_title": "Reference re French Language Rights of Accused in Saskatchewan Criminal Proceedings"
+      }
+    ]
+  },
+  "Nammo v Canada (Justice and Attorney General)": {
+    "uri": "https://canlii.ca/t/gmgxq",
+    "score": 3.7,
+    "candidate_id": "2015abca389",
+    "candidate_title": "Nammo v Canada (Justice and Attorney General)",
+    "query_text": "decision | Nammo v Canada (Justice and Attorney General) | 2015\nABCA 389 | 609 AR 189",
+    "method": "citation_exact",
+    "matched_key": "2015abca389",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gmgxq",
+        "score": 3.7,
+        "candidate_title": "Nammo v Canada (Justice and Attorney General)"
+      }
+    ]
+  },
+  "Ernst v Alberta (Energy Resources Conservation Board)": {
+    "uri": "https://canlii.ca/t/g90hw",
+    "score": 3.7,
+    "candidate_id": "2014abca285",
+    "candidate_title": "Ernst v Alberta (Energy Resources Conservation Board)",
+    "query_text": "decision | Ernst v Alberta (Energy Resources\nConservation Board) | 2014 ABCA 285 | 580 AR 341",
+    "method": "citation_exact",
+    "matched_key": "2014abca285",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g90hw",
+        "score": 3.7,
+        "candidate_title": "Ernst v Alberta (Energy Resources Conservation Board)"
+      }
+    ]
+  },
+  "Jane Doe v Government of Nunavut": {
+    "uri": "https://canlii.ca/t/jjglp",
+    "score": 3.5,
+    "candidate_id": "2021nuca15",
+    "candidate_title": "Jane Doe v Government of Nunavut",
+    "query_text": "decision | Jane Doe v Government of Nunavut | 2021 NUCA 15",
+    "method": "citation_exact",
+    "matched_key": "2021nuca15",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jjglp",
+        "score": 3.5,
+        "candidate_title": "Jane Doe v Government of Nunavut"
+      }
+    ]
+  },
+  "Das v. George Weston Ltd": {
+    "uri": "https://canlii.ca/t/hwqc0",
+    "score": 3.2,
+    "candidate_id": "2018onca1053",
+    "candidate_title": "Das v. George Weston Limited",
+    "query_text": "decision | Das v.\nGeorge Weston Ltd | 2018 ONCA 1053 | 43 E.T.R. (4th) 173",
+    "method": "citation_exact",
+    "matched_key": "2018onca1053",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hwqc0",
+        "score": 3.2,
+        "candidate_title": "Das v. George Weston Limited"
+      }
+    ]
+  },
+  "R. v. Salituro": {
+    "uri": "https://canlii.ca/t/1fshg",
+    "score": 3.7,
+    "candidate_id": "1991csc-scc103",
+    "candidate_title": "R. v. Salituro",
+    "query_text": "decision | R. v. Salituro | 1991 CanLII 17 (SCC) | [1991] 3 S.C.R. 654",
+    "method": "citation_exact",
+    "matched_key": "19913scr654",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fshg",
+        "score": 3.7,
+        "candidate_title": "R. v. Salituro"
+      }
+    ]
+  },
+  "Syl Apps Secure Treatment Centre v. B.D": {
+    "uri": "https://canlii.ca/t/1s7xl",
+    "score": 3.7,
+    "candidate_id": "2007csc-scc38",
+    "candidate_title": "Syl Apps Secure Treatment Centre v. B.D.",
+    "query_text": "decision | Syl Apps Secure Treatment Centre v. B.D | Syl Apps | 2007 SCC 38 | [2007] 3 S.C.R. 83",
+    "method": "citation_exact",
+    "matched_key": "20073scr83",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1s7xl",
+        "score": 3.7,
+        "candidate_title": "Syl Apps Secure Treatment Centre v. B.D."
+      }
+    ]
+  },
+  "Cooper v. Hobart": {
+    "uri": "https://canlii.ca/t/51xc",
+    "score": 3.7,
+    "candidate_id": "2001csc-scc79",
+    "candidate_title": "Cooper v. Hobart",
+    "query_text": "decision | Cooper v. Hobart | 2001 SCC 79 | [2001] 3\nS.C.R. 537",
+    "method": "citation_exact",
+    "matched_key": "20013scr537",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51xc",
+        "score": 3.7,
+        "candidate_title": "Cooper v. Hobart"
+      }
+    ]
+  },
+  "Alberta v. Elder Advocates of Alberta Society": {
+    "uri": "https://canlii.ca/t/flcz2",
+    "score": 3.7,
+    "candidate_id": "2011csc-scc24",
+    "candidate_title": "Alberta v. Elder Advocates of Alberta Society",
+    "query_text": "decision | Alberta v. Elder Advocates of Alberta Society | 2011 SCC 24 | [2011] 2 S.C.R. 261",
+    "method": "citation_exact",
+    "matched_key": "20112scr261",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/flcz2",
+        "score": 3.7,
+        "candidate_title": "Alberta v. Elder Advocates of Alberta Society"
+      }
+    ]
+  },
+  "JP Morgan Asset Management (Canada) Inc v Canada (National Revenue)": {
+    "uri": "https://canlii.ca/t/g1lt9",
+    "score": 3.5,
+    "candidate_id": "2013fca250",
+    "candidate_title": "JP Morgan Asset Management (Canada) Inc. v. Canada (National Revenue)",
+    "query_text": "decision | JP Morgan Asset Management (Canada) Inc v Canada\n(National Revenue) | 2013 FCA 250",
+    "method": "citation_exact",
+    "matched_key": "2013fca250",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1lt9",
+        "score": 3.5,
+        "candidate_title": "JP Morgan Asset Management (Canada) Inc. v. Canada (National Revenue)"
+      }
+    ]
+  },
+  "Canada (Attorney General) v Scow": {
+    "uri": "https://canlii.ca/t/jr8k9",
+    "score": 3.5,
+    "candidate_id": "2022bcca275",
+    "candidate_title": "Canada (Attorney General) v. Scow",
+    "query_text": "decision | Canada (Attorney\nGeneral) v Scow | 2022 BCCA 275",
+    "method": "citation_exact",
+    "matched_key": "2022bcca275",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jr8k9",
+        "score": 3.5,
+        "candidate_title": "Canada (Attorney General) v. Scow"
+      }
+    ]
+  },
+  "Leroux v Canada Revenue Agency": {
+    "uri": "https://canlii.ca/t/fpx2v",
+    "score": 3.5,
+    "candidate_id": "2012bcca63",
+    "candidate_title": "Leroux v. Canada Revenue Agency",
+    "query_text": "decision | Leroux v Canada Revenue\nAgency | 2012 BCCA 63",
+    "method": "citation_exact",
+    "matched_key": "2012bcca63",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpx2v",
+        "score": 3.5,
+        "candidate_title": "Leroux v. Canada Revenue Agency"
+      }
+    ]
+  },
+  "Grand River Enterprises Six Nations Ltd v Attorney General (Canada)": {
+    "uri": "https://canlii.ca/t/h4g28",
+    "score": 3.5,
+    "candidate_id": "2017onca526",
+    "candidate_title": "Grand River Enterprises Six Nations Ltd. v. Attorney General (Canada)",
+    "query_text": "decision | Grand River Enterprises Six Nations Ltd\nv Attorney General (Canada) | 2017 ONCA 526",
+    "method": "citation_exact",
+    "matched_key": "2017onca526",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h4g28",
+        "score": 3.5,
+        "candidate_title": "Grand River Enterprises Six Nations Ltd. v. Attorney General (Canada)"
+      }
+    ]
+  },
+  "Nevsun Resources Ltd v Araya": {
+    "uri": "https://canlii.ca/t/j5k5j",
+    "score": 3.5,
+    "candidate_id": "2020csc-scc5",
+    "candidate_title": "Nevsun Resources Ltd. v. Araya",
+    "query_text": "decision | Nevsun Resources Ltd v Araya | 2020 SCC 5",
+    "method": "citation_exact",
+    "matched_key": "2020scc5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j5k5j",
+        "score": 3.5,
+        "candidate_title": "Nevsun Resources Ltd. v. Araya"
+      }
+    ]
+  },
+  "Edmonton Journal v Alberta (Attorney General)": {
+    "uri": "https://canlii.ca/t/1fszp",
+    "score": 3.5,
+    "candidate_id": "1989csc-scc131",
+    "candidate_title": "Edmonton Journal v. Alberta (Attorney General)",
+    "query_text": "decision | Edmonton Journal v Alberta (Attorney General) | [1989]\n2 SCR 1326",
+    "method": "citation_exact",
+    "matched_key": "19892scr1326",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fszp",
+        "score": 3.5,
+        "candidate_title": "Edmonton Journal v. Alberta (Attorney General)"
+      }
+    ]
+  },
+  "Interim Language of Instruction Act": {
+    "uri": "https://canlii.ca/t/55vz4",
+    "score": 3.5,
+    "candidate_id": "l94619!94619-current-1",
+    "candidate_title": "Interim Language of Instruction Act",
+    "query_text": "legislation | Interim Language of Instruction Act | S.Nu. 2019, c 8",
+    "method": "citation_exact",
+    "matched_key": "snu2019c8",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55vz4",
+        "score": 3.5,
+        "candidate_title": "Interim Language of Instruction Act"
+      }
+    ]
+  },
+  "Rules of the Supreme Court of the Northwest Territories": {
+    "uri": "https://canlii.ca/t/khbp",
+    "score": 3.5,
+    "candidate_id": "l32128!32128-current-1",
+    "candidate_title": "Rules of the Supreme Court of the Northwest Territories",
+    "query_text": "legislation | Rules of the Supreme Court of the Northwest Territories | NWT\nReg (Nu) 010-96",
+    "method": "citation_exact",
+    "matched_key": "nwtregnu01096",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/khbp",
+        "score": 3.5,
+        "candidate_title": "Rules of the Supreme Court of the Northwest Territories"
+      }
+    ]
+  }
+}

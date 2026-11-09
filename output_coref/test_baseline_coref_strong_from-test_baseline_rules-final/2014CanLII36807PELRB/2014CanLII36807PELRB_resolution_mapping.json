@@ -1,0 +1,224 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/56vvz",
+    "score": 2.0,
+    "candidate_id": "l27079!27079-current-1",
+    "candidate_title": "Labour Act",
+    "query_text": "legislation | Labour Act",
+    "method": "title_exact",
+    "matched_key": "labour act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56vvz",
+        "score": 2.0,
+        "candidate_title": "Labour Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56tln",
+        "score": 2.0,
+        "candidate_title": "Labour Act"
+      }
+    ]
+  },
+  "baseline_3": {
+    "uri": "https://canlii.ca/t/2gr",
+    "score": 2.0,
+    "candidate_id": "l243!243-current-1",
+    "candidate_title": "Labour Relations Act",
+    "query_text": "legislation | Act | Act\napplies in the circumstances | Act? | Act? This issue\nrequires an examination into whether the Applicant Employer operates a business\nin the construction industry | Regulations when he stated the | Act\n \nAs\nalready noted | Act applies to applications\nfor certification brought pursuant to | Act is to provide a period of repose in the workplace | Ontario Labour Relations Act | Labour Relations Act, 2000 | Prince Edward Island Act is to\nallow the parties a reasonable opportunity to implement a collective agreement\nin the workplace.\n \nRegardless | Act ultimately allows the Board the discretion to permit or\nnot permit the circumvention of the | Act proceeding to a hearing | Act?  This\nissue requires an examination of whether the Applicant Employer operates a\nbusiness in the construction industry | Act addresses\nApplications for Certification within the construction industry. Section | Act on the date of the August | Act simply requires that the employer be one that “operates a\nbusiness in the construction industry”.  No further provision exists in the Act\nor the Regulations to aid in the interpretation | Act does not include “maintenance” as a necessary\ncomponent of “construction industry” work | Labour Relations Act | Act and\nRegulation | Act? \n \nYes",
+    "method": "title_exact",
+    "matched_key": "labour relations act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2gr",
+        "score": 2.0,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 2.0,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0293",
+        "score": 2.0,
+        "candidate_title": "Labour Relations Act"
+      }
+    ]
+  },
+  "baseline_6": {
+    "uri": "https://synthetic.leread.ca/gold/G0048",
+    "score": 2.0,
+    "candidate_id": "gold-G0048",
+    "candidate_title": "Administrative Law",
+    "query_text": "secondary sources | Administrative\nLaw | Administrative Law",
+    "method": "title_exact",
+    "matched_key": "administrative law",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0048",
+        "score": 2.0,
+        "candidate_title": "Administrative Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0047",
+        "score": 2.0,
+        "candidate_title": "Administrative Law"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0049",
+        "score": 2.0,
+        "candidate_title": "Administrative Law"
+      }
+    ]
+  },
+  "baseline_8": {
+    "uri": "https://canlii.ca/t/1cvp1",
+    "score": 0.9166666666666666,
+    "candidate_id": "1998pesctd198710011",
+    "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union",
+    "query_text": "decision | 2.                 \nAPM\nConstruction Inc. v. Construction and Labourers Union | Construction Inc. v. Construction and Labourers\nUnion | APM\nConstruction Inc. | APM Construction",
+    "method": "fuzzy",
+    "matched_key": "2 apm construction inc v construction and labourers union",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cvp1",
+        "score": 0.9166666666666666,
+        "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union"
+      }
+    ]
+  },
+  "baseline_10": {
+    "uri": "https://canlii.ca/t/1k175",
+    "score": 0.8554913294797688,
+    "candidate_id": "2005onlrb11556",
+    "candidate_title": "Universal Workers Union, Labourers' International Union of North America Local 183 v. Greenvilla Homes",
+    "query_text": "decision | Laborers International Union of North America\nLocal 183 v. Greenvilla Homes",
+    "method": "fuzzy",
+    "matched_key": "laborers international union of north america local 183 v greenvilla homes",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k175",
+        "score": 0.8554913294797688,
+        "candidate_title": "Universal Workers Union, Labourers' International Union of North America Local 183 v. Greenvilla Homes"
+      }
+    ]
+  },
+  "baseline_11": {
+    "uri": "https://synthetic.leread.ca/gold/G0403",
+    "score": 2.0,
+    "candidate_id": "gold-G0403",
+    "candidate_title": "Public Service Alliance of Canada v. Canadian Corps of Commissionaires",
+    "query_text": "decision | 2679-04-R)\n \n6.                 \nPublic\nService Alliance of Canada v. Canadian Corps of Commissionaires PEI | Public Service Alliance of Canada v. Canadian\nCorps of Commissionaires PEI | Public\nService Alliance of Canada v. Canadian Corps of Commissionaires",
+    "method": "title_exact",
+    "matched_key": "public service alliance of canada v canadian corps of commissionaires",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0403",
+        "score": 2.0,
+        "candidate_title": "Public Service Alliance of Canada v. Canadian Corps of Commissionaires"
+      }
+    ]
+  },
+  "baseline_12": {
+    "uri": "https://synthetic.leread.ca/gold/G0164",
+    "score": 0.9641025641025641,
+    "candidate_id": "gold-G0164",
+    "candidate_title": "Ontario Allied Construction Trades Council v. Electrical Power Systems Construction Association",
+    "query_text": "decision | 2002)\n \n8.                 \nOntario\nAllied Construction Trades Council v. Electrical Power Systems Construction\nAssociation",
+    "method": "fuzzy",
+    "matched_key": "2002 8 ontario allied construction trades council v electrical power systems construction association",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0164",
+        "score": 0.9641025641025641,
+        "candidate_title": "Ontario Allied Construction Trades Council v. Electrical Power Systems Construction Association"
+      }
+    ]
+  },
+  "baseline_14": {
+    "uri": "https://synthetic.leread.ca/gold/G0217",
+    "score": 0.9265536723163842,
+    "candidate_id": "gold-G0217",
+    "candidate_title": "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited",
+    "query_text": "decision | 467C\n \n11.             \nLocal\n1079A Construction and General Labourers Union v. Fuller Construction Limited\n(1979)",
+    "method": "fuzzy",
+    "matched_key": "467c 11 local 1079a construction and general labourers union v fuller construction limited 1979",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0217",
+        "score": 0.9265536723163842,
+        "candidate_title": "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited"
+      }
+    ]
+  },
+  "baseline_18": {
+    "uri": "https://synthetic.leread.ca/gold/G0280",
+    "score": 2.0,
+    "candidate_id": "gold-G0280",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America v. Kapuskasing Board of Education and Canadian Union of Public Employees (1972)",
+    "query_text": "decision | Rep. Jan 583\n \n16.             \nUnited\nBrotherhood of Carpenters &amp; Joiners of America v. Kapuskasing Board of\nEducation and Canadian Union of Public Employees (1972) | United Brotherhood of Carpenters &amp; Joiners of America v. Kapuskasing\nBoard of Education and Canadian Union of Public Employees (1972)",
+    "method": "title_exact",
+    "matched_key": "united brotherhood of carpenters joiners of america v kapuskasing board of education and canadian union of public employees 1972",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0280",
+        "score": 2.0,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America v. Kapuskasing Board of Education and Canadian Union of Public Employees (1972)"
+      }
+    ]
+  },
+  "baseline_26": {
+    "uri": "https://synthetic.leread.ca/gold/G0483",
+    "score": 2.0,
+    "candidate_id": "gold-G0483",
+    "candidate_title": "The Oxford English Dictionary",
+    "query_text": "secondary sources | The Oxford English\nDictionary",
+    "method": "title_exact",
+    "matched_key": "the oxford english dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0483",
+        "score": 2.0,
+        "candidate_title": "The Oxford English Dictionary"
+      }
+    ]
+  },
+  "baseline_27": {
+    "uri": "https://synthetic.leread.ca/gold/G0094",
+    "score": 2.0,
+    "candidate_id": "gold-G0094",
+    "candidate_title": "Black's Law Dictionary",
+    "query_text": "secondary sources | Black's Law Dictionary",
+    "method": "title_exact",
+    "matched_key": "black s law dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0094",
+        "score": 2.0,
+        "candidate_title": "Black's Law Dictionary"
+      }
+    ]
+  },
+  "baseline_31": {
+    "uri": "https://synthetic.leread.ca/gold/G0354",
+    "score": 2.0,
+    "candidate_id": "gold-G0354",
+    "candidate_title": "regulations",
+    "query_text": "legislation | Regulations",
+    "method": "title_exact",
+    "matched_key": "regulations",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0354",
+        "score": 2.0,
+        "candidate_title": "regulations"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0056",
+        "score": 2.0,
+        "candidate_title": "Regulations"
+      }
+    ]
+  }
+}

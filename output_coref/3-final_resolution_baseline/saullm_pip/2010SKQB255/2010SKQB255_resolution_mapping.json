@@ -1,0 +1,18 @@
+{
+  "Jones 1791": {
+    "uri": "https://synthetic.leread.ca/gold/G0170",
+    "score": 3.0,
+    "candidate_id": "gold-G0170",
+    "candidate_title": "Doe on the demise of Count Duroure v. Jones (1791)",
+    "query_text": "decision | <i>Jones</i> (1791) | 4 T.R. 301 | 100 E.R.",
+    "method": "citation_exact",
+    "matched_key": "4tr301",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0170",
+        "score": 3.0,
+        "candidate_title": "Doe on the demise of Count Duroure v. Jones (1791)"
+      }
+    ]
+  }
+}

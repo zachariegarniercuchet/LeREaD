@@ -1,0 +1,742 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/k7x81",
+    "score": 0.9375,
+    "candidate_id": "2024nbkb203",
+    "candidate_title": "Wolastoqey Nations v. New Brunswick and Canada, et.al.",
+    "query_text": "decision | Wolastoqey Nations v.\nNew Brunswick and Canada",
+    "method": "fuzzy",
+    "matched_key": "wolastoqey nations v new brunswick and canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k7x81",
+        "score": 0.9375,
+        "candidate_title": "Wolastoqey Nations v. New Brunswick and Canada, et.al."
+      },
+      {
+        "uri": "https://canlii.ca/t/k3pfg",
+        "score": 0.9375,
+        "candidate_title": "Wolastoqey Nations v. New Brunswick and Canada, et.al."
+      }
+    ]
+  },
+  "baseline_2": {
+    "uri": "https://canlii.ca/t/1fqz8",
+    "score": 3.5,
+    "candidate_id": "1997csc-scc105",
+    "candidate_title": "Delgamuukw v. British Columbia",
+    "query_text": "decision | Delgamuukw v. British Columbia | Delgamuukw | [1997] 3 S.C.R. 1010 | [1997] 3\nS.C.R. 1010",
+    "method": "citation_exact",
+    "matched_key": "19973scr1010",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqz8",
+        "score": 3.5,
+        "candidate_title": "Delgamuukw v. British Columbia"
+      }
+    ]
+  },
+  "baseline_3": {
+    "uri": "https://synthetic.leread.ca/gold/G0081",
+    "score": 2.0,
+    "candidate_id": "gold-G0081",
+    "candidate_title": "Constitution",
+    "query_text": "legislation | our Constitution | Constitution | Wills\nAct, 1837 | Constitution Act,\n1982",
+    "method": "title_exact",
+    "matched_key": "constitution",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0081",
+        "score": 2.0,
+        "candidate_title": "Constitution"
+      }
+    ]
+  },
+  "baseline_4": {
+    "uri": "https://canlii.ca/t/1j4tq",
+    "score": 3.0,
+    "candidate_id": "2004csc-scc73",
+    "candidate_title": "Haida Nation v. British Columbia (Minister of Forests)",
+    "query_text": "decision | Haida Nation v. British Columbia | 2004 SCC 73",
+    "method": "citation_exact",
+    "matched_key": "2004scc73",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1j4tq",
+        "score": 3.0,
+        "candidate_title": "Haida Nation v. British Columbia (Minister of Forests)"
+      }
+    ]
+  },
+  "baseline_5": {
+    "uri": "https://canlii.ca/t/k40h4",
+    "score": 3.5,
+    "candidate_id": "2024csc-scc12",
+    "candidate_title": "Shot Both Sides v. Canada",
+    "query_text": "decision | Tsilhqot’in | Shot Both Sides v. Canada | Supreme Court in Shot Both Sides | Shot Both Sides | Shot\nBoth Sides | Shot Both\nSides | 2024 SCC 12",
+    "method": "citation_exact",
+    "matched_key": "2024scc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k40h4",
+        "score": 3.5,
+        "candidate_title": "Shot Both Sides v. Canada"
+      }
+    ]
+  },
+  "baseline_6": {
+    "uri": "https://canlii.ca/t/g7mtb",
+    "score": 3.0,
+    "candidate_id": "2014csc-scc44",
+    "candidate_title": "Nation Tsilhqot’in c. Colombie‑Britannique",
+    "query_text": "decision | 2014 SCC 44",
+    "method": "citation_exact",
+    "matched_key": "2014scc44",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7mtb",
+        "score": 3.0,
+        "candidate_title": "Nation Tsilhqot’in c. Colombie‑Britannique"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7mt9",
+        "score": 3.0,
+        "candidate_title": "Tsilhqot’in Nation v. British Columbia"
+      }
+    ]
+  },
+  "baseline_7": {
+    "uri": "https://canlii.ca/t/fnr69",
+    "score": 3.0,
+    "candidate_id": "2011csc-scc56",
+    "candidate_title": "Lax Kw'alaams Indian Band v. Canada (Attorney General)",
+    "query_text": "decision | Kw'alaams Indian Band v. Canada (Attorney General) | 2011 SCC 56",
+    "method": "citation_exact",
+    "matched_key": "2011scc56",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fnr69",
+        "score": 3.0,
+        "candidate_title": "Lax Kw'alaams Indian Band v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "baseline_10": {
+    "uri": "https://canlii.ca/t/k60vs",
+    "score": 3.0,
+    "candidate_id": "2024csc-scc27",
+    "candidate_title": "Ontario (Attorney General) v. Restoule",
+    "query_text": "decision | 2024 SCC 27",
+    "method": "citation_exact",
+    "matched_key": "2024scc27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k60vs",
+        "score": 3.0,
+        "candidate_title": "Ontario (Attorney General) v. Restoule"
+      }
+    ]
+  },
+  "baseline_12": {
+    "uri": "https://canlii.ca/t/j5cbg",
+    "score": 3.0,
+    "candidate_id": "2020csc-scc4",
+    "candidate_title": "Newfoundland and Labrador (Attorney General) v. Uashaunnuat (Innu of Uashat and of Mani‑Utenam)",
+    "query_text": "decision | 2020 SCC 4",
+    "method": "citation_exact",
+    "matched_key": "2020scc4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j5cbg",
+        "score": 3.0,
+        "candidate_title": "Newfoundland and Labrador (Attorney General) v. Uashaunnuat (Innu of Uashat and of Mani‑Utenam)"
+      }
+    ]
+  },
+  "baseline_13": {
+    "uri": "https://canlii.ca/t/jfjrk",
+    "score": 0.8780487804878049,
+    "candidate_id": "2021nbca18",
+    "candidate_title": "Tingley v. The Attorney General of Canada et al.",
+    "query_text": "decision | Tingley v. Attorney General\nof Canada",
+    "method": "fuzzy",
+    "matched_key": "tingley v attorney general of canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jfjrk",
+        "score": 0.8780487804878049,
+        "candidate_title": "Tingley v. The Attorney General of Canada et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1twxf",
+        "score": 0.8611111111111112,
+        "candidate_title": "Thorson v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/21vd0",
+        "score": 0.8611111111111112,
+        "candidate_title": "Nykorak v. Attorney General of Canada"
+      }
+    ]
+  },
+  "baseline_14": {
+    "uri": "https://canlii.ca/t/jfjrk",
+    "score": 3.0,
+    "candidate_id": "2021nbca18",
+    "candidate_title": "Tingley v. The Attorney General of Canada et al.",
+    "query_text": "decision | 2021 NBCA 18",
+    "method": "citation_exact",
+    "matched_key": "2021nbca18",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jfjrk",
+        "score": 3.0,
+        "candidate_title": "Tingley v. The Attorney General of Canada et al."
+      }
+    ]
+  },
+  "baseline_19": {
+    "uri": "https://synthetic.leread.ca/gold/G0410",
+    "score": 0.9180327868852459,
+    "candidate_id": "gold-G0410",
+    "candidate_title": "Real Property Limitation Act",
+    "query_text": "legislation | Real Property Limitation Act,1833",
+    "method": "fuzzy",
+    "matched_key": "real property limitation act 1833",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0410",
+        "score": 0.9180327868852459,
+        "candidate_title": "Real Property Limitation Act"
+      }
+    ]
+  },
+  "baseline_20": {
+    "uri": "https://canlii.ca/t/1l5zg",
+    "score": 3.5,
+    "candidate_id": "2005csc-scc43",
+    "candidate_title": "R. v. Marshall; R. v. Bernard",
+    "query_text": "decision | R. v. Marshall | Marshall | 2005 SCC 43 | 2005 SCC\n43",
+    "method": "citation_exact",
+    "matched_key": "2005scc43",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l5zg",
+        "score": 3.5,
+        "candidate_title": "R. v. Marshall; R. v. Bernard"
+      }
+    ]
+  },
+  "baseline_22": {
+    "uri": "https://canlii.ca/t/j9sn0",
+    "score": 2.0,
+    "candidate_id": "2020nbca62",
+    "candidate_title": "Shanks v. Shay",
+    "query_text": "decision | Shanks v. Shay",
+    "method": "title_exact",
+    "matched_key": "shanks v shay",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j9sn0",
+        "score": 2.0,
+        "candidate_title": "Shanks v. Shay"
+      }
+    ]
+  },
+  "baseline_23": {
+    "uri": "https://canlii.ca/t/j9sn0",
+    "score": 3.2,
+    "candidate_id": "2020nbca62",
+    "candidate_title": "Shanks v. Shay",
+    "query_text": "decision | 2020 NBCA 62 | [2020] N.B.J. No.\n224 (QL)",
+    "method": "citation_exact",
+    "matched_key": "2020nbca62",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j9sn0",
+        "score": 3.2,
+        "candidate_title": "Shanks v. Shay"
+      }
+    ]
+  },
+  "baseline_24": {
+    "uri": "https://canlii.ca/t/1rsf0",
+    "score": 3.0,
+    "candidate_id": "2007nbca42",
+    "candidate_title": "Sewell v. ING Insurance Company of Canada",
+    "query_text": "decision | Sewell\nv. ING Insurance | 2007 NBCA 42",
+    "method": "citation_exact",
+    "matched_key": "2007nbca42",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rsf0",
+        "score": 3.0,
+        "candidate_title": "Sewell v. ING Insurance Company of Canada"
+      }
+    ]
+  },
+  "baseline_26": {
+    "uri": "https://canlii.ca/t/4vgj",
+    "score": 3.0,
+    "candidate_id": "2001nbca97",
+    "candidate_title": "Doiron v. Hogan",
+    "query_text": "decision | 2001 NBCA 97",
+    "method": "citation_exact",
+    "matched_key": "2001nbca97",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4vgj",
+        "score": 3.0,
+        "candidate_title": "Doiron v. Hogan"
+      }
+    ]
+  },
+  "baseline_27": {
+    "uri": "https://canlii.ca/t/1mbrx",
+    "score": 3.0,
+    "candidate_id": "2005nbca115",
+    "candidate_title": "LeBlanc v. Boisvert",
+    "query_text": "decision | 2005 NBCA 115",
+    "method": "citation_exact",
+    "matched_key": "2005nbca115",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mbrx",
+        "score": 3.0,
+        "candidate_title": "LeBlanc v. Boisvert"
+      }
+    ]
+  },
+  "baseline_29": {
+    "uri": "https://canlii.ca/t/1fst2",
+    "score": 3.0,
+    "candidate_id": "1990csc-scc92",
+    "candidate_title": "Hunt v. Carey Canada Inc.",
+    "query_text": "decision | Hunt v Carey Canada | Hunt\nv. Carey Canada | [1990] 2 SCR 959 | [1990] 2 S.C.R. 959",
+    "method": "citation_exact",
+    "matched_key": "19902scr959",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fst2",
+        "score": 3.0,
+        "candidate_title": "Hunt v. Carey Canada Inc."
+      }
+    ]
+  },
+  "baseline_31": {
+    "uri": "https://canlii.ca/t/4vg7",
+    "score": 3.5,
+    "candidate_id": "2001nbca83",
+    "candidate_title": "Agnew v. Smith",
+    "query_text": "decision | Smith v. Agnew | 2001 NBCA 83",
+    "method": "citation_exact",
+    "matched_key": "2001nbca83",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4vg7",
+        "score": 3.5,
+        "candidate_title": "Agnew v. Smith"
+      }
+    ]
+  },
+  "baseline_32": {
+    "uri": "https://canlii.ca/t/1fv0g",
+    "score": 3.7,
+    "candidate_id": "1985csc-scc20",
+    "candidate_title": "Operation Dismantle v. The Queen",
+    "query_text": "decision | Operation Dismantle v. The Queen | [1985] 1\nS.C.R. 441 | [1985] S.C.J. No. 22 (QL)",
+    "method": "citation_exact",
+    "matched_key": "19851scr441",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fv0g",
+        "score": 3.7,
+        "candidate_title": "Operation Dismantle v. The Queen"
+      }
+    ]
+  },
+  "baseline_33": {
+    "uri": "https://canlii.ca/t/j354v",
+    "score": 3.0,
+    "candidate_id": "2019nbca75",
+    "candidate_title": "M.B. v L.B.",
+    "query_text": "decision | 2019\nNBCA 75",
+    "method": "citation_exact",
+    "matched_key": "2019nbca75",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j354v",
+        "score": 3.0,
+        "candidate_title": "M.B. v L.B."
+      }
+    ]
+  },
+  "baseline_36": {
+    "uri": "https://synthetic.leread.ca/gold/G0094",
+    "score": 2.0,
+    "candidate_id": "gold-G0094",
+    "candidate_title": "Black's Law Dictionary",
+    "query_text": "secondary sources | Black's Law\nDictionary",
+    "method": "title_exact",
+    "matched_key": "black s law dictionary",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0094",
+        "score": 2.0,
+        "candidate_title": "Black's Law Dictionary"
+      }
+    ]
+  },
+  "baseline_37": {
+    "uri": "https://canlii.ca/t/fwfft",
+    "score": 3.5,
+    "candidate_id": "2013csc-scc14",
+    "candidate_title": "Manitoba Metis Federation Inc. v. Canada (Attorney General)",
+    "query_text": "decision | Manitoba Métis Federation Inc. v. Canada (Attorney General) | 2013 SCC 14 | [2013] 1 S.C.R. 623 (S.C.C.)",
+    "method": "citation_exact",
+    "matched_key": "2013scc14",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fwfft",
+        "score": 3.5,
+        "candidate_title": "Manitoba Metis Federation Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "baseline_38": {
+    "uri": "https://synthetic.leread.ca/gold/G0309",
+    "score": 2.0,
+    "candidate_id": "gold-G0309",
+    "candidate_title": "Liability of the Crown",
+    "query_text": "secondary sources | Liability of the Crown | W. K. Wright",
+    "method": "title_exact",
+    "matched_key": "liability of the crown",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0309",
+        "score": 2.0,
+        "candidate_title": "Liability of the Crown"
+      }
+    ]
+  },
+  "baseline_39": {
+    "uri": "https://synthetic.leread.ca/gold/G0475",
+    "score": 2.0,
+    "candidate_id": "gold-G0475",
+    "candidate_title": "The Law of Declaratory Judgments",
+    "query_text": "secondary sources | The Law of\nDeclaratory Judgments | …it is useful in the sense that courts will recognize and adhere\nto the declaration in any future proceedings seeking consequential relief | L.\nSarna | Declaratory | Declaratory\nJudgment",
+    "method": "title_exact",
+    "matched_key": "the law of declaratory judgments",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0475",
+        "score": 2.0,
+        "candidate_title": "The Law of Declaratory Judgments"
+      }
+    ]
+  },
+  "baseline_40": {
+    "uri": "https://canlii.ca/t/hshjz",
+    "score": 3.5,
+    "candidate_id": "2018csc-scc30",
+    "candidate_title": "Ewert v. Canada",
+    "query_text": "decision | Ewert v. Canada | 2018 SCC 30",
+    "method": "citation_exact",
+    "matched_key": "2018scc30",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hshjz",
+        "score": 3.5,
+        "candidate_title": "Ewert v. Canada"
+      }
+    ]
+  },
+  "baseline_42": {
+    "uri": "https://canlii.ca/t/gpfth",
+    "score": 3.0,
+    "candidate_id": "2016csc-scc12",
+    "candidate_title": "Daniels v. Canada (Indian Affairs and Northern Development)",
+    "query_text": "decision | Daniels\nv. Canada (Minister of Indian Affairs and Northern Development) | 2016 SCC 12 | [2016] 1 S.C.R. 99(S.C.C.)",
+    "method": "citation_exact",
+    "matched_key": "2016scc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gpfth",
+        "score": 3.0,
+        "candidate_title": "Daniels v. Canada (Indian Affairs and Northern Development)"
+      }
+    ]
+  },
+  "baseline_43": {
+    "uri": "https://canlii.ca/t/27qn6",
+    "score": 3.0,
+    "candidate_id": "2010csc-scc3",
+    "candidate_title": "Canada (Prime Minister) v. Khadr",
+    "query_text": "decision | Khadr v. Canada (Prime Minister) | 2010 SCC 3 | [2010]\n1 S.C.R. 44(S.C.C.)",
+    "method": "citation_exact",
+    "matched_key": "2010scc3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/27qn6",
+        "score": 3.0,
+        "candidate_title": "Canada (Prime Minister) v. Khadr"
+      }
+    ]
+  },
+  "baseline_44": {
+    "uri": "https://canlii.ca/t/1mjtq",
+    "score": 3.0,
+    "candidate_id": "1979csc-scc10007",
+    "candidate_title": "Solosky v. The Queen",
+    "query_text": "decision | [1980] 1 S.C.R. 821",
+    "method": "citation_exact",
+    "matched_key": "19801scr821",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjtq",
+        "score": 3.0,
+        "candidate_title": "Solosky v. The Queen"
+      }
+    ]
+  },
+  "baseline_48": {
+    "uri": "https://canlii.ca/t/h5jxb",
+    "score": 0.9571428571428572,
+    "candidate_id": "2017nbqb103",
+    "candidate_title": "J.D. Irving v Southern New Brunswick Forest Products Marketing Board et al",
+    "query_text": "decision | J.D. Irving v. Southern New Brunswick\nForest Products Marketing Board",
+    "method": "fuzzy",
+    "matched_key": "j d irving v southern new brunswick forest products marketing board",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h5jxb",
+        "score": 0.9571428571428572,
+        "candidate_title": "J.D. Irving v Southern New Brunswick Forest Products Marketing Board et al"
+      }
+    ]
+  },
+  "baseline_49": {
+    "uri": "https://canlii.ca/t/h5jxb",
+    "score": 3.0,
+    "candidate_id": "2017nbqb103",
+    "candidate_title": "J.D. Irving v Southern New Brunswick Forest Products Marketing Board et al",
+    "query_text": "decision | 2017 NBQB 103",
+    "method": "citation_exact",
+    "matched_key": "2017nbqb103",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h5jxb",
+        "score": 3.0,
+        "candidate_title": "J.D. Irving v Southern New Brunswick Forest Products Marketing Board et al"
+      }
+    ]
+  },
+  "baseline_50": {
+    "uri": "https://canlii.ca/t/h67tb",
+    "score": 3.5,
+    "candidate_id": "2017bcsc1665",
+    "candidate_title": "The Council of the Haida Nation v British Columbia",
+    "query_text": "decision | The Council of the Haida Nation\nv. British Columbia | 2017 BCSC 1665",
+    "method": "citation_exact",
+    "matched_key": "2017bcsc1665",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h67tb",
+        "score": 3.5,
+        "candidate_title": "The Council of the Haida Nation v British Columbia"
+      }
+    ]
+  },
+  "baseline_51": {
+    "uri": "https://canlii.ca/t/1m1zn",
+    "score": 3.5,
+    "candidate_id": "2005csc-scc69",
+    "candidate_title": "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)",
+    "query_text": "decision | Mikisew Cree\nFirst Nation v. Canada (Minister of Canadian Heritage) | 2005 SCC 69",
+    "method": "citation_exact",
+    "matched_key": "2005scc69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m1zn",
+        "score": 3.5,
+        "candidate_title": "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)"
+      }
+    ]
+  },
+  "baseline_52": {
+    "uri": "https://canlii.ca/t/jshfv",
+    "score": 3.5,
+    "candidate_id": "2022csc-scc36",
+    "candidate_title": "Annapolis Group Inc. v. Halifax Regional Municipality",
+    "query_text": "decision | Annapolis Group Inc. v. Halifax Regional Municipality | 2022 SCC 36",
+    "method": "citation_exact",
+    "matched_key": "2022scc36",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jshfv",
+        "score": 3.5,
+        "candidate_title": "Annapolis Group Inc. v. Halifax Regional Municipality"
+      }
+    ]
+  },
+  "baseline_53": {
+    "uri": "https://canlii.ca/t/jh0pr",
+    "score": 3.5,
+    "candidate_id": "2021csc-scc28",
+    "candidate_title": "Southwind v. Canada",
+    "query_text": "decision | Southwind v. Canada | 2021 SCC 28",
+    "method": "citation_exact",
+    "matched_key": "2021scc28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jh0pr",
+        "score": 3.5,
+        "candidate_title": "Southwind v. Canada"
+      }
+    ]
+  },
+  "baseline_58": {
+    "uri": "https://canlii.ca/t/1fr7d",
+    "score": 3.0,
+    "candidate_id": "1996csc-scc84",
+    "candidate_title": "R. v. Côté",
+    "query_text": "decision | [1996] 3 S.C.R. 139",
+    "method": "citation_exact",
+    "matched_key": "19963scr139",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr7d",
+        "score": 3.0,
+        "candidate_title": "R. v. Côté"
+      }
+    ]
+  },
+  "baseline_60": {
+    "uri": "https://canlii.ca/t/ss80",
+    "score": 2.0,
+    "candidate_id": "d69840!d69840",
+    "candidate_title": "The Constitutional Dimensions of Aboriginal Title",
+    "query_text": "secondary sources | The Constitutional Dimensions of Aboriginal Title | B. Slattery",
+    "method": "title_exact",
+    "matched_key": "the constitutional dimensions of aboriginal title",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ss80",
+        "score": 2.0,
+        "candidate_title": "The Constitutional Dimensions of Aboriginal Title"
+      }
+    ]
+  },
+  "baseline_61": {
+    "uri": "https://synthetic.leread.ca/gold/G0497",
+    "score": 2.0,
+    "candidate_id": "gold-G0497",
+    "candidate_title": "Translating Sui Generis Aboriginal Rights in the Civilian Imagination",
+    "query_text": "secondary sources | Translating Sui Generis Aboriginal Rights\nin the Civilian Imagination | K. Anker",
+    "method": "title_exact",
+    "matched_key": "translating sui generis aboriginal rights in the civilian imagination",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0497",
+        "score": 2.0,
+        "candidate_title": "Translating Sui Generis Aboriginal Rights in the Civilian Imagination"
+      }
+    ]
+  },
+  "baseline_64": {
+    "uri": "https://canlii.ca/t/7n8hl",
+    "score": 2.0,
+    "candidate_id": "d217668!d217668",
+    "candidate_title": "The Limits of the Declaratory Judgment",
+    "query_text": "secondary sources | The Limits of\nthe Declaratory Judgment | D. Shnier",
+    "method": "title_exact",
+    "matched_key": "the limits of the declaratory judgment",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7n8hl",
+        "score": 2.0,
+        "candidate_title": "The Limits of the Declaratory Judgment"
+      }
+    ]
+  },
+  "baseline_65": {
+    "uri": "https://synthetic.leread.ca/gold/G0005",
+    "score": 2.0,
+    "candidate_id": "gold-G0005",
+    "candidate_title": "A Tale of Two Agreements: Implementing Section 52(1) Remedies for the Violation of Métis Harvesting Rights",
+    "query_text": "secondary sources | A Tale of Two Agreements:\nImplementing Section 52(1) Remedies for the Violation of Métis Harvesting\nRights | J. Teillet",
+    "method": "title_exact",
+    "matched_key": "a tale of two agreements implementing section 52 1 remedies for the violation of metis harvesting rights",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0005",
+        "score": 2.0,
+        "candidate_title": "A Tale of Two Agreements: Implementing Section 52(1) Remedies for the Violation of Métis Harvesting Rights"
+      }
+    ]
+  },
+  "baseline_68": {
+    "uri": "https://canlii.ca/t/hp2d8",
+    "score": 0.8823529411764706,
+    "candidate_id": "2017csc-scc58",
+    "candidate_title": "First Nation of Nacho Nyak Dun v. Yukon",
+    "query_text": "decision | First Nation of\nNacho Nyak Dun",
+    "method": "fuzzy",
+    "matched_key": "first nation of nacho nyak dun",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hp2d8",
+        "score": 0.8823529411764706,
+        "candidate_title": "First Nation of Nacho Nyak Dun v. Yukon"
+      }
+    ]
+  },
+  "baseline_70": {
+    "uri": "https://canlii.ca/t/h51gv",
+    "score": 3.0,
+    "candidate_id": "2017csc-scc40",
+    "candidate_title": "Clyde River (Hamlet) v. Petroleum Geo‑Services Inc.",
+    "query_text": "decision | 2017 SCC 40",
+    "method": "citation_exact",
+    "matched_key": "2017scc40",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h51gv",
+        "score": 3.0,
+        "candidate_title": "Clyde River (Hamlet) v. Petroleum Geo‑Services Inc."
+      }
+    ]
+  },
+  "baseline_71": {
+    "uri": "https://canlii.ca/t/h51gv",
+    "score": 3.0,
+    "candidate_id": "2017csc-scc40",
+    "candidate_title": "Clyde River (Hamlet) v. Petroleum Geo‑Services Inc.",
+    "query_text": "decision | [2017] 1 S.C.R. 1069",
+    "method": "citation_exact",
+    "matched_key": "20171scr1069",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h51gv",
+        "score": 3.0,
+        "candidate_title": "Clyde River (Hamlet) v. Petroleum Geo‑Services Inc."
+      }
+    ]
+  },
+  "baseline_74": {
+    "uri": "https://canlii.ca/t/jm25z",
+    "score": 3.0,
+    "candidate_id": "2022nbca4",
+    "candidate_title": "Edmondson et al. v. Edmondson et al.",
+    "query_text": "decision | Edmondson v. Edmondson | 2022 NBCA 4",
+    "method": "citation_exact",
+    "matched_key": "2022nbca4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jm25z",
+        "score": 3.0,
+        "candidate_title": "Edmondson et al. v. Edmondson et al."
+      }
+    ]
+  }
+}

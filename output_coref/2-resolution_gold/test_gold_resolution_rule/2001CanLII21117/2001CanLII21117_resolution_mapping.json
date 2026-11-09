@@ -1,0 +1,630 @@
+{
+  "Quebec Charter": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 3.5,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | Charter of human rights and freedoms | Charter\nof human rights and freedoms | Charter | CHARTER | Quebec <i>Charter</i> | Quebec charters | R.S.Q.,\nc. C-12 | R.S.Q. c.\nC-12",
+    "method": "citation_exact",
+    "matched_key": "rsqcc12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 3.5,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      }
+    ]
+  },
+  "Regulation 14": {
+    "uri": "https://canlii.ca/t/hm3m",
+    "score": 3.5,
+    "candidate_id": "l9083!9083-current-1",
+    "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets",
+    "query_text": "legislation | By-law respecting standards of the Sûreté du Québec\nand municipal police forces for the hiring of constables and cadets | Regulation\n14 | Regulation 14 | By-law respecting standards of the Sûreté du Québec and\nmunicipal police forces for the hiring of constables and cadets | By-law respecting standards of the Sûreté du Québec and municipal\npolice forces for the hiring of constables and cadets | By-law respecting standards of the Sûreté du Québec and municipal police\nforces for the hiring of constables and cadets | Bylaw respecting standards of the Sûreté\ndu Québec and municipal police forces for the hiring of constables and cadets | R.R.Q. 1981, c. P- 13, r.14",
+    "method": "citation_exact",
+    "matched_key": "rrq1981cp13r14",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hm3m",
+        "score": 3.5,
+        "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets"
+      }
+    ]
+  },
+  "Montréal (Communauté urbaine) QCCA 2000": {
+    "uri": "https://synthetic.leread.ca/gold/G0344",
+    "score": 3.0,
+    "candidate_id": "gold-G0344",
+    "candidate_title": "Montréal (Communauté urbaine) QCCA 2000",
+    "query_text": "decision | 500-09-006851-984",
+    "method": "citation_exact",
+    "matched_key": "50009006851984",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0344",
+        "score": 3.0,
+        "candidate_title": "Montréal (Communauté urbaine) QCCA 2000"
+      }
+    ]
+  },
+  "Police Act": {
+    "uri": "https://canlii.ca/t/hcnw",
+    "score": 3.5,
+    "candidate_id": "l6095!6095-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | Police Act | <i>Police Act</i> | Act | Police\nAct | c. P-13 | R.S.Q. c. P-13",
+    "method": "citation_exact",
+    "matched_key": "rsqcp13",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 3.5,
+        "candidate_title": "Police Act"
+      }
+    ]
+  },
+  "Criminal Code 1985": {
+    "uri": "https://canlii.ca/t/56lsh",
+    "score": 3.5,
+    "candidate_id": "l12792!12792-current-1",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Criminal Code | <i>Criminal Code</i> | Code | <i>Criminal Cod</i><i>e</i> | Criminal\nCode | Revised Statutes of Canada,\n1985, chapter C-46 | R.S.C., 1985, c. C-46 | R.S.C. (1985) c. C-46",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cc46",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Criminal Records Act": {
+    "uri": "https://canlii.ca/t/56lsj",
+    "score": 3.5,
+    "candidate_id": "l12793!12793-current-1",
+    "candidate_title": "Criminal Records Act",
+    "query_text": "legislation | Criminal Records Act | the Act | <i>Criminal Records Act</i> | Criminal\nRecords Act | C.R.A | C.R.A. | Criminal Records\nAct | R.S.C. (1985) c. C-47 | R.S.C. (1985)\nc. C-47 | R.S.C. 1970, c. 12",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cc47",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsj",
+        "score": 3.5,
+        "candidate_title": "Criminal Records Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fmwv",
+        "score": 3.5,
+        "candidate_title": "Loi sur le casier judiciaire"
+      }
+    ]
+  },
+  "Bill C-71": {
+    "uri": "https://synthetic.leread.ca/gold/G0092",
+    "score": 3.0,
+    "candidate_id": "gold-G0092",
+    "candidate_title": "Bill C-71",
+    "query_text": "legislation | Bill C-71",
+    "method": "citation_exact",
+    "matched_key": "billc71",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0092",
+        "score": 3.0,
+        "candidate_title": "Bill C-71"
+      }
+    ]
+  },
+  "Criminal Code 1970": {
+    "uri": "https://synthetic.leread.ca/gold/G0171",
+    "score": 3.5,
+    "candidate_id": "gold-G0171",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Criminal Code | R.S.C. 1970, c. C-34",
+    "method": "citation_exact",
+    "matched_key": "rsc1970cc34",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 3.5,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "National Defence Act": {
+    "uri": "https://canlii.ca/t/56mrx",
+    "score": 2.0,
+    "candidate_id": "l12899!12899-current-1",
+    "candidate_title": "National Defence Act",
+    "query_text": "legislation | National Defence Act",
+    "method": "title_exact",
+    "matched_key": "national defence act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56mrx",
+        "score": 2.0,
+        "candidate_title": "National Defence Act"
+      }
+    ]
+  },
+  "Therrien": {
+    "uri": "https://canlii.ca/t/521j",
+    "score": 3.0,
+    "candidate_id": "2001csc-scc35",
+    "candidate_title": "Therrien (Re)",
+    "query_text": "decision | Therrien | Re Therrien | 2001 SCC 35",
+    "method": "citation_exact",
+    "matched_key": "2001scc35",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/521j",
+        "score": 3.0,
+        "candidate_title": "Therrien (Re)"
+      }
+    ]
+  },
+  "Maksteel QCCA 2000": {
+    "uri": "https://canlii.ca/t/1fbxk",
+    "score": 0.9580838323353293,
+    "candidate_id": "2000qcca620",
+    "candidate_title": "Maksteel inc. c. Québec (Commission des droits de la personne et des droits de la personne)",
+    "query_text": "decision | Maksteel | <i><span style=\"font-size:10.0pt\">Maksteel inc. </span></i><span style=\"font-size:10.0pt\">v.<i> Québec (Commission des droits de la personne et\ndes droits de la jeunesse)</i></span> | <i> </i>[2001] R.J.Q. 28 C.A.Q",
+    "method": "fuzzy",
+    "matched_key": "maksteel",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fbxk",
+        "score": 0.9580838323353293,
+        "candidate_title": "Maksteel inc. c. Québec (Commission des droits de la personne et des droits de la personne)"
+      }
+    ]
+  },
+  "B.C. Human Rights Commission": {
+    "uri": "https://canlii.ca/t/1fndz",
+    "score": 3.5,
+    "candidate_id": "2000bcca584",
+    "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal",
+    "query_text": "decision | <i>B.C. Human Rights Commission</i> v<i>.\nB.C. Human Rights Tribunal</i> | 2000 BCCA 584",
+    "method": "citation_exact",
+    "matched_key": "2000bcca584",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 3.5,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      }
+    ]
+  },
+  "Cie Price ltée": {
+    "uri": "https://synthetic.leread.ca/gold/G0138",
+    "score": 3.5,
+    "candidate_id": "gold-G0138",
+    "candidate_title": "Commission des droits de la personne v. Cie Price ltée",
+    "query_text": "decision | <i>Commission des\ndroits de la personne</i> v. <i>Cie Price ltée</i> | J.E. 81-866 (S.C.)",
+    "method": "citation_exact",
+    "matched_key": "je81866sc",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0138",
+        "score": 3.5,
+        "candidate_title": "Commission des droits de la personne v. Cie Price ltée"
+      }
+    ]
+  },
+  "Béliveau St-Jacques": {
+    "uri": "https://canlii.ca/t/1fr87",
+    "score": 3.5,
+    "candidate_id": "1996csc-scc64",
+    "candidate_title": "Béliveau St-Jacques v. Fédération des employées et employés de services publics inc.",
+    "query_text": "decision | Béliveau-St-Jacques | <i><span style=\"font-size:10.0pt\">Béliveau St-Jacques</span></i><span style=\"font-size:10.0pt\"> v. <i>Fédération des employées et employés\nde services publics inc</i></span><span style=\"font-size:10.0pt\"><i></i>.</span> | [1996] 2 S.C.R. 345",
+    "method": "citation_exact",
+    "matched_key": "19962scr345",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr87",
+        "score": 3.5,
+        "candidate_title": "Béliveau St-Jacques v. Fédération des employées et employés de services publics inc."
+      }
+    ]
+  },
+  "McLaughlin": {
+    "uri": "https://synthetic.leread.ca/gold/G0333",
+    "score": 3.5,
+    "candidate_id": "gold-G0333",
+    "candidate_title": "McLaughlin v. Fletcher Challenge Canada Ltd",
+    "query_text": "decision | McLaughlin | <i><span style=\"font-size:10.0pt\">McLaughlin</span></i><span style=\"font-size:\n10.0pt\"> v. <i>Fletcher Challenge Canada Ltd</i></span> | [2000] B.C.J. No 2162, 2000 BCCA\n584",
+    "method": "citation_exact",
+    "matched_key": "2000bcjno21622000bcca584",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0333",
+        "score": 3.5,
+        "candidate_title": "McLaughlin v. Fletcher Challenge Canada Ltd"
+      }
+    ]
+  },
+  "Human Rights Code British Columbia": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 3.5,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "legislation | <i>Human Rights Code</i><a href=\"#_ftn16\" name=\"_ftnref16\" title=\"\"><span class=\"MsoFootnoteReference\"><span style='font-size:11.0pt;font-family:\"Arial\",\"sans-serif\";layout-grid-mode:\nline'>[16]</span></span></a><i> </i>of British Columbia | British Columbia <i>Human Rights Code</i> | Human Rights Code | Human Rights Act | R.S.B.C., 1996, c. 210",
+    "method": "citation_exact",
+    "matched_key": "rsbc1996c210",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 3.5,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "Young Offenders Act": {
+    "uri": "https://canlii.ca/t/kmfv",
+    "score": 3.5,
+    "candidate_id": "l12988!12988-current-1",
+    "candidate_title": "Young Offenders Act",
+    "query_text": "legislation | Young Offenders Act | R.S.C.\n1985, c. Y-1",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cy1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kmfv",
+        "score": 3.5,
+        "candidate_title": "Young Offenders Act"
+      }
+    ]
+  },
+  "Pénologie droit canadien": {
+    "uri": "https://synthetic.leread.ca/gold/G0405",
+    "score": 2.0,
+    "candidate_id": "gold-G0405",
+    "candidate_title": "Pénologie - Le droit canadien relatif aux peines et aux sentences",
+    "query_text": "secondary sources | <i>Pénologie - Le\ndroit canadien relatif aux peines et aux sentences</i> | Professor\nDumont | Professor Dumont | Dumont | Hélène DUMONT",
+    "method": "title_exact",
+    "matched_key": "penologie le droit canadien relatif aux peines et aux sentences",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0405",
+        "score": 2.0,
+        "candidate_title": "Pénologie - Le droit canadien relatif aux peines et aux sentences"
+      }
+    ]
+  },
+  "Rozon": {
+    "uri": "https://canlii.ca/t/1kqn5",
+    "score": 3.0,
+    "candidate_id": "1999qccs10333",
+    "candidate_title": "Rozon c. La Reine",
+    "query_text": "decision | Rozon | <i><span style=\"font-size:10.0pt\"> Rozon</span></i><span style=\"font-size:10.0pt\">\nv. <i>R</i></span> | [1999] R.J.Q. 805",
+    "method": "citation_exact",
+    "matched_key": "1999rjq805",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1kqn5",
+        "score": 3.0,
+        "candidate_title": "Rozon c. La Reine"
+      }
+    ]
+  },
+  "Discrimination fondée sur antécédents": {
+    "uri": "https://canlii.ca/t/x8q1",
+    "score": 2.0,
+    "candidate_id": "d63861!d63861",
+    "candidate_title": "La discrimination fondée sur le motif des antécédents judiciaires et les instruments anti-discriminatoires canadiens",
+    "query_text": "secondary sources | La discrimination\nfondée sur le motif des antécédents judiciaires et les instruments\nanti-discriminatoires canadiens | Singleton | Thomas J. Singleton",
+    "method": "title_exact",
+    "matched_key": "la discrimination fondee sur le motif des antecedents judiciaires et les instruments anti discriminatoires canadiens",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/x8q1",
+        "score": 2.0,
+        "candidate_title": "La discrimination fondée sur le motif des antécédents judiciaires et les instruments anti-discriminatoires canadiens"
+      }
+    ]
+  },
+  "Professional Code": {
+    "uri": "https://canlii.ca/t/6fn1z",
+    "score": 3.5,
+    "candidate_id": "l5519!5519-current-1",
+    "candidate_title": "Code des professions",
+    "query_text": "legislation | <i>Professional Code</i> | <i>Professional </i>Code | R.S.Q. c. C-26",
+    "method": "citation_exact",
+    "matched_key": "rsqcc26",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fn1z",
+        "score": 3.5,
+        "candidate_title": "Code des professions"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxm",
+        "score": 3.5,
+        "candidate_title": "Professional Code"
+      }
+    ]
+  },
+  "Péloquin": {
+    "uri": "https://synthetic.leread.ca/gold/G0404",
+    "score": 3.5,
+    "candidate_id": "gold-G0404",
+    "candidate_title": "Péloquin v. Syndicat des agents de la paix en services correctionnels du Québec",
+    "query_text": "decision | Péloquin | <i><span style=\"font-size:10.0pt\">Péloquin</span></i><span style=\"font-size:10.0pt\"> v. <i>Syndicat des agents de la paix en\nservices correctionnels du Québec</i></span> | [2001] R.J.Q. 2215",
+    "method": "citation_exact",
+    "matched_key": "2001rjq2215",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0404",
+        "score": 3.5,
+        "candidate_title": "Péloquin v. Syndicat des agents de la paix en services correctionnels du Québec"
+      }
+    ]
+  },
+  "Act respecting police organization": {
+    "uri": "https://synthetic.leread.ca/gold/G0020",
+    "score": 2.0,
+    "candidate_id": "gold-G0020",
+    "candidate_title": "Act respecting police organization",
+    "query_text": "legislation | Act respecting police\norganization | Act\nrespecting police organization | Act respecting\npolice organization",
+    "method": "title_exact",
+    "matched_key": "act respecting police organization",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0020",
+        "score": 2.0,
+        "candidate_title": "Act respecting police organization"
+      }
+    ]
+  },
+  "By-law 106-114": {
+    "uri": "https://synthetic.leread.ca/gold/G0109",
+    "score": 2.0,
+    "candidate_id": "gold-G0109",
+    "candidate_title": "By-law 106-114",
+    "query_text": "legislation | By-law\n106-114 | By-law",
+    "method": "title_exact",
+    "matched_key": "by law",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0109",
+        "score": 2.0,
+        "candidate_title": "By-law 106-114"
+      }
+    ]
+  },
+  "Dickason": {
+    "uri": "https://canlii.ca/t/1fs85",
+    "score": 3.5,
+    "candidate_id": "1992csc-scc82",
+    "candidate_title": "Dickason v. University of Alberta",
+    "query_text": "decision | Dickason | <i><span style=\"font-size:10.0pt\">Dickason</span></i><span style=\"font-size:\n10.0pt\"> v. <i>University of Alberta</i></span> | [1992] 2 S.C.R. 1103",
+    "method": "citation_exact",
+    "matched_key": "19922scr1103",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs85",
+        "score": 3.5,
+        "candidate_title": "Dickason v. University of Alberta"
+      }
+    ]
+  },
+  "Etobicoke": {
+    "uri": "https://canlii.ca/t/1lpbq",
+    "score": 3.0,
+    "candidate_id": "1982csc-scc10004",
+    "candidate_title": "Ontario Human Rights Commission v. Etobicoke",
+    "query_text": "decision | Etobicoke | <i><span style=\"font-size:10.0pt\">Ontario Human Rights Commission</span></i><span style=\"font-size:10.0pt\"> v. <i>Municipality of Etobicoke</i></span> | [1982] 1 S.C.R.\n202",
+    "method": "citation_exact",
+    "matched_key": "19821scr202",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpbq",
+        "score": 3.0,
+        "candidate_title": "Ontario Human Rights Commission v. Etobicoke"
+      }
+    ]
+  },
+  "Ontario Human Rights Code": {
+    "uri": "https://synthetic.leread.ca/gold/G0171",
+    "score": 2.0,
+    "candidate_id": "gold-G0171",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Code | Ontario Human Rights Code",
+    "method": "title_exact",
+    "matched_key": "code",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0171",
+        "score": 2.0,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0133",
+        "score": 2.0,
+        "candidate_title": "Code of Civil Procedure of Lower Canada"
+      }
+    ]
+  },
+  "Heerspink": {
+    "uri": "https://canlii.ca/t/1lpcj",
+    "score": 3.0,
+    "candidate_id": "1982csc-scc10016",
+    "candidate_title": "Insurance Corporation of British Columbia v. Heerspink",
+    "query_text": "decision | Heerspink | <i><span style=\"font-size:10.0pt\"> Insurance Corp. of British Columbia</span></i><span style=\"font-size:10.0pt\"> v. <i>Heerspink</i></span> | [1982] 2 S.C.R. 145",
+    "method": "citation_exact",
+    "matched_key": "19822scr145",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpcj",
+        "score": 3.0,
+        "candidate_title": "Insurance Corporation of British Columbia v. Heerspink"
+      }
+    ]
+  },
+  "Craton": {
+    "uri": "https://canlii.ca/t/1ftzq",
+    "score": 3.5,
+    "candidate_id": "1985csc-scc48",
+    "candidate_title": "Winnipeg School Division No. 1 v. Craton",
+    "query_text": "decision | Craton | <i><span style=\"font-size:10.0pt\">Winnipeg School Division No. 1</span></i><span style=\"font-size:10.0pt\"> v. <i>Craton</i></span> | [1985] 2 S.C.R. 150",
+    "method": "citation_exact",
+    "matched_key": "19852scr150",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftzq",
+        "score": 3.5,
+        "candidate_title": "Winnipeg School Division No. 1 v. Craton"
+      }
+    ]
+  },
+  "Claude Poirier": {
+    "uri": "https://synthetic.leread.ca/gold/G0145",
+    "score": 3.5,
+    "candidate_id": "gold-G0145",
+    "candidate_title": "Claude Poirier v. Ville de Montréal",
+    "query_text": "decision | <i>Claude Poirier</i> v. <i>Ville de Montréal</i> | <i>CDPDJ (Claude Poirier)</i> v. <i>Ville\nde Montréal</i> | [1995] 22 CHRR D/325",
+    "method": "citation_exact",
+    "matched_key": "199522chrrd325",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0145",
+        "score": 3.5,
+        "candidate_title": "Claude Poirier v. Ville de Montréal"
+      }
+    ]
+  },
+  "An Act respecting ministère du Revenu": {
+    "uri": "https://canlii.ca/t/x6v",
+    "score": 3.0,
+    "candidate_id": "l5406!5406-current-1",
+    "candidate_title": "Tax Administration Act",
+    "query_text": "legislation | Act\nrespecting the Ministère du Revenu | R.S.Q. c. M-31",
+    "method": "citation_exact",
+    "matched_key": "rsqcm31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/x6v",
+        "score": 3.0,
+        "candidate_title": "Tax Administration Act"
+      }
+    ]
+  },
+  "order in council 1659-86": {
+    "uri": "https://synthetic.leread.ca/gold/G0368",
+    "score": 2.0,
+    "candidate_id": "gold-G0368",
+    "candidate_title": "orders in council 1659-86",
+    "query_text": "legislation | orders in council 1659-86",
+    "method": "title_exact",
+    "matched_key": "orders in council 1659 86",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0368",
+        "score": 2.0,
+        "candidate_title": "orders in council 1659-86"
+      }
+    ]
+  },
+  "order in council 1475-92": {
+    "uri": "https://synthetic.leread.ca/gold/G0367",
+    "score": 2.0,
+    "candidate_id": "gold-G0367",
+    "candidate_title": "1475-92",
+    "query_text": "legislation | 1475-92",
+    "method": "title_exact",
+    "matched_key": "1475 92",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0367",
+        "score": 2.0,
+        "candidate_title": "1475-92"
+      }
+    ]
+  },
+  "Compagnie minière Québec Cartier": {
+    "uri": "https://canlii.ca/t/1frjn",
+    "score": 2.0,
+    "candidate_id": "1995csc-scc64",
+    "candidate_title": "Cie minière Québec Cartier v. Quebec (Grievances arbitrator)",
+    "query_text": "decision | <i>Cie Minière Quebec Cartier</i> v. <i>Quebec\n(Grievances arbitrator)</i> | [1995] 2 S.C.R. 1101",
+    "method": "title_exact",
+    "matched_key": "cie miniere quebec cartier v quebec grievances arbitrator",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frjn",
+        "score": 2.0,
+        "candidate_title": "Cie minière Québec Cartier v. Quebec (Grievances arbitrator)"
+      }
+    ]
+  },
+  "Farber": {
+    "uri": "https://canlii.ca/t/1fr38",
+    "score": 0.9019607843137255,
+    "candidate_id": "1997csc-scc35",
+    "candidate_title": "Farber v. Royal Trust Co.",
+    "query_text": "decision | <i>Farber\n</i>v. <i>Royal Trust Company</i> | <i> </i>[1997] 1 S.C.R. 869",
+    "method": "fuzzy",
+    "matched_key": "farber v royal trust company",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr38",
+        "score": 0.9019607843137255,
+        "candidate_title": "Farber v. Royal Trust Co."
+      }
+    ]
+  },
+  "Police Act 2000": {
+    "uri": "https://canlii.ca/t/52ndn",
+    "score": 3.5,
+    "candidate_id": "l41517!41517-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | Police Act | S.Q. 2000, c. 12 | S.Q.\n2000, C-12",
+    "method": "citation_exact",
+    "matched_key": "sq2000c12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/52ndn",
+        "score": 3.5,
+        "candidate_title": "Police Act"
+      }
+    ]
+  },
+  "Maksteel SCC 2001": {
+    "uri": "https://synthetic.leread.ca/gold/G0321",
+    "score": 3.0,
+    "candidate_id": "gold-G0321",
+    "candidate_title": "Maksteel SCC 2001",
+    "query_text": "decision | case 28402",
+    "method": "citation_exact",
+    "matched_key": "case28402",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0321",
+        "score": 3.0,
+        "candidate_title": "Maksteel SCC 2001"
+      }
+    ]
+  },
+  "Le casier judiciaire": {
+    "uri": "https://synthetic.leread.ca/gold/G0300",
+    "score": 2.0,
+    "candidate_id": "gold-G0300",
+    "candidate_title": "Le casier judiciaire : criminel un jour, criminel toujours?",
+    "query_text": "secondary sources | Le casier\njudiciaire : criminel un jour, criminel toujours? | Dumont, Hélène",
+    "method": "title_exact",
+    "matched_key": "le casier judiciaire criminel un jour criminel toujours",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0300",
+        "score": 2.0,
+        "candidate_title": "Le casier judiciaire : criminel un jour, criminel toujours?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "baseline_0": {
+    "uri": "https://canlii.ca/t/25s29",
+    "score": 2.0,
+    "candidate_id": "2009nuca3",
+    "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp",
+    "query_text": "decision | Diavik Diamond Mines Inc. v. Tahera Diamond\nCorp. | 2009 NUCA 03",
+    "method": "title_exact",
+    "matched_key": "diavik diamond mines inc v tahera diamond corp",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/25s29",
+        "score": 2.0,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp"
+      },
+      {
+        "uri": "https://canlii.ca/t/22k6q",
+        "score": 2.0,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corporation"
+      }
+    ]
+  },
+  "baseline_1": {
+    "uri": "https://canlii.ca/t/22k6q",
+    "score": 3.0,
+    "candidate_id": "2009nucj5",
+    "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corporation",
+    "query_text": "decision | 2009 NUCJ 5",
+    "method": "citation_exact",
+    "matched_key": "2009nucj5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22k6q",
+        "score": 3.0,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corporation"
+      }
+    ]
+  },
+  "baseline_3": {
+    "uri": "https://canlii.ca/t/56gvj",
+    "score": 2.0,
+    "candidate_id": "l30243!30243-current-1",
+    "candidate_title": "Mechanics Lien Act",
+    "query_text": "legislation | Act | Mechanics Lien\nAct | North West\nTerritories Mechanics Lien Act | S.N.W.T. 1997, c. M-12",
+    "method": "title_exact",
+    "matched_key": "mechanics lien act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gvj",
+        "score": 2.0,
+        "candidate_title": "Mechanics Lien Act"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0336",
+        "score": 2.0,
+        "candidate_title": "Mechanics’ Lien Act"
+      }
+    ]
+  },
+  "baseline_4": {
+    "uri": "https://canlii.ca/t/7vrt",
+    "score": 3.5,
+    "candidate_id": "l13115!13115-current-1",
+    "candidate_title": "Nunavut Act",
+    "query_text": "legislation | Nunavut Act | S.C.\n1993, c. 28",
+    "method": "citation_exact",
+    "matched_key": "sc1993c28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7vrt",
+        "score": 3.5,
+        "candidate_title": "Nunavut Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/5431p",
+        "score": 3.5,
+        "candidate_title": "Nunavut Act"
+      }
+    ]
+  },
+  "baseline_5": {
+    "uri": "https://canlii.ca/t/56fc5",
+    "score": 3.0,
+    "candidate_id": "l12787!12787-current-1",
+    "candidate_title": "Companies' Creditors Arrangement Act",
+    "query_text": "legislation | Ontario under the\nCompanies’ Creditors Arrangement Act | R.S.C. 1985, c. C-36",
+    "method": "citation_exact",
+    "matched_key": "rsc1985cc36",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fc5",
+        "score": 3.0,
+        "candidate_title": "Companies' Creditors Arrangement Act"
+      }
+    ]
+  },
+  "baseline_7": {
+    "uri": "https://synthetic.leread.ca/gold/G0161",
+    "score": 2.0,
+    "candidate_id": "gold-G0161",
+    "candidate_title": "Construction of Statutes",
+    "query_text": "secondary sources | Construction of Statutes | Driedger’s",
+    "method": "title_exact",
+    "matched_key": "construction of statutes",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0161",
+        "score": 2.0,
+        "candidate_title": "Construction of Statutes"
+      },
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0162",
+        "score": 2.0,
+        "candidate_title": "Construction of Statutes"
+      }
+    ]
+  },
+  "baseline_8": {
+    "uri": "https://canlii.ca/t/1fqwt",
+    "score": 3.0,
+    "candidate_id": "1998csc-scc5",
+    "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)",
+    "query_text": "decision | [1998] 1 S.C.R. 27 | [1998] S.C.J. No. 2",
+    "method": "citation_exact",
+    "matched_key": "19981scr27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqwt",
+        "score": 3.0,
+        "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)"
+      }
+    ]
+  },
+  "baseline_9": {
+    "uri": "https://canlii.ca/t/1tvrs",
+    "score": 3.5,
+    "candidate_id": "1963csc-scc10003",
+    "candidate_title": "Clarkson Co. Ltd. v. Ace Lumber Ltd.",
+    "query_text": "decision | Clarkson Co. Ltd. v. Ace Lumber Ltd. | [1963] S.C.R. 110",
+    "method": "citation_exact",
+    "matched_key": "1963scr110",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tvrs",
+        "score": 3.5,
+        "candidate_title": "Clarkson Co. Ltd. v. Ace Lumber Ltd."
+      }
+    ]
+  },
+  "baseline_11": {
+    "uri": "https://synthetic.leread.ca/gold/G0011",
+    "score": 0.9464285714285714,
+    "candidate_id": "gold-G0011",
+    "candidate_title": "Access Mining Consultants Ltd. v. United Keno Hill Mine s Ltd.",
+    "query_text": "decision | Access Mining\nConsultants Ltd. v. United Keno Hill Mine",
+    "method": "fuzzy",
+    "matched_key": "access mining consultants ltd v united keno hill mine",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0011",
+        "score": 0.9464285714285714,
+        "candidate_title": "Access Mining Consultants Ltd. v. United Keno Hill Mine s Ltd."
+      }
+    ]
+  },
+  "baseline_16": {
+    "uri": "https://canlii.ca/t/g9348",
+    "score": 0.9107142857142857,
+    "candidate_id": "1972nttc1000003",
+    "candidate_title": "Byer's Transport Limited v. Terra Mining and Exploration Limited",
+    "query_text": "decision | Byer’s Transport Ltd. v. Terra Mining\n&amp; Exploration Ltd. | [1972] 2 W.W.R. 719, 24",
+    "method": "fuzzy",
+    "matched_key": "byer s transport ltd v terra mining exploration ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9348",
+        "score": 0.9107142857142857,
+        "candidate_title": "Byer's Transport Limited v. Terra Mining and Exploration Limited"
+      }
+    ]
+  },
+  "baseline_17": {
+    "uri": "https://canlii.ca/t/gbt7m",
+    "score": 0.8648648648648649,
+    "candidate_id": "1916mbca1000001",
+    "candidate_title": "Polson v. Thomson",
+    "query_text": "decision | Polson v. Thomson (1916) | 26 Man. R. 410, 29",
+    "method": "fuzzy",
+    "matched_key": "polson v thomson 1916",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbt7m",
+        "score": 0.8648648648648649,
+        "candidate_title": "Polson v. Thomson"
+      }
+    ]
+  },
+  "baseline_19": {
+    "uri": "https://synthetic.leread.ca/gold/G0334",
+    "score": 3.5,
+    "candidate_id": "gold-G0334",
+    "candidate_title": "McPherson v. Gedge",
+    "query_text": "decision | McPherson v. Gedge (1883) | 4 O.R. 246",
+    "method": "citation_exact",
+    "matched_key": "4or246",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0334",
+        "score": 3.5,
+        "candidate_title": "McPherson v. Gedge"
+      }
+    ]
+  },
+  "baseline_21": {
+    "uri": "https://synthetic.leread.ca/gold/G0334",
+    "score": 2.0,
+    "candidate_id": "gold-G0334",
+    "candidate_title": "McPherson v. Gedge",
+    "query_text": "decision | McPherson v. Gedge",
+    "method": "title_exact",
+    "matched_key": "mcpherson v gedge",
+    "topk": [
+      {
+        "uri": "https://synthetic.leread.ca/gold/G0334",
+        "score": 2.0,
+        "candidate_title": "McPherson v. Gedge"
+      }
+    ]
+  }
+}
