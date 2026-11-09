@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import Any
 import math
 import os
+import re
 
 from torch.utils.data import Dataset
 
@@ -153,12 +154,19 @@ def train_lora(
     model_path: str | None = None,
     eval_dataset: Dataset | None = None,
     output_dir: Path | None = None,
+    resume: str = "auto",
 ):
     """Fine-tune *model_short* on *examples* with LoRA; return (trainer, out_dir).
 
     Saves the adapter + both configs under
     ``<output_root>/<run_name>/`` so every run is reproducible and can be
     reloaded for inference via ``LoraAssistant``.
+
+    Checkpoint resumption (controlled by *resume*):
+        * "auto" -> if ``output_dir`` contains ``checkpoint-*`` folders, resume
+          from the latest one; otherwise start fresh.
+        * "true" -> force resume (raises if no checkpoint found).
+        * "false" -> always start from scratch.
     """
     from transformers import Trainer, TrainingArguments
 
@@ -183,6 +191,38 @@ def train_lora(
     run_name = sft_cfg.run_name(model_short, train_on, lora_cfg)
     output_dir = Path(output_dir or sft_cfg.output_root) / run_name
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    # ── Automatic checkpoint detection / resumption ──────────────────────
+    checkpoint_dirs = [
+        d for d in output_dir.iterdir()
+        if d.is_dir() and d.name.startswith("checkpoint-")
+    ]
+
+    def _step(p: Path) -> int:
+        m = re.search(r"checkpoint-(\d+)", p.name)
+        return int(m.group(1)) if m else -1
+
+    resume_from_checkpoint = False
+    if checkpoint_dirs:
+        latest = max(checkpoint_dirs, key=_step)
+        if resume == "auto":
+            resume_from_checkpoint = True
+            print(
+                f"[train_lora] Found existing checkpoints in {output_dir.name} — "
+                f"resuming from {latest.name}"
+            )
+        elif resume == "true":
+            resume_from_checkpoint = True
+            print(f"[train_lora] Forced resume from {latest.name}")
+        else:  # "false"
+            print(
+                f"[train_lora] Checkpoints found in {output_dir.name} but "
+                f"resume=false — starting from scratch"
+            )
+    elif resume == "true":
+        raise FileNotFoundError(
+            f"resume=true requested but no checkpoint-* folders found in {output_dir}"
+        )
 
     pad_id = tokenizer.pad_token_id
     world_size = int(os.environ.get("WORLD_SIZE", "1"))
@@ -241,7 +281,7 @@ def train_lora(
         data_collator=lambda recs: _collate(recs, pad_id),
     )
 
-    trainer.train()
+    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
 
     # Save the adapter (not the full base model) + the configs used.
     trainer.save_model(str(output_dir))
