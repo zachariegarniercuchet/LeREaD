@@ -18,6 +18,9 @@ Dataset-only / smoke test (no model load, no GPU needed):
 python -m src.main_training --model gemma4 --train-on silver --dec-pass all --dry-run --chunker paragraph
 python -m src.main_training --model gemma4 --train-on silver --dec-pass all --chunker paragraph
 python -m src.main_training --model gemma4 --train-on train+silver --dec-pass all --chunker paragraph
+
+To force a fresh start (ignore existing checkpoints)
+python -m src.main_training --model gemma4 --train-on silver --dec-pass all --resume false
 """
 import argparse
 import sys
@@ -93,6 +96,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
                    help="Run every combo in DEFAULT_GRIDS instead of one run.")
     p.add_argument("--dry-run", action="store_true",
                    help="Build the dataset and print stats, then exit (no GPU).")
+    p.add_argument("--resume", default="auto", choices=["auto", "true", "false"],
+                   help="Checkpoint resumption: 'auto' (default) resumes from the "
+                        "latest checkpoint-* in the output folder if one exists, "
+                        "'true' forces resume (errors if none), 'false' starts fresh.")
     return p
 
 
@@ -177,6 +184,7 @@ def run_one(args, overrides: dict | None = None):
         sft_cfg=sft,
         model_path=args.model_path,
         output_dir=Path(args.output_dir) if args.output_dir else None,
+        resume=args.resume,
     )
     return out_dir
 

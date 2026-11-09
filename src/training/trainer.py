@@ -14,6 +14,8 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Any
+import math
+import os
 
 from torch.utils.data import Dataset
 
@@ -183,6 +185,30 @@ def train_lora(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     pad_id = tokenizer.pad_token_id
+    world_size = int(os.environ.get("WORLD_SIZE", "1"))
+
+    # Estimate optimizer steps per epoch.
+    batches_per_epoch = math.ceil(
+        len(train_dataset)
+        / (sft_cfg.per_device_train_batch_size * world_size)
+    )
+
+    steps_per_epoch = max(
+        1,
+        batches_per_epoch // sft_cfg.gradient_accumulation_steps
+    )
+
+    total_steps = math.ceil(
+        steps_per_epoch * sft_cfg.num_train_epochs
+    )
+
+    warmup_steps = round(sft_cfg.warmup_ratio * total_steps)
+
+    print(
+        f"[training] examples={len(train_dataset)}, "
+        f"estimated_steps={total_steps}, "
+        f"warmup_steps={warmup_steps}"
+    )
     args = TrainingArguments(
         output_dir=str(output_dir),
         run_name=run_name,
@@ -191,7 +217,7 @@ def train_lora(
         num_train_epochs=sft_cfg.num_train_epochs,
         per_device_train_batch_size=sft_cfg.per_device_train_batch_size,
         gradient_accumulation_steps=sft_cfg.gradient_accumulation_steps,
-        warmup_ratio=sft_cfg.warmup_ratio,
+        warmup_steps=warmup_steps,
         weight_decay=sft_cfg.weight_decay,
         lr_scheduler_type=sft_cfg.lr_scheduler_type,
         max_grad_norm=sft_cfg.max_grad_norm,
