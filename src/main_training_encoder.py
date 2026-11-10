@@ -14,7 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path.cwd()))
 
-from configs.config import MIN_TOKENS
+from configs.config import CACHE_DIR, MIN_TOKENS
 from src.training import dataset as ds
 from src.models.encoder import (build_records, default_output_root, diagnose, load_encoder,
                                 parse_tagged, tokenization_ceiling, train_encoder)
@@ -47,7 +47,10 @@ def main():
     dev_ex = []
     if not a.no_dev:
         ds.TRAIN_SET_CONDITIONS.setdefault("dev", ["dev"])     # data/annotated/dev
-        dev_ex = ds.get_or_build_dataset("dev", a.chunker, a.min_tokens, pass_id=None)
+        # Bypass the shared chunk cache for dev: it held stale/incomplete annotations
+        # (271 of 818 gold spans). Rebuild from the HTML and refresh the json cache.
+        dev_ex = ds.build_extraction_examples("dev", a.chunker, a.min_tokens, use_cache=False)
+        ds.save_dataset(dev_ex, CACHE_DIR / "training" / f"aio_dev_{a.chunker}_mt{a.min_tokens}.json")
 
     if a.diagnose:
         model, tok, cfg = load_encoder(a.diagnose)
