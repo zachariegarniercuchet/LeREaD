@@ -129,13 +129,14 @@ def extract_split_from_folder_name(folder_name: str) -> Optional[str]:
 
 def find_final_html_in_folder(folder_path: Path) -> Optional[Path]:
     """
-    Find the *final.html file in a folder.
+    Find the output HTML file in a folder.
     
-    Expected: exactly one file matching *final.html pattern.
+    Expected: exactly one file matching *final.html or *processed.html pattern.
     """
-    final_htmls = list(folder_path.glob("*final.html"))
-    if len(final_htmls) == 1:
-        return final_htmls[0]
+    for pat in ("*final.html", "*processed.html"):
+        hits = list(folder_path.glob(pat))
+        if len(hits) == 1:
+            return hits[0]
     return None
 
 

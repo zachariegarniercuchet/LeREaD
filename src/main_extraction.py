@@ -635,6 +635,8 @@ def build_arg_parser() -> argparse.ArgumentParser:
                         help="1-based index of the first document to process (inclusive).")
     parser.add_argument("--end", type=int, default=None,
                         help="1-based index of the last document to process (inclusive).")
+    parser.add_argument("--encoder-path", type=Path, default=None,
+                        help="Saved encoder run folder; bypasses the LLM factory.")
 
     return parser
 
@@ -681,7 +683,12 @@ def main():
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
 
-    if run.model == "gpt-5.2":
+    if args.encoder_path:
+        if not args.disable_fallback:
+            parser.error("--encoder-path requires --disable-fallback")
+        from src.training.infer_encoder import EncoderAssistant
+        assistant = EncoderAssistant(str(args.encoder_path))
+    elif run.model == "gpt-5.2":
         assistant = AssistantFactory.create_from_config({
             "type": "openai",
             "model_name": run.model,
