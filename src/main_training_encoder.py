@@ -16,8 +16,8 @@ sys.path.insert(0, str(Path.cwd()))
 
 from configs.config import MIN_TOKENS
 from src.training import dataset as ds
-from src.models.encoder import (build_records, default_output_root, parse_tagged,
-                                tokenization_ceiling, train_encoder)
+from src.models.encoder import (build_records, default_output_root, diagnose, load_encoder,
+                                parse_tagged, tokenization_ceiling, train_encoder)
 
 
 def main():
@@ -38,6 +38,8 @@ def main():
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--no-dev", action="store_true", help="skip dev evaluation / model selection")
     p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--diagnose", default=None, metavar="RUN_DIR",
+                   help="evaluate a saved run on dev and on a train subset, then exit")
     a = p.parse_args()
 
     train_ex = ds.get_or_build_dataset(a.train_on, a.chunker, a.min_tokens, pass_id=None)
@@ -46,6 +48,13 @@ def main():
     if not a.no_dev:
         ds.TRAIN_SET_CONDITIONS.setdefault("dev", ["dev"])     # data/annotated/dev
         dev_ex = ds.get_or_build_dataset("dev", a.chunker, a.min_tokens, pass_id=None)
+
+    if a.diagnose:
+        model, tok, cfg = load_encoder(a.diagnose)
+        dev_dev = next(model.parameters()).device
+        diagnose(model, tok, train_ex[:150], dev_dev, cfg["max_len"], cfg["stride"], "TRAIN subset")
+        diagnose(model, tok, dev_ex, dev_dev, cfg["max_len"], cfg["stride"], "DEV")
+        return
 
     if a.dry_run:
         from transformers import AutoTokenizer

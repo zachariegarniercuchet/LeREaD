@@ -349,6 +349,37 @@ def evaluate_examples(model, tok, examples, device, max_len=512, stride=128) -> 
     return sc.result()
 
 
+def diagnose(model, tok, examples, device, max_len=512, stride=128, name="", show=6):
+    """Per-label exact vs overlap F1 + a few gold spans the model got wrong."""
+    per, shown = {}, 0
+    for ex in examples:
+        text, gold = parse_tagged(ex["output"])
+        kept = predict_kept(model, tok, text, device, max_len, stride)
+        pred = [(s, e, n) for s, e, n, _ in kept] + [(s, e, n) for *_, cs in kept for s, e, n in cs]
+        pset = set(pred)
+        for n in {x[2] for x in gold} | {x[2] for x in pred}:
+            g = [x for x in gold if x[2] == n]
+            p = [x for x in pred if x[2] == n]
+            used, ov = set(), 0
+            for gs, ge, _ in g:
+                for j, (ps, pe, _) in enumerate(p):
+                    if j not in used and ps < ge and pe > gs:
+                        used.add(j); ov += 1; break
+            d = per.setdefault(n, [0, 0, 0, 0])
+            d[0] += len(set(g) & set(p)); d[1] += len(p); d[2] += len(g); d[3] += ov
+        for gs, ge, gn in gold:
+            if shown < show and (gs, ge, gn) not in pset:
+                near = [text[a:b] for a, b, nn in pred if a < ge and b > gs and nn == gn]
+                print(f"  gold {gn}: {text[gs:ge]!r}  ->  pred overlap: {near!r}")
+                shown += 1
+    print(f"[diagnose {name}] label | exact F1 | overlap F1 | n_pred | n_gold")
+    tot = [0, 0, 0, 0]
+    for n, (tp, p, g, ov) in sorted(per.items()):
+        print(f"  {n:18s} {2*tp/max(p+g,1):.3f}  {2*ov/max(p+g,1):.3f}  {p:6d} {g:6d}")
+        tot = [a + b for a, b in zip(tot, (tp, p, g, ov))]
+    print(f"  {'ALL':18s} {2*tot[0]/max(tot[1]+tot[2],1):.3f}  {2*tot[3]/max(tot[1]+tot[2],1):.3f}")
+
+
 # --------------------------------------------------------------------------
 # Training
 # --------------------------------------------------------------------------
