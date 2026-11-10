@@ -87,4 +87,21 @@ MODEL_REGISTRY = {
         "thinking": False,           # bool here, unlike Muse Glimmer's low/medium/high/xhigh
         "default_quantization": "bf16",  # 31B dense, same rationale as your Qwen2.5-32B entry
     },
-}
+
+        "deberta-v3-large": {
+            "path": os.path.join(MODELS_DIR, "deberta-v3-large"), 
+            "type": "encoder",
+            "has_system_role": False, 
+            "trust_remote_code": False, 
+            "thinking": False,
+            "default_quantization": "bf16"
+    },
+        "ModernBERT-large": {
+            "path": os.path.join(MODELS_DIR, "ModernBERT-large"), 
+            "type": "encoder",
+            "has_system_role": False, 
+            "trust_remote_code": False, 
+            "thinking": False,
+            "default_quantization": "bf16"
+        },
+    }

@@ -7,4 +7,6 @@ MODEL_MAPPING_NAME = {
     "saul-54b": "SaulLM-54B-Instruct",
     "muse": "Muse-Glimmer-30B",
     "gemma4": "gemma-4-31B-it",
+    "deberta-v3-large": "deberta-v3-large",
+    "modernbert-large": "ModernBERT-large",
 }

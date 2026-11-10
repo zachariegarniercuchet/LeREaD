@@ -8,7 +8,6 @@ private/
 notebooks/
 jobs/
 
-src/models/registry.py
 
 # Large embedding / index blobs stay out of git.
 cache/candidate_pool_index_qwen3-8b_v1/

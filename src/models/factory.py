@@ -44,6 +44,9 @@ class AssistantFactory:
         "saullm": "openweight",
         "mistral": "openweight",
         "llama": "openweight",
+        # Encoders (token-classification, see src.training.infer_encoder)
+        "deberta": "encoder",
+        "modernbert": "encoder",
     }
     
     @staticmethod
@@ -70,10 +73,15 @@ class AssistantFactory:
         if kwargs.get("assistant_type") == "openai":
             return OpenAIAssistant(model_name=model_name, temperature=temperature, **kwargs)
         
-        elif model_name not in MODEL_REGISTRY:
-            raise ValueError(
-                f"Unknown model '{model_name}'. Available: {list(MODEL_REGISTRY.keys())}"
-            )
+        if model_name not in MODEL_REGISTRY:
+            # Case-insensitive fallback (e.g. "modernbert-large" vs "ModernBERT-large")
+            lowered = {k.lower(): k for k in MODEL_REGISTRY}
+            if model_name.lower() in lowered:
+                model_name = lowered[model_name.lower()]
+            else:
+                raise ValueError(
+                    f"Unknown model '{model_name}'. Available: {list(MODEL_REGISTRY.keys())}"
+                )
         cfg = MODEL_REGISTRY[model_name]
         quant = quantization or cfg["default_quantization"]
 
@@ -134,6 +142,17 @@ class AssistantFactory:
                 trust_remote_code=cfg["trust_remote_code"],
                 has_system_role=cfg["has_system_role"],
                 thinking=cfg["thinking"],
+                **kwargs,
+            )
+
+        elif cfg["type"] == "encoder":
+            from src.training.infer_encoder import EncoderAssistant
+
+            adapter_path = kwargs.pop("adapter_path", None)
+            return EncoderAssistant(
+                adapter_path=adapter_path,
+                temperature=temperature,
+                has_system_role=cfg["has_system_role"],
                 **kwargs,
             )
 
