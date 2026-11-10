@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path.cwd()))
 
 from configs.config import MIN_TOKENS
 from src.training import dataset as ds
-from src.models.encoder import (build_records, default_output_root,
+from src.models.encoder import (build_records, default_output_root, parse_tagged,
                                 tokenization_ceiling, train_encoder)
 
 
@@ -54,9 +54,18 @@ def main():
         tok = AutoTokenizer.from_pretrained(path, use_fast=True)
         recs, mism = build_records(train_ex, tok, a.max_len, a.stride)
         print(f"train chunks={len(train_ex)} windows={len(recs)} text-mismatch chunks={mism}")
+        shown = 0
+        for ex in train_ex:
+            plain = parse_tagged(ex["output"])[0]
+            if plain != ex["input"] and shown < 3:
+                k = next((i for i, (x, y) in enumerate(zip(plain, ex["input"])) if x != y),
+                         min(len(plain), len(ex["input"])))
+                print("MISMATCH", len(plain), len(ex["input"]),
+                      repr(plain[max(0, k-30):k+30]), "|", repr(ex["input"][max(0, k-30):k+30]))
+                shown += 1
         print("tokenization ceiling (exact F1) train:", tokenization_ceiling(train_ex, tok, a.max_len, a.stride))
         if dev_ex:
-            print("tokenization ceiling (exact F1) dev  :", tokenization_ceiling(dev_ex, tok, a.max_len, a.stride))
+            print("tokenization ceiling (exact F1) dev  :", tokenization_ceiling(dev_ex, tok, a.max_len, a.stride, show=8))
         return
 
     train_encoder(a.model, a.train_on, train_ex, dev_ex or None,

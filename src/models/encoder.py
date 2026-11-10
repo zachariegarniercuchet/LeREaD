@@ -229,7 +229,7 @@ class _Scorer:
         return r
 
 
-def tokenization_ceiling(examples, tok, max_len=512, stride=128) -> dict:
+def tokenization_ceiling(examples, tok, max_len=512, stride=128, show=0) -> dict:
     """F1 of gold labels pushed through tokenize -> BIO -> decode -> assemble.
     This is the best exact-match F1 this tokenizer can ever reach."""
     sc = _Scorer()
@@ -240,7 +240,12 @@ def tokenization_ceiling(examples, tok, max_len=512, stride=128) -> dict:
             lm = np.maximum(_bio(offs, spans, MENTION_LABELS), 0)
             lc = np.maximum(_bio(offs, spans, COMPONENT_LABELS), 0)
             wins.append((offs, np.eye(N_MENTION)[lm], np.eye(N_COMPONENT)[lc]))
-        sc.add(i, spans, _spans_to_kept(*_aggregate(wins), text))
+        kept = _spans_to_kept(*_aggregate(wins), text)
+        sc.add(i, spans, kept)
+        if show:
+            pred = {(s, e, n) for s, e, n, _ in kept} | {(s, e, n) for *_, cs in kept for s, e, n in cs}
+            for s, e, n in [sp for sp in spans if sp not in pred][:show]:
+                print(f"  [ceiling miss] doc{i} {n} {text[s:e]!r} ...context {text[max(0, s-20):e+20]!r}")
     return sc.result()
 
 
@@ -277,6 +282,9 @@ def build_model(config_or_model_path, pretrained=True, trust_remote_code=False, 
                 cfg = AutoConfig.from_pretrained(
                     config_or_model_path, trust_remote_code=trust_remote_code)
                 self.encoder = AutoModel.from_config(cfg, trust_remote_code=trust_remote_code)
+            # transformers>=5 loads the checkpoint dtype (deberta-v3 ships fp16) ->
+            # AdamW on fp16 params gives NaN. Keep fp32 masters; autocast does bf16.
+            self.encoder.float()
             h = self.encoder.config.hidden_size
             self.drop = nn.Dropout(dropout)
             self.mention_head = nn.Linear(h, N_MENTION)
@@ -394,6 +402,11 @@ def train_encoder(model_short, train_on, train_examples, dev_examples=None,
             with torch.autocast(device_type="cuda", dtype=torch.bfloat16,
                                 enabled=(device.type == "cuda")):
                 loss = model(**batch)["loss"] / grad_accum
+            if not torch.isfinite(loss):
+                raise RuntimeError(
+                    f"Non-finite loss at epoch {ep}, step {step} "
+                    f"(encoder dtype={next(model.encoder.parameters()).dtype}). "
+                    "Check dtype / learning rate before continuing.")
             loss.backward()
             run_loss += loss.item() * grad_accum
             if (step + 1) % grad_accum == 0 or step + 1 == len(loader):
