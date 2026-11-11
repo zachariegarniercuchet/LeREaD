@@ -408,7 +408,7 @@ def train_encoder(model_short, train_on, train_examples, dev_examples=None,
     print(f"[encoder] {len(train_examples)} chunks -> {len(recs)} windows "
           f"({mism} chunks where input != tag-stripped output)")
 
-    run_name = f"{model_short}_{train_on}_lr{lr:g}_hlr{head_lr:g}_ep{epochs}"
+    run_name = f"{model_short}_{train_on}_lr{lr:g}_hlr{head_lr:g}_ep{epochs}" + ("" if seed == 42 else f"_s{seed}")
     out_dir = Path(output_root or default_output_root()) / run_name
     out_dir.mkdir(parents=True, exist_ok=True)
 
