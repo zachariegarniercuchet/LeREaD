@@ -152,7 +152,7 @@ def train_lora(
     lora_cfg,
     sft_cfg,
     model_path: str | None = None,
-    eval_dataset: Dataset | None = None,
+    eval_dataset: Dataset | list[dict] | None = None,
     output_dir: Path | None = None,
     resume: str = "auto",
 ):
@@ -185,11 +185,19 @@ def train_lora(
         system_prompt=system_prompt,
         max_seq_len=sft_cfg.max_seq_len,
     )
+    if isinstance(eval_dataset, list):
+        eval_dataset = SFTDataset(
+            eval_dataset,
+            tokenizer,
+            system_prompt=system_prompt,
+            max_seq_len=sft_cfg.max_seq_len,
+        )
 
     model = attach_lora(base_model, lora_cfg)
 
     run_name = sft_cfg.run_name(model_short, train_on, lora_cfg)
-    output_dir = Path(output_dir or sft_cfg.output_root) / run_name
+    from .lora import default_training_root
+    output_dir = Path(output_dir or sft_cfg.output_root or default_training_root()) / run_name
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # ── Automatic checkpoint detection / resumption ──────────────────────
@@ -249,7 +257,7 @@ def train_lora(
         f"estimated_steps={total_steps}, "
         f"warmup_steps={warmup_steps}"
     )
-    args = TrainingArguments(
+    training_kwargs = dict(
         output_dir=str(output_dir),
         run_name=run_name,
         # schedule
@@ -272,6 +280,17 @@ def train_lora(
         seed=sft_cfg.seed,
         remove_unused_columns=False,
     )
+    if eval_dataset is not None:
+        import inspect
+        supported = inspect.signature(TrainingArguments.__init__).parameters
+        strategy_key = "eval_strategy" if "eval_strategy" in supported else "evaluation_strategy"
+        training_kwargs.update({
+            strategy_key: "epoch",
+            "load_best_model_at_end": True,
+            "metric_for_best_model": "eval_loss",
+            "greater_is_better": False,
+        })
+    args = TrainingArguments(**training_kwargs)
 
     trainer = Trainer(
         model=model,
@@ -296,6 +315,8 @@ def train_lora(
                 "lora": config_to_dict(lora_cfg),
                 "sft": config_to_dict(sft_cfg),
                 "n_examples": len(train_dataset),
+                "best_dev_loss": trainer.state.best_metric,
+                "best_checkpoint": trainer.state.best_model_checkpoint,
             },
             f,
             indent=2,

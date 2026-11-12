@@ -73,13 +73,13 @@ class SFTConfig:
     save_strategy: str = "epoch"
     eval_steps: float | None = None
     seed: int = 42
-    output_root: str = "output_training"
+    output_root: str | None = None
 
     def run_name(self, model_short: str, train_on: str, lora: LoRAConfig) -> str:
         return (
             f"{model_short}_{train_on}"
             f"_r{lora.r}_a{lora.alpha}_lr{self.learning_rate:g}"
-            f"_ep{self.num_train_epochs:g}_q{self.quantization}"
+            f"_ep{self.num_train_epochs:g}_q{self.quantization}_s{self.seed}"
         )
 
 
@@ -131,6 +131,49 @@ def resolve_model_path(model_short: str) -> tuple[str, dict]:
             f"'{hf_name}' not in MODEL_REGISTRY. Known: {list(registry.keys())}"
         )
     return registry[hf_name]["path"], registry[hf_name]
+
+
+def default_training_root() -> Path:
+    """Use the same scratch root as the local model registry."""
+    try:
+        from src.models.registry import MODELS_DIR
+        return Path(MODELS_DIR) / "output_training"
+    except ImportError:
+        return Path("output_training")
+
+
+def find_best_training_run(
+    model_short: str,
+    seed: int | None = None,
+    output_root: str | Path | None = None,
+) -> Path:
+    """Find the saved run with the lowest recorded dev loss."""
+    root = Path(output_root) if output_root else default_training_root()
+    candidates = []
+    for config_path in root.glob("*/run_config.json"):
+        try:
+            import json
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if config.get("model_short") != model_short:
+            continue
+        if seed is not None and config.get("sft", {}).get("seed") != seed:
+            continue
+        dev_loss = config.get("best_dev_loss")
+        if dev_loss is None:
+            continue
+        try:
+            candidates.append((float(dev_loss), config_path.parent))
+        except (TypeError, ValueError):
+            continue
+    if not candidates:
+        qualifier = f" and seed {seed}" if seed is not None else ""
+        raise FileNotFoundError(
+            f"No completed training run with dev metrics found for "
+            f"{model_short!r}{qualifier} under {root}"
+        )
+    return min(candidates, key=lambda item: item[0])[1]
 
 
 def load_base_model(

@@ -1,18 +1,18 @@
 """
 Add a unique sequential `id` attribute to every <auto_label> and
-<manual_label> tag in HTML files ending with `final.html`.
+<manual_label> tag in HTML files ending with `processed.html` or `final.html`.
 
 The script recursively searches a given root directory, regardless of
 how deeply the HTML files are nested.
 
 Usage:
-    python add_ids.py /path/to/output
+    python scripts/add_ids_to_label_pipeline.py /path/to/output
 
-    python add_ids.py /path/to/output --ignore temp cache old
+    python scripts/add_ids_to_label_pipeline.py /path/to/output --ignore temp cache old
 
 Examples:
-    python add_ids.py output
-    python add_ids.py output --ignore tmp backup supplementary
+    python scripts/add_ids_to_label_pipeline.py output
+    python scripts/add_ids_to_label_pipeline.py output --ignore tmp backup supplementary
 
 For each HTML document:
     - IDs start at 0.
@@ -31,7 +31,7 @@ from bs4 import BeautifulSoup
 
 
 LABEL_TAGS = ["auto_label", "manual_label"]
-TARGET_SUFFIX = "final.html"
+TARGET_SUFFIXES = ("processed.html", "final.html")
 
 
 def parse_arguments():
@@ -40,7 +40,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(
         description=(
             "Recursively add sequential IDs to <auto_label> and "
-            "<manual_label> tags in *final.html files."
+            "<manual_label> tags in *processed.html and *final.html files."
         )
     )
 
@@ -66,7 +66,7 @@ def parse_arguments():
 
 def find_html_files(root_dir, ignored_folders):
     """
-    Recursively find all files ending with 'final.html'.
+    Recursively find all files ending with 'processed.html' or 'final.html'.
 
     Any directory whose name is present in ignored_folders is skipped.
     """
@@ -84,8 +84,8 @@ def find_html_files(root_dir, ignored_folders):
         ):
             continue
 
-        # Only process files whose name ends with final.html.
-        if path.name.endswith(TARGET_SUFFIX):
+        # Only process files whose name ends with a supported suffix.
+        if path.name.endswith(TARGET_SUFFIXES):
             yield path
 
 
@@ -228,7 +228,7 @@ def main():
     print("=" * 70)
 
     print(f"Root directory : {root_dir}")
-    print(f"Target files   : *{TARGET_SUFFIX}")
+    print(f"Target files   : *processed.html, *final.html")
 
     if ignored_folders:
         print(
@@ -254,7 +254,7 @@ def main():
 
     print(
         f"Found {len(html_files)} "
-        f"*{TARGET_SUFFIX} file(s).\n"
+        f"*processed.html/*final.html file(s).\n"
     )
 
     if not html_files:

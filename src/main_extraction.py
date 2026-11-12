@@ -637,6 +637,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
                         help="1-based index of the last document to process (inclusive).")
     parser.add_argument("--encoder-path", type=Path, default=None,
                         help="Saved encoder run folder; bypasses the LLM factory.")
+    parser.add_argument("--trained", action="store_true",
+                        help="Load the best completed LoRA run for --model, selected by dev loss.")
+    parser.add_argument("--trained-seed", type=int, default=None,
+                        help="Restrict --trained selection to one training seed.")
 
     return parser
 
@@ -683,11 +687,28 @@ def main():
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
 
+    if args.encoder_path and args.trained:
+        parser.error("--encoder-path and --trained are mutually exclusive")
+    if args.trained and args.method != "AIO":
+        parser.error("--trained LoRA extraction currently supports --method AIO only")
     if args.encoder_path:
         if not args.disable_fallback:
             parser.error("--encoder-path requires --disable-fallback")
         from src.training.infer_encoder import EncoderAssistant
         assistant = EncoderAssistant(str(args.encoder_path))
+    elif args.trained:
+        from src.training.infer import LoraAssistant
+        from src.training.lora import find_best_training_run
+        base_model = run.model.removesuffix("-trained")
+        if base_model not in MODEL_MAPPING_NAME:
+            parser.error(f"--trained requires a model alias in MODEL_MAPPING_NAME: {base_model}")
+        adapter_path = find_best_training_run(base_model, seed=args.trained_seed)
+        assistant = LoraAssistant(
+            adapter_path=str(adapter_path),
+            model_short=base_model,
+            temperature=run.temperature,
+        )
+        print(f"[Setup] Selected trained run: {adapter_path}")
     elif run.model == "gpt-5.2":
         assistant = AssistantFactory.create_from_config({
             "type": "openai",

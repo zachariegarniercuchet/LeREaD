@@ -94,6 +94,29 @@ python src/evaluation/evaluate.py batch --batch-folder output/<run>/
 
 Model short names map to local checkpoints or the OpenAI API in `configs/constants.py` (`MODEL_MAPPING_NAME`).
 
+### Training extraction models
+
+On Tamia, `main_training` evaluates on the annotated `dev` split after every
+epoch and restores the checkpoint with the lowest dev loss before saving the
+adapter. The run directory is placed under the model registry's scratch
+`MODELS_DIR/output_training/` and includes the seed, so different seeds do not
+overwrite one another. For example, to train Qwen 3.5 9B:
+
+```bash
+python -m src.main_training --model qwen35-9b --train-on train+silver --seed 42 --resume false
+```
+
+To run test extraction, select the best completed run automatically across
+seeds and configurations:
+
+```bash
+python -m src.main_extraction --split test --model qwen35-9b --trained --disable-fallback
+```
+
+Use `--trained-seed N` when you want to test one particular seed. The trained
+LoRA path can also be supplied explicitly with the helper in
+`src.training.lora`, but is not needed for the normal workflow.
+
 ## Annotation
 
 The gold documents were annotated by two legal experts with `LeREaDLabelizer`, a web-based hierarchical span annotation tool, in two phases: 11 fully manual documents, then 34 documents pre-annotated by the extraction module and verified/corrected by the annotators (final pilot agreement: span micro-F1 0.91; verification raised throughput by 29% at equal quality). The annotation guidelines are released in this repo (`Guide_annotation_V2_avril2026_Anonymized_for_review.pdf`). See `LABELIZER.md` for a description of the annotation tool and its full evaluation against other annotation tools.

@@ -51,6 +51,7 @@ TRAIN_SET_CONDITIONS: dict[str, list[str]] = {
     "train": ["train"],
     "silver": ["silver"],
     "train+silver": ["train", "silver"],
+    "dev": ["dev"],
 }
 
 # Per-pass configuration for decomposed (DEC) extraction fine-tuning.

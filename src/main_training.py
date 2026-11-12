@@ -19,6 +19,9 @@ python -m src.main_training --model gemma4 --train-on silver --dec-pass all --dr
 python -m src.main_training --model gemma4 --train-on silver --dec-pass all --chunker paragraph
 python -m src.main_training --model gemma4 --train-on train+silver --dec-pass all --chunker paragraph
 
+The best dev-loss checkpoint is restored and saved as the run directory. Runs
+include the seed in their name and default to the registry's scratch folder.
+
 To force a fresh start (ignore existing checkpoints)
 python -m src.main_training --model gemma4 --train-on silver --dec-pass all --resume false
 """
@@ -172,6 +175,13 @@ def run_one(args, overrides: dict | None = None):
         return None
 
     system_prompt = load_system_prompt(args.prompt_type)
+    dev_examples = get_or_build_dataset(
+        train_on="dev",
+        chunker=args.chunker,
+        min_tokens=args.min_tokens,
+        force=True,
+        pass_id=args.dec_pass,
+    )
 
     from src.training.trainer import train_lora
 
@@ -182,6 +192,7 @@ def run_one(args, overrides: dict | None = None):
         system_prompt=system_prompt,
         lora_cfg=lora,
         sft_cfg=sft,
+        eval_dataset=dev_examples,
         model_path=args.model_path,
         output_dir=Path(args.output_dir) if args.output_dir else None,
         resume=args.resume,
