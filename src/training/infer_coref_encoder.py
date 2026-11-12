@@ -129,6 +129,12 @@ class CorefEncoderAssistant(BaseAssistant):
             # No existing profiles -> always open a new cluster.
             return f'docid="{self._new_cluster_docid(mention_html)}"'
 
+        # Restrict candidates to the same mention type (matches training,
+        # where negatives are same-type profiles only).
+        profiles = _filter_profiles_by_type(mention_html, profiles)
+        if not profiles:
+            return f'docid="{self._new_cluster_docid(mention_html)}"'
+
         # Build one (mention+context, profile) pair per candidate profile.
         input_a = f"Mention: {mention_html}\nContext: {context}"
         pairs = [
@@ -154,6 +160,24 @@ class CorefEncoderAssistant(BaseAssistant):
         return f'docid="{self._new_cluster_docid(mention_html)}"'
 
 
+def _norm_type(t: str | None) -> str:
+    """Normalize a mention type for comparison (secondary sources == secondary_sources)."""
+    return str(t or "").replace("_", " ").replace("-", " ").strip().lower()
+
+
+def _filter_profiles_by_type(mention_html: str, profiles: List[dict]) -> List[dict]:
+    """Keep only profiles whose doc_type matches the mention's root label.
+
+    Training negatives are same-type profiles only, so inference must match.
+    """
+    m = re.match(r"\s*<([A-Za-z_]+)\b", mention_html)
+    if not m:
+        return profiles
+    mention_type = _norm_type(m.group(1))
+    return [p for p in profiles
+            if _norm_type(p.get("doc_type")) == mention_type]
+
+
 def _profile_text(profile: dict) -> str:
     """Render one profile dict (from format_profile_for_prompt) to text."""
     def join(values) -> str:
@@ -162,7 +186,6 @@ def _profile_text(profile: dict) -> str:
         return "; ".join(str(v) for v in values)
 
     return (
-        f"docid: {profile.get('docid') or 'none'}\n"
         f"type: {profile.get('doc_type') or 'none'}\n"
         f"titles: {join(profile.get('alternative_titles') or [])}\n"
         f"citations: {join(profile.get('citations') or [])}\n"

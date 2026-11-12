@@ -52,7 +52,6 @@ def build_records(pairs, tok, max_len=512):
             a, b,
             truncation=True,
             max_length=max_len,
-            padding="max_length",
             return_tensors=None,
         )
         recs.append({
@@ -66,7 +65,8 @@ def build_records(pairs, tok, max_len=512):
 # --------------------------------------------------------------------------
 # Model (torch imported lazily)
 # --------------------------------------------------------------------------
-def build_model(config_or_model_path, pretrained=True, dropout=0.1):
+def build_model(config_or_model_path, pretrained=True, dropout=0.1,
+                trust_remote_code=False):
     """DeBERTa encoder + a single binary classification head on [CLS]."""
     import torch.nn as nn
     from transformers import AutoConfig, AutoModel
@@ -76,11 +76,11 @@ def build_model(config_or_model_path, pretrained=True, dropout=0.1):
             super().__init__()
             if pretrained:
                 self.encoder = AutoModel.from_pretrained(
-                    config_or_model_path, trust_remote_code=False)
+                    config_or_model_path, trust_remote_code=trust_remote_code)
             else:
                 cfg = AutoConfig.from_pretrained(
-                    config_or_model_path, trust_remote_code=False)
-                self.encoder = AutoModel.from_config(cfg, trust_remote_code=False)
+                    config_or_model_path, trust_remote_code=trust_remote_code)
+                self.encoder = AutoModel.from_config(cfg, trust_remote_code=trust_remote_code)
             # transformers>=5 loads the checkpoint dtype -> keep fp32 masters.
             self.encoder.float()
             h = self.encoder.config.hidden_size
@@ -131,7 +131,7 @@ def predict_scores(model, tok, pairs, device, max_len=512, batch_size=16):
         enc = tok(
             text_a, text_b,
             truncation=True, max_length=max_len,
-            padding="max_length", return_tensors="pt",
+            padding=True, return_tensors="pt",
         )
         ids = enc["input_ids"].to(device)
         att = enc["attention_mask"].to(device)

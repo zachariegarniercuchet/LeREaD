@@ -92,7 +92,6 @@ def _profile_text(profile: ReferenceProfile) -> str:
     fragments = join(profile.fragments_mentioned.keys())
     authors = join(profile.authors.keys())
     return (
-        f"docid: {profile.docid}\n"
         f"type: {profile.doc_type}\n"
         f"titles: {titles}\n"
         f"citations: {citations}\n"
@@ -131,13 +130,18 @@ def _examples_from_html(html: str, source_file: str, registry: ReferenceProfileR
         mention_type = mention.name  # decision / legislation / secondary sources
 
         # Left context immediately preceding the mention (same window as the
-        # existing coref LLM pipeline: get_mention_upper_context).
+        # existing coref LLM pipeline: get_mention_upper_context). Strip noisy
+        # attributes (docid, uri, style, ...) from context tags so the model
+        # cannot read the cluster id from earlier mentions — training and
+        # inference must match exactly.
         start_idx = _find_mention_token_start(doc_tokens, mention)
         if start_idx is None:
             context = ""
         else:
             context_start = max(0, start_idx - CONTEXT_MAX_TOKENS)
-            context = decode(doc_tokens[context_start:start_idx])
+            context = decode(
+                prepare_label_tokens(doc_tokens[context_start:start_idx],
+                                     _MENTION_INPUT_CFG))
 
         # Mention markup with noisy attributes stripped (keeps labelname only).
         mention_markup = decode(
@@ -158,7 +162,8 @@ def _examples_from_html(html: str, source_file: str, registry: ReferenceProfileR
 
         # Hard negatives: every other profile of the same mention type.
         neg_profiles = [p for p in candidates if p.docid != mention_docid]
-        if max_hard_negatives is not None and max_hard_negatives >= 0:
+        # max_hard_negatives=0 (or negative) -> keep ALL negatives; >0 -> sample.
+        if max_hard_negatives is not None and max_hard_negatives > 0:
             if len(neg_profiles) > max_hard_negatives:
                 neg_profiles = rng.sample(neg_profiles, max_hard_negatives)
 
