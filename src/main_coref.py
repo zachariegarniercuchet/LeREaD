@@ -399,12 +399,52 @@ def build_arg_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def _load_encoder_run_metadata(encoder_path: Optional[Path]) -> Dict[str, Any]:
+    """Load saved training metadata from a coref encoder run folder, if available."""
+    if encoder_path is None:
+        return {}
+    cfg_path = Path(encoder_path) / "run_config.json"
+    if not cfg_path.exists():
+        return {}
+    try:
+        with open(cfg_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"  ⚠️  Could not read encoder run metadata from {cfg_path}: {e}")
+        return {}
+
+
 def main():
     parser = build_arg_parser()
     args = parser.parse_args()
 
     if args.input_source == "extraction" and args.extraction_dir is None:
         parser.error("--extraction-dir is required when --input-source=extraction")
+
+    encoder_meta = _load_encoder_run_metadata(args.encoder_path)
+    encoder_train_split = None
+    encoder_seed = None
+    encoder_epochs = None
+    encoder_best_epoch = None
+    if args.encoder_path is not None:
+        train_on = encoder_meta.get("train_on")
+        if train_on is not None:
+            encoder_train_split = str(train_on)
+        if "seed" in encoder_meta:
+            try:
+                encoder_seed = int(encoder_meta["seed"])
+            except (TypeError, ValueError):
+                encoder_seed = None
+        if "epochs" in encoder_meta:
+            try:
+                encoder_epochs = int(encoder_meta["epochs"])
+            except (TypeError, ValueError):
+                encoder_epochs = None
+        if "best_epoch" in encoder_meta:
+            try:
+                encoder_best_epoch = int(encoder_meta["best_epoch"])
+            except (TypeError, ValueError):
+                encoder_best_epoch = None
 
     run = CorefRunConfig(
         mode="single" if args.filename else "split",
@@ -426,6 +466,11 @@ def main():
         profile_attributes=[a.strip() for a in args.profile_attributes.split(",") if a.strip()],
         output_dir=args.output_dir,
         with_timestamp=args.with_timestamp,
+        encoder_path=args.encoder_path,
+        encoder_train_split=encoder_train_split,
+        encoder_seed=encoder_seed,
+        encoder_epochs=encoder_epochs,
+        encoder_best_epoch=encoder_best_epoch,
     )
 
     output_root = run.output_root()

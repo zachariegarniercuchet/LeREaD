@@ -36,6 +36,12 @@ class CorefRunConfig:
     output_dir: Path
     with_timestamp: bool
 
+    encoder_path: Optional[Path] = None
+    encoder_train_split: Optional[str] = None
+    encoder_seed: Optional[int] = None
+    encoder_epochs: Optional[int] = None
+    encoder_best_epoch: Optional[int] = None
+
     def resolve_input_path(self, filename: str) -> Path:
         if self.input_source == "gold":
             split = self.split if self.mode == "split" else self.single_split
@@ -63,7 +69,19 @@ class CorefRunConfig:
         return sorted(p.name for p in self.extraction_dir.iterdir() if p.is_dir())
 
     def run_tag(self) -> str:
-        tag = f"{self.split or self.single_split}_{self.model}_coref_fs{self.fewshot_examples}_{self.fewshot_method}"
+        eval_split = self.split or self.single_split
+        if self.encoder_path is not None:
+            tag = f"{eval_split}_{self.model}_coref_encoder"
+            if self.encoder_train_split:
+                tag += f"_trained-{self.encoder_train_split}"
+            if self.encoder_seed is not None:
+                tag += f"_seed{self.encoder_seed}"
+            if self.encoder_epochs is not None:
+                tag += f"_ep{self.encoder_epochs}"
+            if self.encoder_best_epoch is not None:
+                tag += f"_best{self.encoder_best_epoch}"
+        else:
+            tag = f"{eval_split}_{self.model}_coref_fs{self.fewshot_examples}_{self.fewshot_method}"
         if self.input_source == "extraction":
             tag += f"_from-{self.extraction_dir.name}-{self.extraction_stage}"
         else:
