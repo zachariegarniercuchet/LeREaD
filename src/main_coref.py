@@ -48,6 +48,7 @@ from src.models import get_messages, AssistantFactory
 from src.fewshot.coref_helper import example_to_string, format_profile_for_prompt
 from src.rpr import ReferenceProfileRegistry
 from src.coref_run_config import CorefRunConfig
+from src.training.infer_coref_encoder import CorefEncoderAssistant
 
 DEFAULT_PROFILE_ATTRIBUTES = [
     "docid",
@@ -379,6 +380,13 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--max-fragments", type=int, default=10)
     parser.add_argument("--profile-attributes", type=str, default=",".join(DEFAULT_PROFILE_ATTRIBUTES),
                          help="Comma-separated profile attributes to show in the prompt.")
+    parser.add_argument("--encoder-path", type=Path, default=None,
+                         help="Saved encoder run folder (from main_training_coref_encoder). "
+                              "Bypasses the LLM factory and uses the trained DeBERTa "
+                              "cross-encoder for coreference.")
+    parser.add_argument("--threshold", type=float, default=None,
+                         help="Match threshold for the encoder (overrides the value "
+                              "saved with the trained model).")
 
     parser.add_argument("--output-dir", type=Path, default=Path("./output_coref"))
     parser.add_argument("--with-timestamp", action="store_true")
@@ -441,7 +449,12 @@ def main():
 
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
-    if run.model == "gpt-5.2":
+    if args.encoder_path:
+        assistant = CorefEncoderAssistant(
+            str(args.encoder_path),
+            threshold=args.threshold if args.threshold is not None else 0.5,
+        )
+    elif run.model == "gpt-5.2":
         assistant = AssistantFactory.create_from_config({
             "type": "openai",
             "model_name": run.model,
