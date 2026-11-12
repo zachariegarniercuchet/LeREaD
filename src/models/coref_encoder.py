@@ -140,7 +140,9 @@ def predict_scores(model, tok, pairs, device, max_len=512, batch_size=16):
             enabled=(device.type == "cuda"),
         ):
             logits = model(ids, att)["logits"]
-        probs = torch.sigmoid(logits).cpu().numpy().tolist()
+        # CUDA autocast returns bfloat16 logits; NumPy does not support
+        # converting that dtype directly.
+        probs = torch.sigmoid(logits.float()).cpu().numpy().tolist()
         scores.extend(probs)
     return scores
 
@@ -184,6 +186,7 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
     import torch
     from torch.utils.data import DataLoader
     from transformers import AutoTokenizer, get_linear_schedule_with_warmup
+    from tqdm import tqdm
 
     from src.training.lora import resolve_model_path
 
@@ -223,13 +226,24 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
                         collate_fn=lambda b: _collate(b, tok.pad_token_id))
     total = math.ceil(len(loader) / grad_accum) * epochs
     sched = get_linear_schedule_with_warmup(opt, round(warmup_ratio * total), total)
+    print(
+        f"[coref-encoder] device={device} epochs={epochs} "
+        f"batches/epoch={len(loader)} optimizer_steps={total} "
+        f"batch_size={batch_size} grad_accum={grad_accum}"
+    )
 
     best, history = -1.0, []
     best_threshold = 0.5
     for ep in range(1, epochs + 1):
         model.train()
         run_loss = 0.0
-        for step, batch in enumerate(loader):
+        progress = tqdm(
+            enumerate(loader),
+            total=len(loader),
+            desc=f"[coref-encoder] epoch {ep}/{epochs}",
+            unit="batch",
+        )
+        for step, batch in progress:
             batch = {k: v.to(device) for k, v in batch.items()}
             with torch.autocast(device_type="cuda", dtype=torch.bfloat16,
                                 enabled=(device.type == "cuda")):
@@ -243,16 +257,22 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
             if (step + 1) % grad_accum == 0 or step + 1 == len(loader):
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
                 opt.step(); sched.step(); opt.zero_grad()
-        msg = f"[coref-encoder] epoch {ep}/{epochs} loss={run_loss / len(loader):.4f}"
+            progress.set_postfix(loss=f"{run_loss / (step + 1):.4f}")
+        progress.close()
+        train_loss = run_loss / len(loader)
+        print(f"[coref-encoder] epoch {ep}/{epochs} training complete "
+              f"loss={train_loss:.4f}")
+        msg = f"[coref-encoder] epoch {ep}/{epochs} loss={train_loss:.4f}"
         score = None
         if dev_examples:
+            print(f"[coref-encoder] evaluating {len(dev_examples)} dev pairs...")
             best_t, _ = evaluate_pairs(model, tok, dev_examples, device, max_len)
             score = best_t["f1"]
             best_threshold = best_t["threshold"]
             msg += (f" | dev F1={score:.3f} @ threshold={best_threshold:.2f} "
                     f"(P={best_t['precision']:.3f} R={best_t['recall']:.3f})")
         print(msg)
-        history.append({"epoch": ep, "loss": run_loss / len(loader),
+        history.append({"epoch": ep, "loss": train_loss,
                         "dev_f1": score, "threshold": best_threshold})
         if score is None or score > best:
             best = score if score is not None else best
