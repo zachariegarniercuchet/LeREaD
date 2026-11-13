@@ -134,8 +134,11 @@ def _candidate_groups(examples):
     for ex in examples:
         key = (ex.get("source_file"), ex.get("mention_id"))
         groups.setdefault(key, []).append(ex)
-    return [group for group in groups.values()
-            if any(float(ex.get("label", 0.0)) >= 0.5 for ex in group)]
+    return [
+        group for group in groups.values()
+        if len(group) > 1
+        and any(float(ex.get("label", 0.0)) >= 0.5 for ex in group)
+    ]
 
 
 def _group_loss(model, tokenizer, group, device, max_len, candidate_batch_size=8):
@@ -288,7 +291,7 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
     print(
         f"[coref-encoder] device={device} epochs={epochs} "
         f"batches/epoch={len(loader)} optimizer_steps={total} "
-        f"batch_size={batch_size} grad_accum={grad_accum}"
+        f"candidate_batch_size={candidate_batch_size} grad_accum={grad_accum}"
     )
 
     best, history = -1.0, []
