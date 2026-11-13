@@ -36,6 +36,8 @@ def main():
     p.add_argument("--head-lr", type=float, default=1e-3)
     p.add_argument("--epochs", type=int, default=5)
     p.add_argument("--batch-size", type=int, default=8)
+    p.add_argument("--candidate-batch-size", type=int, default=8,
+                   help="Maximum candidate pairs scored at once for each mention.")
     p.add_argument("--grad-accum", type=int, default=2)
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--max-hard-negatives", type=int, default=0,
@@ -88,6 +90,7 @@ def main():
         output_root=a.output_dir or default_output_root(), model_path=a.model_path,
         max_len=a.max_len, lr=a.lr, head_lr=a.head_lr,
         epochs=a.epochs, batch_size=a.batch_size, grad_accum=a.grad_accum,
+        candidate_batch_size=a.candidate_batch_size,
         warmup_ratio=a.warmup_ratio, weight_decay=a.weight_decay,
         seed=a.seed, max_hard_negatives=a.max_hard_negatives,
         dev_split=None if a.no_dev else a.dev_split,

@@ -128,30 +128,37 @@ def _candidate_groups(examples):
             if any(float(ex.get("label", 0.0)) >= 0.5 for ex in group)]
 
 
-def _group_loss(model, tokenizer, group, device, max_len):
+def _group_loss(model, tokenizer, group, device, max_len, candidate_batch_size=8):
     import torch
 
-    input_a = [ex.get("input_a", "") or "" for ex in group]
-    input_b = [ex.get("input_b", "") or "" for ex in group]
-    enc = tokenizer(
-        input_a, input_b, truncation=True, max_length=max_len,
-        padding=True, return_tensors="pt",
-    )
-    ids = enc["input_ids"].to(device)
-    att = enc["attention_mask"].to(device)
-    labels = [i for i, ex in enumerate(group)
-              if float(ex.get("label", 0.0)) >= 0.5]
-    if len(labels) != 1:
+    positive = [ex for ex in group if float(ex.get("label", 0.0)) >= 0.5]
+    if len(positive) != 1:
         raise ValueError(
             "Each listwise coreference group must contain exactly one positive "
-            f"candidate; got {len(labels)} for {group[0].get('mention_id')!r}."
+            f"candidate; got {len(positive)} for {group[0].get('mention_id')!r}."
         )
-    with torch.autocast(device_type="cuda", dtype=torch.bfloat16,
-                        enabled=(device.type == "cuda")):
-        logits = model(ids, att)["logits"]
-        return torch.nn.functional.cross_entropy(
-            logits.unsqueeze(0), torch.tensor(labels, device=device)
+    negatives = [ex for ex in group if ex is not positive[0]]
+    chunks = [
+        [positive[0]] + negatives[i:i + candidate_batch_size - 1]
+        for i in range(0, len(negatives), max(1, candidate_batch_size - 1))
+    ]
+    losses = []
+    for chunk in chunks:
+        input_a = [ex.get("input_a", "") or "" for ex in chunk]
+        input_b = [ex.get("input_b", "") or "" for ex in chunk]
+        enc = tokenizer(
+            input_a, input_b, truncation=True, max_length=max_len,
+            padding=True, return_tensors="pt",
         )
+        ids = enc["input_ids"].to(device)
+        att = enc["attention_mask"].to(device)
+        with torch.autocast(device_type="cuda", dtype=torch.bfloat16,
+                            enabled=(device.type == "cuda")):
+            logits = model(ids, att)["logits"]
+            losses.append(torch.nn.functional.cross_entropy(
+                logits.unsqueeze(0), torch.zeros(1, dtype=torch.long, device=device)
+            ))
+    return torch.stack(losses).mean()
 
 
 def predict_scores(model, tok, pairs, device, max_len=512, batch_size=16):
@@ -218,7 +225,8 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
                         output_root=None, model_path=None, max_len=512,
                         lr=2e-5, head_lr=1e-3, epochs=5, batch_size=8,
                         grad_accum=2, warmup_ratio=0.1, weight_decay=0.01,
-                        seed=42, max_hard_negatives=0, dev_split="dev"):
+                        seed=42, max_hard_negatives=0, dev_split="dev",
+                        candidate_batch_size=8):
     import torch
     from torch.utils.data import DataLoader
     from transformers import AutoTokenizer, get_linear_schedule_with_warmup
@@ -256,7 +264,9 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
          {"params": head, "lr": head_lr}], weight_decay=weight_decay)
 
     g = torch.Generator().manual_seed(seed)
-    loader = DataLoader(groups, batch_size=batch_size, shuffle=True, generator=g,
+    # A loader item is one mention's candidate list. Candidate lists can be
+    # much larger than batch_size, so they are chunked separately below.
+    loader = DataLoader(groups, batch_size=1, shuffle=True, generator=g,
                         collate_fn=lambda b: b)
     total = math.ceil(len(loader) / grad_accum) * epochs
     sched = get_linear_schedule_with_warmup(opt, round(warmup_ratio * total), total)
@@ -278,11 +288,10 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
             unit="batch",
         )
         for step, batch in progress:
-            group_losses = [
-                _group_loss(model, tok, group, device, max_len)
-                for group in batch
-            ]
-            loss = torch.stack(group_losses).mean() / grad_accum
+            group = batch[0]
+            loss = _group_loss(
+                model, tok, group, device, max_len, candidate_batch_size
+            ) / grad_accum
             if not torch.isfinite(loss):
                 raise RuntimeError(
                     f"Non-finite loss at epoch {ep}, step {step} "
