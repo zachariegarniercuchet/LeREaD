@@ -497,7 +497,7 @@ def main():
     if args.encoder_path:
         assistant = CorefEncoderAssistant(
             str(args.encoder_path),
-            threshold=args.threshold if args.threshold is not None else 0.5,
+            threshold=args.threshold,
         )
     elif run.model == "gpt-5.2":
         assistant = AssistantFactory.create_from_config({

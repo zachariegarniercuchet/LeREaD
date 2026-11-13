@@ -32,7 +32,7 @@ _REGISTRY_SPLIT = "\nReference Profile Registry:"
 
 
 class CorefEncoderAssistant(BaseAssistant):
-    def __init__(self, adapter_path: str, threshold: float = 0.5,
+    def __init__(self, adapter_path: str, threshold: Optional[float] = None,
                  has_system_role: bool = True, user_prefix: str = "Annotate this mention:",
                  max_len: int = 512, batch_size: int = 16):
         if not adapter_path:
@@ -52,8 +52,9 @@ class CorefEncoderAssistant(BaseAssistant):
         self._load_coref_encoder = load_coref_encoder
         self._predict_scores = predict_scores
         self.model, self.tokenizer, self.cfg = load_coref_encoder(adapter_path)
-        # Threshold saved at training time (best on dev) wins unless overridden.
-        self.threshold = float(self.cfg.get("best_threshold", threshold))
+        # Use the training-time threshold unless the caller explicitly overrides it.
+        saved_threshold = self.cfg.get("best_threshold", 0.5)
+        self.threshold = float(saved_threshold if threshold is None else threshold)
         self.device = next(self.model.parameters()).device
         print(f"[coref-encoder] loaded {adapter_path} | threshold={self.threshold}")
 
