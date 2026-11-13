@@ -66,7 +66,7 @@ def build_records(pairs, tok, max_len=512):
 # Model (torch imported lazily)
 # --------------------------------------------------------------------------
 def build_model(config_or_model_path, pretrained=True, dropout=0.1,
-                trust_remote_code=False):
+                trust_remote_code=False, gradient_checkpointing=True):
     """DeBERTa encoder + a single binary classification head on [CLS]."""
     import torch.nn as nn
     from transformers import AutoConfig, AutoModel
@@ -81,8 +81,18 @@ def build_model(config_or_model_path, pretrained=True, dropout=0.1,
                 cfg = AutoConfig.from_pretrained(
                     config_or_model_path, trust_remote_code=trust_remote_code)
                 self.encoder = AutoModel.from_config(cfg, trust_remote_code=trust_remote_code)
-            # transformers>=5 loads the checkpoint dtype -> keep fp32 masters.
+            # Keep fp32 parameters/optimizer masters; autocast reduces activation
+            # memory without making AdamW unstable.
             self.encoder.float()
+            if gradient_checkpointing:
+                enable_kwargs = {"use_reentrant": False}
+                try:
+                    self.encoder.gradient_checkpointing_enable(
+                        gradient_checkpointing_kwargs=enable_kwargs
+                    )
+                except TypeError:
+                    self.encoder.gradient_checkpointing_enable()
+                self.encoder.config.use_cache = False
             h = self.encoder.config.hidden_size
             self.drop = nn.Dropout(dropout)
             self.classifier = nn.Linear(h, 1)
@@ -226,7 +236,7 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
                         lr=2e-5, head_lr=1e-3, epochs=5, batch_size=8,
                         grad_accum=2, warmup_ratio=0.1, weight_decay=0.01,
                         seed=42, max_hard_negatives=0, dev_split="dev",
-                        candidate_batch_size=8):
+                        candidate_batch_size=8, gradient_checkpointing=True):
     import torch
     from torch.utils.data import DataLoader
     from transformers import AutoTokenizer, get_linear_schedule_with_warmup
@@ -257,7 +267,12 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
     out_dir = Path(output_root or default_output_root()) / run_name
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    model = build_model(model_path, pretrained=True, trust_remote_code=trust).to(device)
+    model = build_model(
+        model_path,
+        pretrained=True,
+        trust_remote_code=trust,
+        gradient_checkpointing=gradient_checkpointing,
+    ).to(device)
     head = list(model.classifier.parameters())
     opt = torch.optim.AdamW(
         [{"params": model.encoder.parameters(), "lr": lr},
@@ -357,6 +372,7 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
                     "seed": seed,
                     "dev_split": dev_split,
                     "objective": "listwise_candidate_cross_entropy",
+                    "gradient_checkpointing": gradient_checkpointing,
                     "history": history,
                 }, f, indent=2)
     print(f"[coref-encoder] saved -> {out_dir}")
@@ -443,6 +459,6 @@ def load_coref_encoder(path, device=None):
     device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
     cfg = json.loads((Path(path) / "run_config.json").read_text())
     tok = AutoTokenizer.from_pretrained(path, use_fast=True)
-    model = build_model(str(path), pretrained=False)
+    model = build_model(str(path), pretrained=False, gradient_checkpointing=False)
     model.load_state_dict(torch.load(Path(path) / "model.pt", map_location="cpu"))
     return model.to(device).eval(), tok, cfg

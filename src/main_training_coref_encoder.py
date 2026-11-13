@@ -32,6 +32,8 @@ def main():
     p.add_argument("--output-dir", default=None,
                    help="Output root (default: <MODELS_DIR>/output_training).")
     p.add_argument("--max-len", type=int, default=512)
+    p.add_argument("--no-gradient-checkpointing", action="store_true",
+                   help="Disable activation checkpointing (uses substantially more GPU memory).")
     p.add_argument("--lr", type=float, default=2e-5)
     p.add_argument("--head-lr", type=float, default=1e-3)
     p.add_argument("--epochs", type=int, default=5)
@@ -94,6 +96,7 @@ def main():
         warmup_ratio=a.warmup_ratio, weight_decay=a.weight_decay,
         seed=a.seed, max_hard_negatives=a.max_hard_negatives,
         dev_split=None if a.no_dev else a.dev_split,
+        gradient_checkpointing=not a.no_gradient_checkpointing,
     )
     print(f"[coref-training] done -> {out_dir}")
     return out_dir
