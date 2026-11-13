@@ -52,6 +52,7 @@ class CorefEncoderAssistant(BaseAssistant):
         self._load_coref_encoder = load_coref_encoder
         self._predict_scores = predict_scores
         self.model, self.tokenizer, self.cfg = load_coref_encoder(adapter_path)
+        self.max_len = int(self.cfg.get("max_len", max_len))
         # Use the training-time threshold unless the caller explicitly overrides it.
         saved_threshold = self.cfg.get("best_threshold", 0.5)
         self.threshold = float(saved_threshold if threshold is None else threshold)
@@ -124,41 +125,77 @@ class CorefEncoderAssistant(BaseAssistant):
     # ------------------------------------------------------------------ #
     def generate(self, messages: List[dict], max_new_tokens: int | None = None) -> str:
         user = [m for m in messages if m["role"] == "user"][-1]["content"]
-        mention_html, context, profiles = self._parse_user_input(user)
-
-        if not profiles:
-            # No existing profiles -> always open a new cluster.
-            return f'docid="{self._new_cluster_docid(mention_html)}"'
-
-        # Restrict candidates to the same mention type (matches training,
-        # where negatives are same-type profiles only).
-        profiles = _filter_profiles_by_type(mention_html, profiles)
-        if not profiles:
-            return f'docid="{self._new_cluster_docid(mention_html)}"'
-
-        # Build one (mention+context, profile) pair per candidate profile.
-        input_a = f"Mention: {mention_html}\nContext: {context}"
-        pairs = [
-            {"input_a": input_a, "input_b": _profile_text(p)}
-            for p in profiles
-        ]
-
-        from src.models.coref_encoder import predict_scores
-        scores = predict_scores(
-            self.model, self.tokenizer, pairs, self.device,
+        return generate_docid(
+            self.model, self.tokenizer, self.device, user, self.threshold,
             self.max_len, self.batch_size,
         )
 
-        best_idx = int(max(range(len(scores)), key=lambda i: scores[i]))
-        best_score = scores[best_idx]
-        best_profile = profiles[best_idx]
-        best_docid = best_profile.get("docid")
 
-        if best_score >= self.threshold and best_docid:
-            return f'docid="{best_docid}"'
+class CorefEncoderRuntime:
+    """In-memory encoder assistant used to validate an epoch before saving it."""
 
-        # Below threshold -> open a new cluster from the mention itself.
-        return f'docid="{self._new_cluster_docid(mention_html)}"'
+    has_system_role = True
+
+    def __init__(self, model, tokenizer, device, threshold: float,
+                 max_len: int = 512, batch_size: int = 16):
+        self.model = model
+        self.tokenizer = tokenizer
+        self.device = device
+        self.threshold = threshold
+        self.max_len = max_len
+        self.batch_size = batch_size
+
+    def generate(self, messages: List[dict], max_new_tokens: int | None = None) -> str:
+        user = [m for m in messages if m["role"] == "user"][-1]["content"]
+        return generate_docid(
+            self.model, self.tokenizer, self.device, user, self.threshold,
+            self.max_len, self.batch_size,
+        )
+
+
+def generate_docid(model, tokenizer, device, user: str, threshold: float,
+                   max_len: int = 512, batch_size: int = 16) -> str:
+    """Resolve one serialized coref prompt using the supplied model."""
+    mention_html, context, profiles = CorefEncoderAssistant._parse_user_input(user)
+
+    if not profiles:
+        return f'docid="{_new_cluster_docid(mention_html)}"'
+
+    profiles = _filter_profiles_by_type(mention_html, profiles)
+    if not profiles:
+        return f'docid="{_new_cluster_docid(mention_html)}"'
+
+    input_a = f"Mention: {mention_html}\nContext: {context}"
+    pairs = [{"input_a": input_a, "input_b": _profile_text(p)} for p in profiles]
+
+    from src.models.coref_encoder import predict_scores
+    scores = predict_scores(
+        model, tokenizer, pairs, device, max_len, batch_size,
+    )
+
+    best_idx = int(max(range(len(scores)), key=lambda i: scores[i]))
+    best_score = scores[best_idx]
+    best_docid = profiles[best_idx].get("docid")
+
+    if best_score >= threshold and best_docid:
+        return f'docid="{best_docid}"'
+
+    return f'docid="{_new_cluster_docid(mention_html)}"'
+
+
+def _new_cluster_docid(mention_html: str) -> str:
+    try:
+        mention = ReferenceMention(mention_html)
+        titles = mention.get_sublabel_texts().get("title", [])
+        for title in titles:
+            if title and title.strip():
+                return title.strip()
+        text = (mention.text or "").strip()
+        if text:
+            return text
+    except Exception:
+        pass
+    return "new_cluster"
 
 
 def _norm_type(t: str | None) -> str:

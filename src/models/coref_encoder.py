@@ -118,6 +118,42 @@ def _collate(batch, pad_id):
     }
 
 
+def _candidate_groups(examples):
+    """Group serialized candidates by one mention for listwise training."""
+    groups = {}
+    for ex in examples:
+        key = (ex.get("source_file"), ex.get("mention_id"))
+        groups.setdefault(key, []).append(ex)
+    return [group for group in groups.values()
+            if any(float(ex.get("label", 0.0)) >= 0.5 for ex in group)]
+
+
+def _group_loss(model, tokenizer, group, device, max_len):
+    import torch
+
+    input_a = [ex.get("input_a", "") or "" for ex in group]
+    input_b = [ex.get("input_b", "") or "" for ex in group]
+    enc = tokenizer(
+        input_a, input_b, truncation=True, max_length=max_len,
+        padding=True, return_tensors="pt",
+    )
+    ids = enc["input_ids"].to(device)
+    att = enc["attention_mask"].to(device)
+    labels = [i for i, ex in enumerate(group)
+              if float(ex.get("label", 0.0)) >= 0.5]
+    if len(labels) != 1:
+        raise ValueError(
+            "Each listwise coreference group must contain exactly one positive "
+            f"candidate; got {len(labels)} for {group[0].get('mention_id')!r}."
+        )
+    with torch.autocast(device_type="cuda", dtype=torch.bfloat16,
+                        enabled=(device.type == "cuda")):
+        logits = model(ids, att)["logits"]
+        return torch.nn.functional.cross_entropy(
+            logits.unsqueeze(0), torch.tensor(labels, device=device)
+        )
+
+
 def predict_scores(model, tok, pairs, device, max_len=512, batch_size=16):
     """Score each (input_a, input_b) pair -> list of match probabilities in [0,1]."""
     import torch
@@ -182,7 +218,7 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
                         output_root=None, model_path=None, max_len=512,
                         lr=2e-5, head_lr=1e-3, epochs=5, batch_size=8,
                         grad_accum=2, warmup_ratio=0.1, weight_decay=0.01,
-                        seed=42, max_hard_negatives=5):
+                        seed=42, max_hard_negatives=0, dev_split="dev"):
     import torch
     from torch.utils.data import DataLoader
     from transformers import AutoTokenizer, get_linear_schedule_with_warmup
@@ -202,12 +238,10 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
     assert tok.is_fast, "A fast tokenizer is required."
 
     recs, n_empty = build_records(train_examples, tok, max_len)
+    groups = _candidate_groups(train_examples)
     print(f"[coref-encoder] {len(train_examples)} pairs -> {len(recs)} records "
           f"({n_empty} empty pairs skipped)")
-
-    n_pos = sum(1 for r in recs if r["label"] >= 0.5)
-    n_neg = len(recs) - n_pos
-    print(f"[coref-encoder] positives={n_pos} negatives={n_neg}")
+    print(f"[coref-encoder] listwise groups={len(groups)}")
 
     run_name = (f"{model_short}_coref_{train_on}_lr{lr:g}_hlr{head_lr:g}"
                 f"_ep{epochs}_hn{max_hard_negatives}"
@@ -222,8 +256,8 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
          {"params": head, "lr": head_lr}], weight_decay=weight_decay)
 
     g = torch.Generator().manual_seed(seed)
-    loader = DataLoader(recs, batch_size=batch_size, shuffle=True, generator=g,
-                        collate_fn=lambda b: _collate(b, tok.pad_token_id))
+    loader = DataLoader(groups, batch_size=batch_size, shuffle=True, generator=g,
+                        collate_fn=lambda b: b)
     total = math.ceil(len(loader) / grad_accum) * epochs
     sched = get_linear_schedule_with_warmup(opt, round(warmup_ratio * total), total)
     print(
@@ -244,10 +278,11 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
             unit="batch",
         )
         for step, batch in progress:
-            batch = {k: v.to(device) for k, v in batch.items()}
-            with torch.autocast(device_type="cuda", dtype=torch.bfloat16,
-                                enabled=(device.type == "cuda")):
-                loss = model(**batch)["loss"] / grad_accum
+            group_losses = [
+                _group_loss(model, tok, group, device, max_len)
+                for group in batch
+            ]
+            loss = torch.stack(group_losses).mean() / grad_accum
             if not torch.isfinite(loss):
                 raise RuntimeError(
                     f"Non-finite loss at epoch {ep}, step {step} "
@@ -272,10 +307,27 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
             msg += (f" | dev F1={score:.3f} @ threshold={best_threshold:.2f} "
                     f"(P={best_t['precision']:.3f} R={best_t['recall']:.3f})")
         print(msg)
-        history.append({"epoch": ep, "loss": train_loss,
-                        "dev_f1": score, "threshold": best_threshold})
-        if score is None or score > best:
-            best = score if score is not None else best
+        sequential = None
+        if dev_split:
+            sequential = evaluate_sequential_split(
+                model, tok, device, dev_split,
+                max_len=max_len, batch_size=batch_size,
+                thresholds=np.linspace(0.05, 0.95, 19),
+            )
+            best_threshold = sequential["threshold"]
+            print(
+                f"[coref-encoder] sequential {dev_split}: "
+                f"CoNLL={sequential['conll_f1']:.3f} "
+                f"LEA={sequential['lea_f1']:.3f} "
+                f"threshold={best_threshold:.2f}"
+            )
+        selection = sequential["conll_f1"] if sequential else score
+        history.append({
+            "epoch": ep, "loss": train_loss, "dev_pair_f1": score,
+            "dev_sequential": sequential, "threshold": best_threshold,
+        })
+        if selection is None or selection > best:
+            best = selection if selection is not None else best
             torch.save(model.state_dict(), out_dir / "model.pt")
             model.encoder.config.save_pretrained(out_dir)
             tok.save_pretrained(out_dir)
@@ -286,11 +338,84 @@ def train_coref_encoder(model_short, train_on, train_examples, dev_examples=None
                     "lr": lr, "head_lr": head_lr, "epochs": epochs,
                     "max_hard_negatives": max_hard_negatives,
                     "best_epoch": ep, "best_dev_f1": score,
+                    "best_sequential_conll_f1": (
+                        sequential["conll_f1"] if sequential else None
+                    ),
+                    "best_sequential_lea_f1": (
+                        sequential["lea_f1"] if sequential else None
+                    ),
                     "best_threshold": best_threshold,
+                    "seed": seed,
+                    "dev_split": dev_split,
+                    "objective": "listwise_candidate_cross_entropy",
                     "history": history,
                 }, f, indent=2)
     print(f"[coref-encoder] saved -> {out_dir}")
     return out_dir
+
+
+def evaluate_sequential_split(model, tok, device, split, max_len=512,
+                              batch_size=16, thresholds=None):
+    """Evaluate the exact document-order resolver and tune its threshold."""
+    from src.ann_extractor import extract_parent_level_annotations
+    from src.evaluation.evaluation_coref import (
+        aggregate_raw, evaluate_coref_raw, finalize_raw,
+    )
+    from src.training.infer_coref_encoder import CorefEncoderRuntime
+    from src.main_coref import process_document_coref
+    from configs.config import DATA_DIR
+
+    thresholds = list(thresholds if thresholds is not None
+                      else np.linspace(0.05, 0.95, 19))
+    paths = sorted((Path(DATA_DIR) / "annotated" / split).glob("*.html"))
+    documents = []
+    for path in paths:
+        html = path.read_text(encoding="utf-8")
+        mentions = extract_parent_level_annotations(html)
+        gold_mapping = {
+            m.html_tag.attributes["id"]: m.html_tag.attributes.get("docid")
+            for m in mentions
+        }
+        documents.append((html, gold_mapping))
+
+    best = None
+    for threshold in thresholds:
+        raw_scores = []
+        for html, gold_mapping in documents:
+            mentions = extract_parent_level_annotations(html)
+            runtime = CorefEncoderRuntime(
+                model, tok, device, float(threshold), max_len, batch_size
+            )
+            predicted, _ = process_document_coref(
+                html, mentions, "", [], runtime, 10,
+                ["docid", "alternative_titles", "citations",
+                 "fragments_mentioned", "authors"],
+            )
+            gold_clusters = _mapping_to_clusters(gold_mapping)
+            pred_clusters = _mapping_to_clusters(predicted)
+            raw_scores.append(evaluate_coref_raw(gold_clusters, pred_clusters))
+        scores = finalize_raw(aggregate_raw(raw_scores))
+        candidate = {
+            "threshold": float(threshold),
+            "conll_f1": scores["CoNLL"]["f1"],
+            "lea_f1": scores["LEA"]["f1"],
+            "metrics": scores,
+        }
+        if (best is None or candidate["conll_f1"] > best["conll_f1"]
+                or (candidate["conll_f1"] == best["conll_f1"]
+                    and candidate["lea_f1"] > best["lea_f1"])):
+            best = candidate
+    return best or {
+        "threshold": 0.5, "conll_f1": 0.0, "lea_f1": 0.0,
+        "metrics": finalize_raw(aggregate_raw([])),
+    }
+
+
+def _mapping_to_clusters(mapping):
+    clusters = {}
+    for mention_id, docid in mapping.items():
+        clusters.setdefault(docid, []).append(mention_id)
+    return list(clusters.values())
 
 
 def default_output_root() -> str:

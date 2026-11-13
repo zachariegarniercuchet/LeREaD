@@ -493,19 +493,21 @@ def main():
     print(f"[Setup] Selected documents {start} to {end} out of {total_files}")
 
     # ── Model loaded ONCE here ──────────────────────────────────────────────
-    print(f"[Setup] Loading model {run.model}...")
     if args.encoder_path:
+        print(f"[Setup] Loading trained coreference encoder from {args.encoder_path}...")
         assistant = CorefEncoderAssistant(
             str(args.encoder_path),
             threshold=args.threshold,
         )
     elif run.model == "gpt-5.2":
+        print(f"[Setup] Loading model {run.model}...")
         assistant = AssistantFactory.create_from_config({
             "type": "openai",
             "model_name": run.model,
             "temperature": run.temperature,
         })
     else:
+        print(f"[Setup] Loading model {run.model}...")
         assistant = AssistantFactory.create(MODEL_MAPPING_NAME[run.model])
 
     print(f"[Setup] Mode: {run.mode.upper()} | Source: {run.input_source} | "

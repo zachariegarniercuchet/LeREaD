@@ -38,8 +38,10 @@ def main():
     p.add_argument("--batch-size", type=int, default=8)
     p.add_argument("--grad-accum", type=int, default=2)
     p.add_argument("--seed", type=int, default=42)
-    p.add_argument("--max-hard-negatives", type=int, default=5,
+    p.add_argument("--max-hard-negatives", type=int, default=0,
                    help="Max hard-negative profiles sampled per mention (0 = all).")
+    p.add_argument("--dev-split", default="dev",
+                   help="Annotated split used for sequential checkpoint selection.")
     p.add_argument("--warmup-ratio", type=float, default=0.1)
     p.add_argument("--weight-decay", type=float, default=0.01)
     p.add_argument("--no-dev", action="store_true",
@@ -65,7 +67,7 @@ def main():
     if not a.no_dev:
         # Dev set is built from the annotated dev split for threshold tuning.
         dev_ex = cd.build_coref_examples_for_split(
-            "dev", max_hard_negatives=a.max_hard_negatives, seed=a.seed)
+            a.dev_split, max_hard_negatives=a.max_hard_negatives, seed=a.seed)
         print(f"[coref-training] dev pairs={len(dev_ex)}")
 
     if a.dry_run:
@@ -88,6 +90,7 @@ def main():
         epochs=a.epochs, batch_size=a.batch_size, grad_accum=a.grad_accum,
         warmup_ratio=a.warmup_ratio, weight_decay=a.weight_decay,
         seed=a.seed, max_hard_negatives=a.max_hard_negatives,
+        dev_split=None if a.no_dev else a.dev_split,
     )
     print(f"[coref-training] done -> {out_dir}")
     return out_dir

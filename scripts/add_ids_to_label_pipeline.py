@@ -26,7 +26,11 @@ For each HTML document:
 import argparse
 from pathlib import Path
 
-import chardet
+try:
+    import chardet
+except ImportError:  # optional dependency
+    chardet = None
+
 from bs4 import BeautifulSoup
 
 
@@ -100,49 +104,49 @@ def add_ids_to_labels(html_file):
     """
 
     # ------------------------------------------------------------
-    # Detect encoding
+    # Read HTML (detect encoding when available)
     # ------------------------------------------------------------
 
     with open(html_file, "rb") as f:
         raw_data = f.read()
 
-    detected = chardet.detect(raw_data)
-    detected_encoding = detected.get("encoding")
-    confidence = detected.get("confidence", 0)
+    detected_encoding = None
+    confidence = 0.0
+    if chardet is not None:
+        detected = chardet.detect(raw_data)
+        detected_encoding = detected.get("encoding")
+        confidence = detected.get("confidence", 0) or 0.0
+        if detected_encoding:
+            print(
+                f"  -> Detected encoding: {detected_encoding} "
+                f"(confidence: {confidence:.2%})"
+            )
 
-    if detected_encoding is None:
-        # Fallback if chardet cannot determine the encoding.
-        detected_encoding = "utf-8"
+    encodings = []
+    if detected_encoding:
+        encodings.append(detected_encoding)
+    encodings.extend(["utf-8", "utf-8-sig", "cp1252", "latin-1"])
 
-    print(
-        f"  → Detected encoding: {detected_encoding} "
-        f"(confidence: {confidence:.2%})"
-    )
+    content = None
+    used_encoding = None
+    tried = set()
+    for enc in encodings:
+        if not enc or enc.lower() in tried:
+            continue
+        tried.add(enc.lower())
+        try:
+            content = raw_data.decode(enc)
+            used_encoding = enc
+            break
+        except UnicodeDecodeError:
+            continue
 
-    # ------------------------------------------------------------
-    # Read HTML
-    # ------------------------------------------------------------
+    if content is None:
+        content = raw_data.decode("utf-8", errors="replace")
+        used_encoding = "utf-8 (replace)"
 
-    try:
-        with open(
-            html_file,
-            "r",
-            encoding=detected_encoding,
-        ) as f:
-            content = f.read()
-
-    except UnicodeDecodeError:
-        print(
-            f"  ⚠ Could not decode using {detected_encoding}. "
-            f"Trying UTF-8..."
-        )
-
-        with open(
-            html_file,
-            "r",
-            encoding="utf-8",
-        ) as f:
-            content = f.read()
+    if chardet is None:
+        print(f"  -> Decoded using: {used_encoding}")
 
     # ------------------------------------------------------------
     # Parse HTML
@@ -156,7 +160,7 @@ def add_ids_to_labels(html_file):
 
     if not label_tags:
         print(
-            "  → No <auto_label> or <manual_label> tags found. "
+            "  -> No <auto_label> or <manual_label> tags found. "
             "Leaving file unchanged."
         )
         return None
@@ -170,7 +174,7 @@ def add_ids_to_labels(html_file):
         tag["id"] = str(position)
 
     print(
-        f"  → Assigned IDs 0..{len(label_tags) - 1} "
+        f"  -> Assigned IDs 0..{len(label_tags) - 1} "
         f"to {len(label_tags)} label tag(s)."
     )
 
@@ -196,7 +200,7 @@ def process_file(html_file):
     ) as f:
         f.write(modified_html)
 
-    print(f"  ✓ Updated in place: {html_file}\n")
+    print(f"  [ok] Updated in place: {html_file}\n")
 
     return True
 
