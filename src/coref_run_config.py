@@ -35,6 +35,7 @@ class CorefRunConfig:
 
     output_dir: Path
     with_timestamp: bool
+    overwrite: bool = False
 
     encoder_path: Optional[Path] = None
     encoder_train_split: Optional[str] = None
@@ -72,6 +73,12 @@ class CorefRunConfig:
         eval_split = self.split or self.single_split
         if self.encoder_path is not None:
             tag = f"{eval_split}_{self.model}_coref_encoder"
+            # Include the trained run folder: two trainings with the same
+            # train split / seed / epochs / best epoch (e.g. different lr,
+            # head-lr or hard negatives) must NOT share an output folder, or
+            # the second run silently reuses the first run's checkpoint.
+            if Path(self.encoder_path).name:
+                tag += f"_{Path(self.encoder_path).name}"
             if self.encoder_train_split:
                 tag += f"_trained-{self.encoder_train_split}"
             if self.encoder_seed is not None:

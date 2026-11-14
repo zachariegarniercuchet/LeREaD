@@ -416,7 +416,7 @@ def evaluate_sequential_split(model, tok, device, split, max_len=512,
             )
             predicted, _ = process_document_coref(
                 html, mentions, "", [], runtime, 10,
-                ["docid", "alternative_titles", "citations",
+                ["docid", "doc_type", "alternative_titles", "citations",
                  "fragments_mentioned", "authors"],
             )
             gold_clusters = _mapping_to_clusters(gold_mapping)

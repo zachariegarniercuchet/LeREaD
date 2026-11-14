@@ -29,6 +29,7 @@ _PROFILE_LINE_RE = re.compile(
 )
 _UPPER_CONTEXT_SPLIT = "\n Upper Context : \n"
 _REGISTRY_SPLIT = "\nReference Profile Registry:"
+_WARNED_NO_DOC_TYPE = False
 
 
 class CorefEncoderAssistant(BaseAssistant):
@@ -208,6 +209,16 @@ def _filter_profiles_by_type(mention_html: str, profiles: List[dict]) -> List[di
 
     Training negatives are same-type profiles only, so inference must match.
     """
+    if not any("doc_type" in p for p in profiles):
+        # Fail loudly instead of silently dropping every candidate: without
+        # doc_type in the registry serialization the encoder would never be
+        # queried and every mention would open a new cluster.
+        global _WARNED_NO_DOC_TYPE
+        if not _WARNED_NO_DOC_TYPE:
+            print("[coref-encoder] WARNING: registry profiles carry no doc_type "
+                  "(profile attributes must include it); disabling type filtering.")
+            _WARNED_NO_DOC_TYPE = True
+        return profiles
     m = re.match(r"\s*<([A-Za-z_]+)\b", mention_html)
     if not m:
         return profiles

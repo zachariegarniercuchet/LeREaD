@@ -160,10 +160,11 @@ def apply_coref_docids(html_content: str, mapping: Dict[str, str], parser: str =
 # Checkpointing
 # =============================================================================
 
-def get_checkpoint(exp_dir: Path, filename: str) -> Optional[Dict[str, str]]:
+def get_checkpoint(exp_dir: Path, filename: str,
+                   overwrite: bool = False) -> Optional[Dict[str, str]]:
     """Return the mention_id -> docid mapping if a checkpoint exists, else None."""
     mapping_path = exp_dir / f"{filename}_coref_mapping.json"
-    if mapping_path.exists():
+    if mapping_path.exists() and not overwrite:
         print(f"  ⏭  Checkpoint found: {mapping_path.name} — skipping")
         with open(mapping_path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -285,7 +286,7 @@ def process_file_coref(filename: str, run: CorefRunConfig, assistant, exp_dir: P
     # =========================================================================
     # Step 5: Resolve coreference (checkpointed)
     # =========================================================================
-    cached = get_checkpoint(exp_dir, filename)
+    cached = get_checkpoint(exp_dir, filename, overwrite=run.overwrite)
     if cached is not None:
         result = cached
         failed_count = 0
@@ -390,6 +391,9 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
     parser.add_argument("--output-dir", type=Path, default=Path("./output_coref"))
     parser.add_argument("--with-timestamp", action="store_true")
+    parser.add_argument("--overwrite", action="store_true",
+                        help="Ignore existing <doc>_coref_mapping.json checkpoints and "
+                             "re-run coreference for every selected document.")
 
     parser.add_argument("--start", type=int, default=None,
                         help="1-based index of the first document to process (inclusive).")
@@ -397,6 +401,21 @@ def build_arg_parser() -> argparse.ArgumentParser:
                         help="1-based index of the last document to process (inclusive).")
 
     return parser
+
+
+def _profile_attributes_for_run(args) -> List[str]:
+    """Attributes serialized for every reference profile in the prompt/registry.
+
+    The cross-encoder path *must* see ``doc_type``: it renders it as the
+    ``type:`` line (matching ``src/training/coref_dataset._profile_text``) and
+    filters candidates to the mention's own label (matching the same-type
+    negatives used at training time). Without it every candidate is filtered
+    out and the model is never queried.
+    """
+    attributes = [a.strip() for a in args.profile_attributes.split(",") if a.strip()]
+    if args.encoder_path and "doc_type" not in attributes:
+        attributes.append("doc_type")
+    return attributes
 
 
 def _load_encoder_run_metadata(encoder_path: Optional[Path]) -> Dict[str, Any]:
@@ -463,9 +482,10 @@ def main():
         temperature=args.temperature,
         prompt_type=args.prompt_type,
         max_fragments=args.max_fragments,
-        profile_attributes=[a.strip() for a in args.profile_attributes.split(",") if a.strip()],
+        profile_attributes=_profile_attributes_for_run(args),
         output_dir=args.output_dir,
         with_timestamp=args.with_timestamp,
+        overwrite=args.overwrite,
         encoder_path=args.encoder_path,
         encoder_train_split=encoder_train_split,
         encoder_seed=encoder_seed,
