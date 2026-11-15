@@ -1,0 +1,22 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref/dev_deberta-v3-large_coref_encoder_deberta-v3-large_coref_train+silver_lr2e-05_hlr0.001_ep5_hn5_trained-train+silver_ep5_best3_gold
+Split: dev
+Match mode: id
+======================================================================
+Found 3 evaluation pair(s)
+
+
+=== Aggregate over 3 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.9009     │ 0.7764     │ 0.8341     │
+│ B3       │ 0.8983     │ 0.6976     │ 0.7853     │
+│ CEAF_e   │ 0.5593     │ 0.7856     │ 0.6534     │
+│ LEA      │ 0.7230     │ 0.5887     │ 0.6490     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.7576
+
