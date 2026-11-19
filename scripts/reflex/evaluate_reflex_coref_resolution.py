@@ -113,6 +113,22 @@ REPORT_DIR = SCRIPT_DIR / "report"
 
 COREF_METRICS = ("MUC", "B3", "CEAF_e", "LEA")
 
+# Per-type evaluation groups: a group pools one or more base labelnames into
+# one cluster set (same semantics as src/evaluation/evaluate_coref_per_type.py).
+TYPE_GROUPS: Dict[str, Tuple[str, ...]] = {
+    "decision": ("decision",),
+    "legislation": ("legislation",),
+    "secondary sources": ("secondary sources",),
+}
+# Types shown in the markdown reports (secondary sources are reported in JSON
+# only: Reflex never links them, so the row would be 0 by construction).
+REPORT_TYPES = ("decision", "legislation")
+TYPE_DISPLAY = {
+    "decision": "Decision",
+    "legislation": "Legislation",
+    "secondary sources": "Secondary",
+}
+
 # ---------------------------------------------------------------------------
 # Mention dataclass (mirrors evaluation_coref.py's Mention for span alignment)
 # ---------------------------------------------------------------------------
@@ -174,8 +190,8 @@ def b_cubed_raw(pred_clusters: List[List[str]],
             if m in gold_m2g:
                 gold_cluster = gold_clusters[gold_m2g[m]]
                 intersection = len(cluster_set & set(gold_cluster))
-                p_num += intersection
-                p_den += len(cluster)
+                p_num += intersection / len(cluster)
+                p_den += 1
     r_num = r_den = 0.0
     for cluster in gold_clusters:
         cluster_set = set(cluster)
@@ -183,8 +199,8 @@ def b_cubed_raw(pred_clusters: List[List[str]],
             if m in pred_m2p:
                 pred_cluster = pred_clusters[pred_m2p[m]]
                 intersection = len(cluster_set & set(pred_cluster))
-                r_num += intersection
-                r_den += len(cluster)
+                r_num += intersection / len(cluster)
+                r_den += 1
     return p_num, p_den, r_num, r_den
 
 
@@ -248,68 +264,158 @@ def _hungarian_max(matrix: List[List[float]]) -> List[Tuple[int, int]]:
     return assignment
 
 
+_SCIPY_LSA_CHECKED = False
+_SCIPY_LSA_CACHE = None
+
+
+def _scipy_lsa():
+    """Return (numpy, linear_sum_assignment) once, or None if unavailable.
+
+    The import attempt is cached: on some environments scipy/numpy fail to load
+    (blocked DLLs), and retrying the failing import per document is very slow.
+    """
+    global _SCIPY_LSA_CHECKED, _SCIPY_LSA_CACHE
+    if not _SCIPY_LSA_CHECKED:
+        _SCIPY_LSA_CHECKED = True
+        try:
+            import numpy as np
+            from scipy.optimize import linear_sum_assignment
+
+            linear_sum_assignment(np.zeros((1, 1)))
+            _SCIPY_LSA_CACHE = (np, linear_sum_assignment)
+        except Exception:
+            _SCIPY_LSA_CACHE = None
+    return _SCIPY_LSA_CACHE
+
+
 def ceafe_raw(pred_clusters: List[List[str]],
               gold_clusters: List[List[str]]) -> Tuple[float, float, float, float]:
-    """CEAFe raw counts. Singleton clusters have sim=0 with everything else
-    and contribute nothing to p_den/r_den, so they are excluded from the
-    Hungarian assignment matrix (keeps the O(n^3) step tractable)."""
-    nongold = [(i, g) for i, g in enumerate(gold_clusters) if len(g) > 1]
-    nonpred = [(j, s) for j, s in enumerate(pred_clusters) if len(s) > 1]
-    n_gold = len(nongold)
-    n_pred = len(nonpred)
-    if n_gold == 0 or n_pred == 0:
-        p_den = sum(len(s) for s in pred_clusters if len(s) > 1)
-        r_den = sum(len(g) for g in gold_clusters if len(g) > 1)
-        return 0.0, p_den, 0.0, r_den
-    matrix = [[0.0] * n_pred for _ in range(n_gold)]
-    for ii, (_, g) in enumerate(nongold):
-        g_set = set(g)
-        g_len = len(g)
-        for jj, (_, s) in enumerate(nonpred):
-            inter = len(g_set & set(s))
-            if inter > 0:
-                matrix[ii][jj] = inter / max(g_len, len(s))
-    assigned = _hungarian_max(matrix)
-    p_num = p_den = r_num = r_den = 0.0
-    for s in pred_clusters:
-        if len(s) > 1:
-            p_den += len(s)
-    for g in gold_clusters:
-        if len(g) > 1:
-            r_den += len(g)
-    for ii, jj in assigned:
-        sim = matrix[ii][jj]
-        if sim > 0:
-            _, g = nongold[ii]
-            _, s = nonpred[jj]
-            p_num += sim * len(s)
-            r_num += sim * len(g)
-    return p_num, p_den, r_num, r_den
+    """CEAFe raw counts, exactly as `coval.eval.evaluator.ceafe`:
+    phi4 similarity (2*|A n B| / (|A|+|B|)) on the full cluster grid, best
+    one-to-one assignment (Hungarian), denominators = number of clusters.
+
+    Unlike a mention-weighted CEAF variant, coval keeps singleton clusters in
+    the matrix and divides by the cluster counts, which is what
+    `src/evaluation/evaluate_coref.py` reports.
+    """
+    n_pred = len(pred_clusters)
+    n_gold = len(gold_clusters)
+    if n_pred == 0 or n_gold == 0:
+        return 0.0, n_pred, 0.0, n_gold
+
+    # Both sides partition the mention space, so every shared mention belongs
+    # to exactly one (gold cluster, pred cluster) cell: collect the cells.
+    gold_m2g = _m2c_index(gold_clusters)
+    pred_m2p = _m2c_index(pred_clusters)
+    overlap: Dict[Tuple[int, int], int] = {}
+    for mention, gi in gold_m2g.items():
+        pj = pred_m2p.get(mention)
+        if pj is not None:
+            overlap[(gi, pj)] = overlap.get((gi, pj), 0) + 1
+
+    gold_len = [len(c) for c in gold_clusters]
+    pred_len = [len(c) for c in pred_clusters]
+
+    # Only clusters sharing at least one mention can score > 0, so the rows and
+    # columns outside this support can never change the optimal sum (they are
+    # all-zero).  Restricting to the support keeps the dense matrix small even
+    # when thousands of singleton clusters are present.
+    gold_rows = sorted({i for i, _ in overlap})
+    pred_cols = sorted({j for _, j in overlap})
+    n_support_gold = len(gold_rows)
+    n_support_pred = len(pred_cols)
+    row_pos = {i: k for k, i in enumerate(gold_rows)}
+    col_pos = {j: k for k, j in enumerate(pred_cols)}
+
+    lsa = _scipy_lsa()
+    if lsa is not None:
+        np, linear_sum_assignment = lsa
+        scores = np.zeros((n_support_gold, n_support_pred), dtype=float)
+        for (i, j), inter in overlap.items():
+            scores[row_pos[i], col_pos[j]] = 2.0 * inter / (gold_len[i] + pred_len[j])
+        row_ind, col_ind = linear_sum_assignment(-scores)
+        similarity = float(scores[row_ind, col_ind].sum())
+        return similarity, n_pred, similarity, n_gold
+
+    # Pure-Python fallback.  Zero-weight cells are dropped, so the bipartite
+    # graph splits into small connected components; the optimal assignment
+    # decomposes over those components, which keeps the Hungarian cubic cost
+    # per tiny block instead of one huge matrix.
+    edges = [
+        (row_pos[i], col_pos[j], 2.0 * inter / (gold_len[i] + pred_len[j]))
+        for (i, j), inter in overlap.items()
+    ]
+    parent = list(range(n_support_gold + n_support_pred))
+
+    def find(x: int) -> int:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    for r, c, _w in edges:
+        ra, rb = find(r), find(n_support_gold + c)
+        if ra != rb:
+            parent[rb] = ra
+
+    blocks: Dict[int, Tuple[Dict[int, int], Dict[int, int], List[Tuple[int, int, float]]]] = {}
+    for r, c, w in edges:
+        root = find(r)
+        if root not in blocks:
+            blocks[root] = ({}, {}, [])
+        rows_idx, cols_idx, block_edges = blocks[root]
+        if r not in rows_idx:
+            rows_idx[r] = len(rows_idx)
+        if c not in cols_idx:
+            cols_idx[c] = len(cols_idx)
+        block_edges.append((r, c, w))
+
+    similarity = 0.0
+    for rows_idx, cols_idx, block_edges in blocks.values():
+        matrix = [[0.0] * len(cols_idx) for _ in range(len(rows_idx))]
+        for r, c, w in block_edges:
+            matrix[rows_idx[r]][cols_idx[c]] = w
+        similarity += sum(matrix[i][j] for i, j in _hungarian_max(matrix))
+    return similarity, n_pred, similarity, n_gold
+
+
+def _lea_one(input_clusters: List[List[str]],
+             output_clusters: List[List[str]],
+             mention_to_out: Dict[str, int]) -> Tuple[float, float]:
+    """One direction of coval's LEA (Moosavi & Strube): link-based, with the
+    singleton convention (all_links = common_links = 1 iff the single mention
+    lands in a singleton output cluster)."""
+    num = den = 0.0
+    for cluster in input_clusters:
+        if len(cluster) == 1:
+            all_links = 1
+            m = cluster[0]
+            if m in mention_to_out and len(output_clusters[mention_to_out[m]]) == 1:
+                common_links = 1
+            else:
+                common_links = 0
+        else:
+            all_links = len(cluster) * (len(cluster) - 1) / 2.0
+            common_links = 0
+            for i, m in enumerate(cluster):
+                if m not in mention_to_out:
+                    continue
+                for m2 in cluster[i + 1:]:
+                    if m2 in mention_to_out and mention_to_out[m] == mention_to_out[m2]:
+                        common_links += 1
+        num += len(cluster) * common_links / float(all_links)
+        den += len(cluster)
+    return num, den
 
 
 def lea_raw(pred_clusters: List[List[str]],
             gold_clusters: List[List[str]]) -> Tuple[float, float, float, float]:
-    def cluster_links(clusters):
-        links: Dict[frozenset, float] = {}
-        total_weight = 0.0
-        for cluster in clusters:
-            n = len(cluster)
-            if n <= 1:
-                continue
-            weight_per_mention = 1.0 / (n - 1)
-            for i in range(n):
-                for j in range(i + 1, n):
-                    key = frozenset((cluster[i], cluster[j]))
-                    links[key] = links.get(key, 0.0) + weight_per_mention
-                    total_weight += weight_per_mention
-        return links, total_weight
-
-    sys_links, sys_total = cluster_links(pred_clusters)
-    gold_links, gold_total = cluster_links(gold_clusters)
-    common_keys = set(sys_links) & set(gold_links)
-    p_num = sum(sys_links[k] for k in common_keys)
-    r_num = sum(gold_links[k] for k in common_keys)
-    return p_num, sys_total, r_num, gold_total
+    """LEA raw counts, exactly as `coval.eval.evaluator.lea`."""
+    gold_m2g = _m2c_index(gold_clusters)
+    pred_m2p = _m2c_index(pred_clusters)
+    p_num, p_den = _lea_one(pred_clusters, gold_clusters, gold_m2g)
+    r_num, r_den = _lea_one(gold_clusters, pred_clusters, pred_m2p)
+    return p_num, p_den, r_num, r_den
 
 
 def _prf1_from_raw(p_num, p_den, r_num, r_den):
@@ -626,14 +732,15 @@ class CorefPairResult:
     n_gold_mentions: int
     n_sys_mentions: int
     n_matched: int
+    per_type: Dict[str, dict] = field(default_factory=dict)
 
 
-def evaluate_coref_pair(
+def _build_aligned_mentions(
     gold_mentions: List[GoldMention],
     reflex_mentions: List[Mention],
     alignment: C.Alignment,
-    unmatched: str = "singleton",
-) -> CorefPairResult:
+) -> Tuple[List[Mention], List[Mention]]:
+    """Express gold and reflex mentions in gold coordinates (shared span keys)."""
     len_g = alignment.len_g
     gm: List[Mention] = []
     for g in gold_mentions:
@@ -659,16 +766,60 @@ def evaluate_coref_pair(
             text=m.text,
             href=m.href,
         ))
-    g_clusters, s_clusters, stats = align_and_build_clusters(gm, sm, unmatched=unmatched)
+    return gm, sm
+
+
+def _filter_type(mentions: List[Mention], labels: Tuple[str, ...]) -> List[Mention]:
+    label_set = set(labels)
+    return [m for m in mentions if m.label in label_set]
+
+
+def _score_coref_mentions(
+    gold_mentions: List[Mention],
+    system_mentions: List[Mention],
+    unmatched: str,
+) -> dict:
+    """Exact + overlap coref scores and alignment stats for one mention set."""
+    g_clusters, s_clusters, stats = align_and_build_clusters(
+        gold_mentions, system_mentions, unmatched=unmatched
+    )
     exact = evaluate_coref_metrics(s_clusters, g_clusters)
     g_clusters_ov, s_clusters_ov, stats_ov = align_and_build_clusters_overlap(
-        gm, sm, unmatched=unmatched
+        gold_mentions, system_mentions, unmatched=unmatched
     )
     overlap = evaluate_coref_metrics(s_clusters_ov, g_clusters_ov)
+    return {
+        "exact": exact,
+        "overlap": overlap,
+        "stats": stats,
+        "stats_overlap": stats_ov,
+        "n_gold": len(gold_mentions),
+        "n_system": len(system_mentions),
+        "n_matched": stats["matched"],
+    }
+
+
+def evaluate_coref_pair(
+    gold_mentions: List[GoldMention],
+    reflex_mentions: List[Mention],
+    alignment: C.Alignment,
+    unmatched: str = "singleton",
+) -> CorefPairResult:
+    gm, sm = _build_aligned_mentions(gold_mentions, reflex_mentions, alignment)
+
+    overall = _score_coref_mentions(gm, sm, unmatched)
+    per_type: Dict[str, dict] = {}
+    for type_key, labels in TYPE_GROUPS.items():
+        per_type[type_key] = _score_coref_mentions(
+            _filter_type(gm, labels), _filter_type(sm, labels), unmatched
+        )
+
     return CorefPairResult(
-        doc_id="", split="", exact=exact, overlap=overlap,
-        stats=stats, stats_overlap=stats_ov,
-        n_gold_mentions=len(gm), n_sys_mentions=len(sm), n_matched=stats["matched"],
+        doc_id="", split="", exact=overall["exact"], overlap=overall["overlap"],
+        stats=overall["stats"], stats_overlap=overall["stats_overlap"],
+        n_gold_mentions=len(gm), n_sys_mentions=len(sm),
+        n_matched=overall["stats"]["matched"],
+        per_type=per_type,
     )
 
 
@@ -688,6 +839,7 @@ class ResolutionPairResult:
     uri_lookup_mapped: int
     uri_lookup_unmapped: int
     uri_lookup_total: int
+    uri_lookup_by_label: Dict[str, Dict[str, int]] = field(default_factory=dict)
 
 
 def evaluate_resolution_pair(
@@ -700,13 +852,18 @@ def evaluate_resolution_pair(
     len_g = alignment.len_g
     sys_spans: List[Span] = []
     lookup_mapped = lookup_unmapped = lookup_total = 0
+    lookup_by_label: Dict[str, Dict[str, int]] = defaultdict(
+        lambda: {"mapped": 0, "unmapped": 0, "total": 0})
     for m in reflex_mentions:
         lookup_total += 1
+        lookup_by_label[m.label]["total"] += 1
         uri = lookup_uri(m.docid, id_to_uri)
         if uri:
             lookup_mapped += 1
+            lookup_by_label[m.label]["mapped"] += 1
         else:
             lookup_unmapped += 1
+            lookup_by_label[m.label]["unmapped"] += 1
         gs, ge = alignment.map_span(m.start, m.end)
         gs = min(max(0, gs), max(0, len_g - 1))
         ge = max(gs + 1, min(ge, len_g))
@@ -736,6 +893,7 @@ def evaluate_resolution_pair(
         uri_lookup_mapped=lookup_mapped,
         uri_lookup_unmapped=lookup_unmapped,
         uri_lookup_total=lookup_total,
+        uri_lookup_by_label={k: dict(v) for k, v in lookup_by_label.items()},
     )
 
 
@@ -792,6 +950,33 @@ def aggregate_coref(pair_results: List[CorefPairResult]) -> dict:
     }
 
 
+def aggregate_coref_per_type(
+    pair_results: List[CorefPairResult],
+    types: Tuple[str, ...] = tuple(TYPE_GROUPS),
+) -> Dict[str, dict]:
+    """Macro-average coref scores per mention type (and pooled group)."""
+    out: Dict[str, dict] = {}
+    for type_key in types:
+        rows = [pr.per_type[type_key] for pr in pair_results if type_key in pr.per_type]
+        if not rows:
+            continue
+        total_stats: Dict[str, int] = defaultdict(int)
+        for row in rows:
+            for k, v in row["stats"].items():
+                total_stats[k] += v
+        out[type_key] = {
+            "exact": _macro_aggregate([row["exact"] for row in rows]),
+            "overlap": _macro_aggregate([row["overlap"] for row in rows]),
+            "stats": dict(total_stats),
+            "n_gold": sum(row["n_gold"] for row in rows),
+            "n_system": sum(row["n_system"] for row in rows),
+            "n_matched_exact": sum(row["stats"]["matched"] for row in rows),
+            "n_matched_overlap": sum(row["stats_overlap"]["matched"] for row in rows),
+            "n_documents": len(rows),
+        }
+    return out
+
+
 def _prf1(tp: int, fn: int, fp: int) -> Tuple[float, float, float]:
     rec = tp / (tp + fn) if (tp + fn) else 0.0
     prec = tp / (tp + fp) if (tp + fp) else 0.0
@@ -807,17 +992,19 @@ def aggregate_resolution(pair_results: List[ResolutionPairResult]) -> dict:
     per_cat_exact = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
     per_cat_overlap = defaultdict(lambda: {"tp": 0, "fn": 0, "fp": 0})
     total_lookup_mapped = total_lookup_unmapped = total_lookup_total = 0
+    lookup_by_label: Dict[str, Dict[str, int]] = defaultdict(
+        lambda: {"mapped": 0, "unmapped": 0, "total": 0})
     per_doc = {}
     for pr in pair_results:
         ov_e = pr.exact["overall"]
         for k in ("tp", "fn_wrong", "fn_missing_sys_uri", "fn_missed_extraction",
                   "fp_spurious", "skipped_gold_none", "matched_spans", "matched_total"):
             acc_exact[k] += ov_e.get(k, 0)
-        for label, m in ov_e.get("per_label", {}).items():
+        for label, m in pr.exact.get("per_label", {}).items():
             per_label_exact[label]["tp"] += m["tp"]
             per_label_exact[label]["fn"] += m["fn"]
             per_label_exact[label]["fp"] += m["fp"]
-        for cat, m in ov_e.get("per_category", {}).items():
+        for cat, m in pr.exact.get("per_category", {}).items():
             per_cat_exact[cat]["tp"] += m["tp"]
             per_cat_exact[cat]["fn"] += m["fn"]
             per_cat_exact[cat]["fp"] += m["fp"]
@@ -825,17 +1012,20 @@ def aggregate_resolution(pair_results: List[ResolutionPairResult]) -> dict:
         for k in ("tp", "fn_wrong", "fn_missing_sys_uri", "fn_missed_extraction",
                   "fp_spurious", "skipped_gold_none", "matched_spans", "matched_total"):
             acc_overlap[k] += ov_o.get(k, 0)
-        for label, m in ov_o.get("per_label", {}).items():
+        for label, m in pr.overlap.get("per_label", {}).items():
             per_label_overlap[label]["tp"] += m["tp"]
             per_label_overlap[label]["fn"] += m["fn"]
             per_label_overlap[label]["fp"] += m["fp"]
-        for cat, m in ov_o.get("per_category", {}).items():
+        for cat, m in pr.overlap.get("per_category", {}).items():
             per_cat_overlap[cat]["tp"] += m["tp"]
             per_cat_overlap[cat]["fn"] += m["fn"]
             per_cat_overlap[cat]["fp"] += m["fp"]
         total_lookup_mapped += pr.uri_lookup_mapped
         total_lookup_unmapped += pr.uri_lookup_unmapped
         total_lookup_total += pr.uri_lookup_total
+        for label, d in pr.uri_lookup_by_label.items():
+            for k in ("mapped", "unmapped", "total"):
+                lookup_by_label[label][k] += d.get(k, 0)
         per_doc[pr.doc_id] = {
             "split": pr.split, "exact": pr.exact, "overlap": pr.overlap,
             "uri_lookup": {"mapped": pr.uri_lookup_mapped,
@@ -868,20 +1058,43 @@ def aggregate_resolution(pair_results: List[ResolutionPairResult]) -> dict:
                         "precision": p, "recall": r, "f1": f}
         return out
 
+    def _group_types(per_label_final):
+        """Map per-label counts onto the reported evaluation groups."""
+        grouped = {}
+        for type_key, labels in TYPE_GROUPS.items():
+            tp = fn = fp = 0
+            for label in labels:
+                m = per_label_final.get(label)
+                if m is None:
+                    continue
+                tp += m["tp"]
+                fn += m["fn"]
+                fp += m["fp"]
+            p, r, f = _prf1(tp, fn, fp)
+            grouped[type_key] = {"tp": tp, "fn": fn, "fp": fp,
+                                 "precision": p, "recall": r, "f1": f}
+        return grouped
+
+    final_per_label_exact = _finalize(per_label_exact)
+    final_per_label_overlap = _finalize(per_label_overlap)
+
     return {
         "exact": {
             "overall": _build_overall(acc_exact),
-            "per_label": _finalize(per_label_exact),
+            "per_label": final_per_label_exact,
+            "per_type": _group_types(final_per_label_exact),
             "per_category": _finalize(per_cat_exact),
         },
         "overlap": {
             "overall": _build_overall(acc_overlap),
-            "per_label": _finalize(per_label_overlap),
+            "per_label": final_per_label_overlap,
+            "per_type": _group_types(final_per_label_overlap),
             "per_category": _finalize(per_cat_overlap),
         },
         "lookup": {"mapped": total_lookup_mapped,
                    "unmapped": total_lookup_unmapped,
                    "total": total_lookup_total},
+        "lookup_by_label": {k: dict(v) for k, v in lookup_by_label.items()},
         "per_doc": per_doc,
         "n_documents": len(pair_results),
     }
@@ -1005,6 +1218,61 @@ def build_coref_report(args, pair_results, aggregate, candidate_pool_name,
                     "CoNLL F1 %"], rows))
         A("")
 
+    A("## Per mention type")
+    A("")
+    A("Scores are macro-averaged across documents, separately for decisions "
+      "and legislation. `Secondary` is excluded: Reflex never links secondary "
+      "sources, so that row would be 0/0 by construction (it is still present "
+      "in the JSON).")
+    A("")
+    per_type_agg = aggregate_coref_per_type(pair_results)
+    for mode in ("exact", "overlap"):
+        A(f"### {mode.upper()}")
+        A("")
+        rows = []
+        for type_key in REPORT_TYPES:
+            t = per_type_agg.get(type_key)
+            if not t:
+                continue
+            ag = t[mode]
+            matched = t["n_matched_exact" if mode == "exact" else "n_matched_overlap"]
+            rows.append([TYPE_DISPLAY[type_key], t["n_documents"],
+                         t["n_gold"], t["n_system"], matched,
+                         f"{ag['MUC']['f1']*100:.2f}",
+                         f"{ag['B3']['f1']*100:.2f}",
+                         f"{ag['CEAF_e']['f1']*100:.2f}",
+                         f"{ag['LEA']['f1']*100:.2f}",
+                         f"{ag['CoNLL']['f1']*100:.2f}"])
+        A(md_table(["type", "docs", "gold mentions", "sys mentions", "matched",
+                    "MUC F1 %", "B3 F1 %", "CEAF_e F1 %", "LEA F1 %",
+                    "CoNLL F1 %"], rows))
+        A("")
+
+    A("### Per split and mention type")
+    A("")
+    rows = []
+    for sp in split_order:
+        docs = by_split[sp]
+        split_pt = aggregate_coref_per_type(docs)
+        for type_key in REPORT_TYPES:
+            t = split_pt.get(type_key)
+            if not t:
+                continue
+            ag = t["overlap"]
+            rows.append([sp, TYPE_DISPLAY[type_key], t["n_gold"], t["n_system"],
+                         t["n_matched_overlap"],
+                         f"{ag['MUC']['f1']*100:.2f}",
+                         f"{ag['B3']['f1']*100:.2f}",
+                         f"{ag['CEAF_e']['f1']*100:.2f}",
+                         f"{ag['LEA']['f1']*100:.2f}",
+                         f"{ag['CoNLL']['f1']*100:.2f}"])
+    A("OVERLAP span match (the meaningful mode for a citator):")
+    A("")
+    A(md_table(["split", "type", "gold mentions", "sys mentions", "matched",
+                "MUC F1 %", "B3 F1 %", "CEAF_e F1 %", "LEA F1 %",
+                "CoNLL F1 %"], rows))
+    A("")
+
     A("## Per-document breakdown (exact match)")
     A("")
     rows = []
@@ -1033,6 +1301,11 @@ def build_coref_report(args, pair_results, aggregate, candidate_pool_name,
       "an upper bound — not comparable with pipeline end-to-end scores.")
     A("* Reflex never links secondary sources, so those clusters are empty on "
       "the system side by construction.")
+    A("* Reflex only exposes a ``concatenated-id`` on legislation anchors. "
+      "Decision anchors carry no ``concatenated-id``, so every decision "
+      "prediction is a singleton cluster: decision MUC / CEAF_e / LEA are 0 "
+      "by construction, and only B3 is non-zero. Decision coreference cannot "
+      "be measured from these exports as they stand.")
     A("* Coref metrics (MUC / B3 / CEAF_e / LEA) are implemented inline, "
       "equivalent to the `coval` library used by `src/evaluation/`.")
     A("")
@@ -1114,19 +1387,58 @@ def build_resolution_report(args, pair_results, aggregate,
     A(md_table(["split", "docs", "TP", "FN", "FP", "Precision %", "Recall %", "F1 %"], rows))
     A("")
 
-    A("## Per-label breakdown (exact match, micro)")
+    def _per_type_counts(docs, mode):
+        """Micro-aggregate per-label counts into evaluation groups."""
+        counts = {t: {"tp": 0, "fn": 0, "fp": 0} for t in REPORT_TYPES}
+        for d in docs:
+            mode_data = getattr(d, mode)
+            per_label = mode_data.get("per_label", {})
+            for type_key in REPORT_TYPES:
+                for label in TYPE_GROUPS[type_key]:
+                    m = per_label.get(label)
+                    if m is None:
+                        continue
+                    counts[type_key]["tp"] += m["tp"]
+                    counts[type_key]["fn"] += m["fn"]
+                    counts[type_key]["fp"] += m["fp"]
+        out = {}
+        for type_key, c in counts.items():
+            p, r, f = _prf1(c["tp"], c["fn"], c["fp"])
+            out[type_key] = {"tp": c["tp"], "fn": c["fn"], "fp": c["fp"],
+                             "precision": p, "recall": r, "f1": f}
+        return out
+
+    A("## Per-type breakdown (micro)")
     A("")
-    per_label = aggregate["exact"]["per_label"]
-    if per_label:
+    A("Micro-aggregated across documents, separately for decisions and "
+      "legislation. `Secondary` is excluded because Reflex never links "
+      "secondary sources; the full per-label table remains in the JSON.")
+    A("")
+    for mode in ("exact", "overlap"):
         rows = []
-        for label in sorted(per_label):
-            m = per_label[label]
-            rows.append([label, m["tp"], m["fn"], m["fp"],
+        for type_key, m in _per_type_counts(pair_results, mode).items():
+            rows.append([TYPE_DISPLAY[type_key], m["tp"], m["fn"], m["fp"],
                          f"{m['precision']*100:.2f}",
                          f"{m['recall']*100:.2f}",
                          f"{m['f1']*100:.2f}"])
-        A(md_table(["label", "TP", "FN", "FP", "Precision %", "Recall %", "F1 %"], rows))
+        A(f"**{mode.upper()} span match**")
         A("")
+        A(md_table(["type", "TP", "FN", "FP", "Precision %", "Recall %", "F1 %"], rows))
+        A("")
+
+    A("## Per split and mention type (overlap match)")
+    A("")
+    rows = []
+    for sp in split_order:
+        docs = [d for d in pair_results if d.split == sp]
+        for type_key, m in _per_type_counts(docs, "overlap").items():
+            rows.append([sp, TYPE_DISPLAY[type_key], m["tp"], m["fn"], m["fp"],
+                         f"{m['precision']*100:.2f}",
+                         f"{m['recall']*100:.2f}",
+                         f"{m['f1']*100:.2f}"])
+    A(md_table(["split", "type", "TP", "FN", "FP", "Precision %", "Recall %",
+                "F1 %"], rows))
+    A("")
 
     A("## Per-document breakdown (exact match)")
     A("")
@@ -1151,6 +1463,19 @@ def build_resolution_report(args, pair_results, aggregate,
     A(f"* Total concatenated-ids looked up: {aggregate['lookup']['total']}")
     A(f"* Mapped to a URI: {aggregate['lookup']['mapped']}")
     A(f"* Unmapped (no candidate-pool entry): {aggregate['lookup']['unmapped']}")
+    A("")
+    rows = []
+    for type_key in REPORT_TYPES:
+        d = aggregate.get("lookup_by_label", {}).get(type_key)
+        if d is None:
+            continue
+        rows.append([TYPE_DISPLAY[type_key], d.get("total", 0),
+                     d.get("mapped", 0), d.get("unmapped", 0)])
+    A(md_table(["type", "lookups", "mapped", "unmapped"], rows))
+    A("")
+    A("* Reflex only exposes a ``concatenated-id`` on legislation anchors. "
+      "Decision anchors have no ``concatenated-id``, so the current lookup "
+      "cannot map them and their URI-linking score is 0 by construction.")
     A("")
     A("* Unmapped concatenated-ids produce system spans with no uri, which "
       "count as false negatives (no uri produced) when the corresponding gold "
@@ -1212,6 +1537,8 @@ def run(args) -> dict:
                   f"overlap F1={rr.overlap['overall']['f1']*100:.2f}")
 
     coref_agg = aggregate_coref(coref_results) if not args.skip_coref else {}
+    coref_per_type_agg = (aggregate_coref_per_type(coref_results)
+                          if not args.skip_coref else {})
     resolution_agg = aggregate_resolution(resolution_results) if not args.skip_resolution else {}
 
     out_dir = Path(args.out)
@@ -1239,6 +1566,7 @@ def run(args) -> dict:
             "merge_gap": args.gap,
             "unmatched": args.unmatched,
             "aggregate": coref_agg,
+            "aggregate_per_type": coref_per_type_agg,
             "per_doc": {pr.doc_id: {
                 "split": pr.split,
                 "exact": pr.exact,
@@ -1248,6 +1576,7 @@ def run(args) -> dict:
                 "n_gold_mentions": pr.n_gold_mentions,
                 "n_sys_mentions": pr.n_sys_mentions,
                 "n_matched": pr.n_matched,
+                "per_type": pr.per_type,
             } for pr in coref_results},
         }
         (out_dir / "reflex_coref_results.json").write_text(
@@ -1272,6 +1601,7 @@ def run(args) -> dict:
                     "mapped": pr.uri_lookup_mapped,
                     "unmapped": pr.uri_lookup_unmapped,
                     "total": pr.uri_lookup_total,
+                    "by_label": pr.uri_lookup_by_label,
                 },
             } for pr in resolution_results},
         }

@@ -155,6 +155,8 @@ def train_lora(
     eval_dataset: Dataset | list[dict] | None = None,
     output_dir: Path | None = None,
     resume: str = "auto",
+    dec_pass: str | None = None,
+    prompt_type: str = "long",
 ):
     """Fine-tune *model_short* on *examples* with LoRA; return (trainer, out_dir).
 
@@ -195,7 +197,7 @@ def train_lora(
 
     model = attach_lora(base_model, lora_cfg)
 
-    run_name = sft_cfg.run_name(model_short, train_on, lora_cfg)
+    run_name = sft_cfg.run_name(model_short, train_on, lora_cfg, dec_pass=dec_pass)
     from .lora import default_training_root
     output_dir = Path(output_dir or sft_cfg.output_root or default_training_root()) / run_name
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -312,6 +314,8 @@ def train_lora(
             {
                 "model_short": model_short,
                 "train_on": train_on,
+                "dec_pass": dec_pass,
+                "prompt_type": prompt_type,
                 "lora": config_to_dict(lora_cfg),
                 "sft": config_to_dict(sft_cfg),
                 "n_examples": len(train_dataset),

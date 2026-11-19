@@ -196,6 +196,8 @@ def run_one(args, overrides: dict | None = None):
         model_path=args.model_path,
         output_dir=Path(args.output_dir) if args.output_dir else None,
         resume=args.resume,
+        dec_pass=args.dec_pass,
+        prompt_type=args.prompt_type,
     )
     return out_dir
 

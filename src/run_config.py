@@ -24,6 +24,9 @@ class RunConfig:
     variant: str = "original"             # "original" | "annotated"
     output_dir: Path = Path("./output")
     prompt_type: str = "long"
+    # Extra folder-name component, e.g. "trained-DECall". Keeps adapter runs
+    # from reusing (and silently checkpoint-skipping) a baseline run folder.
+    run_tag: str = ""
 
     def resolve_split_dir(self, split: str) -> Path:
         """data/original/train  — or whatever data_dir/variant/split resolves to."""
@@ -63,10 +66,11 @@ class RunConfig:
         return sorted(p.stem for p in split_dir.glob("*.html"))
 
     def output_root(self) -> Path:
+        tag = f"-{self.run_tag}" if self.run_tag else ""
         if self.mode == "split":
-            folder = f"{self.split}_{self.model}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}_{self.prompt_type}"
+            folder = f"{self.split}_{self.model}{tag}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}_{self.prompt_type}"
         else:
-            folder = f"single_{self.filename}_{self.model}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}_{self.prompt_type}"
+            folder = f"single_{self.filename}_{self.model}{tag}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}_{self.prompt_type}"
         if self.with_timestamp:
             folder += f"_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         root = self.output_dir / folder

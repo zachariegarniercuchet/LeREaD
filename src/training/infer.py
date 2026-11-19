@@ -42,6 +42,8 @@ class LoraAssistant(BaseAssistant):
         has_system_role: bool = True,
         strip_thinking: bool = True,
         merge: bool = True,
+        dec_pass: str | None = None,
+        prompt_type: str | None = None,
     ):
         super().__init__(model_short or adapter_path, temperature, has_system_role=has_system_role)
         self.adapter_path = adapter_path
@@ -51,20 +53,35 @@ class LoraAssistant(BaseAssistant):
         self.quantization = quantization
         self.strip_thinking = strip_thinking
         self.merge = merge
+        # Marks this adapter as a fine-tuned LLM so main_extraction can switch
+        # to the zero-shot / task-token prompt format it was trained on.
+        self.is_finetuned_lora = True
+        saved = self._read_run_config()
+        self.dec_pass = dec_pass if dec_pass is not None else saved.get("dec_pass")
+        self.prompt_type = prompt_type or saved.get("prompt_type") or "long"
+        self.is_dec_trained = bool(self.dec_pass) and self.dec_pass != "aio"
         self._load()
+
+    def _read_run_config(self) -> dict:
+        import json
+        from pathlib import Path
+
+        cfg_path = Path(self.adapter_path) / "run_config.json"
+        if not cfg_path.is_file():
+            return {}
+        try:
+            with cfg_path.open("r", encoding="utf-8") as f:
+                return json.load(f)
+        except (OSError, ValueError):
+            return {}
 
     def _resolve_base_path(self) -> str:
         if self.model_path:
             return self.model_path
         # Try to recover the short name from the saved run_config.json.
-        import json
-        from pathlib import Path
-
-        cfg_path = Path(self.adapter_path) / "run_config.json"
         short = self.model_short
-        if short is None and cfg_path.is_file():
-            with cfg_path.open("r", encoding="utf-8") as f:
-                short = json.load(f).get("model_short")
+        if short is None:
+            short = self._read_run_config().get("model_short")
         if short is None:
             raise ValueError(
                 "Could not determine the base model. Pass model_short or model_path."
@@ -74,19 +91,40 @@ class LoraAssistant(BaseAssistant):
         base_path, _ = resolve_model_path(short)
         return base_path
 
+    def _registry_entry(self) -> dict:
+        """Registry settings (trust_remote_code, dtype) for the base model."""
+        short = self.model_short or self._read_run_config().get("model_short")
+        if short is None:
+            return {}
+        try:
+            from .lora import resolve_model_path
+
+            _, entry = resolve_model_path(short)
+            return entry or {}
+        except (ImportError, KeyError):
+            return {}
+
     def _load(self):
         import torch
         from peft import PeftModel
         from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
         base_path = self._resolve_base_path()
+        entry = self._registry_entry()
+        trust_remote_code = bool(entry.get("trust_remote_code", False))
         print(f"[LoraAssistant] base={base_path} adapter={self.adapter_path}")
 
-        self.tokenizer = AutoTokenizer.from_pretrained(self.adapter_path)
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            self.adapter_path, trust_remote_code=trust_remote_code
+        )
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
 
-        load_kwargs: dict = dict(device_map="auto", low_cpu_mem_usage=True)
+        load_kwargs: dict = dict(
+            device_map="auto",
+            low_cpu_mem_usage=True,
+            trust_remote_code=trust_remote_code,
+        )
         if self.quantization == "4bit":
             load_kwargs["quantization_config"] = BitsAndBytesConfig(
                 load_in_4bit=True,
@@ -105,7 +143,13 @@ class LoraAssistant(BaseAssistant):
         model = PeftModel.from_pretrained(base, self.adapter_path)
 
         if self.merge:
-            model = model.merge_and_unload()
+            try:
+                model = model.merge_and_unload()
+            except Exception as e:  # merging into a quantized base can fail
+                print(
+                    f"[LoraAssistant] merge_and_unload failed ({e}); "
+                    "keeping the PEFT wrapper."
+                )
 
         self.model = model
         self.model.config.use_cache = True

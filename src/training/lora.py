@@ -76,9 +76,18 @@ class SFTConfig:
     seed: int = 42
     output_root: str | None = None
 
-    def run_name(self, model_short: str, train_on: str, lora: LoRAConfig) -> str:
+    def run_name(
+        self,
+        model_short: str,
+        train_on: str,
+        lora: LoRAConfig,
+        dec_pass: str | None = None,
+    ) -> str:
+        # The task tag keeps AIO and DEC runs of the same model/hyperparameters
+        # in separate folders, so --trained can tell them apart.
+        task_tag = "aio" if dec_pass is None else dec_pass.lower()
         return (
-            f"{model_short}_{train_on}"
+            f"{model_short}_{train_on}_{task_tag}"
             f"_r{lora.r}_a{lora.alpha}_lr{self.learning_rate:g}"
             f"_ep{self.num_train_epochs:g}_q{self.quantization}_s{self.seed}"
         )
@@ -143,31 +152,76 @@ def default_training_root() -> Path:
         return Path("output_training")
 
 
+def model_aliases(model_short: str) -> set[str]:
+    """All names that refer to the same checkpoint (CLI alias + HF name).
+
+    ``main_training`` stores whatever was passed to ``--model`` verbatim, so a
+    run trained with ``--model Qwen3.8-27B`` and a lookup with ``qwen38-27b``
+    must still match.
+    """
+    hf_name = MODEL_MAPPING_NAME.get(model_short, model_short)
+    names = {model_short, hf_name}
+    for alias, value in MODEL_MAPPING_NAME.items():
+        if value == hf_name:
+            names.add(alias)
+    return names
+
+
 def find_best_training_run(
     model_short: str,
     seed: int | None = None,
     output_root: str | Path | None = None,
+    dec_pass: str | None = None,
 ) -> Path:
-    """Find the saved run with the lowest recorded dev loss."""
+    """Find the saved run with the lowest recorded dev loss.
+
+    Args:
+        model_short: CLI alias (``qwen38-27b``) or HF name (``Qwen3.8-27B``).
+        seed: restrict to one training seed.
+        output_root: override the ``MODELS_DIR/output_training`` root.
+        dec_pass: "all" / "DEC0".. / "aio" (=AIO runs). None disables the task
+            filter. If no completed run matches the requested task, the filter
+            is dropped with a warning so older runs (whose
+            ``run_config.json`` predates this field) stay usable.
+    """
+    import json
+
     root = Path(output_root) if output_root else default_training_root()
-    candidates = []
-    for config_path in root.glob("*/run_config.json"):
-        try:
-            import json
-            config = json.loads(config_path.read_text(encoding="utf-8"))
-        except (OSError, ValueError):
-            continue
-        if config.get("model_short") != model_short:
-            continue
-        if seed is not None and config.get("sft", {}).get("seed") != seed:
-            continue
-        dev_loss = config.get("best_dev_loss")
-        if dev_loss is None:
-            continue
-        try:
-            candidates.append((float(dev_loss), config_path.parent))
-        except (TypeError, ValueError):
-            continue
+    aliases = model_aliases(model_short)
+
+    def _collect(task_filter: str | None):
+        found = []
+        for config_path in root.glob("*/run_config.json"):
+            try:
+                config = json.loads(config_path.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                continue
+            if config.get("model_short") not in aliases:
+                continue
+            if seed is not None and config.get("sft", {}).get("seed") != seed:
+                continue
+            if task_filter is not None:
+                # Runs saved before dec_pass existed are AIO runs.
+                stored_pass = config.get("dec_pass") or "aio"
+                if stored_pass != task_filter:
+                    continue
+            dev_loss = config.get("best_dev_loss")
+            if dev_loss is None:
+                continue
+            try:
+                found.append((float(dev_loss), config_path.parent))
+            except (TypeError, ValueError):
+                continue
+        return found
+
+    candidates = _collect(dec_pass)
+    if not candidates and dec_pass is not None:
+        print(
+            f"[trained] no {dec_pass!r} run with dev metrics for "
+            f"{model_short!r} under {root} — ignoring the task filter."
+        )
+        candidates = _collect(None)
+
     if not candidates:
         qualifier = f" and seed {seed}" if seed is not None else ""
         raise FileNotFoundError(

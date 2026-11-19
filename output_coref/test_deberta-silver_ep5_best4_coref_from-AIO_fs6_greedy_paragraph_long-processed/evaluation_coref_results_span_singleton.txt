@@ -1,0 +1,27 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\test_deberta-silver_ep5_best4_coref_from-AIO_fs6_greedy_paragraph_long-processed
+Split: test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 37 evaluation pair(s)
+
+Mention alignment (total over 37 document(s))
+  gold mentions: 7868 | system mentions: 7936 | matched: 5463
+  gold-only (missed): 2405 | system-only (spurious): 2473
+  mention-level  P=0.688  R=0.694  F1=0.691
+
+
+=== Aggregate over 37 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.6542     │ 0.6054     │ 0.6289     │
+│ B3       │ 0.7311     │ 0.6740     │ 0.7014     │
+│ CEAF_e   │ 0.4256     │ 0.4739     │ 0.4485     │
+│ LEA      │ 0.4353     │ 0.4227     │ 0.4289     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.5929
+

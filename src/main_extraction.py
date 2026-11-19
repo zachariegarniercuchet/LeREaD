@@ -283,8 +283,14 @@ def process_aio_dec0(
     allowed_labels: List[str],
     assistant,
     disable_fallback: bool = False,
+    task_token: Optional[str] = None,
 ) -> List:
-    """Process document using AIO or DEC0 method (chunk-based)."""
+    """Process document using AIO or DEC0 method (chunk-based).
+
+    ``task_token`` (e.g. "[DEC0]") is prepended to every user input; the
+    decomposed fine-tuning dataset is built that way (src/training/dataset.py),
+    so the adapter must see it at inference too.
+    """
     
     processed_chunks = []
     fallback_count = 0
@@ -293,6 +299,8 @@ def process_aio_dec0(
     
     for chunk_tokens in tqdm(token_chunks, desc="Processing chunks"):
         user_input = decode(chunk_tokens)
+        if task_token:
+            user_input = f"{task_token} {user_input}"
         messages = get_messages(
             system_prompt=system_prompt,
             user_input=user_input,
@@ -326,6 +334,7 @@ def process_dec1_3(
     already_labeled_labels: List[str],
     new_labels: List[str],
     disable_fallback: bool = False,
+    task_token: Optional[str] = None,
 ) -> List:
     """Process document using DEC1-3 methods (mention-based)."""
     # Tokenize document
@@ -369,6 +378,8 @@ def process_dec1_3(
         
         prepared_tokens = prepare_label_tokens(mention, input_label_config)
         user_input = decode(prepared_tokens)
+        if task_token:
+            user_input = f"{task_token} {user_input}"
         
         # Filter few-shot examples by parent label
         filtered_fewshot = [
@@ -415,6 +426,15 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
     html_content = load_html_document(path)
     print(f"  ✓ Loaded {len(html_content)} characters from {path}\n")
 
+    # A fine-tuned adapter was trained zero-shot, under one fixed system prompt
+    # and without a repair step, so the few-shot dialogue and the fallback
+    # prompt are pure distribution shift for it.
+    is_lora = bool(getattr(assistant, "is_finetuned_lora", False))
+    use_fewshot = not is_lora
+    disable_fallback = run.disable_fallback or is_lora
+    if is_lora:
+        print("[Setup] Fine-tuned adapter: zero-shot, fallback disabled\n")
+
     
     
     # =========================================================================
@@ -432,17 +452,21 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
         print(f"  ✓ Created {len(token_chunks)} chunks\n")
         
         # Step 4: Load few-shot examples
-        print("[Step 4] Loading few-shot examples...")
-        fewshot_examples = load_fewshot_examples(
-            run.method,
-            run.fewshot_method,
-            run.fewshot_examples,
-            spans_in_context=config["spans_in_context"],
-            already_labeled_labels=config["already_labeled_labels"],
-            new_labels=config["new_labels"],
-            parents=config["parents"],
-            source_file=filename
-        )
+        if use_fewshot:
+            print("[Step 4] Loading few-shot examples...")
+            fewshot_examples = load_fewshot_examples(
+                run.method,
+                run.fewshot_method,
+                run.fewshot_examples,
+                spans_in_context=config["spans_in_context"],
+                already_labeled_labels=config["already_labeled_labels"],
+                new_labels=config["new_labels"],
+                parents=config["parents"],
+                source_file=filename
+            )
+        else:
+            print("[Step 4] Skipping few-shot examples (zero-shot adapter)")
+            fewshot_examples = []
         allowed_labels = config["already_labeled_labels"] + config["new_labels"]
         print(f"  ✓ Loaded {len(fewshot_examples)} examples")
         print(f"  ✓ Allowed labels: {', '.join(allowed_labels)}\n")
@@ -461,7 +485,7 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
             print("[Step 6] Processing chunks...")
             processed_chunks, fallback_count = process_aio_dec0(
                 token_chunks, system_prompt, fewshot_examples,
-                allowed_labels, assistant, run.disable_fallback
+                allowed_labels, assistant, disable_fallback
             )
             print(f"  ✓ Processed all {len(token_chunks)} chunks")
             if fallback_count > 0:
@@ -509,38 +533,55 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
         # ─────────────────────────────────────────────────────────────
             
             # Load few-shot examples
-            print(f"[{dec_method}] Step 1: Loading few-shot examples...")
-            fewshot_examples = load_fewshot_examples(
-                dec_method,
-                run.fewshot_method,
-                run.fewshot_examples,
-                spans_in_context=config["spans_in_context"],
-                already_labeled_labels=config["already_labeled_labels"],
-                new_labels=config["new_labels"],
-                parents=config["parents"],
-                source_file=filename,
-            )
+            if use_fewshot:
+                print(f"[{dec_method}] Step 1: Loading few-shot examples...")
+                fewshot_examples = load_fewshot_examples(
+                    dec_method,
+                    run.fewshot_method,
+                    run.fewshot_examples,
+                    spans_in_context=config["spans_in_context"],
+                    already_labeled_labels=config["already_labeled_labels"],
+                    new_labels=config["new_labels"],
+                    parents=config["parents"],
+                    source_file=filename,
+                )
+            else:
+                print(f"[{dec_method}] Step 1: Skipping few-shot examples (zero-shot adapter)")
+                fewshot_examples = []
             allowed_labels = config["already_labeled_labels"] + config["new_labels"]
             print(f"  ✓ Loaded {len(fewshot_examples)} examples")
             print(f"  ✓ Allowed labels: {', '.join(allowed_labels)}\n")
             
             # Load prompt
             print(f"[{dec_method}] Step 2: Loading prompt...")
-            with open(PROMPT_DIR / config["prompt_filename"], "r", encoding="utf-8") as f:
-                system_prompt = f.read()
-            
-            # For DEC1-3, format prompt with sublabel definitions
-            if dec_method in ["DEC1", "DEC2", "DEC3"]:
-                sublabels_str = ", ".join(config["new_labels"])
-                sublabels_definition = build_sublabel_definitions(
-                    set(config["new_labels"]) - set(config["parents"]),
-                    sublabel_definitions=SUBLABEL_DEFINITIONS_V2
-                )
-                system_prompt = system_prompt.format(
-                    sublabels=sublabels_str,
-                    sublabels_definition=sublabels_definition,
-                )
-            
+            if is_lora:
+                # A DEC-trained adapter saw the *AIO* system prompt at training
+                # time (src/main_training.py -> load_system_prompt) and gets the
+                # pass identity from the "[DECn]" task token instead of from a
+                # decomposed prompt.
+                prompt_type = getattr(assistant, "prompt_type", run.prompt_type) or run.prompt_type
+                prompt_path = PROMPT_DIR / f"allInOne_{prompt_type}.txt"
+                with open(prompt_path, "r", encoding="utf-8") as f:
+                    system_prompt = f.read()
+            else:
+                with open(PROMPT_DIR / config["prompt_filename"], "r", encoding="utf-8") as f:
+                    system_prompt = f.read()
+
+                # For DEC1-3, format prompt with sublabel definitions
+                if dec_method in ["DEC1", "DEC2", "DEC3"]:
+                    sublabels_str = ", ".join(config["new_labels"])
+                    sublabels_definition = build_sublabel_definitions(
+                        set(config["new_labels"]) - set(config["parents"]),
+                        sublabel_definitions=SUBLABEL_DEFINITIONS_V2
+                    )
+                    system_prompt = system_prompt.format(
+                        sublabels=sublabels_str,
+                        sublabels_definition=sublabels_definition,
+                    )
+
+            task_token = f"[{dec_method}]" if is_lora else None
+            if task_token:
+                print(f"  ✓ Task token: {task_token}")
             print(f"  ✓ Loaded prompt ({len(system_prompt)} characters)\n")
             
             # Process based on method
@@ -553,7 +594,8 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
                 
                 processed_chunks, fallback_count = process_aio_dec0(
                     token_chunks, system_prompt, fewshot_examples,
-                    allowed_labels, assistant, run.disable_fallback
+                    allowed_labels, assistant, disable_fallback,
+                    task_token=task_token,
                 )
                 print(f"  ✓ Processed all {len(token_chunks)} chunks")
                 if fallback_count > 0:
@@ -570,7 +612,8 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
                 processed_tokens, failed_count = process_dec1_3(
                     current_html, system_prompt, fewshot_examples, allowed_labels,
                     assistant, config["parents"], config["already_labeled_labels"],
-                    config["new_labels"], disable_fallback=True
+                    config["new_labels"], disable_fallback=True,
+                    task_token=task_token,
                 )
                 print(f"  ✓ Processed mentions")
                 if failed_count > 0:
@@ -638,9 +681,17 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--encoder-path", type=Path, default=None,
                         help="Saved encoder run folder; bypasses the LLM factory.")
     parser.add_argument("--trained", action="store_true",
-                        help="Load the best completed LoRA run for --model, selected by dev loss.")
+                        help="Load the best completed LoRA run for --model, selected by "
+                             "dev loss (works for both AIO and DEC training runs).")
     parser.add_argument("--trained-seed", type=int, default=None,
                         help="Restrict --trained selection to one training seed.")
+    parser.add_argument("--trained-dec-pass", default="auto",
+                        choices=["auto", "aio", "DEC0", "DEC1", "DEC2", "DEC3", "all"],
+                        help="Which kind of training run --trained should select. "
+                             "'auto' = aio with --method AIO, all with --method DEC.")
+    parser.add_argument("--adapter-path", type=Path, default=None,
+                        help="Explicit LoRA run folder (output_training/<run_name>), "
+                             "instead of --trained's automatic selection.")
 
     return parser
 
@@ -667,7 +718,6 @@ def main():
         prompt_type=args.prompt_type,
     )
 
-    output_root = run.output_root()
     filenames = run.get_filenames()
 
     # ── Optional document range selection (1-based, inclusive) ──────────────
@@ -687,28 +737,84 @@ def main():
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
 
-    if args.encoder_path and args.trained:
-        parser.error("--encoder-path and --trained are mutually exclusive")
-    if args.trained and args.method != "AIO":
-        parser.error("--trained LoRA extraction currently supports --method AIO only")
+    if args.encoder_path and (args.trained or args.adapter_path):
+        parser.error("--encoder-path and --trained/--adapter-path are mutually exclusive")
+    if args.trained and args.adapter_path:
+        parser.error("--trained and --adapter-path are mutually exclusive")
     if args.encoder_path:
         if not args.disable_fallback:
             parser.error("--encoder-path requires --disable-fallback")
         from src.training.infer_encoder import EncoderAssistant
         assistant = EncoderAssistant(str(args.encoder_path))
-    elif args.trained:
+    elif args.trained or args.adapter_path:
         from src.training.infer import LoraAssistant
-        from src.training.lora import find_best_training_run
+
+        # With an explicit adapter, the base model can come from the adapter's
+        # own run_config.json, so --model is only required for --trained.
+        if args.adapter_path and run.model == "gpt-5.2":
+            cfg_path = Path(args.adapter_path) / "run_config.json"
+            if cfg_path.is_file():
+                try:
+                    run.model = json.loads(cfg_path.read_text(encoding="utf-8")).get(
+                        "model_short", run.model
+                    )
+                except (OSError, ValueError):
+                    pass
+
         base_model = run.model.removesuffix("-trained")
-        if base_model not in MODEL_MAPPING_NAME:
-            parser.error(f"--trained requires a model alias in MODEL_MAPPING_NAME: {base_model}")
-        adapter_path = find_best_training_run(base_model, seed=args.trained_seed)
+        if base_model not in MODEL_MAPPING_NAME and base_model not in MODEL_MAPPING_NAME.values():
+            parser.error(
+                "--trained/--adapter-path requires a model alias or HF name from "
+                f"MODEL_MAPPING_NAME: {base_model}"
+            )
+
+        # --trained-dec-pass: pick which task's run to load. When the user states
+        # it explicitly it is also asserted on the adapter, which is how runs
+        # trained before dec_pass was recorded in run_config.json still work.
+        requested_pass = args.trained_dec_pass
+        explicit_pass = None
+        if requested_pass == "auto":
+            requested_pass = "aio" if run.method == "AIO" else "all"
+        else:
+            explicit_pass = None if requested_pass == "aio" else requested_pass
+        select_pass = requested_pass
+
+        if args.adapter_path:
+            adapter_path = args.adapter_path
+        else:
+            from src.training.lora import find_best_training_run
+
+            adapter_path = find_best_training_run(
+                base_model, seed=args.trained_seed, dec_pass=select_pass
+            )
+
         assistant = LoraAssistant(
             adapter_path=str(adapter_path),
             model_short=base_model,
             temperature=run.temperature,
+            dec_pass=explicit_pass,
         )
         print(f"[Setup] Selected trained run: {adapter_path}")
+
+        # A DEC-trained adapter only knows the "[DECn]"-tokenised, mention-level
+        # task; AIO chunks are out of distribution (and vice versa).
+        hint = (
+            " (run_config.json has no dec_pass field: pass --trained-dec-pass "
+            "all|aio explicitly for runs trained before this was recorded)"
+            if assistant.dec_pass is None
+            else ""
+        )
+        if assistant.is_dec_trained and run.method != "DEC":
+            parser.error(
+                f"This adapter was trained with --dec-pass {assistant.dec_pass}; "
+                f"run it with --method DEC.{hint}"
+            )
+        if run.method == "DEC" and not assistant.is_dec_trained:
+            parser.error(
+                "This adapter was trained for AIO (no --dec-pass); "
+                f"run it with --method AIO.{hint}"
+            )
+        run.run_tag = f"trained-{assistant.dec_pass or 'aio'}"
     elif run.model == "gpt-5.2":
         assistant = AssistantFactory.create_from_config({
             "type": "openai",
@@ -718,6 +824,7 @@ def main():
     else:
         assistant = AssistantFactory.create(MODEL_MAPPING_NAME[run.model])
 
+    output_root = run.output_root()
     print(f"[Setup] Mode: {run.mode.upper()} | Files: {len(filenames)} | Output: {output_root}\n")
 
     for i, filename in enumerate(filenames, start=start):

@@ -113,9 +113,27 @@ seeds and configurations:
 python -m src.main_extraction --split test --model qwen35-9b --trained --disable-fallback
 ```
 
-Use `--trained-seed N` when you want to test one particular seed. The trained
-LoRA path can also be supplied explicitly with the helper in
-`src.training.lora`, but is not needed for the normal workflow.
+Use `--trained-seed N` when you want to test one particular seed, and
+`--trained-dec-pass {aio,DEC0..DEC3,all}` to choose the task (defaults to `aio`
+with `--method AIO` and `all` with `--method DEC`). The trained LoRA path can
+also be supplied explicitly with `--adapter-path output_training/<run_name>`,
+but is not needed for the normal workflow.
+
+Decomposed models are trained with `--dec-pass all`, so they are run with the
+DEC pipeline (the pass identity comes from a `[DEC0]`…`[DEC3]` task token, not
+from the decomposed prompts):
+
+```bash
+python -m src.main_extraction --split test --model qwen38-27b --method DEC \
+    --trained --trained-dec-pass all --disable-fallback
+```
+
+Fine-tuned adapters are always run zero-shot: `main_extraction` skips the
+few-shot examples and the fallback/repair prompt, and loads the same system
+prompt that was used during training. Prefer `--temperature 0` for these
+copy-and-annotate models. Adapter runs get their own output folder
+(`...-trained-aio` / `...-trained-all`) so they never reuse a baseline run's
+checkpoints.
 
 ## Annotation
 
