@@ -20,6 +20,8 @@ import re
 
 from torch.utils.data import Dataset
 
+from .check_run import report_run_status
+
 
 class SFTDataset(Dataset):
     """Tokenizes (input, output) pairs with the chat template and masks the prompt.
@@ -259,6 +261,33 @@ def train_lora(
         f"estimated_steps={total_steps}, "
         f"warmup_steps={warmup_steps}"
     )
+
+    # ── Checkpoint / eval cadence ─────────────────────────────────────────
+    # load_best_model_at_end compares eval_loss across checkpoints, so HF
+    # requires both cadences to match; we mirror the save cadence unless the
+    # caller asked for something explicit.
+    save_strategy = sft_cfg.save_strategy
+    save_steps = sft_cfg.save_steps
+    eval_strategy = sft_cfg.eval_strategy or save_strategy
+    eval_steps = sft_cfg.eval_steps or save_steps
+    if eval_dataset is not None and eval_strategy != save_strategy:
+        raise ValueError(
+            f"eval_strategy={eval_strategy!r} must match save_strategy="
+            f"{save_strategy!r} (load_best_model_at_end); set the same value "
+            "for both."
+        )
+    if save_strategy == "steps" and save_steps > total_steps:
+        print(
+            f"[training] WARNING save_steps={save_steps} > estimated_steps="
+            f"{total_steps}: no intermediate checkpoint will be written."
+        )
+    print(
+        f"[training] save={save_strategy}"
+        + (f"/{save_steps}" if save_strategy == "steps" else "")
+        + f" eval={eval_strategy}"
+        + (f"/{eval_steps}" if eval_strategy == "steps" else "")
+        + f" keep={sft_cfg.save_total_limit} eval_bs={sft_cfg.per_device_eval_batch_size}"
+    )
     training_kwargs = dict(
         output_dir=str(output_dir),
         run_name=run_name,
@@ -277,21 +306,30 @@ def train_lora(
         gradient_checkpointing=sft_cfg.gradient_checkpointing,
         # bookkeeping
         logging_steps=sft_cfg.logging_steps,
-        save_strategy=sft_cfg.save_strategy,
+        save_strategy=save_strategy,
+        save_total_limit=sft_cfg.save_total_limit,
+        dataloader_num_workers=0,
         report_to=[],
         seed=sft_cfg.seed,
         remove_unused_columns=False,
     )
+    if save_strategy == "steps":
+        training_kwargs["save_steps"] = save_steps
     if eval_dataset is not None:
         import inspect
         supported = inspect.signature(TrainingArguments.__init__).parameters
         strategy_key = "eval_strategy" if "eval_strategy" in supported else "evaluation_strategy"
         training_kwargs.update({
-            strategy_key: "epoch",
+            strategy_key: eval_strategy,
+            # The Trainer's default is 8: eight 4k-token sequences on top of a
+            # 27B QLoRA model is exactly how eval OOMs at the end of epoch 1.
+            "per_device_eval_batch_size": sft_cfg.per_device_eval_batch_size,
             "load_best_model_at_end": True,
             "metric_for_best_model": "eval_loss",
             "greater_is_better": False,
         })
+        if eval_strategy == "steps":
+            training_kwargs["eval_steps"] = eval_steps
     args = TrainingArguments(**training_kwargs)
 
     trainer = Trainer(
@@ -302,7 +340,14 @@ def train_lora(
         data_collator=lambda recs: _collate(recs, pad_id),
     )
 
-    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
+    try:
+        trainer.train(resume_from_checkpoint=resume_from_checkpoint)
+    except BaseException:
+        # Most likely an end-of-epoch eval OOM. Tell the user what survived
+        # before the traceback scrolls it away.
+        print("\n[train_lora] training aborted — checkpoint status:")
+        report_run_status(output_dir)
+        raise
 
     # Save the adapter (not the full base model) + the configs used.
     trainer.save_model(str(output_dir))
@@ -326,5 +371,6 @@ def train_lora(
             indent=2,
         )
     print(f"[train_lora] adapter + configs saved -> {output_dir}")
+    report_run_status(output_dir)
 
     return trainer, output_dir

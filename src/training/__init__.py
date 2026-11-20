@@ -10,9 +10,12 @@ Layout:
     lora.py      LoRA / QLoRA hyperparameter config and model loading
     trainer.py   chat-template + loss-masking SFT training loop
     infer.py     LoraAssistant — drop a fine-tuned model into main_extraction
+    check_run.py did this run finish, and can it be resumed?
 
 Entry point (run from repo root):
     python -m src.main_training --model gemma4 --train-on train --dry-run
+    python -m src.main_training --model gemma4 --train-on train --smoke-test
+    python -m src.training.check_run --root output_training
 
 The dataset helpers (``dataset``) are import-safe without torch/transformers.
 The training and inference helpers (``lora``, ``trainer``, ``infer``) import
@@ -36,6 +39,7 @@ _LAZY = {
     "load_base_model": "src.training.lora",
     "SFTDataset": "src.training.trainer",
     "train_lora": "src.training.trainer",
+    "report_run_status": "src.training.check_run",
     "LoraAssistant": "src.training.infer",
 }
 

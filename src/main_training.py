@@ -15,6 +15,15 @@ Sweep (expands src.training.lora.DEFAULT_GRIDS):
 Dataset-only / smoke test (no model load, no GPU needed):
     python -m src.main_training --model gemma4 --train-on train+silver --dry-run
 
+Fast end-to-end rehearsal (~5 min, 1 GPU) that exercises the exact code path
+that used to die at the end of epoch 1 — first checkpoint, dev eval, adapter
+save, run_config.json — then verifies the artefacts:
+    python -m src.main_training --model qwen38-27b --train-on train+silver \\
+        --dec-pass all --chunker paragraph --smoke-test
+
+Check whether a run finished / can be resumed (no GPU, no torch import):
+    python -m src.training.check_run --root output_training
+
 python -m src.main_training --model gemma4 --train-on silver --dec-pass all --dry-run --chunker paragraph
 python -m src.main_training --model gemma4 --train-on silver --dec-pass all --chunker paragraph
 python -m src.main_training --model gemma4 --train-on train+silver --dec-pass all --chunker paragraph
@@ -26,12 +35,19 @@ To force a fresh start (ignore existing checkpoints)
 python -m src.main_training --model gemma4 --train-on silver --dec-pass all --resume false
 """
 import argparse
+import math
+import os
 import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path.cwd()
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
+
+# Reduce allocator fragmentation before CUDA is first initialised (the logs
+# showed the trainer one allocation away from OOM). setdefault so the sbatch
+# script can still override it.
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
 
 from configs.config import MIN_TOKENS
 from src.training.dataset import (
@@ -94,11 +110,41 @@ def build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("--no-bf16", action="store_true",
                    help="Disable bf16 (useful on older GPUs).")
 
+    # bookkeeping / checkpointing
+    p.add_argument("--save-strategy", default="steps",
+                   choices=["steps", "epoch", "no"],
+                   help="Default 'steps': an epoch-only save loses the whole run "
+                        "if the end-of-epoch eval crashes.")
+    p.add_argument("--save-steps", type=int, default=200,
+                   help="Checkpoint every N optimizer steps (save-strategy=steps).")
+    p.add_argument("--save-total-limit", type=int, default=2,
+                   help="Keep only the N newest checkpoints (-1 = keep all).")
+    p.add_argument("--eval-strategy", default=None, choices=["steps", "epoch", "no"],
+                   help="Dev-loss cadence (default: mirror --save-strategy).")
+    p.add_argument("--eval-steps", type=int, default=None,
+                   help="Evaluate every N steps (default: mirror --save-steps).")
+    p.add_argument("--eval-batch-size", type=int, default=1,
+                   help="per_device_eval_batch_size (default 1; the Trainer's "
+                        "own default of 8 is what OOMs a 27B QLoRA at eval).")
+    p.add_argument("--eval-max-examples", type=int, default=None,
+                   help="Evaluate on at most N dev examples (memory/time cap).")
+    p.add_argument("--logging-steps", type=int, default=10)
+
     # modes
     p.add_argument("--grid", action="store_true",
                    help="Run every combo in DEFAULT_GRIDS instead of one run.")
     p.add_argument("--dry-run", action="store_true",
                    help="Build the dataset and print stats, then exit (no GPU).")
+    p.add_argument("--smoke-test", action="store_true",
+                   help="Fast rehearsal: few examples, 1 epoch, checkpoint + eval "
+                        "every couple of steps, then verify the saved artefacts.")
+    p.add_argument("--smoke-train-examples", type=int, default=32,
+                   help="Training examples kept in --smoke-test.")
+    p.add_argument("--smoke-eval-examples", type=int, default=8,
+                   help="Dev examples kept in --smoke-test.")
+    p.add_argument("--smoke-steps", type=int, default=2,
+                   help="Wanted checkpoint/eval interval in --smoke-test "
+                        "(clamped to one epoch's worth of steps).")
     p.add_argument("--resume", default="auto", choices=["auto", "true", "false"],
                    help="Checkpoint resumption: 'auto' (default) resumes from the "
                         "latest checkpoint-* in the output folder if one exists, "
@@ -125,6 +171,14 @@ def make_configs(args, overrides: dict | None = None):
         fp16=args.no_bf16,           # if bf16 disabled, fall back to fp16
         gradient_checkpointing=not args.no_gradient_checkpointing,
         quantization=args.quantization,
+        logging_steps=args.logging_steps,
+        save_strategy=args.save_strategy,
+        save_steps=args.save_steps,
+        save_total_limit=None if args.save_total_limit < 0 else args.save_total_limit,
+        eval_strategy=args.eval_strategy,
+        eval_steps=args.eval_steps,
+        per_device_eval_batch_size=args.eval_batch_size,
+        name_suffix="_smoke" if args.smoke_test else "",
         seed=args.seed,
     )
     if overrides:
@@ -138,8 +192,36 @@ def make_configs(args, overrides: dict | None = None):
     return lora, sft
 
 
+def _apply_smoke_defaults(args):
+    """Shrink a real run into a few-minute rehearsal of the same code path.
+
+    The point is to reach *and survive* the end-of-epoch checkpoint + dev eval,
+    which is where the 8 h runs died. Only run length and data size change;
+    quantization, batch size, grad accumulation and the collator stay real.
+    """
+    args.smoke_test = True
+    args.epochs = 1.0
+    args.save_strategy = "steps"
+    args.eval_strategy = "steps"
+    args.save_total_limit = 1
+    args.logging_steps = 1
+
+
+def _clamp_smoke_cadence(args, n_train: int):
+    """Make sure at least two checkpoints fit inside one (tiny) epoch."""
+    batches = math.ceil(n_train / max(1, args.batch_size))
+    steps_per_epoch = max(1, batches // max(1, args.grad_accum))
+    args.save_steps = max(1, min(args.smoke_steps, steps_per_epoch))
+    args.eval_steps = args.save_steps
+    print(
+        f"[smoke] {n_train} train examples -> ~{steps_per_epoch} step(s)/epoch, "
+        f"checkpoint + eval every {args.save_steps} step(s)"
+    )
+
+
 def run_one(args, overrides: dict | None = None):
-    lora, sft = make_configs(args, overrides)
+    if args.smoke_test:
+        _apply_smoke_defaults(args)
 
     examples = get_or_build_dataset(
         train_on=args.train_on,
@@ -151,6 +233,15 @@ def run_one(args, overrides: dict | None = None):
     if not examples:
         print("✗ No training examples built — check the annotated data.")
         return None
+
+    if args.smoke_test:
+        _clamp_smoke_cadence(
+            args, len(examples) if args.dry_run else min(len(examples), args.smoke_train_examples)
+        )
+        if not args.dry_run:
+            examples = examples[: args.smoke_train_examples]
+
+    lora, sft = make_configs(args, overrides)
 
     if args.dry_run:
         total_in = sum(len(e["input"]) for e in examples)
@@ -182,6 +273,12 @@ def run_one(args, overrides: dict | None = None):
         force=True,
         pass_id=args.dec_pass,
     )
+    eval_cap = args.eval_max_examples
+    if args.smoke_test:
+        eval_cap = eval_cap if eval_cap is not None else args.smoke_eval_examples
+    if eval_cap and dev_examples:
+        dev_examples = dev_examples[:eval_cap]
+        print(f"[eval] dev set capped at {len(dev_examples)} examples")
 
     from src.training.trainer import train_lora
 

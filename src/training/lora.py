@@ -69,10 +69,19 @@ class SFTConfig:
     bf16: bool = True
     gradient_checkpointing: bool = True
     quantization: str = "4bit"             # "4bit" (QLoRA) | "8bit" | "fp16"/"bf16"
-    # bookkeeping
+    # bookkeeping / checkpointing
     logging_steps: int = 10
-    save_strategy: str = "epoch"
-    eval_steps: float | None = None
+    # Step-based saving by default: an epoch-only save means a crash at the
+    # first end-of-epoch evaluation loses the whole run. See check_run.py.
+    save_strategy: str = "steps"           # "steps" | "epoch" | "no"
+    save_steps: int = 200
+    save_total_limit: int | None = 2       # None keeps every checkpoint
+    # None -> mirror save_strategy/save_steps. load_best_model_at_end needs the
+    # two cadences to match, so mirroring is the only safe default.
+    eval_strategy: str | None = None
+    eval_steps: int | None = None
+    per_device_eval_batch_size: int = 1    # never inherit the Trainer's 8
+    name_suffix: str = ""                  # e.g. "_smoke", keeps runs apart
     seed: int = 42
     output_root: str | None = None
 
@@ -90,6 +99,7 @@ class SFTConfig:
             f"{model_short}_{train_on}_{task_tag}"
             f"_r{lora.r}_a{lora.alpha}_lr{self.learning_rate:g}"
             f"_ep{self.num_train_epochs:g}_q{self.quantization}_s{self.seed}"
+            f"{self.name_suffix}"
         )
 
 
