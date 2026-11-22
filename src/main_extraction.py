@@ -317,9 +317,17 @@ def process_aio_dec0(
             with_fallback=not disable_fallback,
         )        
         processed_chunks.append(corrected_generated_tokens)
-        
+
         if not status.passed:
             fallback_count += 1
+            # With fallback disabled a rejected chunk is written back
+            # unannotated, so an all-rejected run looks like "no mentions".
+            # Show the first failure so that case is diagnosable.
+            if disable_fallback and fallback_count == 1:
+                print(
+                    f"\n  ⚠  Chunk rejected ({status.error_type}): {status.details}\n"
+                    f"     raw output (first 500 chars): {generated[:500]!r}\n"
+                )
     
     return processed_chunks, fallback_count
 

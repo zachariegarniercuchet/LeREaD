@@ -28,7 +28,9 @@ class LoraAssistant(BaseAssistant):
         quantization: base-model quantization ("4bit" | "8bit" | "fp16" | "bf16").
         has_system_role: whether the chat template uses a system role.
         merge: merge the adapter into base weights (True) or keep it PEFT-wrapped
-            (False). Merging is faster at inference.
+            (False). Merging into a 4-bit base re-quantizes the merged weights
+            and loses most of the LoRA delta, so it is only done for
+            unquantized bases; None (default) picks automatically.
     """
 
     def __init__(
@@ -41,7 +43,7 @@ class LoraAssistant(BaseAssistant):
         quantization: str = "4bit",
         has_system_role: bool = True,
         strip_thinking: bool = True,
-        merge: bool = True,
+        merge: bool | None = None,
         dec_pass: str | None = None,
         prompt_type: str | None = None,
     ):
@@ -52,7 +54,7 @@ class LoraAssistant(BaseAssistant):
         self.max_tokens = max_tokens
         self.quantization = quantization
         self.strip_thinking = strip_thinking
-        self.merge = merge
+        self.merge = merge if merge is not None else quantization not in ("4bit", "8bit")
         # Marks this adapter as a fine-tuned LLM so main_extraction can switch
         # to the zero-shot / task-token prompt format it was trained on.
         self.is_finetuned_lora = True
@@ -109,6 +111,8 @@ class LoraAssistant(BaseAssistant):
         from peft import PeftModel
         from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
+        from .lora import compute_dtype
+
         base_path = self._resolve_base_path()
         entry = self._registry_entry()
         trust_remote_code = bool(entry.get("trust_remote_code", False))
@@ -130,8 +134,11 @@ class LoraAssistant(BaseAssistant):
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
                 bnb_4bit_use_double_quant=True,
-                bnb_4bit_compute_dtype=torch.float16,
+                # Must match training (src/training/lora.py:compute_dtype):
+                # fp16 compute overflows Qwen3.x activations.
+                bnb_4bit_compute_dtype=compute_dtype(),
             )
+            load_kwargs["torch_dtype"] = compute_dtype()
         elif self.quantization == "8bit":
             load_kwargs["quantization_config"] = BitsAndBytesConfig(load_in_8bit=True)
         elif self.quantization == "bf16":
@@ -141,6 +148,7 @@ class LoraAssistant(BaseAssistant):
 
         base = AutoModelForCausalLM.from_pretrained(base_path, **load_kwargs)
         model = PeftModel.from_pretrained(base, self.adapter_path)
+        self._check_finite_adapter(model)
 
         if self.merge:
             try:
@@ -156,8 +164,37 @@ class LoraAssistant(BaseAssistant):
         self.model.eval()
 
     @staticmethod
+    def _check_finite_adapter(model) -> None:
+        """Fail loudly on a diverged adapter instead of producing empty output.
+
+        A NaN LoRA weight makes every logit NaN; generation then emits junk,
+        verification rejects every chunk, and (with fallback disabled) the
+        pipeline silently writes the input back with zero annotations.
+        """
+        import torch
+
+        bad = [
+            name for name, p in model.named_parameters()
+            if "lora_" in name and not torch.isfinite(p).all()
+        ]
+        if bad:
+            raise ValueError(
+                f"Adapter has non-finite weights in {len(bad)} LoRA tensors "
+                f"(e.g. {bad[0]}). The training run diverged (loss 0 / grad_norm "
+                "nan in the logs); retrain or point --adapter-path at an earlier "
+                "checkpoint-* folder."
+            )
+
+    @staticmethod
     def _strip_think_block(text: str) -> str:
-        return re.sub(r".*?", "", text, flags=re.DOTALL).strip()
+        # Qwen3.x templates default to thinking ON, so the generation prompt
+        # ends with "<think>\n" and the model's reply starts with
+        # "\n</think>\n\n" (no opening tag). Keep only what follows the last
+        # closing tag; also drop any complete <think>...</think> block.
+        text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+        if "</think>" in text:
+            text = text.rsplit("</think>", 1)[1]
+        return text.strip()
 
     def generate(self, messages: List[dict], max_new_tokens: int | None = None) -> str:
         import torch

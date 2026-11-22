@@ -72,7 +72,7 @@ for p in (str(SCRIPT_DIR), str(PROJECT_ROOT)):
     if p not in sys.path:
         sys.path.insert(0, p)
 
-from bs4 import BeautifulSoup, NavigableString, Tag  # noqa: E402
+from bs4 import BeautifulSoup, Tag  # noqa: E402
 
 import common as C  # noqa: E402  (scripts/reflex/common.py)
 
@@ -602,52 +602,43 @@ class GoldMention:
     uri: Optional[str]
 
 
+def _gold_parent_label(tag: Tag) -> Optional[str]:
+    """Parent-level gold mention label (`manual_label` / `auto_label` tags)."""
+    if (tag.get("parent") or "").strip():
+        return None
+    label = (tag.get("labelname") or "").strip().lower()
+    return label if label in PARENT_LABELS else None
+
+
 def parse_gold_with_docid(path: Path) -> Tuple[str, List[GoldMention]]:
     soup = BeautifulSoup(path.read_text(encoding="utf-8", errors="replace"), "html.parser")
     body = soup.find("body")
     if body is None:
         return "", []
-    chunks: List[str] = []
-    tags_meta: List[Tuple[str, int, int, dict]] = []
-    pos = 0
-
-    def walk(node) -> None:
-        nonlocal pos
-        for child in node.children:
-            if isinstance(child, NavigableString):
-                if type(child) is NavigableString:
-                    chunks.append(str(child))
-                    pos += len(child)
-            elif isinstance(child, Tag):
-                start = pos
-                walk(child)
-                if child.name in ("manual_label", "auto_label"):
-                    lab = (child.get("labelname") or "").strip().lower()
-                    parent = (child.get("parent") or "").strip()
-                    if lab in PARENT_LABELS and not parent:
-                        end = pos
-                        attrs = dict(child.attrs)
-                        tags_meta.append((lab, start, end, attrs))
-
-    walk(body)
-    norm = " ".join(chunks)
-    norm = " ".join(norm.split())
+    # Offsets must be in the same whitespace-normalised coordinates as the text
+    # that `Alignment` produces on the reflexive side, otherwise every mapped
+    # span is compared against the wrong gold offsets.  `normalised_text_with_tags`
+    # is the single correct implementation of that mapping and is what
+    # `parse_gold()` uses for the extraction scorer.
+    text, tags = C.normalised_text_with_tags(
+        body, ("manual_label", "auto_label"), _gold_parent_label)
     mentions: List[GoldMention] = []
-    for label, s, e, attrs in tags_meta:
-        text = norm[s:e].strip()
-        if not text:
+    for idx in sorted(tags):
+        label, s, e, attrs = tags[idx]
+        mention_text = text[s:e].strip()
+        if not mention_text:
             continue
         mentions.append(
             GoldMention(
                 label=label,
-                text=text,
+                text=mention_text,
                 start=s,
                 end=e,
                 docid=(attrs.get("docid") or "").strip(),
                 uri=(attrs.get("uri") or "").strip() or None,
             )
         )
-    return norm, mentions
+    return text, mentions
 
 
 # ---------------------------------------------------------------------------
@@ -1206,7 +1197,8 @@ def build_coref_report(args, pair_results, aggregate, candidate_pool_name,
             n_docs = len(docs)
             n_gold = sum(d.n_gold_mentions for d in docs)
             n_sys = sum(d.n_sys_mentions for d in docs)
-            n_matched = sum(d.n_matched for d in docs)
+            n_matched = sum(d.n_matched if mode == "exact" else d.stats_overlap["matched"]
+                            for d in docs)
             rows.append([sp, n_docs, n_gold, n_sys, n_matched,
                          f"{ag['MUC']['f1']*100:.2f}",
                          f"{ag['B3']['f1']*100:.2f}",
@@ -1222,8 +1214,8 @@ def build_coref_report(args, pair_results, aggregate, candidate_pool_name,
     A("")
     A("Scores are macro-averaged across documents, separately for decisions "
       "and legislation. `Secondary` is excluded: Reflex never links secondary "
-      "sources, so that row would be 0/0 by construction (it is still present "
-      "in the JSON).")
+      "sources, so that row would be a trivial all-singleton baseline (it is "
+      "still present in the JSON).")
     A("")
     per_type_agg = aggregate_coref_per_type(pair_results)
     for mode in ("exact", "overlap"):
@@ -1300,12 +1292,15 @@ def build_coref_report(args, pair_results, aggregate, candidate_pool_name,
     A("* The `drop` policy isolates coreference from extraction errors and is "
       "an upper bound — not comparable with pipeline end-to-end scores.")
     A("* Reflex never links secondary sources, so those clusters are empty on "
-      "the system side by construction.")
+      "the system side by construction; the secondary rows in the JSON are a "
+      "trivial all-singleton baseline, not a real measurement.")
     A("* Reflex only exposes a ``concatenated-id`` on legislation anchors. "
       "Decision anchors carry no ``concatenated-id``, so every decision "
-      "prediction is a singleton cluster: decision MUC / CEAF_e / LEA are 0 "
-      "by construction, and only B3 is non-zero. Decision coreference cannot "
-      "be measured from these exports as they stand.")
+      "prediction is a singleton cluster: decision MUC is 0 by construction. "
+      "Decision B3 / CEAF_e / LEA still respond to the gold clusters that the "
+      "singleton predictions land on, so they are reported but they do not "
+      "measure decision coreference, which cannot be recovered from these "
+      "exports as they stand.")
     A("* Coref metrics (MUC / B3 / CEAF_e / LEA) are implemented inline, "
       "equivalent to the `coval` library used by `src/evaluation/`.")
     A("")

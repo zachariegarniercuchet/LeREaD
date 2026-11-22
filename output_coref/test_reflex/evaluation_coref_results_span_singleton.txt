@@ -1,0 +1,27 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\test_reflex
+Split: test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 38 evaluation pair(s)
+
+Mention alignment (total over 38 document(s))
+  gold mentions: 8006 | system mentions: 2919 | matched: 882
+  gold-only (missed): 7124 | system-only (spurious): 2037
+  mention-level  P=0.302  R=0.110  F1=0.161
+
+
+=== Aggregate over 38 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.5809     │ 0.1173     │ 0.1952     │
+│ B3       │ 0.9320     │ 0.4087     │ 0.5683     │
+│ CEAF_e   │ 0.3053     │ 0.7209     │ 0.4289     │
+│ LEA      │ 0.2801     │ 0.2584     │ 0.2688     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.3975
+

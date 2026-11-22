@@ -241,6 +241,15 @@ def find_best_training_run(
     return min(candidates, key=lambda item: item[0])[1]
 
 
+def compute_dtype():
+    """bf16 when the GPU supports it (A100/H100), else fp16."""
+    import torch
+
+    if torch.cuda.is_available() and torch.cuda.is_bf16_supported():
+        return torch.bfloat16
+    return torch.float16
+
+
 def load_base_model(
     model_short: str,
     model_path: str | None = None,
@@ -251,7 +260,7 @@ def load_base_model(
     """Load (tokenizer, peft-wrapped model) ready for LoRA training.
 
     Quantization mapping:
-      * "4bit" -> QLoRA (nf4 + double quant, fp16 compute)
+      * "4bit" -> QLoRA (nf4 + double quant, bf16 compute when supported)
       * "8bit" -> 8-bit load
       * "fp16"/"bf16" -> no quantization, cast on load
     """
@@ -281,8 +290,12 @@ def load_base_model(
             load_in_4bit=True,
             bnb_4bit_quant_type="nf4",
             bnb_4bit_use_double_quant=True,
-            bnb_4bit_compute_dtype=torch.float16,
+            # fp16 compute overflows Qwen3.x activations (> 65504) -> inf/NaN
+            # loss, which HF logs as loss 0 / grad_norm nan. The Trainer runs
+            # bf16 anyway, so keep the matmuls in bf16 too.
+            bnb_4bit_compute_dtype=compute_dtype(),
         )
+        load_kwargs["torch_dtype"] = compute_dtype()
     elif quantization == "8bit":
         load_kwargs["quantization_config"] = BitsAndBytesConfig(load_in_8bit=True)
     elif quantization == "bf16":

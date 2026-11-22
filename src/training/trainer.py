@@ -146,6 +146,35 @@ def _collate(records: list[dict[str, Any]], pad_token_id: int):
     }
 
 
+def _nan_guard_callback():
+    """Stop training at the first non-finite loss / grad norm.
+
+    Once a step is NaN under bf16 (no GradScaler to skip it), AdamW writes NaN
+    into every LoRA weight and the rest of the run only burns GPU hours. Stop
+    instead, so the best (finite) checkpoint is what survives.
+    """
+    from transformers import TrainerCallback
+
+    class NanGuard(TrainerCallback):
+        def on_log(self, args, state, control, logs=None, **kwargs):
+            logs = logs or {}
+            bad = {
+                k: v for k, v in logs.items()
+                if k in ("loss", "grad_norm", "eval_loss")
+                and isinstance(v, (int, float)) and not math.isfinite(v)
+            }
+            if bad:
+                print(
+                    f"\n[NanGuard] non-finite {bad} at step {state.global_step} "
+                    f"(epoch {state.epoch:.3f}) — stopping training. Lower the "
+                    "learning rate or check the compute dtype."
+                )
+                control.should_training_stop = True
+            return control
+
+    return NanGuard()
+
+
 def train_lora(
     model_short: str,
     train_on: str,
@@ -312,6 +341,10 @@ def train_lora(
         report_to=[],
         seed=sft_cfg.seed,
         remove_unused_columns=False,
+        # Default True replaces NaN/inf step losses by the window average, so a
+        # fully diverged window is logged as loss 0 — which looks like
+        # overfitting. Log the real value instead.
+        logging_nan_inf_filter=False,
     )
     if save_strategy == "steps":
         training_kwargs["save_steps"] = save_steps
@@ -338,6 +371,7 @@ def train_lora(
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         data_collator=lambda recs: _collate(recs, pad_id),
+        callbacks=[_nan_guard_callback()],
     )
 
     try:
