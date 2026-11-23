@@ -91,10 +91,13 @@ class SFTConfig:
         train_on: str,
         lora: LoRAConfig,
         dec_pass: str | None = None,
+        task_tag: str | None = None,
     ) -> str:
-        # The task tag keeps AIO and DEC runs of the same model/hyperparameters
-        # in separate folders, so --trained can tell them apart.
-        task_tag = "aio" if dec_pass is None else dec_pass.lower()
+        # The task tag keeps AIO, DEC and coref runs of the same
+        # model/hyperparameters in separate folders, so --trained can tell
+        # them apart.
+        if task_tag is None:
+            task_tag = "aio" if dec_pass is None else dec_pass.lower()
         return (
             f"{model_short}_{train_on}_{task_tag}"
             f"_r{lora.r}_a{lora.alpha}_lr{self.learning_rate:g}"
@@ -209,6 +212,9 @@ def find_best_training_run(
             if config.get("model_short") not in aliases:
                 continue
             if seed is not None and config.get("sft", {}).get("seed") != seed:
+                continue
+            # Coref adapters have no dec_pass and would otherwise pass for AIO.
+            if (config.get("task") or "extraction") != "extraction":
                 continue
             if task_filter is not None:
                 # Runs saved before dec_pass existed are AIO runs.

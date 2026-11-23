@@ -61,6 +61,8 @@ class LoraAssistant(BaseAssistant):
         saved = self._read_run_config()
         self.dec_pass = dec_pass if dec_pass is not None else saved.get("dec_pass")
         self.prompt_type = prompt_type or saved.get("prompt_type") or "long"
+        # "extraction" (AIO/DEC, also every run saved before this field) | "coref"
+        self.task = saved.get("task") or "extraction"
         self.is_dec_trained = bool(self.dec_pass) and self.dec_pass != "aio"
         self._load()
 

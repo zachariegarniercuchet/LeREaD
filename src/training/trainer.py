@@ -188,6 +188,8 @@ def train_lora(
     resume: str = "auto",
     dec_pass: str | None = None,
     prompt_type: str = "long",
+    task: str = "extraction",
+    user_prefix: str = "Annotate this text:",
 ):
     """Fine-tune *model_short* on *examples* with LoRA; return (trainer, out_dir).
 
@@ -217,6 +219,7 @@ def train_lora(
         tokenizer,
         system_prompt=system_prompt,
         max_seq_len=sft_cfg.max_seq_len,
+        user_prefix=user_prefix,
     )
     if isinstance(eval_dataset, list):
         eval_dataset = SFTDataset(
@@ -224,11 +227,15 @@ def train_lora(
             tokenizer,
             system_prompt=system_prompt,
             max_seq_len=sft_cfg.max_seq_len,
+            user_prefix=user_prefix,
         )
 
     model = attach_lora(base_model, lora_cfg)
 
-    run_name = sft_cfg.run_name(model_short, train_on, lora_cfg, dec_pass=dec_pass)
+    run_name = sft_cfg.run_name(
+        model_short, train_on, lora_cfg, dec_pass=dec_pass,
+        task_tag="coref" if task == "coref" else None,
+    )
     from .lora import default_training_root
     output_dir = Path(output_dir or sft_cfg.output_root or default_training_root()) / run_name
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -392,6 +399,7 @@ def train_lora(
         json.dump(
             {
                 "model_short": model_short,
+                "task": task,
                 "train_on": train_on,
                 "dec_pass": dec_pass,
                 "prompt_type": prompt_type,

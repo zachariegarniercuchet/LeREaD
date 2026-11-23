@@ -50,13 +50,11 @@ from src.rpr import ReferenceProfileRegistry
 from src.coref_run_config import CorefRunConfig
 from src.training.infer_coref_encoder import CorefEncoderAssistant
 
-DEFAULT_PROFILE_ATTRIBUTES = [
-    "docid",
-    "alternative_titles",
-    "citations",
-    "fragments_mentioned",
-    "authors",
-]
+from src.coref_input import (
+    COREF_USER_PREFIX,
+    DEFAULT_PROFILE_ATTRIBUTES,
+    build_coref_user_input,
+)
 
 # Matches docid="value" or docid=\"value\" (escaped quotes), non-greedy,
 # stops at the first closing quote.
@@ -189,40 +187,27 @@ def process_document_coref(
 
     rpr = ReferenceProfileRegistry()
 
-    input_label_config = LabelTransformConfig(
-        use_simplified=True,
-        switch_type=False,
-        keep_attributes=["labelname"],
-    )
-
     result: Dict[str, str] = {}
     failed_count = 0
 
-
     for idx, mention in enumerate(tqdm(mentions, desc="Resolving mentions")):
         mention_id = mention.html_tag.attributes["id"]
-        prepared_tokens = prepare_label_tokens(tokenize(mention.html_str), input_label_config)
 
-        context = get_mention_upper_context(html = decode(clean_tokens(tokenize(html_content), keep_manual_label=False, keep_auto_label=False, protected_id=mention_id)), 
-                                            mention=mention,
-                                            max_tokens=CONTEXT_MAX_TOKENS)
-
-        profiles_formatted = [
-            format_profile_for_prompt(profile.to_dict(attributes=profile_attributes), max_fragments=max_fragments)
-            for profile in rpr
-        ]
-        lines = ["Reference Profile Registry:"]
-        lines += [f"  Profile {i}: {p}" for i, p in enumerate(profiles_formatted)]
-        profiles_str = "\n".join(lines)
-
-        user_input = decode(prepared_tokens) + "\n Upper Context : \n" + context + "\n" + profiles_str
-        #print(user_input)
+        # Shared with LoRA training (src/training/coref_llm_dataset.py) so a
+        # fine-tuned model sees exactly its training input format.
+        user_input = build_coref_user_input(
+            html_content=html_content,
+            mention=mention,
+            profiles=rpr,
+            max_fragments=max_fragments,
+            profile_attributes=profile_attributes,
+        )
         messages = get_messages(
             system_prompt=system_prompt,
             user_input=user_input,
             fewshot_examples=fewshot_examples,
             has_system_role=assistant.has_system_role,
-            prefix="Annotate this mention: ",
+            prefix=COREF_USER_PREFIX,
         )
 
         generated = assistant.generate(messages=messages)
@@ -268,10 +253,15 @@ def process_file_coref(filename: str, run: CorefRunConfig, assistant, exp_dir: P
     # =========================================================================
     # Step 3: Load few-shot examples
     # =========================================================================
-    print("[Step 3] Loading few-shot examples...")
-    fewshot_examples = load_coref_fewshot_examples(
-        run.fewshot_method, run.fewshot_examples, seed=run.seed
-    )
+    if getattr(assistant, "is_finetuned_lora", False):
+        # A coref adapter is trained zero-shot; few-shot turns are distribution shift.
+        print("[Step 3] Skipping few-shot examples (zero-shot adapter)")
+        fewshot_examples = []
+    else:
+        print("[Step 3] Loading few-shot examples...")
+        fewshot_examples = load_coref_fewshot_examples(
+            run.fewshot_method, run.fewshot_examples, seed=run.seed
+        )
     print(f"  ✓ Loaded {len(fewshot_examples)} examples\n")
 
     # =========================================================================
@@ -385,6 +375,9 @@ def build_arg_parser() -> argparse.ArgumentParser:
                          help="Saved encoder run folder (from main_training_coref_encoder). "
                               "Bypasses the LLM factory and uses the trained DeBERTa "
                               "cross-encoder for coreference.")
+    parser.add_argument("--adapter-path", type=Path, default=None,
+                         help="LoRA run folder from main_training_coref. Loads --model "
+                              "(e.g. qwen38-27b) + this adapter, zero-shot. Use --temperature 0.")
     parser.add_argument("--threshold", type=float, default=None,
                          help="Match threshold for the encoder (overrides the value "
                               "saved with the trained model).")
@@ -439,6 +432,12 @@ def main():
 
     if args.input_source == "extraction" and args.extraction_dir is None:
         parser.error("--extraction-dir is required when --input-source=extraction")
+    if args.adapter_path and args.encoder_path:
+        parser.error("--adapter-path and --encoder-path are mutually exclusive")
+    if args.adapter_path and args.model == "gpt-5.2":
+        cfg_path = args.adapter_path / "run_config.json"
+        if cfg_path.is_file():
+            args.model = json.loads(cfg_path.read_text(encoding="utf-8")).get("model_short", args.model)
 
     encoder_meta = _load_encoder_run_metadata(args.encoder_path)
     encoder_train_split = None
@@ -491,6 +490,7 @@ def main():
         encoder_seed=encoder_seed,
         encoder_epochs=encoder_epochs,
         encoder_best_epoch=encoder_best_epoch,
+        adapter_path=args.adapter_path,
     )
 
     output_root = run.output_root()
@@ -519,6 +519,21 @@ def main():
             str(args.encoder_path),
             threshold=args.threshold,
         )
+    elif args.adapter_path:
+        from src.training.infer import LoraAssistant
+
+        assistant = LoraAssistant(
+            adapter_path=str(args.adapter_path),
+            model_short=run.model,
+            temperature=run.temperature,
+            max_tokens=512,  # output is one mention + docid
+        )
+        if assistant.task != "coref":
+            parser.error(
+                f"{args.adapter_path} was trained for task={assistant.task!r}, not coref "
+                "(train it with src.main_training_coref)."
+            )
+        print(f"[Setup] Loaded coref adapter {args.adapter_path}")
     elif run.model == "gpt-5.2":
         print(f"[Setup] Loading model {run.model}...")
         assistant = AssistantFactory.create_from_config({

@@ -65,7 +65,22 @@ from src.training.lora import (
 
 def build_arg_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="LoRA fine-tuning for extraction.")
+    add_common_training_args(p)
 
+    # data (extraction-specific)
+    p.add_argument("--chunker", default="paragraph", choices=["paragraph", "sentence"])
+    p.add_argument("--dec-pass", default=None,
+                   help=f"Decomposed pass to train: {list(DEC_PASS_CONFIGS)} or 'all' "
+                        "(union of all 4 passes with task tokens). Default=None trains AIO.")
+    p.add_argument("--min-tokens", type=int, default=MIN_TOKENS,
+                   help="Chunk-merge threshold; smaller => more, shorter examples.")
+    p.add_argument("--grid", action="store_true",
+                   help="Run every combo in DEFAULT_GRIDS instead of one run.")
+    return p
+
+
+def add_common_training_args(p: argparse.ArgumentParser) -> argparse.ArgumentParser:
+    """Arguments shared by main_training (extraction) and main_training_coref."""
     # what / where
     p.add_argument("--model", default="gemma4",
                    help="Short name from configs.constants.MODEL_MAPPING_NAME.")
@@ -78,12 +93,6 @@ def build_arg_parser() -> argparse.ArgumentParser:
                    help="Output root (default: SFTConfig.output_root).")
 
     # data
-    p.add_argument("--chunker", default="paragraph", choices=["paragraph", "sentence"])
-    p.add_argument("--dec-pass", default=None,
-                   help=f"Decomposed pass to train: {list(DEC_PASS_CONFIGS)} or 'all' "
-                        "(union of all 4 passes with task tokens). Default=None trains AIO.")
-    p.add_argument("--min-tokens", type=int, default=MIN_TOKENS,
-                   help="Chunk-merge threshold; smaller => more, shorter examples.")
     p.add_argument("--max-seq-len", type=int, default=4096)
     p.add_argument("--rebuild-dataset", action="store_true",
                    help="Ignore the dataset cache and rebuild.")
@@ -131,8 +140,6 @@ def build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("--logging-steps", type=int, default=10)
 
     # modes
-    p.add_argument("--grid", action="store_true",
-                   help="Run every combo in DEFAULT_GRIDS instead of one run.")
     p.add_argument("--dry-run", action="store_true",
                    help="Build the dataset and print stats, then exit (no GPU).")
     p.add_argument("--smoke-test", action="store_true",

@@ -42,6 +42,7 @@ class CorefRunConfig:
     encoder_seed: Optional[int] = None
     encoder_epochs: Optional[int] = None
     encoder_best_epoch: Optional[int] = None
+    adapter_path: Optional[Path] = None
 
     def resolve_input_path(self, filename: str) -> Path:
         if self.input_source == "gold":
@@ -87,6 +88,9 @@ class CorefRunConfig:
                 tag += f"_ep{self.encoder_epochs}"
             if self.encoder_best_epoch is not None:
                 tag += f"_best{self.encoder_best_epoch}"
+        elif self.adapter_path is not None:
+            # Adapter run folder name encodes train_on / lr / epochs / seed.
+            tag = f"{eval_split}_coref_lora_{Path(self.adapter_path).name}"
         else:
             tag = f"{eval_split}_{self.model}_coref_fs{self.fewshot_examples}_{self.fewshot_method}"
         if self.input_source == "extraction":
