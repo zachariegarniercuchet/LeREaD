@@ -216,7 +216,8 @@ def process_document_coref(
 
         if docid_generated is None:
             failed_count += 1
-            print(f"  ⚠️  Failed to extract docid for mention {idx} (id={mention_id})")
+            print(f"  ⚠️  Failed to extract docid for mention {idx} (id={mention_id}); "
+                  f"raw output ({len(generated)} chars): {generated[:300]!r}")
             continue
 
         mention.html_tag.set_attribute("docid", docid_generated)
