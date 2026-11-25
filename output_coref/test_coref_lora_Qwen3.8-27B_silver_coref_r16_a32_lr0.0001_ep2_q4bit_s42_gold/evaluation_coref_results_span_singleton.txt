@@ -1,0 +1,27 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\test_coref_lora_Qwen3.8-27B_silver_coref_r16_a32_lr0.0001_ep2_q4bit_s42_gold
+Split: test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 19 evaluation pair(s)
+
+Mention alignment (total over 19 document(s))
+  gold mentions: 2903 | system mentions: 2776 | matched: 2776
+  gold-only (missed): 127 | system-only (spurious): 0
+  mention-level  P=1.000  R=0.956  F1=0.978
+
+
+=== Aggregate over 19 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.9694     │ 0.9388     │ 0.9538     │
+│ B3       │ 0.9310     │ 0.9302     │ 0.9306     │
+│ CEAF_e   │ 0.8282     │ 0.9083     │ 0.8664     │
+│ LEA      │ 0.8768     │ 0.9057     │ 0.8910     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.9169
+

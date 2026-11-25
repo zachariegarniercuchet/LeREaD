@@ -20,6 +20,12 @@ Two folders are produced (test split by default):
         becomes its own singleton cluster - exactly the limitation documented
         in scripts/reflex/report/reflex_coref_report.md.
 
+    output_coref/test_reflex/<doc>/<doc>_resolution.html
+        URI-linking (stage 3) output.  Same parent spans, with a `uri`
+        attribute looked up from the Reflex `concatenated-id` in the candidate
+        pool (gold pool by default).  Anchors without a concatenated-id get no
+        uri, so they count as "no uri produced" in the standard evaluator.
+
 Why the files are written on the gold text
 ------------------------------------------
 Reflex renders the same document differently from gold (it injects neutral
@@ -43,7 +49,7 @@ import shutil
 import sys
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 for _p in (str(PROJECT_ROOT), str(PROJECT_ROOT / "scripts" / "reflex")):
@@ -56,6 +62,8 @@ import evaluate_reflex_coref_resolution as CR  # noqa: E402
 DEFAULT_GAP = 15
 EXTRACTION_DIR = PROJECT_ROOT / "output"
 COREF_DIR = PROJECT_ROOT / "output_coref"
+GOLD_POOL = PROJECT_ROOT / "data" / "gold_candidate_pool.csv"
+FULL_POOL = PROJECT_ROOT / "data" / "full_candidate_pool.csv"
 
 
 # ---------------------------------------------------------------------------
@@ -136,12 +144,14 @@ def export_documents(
     coref_out: Path,
     overwrite: bool,
     verbose: bool = True,
+    id_to_uri: Optional[Dict[str, str]] = None,
 ) -> Dict[str, int]:
     _clean_dir(extraction_out, overwrite)
     _clean_dir(coref_out, overwrite)
 
     n_docs = 0
     n_spans = 0
+    n_uri_spans = 0
     for pair in pairs:
         reflex_text, mentions = CR.build_reflex_mentions(pair.reflex_path, gap)
         gold = C.parse_gold(pair.gold_path)
@@ -191,10 +201,31 @@ def export_documents(
             json.dumps(mapping, indent=2, ensure_ascii=False, sort_keys=True),
             encoding="utf-8")
 
+        # ---- resolution output -------------------------------------------
+        # Only anchors carrying a Reflex `concatenated-id` can be looked up
+        # (in practice: legislation).  Decision anchors get no uri, exactly as
+        # in the dedicated Reflex resolution scorer.
+        if id_to_uri is not None:
+            def resolution_attrs(m: CR.Mention):
+                uri = CR.lookup_uri(m.docid, id_to_uri) if m.docid else None
+                attrs = {"labelname": m.label, "parent": "", "docid": m.docid}
+                if uri:
+                    attrs["uri"] = uri
+                return attrs
+
+            doc_uri_spans = sum(
+                1 for _gs, _ge, m in spans
+                if m.docid and CR.lookup_uri(m.docid, id_to_uri)
+            )
+            n_uri_spans += doc_uri_spans
+
+            (coref_dir / f"{doc_id}_resolution.html").write_text(
+                _render_html(gold.text, spans, resolution_attrs), encoding="utf-8")
+
         if verbose:
             print(f"  {doc_id} [{pair.split}] -> {len(spans)} mention(s)")
 
-    return {"docs": n_docs, "spans": n_spans}
+    return {"docs": n_docs, "spans": n_spans, "uri_spans": n_uri_spans}
 
 
 def main() -> None:
@@ -208,6 +239,11 @@ def main() -> None:
                     help="folder tag (default: the split list, 'test')")
     ap.add_argument("--output-dir", default=str(EXTRACTION_DIR))
     ap.add_argument("--coref-dir", default=str(COREF_DIR))
+    ap.add_argument("--candidate-pool", choices=["gold", "full"], default="gold",
+                    help="candidate pool used to turn concatenated-ids into uris "
+                         "(default: gold)")
+    ap.add_argument("--skip-resolution", action="store_true",
+                    help="do not write *_resolution.html files")
     ap.add_argument("--overwrite", action="store_true")
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
@@ -222,11 +258,20 @@ def main() -> None:
     extraction_out = Path(args.output_dir) / f"{tag}_reflex"
     coref_out = Path(args.coref_dir) / f"{tag}_reflex"
 
+    id_to_uri = None
+    if not args.skip_resolution:
+        pool_path = GOLD_POOL if args.candidate_pool == "gold" else FULL_POOL
+        id_to_uri = CR.load_candidate_pool(pool_path)
+
     print(f"Exporting {len(pairs)} document(s), gap={args.gap}")
     stats = export_documents(pairs, args.gap, extraction_out, coref_out,
-                             overwrite=args.overwrite, verbose=not args.quiet)
+                             overwrite=args.overwrite, verbose=not args.quiet,
+                             id_to_uri=id_to_uri)
     print(f"\nExtraction folder : {extraction_out}  ({stats['docs']} docs, {stats['spans']} mentions)")
     print(f"Coref folder      : {coref_out}")
+    if id_to_uri is not None:
+        print(f"Resolution files  : {coref_out}  ({stats['uri_spans']} spans with a uri, "
+              f"pool={args.candidate_pool})")
 
 
 if __name__ == "__main__":
